@@ -3,7 +3,7 @@ title: Certifierade annonserande partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 815d2dd9be270603fd699d979ae3eb09df7d8820
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | [!DNL Adform] | X | X |  | X |  |
 | [!DNL ADITION Technologies] |  | X |  |  |  |
 | [!DNL ADman Media] | X |  |  |  |  |
-| [!DNL Adobe Advertising Creative] |  |  |  |  |  |
+| [!DNL Adobe Advertising Creative ] |  |  |  |  |  |
 | [!DNL ADventori] |  | X |  |  |  |
 | [!DNL Artsai] |  | X |  | X |  |
 | [!DNL Atlas] |  |  |  | X |  |
