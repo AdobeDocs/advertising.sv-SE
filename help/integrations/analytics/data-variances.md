@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe
 feature: Integration with Adobe Analytics
 exl-id: 34685e04-d4f9-4e27-b83e-b56164244b2b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '3278'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -153,13 +153,17 @@ För integreringen bör du validera klickinformationen för att säkerställa at
 
 I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for Advertising] tracking är att jämföra klickningar med instanser med hjälp av det beräknade måttet&quot;Click to AMO ID Instances&quot;, som beräknas så här:
 
-```Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)```
+```
+Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+```
 
 [!UICONTROL AMO ID Instances] representerar antalet gånger som AMO-ID:n (`s_kwcid` parametrar) spåras på platsen. Varje gång någon klickar på en annons visas en `s_kwcid` parametern läggs till i landningssidans URL. Antalet [!UICONTROL AMO ID Instances]motsvarar därför antalet klick och kan valideras mot faktiska annonsklickningar. Vi ser vanligtvis en matchningsfrekvens på 80 % för [!DNL Search] och en matchningsfrekvens på 30 % för [!DNL DSP] trafik (när den filtreras så att den endast innehåller klickfrekvens [!UICONTROL AMO ID Instances]). Skillnaden i förväntningarna mellan sökning och visning kan förklaras av det förväntade trafikbeteendet. Sökfunktionen hämtar avsikten, och som sådan har användarna vanligtvis för avsikt att klicka på sökresultaten från sin fråga. Användare som ser en webbannons eller en videoannons är mer benägna att klicka på annonsen oavsiktligt och sedan antingen hoppa från webbplatsen eller avbryta det nya fönster som läses in innan sidaktiviteten spåras.
 
 I Adobe Advertising-rapporter kan du jämföra klickningar med instanser med hjälp av &quot;[!UICONTROL ef_id_instances]&quot; i stället för [!UICONTROL AMO ID Instances]:
 
-```Clicks to [!UICONTROL EF ID Instances] = (ef_id_instances / Clicks)```
+```
+Clicks to [EF ID Instances = (ef_id_instances / Clicks)
+```
 
 Du bör förvänta dig en hög matchningsfrekvens mellan AMO ID och EF ID, men vänta inte med 100 % paritet eftersom AMO ID och EF ID i grunden spårar olika data, och den här skillnaden kan leda till små skillnader i den totala [!UICONTROL AMO ID Instances] och [!UICONTROL EF ID Instances]. Om summan [!UICONTROL AMO ID Instances] in [!DNL Analytics] skiljer sig från [!UICONTROL EF ID Instances] i Adobe-annonsering med mer än 1 %, kontakta dock [!DNL Adobe] kontoteam för att få hjälp.
 
@@ -175,13 +179,17 @@ The [AMO-ID](ids.md) (s_kwcid query string parameter) används för rapportering
 
 Anta att vi har följande landningssida:
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id
+```
 
 där EF-ID är`test_ef_id`&quot; och AMO-ID:t är &quot;`test_amo_id`.&quot;
 
 Om en omdirigering sker på en webbplats kan URL:en sluta på följande sätt:
 
-`www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag`
+```
+www.adobe.com/?ef_id=test_ef_id&s_kwcid=test_amo_id#redirectAnchorTag
+```
 
 där EF-ID är`test_ef_id`&quot; och AMO-ID:t är &quot;`test_amo_id#redirectAnchorTag`.&quot;
 
@@ -223,7 +231,7 @@ Klickdata kan också spelas in i miljöer där klickningar inte kan spelas in me
 
 ### Använda Adobe-reklamstatistik för icke-Adobe-reklamDimensioner
 
-Adobe Advertising ger Analytics [reklamspecifika trafikvärden och relaterade dimensioner från DSP och [!DNL [!DNL Search]]](advertising-metrics-in-analytics.md). Måtten för annonsering i Adobe gäller endast för de angivna måtten för annonsering i Adobe, och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
+Adobe Advertising ger Analytics [reklamspecifik trafikstatistik och relaterade dimensioner från [!DNL DSP] och [!DNL Search]](advertising-metrics-in-analytics.md). Måtten för annonsering i Adobe gäller endast för de angivna måtten för annonsering i Adobe, och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
 
 Om du till exempel visar [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] mått per konto, som är en Adobe-annonsdimension, så ser ni det totala [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] efter konto.
 

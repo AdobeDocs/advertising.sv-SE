@@ -2,9 +2,9 @@
 title: Konfigurera A/B-tester för annonsering i Adobe i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search] annonser.
 exl-id: 97055645-4b2f-4795-830d-9ce89ae2ad15
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Det här användningsexemplet kräver följande produkter och integreringar:
 
 ![Genomklickningsramverk](/help/integrations/assets/target-ct-framework.png)
 
-När du lägger till DSP makron i en klicknings-URL (den URL som visas när en användare klickar på en annons och når landningssidan), DSP automatiskt placeringsnyckeln genom att inkludera ```${TM_PLACEMENT_ID}``` i klickbara URL:er. Det här makrot hämtar den alfanumeriska placeringsnyckeln och inte det numeriska placerings-ID:t.
+När du lägger till DSP makron i en klicknings-URL (den URL som visas när en användare klickar på en annons och når landningssidan), DSP automatiskt placeringsnyckeln genom att inkludera `${TM_PLACEMENT_ID}` i klickbara URL:er. Det här makrot hämtar den alfanumeriska placeringsnyckeln och inte det numeriska placerings-ID:t.
 
 ![Genomklicknings-URL tillagd till landningssidans URL](/help/integrations/assets/target-ct-url.jpg)
 
@@ -98,7 +98,7 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
    1. Från **Datakälla** nedrullningsbar meny, välja **Ad Cloud**.
 
-   1. I uttrycksverktyget lägger du till ```d_event``` i fältet Key och ```imp``` i **Värde** fält, markera **Lägg till regel** och spara sedan tecknet.
+   1. I uttrycksverktyget lägger du till `d_event` i fältet Key och `imp` i **Värde** fält, markera **Lägg till regel** och spara sedan tecknet.
 
    ![Skärmbild av ett regelbaserat varumärke](/help/integrations/assets/target-am-trait.png)
 
@@ -115,7 +115,7 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-I följande anvisningar markeras information som gäller DSP användningsfall. Fullständiga anvisningar finns i &quot;[Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html.&quot;
+I följande anvisningar markeras information som gäller DSP användningsfall. Fullständiga anvisningar finns i &quot;[Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html).&quot;
 
 1. [Logga in på Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -208,7 +208,7 @@ Om du inom Analysis Workspace märker att data om aktivitet och upplevelser är 
 
 * På samma landningssida kontrollerar du att a) värdnamnet som visas i Adobe Debugger under Solutions> Target matchar b) spårningsservern som visas i [!DNL Target] för aktiviteten (under Mål och inställningar > Rapporteringsinställningar).
 
-   [!DNL Analytics For Target] kräver [!DNL Analytics] spårningsserver som ska skickas i samtal från [!DNL Target] till [!DNL Modstats] datainsamlingsserver för Analytics.&lt;!— just &quot;to Analytics?&quot;>
+   [!DNL Analytics For Target] kräver [!DNL Analytics] spårningsserver som ska skickas i samtal från [!DNL Target] till [!DNL Modstats] datainsamlingsserver för Analytics.<!-- just "to Analytics?"-->
 
 [Värdnamnsvärde i Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

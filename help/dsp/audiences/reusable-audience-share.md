@@ -3,7 +3,7 @@ title: Dela en återanvändbar målgrupp
 description: Lär dig hur du delar en återanvändbar publik med andra annonsörer som är tillgängliga för ditt konto.
 feature: DSP Audiences
 exl-id: 8a5d432b-42d7-4b3b-845f-32a70dd5d1b7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -16,11 +16,11 @@ Om du inte redan delar en målgrupp med de annonsörer som är tillgängliga fö
 
 När du väl har delat en målgrupp kan du inte sluta dela den.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Håll markören över målgruppsraden och klicka **[!UICONTROL Share]**.
 
-1. Välj alternativet att **[!UICONTROL Share with all advertisers in my account ]**.
+1. Välj alternativet att **[!UICONTROL Share with all advertisers in my account]**.
 
 1. Klicka på **[!UICONTROL Save]**.
 

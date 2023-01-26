@@ -2,7 +2,7 @@
 title: Redigera din användarprofil
 description: Lär dig hur du redigerar din användarprofil.
 exl-id: 4a140b0a-5860-4b68-820c-03b6bf80254f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -22,6 +22,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
       1. Bredvid befintlig **[!UICONTROL Email address]**, klicka **[!UICONTROL Edit]**.
 
       1. Ange den nya e-postadressen och det befintliga lösenordet för användarkontot.
+
       1. Klicka på **[!UICONTROL Continue]**.
    * Så här redigerar du lösenordet för användarkontot:
 

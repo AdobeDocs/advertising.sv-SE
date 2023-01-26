@@ -3,9 +3,9 @@ title: Stöd för annonsering i Adobe enligt den allmänna dataskyddsförordning
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält
 feature: GDPR
 exl-id: 304d88d0-d63d-4b32-8d4d-c61ba2409adc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 ## Obligatoriska fältvärden i JSON-begäranden om Adobe-annonsering
 
-&quot;&quot;företagskontext&quot;:
+`"company context":`
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*ditt IMS-organisations-ID-värde*>

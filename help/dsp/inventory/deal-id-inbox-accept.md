@@ -3,7 +3,7 @@ title: Godkänn ett avtal i [!UICONTROL Deal ID Inbox]
 description: Lär dig hur du godkänner ett privat avtal som du redan har förhandlat med en utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare känt som [!DNL AdX]), and [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) med Inkorgen för erbjudande-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 55e8ca50-05f5-4f38-9fd5-afaed71315dc
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

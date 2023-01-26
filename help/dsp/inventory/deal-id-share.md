@@ -3,7 +3,7 @@ title: Redigera konton med åtkomst till ett privat avtal
 description: Lär dig hur du delar och slutar dela en privat affär med olika konton.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Du kan sluta dela ett avtal med konton för att ta bort redigerings- och målgru
 
 1. För varje konto som ska delas:
 
-1. Ange **[!UICONTROL Email Address]** för kontot med tillgång till avtalet.
+   1. Ange **[!UICONTROL Email Address]** för kontot med tillgång till avtalet.
 
-1. Klicka på **[!UICONTROL Share]**.
+   1. Klicka på **[!UICONTROL Share]**.
 
 ## Sluta dela ett avtal-ID med konton
 

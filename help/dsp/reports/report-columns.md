@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: c96e46ae-2fb2-4364-9c51-f160c00693ba
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1657'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Summan av [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)]och [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Procentandel av vyerna som tittade på annonsen i dess helhet. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Antalet vyer som tittade på annonsen i dess helhet. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | 100 % synlig färdigställning (%)] | Procentandel av visningar [!UICONTROL som tittade på annonsen i sin helhet. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Procentandel av visningar som tittade på hela annonsen. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completion Rate] | Procentandel av visningar som tittade på minst en fjärdedel av annonsen. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 25% Completions] | Antalet vyer som tittade på minst en fjärdedel av annonsen. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 50% Completion Rate] | Procentandel av visningar som tittade på minst två fjärdedelar av annonsen. |

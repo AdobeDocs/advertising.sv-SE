@@ -3,7 +3,7 @@ title: Lista placeringar och annonser för ett privat avtal
 description: Lär dig hur du öppnar en lista med placeringar och annonser som är kopplade till ett privat avtal.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: b7962e2f-933e-4563-b42c-27f5ef3c77e0
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 0%

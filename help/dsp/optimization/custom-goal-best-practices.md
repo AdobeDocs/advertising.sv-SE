@@ -3,7 +3,7 @@ title: Bästa metoder för att skapa ett anpassat mål
 description: Lär dig de bästa sätten att skapa anpassade mål för att definiera framgångsrika händelser.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 54b16325-4b72-48a3-a2e0-4e342229211c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%

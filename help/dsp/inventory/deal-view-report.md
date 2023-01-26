@@ -3,7 +3,7 @@ title: Visa en detaljerad rapport för en privat användare, [!UICONTROL On Dema
 description: Lär dig hur du öppnar en rapport på avtalsnivå.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%

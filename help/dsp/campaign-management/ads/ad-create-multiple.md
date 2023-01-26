@@ -3,7 +3,7 @@ title: Skapa flera tredjepartsannonser
 description: Lär dig skapa flera tredjepartsannonser samtidigt.
 feature: DSP Ads
 exl-id: 83d35d27-1ab6-4fcf-877f-650a2dc6975a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%

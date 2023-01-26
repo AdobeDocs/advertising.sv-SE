@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 1d37fc96-0f9b-4eb2-ba8d-9534f627adaf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Så här använder du ett eller flera filter:
 
 **[!UICONTROL Select To Add As Report Headers]:**  De datakolumner, eller rubriker, som ska inkluderas i rapporten. Om du vill lägga till en kolumn expanderar du kategorin och markerar kryssrutan bredvid kolumnnamnet. Alla otillgängliga mått är inaktiverade. De tillgängliga datakategorierna är:
 
-* [!UICONTROL  Dimensions]
+* [!UICONTROL Dimensions]
 * [!UICONTROL Metrics]
 * [!UICONTROL Conversion Metrics] (sorterat efter annonsörer)
 * [!UICONTROL Custom Goals] (sorterat efter annonsörer)
@@ -142,5 +142,5 @@ Så här använder du ett eller flera filter:
 >* [Kör en anpassad rapport](/help/dsp/reports/report-run-now.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Om rapportdestinationer](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 
-* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)

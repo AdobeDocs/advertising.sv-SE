@@ -3,7 +3,7 @@ title: Hämta placeringsinställningar för en kampanj
 description: Lär dig hur du hämtar placeringsinställningar för en kampanj med Excel QA-kalkylblad.
 feature: DSP Placements
 exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den h
 
 1. Gör något av följande:
 
-   * Klicka på bredvid kampanjnamnet **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Klicka på bredvid kampanjnamnet **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
-   * Klicka på kampanjnamnet för att visa kampanjinformationen. Klicka på uppe till höger **[!UICONTROL ...]>[!UICONTROL Download Excel QA sheet]**.
+   * Klicka på kampanjnamnet för att visa kampanjinformationen. Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Download Excel QA sheet]**.
 
    Ett meddelande visas när filen är tillgänglig för hämtning.
 

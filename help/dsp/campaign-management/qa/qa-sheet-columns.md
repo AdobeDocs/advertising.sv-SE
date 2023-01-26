@@ -3,7 +3,7 @@ title: Kolumner i hämtade/överförda kalkylblad
 description: Referera kolumnerna i hämtade och överförda Excel QA-kalkylblad.
 feature: DSP Placements
 exl-id: 8a8dceed-f77d-4b6b-a842-f57528125c92
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | Det högsta anbudet för placeringen. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | Flygpaketeringsstrategi för placeringen: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, eller *[!UICONTROL aggressive frontload]*. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | Intraday-paketeringsstrategi för placeringen: *[!UICONTROL Even]* eller *[!UICONTROL ASAP]*. | Ja |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | Eventuella filtervillkor före bud som ska tillämpas. | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Eventuella filtervillkor före bud som ska tillämpas. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Om budgivningsreglerna (inaktuella) är *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | Det primära frekvensskyddet för placeringen under den angivna [!UICONTROL Frequency Cap Interval]. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervallet för det primära frekvensskyddet: *[!UICONTROL Day]*, *[!UICONTROL Week]*, eller *[!UICONTROL Month]*. | Ja |
