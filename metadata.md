@@ -1,12 +1,12 @@
 ---
 type: Documentation
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 feature-set: Advertising Cloud
 product: advertising cloud
 git-repo: https://github.com/AdobeDocs/advertising.sv-SE
 index: true
-source-git-commit: 8075fb0c31a507e9624b733c41348c150a7fc8d1
+source-git-commit: 71393c079da445d6572809bd2f09dc4edaa5cc48
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
