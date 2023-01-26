@@ -5,8 +5,8 @@ solution: Advertising Cloud
 feature-set: Advertising Cloud
 product: advertising cloud
 git-repo: https://github.com/AdobeDocs/advertising.sv-SE
-hide: true
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 8075fb0c31a507e9624b733c41348c150a7fc8d1
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
