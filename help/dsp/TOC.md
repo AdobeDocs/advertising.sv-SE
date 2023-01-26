@@ -2,13 +2,13 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising, Advertising Cloud
 product: advertising cloud
 user-guide-title: Advertising DSP Guide
 user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era strategier för displayannonsering med hjälp av DSP.
 breadcrumb-title: DSP
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
