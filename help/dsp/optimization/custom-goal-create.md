@@ -2,10 +2,10 @@
 title: Skapa ett anpassat mål
 description: Skapa ett anpassat mål
 feature: DSP Optimization
-exl-id: 440ded21-92d3-41ad-839f-ebc8376aa932
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 81b0acfa-085d-495b-9516-576b952b1307
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
 
 1. Logga in [!DNL Adobe Advertising Search] på (amerikanska företag) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (företag i alla andra länder) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Kontrollera att mätvärdena du vill inkludera i ditt mål har spårats, att de är tillgängliga i produkten och att de innehåller ett visningsnamn:
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Leta reda på måtten och se till att **[!UICONTROL Show in UI and Reports]** är aktiverat för måttet.
    1. Om måttet inte har något värde i **[!UICONTROL Display Name]** kolumn, klicka i cellen, ange visningsnamnet och klicka sedan på **[!UICONTROL Apply].**
 1. Skapa det anpassade målet som ett *mål*:
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Objectives]**.
+   1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL Objectives]**.
    1. Klicka på i verktygsfältet **[!UICONTROL Create objective].**
    1. Ange målinställningarna:
       1. I **[!UICONTROL Change Objective Name]** anger du målnamnet.

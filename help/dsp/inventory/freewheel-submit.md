@@ -2,10 +2,10 @@
 title: Skicka en annons för ett PG-avtal till [!DNL FreeWheel]
 description: Lär dig hur du begär godkännande av en annons för ett programmatiskt garanterat avtal med en utgivare på [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6cb41f3b-29e4-4feb-9c31-578ab40bd4f7
-source-git-commit: 2459ae8803e26c68d9fca3a1bcf5b744eaafb72c
+exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,13 @@ En gång [acceptera ett programmatiskt garanterat avtal med en utgivare på Free
 
    1. Klicka på **[!UICONTROL Ads]**.
 
-   1. Klicka  **[!UICONTROL ...]>[!UICONTROL Edit]** bredvid annonsnamnet.
+   1. Klicka  **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid annonsnamnet.
 
    1. När annonsinställningarna är öppna kopierar du den alfanumeriska annonstangenten i den URL som visas i webbläsarens adressfält.
 
       I följande URL är annonsnyckeln `3NtNC5ZbaGZtqbei8jD3`
 
-      ```
-      https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
-      ```
+      `https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads`
 
 1. Skicka annonsen till [!DNL Freewheel]:
 

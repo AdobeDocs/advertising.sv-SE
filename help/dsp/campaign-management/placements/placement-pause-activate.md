@@ -2,10 +2,10 @@
 title: Pausa eller aktivera en placering
 description: Lär dig hur du pausar eller aktiverar en placering.
 feature: DSP Placements
-exl-id: 9b7f1a2b-0ced-4e09-870b-172897e49b27
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cd58d8f7-8dd0-433b-9272-a4fc1e3e98d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Pausa en aktiv placering eller aktivera en pausad placering när den ligger inom
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]>[!UICONTROL Pause]**.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 ## Aktivera en pausad placering
 
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]>[!UICONTROL Activate]**.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]
 >

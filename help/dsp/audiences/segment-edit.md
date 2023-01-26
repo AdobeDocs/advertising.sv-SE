@@ -2,10 +2,10 @@
 title: Redigera segmentinformation
 description: Lär dig hur du redigerar information om ett anpassat eller CCPA-avstående från försäljningssegment.
 feature: DSP Segments
-exl-id: a121264f-7fa6-454e-b66a-f6bc0db98890
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 1df6bf2a-4008-46ec-8b4a-e3d0c8322e44
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan redigera namn- och uppslagsfönstret för ett anpassat segment eller namnet på ett CCPA-avanmälningssegment. Segmenttaggarna ändras inte när du redigerar inställningarna.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Håll markören över segmentraden och klicka **[!UICONTROL Edit]**.
 

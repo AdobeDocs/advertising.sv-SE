@@ -2,10 +2,10 @@
 title: Arkivera eller arkivera ett privat avtal
 description: Lär dig arkivera eller arkivera ett privat avtal.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 6ecf90b6-a52f-42f3-aa3f-b2c489ea0aa8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,8 @@ Du kan när som helst avarkivera ett avtal för att återställa dess tidigare s
 
 ## Arkivera ett privat avtal
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
-1. Klicka på **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicka på **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -34,9 +34,9 @@ Du kan när som helst avarkivera ett avtal för att återställa dess tidigare s
 
 ## Avarkivera ett privat avtal
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 1. Ovanför avtalslistan klickar du på ![Filter](/help/dsp/assets/filter.png); klicka **[!UICONTROL Status]** och markera *[!UICONTROL Archived]*; och sedan klicka **[!UICONTROL Apply]**.<!-- Verify the text to apply the filter(s).)-->
-1. Klicka på **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicka på **[!UICONTROL Unarchive]**.
 
 Om utgivaren eller SSP tidigare har inaktiverat erbjudandet och du vill använda det igen kontaktar du utgivaren eller SSP direkt.

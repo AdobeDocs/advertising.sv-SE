@@ -2,10 +2,10 @@
 title: Redigera inställningar för tangentmontering snabbt
 description: Lär dig hur du snabbt ändrar inställningar för tangentplacering.
 feature: DSP Placements
-exl-id: 107ec263-a0f2-491b-8380-2cceaf51cae9
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]>[!UICONTROL Quick Edit]**.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
 1. Redigera alla tillgängliga [placeringsinställningar](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
 1. Klicka på **[!UICONTROL Apply]**.
 
@@ -37,5 +37,5 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
 

@@ -1,10 +1,10 @@
 ---
 title: Skapa ett Advertiser-konto
 description: Lär dig hur du skapar ett annonsörskonto.
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Annonsörer är tillgängliga för alla användare i organisationskontot.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Settings]>[!UICONTROL Advertisers]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Advertisers]**.
 
 1. Klicka på **[!UICONTROL Create]**.
 

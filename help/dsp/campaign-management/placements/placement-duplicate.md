@@ -2,10 +2,10 @@
 title: Duplicera placeringar
 description: Lär dig hur du duplicerar en eller flera placeringar.
 feature: DSP Placements
-exl-id: d22a61a8-4f1b-41ee-b4fb-3124bec81a2f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Se &quot;[Vad som inte är duplicerat](#placement-not-duplicated)&quot; för en 
 
 1. Gör något av följande:
 
-   * Om du vill duplicera en placering klickar du på  **[!UICONTROL ...]>[!UICONTROL Duplicate]** bredvid paketnamnet.
+   * Om du vill duplicera en placering klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** bredvid paketnamnet.
 
    * Så här duplicerar du flera placeringar:
 

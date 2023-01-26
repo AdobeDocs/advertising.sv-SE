@@ -2,10 +2,10 @@
 title: Överför placeringsinställningar för en kampanj
 description: Lär dig hur du överför ändringar av nyckelplaceringsinställningar för en kampanj med Excel QA-kalkylblad.
 feature: DSP Placements
-exl-id: 0f5fdc7e-3a90-4b4b-a23c-75bed7703100
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 2ca7c019-ff5f-410d-b9c7-31ef1509f91e
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Om du vill bokföra ändringar av vissa typer av placeringsinställningar för e
 
 1. Gör något av följande:
 
-   * Klicka på bredvid kampanjnamnet **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Klicka på bredvid kampanjnamnet **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
-   * Klicka på kampanjnamnet för att visa kampanjinformationen. Klicka på uppe till höger **[!UICONTROL ...]>[!UICONTROL Upload Excel QA sheet]**.
+   * Klicka på kampanjnamnet för att visa kampanjinformationen. Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Upload Excel QA sheet]**.
 
 1. I [!UICONTROL Edit in Excel] dialog:
 

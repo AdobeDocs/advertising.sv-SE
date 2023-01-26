@@ -1,10 +1,10 @@
 ---
 title: Skicka om en väntande användarinbjudan
 description: Lär dig skicka om en väntande användarinbjudan.
-exl-id: e326460b-8354-452e-aa35-00c82c7d76bf
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Du kan skicka om en inbjudan till en användare med en väntande inbjudan för o
 
 1. Gör något av följande:
 
-   * På huvudmenyn klickar du på **[!UICONTROL Settings]>[!UICONTROL Users]**.
+   * På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * På huvudmenyn klickar du på **[!UICONTROL Settings]>[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
+   * På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
 
 1. I **Inbjudningar** avsnitt, klicka ![Skicka igen](/help/dsp/assets/resend.png).
 

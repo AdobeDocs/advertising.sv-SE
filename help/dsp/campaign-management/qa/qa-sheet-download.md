@@ -2,10 +2,10 @@
 title: Hämta placeringsinställningar för en kampanj
 description: Lär dig hur du hämtar placeringsinställningar för en kampanj med Excel QA-kalkylblad.
 feature: DSP Placements
-exl-id: c3b0cbf2-7095-4608-977a-9a5dd0bbd585
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

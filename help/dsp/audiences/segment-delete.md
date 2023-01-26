@@ -2,10 +2,10 @@
 title: Ta bort ett segment
 description: Lär dig hur du tar bort ett anpassat eller CCPA-avstående från försäljningssegment.
 feature: DSP Segments
-exl-id: dd58d4ad-50a7-46d5-b644-77aa481f15ba
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 2b5f61b1-b07d-45e1-bf1c-8e7c25ead42b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Om du tar bort ett anpassat eller CCPA-undantag från försäljningssegmentet tas det bort från alla placeringar och sparade målgrupper som innehåller det, och det blir inte tillgängligt för framtida bruk.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
 1. Håll markören över segmentraden och klicka **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 

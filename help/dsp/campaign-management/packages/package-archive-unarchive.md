@@ -2,10 +2,10 @@
 title: Arkivera eller arkivera ett paket
 description: Lär dig hur du arkiverar eller avarkiverar ett paket.
 feature: DSP Packages
-exl-id: a8840f9e-e0ee-481d-80c2-66b56fc1882f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 12d1b498-2239-401a-8571-9210956e32b2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan när som helst avarkivera ett paket för att återställa dess tidigare s
 
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på namnet på kampanjen för att öppna [!UICONTROL Packages] vy.
-1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]>[!UICONTROL Archive]**.
+1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicka på **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -31,7 +31,7 @@ Du kan när som helst avarkivera ett paket för att återställa dess tidigare s
 
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på namnet på kampanjen för att öppna [!UICONTROL Packages] vy.
-1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]>[!UICONTROL Unarchive]**.
+1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicka på **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

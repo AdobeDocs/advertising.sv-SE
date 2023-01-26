@@ -2,10 +2,10 @@
 title: Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Devices
 description: Lär dig hur du prenumererar på och begär åtkomst till,[!DNL On Demand] erbjudanden.
 feature: DSP On Demand Inventory
-exl-id: e66e5bad-526e-4b71-8072-332dd173f105
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
 ## Prenumerera på alla erbjudanden för en utgivare
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Valfritt) Filtrera tillgängliga erbjudanden eller utgivare enligt något av följande villkor:
 
@@ -36,7 +36,8 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
    * Erbjudanden från **[!UICONTROL TV Broadcasters]**
 
-   * Erbjudanden från förlag som accepterar &quot;trimma-in&quot;-kreatörer (**[!UICONTROL Tune-In]**)
+   * Erbjudanden från förlag som accepterar kreatörer som går med i programmet
+      **[!UICONTROL Tune-In]**)
 
    * Erbjudanden som utgivaren har tillämpat mer än 21 riktade annonser för och accepterar annonser för alkohol (**[!UICONTROL Legal drinking age]**)
 
@@ -48,7 +49,7 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
 ## Begär åtkomst till enskilda erbjudanden
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
 1. (Valfritt) Filtrera tillgängliga erbjudanden eller utgivare enligt något av följande villkor:
 
@@ -64,7 +65,8 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
    * Erbjudanden från **[!UICONTROL TV Broadcasters]**
 
-   * Erbjudanden från förlag som accepterar &quot;trimma-in&quot;-kreatörer (**[!UICONTROL Tune-In]**)
+   * Erbjudanden från förlag som accepterar kreatörer som går med i programmet
+      **[!UICONTROL Tune-In]**)
 
    * Erbjudanden som utgivaren har tillämpat mer än 21 riktade annonser för och accepterar annonser för alkohol (**[!UICONTROL Legal drinking age]**)
 

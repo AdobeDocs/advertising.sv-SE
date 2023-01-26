@@ -2,10 +2,10 @@
 title: Skapa en återanvändbar publik
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
-exl-id: 48e3dc4c-6e2d-452c-8d69-7e6211d808e0
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgruppssegment och till och med andra sparade målgrupper, som ni kan använda som mål eller exkluderingar för flera platser.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL All Audiences]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
 1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**.
 
@@ -62,9 +62,9 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 
       1. Kopiera segmentlogiken från den befintliga målgruppen på något av följande sätt:
 
-         * I vyn Alla målgrupper håller du markören över målgruppsraden och klickar sedan på **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * I vyn Alla målgrupper håller du markören över målgruppsraden och klickar sedan på **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Klicka på i inställningarna för den befintliga målgruppen längst upp på segmentlogikpanelen **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Klicka på i inställningarna för den befintliga målgruppen längst upp på segmentlogikpanelen **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * I en textredigerare skapar du segmentlogiken manuellt med hjälp av alfanumeriska segment-ID:n och [Boolesk syntax](audience-segment-logic-syntax.md)och kopiera det till Urklipp.
       1. Klicka **[!UICONTROL paste in an audience rule to begin building]**, klistra in den befintliga segmentlogiken i indatafältet och klicka sedan på **[!UICONTROL Apply]**.

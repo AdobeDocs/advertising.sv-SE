@@ -2,10 +2,10 @@
 title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
-exl-id: 691903e2-773e-4205-837e-822f435f57a7
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
 1. Skapa segmentet:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**.
 
@@ -36,7 +36,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
 1. Kopiera och implementera taggar för att spåra segmentet efter behov:
 
-   1. Återgå till **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Återgå till **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    2. Håll markören över segmentraden och klicka **[!UICONTROL Get Pixel]**.
 

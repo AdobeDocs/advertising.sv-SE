@@ -2,10 +2,9 @@
 title: Visa händelsepixlar för en [!UICONTROL Simple Ad Serving] Erbjudande
 description: Lär dig hur du hämtar en kopia av händelsespårningspixlar för en [!UICONTROL Simple Ad Serving] erbjudande.
 feature: DSP Simple Ad Serving
-exl-id: 88d18ddd-98ba-4e36-890c-d6ddfb7d59e5
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +15,7 @@ Du kan hämta en kopia av pixlar för händelsespårning för en [!UICONTROL Sim
 
 Händelsepixlarna innehåller en [!UICONTROL Clickthrough] pixel och en [!UICONTROL Impression] pixel. Video- och ljudannonser innehåller även händelsepixlar per kvartil (från [!UICONTROL 25% Complete] till [!UICONTROL 100% Complete]).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
 1. Klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]**.
 

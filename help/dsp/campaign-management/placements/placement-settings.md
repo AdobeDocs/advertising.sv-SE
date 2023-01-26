@@ -2,10 +2,10 @@
 title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
-exl-id: 36097132-e589-4d49-bf86-54f61eae5b67
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
    Du kan söka i listan efter nyckelord, nyckel, erbjudande-ID eller egen tagg.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [premie, ej garanterad [!UICONTROL On Demand] lager](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] platser) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [premie, ej garanterad [!UICONTROL On Demand] lager](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL] Roku erbjuder [!DNL Roku] platser) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
 
    Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödesnamn, flödesknapp eller en vald utgivarregion, kategoritagg eller karakteristisk tagg.
 
@@ -188,14 +188,14 @@ Så här anger du målinriktning för lager:
    1. Markera kryssrutan bredvid lagertypens namn.
    1. (Valfritt) Ändra källorna till:
       1. Klicka ![Redigera](/help/dsp/assets/edit.png).
-      1. ([!UICONTROL Public] och [!UICONTROL On Demand] lager) Klicka på **[!UICONTROL View by Source]** eller **[!UICONTROL View by Feed]** om du vill ändra hur källorna visas.
+      1. ([!UICONTROL Public] och [!UICONTROL On Demand] lager) Klicka på *[!UICONTROL *View by Source]** eller **[!UICONTROL View by Feed]** om du vill ändra hur källorna visas.
       1. (I tillämpliga fall) Filtrera lagret efter behov.
       1. Ange de källor som ska inkluderas och exkluderas:
          * Ta med en [!UICONTROL Public] eller [!UICONTROL On Demand] källa, klicka på **[!UICONTROL Include]** bredvid källnamnet.
          * Inkludera [!UICONTROL Private] källor:
             * Om du vill inkludera allt lager i ett avtal klickar du **[!UICONTROL Include all]** bredvid avtalsnamnet.
             * Om du vill inkludera en enskild lagerkälla expanderar du avtalsnamnet och klickar sedan på kryssrutan bredvid källnamnet.
-         * Så här exkluderar du [!UICONTROL Public] eller [!UICONTROL On source], klicka **[!UICONTROL Exclude]** bredvid källnamnet.
+         * Så här exkluderar du [!UICONTROL Public] eller [!UICONTROL On ] källa, klicka på **[!UICONTROL Exclude]** bredvid källnamnet.
    1. (Valfritt) Om du vill hämta en CSV-fil med målinformation till hämtningsplatsen för webbläsaren klickar du på **[!UICONTROL Save & Export]**.
    1. Klicka på **[!UICONTROL Save]**.
 
@@ -311,7 +311,6 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 **[!UICONTROL Secondary Cap]:** (Valfritt) tillgängligt när du inkluderar ett numeriskt [!UICONTROL Placement Cap]) En ytterligare begränsning inom gränserna för det primära placeringsskyddet. Välj antalet visningar och tidsperioden (t.ex. 3 per 12 timmar).
 
 **[!UICONTROL Day Parting]:** (Valfritt) Specifika veckodagar och klockslag då annonserna kan köras. Så här anger du dagdelningsintervall:
-
 1. Klicka ![Redigera](/help/dsp/assets/edit.png).
 1. Välj tillämplig tidszon.
 1. Ange intervallen:
@@ -448,7 +447,7 @@ Vilken nivå av [Ads.txt](https://iabtechlab.com/ads-txt-about/) förfiltrera ge
          * **[!UICONTROL Notes]:** (Valfritt) En beskrivning eller annan information om pixeln.
       1. Klicka på **[!UICONTROL Create and attach]**.
       1. Implementera konverteringspixeln på relevanta webbsidor:
-         1. På huvudmenyn går du till **[!UICONTROL Resources]>[!UICONTROL Conversion pixels]**.
+         1. På huvudmenyn går du till **[!UICONTROL Resources]** > **[!UICONTROL Conversion pixels]**.
          1. Klicka på **[!UICONTROL edit]**.
          1. Kopiera värdena i [!UICONTROL HTML Tag] och [!UICONTROL Flash Tag] fält, efter behov, som ska tillhandahållas annonsören eller webbplatskontakten.
 

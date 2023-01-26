@@ -2,10 +2,10 @@
 title: Begäran igen [!DNL On Demand] Premium Inventory Devices
 description: Lär dig hur du begär om [!DNL On Demand] avtal som tidigare nekats.
 feature: DSP On Demand Inventory
-exl-id: db5a5708-16e3-4304-8bd0-f1aa8ecd0e3c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
 1. Bekräfta att annonserarkategorin för det aktuella annonserarkontot är korrekt:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Settings]> [!UICONTROL Advertisers].**
+   1. På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Advertisers].**
 
    1. Håll markören över annonsörraden och klicka **[!UICONTROL Edit]**.
 
@@ -34,7 +34,7 @@ En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view
 
 1. Begär om lagret igen:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL On Demand]**.
+   1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]**.
 
    1. Filtrera de tillgängliga erbjudandena så att de innehåller erbjudanden som du har begärt (**[!UICONTROL Currently subscribed to]**)**.
 

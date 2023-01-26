@@ -2,10 +2,10 @@
 title: Ta bort en återanvändbar publik
 description: Lär dig hur du tar bort en återanvändbar målgrupp.
 feature: DSP Audiences
-exl-id: 037f85b1-8676-4ac7-b1a2-ae7d5550b377
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cc9afa22-1b90-4709-b7af-d9c1ee16aa16
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Du kan ta bort en publik som inte används på några platser eller i andra åte
 
 Om en målgrupp används kan du exportera en [!DNL Microsoft Excel] kalkylblad med alla placeringar och målgrupper som använder målgruppen.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Håll markören över målgruppsraden och klicka **[!UICONTROL Delete]**.
 

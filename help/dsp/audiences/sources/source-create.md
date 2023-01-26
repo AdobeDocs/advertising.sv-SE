@@ -2,10 +2,10 @@
 title: Skapa en målgruppskälla för att aktivera förstahandspubliker
 description: Lär dig hur du skapar en källa för att importera målgrupper till ditt konto eller till ett annonserarkonto.
 feature: DSP Audiences
-exl-id: 16eb7cdb-4364-4e94-ba73-0f2d4d200cb9
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Skapa en källa för att importera målgrupper till ditt DSP eller ett annonsera
 >
 >När du har skapat en källa för [!DNL Real-Time CDP]måste du aktivera [!DNL Real-Time CDP] målgrupper genom Adobe Advertising DSP destination inom [!DNL Real-Time CDP] för att börja importera dem. Se [stegen i aktiveringsarbetsflödet](source-about.md#workflow-sources).
 
-1. Klicka på ** i huvudmenyn[!UICONTROL Audiences] > [!UICONTROL Sources (BETA)].
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
 
 1. Klicka på [!UICONTROL Add Source].
 
@@ -40,13 +40,13 @@ Skapa en källa för att importera målgrupper till ditt DSP eller ett annonsera
 
 1. I Experience Platform skapar du en DSP målanslutning med [!UICONTROL Source Key] som genererades i DSP källinställningar.
 
-   Instruktioner om hur du aktiverar DSP målanslutning, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+Instruktioner om hur du aktiverar DSP målanslutning, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Inställningar för målgruppskälla](source-settings.md)
 >* [Om aktivering av autentiserade segment från målgruppskällor](source-about.md)
 >* [Aktivera autentiserade segment från varaktiga ID-partners](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
 

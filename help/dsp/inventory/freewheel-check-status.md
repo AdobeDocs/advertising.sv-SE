@@ -2,10 +2,10 @@
 title: Kontrollera status för annonser för en [!DNL] [!DNL FreeWheel]] PG-erbjudande
 description: Lär dig hur du hittar status för annonser för [!DNL Freewheel] garanterad programmatisk annonsering.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 57c365f6-41cf-4ab6-b71d-fe9984eaf115
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Om du har ytterligare frågor eller problem med att skicka in ansökningar igen 
 
 1. Klicka på **[!UICONTROL Ads]**.
 
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]>[!UICONTROL see Freewheel status]**.
+1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]**.
 
-1. (Valfritt) Om du vill skicka om en annons för godkännande håller du markören över annonsraden och klickar sedan på **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Valfritt) Om du vill skicka om en annons för godkännande håller du markören över annonsraden och klickar sedan på **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 ## Kontrollera status i dialogrutan [!UICONTROL Deals] Visa
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Gör något av följande:
 
@@ -44,7 +44,7 @@ Om du har ytterligare frågor eller problem med att skicka in ansökningar igen 
 
    För misslyckade inskickade svar [!UICONTROL API] Svarskolumnen anger felet. En fullständig lista över felkoder för misslyckade överföringar och nästa steg för att korrigera dem finns i &quot;[Felkoder för [!DNL FreeWheel] Annonsmaterial](freewheel-error-codes.md).&quot;
 
-1. (Valfritt) Om du vill skicka om en annons för godkännande håller du markören över annonsraden och klickar sedan på **[!UICONTROL More]>[!UICONTROL Resubmit]**.
+1. (Valfritt) Om du vill skicka om en annons för godkännande håller du markören över annonsraden och klickar sedan på **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
 >[!MORELIKETHIS]
 >

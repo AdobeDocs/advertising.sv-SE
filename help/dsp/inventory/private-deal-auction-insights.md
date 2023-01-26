@@ -2,10 +2,10 @@
 title: Visa auktionsinsikter för ett privat avtal
 description: Lär dig hur du kan använda auktionsinsikter för att analysera den privata erbjudandets sammansättning.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 9d585bd4-59d5-401a-a68c-6ed656086252
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Auction Insights är ett felsökningsverktyg som gör att du kan analysera hur avtalet är uppbyggt, både när det gäller privata avtal som inte garanteras. Med datavisualiseringar visar det här verktyget trenden och relativa proportioner för värden som tagits emot för [attribut för nyckelauktioner](#auction-attributes) inom en viss tidsperiod.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicka på  **[!UICONTROL ...]>[!UICONTROL Auction Insights]**.
+1. Klicka på  **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]**.
 
 >[!NOTE]
 >
->Auktionsinsikter är också tillgängliga via placeringen [!UICONTROL Inspector] verktyg. För att öppna dem [öppna placeringen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) till [!UICONTROL Inventory tab]och klicka sedan på **[!UICONTROL ...]>[!UICONTROL Auction Insights]** i avtalsraden.
+>Auktionsinsikter är också tillgängliga via placeringen [!UICONTROL Inspector] verktyg. För att öppna dem [öppna placeringen [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/placement-details-view.md) till [!UICONTROL Inventory tab]och klicka sedan på **[!UICONTROL ...]** > **[!UICONTROL Auction Insights]** i avtalsraden.
 
 ## Auktionsattribut {#auction-attributes}
 

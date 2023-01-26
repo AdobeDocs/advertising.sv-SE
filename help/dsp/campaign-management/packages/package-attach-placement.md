@@ -2,11 +2,11 @@
 title: Koppla en placering till ett paket
 description: Lär dig hur du bifogar en placering till ett paket.
 feature: DSP Packages
-exl-id: 443aa1a3-c8b9-4949-87be-5a37e67f00a8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 1. Klicka på namnet på kampanjen för att öppna [!UICONTROL Packages] vy.
 
-1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]> [!UICONTROL Attach a Placement].**
+1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]** > **[!UICONTROL Attach a Placement].**
 
 1. Gör något av följande:
 

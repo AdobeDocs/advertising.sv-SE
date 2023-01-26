@@ -2,10 +2,10 @@
 title: Redigera annonsschemat för en placering
 description: Lär dig hur du ändrar annonsplanerna för annonserna som är kopplade till en placering.
 feature: DSP Placements
-exl-id: 880522d3-efcd-4ff9-8cef-bf6be626869c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonserna som är k
 
 1. Klicka på **[!UICONTROL Placements]**.
 
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]>[!UICONTROL Ad schedule]**.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
    1. Gör något av följande:
 

@@ -2,10 +2,10 @@
 title: Redigera inställningar för privat avtal
 description: Lär dig hur du redigerar information för ett privat avtal.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 171a3dae-6a25-4e16-85f8-cd4138ec4ba8
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: c6ab7d39-5581-423b-90aa-3e142c235072
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Ändringar i ett godkänt avtal synkroniseras inte från SSP. Om du har accepterat ett avtal men utgivaren har skickat ändringar, kan du redigera vissa delar av avtalsinställningarna från [!UICONTROL Inventory] > [!UICONTROL Deals]. Du kan också byta namn på ett avtal när som helst.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicka på  **[!UICONTROL ...]>[!UICONTROL edit]**.
+1. Klicka på  **[!UICONTROL ...]** > **[!UICONTROL edit]**.
 
 1. Redigera [inställningar](deal-id-settings.md).
 

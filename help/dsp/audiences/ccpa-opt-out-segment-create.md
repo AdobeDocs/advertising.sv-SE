@@ -2,10 +2,10 @@
 title: Skapa och implementera ett CCPA-segment för avanmälan vid försäljning
 description: Lär dig hur du skapar och implementerar ett segment för att spåra användar-ID:n från konsumentförfrågningar om att avanmäla sig från försäljning.
 feature: CCPA, DSP Segments
-exl-id: aebe0c5b-382f-4e4a-b145-c32f32d216ca
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ När segmentets pixeltagg har implementerats börjar annonseringen i Adobe samla
 
 >[!NOTE]
 >
->* Mer information om hur du kan kommunicera CCPA-begäran om att avanmäla sig från försäljning till Adobe Advertising med Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa-opt-out-of-sale.html).
+>* Mer information om hur du kan kommunicera CCPA-begäran om att avanmäla sig från försäljning till Adobe Advertising med Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Skapa en [anpassat segment](/help/dsp/audiences/custom-segment-create.md).
 
 
@@ -38,7 +38,7 @@ När segmentets pixeltagg har implementerats börjar annonseringen i Adobe samla
 
 1. Kopiera och implementera en pixeltagg för att spåra segmentet:
 
-   1. Återgå till **[!UICONTROL Audiences]>[!UICONTROL Segments]**.
+   1. Återgå till **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
    1. Håll markören över det nya segmentet på segmentraden och klicka **[!UICONTROL Get pixel]**.
 
@@ -61,7 +61,7 @@ När segmentets pixeltagg har implementerats börjar annonseringen i Adobe samla
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa-opt-out-of-sale.md)
+>* [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
 >* [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment och rapporter](ccpa-opt-out-about.md)
 >* [Hämta rapporter om konsumentavanmälan](ccpa-opt-out-segment-report-retrieve.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)

@@ -2,10 +2,10 @@
 title: Visa en detaljerad rapport för en privat användare, [!UICONTROL On Demand], eller [!UICONTROL Simple Ad Serving] Erbjudande
 description: Lär dig hur du öppnar en rapport på avtalsnivå.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
-exl-id: cd39582e-0445-48ca-b2f6-90b410ce4a1c
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Rapporten på avtalsnivå innehåller antalet auktioner, anbudsräntan, vinstnivån, antalet visningar, den totala nettokostnaden, den effektiva CMP (eCPM) och slutförandefrekvensen. Ni kan visa ytterligare prestandamått per annonsörer, kampanj, placering, annonstyp och webbplats.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicka på **[!UICONTROL ...]>[!UICONTROL View Report]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL View Report]**.
 
 1. (Valfritt) Anpassa datumintervallet som du vill visa data för.
 

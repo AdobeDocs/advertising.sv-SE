@@ -2,10 +2,10 @@
 title: Redigera konton med åtkomst till ett privat avtal
 description: Lär dig hur du delar och slutar dela en privat affär med olika konton.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: 5ddd406d-1ee5-4d13-8e12-be575cbb7551
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: fb67ef24-8b7f-4a2f-973b-8102a97f0acb
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,21 @@ Du kan sluta dela ett avtal med konton för att ta bort redigerings- och målgru
 
 ## Dela ett avtal-ID med konton
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicka på **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. För varje konto som ska delas:
 
-   1. Ange **[!UICONTROL Email Address]** för kontot med tillgång till avtalet.
+1. Ange **[!UICONTROL Email Address]** för kontot med tillgång till avtalet.
 
-   1. Klicka på **[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL Share]**.
 
 ## Sluta dela ett avtal-ID med konton
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]>[!UICONTROL Deals]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
 
-1. Klicka på **[!UICONTROL ...]>[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]**.
 
 1. Intill [!UICONTROL Account Email] värde, klicka **[!UICONTROL Unshare].**
 

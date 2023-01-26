@@ -2,10 +2,10 @@
 title: Redigera en återanvändbar publik
 description: Lär dig hur du redigerar en återanvändbar målgrupp.
 feature: DSP Audiences
-exl-id: 6a3145b9-2d30-4040-8893-0fb7b3f86597
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 När du redigerar en målgrupp som används på en plats eller i andra återanvändbara målgrupper tillämpas ändringarna omedelbart på dessa platser och målgrupper.<!-- verify -->
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Håll markören över målgruppsraden och klicka **[!UICONTROL Edit]**.
 
@@ -51,9 +51,9 @@ När du redigerar en målgrupp som används på en plats eller i andra återanv�
 
       1. Kopiera segmentlogiken från den befintliga målgruppen på något av följande sätt:
 
-         * I vyn Alla målgrupper håller du markören över målgruppsraden och klickar sedan på **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * I vyn Alla målgrupper håller du markören över målgruppsraden och klickar sedan på **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
-         * Klicka på i inställningarna för den befintliga målgruppen längst upp på segmentlogikpanelen **[!UICONTROL More]>[!UICONTROL Copy to Clipboard]**.
+         * Klicka på i inställningarna för den befintliga målgruppen längst upp på segmentlogikpanelen **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * I en textredigerare skapar du segmentlogiken manuellt med hjälp av alfanumeriska segment-ID:n och [Boolesk syntax](audience-segment-logic-syntax.md)och kopiera det till Urklipp.
       1. Klicka **[!UICONTROL paste in an audience rule to begin building]**, klistra in den befintliga segmentlogiken i indatafältet och klicka sedan på **[!UICONTROL Apply]**.

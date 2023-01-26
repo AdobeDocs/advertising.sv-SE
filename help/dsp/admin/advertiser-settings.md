@@ -1,9 +1,9 @@
 ---
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser Name]:** Annonsörens namn.
 
-**[!UICONTROL Category]:** Den kategori där annonsören bedriver sin verksamhet. Kategorin meddelas utgivarna när ni lägger bud på lager. Se till att du väljer en kategori som passar dina annonser, eller så kan utgivare avvisa dina annonser.
+**[!UICONTROL Category]:** Den kategori som annonsören bedriver verksamhet i. Kategorin meddelas utgivarna när ni lägger bud på lager. Se till att du väljer en kategori som passar dina annonser, eller så kan utgivare avvisa dina annonser.
 
 >[!NOTE]
 >
@@ -38,9 +38,9 @@ Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan viss
 
 (Valfritt) Ytterligare Experience Cloud-produkter som är kopplade till DSP konto. Produkterna måste vara kopplade till samma Experience Cloud-organisations-ID som anges i [!UICONTROL Adobe IMS IDs] -avsnitt.
 
-**[!UICONTROL Attribution services]> [!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Adobe Advertising Search] eller som använder Adobe Advertising conversion pixels) A [!DNL Search] konto som DSP ska använda för att utbyta attribueringsdata.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Adobe Advertising Search] eller som använder Adobe Advertising conversion pixels) A [!DNL Search] konto som DSP ska använda för att utbyta attribueringsdata.
 
-**[!UICONTROL Report suites]> [!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; frivilligt, gäller endast data som samlats in med Adobe Advertising conversion tracking tags som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från kundens webbplats till DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; frivilligt, gäller endast data som samlats in med Adobe Advertising conversion tracking tags som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från klientens webbplats till DSP.
 
 För att data ska visas i rapportsviterna [!DNL Search] inställning på annonsörnivå till[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Annonsörens [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
 
@@ -50,7 +50,7 @@ För att data ska visas i rapportsviterna [!DNL Search] inställning på annons�
 
 Mer information om integrationen med [!DNL Analytics], se &quot;[Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]> [!UICONTROL Adobe Analytics Cloud]:** (Annonsörer med Adobe Audience Manager eller Adobe Analytics. valfritt) En Audience Manager eller [!DNL Analytics] vilket konto som DSP kommer att hämta in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Annonsörer med Adobe Audience Manager eller Adobe Analytics. valfritt) En Audience Manager eller [!DNL Analytics] vilket konto som DSP kommer att hämta in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
 
 * Audience Manager segment
 * [!DNL Analytics] segment som publiceras till Adobe Experience Cloud

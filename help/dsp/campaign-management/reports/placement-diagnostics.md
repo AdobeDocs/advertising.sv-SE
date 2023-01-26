@@ -2,10 +2,10 @@
 title: Visa diagnostikrapporter för placering
 description: Lär dig hur du diagnostiserar problem med placeringskonfiguration och placering.
 feature: DSP Placements
-exl-id: d64406b6-83b5-4ae7-984c-98610fc1ee40
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Följande verktyg kan hjälpa dig att diagnostisera problem med placeringskonfig
    1. Öppna placeringsinställningarna:
       1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
       1. Klicka på kampanjens namn och klicka sedan på **[!UICONTROL Placements]**.
-      1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]>[!UICONTROL Edit]**.
+      1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
    1. Klicka på uppe till höger ![Placement Diagnostics](/help/dsp/assets/placement-diagnostics.png) eller **[!UICONTROL Diagnostic]**.
 1. Gör något av följande:
    * Så här visar du ändringsloggen:

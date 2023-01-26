@@ -2,17 +2,17 @@
 title: Visa information om en återanvändbar publik
 description: Lär dig hur du visar konfigurationen och målgruppens storlek för en återanvändbar målgrupp.
 feature: DSP Audiences
-exl-id: 54e25dcf-cbad-4be2-8d72-b1bb666b82b2
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b7ef5af5-0b82-474b-b769-135f80ba5460
+source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Visa information om en återanvändbar publik
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]>[!UICONTROL All audiences]**.
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
 
 1. Håll markören över målgruppsraden och klicka **[!UICONTROL View Details]**.
 
