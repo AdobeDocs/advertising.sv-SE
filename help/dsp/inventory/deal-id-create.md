@@ -2,23 +2,25 @@
 title: Skapa information om avtal-ID manuellt
 description: Lär dig hur du manuellt anger information för ett avtal-ID.
 feature: DSP Private Inventory, DSP Deal IDs
-exl-id: cd9763a7-99d4-4881-9df9-b4e24c55be0f
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
+source-git-commit: 2fe1ee7366c84f3a7d770aa3412fdde61829fe46
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # Skapa information om avtal-ID manuellt
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]> [!UICONTROL Deals].**
+1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Ovanför datatabellen klickar du på **[!UICONTROL Create]** och sedan markera **[!UICONTROL Deal ID]**.
 
 1. Ange [inställningar](deal-id-settings.md):
 
    1. I [!UICONTROL Deal ID basics] , ange avtalsinformation och vilka annonsörer som har tillgång till erbjudandet. För garanterade erbjudanden måste du även ange planerade flygdatum och det uppskattade antalet avtryck, endast i spårningssyfte.
+
+      Du kan spåra placeringen av garanterade erbjudanden genom att ta med kolumnen&quot;PG Impression Pacing&quot; i vyn Inventory > Deals.
 
    1. (Endast administratörsanvändare; valfritt) [!UICONTROL Technical] redigerar du standardinställningarna efter behov.
 
