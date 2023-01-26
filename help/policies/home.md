@@ -1,9 +1,10 @@
 ---
 title: Riktlinjer och riktlinjer för annonsering i Adobe
 description: Läs mer om policyer och riktlinjer för DSP och annonssökning.
+index: true
 cloud: Experience Cloud
 product: advertising cloud
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: Optimering
 description: Läs mer om optimeringsfunktioner.
 feature: DSP Introduction, DSP Optimization
-exl-id: 75c144d5-2790-415d-ade9-de2803ff9054
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: c60e58e7-ab16-49bd-9acf-e5b858755493
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%

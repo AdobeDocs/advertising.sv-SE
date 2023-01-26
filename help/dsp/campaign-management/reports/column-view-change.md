@@ -2,8 +2,8 @@
 title: Ändra kolumnvyn
 description: Lär dig hur du ändrar datavyn.
 feature: DSP Campaign Data Views
-exl-id: e7a95ed3-82f5-4c5c-937b-3cc48f9a3470
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 4fd0c05a-3086-4098-8246-c545f8b4d063
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 0%

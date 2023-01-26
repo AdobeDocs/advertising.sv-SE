@@ -2,8 +2,8 @@
 title: Adobe Advertising Acceptable Health Segments
 description: Se riktlinjer för godtagbara hälsorelaterade målgruppssegment och taktik att använda som alternativ till att inrikta sig på hälsorelaterade målgruppssegment.
 feature: Policies
-exl-id: fd4fdf5e-9159-4a89-8447-12051deae61b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: Riktlinjer DSP dataanvändning för Adobe
 description: Se riktlinjerna för dataanvändning.
 feature: Policies
-exl-id: 6b646988-4a53-4092-8bc6-bcd350ee4096
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%

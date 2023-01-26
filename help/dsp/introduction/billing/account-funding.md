@@ -2,8 +2,8 @@
 title: Kontofinansiering
 description: Läs mer om kontofinansiering för DSP.
 feature: DSP Introduction
-exl-id: c90e88a7-78dd-402c-baba-9bac360093a4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 95e1fd75-ed38-41e3-a464-afe5e23c1c22
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%

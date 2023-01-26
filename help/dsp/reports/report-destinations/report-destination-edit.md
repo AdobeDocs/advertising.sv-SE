@@ -2,8 +2,8 @@
 title: Redigera ett rapportmål
 description: Lär dig hur du redigerar ett rapportmål.
 feature: DSP Custom Reports
-exl-id: 013280f1-e591-4fc4-a3bd-22b4b83b19e4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 33c011a5-c207-455d-8112-360098024eaa
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 1%

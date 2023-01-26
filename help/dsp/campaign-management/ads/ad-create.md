@@ -2,8 +2,8 @@
 title: Skapa en annons
 description: Lär dig hur du skapar en annons från tredje part.
 feature: DSP Ads
-exl-id: d93c6a66-a5cb-4117-97e8-424422200fce
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%

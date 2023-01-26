@@ -2,8 +2,8 @@
 title: Krav för annonsering på Adobe
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
-exl-id: 49c990e7-05d7-4fde-a728-d9e8dfb86222
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '2058'
 ht-degree: 0%

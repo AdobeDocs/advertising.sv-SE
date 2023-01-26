@@ -2,8 +2,8 @@
 title: Arkivera eller arkivera en annons
 description: Lär dig arkivera eller avarkivera en annons.
 feature: DSP Ads
-exl-id: f3dfc92c-e99b-4a72-9a91-65ae0d5f2419
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%

@@ -1,9 +1,9 @@
 ---
-title: "[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa"
-description: "[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa"
+title: '[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa'
+description: '[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa'
 feature: DSP On Demand Inventory
-exl-id: e56fd637-fb01-4bc0-9125-aa6844eeccc4
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%
@@ -189,7 +189,7 @@ ht-degree: 0%
 | [!DNL Future] | Storbritannien |
 | [!DNL Gameloft] | Storbritannien |
 | [!DNL Gentside] | Storbritannien |
-| [!DNL GiveMeSport] | Storbritannien |
+| [!DNL GiveMeSport ] | Storbritannien |
 | [!DNL Hearst] | Storbritannien |
 | [!DNL King] | Storbritannien |
 | [!DNL Ladbible] | Storbritannien |

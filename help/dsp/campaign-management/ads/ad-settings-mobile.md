@@ -2,8 +2,8 @@
 title: Inställningar för mobilannonsering
 description: Se beskrivningar av tillgängliga annonsinställningar för mobilannonser.
 feature: DSP Ads
-exl-id: f67c4ba0-1011-4ad6-bd36-98c312b81b67
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%

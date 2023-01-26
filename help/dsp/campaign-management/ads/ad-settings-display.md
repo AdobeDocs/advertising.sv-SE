@@ -2,8 +2,8 @@
 title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
-exl-id: ae88dfab-0b0c-42ab-9135-422b20a4b6cd
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: cff65a48-486f-401e-9759-2bb63871448f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%

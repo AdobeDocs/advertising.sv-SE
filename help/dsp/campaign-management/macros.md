@@ -2,8 +2,8 @@
 title: Advertising DSP Macros
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
-exl-id: e31cc2e5-ad1f-4555-a87b-0e4c3731fe5f
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: Om [!UICONTROL Report Destinations]
 description: Lär dig hur du hanterar leveransplatser för anpassade rapporter.
 feature: DSP Custom Reports
-exl-id: 1b0fd016-3198-4d95-ad4e-2cd9832ce934
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

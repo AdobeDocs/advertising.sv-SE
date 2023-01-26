@@ -2,8 +2,8 @@
 title: Adobe reklamintegrering med Adobe Audience Manager
 description: Lär dig mer om de olika sätt på vilka Adobe Advertising kan utbyta data med Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
-exl-id: 0f88235b-6f9c-4b97-9517-22e8c47e1846
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 0%

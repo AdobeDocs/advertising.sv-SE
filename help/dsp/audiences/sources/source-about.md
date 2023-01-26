@@ -2,8 +2,8 @@
 title: Om aktivering av autentiserade segment från målgruppskällor
 description: Lär dig mer om hur man hämtar in förstahandssegment från en kunddataplattform.
 feature: DSP Audiences
-exl-id: 3e6ede23-2b27-4b1d-bfa2-e823824633c4
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Mer information om destinationer finns i Experience Platform [Destinationshandbo
 
 1. [Skapa en målgruppskälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto.
 
-1. [Konfigurera en [!DNL Real-Time CDP] målanslutning i Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
+1. [Konfigurera en [!DNL Real-Time CDP] målanslutning i Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html).
 
 Kontakta din [!DNL Adobe] kontoteam eller `adcloud-support@adobe.com`.
 
@@ -42,7 +42,7 @@ Kontakta din [!DNL Adobe] kontoteam eller `adcloud-support@adobe.com`.
 >* [Aktivera autentiserade segment från varaktiga ID-partners](source-durable-id.md)
 >* [Skapa en målgruppskälla för att aktivera förstahandspubliker](source-create.md)
 >* [Inställningar för målgruppskälla](source-settings.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
 >* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
 

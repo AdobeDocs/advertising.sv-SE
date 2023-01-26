@@ -2,8 +2,8 @@
 title: Syntax för målgruppssegmentslogik
 description: Referera till den syntax du kan använda för att definiera logiken för målgruppssegment.
 feature: DSP Audiences
-exl-id: 3a51b1b5-1eef-453b-9be5-0694e27491a8
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

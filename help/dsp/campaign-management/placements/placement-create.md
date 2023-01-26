@@ -2,10 +2,10 @@
 title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
-exl-id: 4e37b571-9af4-4897-bff2-035a5f2600a5
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 28a328b1-0839-442e-a245-f586a7042f41
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 1%
 
       1. Begränsa publiken. Detta inkluderar att välja målgruppssegment att inrikta sig på inom placeringen.
 
-         För [!DNL Roku] placeringar kan du använda [DSP unika målgruppsmatchning med [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) genom att inkludera ett eller flera målgruppssegment som kan matchas mot [!DNL Roku] (opted-in) deterministic dataset.
+         För [!DNL] Roku-placeringar, du kan använda [DSP unika målgruppsmatchning med [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) genom att inkludera ett eller flera målgruppssegment som kan matchas mot [!DNL Roku] (opted-in) deterministic dataset.
    1. (För kampanjer med enhetsövergripande målinriktning på personnivå. När placeringen är avsedd för en eller flera specifika målgrupper kan du aktivera personbaserad målinriktning på flera enheter för placeringen.
 
       Personbaserad målinriktning på olika enheter tillhandahålls av [!DNL LiveRamp] endast med data från USA. Tjänsten är tillgänglig för alla annonsörer på $0,35 CPM för visningar som levereras med [!DNL LiveRamp] enhetsdiagram (d.v.s. för enheter som inte hittas inom målgruppssegmenten).
@@ -73,56 +73,56 @@ ht-degree: 1%
    1. Klicka på **[!UICONTROL Attach an ad]**.
 
    1. Gör något av följande:
+   * Så här skapar du en ny annons:
 
-      * Så här skapar du en ny annons:
+      1. Klicka på **[!UICONTROL Create a New Ad].**
 
-         1. Klicka på **[!UICONTROL Create a New Ad].**
+      1. Ange annonsinställningar för [ljudannonser](/help/dsp/campaign-management/ads/ad-settings-audio.md), [ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [displayannonser](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [inbyggda annonser](/help/dsp/campaign-management/ads/ad-settings-native.md), [pre-roll ads](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), eller [universella videobrev](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
-         1. Ange annonsinställningar för [ljudannonser](/help/dsp/campaign-management/ads/ad-settings-audio.md), [ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [displayannonser](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [inbyggda annonser](/help/dsp/campaign-management/ads/ad-settings-native.md), [pre-roll ads](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), eller [universella videobrev](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+      1. Klicka på **[!UICONTROL Save & Submit for Review]**.
 
-         1. Klicka på **[!UICONTROL Save & Submit for Review]**.
+      1. (Valfritt) För varje ytterligare annons som du vill skapa för placeringen klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa steg 1-3.
 
-         1. (Valfritt) För varje ytterligare annons som du vill skapa för placeringen klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa steg 1-3.
+      1. Om du inte vill bifoga några annonser klickar du på **[!UICONTROL I'm done for now]**.
+   * Så här bifogar du befintliga annonser i kampanjen:
 
-         1. Om du inte vill bifoga några annonser klickar du på **[!UICONTROL I'm done for now]**.
-      * Så här bifogar du befintliga annonser i kampanjen:
+      1. Klicka på **[!UICONTROL Select an Ad]**.
 
-         1. Klicka på **[!UICONTROL Select an Ad]**.
+      1. Gör något av följande:
+
+         * Så här lägger du till en annons i taget:
+
+            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
+
+            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa processen.
+         * Så här lägger du till upp till 20 annonser i taget:
+
+            1. Markera kryssrutan ovanför annonslistan.
+
+            1. Markera kryssrutan bredvid varje annons som ska läggas till.
+
+            1. Klicka på **[!UICONTROL Attach]**.
+
+            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select]**.
+      1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
+
+         1. Klicka på **[!UICONTROL Custom Schedule Ads]**.
 
          1. Gör något av följande:
 
-            * Så här lägger du till en annons i taget:
+            * Klicka på **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
 
-               1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
+            * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
 
-               1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa processen.
-            * Så här lägger du till upp till 20 annonser i taget:
+            * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
 
-               1. Markera kryssrutan ovanför annonslistan.
+            * (När flera annonser har samma plan) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och ange sedan den relativa vikt som varje annons ska roteras med, i procent.
 
-               1. Markera kryssrutan bredvid varje annons som ska läggas till.
+               Den totala vikten måste vara lika med 100.
+         1. Klicka på uppe till höger **[!UICONTROL Continue]**.
 
-               1. Klicka på **[!UICONTROL Attach]**.
+         1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
 
-               1. Klicka på bredvid annonsnamnet **[!UICONTROL Select]**.
-         1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
-
-            1. Klicka på **[!UICONTROL Custom Schedule Ads]**.
-
-            1. Gör något av följande:
-
-               * Klicka på **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
-
-               * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
-
-               * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
-
-               * (När flera annonser har samma plan) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och ange sedan den relativa vikt som varje annons ska roteras med, i procent.
-
-                  Den totala vikten måste vara lika med 100.
-            1. Klicka på uppe till höger **[!UICONTROL Continue]**.
-
-            1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
 
 
 
@@ -137,6 +137,7 @@ ht-degree: 1%
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
+
+   >*[Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 >* [Video: Så här skapar du en standardbildskärmsplacering](https://video.tv.adobe.com/v/340454)
 

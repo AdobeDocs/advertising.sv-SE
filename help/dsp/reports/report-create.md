@@ -2,8 +2,8 @@
 title: Skapa en anpassad rapport
 description: Lär dig hur du skapar en anpassad rapport.
 feature: DSP Custom Reports
-exl-id: 07ab797f-4c9e-4241-a9a5-fd7d006b5e5a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: f895529b-dc69-4c74-bca6-3f7617f41ceb
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 4%

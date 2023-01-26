@@ -2,8 +2,8 @@
 title: Användningsexempel
 description: Läs mer om användningsexempel för att dela dina annonsdata DSP media med Audience Manager
 feature: Integration with Adobe Audience Manager
-exl-id: 21d80cf6-f817-495a-bae4-fc9e44f1eda4
-source-git-commit: 48cab1494ee36e6ab2f12b2e87adedf62a21374f
+exl-id: 1d961799-b8be-499a-8db6-b59762d96bf1
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -34,23 +34,17 @@ Så här kör du det här exemplet i Audience Manager:<!-- The AM pulled this ex
 
    Om du till exempel vill namnge egenskapen `Creative Trait 123`använder du följande trait-regel:
 
-   ```
-   d_creative == 123 AND d_event == imp
-   ```
+   `d_creative == 123 AND d_event == imp`
 
 1. Skapa en egenskap för att fånga in användare som klickar eller konverterar.
 
    Om du till exempel vill namnge den här egenskapen `Click and Converter`använder du följande trait-regel:
 
-   ```
-   d_event == click OR d_event=conv
-   ```
+   `d_event == click OR d_event=conv`
 
 1. Skapa ett segment som kallas `Retarget Users` för att fylla i med användare som såg kreativa `123` men klickade eller konverterade inte. Använd följande trait-regel:
 
-   ```
-   Creative Trait 123 AND NOT Click and Converter
-   ```
+   `Creative Trait 123 AND NOT Click and Converter`
 
 1. Mappa segmentet `Retarget Users` till en destination och målanvändare på destinationen med kreativa `456`.
 

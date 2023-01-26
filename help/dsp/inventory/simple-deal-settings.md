@@ -2,8 +2,8 @@
 title: '''[!UICONTROL Simple Ad Serving] Avtalsinställningar'
 description: Läs mer om de tillgängliga inställningarna för [!UICONTROL Simple Ad Serving] erbjudanden.
 feature: DSP Simple Ad Serving
-exl-id: 1a8f215c-c52b-4099-a55f-99c4232b7a22
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%

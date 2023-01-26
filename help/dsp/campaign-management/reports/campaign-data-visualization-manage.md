@@ -2,8 +2,8 @@
 title: Hantera datavisualiseringar
 description: Lär dig hur du ändrar mätvärden och visningsläge för datavisualiseringar.
 feature: DSP Campaign Data Views
-exl-id: f557ddfc-9a20-4cbc-8ad3-230ba5df32e3
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e0ebcfbb-28f4-4d28-af28-7d8030988d35
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%

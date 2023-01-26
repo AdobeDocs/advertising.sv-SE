@@ -2,8 +2,8 @@
 title: Översikt över inventeringsfunktioner i DSP
 description: Läs mer om tillgängliga lagerfunktioner.
 feature: DSP On Demand Inventory, DSP Private Inventory, DSP Deal IDs
-exl-id: b3d0b96e-e638-4bd2-ba14-d348a8fc030b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e55b9276-0d13-436e-9c09-968de963d551
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%

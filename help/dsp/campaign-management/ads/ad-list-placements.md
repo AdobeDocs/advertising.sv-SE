@@ -2,8 +2,8 @@
 title: Visa en lista över placeringar som är kopplade till en annons
 description: Lär dig hur du ser de placeringar som är kopplade till en annons.
 feature: DSP Ads
-exl-id: 82c4f1b4-56fd-411f-a027-3f93ffb3867b
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 0%

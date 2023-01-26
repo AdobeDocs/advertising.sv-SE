@@ -2,8 +2,8 @@
 title: Skapa en anpassad kolumnvy
 description: Lär dig hur du skapar en anpassad kolumnvy.
 feature: DSP Campaign Data Views
-exl-id: f39e6ce9-aa4e-4049-af16-eddb0ba30087
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 1b0f5b15-3cbd-408a-8b06-0b5fefcfa0ca
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

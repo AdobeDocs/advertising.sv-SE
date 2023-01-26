@@ -2,8 +2,8 @@
 title: Översikt över [!DNL Analytics for Advertising]
 description: Översikt över [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
-exl-id: 31367c8b-3410-4110-9ae6-11defe625355
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Fördelar:
 
 >[!TIP]
 >
-> Se en [videointroduktion till [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
+> Se en [videointroduktion till [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=en#analytics).
 
 ## Använda analyser för betald medierapportering
 
@@ -94,19 +94,19 @@ Mer information om Publiktjänsten Experience Cloud finns i [Experience Cloud m�
 
 ### Använda annonseringsdata från Adobe i Analysis Workspace
 
-Om du vill veta hur du kan använda dina Adobe-annonsdata för att skapa visuella rapporter i Analysis Workspace kan du titta på videon &quot;[Introduktion till arbetsyta och rapportering](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
+Om du vill veta hur du kan använda dina Adobe-annonsdata för att skapa visuella rapporter i Analysis Workspace kan du titta på videon &quot;[Introduktion till arbetsyta och rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html).&quot;
 
 ### Skapa Adobe Advertising Dashboards
 
-Om du vill veta hur du kan spåra dina Adobe-annonsdata mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa Adobe Advertising Dashboards med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
+Om du vill veta hur du kan spåra dina Adobe-annonsdata mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa Adobe Advertising Dashboards med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
 ### Använda Adobe Advertising ID för webbplatsanalys
 
-Se videon &quot; om du vill se hur du kan skapa en webbannonsrapport i Adobe för övervakning av veckodag, tid på dygnet, webbläsare och geografisk påverkan[Skapa rapporter om webbplatsposter för annonsering i Adobe](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+Se videon &quot; om du vill se hur du kan skapa en webbannonsrapport i Adobe för övervakning av veckodag, tid på dygnet, webbläsare och geografisk påverkan[Skapa rapporter om webbplatsposter för annonsering i Adobe](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
 
 >[!MORELIKETHIS]
 >
->* [Video: Introduktion till [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/intro-a4adc.html)
+>* [Video: Introduktion till [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [Krav och viktig information för implementering [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising IDs Used by Analytics](ids.md)
 >* [JavaScript Code for Analytics for Advertising](/help/integrations/analytics/javascript.md)

@@ -2,8 +2,8 @@
 title: Om programmatiska erbjudanden
 description: Lär dig mer om programmatiska erbjudanden (PG) och vilka SSP:er som är certifierade att erbjuda dem.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-exl-id: 8cf85ae3-027d-4d9d-95a0-ac39d651627a
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 0%

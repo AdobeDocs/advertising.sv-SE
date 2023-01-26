@@ -1,8 +1,8 @@
 ---
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
-exl-id: 1a8b76ee-d38d-4ee4-981b-e29497fa4095
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%

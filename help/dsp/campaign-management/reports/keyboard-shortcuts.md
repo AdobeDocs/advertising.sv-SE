@@ -2,8 +2,8 @@
 title: Kortkommandon
 description: Referera till de kortkommandon som är tillgängliga i placeringsinställningarna.
 feature: DSP Placements
-exl-id: bef0406c-9c10-48ec-b069-b887ef8f66ae
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

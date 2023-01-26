@@ -7,9 +7,10 @@ product: advertising cloud
 user-guide-title: Advertising DSP Guide
 user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era strategier för displayannonsering med hjälp av DSP.
 breadcrumb-title: DSP
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+index: true
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -34,15 +35,8 @@ ht-degree: 0%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + Stöd för konsumentintegritet {#privacy}
-      + [Stöd för den allmänna dataskyddsförordningen](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/gdpr.html)
-      + Stöd för CCPA {#ccpa}
-         + [Stöd för California Consumer Privacy Act: Åtkomst och borttagning av konsumentdata](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-access-delete.html)
-         + [Stöd för California Consumer Privacy Act: Konsumentavskrivning](https://experienceleague.adobe.com/docs/advertising-cloud/privacy/ccpa/ccpa-opt-out-of-sale.html)
-   + Politik och riktlinjer {#policies}
-      + [Krav för annonser](https://experienceleague.adobe.com/docs/advertising-cloud/policies/ad-requirements-policy.html)
-      + [Riktlinjer för godkända hälsosegment](https://experienceleague.adobe.com/docs/advertising-cloud/policies/health-segment-guidelines.html)
-      + [[!DNL DSP] Riktlinjer för dataanvändning](https://experienceleague.adobe.com/docs/advertising-cloud/policies/data-usage-guidelines.html)
+   + [Stöd för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politik och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Översikt över Campaign Management Structure](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -85,7 +79,7 @@ ht-degree: 0%
       + [Skapa annonser med [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Bifoga en annons till en placering](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
+      + [Bifoga en annons till en placering](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Arkivera eller arkivera en annons](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
@@ -230,6 +224,6 @@ ht-degree: 0%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integrering med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/home.html)<!-- Dupe link to this file, so need to use an absolute link in one of the listings -->
++ [Integrering med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Kundsupport](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)
 + [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

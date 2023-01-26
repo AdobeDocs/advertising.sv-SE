@@ -2,8 +2,8 @@
 title: Om Audience Management i DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
-exl-id: 624d2211-59a2-4791-b8f1-a9a5cecd0b8e
-source-git-commit: 7055a9b9d3a68ef2f690e146128d6946e713586a
+exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
@@ -20,7 +20,7 @@ I DSP kan ni skapa och hantera målgruppssegment och målgruppsuppsättningar, s
 
    * [CCPA-segment för avstående från försäljning](/help/dsp/audiences/ccpa-opt-out-segment-create.md) för att spåra användar-ID:n från förfrågningar om att avanmäla sig från försäljning på din webbplats, enligt California Consumer Privacy Act (CCPA). Du kan hämta månadsrapporter om användar-ID:n från begäranden om att avanmäla dig.
 
-      Mer information om stöd för annonsering via Adobe för CCPA-avanmälan finns i [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa-opt-out-of-sale.md).
+      Mer information om stöd för annonsering via Adobe för CCPA-avanmälan finns i [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * Du kan skapa ett målgruppsbibliotek med [återanvändbara målgrupper](/help/dsp/audiences/reusable-audience-create.md). Sparade målgrupper består av alla era tillgängliga målgruppssegment och alla era andra sparade målgrupper. Alla ändringar du gör för en sparad målgrupp tillämpas automatiskt på alla placeringar som riktar sig till eller utesluter målgruppen och på alla andra målgrupper som inkluderar den sparade målgruppen.
 

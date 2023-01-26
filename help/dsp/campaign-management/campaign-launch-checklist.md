@@ -2,8 +2,8 @@
 title: Checklista för kampanjstart
 description: Lär dig vad du behöver göra innan du lanserar en kampanj.
 feature: DSP Placements, DSP Ads
-exl-id: bf0147d0-0b58-435d-a2de-5b98e0d3488c
-source-git-commit: 3fd9323e6b6a525392aff67cc116bd649f2936b1
+exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%

@@ -2,8 +2,8 @@
 title: Arkivera eller arkivera en kampanj
 description: Lär dig hur du arkiverar eller avarkiverar en kampanj.
 feature: DSP Campaigns
-exl-id: 9a6822c5-9d93-490a-9a2e-37afb1591028
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%

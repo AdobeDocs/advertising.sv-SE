@@ -2,8 +2,8 @@
 title: Om [!UICONTROL Simple Ad Serving]
 description: Läs mer om [!UICONTROL Simple Ad Serving] hanterar med händelsespårande pixlar.
 feature: DSP Simple Ad Serving
-exl-id: d65d1d8e-4d10-4d1d-86d3-f4457c29ae8d
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 327a2c93-d729-42e1-856f-f0e05efab7ca
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%

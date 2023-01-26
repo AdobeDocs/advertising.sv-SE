@@ -2,8 +2,8 @@
 title: Duplicera en annons
 description: Lär dig hur du duplicerar en annons.
 feature: DSP Ads
-exl-id: 65c29be7-ca88-4608-bde2-5f1267d095ef
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

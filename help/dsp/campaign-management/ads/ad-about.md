@@ -2,8 +2,8 @@
 title: Om annonshantering i DSP
 description: Läs mer om annonshantering.
 feature: DSP Ads
-exl-id: 72c8bbef-d09c-4cf4-994d-99578d043d39
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 0%

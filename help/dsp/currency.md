@@ -2,8 +2,8 @@
 title: Valutor som stöds
 description: Se en lista över valutor som stöds.
 feature: DSP Custom Reports, DSP Campaign Data Views
-exl-id: 7cbce17b-12f0-49e5-8acd-adf9b7d01557
-source-git-commit: 1c13874967ec4ad264e5fa6a5e0dfeb6120f53cc
+exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
+source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
