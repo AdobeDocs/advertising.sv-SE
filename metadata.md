@@ -8,7 +8,7 @@ git-repo: https://github.com/AdobeDocs/advertising.sv-SE
 index: true
 source-git-commit: a44fd3359d15c46c352dbccca4ad807083b44f30
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---

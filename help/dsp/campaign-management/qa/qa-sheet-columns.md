@@ -71,7 +71,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | Om eller inte [!DNL Comscore] demografiska segment är aktiverade för placering (och andra placeringar i kampanjen): *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. Den här funktionen kan bara aktiveras för kampanjer för vilka [!DNL Audience Verification] funktionen är aktiverad för [!DNL Nielsen] och/eller [!DNL Comscore].  Det medför ytterligare avgifter. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Om ni vill utöka annonseringen för olika enheter eller inte: *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. Målinriktning på flera enheter utökar er målinriktning på alla en persons kända enheter, enligt det enhetsdiagram som anges i kampanjinställningarna. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - Inkluderat # | Antalet riktade ämneskoder, om sådana finns, eller *[!UICONTROL All]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | Antalet undantagna ämneskoder, om sådana finns, eller *[!UICONTROL None]*. | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | Antalet uteslutna ämneskoder, om sådana finns, eller *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | antalet mål för målenheten, om sådana har angetts, eller *[!UICONTROL All]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Excluded #] | Antalet uteslutna enhetsmål, om sådana finns, eller *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Included #] | Antalet riktade ISP-providers, om sådana finns, eller *[!UICONTROL All]/i>. | — |
