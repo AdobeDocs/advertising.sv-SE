@@ -3,9 +3,9 @@ title: Importera Adobe Audience Manager-segment för annonsinriktning
 description: Så här importerar du [!DNL Adobe] målgrupper i Advertising DSP and Search med Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ DSP och [!DNL Advertising Search] kan alla hämta in metadata, hierarkidata och 
 
 * Adobe Analytics-segment som publiceras till Adobe Experience Cloud
 
-* Segment som har skapats i Adobe Experience Cloud med [!DNL People core service]
+* Segment som har skapats med Adobe Experience Cloud [!DNL Audience Library]
 
 * Segment som har skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager
 
