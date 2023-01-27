@@ -1,10 +1,10 @@
 ---
 title: Skapa ett Advertiser-konto
 description: Lär dig hur du skapar ett annonsörskonto.
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ace64d46a8e0394d460f3894fe8823b048c28dc0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 

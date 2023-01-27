@@ -3,9 +3,9 @@ title: Dela eller Sluta dela ett segment
 description: Lär dig hur du delar eller slutar dela ett anpassat eller CCPA-avanmäl dig från ett försäljningssegment med andra DSP användarkonton.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---

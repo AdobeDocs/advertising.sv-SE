@@ -3,7 +3,7 @@ title: Bifoga en annons till en placering
 description: Lär dig hur du bifogar en annons till en placering.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 1. Klicka på **[!UICONTROL Ads]**.
 
-1. Klicka på bredvid annonsnamnet  **... >[!UICONTROL Add to Placements]**.
+1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
 1. Gör något av följande på skärmen Montera annons:
 
@@ -64,7 +64,7 @@ ht-degree: 1%
 
 1. Klicka på **[!UICONTROL Placements]**.
 
-1. Klicka på bredvid placeringsnamnet  **... > [!UICONTROL Attach Ads].**
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
 1. I [!UICONTROL Add Ad to Placement] gör du något av följande:
 
@@ -86,6 +86,7 @@ ht-degree: 1%
       1. Klicka på **[!UICONTROL Select an Ad].**
 
       1. Ange annonserna:
+
          * Så här lägger du till en annons i taget:
 
             1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**

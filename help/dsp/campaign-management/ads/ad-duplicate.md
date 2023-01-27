@@ -3,7 +3,7 @@ title: Duplicera en annons
 description: Lär dig hur du duplicerar en annons.
 feature: DSP Ads
 exl-id: 030ce258-750c-4c5f-ae89-32dfb2864189
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan duplicera en annons inom samma kampanj.
 
 1. Klicka på **[!UICONTROL Ads]**.
 
-1. Klicka på bredvid annonsnamnet  **... >[!UICONTROL Duplicate]**.
+1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
 
 1. Ange de nya annonsinställningarna:
 

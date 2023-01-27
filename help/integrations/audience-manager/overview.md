@@ -3,9 +3,9 @@ title: Adobe reklamintegrering med Adobe Audience Manager
 description: Lär dig mer om de olika sätt på vilka Adobe Advertising kan utbyta data med Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Ni kan integrera Adobe Advertising med Audience Manager på följande sätt.
 
 *Valda annonsörer med [!DNL Advertising Search] endast*
 
-Inom [!DNL [!DNL Search]], du kan skapa [!DNL Google Ads] Google kund matchar målgrupper från användar-ID:n med era befintliga Audience Manager-segment som har [!UICONTROL Adobe Media Optimizer (HTTP)] och [!UICONTROL Adobe Media Optimizer Batch Destination] som destinationer. ([!DNL Media Optimizer] är ett tidigare namn för [!DNL [!DNL Search]].) Detta omfattar Adobe Analytics-segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud [!DNL Audience Library]. Mer information finns i produkthjälpen i [!DNL] [!DNL Search]].
+Inom [!DNL Search]kan du skapa [!DNL Google Ads] Google kund matchar målgrupper från användar-ID:n med era befintliga Audience Manager-segment som har [!UICONTROL Adobe Media Optimizer (HTTP)] och [!UICONTROL Adobe Media Optimizer Batch Destination] som destinationer. ([!DNL Media Optimizer] är ett tidigare namn för [!DNL Search].) Detta omfattar Adobe Analytics-segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud [!DNL Audience Library]. Mer information finns i hjälpen för produkten i [!DNL Search].
 
 [Kunden matchar målgrupper från användar-ID:n](https://support.google.com/google-ads/answer/9199250) fungerar som webbplatstaggbaserade målgrupper, men ett icke-PII ID tilldelas unika målgruppsmedlemmar för distinkta fördelar jämfört med standardkundmatchning och taggbaserade målgrupper för webbplatser.
 
-Om du vill skapa nödvändiga användar-ID:n måste du använda en JavaScript-tagg för Adobe Advertising <!-- with a user ID parameter -->på era webbplatser. Kontakta din [!DNL [!DNL Search]] kontoteam för mer information.
+Om du vill skapa nödvändiga användar-ID:n måste du använda en JavaScript-tagg för Adobe Advertising <!-- with a user ID parameter -->på era webbplatser. Kontakta [!DNL Search] kontoteam för mer information.
 
 ![process för att skapa segment](/help/integrations/assets/ad_search_user_id_pic.png)
 
@@ -34,7 +34,7 @@ När du har skapat målgrupperna kan du använda dem i [!DNL Google Ads] kampanj
 
 ### Använd Audience Manager och andra [!DNL Adobe] Segment att rikta eller exkludera annonser {#audience-manager-targets}
 
-* (Valda annonsörer med [!DNL] [!DNL Search]]) Du kan använda valfritt [!DNL Google Ads] målgrupper som [skapad med [!DNL Adobe] segment](#audience-manager-google-audiences) som kampanjnivå eller annonsnivå som mål eller undantag i er [!DNL Google Ads] kampanjer.
+* (Valda annonsörer med [!DNL Search]) Du kan använda valfritt [!DNL Google Ads] målgrupper som [skapad med [!DNL Adobe] segment](#audience-manager-google-audiences) som kampanjnivå eller annonsnivå som mål eller undantag i er [!DNL Google Ads] kampanjer.
 
 * (Annonsörer med DSP) Du kan använda dina befintliga [!DNL Adobe] segment som mål för era annonsplaceringar. Du kan också inkludera segmenten i återanvändbara målgrupper, som du kan använda som mål eller undantag för flera placeringar.
 
@@ -54,6 +54,6 @@ Se &quot;[Översikt över att skicka DSP exponeringsdata till Adobe Audience Man
 
 ## Få djupare insikter om webbplatsaktivitet med Audience Analytics
 
-Adobe Advertising customers with [[!DNL Adobe][!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) kan skicka både Adobe-annonsdata och Audience Manager-segment till [!DNL Analytics] för bättre insikter om webbplatsaktiviteter.
+Adobe Advertising customers with [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) kan skicka både Adobe-annonsdata och Audience Manager-segment till [!DNL Analytics] för bättre insikter om webbplatsaktiviteter.
 
-Mer information finns i &quot;[[!DNL Adobe][!DNL Audience Analytics] för Adobe-reklamkunder](/help/integrations/audience-manager/audience-analytics.md).&quot;
+Mer information finns i &quot;[[!DNL Adobe Audience Analytics] för Adobe-reklamkunder](/help/integrations/audience-manager/audience-analytics.md).&quot;

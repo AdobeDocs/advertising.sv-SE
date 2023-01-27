@@ -1,11 +1,11 @@
 ---
-title: Kontrollera status för annonser för en [!DNL] [!DNL FreeWheel]] PG-erbjudande
+title: Kontrollera status för annonser för en [!DNL FreeWheel] PG-erbjudande
 description: Lär dig hur du hittar status för annonser för [!DNL Freewheel] garanterad programmatisk annonsering.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---

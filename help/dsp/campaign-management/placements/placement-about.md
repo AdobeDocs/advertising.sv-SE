@@ -3,7 +3,7 @@ title: Om Placement Management i DSP
 description: Lär dig mer om placeringshantering.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -49,6 +49,5 @@ Du kan öppna en detaljerad vy ([den [!UICONTROL Inspector]](/help/dsp/campaign-
 >* [Skapa en placering](placement-create.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
-
-   >*[Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
+>* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 

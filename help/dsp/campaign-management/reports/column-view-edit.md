@@ -3,7 +3,7 @@ title: Redigera en anpassad kolumnvy
 description: Lär dig hur du redigerar en anpassad kolumnvy.
 feature: DSP Campaign Data Views
 exl-id: 8ff6f09a-e04f-44a1-8a25-03afb28e0dbd
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%

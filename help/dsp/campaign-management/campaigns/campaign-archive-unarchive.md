@@ -3,7 +3,7 @@ title: Arkivera eller arkivera en kampanj
 description: Lär dig hur du arkiverar eller avarkiverar en kampanj.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Du kan när som helst avarkivera en kampanj för att återställa dess tidigare 
 ## Arkivera en kampanj
 
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
-1. Klicka på bredvid kampanjnamnet  **... >[!UICONTROL Archive]**.
+1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicka på **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -29,7 +29,7 @@ Du kan när som helst avarkivera en kampanj för att återställa dess tidigare 
 ## Avarkivera en kampanj
 
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
-1. Klicka på bredvid kampanjnamnet  **... >[!UICONTROL Unarchive]**.
+1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicka på **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

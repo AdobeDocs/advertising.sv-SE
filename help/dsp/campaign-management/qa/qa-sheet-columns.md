@@ -3,7 +3,7 @@ title: Kolumner i hämtade/överförda kalkylblad
 description: Referera kolumnerna i hämtade och överförda Excel QA-kalkylblad.
 feature: DSP Placements
 exl-id: 698c0d86-cb2e-4d76-89c7-5584b6cdb542
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 | [!UICONTROL Goals] | [!UICONTROL Max Bid] | Det högsta anbudet för placeringen. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Flight Pacing] | Flygpaketeringsstrategi för placeringen: *[!UICONTROL Even]*, *[!UICONTROL slightly ahead]*, *[!UICONTROL frontload]*, eller *[!UICONTROL aggressive frontload]*. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Intraday Pacing] | Intraday-paketeringsstrategi för placeringen: *[!UICONTROL Even]* eller *[!UICONTROL ASAP]*. | Ja |
-| [!UICONTROL Goals] | [!UICONTROL  Pre-Bid Filters] | Eventuella filtervillkor före bud som ska tillämpas. | — |
+| [!UICONTROL Goals] | [!UICONTROL Pre-Bid Filters] | Eventuella filtervillkor före bud som ska tillämpas. | — |
 | [!UICONTROL Goals] | [!UICONTROL Bidding Rules] | Om budgivningsreglerna (inaktuella) är *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. | — |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap] | Det primära frekvensskyddet för placeringen under den angivna [!UICONTROL Frequency Cap Interval]. | Ja |
 | [!UICONTROL Goals] | [!UICONTROL Frequency Cap Interval] | Intervallet för det primära frekvensskyddet: *[!UICONTROL Day]*, *[!UICONTROL Week]*, eller *[!UICONTROL Month]*. | Ja |
@@ -71,7 +71,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Targeting] | [!UICONTROL Demographic booster] | Om eller inte [!DNL Comscore] demografiska segment är aktiverade för placering (och andra placeringar i kampanjen): *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. Den här funktionen kan bara aktiveras för kampanjer för vilka [!DNL Audience Verification] funktionen är aktiverad för [!DNL Nielsen] och/eller [!DNL Comscore].  Det medför ytterligare avgifter. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Extend across screens] | Om ni vill utöka annonseringen för olika enheter eller inte: *[!UICONTROL ON]* eller *[!UICONTROL OFF]*. Målinriktning på flera enheter utökar er målinriktning på alla en persons kända enheter, enligt det enhetsdiagram som anges i kampanjinställningarna. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting] - Inkluderat # | Antalet riktade ämneskoder, om sådana finns, eller *[!UICONTROL All]*. | — |
-| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | Antalet uteslutna ämneskoder, om sådana finns, eller *[!UICONTROL None]*. | — |
+| [!UICONTROL Audience Targeting] | [!UICONTROL Topic Targeting - Excluded #] | Antalet undantagna ämneskoder, om sådana finns, eller *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Included #] | antalet mål för målenheten, om sådana har angetts, eller *[!UICONTROL All]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL Device Targeting - Excluded #] | Antalet uteslutna enhetsmål, om sådana finns, eller *[!UICONTROL None]*. | — |
 | [!UICONTROL Audience Targeting] | [!UICONTROL ISP Targeting - Included #] | Antalet riktade ISP-providers, om sådana finns, eller *[!UICONTROL All]/i>. | — |

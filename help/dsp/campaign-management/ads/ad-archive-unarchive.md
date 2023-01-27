@@ -3,7 +3,7 @@ title: Arkivera eller arkivera en annons
 description: Lär dig arkivera eller avarkivera en annons.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Du kan när som helst avarkivera en annons och återställa dess tidigare status
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **... >[!UICONTROL Archive]**.
+1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
 1. Klicka på **[!UICONTROL Archive]**.
 
 >[!NOTE]
@@ -33,7 +33,7 @@ Du kan när som helst avarkivera en annons och återställa dess tidigare status
 1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **... >[!UICONTROL Unarchive]**.
+1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
 1. Klicka på **[!UICONTROL Unarchive]**.
 
 >[!MORELIKETHIS]

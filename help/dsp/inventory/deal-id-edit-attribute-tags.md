@@ -2,9 +2,9 @@
 title: Redigera attributtaggar för ett erbjudande-ID
 description: Lär dig hur du skapar och redigerar attributtaggar för ett erbjudande-ID.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
