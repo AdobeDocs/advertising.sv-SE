@@ -3,7 +3,7 @@ title: Inställningar för målgruppskälla
 description: Läs mer om inställningarna för målgruppskällor.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL Enter IMS Org Id]:** Experience Cloud organisation-ID för [!DNL Adobe Experience Platform] konto.
 
-**[!UICONTROL AAC Source Key]:** (Skrivskyddad; genereras när ett värde anges i [!UICONTROL Enter IMS Org Id] fält) Källnyckeln som du kan använda för [skapa en målanslutning i [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html) för att locka målgrupper till DSP. Du kan kopiera värdet till Urklipp och klistra in det i [!DNL Adobe Real-Time CDP] målanslutningsinställningar eller till en fil.
+**[!UICONTROL AAC Source Key]:** (Skrivskyddad; genereras när ett värde anges i [!UICONTROL Enter IMS Org Id] fält) Källnyckeln som du kan använda för [skapa en målanslutning i [!DNL Adobe Real-Time Customer Data Profile]](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html) för att locka målgrupper till DSP. Du kan kopiera värdet till Urklipp och klistra in det i [!DNL Adobe Real-Time CDP] målanslutningsinställningar eller till en fil.
 
 >[!MORELIKETHIS]
 >
 >* [Skapa en målgruppskälla för att aktivera förstahandspubliker](source-create.md)
 >* [Om aktivering av autentiserade segment från målgruppskällor](source-about.md)
 >* [Aktivera autentiserade segment från varaktiga ID-partners](source-durable-id.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-connection.html)
+>* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
 
