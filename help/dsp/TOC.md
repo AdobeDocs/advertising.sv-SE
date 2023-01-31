@@ -8,9 +8,9 @@ user-guide-title: Advertising DSP Guide
 user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era strategier för displayannonsering med hjälp av DSP.
 breadcrumb-title: DSP
 index: true
-source-git-commit: c0dad3f6c5744ec32417e9fe0cab0f328067ae18
+source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,7 @@ ht-degree: 0%
       + [Duplicera en kampanj](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Visa en detaljerad rapport för en kampanj](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
       + [Arkivera eller arkivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
+      + [Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
       + [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Paket {#packages}
