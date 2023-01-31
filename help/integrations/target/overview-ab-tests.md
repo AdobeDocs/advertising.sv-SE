@@ -2,7 +2,7 @@
 title: Konfigurera A/B-tester för annonsering i Adobe i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search] annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 0%
@@ -129,7 +129,7 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
 
    >[!NOTE]
    >
-   >Du kan använda flera URL:er för att testa en genomskinlig webbplatspost. Mer information finns i &quot;[Flersidig aktivitet](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Du kan enkelt identifiera de översta posterna per sid-URL genom att skapa en [Platsens anmälningsrapport](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-site-entry-reports.html) i Analytics.
+   >Du kan använda flera URL:er för att testa en genomskinlig webbplatspost. Mer information finns i &quot;[Flersidig aktivitet](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html).&quot; Du kan enkelt identifiera de översta posterna per sid-URL genom att skapa en [Platsens anmälningsrapport](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) i Analytics.
 
 1. I **Mål** anger du framgångsmåttet för testet.
 
