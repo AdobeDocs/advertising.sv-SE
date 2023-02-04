@@ -3,16 +3,16 @@ title: Visa en logg för platsändring
 description: Lär dig hur du visar ändringar som gjorts i placeringen.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 62bebacc05bd5178cc4f5958a395daf54361b3e1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # Visa ändringsloggen för en placering
 
-Ändringsloggar visar ändringar som gjorts i placeringen under det valda datumintervallet, inklusive typ av ändring, nya och gamla värden, användaren som gjorde ändringen och datumet.
+Ändringsloggar visar ändringar som gjorts i placeringen under det valda datumintervallet, inklusive typ av ändring, nya och gamla värden, användaren som gjorde ändringen och datumet. Du kan också lägga till anteckningar till valfri post.
 
 Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 
@@ -20,6 +20,9 @@ Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. (Betafunktion; (valfritt) Klicka på ![Tabell- och diagramvy](/help/dsp/assets/table-plus-chart-view.png "Tabell- och diagramvy") eller ![Tabellvy](/help/dsp/assets/table-view.png "Tabellvy") i det övre högra verktygsfältet.
+1. (Betafunktion; (valfritt) Om du vill lägga till en anteckning i en post håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan **[!UICONTROL Save]**.
+1. (Betafunktion; (valfritt) Om du vill visa information för en post i ett popup-fönster håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
