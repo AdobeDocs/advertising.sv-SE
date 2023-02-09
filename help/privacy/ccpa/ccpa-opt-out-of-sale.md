@@ -3,9 +3,9 @@ title: 'Adobe Advertising support for the California Consumer Privacy Act : Kons
 description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
    >
    >Begäranden till vissa Adobe Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men förfrågningar till Adobe Advertising kräver det.
 
-   Du bör distribuera biblioteket på webbsidan där dina kunder kan skicka in begäran om att avanmäla dig, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om att avanmäla dig via Adobe Experience Platform Privacy Service API.
+   Du bör distribuera biblioteket på webbsidan där dina kunder kan skicka in begäranden om att avanmäla dig, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om att avanmäla dig via Adobe Experience Platform Privacy Service API.
 
 1. Identifiera ditt organisations-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
 

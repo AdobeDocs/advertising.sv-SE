@@ -4,19 +4,19 @@ role: User, Admin
 cloud: Experience Cloud
 solution: Advertising, Advertising Cloud
 product: advertising cloud
-user-guide-title: Advertising DSP Guide
-user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era strategier för displayannonsering med hjälp av DSP.
-breadcrumb-title: DSP
+user-guide-title: Användarhandbok om Advertising DSP
+user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
+breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 85f748bae0efb52e96d8993dcc482b1b969fe6fe
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '879'
+ht-degree: 6%
 
 ---
 
 
-# Advertising DSP Guide {#dsp}
+# Användarhandbok om Advertising DSP {#dsp}
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
       + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
@@ -35,8 +35,8 @@ ht-degree: 0%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politik och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Support för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Policyer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Översikt över Campaign Management Structure](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -106,8 +106,8 @@ ht-degree: 0%
          + [Filtrera kampanjdata](/help/dsp/campaign-management/reports/campaign-data-filter.md)
          + [Sortera en kolumn](/help/dsp/campaign-management/reports/campaign-data-sort.md)
       + [Hantera datavisualiseringar](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
-   + Korrigera placeringsinställningar för en kampanj med kalkylblad {#qa-spreadsheet}
-      + [Om att korrigera placeringsinställningar för en kampanj med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
+   + Korrigera placeringsinställningar med kalkylblad {#qa-spreadsheet}
+      + [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
       + [Hämta placeringsinställningar för en kampanj](/help/dsp/campaign-management/qa/qa-sheet-download.md)
       + [Överför placeringsinställningar för en kampanj](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
@@ -126,7 +126,7 @@ ht-degree: 0%
    + [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 + Målgrupper {#audiences}
    + [Om Audience Management](/help/dsp/audiences/audience-about.md)
-   + Hantera segment {#segments}
+   + Segment {#segments}
       + [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] Segment {#ccpa-opt-out-of-sale-segments}
          + [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-about.md)
@@ -136,7 +136,7 @@ ht-degree: 0%
       + [Dela eller Sluta dela ett segment](/help/dsp/audiences/segment-share.md)
       + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Ta bort ett segment](/help/dsp/audiences/segment-delete.md)
-   + Hantera målgrupper {#reusable-audiences}
+   + Målgrupper {#reusable-audiences}
       + [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicera en återanvändbar publik](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Redigera en återanvändbar publik](/help/dsp/audiences/reusable-audience-edit.md)
@@ -147,7 +147,7 @@ ht-degree: 0%
       + [Ta bort en återanvändbar publik](/help/dsp/audiences/reusable-audience-delete.md)
       + [Målgruppsinställningar](/help/dsp/audiences/audience-settings.md)
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
-   + Hantera källor {#sources}
+   + Källor {#sources}
       + [Om aktivering av autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
       + [Aktivera autentiserade segment från varaktiga ID-partners](/help/dsp/audiences/sources/source-durable-id.md)
       + [Skapa en målgruppskälla för att aktivera förstahandspubliker](/help/dsp/audiences/sources/source-create.md)
@@ -225,6 +225,6 @@ ht-degree: 0%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integrering med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Kundsupport](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Versionsinformation om Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

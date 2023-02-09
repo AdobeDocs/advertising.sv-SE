@@ -3,9 +3,9 @@ title: 'Adobe Advertising support for the California Consumer Privacy Act : Stö
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält.
 feature: CCPA
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bc0015c134406fb020370def45a8588b5032587e
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Om du vill begära åtkomst till och ta bort konsumentpersonuppgifter från Adob
    >
    >Begäranden till vissa Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men förfrågningar till Adobe Advertising kräver det.
 
-   Du bör distribuera biblioteket på webbsidan från vilken dina kunder kan skicka in begäran om åtkomst och borttagning, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om åtkomst och borttagning via [!DNL Adobe Experience Platform Privacy Service API].
+   Du bör distribuera biblioteket på den webbsida från vilken dina kunder kan skicka in begäran om åtkomst och borttagning, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om åtkomst och borttagning via [!DNL Adobe Experience Platform Privacy Service API].
 
    När kunden begär att få ta bort personuppgifter tar biblioteket också bort kundens cookie från kundens webbläsare.
 
