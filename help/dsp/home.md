@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 425a5f38582a0c603417b67a665a7919dc26e1ac
+source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 15 februari 2023 | [!UICONTROL Campaigns] | Alternativen för att visa ändringsloggar i diagramformulär och lägga till anteckningar till alla poster är inte betaversioner. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 februari 2023 | [!UICONTROL Campaigns] | (Betafunktioner) Nu kan du visa ändringsloggar i diagramformulär, och du kan lägga till anteckningar i alla poster. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 januari 2023 | [!UICONTROL Deals] | En ny utgiftskolumn för&quot;PG Impression Pacing&quot; i Inventory > Deals-vyn visar rapporter om hur man ska hitta garanterade erbjudanden. | Se &quot;[Redigera en anpassad kolumnvy](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
 | 4 januari 2023 | [!UICONTROL Campaigns] | En ändringslogg, som visar ändringar som gjorts under det valda datumintervallet, är nu tillgänglig för varje kampanj. Ändringsloggar var redan tillgängliga för paket och placeringar. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md)&quot;.&quot; |
