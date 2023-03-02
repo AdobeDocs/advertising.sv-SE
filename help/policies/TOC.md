@@ -2,21 +2,21 @@
 type: Documentation
 role: User, Admin
 cloud: Experience Cloud
-solution: Advertising Cloud
+solution: Advertising
 product: advertising cloud
-user-guide-title: Riktlinjer och riktlinjer för annonsering i Adobe
-user-guide-description: Läs mer om policyer och riktlinjer för DSP och [!DNL Advertising Search].
-breadcrumb-title: Politik och riktlinjer
+user-guide-title: Policyer och riktlinjer för Adobe Advertising
+user-guide-description: Lär dig mer om policyer och riktlinjer för Advertising DSP och [!DNL Advertising Search].
+breadcrumb-title: Policyer och riktlinjer
 index: true
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
 
-# Riktlinjer och riktlinjer för annonsering i Adobe {#policies}
+# Policyer och riktlinjer för Adobe Advertising {#policies}
 
 + [Krav för annonser](/help/policies/ad-requirements-policy.md)
 + [Riktlinjer för godkända hälsosegment](/help/policies/health-segment-guidelines.md)
