@@ -3,10 +3,10 @@ title: Skapa ett rapportmål
 description: Lär dig hur du skapar en destination för leverans av anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 2a8d6cef-9c33-4483-ac1e-93778a231962
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '88'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Om rapporten är konfigurerad för leverans till någon typ av FTP eller [!DNL Amazon S3] -plats får du inga meddelanden om rapporten avbryts på grund av fel. Om du inte får de rapporter du förväntar dig kontaktar du [!DNL Adobe] kontoteam för att ta reda på varför.
+> Om rapporten är konfigurerad för leverans till någon typ av FTP eller [!DNL Amazon S3] -plats får du inga meddelanden om rapporten avbryts på grund av fel. Om du inte får de rapporter du förväntar dig kan du kontakta ditt Adobe-kontoteam och ta reda på varför.
 
 >[!MORELIKETHIS]
 >

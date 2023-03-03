@@ -3,9 +3,9 @@ title: Översikt över konfiguration av PG-erbjudanden i [!DNL Freewheel]
 description: Läs om förutsättningarna och de extra steg som krävs för att köra annonser för programmatiska annonsköp med utgivare på [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Konfigurera programmatiska garanterade avtal med utgivare på [!DNL Freewheel] k
 
 >[!PREREQUISITES]
 >
->Arbeta med dina [!DNL Adobe] kontoteam för att säkerställa att [!DNL DSP] kontot har följande behörigheter:
+>Samarbeta med kontoteamet på Adobe för att säkerställa att [!DNL DSP] kontot har följande behörigheter:
 >
 >* Behörighet att använda [!DNL FreeWheel] programmatiskt garanterat arbetsflöde, som krävs för att skicka in en annons för ett programmatiskt garanterat erbjudande till [!DNL FreeWheel].
 >

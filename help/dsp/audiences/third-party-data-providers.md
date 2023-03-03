@@ -3,9 +3,9 @@ title: Tillgängliga dataproviders från tredje part i DSP
 description: Se en lista över alla tillgängliga tredjepartsdataleverantörer.
 feature: DSP Audiences
 exl-id: 081d1513-b105-4d32-a98c-145c7122cb89
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Avgiften för att använda varje segment visas bredvid segmentnamnet i placering
 * [!DNL TruSignal]
 * [!DNL Weborama]
 
-Om du vill ha mer information om hur du importerar anpassade tredjepartssegment för ditt konto kontaktar du [!DNL Adobe] kontoteam.
+Mer information om hur du importerar anpassade tredjepartssegment för ditt konto får du från ditt Adobe-kontoteam.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Om privat lager
 description: Om privat lager
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Annonsörer som ser bortom RTB kan använda privat lager för att underlätta ex
 
 ## Avtals-ID
 
-Om ni har direktkontakt med utgivare kan ni effektivisera era era medieinköp och arbetsflöden genom att använda era egna privata avtal, med deras förhandlade lager och priser, i era DSP. DSP integreras med alla utgivare när ni skapar ett konto. Om du vill få tillgång till fler utgivare senare kontaktar du [!DNL Adobe] kontoteam för att konfigurera åtkomst. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Om ni har direktkontakt med utgivare kan ni effektivisera era era medieinköp och arbetsflöden genom att använda era egna privata avtal, med deras förhandlade lager och priser, i era DSP. DSP integreras med alla utgivare när ni skapar ett konto. Om du vill ha tillgång till fler utgivare senare kontaktar du ditt Adobe-kontoteam för att konfigurera åtkomst. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
 
 Alla dina privata affärer med ett erbjudande-ID finansieras och faktureras av [!DNL Adobe].
 

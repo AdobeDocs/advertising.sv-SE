@@ -3,9 +3,9 @@ title: Om aktivering av autentiserade segment från målgruppskällor
 description: Lär dig mer om hur man hämtar in förstahandssegment från en kunddataplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 9ca42d078c0d0b6a08d521c8465eca69c2affce5
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Mer information om destinationer finns i Experience Platform [Destinationshandbo
 
 1. [Konfigurera en [!DNL Real-Time CDP] målanslutning i Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).
 
-Kontakta din [!DNL Adobe] kontoteam eller `adcloud-support@adobe.com`.
+Kontakta ditt kontoteam på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

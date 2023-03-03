@@ -3,9 +3,9 @@ title: Om [!DNL On Demand] Premiumlager
 description: Läs mer om de avtal som DSP har förhandlat fram i förväg med förstklassiga utgivarpartners.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ På den DSP premiummarknaden kan ni
 
 * Spåra prestanda med konsoliderad rapportering
 
-När ett avtal har godkänts är det tillgängligt som mål för befintliga ersättningar och inkluderas automatiskt som mål för nya ersättningar som är inriktade på alla [!DNL On Demand] lager. Om en avtalsbegäran avslås kan du arbeta med [!DNL Adobe] kontoteam för att lösa problemet och sedan begära om avtalet.
+När ett avtal har godkänts är det tillgängligt som mål för befintliga ersättningar och inkluderas automatiskt som mål för nya ersättningar som är inriktade på alla [!DNL On Demand] lager. Om en avtalsbegäran avslås kan du samarbeta med ditt Adobe-kontoteam för att lösa problemet och sedan begära om avtalet.
 
 ## Vyer på begäran
 

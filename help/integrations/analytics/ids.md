@@ -3,9 +3,9 @@ title: Adobe Advertising IDs Used by [!DNL Analytics]
 description: Adobe Advertising IDs Used by [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ där:
 * `{userid}` är det unika numeriska användar-ID som Adobe Advertising tilldelar annonsören.
 * `{sid}` är det numeriska ID som Adobe Advertising använder för det angivna annonsnätverket, till exempel `3` for [!DNL Google Ads] eller `10` for [!DNL Microsoft Advertising].
 
-Nedan följer de fullständiga AMO ID-formaten för ett par annonsnätverk. För AMO ID-format för andra annonsnätverk kontaktar du [!DNL Adobe] kontoteam.
+Nedan följer de fullständiga AMO ID-formaten för ett par annonsnätverk. Om du vill ha AMO ID-format för andra annonsnätverk kontaktar du kontoteamet på Adobe.
 
 AMO ID-format för [!DNL Google Ads]:
 

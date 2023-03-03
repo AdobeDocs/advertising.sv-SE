@@ -3,9 +3,9 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ The [!DNL Analytics for Advertising] JavaScript använder dessa inställningar f
 
 ## Adobe Advertising Data in [!DNL Analytics]
 
-[!DNL Analytics] ställer in Adobe Advertising ID:n (AMO ID:n) inom träffen Analytics, enligt annonsörens inställning för beständighet i eVar, som gäller både klickfrekvens och genomskinlighet. Persistensinställningen är konfigurerad på baksidan av Adobe Advertising och [!DNL Adobe] kontoteamet kan ändra det.
+[!DNL Analytics] ställer in Adobe Advertising ID:n (AMO ID:n) inom träffen Analytics, enligt annonsörens inställning för beständighet i eVar, som gäller både klickfrekvens och genomskinlighet. Inställningen för beständighet konfigureras på baksidan av Adobe Advertising, och din kontogrupp på Adobe kan ändra den.
 
 * [!DNL Analytics for Advertising] eVar förfallodatum: 60 dagar som standard för AMO ID:n
 
@@ -77,7 +77,7 @@ The [!DNL Analytics for Advertising] JavaScript använder dessa inställningar f
 * Onlinevideo
 * Inbyggt
 
-Kontakta [!DNL Adobe] kontoteam för de senaste annonsmiljöerna som stöds i varje kanal.
+Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stöds i varje kanal.
 
 ## Saker att känna till innan du implementerar
 

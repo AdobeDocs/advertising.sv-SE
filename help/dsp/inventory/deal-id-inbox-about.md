@@ -3,9 +3,9 @@ title: Om [!UICONTROL Deal ID Inbox]
 description: Läs mer om [!UICONTROL Deal ID inbox] som gör att du kan acceptera privata avtal som du redan har förhandlat med utgivare om [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare känt som [!DNL AdX]), and [!DNL Magnite DV+] (tidigare [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ DSP uppdaterar automatiskt alla avtalsdetaljer varje dag kl. 04.30 EST. Den uppd
 
 ## Implementera [!UICONTROL Deal ID Inbox]
 
-För att få dina erbjudanden i [!UICONTROL Deal ID inbox]måste dina SSP-konton mappa din organisations DSP till ditt SSP-konto. DSP delar organisationens kontonamn med de berörda SSP:erna. Kontakta [!DNL Adobe] kontoteam för instruktioner.
+För att få dina erbjudanden i [!UICONTROL Deal ID inbox]måste dina SSP-konton mappa din organisations DSP till ditt SSP-konto. DSP delar organisationens kontonamn med de berörda SSP:erna. Kontakta kontoteamet på Adobe för instruktioner.
 
 Under avtalsförhandlingar ska du be utgivaren att skicka avtalet till din köpare i stället för till det överordnade DSP kontot. Avtalsidentifieraren kan vara ett namn eller ett ID, beroende på SSP.
 

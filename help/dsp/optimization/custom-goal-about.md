@@ -3,9 +3,9 @@ title: Om anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Varje anpassat mål består av en eller flera mätvärden, eller *transaktionseg
 >[!NOTE]
 >
 >* [!DNL Analytics] dimensioner och segment är inte tillgängliga för optimering av annonsering i Adobe.
->* Om du vill använda Analytics-händelser i DSP ska du arbeta med [!DNL Adobe] kontoteam för att konfigurera en integrering på annonsörnivå.
+>* Om du vill använda Analytics-händelser i DSP samarbetar du med ditt kontoteam på Adobe för att konfigurera en integrering på annonsörnivå.
 >* [!DNL Analytics] anpassade händelser följer den här namnkonventionen: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exempel: `custom_event_16_examplersid`
 
 

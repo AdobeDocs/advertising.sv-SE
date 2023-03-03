@@ -3,9 +3,9 @@ title: Översikt över [!DNL Analytics for Advertising]
 description: Översikt över [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Fördelar:
 
 Används [!DNL Analytics] som ert betalda medierapporteringsverktyg behöver din organisation logga in på Experience Cloud med tillgång till Analysis Workspace. Adobe Advertising-teamet hjälper er att kartlägga era Adobe Advertising-data till enskilda rapporteringsprogram i Analysis Workspace. Du kan skicka Adobe Advertising-data till alla rapporteringsprogram, men du bör vara medveten om de rapportsviter som har mappats till Adobe Advertising och de som inte har det. Beroende på rapportsviten kan detta ändra rapporterade data.
 
-[Adobe Advertising IDs within [!DNL Analytics]](ids.md) fungerar som andra eVars-variabler med en anpassad, permanent förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med [!DNL Adobe] kontoteam.
+[Adobe Advertising IDs within [!DNL Analytics]](ids.md) fungerar som andra eVars-variabler med en anpassad, permanent förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med ditt kontoteam på Adobe.
 
 Reklamdimensioner för Adobe läggs till med suffixet&quot;(AMO ID)&quot; (t.ex.&quot;Ad Type (AMO ID)&quot;). Se &quot;[Adobe Advertising Metrics in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; för en lista över tillgängliga dimensioner.
 

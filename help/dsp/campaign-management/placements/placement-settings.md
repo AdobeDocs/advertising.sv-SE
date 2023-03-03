@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3417'
 ht-degree: 0%
 
 ---
@@ -319,7 +319,7 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
    * Om du vill markera ett intervall manuellt klickar du inuti en cell och väljer intervallet genom att dra.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Valfritt) som är tillgängliga för annonsörer som konfigurerats med [!DNL Comscore] och [!DNL Grapeshot] segment) Specifika segmentnamn eller ID:n från [!DNL Comscore] och [!DNL Grapeshot] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du [!DNL Adobe] kontoteam.
+**[!UICONTROL Topic Targeting]:** (Valfritt) som är tillgängliga för annonsörer som konfigurerats med [!DNL Comscore] och [!DNL Grapeshot] segment) Specifika segmentnamn eller ID:n från [!DNL Comscore] och [!DNL Grapeshot] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
 
 Så här anger du målinriktning:
 

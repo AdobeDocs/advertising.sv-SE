@@ -3,9 +3,9 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Om du vill maximera skalan använder du [!UICONTROL Public] (Open Exchange) och 
 
 * **[!UICONTROL Device Targeting]**:
    * Inkludera [!UICONTROL Computer], [!UICONTROL Mobile]och [!UICONTROL Tablet].
-   * Rikta inte [!UICONTROL Firefox] och [!UICONTROL Safari] på grund av begränsningar i målinriktning och mätning. Kontakta [!DNL Adobe] kontoteam för mer information om [!DNL Adobe] stöd för [!DNL Safari ITP].
+   * Rikta inte [!UICONTROL Firefox] och [!UICONTROL Safari] på grund av begränsningar i målinriktning och mätning. Kontakta kontoteamet på Adobe för mer information om [!DNL Adobe] stöd för [!DNL Safari ITP].
    * Inaktivera alla webbläsare utom [!UICONTROL Chrome] och [!UICONTROL Edge].
 
 ### Varumärkessäkerhet och mediakvalitet

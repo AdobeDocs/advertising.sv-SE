@@ -3,9 +3,9 @@ title: Skapa ett anpassat mål
 description: Skapa ett anpassat mål
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 2060ab016917a69ef8bf718d339a35eb62b1269e
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan skapa anpassade mål som *mål* inom [!DNL Adobe Advertising Search].
 
-Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search] med samma Adobe Experience Cloud-organisations-ID, inifrån [!DNL Search] klientinställningar. Om ditt DSP inte är länkat till en [!DNL Search] konto, kontakta [!DNL Adobe] kontoteam.
+Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search] med samma Adobe Experience Cloud-organisations-ID, inifrån [!DNL Search] klientinställningar. Om ditt DSP inte är länkat till en [!DNL Search] ska du kontakta kontoteamet på Adobe.
 
 >[!TIP]
 >

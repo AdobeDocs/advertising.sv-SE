@@ -3,9 +3,9 @@ title: Enhetsoberoende lösningar
 description: Läs mer om funktioner för olika enheter.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Med personbaserad attribuering kan du attribuera konverteringar som ägde rum p�
 
 ### Aktivera personbaserad attribueringsmätning
 
-Om du vill aktivera attribueringsmätning mellan enheter kontaktar du [!DNL Adobe] kontoteam.
+Om du vill aktivera attribueringsmätning mellan enheter kontaktar du kontoteamet på Adobe.
 
 ### Ställ in konverteringsrapporter för attribut för konvertering mellan enheter
 

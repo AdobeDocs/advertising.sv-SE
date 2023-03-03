@@ -3,9 +3,9 @@ title: 'Adobe Advertising support for the California Consumer Privacy Act : Kons
 description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: cce2d73880fbc4b185b426f2e18c1b071dd511a1
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Du kan hämta länkar till de månadsrapporter som har skapats under de senaste 
 
 Den här funktionen är tillgänglig för organisationer som använder [!DNL Trafficking API]. Dokumentationen för [!DNL Trafficking API] för mer information.
 
-Om din organisation inte använder [!DNL Trafficking API] men är intresserad av mer information kan du kontakta [!DNL Adobe] kontoteam.
+Om din organisation inte använder [!DNL Trafficking API] men är intresserad av mer information kan du kontakta ditt kontoteam på Adobe.
 
 ## Bilaga: Exempel [!UICONTROL CCPA Opt-Out-of-Sale] Begär Privacy Service-API-användare
 

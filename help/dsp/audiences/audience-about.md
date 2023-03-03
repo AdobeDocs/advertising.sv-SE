@@ -3,9 +3,9 @@ title: Om Audience Management i DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP är ett integrerat mål för [den [!DNL Adobe Real-Time Customer Data Profil
 
 DSP kan även importera egna tredjepartssegment, inklusive komplexa kombinationer av tredjepartssegment. Ni kan vid behov tillhandahålla segmenten till valfri uppsättning annonsörer.
 
-Kontakta [!DNL Adobe] kontoteam för mer information.
+Kontakta kontoteamet på Adobe för mer information.
 
 ## Målgrupper som är tillgängliga som placeringsmål
 
@@ -104,11 +104,11 @@ The [!UICONTROL Segments] I visas även följande segmenttyper:
 
 * Alla importerade förstapartssegment som är tillgängliga för användaren.
 
-   Du kan inte redigera eller dela egna segment som delats med dig. Kontakta [!DNL Adobe] kontoteam om ni behöver dela förstahandssegment med andra användare.
+   Du kan inte redigera eller dela egna segment som delats med dig. Kontakta Adobe Account Team om du behöver dela egna segment med andra användare.
 
 * Alla anpassade tredjepartssegment som är tillgängliga för användaren.
 
-   Du kan inte redigera eller dela tredjepartssegment som delats med dig. Kontakta [!DNL Adobe] kontoteam om ni behöver dela segment från tredje part med andra användare.
+   Du kan inte redigera eller dela tredjepartssegment som delats med dig. Kontakta kontoteamet på Adobe om du behöver dela segment från tredje part med andra användare.
 
 >[!MORELIKETHIS]
 >

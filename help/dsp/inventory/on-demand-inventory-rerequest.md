@@ -3,9 +3,9 @@ title: Begäran igen [!DNL On Demand] Premium Inventory Devices
 description: Lär dig hur du begär om [!DNL On Demand] avtal som tidigare nekats.
 feature: DSP On Demand Inventory
 exl-id: 8b28ca37-5fe8-445e-8210-1b81945bbacc
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Du kan begära om [!DNL On Demand] lageraffärer för vilka du nekades, inklusive avtal från en utgivare som du prenumererar på. Följ de här stegen för att kontrollera att alla tillämpliga kontoinställningar är korrekta innan du skickar en ny begäran.
 
-Om ett avtal inte godkänns efter att du begärt det igen kontaktar du [!DNL Adobe] kontoteam för att se om utgivaren har ytterligare begränsningar som förbjuder ditt konto att få tillgång till avtalet.
+Om ett avtal inte godkänns efter att du har begärt om det kontaktar du ditt Adobe-kontoteam för att se om utgivaren har ytterligare begränsningar som förbjuder ditt konto att få tillgång till avtalet.
 
 En gång i tiden är det [godkänd](/help/dsp/inventory/on-demand-inventory-view-status.md), ingår som standard som mål för nya placeringar som har alla [!DNL On Demand] lager. Det nya erbjudandet finns också som mål för befintliga ersättningar, men du måste redigera placeringsinställningarna manuellt för att lägga till erbjudandet som ett mål.
 
-1. Bekräfta med [!DNL Adobe] det kontoteam som [!UICONTROL Account Type] för din organisations DSP konto är korrekt.
+1. Bekräfta med ditt Adobe-kontoteam att [!UICONTROL Account Type] för din organisations DSP konto är korrekt.
 
 1. Bekräfta att annonserarkategorin för det aktuella annonserarkontot är korrekt:
 

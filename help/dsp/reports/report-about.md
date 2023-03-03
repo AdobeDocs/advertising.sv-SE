@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
       >[!NOTE]
       >
       >* Data är tillgängliga efter den 1 mars 2019.
-      >* Frekvensen beräknas utifrån ett urval data.
+      >* Frekvensen beräknas baserat på ett urval data.
       >* För en del lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning. Den här rapporten innehåller bara avtryck som det fanns en enhetsidentifierare för.
 
 
@@ -77,7 +77,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
 ## Kontorapportering {#cross-account-reporting}
 
-Alla organisationer som har flera DSP-konton kan välja att aktivera kontoöverskridande data i anpassade rapporter, beroende på organisationens behov. Du kan till exempel ge konto A åtkomst till data för konto B och ge konto B åtkomst till data för konto C (men inte konto A). Om du vill aktivera och konfigurera den här funktionen kontaktar du [!DNL Adobe] kontoteam.
+Alla organisationer som har flera DSP-konton kan välja att aktivera kontoöverskridande data i anpassade rapporter, beroende på organisationens behov. Du kan till exempel ge konto A åtkomst till data för konto B och ge konto B åtkomst till data för konto C (men inte konto A). Kontakta ditt Adobe-kontoteam om du vill aktivera och konfigurera den här funktionen.
 
 När funktionen är aktiverad för din organisation kan du [filter](report-settings.md) någon av följande rapporttyper efter konto:  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]och [!UICONTROL Conversion].
 

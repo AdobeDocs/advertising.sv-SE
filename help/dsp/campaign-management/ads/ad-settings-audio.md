@@ -3,9 +3,9 @@ title: Ljudannonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för ljudannonser.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Det här fältet kanske visas eller inte, beroende på kontobehörigheterna.
 
 **[!UICONTROL Final VAST Tag]:** (Endast annonser som använder VAST-taggar) URL:en för annonskällan från tredje part med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
-**[!UICONTROL Select Rate]:** (Användare med endast tillstånd) En förförhandlad avgift som faktureras via Adobe, eller en av de priser som du har förhandlat och som faktureras via leverantören. Om du vill lägga till en frekvens kontaktar du [!DNL Adobe] kontoteam.
+**[!UICONTROL Select Rate]:** (Användare med endast tillstånd) En förförhandlad avgift som faktureras via Adobe, eller en av de priser som du har förhandlat och som faktureras via leverantören. Om du vill lägga till en avgift kontaktar du kontoteamet på Adobe.
 
 ### Pixel
 

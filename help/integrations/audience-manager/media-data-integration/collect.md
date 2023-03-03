@@ -3,9 +3,9 @@ title: Samla in data om klick och tryck från annonskampanjer DSP kampanjer
 description: Lär dig hur du fångar in cookie-baserat intryck och klickar på händelser från Advertising DSP ads med Audience Manager pixlar
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Skapa en [datakälla](https://experienceleague.adobe.com/docs/audience-manager/u
 
 ## Steg 2: Implementera Impression och klicka på händelsepixlar på webbsidor {#implement-dsp-pixels}
 
-Annonsörer kan skapa och implementera händelsetaggar för sina egna varumärken. Kontakta vid behov Adobe Audience Manager eller [!DNL Adobe] kontoansvarig för support.
+Annonsörer kan skapa och implementera händelsetaggar för sina egna varumärken. Kontakta vid behov din Adobe Audience Manager-konsult eller ditt kontoteam på Adobe för att få hjälp.
 
 >[!NOTE]
 >

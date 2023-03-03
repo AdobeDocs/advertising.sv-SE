@@ -3,9 +3,9 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1354'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ När du tar med en plats i den globalt blockerade platslistan som placeringsmål
 
 >[!NOTE]
 >
->Du kan också kringgå den globala listan över blockerade webbplatser för standarddisplayannonser som är kopplade till en betrodd privat affär genom att aktivera[!UICONTROL Allow unscreened sites]&quot; i [placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md). Om det behövs kan [!DNL Adobe] kontoteamet kan även inaktivera webbplatsblockering för ett offentligt (auktionsnivå) erbjudande i utgivarinställningarna för avtalet.
+>Du kan också kringgå den globala listan över blockerade webbplatser för standarddisplayannonser som är kopplade till en betrodd privat affär genom att aktivera[!UICONTROL Allow unscreened sites]&quot; i [placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md). Om det behövs kan kontoteamet på Adobe också avaktivera webbplatsblockering för ett offentligt (auktionsnivå) avtal i utgivarinställningarna för avtalet.
 
 #### Blockerade webbplatslistor på kontonivå och annonsnivå
 
@@ -104,7 +104,7 @@ Utnyttja våra integreringar med andra leverantörer [!DNL Comscore], [!DNL Doub
 
 Du kan ange standardkontroller för spärra/knip för bedrägeri före bud för varje annonsörer<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->och sedan valfritt [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
-Mer information om funktionalitet får du om du kontaktar en återförsäljare eller kontaktar [!DNL Adobe] kontoteam.
+Om du vill ha mer information om funktionalitet kontaktar du din föredragna leverantör direkt eller kontaktar ditt Adobe-kontoteam.
 
 ![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39, logotyp](/help/dsp/assets/peer39-logo.png)
 
@@ -126,7 +126,7 @@ Så här skapar du anpassade ämnessegment:
 
 * Skapa en [!DNL Comscore] konto och skapa anpassade segment, kan du begära inloggning för [!DNL Activation Segment Manager] på [https://agents.comscore.com](https://agents.comscore.com). Se [[!DNL Comscore] hjälpcenter](https://comscoreactivation.zendesk.com/hc/) om du vill ha fullständiga anvisningar om hur du ställer in anpassade segment. Avgifter för anpassade segment visas i [!DNL Segment Manager] när du skapar dem.
 
-* Så här kommer du igång med [!DNL Oracle Data Cloud], kontakt [!DNL Oracle Data Cloud] eller [!DNL Adobe] kontoteam.
+* Så här kommer du igång med [!DNL Oracle Data Cloud], kontakt [!DNL Oracle Data Cloud] eller ditt kontoteam på Adobe.
 
 ![Comscore logo](/help/dsp/assets/comscore-logo.png) ![Grapeshot logo](/help/dsp/assets/oracle-grapeshot-logo.png)
 
@@ -138,7 +138,7 @@ När du har byggt en [!DNL DoubleVerify] varumärkessäkerhetssegmentet med den 
 
 Du kan ange en [!DNL DoubleVerify] segment-ID för varje annonsör<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) -->och sedan valfritt [aktivera eller inaktivera [!UICONTROL Authentic Brand Safety] för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). DSP fakturerar ditt konto för användning av segment-ID.
 
-Mer information om funktioner finns i [!DNL DoubleVerify] direkt eller kontakta [!DNL Adobe] kontoteam.
+Mer information om funktioner finns i [!DNL DoubleVerify] direkt eller kontakta kontoteamet på Adobe.
 
 ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png)
 

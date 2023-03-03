@@ -3,9 +3,9 @@ title: Importera Adobe Audience Manager-segment för annonsinriktning
 description: Så här importerar du [!DNL Adobe] målgrupper i Advertising DSP and Search med Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ För åtkomst [!DNL Adobe] målgrupper i DSP eller [!DNL Creative]måste ni impo
 
 The [!DNL Adobe] Konto- och datahanteringsteamen utför följande steg.
 
-1. The [!DNL Adobe] kontoteamet bör konfigurera inställningen på annonsörnivå &quot;[!UICONTROL Adobe Analytics Cloud].&quot;
+1. Kontoteamet på Adobe bör konfigurera inställningen på annonsörnivå[!UICONTROL Adobe Analytics Cloud].&quot;
 
-1. The [!DNL Adobe] kontoteamet ska skicka en förfrågan<!-- Submit a request as a JIRA task? --> till datahanteringsteamet<!-- implementation team? --> om du vill importera organisationens Audience Manager-segment med hjälp av Advertising DSP native API-integrering.
+1. Kontoteamet på Adobe bör skicka en begäran<!-- Submit a request as a JIRA task? --> till datahanteringsteamet<!-- implementation team? --> om du vill importera organisationens Audience Manager-segment med hjälp av Advertising DSP native API-integrering.
 
 ### Vilka förändringar ger Audience Manager?
 
@@ -76,7 +76,7 @@ API:t automatiskt:
 
 [!DNL Adobe] personalen utför de flesta eller alla av följande steg.
 
-1. The [!DNL Adobe] kontogruppen ska skicka en begäran till datahanteringsteamet om att skapa en integrering mellan [!DNL Search] och Audience Manager. Inkludera namnen på de Audience Manager-segment som du vill exportera till [!DNL Search].
+1. Kontoteamet på Adobe bör skicka en begäran till datahanteringsteamet om att skapa en integrering mellan [!DNL Search] och Audience Manager. Inkludera namnen på de Audience Manager-segment som du vill exportera till [!DNL Search].
 
 1. Konfigurera mål för Audience Manager [!DNL Search]:
 
