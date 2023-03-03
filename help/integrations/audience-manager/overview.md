@@ -3,9 +3,9 @@ title: Adobe reklamintegrering med Adobe Audience Manager
 description: Lär dig mer om de olika sätt på vilka Adobe Advertising kan utbyta data med Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Inom [!DNL Search]kan du skapa [!DNL Google Ads] Google kund matchar målgrupper
 
 [Kunden matchar målgrupper från användar-ID:n](https://support.google.com/google-ads/answer/9199250) fungerar som webbplatstaggbaserade målgrupper, men ett icke-PII ID tilldelas unika målgruppsmedlemmar för distinkta fördelar jämfört med standardkundmatchning och taggbaserade målgrupper för webbplatser.
 
-Om du vill skapa nödvändiga användar-ID:n måste du använda en JavaScript-tagg för Adobe Advertising <!-- with a user ID parameter -->på era webbplatser. Kontakta [!DNL Search] kontoteam för mer information.
+Om du vill skapa nödvändiga användar-ID:n måste du använda en JavaScript-tagg för Adobe Advertising <!-- with a user ID parameter -->på era webbplatser. Kontakta kontoteamet på Adobe för mer information.
 
 ![process för att skapa segment](/help/integrations/assets/ad_search_user_id_pic.png)
 

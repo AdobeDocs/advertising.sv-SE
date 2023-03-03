@@ -3,7 +3,7 @@ title: Om aktivering av autentiserade segment från målgruppskällor
 description: Lär dig mer om hur man hämtar in förstahandssegment från en kunddataplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Mer information om destinationer finns i Experience Platform [Destinationshandbo
 
 <!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
-1. [Tillåt DSP att översätta kunddatasegment till [!DNL LiveRamp RampIDs]](source-durable-id.md) som är igenkännbara i en anbudsbar miljö.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your DSP account team will perform this configuration. -->
+1. [Tillåt DSP att översätta kunddatasegment till [!DNL LiveRamp RampIDs]](source-durable-id.md) som är igenkännbara i en anbudsbar miljö.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
 1. [Skapa en målgruppskälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto.
 

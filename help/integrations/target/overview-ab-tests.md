@@ -2,9 +2,9 @@
 title: Konfigurera A/B-tester för annonsering i Adobe i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search] annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 69a829a7fda684fcb2d698427f3ef5772d11433d
+source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Uppdatera klicknings-URL:en för varje annons manuellt i Google Campaign Manager
 
 * [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Kontakta DSP och Advertising Solutions Group (aac-advertising-solutions-group@adobe.com) för att hämta den placeringsnyckel som krävs och slutföra konfigurationen, och för att se till att varje klicknings-URL är ifylld med placeringsnyckeln.
+Kontakta kontoteamet på Adobe och Advertising Solutions Group (aac-advertising-solutions-group@adobe.com) för att hämta den placeringsnyckel som krävs och slutföra konfigurationen, och för att se till att varje klicknings-URL är ifylld med placeringsnyckeln.
 
 ## Steg 2: Konfigurera visningsramverket med Audience Manager {#view-through-framework}
 
@@ -166,7 +166,7 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
    * Upplevelse B: Använd [!DNL Target] användargränssnitt för att anpassa landningssidans mall baserat på de tillgångar som ingår i testet (t.ex. rubriker, text, knappplacering och kreatörer).
    >[!NOTE]
    >
-   >Exempel på användningsområden för kreativa tester kan vara att kontakta ditt kontoteam.
+   >Exempel på användningsfall för kreativa tester kan du kontakta ditt Adobe-kontoteam.
 
 ## Steg 4: Konfigurera [!DNL Analytics for Target] Analysis Workspace i [!DNL Analytics]
 
