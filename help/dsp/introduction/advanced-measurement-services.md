@@ -2,7 +2,7 @@
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 2207d7293920987db72c37ae25245574a5c0fcf5
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -93,4 +93,4 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
 ## Mer information
 
-Kontakta [!DNL Adobe] Customer Success Manager. Lösningsspecifika fallstudier finns också tillgängliga på begäran.
+Kontakta Adobe Account Team om du vill ha information om alla avancerade mätlösningar, prisinformation samt tillgängliga format och regioner för varje lösning. Lösningsspecifika fallstudier finns också tillgängliga på begäran.
