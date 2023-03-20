@@ -3,9 +3,9 @@ title: Skapa en annons
 description: Lär dig hur du skapar en annons från tredje part.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4af30f6fa6a81ce7f1a6879244178c84580caa0f
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,10 @@ Information om hur du skapar flera tredjepartsannonser samtidigt finns i [Skapa 
 1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**. I [!UICONTROL Ad Types] väljer du [annonstyp](ad-about.md#ad-types).
 
 1. Ange annonsinställningar för [ljudannonser](ad-settings-audio.md), [ansluten TV](ad-settings-connected-tv.md), [displayannonser](ad-settings-display.md), [mobilannonser](ad-settings-mobile.md), [inbyggda annonser](ad-settings-native.md), [pre-roll ads](ad-settings-pre-roll.md), eller [universella videobrev](ad-settings-universal-video.md):
+
+   >[!NOTE]
+   >
+   >Universella videoannonser kan bara bifogas till universella videomaterial.
 
    1. På [!UICONTROL Insert Ad Tag] på skärmen anger du information om annonsen från en certifierad tredjepartsleverantör och klickar sedan på **[!UICONTROL Go]**.
 
@@ -50,4 +54,5 @@ Information om hur du skapar flera tredjepartsannonser samtidigt finns i [Skapa 
 >* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
 >* [Annonsspecifikationer](ad-specs.md)
+>* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 

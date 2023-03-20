@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 251d6a0bed5b4f4b28afc5ecfe666a1e506cd7d5
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '3421'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad specs for forecast]:** (Endast videoannonsformat) Specifikationerna för annonsens varaktighet och/eller annonsen, som används för att beräkna prognosprojektionen till höger. Fälten varierar beroende på annonstyp.
 
-**[!UICONTROL Environment]:** (Endast Universal Video-annonsformat) De enhetsmiljöer (stationär dator, mobil, ansluten TV) som ska ingå som mål i placeringen.
+**[!UICONTROL Environment]:** (Endast Universal Video-annonsformat) De enhetsmiljöer (stationär dator, mobil, ansluten TV) som ska ingå som mål i placeringen. Ange minst en.
 
 **[!UICONTROL Placement tags]:** (Valfritt) Nyckelord eller smeknamn som hjälper dig att hitta den här placeringen.
 
@@ -468,5 +468,5 @@ Vilken nivå av [Ads.txt](https://iabtechlab.com/ads-txt-about/) förfiltrera ge
 >* [Redigera en placering](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

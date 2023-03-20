@@ -8,9 +8,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: b90c8d391bfd90a844e4c6bad37da193fa226397
+source-git-commit: d44b3834240e13904718912ac62df7c8fdbee963
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '883'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,8 @@ ht-degree: 6%
       + [Kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP makron](/help/dsp/campaign-management/macros.md)
    + [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Frågor och svar om Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+   + [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
    + [Hur [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)

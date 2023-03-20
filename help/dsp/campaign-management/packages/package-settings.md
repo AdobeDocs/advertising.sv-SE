@@ -3,7 +3,7 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 32d74703d9aecbddc5a5f3e0526a2cefbf1f2266
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 0%
@@ -121,5 +121,5 @@ Ange startdatum, slutdatum och målantal visningar för varje flygning. Klicka p
 >* [Redigera ett paket](package-edit.md)
 >* [Koppla en placering till ett paket](package-attach-placement.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
->* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/campaign-management-faq.md)
+>* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
 

@@ -3,14 +3,18 @@ title: Bifoga en annons till en placering
 description: Lär dig hur du bifogar en annons till en placering.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 1f35711c5543974f97ce2a9c35427636c1e5a6a9
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
 
 # Bifoga en annons till en placering
+
+>[!NOTE]
+>
+>Universella videoannonser kan bara bifogas till universella videomaterial.
 
 ## Bifoga en ny annons från [!UICONTROL Ads] Visa
 
@@ -132,4 +136,5 @@ ht-degree: 1%
 >* [Redigera en annons](ad-edit.md)
 >* [Visa en lista över placeringar som är kopplade till en annons](ad-list-placements.md)
 >* [Redigera annonsschemat för en placering](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 

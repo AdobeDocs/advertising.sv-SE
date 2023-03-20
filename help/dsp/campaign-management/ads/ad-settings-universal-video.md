@@ -3,9 +3,9 @@ title: Universella inställningar för videoreklam
 description: Se beskrivningar av tillgängliga annonsinställningar för universella videoannonser.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0c9e9c8d2a3444c623568d25262421be53c0c846
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Universella inställningar för videoreklam
 
 *Öppna betafunktion*
+
+>[!NOTE]
+>
+>Universella videoannonser kan bara bifogas till universella videomaterial.
 
 ## [!UICONTROL Insert Ad Tag]
 
@@ -50,7 +54,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Annonsspelarens format för potentiell inventering: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]*, eller *[!UICONTROL VAST]*. Synligheten mäts alltid för [!UICONTROL VPAID], men [!UICONTROL VPAID & VAST] innehåller lager som inte tillåter visningsmätning. Tänk på den här skillnaden om mätvärden för visningsbarhet är viktiga för er kampanj.
 
-Använd *[!UICONTROL VAST]*, vilket inte tillåter visningsmätning, när du har en ansluten TV eller ett lager som endast kräver VAST-format (vanligtvis från leverantörer som Google Ad Manager, Appnexus, SpotX och Freewheel) som mål.
+Använd [!UICONTROL VAST], vilket inte tillåter visningsmätning, när du har en ansluten TV eller ett lager som endast kräver VAST-format (vanligtvis från leverantörer som Google Ad Manager, Appnexus, SpotX och Freewheel) som mål. Använd även det här alternativet för lager som tidigare var kompatibla med förrullningar/annonser av standardtyp (VAST) eller telefon + surfplatta av standardtyp (VAST).
 
 **[!UICONTROL Clock Number]**: (Används endast i Förenade kungariket.) är bara tillgängligt för användare med behörighet) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
 
@@ -72,6 +76,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 >[!MORELIKETHIS]
 >
+>* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Om annonshantering](ad-about.md)
 >* [Skapa en annons](ad-create.md)
 >* [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
