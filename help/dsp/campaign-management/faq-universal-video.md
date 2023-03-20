@@ -2,14 +2,14 @@
 title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
-source-git-commit: 8e0237355e834f4ae2b9ef1ed211e047b41cafe7
+source-git-commit: fe5340cbf495eb9498d89c18080307464d4067d9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
-# # FAQs About Universal Video
+# Frågor och svar om Universal Video
 
 ## Hur skapar man universella videomaterial och annonser?
 
@@ -23,7 +23,11 @@ Skapa dem på samma sätt som när du skapar andra typer av placeringar och vide
 
 1. I samma kampanj som den universella videoutplaceringen [skapa en enda universell videoannons](/help/dsp/campaign-management/ads/ad-create.md) eller [skapa flera universella videoannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-   Om du skapar flera annonser måste du ange &quot;[!UICONTROL Universal Video]&quot; som [!UICONTROL Ad Type]. För [!DNL Google] eller [!DNL Flashtalking] annonser, när du har överfört filen klickar du på fältet annonstyp i &quot;[!UICONTROL Review ad types]&quot; och redigera det. För andra typer av annonstaggar anger du annonstypen i den kalkylbladsfil som du överför.
+   Om du skapar flera annonser måste du ange &quot;[!UICONTROL Universal Video]&quot; som [!UICONTROL Ad Type]:
+
+   * För [!DNL Google] eller [!DNL Flashtalking] annonser: I dialogrutan[!UICONTROL Review ad types]&quot; när du har överfört filen klickar du på **[!UICONTROL Ad Type]** fält och markera **[!UICONTROL Universal Video]**.
+
+   * För andra typer av annonstaggar: I kalkylbladsfilen som du överför anger du fältet Ad Type för varje annons som **[!UICONTROL Universal Video]**.
 
 1. [Öppna annonsinställningarna](/help/dsp/campaign-management/ads/ad-edit.md) för varje ny annons och välj önskat videoformat:
 
