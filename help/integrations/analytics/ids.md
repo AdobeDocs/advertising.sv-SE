@@ -3,7 +3,7 @@ title: Adobe Advertising IDs Used by [!DNL Analytics]
 description: Adobe Advertising IDs Used by [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med endast Adobe Advertising-Adobe Analytics Integration*
 
-*Gäller DSP och[!DNL Advertising Search]*
+*Gäller DSP och[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe Advertising använder två ID:n för prestandaspårning på plats: den *EF ID* och *AMO-ID*.
 
@@ -23,7 +23,7 @@ När ett annonsintryck inträffar skapar Adobe Advertising värdena för AMO ID 
 Adobe Advertising skiljer mellan klicknings- och genomsiktsposter på webbplatsen enligt följande kriterier:
 
 * En genomsiktspost hämtas när en användare besöker webbplatsen efter att ha visat en annons, men inte klickat på den. [!DNL Analytics] spelar in en genomskinlig vy om två villkor uppfylls:
-   * Besökaren har ingen klickfrekvens för en [!DNL DSP] eller [!DNL Search] under [klicka på uppslagsfönstret](#lookback-a4adc).
+   * Besökaren har ingen klickfrekvens för en [!DNL DSP] eller [!DNL Search, Social, & Commerce] under [klicka på uppslagsfönstret](#lookback-a4adc).
    * Besökaren har sett minst en [!DNL DSP] under [visningsfönster](#lookback-a4adc). Det sista intrycket skickas som en genomgång.
 * En klickbar post hämtas när en besökare klickar på en annons innan han/hon kommer in på webbplatsen. [!DNL Analytics] hämtar en klickning genom när något av följande inträffar:
    * URL:en innehåller ett EF-ID och AMO-ID som läggs till i landningssidans URL av Adobe Advertising.
@@ -112,7 +112,7 @@ där:
 * &lt;*Kanal-ID*> kan vara:
 
    * `AC` = DSP
-   * `AL` for [!DNL Advertising Search]
+   * `AL` for [!DNL Advertising Search, Social, & Commerce]
 
 * &lt;*Annons-ID*> används som en unik identifierare som genererats av Adobe för en annons. Det fungerar som en nyckel för översättning av metadata för Adobe Advertising Entity till läsbart [!DNL Analytics] dimensioner.
 
@@ -120,9 +120,9 @@ där:
 
 Exempel på AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### AMO ID-format för [!DNL Search]
+### AMO ID-format för [!DNL Search, Social, & Commerce]
 
-AMO-ID:n för [!DNL Search] följer ett distinkt format för varje sökmotor. Formatet för alla sökmotorer börjar med följande:
+AMO-ID:n för [!DNL Search, Social, & Commerce] följer ett distinkt format för varje sökmotor. Formatet för alla sökmotorer börjar med följande:
 
 ```
 AL!{userid}!{sid}

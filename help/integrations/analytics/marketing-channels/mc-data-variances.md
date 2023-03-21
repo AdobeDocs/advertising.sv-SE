@@ -3,7 +3,7 @@ title: Varför kanaldata kan variera mellan Adobe och [!DNL Marketing Channels]
 description: Lär dig varför kanaldata som spåras av AMO-ID kan variera från kanaldata som spåras av [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -22,7 +22,7 @@ De två datauppsättningarna har olika primära användningsområden:
 
    The [!DNL Analytics] [!UICONTROL Marketing Channel] Dimensionen är därför konfigurerad för att hämta och spåra alla kanaler. [!DNL Marketing Channels] kan även konfigureras för att fånga upp annonsens DSP-visningar och klickningar, och det gör det i relation till andra marknadsföringskanaler.
 
-* Adobe Advertising AMO ID: Det primära användningsområdet för data från Adobe Advertising AMO ID är att mata in den avancerade [!DNL Adobe Sensei]-baserade budgivningsalgoritmer. Algoritmerna fattar automatiskt tusentals anbudsbeslut på mikronivå varje dag för att maximera annonsutgifterna och uppnå målen för [!DNL DSP] kampanj eller [!DNL Search] portfolio. Ju mer konverteringsdata algoritmerna kan koppla ihop kampanjer, desto bättre kan algoritmerna fatta dessa beslut.
+* Adobe Advertising AMO ID: Det primära användningsområdet för data från Adobe Advertising AMO ID är att mata in den avancerade [!DNL Adobe Sensei]-baserade budgivningsalgoritmer. Algoritmerna fattar automatiskt tusentals anbudsbeslut på mikronivå varje dag för att maximera annonsutgifterna och uppnå målen för [!DNL DSP] kampanj eller [!DNL Search, Social, & Commerce] portfolio. Ju mer konverteringsdata algoritmerna kan koppla ihop kampanjer, desto bättre kan algoritmerna fatta dessa beslut.
 
    Om du vill samla in dessa data ska du [!DNL Analytics for Advertising] integreringen överför råa AMO-ID:n som kan översättas som klicknings- och genomsiktsspårningskoder i Adobe Analytics AMO ID-dimension - som lagras antingen som en anpassad variabel (eVar) eller en reserverad variabel (rVar). Klickningar för andra kanaler är inte inställda i AMO ID-dimensionen, så AMO ID-dimensionen kan inte spåra inmatning från dessa andra kanaler. Resultatet är att AMO-ID:t kvarstår genom [!DNL Marketing Channels] startpunkter.
 

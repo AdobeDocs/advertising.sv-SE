@@ -3,7 +3,7 @@ title: Adobe reklamintegrering med Adobe Audience Manager
 description: Lär dig mer om de olika sätt på vilka Adobe Advertising kan utbyta data med Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -16,13 +16,13 @@ Ni kan integrera Adobe Advertising med Audience Manager på följande sätt.
 
 ## Synkronisera Audience Manager och andra [!DNL Adobe] Segment för annonsinriktning
 
-[!DNL Search] och DSP kan hämta in metadata, hierarkidata och unika målgruppsdata för alla annonsörers eller reklambyråers Audience Manager och andra [!DNL Adobe] målgrupper. Den här unika anslutningen är bara tillgänglig för marknadsförare som använder Adobe Advertising. Se &quot;[Importera Adobe Audience Manager-segment för annonsinriktning](/help/integrations/audience-manager/import-audiences.md).&quot;
+[!DNL Search, Social, & Commerce] och DSP kan hämta in metadata, hierarkidata och unika målgruppsdata för alla annonsörers eller reklambyråers Audience Manager och andra [!DNL Adobe] målgrupper. Den här unika anslutningen är bara tillgänglig för marknadsförare som använder Adobe Advertising. Se &quot;[Importera Adobe Audience Manager-segment för annonsinriktning](/help/integrations/audience-manager/import-audiences.md).&quot;
 
 ### Använd Audience Manager och annat [!DNL Adobe] Segment att skapa [!DNL Google Ads Audiences] {#audience-manager-google-audiences}
 
-*Valda annonsörer med [!DNL Advertising Search] endast*
+*Valda annonsörer med [!DNL Advertising Search, Social, & Commerce] endast*
 
-Inom [!DNL Search]kan du skapa [!DNL Google Ads] Google kund matchar målgrupper från användar-ID:n med era befintliga Audience Manager-segment som har [!UICONTROL Adobe Media Optimizer (HTTP)] och [!UICONTROL Adobe Media Optimizer Batch Destination] som destinationer. ([!DNL Media Optimizer] är ett tidigare namn för [!DNL Search].) Detta omfattar Adobe Analytics-segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud [!DNL Audience Library]. Mer information finns i hjälpen för produkten i [!DNL Search].
+Inom [!DNL Search, Social, & Commerce]kan du skapa [!DNL Google Ads] Google kund matchar målgrupper från användar-ID:n med era befintliga Audience Manager-segment som har [!UICONTROL Adobe Media Optimizer (HTTP)] och [!UICONTROL Adobe Media Optimizer Batch Destination] som destinationer. ([!DNL Media Optimizer] är ett tidigare namn för [!DNL Search, Social, & Commerce].) Detta omfattar Adobe Analytics-segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud [!DNL Audience Library]. Mer information finns i hjälpen för produkten i [!DNL Search, Social, & Commerce].
 
 [Kunden matchar målgrupper från användar-ID:n](https://support.google.com/google-ads/answer/9199250) fungerar som webbplatstaggbaserade målgrupper, men ett icke-PII ID tilldelas unika målgruppsmedlemmar för distinkta fördelar jämfört med standardkundmatchning och taggbaserade målgrupper för webbplatser.
 
@@ -34,7 +34,7 @@ När du har skapat målgrupperna kan du använda dem i [!DNL Google Ads] kampanj
 
 ### Använd Audience Manager och andra [!DNL Adobe] Segment att rikta eller exkludera annonser {#audience-manager-targets}
 
-* (Valda annonsörer med [!DNL Search]) Du kan använda valfritt [!DNL Google Ads] målgrupper som [skapad med [!DNL Adobe] segment](#audience-manager-google-audiences) som kampanjnivå eller annonsnivå som mål eller undantag i er [!DNL Google Ads] kampanjer.
+* (Valda annonsörer med [!DNL Search, Social, & Commerce]) Du kan använda valfritt [!DNL Google Ads] målgrupper som [skapad med [!DNL Adobe] segment](#audience-manager-google-audiences) som kampanjnivå eller annonsnivå som mål eller undantag i er [!DNL Google Ads] kampanjer.
 
 * (Annonsörer med DSP) Du kan använda dina befintliga [!DNL Adobe] segment som mål för era annonsplaceringar. Du kan också inkludera segmenten i återanvändbara målgrupper, som du kan använda som mål eller undantag för flera placeringar.
 

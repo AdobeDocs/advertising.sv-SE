@@ -1,15 +1,15 @@
 ---
 title: Konfigurera A/B-tester för annonsering i Adobe i Adobe Target
-description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search] annonser.
+description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search, Social, & Commerce] annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
-# Konfigurera A/B-tester i Adobe Target för DSP och [!DNL Advertising Search] Annonser
+# Konfigurera A/B-tester i Adobe Target för DSP och [!DNL Advertising Search, Social, & Commerce] Annonser
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 

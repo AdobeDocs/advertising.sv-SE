@@ -3,7 +3,7 @@ title: Enhetsoberoende lösningar
 description: Läs mer om funktioner för olika enheter.
 feature: DSP Introduction
 exl-id: d21917ef-5cac-46f8-8222-099667797683
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Du kan inkludera följande mått i anpassade rapporter:
 
 *Annonsörer med endast konverteringsspårning för Adobe*
 
-Med personbaserad attribuering kan du attribuera konverteringar som ägde rum på en annan enhet än den enhet som medieexponeringen inträffade på. Personbaserad attribueringsmätning finns tillgänglig i alla DSP, [!DNL Adobe Advertising Creative]och [!DNL Adobe Advertising Search] för annonsörer som har implementerat Adobe Advertising-konverteringspixlar på sina webbplatser.
+Med personbaserad attribuering kan du attribuera konverteringar som ägde rum på en annan enhet än den enhet som medieexponeringen inträffade på. Personbaserad attribueringsmätning finns tillgänglig i alla DSP, [!DNL Adobe Advertising Creative]och [!DNL Adobe Advertising Search, Social, & Commerce] för annonsörer som har implementerat Adobe Advertising-konverteringspixlar på sina webbplatser.
 
 ### Aktivera personbaserad attribueringsmätning
 

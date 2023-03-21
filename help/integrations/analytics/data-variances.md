@@ -3,7 +3,7 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '3282'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Annonsörer med [!DNL Analytics for Advertising] <!-- (A4AdC) --> integreringssp
 
 The [!DNL Analytics for Advertising] integreringen använder två variabler (eVars eller rVars \[reserverade eVars]\) för att fånga upp [EF-ID och AMO-ID](ids.md). Variablerna konfigureras med ett enda uppslagsfönster (den tid som klickningar och genomgångar tilldelas) och en attribueringsmodell. Om inget annat anges konfigureras variablerna så att de matchar standardfönstret för klickning på annonsnivå och attribueringsmodellen i Adobe Advertising.
 
-Uppslagsfönster och attribueringsmodeller kan dock konfigureras i både Analytics (via eVars) och Adobe Advertising. I Adobe Advertising är attribueringsmodellen konfigurerbar inte bara på annonsörsnivå (för budoptimering) utan också inom enskilda datavyer och rapporter (endast för rapportering). En organisation kan till exempel föredra att använda modellen för jämn fördelning för optimering, men använda den senaste beröringsattribueringen för rapporter i DSP eller [!DNL Advertising Search]. Om du ändrar attribueringsmodeller ändras antalet konverteringar.
+Uppslagsfönster och attribueringsmodeller kan dock konfigureras i både Analytics (via eVars) och Adobe Advertising. I Adobe Advertising är attribueringsmodellen konfigurerbar inte bara på annonsörsnivå (för budoptimering) utan också inom enskilda datavyer och rapporter (endast för rapportering). En organisation kan till exempel föredra att använda modellen för jämn fördelning för optimering, men använda den senaste beröringsattribueringen för rapporter i DSP eller [!DNL Advertising Search, Social, & Commerce]. Om du ändrar attribueringsmodeller ändras antalet konverteringar.
 
 Om ett rapportsökningsfönster eller en attribueringsmodell ändras i en produkt och inte i en annan, kommer samma rapporter från varje system att visa distinkta data:
 
@@ -88,7 +88,7 @@ Ta hänsyn till dessa skillnader när du jämför vykonverteringar mellan Adobe-
 
 Se en lista med [!DNL Analytics] attribueringsmodeller och deras definitioner på [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
 
-Om du är inloggad [!DNL Search]finns en lista
+Om du är inloggad [!DNL Search, Social, & Commerce]finns en lista
 
 * (Användare i Nordamerika) [`https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm`](https://enterprise-na.efrontier.com/CMDashboard/help/external/tracking/r_appendix_-_how_attribution_rules_are_calculated.htm)
 
@@ -118,7 +118,7 @@ Uppslagsfönstret för [!DNL Marketing Channels] kan anpassas. I Adobe Advertisi
 
 ### Olika kanalattribut i [!DNL Marketing Channels]
 
-Adobe Advertising-rapporter fångar endast betalmedier som har handlagts via Adobe Advertising (betald sökning efter [!DNL Advertising Search] annonser och displayannonser för annonser DSP annonser), medan [!DNL Marketing Channels] kan spåra alla digitala kanaler. Detta kan leda till en diskrepans i den kanal för vilken en konvertering görs.
+Adobe Advertising-rapporter fångar endast betalmedier som har handlagts via Adobe Advertising (betald sökning efter [!DNL Advertising Search, Social, & Commerce] annonser och displayannonser för annonser DSP annonser), medan [!DNL Marketing Channels] kan spåra alla digitala kanaler. Detta kan leda till en diskrepans i den kanal för vilken en konvertering görs.
 
 Till exempel har betalsökningar och naturliga sökkanaler ofta en symbiotisk relation, där varje kanal hjälper den andra. The [!DNL Marketing Channels] rapporten attribuerar vissa konverteringar till naturlig sökning som Adobe Advertising inte kommer att göra eftersom den inte spårar naturlig sökning.
 
@@ -160,7 +160,7 @@ I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for 
 Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
 ```
 
-[!UICONTROL AMO ID Instances] representerar antalet gånger som AMO-ID:n (`s_kwcid` parametrar) spåras på platsen. Varje gång någon klickar på en annons visas en `s_kwcid` parametern läggs till i landningssidans URL. Antalet [!UICONTROL AMO ID Instances]motsvarar därför antalet klick och kan valideras mot faktiska annonsklickningar. Vi ser vanligtvis en matchningsfrekvens på 80 % för [!DNL Search] och en matchningsfrekvens på 30 % för [!DNL DSP] trafik (när den filtreras så att den endast innehåller klickfrekvens [!UICONTROL AMO ID Instances]). Skillnaden i förväntningarna mellan sökning och visning kan förklaras av det förväntade trafikbeteendet. Sökfunktionen hämtar avsikten, och som sådan har användarna vanligtvis för avsikt att klicka på sökresultaten från sin fråga. Användare som ser en webbannons eller en videoannons är mer benägna att klicka på annonsen oavsiktligt och sedan antingen hoppa från webbplatsen eller avbryta det nya fönster som läses in innan sidaktiviteten spåras.
+[!UICONTROL AMO ID Instances] representerar antalet gånger som AMO-ID:n (`s_kwcid` parametrar) spåras på platsen. Varje gång någon klickar på en annons visas en `s_kwcid` parametern läggs till i landningssidans URL. Antalet [!UICONTROL AMO ID Instances]motsvarar därför antalet klick och kan valideras mot faktiska annonsklickningar. Vi ser vanligtvis en matchningsfrekvens på 80 % för [!DNL Search, Social, & Commerce] och en matchningsfrekvens på 30 % för [!DNL DSP] trafik (när den filtreras så att den endast innehåller klickfrekvens [!UICONTROL AMO ID Instances]). Skillnaden i förväntningarna mellan sökning och visning kan förklaras av det förväntade trafikbeteendet. Sökfunktionen hämtar avsikten, och som sådan har användarna vanligtvis för avsikt att klicka på sökresultaten från sin fråga. Användare som ser en webbannons eller en videoannons är mer benägna att klicka på annonsen oavsiktligt och sedan antingen hoppa från webbplatsen eller avbryta det nya fönster som läses in innan sidaktiviteten spåras.
 
 I Adobe Advertising-rapporter kan du jämföra klickningar med instanser med hjälp av &quot;[!UICONTROL ef_id_instances]&quot; i stället för [!UICONTROL AMO ID Instances]:
 
@@ -234,7 +234,7 @@ Klickdata kan också spelas in i miljöer där klickningar inte kan spelas in me
 
 ### Använda Adobe-reklamstatistik för icke-Adobe-reklamDimensioner
 
-Adobe Advertising ger Analytics [reklamspecifik trafikstatistik och relaterade dimensioner från [!DNL DSP] och [!DNL Search]](advertising-metrics-in-analytics.md). Måtten för annonsering i Adobe gäller endast för de angivna måtten för annonsering i Adobe, och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
+Adobe Advertising ger Analytics [reklamspecifik trafikstatistik och relaterade dimensioner från [!DNL DSP] och [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Måtten för annonsering i Adobe gäller endast för de angivna måtten för annonsering i Adobe, och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
 
 Om du till exempel visar [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] mått per konto, som är en Adobe-annonsdimension, så ser ni det totala [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] efter konto.
 

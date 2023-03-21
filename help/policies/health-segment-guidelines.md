@@ -3,7 +3,7 @@ title: Adobe Advertising Acceptable Health Segments
 description: Se riktlinjer för godtagbara hälsorelaterade målgruppssegment och taktik att använda som alternativ till att inrikta sig på hälsorelaterade målgruppssegment.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Riktlinjer för godtagbar hälsosegmentering för Adobe
 
-*För Adobe Advertising DSP och[!DNL Adobe Advertising Search]*
+*För Adobe Advertising DSP och[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 I följande riktlinjer beskrivs oacceptabla och godtagbara hälsorelaterade målgruppssegment. De rekommenderar också taktik att använda som alternativ till att inrikta sig på hälsorelaterade målgruppssegment.
 

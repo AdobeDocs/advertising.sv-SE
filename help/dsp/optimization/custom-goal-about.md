@@ -3,7 +3,7 @@ title: Om anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: 806450b9-ce32-4f5c-a2ac-ba8e435ce36d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Om anpassade mål
 
-Anpassade mål definierar vilka framgångshändelser en annonsörer behöver för att uppfylla sina affärsmål. Varje paket som använder optimeringsmålen[!UICONTROL Highest ROAS - Custom Goal]&quot; eller &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; måste innehålla ett anpassat mål som hjälper till att uppnå det övergripande optimeringsmålet. Du kan skapa anpassade mål som *mål* in [!DNL Adobe Advertising Search].
+Anpassade mål definierar vilka framgångshändelser en annonsörer behöver för att uppfylla sina affärsmål. Varje paket som använder optimeringsmålen[!UICONTROL Highest ROAS - Custom Goal]&quot; eller &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; måste innehålla ett anpassat mål som hjälper till att uppnå det övergripande optimeringsmålet. Du kan skapa anpassade mål som *mål* in [!DNL Advertising Search, Social, & Commerce].
 
 ![anpassade mål](/help/dsp/assets/objective-goals.png)
 

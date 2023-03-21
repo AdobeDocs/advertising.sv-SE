@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Så här använder du ett eller flera filter:
 
 >[!NOTE]
 >
->Konverteringssökvägarna innehåller alla visningar och klickningar i annonsörens intryckt eller klickbara fönster som är konfigurerade i [!DNL Adobe Advertising Search]. Klick ges företräde framför visningar under konverteringsattribuering. Alla klick i en konverteringsväg får full kredit baserat på attribueringsregeln. Impressions får bara kredit när inga klick spåras i konverteringssökvägen.
+>Konverteringssökvägarna innehåller alla visningar och klickningar i annonsörens intryckt eller klickbara fönster som är konfigurerade i [!DNL Advertising Search, Social, & Commerce]. Klick ges företräde framför visningar under konverteringsattribuering. Alla klick i en konverteringsväg får full kredit baserat på attribueringsregeln. Impressions får bara kredit när inga klick spåras i konverteringssökvägen.
 
 * *[!UICONTROL Last Event]:* Attribut konverteras till det sista klicket eller det sista intrycket i konverteringssökvägen.
 
@@ -75,7 +75,7 @@ Så här använder du ett eller flera filter:
 
 * *[!UICONTROL U-shaped]:* Attributerar konverteringen till alla händelser i konverteringsbanan, men ger störst vikt till den första och den sista händelsen, med successivt mindre vikt till händelserna mitt i konverteringsbanan.
 
-* *[!UICONTROL Display Only]:*  Attribut konverteras till den sista DSP klickningen eller intrycket i konverteringssökvägen. Detta inkluderar videoklipp och anslutna TV-annonser och utesluter klickningar på [!DNL Adobe Advertising Search] annonser.
+* *[!UICONTROL Display Only]:*  Attribut konverteras till den sista DSP klickningen eller intrycket i konverteringssökvägen. Detta inkluderar videoklipp och anslutna TV-annonser och utesluter klickningar på [!DNL Advertising Search, Social, & Commerce] annonser.
 
 * *[!UICONTROL Social Only]:* Föråldrad
 

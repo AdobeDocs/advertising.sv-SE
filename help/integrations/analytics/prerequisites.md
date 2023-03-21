@@ -3,7 +3,7 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Krav och viktig information för implementering [!DNL Analytics for Advertising]
 
-*Annonsörer med DSP och[!DNL Advertising Search]*
+*Annonsörer med DSP och[!DNL Advertising Search, Social, & Commerce]*
 
 Granska följande information innan du integrerar Adobe Advertising med Adobe Analytics.
 

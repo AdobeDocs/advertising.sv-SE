@@ -1,7 +1,7 @@
 ---
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
-source-git-commit: 0b5e60f033d623bb6d342c6b56cb98f0bfcde916
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -38,11 +38,11 @@ Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan viss
 
 (Valfritt) Ytterligare Experience Cloud-produkter som är kopplade till DSP konto. Produkterna måste vara kopplade till samma Experience Cloud-organisations-ID som anges i [!UICONTROL Adobe IMS IDs] -avsnitt.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Adobe Advertising Search] eller som använder Adobe Advertising conversion pixels) A [!DNL Search] konto som DSP ska använda för att utbyta attribueringsdata.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder Adobe Advertising conversion pixels) A [!DNL Search, Social, & Commerce] konto som DSP ska använda för att utbyta attribueringsdata.
 
 **[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; frivilligt, gäller endast data som samlats in med Adobe Advertising conversion tracking tags som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från klientens webbplats till DSP.
 
-För att data ska visas i rapportsviterna [!DNL Search] inställning på annonsörnivå till[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Annonsörens [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
+För att data ska visas i rapportsviterna [!DNL Search, Social, & Commerce] inställning på annonsörnivå till[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Annonsörens [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
 
 >[!WARNING]
 >

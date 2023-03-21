@@ -3,7 +3,7 @@ title: Skapa ett anpassat mål
 description: Skapa ett anpassat mål
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Skapa ett anpassat mål
 
-Du kan skapa anpassade mål som *mål* inom [!DNL Adobe Advertising Search].
+Du kan skapa anpassade mål som *mål* inom [!DNL Advertising Search, Social, & Commerce].
 
-Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search] med samma Adobe Experience Cloud-organisations-ID, inifrån [!DNL Search] klientinställningar. Om ditt DSP inte är länkat till en [!DNL Search] ska du kontakta kontoteamet på Adobe.
+Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search, Social, & Commerce] med samma Adobe Experience Cloud-organisations-ID, inifrån [!DNL Search, Social, & Commerce] klientinställningar. Om ditt DSP inte är länkat till en [!DNL Search, Social, & Commerce] ska du kontakta kontoteamet på Adobe.
 
 >[!TIP]
 >
 >Se [bästa sättet att skapa anpassade mål](custom-goal-best-practices.md) för tips om hur du konfigurerar dina anpassade mål.
 
-1. Logga in [!DNL Adobe Advertising Search] at (användare i Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (alla andra användare) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. Logga in [!DNL Advertising Search, Social, & Commerce] at (användare i Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (alla andra användare) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Kontrollera att mätvärdena du vill inkludera i ditt mål har spårats, att de är tillgängliga i produkten och att de innehåller ett visningsnamn:
    1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Admin]>[!UICONTROL Transaction Properties]**.
    1. Leta reda på måtten och se till att **[!UICONTROL Show in UI and Reports]** är aktiverat för måttet.

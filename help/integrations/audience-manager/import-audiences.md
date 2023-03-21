@@ -3,7 +3,7 @@ title: Importera Adobe Audience Manager-segment för annonsinriktning
 description: Så här importerar du [!DNL Adobe] målgrupper i Advertising DSP and Search med Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Importera Adobe Audience Manager-segment för annonsinriktning
 
-DSP och [!DNL Advertising Search] kan alla hämta in metadata, hierarkidata och unika målgruppsdata för alla annonsörers eller reklambyråers [!DNL Adobe] målgrupper<!-- segments or audiences? Standardize terms per AAM's docs -->. Detta inkluderar data för:
+DSP och [!DNL Advertising Search, Social, & Commerce] kan alla hämta in metadata, hierarkidata och unika målgruppsdata för alla annonsörers eller reklambyråers [!DNL Adobe] målgrupper<!-- segments or audiences? Standardize terms per AAM's docs -->. Detta inkluderar data för:
 
 * Adobe Audience Manager segment
 
@@ -22,7 +22,7 @@ DSP och [!DNL Advertising Search] kan alla hämta in metadata, hierarkidata och 
 
 * Segment som har skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager
 
-För åtkomst [!DNL Adobe] målgrupper i DSP eller [!DNL Creative]måste ni importera målgrupperna till DSP. För åtkomst [!DNL Adobe] målgrupper i [!DNL Search]måste du importera målgrupperna till [!DNL Search].
+För åtkomst [!DNL Adobe] målgrupper i DSP eller [!DNL Creative]måste ni importera målgrupperna till DSP. För åtkomst [!DNL Adobe] målgrupper i [!DNL Search, Social, & Commerce]måste du importera målgrupperna till [!DNL Search, Social, & Commerce].
 
 ## Förutsättningar
 
@@ -70,19 +70,19 @@ API:t automatiskt:
 
    * Adobe AdCloud: 411 (Detta levereras som standard och automatiskt som en del av [!DNL Identity Service] version 2.0. Organisationer med [!DNL Identity Service] i versioner under 2.0 bör den här pixeln läggas till i Audience Manager-behållaren.
 
-## Importera målgrupper från Audience Manager till [!DNL Search]
+## Importera målgrupper från Audience Manager till [!DNL Search, Social, & Commerce]
 
-### Steg för att importera målgrupper till [!DNL Search]
+### Steg för att importera målgrupper till [!DNL Search, Social, & Commerce]
 
 [!DNL Adobe] personalen utför de flesta eller alla av följande steg.
 
-1. Kontoteamet på Adobe bör skicka en begäran till datahanteringsteamet om att skapa en integrering mellan [!DNL Search] och Audience Manager. Inkludera namnen på de Audience Manager-segment som du vill exportera till [!DNL Search].
+1. Kontoteamet på Adobe bör skicka en begäran till datahanteringsteamet om att skapa en integrering mellan [!DNL Search, Social, & Commerce] och Audience Manager. Inkludera namnen på de Audience Manager-segment som du vill exportera till [!DNL Search, Social, & Commerce].
 
-1. Konfigurera mål för Audience Manager [!DNL Search]:
+1. Konfigurera mål för Audience Manager [!DNL Search, Social, & Commerce]:
 
    1. Skapa två nya mål: `[!UICONTROL Adobe Media Optimizer (HTTP)]` och `[!UICONTROL Adobe Media Optimizer Batch Destination]`.
 
-      [!DNL Media Optimizer] är ett tidigare namn för [!DNL Search].
+      [!DNL Media Optimizer] är ett tidigare namn för [!DNL Search, Social, & Commerce].
 
    1. Ange segmenten för var och en av destinationerna.
 
@@ -90,13 +90,13 @@ API:t automatiskt:
 
       The [!UICONTROL Manually map segments] gör att du kan mappa segmenten manuellt för att synkronisera med gruppmålet (`[!UICONTROL Adobe Media Optimizer Batch Destination]`). Inga segment behöver mappas manuellt till HTTP-målet.
 
-1. Inom [!DNL Search], antingen [!DNL Search] implementeringsteamet eller en användare med klienthanterarrollen för direkt åtkomst bör initiera importen från [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
+1. Inom [!DNL Search, Social, & Commerce], antingen [!DNL Search, Social, & Commerce] implementeringsteamet eller en användare med klienthanterarrollen för direkt åtkomst bör initiera importen från [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Audience Manager Setup].
 
    Du måste ange organisationens Experience Cloud [!DNL Organization ID] ([!DNL IMS org ID]). ID:t måste vara samma som det som används för organisationens Audience Manager-konto.
 
 ### Vilka förändringar ger Audience Manager?
 
-Organisationen kommer att se två [!DNL Search] destinationer i Audience Manager:
+Organisationen kommer att se två [!DNL Search, Social, & Commerce] destinationer i Audience Manager:
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -124,7 +124,7 @@ Segment membership data is sent only after one of the following events occurs:
 
   * The segment is added to the [!DNL Adobe AdCloud Cross-Channel] batch and real-time destinations within the Audience Manager user interface.
 
-* (Advertisers with [!DNL Search]):
+* (Advertisers with [!DNL Search, Social, & Commerce]):
 
   * The segment is targeted in an Adobe Advertising search ad.
 
@@ -146,9 +146,9 @@ I DSP ordnas segmentnamnen efter Audience Manager-taxonomin och är tillgänglig
 
 I [!DNL Creative], är segmenten tillgängliga i upplevelseinställningarna för målnoder.
 
-### I [!DNL Advertising Search]
+### I [!DNL Advertising Search, Social, & Commerce]
 
-I [!DNL Search]är segmenten tillgängliga när du skapar en [!DNL Google] målgrupp med [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; från [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
+I [!DNL Search, Social, & Commerce]är segmenten tillgängliga när du skapar en [!DNL Google] målgrupp med [!UICONTROL Data Source] &quot;[!UICONTROL Adobe Audience]&quot; från [!UICONTROL Campaigns] > [!UICONTROL Audiences] > [!UICONTROL Library].
 
 För varje [!DNL Google] målgrupper som du skapar, [!DNL Google] används för att anpassa målgruppens storlek.
 

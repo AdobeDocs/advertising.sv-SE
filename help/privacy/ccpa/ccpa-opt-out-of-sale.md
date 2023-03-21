@@ -3,7 +3,7 @@ title: 'Adobe Advertising support for the California Consumer Privacy Act : Kons
 description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning.
 feature: CCPA
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Som tjänsteleverantör tillhandahåller Adobe Advertising stöd till ert föret
 
 I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur du kan förmedla begäran om att avanmäla dig från försäljning till Adobe Advertising och hur du hämtar rapporter om din organisations begäran om att avanmäla dig från försäljning.
 
-Mer information om hur [!DNL Advertising Search]; Reklamkreatörer; och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md).
+Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Reklamkreatörer; och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
@@ -64,14 +64,14 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 
    >[!IMPORTANT]
    >
-   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla era Adobe-annonskonton finns - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
+   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla era Adobe-annonskonton finns - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
 1. Använd Adobe Experience Platform Privacy Service API för att [skicka begäran om avanmälan](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga förfrågningar.
 
    Se bilagan nedan för ett exempel på en begäran om avanmälan från försäljning.
 
    >[!NOTE]
-   Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
+   Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
 Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 

@@ -3,7 +3,7 @@ title: Översikt över [!DNL Analytics for Advertising]
 description: Översikt över [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Översikt över [!DNL Analytics for Advertising]
 
-*Annonsörer med DSP och[!DNL Advertising Search]*
+*Annonsörer med DSP och[!DNL Advertising Search, Social, & Commerce]*
 
 [!DNL Analytics for Advertising] integrerar Adobe Analytics och Adobe Advertising för att utöka och förbättra funktionerna i varje enskild produkt.
 
@@ -66,7 +66,7 @@ Utan behov av ytterligare pixlar [!DNL Analytics for Advertising] möjliggör b�
 
    Du kan använda [!DNL Analytics] segment för återmarknadsföring av förstahandswebbplatser i [!DNL DSP] och betalda sökannonser.
 
-   ([!DNL Search] endast) Annonsörer med [!DNL Analytics] men inte Audience Manager kan också skapa taggbaserade målgrupper (ommarknadsföringslistor) för Google webbplatser och kundmatchande målgrupper (kundlistor) från [!DNL Analytics] segment som delas med Experience Cloud.
+   ([!DNL Search, Social, & Commerce] endast) Annonsörer med [!DNL Analytics] men inte Audience Manager kan också skapa taggbaserade målgrupper (ommarknadsföringslistor) för Google webbplatser och kundmatchande målgrupper (kundlistor) från [!DNL Analytics] segment som delas med Experience Cloud.
 
 ### Webbplatskonverteringsmått som budsignaler
 
@@ -82,7 +82,7 @@ Se &quot;[Analytics Metrics in Adobe Advertising](analytics-data-in-advertising.
 
 ### Analyssegment för återmarknadsföring av webbplatser
 
-Adobe Advertising can ingest [!DNL Analytics] segment för återmarknadsföring för DSP och [!DNL Search] annonser som använder Experience Cloud-målgruppsintegreringen mellan [!DNL Analytics] och Experience Cloud.
+Adobe Advertising can ingest [!DNL Analytics] segment för återmarknadsföring för DSP och [!DNL Search, Social, & Commerce] annonser som använder Experience Cloud-målgruppsintegreringen mellan [!DNL Analytics] och Experience Cloud.
 
 Så här öppnar du [!DNL Analytics] segment, ett annonserarkonto måste ha [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiverat. När ID-tjänsten är aktiverad, alla segment i Experience Cloud (inklusive segment skapade i [!DNL Analytics] och publiceras i Experience Cloud, segment skapade i Adobe Audience Manager, segment skapade i Experience Cloud med [!DNL People core service]och segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) blir tillgängliga i Adobe Advertising så snart de bearbetas.
 
