@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 4b92f880dbb9edf45b9521fb261cfbeb52a27218
+source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 20 mars 2023 | [!UICONTROL Campaigns] | Läs mer om universella videomaterial och annonser, som är en öppen betafunktion. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 februari 2023 | [!UICONTROL Campaigns] | Alternativen för att visa ändringsloggar i diagramformulär och lägga till anteckningar till alla poster är inte betaversioner. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 februari 2023 | [!UICONTROL Campaigns] | (Betafunktioner) Nu kan du visa ändringsloggar i diagramformulär, och du kan lägga till anteckningar i alla poster. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 25 januari 2023 | [!UICONTROL Deals] | En ny utgiftskolumn för&quot;PG Impression Pacing&quot; i Inventory > Deals-vyn visar rapporter om hur man ska hitta garanterade erbjudanden. | Se &quot;[Redigera en anpassad kolumnvy](/help/dsp/campaign-management/reports/column-view-edit.md).&quot; |
@@ -49,7 +50,7 @@ Följande funktioner är nya eller nyligen ändrade.
 |  | [!DNL Freewheel] garanterad programmatisk annonsering | Nu kan du skicka in annonser och kontrollera status för annonser för [!DNL Freewheel] garanterad programmatisk marknadsföring från [!UICONTROL Ads] vy. Tidigare kunde du bara göra båda från [!UICONTROL Deals] vy. | Se &quot;[Skicka in en annons för en programmatisk garanterad affär till [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Programmatiska garanterade erbjudanden](/help/dsp/inventory/freewheel-check-status.md).&quot; |
 | 7 oktober 2021 | Hjälp | Alla [DSP och annan dokumentation om annonsering i Adobe](https://experienceleague.adobe.com/docs/advertising.html) på [!DNL Experience League] är nu maskinöversatt till alla tillgängliga språk. Om du vill ändra vilket språk som visas använder du menyn Ändra språk längst ned till vänster på en sida.<br>![Ändra språk](/help/dsp/assets/change-language.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- older entries:
 
