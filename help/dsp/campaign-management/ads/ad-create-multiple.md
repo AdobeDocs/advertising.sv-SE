@@ -3,9 +3,9 @@ title: Skapa flera tredjepartsannonser
 description: Lär dig skapa flera tredjepartsannonser samtidigt.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: d072670b26e56e986df2a6690978df1e74237dad
+source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,10 @@ Du kan överföra antingen [!DNL DoubleClick] och [!DNL Flashtalking] eller en f
 1. När överföringen är klar klickar du på **[!UICONTROL Start Building Ads]**.
 
 1. Granska information och status för varje annons:
+
+   1. (Universal Video ads using [!DNL Google] eller [!DNL Flashtalking] taggar) Klicka på **[!UICONTROL Ad Type]** fält och markera **[!UICONTROL Universal Video]**.
+
+   1. (Universal video ads) För varje ny annons klickar du på ![redigera](/help/dsp/assets/edit.png)väljer du [tillämpligt videoformat](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)och klicka sedan på **Spara**.
 
    1. Granska status för varje annons, som baseras på valideringskontroller för den överförda taggen.
 
