@@ -2,20 +2,22 @@
 title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
-source-git-commit: 1740c4ca3f70a0e3edb7e4ebaea0be3f0b731b16
+source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Frågor och svar om universell video
 
+[Universella videoannonser](/help/dsp/campaign-management/ads/ad-about.md) kan ni rikta in er på videolagret från stationära, mobila och anslutna TV-miljöer för VPAID- och VAST-inventering med en enda videoplacering.
+
 ## Hur skapar man universella videomaterial och annonser?
 
 Universella videomaterial kan bara innehålla universella videoannonser och universella videoannonser kan bara bifogas till universella videomaterial.
 
-Skapa dem på samma sätt som när du skapar andra typer av placeringar och videoklipp:
+Skapa universella videomaterial och annonser på ungefär samma sätt som du skapar andra typer av videomaterial:
 
 1. Inom den önskade kampanjen [skapa en universell videoplacering](/help/dsp/campaign-management/placements/placement-create.md), markera [!UICONTROL Placement Type] **[!UICONTROL Universal Video]**.
 
