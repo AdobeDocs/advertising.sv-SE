@@ -2,16 +2,16 @@
 title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
-source-git-commit: 17a47e9d7ddb18b36da998d289f949e540beded8
+source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
 # Frågor och svar om universell video
 
-[Universella videoannonser](/help/dsp/campaign-management/ads/ad-about.md) kan ni rikta in er på videolagret från stationära, mobila och anslutna TV-miljöer för VPAID- och VAST-inventering med en enda videoplacering.
+[Universella videoannonser](/help/dsp/campaign-management/ads/ad-about.md#ad-types) kan ni rikta in er på videolagret från stationära, mobila och anslutna TV-miljöer för VPAID- och VAST-inventering med en enda videoplacering.
 
 ## Hur skapar man universella videomaterial och annonser?
 
