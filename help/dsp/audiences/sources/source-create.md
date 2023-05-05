@@ -3,16 +3,14 @@ title: Skapa en målgruppskälla för att aktivera förstahandspubliker
 description: Lär dig hur du skapar en källa för att importera målgrupper till ditt konto eller till ett annonserarkonto.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
 # Skapa en målgruppskälla för att aktivera förstahandspubliker
-
-*Betafunktion*
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
@@ -22,7 +20,7 @@ Skapa en källa för att importera målgrupper till ditt DSP eller ett annonsera
 >
 >När du har skapat en källa för [!DNL Real-Time CDP]måste du aktivera [!DNL Real-Time CDP] målgrupper genom Adobe Advertising DSP destination inom [!DNL Real-Time CDP] för att börja importera dem. Se [stegen i aktiveringsarbetsflödet](source-about.md#workflow-sources).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Sources (BETA)].
+1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
 1. Klicka på [!UICONTROL Add Source].
 

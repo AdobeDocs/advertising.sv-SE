@@ -3,9 +3,9 @@ title: Om aktivering av autentiserade segment från målgruppskällor
 description: Lär dig mer om hur man hämtar in förstahandssegment från en kunddataplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: f6308ac9af8019987f4a2e501cba6b019cb032b6
+source-git-commit: 68095fc77659826fae43f2453d17022ef1880807
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Om aktivering av autentiserade segment från målgruppskällor
 
 <!-- Doesn't specifically explain what you can do in our UI -->
-*Betafunktion*
 
 DSP kan importera förstahandssegment som består av autentiserade signaler som byggts inom en kunddataplattform (CDP). Du kan använda de kapslade segmenten som mål för dina placeringar.
 
@@ -26,8 +25,6 @@ I [!DNL Real-time CDP], *mål* är anslutningar till externa dataplattformar som
 Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), inklusive en översikt över produkten, instruktioner för [skapa målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapa målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)och [aktivera data till mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 ### Arbetsflöde för att använda DSP integrering med [!DNL Real-time CDP] {#workflow-sources}
-
-<!-- Make sure that titles make the distinctions clear -- everything can't be "Activate XXX." -->
 
 1. [Tillåt DSP att översätta kunddatasegment till [!DNL LiveRamp RampIDs]](source-durable-id.md) som är igenkännbara i en anbudsbar miljö.<!-- I don't think I need this here: This requires DSP account-level and campaign-level settings to enable segment sharing with [!DNL LiveRamp], which will translate customer data to [!DNL RampIDs] to create targetable segments. Your Adobe Account Team will perform this configuration. -->
 
