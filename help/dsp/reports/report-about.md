@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
       >[!NOTE]
       >
       >* Data är tillgängliga efter den 1 mars 2019.
-      >* Frekvensen beräknas baserat på ett urval data.
+      >* Frekvensen beräknas utifrån ett urval data.
       >* För en del lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning. Den här rapporten innehåller bara avtryck som det fanns en enhetsidentifierare för.
 
 
@@ -75,6 +75,8 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Site]:** Som standard innehåller standardvärden, totala mediekostnader och totala fakturerbara nettoutgifter per webbplats.
 
+   * **[!UICONTROL Household]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+
 ## Kontorapportering {#cross-account-reporting}
 
 Alla organisationer som har flera DSP-konton kan välja att aktivera kontoöverskridande data i anpassade rapporter, beroende på organisationens behov. Du kan till exempel ge konto A åtkomst till data för konto B och ge konto B åtkomst till data för konto C (men inte konto A). Kontakta ditt Adobe-kontoteam om du vill aktivera och konfigurera den här funktionen.
@@ -87,6 +89,7 @@ Dina kontoinställningar på [!UICONTROL Settings] > [!UICONTROL Account] ange a
 >
 >* [Skapa en anpassad rapport](/help/dsp/reports/report-create.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
+>* [Frågor och svar Om [!UICONTROL Household] Rapport](/help/dsp/reports/faq-household-report.md)
 >* [Om rapporter på plattformen](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

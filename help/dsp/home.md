@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: dc4ff4e836d1fba7fdf54bf3aa8e18dae3c5e24f
+source-git-commit: f8523b9157eb13ea0999d10dd19e9645906c50d0
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| Mars 2023 | [!UICONTROL Reports] | En ny [!UICONTROL Household Report] visar intryck, räckvidd och frekvens i olika dimensioner på ett hushåll baserat på IP-adressen, i stället för på enhets-/cookienivå. Rapporten innehåller nio dimensioner: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]och har skapats av användaren [!UICONTROL Tags]. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md),&quot; &quot;[Rapportinställningar](/help/dsp/reports/report-settings.md),&quot; och &quot;[Frågor och svar Om [!UICONTROL Household] Rapport](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 mars 2023 | [!UICONTROL Campaigns] | Läs mer om universella videomaterial och annonser, som är en öppen betafunktion. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |
 | 15 februari 2023 | [!UICONTROL Campaigns] | Alternativen för att visa ändringsloggar i diagramformulär och lägga till anteckningar till alla poster är inte betaversioner. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |
 | 3 februari 2023 | [!UICONTROL Campaigns] | (Betafunktioner) Nu kan du visa ändringsloggar i diagramformulär, och du kan lägga till anteckningar i alla poster. | Se &quot;[Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md),&quot; Se &quot;[Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md),&quot; och Se &quot;[Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md).&quot; |

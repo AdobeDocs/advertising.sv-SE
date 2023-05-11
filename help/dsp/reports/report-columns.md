@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: b62d6f412c53536b4d3d156117b82f6a912ba366
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '2045'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,17 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | Det land som de rapporterade uppgifterna härrör från. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | Det utsedda marknadsområde (DMA) som de rapporterade uppgifterna tillskrivs. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | Tillståndet som de rapporterade uppgifterna tilldelas till. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | Publiken. Rapporten stöder upp till 10 unika målgrupper. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | Kampanjen. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Creative Length] | Den kreativa personens längd. Rapporten har stöd för upp till 10 unika kreativa längder. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Device] | Enheten. Rapporten har stöd för upp till 10 unika enheter. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Feed Type] | Typen av feed. Rapporten har stöd för upp till 10 unika feeds-typer. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Media Type] | Medietypen. Rapporten har stöd för upp till 10 unika medietyper. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Publisher] | Utgivaren. Rapporten stöder upp till 10 unika utgivare. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Package] | Paketet. <!-- Note: The Package dimensions include another dimension called Package Name. --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Placement] | Placeringen.<!-- Note: The Placement dimensions include another dimension called Placement Name --> |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Site/Apps] | Webbplatsen eller appen där annonsintrycket tjänades. Rapporten har stöd för upp till 10 unika webbplatser eller appar. |
+| [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Tags] | Placeringstaggen som används som en anpassad identifierare för placeringen. Rapporten har stöd för upp till 10 unika placeringstaggar. <!-- Note: The Placement dimensions include another dimension called Placement Tags. --> |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Paketets slutdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Paketets målbelopp. Detta belopp utgörs antingen av utgifter eller exponeringar. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Den unika identifieraren för paketet i DSP. |
@@ -89,19 +100,29 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Ingår i [!UICONTROL Frequency (by Impression)] rapport) Antalet unika webbläsare eller enheter som registreras för en viss frekvens. DSP bygger på ett urval exponeringar. För en del lager ska du inte skicka med en enhetsidentifierare, och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i [!UICONTROL Frequency (by App/Site)] men det måttet är inte uppskattat. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | Summan av unika hushåll som DSP (auktioner) har noterat inom datumintervallet. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | Det totala antalet visningar som fungerade som ett resultat av att ett enhetsdiagram används för personbaserad målinriktning på olika enheter. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Genomsnittlig bruttokostnad per förvärv, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Genomsnittlig bruttokostnad per annonsklickning, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Genomsnittskostnaden per slutförd videovy, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Genomsnittskostnaden per videovy, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Views]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Genomsnittlig nettokostnad per annonsklickning, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Genomsnittlig nettokostnad per slutförd videovy, beräknad med [!UICONTROL Net Spend] / [!UICONTROL 100% Completions] |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Genomsnittlig nettokostnad per videovy, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Views]. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Den genomsnittliga nettodatakostnaden per 1 000 visningar, beräknad med [!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Genomsnittlig nettomediekostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Genomsnittlig nettokostnad per 1 000 avtryck för andra avgifter, beräknad med [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | Hur ofta visningar ska göras per hushåll. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | Frekvensen för att nå hushåll med endast den rapporterade dimensionen, inklusive skärningar på upp till tre värden för dimensionen. Om du till exempel använder [!UICONTROL Placement] mått, kan du se hur ofta enskilda placeringar har nåtts, hur många frekvenser en kombination av två placeringar har och hur många frekvenser som har uppnåtts genom kombinationer av tre placeringar. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Incremental Household Reached] | Antalet hushåll som bara uppnåddes av den rapporterade dimensionen, beräknat som [IP-adresser som bara har nåtts av den rapporterade dimensionen] - [IP-adresser som nåtts av någon annan dimension]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL % Incremental Household Reached] | Procentandel hushåll som bara uppnåddes av den rapporterade dimensionen, beräknat som [procentandelen IP-adresser som nåddes av dimensionen] - [procentandelen IP-adresser som nåtts av någon annan dimension]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Impressions] | Det totala antalet annonsvisningar. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions] | Det totala antalet visningar som kunde mätas med avseende på visningsbarhet. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Measurable Impressions (Overlap)] | Det totala antalet mätbara avtryck som endast betjänas av den rapporterade dimensionen, inklusive skärningar på upp till tre värden för dimensionen. Om du till exempel använder [!UICONTROL Placement] så kan du se de mätbara intryck som enskilda placeringar ger, mätbara intryck som en kombination av två placeringar och mätbara intryck som uppnås genom kombinationer av tre placeringar. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Total Media Spend] | De totala utgifterna. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household Reached] | Det totala antalet unika hushåll (distinkta IP-adresser) har uppnåtts. |
+| [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Unique Household (Overlap)] | Det totala antalet unika hushåll (distinkta IP-adresser) som bara uppnås genom den rapporterade dimensionen, inklusive skärningar på upp till tre värden för dimensionen. Om du till exempel använder [!UICONTROL Placement] då kan ni se de unika hushåll som nås av enskilda placeringar, de vanliga hushållen nås genom en kombination av två placeringar och de vanliga hushållen nås genom kombinationer av tre placeringar. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Genomsnittlig bruttokostnad per förvärv, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Genomsnittlig bruttokostnad per annonsklickning, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Genomsnittskostnaden per slutförd videovy, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Genomsnittskostnaden per videovy, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med [!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Genomsnittlig nettokostnad per annonsklickning, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Genomsnittlig nettokostnad per slutförd videovy, beräknad med [!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Genomsnittlig nettokostnad per videovy, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Data eCPM] | Den genomsnittliga nettodatakostnaden per 1 000 visningar, beräknad med [!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Media CPM] | Genomsnittlig nettomediekostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1000</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Total Other eCPM] | Genomsnittlig nettokostnad per 1 000 avtryck för andra avgifter, beräknad med [!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet vid maximal CPM. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Antalet distinkta användare för vilka DSP lägger bud på placeringen. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som faktureras via DSP. |
@@ -110,9 +131,9 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | Beräknad skatt på målgruppssegment och datatjänster från tredje part. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | Uppskattad skatt på media inklusive moms på återfakturering av mediekostnader och teknisk avgift i DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Uppskattad skatt på andra serviceavgifter (inklusive verifieringspartners från tredje part, målgruppsanpassning o.s.v.) som faktureras via DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (När marginalhantering är aktiverad) Marginalprocenten, som beräknas med ([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (När marginalhantering är aktiverad) Marginalprocenten, som beräknas med ([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | Summan av icke fakturerbara och fakturerbara mediekostnader utan några tekniska avgifter. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med [!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Den totala nettokostnaden för avgifter för målgruppsdata som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Den totala nettokostnaden för icke-fakturerbara medier, inklusive teknisk avgift, som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som inte faktureras via DSP. |
@@ -150,22 +171,22 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | Det totala antalet videoannonsvyer. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | Genomsnittlig spelarbredd och -höjd. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | Det totala antalet visningar som kunde mätas med avseende på visningsbarhet. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Procentandel av visningar som kunde mätas för att se bilden, beräknat som [!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Procentandel av visningar som kunde mätas för att se bilden, beräknat som [!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - iFrame (%)] | Procentandel av visningar som inte kan mätas för visning på grund av inkompatibla iFrames. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Not Supported (%)] | Antalet visningar som inte kan mätas för att de ska visas på grund av att annonsens visningsspårning inte stöds. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable - Other (%)] | Procentandel av visningar som inte kan mätas för att se dem på grund av andra orsaker. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Impressions] | Antalet annonsvisningar som inte kan mätas för att se dem. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable Rate (%)] | Andelen annonsvisningar som inte kan mätas för att se dem. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Unmeasurable rate (Not supported)] | Procentandel av visningar som inte kan mätas för visning på grund av att visningsspårning inte stöds för annonsenheten. |
-| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Procentandel av visningar av alla mätbara exponeringar, beräknat som [!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]. |
+| [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewability Rate (%)] | Procentandel av visningar av alla mätbara exponeringar, beräknat som [!UICONTROL Viewable Impressions] / [!UICONTROL Measurable Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Viewability] | [!UICONTROL Viewable Impressions] | Antalet annonsvisningar som kan visas. |
 | [!UICONTROL Conversion Metrics] | [Grupperad av annonsören i rapportinställningarna] | [Annonsspecifik konvertering] | Summan för en angiven annonsörspecifik konverteringsmetod eller Adobe Analytics-händelse. |
 | [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | Den viktade summan av alla konverteringar som ingår i den angivna [anpassat mål](/help/dsp/optimization/custom-goal-about.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by Gross Spend / Custom Goal| -->
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by Custom goal / Gross spend|-->
+<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
+<!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
 >

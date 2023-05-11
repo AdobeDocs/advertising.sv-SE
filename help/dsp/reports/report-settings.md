@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** Rapportnamnet. Maximala längden är 180 tecken.
 
-**[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, eller *[!UICONTROL Site]*.
+**[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, eller *[!UICONTROL Household]*.
 
 ## [!UICONTROL Apply Filters] Avsnitt
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Last Calendar Month]:** Inkluderar data för föregående kalendermånad.
 
-**[!UICONTROL Add Filters]:** (Valfritt) Ytterligare dimensioner som data kan filtreras med, oavsett om dimensionerna inkluderas som kolumner i rapporten eller inte: *[!UICONTROL Account]*,\* *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Placement]*, *[!UICONTROL Ad]*, *[!UICONTROL Ad Type]*, *[!UICONTROL Video]*, *[!UICONTROL Video Duration]*, *[!UICONTROL Country]* och *[!UICONTROL Package]*.
+**[!UICONTROL Add Filters]:** (Valfritt) Ytterligare dimensioner som data kan filtreras med, oavsett om dimensionerna inkluderas som kolumner i rapporten eller inte. De tillgängliga filtren varierar beroende på rapporttyp och kan omfatta: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* och *[!UICONTROL Video Duration]*.
 
 \* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [kontorapportering](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe för mer information om kontorapportering.
 
@@ -42,12 +42,25 @@ Så här använder du ett eller flera filter:
 
 ## [!UICONTROL Build Your Report] Avsnitt
 
-**[!UICONTROL Select To Add As Report Headers]:**  De datakolumner, eller rubriker, som ska inkluderas i rapporten. Om du vill lägga till en kolumn expanderar du kategorin och markerar kryssrutan bredvid kolumnnamnet. Alla otillgängliga mått är inaktiverade. De tillgängliga datakategorierna är:
+**[!UICONTROL Select To Add As Report Headers]:**  De datakolumner, eller rubriker, som ska inkluderas i rapporten. Om du vill lägga till en kolumn expanderar du kategorin och markerar kryssrutan bredvid kolumnnamnet. De tillgängliga kolumnerna varierar beroende på rapport, och alla otillgängliga värden är inaktiverade. De tillgängliga datakategorierna är:
 
 * [!UICONTROL Dimensions]
+
+   >[!NOTE]
+   >
+   > The [!UICONTROL Household] -rapporten kan bara innehålla en dimension.
+
 * [!UICONTROL Metrics]
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Household] kan innehålla antingen överlappningsvärden eller icke-överlappande värden, men inte båda.
+
 * [!UICONTROL Conversion Metrics] (sorterat efter annonsörer)
+
 * [!UICONTROL Custom Goals] (sorterat efter annonsörer)
+
+Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivningar av alla alternativ.
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Ordningen på kolumnrubrikerna. Du kan dra och släppa en kolumn för att anpassa ordningen.
 
