@@ -1,9 +1,9 @@
 ---
 title: Frågor och svar Om [!UICONTROL Household] Rapport
 description: Läs mer om [!UICONTROL Household] som innehåller information om hur det skiljer sig från andra rapporter och felsökning.
-source-git-commit: d88ea4ab2ad4a2ee54475346a24724b766b024fc
+source-git-commit: 95f81dafbe13f40487bad47f7dd41a6c80c589ee
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ Konverteringsstatistik och anpassade mål stöds inte.
 
 ## Vad är skillnaden mellan överlappnings- och icke-överlappningsstatistik?
 
-Följande bild visar tre mätvärden (Unique Household, Incremental Household och Incremental Household (Overlap)) för tre kampanjer (A, B och C).
+Följande bild visar tre mätvärden (Unique Household Reached, Incremental Household Reached, and Incremental Household (Overlap)) för tre kampanjer (A, B och C).
 
 ![Illustration av överlappningsstatistik för hushåll](/help/dsp/assets/household-overlap-metrics-illustration.png "Illustration av överlappningsstatistik för hushåll")
 
-* Unikt hushåll uppnått (totalt) är det unika hushåll som nås av var och en av kampanjerna eller det totala området för var och en av cirklarna. I figuren uppnåddes ett unikt hushåll som nås av A = inkrementellt hushåll som nås av A + (A+C) + (A+B) +(A+B+C)
+* Unikt hushåll uppnått (totalt) är det unika hushåll som nås av var och en av kampanjerna eller det totala området för var och en av cirklarna. I figuren uppnåddes ett unikt hushåll som nås av A = inkrementellt hushåll som nås av A + (A+B) + (A+C) +(A+B+C)
 
-* Inkrementellt hushållet är det unika hushållet som bara har uppnåtts genom en kampanj. I denna siffra är det inkrementella hushåll som A, B och C når det inkrementella hushållet som A, B respektive C når.
+* Inkrementellt hushållet är det unika hushållet som bara har uppnåtts genom en kampanj. I denna siffra är det inkrementella hushåll som nås av A, B, C det inkrementella hushåll som nås av A, B respektive C.
 
-* Inkrementellt hushåll (överlappning) är det unika hushåll som nås av kampanjen eller kombinationen av kampanjer. I siffran är A+C det inkrementella hushållet som A och C når.
+* Inkrementellt hushåll (överlappning) är det unika hushåll som nås av kampanjen eller kombinationen av kampanjer. I figuren är det inkrementella hushållet som A, C, når A+C.
 
 ## Arbetsflöde
 
