@@ -5,7 +5,7 @@ feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 9d3417cb-8b44-4f1c-afc4-eea6a2e5b9d7
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Tracking] | [!UICONTROL Flight Dates] | Start- och slutdatum för trafik som använder det här avtalet. Datumen är avsedda endast för spårning och påverkar inte annonsleveransen.<br><br><b>Tips:</b> I [!UICONTROL Inventory] > [!UICONTROL Deals] visa [!UICONTROL Pacing & Budget] kolumn visar hur erbjudandet gäller det angivna flygdatumet och det angivna visningsmålet. Om leveransen är under- eller överbelagd kontaktar du utgivaren för att justera hur mycket av volymen den skickar genom erbjudandet. | Garanterade erbjudanden: Ja<br>Erbjudanden utan garanti: Nej | Ja |
 |  | [!UICONTROL Impressions] | (Valfritt för erbjudanden utan garanti) Det uppskattade antalet visningar som du förväntar dig att göra med det här erbjudandet. Detta värde är endast avsett för spårning. utgivaren kontrollerar och levererar. | Garanterade erbjudanden: Ja<br>Erbjudanden utan garanti: Nej | Ja |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

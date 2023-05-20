@@ -4,7 +4,7 @@ description: Lär dig hur du hämtar en kopia av händelsespårningspixlar för 
 feature: DSP Simple Ad Serving
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---

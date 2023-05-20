@@ -2,7 +2,8 @@
 title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
-source-git-commit: 2caacfcbdb3c9d0d91ca26829de5829654f9ab8a
+exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
+source-git-commit: 8d65069b7da5d3c33cc7713c6c80af27eb6bf227
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%

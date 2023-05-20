@@ -5,7 +5,7 @@ feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL Unruly] | [!DNL Tremor] | Adobe | Nej | USA och EMEA | USD | x | x |  |  |  |  |  |
 | [!DNL Yahoo] | [!DNL Verizon Media Group] | [!DNL TubeMogul] eller Adobe | Nej | Global | USD |  |  |  | x | x |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

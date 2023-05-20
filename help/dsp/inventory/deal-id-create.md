@@ -71,4 +71,5 @@ När du har skapat avtalet kan du använda det som ett lagermål för flera plac
 >* [Skicka in en annons för en programmatisk garanterad affär med [!DNL FreeWheel]](freewheel-submit.md)
 >* [Om programmatiska erbjudanden](programmatic-guaranteed-about.md)
 
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+   <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+

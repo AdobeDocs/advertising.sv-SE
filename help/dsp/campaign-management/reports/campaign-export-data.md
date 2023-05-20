@@ -5,7 +5,7 @@ feature: DSP Campaign Data Views
 exl-id: 181b2648-5c8c-47e5-b4bc-5733dd7f47b7
 source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---

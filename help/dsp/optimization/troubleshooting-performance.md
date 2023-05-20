@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: b87f8556-1908-40c1-9f98-fbdc6d9b59b1
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 |  | Ett lågt antal användare är tillgängliga. | Kontrollera att de angivna målgruppsmålen innehåller tillräckligt många aktiva användare. Om de inte gör det kan du utöka målgrupperna genom att lägga till fler målgrupper.<br><br>Tänk på att användning av flera placeringsmål, t.ex. förköpsfilter, geos, lager och målgrupper, kan begränsa budgivning och utgifter kumulativt. |
 |  | Paketet innehåller ett stort antal aktiva placeringar. | Minska antalet aktiva placeringar i paketet eller öka den totala paketbudgeten.<br><br>Om paketet har många placeringar men inte tillräckligt med budget, kanske DSP inte kan allokera tillräckligt med budget till varje placering. Varje placering bör ha möjlighet att tillbringa minst 2 USD/dag. Om ditt paket till exempel har en budget på 10 USD/dag är det bäst att ta med fem eller färre platser. &#x200B; |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

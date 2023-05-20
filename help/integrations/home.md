@@ -7,7 +7,7 @@ index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Följande funktioner är nya eller nyligen ändrade.
 | 26 maj 2021 | Hjälp | Kapitlet &quot;[!DNL Analytics for Advertising]&quot; innehåller nu ett underkapitel om &quot;Arbeta i [!DNL Analytics Marketing Channels].&quot; | Se: &quot;[Grunderna i marknadsföringskanaler](/help/integrations/analytics/marketing-channels/mc-overview.md),&quot; &quot;[Använda Adobe Advertising ID:n för att skapa [!DNL Analytics Marketing Channels] Bearbetar regler](/help/integrations/analytics/marketing-channels/mc-ids.md),&quot; &quot;[Använda [!DNL Analytics Marketing Channels] med Adobe Advertising Data](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot; och &quot;[Varför kanaldata kan variera mellan Adobe och [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
 | 26 maj 2021 | Hjälp | En länk till alla videokurser om [!DNL Analytics for Advertising] lades till. | [Videosjälvstudiekurser om Adobe Advertising-integreringar](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- At some point, just make this an overview page instead?
 

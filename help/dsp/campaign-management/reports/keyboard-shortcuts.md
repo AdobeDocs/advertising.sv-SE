@@ -5,7 +5,7 @@ feature: DSP Placements
 exl-id: d1711166-8f20-4641-a1f5-c865a40ad387
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Använd kortkommandon för att snabbt navigera i placeringsinställningarna<!-- 
 | Placeringsinställningar | t | Flyttar dig till [!UICONTROL Tracking] inställningar |
 | Placeringsinställningar | l | Flyttar dig till [!UICONTROL Adobe Labs] inställningar |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- | Legacy placement settings | npv | Lets you create a new video placement | -->
 <!-- | Legacy placement settings | npd | Lets you create a new display placement | -->

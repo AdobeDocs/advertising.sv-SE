@@ -5,7 +5,7 @@ feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ ht-degree: 0%
 | [!DNL Vox] |  |  | X |  | [!DNL Athena] annonsenheter |
 | [!DNL Wunderkind] |  | X |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

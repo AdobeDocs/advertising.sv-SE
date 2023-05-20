@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1608'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - GroupM)] | Med optimering på paketnivå prioriterar budgettilldelningen placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. Om utgiftsmålen uppfylls försöker DSP balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Förregistrering, visning<br><br><b>Obs!</b> Använd det här målet för att uppnå bästa möjliga vCPM.<br><br>Om du vill garantera ett maximalt CPM-värde använder du det som det maximala Bid-värdet för placeringen.<br><br>Den här inställningen fungerar bäst när data från tredje part hämtas [!DNL Moat] informerar algoritmen. Använd bara det här målet när du har aktiverat [!DNL Moat] integrering för kampanjen. |
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | Med optimering på paketnivå prioriterar budgettilldelningen placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. Om utgiftsmålen uppfylls försöker DSP balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Förregistrering, visning<br><br><b>Obs!</b> Använd det här målet för att uppnå bästa möjliga vCPM.<br><br>Om du vill garantera ett maximalt CPM-värde använder du det som det maximala Bid-värdet för placeringen.<br><br>Den här inställningen fungerar bäst när data från tredje part hämtas [!DNL Moat] informerar algoritmen. Använd bara det här målet när du har aktiverat [!DNL Moat] integrering för kampanjen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

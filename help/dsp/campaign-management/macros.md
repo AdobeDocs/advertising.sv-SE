@@ -5,7 +5,7 @@ feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | `${TM_TIMESTAMP}` | Unix-tidsstämpeln anger hur många sekunder som har gått sedan midnatt (00:00 UTC) den 1 januari 1970. | long |
 | ` ${TM_VIDEO_DURATION}` | Annonsvideons längd i sekunder. | heltal |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- Removed because not found in code base:
 |` ${TM_MACRO_PROMOTED_AD_KEY}` | The promoted ad key for the placement. Required for [!DNL AppsFlyer] click trackers for mobile app install ads. | string |
@@ -65,7 +65,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | `${TM_BUNDLE}` | The [!DNL iOS] eller [!DNL Android] app store bundle-ID. Exempel: com.zynga.wwf2.free eller id804379658 | string |
 | `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` anger om anbudsgivaren fastställer att anbudsförfrågan kommer från EU:s ursprung och kräver att GDPR verkställs:<ul><li>`1` = GDPR ska verkställas</li><li>`0` = GDPR ska inte verkställas</li></ul>`gdpr_consent=${GDPR_CONSENT}` är det värde för samtycke som skickas från leveranspartnern i ankommande anbudsförfrågan:<ul><li>I de flesta fall är detta en base64url-kodad medgivandesträng, eller daisybit (exempel: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = inget samtycke</li><li>`1` = samtycke</li></ul> | daisybit eller heltal |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Klicka på Makron för visningsannonser från tredje part
 
@@ -76,7 +76,7 @@ För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar måst
 | `${TM_CLICK_URL}` | Den omdirigerings-URL som gör det möjligt för annonsservrar att spåra och räkna annonsklickningar på plattformen. | string |
 | `${TM_CLICK_URL_URLENC}` | Den omdirigerings-URL som gör det möjligt för annonsservrar som kräver URL-kodning att spåra och räkna annonsklickningar på plattformen. | string |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 DSP infogar automatiskt klickmakron i en tredjeparts visningstagg när du:
 

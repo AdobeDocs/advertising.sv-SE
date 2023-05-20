@@ -5,7 +5,7 @@ feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -223,7 +223,7 @@ ht-degree: 0%
 | [!DNL Vungle] | Storbritannien |
 | [!DNL Yahoo] | Storbritannien |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

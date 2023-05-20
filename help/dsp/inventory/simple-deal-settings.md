@@ -5,7 +5,7 @@ feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 | **[!UICONTROL Ad Creation]** | (Endast nya erbjudanden) Om du vill:<ul><li>*[!UICONTROL Create New]:* För att skapa en annons för det här erbjudandet.</li><li>*[!UICONTROL Select Ads]:* Att använda en befintlig annons för det här erbjudandet.</li></ul> |
 | **[!UICONTROL Ad Type]** | Annonstypen för det här erbjudandet. Om du ska skapa annonser för erbjudandet ska du inkludera annonsstorlek eller varaktighet, på begäran. Vilka alternativ som är tillgängliga varierar beroende på medietyp. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### [!UICONTROL Select Ad(s)]
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 | **[!UICONTROL Deal Name]** | Avtalsnamnet. Ange ett namn eller markera *[!UICONTROL Auto Generate Deal Name]* för att DSP ska kunna generera ett namn baserat på avtalsinformationen.<br><br>Exempel på ett automatiskt genererat namn: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Skrivskyddat) Annonserna som ingår i erbjudandet. Om du vill redigera en annons klickar du på annonsens namn. Om du vill ta bort en annons från erbjudandet klickar du **[!UICONTROL X]** bredvid annonsnamnet. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- 
 ## Existing Simple Ad Serving Deals

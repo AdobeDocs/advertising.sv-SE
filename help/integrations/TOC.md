@@ -1,12 +1,12 @@
 ---
-user-guide-title: Integrering med Adobe Experience Cloud
-user-guide-description: Läs mer om Advertising DSP and Advertising Search-integreringar med andra produkter och tjänster från Adobe Experience Cloud.
-breadcrumb-title: Integrering med Experience Cloud
+user-guide-title: Integreringar med Adobe Experience Cloud
+user-guide-description: Lär dig mer om integreringar för Advertising DSP och Advertising Search med andra produkter och tjänster från Adobe Experience Cloud.
+breadcrumb-title: Integreringar med Experience Cloud
 index: true
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 

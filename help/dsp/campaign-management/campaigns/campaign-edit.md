@@ -5,8 +5,8 @@ feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
 source-git-commit: 4085c1b21c0fe84653978e449321868921841367
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '43'
+ht-degree: 2%
 
 ---
 

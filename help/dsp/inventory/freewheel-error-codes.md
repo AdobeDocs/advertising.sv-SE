@@ -5,7 +5,7 @@ feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
 source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '675'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Felmeddelanden för misslyckade annonsinskick kan komma antingen från DSP eller
 | [!DNL Ad with identifier] \&lt;*annonsnamn*\> [!DNL was not found.] | Den inskickade annonsnyckeln finns inte eller är inte aktiv i Adobe. | Hitta rätt annonsnyckel och skicka sedan annonsen igen. |
 | [!DNL Pending Submission] | Inlämningen väntar fortfarande. | Uppdatera sidan. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] API-fel
 
@@ -41,7 +41,7 @@ Felmeddelanden för misslyckade annonsinskick kan komma antingen från DSP eller
 | 422 | Enhet som inte kan bearbetas | Ogiltig resurs. Det här felet inträffar när begärandetexten är ogiltig eller när den skapade/uppdaterade resursen är ogiltig (t.ex. om det inte gick att hitta något avtal-ID). Se [FreeWheel API 422-fel](#freewheel-422-errors) för mer information. | Kontakta kontoteamet på Adobe. |
 | 500 | Internt serverfel | API-systemfel. | Kontakta kontoteamet på Adobe. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## [!DNL Freewheel] API 422-fel {#freewheel-422-errors}
 
@@ -60,7 +60,7 @@ Felmeddelanden för misslyckade annonsinskick kan komma antingen från DSP eller
 | DATA_CREATIVE_DETECTION_FAILURE | 422 | Det gick inte att hitta URL:en. |
 | DATA_ENTITY_NOT_FOUND | 422 | Den kreativa finns inte. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

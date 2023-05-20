@@ -5,7 +5,7 @@ feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -367,7 +367,7 @@ ht-degree: 0%
 | [!DNL Yan.vn] | Vietnam |
 | [!DNL Zing.vn] | Vietnam |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >

@@ -5,7 +5,7 @@ feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 | [!UICONTROL Player Size 3rdParty (Moat/IAS)] | Anger en obligatorisk minsta spelarstorlek, med data från [!DNL Moat] eller [!DNL Integral Ad Science] ([!DNL IAS]). Du får köpa en bild när [!UICONTROL Player Size] tröskelvärdet har uppnåtts. | Används för att säkerställa att ni levererar på hela spelarlistan med plattformstäckande [!DNL Moat] eller [!DNL IAS] data.<br><br><b>Obs!</b> Använd bara det här filtret när kampanjen är konfigurerad att använda [!DNL Moat] eller [!DNL IAS] data. |
 | [!UICONTROL Viewability Adobe (MRC or [!DNL GroupM])] | Anger en obligatorisk minsta visningsprocent, med DSP visningsvärden och mått. Du lägger bud på ett intryck när det angivna tröskelvärdet uppnås.<br><br><b>Anteckningar:</b><ul><li>Om kampanjen [!UICONTROL Viewability Sensitivity] inställningen är &quot;[!UICONTROL Standard (50% of ad in view for 2 consecutive seconds)],&quot; [!DNL Media Rating Council] (MRC) visningsstandarden används för kampanjen. Om [!UICONTROL Viewability Sensitivity] inställningen är &quot;[!UICONTROL Strict (100% of ad in view & audio on for 50% duration)],&quot; [!DNL GroupM] visningsmåttstandarden används för kampanjen.</li><li>Måttdefinitioner för Adobe skiljer sig från definitioner från andra tillverkare, så det kan finnas små skillnader med data från tredje part.</li></ul> | Det bästa sättet är att matcha optimeringsmålet och eventuella filterinställningar före bud med kampanjens [!UICONTROL Viewability Sensitivity] inställning. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!MORELIKETHIS]
 >
