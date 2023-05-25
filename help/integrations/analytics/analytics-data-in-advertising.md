@@ -3,7 +3,7 @@ title: '''[!DNL Analytics] Data i Adobe Advertising'
 description: '''[!DNL Analytics] Data i Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: c6ed3277873f5c4a75fc19480b0ec77ab4110d7b
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
