@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 947b60c7c45a2994c1ab6020cd093780faa19864
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 29 maj 2023 | [!UICONTROL Campaigns] | Nu kan ni pausa eller aktivera kampanjer, paket och annonser. Du kan redan pausa och aktivera placeringar. | Se &quot;[Pausa eller aktivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; och &quot;[Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 maj 2023 | [!UICONTROL Campaigns] | Universella videomaterial och annonser är nu allmänt tillgängliga. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; och &quot;[Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Mars 2023 | [!UICONTROL Reports] | En ny [!UICONTROL Household Report] visar intryck, räckvidd och frekvens i olika dimensioner på ett hushåll baserat på IP-adressen, i stället för på enhets-/cookienivå. Rapporten innehåller nio dimensioner: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]och har skapats av användaren [!UICONTROL Tags]. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md),&quot; &quot;[Rapportinställningar](/help/dsp/reports/report-settings.md),&quot; och &quot;[Frågor och svar Om [!UICONTROL Household] Rapport](/help/dsp/reports/faq-household-report.md).&quot; |
 | 20 mars 2023 | [!UICONTROL Campaigns] | Läs mer om universella videomaterial och annonser, som är en öppen betafunktion. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md).&quot; |

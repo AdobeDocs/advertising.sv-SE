@@ -3,9 +3,9 @@ title: Visa en logg över kampanjändringar
 description: Lär dig hur du visar ändringar som gjorts i kampanjen.
 feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
-source-git-commit: 7f8e4f2170e981a1ab8865be731faba2623fd97d
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,4 +34,5 @@ Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 >* [Skapa en kampanj](campaign-create.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Kampanjinställningar](campaign-settings.md)
+>* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
 

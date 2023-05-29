@@ -3,9 +3,9 @@ title: Skapa en kampanj
 description: Lär dig hur du skapar en kampanj.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,4 +28,5 @@ ht-degree: 0%
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
 >* [Kampanjinställningar](campaign-settings.md)
+>* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
 

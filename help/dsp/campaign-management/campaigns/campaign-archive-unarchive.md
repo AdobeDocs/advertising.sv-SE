@@ -3,9 +3,9 @@ title: Arkivera eller arkivera en kampanj
 description: Lär dig hur du arkiverar eller avarkiverar en kampanj.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,5 @@ Du kan när som helst avarkivera en kampanj för att återställa dess tidigare 
 >
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
+>* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
+

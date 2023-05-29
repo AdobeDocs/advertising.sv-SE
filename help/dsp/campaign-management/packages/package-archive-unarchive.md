@@ -3,9 +3,9 @@ title: Arkivera eller arkivera ett paket
 description: Lär dig hur du arkiverar eller avarkiverar ett paket.
 feature: DSP Packages
 exl-id: 12d1b498-2239-401a-8571-9210956e32b2
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,5 @@ Du kan när som helst avarkivera ett paket för att återställa dess tidigare s
 >
 >* [Redigera ett paket](package-edit.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
+>* [Pausa eller aktivera ett paket](package-pause-activate.md)
 

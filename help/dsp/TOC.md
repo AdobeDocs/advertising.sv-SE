@@ -8,10 +8,10 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: ce26d622bde31f289466c581a85724b93e4eae62
+source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 5%
       + [Redigera en kampanj](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicera en kampanj](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
       + [Visa en detaljerad rapport för en kampanj](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+      + [Pausa eller aktivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md)
       + [Arkivera eller arkivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
@@ -56,6 +57,7 @@ ht-degree: 5%
       + [Redigera ett paket](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicera ett paket](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Koppla en placering till ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [Arkivera eller arkivera ett paket](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
@@ -83,6 +85,7 @@ ht-degree: 5%
       + [Bifoga en annons till en placering](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->
       + [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
+      + [Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Arkivera eller arkivera en annons](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + Annonsinställningar {#ad-settings}
          + [Ljudannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-audio.md)
