@@ -9,7 +9,7 @@ user-guide-description: Den här guiden förklarar de viktigaste funktionerna, u
 breadcrumb-title: Advertising Search, Social, & Commerce Guide
 index: false
 hide: true
-source-git-commit: cd8367fbae2234cfdb937c5da8f21f94a615e92a
+source-git-commit: c42ad5b5944f9595431786e05dbab670f1eab02e
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 0%
@@ -404,5 +404,5 @@ ht-degree: 0%
       + [Visa transaktionsegenskaper som spårats för en annonsörer](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
       + [Ändra transaktionsegenskaperna som är tillgängliga i hanteringsvyer och rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
       + [Ändra visningsnamnet för en transaktionsegenskap](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
-   + [Få hjälp](get-help.md)
-   + [Ordlista](glossary.md)
++ [Få hjälp](get-help.md)
++ [Ordlista](glossary.md)
