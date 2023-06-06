@@ -1,0 +1,99 @@
+---
+title: Glossary
+description: See definitions of key terms.
+---
+# Glossary {#glossary}
+
+<!-- Weed through these and remove chaff; make sure all definition files are included. Also run past Shri and see if he wants some removed from ExL -->
+
+## A-B {#a-b}
+
+**brand keyword:** A keyword that an advertiser wants people to always associate with the company, such as the company or product name.
+
+## C-D {#c-d}
+
+
+<!--
+click URL: See "pixel redirect URL."
+-->
+
+
+conversion type: See "transaction property."
+
+data feed: A method of providing data to a system from an external data source. Search, Social, & Commerce receives click data feeds from ad networks, transaction data feeds from conversion tracking systems, and product feeds from online merchant accounts.
+
+destination URL: A URL that links an ad to a landing page on the advertiser's web site (sometimes via another site that tracks the click and then redirects the user to the landing page). It isn't visible in the ad and may be different than the display URL, which is shown in the ad to users. The destination URLs for advertisers with the Adobe Advertising pixel tracking service include a redirect to the pixel servers and additional tracking code.
+Other ad networks use final URLs with separate tracking templates instead of destination URLs.
+
+display URL: A URL that is displayed on the search page with an ad. It may be different than the destination URL, which actually takes the user to a page on the advertiser's website.
+
+## E-F {#e-f}
+
+eCPM: The effective CPM, or the average cost paid per 1000 impressions during a specified date range. eCPM values can be calculated for either CPM or CPC campaigns.
+
+## G-H {#g-h}
+
+## I-J {#i-j}
+
+
+## K-L {#k-l}
+
+**learned keyword:** A keyword is considered "learned" when it has received more clicks than the average number of clicks needed for a conversion (known as the click threshold). Once a keyword is learned, the learning budget is longer used for it.
+
+learning: (In Search, Social, & Commerce) A feature that allows the systematic exposure of keywords that are new or underused.
+
+learning budget: A percentage of a portfolio's daily budget that is allocated to the systematic exposure of keywords that are new or underused.
+
+## M-N {#m-n}
+
+
+
+## O-P {#o-p}
+
+offline revenue feed: A data feed containing information about transactions that occur offline; it doesn't include click data. In Search, Social, & Commerce, advertisers can track any offline transactions and deliver the data separately from their online transaction data. An offline transaction is matched to the appropriate online transaction by its transaction ID or an Adobe Advertising token.
+
+pay per click: (PPC) A pricing model that ad networks use to charge an advertiser each time a user clicks on the advertiser's ad.
+
+pixel feed: A method of gathering transaction data from clicks that originate from ads for an advertiser who uses the Adobe Advertising pixel tracking service.
+
+pixel redirect URL: A type of redirect URL that includes tracking information for the ad network or other tracking service and the destination URL, to which the user is actually sent. For clients with the Adobe Advertising pixel tracking service, the pixel redirect URL consists of a) a prefix that includes a unique tracking ID, the client ID, the ad network ID, and a redirect to the Adobe Advertising pixel server, from which a cookie is placed on the user's computer for tracking, and b) the client’s landing page URL, to which the user is sent after the cookie is placed. Later, if the user completes a transaction on the client's website, a pixel image on the client's success page returns the cookie to Adobe Advertising so the transaction can be mapped to the original click. Also called a "pixel click URL" or "click URL."
+
+pixel tracking: See "conversion tracking."
+
+portfolio limits: A rule for bidding on all keywords/ads in a specific portfolio. Available constraint types include the minimum and maximum bid. For example, you might specify that no keywords/ads be bid for more than 20 USD even if Search, Social, & Commerce recommends otherwise.
+
+portfolio-based bidding: Search, Social, & Commerce advanced bidding system, which calculates bids based on an overall business goal. For example, lowering a bid on one keyword may enable a higher bid on a second keyword, leading to superior overall performance.
+
+
+## Q-R {#q-r}
+
+quota: An allotted amount of something. For example, an advertiser might have a quota of one million bids per day on an ad network, which means she can place up to one million bids in a day.
+
+revenue: Used interchangeably with "conversion" and "transaction." See "transaction."
+
+revenue feed: See "transaction feed."
+
+revenue recency: See "revenue model half-life."
+
+RPC: revenue per click
+
+rules-based bidding: A method of bidding that applies rules to individual keywords to determine bids, without reference to the other keywords.
+
+## S-T {#s-t}
+
+success page: A page on a website that is displayed to confirm the completion of a transaction. Also called a "thank-you page." When an advertiser embeds one of the Adobe Advertising conversion tracking tags within a success page, Adobe Advertising can tie the advertiser's conversions to the keyword or ad that initiated it.
+
+tracking template: (Accounts with final URLs only) The tracking template or tracking URL, which specifies all off-landing domain redirects and tracking parameters and embeds the final/advanced URL in a parameter. For Adobe Advertising conversion tracking, which is applied when the campaign settings include "EF Redirect" and "Auto Upload," Search, Social, & Commerce automatically prefixes its own redirect and tracking code when you save the record.
+
+transaction feed: A data file containing information about transactions that result when end users click an advertiser's ad. Transaction feeds to Search, Social, & Commerce deliver either keyword-level or transaction-level data from an advertiser's own conversion tracking system or a third-party tracking system.
+
+## U-V {#u-v}
+
+
+
+## W-X {#w-x}
+
+
+## Y-Z {#y-z}
+
+zero impression bid unit: A bid unit that has never received any impressions or has not received enough clicks to generate a cost model.

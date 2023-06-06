@@ -1,0 +1,193 @@
+---
+title: Introduction to Campaign Management
+description: Search, Social, & Commerce allows you to track and/or manage your search, display/content, social, shopping, audience, and performance max campaigns in one place. Depending on the ad network and campaign type, the available functionality may include synchronization with your ad networks, create and edit abilities, tracking and conversion attribution, reporting, and bid and budget optimization.
+---
+
+# Introduction to Campaign Management
+
+## About campaign management in Search, Social, & Commerce
+
+Search, Social, & Commerce allows you to track and/or manage your search, display/content, social, shopping, audience, and performance max campaigns in one place. Depending on the ad network and campaign type, the available functionality may include synchronization with your ad networks, create and edit abilities, tracking and conversion attribution, reporting, and bid and budget optimization. For details about the functionality available for each ad network, see "Supported Inventory."<!--LINK-->
+
+As you add and edit campaign data in the Campaigns views, Search, Social, & Commerce immediately pushes the data changes to the ad network. Search, Social, & Commerce also pulls campaign structure data and click data from synced ad network accounts once a day (or more often when new campaigns are detected) and on demand as requested.
+
+### Setting up access to your ad network accounts
+
+To track the performance of ads in an advertiser's ad network account (and to potentially place bids for the ads), the Adobe Account Team must [create a corresponding account record](#campaign-management_accounts_ad-_4806) in Search, Social, & Commerce. The account record includes tracking options.
+
+For accounts that are synchronized via the ad network's API, the account record also includes the account access credentials. Once the account is enabled, the account data is pulled from with the ad network. You can then view the existing account data as well as create and edit campaign structure and ad data.
+
+### Click tracking to tie clicks to conversions
+
+If you use the Adobe Advertising conversion tracking service, then you must include Search, Social, & Commerce pixel redirect code in the tracking templates or final/destination URLs for ads, keywords, and placements, sitelinks and product listings. For supported ad networks and campaign types whose campaign settings include "EF Redirect" and "Auto Upload," Advertising Search, Social, & Commerce automatically appends its own redirect and tracking code when you save the record, so you don't need to manually add it. Otherwise, you must manually add the code to your tracking templates or final URLs.
+
+For more information about tracking, see "Tracking." <!--LINK-->
+
+### Automating bidding and budget management
+
+For supported ad networks and campaign types, you can group your campaigns into _portfolios_, each with a specific business objective and a specific budget or performance target. In standard portfolios, Search, Social, & Commerce optimizes CPC keyword bids and campaign budgets. Hybrid portfolios combine optimization technologies from Search, Social, & Commerce and your ad networks. For more information about the available portfolio options and how to set up portfolios, see the chapter on "Portfolios."<!--LINK-->
+
+### The campaign management views
+
+The campaign management views allow you to monitor and manage your search accounts. The following views are available:
+
+* **Campaigns** — The Campaigns views show data from each connected ad network account. You can view cost, click, impression, and revenue data across all ad network accounts and across individual accounts, campaigns, ad groups, keywords, ads, shopping product groups, placements, auto targets (dynamic search targets), audiences, and ad extension libraries and their associated account entities. For supported campaign types on supported ad networks, you can create and edit data for individual campaigns and campaign components directly in the interface. You can optionally export the data in most subviews to a spreadsheet file.
+
+  >[!NOTE]
+  >
+  >Ad-level data isn't available for Google Ads dynamic search ad (DSA), performance max, smart shopping, and YouTube campaigns.
+
+* **Products** — The Products views show data for each [Google or Microsoft merchant center account that's synced](#campaign-management_accounts_mer_952). The default Accounts subview lists all synced accounts; some user types can add new accounts from this view. The Products subview lists each product within the account.
+* **Advanced (ACM)** —  From the Advanced (AMC, for Advanced Campaign Management) view, you can set up automated processes to create dynamic ads and keywords targeted to each item in your inventory according to an ad network-specific ad template you create and the contents of Google Merchant Center accounts or inventory data files you upload to an FTP location. Subviews show details about each feed template for the advertiser and each campaign, ad group, keyword, and ad included in a feed that was propagated through a feed template but not posted to the ad network.
+* **Bulksheets** — Use the Bulksheets view to create bulksheet files containing as much data as you want for an account on a supported ad network, and then post them to the ad network.
+* **Audiences** — The Audiences views lists all of your Google Ads and Microsoft Advertising audiences generated from various types of user lists. You can create Google Ads audiences from your existing Adobe Experience Cloud audiences and your customer email lists. You can also view and manage audience targets and exclusions for your Google Ads and Microsoft Advertising ads.
+* **Label Classifications** — Use this view to create and delete label classifications, which can help you group your labels into meaningful sets.
+
+## Overview of implementing ad network accounts and campaigns
+
+Adobe works with each advertiser to set up its ad network accounts and campaigns. This includes configuring Search, Social, & Commerce to connect and synchronize with the advertiser's accounts, creating new campaigns and campaign components as necessary, setting up tracking for the component ads, optionally adding the campaigns to portfolios to allow Search, Social, & Commerce to optimize bid on the ads, and validating the initial cost, click, and revenue data.
+
+After a campaign is activated and optionally added to a portfolio, the Adobe account management team, the agency team, or the advertiser (depending on the terms of the service level agreement) will need to monitor each campaign and to change the relevant components and settings as necessary to meet the advertiser's goals.
+
+This page includes information about all account types, including how to set up campaign structure for synchronized accounts. For additional instructions on setting up tracking-only accounts for Naver, see "Implement tracking-only accounts."<!--LINK-->
+
+### Initial setup tasks for accounts and campaigns
+
+Adobe and/or your agency will work with you do the following:
+
+1. (New advertiser accounts) Set up administrative accounts:
+
+   1. Set up the advertiser's account.
+   1. (If necessary) Create user accounts for the advertiser to view and manage its campaign data and to generate reports.
+
+   (Adobe Account Managers and Administrators Only) For details about setting up accounts, see the help chapter on "Admin."<!--LINK-->
+
+1. (Some ad networks) Gain authorization for Search, Social, & Commerce to access each account using the ad network's API and the Advertising Search, Social, & Commerce user interface.
+1. For each ad network account:
+
+   1. (If necessary) Set up the account on the ad network.
+   1. Integrate with the account by [creating a corresponding account record](#campaign-management_accounts_ad-_4806) in Search, Social, & Commerce containing the account access credentials and tracking options, and set the account status to _enabled_.
+
+      Search, Social, & Commerce then synchronizes with the ad network. If the account already contains campaign data, then the data is available within Search, Social, & Commerce in about 24 hours.
+
+   1. (Ad types you can create/edit in Search, Social, & Commerce) If the account doesn't already contain campaign data, then create campaign structure and campaign components from within Search, Social, & Commerce by any of the following methods that are available for the ad type:
+
+      * (Google Ads, Microsoft Advertising, Yahoo! Ads, and Yandex accounts only) Set up an automated process to create dynamic ads and keywords targeted to each item in your inventory according to an ad network-specific ad template you create and the contents of inventory data files you upload to an FTP location.
+      * (Baidu, Google Ads, Microsoft Advertising, Pinterest, Yahoo! Japan Ads, Yahoo Native, and Yandex accounts only) Upload bulksheet files containing as much data as you want for an account and then posting them to the ad networks.
+      * (Baidu, Google Ads, Microsoft Advertising, Pinterest, Yahoo! Japan Ads, Yahoo Native, and Yandex accounts only) Enter data for individual components directly into the interface. For most campaign and ad types, you can create data at the campaign level, ad group level, and individual keyword, placement, and ad levels.
+
+      Some campaign and ad types, however, require unique workflows. See instructions for setting up Microsoft Advertising shopping campaigns, Google Ads dynamic search ads, Google Ads performance max campaigns, and Google Ads shopping campaigns.<!--LINK-->
+
+   1. (Naver tracking-only accounts only) Upload bulksheet files with data to replicate the existing campaigns, ad groups and keywords in Search, Social, & Commerce without posting them to Naver.
+
+1. Set up tracking for all ads for which Adobe Advertising will track conversions:
+
+   1. (Advertisers with the Adobe Advertising pixel-based conversion tracking service) If necessary, set up click tracking for ads, and optionally for keywords, placements, and ad extensions by generating and uploading click tracking URLs with the Search, Social, & Commerce redirect pixel.
+
+      For Google Ads performance max campaigns, set up all tracking in the campaign's tracking settings.
+
+   1. For tracking-only campaigns, you must instead generate destination URLs using bulksheets, and then add the generated destination URLs to the relevant entities using the ad network's native editor.
+   1. Set up conversion tracking. Depending on the implementation, this may involve adding conversion tracking tags to the advertiser's webpages and/or setting up a daily feed drop for conversion data that the advertiser has collected separately.
+
+      If you use the Adobe Advertising pixel-based conversion tracking service, you can generate conversion tracking tags within Search, Social, & Commerce or [using Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+
+   1. Validate the data that's tracked.
+
+   For more details about setting up tracking, see the chapter on "Tracking."<!--LINK-->
+
+1. (Advertisers with Adobe Analytics) [Integrate Adobe Advertising and Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) so that they can exchange data.
+1. (To allow Search, Social, & Commerce to optimize for keywords and ads in a campaign; supported campaign types only) Assign the campaign to a portfolio.
+
+   If the portfolio isn't already launched (placing bids), then you should let the optimization capability gather enough data that it can build cost and revenue models so you can establish the baseline performance for the portfolio before you launch it.
+
+   If the portfolio is already launched, then you should enable learning for the portfolio. For more information, see "Adjusting the Portfolio Strategies." <!--LINK-->You should expect the portfolio to be volatile after you add new campaigns, while the optimization capability gathers data on the campaign's bid units. Bidding automatically adjusts within one to three weeks.
+
+1. (If any new transaction properties will be tracked for the advertiser) Make the transaction properties available for reports, campaign management views, and portfolio objectives.
+1. For each campaign, verify that Search, Social, & Commerce is receiving click and cost data from the ad network, and validate the revenue data shown in Search, Social, & Commerce with the advertiser's own revenue data.
+1. (Optional) Set up report templates, spreadsheet feeds, and FTP delivery of scheduled reports.
+
+For instructions, see the chapter on "Reports."<!--LINK-->
+
+## Monitor and manage the performance of your ad network campaigns
+
+The Adobe Account Team, the agency team, or the advertiser (depending on the terms of the service level agreement) need to monitor the performance of each campaign and portfolio (when applicable) and to change the relevant components and settings as necessary to meet the advertiser's goals.
+
+### Monitor the performance of campaigns and portfolios
+
+Routinely monitor the performance of each campaign by:
+
+* Viewing the custom alerts that are available to you.
+* Viewing the account summary and performance details about the included campaigns.
+* Running reports, including the Portfolio Report (when applicable), Keyword Report, Ad Variation Report, and additional performance reports when applicable. When you use portfolios, make sure to compare the forecasted performance with actual performance.
+
+### Manage performance and adjust the campaign and portfolio structures
+
+Based on performance, you may need to perform additional business operations, including:
+
+* Adjusting account/campaign structures to accommodate changes in marketing strategy.
+* Adding/editing/pausing/deleting campaign components. This may include expanding keyword sets based on search term analysis, and making adjustments based on ad copy testing.
+* Updating geographical and site targeting strategies based on advanced performance reports.
+* Stopping bids on ads and keywords in a campaign by pausing the campaign or making the portfolio inactive.
+* (When applicable) Assigning a campaign to a new portfolio.
+* (When applicable) Adjusting the portfolio strategies to improve performance and take advantage of opportunities for growth.
+
+## Google Ads conversion data in Search, Social, & Commerce
+
+Search, Social, & Commerce automatically syncs Google-tracked conversion data for all of your campaigns on the Google search and shopping networks into Search, Social, & Commerce for reporting and optimization. Search, Social, & Commerce syncs data for conversions for which the "Include in 'Conversions'" option is enabled, pulling the data for the last 30 days and then pulling changes to the data daily.
+
+>[!NOTE]
+>
+>To generate Google conversion tracking tags in Search, Social, & Commerce, see "Generate a Google Ads Conversion Tag."<!--LINK-->
+
+### Available conversion data
+
+Up to three transaction properties for each [Google-tracked conversion](https://support.google.com/google-ads/answer/4677036) (which you set up in Google Ads) are automatically available in Search, Social, & Commerce, using the conversion names configured in Google Ads. The transaction properties for each Google conversion include:
+
+* GGL\* — (When you track it) The sum of conversion values for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+* GGL\_CT\*— The number (count) of conversions, beginning with the "GGL\_CT" prefix (such as GGL\_CT\_Purchase).
+* GGL\_XD\_CT\* — (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL\_XD\_CT\_" prefix (such as GGL\_XD\_CT\_Purchase).
+
+Data is available from the date at which the feature is enabled for the account and is updated daily by 09:00-10:00 in the advertiser's time zone.
+
+Google records each conversion by bid unit, device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in Google Ads; Adobe Advertising attribution isn't factored in because click event-level data isn't available. Each day, Search, Social, & Commerce pulls conversion data for the previous 30 days and then calculates any incremental conversions since the previous day, using the click date from Google and designating the prior day as the transaction date. As a result, historical data may change from day to day as new conversions are tracked for each click. If you compare data in Search, Social, & Commerce with that in Google Ads, use the view or report option to view "Conversions by:  Click date" (not transaction date).
+
+All of the metrics are automatically available in your campaign management views and basic reports, and are also available to use in portfolio objectives for optimization.
+
+**Notes**
+
+* If you have multiple accounts with the same conversion names, you may see duplicate conversion names in Adobe Advertising. If this occurs, change the display name for one of the duplicate metrics in Admin \> Transaction Properties. Reporting isn't accurate when two different metrics have the same name.
+* Data at the bid unit level matches data in Google at the same level. However, Google's own conversion data for higher levels may include additional conversions that aren't attributed to the child bid units. Data in Search, Social, & Commerce is always rolled up from the bid unit level, so, for example, a campaign-level report might not have the same totals as a campaign-level report in Google Ads.
+* Data variance is typically less after the morning sync than it is later in the day, when additional conversions haven't yet been synced. We recommend validating data in the morning.
+* Conversion data isn't available for Google Display Network, Gmail, Mobile App, and YouTube ads. Filter out those types of ads when you compare data in Google Ads with data in Search, Social, & Commerce.
+* Data for Google conversions isn't available at the audience or geographical location level and therefore isn't used to auto-optimize RLSA and location bid adjustments.
+
+### How to compare conversion data in Google Ads with data in Search, Social, & Commerce
+
+Use the following report settings to validate comparable data.
+
+#### Report settings to use in Google Ads
+
+1. In the main toolbar, select **Reports \> Report**.
+1. Select **+ Custom \> Table**.
+1. From the left pane, specify the rows and columns in the report:
+
+   1. Search for the **Day** field and it drag to the Row section.
+   1. Search for the **All conv.** field and it drag to the Column section.
+   1. Search for the **Conversion action** field and it drag to the Column section.
+
+1. In the report settings toolbar, select **Filter \> Ad status** , and then select all boxes.
+1. In the report settings toolbar, select **Download \> Excel .csv**.
+
+#### Report settings  to use in Search, Social, & Commerce
+
+1. In the main menu, click **Search \> Insights & Reports \> Reports**.
+1. In the toolbar above the data table, click **Create Report** , hold the cursor over **Basic Reports** , and then click **Search Engine Account Report**.
+1. In the Report Settings window, specify the following report settings:
+
+   1. In the **Conversions Based on** section, select **Click date**.
+   1. Specify the same date range that you used for the Google Ads report.
+   1. In the **Search/Content** section, select **Search Only**.
+   1. In the **Search Engine Hierarchy** section, expand the Google Adwords section and select the account.
+   1. Open the Columns tab, and add the Google Ads metrics (beginning with "GGL") that you want to compare.
+
+1. Click **Create**.

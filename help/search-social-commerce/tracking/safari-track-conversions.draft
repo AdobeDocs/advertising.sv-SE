@@ -1,0 +1,28 @@
+
+# Track Conversions from [!DNL Apple Safari] Browsers
+
+*Advertisers with Adobe Advertising conversion tracking only*
+
+With [!DNL Apple's] [!DNL Intelligent Tracking Prevention] (ITP) 2.2, Adobe Advertising conversion-tracking cookies are automatically deleted from [!DNL Apple Safari] browsers. Adobe Advertising has a solution, however, that enables you to track conversions that occur within [!DNL Safari] for seven days after the original click. <!-- ITP 2.3 blocks local storage after 7 days. -->
+
+The ITP 2.2 solution includes using the [!UICONTROL EF Redirect] with token passing for each ad network account, using a JavaScript conversion tracking tag in your conversion pages, inserting the Adobe Advertising JavaScript-based ITP 2.2 conversion mapping tag in any page that could be a landing page from a search click, and additional steps using local storage and iFrame technology. 
+
+Advertising Cloud has updated our ITP solution to capture the ECID and leverage it to connect
+tracking codes from the landing page to downstream conversions tracked through Advertising
+Cloud conversion pixels.
+
+
+
+you replace {AMO User ID} with the unique user ID for your Search, Social, & Commerce
+account. If you don't know this value, contact your Adobe Account Manager.
+
+1. Visitor clicks on search link and ef_id is in URL on landing page.
+1. ITP mapper picks up ECID + ef_id and sends this data to Ad Cloud where they are mapped together
+1. On conversion page ECID is passed through the Ad Cloud conversion pixel to Ad Cloud servers and ECID is used as key to link conversion data to the ef_id
+
+
+
+>[!NOTE]
+> The ITP 2.0 conversion mapping tag allows you to receive conversions that occurred only within 24 hours of the click. To upgrade to the ITP 2.2 solution, replace the existing conversion mapping tag and update your Advertising Cloud conversion tags to leverage the new iFrame.
+
+Contact your Adobe Account Team for the implementation instructions.
