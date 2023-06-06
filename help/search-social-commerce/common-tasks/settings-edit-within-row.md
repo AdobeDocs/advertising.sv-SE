@@ -1,7 +1,7 @@
 ---
 title: Redigera inställningar direkt i en rad
 description: Lär dig hur du redigerar data i hanteringsvyer på raden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: cd5d4acf2319c1a0e9f9f1ead6e219b42d163077
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -25,4 +25,5 @@ ht-degree: 0%
    * (Frihandsvärden) Ange ett nytt värde och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") eller tryck på **Retur** nyckel.
    >[!MORELIKETHIS]
    >
-   >*[Skapa och redigera kampanjdata gruppvis med Kopiera och Klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Skapa och redigera kampanjdata gruppvis med Kopiera och Klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+
