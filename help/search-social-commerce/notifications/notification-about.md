@@ -1,0 +1,79 @@
+---
+title: Om meddelanden
+description: Lär dig mer om meddelanden, inklusive olika typer och kategorier.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 0%
+
+---
+
+# Om meddelanden
+
+*Betafunktion*
+
+Du kan konfigurera dina meddelandeinställningar så att du kan prenumerera på eller avbryta prenumerationen på olika typer av aviseringar. Du kan visa dina meddelanden på något av följande sätt:
+
+* Från [!UICONTROL Notifications] som finns på huvudmenyn på ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden").
+
+* Från [!UICONTROL Insights & Reports] > [!UICONTROL Notification Center Beta].
+
+* Från en [!UICONTROL Notification Center] webbprogram, som öppnas [!UICONTROL Notification Center] i ett separat fönster utanför Search, Social och Commerce.
+
+   Programmet läses in snabbare än den vanliga webbläsarversionen och uppdateras automatiskt. Du kan installera programmet och hantera det med webbläsarens apphanterare.
+
+* Från push-meddelanden till webbläsaren.
+
+   När du aktiverar push-meddelanden visas de i enlighet med webbläsarens meddelandekonventioner.
+
+Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt ta bort meddelanden.
+
+## Meddelandetyper
+
+* **[!UICONTROL Notices]**: Versionsinformation, driftstoppsmeddelanden och andra meddelanden om ändringshantering.
+
+* **[!UICONTROL Recommendations]**: Möjligheter som identifierats för att förbättra prestanda, implementera bästa praxis och så vidare.
+
+* **[!UICONTROL Warnings]**: Problem som kräver åtgärd men som inte är viktiga för optimering eller hantering.
+
+* **[!UICONTROL Issues]**: Kritiska problem som kräver omedelbar åtgärd. Felmeddelanden för kontoauktorisering ingår.
+
+## Meddelandekategorier
+
+* [!UICONTROL Campaign Management]
+
+   * **[!UICONTROL Bulksheets]**: Meddelanden om att en [operation](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) har slutförts eller misslyckats.
+
+   * **[!UICONTROL UI Actions]**: Meddelanden om att dina jobb som utförs i bakgrunden har slutförts eller misslyckats. Jobbtyperna omfattar [bladarbeten](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), massredigera jobb i datatabellen eller med verktygsfältet, enhetstilldelningsjobb eller andra åtgärder i användargränssnittet (t.ex. synkronisering med annonsnätverk, inklistring av rader eller namnbyte av enheter). Enhetstilldelningar omfattar tilldelning eller frigörande av en [etikettklassificeringsvärde](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) till vilken enhet som helst, tilldela en kampanj till en portfölj och tilldela eller ta bort en begränsning till en portfölj.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+
+* [!UICONTROL Setup Errors]
+
+   * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Meddelanden om att [!UICONTROL Landing Page Suffix] Värdet är felaktigt, saknas eller innehåller en felaktig SKWCID-mall. eller så åsidosätts den på en lägre nivå av ett felaktigt värde.
+
+   * **[!UICONTROL Manager Account Missing ]**: Meddelanden om att autentiseringsuppgifterna för en sökning, sociala medier och handel saknas [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md), som används för att ställa in kritiska funktioner korrekt.
+
+* [!UICONTROL Network Errors]
+
+   * **[!UICONTROL Account Auth Error]**: Meddelanden om att det inte gick att komma åt en [annonsnätverkskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
+
+   * **[!UICONTROL Manager Account Auth Error]**: Meddelanden om att det inte gick att synkronisera med en [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
+
+* [!UICONTROL Insights & Reports]
+
+   * **[!UICONTROL Custom Alerts]**: Meddelanden om att [varningsinstanser](/help/search-social-commerce/alerts/alert-about.md) har utlösts för en aviseringsmall.
+
+   * **[!UICONTROL Advertising Insights]**: Meddelanden om att [en [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) har slutförts eller misslyckats.
+
+   * **[!UICONTROL Reports]**: Meddelanden om att en [anpassad eller schemalagd rapport](/help/search-social-commerce/reports/report-about.md) har slutförts eller misslyckats.
+
+   * **[!UICONTROL Spreadsheet Feeds]**: Meddelanden om att en [kalkylbladsmatning](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) har slutförts eller misslyckats.
+
+>[!MORELIKETHIS]
+>
+>* [Visa dina meddelanden](notification-view.md)
+>* [Markera ett meddelande som läst eller oläst](notification-mark-read-unread.md)
+>* [Ta bort ett meddelande](notification-delete.md)
+>* [Redigera aviseringsinställningarna](notification-edit.md)
+>* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
+>* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)
+

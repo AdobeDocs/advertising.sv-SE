@@ -1,0 +1,60 @@
+---
+title: Redigera ett anpassat mått
+description: Lär dig hur du redigerar anpassade mått, som beräknas utifrån standardvärden.
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
+
+---
+
+# Redigera ett anpassat mått
+
+Om du redigerar ett anpassat mätresultat som ingår som en kolumn i någon av standardvyerna eller anpassade vyer, eller i en rapportmall, används den nya formeln nästa gång du uppdaterar vyn eller kör rapporten.
+
+>[!NOTE]
+>
+>Komplexa anpassade mätvärden tar längre tid att beräkna, och rapporter och vyer som innehåller dem - särskilt när de innehåller separata kolumner för klicknings- och genomskinlighetskonverteringar - tar längre tid att generera.
+
+## Redigera ett anpassat mått från en kampanjhanteringsvy
+
+1. Gör något av följande ovanför datatabellen:
+
+   * Klicka på namnet på standardvyn eller den anpassade vyn för att öppna visningsinställningarna.
+
+   * Klicka ![Egna kolumner](/help/search-social-commerce/assets/custom-columns.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
+
+1. Håll markören över kolumnnamnet och klicka ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera") bredvid kolumnnamnet.
+
+1. Ange [anpassade måttinställningar](custom-metric-settings.md).
+
+1. Klicka på **[!UICONTROL Save]**.
+
+## Redigera ett anpassat mått från ett rapportmallsformulär
+
+1. Gå till **[!UICONTROL Columns]** -fliken.
+
+1. Klicka på kolumnnamnet i den vänstra kolumnen eller i den högra kolumnen och klicka sedan på **[!UICONTROL Edit]** i rätt avsnitt.
+
+1. Redigera [anpassade måttinställningar](custom-metric-settings.md).
+
+1. Klicka på **[!UICONTROL Submit]**.
+
+## Redigera ett anpassat mått från [!UICONTROL Portfolios] vyer
+
+1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
+
+1. Klicka på **[!UICONTROL Columns]** -fliken.
+
+1. Klicka på kolumnnamnet i [!UICONTROL Available Metrics] eller [!UICONTROL Table Columns] och klicka sedan på **[!UICONTROL Edit]** i rätt avsnitt.
+
+1. Redigera [anpassade måttinställningar](custom-metric-settings.md).
+
+1. Klicka på **[!UICONTROL Submit]**.
+
+>[!MORELIKETHIS]
+* [Om anpassade mått](custom-metric-about.md)
+* [Skapa ett anpassat mått](custom-metric-create.md)
+* [Ta bort ett anpassat mått](custom-metric-delete.md)
+* [Anpassade måttinställningar](custom-metric-settings.md)
+

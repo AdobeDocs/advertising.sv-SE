@@ -3,7 +3,7 @@ title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Camp
 description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] annonstaggar
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -41,10 +41,10 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->
->
 >* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du `amo` parametern före hash-symbolen.
->* Om inga andra parametrar inkluderas efter `amo` lägger du sedan till en parameter (till exempel &amp;a=b) efter den. Exempel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
+
+>
+>* >Om inga andra parametrar inkluderas efter `amo` lägger du sedan till en parameter (till exempel &amp;a=b) efter den. Exempel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 
 ### Konfigurera URL-suffixet för marknadsföringsnivålandningssida
@@ -83,8 +83,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 När en användare klickar på annonsen [!DNL Google Campaign Manager 360] ser `%pamo` i URL-suffixet och infogar dynamiskt värdet för `amo` i URL:en.
 
 >[!MORELIKETHIS]
->
->* [Översikt över [!DNL Analytics for Advertising]](overview.md)
->* [Adobe Advertising IDs Used by [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](macros-flashtalking.md)
+* [Översikt över [!DNL Analytics for Advertising]](overview.md)
+* [Adobe Advertising IDs Used by [!DNL Analytics]](/help/integrations/analytics/ids.md)
+* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](macros-flashtalking.md)
 

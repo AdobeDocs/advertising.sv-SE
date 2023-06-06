@@ -3,8 +3,8 @@ title: Nyheter
 description: Lär dig mer om de senaste uppdateringarna och nya funktioner i Annonssökning, sociala medier och handel.
 cloud: Experience Cloud
 product: advertising cloud
-hide: true
-source-git-commit: d4cc25967f1e0738f7b7d74f33fe90eeabfeea1c
+index: false
+source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%
@@ -12,8 +12,6 @@ ht-degree: 0%
 ---
 
 # Nyheter
-
-<!-- index: no -->
 
 Följande funktioner är nya eller nyligen ändrade.
 
