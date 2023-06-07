@@ -1,9 +1,9 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
-source-git-commit: 29d11545d9c3cb3e90efca4a51a39118dbf9cc1a
+source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
 workflow-type: tm+mt
-source-wordcount: '6276'
+source-wordcount: '6628'
 ht-degree: 0%
 
 ---
@@ -114,56 +114,33 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 <table style="table-layout:auto">
 
-<!-- 
+## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent
 
-## Fields required to create, edit, or delete each account component
+### Kampanjfält
 
-### Campaign fields
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. | | Kampanjnamn | Krävs | Det unika namn som identifierar en kampanj för ett konto. | | Kampanjbudget | Obligatoriskt: Skapa<br><br>>Valfritt: Redigera eller ta bort | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. | | Leveranssätt | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Kanaltyp | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Nätverk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | DSA-domännamn | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | DSA-domänspråk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Kampanjprioritet | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Affärs-ID | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Försäljningsland | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Filter för produktomfång | Valfritt | | Språk | Valfritt | | Enhetsmål | Valfritt | | Operativsystemmål för enhet (Google Adwords) | Valfritt | | Mobiloperatörer (Google Adwords) | Valfritt | | Målgruppsmetod | Ej tillämpligt | | Landningssidesuffix | <p>Valfritt | | Spårningsmall | Valfritt | | Kampanjstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort | | \[Advertiser-specifik etikettklassificering\] | Valfritt | | Begränsningar | Valfritt | | Kampanj-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. | | AMO-ID | Ej tillämpligt: Skapa<br><br>Obligatoriskt/valfritt: Redigera eller ta bort |
 
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required | The unique name that identifies a campaign for an account. |
-| Campaign Budget | Required: Create<br><br>>Optional: Edit or delete | A daily spending limit for the campaign, with or without monetary symbols and punctuation. This value overrides but can't exceed the account budget. |
-| Delivery Method | Required: Create<br><br>Optional: Edit or delete |
-| Channel Type | Required: Create<br><br>Optional: Edit or delete |
-| Networks | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Name | Required: Create<br><br>Optional: Edit or delete |
-| DSA Domain Language | Required: Create<br><br>Optional: Edit or delete |
-| Campaign Priority | Required/Optional: Create<br><br>Optional / n/a: Edit or delete  |
-| Merchant ID | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Sales Country | Required/Optional: Create<br><br>Optional / n/a: Edit or delete |
-| Product Scope Filter | Optional |
-| Languages | Optional |
-| Device Targets | Optional |
-| Device OS Targets (Google Adwords) | Optional |
-| Mobile Carriers (Google Adwords) | Optional |
-| Audience Target Method | n/a |
-| Landing Page Suffix | <p>Optional |
-| Tracking Template | Optional |
-| Campaign Status | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Campaign ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the campaign. |
-| AMO ID | n/a: Create<br><br>Required/Optional: Edit or delete |
+### Annonsgruppsfält
 
-### Ad group fields
-
-| Field | Required? |
+| Fält | Obligatoriskt? |
 | ---- | ---- |
-| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
-| Campaign Name | Required |
-| Networks | n/a |
-| GDN Custom Bid Level | Optional |
-| Ad Group Name | Required  |
-| Ad Group Type | Required |
-| Max CPC | Optional |
-| Max Content CPC | Optional |
-| Audience Target Method | Required |
-| Tracking Template | Optional |
-| Ad Group Status  | Optional: Create or edit<br><br>Required: Delete |
-| \[Advertiser-specific Label Classification\] | Optional |
-| Constraints | Optional |
-| Ad Group ID | Required only when you change the campaign name, unless the row includes an &quot;AMO ID&quot; for the ad group. |
-| AMO ID | The AMO ID is required to edit or delete the data unless you include the entity ID and parent entity ID.<br><br>Search, Social, & Commerce uses the value to determine the correct identity to edit but doesn't post the ID to the ad network. |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Nätverk | n/a |
+| Anpassad GDN-anbudsnivå | Valfritt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Annonsgruppstyp | Obligatoriskt |
+| Max CPC | Valfritt |
+| Max Content CPC | Valfritt |
+| Målmetod | Obligatoriskt |
+| Spårningsmall | Valfritt |
+| Annonsgruppsstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Annonsgrupp-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för annonsgruppen. |
+| AMO-ID | AMO-ID krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+<!-- 
 
 ### Keyword fields
 
