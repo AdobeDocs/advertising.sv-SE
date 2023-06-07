@@ -9,9 +9,9 @@ user-guide-description: Den här guiden förklarar de viktigaste funktionerna, u
 breadcrumb-title: Advertising Search, Social, & Commerce Guide
 index: false
 hide: true
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1690'
 ht-degree: 0%
 
 ---
@@ -372,12 +372,11 @@ ht-degree: 0%
    + Recommendations {#recommendations}
 + verktyg {#tools}
    + [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)
-   + Verktyg för att spåra taggar {#tracking}
-      + [Verktyg för att skapa och avkoda pixelbaserad spårning]{#pixel}
-         + [Om verktygen för att skapa och avkoda spårningstaggar](/help/search-social-commerce/tools/tracking-tools-about.md)
-         + [Generera en URL för klickspårning](/help/search-social-commerce/tools/click-tracking-url-generate.md)
-         + [Avkoda en klickspårnings-URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-         + [Generera en konverteringstagg för annonsering i Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+   + Verktyg för att skapa och avkoda spårningstaggar{#tracking}
+      + [Om verktygen för att skapa och avkoda spårningstaggar](/help/search-social-commerce/tools/tracking-tools-about.md)
+      + [Generera en URL för klickspårning](/help/search-social-commerce/tools/click-tracking-url-generate.md)
+      + [Avkoda en klickspårnings-URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
+      + [Generera en konverteringstagg för annonsering i Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Överför konverteringsdata till annonsnätverk {#upload-ad-networks}
       + [Överför konverteringsmått till [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Aktivera överföring av mål till annonsnätverk](/help/search-social-commerce/tools/objective-upload-to-networks.md)
