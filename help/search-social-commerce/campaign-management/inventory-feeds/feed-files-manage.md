@@ -1,9 +1,9 @@
 ---
 title: Hantera lagerdataflödesfiler
 description: Lär dig hur du konfigurerar inställningar som styr hur feed-data bearbetas.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a0cdc0de763feeafdea57e4233b48a2c39449e1f
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Du kan öppna eller hämta alla feedsfiler som har överförts manuellt eller me
 
 Mer information finns i webbläsarens onlinehjälp.
 
-## Överför en feed-fil manuellt [#feed-file-upload]
+## Överför en feed-fil manuellt {#feed-file-upload}
 
 >[!NOTE]
 > Om du kopplar en mall till en manuellt överförd fil, men sedan överför en annan fil med samma namn, filtillägg och grammatiska skiftläge via FTP, används FTP-filen när du sprider data via mallen. Till exempel ersätter myfile.csv myfile.csv, men det gör inte Myfile.CSV.
