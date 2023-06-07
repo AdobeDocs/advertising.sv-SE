@@ -1,7 +1,7 @@
 ---
 title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
-source-git-commit: 95c7e67bb6f065567302f266959295ce8125c624
+source-git-commit: 2e16159c3d7d973a12a94128b41ebd05539b2f02
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt vilka funktioner som är tillgängliga för var och en av dem.
 
 | Källa | Nätverk | Kampanjtyp | Annonstyp | Synkronisera och visa | Skapa/redigera | Spåra[^1] | Optimera | Rapport[^2] | Adobe Analytics Support[^3] |
-|----|----|----|----|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|----|----|----|----|
 | [!DNL Baidu] | Söknätverk | Manuell | Text | Automatisk via API | Använda [kampanjhanteringsvyer](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) och [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampanjer med enbart manuell CPC-anbudsstrategi | Data på annonsnivå | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
 | [!DNL Google Ads] | Alla [!DNL Google] feeds | Identifiering (betafunktion) | Discovery (enbildsannonser)<br><br>Discovery Carousel (Carousel-annonser för flera bilder) | Automatisk via API | — | Ja | Endast i hybridportföljer<br><br>Mål för bud och anbudsstrategier fastställs på kampanjnivå, tillsammans med kampanjbudgetar, beroende på vad som gäller för optimeringstypen. | Data på annonsnivå | Data på annonsnivå för sökning, sociala medier och handel (med den uppgraderade [s_kwcid spårningskod](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)[^4]<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
 |  | Alla | Högsta prestanda (betafunktion) | Alla typer | Automatisk via API | Skapa/redigera kampanjer och överföra annonsresurser i kampanjinställningarna i kampanjvyn<br><br>Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL om du vill visa valfria inställningar och listgrupper [!DNL Google Ads] Ads] editor. | Ja | Endast i hybridportföljer<br><br>Mål för anbudsstrategier fastställs på kampanjnivå, tillsammans med kampanjbudgetar. | Data på kampanjnivå<br><br>Det finns inga tillgängliga data för listgrupper och annonsnätverket tillhandahåller inga data på annonsnivå. | Analysdata för sökning, sociala medier och handel<br><br>Kampanjdata från sökning, sociala medier och handel till analyser. Kräver uppgradering [s_kwcid spårningskod](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). |
