@@ -9,9 +9,9 @@ user-guide-description: Den här guiden förklarar de viktigaste funktionerna, u
 breadcrumb-title: Advertising Search, Social, & Commerce Guide
 index: false
 hide: true
-source-git-commit: 30e08508f5039cdd08b01fd151b9119ee72b0b4d
+source-git-commit: ba0604f0c8f07cad70aa1af66fe24db3ec8e541d
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1721'
 ht-degree: 0%
 
 ---
@@ -369,7 +369,11 @@ ht-degree: 0%
       + [Visa anpassade aviseringar](/help/search-social-commerce/alerts/alert-view.md)
       + [Exportera data för anpassade aviseringar](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Visa rapporten för ändringshistorik](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations {#recommendations}
+   + Recommendations och förlag {#recommendations}
+      + [Om utgivarens rekommendationer och insikter](/help/search-social-commerce/recommendations/recommendation-support.md)
+      + [Visa rekommendationsloggen för en [!DNL Google Ads] konto](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + verktyg {#tools}
    + [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)
    + Verktyg för att skapa och avkoda spårningstaggar{#tracking}
