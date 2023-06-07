@@ -1,9 +1,9 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
-source-git-commit: 05a3424b67d084dbb664321c7a6ada0f99a840b2
+source-git-commit: e06d89ce5d7995bf3abc3ff1312a4a2c2c7448f1
 workflow-type: tm+mt
-source-wordcount: '6628'
+source-wordcount: '6630'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,32 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 ### Kampanjfält
 
-| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. | | Kampanjnamn | Krävs | Det unika namn som identifierar en kampanj för ett konto. | | Kampanjbudget | Obligatoriskt: Skapa<br><br>>Valfritt: Redigera eller ta bort | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. | | Leveranssätt | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Kanaltyp | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Nätverk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | DSA-domännamn | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | DSA-domänspråk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort | | Kampanjprioritet | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Affärs-ID | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Försäljningsland | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | | Filter för produktomfång | Valfritt | | Språk | Valfritt | | Enhetsmål | Valfritt | | Operativsystemmål för enhet (Google Adwords) | Valfritt | | Mobiloperatörer (Google Adwords) | Valfritt | | Målgruppsmetod | Ej tillämpligt | | Landningssidesuffix | <p>Valfritt | | Spårningsmall | Valfritt | | Kampanjstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort | | \[Advertiser-specifik etikettklassificering\] | Valfritt | | Begränsningar | Valfritt | | Kampanj-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. | | AMO-ID | Ej tillämpligt: Skapa<br><br>Obligatoriskt/valfritt: Redigera eller ta bort |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt | Det unika namn som identifierar en kampanj för ett konto. |
+| Kampanjbudget | Obligatoriskt: Skapa<br><br>>Valfritt: Redigera eller ta bort | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| Leveranssätt | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
+| Kanaltyp | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
+| Nätverk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
+| DSA-domännamn | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
+| Domänspråk för DSA | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
+| Kampanjprioritet | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
+| Affärs-ID | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
+| Försäljningsland | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
+| Filter för produktomfång | Valfritt |
+| Språk | Valfritt |
+| Enhetsmål | Valfritt |
+| Operativsystemmål för enhet (Google Adwords) | Valfritt |
+| Mobiloperatörer (Google Adwords) | Valfritt |
+| Målmetod | n/a |
+| Landningssidesuffix | <p>Valfritt |
+| Spårningsmall | Valfritt |
+| Kampanjstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. |
+| AMO-ID | Ej tillämpligt: Skapa<br><br>Obligatoriskt/valfritt: Redigera eller ta bort |
 
 ### Annonsgruppsfält
 
@@ -144,10 +169,10 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 ### Keyword fields
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
+| Acct Name | Required unless each row includes an &quot;AMO ID&quot; for the entity. |
+| Campaign Name | Required |
+| Ad Group Name | Required  |
+| Max CPC | Optional |
 Tracking Template
 URLs (Base URL/Final URL, Destination URL)
 Exemption Request (Google Adwords)
@@ -159,6 +184,7 @@ Param2
 Quality Score
 Custom URL Param
 Label Classification
+Keyword Status
 
 | Field | Required? | Description |
 | ---- | ---- | ---- |
