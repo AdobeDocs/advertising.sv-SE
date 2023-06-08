@@ -1,9 +1,9 @@
 ---
 title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2080'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
    1. I **[!UICONTROL Account Details]** anger du kontoinformationen.
 
-      För annonsnätverk som använder inloggningsauktoriseringstypen &quot;[!UICONTROL oAuth],&quot; tillåter att Search, Social och Commerce får åtkomst till kontot via [OAuth-auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+      För annonsnätverk som använder inloggningsauktoriseringstypen &quot;[!UICONTROL oAuth],&quot; tillåter att Search, Social och Commerce får åtkomst till kontot via [OAuth-auktoriseringsprotokoll](https://oauth.net/2/):
 
       1. Ange **[!UICONTROL Login]** för kontot, ange lösenordet om du vill och klicka sedan på **[!UICONTROL Authenticate]**.
 
@@ -45,8 +45,8 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
       1. Kopiera autentiseringssträngen i popup-fönstret som öppnas och klistra in strängen i **[!UICONTROL oAuth Token]** fält.
 
       1. Ange återstående kontoinformation.
-   1. Klicka **[!UICONTROL Set Account Tracking]** och ange spårningsinställningarna.
 
+   1. Klicka **[!UICONTROL Set Account Tracking]** och ange spårningsinställningarna.
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -82,7 +82,7 @@ Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametr
 
 *Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
 
-Om Sök, Socialt och Commerce kommer åt kontot med [OAuth-auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22) och kontoinloggningsuppgifterna ändras, eller om ytterligare åtkomst krävs för att ge stöd åt nya funktioner i Sök, Socialt och Commerce, måste du skaffa en ny åtkomsttoken för kontot.
+Om Sök, Socialt och Commerce kommer åt kontot med [OAuth-auktoriseringsprotokoll](https://oauth.net/2/) och kontoinloggningsuppgifterna ändras, eller om ytterligare åtkomst krävs för att ge stöd åt nya funktioner i Sök, Socialt och Commerce, måste du skaffa en ny åtkomsttoken för kontot.
 
 Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
@@ -146,7 +146,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 **[!UICONTROL Login Details]: \[Inloggningstyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras till kontot med:
 
-* *[!UICONTROL oAuth]* (standard): Så här använder du [[!DNL OAuth] auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (standard): Så här använder du [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
 * *[!UICONTROL Password]:* För att använda klientens lösenord.
 
@@ -154,7 +154,7 @@ För [!DNL Microsoft Advertising] konton, endast [!DNL oAuth]-auktoriserade inlo
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Alla annonsnätverk utom [!DNL Naver]) Inloggningsnamnet eller ID:t för att aktivera API-åtkomst till kontot.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiverad och alla andra nätverk förutom [!DNL Baidu], [!DNL Meta]och [!DNL Yandex]) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiverad och alla andra nätverk förutom [!DNL Baidu], [!DNL Meta]och [!DNL Yandex]) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alla annonsnätverk utom [!DNL Naver]) Lösenordet för kontot. För lösenordsaktiverade konton på [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex]är detta fält obligatoriskt. För [!DNL oAuth]-aktiverade konton, detta fält är valfritt; använda den när du vill kryptera och spara lösenordet så att kontohanteraren kan uppdatera tokens efter behov.
 
@@ -172,7 +172,6 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 >
 >* Det här fältet uppdateras inte av [!UICONTROL Auto Upload] spårningsinställning.
 >* Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter behövs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
-
 
 **Tidszon:** (Alla annonsnätverk utom [!DNL Baidu] och [!DNL Yahoo! Display Network]) Annonsörens tidszon. Det här fältet är redigerbart och valfritt för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den tidszon som konfigurerats för annonserarens konto Sök, Sociala och Commerce när du har sparat posten.
 
@@ -200,7 +199,6 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 >* För [!DNL Google Ads]bör du undvika att använda makron, som inte ersätts med klick från källor som möjliggör parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* Om du uppdaterar en spårningsmall på annons-, sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
-
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] endast konton) ID:t för ett agenturkonto/förvaltningskonto som är associerat med kontot.
 
@@ -259,4 +257,3 @@ För att data ska kunna visas i rapportsviterna måste antingen (a) serversidan 
 >* [Om och nätverkskonton](ad-network-account-about.md)
 >* [Hantera säljcenterkonton](merchant-account-manage.md)
 >* [Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](update-skwcid-google.md)
-

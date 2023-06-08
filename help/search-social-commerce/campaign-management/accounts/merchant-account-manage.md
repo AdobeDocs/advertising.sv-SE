@@ -1,9 +1,9 @@
 ---
 title: Hantera handlarkonton
 description: Lär dig hur du ställer in och hanterar kontoinformation för ett handlarcenterkonto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
 
    1. I [!UICONTROL Product Source] väljer du handlarcentret.
 
-   1. (Krävs för [!DNL Google Ads] Konton. valfritt för [!DNL Microsoft Advertising] konton) Tillåt sökning, sociala medier och handel att komma åt kontot via [[!DNL OAuth] auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22):
+   1. (Krävs för [!DNL Google Ads] Konton. valfritt för [!DNL Microsoft Advertising] konton) Tillåt sökning, sociala medier och handel att komma åt kontot via [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] endast konton) Välj **[!UICONTROL oAuth]**.
 
@@ -98,13 +98,13 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Product Source]:** Handlarens nätverk. Du kan inte ändra värdet för ett befintligt konto.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] endast konton) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] endast konton) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras till kontot med:
 
 * *[!UICONTROL Client login]:* Om du vill använda klientens inloggning.
 
-* *[!UICONTROL oAuth]* (standard): Så här använder du [[!DNL OAuth] auktoriseringsprotokoll](http://tools.ietf.org/html/draft-ietf-oauth-v2-22).
+* *[!UICONTROL oAuth]* (standard): Så här använder du [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] bara) Åtkomstnyckeln som utvecklarkontot ska använda.
 
@@ -130,4 +130,3 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 >
 >* [Om och nätverkskonton](ad-network-account-about.md)
 >* [Hantera och nätverkskonton](ad-network-account-manage.md)
-

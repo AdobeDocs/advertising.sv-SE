@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Yahoo! Japan Ads] nyckelordsinställningar"
 description: Referera inställningarna för [!DNL Yahoo! Japan Ads] nyckelord.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,6 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 >* Du kan skapa negativa nyckelord från [!UICONTROL Keywords] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
 >* Yahoo! Japanska nyckelord och matchningstyper kan inte ändras, vilket innebär att du kan redigera dem utan att ta bort det befintliga nyckelordet.
 
-
 **[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Aktiv*.
 
 ## [!UICONTROL Bids]
@@ -32,9 +31,9 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 
 ## Platshållare
 
-**[!UICONTROL Param1]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param1}` [anpassad parameter](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param1]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param1}` [anpassad parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param2}` [anpassad parameter](https://help.marketing.yahoo.co.jp/en?p=7195#customp).
+**[!UICONTROL Param2]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param2}` [anpassad parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-alternativ
 
@@ -49,4 +48,3 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 >[!MORELIKETHIS]
 >
 >* [Hantera nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

@@ -1,9 +1,9 @@
 ---
 title: Hantera [!DNL Google Ads] placeringar
 description: Lär dig hur du skapar och hanterar prisvärda ersättningar för [!DNL Google Ads] annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Du kan skapa och redigera placeringar för annonsgrupper i [kampanjtyper som st�
 
 ### [!UICONTROL Placement Details]
 
-**[!UICONTROL Placements]:** Webbplatser i det innehållsnätverk där annonsen kan visas. Ange en giltig URL, till exempel www.example.com, example.com eller www.example.com/shoes/kids. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.URL:en får inte innehålla ett frågetecken (`?`). **Obs!** Du kan [utelämna webbplatsplaceringar](placement-negative-create.md) från [!UICONTROL Placements] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
+**[!UICONTROL Placements]:** Webbplatser i det innehållsnätverk där annonsen kan visas. Ange en giltig URL, till exempel www.example.com, example.com eller www.example.com/shoes/kids. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader. URL:en får inte innehålla ett frågetecken (`?`). **Obs!** Du kan [utelämna webbplatsplaceringar](placement-negative-create.md) från [!UICONTROL Placements] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
 
 **[!UICONTROL Status]:** Placeringens visningsstatus: *Aktiv* (för att möjliggöra budgivning, standard), *Pausad* (för att inaktivera budgivning), eller *Borttagen* (ta bort placeringen, (endast befintliga placeringar).
 
@@ -88,4 +88,3 @@ Du kan skapa och redigera placeringar för annonsgrupper i [kampanjtyper som st�
 >* [Om placeringar](placement-about.md)
 >* [Skapa negativa placeringar](placement-negative-create.md)
 >* [Ändra status för placeringar och negativa placeringar](placement-status-edit.md)
-
