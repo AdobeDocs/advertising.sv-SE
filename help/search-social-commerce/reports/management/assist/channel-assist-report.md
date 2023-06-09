@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Channel Assist Report]"
 description: Läs mer om [!UICONTROL Channel Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # The [!UICONTROL Channel Assist Report]
 
-*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och med konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
+*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
 
 The [!UICONTROL Channel Assist Report] ange hur olika marknadsföringskanaler (sökning eller sociala medier från sökning, sociala medier och handel), eller video från Advertising DSP) har hjälpt till med konverteringsprocessen. Rapporten visar hur varje mönster med händelsetyper som ledde till en eller flera konverteringar har bidragit till dina totala konverteringar. Du kan till exempel se hur många konverteringar som gjordes när användarna först såg ett visnings- och visningsintryck, sedan klickade på en sökannons och sedan lade en order; eller så kan du se hur många konverteringar som har gjorts efter att användarna interagerat med mer än 10 annonser. Händelsetyper är bland annat klickningar, visningar och klickningar, videovisningar och klickningar samt andra trycksaker och klickningar. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
@@ -25,7 +25,7 @@ Du kan visa data för de föregående 18 månaderna.
 Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkluderas automatiskt som standard. Du kan lägga till tillgängliga anpassade kolumner från avsnittet Kolumner i rapportinställningarna.
 
 | Kolumn | Standard? | Beskrivning |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Event] till [!UICONTROL 5th Event] | Standard | De fem tidigaste händelsetyperna i konverteringssökvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL Path Size] | Standard | Antalet händelsetyper i konverteringssökvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Event Type] | Standard | Händelsetypen för den första (tidigaste) händelsen i konverteringssökvägen. |
@@ -47,4 +47,3 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Inställningar för assistentrapporter](assist-report-settings.md)
 >* [Generera en assistentrapport](assist-report-generate.md)
-

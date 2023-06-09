@@ -1,7 +1,7 @@
 ---
 title: Skriv gällande text och text
 description: Lär dig mer om de bästa sätten att skriva effektiva annonskopior.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * Skriv kraftfulla rubriker för att locka potentiella kunder.
 
-* Lägg in nyckelord i rubrikerna eftersom det är vad de flesta söker efter. [^1]
+* Lägg in nyckelord i rubrikerna eftersom det är vad de flesta söker efter. [1]
 
 * Skapa reklamtext som är utformad för den avsedda målgruppen.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 * Om du erbjuder en rabatt inkluderar du rabattbeloppet eller rabattprocenten (till exempel&quot;20 % rabatt&quot; eller&quot;Spara 20 dollar vid första köpet).
 
-* Om det är möjligt använder du nyckelordet både i rubriken/titeln och på båda raderna i beskrivningen/brödtexten. [^1]
+* Om det är möjligt använder du nyckelordet både i rubriken/titeln och på båda raderna i beskrivningen/brödtexten. [1]
 
 * Inkludera alltid ett anrop till åtgärd i texten, till exempel&quot;Visa&quot;,&quot;Checka ut&quot;,&quot;Ordna&quot; eller&quot;Registrera dig&quot;, för att öka klickfrekvensen. För bildannonser ska du inkludera uppmaningen att agera på en knapp som länkar till din webbplats; för multimediereklam, inkludera uppmaningen att agera i en tidig bildruta.
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 * Se vad era konkurrenter gör. Titta på de främsta annonserna för ett space (på webbplatser som www.spyfu.com) och försök förstå vilka annonser som fungerar.
 
-[^1]: Om du använder nyckelordsinfogning använder du rätt skiftläge för infogningskoden:
+[1]: Om du använder nyckelordsinfogning använder du rätt skiftläge för infogningskoden:
 
 `{keyword:default}` = gräsklippare
 
@@ -84,4 +84,3 @@ ht-degree: 0%
 >
 >* [Analysera rapporter för att förfina nyckelord och kampanjinställningar](best-practices-analyze.md)
 >* [Optimera webbplatsens landningssidor](best-practices-optimize.md)
-

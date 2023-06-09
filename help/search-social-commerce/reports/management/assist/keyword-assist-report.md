@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Keyword Assist Report]"
 description: Läs mer om [!UICONTROL Keyword Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # The [!UICONTROL Keyword Assist Report]
 
-*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och med konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
+*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
 
 The [!UICONTROL Keyword Assist Report] anger vilka nyckelord eller placeringar som driver klickningar. Rapporten visar varje mönster med betalda söknyckelord eller placeringar som har fått klickningar i en konverteringsbana och visar hur mönstret har bidragit till dina totala konverteringar. Du kan till exempel se hur många konverteringar som gjordes när användarna först klickade på en annons efter en nyckelordssökning efter&quot;läderskor&quot;, sedan klickade på en annons efter en nyckelordssökning efter&quot;suede skor&quot; och sedan lade in en order. eller så kan du se hur många konverteringar som har inträffat efter att användare klickat på annonser som har skapats med mer än 10 nyckelord.
 
@@ -29,7 +29,7 @@ Du kan visa data för de föregående 18 månaderna.
 Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkluderas automatiskt som standard. Du kan lägga till tillgängliga anpassade kolumner från avsnittet Kolumner i rapportinställningarna.
 
 | Kolumn | Standard? | Beskrivning |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Keyword] till [!UICONTROL 5th Keyword] | Standard | De fem tidigaste söknyckelorden eller placeringsklickningarna i konverteringssökvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j).<br><br><b>Obs!</b> Om rapporten innehåller placeringar från innehållsanpassade sökkampanjer (som inte innehåller nyckelord), visar de här kolumnerna de tillämpliga annonsgruppsnamnen, till exempel &quot;(adgroup content) Your Ad Group Name&quot; i stället. |
 | [!UICONTROL Path Size] | Standard | Antalet nyckelord och/eller placeringar i konverteringssökvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Keyword] | Standard | Det första nyckelordet eller den första placeringen i konverteringssökvägen. |
@@ -51,4 +51,3 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [Inställningar för assistentrapporter](assist-report-settings.md)
 >* [Generera en assistentrapport](assist-report-generate.md)
-

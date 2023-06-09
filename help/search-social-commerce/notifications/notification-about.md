@@ -1,7 +1,7 @@
 ---
 title: Om meddelanden
 description: Lär dig mer om meddelanden, inklusive olika typer och kategorier.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 1b38a7cd20eb2f9b773d01dc0444f45761b99647
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -20,11 +20,11 @@ Du kan konfigurera dina meddelandeinställningar så att du kan prenumerera på 
 
 * Från en [!UICONTROL Notification Center] webbprogram, som öppnas [!UICONTROL Notification Center] i ett separat fönster utanför Search, Social och Commerce.
 
-   Programmet läses in snabbare än den vanliga webbläsarversionen och uppdateras automatiskt. Du kan installera programmet och hantera det med webbläsarens apphanterare.
+  Programmet läses in snabbare än den vanliga webbläsarversionen och uppdateras automatiskt. Du kan installera programmet och hantera det med webbläsarens apphanterare.
 
 * Från push-meddelanden till webbläsaren.
 
-   När du aktiverar push-meddelanden visas de i enlighet med webbläsarens meddelandekonventioner.
+  När du aktiverar push-meddelanden visas de i enlighet med webbläsarens meddelandekonventioner.
 
 Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt ta bort meddelanden.
 
@@ -50,7 +50,7 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 
    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Meddelanden om att [!UICONTROL Landing Page Suffix] Värdet är felaktigt, saknas eller innehåller en felaktig SKWCID-mall. eller så åsidosätts den på en lägre nivå av ett felaktigt värde.
 
-   * **[!UICONTROL Manager Account Missing ]**: Meddelanden om att autentiseringsuppgifterna för en sökning, sociala medier och handel saknas [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md), som används för att ställa in kritiska funktioner korrekt.
+   * **[!UICONTROL Manager Account Missing]**: Meddelanden om att autentiseringsuppgifterna för en sökning, sociala medier och handel saknas [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md), som används för att ställa in kritiska funktioner korrekt.
 
 * [!UICONTROL Network Errors]
 
@@ -76,4 +76,3 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 >* [Redigera aviseringsinställningarna](notification-edit.md)
 >* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)
-

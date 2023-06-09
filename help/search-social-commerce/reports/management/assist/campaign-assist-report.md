@@ -1,7 +1,7 @@
 ---
 title: "[!UICONTROL Campaign Assist Report]"
 description: Läs mer om [!UICONTROL Campaign Assist Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Du kan visa data för de föregående 18 månaderna.
 Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkluderas automatiskt som standard. Du kan lägga till tillgängliga anpassade kolumner från avsnittet Kolumner i rapportinställningarna.
 
 | Kolumn | Standard? | Beskrivning |
-|----|----|
+| ---- | ---- | ---- |
 | [!UICONTROL 1st Campaign] till [!UICONTROL 5th Campaign] | Standard | De fem tidigaste kampanjerna i konverteringsprocessen som inträffade inom annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j).<br><br>Om du inkluderade något av rapportalternativen för att ange annonsnätverket, kontonamnet eller händelsetypen efter enhetsnamnet, inkluderas den informationen efter kampanjnamnet (till exempel `"<"campaign name> [Google] [Account1] [impression]`&quot;). |
 | [!UICONTROL Path Size] | Standard | Antalet kampanjer i konverteringsvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). |
 | [!UICONTROL First Campaign] | Standard | Den första kampanjen i konverteringsvägen. |
@@ -57,4 +57,3 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
 >* [Inställningar för assistentrapporter](assist-report-settings.md)
 >* [Generera en assistentrapport](assist-report-generate.md)
-

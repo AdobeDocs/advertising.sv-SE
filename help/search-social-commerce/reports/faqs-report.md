@@ -1,7 +1,7 @@
 ---
 title: Frågor och svar om rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
 workflow-type: tm+mt
 source-wordcount: '3917'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Du kan se vilka konverteringar som har gjorts genom att klicka på en [!DNL Goog
 
 * Webbplatslänkar listas som `sl:<Sitelink text>`, till exempel `sl:See Current Offers`.
 
-   Du kan även identifiera en platshållare om du har [!UICONTROL Tracking URL] i rapporten. The [!UICONTROL Tracking URL] för en sitelink innehåller attributet `&ev_ltx=sl:<link-name>`.
+  Du kan även identifiera en platshållare om du har [!UICONTROL Tracking URL] i rapporten. The [!UICONTROL Tracking URL] för en sitelink innehåller attributet `&ev_ltx=sl:<link-name>`.
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ Om du genererar en rapport flera gånger med samma rapportparametrar men med oli
 
 * Datumbaserade klickdata kan ligga utanför det angivna datumintervallet.
 
-   Om du använder rapportparametern[!UICONTROL Conversions based on click date]&quot; gäller det angivna datumintervallet för klickdatumet i stället för datumet för transaktionen. Om attribueringsregeln &quot;First Event&quot; eller &quot;Last Event&quot; också används i rapporten kan den första eller sista händelsen som ledde till konverteringen ligga utanför det angivna datumintervallet. Anta till exempel att en användare klickade på Nyckelord_1 den 30 april, klickade på Nyckelord_2 den 20 maj och konverterades den 21 maj. Om rapporten använder &quot;[!UICONTROL First Event]&quot; och datumintervallet 1-21 maj, inkluderas inte den första händelsen (ett klick på Keyword_1 den 30 april) i rapporten. Om du kör rapporten med samma datumintervall men använder kommandot[!UICONTROL Last Event]&quot;attribueringsregel, så inkluderas konverteringen i rapporten eftersom den senaste klickningen inträffade inom det angivna datumintervallet.
+  Om du använder rapportparametern[!UICONTROL Conversions based on click date]&quot; gäller det angivna datumintervallet för klickdatumet i stället för datumet för transaktionen. Om attribueringsregeln &quot;First Event&quot; eller &quot;Last Event&quot; också används i rapporten kan den första eller sista händelsen som ledde till konverteringen ligga utanför det angivna datumintervallet. Anta till exempel att en användare klickade på Nyckelord_1 den 30 april, klickade på Nyckelord_2 den 20 maj och konverterades den 21 maj. Om rapporten använder &quot;[!UICONTROL First Event]&quot; och datumintervallet 1-21 maj, inkluderas inte den första händelsen (ett klick på Keyword_1 den 30 april) i rapporten. Om du kör rapporten med samma datumintervall men använder kommandot[!UICONTROL Last Event]&quot;attribueringsregel, så inkluderas konverteringen i rapporten eftersom den senaste klickningen inträffade inom det angivna datumintervallet.
 
 * Portföljfiltervalet utesluter vissa händelser som leder till konverteringen.
 
-   Om du rapporterar om en delmängd av portföljer kanske du inte inkluderar kampanjer som innehöll händelsen som konverteringen tilldelades enligt någon av attribueringsreglerna. Anta att en användare klickar på Nyckelord_1 från Portfolio_1, klickar på Nyckelord_2 från Portfolio_2 och sedan konverterar. Om rapporten använder &quot;[!UICONTROL First Event]&quot; attribueringsregel, så måste Portfolio_1 inkluderas för att konverteringen ska tas med i rapporten. Om attribueringsregeln &quot;Last Event&quot; används i rapporten måste Portfolio_2 inkluderas.
+  Om du rapporterar om en delmängd av portföljer kanske du inte inkluderar kampanjer som innehöll händelsen som konverteringen tilldelades enligt någon av attribueringsreglerna. Anta att en användare klickar på Nyckelord_1 från Portfolio_1, klickar på Nyckelord_2 från Portfolio_2 och sedan konverterar. Om rapporten använder &quot;[!UICONTROL First Event]&quot; attribueringsregel, så måste Portfolio_1 inkluderas för att konverteringen ska tas med i rapporten. Om attribueringsregeln &quot;Last Event&quot; används i rapporten måste Portfolio_2 inkluderas.
 
 >[!TIP]
 >
@@ -152,9 +152,9 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 +++Intäkter saknas i rapporter.
 
-### Annonsörer som använder konverteringstaggar för Adobe
+**Annonsörer som använder konverteringstaggar i Adobe Advertising**
 
-#### Möjliga orsaker
+*Möjliga orsaker:*
 
 * Nyckelord eller annonser lades till utan att prefixet Sök, Socialt och Commerce för klickspårning lades till i spårningsmallarna eller mål-URL:erna, eller så är spårningsprefixet felaktigt.
 
@@ -164,7 +164,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 * Inkomstparsern för klienten implementerades inte.
 
-#### Möjlig lösning eller tillfällig lösning
+*Möjlig lösning eller tillfällig lösning:*
 
 1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra transaktionsegenskaperna tillgängliga för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -180,9 +180,9 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
    Om klienten inte har startats eller om den har startats nyligen verifierar kundtjänst om en intäktsparser har ställts in. Om parsern är konfigurerad kontrollerar de om Search, Social, &amp; Commerce tar emot pixelkonverteringar och felsöker problemet.
 
-### Annonsörer som skickar konverteringsdataflöden
+**Annonsörer som skickar konverteringsdataflöden**
 
-#### Möjliga orsaker
+*Möjliga orsaker:*
 
 * Feed-filen levererades inte, den parsades inte helt eller så innehöll feeden överblivna transaktioner.
 
@@ -192,7 +192,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 >
 >Data visas vanligtvis inte i användargränssnittet förrän 2-4 timmar efter att feeden har tagits emot.
 
-#### Möjlig lösning eller tillfällig lösning
+*Möjlig lösning eller tillfällig lösning:*
 
 1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra transaktionsegenskaperna tillgängliga för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
@@ -208,14 +208,14 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 +++
 
 +++Vissa avancerade rapporter innehåller inte konverteringsdata från en annonsörmatning.
-The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via Adobe Advertising Converting Tracking Service och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising Converting Tracking System.
+The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via tjänsten för spårning av konvertering till Adobe Advertising och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
 +++
 
 +++Intäktsdata skiljer sig från annonsörens egna intäktsdata.
 
-### Annonsörer som använder konverteringstaggar för Adobe
+**Annonsörer som använder konverteringstaggar i Adobe Advertising**
 
-#### Möjliga orsaker
+*Möjliga orsaker:*
 
 * Search, Social och Commerce ignorerar intäkter när cookien har gått ut eller tagits bort, men annonsören kan anse att den är giltig.
 
@@ -223,7 +223,7 @@ The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report]
 
 * Taggen för konverteringsspårning implementeras inte korrekt på alla tillämpliga webbsidor eller redigerades.
 
-#### Möjlig lösning eller tillfällig lösning
+*Möjlig lösning eller tillfällig lösning:*
 
 1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
 
@@ -235,13 +235,13 @@ The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report]
 
    Kundtjänst kommer att försöka identifiera de saknade transaktionerna och sedan söka efter enstaka transaktioner och transaktioner som inte kommer från en annons (&quot;okorrelerade konverteringar&quot;).
 
-### Annonsörer med konverteringsdataflöden som använder `ef_id` values
+**Annonsörer med konverteringsdataflöden som använder `ef_id` values**
 
 Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
-### Annonsörer med konverteringsdataflöden som använder transaktions-ID:n
+**Annonsörer med konverteringsdataflöden som använder transaktions-ID:n**
 
-#### Möjliga orsaker
+*Möjliga orsaker:*
 
 * Search, Social och Commerce ignorerar intäkter när cookien förfaller eller tas bort, men annonsören kan anse att den är giltig.
 
@@ -249,7 +249,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * En offlinekonvertering rapporterades innan en onlinetransaktion med samma transaktions-ID inträffade. Onlinetransaktionen måste ske först.
 
-#### Möjlig lösning eller tillfällig lösning
+*Möjlig lösning eller tillfällig lösning:*
 
 1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens flödesuppgifter.
 
@@ -259,9 +259,9 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
    Kundtjänst kommer att söka efter fel vid dataanalys och [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
 
-### Annonsörer med andra typer av konverteringsdataflöden
+**Annonsörer med andra typer av konverteringsdataflöden**
 
-#### Möjliga orsaker
+*Möjliga orsaker:*
 
 * Search, Social och Commerce ignorerar intäkter när cookien har gått ut eller tagits bort, men annonsören kan anse att den är giltig.
 
@@ -279,7 +279,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * Annonsörens dedupliceringslogik skiljer sig från logiken Sök, Social och Commerce.
 
-#### Möjlig lösning eller tillfällig lösning
+*Möjlig lösning eller tillfällig lösning:*
 
 1. Gå till **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
 
@@ -311,8 +311,8 @@ The [!UICONTROL Portfolio Report] visar endast data för de kampanjer som har ti
 Annonsnätverken tillhandahåller inte den identifierare som krävs för att tilldela intäkter till en enskild annons för dessa kampanjer. Följaktligen är inte annonsnivådata tillgängliga för de kampanjtyperna i [!UICONTROL Ads] eller i [!UICONTROL Ad Variation Report]. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
 +++
 
-+++ I [!UICONTROL Transaction Report]Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller som spåras av Adobe Advertising tracking-pixeln?
-I en transaktionsrapport kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln i Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spårnings-URL:er med Adobe Advertising tracking pixel börjar med &quot;`http://pixel.everesttech.net`.&quot;
++++ I [!UICONTROL Transaction Report]Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
+I en transaktionsrapport kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln i Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spåra URL:er med spårningspixeln Adobe Advertising börjar med`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Data i [!UICONTROL Transaction Report] matchar inte data i [!UICONTROL Keyword Report].
