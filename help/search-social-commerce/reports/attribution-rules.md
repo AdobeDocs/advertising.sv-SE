@@ -1,9 +1,9 @@
 ---
 title: Hur attribueringsregler beräknas
 description: Lär dig hur Adobe Advertising beräknar varje typ av attribueringsregel.
-source-git-commit: 6436866ae7684a330f74c14e58ee30d365de80a1
+source-git-commit: d4237253af7110a3ed02595c466c01359f5601d4
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I rapporter, standardvyer och anpassade vyer för annonssökning, sociala medier
 >
 >* Attributregler gäller för klick på betalda annonser i alla kanaler och för visningar på displayannonser och sociala annonser. De gäller inte för visningar av betalda sökannonser, som inte kan spåras på eventnivå.
 >* Adobe Advertising lagrar alltid följande händelser för varje webbsurfer före en konvertering: a) det första köpet, b) upp till 10 klickningar för varje kanal (sökning, social eller displayannonsering), inklusive det första klicket, och c) upp till 10 visningar. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* I Advertising DSP och Advertising Creative beaktas bara händelsemeddelandet från den valda attribueringsregeln för definitioner för olika enheter.<!-- cross-device attribution via LiveRamp only -->
+* I Advertising DSP and Advertising Creative beaktas endast händelsemeddelandet från den valda attribueringsregeln för definitioner för olika enheter.<!-- cross-device attribution via LiveRamp only -->
 * I rapporter och hanteringsvyer beror antalet decimaler som visas för ett värde på valutan, men Adobe Advertising lagrar mer exakta värden.
 
 ## Senaste händelse (standard)
@@ -115,7 +115,7 @@ Attributerar konverteringen till alla händelser i serien som inträffade i anno
 
 När konverteringen föregås av endast visningar betraktas konverteringen som *genomgång*, som vägs antingen enligt annonsörens [inställning för genomskinlig vikt](/help/search-social-commerce/glossary.md#uv) eller - enligt vad som anges - enligt den vybaserade värderingsmetod som anges i rapporten, vyn eller anpassade simuleringsparametrar.
 
-När konverteringsprocessen omfattar både betalda klick och visningar hanteras intryck på olika sätt i olika Adobe Advertising-produkter:
+När konverteringsprocessen omfattar både betalda klick och visningar behandlas dessa olika av olika Adobe-reklamprodukter:
 
 * I Sök, Socialt, &amp; Commerce [visningsåsidosättningsvikt](/help/search-social-commerce/glossary.md#i-j) - som anges i annonsörens intryck åsidosätter viktinställningen och i rapport-, vy- eller anpassade simuleringsparametrar - tillämpas först på avtrycken.
 
@@ -177,7 +177,7 @@ Attributerar konverteringen på samma sätt för varje händelse i serien som in
 
 När konverteringen föregås av endast visningar betraktas konverteringen som *genomgång*, som vägs antingen enligt annonsörens [inställning för genomskinlig vikt](/help/search-social-commerce/glossary.md#uv) eller - enligt vad som anges - enligt den vybaserade värderingsmetod som anges i rapporten, vyn eller anpassade simuleringsparametrar.
 
-När konverteringsprocessen omfattar både betalda klick och visningar hanteras intryck på olika sätt i olika Adobe Advertising-produkter:
+När konverteringsprocessen omfattar både betalda klick och visningar behandlas dessa olika av olika Adobe-reklamprodukter:
 
 * I Sök, Socialt, &amp; Commerce [visningsåsidosättningsvikt](/help/search-social-commerce/glossary.md#i-j) - som anges i annonsörens intryck åsidosätter viktinställningen och i rapport-, vy- eller anpassade simuleringsparametrar - tillämpas först på avtrycken.
 
@@ -209,7 +209,7 @@ Eftersom händelseserien innehöll både visningar och klickningar, gäller intr
 
 Attribution: Impression 1 = 6 USD, Click 1 = 54 USD, Impression 2 = 6 USD, Click 2 = 54 USD (totalt 120 USD)
 
-#### Använda (endast Adobe Advertising DSP) ingen inledande åsidosättningsvikt eller (endast sökning, sociala medier och handel) en inledande åsidosättningsvikt på 0 %
+#### Använda (endast Adobe-DSP) ingen inledande åsidosättningsvikt eller (endast sökning, sociala medier och handel) en inledande åsidosättningsvikt på 0 %
 
 Eftersom eventserien innehöll både visningar och klickningar ignoreras dessa.
 
@@ -237,7 +237,7 @@ Attributerar konverteringen till alla händelser i serien som inträffade i anno
 
 När konverteringen föregås av endast visningar betraktas konverteringen som *genomgång*, som vägs antingen enligt annonsörens [inställning för genomskinlig vikt](/help/search-social-commerce/glossary.md#uv) eller - enligt vad som anges - enligt den vybaserade värderingsmetod som anges i rapporten, vyn eller anpassade simuleringsparametrar.
 
-När konverteringsprocessen omfattar både betalda klick och visningar behandlas dessa olika av olika Adobe-reklamprodukter:
+När konverteringsprocessen omfattar både betalda klick och visningar hanteras intryck på olika sätt i olika Adobe Advertising-produkter:
 
 * I Sök, Socialt, &amp; Commerce [visningsåsidosättningsvikt](/help/search-social-commerce/glossary.md#i-j) - som anges i annonsörens intryck åsidosätter viktinställningen och i rapport-, vy- eller anpassade simuleringsparametrar - tillämpas först på avtrycken.
 
@@ -295,13 +295,13 @@ Attributerar konverteringen till alla händelser i serien som inträffade i anno
 
 När konverteringen föregås av endast visningar betraktas konverteringen som *genomgång*, som vägs antingen enligt annonsörens [inställning för genomskinlig vikt](/help/search-social-commerce/glossary.md#uv) eller - enligt vad som anges - enligt den vybaserade värderingsmetod som anges i rapporten, vyn eller anpassade simuleringsparametrar.
 
-När konverteringsprocessen omfattar både betalda klick och visningar behandlas dessa olika av olika Adobe-reklamprodukter:
+När konverteringsprocessen omfattar både betalda klick och visningar hanteras intryck på olika sätt i olika Adobe Advertising-produkter:
 
 * I Sök, Socialt, &amp; Commerce [visningsåsidosättningsvikt](/help/search-social-commerce/glossary.md#i-j) - som anges i annonsörens intryck åsidosätter viktinställningen och i rapport-, vy- eller anpassade simuleringsparametrar - tillämpas först på avtrycken.
 
 * I DSP ignoreras intrycken och endast klick viktas. DSP tar inte hänsyn till intryck som åsidosätter vikter vid attribuering.
 
-<!-- ![U-shaped attribution percentages](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-shaped event attribution percentages") -->
+![U-formade attribueringsprocentsatser](/help/search-social-commerce/assets/attribution-percent-u-shaped.png "U-formade attribueringsprocentsatser")
 
 <!-- start examples as collapsible content -->
 
