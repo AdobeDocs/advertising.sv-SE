@@ -1,7 +1,7 @@
 ---
 title: Format för spårningstaggar för bildkonvertering
 description: Referera formatet för spårningstaggar för bildkonvertering.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,15 +16,11 @@ ht-degree: 0%
 
 * Osäkra taggar för webbplatser med HTTP:
 
-   ```
-   <img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="http://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 * Säkra taggar för webbplatser med HTTPS:
 
-   ```
-   <img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>
-   ```
+  `<img src="https://pixel.everesttech.net/px2/<ef-userid>?px_evt=s&s=<segmentid>&px_evt=t&ev_propertyname=<propertyname>&ev_transid=<transid>" width="1" height="1"/>`
 
 där:
 
@@ -34,7 +30,7 @@ där:
 
 * `<transid>` är ett unikt transaktions-ID (t.ex. ett faktiskt order-ID) som annonsören genererar och skickar för att identifiera en transaktion. Den inkluderas endast när[!UICONTROL Include unique transaction IDs]&quot; är valt.
 
-   I Sök, Socialt och Commerce används transaktions-ID:t för att ta bort dubbletter av transaktioner med samma transaktions-ID och egenskapsvärde. Transaktions-ID:t ingår i [!UICONTROL Transaction Report], som ni kan använda för att validera data i Adobe Advertising med annonsörens data. **Obs!** Om annonsörens data inte innehåller ett unikt ID per transaktion genereras ändå ett baserat på transaktionstid av Search, Social och Commerce.
+  I Sök, Socialt och Commerce används transaktions-ID:t för att ta bort dubbletter av transaktioner med samma transaktions-ID och egenskapsvärde. Transaktions-ID:t ingår i [!UICONTROL Transaction Report], som du kan använda för att validera data i Adobe Advertising med annonsörens data. **Obs!** Om annonsörens data inte innehåller ett unikt ID per transaktion genereras ändå ett baserat på transaktionstid av Search, Social och Commerce.
 
 <!-- add more links -->
 
@@ -45,4 +41,3 @@ där:
 >* [Vanliga frågor om konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format för spårningstaggar för JavaScript-konvertering, version 2](format-conversion-tag-jsv2.md)
 >* [Format för spårningstaggar för JavaScript-konvertering, version 3](format-conversion-tag-jsv3.md)
-

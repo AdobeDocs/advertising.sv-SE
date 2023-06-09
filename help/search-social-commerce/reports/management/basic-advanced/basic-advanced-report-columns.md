@@ -1,9 +1,9 @@
 ---
 title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
-source-git-commit: b1913c396e911f7595ab6cb42c5ea960b2cc789b
+source-git-commit: 7327c91b92b6471fa8da8767fc764de4226b4f91
 workflow-type: tm+mt
-source-wordcount: '3640'
+source-wordcount: '3653'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ ht-degree: 0%
 | [!UICONTROL Domain] | ([!UICONTROL Domain Referral Report], [!UICONTROL Keyword Report]) Domännamnet som klickningarna härstammar från. |
 | [!UICONTROL eCPM] | Den faktiska CPM-kostnaden, eller den genomsnittliga kostnad som betalas per 1 000 visningar under ett visst datumintervall. eCPM-värden beräknas för CPM- eller CPC-kampanjer. |
 | [!UICONTROL EF Campaign ID] | Det numeriska ID som tilldelas kampanjen av Search, Social och Commerce. |
-| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Advertisers with Adobe Advertising conversion service and the &quot;[!UICONTROL EF Redirect]&quot; tracking method with a token) The token for the click or conversion.<ul><li>För [!DNL Google Ads] sökannonser, EF-ID:t är `{gclid}:G:s`, som innehåller Google Click ID (GCLID) och nätverkstypen (&quot;s&quot; för sökning).</li><li> För [!DNL Microsoft Advertising] sökannonser, EF-ID:t är `{msclkid}:G:s`, som innehåller Microsoft Click ID (MSCLKID) och nätverkstypen (&quot;s&quot; för sökning).</li><li>För sökannonser i andra annonsnätverk innehåller EF-id:t surfer-ID, klickningstid och nätverkstyp.</li><li>För displayannonser innehåller EF-ID:t surfer-ID, klicknings- eller intryckstidpunkt samt nätverkstyp.</li></ul> |
+| [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Advertisers with Adobe Advertising conversion tracking service and the &quot;[!UICONTROL EF Redirect]&quot; tracking method with a token) The token for the click or conversion.<ul><li>För [!DNL Google Ads] sökannonser, EF-ID:t är `{gclid}:G:s`, som innehåller Google Click ID (GCLID) och nätverkstypen (&quot;s&quot; för sökning).</li><li> För [!DNL Microsoft Advertising] sökannonser, EF-ID:t är `{msclkid}:G:s`, som innehåller Microsoft Click ID (MSCLKID) och nätverkstypen (&quot;s&quot; för sökning).</li><li>För sökannonser i andra annonsnätverk innehåller EF-id:t surfer-ID, klickningstid och nätverkstyp.</li><li>För displayannonser innehåller EF-ID:t surfer-ID, klicknings- eller intryckstidpunkt samt nätverkstyp.</li></ul> |
 | [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; endast för sökning, sociala medier och handel) Ett internt ID för geografisk plats, som används för att normalisera data. |
 | [!UICONTROL EF Portfolio Group ID] | Det numeriska ID:t för portföljgruppen som portföljen tillhör. |
 | [!UICONTROL EF Search Engine ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce:  <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
@@ -110,7 +110,7 @@ ht-degree: 0%
 | [!UICONTROL Impressions] | Antal annonsvisningar under det angivna datumintervallet. |
 | [!UICONTROL Interaction Rate] | (Videoannonser) Antalet interaktioner dividerat med antalet gånger som annonsen (video- och miniatyrbilder) visades. |
 | [!UICONTROL Interactions] | (Videoannonser) Antal gånger som folk tittade på din annons. |
-| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <!-- ?????? insert definition --> |
+| [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> när portföljen innehåller kampanjer med [!UICONTROL Maximize Clicks] anbudsstrategi, och <i>false</i> i annat fall. |
 | [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
 | [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Sök, Socialt och Commerce. |
 | [!UICONTROL Keyword Status] | Status för nyckelordet som söktermen matchades mot: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>, eller <i>[!UICONTROL Disapproved]</i>. |
@@ -192,4 +192,3 @@ ht-degree: 0%
 >* [Grundläggande och avancerade rapporter](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md)
 >* [Generera en grundläggande eller avancerad rapport](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
-

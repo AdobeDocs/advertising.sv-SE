@@ -1,7 +1,7 @@
 ---
 title: "Uppdatera s\_kwcid-spårningskod för en [!DNL Google Ads] konto"
 description: Lär dig hur du byter till den senaste s\_kwcid-spårningskoden för en [!DNL Google Ads] konto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 # Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto
 
-*Annonsörer med enbart integrering mellan Adobe Advertising och Adobe Analytics*
+*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
 *[!DNL Google Ads]endast konton*
 
@@ -58,5 +58,4 @@ Alla nya [!DNL Google Ads] kontona använder automatiskt det nya s\_kwcid-format
 >
 >* [Hantera och nätverkskonton](ad-network-account-manage.md)
 >* [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
-
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
