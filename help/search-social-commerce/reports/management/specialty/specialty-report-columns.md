@@ -1,7 +1,7 @@
 ---
 title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: c2a6e14fe97d46185094dd4df3e75db35a505925
 workflow-type: tm+mt
 source-wordcount: '1925'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visas som första annons ovanför resultaten av organiska sökningar. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visas ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impressions] | Antal annonsvisningar under det angivna datumintervallet. |
-| [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</i> Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
+| [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
 | [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Sök, Socialt och Commerce. |
 | [!UICONTROL Keyword Status] | Status för nyckelordet som söktermen matchades mot: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*, eller[!UICONTROL Disapproved]*. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Målspråket. |
@@ -119,4 +119,3 @@ ht-degree: 0%
 >* [Specialrapporter](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md)
 >* [Generera en specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
 >* [Inställningar för specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-
