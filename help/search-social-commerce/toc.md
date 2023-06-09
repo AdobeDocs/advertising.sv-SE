@@ -7,11 +7,10 @@ archetype: end-user
 user-guide-title: Advertising Search, Social, & Commerce Guide
 user-guide-description: Den här guiden förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era sök-, sociala och e-handelskampanjer.
 breadcrumb-title: Advertising Search, Social, & Commerce Guide
-index: false
-hide: true
-source-git-commit: 71ffe30ca09a2be0def70fc230a4bfa7616c7bfa
+index: true
+source-git-commit: 0f4fad34e1e381157b99467fca04c35501d1fb57
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -89,7 +88,7 @@ ht-degree: 0%
       + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}
+      + Konverteringsspårning för annonsering i Adobe {#advertising-conversion-tracking}
          + [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -222,7 +221,6 @@ ht-degree: 0%
             + [Obligatoriska kalkylbladsdata för [!DNL Yandex] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
       + Automatisera kampanjdata med lagerflöden {#inventory-feeds}
          + [Automatisera och hantera lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
-         + [Arbetsflöde för att hantera kampanjdata med lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-workflow.md)
          + [När skapas eller tas kontokomponenter bort av lagerfeeds?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Konfigurera inställningar för feed-data](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
          + [Hantera feed-filer](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
