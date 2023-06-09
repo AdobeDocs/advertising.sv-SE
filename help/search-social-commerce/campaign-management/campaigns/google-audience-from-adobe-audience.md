@@ -1,9 +1,9 @@
 ---
 title: Skapa [!DNL Google Ads] kundmatcha målgrupper från [!DNL Adobe] målgrupper
 description: Lär dig hur du skapar [!DNL Google Ads] matchar kunderna målgrupper från era befintliga Adobe Analytics- och Audience Manager-målgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]konton som endast är berättigade till kundmatchning*
 
-*Annonsörer med enbart integrering mellan Adobe Advertising-Adobe Audience Manager och Adobe Advertising-Adobe Analytics*
+*Annonsörer med endast integrering mellan Adobe Advertising, Adobe Audience Manager och Adobe Advertising och Adobe Analytics*
 
 Annonsörer som kan väljas in kan skapa [!DNL Google Ads] matchar målgrupper med användar-ID:n från a) [!DNL Analytics] segment som delas med Adobe Experience Cloud och b) Audience Manager-segment som har Sök, Social och Commerce som mål, inklusive [!DNL Analytics] segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud Audience Library. Search, Social, &amp; Commerce pushar automatiskt [!DNL Google] spåra URL tillbaka till varje [!DNL Analytics] eller Audience Manager så att [!DNL Google] kan spåra målgruppen.
 
@@ -32,7 +32,7 @@ Varje ny [!DNL Google] målgruppen har samma namn som originalet [!DNL Adobe] m�
 
    1. (För att skapa användare-ID:n för ommarknadsföring listmålgrupper) [!DNL Adobe] Administratörsanvändare eller kontohanterare måste välja inställningen på annonsörnivå för att aktivera kundmatchande målgrupper. Inställningarna skiljer sig mellan annonsörer med Audience Manager och annonsörer med [!DNL Analytics] endast.
 
-   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) version 2.0 eller senare.
+   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 eller senare.
 
    1. Distribuera följande tagg så högt som möjligt på annonsörens webbsidor som målgruppen ska spåras från
 
@@ -80,11 +80,9 @@ Varje ny [!DNL Google] målgruppen har samma namn som originalet [!DNL Adobe] m�
 >
 >* Se [[!DNL Google Ads] dokumentation om hur kundmatchning fungerar och begränsningar](https://support.google.com/displayvideo/answer/9539301).
 
-
 >[!MORELIKETHIS]
 >
 >* [Om målgrupper](audience-about.md)
 >* [Skapa en [!DNL Google Ads] kundmatchande målgrupp från en e-postlista från Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Hantera kundmatchande målgrupper med hjälp av kunddatalistor](audience-from-customer-data-list.md)
 >* [Hantera målgrupper för dynamisk återmarknadsföring](audience-dynamic-remarketing-manage.md)
-

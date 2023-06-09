@@ -1,10 +1,10 @@
 ---
-title: Konfigurera A/B-tester för annonsering i Adobe i Adobe Target
+title: Konfigurera A/B-tester för Adobe Advertising annonser i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search, Social, & Commerce] annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -85,11 +85,12 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
    1. Gå till **Audience Manager** > **Målgruppsdata** > **Signaler** och sedan väljer **Sök** överst till vänster.
 
-   1. Ange **Nyckel** och **Värde** för signalen som bestämmer på vilken nivå segmentanvändarna grupperas. Använd en [nyckel som stöds](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=en) med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-visningshändelsepixeln.
+   1. Ange **Nyckel** och **Värde** för signalen som bestämmer på vilken nivå segmentanvändarna grupperas. Använd en [nyckel som stöds](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-visningshändelsepixeln.
 
       Om du till exempel vill gruppera användare för en viss placering använder du `d_placement` nyckel. För värdet använder du ett numeriskt placerings-ID (till exempel 2501853 i skärmbilden ovan) som fångas av det DSP makrot `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Om fältet Totalt antal visar antalet användare för nyckelvärdepar, vilket anger att pixeln placerades korrekt och att data flödar, kan du fortsätta till nästa steg.
+
    ![Söksignaler](/help/integrations/assets/target-am-signals.png)
 
 1. [Skapa ett regelbaserat varumärke](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) för att skapa segment i Audience Manager.
@@ -109,6 +110,7 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
    1. Namnge segmentet, markera `Ad Cloud` som **Datakälla** och spara sedan segmentet.
 
       Audience Manager delar automatiskt upp segmentet i en kontrollgrupp som tar emot standardupplevelsen på landningssidan och en testgrupp som fått en personaliserad upplevelse på plats.
+
    ![Skärmbild av ett testsegment](/help/integrations/assets/target-am-segment.png)
 
 ## Steg 3: Ställ in en A/B-testaktivitet i mål
@@ -164,6 +166,7 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
    * Upplevelse A: Redigera inte, eftersom det är standardupplevelsen/kontrollen av landningssidan utan personalisering.
 
    * Upplevelse B: Använd [!DNL Target] användargränssnitt för att anpassa landningssidans mall baserat på de tillgångar som ingår i testet (t.ex. rubriker, text, knappplacering och kreatörer).
+
    >[!NOTE]
    >
    >Exempel på användningsfall för kreativa tester kan du kontakta ditt Adobe-kontoteam.
@@ -182,7 +185,7 @@ I Analysis Workspace konfigurerar du [!DNL Analytics for Target panel] för att 
 
 #### Mått
 
-* Skapa en panel på arbetsytan som är specifik för den annonskampanj, det paket eller den placering för Adobe som testet kördes för. Använd sammanfattningsvisualiseringar för att visa Adobe-annonsstatistik i samma rapport som testresultatet för Target.
+* Skapa en panel på arbetsytan som är specifik för den kampanj, det paket eller den placering som testet kördes för. Använd sammanfattningsvisualiseringar för att visa Adobe Advertising-mått i samma rapport som Target-testets prestanda.
 
 * Prioritera med hjälp av statistik på plats (som besök och konverteringar) för att mäta prestanda.
 
@@ -206,9 +209,9 @@ Om du inom Analysis Workspace märker att data om aktivitet och upplevelser är 
 
 [SDID-värden (Additional Data ID) i Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* På samma landningssida kontrollerar du att a) värdnamnet som visas i Adobe Debugger under Solutions> Target matchar b) spårningsservern som visas i [!DNL Target] för aktiviteten (under Mål och inställningar > Rapporteringsinställningar).
+* På samma landningssida kontrollerar du att a) värdnamnet som visas i Adobe Debugger under Lösningar > Mål matchar b) spårningsservern som visas i [!DNL Target] för aktiviteten (under Mål och inställningar > Rapporteringsinställningar).
 
-   [!DNL Analytics For Target] kräver [!DNL Analytics] spårningsserver som ska skickas i samtal från [!DNL Target] till [!DNL Modstats] datainsamlingsserver för Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] kräver [!DNL Analytics] spårningsserver som ska skickas i samtal från [!DNL Target] till [!DNL Modstats] datainsamlingsserver för Analytics.<!-- just "to Analytics?"-->
 
 [Värdnamnsvärde i Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 

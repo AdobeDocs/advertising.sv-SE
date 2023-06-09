@@ -1,10 +1,10 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
-source-git-commit: f7ac5c69f96582d7f9a442a05c333baecc2215df
+source-git-commit: 964ee8431d9f1d03b0c9eec8906ab5a0b7940222
 workflow-type: tm+mt
-source-wordcount: '5147'
-ht-degree: 0%
+source-wordcount: '7615'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ Skapa och uppdatera [!DNL Microsoft Advertising] kampanjdata i grupp kan du anv�
 | Partitionstyp | Partitionstypen för produktgruppen: <i>deldivision</i> (när den har underordnade produktgrupper) eller <i>enhet</i> (när den inte har några underordnade produktgrupper). |
 | Annonsrubrik, annonsrubrik 2-15 | (Endast expanderade textannonser, multimediaannonser, responsiva annonser och responsiva sökannonser) Rubrikerna i en annons. Den maximala längden för varje annonstitelfält är 30 eller 15 dubbelbytetecken, inklusive all dynamisk text (t.ex. värdena för nyckelord, `{Param2}` och `{Param3}` dynamiska ersättningsvariabler och annonsanpassare).<br><br> För responsiva sökannonser infogar du en annonsanpassare med följande format, där&quot;Standardtext&quot; är ett valfritt värde att infoga när din feed-fil inte innehåller ett giltigt värde: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>För expanderade textannonser krävs annonsrubrik och annonsrubrik 2 och annonsrubrik 3 är valfritt. Microsoft Advertising ersatte utökade textannonser i augusti 2022, och du kan nu bara rapportera om och ta bort dem.<br><br>För multimediaannonser, responsiva annonser och responsiva sökannonser krävs annonsrubrik, annonsrubrik 2 och annonsrubrik 3, och alla andra annonstitelfält är valfria.<br><br>Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive hakparenteser).<br><br>För alla annonstyper utom för expanderade textannonser tas den befintliga annonsen bort om du ändrar annonsen och skapar en ny annons med samma egenskaper. |
 | Annonsrubrik 1-15 - position | (Endast responsiva sökannonser.) (valfritt) En position där motsvarande annonsrubrik ska fästas: `[null]` (inget värde, vilket gör att annonsrubriken kan användas för alla positioner), 1, 2 eller 3. Om till exempel annonstitelposition har värdet 1 visas annonsrubrik bara i position 1. Som standard är alla annonsrubriker null (saknar värden). Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser).<br><br><b>Obs!</b> Du kan fästa flera annonsrubriker på samma plats. Annonsnätverket kommer att använda en av de annonstitlar som är fästa vid positionen. Titlar som är fästa på position 3 kanske inte visas med annonsen. |
-| Beskrivningsrad 1-4 | (Endast textannonser, dynamiska sökannonser, multimediaannonser, responsiva sökannonser och förbättrade sitelinks på kampanjnivå) Innehållet i en annons eller en sitelink.<br><br>För sitelinks kan du använda både Description Line 1 och Description Line 2 för att inkludera extra text som annonsnätverket kan visa under länktexten. Varje beskrivningsfält kan innehålla upp till 35 enkelbyte- eller 17 dubbelbyte-tecken.<br><br>För annonser är den maximala längden för varje beskrivningsfält 90 eller 45 dubbelbyte-tecken, inklusive all dynamisk text (till exempel värdena för nyckelord och annonsanpassare).<br><br>För responsiva sökannonser infogar du en annonsanpassare med följande format, där Standardtext är ett valfritt värde att infoga när din feed-fil inte innehåller ett giltigt värde: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>För textannonser och dynamiska sökannonser krävs Description Line 1 och Description Line 2 är valfri.<br><br>För multimediaannonser, responsiva annonser och responsiva sökannonser krävs Description Line 1 och Description Line 2, och Description Line 3 och Description Line 4 är valfria.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser).<br><br><b>Anteckningar:</b><ul><li>(Standardtextannonser) Den kombinerade titeln och texten måste vara minst tre ord.</li><li>(Utökade textannonser) Det här fältet kan innehålla variablerna {Param2} och {Param3} dynamisk ersättning. I så fall är annonstextens maximala längd 300 enkelbyte- eller 150 dubbelbyte-tecken. Microsoft Advertising ersatte utökade textannonser i augusti 2022, och du kan nu bara rapportera om och ta bort dem.</li><li>(Dynamiska sökannonser) Dynamisk ersättningstext tillåts inte.</li><li>För alla annonstyper utom expanderade textannonser tas den befintliga annonsen bort om du ändrar och kopierar den och en ny skapas.</li></ul> |
+| Beskrivningsrad 1-4 | (Endast textannonser, dynamiska sökannonser, multimediaannonser, responsiva sökannonser och förbättrade sitelinks på kampanjnivå) Innehållet i en annons eller en sitelink.<br><br>För sitelinks kan du använda både Description Line 1 och Description Line 2 för att inkludera extra text som annonsnätverket kan visa under länktexten. Varje beskrivningsfält kan innehålla upp till 35 enkelbyte- eller 17 dubbelbyte-tecken.<br><br>För annonser är den maximala längden för varje beskrivningsfält 90 eller 45 dubbelbyte-tecken, inklusive all dynamisk text (till exempel värdena för nyckelord och annonsanpassare).<br><br>För responsiva sökannonser infogar du en annonsanpassare med följande format, där Standardtext är ett valfritt värde att infoga när din feed-fil inte innehåller ett giltigt värde: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`<br><br>För textannonser och dynamiska sökannonser krävs Description Line 1 och Description Line 2 är valfri.<br><br>För multimediaannonser, responsiva annonser och responsiva sökannonser krävs Description Line 1 och Description Line 2, och Description Line 3 och Description Line 4 är valfria.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser).<br><br><b>Anteckningar:</b><ul><li>(Standardtextannonser) Den kombinerade titeln och texten måste vara minst tre ord.</li><li>(Utökade textannonser) Det här fältet kan även innehålla {Param2} och {Param3} dynamiska ersättningsvariabler. I så fall är annonstextens maximala längd 300 enkelbyte- eller 150 dubbelbyte-tecken. Microsoft Advertising ersatte utökade textannonser i augusti 2022, och du kan nu bara rapportera om och ta bort dem.</li><li>(Dynamiska sökannonser) Dynamisk ersättningstext tillåts inte.</li><li>För alla annonstyper utom expanderade textannonser tas den befintliga annonsen bort om du ändrar och kopierar den och en ny skapas.</li></ul> |
 | Beskrivningsrad 1-4 position | (Endast responsiva sökannonser.) (valfritt) En position där motsvarande beskrivning ska fästas: `[null]` (inget värde, vilket gör att beskrivningen kan användas för alla positioner), 1, 2 eller 3. Om till exempel position för beskrivning 1 har värdet 1 visas bara beskrivning 1 i position 1. Som standard är inga beskrivningar fästa vid en position.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser).<br><br><b>Obs!</b> Du kan fästa flera beskrivningar på samma plats. Annonsnätverket använder en av beskrivningarna som är fästa vid positionen. Beskrivningar som fästs vid position 2 kanske inte visas med annonsen. |
 | Företagsnamn | (Endast multimediaannonser) Företagsnamnet, med högst 25 tecken. |
 | Kampanjlinje | (Endast produktlistade annonser) En unik kampanjrad som ska inkluderas i produktlistan i sökresultaten (till exempel&quot;Fraktfritt nu!). Maxlängden är 45 tecken.<br><br>Kampanjraden kan visas på olika platser i förhållande till annonsen (t.ex. nedanför annonsen) beroende på var annonsen visas på sidan. |
@@ -110,96 +110,317 @@ Skapa och uppdatera [!DNL Microsoft Advertising] kampanjdata i grupp kan du anv�
 
 <table style="table-layout:auto">
 
-<!-- EDIT ALL -- Copied from Google page -->
+[^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
-<!-- 
+## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent
 
-## Fields required to create, edit, or delete each account component
+### Kampanjfält
 
-### Campaign fields
+| Fält | Obligatoriskt? |
+| ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt | Det unika namn som identifierar en kampanj för ett konto. |
+| Kampanjbudget | Krävs för att skapa en kampanj. | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| Kanaltyp | Krävs för att skapa en kampanj. |
+| Leveranssätt | Valfritt |
+| Kampanjprioritet | Krävs för att skapa en shoppingkampanj. |
+| Affärs-ID | Krävs för att skapa en shoppingkampanj. |
+| Försäljningsland | Krävs för att skapa en shoppingkampanj. |
+| Filter för produktomfång | (Shoppingkampanjer) Valfritt |
+| DSA-domännamn | Krävs för att skapa en kampanj av typen a)&quot;DynamicSearchAds&quot; eller b)&quot;Search&quot; när elementet ExperimentId inte har angetts) |
+| Domänspråk för DSA | Krävs för att skapa en kampanj av typen a)&quot;DynamicSearchAds&quot; eller b)&quot;Search&quot; när elementet ExperimentId inte har angetts) |
+| Spårningsmall | Valfritt |
+| Landningssidesuffix | <p>Valfritt |
+| Budgettyp | Krävs för att skapa en kampanj. |
+| Enhet | Valfritt |
+| Anpassa via bud | Valfritt |
+| Kampanjstatus | Krävs endast för att ta bort en kampanj. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-Campaign Name
-Campaign Budget
-Campaign Status
-Delivery Method
-Device OS Targets (Google Adwords)
-Device Targets
-Languages
-Mobile Carriers (Google Adwords)
-Networks
-Tracking Template
-Channel Type
-Campaign Priority
-Merchant ID
-Sales Country
-Product Scope Filter
-Audience Target Method
-DSA Domain Name
-DSA Domain Language
-Landing Page Suffix
-Label Classification
+### Annonsgruppsfält
 
-### Ad group fields
+| Fält | Obligatoriskt? |
+| ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Annonsgruppstyp | Krävs för att skapa en annonsgrupp. |
+| Målmetod | Krävs endast för att skapa målgrupps- och annonsgrupper. |
+| Startdatum för annonsgrupp | Valfritt |
+| Slutdatum för annonsgrupp | Valfritt |
+| Spårningsmall | Valfritt |
+| Nätverksstatus för sökning | (Kampanjer endast i söknätverket) Valfritt |
+| Språk | Valfritt |
+| Enhet | Valfritt |
+| Anpassa via bud | Valfritt |
+| Annonsgruppsstatus | Krävs endast för att ta bort en annonsgrupp. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Annonsgrupp-ID | Krävs endast när du ändrar annonsgruppens namn, såvida inte raden innehåller ett AMO-ID för annonsgruppen. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-Campaign Name
-Ad Group Name
-Ad Group Type
-Networks
-Ad Group Status
-Max CPC
-Max Content CPC
-Tracking Template
-Audience Target Method
-Label Classification
+### Nyckelordsfält
 
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Nyckelord | Obligatoriskt |
+| Matcha typ | Ett värde för matchningstypen eller nyckelords-ID krävs för att redigera eller ta bort ett nyckelord med flera matchningstyper. |
+| Max CPC | Valfritt |
+| Bas-URL/slutlig URL | Valfritt |
+| Anpassad URL-parameter | Valfritt |
+| Spårningsmall | Valfritt |
+| Param1 | Valfritt |
+| Param2 | Valfritt |
+| Nyckelordsstatus | Krävs endast för att ta bort ett nyckelord. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Nyckelords-ID | Krävs endast när du redigerar eller tar bort nyckelordet, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera nyckelordet eller b) ett AMO-ID. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-## Keyword fields
+### Dynamiska sökannonsfält
 
-Campaign Name
-Ad Group Name
-Keyword Status
-Max CPC
-Tracking Template
-URLs (Base URL/Final URL, Destination URL)
-Exemption Request (Google Adwords)
-First Page Bid
-Keyword
-Match Type
-Param1
-Param2
-Quality Score
-Custom URL Param
-Label Classification
+>[!NOTE]
+>
+>Det går inte att skapa support.
 
+Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
-### Text/Product ad fields
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Beskrivningsrad 1-2 | Krävs för att redigera beskrivningen. <b>Obs!</b> För den här annonstypen tas den befintliga annonsen bort om du ändrar en annons och skapar en ny. |
+| Visningsbana 1 | Krävs för att redigera fältet. |
+| Visningsbana 2 | Krävs för att redigera fältet. |
+| Kreativ typ | Krävs för att skapa eller redigera status för en produktannons. |
+| Creative Preferred Devices | Valfritt |
+| Annonsstatus | Krävs för att ta bort en annons. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Annons-ID | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a) tillräckliga ad-egenskapskolumner för att identifiera annonsadressen eller b) ett AMO-ID. Om du däremot varken inkluderar annons-ID eller AMO-ID och annonsegenskapskolumnerna matchar flera annonser, ändras status för endast en av annonserna. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-Uses "Creative (except RSA)" row in Download Bulksheet dialog
+### Produktfält (shoppingfält)
 
-### Dynamic search ad fields
+Mer information om hur du skapar shoppingannonser finns i &quot;[Implementera Microsoft Advertising-shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html).&quot;
 
-Note: Create support not available
+Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
-### Multimedia/Responsive ad fields
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Kampanjlinje | Valfritt |
+| Bas-URL/slutlig URL | Valfritt |
+| Anpassad URL-parameter | Valfritt |
+| Kreativ typ | Krävs för att skapa eller redigera status för en produktannons. |
+| Spårningsmall | Valfritt |
+| Annonsstatus | Krävs för att ta bort en annons. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Annons-ID | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a) tillräckliga ad-egenskapskolumner för att identifiera annonsadressen eller b) ett AMO-ID. Om du däremot varken inkluderar annons-ID eller AMO-ID och annonsegenskapskolumnerna matchar flera annonser, ändras status för endast en av annonserna. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-### Responsive search ad fields
+### Responsiva (multimedia) och fält
 
-Uses "Responsive Search Ad" row in Download Bulksheet dialog
+Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
-### Dynamic search target (auto target) fields
-Note: Create support not available
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Annonsrubrik, annonsrubrik 2-15 | För responsiva annonser krävs annonstitel, annonstitel 2 och annonstitel 3 för att skapa annonser, och alla andra annonstitelfält är valfria. Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive hakparenteser). <b>Obs!</b> För den här annonstypen tas den befintliga annonsen bort om du ändrar en annons och skapar en ny. |
+| Beskrivningsrad 1-4 | Description Line 1 and Description Line 2 are required to create ads, and Description Line 3 and Description Line 4 are optional. <b>Obs!</b> För den här annonstypen tas den befintliga annonsen bort om du ändrar en annons och skapar en ny. |
+| Företagsnamn | Krävs för att skapa eller ta bort en annons. |
+| Utlysning | Krävs för att skapa en annons. |
+| Anrop till åtgärdsspråk | Krävs för att skapa en annons. |
+| Bas-URL/slutlig URL | Krävs för att skapa en annons. |
+| Kreativ typ | Valfritt. |
+| Spårningsmall | Valfritt |
+| Annonsstatus | Krävs för att ta bort en annons. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Annons-ID | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a) tillräckliga ad-egenskapskolumner för att identifiera annonsadressen eller b) ett AMO-ID. Om du däremot varken inkluderar annons-ID eller AMO-ID och annonsegenskapskolumnerna matchar flera annonser, ändras status för endast en av annonserna. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-### Shopping product group fields
+### Reklamfält för responsiv sökning
 
-### Campaign-level sitelink fields
+Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
-### Location Target fields
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt | |
+| Annonsrubrik, annonsrubrik 2-15 | För responsiva sökannonser krävs annonsrubrik, annonsrubrik 2 och annonsrubrik 3 för att skapa en annons, och alla andra annonstitelfält är valfria. Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive hakparenteser). |
+| Annonsrubrik 1-15 - position | Valfritt |
+| Beskrivningsrad 1-4 | För responsiva sökannonser krävs Description Line 1 och Description Line 2 för att skapa en annons, och Description Line 3 och Description Line 4 är valfria. Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
+| Beskrivningsrad 1-4 position | Valfritt |
+| Visningsbana 1 | Valfritt |
+| Visningsbana 2 | Valfritt |
+| Bas-URL/slutlig URL | Krävs för att skapa en annons. |
+| Anpassad URL-parameter | Valfritt |
+| Kreativ typ | Valfritt |
+| Spårningsmall | Valfritt |
+| Annonsstatus | Krävs för att ta bort en annons. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Annons-ID | Krävs för att redigera eller ta bort annonser såvida inte raden innehåller ett AMO-ID. |
+| AMO-ID | Krävs för att redigera eller ta bort annonser såvida du inte inkluderar annons-ID:t. |
 
-### Device Target fields
+### Text och fält
 
-### RLSA Target
+Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
--->
+>[!NOTE]
+>
+>Utökade textannonser har tagits bort. Du kan bara ta bort befintliga textannonser.
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Annonsrubrik, annonsrubrik 2-3 | Skrivskyddad |
+| Beskrivningsrad 1-2 | Skrivskyddad |
+| Visa URL | Skrivskyddad |
+| Visningsbana 1 | Skrivskyddad |
+| Visningsbana 2 | Skrivskyddad |
+| Bas-URL/slutlig URL | Skrivskyddad |
+| Anpassad URL-parameter | Skrivskyddad |
+| Kreativ typ | Valfritt |
+| Spårningsmall | Skrivskyddad |
+| Creative Preferred Devices | Skrivskyddad |
+| Annonsstatus | Obligatoriskt |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Annons-ID | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller ett AMO-ID. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar annons-ID:t.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Dynamiska sökmålfält (automatiskt mål)
+
+>[!NOTE]
+>
+>Det går inte att skapa support.
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Automatiskt måluttryck | Obligatoriskt. |
+| Matcha typ | Valfritt |
+| Max CPC | Valfritt |
+| Anpassad URL-parameter | Valfritt |
+| Målstatus | Krävs för att ta bort ett mål |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Mål-ID | Krävs endast när du ändrar eller tar bort det automatiska målet, såvida inte raden innehåller ett AMO-ID för målet. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Fält för produktgrupp som köpts
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Obligatoriskt |
+| Matcha typ | Krävs för att skapa en produktgrupp. |
+| Max CPC | Krävs för att skapa en produktgrupp. |
+| Överordnade produktgrupperingar | Obligatoriskt |
+| Produktgruppering | Obligatoriskt |
+| Partitionstyp | Krävs för att skapa en produktgrupp. |
+| Bas-URL/slutlig URL | Obligatoriskt |
+| Spårningsmall | Valfritt |
+| Produktgruppstatus | Krävs endast för att ta bort en produktgrupp. |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt |
+| Produktgrupp-ID | Krävs endast när du ändrar eller tar bort produktgruppen, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera produktgruppen eller b) ett AMO-ID. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Webblänksfält på kampanjnivå
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Beskrivningsrad 1 | Valfritt |
+| Beskrivningsrad 2 | Valfritt |
+| Startdatum | Valfritt |
+| Slutdatum | Valfritt |
+| Bas-URL/slutlig URL | Obligatoriskt |
+| Anpassad URL-parameter | Valfritt |
+| Spårningsmall | Valfritt |
+| Creative Preferred Devices | Valfritt |
+| Länknamn | Obligatoriskt |
+| Status för webbplatslänkar | Krävs endast för att ta bort en sitellänk. |
+| Kampanj-ID | Valfritt |
+| Platslänks-ID | Krävs endast när du ändrar eller tar bort sitelink, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera sitellänken eller b) ett AMO-ID.&quot; Om du däremot varken inkluderar Sitelinks-ID eller AMO-ID och egenskapskolumnerna matchar flera sitelinks, ändras statusen för endast en av sitelinks.<br><br><b>Obs!</b> Om du redigerar sitelink-egenskapskolumner förutom Status för en befintlig sitelink, och du inte inkluderar vare sig Sitelink ID eller AMO ID, skapas en ny sitelink och den befintliga sitelink ändras inte. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Målfält för plats
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Plats | Obligatoriskt |
+| Platstyp | Krävs för att skapa ett mål |
+| Anpassa via bud | Valfritt |
+| Platsstatus | Krävs endast för att ta bort ett platsmål. |
+| Kampanj-ID | Valfritt |
+| AMO-ID | Krävs för att redigera eller ta bort data om du inte inkluderar kampanj-ID:t.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Målfält på kampanjnivå och annonsgruppsnivå
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Enhet | Krävs för att ta bort ett enhetsmål. |
+| Anpassa via bud | Valfritt |
+| Namn på annonsgrupp | Krävs för enhetsmål på annonsnivå. Gäller inte för enhetsmål på kampanjnivå. |
+| Status för enhetsmål | Krävs endast för att ta bort ett enhetsmål. |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt endast för enhetsmål på annonsnivå. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhetens mål-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
+
+### Målfält för RLSA på kampanjnivå och annonsgruppsnivå
+
+| Fält | Obligatoriskt? | Beskrivning |
+| ---- | ---- | ---- |
+| Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
+| Kampanjnamn | Obligatoriskt |
+| Namn på annonsgrupp | Krävs för annonsnivåmål. Gäller inte för kampanjnivåmål. |
+| Målgrupp | Krävs för att skapa ett nytt mål. |
+| Måltyp | Valfritt |
+| Anpassa via bud | Valfritt |
+| RLSA-målstatus | Krävs för att ta bort ett mål. |
+| Kampanj-ID | Valfritt |
+| Annonsgrupp-ID | Valfritt Gäller endast för annonsnivåmål. |
+| Mål-ID för RLSA | Krävs endast när du ändrar eller tar bort målet, såvida inte raden innehåller ett AMO-ID för målet. |
+| AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar mål-ID:t för RLSA.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 >[!MORELIKETHIS]
 >
@@ -209,4 +430,3 @@ Note: Create support not available
 >* [Hämta/skapa en kalkylbladsfil](../bulksheet-download.md)
 >* [Klickningsspårningsformat för [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
 >* [Överföra en kalkylbladsfil eller korrigerad felfil](../bulksheet-upload.md)
-

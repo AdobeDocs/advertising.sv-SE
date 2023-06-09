@@ -1,9 +1,9 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
-source-git-commit: 6c1e9bffd072979975a933fceb1c6e1253399373
+source-git-commit: a1201866bab44b260c6e1e68ba215162504e618f
 workflow-type: tm+mt
-source-wordcount: '8631'
+source-wordcount: '8662'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 | Slutdatum | <p>(Endast utökade sitelinks) Det sista datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format:  <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>, eller <span style="font-style: italic;"><i>m-d-yy</i></span>. Standardvärdet är inget (inget slutdatum).</p><p><b>Obs!</b> Nya utökade sitelinks kan endast skapas i kampanjer med utökade sitelinks eller utan sitelinks.</p> |
 | Exkludera surfplatta (Google Adwords) | (Endast befintliga appinstalleringsannonser)</p><p>(Valfritt) Hindrar Google Ads från att visa annonsen för surfplatteanvändare. Värdena kan innehålla <i>ja</i> och <i>no</i>. |
 | Landningssidesuffix | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klickningsspårningsformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter behövs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du Google Ads Editor. |
-| Spårningsmall | Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en ValueTrack-parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller &quot;EF-omdirigering&quot; och &quot;Automatisk överföring&quot;, läggs i Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part. En lista med ValueTrack-parametrar som anger de slutliga URL:erna i spårningsmallar finns i parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i dialogrutan <a href="https://support.google.com/google-ads/answer/2375447?hl=en" target="_blank">Google Ads-dokumentation</a>.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
+| Spårningsmall | Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en ValueTrack-parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;EF Redirect&quot; och &quot;Auto Upload&quot;, lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part. En lista med ValueTrack-parametrar som anger de slutliga URL:erna i spårningsmallar finns i parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i dialogrutan <a href="https://support.google.com/google-ads/answer/2375447?hl=en" target="_blank">Google Ads-dokumentation</a>.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | Bas-URL/slutlig URL | Den URL till landningssidan som sökmotoranvändare tas till när de klickar på annonsen, inklusive eventuella tilläggsparametrar som konfigurerats för kampanjen eller kontot. Bas-/slutadresser på nyckelordsnivå åsidosätter de på annonsnivå och högre.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | Mål-URL | (Ingår i genererade kalkylblad för informationsändamål. inte publicerad i sökmotorn) För konton med mål-URL:er är detta den URL som länkar en annons till en bas-URL/landningssida på annonsörens webbplats (ibland via en annan webbplats som spårar klickningen och sedan dirigerar om användaren till landningssidan). Den innehåller eventuella tilläggsparametrar som har konfigurerats för kampanj eller konto för sökning, sociala medier och handel. Om du genererade spårnings-URL:er baseras detta på spårningsparametrarna i dina kontoinställningar och kampanjinställningar. Om du har lagt till sökmotorspecifika parametrar kan de ersättas med motsvarande parametrar för Sök, Socialt och Handel.<br><br>För konton med slutliga URL:er visar den här kolumnen samma värde som kolumnen Bas-URL/Slutlig URL. |
 | Anpassad URL-parameter | Data som ska ersätta `{custom_code}` dynamisk variabel när variabeln inkluderas i spårningsparametrarna för sökkontot eller kampanjinställningarna. Om du vill infoga det anpassade värdet i spårnings-URL:en måste du överföra kalkylbladsfilen med alternativet Generera spårnings-URL:er. |
@@ -114,6 +114,8 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 <table style="table-layout:auto">
 
+[^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
+
 ## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent
 
 ### Kampanjfält
@@ -122,24 +124,24 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 | ---- | ---- |
 | Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
 | Kampanjnamn | Obligatoriskt | Det unika namn som identifierar en kampanj för ett konto. |
-| Kampanjbudget | Obligatoriskt: Skapa<br><br>>Valfritt: Redigera eller ta bort | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
-| Leveranssätt | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
-| Kanaltyp | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
-| Nätverk | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
-| DSA-domännamn | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
-| Domänspråk för DSA | Obligatoriskt: Skapa<br><br>Valfritt: Redigera eller ta bort |
-| Kampanjprioritet | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
-| Affärs-ID | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
-| Försäljningsland | Obligatoriskt/valfritt: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort |
-| Filter för produktomfång | Valfritt |
+| Kampanjbudget | Krävs för att skapa en kampanj. | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| Leveranssätt | Krävs för att skapa en kampanj. |
+| Kanaltyp | Krävs för att skapa en kampanj. |
+| Nätverk | Krävs för att skapa en kampanj. |
+| DSA-domännamn | Krävs för att skapa en kampanj i söknätverket som ska ha dynamiska sökannonser. |
+| Domänspråk för DSA | Krävs för att skapa en kampanj i söknätverket som ska ha dynamiska sökannonser. |
+| Kampanjprioritet | Krävs för att skapa en shoppingkampanj. |
+| Affärs-ID | Krävs för att skapa en shoppingkampanj. |
+| Försäljningsland | Krävs för att skapa en shoppingkampanj. |
+| Filter för produktomfång | (Shoppingkampanjer) Valfritt |
 | Språk | Valfritt |
 | Enhetsmål | Valfritt |
 | Operativsystemmål för enhet (Google Adwords) | Valfritt |
 | Mobiloperatörer (Google Adwords) | Valfritt |
 | Målmetod | n/a |
-| Landningssidesuffix | <p>Valfritt |
+| Landningssidesuffix | Valfritt |
 | Spårningsmall | Valfritt |
-| Kampanjstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort |
+| Kampanjstatus | Krävs endast för att ta bort en kampanj. |
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | Begränsningar | Valfritt |
 | Kampanj-ID | Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. |
@@ -154,12 +156,12 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 | Nätverk | n/a |
 | Anpassad GDN-anbudsnivå | Valfritt |
 | Namn på annonsgrupp | Obligatoriskt |
-| Annonsgruppstyp | Obligatoriskt |
+| Annonsgruppstyp | Krävs för att skapa en annonsgrupp. |
 | Max CPC | Valfritt |
 | Max Content CPC | Valfritt |
 | Målmetod | Obligatoriskt |
 | Spårningsmall | Valfritt |
-| Annonsgruppsstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort |
+| Annonsgruppsstatus | Krävs endast för att ta bort en annonsgrupp. |
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | Begränsningar | Valfritt |
 | Annonsgrupp-ID | Krävs endast när du ändrar annonsgruppens namn, såvida inte raden innehåller ett AMO-ID för annonsgruppen. |
@@ -174,13 +176,13 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 | Namn på annonsgrupp | Obligatoriskt |
 | Max CPC | Valfritt |
 | Nyckelord | Obligatoriskt |
-| Matcha typ | Valfritt: Skapa<br><br>Obligatoriskt/valfritt: Redigera eller ta bort |
+| Matcha typ | Ett värde för matchningstypen eller nyckelords-ID krävs för att redigera eller ta bort ett nyckelord med flera matchningstyper. |
 | Spårningsmall | Valfritt |
 | Bas-URL/slutlig URL | Valfritt |
 | Anpassad URL-parameter | Valfritt |
 | Param1 | Valfritt |
 | Param2 | Valfritt |
-| Nyckelordsstatus | Valfritt: Skapa eller redigera<br><br>Obligatoriskt: Ta bort |
+| Nyckelordsstatus | Krävs endast för att ta bort ett nyckelord. |
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | Begränsningar | Valfritt |
 | Kampanj-ID | Valfritt |
@@ -212,7 +214,7 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 ### Utökad dynamisk sökannons
 
-Den här annonstypen kallas nu&quot;dynamisk sökannons&quot; i [!DNL Google Ads]. Mer information om hur du skapar dynamiska sökannonser finns i &quot;[Implementera [!DNL Google Ads] dynamiska sökannonser](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html?lang=en).&quot;
+Den här annonstypen kallas nu&quot;dynamisk sökannons&quot; i [!DNL Google Ads]. Mer information om hur du skapar dynamiska sökannonser finns i &quot;[Implementera [!DNL Google Ads] dynamiska sökannonser](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-dynamic-search-ads.html).&quot;
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
@@ -235,7 +237,7 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 ### Produktlista/reklamfält
 
-Mer information om hur du skapar shoppingannonser finns i &quot;[Implementera Google Ads shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html?lang=en).&quot;
+Mer information om hur du skapar shoppingannonser finns i &quot;[Implementera Google Ads shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/google-shopping-campaigns.html).&quot;
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
@@ -266,9 +268,9 @@ Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bul
 | Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
 | Kampanjnamn | Obligatoriskt |
 | Namn på annonsgrupp | Obligatoriskt | |
-| Annonsrubrik, annonsrubrik 2-15 | För responsiva sökannonser krävs annonsrubrik, annonsrubrik 2 och annonsrubrik 3, och alla andra annonsrubrikfält är valfria. Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive hakparenteser). |
+| Annonsrubrik, annonsrubrik 2-15 | För responsiva sökannonser krävs annonsrubrik, annonsrubrik 2 och annonsrubrik 3 för att skapa en annons, och alla andra annonstitelfält är valfria. Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive hakparenteser). |
 | Annonsrubrik 1-15 - position | Valfritt |
-| Beskrivningsrad 1-4 | För responsiva sökannonser krävs Description Line 1 och Description Line 2, och Description Line 3 och Description Line 4 är valfria. Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
+| Beskrivningsrad 1-4 | För responsiva sökannonser krävs Description Line 1 och Description Line 2 för att skapa en annons, och Description Line 3 och Description Line 4 är valfria. Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | Beskrivningsrad 1-4 position | Valfritt |
 | Visningsbana 1 | Valfritt |
 | Visningsbana 2 | Valfritt |
@@ -324,6 +326,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | Automatiskt måluttryck | Krävs när kampanjinställningen &quot;Använd mitt webbplatsinnehåll för att rikta mina annonser&quot; inte är aktiverad. annars valfritt. |
 | Matcha typ | Valfritt |
 | Målstatus | Krävs för att ta bort ett mål |
+| \[Advertiser-specific Label Classification\] | Valfritt |
+| Begränsningar | Valfritt |
 | Kampanj-ID | Valfritt |
 | Annonsgrupp-ID | Valfritt |
 | Mål-ID | Krävs endast när du ändrar eller tar bort det automatiska målet, såvida inte raden innehåller ett AMO-ID för målet. |
@@ -376,14 +380,14 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | ---- | ---- | ---- |
 | Kontonamn | Obligatoriskt såvida inte varje rad innehåller ett AMO-ID för entiteten. |
 | Kampanjnamn | Obligatoriskt |
-| Plats | Krävs för att skapa eller redigera ett platsmål. |
+| Plats | Obligatoriskt |
 | Platstyp | Valfritt |
 | Anpassa via bud | Valfritt |
 | Platsstatus | Krävs endast för att ta bort ett platsmål. |
 | Kampanj-ID | Valfritt |
 | AMO-ID | Krävs för att redigera eller ta bort data om du inte inkluderar kampanj-ID:t.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-## Målfält på kampanjnivå och annonsgruppsnivå
+### Målfält på kampanjnivå och annonsgruppsnivå
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -398,7 +402,7 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | Målenhets-ID | Krävs endast när du ändrar eller tar bort målet, såvida inte raden innehåller ett AMO-ID för målet. |
 | AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhetens mål-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-## Mål-/exkluderingsfält för RLSA på kampanjnivå och annonsnivå
+### Mål-/exkluderingsfält för RLSA på kampanjnivå och annonsnivå
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -413,8 +417,6 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | Annonsgrupp-ID | Valfritt Gäller endast för mål och undantag på annonsnivå. |
 | Mål-ID för RLSA | Krävs endast när du ändrar eller tar bort målet, såvida inte raden innehåller ett AMO-ID för målet. |
 | AMO-ID | Krävs för att redigera eller ta bort data såvida du inte inkluderar mål-ID:t för RLSA.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
-
-[^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
 >[!MORELIKETHIS]
 >
