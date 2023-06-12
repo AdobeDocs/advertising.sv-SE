@@ -2,9 +2,9 @@
 title: Pausa eller aktivera en kampanj
 description: Lär dig hur du pausar eller aktiverar en livekampanj.
 feature: DSP Campaigns
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,3 @@ Alla placeringar som pausats innan en kampanj har pausats kommer att förbli pau
 >
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Arkivera en kampanj](campaign-archive-unarchive.md)
-
