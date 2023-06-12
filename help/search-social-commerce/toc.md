@@ -88,12 +88,12 @@ ht-degree: 0%
       + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}
+      + Konverteringsspårning för annonsering i Adobe {#advertising-conversion-tracking}
          + [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format för spårningstaggar för bildkonvertering](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [Konverteringstaggen för JavaScript-konvertering i Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [JavaScript-konverteringskoden Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Vanliga frågor om konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Konverteringsspårning för Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Advertiser spårade konverteringar med hjälp av flöden{#conversion-feeds}
