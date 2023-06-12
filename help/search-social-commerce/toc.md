@@ -5,12 +5,12 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Advertising Search, Social, & Commerce Guide
-user-guide-description: Lär dig mer om de senaste uppdateringarna och nya funktioner i Annonssökning, sociala medier och handel.
+user-guide-description: Den här guiden förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om era sök-, sociala och e-handelskampanjer.
 breadcrumb-title: Advertising Search, Social, & Commerce Guide
 index: true
-source-git-commit: 72dc4d0f193b39c13daf1a0203f54285bff8cc28
+source-git-commit: b5ac81e04055c32cff02cc8528efb88e0d690f48
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
