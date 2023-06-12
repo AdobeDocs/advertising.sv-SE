@@ -2,9 +2,9 @@
 title: Pausa eller aktivera ett paket
 description: Lär dig hur du pausar eller aktiverar ett paket.
 feature: DSP Packages
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -36,4 +36,3 @@ Alla placeringar som pausas i ett paket innan själva paketet pausas förblir pa
 >* [Redigera ett paket](package-edit.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
 >* [Arkivera ett paket](package-archive-unarchive.md)
-
