@@ -1,9 +1,9 @@
 ---
 title: Om den här guiden
 description: Läs vad som beskrivs i respektive kapitel i den här handboken.
-source-git-commit: 0b5a3e0e633e5d93ba048da7e4931f4bd777e1b0
+source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 * &quot;Kampanjhantering&quot; förklarar hur ni konfigurerar och hanterar kampanjkomponenter för era annonsnätverkskonton.
 
-* &quot;Insikter och rapporter&quot; förklarar hur ni kan generera annonsinsikter, generera detaljerade rapporter och automatisera rapportproduktionen, skapa och övervaka aviseringar, visa en logg över ändringar som gjorts i annonserarkontot samt visa och tillämpa [!DNL Google Ads]-genererade rekommendationer för dina konton.
+* &quot;Insikter och rapporter&quot; förklarar hur ni kan generera annonsinsikter, generera detaljerade rapporter och automatisera rapportproduktionen, skapa och övervaka aviseringar, visa en logg över ändringar som gjorts i annonskontot samt visa och tillämpa annonsnätverksgenererade rekommendationer för era konton.
 
 * &quot;Verktyg&quot; förklarar hur du ändrar lösenord, använder verktyg för att generera taggar för klickspårning och konvertering, överför dina konverteringsvärden till [!DNL Google Ads] och era portfoliomål till annonsnätverken för hybridoptimering, ladda upp mätvärden för att spåra kampanjer och replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft Advertising] konton.
 

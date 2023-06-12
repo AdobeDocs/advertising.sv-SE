@@ -1,9 +1,9 @@
 ---
 title: Hantera annonsmallar för lagerflöden
 description: Lär dig hur du hanterar annonsmallar genom vilka dina lagerdata kan bearbetas för att hantera kontostrukturen och leverera dynamiska annonser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
       1. Markera kryssrutan bredvid mallen som du vill kopiera.
 
       1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Create/Clone]** och välj sedan det annonsnätverk som ska användas.
-   * (Om du vill redigera en befintlig mall) Klicka på bredvid mallnamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
+   * (Om du vill redigera en befintlig mall) Klicka på bredvid mallnamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
 1. Ange inställningarna för [text och mall](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] mall för butiksannonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), eller [[!DNL Microsoft® Advertising] mall för butiksannonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
@@ -66,7 +66,6 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
       >* Varje annonsgrupp kan innehålla upp till tre aktiverade responsiva sökannonser.
       >* Du kan inte redigera befintlig standardtext och varianter, och befintliga mallar genererar inte längre standardtextannonser.
       >* Om du ändrar en annonsvariantmall kan befintliga annonser tas bort och nya kan skapas när du sprider data via mallen, [beroende på annonstyp och annonsnätverk](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md).
-
 
       * Så här lägger du till en annonsvariation:
 
@@ -107,6 +106,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
                >* Du kan ange upp till fyra alternativ för varje reklamkopieringsfält.
 
          * Om du vill ta bort en annonsvariation klickar du på **[!UICONTROL Remove ETA Variation]** (för expanderade/utökade textannonser) eller **[!UICONTROL Remove RSA Variation]** (för responsiva sökannonser) bredvid den, beroende på vad som är tillämpligt.
+
    1. (Endast köpmallar) Klicka på **[!UICONTROL Product Groups]** och sedan ange information om de produktgrupper du vill använda som mål.
 
    1. (Valfritt) Klicka på **[!UICONTROL Feed Filters]** och sedan ange vilka rader i matningsfilen som ska spridas.
@@ -120,10 +120,6 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
          1. Klicka på **[!UICONTROL Add Label Classification]**.
 
          1. Välj etikettklassificeringen och välj sedan ett befintligt värde eller ange ett nytt värde.
-
-
-
-
 
 1. Spara mallen:
 
@@ -158,9 +154,7 @@ Du kan aktivera alla pausade dataflödesmallar eller pausa alla aktiva datafeedm
 >[!MORELIKETHIS]
 >
 >* [Automatisera och hantera lagerflöden](../inventory-feeds-about.md)
->* [Arbetsflöde för att hantera kampanjdata med lagerflöden](../inventory-feeds-workflow.md)
 >* [Inställningar för textannons och responsiv sökning och mallar](template-text-rsa.md)
 >* [[!DNL Google Ads] inställningar för butiks- och mallinställningar](template-google-shopping.md)
 >* [[!DNL Microsoft® Advertising] inställningar för butiks- och mallinställningar](template-microsoft-shopping.md)
 >* [Sprida feed-data via mallar](../feed-data-propagate.md)
-

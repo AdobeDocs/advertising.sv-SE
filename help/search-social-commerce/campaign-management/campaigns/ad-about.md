@@ -1,9 +1,9 @@
 ---
 title: Hantera annonser
 description: Läs mer om annonser i sökningar, sociala medier och handel, inklusive tillgängliga annonstyper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,19 @@ Du kan skapa och hantera annonstyper som stöds för annonsgrupper i ett synkron
 
 * **Utökade dynamiska sökannonser** (kallas nu bara&quot;dynamiska sökannonser&quot; i annonsnätverken) för [!DNL Google Ads] och [!DNL Microsoft® Advertising] dynamiska sökannonser i sökkampanjer. Dynamiska sökannonser använder innehåll från er webbplats, i stället för nyckelord, för att bestämma när era annonser ska visas. Annonsnätverket genererar rubriken dynamiskt, väljer landningssidans URL och visar URL och genererar automatiskt den slutliga URL:en.
 
-   Du kan definiera sidorna på dina webbplatser vars innehåll används för att rikta in dina dynamiska sökannonser genom att ange specifika dynamiska sökmål för annonsgruppen. För [!DNL Google Ads]kan du skapa dynamiska sökmål i Sök, Social och Commerce; for [!DNL Microsoft® Advertising]måste du skapa dem i [!DNL Microsoft® Advertising]. I [!DNL Google Ads] -kampanjer kan du om du vill ange en webbplatsdomän och ett språk i kampanjens&quot;[!DNL DSA Options]&quot; i stället för, eller utöver, att skapa dynamiska sökmål.
+  Du kan definiera sidorna på dina webbplatser vars innehåll används för att rikta in dina dynamiska sökannonser genom att ange specifika dynamiska sökmål för annonsgruppen. För [!DNL Google Ads]kan du skapa dynamiska sökmål i Sök, Social och Commerce; for [!DNL Microsoft® Advertising]måste du skapa dem i [!DNL Microsoft® Advertising]. I [!DNL Google Ads] -kampanjer kan du om du vill ange en webbplatsdomän och ett språk i kampanjens&quot;[!DNL DSA Options]&quot; i stället för, eller utöver, att skapa dynamiska sökmål.
 
-   När en användares sökord exakt matchar ett nyckelord i en av dina nyckelordsbaserade kampanjer visas en annons från den nyckelordsbaserade kampanjen i stället för en dynamisk sökannons. Annonsnätverket visar en dynamisk sökannons i stället för en nyckelordsriktad annons när användarens sökord är en bred matchning eller frasmatchning med något av dina nyckelord och din dynamiska sökannons har en högre annonsrankning.
+  När en användares sökord exakt matchar ett nyckelord i en av dina nyckelordsbaserade kampanjer visas en annons från den nyckelordsbaserade kampanjen i stället för en dynamisk sökannons. Annonsnätverket visar en dynamisk sökannons i stället för en nyckelordsriktad annons när användarens sökord är en bred matchning eller frasmatchning med något av dina nyckelord och din dynamiska sökannons har en högre annonsrankning.
 
-   Mer information om [!DNL Google Ads] dynamiska sökannonser, se https://support.google.com/google-ads/answer/2471185. Mer information om [!DNL Microsoft® Advertising] dynamiska sökannonser, se https://help.ads.microsoft.com/#apex/ads/en/60037/0.
+  Mer information om dynamiska sökannonser finns i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2471185) och [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimediaannonser** for [!DNL Microsoft® Advertising] sökkampanjer. Multimediaannonser är stora bildannonser som visas på framträdande huvudlinje- och sidofältspositioner, och endast en multimediaannons visas per sida. De kan innehålla flera text- och bildresurser, som responsiva annonser, och annonsnätverket sätter ihop annonserna med de mest effektiva kombinationerna av annonselement. Multimediaannonser ersätter inte er text och era placeringar.
 
 * Kampanjlinjer för **[!DNL Microsoft® Advertising]produktannonser (shopping)** i shoppingnätverket. Shoppingannonser använder produkter i era befintliga [!DNL Microsoft® Merchant Center] produktflöde, i stället för nyckelord, för att bestämma hur och var annonserna ska visas. Webbadresserna för annonskopior och landningssidor genereras automatiskt från din produktinformation i flödet, men du kan också konfigurera kampanjrader som ska inkluderas för annonsgruppen.
 
-   Du kan styra vilka produkter som visas med [!DNL Microsoft® Advertising] shoppingannonser genom att skapa separata produktgrupper för annonsgruppen, från [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vy.
+  Du kan styra vilka produkter som visas med [!DNL Microsoft® Advertising] shoppingannonser genom att skapa separata produktgrupper för annonsgruppen, från [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups] vy.
 
-   Mer information om arbetsflödet för produkt-/shoppingannonser finns i &quot;[Implementera [!DNL Microsoft® Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Mer information om produktannonser finns i [Microsoft® - annonsdokumentation](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Mer information om arbetsflödet för produkt-/shoppingannonser finns i &quot;[Implementera [!DNL Microsoft® Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).&quot;  Mer information om produktannonser finns i [Microsoft® - annonsdokumentation](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Responsiva sökannonser för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer i söknätverket. Annonsnätverket sätter dynamiskt ihop textbaserade responsiva sökannonser från en uppsättning annonsrubriker och beskrivningar, vilket gynnar kombinationer som fungerar bra ihop. Annonsen innehåller upp till tre rubriker, två beskrivningar och en anpassningsbar URL från bas-URL:en och valfria sökvägsfält1 och sökvägsfält2. Du kan även fästa annonsrubriker och beskrivningar på specifika positioner.
 
@@ -70,4 +70,3 @@ Det är dock inte tillgängligt för [!DNL Google Ads] dynamisk sökannons (DSA)
 >[!MORELIKETHIS]
 >
 >* [Hantera annonser](ad-manage.md)
-

@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Microsoft Advertising] kampanjinställningar"
 description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search and Display Network]:* Visar endast textannonser i söknätverket.
 
-* *[!UICONTROL Shopping Network]:* Visar produktannonser &amp;mdashl för dina produkter i din [!DNL Microsoft Merchant Center] produktkatalog - i shoppingnätverket
+* *[!UICONTROL Shopping Network]:* Visar produktannonser - för era produkter i [!DNL Microsoft Merchant Center] produktkatalog - i shoppingnätverket
 
 * *[!UICONTROL Audience]:* Visar annonser på webben/i displayannonser på [!DNL Microsoft Audience Network]. Du kan antingen a) automatiskt generera feed-baserade annonser genom att länka kampanjen till en handlarcenterbutik i [!UICONTROL Shopping Settings] eller b) skapa responsiva annonser med textresurser och överförda bilder. Båda alternativen kräver att ni skapar annonsgrupper med målgruppsanpassning.
 
@@ -64,13 +64,13 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 * *[!UICONTROL Target CPA]:* (Kampanjer i söknätverket) Annonsnätverket - inte Sök, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), vilket är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
 
-   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
+  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
 * *[!UICONTROL Target Impression Share]:* (Kampanjer i söknätverket) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att uppnå en målvisningsresurs och en annonsposition. Om du vill kan du ange **[!UICONTROL Target Impression Share]** som procent **[!UICONTROL Target Ad Position]** och en **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i hybridportföljer.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Kampanjer i sök- och shoppingnätverken) Annonsnätverket - inte Sök, Social och Commerce - optimerar anbud baserat på er **[!UICONTROL Target ROAS]** (avkastning på annonsutgift), angett i procent. Om du vill kan du ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
 
-   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
+  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
 ## [!UICONTROL Shopping Settings]
 
@@ -180,4 +180,3 @@ Mer information om tillgänglighet finns i Microsoft Advertising Help to &quot;[
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

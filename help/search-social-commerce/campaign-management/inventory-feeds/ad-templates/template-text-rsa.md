@@ -1,9 +1,9 @@
 ---
 title: Inställningar för textannonser och responsiva sökannonser för lagerflöden
 description: Referera inställningarna för text och responsiva sökannonsmallar för lagerflöden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3329'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >
 >* Följande tecken är reserverade för att ange kolumnnamn och modifieringsnamn i mallen och är därför inte tillåtna som text i alla attributfält:  `[ ] < > `
 >* I [!DNL Yandex templates]kan du använda de dynamiska parametrarna `{param1}` och `{param2}` bara i URL:er, och du kan inte använda dynamisk prisinfogning i annonsbeskrivningar.
-
 
 ## \[Ovanför alla flikar\]
 
@@ -107,7 +106,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 * *[!UICONTROL Search]:* Om du vill lägga bud på listor med sponsrade sökningar.
 
-   ([!DNL Google Ads] kampanjer) Om du vill inkludera bud på listor för [!DNL Google Ads] sökpartners, markera kryssrutan bredvid **[!UICONTROL Search partners]**.
+  ([!DNL Google Ads] kampanjer) Om du vill inkludera bud på listor för [!DNL Google Ads] sökpartners, markera kryssrutan bredvid **[!UICONTROL Search partners]**.
 
 * *[!UICONTROL Content]:* Så här lägger du bud på placeringar i innehållslistor (displayannonser). **Obs!** Du kan inte skapa placeringar med mallen. När du väljer det här alternativet skapar du placeringar för varje annonsgrupp och anger vilka sidor i visningsnätverket som ska användas som mål för varje annonsgrupp med antingen <!-- insert link --> eller <!-- insert links --> och placeringsinställningar i [!UICONTROL Search] > [!UICONTROL Campaigns] vyer.
 
@@ -139,7 +138,7 @@ För konverteringsspårning för annonsering i Adobe, som används när kampanji
 
 Ange ett värde för omdirigeringar och spårning från tredje part. Ange landningssidans URL:
 
-* För Yahoo! Japan Ads-konton använder du parametern {lpurl}.
+* För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
 * Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna för&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
@@ -171,7 +170,7 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 
    * För statiska nyckelord: Bred matchning = `keyword`, Bred Match Modifier = `+keyword`, eller Frasmatchning = `"keyword"`
 
-      Du kan inte ange statiska nyckelord med exakt matchning och standardsyntax här eftersom de omges av hakparenteser (`[]`), precis som dynamiska parametrar.
+     Du kan inte ange statiska nyckelord med exakt matchning och standardsyntax här eftersom de omges av hakparenteser (`[]`), precis som dynamiska parametrar.
 
 * För [!DNL Yandex] mallar:
 
@@ -186,7 +185,6 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 * Negativa matchningar stöds inte.
 * Google breda matchningsmodifierare har nu samma matchande beteende som frasmatchning för vissa språk, och du kan inte skapa nya breda matchningsmodifieringsnyckelord. Se [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/10286719) för mer information.
 
-
 **[!UICONTROL Map Only]:** Lägger till nya annonser i annonsgrupper (eller i kampanjer för [!DNL Yandex] i vilket de angivna nyckelorden hittas, i stället för att skapa nya nyckelord. Markera kryssrutan om du vill aktivera det här alternativet. När det här alternativet är aktiverat gäller inte någon Param 1- eller Param 2-variabel i de angivna nyckelorden eftersom nyckelorden finns.
 
 **[!UICONTROL Keyword Final URL]:** (Konton med slutliga/avancerade URL:er. (valfritt) Den URL till landningssidan som annonsnätverksanvändare tas till när de klickar på annonsen. Den måste innehålla samma domän som visnings-URL:en, och alla parametrar i den slutliga URL:en måste matcha parametrarna i landningssidans URL efter annonsklicket. Den kan innehålla omdirigeringar inom landningssidans domän eller underdomän, men inga omdirigeringar utanför landningssidans domän.
@@ -194,9 +192,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 Om du använder en [!DNL Google Merchant Center] feed och inkludera det här värdet i[!DNL Link]infogar du kolumnen i det här fältet.
 
 >[!NOTE]
+>
 * Om du genererar spårnings-URL:er när du bokför data som sprids via mallen läggs spårningsparametrar till i det här värdet baserat på kontospårningsinställningarna.
 * ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
-
 
 **[!UICONTROL Keyword Tracking Template]:** (Konton med slutliga/avancerade URL:er. (valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet som det mest granulerade) åsidosätter värden på alla andra nivåer.
 
@@ -318,7 +316,7 @@ För responsiva sökannonser infogar du en annonsanpassare med följande format,
 
 [!DNL Microsoft® Advertising] och [!DNL Yahoo! Japan Ads] inte längre används för att skapa och redigera standardtexter.
 
-**[!UICONTROL Base URL]:** (Konton med endast mål-URL:er) Den sida som användarna tas till. Den kan innehålla omdirigering från tredje part och spårningskod. Om du använder Adobe Advertising Conversion Tracking Service, och kampanjinställningarna inkluderar att du använder [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå. Sedan lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
+**[!UICONTROL Base URL]:** (Konton med endast mål-URL:er) Den sida som användarna tas till. Den kan innehålla omdirigering från tredje part och spårningskod. Om du använder tjänsten för spårning av konvertering i Adobe Advertising, och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå. Sedan lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
 
 Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i inmatningsfältet och sedan på ett kolumnnamn i kolumnlistan eller en [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i [!UICONTROL Modifiers] lista.
 
@@ -327,9 +325,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 Om du använder en [!DNL Google Merchant] Centrera feed och inkludera det här värdet i[!UICONTROL Link]infogar du kolumnen i det här fältet.
 
 >[!NOTE]
+>
 * Om du genererar spårnings-URL:er när du bokför data som sprids via mallen läggs spårningsparametrar till i det här värdet baserat på kontospårningsinställningarna.
 * ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
-
 
 **[!UICONTROL Tracking Template]:** (Konton med slutliga/avancerade URL:er. (valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet som det mest granulerade) åsidosätter värden på alla andra nivåer.
 
@@ -337,17 +335,17 @@ För konverteringsspårning för annonsering i Adobe, som används när kampanji
 
 Ange ett värde för omdirigeringar och spårning från tredje part. Ange landningssidans URL:
 
-* För Yahoo! Japan Ads-konton använder du parametern {lpurl}.
+* För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
 * Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna för&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Alternativa fält under de ursprungliga reklamfälten\]:** (Valfritt) En alternativ uppsättning annonskopior för en annons, som kan användas om någon av raderna i den ursprungliga annonskopian överskrider den maximala längden när alla dynamiska parametrar fylls i med data under spridningen.
 
 >[!NOTE]
+>
 * Om [!UICONTROL Prefill] är markerat, fylls de alternativa fälten i förväg med originalfälten och du kan redigera dem efter behov.
 * Endast de reklamkopieringsfält som överskrider maxlängden ersätts med det alternativa värdet. Om t.ex. bara en originalrubrik eller -titel är för lång, används den alternativa rubriken eller titeln och de ursprungliga beskrivningarna för den genererade annonsvarianten. Se därför till att den alternativa annonskopian passar när den kombineras med den ursprungliga annonskopian.
 * Om den ursprungliga annonskopian uppfyller sökmotorns krav på längd, ignoreras den alternativa annonskopian.
-
 
 **\[komponent\] [!UICONTROL Ad Label Classifications] > \[Etikettklassificering och värde\]:** (Valfritt) Värden för upp till fem befintliga etikettklassificeringar som ska tilldelas annonsvariationerna som skapas eller redigeras med mallen. För varje kampanjkomponent som du vill tilldela etikettklassificeringar till:
 
@@ -384,10 +382,9 @@ Ange ett värde för omdirigeringar och spårning från tredje part. Ange landni
 {{$include /help/_includes/inventory-feed-template-label-classifications.md}}
 
 >[!MORELIKETHIS]
+>
 * [Automatisera och hantera lagerflöden](../inventory-feeds-about.md)
-* [Arbetsflöde för att hantera kampanjdata med lagerflöden](../inventory-feeds-workflow.md)
 * [Hantera modifierare](../modifiers-manage.md)
 * [Hantera lagerdataflödesfiler](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 * [Sprida feed-data via mallar](../feed-data-propagate.md)
 * [Posta kampanjdata från lagerfeeds till annonsnätverk](../propagated-data-post.md)
-

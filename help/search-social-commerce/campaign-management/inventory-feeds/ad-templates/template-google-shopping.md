@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Google Ads] webb- och mallinställningar för lagerflöden"
 description: Referera inställningarna för [!DNL Google Ads] shoppingannonsmallar för lagerflöden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,6 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 >[!NOTE]
 >
 >* Följande tecken är reserverade för att ange kolumnnamn och modifieringsnamn i mallen och är därför inte tillåtna som text i alla attributfält:  `[ ] < > `
-
 
 ## \[Ovanför alla flikar\]
 
@@ -137,7 +136,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 **[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper, (valfritt) Spårningsmallen för produktgruppen, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en ValueTrack-parameter. Den här mallen åsidosätter mallar på högre nivåer.
 
-För konverteringsspårning för annonsering i Adobe behöver du inte ange något värde. Kampanjnivån räcker.
+Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 
@@ -158,9 +157,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 >[!MORELIKETHIS]
 >
 >* [Automatisera och hantera lagerflöden](../inventory-feeds-about.md)
->* [Arbetsflöde för att hantera kampanjdata med lagerflöden](../inventory-feeds-workflow.md)
 >* [Hantera modifierare](../modifiers-manage.md)
 >* [Hantera lagerdataflödesfiler](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
 >* [Sprida feed-data via mallar](../feed-data-propagate.md)
 >* [Posta kampanjdata från lagerfeeds till annonsnätverk](../propagated-data-post.md)
-

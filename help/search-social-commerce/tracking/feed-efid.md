@@ -1,9 +1,9 @@
 ---
 title: Konverteringsspårning med en EF ID-feed
 description: Lär dig hur du använder en EF ID-feed för konverteringsspårningsdata.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,9 @@ I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare
    >* Den här metoden kräver inte att annonsören använder konverteringsspårningstaggar för Adobe.
    >* Om du byter omdirigeringstyp för ett befintligt konto eller en befintlig kampanj från [!UICONTROL Standard] till [!UICONTROL Token], eller vice versa, måste du återskapa alla tillämpliga spårnings-URL:er.
 
-
    ef_id fylls i och läggs till på landningssidans URL när slutanvändaren klickar på annonsen och omdirigeras till en Adobe-annonsserver. ef_id skickas sedan till annonsören i mål-URL:en eller den slutliga URL:en för annonsen eller nyckelordet. Följande är ett exempel på en mål-URL som skickas till annonsören under omdirigeringen:
 
-   http://pixel.everesttech.net/1180/cq?ev_sid=3&amp;ev_ln={keyword}&amp;ev_crx={creative}&amp;ev_mt={matchtype}&amp;ev_n={network}&amp;ev_ltx=&amp;ev_pl={placement}&amp;url=http%3A//www.example.com&amp;ef_id=D59Nu0u@BD0AAM1q:20110630172936:s
+   `http://pixel.everesttech.net/1180/cq?ev_sid=3&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx=&ev_pl={placement}&url=http%3A//www.example.com&ef_id=D59Nu0u@BD0AAM1q:20110630172936:s`
 
 1. Annonsören extraherar ef_id från omdirigeringen och lagrar det med relevanta konverteringsdata som ska inkluderas i feed-filen. Ändra inte ef_id eller skiftläge.
 
@@ -41,6 +40,5 @@ I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare
 >
 >* [Filkrav för konvertering av feed-filer](feed-file-requirements.md)
 >* [Datakrav för dataflöden som använder EF-ID:n](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
 
 

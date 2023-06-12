@@ -1,7 +1,7 @@
 ---
 title: Hantera anbudsnyckelord
 description: Lär dig hur du skapar och hanterar anbudssökbara nyckelord för sökannonseringsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,8 +22,7 @@ Du kan skapa och redigera nyckelord för sökannonser i [kampanjtyper som stöds
 
 1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
-1. 
-   1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
+1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
 1. Välj annonsnätverket, kontot, kampanjen och annonsgruppen och klicka sedan på **[!UICONTROL Continue]**.
 
@@ -77,4 +76,3 @@ Det befintliga nyckelordet tas bort och ett annat skapas när:
 >* [[!DNL Yandex] nyckelordsinställningar](keyword-settings-yandex.md)
 >* [Skapa negativa nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Ändra status för nyckelord och negativa nyckelord](keyword-status-edit.md)
-
