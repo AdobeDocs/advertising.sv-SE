@@ -1,9 +1,9 @@
 ---
 title: Generera en URL för klickspårning
 description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och handel.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -34,57 +34,56 @@ Information om när du manuellt måste generera och implementera en klickspårni
 
          * (Kreatörer, standardannonser) `**landing_page**`
 
-            där `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: http://www.example.com/travel.html
+           Exempel: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink <tab> ** <tab> landing_page`
 
-            där `sitelink` är platshållarens namn och `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `sitelink` är platshållarens namn och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: `Careers <tab> ** <tab> http://www.example.com/careers.html`
+           Exempel: `Careers <tab> ** <tab> http://www.example.com/careers.html`
 
-            Filen kan innehålla upp till 10 000 rader.
+           Filen kan innehålla upp till 10 000 rader.
 
          * ([!DNL Google Merchant Center] produktgrupper och [Microsoft® Advertising] produktannonser) `product name <tab> ** <tab> landing_page`
 
-            där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
+           Exempel: `Acme PR208 <tab> ** <tab> http://www.example.com/travel.html`
 
-            Filen kan innehålla upp till 10 000 rader.
+           Filen kan innehålla upp till 10 000 rader.
+
       * I inmatningsfältet anger du ett objekt per rad i följande format:
 
          * (Kreatörer, standardannonser) `landing_page`
 
-            där `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: http://www.example.com/travel.html
+           Exempel: http://www.example.com/travel.html
 
          * ([!DNL Microsoft® Advertising] sitelinks) `sitelink**landing_page`
 
-            där `sitelink` är platshållarens namn och `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `sitelink` är platshållarens namn och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: `Careers**http://www.example.com/careers.html`
+           Exempel: `Careers**http://www.example.com/careers.html`
 
          * ([!DNL Google Merchant Center] produktgrupper och [!DNL Microsoft® Advertising] produktannonser) `product name**landing_page`
 
-            där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
+           där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
-            Exempel: Acme PR208**http://www.example.com/travel.html
+           Exempel: Acme PR208**http://www.example.com/travel.html
+
    1. Klicka på **[!UICONTROL Generate Tracking URLs]**.
-
-
 
 1. (Valfritt) Kopiera URL-adresserna (med början med&quot;http&quot; eller&quot;https&quot;) från skärmen eller utdatasidan och implementera dem i söknings- eller sociala konton.
 
 För konton med mål-URL:er anger du värdena i [!UICONTROL Base URL] fält.
 
-För konton med slutliga URL:er anger du värdet på skärmen i lämplig [!UICONTROL Tracking Template] fält. Du måste lägga till en parameter för den slutliga URL:en efter `&url=` parameter (som `{lpurl}`). För [!DNL Yahoo! Japan Ads] konton, använd parametern `{lpurl}`. För en lista med [!DNL Google Ads] och [!DNL Microsoft® Advertising] parametrar för att ange slutliga URL:er i spårningsmallar finns i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348) (se parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot;) och [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+För konton med slutliga URL:er anger du värdet på skärmen i lämplig [!UICONTROL Tracking Template] fält. Du måste lägga till en parameter för den slutliga URL:en efter `&url=` parameter (som `{lpurl}`). För [!DNL Yahoo! Japan Ads] konton, använd parametern `{lpurl}`. För en lista med [!DNL Google Ads] och [!DNL Microsoft® Advertising] parametrar för att ange slutliga URL:er i spårningsmallar finns i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348) (se&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängligt [!DNL ValueTrack] Parametrar&quot;) och [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >
 >* [Om verktygen för att skapa och avkoda spårningstaggar](tracking-tools-about.md)
 >* [När och hur klickspårnings-URL:er ska genereras](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
 >* [Avkoda en klicknings-URL för sökning, sociala medier och handel](click-tracking-url-decode.md)
-

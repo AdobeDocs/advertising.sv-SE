@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
 
-* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] format](https://support.google.com/google-ads/answer/6305348). (Gå till parametrarna för&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängliga ValueTrack-parametrar&quot;.)
+* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Google Ads] documentation for the supported [!DNL ValueTrack] format](https://support.google.com/google-ads/answer/6305348). (Gå till parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar.&quot;)
 
 * Du kan också inkludera URL-parametrar och anpassade parametrar som definierats för kampanjen, avgränsade med et-tecken (&amp;), till exempel {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -26,7 +26,6 @@ För konverteringsspårning för annonsering i Adobe, som används när kampanji
 >* Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* Om du uppdaterar en spårningsmall på annons-, sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
-
 
 ## Fältet Spårningsmall för Microsoft Advertising entities {#tracking-template-microsoft}
 
@@ -48,7 +47,6 @@ För konverteringsspårning för annonsering i Adobe, som används när kampanji
 >
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* Du kan uppdatera dina spårningsmallar på vilken nivå som helst utan att skicka in dina annonser på nytt för godkännande.
-
 
 ## Text och mall - Obs! Hur man infogar en dynamisk parameter {#inventory-feed-template-insert-dynamic-parameter}
 

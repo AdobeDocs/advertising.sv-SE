@@ -1,9 +1,9 @@
 ---
 title: Hantera delade länkar
 description: Lär dig hur du skapar och hanterar delade tillägg för länkar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -92,12 +92,11 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 >* ([!DNL Google Ads]) Varje sitelink i en kampanj eller annonsgrupp måste ha en unik landningssida, och innehållet för varje sitelink-landningssida måste ha ungefär 80 % unikt innehåll. Du kan t.ex. inte ha länkar till flera ankarpunkter på samma sida.
 >* ([!DNL Google Ads]) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
-
 **[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
 
-* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;EF-omdirigering&quot; och &quot;Auto Upload&quot;, prefixerar Search, Social och Commerce automatiskt sin egen klickspårningskod när du sparar posten.
+* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot;och &quot;Automatisk överföring&quot;, &quot;Sök, Socialt och e-handel&quot; prefix automatiskt sin egen klickspårningskod när du sparar posten.
 
-* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 * Du kan också inkludera URL-parametrar och anpassade parametrar som definierats för kampanjen, avgränsade med et-tecken (&amp;), till exempel `{lpurl}?matchtype={matchtype}&device={device}`.
 
@@ -111,9 +110,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 >* ([!DNL Microsoft Advertising]) Du kan uppdatera dina spårningsmallar på vilken nivå som helst utan att skicka in dina annonser för godkännande på nytt.
 >* För [!DNL Google Ads]bör du undvika att använda makron, som inte ersätts med klick från källor som möjliggör parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
-
 >[!MORELIKETHIS]
 >
 >* [Om tillägg för sitelink](sitelink-extension-about.md)
 >* [Associera delade sitelinks med konton, kampanjer och annonsgrupper](sitelink-extension-associate.md)
-

@@ -1,9 +1,9 @@
 ---
 title: "Uppdatera s\_kwcid-spårningskod för en [!DNL Google Ads] konto"
 description: Lär dig hur du byter till den senaste s\_kwcid-spårningskoden för en [!DNL Google Ads] konto.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -48,8 +48,8 @@ Alla nya [!DNL Google Ads] kontona använder automatiskt det nya s\_kwcid-format
 
 1. När du har påbörjat migreringen uppdaterar du inställningarna för landningssidans suffix (kallat &quot;slutligt URL-suffix&quot; i vissa annonsnätverk) efter behov:
 
-   * När funktionen &quot;Automatisk överföring&quot; är aktiverad i spårningsinställningarna uppdaterar Search, Social och Commerce automatiskt spårningskoden i Landing Page Suffix för det här kontot och dess kampanjer. Ni behöver inte göra någonting.
-   * När funktionen &quot;Automatisk överföring&quot; inte är aktiverad och du inte använder serversidans s-kwcid, måste du uppdatera parametern s\_kwcid manuellt i inställningarna för landningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i konto- och kampanjinställningarna eller genom att överföra ändringar i ett kalkylblad. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare.
+   * När [!UICONTROL Auto Upload]&quot;funktionen är aktiverad i spårningsinställningarna, så uppdaterar Search, Social och Commerce automatiskt spårningskoden i Landing Page Suffix för det här kontot och dess kampanjer. Ni behöver inte göra någonting.
+   * När [!UICONTROL Auto Upload]&quot;funktionen är inte aktiverad och du använder inte serversidans s-kwcid, måste du uppdatera parametern s\_kwcid manuellt i inställningarna för landningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i konto- och kampanjinställningarna eller genom att överföra ändringar i ett kalkylblad. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare.
    * Om du tar med s\_kwcid i inställningen för bas-URL för någon kampanjkomponent flyttar du den till relevant inställning för Landing Page Suffix.
 
 1. (Rekommenderas) Verifiera data för det här kontot i Analytics innan du migrerar ytterligare konton.

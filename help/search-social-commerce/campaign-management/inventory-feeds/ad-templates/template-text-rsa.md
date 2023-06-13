@@ -1,9 +1,9 @@
 ---
 title: Inställningar för textannonser och responsiva sökannonser för lagerflöden
 description: Referera inställningarna för text och responsiva sökannonsmallar för lagerflöden.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3317'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{unescapedurl}` Ange landningssidans URL.
 
@@ -134,13 +134,13 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 **[!UICONTROL Ad Group Tracking Template]:** (Endast konton med slutliga/avancerade URL:er) Spårningsmallen på annonsgruppnivå, som anger alla icke-landningsdomäner omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en parameter.
 
-För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;EF Redirect&quot; och &quot;Auto Upload&quot;, lägger Search, Social och Commerce automatiskt till omdirigerings- och spårningskod när du sparar posten.
+För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Sök, Socialt och e-handel lägger automatiskt till omdirigerings- och spårningskod när du sparar posten.
 
 Ange ett värde för omdirigeringar och spårning från tredje part. Ange landningssidans URL:
 
 * För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
-* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna för&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljnivå (med nyckelordet som mest detaljerat) åsidosätter det här värdet.
 
@@ -198,13 +198,13 @@ Om du använder en [!DNL Google Merchant Center] feed och inkludera det här vä
 
 **[!UICONTROL Keyword Tracking Template]:** (Konton med slutliga/avancerade URL:er. (valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet som det mest granulerade) åsidosätter värden på alla andra nivåer.
 
-* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;EF Redirect&quot; och &quot;Auto Upload&quot;, lägger Search, Social och Commerce automatiskt till omdirigerings- och spårningskod när du sparar posten.
+* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Sök, Socialt och e-handel lägger automatiskt till omdirigerings- och spårningskod när du sparar posten.
 
 * Du kan även ange omdirigeringar och spårning från tredje part.
 
 * Ange landningssidans URL:
 
-   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` Ange landningssidans URL.
 
@@ -316,7 +316,7 @@ För responsiva sökannonser infogar du en annonsanpassare med följande format,
 
 [!DNL Microsoft® Advertising] och [!DNL Yahoo! Japan Ads] inte längre används för att skapa och redigera standardtexter.
 
-**[!UICONTROL Base URL]:** (Konton med endast mål-URL:er) Den sida som användarna tas till. Den kan innehålla omdirigering från tredje part och spårningskod. Om du använder tjänsten för spårning av konvertering i Adobe Advertising, och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå. Sedan lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
+**[!UICONTROL Base URL]:** (Konton med endast mål-URL:er) Den sida som användarna tas till. Den kan innehålla omdirigering från tredje part och spårningskod. Om du använder Adobe Advertising Conversion Tracking Service, och kampanjinställningarna inkluderar att du använder [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå. Sedan lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
 
 Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i inmatningsfältet och sedan på ett kolumnnamn i kolumnlistan eller en [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i [!UICONTROL Modifiers] lista.
 
@@ -337,7 +337,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part. Ange landni
 
 * För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
-* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna för&quot;Endast spårningsmall&quot; i avsnittet&quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Alternativa fält under de ursprungliga reklamfälten\]:** (Valfritt) En alternativ uppsättning annonskopior för en annons, som kan användas om någon av raderna i den ursprungliga annonskopian överskrider den maximala längden när alla dynamiska parametrar fylls i med data under spridningen.
 

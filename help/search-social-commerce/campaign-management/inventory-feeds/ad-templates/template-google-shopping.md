@@ -1,9 +1,9 @@
 ---
 title: "[!DNL Google Ads] webb- och mallinställningar för lagerflöden"
 description: Referera inställningarna för [!DNL Google Ads] shoppingannonsmallar för lagerflöden.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -134,9 +134,9 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper, (valfritt) Spårningsmallen för produktgruppen, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en ValueTrack-parameter. Den här mallen åsidosätter mallar på högre nivåer.
+**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper, valfritt) Spårningsmallen för produktgruppen, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Den här mallen åsidosätter mallar på högre nivåer.
 
-Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
+För konverteringsspårning för annonsering i Adobe behöver du inte ange något värde. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 

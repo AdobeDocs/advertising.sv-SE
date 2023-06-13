@@ -3,9 +3,9 @@ title: Använda Adobe Advertising ID:n för att skapa [!DNL Marketing Channels] 
 description: Lär dig hur du använder Adobe Advertising ID:n för att skapa bearbetningsregler för [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 525761b4-607f-4b03-9020-8051009a13c6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med endast Adobe Advertising-Adobe Analytics Integration*
 
-Du kan använda Adobe Advertising ID:n ([AMO ID och EF ID](../ids.md)) för att konfigurera [!DNL Marketing Channels] bearbetningsregler i Adobe Analytics. Använd Adobe Advertising ID:n för regler som är specifika för era annonskampanjer i Adobe.
+Du kan använda Adobe Advertising-ID:n ([AMO ID och EF ID](../ids.md)) för att konfigurera [!DNL Marketing Channels] bearbetningsregler i Adobe Analytics. Använd Adobe Advertising-ID:n för regler som är specifika för era Adobe Advertising-kampanjer.
 
 ## AMO-ID i bearbetningsregler
 
@@ -33,7 +33,7 @@ De dynamiska värdena i AMO-ID:n anger marknadsföringskanalen som spårades:
 
 Resten av AMO-ID kan ignoreras.
 
-| AMO-ID | Kanal | Regellogik |
+| [!UICONTROL AMO ID] | Kanal | Regellogik |
 |--------|---------|--------------------|
 | AL! (prefix) | [!UICONTROL Paid Search] | Börjar med |
 | AC! (prefix) | [!UICONTROL DSP] | Börjar med |
@@ -62,7 +62,7 @@ The [!DNL Marketing Channels] bearbetningsregel för [!UICONTROL YouTube Video A
 
 ## EF ID in Processing Rules
 
-AMO EF ID (EF ID) är den andra spårningskoden som används i [!DNL Analytics for Advertising] integrering. Det främsta syftet är att spåra och passera [!DNL Analytics] händelsedata till Adobe Advertising. Varje gång en klickning eller genomgång sker genereras ett unikt EF-ID, även om det är exakt samma annons för samma besökare. EF ID används inte i [!DNL Analytics] rapporterar användargränssnitt eftersom det vanligtvis överstiger gränsen på 500 kB unika värden per variabel i [!DNL Analytics], vilket gör det oanvändbart för rapportering. Marknadsföringsstatistik och metadata för Adobe tillämpas inte på EF-id:t. de tillämpas bara på AMO-ID:t. Spårning krävs för kampanjoptimering i Adobe Advertising, så båda ID:n krävs.
+AMO EF ID (EF ID) är den andra spårningskoden som används i [!DNL Analytics for Advertising] integrering. Det främsta syftet är att spåra och passera [!DNL Analytics] händelsedata till Adobe Advertising. Varje gång en klickning eller genomgång sker genereras ett unikt EF-ID, även om det är exakt samma annons för samma besökare. EF ID används inte i [!DNL Analytics] rapporterar användargränssnitt eftersom det vanligtvis överstiger gränsen på 500 kB unika värden per variabel i [!DNL Analytics], vilket gör det oanvändbart för rapportering. Mätvärden och metadata för Adobe Advertising tillämpas inte på EF-id:t. de tillämpas bara på AMO-ID:t. Spårning krävs för kampanjoptimering i Adobe Advertising, så båda ID:n krävs.
 
 Trots att EF ID-dimensionen inte används direkt i [!DNL Analytics] rapporter kan det vara användbart att använda ett EF-ID för att skapa marknadsföringskanaler. EF ID-suffixet anger kanalen (visning eller sökning) och om besöket drivs av en klickfrekvens eller en genomgång. Avgränsaren i EF-ID är ett kolon i stället för utropstecknet i AMO-ID.
 
@@ -95,4 +95,3 @@ Om du vill skapa en visningskanal skapar du en regel där EF-ID:t avslutas med &
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising Data](mc-ac-data.md)
 >* [Video: Använda [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Adobe Advertising IDs Used by [!DNL Analytics]](/help/integrations/analytics/ids.md)
-

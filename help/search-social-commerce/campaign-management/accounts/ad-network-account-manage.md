@@ -1,9 +1,9 @@
 ---
 title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
 workflow-type: tm+mt
-source-wordcount: '2080'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -184,7 +184,7 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och [!DNL Microsoft Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga ValueTrack-parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och [!DNL Microsoft Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` Ange landningssidans URL.
 
@@ -248,7 +248,7 @@ Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klicka
 
 Fullständiga anvisningar finns i &quot;[Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Namn på rapportsvit** - (För EF-omdirigering endast med token; annonsörer med integrering mellan Adobe Advertising och Adobe Analytics, (valfritt) En eller flera rapportsviter för analyser till vilka Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
+**Namn på rapportsvit** - (För EF-omdirigering endast med token; annonsörer som är integrerade mellan Adobe Advertising och Adobe Analytics, (valfritt) En eller flera rapportsviter för analyser till vilka Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
 För att data ska kunna visas i rapportsviterna måste antingen (a) serversidan s\_kwcid konfigureras för kontot eller (b) inställningen på annonsörnivå vara &quot;[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
 
