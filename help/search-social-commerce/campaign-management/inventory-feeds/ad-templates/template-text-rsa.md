@@ -236,7 +236,7 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om rubriken, texten, URL:en eller den slutliga URL:en innehåller `{Param3}` dynamisk ersättningssträng. Den maximala längden är 70 tecken, men tänk på den maximala längden för det annonselement som du använder det i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande anbudet för varje nyckelord med den angivna matchningstypen eller annonstypen.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Det inledande anbudet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 
