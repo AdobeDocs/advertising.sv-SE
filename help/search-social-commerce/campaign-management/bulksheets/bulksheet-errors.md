@@ -42,8 +42,8 @@ Följande fel kan finnas i [!UICONTROL EF Error] kolumn i [!UICONTROL EF Errors]
 | Allmänt | [!UICONTROL Internal Error: Please Try Uploading the bulksheet Again. If Problem Persists Contact Customer Care] | Åtgärden misslyckades helt. Kontakta ditt kontoteam på Adobe om problemet kvarstår. |
 | Alla enheter | [!UICONTROL Invalid Fields.] \[ogiltiga fält och fel\] | Angivna data saknas eller är ogiltiga. |
 |  | [!UICONTROL Invalid Reference Given] | Entitetens ID i annonsnätverket, eller en överordnad enhets ID (t.ex. konto-ID), motsvarar inte en entitet i Sök, Socialt och Commerce. Detta kan inträffa när du redigerar ID:t i kalkylbladet. |
-|  | [!UICONTROL <Entity> is deleted or expired] | Entiteten har gått ut eller tagits bort, och du kan inte ändra dess egenskaper. Enheten kan tas bort när någon har redigerat statusen manuellt. |
-|  | [!UICONTROL <Entity> status should be Active or Paused] | (Nya entiteter) En ny entitet kan bara vara &quot;Aktiv&quot; eller &quot;Pausad&quot;. |
+|  | [!UICONTROL &lt;Entity> is deleted or expired] | Entiteten har gått ut eller tagits bort, och du kan inte ändra dess egenskaper. Enheten kan tas bort när någon har redigerat statusen manuellt. |
+|  | [!UICONTROL &lt;Entity> status should be Active or Paused] | (Nya entiteter) En ny entitet kan bara vara &quot;Aktiv&quot; eller &quot;Pausad&quot;. |
 |  | [!UICONTROL Duplicate Entries are present] | Flera rader ingår för samma enhet, med olika attribut i varje rad. Konsolidera ändringarna i en rad. |
 |  | [!UICONTROL Invalid AMO ID given] | AMO-ID:t för raden finns inte. Detta kan inträffa om du har redigerat ID:t i kalkylbladet. |
 |  | [!UICONTROL Invalid row given] | Raden innehåller inte tillräckligt med information för att fastställa entitetstypen. Redigera raden så att den innehåller alla obligatoriska fält för entitetstypen. |
@@ -59,7 +59,7 @@ Följande fel kan finnas i [!UICONTROL EF Error] kolumn i [!UICONTROL EF Errors]
 | Alla annonsgruppskomponenter | [!UICONTROL Adgroup creation failed] | Den överordnade annonsgruppen skapades inte, så entiteten kunde inte skapas. Detta kan bero på ett fel i annonsgruppsfälten eller på att den överordnade kampanjen misslyckades. Se till att alla överordnade entiteter innehåller alla obligatoriska fält. |
 |  | [!UICONTROL Adgroup Row Missing] | Den angivna överordnade annonsgruppen finns inte, så entiteten kunde inte skapas. Skapa den överordnade annonsgruppen på en ny rad. |
 |  | [!UICONTROL Cannot modify Tracking Template at Keyword / Creative / Site Link level until Account has been migrated to use Upgraded URLs. Please retry after migration] | The &quot;[!UICONTROL Tracking Template]fältet &quot; är endast för konton som använder slutliga/avancerade URL:er. Ta bort värdet tills du har migrerat kontot för att använda slutliga/avancerade URL:er. |
-| Annons | [!UICONTROL Cannot modify attributes other than status code and url for <ad type>] | (Andra annonstyper än text, utökad text, produkt, appinstallation och dynamisk sökning) Du kan bara redigera status och URL för den här annonstypen. |
+| Annons | [!UICONTROL Cannot modify attributes other than status code and url for &lt;ad type>] | (Andra annonstyper än text, utökad text, produkt, appinstallation och dynamisk sökning) Du kan bara redigera status och URL för den här annonstypen. |
 |  | [!UICONTROL The number of creatives under an AdGroup should not exceed 50] | Varje annonsgrupp kan innehålla upp till 50 annonser, och det här kalkylbladet innehåller mer än 50 annonser. Minska antalet annonser. |
 |  | [!UICONTROL Cannot modify an ad which is either deleted/expired or under an deleted/expired campaign] | Annonsen finns i en överordnad enhet som har gått ut eller tagits bort, så du kan inte redigera den. |
 | Nyckelord | [!UICONTROL Cannot modify a keyword/website/product which is under deleted Adgroup or Campaign] | Den överordnade kampanjen eller annonsgruppen tas bort eller har gått ut, så du kan inte ändra entiteten. |
@@ -82,7 +82,7 @@ Följande fel inträffar i [!UICONTROL EF Errors] endast filer. De flesta bokfö
 |----|----|----|
 | Allmänt | [!UICONTROL Internal Error: Please Try Posting the bulksheet Again. If Problem Persists Contact Customer Care] | Åtgärden misslyckades helt. Kontakta ditt kontoteam på Adobe om problemet kvarstår. |
 | Alla enheter | [!UICONTROL Entity] har publicerats i annonsnätverket | Entiteten bokfördes i annonsnätverket, men synkroniserades inte samtidigt till Sök, Sociala och Commerce, så entitetsdata är inte direkt tillgängliga i Sök, Sociala och Commerce. Synkroniseringsprocessen aktiveras automatiskt nu.<br><br>När stora mängder data synkroniseras kanske data inte är tillgängliga i sökningar, sociala medier och handel på flera timmar eller mer. |
-| | [!UICONTROL Skipping <ENTITY> creation since <PARENT ENTITY> creation failed.] | Det gick inte att skapa den överordnade entiteten, så den underordnade entiteten skapades inte. |
+| | [!UICONTROL Skipping &lt;ENTITY> creation since &lt;PARENT ENTITY> creation failed.] | Det gick inte att skapa den överordnade entiteten, så den underordnade entiteten skapades inte. |
 
 >[!MORELIKETHIS]
 >
