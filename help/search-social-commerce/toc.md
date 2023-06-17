@@ -4,9 +4,9 @@ cloud: Experience Cloud
 solution: Advertising
 product: advertising cloud
 archetype: end-user
-user-guide-title: Advertising Search, Social, & Commerce Guide
+user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här guiden förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om era sök-, sociala och e-handelskampanjer.
-breadcrumb-title: Advertising Search, Social, & Commerce Guide
+breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
 source-git-commit: d28103d6788a1b0ee08663a5cc0393c373171860
 workflow-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Advertising Search, Social, &amp; Commerce Guide {#search-social-commerce}
+# Användarhandbok om Advertising Search, Social och Commerce {#search-social-commerce}
 
 <!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
