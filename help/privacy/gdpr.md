@@ -1,18 +1,18 @@
 ---
-title: Stöd för annonsering i Adobe enligt den allmänna dataskyddsförordningen
+title: Stöd till Adobe Advertising för den allmänna dataskyddsförordningen
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält
 feature: GDPR
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
-# Stöd för annonsering i Adobe enligt den allmänna dataskyddsförordningen
+# Stöd till Adobe Advertising för den allmänna dataskyddsförordningen
 
-*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP. Adobe Advertising Creative; och Adobe Advertising DCO*
+*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce];
 
 Mer information om vad GDPR innebär för ditt företag finns i [GDPR och er verksamhet](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Dataförfrågningstyper som stöds för Adobe-annonsering
+## Dataförfrågningstyper som stöds för Adobe Advertising
 
 Adobe Experience Platform ger företag möjlighet att utföra följande uppgifter:
 
@@ -34,7 +34,7 @@ Adobe Experience Platform ger företag möjlighet att utföra följande uppgifte
 * Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för registrerade i en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för registrerade som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
-## Nödvändig inställning för att skicka begäranden för Adobe-annonsering
+## Nödvändig inställning för att skicka begäranden för Adobe Advertising
 
 Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste du:
 
@@ -42,7 +42,7 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
 
    >[!IMPORTANT]
    >
-   >Begäranden till vissa Adobe Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men förfrågningar till Adobe Advertising kräver det.
+   >Begäranden till vissa Adobe Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men begäranden till Adobe Advertising kräver det.
 
    Du bör distribuera biblioteket på den webbsida från vilken de registrerade kan skicka in begäran om åtkomst och borttagning, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka dessa identiteter som en del av begäran om åtkomst och borttagning via Adobe Experience Platform Privacy Service API.
 
@@ -58,9 +58,9 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
 
    >[!IMPORTANT]
    >
-   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla era Adobe-annonskonton finns - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
+   >Kontakta Adobe Advertising och bekräfta att alla era Adobe Advertising-konton är korrekta - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
-1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (vid ad hoc-begäran) att skicka in begäran om åtkomst och radering till Adobe för de registrerade samt att kontrollera status för befintliga förfrågningar.
+1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (vid ad hoc-begäran) att skicka in begäran om åtkomst och radering till Adobe Advertising för de registrerade samt att kontrollera status för befintliga ansökningar.
 
    För annonsörer som har en mobilapp för att interagera med registrerade personer och starta kampanjer med DSP måste du ladda ned de sekretessfärdiga SDK:erna för Experience Cloud. Med Mobile SDK:er kan personuppgiftsansvariga ange statusflaggor för avanmälan, hämta den registrerade personens enhets-ID (namnområdes-ID: deviceID) och skicka begäranden till Privacy Services-API. Din mobilapp kräver SDK version 4.15.0 eller senare.
 
@@ -69,11 +69,12 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
    När du skickar en begäran om borttagning av en registrerad tas cookie-ID:t eller enhets-ID:t och alla kostnads-, klicknings- och intäktsdata som är kopplade till cookien bort från servern.
 
    >[!NOTE]
+   >
    Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
-Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [www.adobe.io/apis/cloudplatform/gdpr.html](https://www.adobe.io/apis/experienceplatform/gdpr.html).
+Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [Integritet och GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
 
-## Obligatoriska fältvärden i JSON-begäranden om Adobe-annonsering
+## Obligatoriska fältvärden i JSON-begäranden i Adobe Advertising
 
 &quot;&quot;företagskontext&quot;:
 
@@ -96,7 +97,7 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"regulation": **gdpr**` (som är den sekretessregel som gäller för begäran)
 
-## Exempel på begäran som skickats av den registrerade med ett användar-ID för Adobe-annonsering som hämtats från `AdobePrivacy.js`
+## Exempel på begäran som skickats av den registrerade med ett användar-ID i Adobe Advertising som hämtats från `AdobePrivacy.js`
 
 ```
 {
