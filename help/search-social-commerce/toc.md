@@ -5,13 +5,13 @@ solution: Advertising
 product: advertising cloud
 archetype: end-user
 user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
-user-guide-description: Den här guiden förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om era sök-, sociala och e-handelskampanjer.
+user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
 source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
