@@ -1,9 +1,10 @@
 ---
 title: Visa rekommendationsloggen för en [!DNL Google Ads] konto
 description: Lär dig hur du visar en logg över varje rekommendation som har tillämpats på en [!DNL Google Ads] konto.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---
@@ -23,6 +24,6 @@ Avvisade rekommendationer är inte tillgängliga från annonsnätverket.
 >[!MORELIKETHIS]
 >
 >* [Om utgivarens rekommendationer och insikter](recommendation-support.md)
+>* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
 >* [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](google-recommendation-apply-dismiss.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](recommendation-best-practices.md)
-

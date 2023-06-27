@@ -1,14 +1,17 @@
 ---
 title: Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer
 description: Lär dig de bästa sätten att använda [!DNL Google Ads] rekommendationer med era Search-, Social- och Commerce-portfolior.
-source-git-commit: 0c2b4648b3f0d6d7e4ed60f03a3a9bce56e9cdd7
+exl-id: 8362a0e1-9a0d-4287-a1dd-b7ec77985744
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer
+
+<!-- If we don't come up with similar ones for MS, then rename this file "... Google Ads ..." -->
 
 ## [!DNL Google Ads] rekommendationer
 
@@ -25,6 +28,6 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Om utgivarens rekommendationer och insikter](recommendation-support.md)
->* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)
+>* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
 >* [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](google-recommendation-apply-dismiss.md)
-
+>* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)

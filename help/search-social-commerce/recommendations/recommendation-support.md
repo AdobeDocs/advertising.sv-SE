@@ -1,32 +1,47 @@
 ---
 title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Om utgivarens rekommendationer och insikter
 
-[!DNL Google Ads] rekommendationer är förslag från [!DNL Google Ads] för att förbättra kampanjernas prestanda och effektivitet. Varje rekommendation innehåller anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
+*[!DNL Google Ads]och [!DNL Microsoft® Advertising] konton*
+
+*Betafunktion för [!DNL Microsoft® Advertising] konton*
+
+[!DNL Google Ads] rekommendationer och [!DNL Microsoft® Advertising] resultatinsikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
+
+* Varje [!DNL Google Ads] rekommendationer ger anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
+
+* Varje [!DNL Microsoft® Advertising] resultatinsikter meddelar dig om betydande fluktuationer i ett chefskonto, annonsörkonto eller kampanj, identifierar möjliga orsaker och föreslår åtgärder för att optimera prestandan.
+
+## The [!UICONTROL Recommendations & Publisher Insights] visa
 
 Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]kan du:
 
-* Se i korthet alla rekommendationer som inte har följts under en [!DNL Google Ads]<!-- or [Microsoft Advertising]--> konto. Informationen för varje rekommendation innehåller rekommendationsdetaljer, rekommendationstyp och -kategori, faktiska mått och mätvärden som [!DNL Google Ads] förutsäger om rekommendationen tillämpas och vilka enheter som påverkas om rekommendationen tillämpas. Förutsagda ökningar av mätvärden markeras med grönt. Du kan visa de rekommenderade åtgärderna för alla rekommendationer. Du kan också filtrera listan efter rekommendationskategori och typ.
+* Se i korthet alla rekommendationer som inte har följts under en [!DNL Google Ads] konto eller alla resultatinsikter som genererats under de senaste 30 dagarna för en [Microsoft® Advertising] konto. Informationen för varje inlägg omfattar rekommendationer/insikter och berörda enheter. För [!DNL Google Ads] konton markeras förväntade ökningar av mätvärden i grönt.
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
   Informationen är tillgänglig i realtid när du öppnar vyn. Om du vill uppdatera data klickar du på ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") längst ned till vänster på sidan.
 
-* Använd och avvisa rekommendationer för ett konto.
+* För [!DNL Google Ads] konton:
 
-* Visa loggar för varje rekommendation som har begärts för ett konto, inklusive berörda enheter, som har tillämpat rekommendationen och tidsstämpeln.
+   * Visa rekommendationsinformation och direkt tillämpa eller avvisa en rekommendation.
+
+   * Visa en logg över alla rekommendationer som har tillämpats för kontot, inklusive de berörda enheterna som har tillämpat rekommendationen och tidsstämpeln.
+
+* För [Microsoft® Advertising] konton, öppna [!DNL Microsoft® Advertising] som du kan agera utifrån en viss insikt i.
 
 >[!NOTE]
 >
->Rekommendationer hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer.
+>Annonsnätverksrekommendationer och resultatinsikter hjälper er att förbättra kampanjresultaten, men vissa kanske inte anpassar sig efter era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du implementerar några rekommendationer eller insikter.
 
 ## Rekommendationstyper som stöds för [!DNL Google Ads]
 
@@ -60,6 +75,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 >[!MORELIKETHIS]
 >
->* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)
+>* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
 >* [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](google-recommendation-apply-dismiss.md)
+>* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](recommendation-best-practices.md)

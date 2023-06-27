@@ -1,23 +1,19 @@
 ---
-type: Documentation
-cloud: Experience Cloud
-solution: Advertising
-product: advertising cloud
-archetype: end-user
+role: User
 user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 8d4bf0b53c8ddbc11111879c7e73adf3995e0ad8
+source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1724'
 ht-degree: 2%
 
 ---
 
 # Användarhandbok om Advertising Search, Social och Commerce {#search-social-commerce}
 
-<!-- When we use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
+<!-- When we  use UICONTROL and DNL tags in a title here, make sure they're within the entry but don't cover the entire link text or else the link won't work (i.e., you can't use [[!UICONTROL Model Accuracy Report]](whatever.md)-->
 
 + [Nyheter](home.md)
 + [Om den här guiden](help-about.md)
@@ -88,7 +84,7 @@ ht-degree: 2%
       + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Konverteringsspårning för annonsering i Adobe {#advertising-conversion-tracking}
+      + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}
          + [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -372,8 +368,9 @@ ht-degree: 2%
    + [Visa rapporten för ändringshistorik](/help/search-social-commerce/reports/change-history-view.md)
    + Recommendations och förlag {#recommendations}
       + [Om utgivarens rekommendationer och insikter](/help/search-social-commerce/recommendations/recommendation-support.md)
-      + [Visa rekommendationsloggen för en [!DNL Google Ads] konto](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
+      + [Visa utgivarens rekommendationer och prestandainsikter](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
+      + [Visa rekommendationsloggen för en [!DNL Google Ads] konto](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
       + [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + verktyg {#tools}
    + [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)

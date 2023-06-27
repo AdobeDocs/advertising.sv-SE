@@ -1,9 +1,10 @@
 ---
 title: Tillämpa eller avvisa en [!DNL Google Ads] rekommendation
 description: Lär dig hur du visar en [!DNL Google Ads] rekommendationer och hur rekommendationen ska tillämpas eller avvisas.
-source-git-commit: 7bb2e247c0d6436c369474dacba323a085dd2ebb
+exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
+source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -30,13 +31,13 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 
    * Om du vill tillämpa en rekommendation klickar du på **[!UICONTROL Apply]**.
 
-      Det kan ta från millisekunder till några sekunder att tillämpa en rekommendation, beroende på rekommendationens storlek.
+     Det kan ta från millisekunder till några sekunder att tillämpa en rekommendation, beroende på rekommendationens storlek.
 
    * Klicka på **[!UICONTROL Dismiss]**.
 
 >[!MORELIKETHIS]
 >
 >* [Om utgivarens rekommendationer och insikter](recommendation-support.md)
+>* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
 >* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](recommendation-best-practices.md)
-
