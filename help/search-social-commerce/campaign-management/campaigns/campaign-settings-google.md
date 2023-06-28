@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Google Ads] kampanjinställningar"
+title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+source-git-commit: a71ea7b20cf1c72a2acfd7c743311c513e4239fc
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Visar annonser i söknätverket, som innehåller [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser. Du måste ange nyckelord för varje annonsgrupp.
 
-* *[!UICONTROL Search with Display Select]:* Visar annonser i söknätverket (som inkluderar [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser) och eventuellt annonser på webbplatser i visningsnätverk. På visningsnätverket [!DNL Google Ads] visar era annonser selektivt med automatiserade budgivning, oavsett kampanjens anbudsstrategi. För sökannonser måste du ange nyckelord för varje annonsgrupp; för displayannonser måste du ange placeringar och om du vill kan du ange nyckelord för varje annonsgrupp.
+* *[!UICONTROL Search with Display Select]:* Visar annonser i söknätverket (som inkluderar [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser) och eventuellt annonser på webbplatser i visningsnätverk. På visningsnätverket [!DNL Google Ads] visar era annonser selektivt med automatiserade budgivning, oavsett kampanjens anbudsstrategi. För sökannonser anger du nyckelord för varje annonsgrupp. för displayannonser, ange placeringar och eventuellt ange nyckelord för varje annonsgrupp.
 
 * *[!UICONTROL Shopping Network]:* Visar produktannonser, som [!DNL Google] genererar automatiskt baserat på dina produkter i [!DNL Google Merchant Center] på [!DNL Google Shopping], området intill [!DNL Google] sökresultat (separerade från textannonser) och (valfritt) sökpartnerwebbplatser. För varje annonsgrupp i kampanjen kan du ange vilka produktgrupper som ska annonseras.
 
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Performance Max]:* (Betafunktion) Visar och optimerar konverteringar för era annonser i alla kanaler med [!DNL Google Ads] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria videor och målgruppssignaler. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
 
-   **Anteckningar:**
+  **Anteckningar:**
 
    * Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL Google Ads] redigerare.
 
@@ -76,25 +77,25 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
    * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Det är samma sak som att använda[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Maximize Clicks]:* (sök-, displays- och shoppingkampanjer) Annonsnätverket - inte sök-, social- och handelskampanjer - optimerar anbud för att maximera antalet klick. Om du vill kan du ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning:** När ni lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
+* *[!UICONTROL Maximize Clicks]:* (sök-, displays- och shoppingkampanjer) Annonsnätverket - inte Sök, Social och Commerce - optimerar offerterna för att maximera antalet klick. Om du vill kan du ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning:** När ni lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Sökning, maximalt resultat och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social, &amp; Commerce - optimerar anbud för att maximera konverteringsvärdet. Du kan även ange en **[!UICONTROL Target Return on Ad Spend]** (ROAS) i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
+* *[!UICONTROL Maximize Conversion Value]:* (Sökning, maximalt resultat och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social, &amp; Commerce - optimerar offerterna för att maximera konverteringsvärdet. Du kan även ange en **[!UICONTROL Target Return on Ad Spend]** (ROAS) i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
 
-* *[!UICONTROL Maximize Conversions]:* (max antal sök-, displayannonserings- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud för att maximera konverteringarna. Du kan även ange en **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
+* *[!UICONTROL Maximize Conversions]:* (max antal sök-, displayannonserings- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringarna. Du kan även ange en **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
 
 * *[!UICONTROL Target CPA]:* (Visningskampanjer. befintliga sökkampanjer) Annonsnätverket - inte sökning, sociala medier och handel - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), vilket är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
 
-   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
+  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
-   För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversions] strategi med [!UICONTROL Target CPA] värde. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversions] strategi som använder den angivna [!UICONTROL Target CPA] värde.
+  För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversions] strategi med [!UICONTROL Target CPA] värde. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversions] strategi som använder den angivna [!UICONTROL Target CPA] värde.
 
-* *[!UICONTROL Target Impression Share]:* (Sökkampanjer) Reklamnätverket - inte Sök, Social och Commerce - optimerar offerterna för att uppnå målvärde för visningsdelning och annonsposition. Om du vill kan du ange **[!UICONTROL Target Impression Share]** som en procentandel, **[!UICONTROL Target Ad Position]** och en **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i portföljer.
+* *[!UICONTROL Target Impression Share]:* (Sökkampanjer) Annonsnätverket - inte Sök, Social och Commerce - optimerar offerterna för att uppnå en målvisningsresurs och en annonsposition. Om du vill kan du ange **[!UICONTROL Target Impression Share]** som en procentandel, **[!UICONTROL Target Ad Position]** och en **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i portföljer.
 
 * *[!UICONTROL Target Return on Ad Spend]:*  (Displaykampanjer och shoppingkampanjer; befintliga sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på en angiven **[!UICONTROL Target ROAS]** (avkastning på annonsutgift), angett i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
 
-   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
+  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
-   För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversion Value] strategi med [!UICONTROL Target Return on Ad Spend value]. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversion Value] strategi som använder den angivna [!UICONTROL Target Return on Ad Spend] värde.
+  För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversion Value] strategi med [!UICONTROL Target Return on Ad Spend value]. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversion Value] strategi som använder den angivna [!UICONTROL Target Return on Ad Spend] värde.
 
 * *[!UICONTROL Viewable CPM]:* (Befintlig, skrivskyddad) [!DNL Gmail] endast kampanjer) Annonsnätverket - inte Search, Social och Commerce - erbjuder endast annonser som kan visas. **Obs!** Optimering för den här strategin stöds inte i någon typ av portfölj.
 
@@ -141,12 +142,12 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
       * Klicka på platsnamnet om du vill expandera en plats till dess underkomponenter (t.ex. delstater, storstadsområden eller städer i USA).
 
       * Om du vill söka efter en plats anger eller klistrar du in minst de tre första tecknen på platsen i indatafältet. Klicka på **[!UICONTROL Include]** bredvid en plats att ta med eller **[!UICONTROL Exclude]** bredvid en plats som ska uteslutas.
+
    * (Platser nära en adress; endast inkluderade mål) Klicka på **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Address]**. Ange adressen och radien i engelska mil eller kilometer runt den adress du vill ange som mål och klicka sedan på **[!UICONTROL Add]**.
 
    * (Platser nära geografiska koordinater. endast inkluderade mål) Klicka på **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Coordinate]**. Ange latitud och longitud samt radien i engelska mil eller kilometer runt den plats du vill rikta, och klicka sedan på **[!UICONTROL Add]**.
 
    * (Platser nära [!DNL My Business] Platser som är tillgängliga som platstillägg. endast inkluderade mål) Klicka på **[!UICONTROL Location Group Target]** (![Platsgrupp](/help/search-social-commerce/assets/location-group.png "Platsgrupp")). eventuellt anlända till ett land, en stat, en storstadsregion eller en stad för att föra ned listan över tillgängliga platser, och välj sedan en eller flera platser i listan med [!DNL Google My Business] platser. Ange radien i engelska mil eller kilometer runt de platser du vill rikta och klicka sedan på **[!UICONTROL Add]**.
-
 
 * (Så här lägger du till en anbudsjustering för en inkluderad målplats) Ange ett värde för anbudsjustering:
 
@@ -254,27 +255,41 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 **[!UICONTROL Images]:** Upp till femton bilder för annonsen, inklusive följande storlekar: 1) minst tre fyrkantiga bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Så här överför du bilder:
 
-1. För varje bild:
+1. Klicka **[!UICONTROL +]** och välj bilder från din enhet eller ditt nätverk.
 
-   1. Klicka **[!UICONTROL +]** och välj en bild från din enhet eller ditt nätverk.
+1. För varje bild:
 
    1. Välj proportioner.
 
-   1. Dra och placera beskärningsrutan efter behov för att markera den synliga delen av bilden och klicka sedan på **[!UICONTROL Proceed]**.
+   1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
+
+   1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
+
+      En resurs skapas för varje vald proportion.
+
+   1. Klicka på **[!UICONTROL Proceed]**.
 
 1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
 
 **[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en liggande (4:1) logotyp. Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Så här överför du bilder:
 
+1. Klicka **[!UICONTROL +]** och välj bilder från din enhet eller ditt nätverk.
+
 1. För varje bild:
 
-   1. Klicka **[!UICONTROL +]** och välj en bild från din enhet eller ditt nätverk.
+   1. Välj proportioner.
 
-   1. Dra och placera beskärningsrutan efter behov för att markera den synliga delen av bilden och klicka sedan på **[!UICONTROL Proceed]**.
+   1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
+
+   1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
+
+      En resurs skapas för varje vald proportion.
+
+   1. Klicka på **[!UICONTROL Proceed]**.
 
 1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
 
-**[!UICONTROL Videos]:** (Valfritt) URL:en för minst en och upp till fem, [!DNL YouTube] videoklipp som är längre än 10 sekunder.
+**[!UICONTROL Videos]:** (Valfritt) URL:en för minst en och upp till fem, [!DNL YouTube] videoklipp som är minst 10 sekunder långa.
 
 **[!UICONTROL Headlines]:** Minst tre och upp till fem korta rubriker med högst 30 tecken vardera. Minst en rubrik får innehålla högst 15 tecken. Om alternativet på kampanjnivå för att aktivera den slutliga URL-utökningen anges i [!DNL Google Ads]sedan [!DNL Google Ads] ersätter det här värdet med en anpassad rubrik baserad på landningssidans innehåll.
 
@@ -286,9 +301,8 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken.
 
-**[!UICONTROL Add new asset group]:** Gör att du kan ange ytterligare en resursgrupp.
+**[!UICONTROL Add new asset group]:** Gör att du kan ange en annan resursgrupp.
 
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
