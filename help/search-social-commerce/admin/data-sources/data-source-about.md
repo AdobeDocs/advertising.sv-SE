@@ -1,7 +1,9 @@
 ---
 title: Synkronisering [!DNL Google Analytics] konverteringsmått
 description: Läs om synkronisering [!DNL Google Analytics] konverteringsstatistik för optimering och rapportering.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -24,7 +26,7 @@ I följande steg beskrivs processen för synkronisering av konverteringsdata fr�
 
    * Implementera en Adobe Advertising-token (`ef_id` frågesträngsparameter) på landningssidans URL:er för alla tillämpliga annonskonton.
 
-   * Fånga reklamtoken för Adobe (`ef_id` frågesträngsparameter) i en [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Fånga token för Adobe Advertising (`ef_id` frågesträngsparameter) i en [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Byråkontoadministratör, kontoansvarig för myndighet, [!DNL Adobe] kontohanteraren och endast administratörsanvändare) [Skapa en datakälla per [!DNL Google Analytics] kombination av konto, egenskap och vy](data-source-configure.md).
 
@@ -41,4 +43,3 @@ I följande steg beskrivs processen för synkronisering av konverteringsdata fr�
 >* [Återautentisera en [!DNL Google Analytics] datakälla](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] inställningar för datakälla](data-source-settings.md)
 >* [Bilaga - tillgänglig [!DNL Google Analytics] mått](data-source-ga-metrics.md)
-

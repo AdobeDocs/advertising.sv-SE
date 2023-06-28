@@ -1,8 +1,9 @@
 ---
 title: Hantera aviseringsprenumerationer
 description: Lär dig hur du hanterar automatiska e-postaviseringar.
+role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -67,7 +68,7 @@ ht-degree: 0%
 
 * Om du vill lägga till prenumerant i en prenumeration anger du e-postadresserna i inmatningsfältet under **[!UICONTROL Subscribers]**.
 
-   Avgränsa flera adresser med blanksteg.
+  Avgränsa flera adresser med blanksteg.
 
 * Om du vill ta bort en prenumeration klickar du på **[!UICONTROL X]** bredvid e-postadressen under **[!UICONTROL Subscribers]**.
 

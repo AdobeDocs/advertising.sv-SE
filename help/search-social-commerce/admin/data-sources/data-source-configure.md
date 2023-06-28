@@ -1,7 +1,9 @@
 ---
 title: Konfigurera en [!DNL Google Analytics] visa som en datakälla
 description: Lär dig konfigurera en datakälla från en [!DNL Google Analytics] vy.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -36,15 +38,16 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
          >[!TIP]
          >
-         >Se till att bara [!DNL Google Analytics] egenskaper och vyer är tillgängliga i Adobe Advertising, log in using an email address that has access only those properties and views.
+         >Se till att bara [!DNL Google Analytics] Egenskaper och vyer är tillgängliga i Adobe Advertising. Logga in med en e-postadress som bara har åtkomst till dessa egenskaper och vyer.
 
          >[!NOTE]
          >
          >Om du senare ändrar lösenordet för det här e-postkontot stängs alla öppna anslutningar till e-postkontot. Om du vill återuppta synkroniseringen av data går du tillbaka till den här sidan och [reauthenticate](data-source-reauthenticate.md).
 
-      1. Markera kryssrutan för att godkänna Adobe-annonsering för att få åtkomst till kontots statistik.
+      1. Markera kryssrutan om du vill att Adobe Advertising ska få åtkomst till kontots statistik.
 
       1. Klicka på **[!UICONTROL Authenticate]**.
+
    1. I [!UICONTROL Account Details] anger du egenskapen och vyn för måtten som ska importeras. Ange dessutom den anpassade dimensionen som är ifylld med värdet för frågesträngsparametern&quot;ef_id&quot;.
 
    1. I [!UICONTROL Import Metrics] anger du de mätvärden som ska ingå i feeden/fotona.
@@ -56,7 +59,6 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
       >[!DNL Google Analytics] tillåter upp till 10 mätvärden i ett enda dataflöde. Search, Social, &amp; Commerce har stöd för upp till två feeds med totalt 20 mätvärden, men med en andra feed fördubblas API-anropen till [!DNL Google Analytics]. Om du har många mätvärden väljer du bara de mätvärden som du vill använda i optimeringsmål. Läs mer om [kvoter och anropsbegränsningar för API-begäranden till [!DNL Google Analytics]](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
    1. I [!UICONTROL Metric Tag] anger du namnet på taggen som ska läggas till i varje mått för datakällan.
-
 
 1. Klicka på uppe till höger **[!UICONTROL Post]**.
 
@@ -75,4 +77,3 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 >* [Återautentisera en [!DNL Google Analytics] datakälla](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] inställningar för datakälla](data-source-settings.md)
 >* [Bilaga - tillgänglig [!DNL Google Analytics] mått](data-source-ga-metrics.md)
-

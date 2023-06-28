@@ -1,8 +1,9 @@
 ---
 title: Om blockerade webbplatser på kontonivå och annonsnivå
 description: Läs mer om listan över blockerade webbplatser för ett konto eller en annonsörer.
+role: User, Admin
 exl-id: e147159b-54f2-492b-8dbc-054b97897fa6
-source-git-commit: bd667a01a0579c1523dc975bffd3560ac2a056db
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -23,10 +24,8 @@ Annonsnivålistor åsidosätter kontonivålistor.
 >* Användarna kan också lägga till riktade webbplatser på alla platser.
 >* Listor med blockerade webbplatser åsidosätter alltid målwebbplatslistor. Om en placering båda utesluter och innehåller samma mål för en annons, utesluts målet.
 
-
 >[!MORELIKETHIS]
 >
 >* [Redigera en blockerad webbplatslista på kontonivå eller annonsnivå](/help/dsp/admin/blocked-sites-list-edit.md)
 >* [Varumärkessäkerhet och mediakvalitet](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-

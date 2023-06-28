@@ -1,7 +1,9 @@
 ---
 title: Tillgänglig [!DNL Google Analytics] mått
 description: Referera till [!DNL Google Analytics] Tillgängliga mätvärden för datakällor.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+role: User, Admin
+exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -42,4 +44,3 @@ Följande mått, förutom de undantag som anges, är tillgängliga när de aktiv
 >* [Pausa synkroniseringen av en datakälla](data-source-pause.md)
 >* [Återautentisera en [!DNL Google Analytics] datakälla](data-source-reauthenticate.md)
 >* [[!DNL Google Analytics] inställningar för datakälla](data-source-settings.md)
-
