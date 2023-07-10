@@ -1,7 +1,7 @@
 ---
 title: '''[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om de olika typerna av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
-source-git-commit: f5788c483564e34129b1703638a07497b527fb11
+source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -80,4 +80,4 @@ I Sök, Socialt, &amp; Commerce använder du alternativet view eller report för
 >
 >* [Översikt över att implementera annonsnätverkskonton och -kampanjer](campaign-implemention-overview.md)
 >* [Övervaka och hantera resultatet för era annonsnätverkskampanjer](monitor-performance-campaigns.md)
->* [Visa transaktionsegenskaper som spårats för en annonsörer](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.html?lang=en)
+>* [Visa transaktionsegenskaper som spårats för en annonsörer](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
