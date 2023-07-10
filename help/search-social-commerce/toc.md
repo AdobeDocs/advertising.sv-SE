@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 24cc190c2e2ae5ad63f7b79a54c47e6904a1f0ad
+source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 2%
       + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}
+      + Konverteringsspårning för annonsering i Adobe {#advertising-conversion-tracking}
          + [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
@@ -106,7 +106,8 @@ ht-degree: 2%
       + [Om kampanjhantering i Sök, Social och Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Översikt över att implementera annonsnätverkskonton och -kampanjer](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Övervaka och hantera resultatet för era annonsnätverkskampanjer](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [Google Ads-konverteringsdata i Search, Social och Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Konfigurera konton {#campaign-management-accounts}
       + Annonsnätverkskonton {#ad-network-accounts}
          + [Om och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
