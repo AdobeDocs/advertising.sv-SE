@@ -4,10 +4,10 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: b1b1f67068dcd38f3e10d6e71db9827622f74da6
+source-git-commit: e9818b49ab4bd473ba7b17663c9dd1436915f667
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 2%
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format för spårningstaggar för bildkonvertering](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [JavaScript-konverteringskoden Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Konverteringstaggen för JavaScript-konvertering i Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Vanliga frågor om konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Konverteringsspårning för Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Advertiser spårade konverteringar med hjälp av flöden{#conversion-feeds}
@@ -254,6 +254,9 @@ ht-degree: 2%
       + [Analysera rapporter för att förfina nyckelord och kampanjinställningar](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Skriv gällande text och text](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
       + [Optimera webbplatsens landningssidor](/help/search-social-commerce/campaign-management/best-practices/best-practices-optimize.md)
+   + Hantera annonsresurser {#assets}
+      + [Om [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
+      + [Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
    + [Maximalt antal objekt per annonsnätverkskonto](/help/search-social-commerce/campaign-management/max-objects-per-ad-network.md)
    + [Frågor och svar om kampanjhantering](/help/search-social-commerce/campaign-management/faqs-campaigns.md)
 + Insikter och rapporter {#insights-reports}

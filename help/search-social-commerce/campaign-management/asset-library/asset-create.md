@@ -1,9 +1,9 @@
 ---
 title: Skapa och överföra resurser
 description: Lär dig hur du skapar återanvändbara bild-, video- och textresurser och överför dem till [!DNL Google Ads] resursbibliotek på kontonivå.
-source-git-commit: 5051ca80724a6ea55bc270b9454a2276a72deea0
+source-git-commit: 6cb13fe9917daf6437af7df30ec7164120732faa
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,14 @@ ht-degree: 0%
 
       Du kan publicera upp till 10 video-URL:er åt gången.
 
-      * Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och ange en annan textsträng.&lt;!- vilket reklamelement - rubrik, kort beskrivning, lång beskrivning? Det finns ingen plats att välja element på. —>
+      * Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och ange en annan textsträng.
 
       Varje textresurs kan innehålla högst 1 000 tecken. Du kan överföra högst 10 textresurser åt gången.
 
+      Du kan sedan använda textresurserna för valfria annonselement (till exempel rubrik eller kort beskrivning), förutsatt att de uppfyller teckengränserna för det annonselementet.
+
 1. Klicka på **[!UICONTROL Post]**.
+
+>[!MORELIKETHIS]
+>
+>*[Om [!UICONTROL Asset Library]](asset-library-about.md)
