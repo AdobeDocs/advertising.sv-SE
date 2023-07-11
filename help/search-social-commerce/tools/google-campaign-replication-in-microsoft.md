@@ -1,9 +1,10 @@
 ---
 title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]
 description: Lär dig hur du exporterar synkroniserade kampanjer i en [!DNL Google Ads] konto direkt i en synkroniserad [!DNL Microsoft® Advertising] konto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Du kan replikera följande typer av kampanjer och deras kampanjstruktur:
 
 * [!DNL Google Display Network] kampanjer, inklusive annonser, i [!DNL Microsoft® Advertising] målgruppskampanjer i Microsoft® Audience Network.
 
-   Om du vill upprepa shoppingbaserade displaykampanjer måste du först upprepa [!DNL Google Merchant Center] erbjuder [!DNL Microsoft® Merchant Center]. När du replikerar kampanjerna väljer du [!DNL Microsoft® Merchant Center] lagra i Importalternativen för att länka butiken till era feedbaserade målgruppskampanjer.
+  Om du vill upprepa shoppingbaserade displaykampanjer måste du först upprepa [!DNL Google Merchant Center] erbjuder [!DNL Microsoft® Merchant Center]. När du replikerar kampanjerna väljer du [!DNL Microsoft® Merchant Center] lagra i Importalternativen för att länka butiken till era feedbaserade målgruppskampanjer.
 
 * [!DNL Google Ads] max-kampanjer, inklusive lokala annonser, i [!DNL Microsoft® Advertising] smarta shoppingkampanjer.
 
@@ -58,7 +59,7 @@ Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.micro
 
 1. (Valfritt) Lägg till sökning, social- och handelsspårning i [konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), eller [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) inställningar.
 
-## Redigera information för ett kampanjimportjobb
+## Redigera schemainställningar för ett kampanjimportjobb
 
 Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
@@ -66,15 +67,7 @@ Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.micro
 
 1. Markera kryssrutan bredvid importjobbet och klicka sedan på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
 
-1. Redigera [importinställningar](#campaign-import-settings).
-
-   1. I **[!UICONTROL Select accounts]** väljer du käll- och målkonton och det autentiserings-ID som [!DNL Microsoft® Advertising] kräver.
-
-   1. I **[!UICONTROL Select campaigns & ad groups]** anger du de kampanjer och annonser som ska importeras.
-
-   1. I **[!UICONTROL Customize your import]** anger du de objekttyper som ska importeras.
-
-   1. I **[!UICONTROL Set schedule]** anger du när importjobbet ska köras.
+1. I **[!UICONTROL Set schedule]** -avsnittet, ange [schemainställningar](#campaign-import-settings).
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -86,7 +79,7 @@ Du kan visa alla importjobb, inklusive källan [!DNL Google Ads] konto, målet [
 
    * På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
-      Som standard öppnas vyn i [!UICONTROL List of Import Jobs] -fliken.
+     Som standard öppnas vyn i [!UICONTROL List of Import Jobs] -fliken.
 
    * Från [[!UICONTROL Import Logs] tab](#campaign-import-log)klickar du på **[!UICONTROL List of Import Jobs]** -fliken.
 
