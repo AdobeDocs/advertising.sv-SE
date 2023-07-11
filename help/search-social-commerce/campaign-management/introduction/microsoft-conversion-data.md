@@ -1,9 +1,9 @@
 ---
 title: '''[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om de olika typerna av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
-source-git-commit: f48706edc1ab25f7c2396159d420bc2cfa849bbb
+source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,7 @@ Två transaktionsegenskaper för varje [[!DNL Microsoft Advertising]-spårad kon
 
 Data är tillgängliga baserat på klicktiden och baserat på konverterings-/transaktionstiden från det datum då funktionen aktiverades för kontot.
 
-<!-- verify below/ if equivalent
-
-[!DNL Microsoft Advertising] records each conversion by [bid unit](/help/search-social-commerce/glossary.md#a-b), device, and click date (not conversion date). Attribution is based on the default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising attribution isn't factored in because click event-level data isn't available.
--->
+[!DNL Microsoft Advertising] registrerar varje konvertering med [budenhet](/help/search-social-commerce/glossary.md#a-b), enhet och klicka på datumet (inte konverteringsdatumet). Attribution is based on default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising-attribuering beaktas inte eftersom klickdata inte är tillgängliga.
 
 >[!NOTE]
 >
