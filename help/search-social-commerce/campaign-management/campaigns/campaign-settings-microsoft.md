@@ -1,9 +1,10 @@
 ---
-title: "[!DNL Microsoft Advertising] kampanjinställningar"
+title: '''[!DNL Microsoft Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
-source-git-commit: 0706f4dbc5f2a27e7d0cf43a6865d242865f9d36
+exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
+source-git-commit: f2889bbafc1b3cd3c467d94abae2ad1a52d0eaed
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -176,6 +177,12 @@ Mer information om tillgänglighet finns i Microsoft Advertising Help to &quot;[
 <!-- **[!UICONTROL Append Parameters]:** -->
 
 {{$include /help/_includes/append-parameters.md}}
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Om *[!UICONTROL Use account conversion goals for this campaign]* (standard) eller *[!UICONTROL Use campaign specific conversion goals]*. Om du väljer att ange konverteringsmål för kampanjen väljer du målen i listan med alla tillgängliga mål. **Obs!** Mål synkroniseras dagligen, så mål som skapats under de senaste 24 timmarna kanske inte visas. Så här uppdaterar du listan: [manuellt synkronisera annonsens nätverksdata](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Om kampanjen ingår i en portfölj ska du använda samma konverteringsmål som portföljens mål. Olika konverteringsmål kan påverka portföljens prestanda.
 
 >[!MORELIKETHIS]
 >
