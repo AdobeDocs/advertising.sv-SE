@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: d8ec24ab05d16ea5f120b3263a8c426d76732cf8
+source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1719'
 ht-degree: 2%
 
 ---
@@ -122,19 +122,19 @@ ht-degree: 2%
          + Kampanjer {#campaigns}
             + [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
             + Kampanjinställningar per annonsnätverk {#campaign-settings-by-network}
-               + [Inställningar för Baidu-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
-               + [Kampanjinställningar för Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
-               + [Inställningar för Microsoft Advertising-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
-               + [Yahoo! Inställningar för japanska annonskampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
-               + [Inställningar för Yandex-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
+               + [[!DNL Baidu] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
+               + [[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+               + [[!DNL Microsoft Advertising] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
+               + [[!DNL Yandex] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
          + Annonsgrupper {#ad-groups}
             + [Hantera annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
             + Lägg till gruppinställningar efter annonsnätverk {#ad-group-settings-by-network}
-               + [Inställningar för Baidu-annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
-               + [Google Ads och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
-               + [Inställningar för annonser i Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
-               + [Yahoo! Inställningar för annonser i Japan](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
-               + [Yandex och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+               + [[!DNL Baidu] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+               + [[!DNL Google Ads] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+               + [[!DNL Microsoft Advertising] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+               + [[!DNL Yahoo! Japan Ads] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+               + [[!DNL Yandex] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
          + Nyckelord {#keywords}
             + [Om nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-about.md)
             + [Hantera anbudsnyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)

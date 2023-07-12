@@ -2,9 +2,9 @@
 title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]
 description: Lär dig hur du exporterar synkroniserade kampanjer i en [!DNL Google Ads] konto direkt i en synkroniserad [!DNL Microsoft® Advertising] konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 0da256d0e3d98751dfaaf69adf5fed72662f5d22
+source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -35,19 +35,19 @@ All kampanjinformation replikeras inte och du kan behöva lägga till viss infor
 
 Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Hämta ett ID för importautentiseringsuppgifter från [!DNL Microsoft® Advertising] för att representera [!DNL Google Ads] autentiseringsuppgifter.
-
-   Automatisk generering av [!DNL Microsoft® Advertising] autentiseringsuppgifter för import är inte tillgängliga på grund av [!DNL Microsoft® Advertising] API-begränsningar. Kontakta Adobe tekniska support eller ditt kontoteam på Adobe, så genererar de autentiseringsuppgifterna och ger dig ID:t.
-
-   Du måste ha ett ID för att konfigurera importjobbet.
-
 1. På huvudmenyn Sök, Socialt, &amp; Commerce klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Klicka på **[!UICONTROL +Import]**.
 
 1. Ange [importinställningar](#campaign-import-settings):
 
-   1. I **[!UICONTROL Select accounts]** väljer du käll- och målkonton och det autentiserings-ID som [!DNL Microsoft® Advertising] kräver.
+   1. I **[!UICONTROL Select accounts]** avsnitt:
+
+      1. Välj käll- och destinationskonton.
+
+      1. Klicka på **[!UICONTROL Get Credential Id from MSA]**.
+
+      1. Logga in på målet [!DNL Microsoft Advertising] -konto, kopiera det inloggnings-ID som visas och klistra in värdet i **[!UICONTROL Credential ID]** fält.
 
    1. I **[!UICONTROL Select campaigns & ad groups]** anger du de kampanjer och annonser som ska importeras.
 
