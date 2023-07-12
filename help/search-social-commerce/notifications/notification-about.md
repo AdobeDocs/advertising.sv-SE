@@ -2,7 +2,7 @@
 title: Om meddelanden
 description: Lär dig mer om meddelanden, inklusive olika typer och kategorier.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: 7882e024ff11c20a5c2bf47fdc039345636da245
+source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -49,26 +49,25 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 
    * **[!UICONTROL Manager Account Missing]**: Meddelanden om att autentiseringsuppgifterna för en sökning, sociala medier och handel saknas [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md), som används för att ställa in kritiska funktioner korrekt.
 
-<!--
-* [!UICONTROL Setup Errors]
-
-  * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+  <!--
+  * [!UICONTROL Setup Errors]
   
-  * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect s_kwcid template; or it's overridden at a lower level by an incorrect value.
+    
+    * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are for the correct setup of critical functions.
+  -->
 
--->
+   * [!UICONTROL Network Errors]
 
-* [!UICONTROL Network Errors]
+      * **[!UICONTROL Manager Account Auth Error]**: Meddelanden om att det inte gick att synkronisera med en [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
 
-   * **[!UICONTROL Manager Account Auth Error]**: Meddelanden om att det inte gick att synkronisera med en [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
+      * **[!UICONTROL Account Auth Error]**: Meddelanden om att det inte gick att komma åt en [annonsnätverkskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
 
-   * **[!UICONTROL Account Auth Error]**: Meddelanden om att det inte gick att komma åt en [annonsnätverkskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) på grund av ogiltiga autentiseringsuppgifter eller en ogiltig eller utgången autentiseringstoken.
+   * [!UICONTROL Data Upload]
 
-* [!UICONTROL Data Upload]
+      * **[!UICONTROL Direct File Upload]**: Används för en sluten betaversion
 
-   * **[!UICONTROL Direct File Upload]**: Används för en sluten betaversion
-
-   * **[!UICONTROL File Upload to Cloud Storage]**: Används för en sluten betaversion
+      * **[!UICONTROL File Upload to Cloud Storage]**: Används för en sluten betaversion
 
 <!--
 * [!UICONTROL Optimization]
