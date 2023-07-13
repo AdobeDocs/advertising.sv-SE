@@ -2,8 +2,9 @@
 title: Stöd till Adobe Advertising för den allmänna dataskyddsförordningen
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält
 feature: GDPR
+role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 071d0ae725c21aaea19072725ae99ca77ef1a410
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -34,7 +35,7 @@ Adobe Experience Platform ger företag möjlighet att utföra följande uppgifte
 * Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för registrerade i en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för registrerade som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
-## Nödvändig inställning för att skicka begäranden för Adobe Advertising
+## Nödvändig inställning för att skicka begäranden för Adobe-annonsering
 
 Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste du:
 
@@ -97,34 +98,34 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"regulation": **gdpr**` (som är den sekretessregel som gäller för begäran)
 
-## Exempel på begäran som skickats av den registrerade med ett användar-ID i Adobe Advertising som hämtats från `AdobePrivacy.js`
+## Exempel på begäran som skickats av den registrerade med ett användar-ID för Adobe-annonsering som hämtats från `AdobePrivacy.js`
 
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"gdpr"
+      "adCloud"
+   ],
+    "regulation":"gdpr"
 }
 }
 ```

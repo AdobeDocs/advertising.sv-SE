@@ -1,9 +1,10 @@
 ---
-title: 'Adobe Advertising support for the California Consumer Privacy Act : Konsumentsupport'
+title: 'Stöd från Adobe Advertising för Kaliforniens konsumentintegritetslag: Konsumentsupport'
 description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning.
 feature: CCPA
+role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -22,15 +23,15 @@ California Consumer Privacy Act (CCPA) är Kaliforniens nya integritetslag, som 
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Advertising stöd till ert företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av marknadsföringsprodukter och -tjänster från Adobe, inklusive hantering av konsumentförfrågningar om tillgång till och radering av personuppgifter och hantering av konsumentförfrågningar om att avanmäla försäljning av personuppgifter.
+Som tjänsteleverantör ger Adobe Advertising stöd till ert företag så att det kan uppfylla de skyldigheter enligt CCPA som gäller för användning av Adobe Advertising produkter och tjänster, inklusive hantering av konsumentförfrågningar om tillgång till och radering av personuppgifter och hantering av konsumentförfrågningar om att avanmäla försäljning av personuppgifter.
 
-I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur du kan förmedla begäran om att avanmäla dig från försäljning till Adobe Advertising och hur du hämtar rapporter om din organisations begäran om att avanmäla dig från försäljning.
+I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur du kan förmedla begäran om avanmälan till Adobe Advertising och hur du hämtar rapporter om din organisations begäran om avanmälan från försäljning.
 
-Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Reklamkreatörer; och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md).
+Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative, och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Kommunicera konsumentförfrågningar om avanmälan vid försäljning till Adobe
+## Kommunicera förfrågningar om avanmälan från försäljning till Adobe Advertising
 
 Du kan förmedla önskemål om avanmälan från försäljning till konsumenter genom att antingen:
 
@@ -54,7 +55,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 
    >[!IMPORTANT]
    >
-   >Begäranden till vissa Adobe Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men förfrågningar till Adobe Advertising kräver det.
+   >Begäranden till vissa Adobe Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men begäranden till Adobe Advertising kräver det.
 
    Du bör distribuera biblioteket på webbsidan där dina kunder kan skicka in begäranden om att avanmäla dig, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om att avanmäla dig via Adobe Experience Platform Privacy Service API.
 
@@ -71,13 +72,14 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
    Se bilagan nedan för ett exempel på en begäran om avanmälan från försäljning.
 
    >[!NOTE]
+   >
    Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
 Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Hämtar rapporter om konsumenter som har lämnat in begäran om avanmälan vid försäljning
 
-Adobe Advertising genererar månatliga rapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segment för avanmälan från försäljning som skapats i DSP och alla inskickade data via Privacy Services-API. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
+Adobe Advertising skapar månadsrapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segment för avanmälan från försäljning som skapats i DSP och alla inskickade data via Privacy Services-API. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
 
 Du kan hämta länkar till de månadsrapporter som har skapats under de senaste tre månaderna, antingen från DSP eller genom att använda DSP Advertising [!DNL Trafficking API]. Varje länk gäller i sju dagar, men uppdateras varje gång en kund försöker hämta en länk.
 
@@ -132,4 +134,4 @@ curl -X POST \
 där:
 
 * `"namespace": "AdCloud"` anger `AdCloud` cookie space, och motsvarande värde är kundens cookie-ID som hämtats från `AdobePrivacy.js`
-* `"include": ["AdCloud"]` anger att begäran gäller Adobe-reklam
+* `"include": ["AdCloud"]` anger att begäran gäller Adobe Advertising

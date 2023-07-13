@@ -2,8 +2,9 @@
 title: 'Adobe Advertising support for the California Consumer Privacy Act : Stöd för åtkomst och borttagning av konsumentdata'
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält.
 feature: CCPA
+role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata
 
-*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP. Adobe Advertising Creative; och Adobe Advertising DCO*
+*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -22,15 +23,15 @@ California Consumer Privacy Act (CCPA) är Kaliforniens nya integritetslag, som 
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Advertising stöd till ert företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av marknadsföringsprodukter och -tjänster från Adobe, inklusive hantering av förfrågningar om åtkomst och radering av personuppgifter och hantering av förfrågningar om att avanmäla försäljning av personuppgifter.
+Som tjänsteleverantör tillhandahåller Adobe Advertising stöd till ert företag för att uppfylla de skyldigheter enligt CCPA som är tillämpliga på användningen av produkter och tjänster från Adobe Advertising, inklusive hantering av förfrågningar om tillgång till och radering av personuppgifter och hantering av ansökningar om att avanmäla försäljning av personuppgifter.
 
-Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce]; Reklamkreatörer; Reklam DSP (Demand Side Platform). och [!DNL Advertising DCO] - som tjänsteleverantörer - stödja konsumenternas rätt att få tillgång till och radera personuppgifter via Adobe [!DNL Experience Platform Privacy Service API] och [!DNL Privacy Service UI].
+Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative, Reklam DSP (Demand Side Platform). och [!DNL Advertising DCO] - som tjänsteleverantörer - stödja konsumenternas rätt att få tillgång till och radera personuppgifter via Adobe [!DNL Experience Platform Privacy Service API] och [!DNL Privacy Service UI].
 
 Information om hur Advertising DSP stöder konsumentens rätt att avanmäla sig från försäljning av personuppgifter finns i [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Dataförfrågningstyper som stöds för Adobe-annonsering
+## Dataförfrågningstyper som stöds för Adobe Advertising
 
 Adobe Experience Platform ger företag möjlighet att utföra följande uppgifter:
 
@@ -38,15 +39,15 @@ Adobe Experience Platform ger företag möjlighet att utföra följande uppgifte
 * Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för konsumenter som använder en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för konsumenter som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
-## Nödvändig inställning för att skicka begäranden för Adobe-annonsering
+## Nödvändig inställning för att skicka begäranden för Adobe Advertising
 
-Om du vill begära åtkomst till och ta bort konsumentpersonuppgifter från Adobe Advertising måste du:
+Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe Advertising måste du:
 
 1. Distribuera ett JavaScript-bibliotek för att hämta och ta bort kundens cookies. Samma bibliotek, `AdobePrivacy.js`, används för alla Adobe Experience Cloud-lösningar.
 
    >[!IMPORTANT]
    >
-   >Begäranden till vissa Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men förfrågningar till Adobe Advertising kräver det.
+   >Begäranden till vissa Experience Cloud-lösningar kräver inte JavaScript-biblioteket, men begäranden till Adobe Advertising kräver det.
 
    Du bör distribuera biblioteket på den webbsida från vilken dina kunder kan skicka in begäran om åtkomst och borttagning, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka in dessa identiteter som en del av begäran om åtkomst och borttagning via [!DNL Adobe Experience Platform Privacy Service API].
 
@@ -54,7 +55,7 @@ Om du vill begära åtkomst till och ta bort konsumentpersonuppgifter från Adob
 
    >[!NOTE]
    >
-   >Att ta bort personuppgifter skiljer sig från att avanmäla sig, vilket förhindrar målgruppsanpassningen för en slutanvändare med målgruppssegment. När en konsument begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en förfrågan till Adobe om att avanmäla kunden från att målinrikta segment. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du ger dina kunder en länk till [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
+   >Att ta bort personuppgifter skiljer sig från att avanmäla sig, vilket förhindrar målgruppsanpassningen för en slutanvändare med målgruppssegment. När en konsument begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en begäran till Adobe Advertising om att avanmäla kunden från att målinrikta segment. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du ger dina kunder en länk till [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
 
 1. Identifiera ditt organisations-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
 
@@ -62,9 +63,9 @@ Om du vill begära åtkomst till och ta bort konsumentpersonuppgifter från Adob
 
    >[!IMPORTANT]
    >
-   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla era Adobe-annonskonton finns - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
+   >Kontakta Adobe Advertising och bekräfta att alla era Adobe Advertising-konton är korrekta - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
-1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för ad hoc-begäran) att lämna in en begäran om tillgång till och radering av personuppgifter till Adobe Advertising för konsumenternas räkning samt att kontrollera status för befintliga förfrågningar.
+1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för tillfälliga framställningar) att lämna in ansökningar om tillgång till och radering av personuppgifter till Adobe Advertising för konsumenternas räkning samt att kontrollera status för befintliga ansökningar.
 
    För annonsörer som har en mobilapp att interagera med kunderna och lansera kampanjer med [!DNL DSP]behöver du ladda ned sekretessfärdiga SDK:er för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Services-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
 
@@ -73,11 +74,12 @@ Om du vill begära åtkomst till och ta bort konsumentpersonuppgifter från Adob
    När du skickar en begäran om att ta bort en kund tas cookie-ID:t eller enhets-ID:t och alla kostnads-, klicknings- och intäktsdata som är kopplade till cookien bort från servern.
 
    >[!NOTE]
+   >
    Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
 Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
-## Obligatoriska fältvärden i JSON-begäranden om Adobe-annonsering
+## Obligatoriska fältvärden i JSON-begäranden i Adobe Advertising
 
 `"company context":`
 
@@ -100,7 +102,7 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 
 * `"regulation": **ccpa**` (som är den sekretessregel som gäller för begäran)
 
-## Exempel på begäran som har skickats av en konsument med ett användar-ID för annonsering i Adobe som har hämtats från AdobePrivacy.js
+## Exempel på begäran som har skickats av en konsument med ett användar-ID i Adobe Advertising som har hämtats från AdobePrivacy.js
 
 ```
 {
@@ -134,7 +136,7 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 
 ## Datafält som returneras för åtkomstbegäranden
 
-Nedan följer ett exempel på ett svar på personlig informationsåtkomst för Adobe Advertising.
+Nedan följer ett exempel på ett svar om personlig informationsåtkomst för Adobe Advertising.
 
 ```
 {
