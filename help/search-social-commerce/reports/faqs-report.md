@@ -1,14 +1,15 @@
 ---
-title: Frågor och svar om rapporter
+title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
-source-git-commit: 3f2b483a4cae20295a2334321802f8abfe864bd8
+exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '3917'
+source-wordcount: '3919'
 ht-degree: 0%
 
 ---
 
-# Frågor och svar om rapporter
+# Vanliga frågor om anpassade rapporter
 
 ## Allmänna frågor
 
@@ -208,7 +209,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 +++
 
 +++Vissa avancerade rapporter innehåller inte konverteringsdata från en annonsörmatning.
-The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via tjänsten för spårning av konvertering till Adobe Advertising och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
+The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via Adobe Advertising Converting Tracking Service och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
 +++
 
 +++Intäktsdata skiljer sig från annonsörens egna intäktsdata.
@@ -312,7 +313,7 @@ Annonsnätverken tillhandahåller inte den identifierare som krävs för att til
 +++
 
 +++ I [!UICONTROL Transaction Report]Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
-I en transaktionsrapport kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln i Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spåra URL:er med spårningspixeln Adobe Advertising börjar med`http://pixel.everesttech.net`.&quot;
+I en transaktionsrapport kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln för Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spåra URL:er med spårningspixeln Adobe Advertising börjar med`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Data i [!UICONTROL Transaction Report] matchar inte data i [!UICONTROL Keyword Report].

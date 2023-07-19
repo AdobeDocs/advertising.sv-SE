@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 50c462fd58acd9cd36aace933ff56db43c2dbf48
+source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1720'
 ht-degree: 2%
 
 ---
@@ -349,7 +349,7 @@ ht-degree: 2%
             + [Feed-inställningar för kalkylbladsrapport](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
          + [FTP-åtkomst till rapporter](/help/search-social-commerce/reports/automation/ftp-reports.md)
       + [Hur attribueringsregler beräknas](/help/search-social-commerce/reports/attribution-rules.md)
-      + [Frågor och svar om rapporter](/help/search-social-commerce/reports/faqs-report.md)
+      + [Vanliga frågor om anpassade rapporter](/help/search-social-commerce/reports/faqs-report.md)
    + Meddelanden {#notifications}
       + [Om meddelanden](/help/search-social-commerce/notifications/notification-about.md)
       + [Visa dina meddelanden](/help/search-social-commerce/notifications/notification-view.md)
