@@ -2,9 +2,9 @@
 title: Frågor och svar om hushållsrapporter
 description: Läs mer om hushållens räckvidd, frekvens och konverteringsdata, inklusive hur hushållsrapporterna skiljer sig från andra rapporter och felsökning.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: e07038895e64a266f898619384c8b41024f71038
+source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
