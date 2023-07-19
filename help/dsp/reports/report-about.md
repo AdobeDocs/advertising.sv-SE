@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 858b00ec28158ada1edfc70a2efc3540fa46a376
+source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -36,30 +36,28 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Billing]:** Använd den här rapporten för att förstå viktiga faktureringsvärden som utgiftsmått för mediefakturering per kampanj.
 
-      >[!NOTE]
-      >
-      >Den här rapporten innehåller data om faktureringssegmentet. Om en användare eller enhet får ett intryck som tillhör flera segment, krediteras endast ett fakturerbart segment med intrycket.
+     >[!NOTE]
+     >
+     >Den här rapporten innehåller data om faktureringssegmentet. Om en användare eller enhet får ett intryck som tillhör flera segment, krediteras endast ett fakturerbart segment med intrycket.
 
-   * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med hjälp av konverteringsspårning i Adobe. Den här rapporten innehåller multitouch-attribuering.
+   * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med hjälp av Adobe Advertising-konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
 
    * **[!UICONTROL Device]:** Använd den här förifyllda mallen för att se nyckelvärden efter enhetsrelaterade dimensioner.
 
    * **[!UICONTROL Frequency (by Impression)]:** Använd den här rapporten för att förstå hur visningar som visas för unika tittare är fördelade (t.ex. hur många unika tittare som såg ett intryck, två visningar, tre exponeringar osv.). Data är tillgängliga via placering eller kampanj.
 
-      >[!NOTE]
-      >
-      >* Data är tillgängliga efter den 1 mars 2019.
-      >* Frekvensen beräknas utifrån ett urval data.
-      >* För en del lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning. Den här rapporten innehåller bara avtryck som det fanns en enhetsidentifierare för.
-
+     >[!NOTE]
+     >
+     >* Data är tillgängliga efter den 1 mars 2019.
+     >* Frekvensen beräknas utifrån ett urval data.
+     >* För en del lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning. Den här rapporten innehåller bara avtryck som det fanns en enhetsidentifierare för.
 
    * **[!UICONTROL Frequency (by App/Site)]:** Använd den här rapporten för att förstå hur många unika användare som nås via appar eller per webbplats. Du kan också se hur många unika användare som har nåtts via en viss app eller webbplats (&quot;distinkta unika användare&quot;).
 
-      >[!NOTE]
-      >
-      >* Data är tillgängliga efter 15 november 2018.
-      >* För vissa privata lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning.
-
+     >[!NOTE]
+     >
+     >* Data är tillgängliga efter 15 november 2018.
+     >* För vissa privata lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning.
 
    * **[!UICONTROL Geo]**: Använd den här förifyllda mallen för att se nyckeltal efter geografiska dimensioner.
 
@@ -67,15 +65,16 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Segment]:** Använd den här förifyllda mallen för att se nyckeltal efter segment.
 
-      >[!NOTE]
-      >
-      >* Den här rapporten ska visa hur olika målsegment fungerar. Den använder data om segmentmedlemskap. När ett intryck skickas till en person eller enhet som tillhör två eller flera målsegment innehåller rapporten en rad för varje segment. Av den anledningen kanske inte summorna i den här rapporten matchar den faktiska leveransen.
-      >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter 2 augusti 2019. Alla andra data för segment är tillgängliga från och med den 1 juni 2018.
-
+     >[!NOTE]
+     >
+     >* Den här rapporten ska visa hur olika målsegment fungerar. Den använder data om segmentmedlemskap. När ett intryck skickas till en person eller enhet som tillhör två eller flera målsegment innehåller rapporten en rad för varje segment. Av den anledningen kanske inte summorna i den här rapporten matchar den faktiska leveransen.
+     >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter 2 augusti 2019. Alla andra data för segment är tillgängliga från och med den 1 juni 2018.
 
    * **[!UICONTROL Site]:** Som standard innehåller standardvärden, totala mediekostnader och totala fakturerbara nettoutgifter per webbplats.
 
-   * **[!UICONTROL Household]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+   * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+
+* **[!UICONTROL Household Conversions]:** Använd den här rapporten för att se genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
 
 ## Kontorapportering {#cross-account-reporting}
 
@@ -93,4 +92,3 @@ Dina kontoinställningar på [!UICONTROL Settings] > [!UICONTROL Account] ange a
 >* [Om rapporter på plattformen](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-
