@@ -3,9 +3,9 @@ title: Översikt över [!DNL Analytics for Advertising]
 description: Översikt över [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: d4306553d4ad7379672be5bff1bc5cc6f74f70bf
+source-git-commit: 232b253877195b0e0a1d47b0b28e6ed25a8b07d4
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Fördelar:
 * Använd [!DNL Analytics] anpassade händelser och standardhändelser som konverteringssignaler för optimering av betalmediereklam.
 * Utnyttja [!DNL Analytics] Analysis Workspace för att bättre förstå webbplatsens startpunkter och besöksbeteenden.
 * Bättre samarbete mellan webbanalytiker och betalteam.
-* Använd permanenta Adobe Advertising-vy- och click-through-ID:n i [!DNL Analytics] för att förstå webbplatsengagemang.
+* Använd beständiga Adobe Advertising-vy- och klicknings-ID:n i [!DNL Analytics] för att förstå webbplatsengagemang.
 * Förbättra traditionella betalda medierapporter i Analysis Workspace med anpassade mätvärden, anpassade dimensioner och webbplatsaktivitet som inte är möjliga när du exporterar data eller pixlar till annonsservrar eller andra DSP.
 * Utnyttja [!DNL Analytics] finns redan på webbplatsen för att spåra och optimera Adobe Advertising.
 
@@ -40,7 +40,7 @@ Fördelar:
 
 [!DNL Analytics for Advertising] ger bättre rapporter och insikt i hur annonserna påverkar webbplatsens beteende genom att göra det möjligt för er att:
 
-* Använd beständiga Adobe Advertising-vy- och klicknings-ID:n i [!DNL Analytics] för att förstå webbplatsengagemang.
+* Använd permanenta Adobe Advertising-vy- och click-through-ID:n i [!DNL Analytics] för att förstå webbplatsengagemang.
 * Utnyttja Analysis Workspace för att bättre förstå webbplatsens startpunkter och besöksbeteenden. Ni har tillgång till dimensionella data och händelsedata för betalda media, som innehåller namn på kampanjentiteter i Adobe Advertising (inte bara för utplaceringar och annonser) och tillhörande värden, som klick, visningar och kostnader.
 
 Används [!DNL Analytics] som ert betalda medierapporteringsverktyg behöver din organisation logga in på Experience Cloud med tillgång till Analysis Workspace. Adobe Advertising-teamet kommer att hjälpa er att mappa data från Adobe Advertising till enskilda rapporteringsprogram i Analysis Workspace. Du kan skicka data från Adobe Advertising till alla rapportsviter, men du bör vara medveten om de rapportsviter som har mappats till Adobe Advertising och de som inte har det. Beroende på rapportsviten kan detta ändra rapporterade data.
@@ -51,9 +51,9 @@ Adobe Advertising-dimensioner läggs till med suffixet&quot;(AMO ID)&quot; (t.ex
 
 >[!NOTE]
 >
-> När du visar data från Adobe Advertising (eller en datauppsättning) i [!DNL Analytics]ska du vara medveten om att mätvärden och rapporter baseras på de regler som anges i [!DNL Analytics]. Informationen kan skilja sig från vad du ser i andra rapporteringssystem, t.ex. annonsserverrapporter, [!DNL DSP] rapporter eller sökmotorrapporter. För att förstå datamatchskillnader i [!DNL Analytics]behöver ni veta när eVar upphör, vad som definierar ett besök, vad som betraktas som sista beröringsattribuering jämfört med total bestående attribuering och andra faktorer. Mer information finns i [Förväntade datavariationer mellan [!DNL Analytics] och Adobe](data-variances.md).
+> När du visar data från Adobe Advertising (eller en datauppsättning) i [!DNL Analytics]ska du vara medveten om att mätvärden och rapporter baseras på de regler som anges i [!DNL Analytics]. Informationen kan skilja sig från vad du ser i andra rapporteringssystem, t.ex. annonsserverrapporter, [!DNL DSP] rapporter eller sökmotorrapporter. För att förstå datamatchskillnader i [!DNL Analytics]behöver ni veta när eVar upphör, vad som definierar ett besök, vad som betraktas som sista beröringsattribuering jämfört med total bestående attribuering och andra faktorer. Mer information finns i [Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising](data-variances.md).
 
-## Använda analyser för att driva Adobe Advertising-kampanjer och Portfolio
+## Använd Analytics för att driva annonskampanjer för Adobe och Portfolio
 
 Utan behov av ytterligare pixlar [!DNL Analytics for Advertising] ger bättre optimering och enklare målgruppssegmentering genom att skicka två huvudsignaler till Adobe Advertising:
 
@@ -78,7 +78,7 @@ Du kan använda standardhändelser och anpassade händelser från [!DNL Analytic
 
 Adobe Advertising-teamet hjälper dig att identifiera och kartlägga de händelser som gäller för betalmedieprestanda i Adobe Advertising, där de visas i [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
 
-Se &quot;[Analytics-statistik i Adobe Advertising](analytics-data-in-advertising.md)&quot; om du vill se en lista över tillgängliga mätvärden.
+Se &quot;[Analytics Metrics in Adobe Advertising](analytics-data-in-advertising.md)&quot; om du vill se en lista över tillgängliga mätvärden.
 
 ### Analyssegment för återmarknadsföring av webbplatser
 
@@ -100,7 +100,9 @@ Om du vill veta hur du kan använda dina Adobe Advertising-data för att skapa v
 
 *Annonsera endast DSP användare*
 
-Ni kan mäta fullkanalseffekten för era uppkopplade TV-kampanjer genom att länka annonsexponering på CTV-enheter till konverteringar på plats. Använd antingen placeringsvyn eller marknadsföringskanalvyn i Analysis Workspace för att visa dina CTV-konverteringsvärden.
+Ni kan mäta fullkanalseffekten för era uppkopplade TV-kampanjer genom att länka annonsexponering på CTV-enheter till konverteringar på plats. Den nya [!UICONTROL Landing Type] filter &quot;[!UICONTROL View-through (CTV)]&quot; delar upp konverteringar till separata rader för [!UICONTROL Click Through], [!UICONTROL View Through]och [!UICONTROL View Through (CTV)] värden.
+
+Använd antingen placeringsvyn eller marknadsföringskanalvyn i Analysis Workspace för att visa dina CTV-konverteringsvärden.
 
 Använda placeringsvyn:
 
@@ -126,7 +128,7 @@ Använda vyn Marknadsföringskanal:
 
    Landningssida: `View-Through (CTV)`
 
-### Skapa Adobe Advertising Dashboards
+### Skapa instrumentpaneler för Adobe Advertising
 
 Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa Adobe Advertising Dashboards med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).&quot;
 
@@ -140,6 +142,6 @@ Se videon &quot; om du vill se hur du kan skapa en rapport för webbplatsinlägg
 >* [Krav och viktig information för implementering [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising ID som används av Analytics](ids.md)
 >* [JavaScript Code for Analytics for Advertising](/help/integrations/analytics/javascript.md)
->* [Förväntade datavariationer mellan [!DNL Analytics] och Adobe](data-variances.md)
+>* [Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising](data-variances.md)
 >* [Adobe Advertising Metrics in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
->* [[!DNL Analytics] Data i Adobe-reklam](/help/integrations/analytics/analytics-data-in-advertising.md)
+>* [[!DNL Analytics] Data i Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
