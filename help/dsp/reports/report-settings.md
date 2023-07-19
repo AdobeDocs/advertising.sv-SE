@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
+source-git-commit: b41c1ab857d37d21cf593a8e566b18f2769d47c0
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,22 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Drag to Re-Order Report Headers Below]:** Ordningen på kolumnrubrikerna. Du kan dra och släppa en kolumn för att anpassa ordningen.
 
-## [!UICONTROL Multi-Touch Conversion Options] Avsnitt
-
 **[!UICONTROL Format]:** Om en rapport ska genereras i *[!UICONTROL CSV]* (kommaavgränsade värden) eller *[!UICONTROL Tab]* (tabbseparerade värden).
 
-**[!UICONTROL Report Headers]:** Om *[!UICONTROL Include]* eller *[!UICONTROL Do Not Include]* kolumnrubriker.
+**[!UICONTROL Headers]:** Om *[!UICONTROL Include]* eller *[!UICONTROL Do Not Include]* kolumnrubriker.
 
-**[!UICONTROL Attribution Rule Settings]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning för Adobe Advertising) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
+## [!UICONTROL Multi-Touch Conversion Options] Avsnitt
+
+
+### [!UICONTROL Attribution Rule Settings]
+
+**\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering i Adobe Advertising) I rapporten, hur man attribuerar konverteringsdata i en serie händelser som leder till en konvertering:
+
+* [!UICONTROL Unique]: (Standard) Räknar det antal gånger som ett dimensionsvärde (till exempel en enhet eller placering) befann sig på sökvägen till konverteringen.
+
+* [!UICONTROL Multi-Touch Attribution (MTA)]: Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
+
+**\[Regeltyp\]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning för Adobe Advertising) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
 
 >[!NOTE]
 >

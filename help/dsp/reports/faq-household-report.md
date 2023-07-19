@@ -2,9 +2,9 @@
 title: Frågor och svar om hushållsrapporter
 description: Läs mer om hushållens räckvidd, frekvens och konverteringsdata, inklusive hur hushållsrapporterna skiljer sig från andra rapporter och felsökning.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: ae6028d7dc9b35906e4abcd727b84b169e5594b1
+source-git-commit: bd925c41f7b949c56402edd4e2dc393f0c5bed57
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ När en placering innehåller flera taggar betraktas hela strängen som en tagg.
 
 Två typer av attribueringsmetoder stöds:
 
-* Unik: Räknar antalet gånger som ett dimensionsvärde (till exempel en enhet eller placering) var på vägen till konverteringen.
+* [!UICONTROL Unique]: Räknar antalet gånger som ett dimensionsvärde (till exempel en enhet eller placering) var på vägen till konverteringen.
 
-* MTA (Multi-Touch Attribution): Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
+* [!UICONTROL Multi-Touch Attribution (MTA)]: Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
 
 ### Hur skiljer sig rapporteringen om hushållskonvertering från rapporter om CTV-visning i Adobe Analytics?
 
