@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 430e9981aa77de2faa06ee55bf3a821474ed84db
+source-git-commit: d17d66c571dd810f98a870b3f8b10e9f8629af48
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 19 juli 2023 | Rapportering | (DSP användare med [!DNL Analytics for Advertising]) Den nya [!UICONTROL Household Conversions Report]innehåller bildkonverteringar för anslutna TV-apparater (CTV). Data finns också i Adobe Analytics. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md)&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot;<br><br>Se även avsnittet &quot;Exempel på hur du använder integreringen&quot; i &quot;[Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
+| 19 juli 2023 | Rapportering | (DSP användare med [!DNL Analytics for Advertising]) Den nya [!UICONTROL Household Conversions Report] innehåller bildkonverteringar för anslutna TV-apparater (CTV). Data finns också i Adobe Analytics. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md)&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot;<br><br>Se även avsnittet &quot;Exempel på hur du använder integreringen&quot; i &quot;[Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
 | 29 maj 2023 | [!UICONTROL Campaigns] | Nu kan ni pausa eller aktivera kampanjer, paket och annonser. Du kan redan pausa och aktivera placeringar. | Se &quot;[Pausa eller aktivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; och &quot;[Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 maj 2023 | [!UICONTROL Campaigns] | Universella videomaterial och annonser är nu allmänt tillgängliga. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; och &quot;[Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Mars 2023 | [!UICONTROL Reports] | En ny [!UICONTROL Household Report] visar intryck, räckvidd och frekvens i olika dimensioner på ett hushåll baserat på IP-adressen, i stället för på enhets-/cookienivå. Rapporten innehåller nio dimensioner: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]och har skapats av användaren [!UICONTROL Tags]. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md),&quot; &quot;[Rapportinställningar](/help/dsp/reports/report-settings.md),&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot; |
