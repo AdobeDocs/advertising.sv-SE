@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d17d66c571dd810f98a870b3f8b10e9f8629af48
+source-git-commit: d825772e74e8b3ab9eec747706801beca08aaa9c
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 19 juli 2023 | Rapportering | (DSP användare med [!DNL Analytics for Advertising]) Den nya [!UICONTROL Household Conversions Report] innehåller bildkonverteringar för anslutna TV-apparater (CTV). Data finns också i Adobe Analytics. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md)&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot;<br><br>Se även avsnittet &quot;Exempel på hur du använder integreringen&quot; i &quot;[Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
+| 19 juli 2023 | Rapportering | (DSP användare med [!DNL Analytics for Advertising]) Den nya [!UICONTROL Household Conversions Report] visar genomskinliga konverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md)&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 maj 2023 | [!UICONTROL Campaigns] | Nu kan ni pausa eller aktivera kampanjer, paket och annonser. Du kan redan pausa och aktivera placeringar. | Se &quot;[Pausa eller aktivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot; &quot;[Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; och &quot;[Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
 | 24 maj 2023 | [!UICONTROL Campaigns] | Universella videomaterial och annonser är nu allmänt tillgängliga. | Se &quot;[Frågor och svar om Universal Video](/help/dsp/campaign-management/faq-universal-video.md),&quot; &quot;[Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md),&quot; och &quot;[Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md).&quot; |
 | Mars 2023 | [!UICONTROL Reports] | En ny [!UICONTROL Household Report] visar intryck, räckvidd och frekvens i olika dimensioner på ett hushåll baserat på IP-adressen, i stället för på enhets-/cookienivå. Rapporten innehåller nio dimensioner: [!UICONTROL Campaign], [!UICONTROL Package], [!UICONTROL Placement], [!UICONTROL Site/Apps], [!UICONTROL Media Type], [!UICONTROL Device], [!UICONTROL Audience], [!UICONTROL Creative Length]och har skapats av användaren [!UICONTROL Tags]. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md),&quot; &quot;[Rapportinställningar](/help/dsp/reports/report-settings.md),&quot; och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot; |
@@ -52,7 +52,7 @@ Följande funktioner är nya eller nyligen ändrade.
 |  | [!UICONTROL Ads] | (Användare med behörighet att inkludera [!DNL Clearcast] klocknummer i annonserna) DSP visas inte längre något fel om du använder ett klocknummer som är kopplat till en annan annons. **Obs!**  Det bästa sättet är att använda ett unikt klocknummer för varje videoannons. Annars godkänner utgivaren inte alla annonser. | — |
 |  | [!UICONTROL Deal IDs] | The [!UICONTROL Deal ID] inställningar och andra platser i användargränssnittet återspeglar den nya varumärkningen för [!DNL Magnite] SSP:<br><ul><li>SSP &quot;[!DNL Tremor]&quot; ([!DNL Telaria]) är nu &quot;[!DNL Magnite CTV].&quot;</li><li>Under de kommande veckorna [!DNL Rubicon]&quot; ändras till &quot;[!DNL Magnite DV+],&quot; där [!DNL DV+] används för visning, video och andra format som ljud.</li></ul> | Se &quot;[SSP-partners](/help/dsp/inventory/ssp-partners.md).&quot; |
 |  | [!DNL Freewheel] garanterad programmatisk annonsering | Nu kan du skicka in annonser och kontrollera status för annonser för [!DNL Freewheel] garanterad programmatisk marknadsföring från [!UICONTROL Ads] vy. Tidigare kunde du bara göra båda från [!UICONTROL Deals] vy. | Se &quot;[Skicka in en annons för en programmatisk garanterad affär till [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)" and "[Check the Status of Ads for [!DNL Freewheel] Programmatiska garanterade erbjudanden](/help/dsp/inventory/freewheel-check-status.md).&quot; |
-| 7 oktober 2021 | Hjälp | Alla [DSP och annan dokumentation för Adobe Advertising](https://experienceleague.adobe.com/docs/advertising.html) på [!DNL Experience League] är nu maskinöversatt till alla tillgängliga språk. Om du vill ändra vilket språk som visas använder du menyn Ändra språk längst ned till vänster på en sida.<br>![Ändra språk](/help/dsp/assets/change-language.png) |
+| 7 oktober 2021 | Hjälp | Alla [DSP och annan dokumentation om annonsering i Adobe](https://experienceleague.adobe.com/docs/advertising.html) på [!DNL Experience League] är nu maskinöversatt till alla tillgängliga språk. Om du vill ändra vilket språk som visas använder du menyn Ändra språk längst ned till vänster på en sida.<br>![Ändra språk](/help/dsp/assets/change-language.png) |
 
 {style="table-layout:auto"}
 
