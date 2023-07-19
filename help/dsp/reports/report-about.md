@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: b3c45f6ae5adcf7cd41060e4e724dbb8021c8c1b
+source-git-commit: ab892528a2fbc0ed5994938ead23cd8e33e8b45f
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
 
-* **[!UICONTROL Household Conversions]:** Använd den här rapporten för att se genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+   * **[!UICONTROL Household Conversions]:** Använd den här rapporten för att se genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
 
 ## Kontorapportering {#cross-account-reporting}
 
