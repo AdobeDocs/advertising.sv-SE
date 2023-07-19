@@ -1,10 +1,10 @@
 ---
 title: Frågor och svar om hushållsrapporter
-description: Läs mer om rapportdata, inklusive hur [!UICONTROL Household] rapporter skiljer sig från andra rapporter och felsökning.
+description: Läs mer om hushållens räckvidd, frekvens och konverteringsdata, inklusive hur hushållsrapporterna skiljer sig från andra rapporter och felsökning.
 exl-id: aaaf6f6d-b133-4cda-8fc6-bd686b3b1ebb
-source-git-commit: 05f7d9c7a120828bda46d4f79796dfb419cca242
+source-git-commit: e07038895e64a266f898619384c8b41024f71038
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
