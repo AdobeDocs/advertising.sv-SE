@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 2e0240ff1b342d5a0564e01ebec3ee313b488b59
+source-git-commit: 3faf43573cb073be828b0740f68f0e7d0612a1ef
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 **[!UICONTROL Name]** Rapportnamnet. Maximala längden är 180 tecken.
 
-**[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, eller *[!UICONTROL Household]*.
+**[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*,  *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*,  *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]*, eller *[!UICONTROL Household Conversions]*.
 
 ## [!UICONTROL Apply Filters] Avsnitt
 
@@ -46,15 +46,15 @@ Så här använder du ett eller flera filter:
 
 * [!UICONTROL Dimensions]
 
-   >[!NOTE]
-   >
-   > The [!UICONTROL Household] -rapporten kan bara innehålla en dimension.
+  >[!NOTE]
+  >
+  > The [!UICONTROL Household Reach & Frequency] -rapporten kan bara innehålla en dimension.
 
 * [!UICONTROL Metrics]
 
-   >[!NOTE]
-   >
-   >The [!UICONTROL Household] kan innehålla antingen överlappningsvärden eller icke-överlappande värden, men inte båda.
+  >[!NOTE]
+  >
+  >The [!UICONTROL Household Reach & Frequency] kan innehålla antingen överlappningsvärden eller icke-överlappande värden, men inte båda.
 
 * [!UICONTROL Conversion Metrics] (sorterat efter annonsörer)
 
@@ -70,7 +70,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Report Headers]:** Om *[!UICONTROL Include]* eller *[!UICONTROL Do Not Include]* kolumnrubriker.
 
-**[!UICONTROL Attribution Rule Settings]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning i Adobe) I rapporten, hur man attribuerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
+**[!UICONTROL Attribution Rule Settings]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning för Adobe Advertising) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
 
 >[!NOTE]
 >
@@ -156,4 +156,3 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Om rapportdestinationer](/help/dsp/reports/report-destinations/report-destination-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
-
