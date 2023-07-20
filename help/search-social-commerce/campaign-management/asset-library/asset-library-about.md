@@ -1,9 +1,9 @@
 ---
 title: "Om [!UICONTROL Asset Library]"
 description: Läs mer om resursbiblioteket för era annonsresurser.
-source-git-commit: d6d2b85b3be95a6f1162f87e2beccbdd4337b1f2
+source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *För [!DNL Google Ads] endast konton*
 
-*Betafunktion*
+*Öppna betafunktion*
 
 I [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]kan du skapa återanvändbara bild-, video- och textresurser och överföra dem till [!DNL Google Ads] resursbibliotek på kontonivå.
 
