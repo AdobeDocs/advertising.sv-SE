@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: b0244cf2d56026493bc1902abebbdb660e07b1e2
+source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 30 juni 2023 | [!UICONTROL Asset Library] | (Open beta feature; [!DNL Google Ads] konton) i [!UICONTROL Campaigns] > [!UICONTROL Asset Library (Beta)]kan du skapa återanvändbara bild-, video- och textresurser och överföra dem till [!DNL Google Ads] resursbibliotek på kontonivå. Ni kan använda era resurser för annonser när ni skapar eller redigerar kampanjer i [!DNL Google Ads] redigerare. | Se &quot;[Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
+| 30 juni 2023 | [!UICONTROL Asset Library] | (Open beta feature; [!DNL Google Ads] konton) i [!UICONTROL Campaigns] > [!UICONTROL Asset Library]kan du skapa återanvändbara bild-, video- och textresurser och överföra dem till [!DNL Google Ads] resursbibliotek på kontonivå. Ni kan använda era resurser för annonser när ni skapar eller redigerar kampanjer i [!DNL Google Ads] redigerare. | Se &quot;[Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | | [!UICONTROL Google Import] | Nu kan du generera ett eget ID för import från [!DNL Microsoft® Advertising] när du konfigurerar ett kampanjimportjobb för [!DNL Google Ads]. Tidigare tillhandahöll Adobe teknisk support eller ditt kontoteam på Adobe ett ID. | Se &quot;[Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]](/help/search-social-commerce/tools/google-campaign-replication-in-microsoft.md).&quot; |
 | 27 juni 2023 | [!UICONTROL Campaigns] | (Betafunktion; [!DNL Microsoft® Advertising] konton) Du kan nu ange konverteringsmål på kampanjnivå i [!DNL Microsoft® Advertising] kampanjinställningar. Tidigare när du skapade en kampanj i Sök, Social och Commerce användes målen på kontonivå. | Se &quot;[[!DNL Microsoft® Advertising] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md).&quot; |
 | 10 juni 2023 | [!UICONTROL Recommendations and Publisher Insights] | (Open beta) [!UICONTROL Microsoft® Advertising] resultatinsikter och rekommendationer som föreslås under de senaste 30 dagarna finns i [!UICONTROL Optimization] > [!UICONTROL Recommendations and Publisher Insights].<br><br><b>Obs!</b> Rekommendationer hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer. | Se &quot;[Om utgivarens rekommendationer och insikter](/help/search-social-commerce/recommendations/recommendation-support.md).&quot; |
