@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73fb309063066e52e4d8c23f5ce9ebb84159b253
+source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -74,9 +74,9 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 * **\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering i Adobe Advertising) I rapporten, hur man attribuerar konverteringsdata i en serie händelser som leder till en konvertering:
 
-   * [!UICONTROL Unique]: (Standard) Räknar det antal gånger som ett dimensionsvärde (till exempel en enhet eller placering) befann sig på sökvägen till konverteringen.
+   * *[!UICONTROL Unique]:* (Standard) Räknar det antal gånger som ett dimensionsvärde (till exempel en enhet eller placering) befann sig på sökvägen till konverteringen.
 
-   * [!UICONTROL Multi-Touch Attribution (MTA)]: Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
+   * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
 
 * **\[Regeltyp\]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning för Adobe Advertising) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
 
@@ -102,9 +102,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-<!--
-* **Lookback:** ([!UICONTROL Household Conversion] reports with [!UICONTROL Conversion Metrics] or [!UICONTROL Custom Goals] columns; advertisers with Adobe Advertising conversion tracking only) Within the report, the number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
--->
+* **Lookback:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering mellan Adobe Advertising) I rapporten, det maximala antal dagar efter en intryckshändelse som en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]*, och det högsta antalet är 92 dagar.
 
 **[!UICONTROL Paths as Columns]:**  (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner) Vilka typer av konverteringar som ska rapporteras när tidigare händelser inträffar på samma enhet. Du kan inkludera upp till tre typer. För varje vald typ inkluderas en separat kolumn för varje konverteringsmått och den läggs till med det angivna suffixet ([!UICONTROL (tl)], [!UICONTROL (ct)], eller [!UICONTROL (vt)]):
 
