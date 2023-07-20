@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 781b0c8874d73d060bc7133bdd55d1ceffb63435
+source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 ## [!UICONTROL Multi-Touch Conversion Options] Avsnitt
 
-**[!UICONTROL Attribution Rule Settings]** Inställningarna varierar beroende på rapporttyp:
+**[!UICONTROL Attribution Rule Settings]:** Inställningarna varierar beroende på rapporttyp:
 
 * **\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering i Adobe Advertising) I rapporten, hur man attribuerar konverteringsdata i en serie händelser som leder till en konvertering:
 
