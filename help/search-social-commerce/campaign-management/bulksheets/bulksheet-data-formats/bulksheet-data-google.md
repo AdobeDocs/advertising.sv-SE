@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 25f9deef6302065a6576a07fcb880e81470886e5
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7839'
 ht-degree: 1%
 
 ---
@@ -143,8 +143,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | Fält | Obligatoriskt? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
-| [!UICONTROL Campaign Name] | Obligatoriskt | Det unika namn som identifierar en kampanj för ett konto. |
-| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| [!UICONTROL Campaign Name] | Obligatoriskt |
+| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Delivery Method] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Channel Type] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Networks] | Krävs för att skapa en kampanj. |
@@ -193,8 +193,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -218,8 +218,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -246,8 +246,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -271,8 +271,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -295,8 +295,8 @@ Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bul
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt | |
@@ -327,8 +327,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 >
 >Utökade textannonser togs bort i juni 2022. Du kan bara ta bort befintliga textannonser.
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -353,8 +353,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -373,8 +373,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -397,8 +397,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Krävs för sitelinks på annonsnivå. Gäller inte för sitelinks på kampanjnivå. |
@@ -418,8 +418,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Location] | Obligatoriskt |
@@ -433,8 +433,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Device] | Krävs för att skapa eller redigera ett enhetsmål. |
@@ -450,8 +450,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Bid Adjustment] | Valfritt |
