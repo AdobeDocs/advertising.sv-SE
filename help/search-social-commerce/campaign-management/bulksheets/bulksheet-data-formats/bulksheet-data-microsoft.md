@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '6744'
+source-wordcount: '6900'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabel
 
 I följande tabell beskrivs alla tillgängliga datafält.
 
-Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-microsoft).
+Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-microsoft).&quot;
 
 | Fält | Beskrivning |
 |----|----|
@@ -121,13 +121,13 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 
 Följande avsnitt innehåller fält som är relevanta för specifika kontoenheter.
 
-En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
-
 >[!NOTE]
 >
 >När ett fält inte kan användas för en åtgärd, ignoreras alla värden som anges i fältet.
 
 ### Kampanjfält
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? |
 | ---- | ---- |
@@ -155,6 +155,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 ### Annonsgruppsfält
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -176,6 +178,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Nyckelordsfält
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -206,6 +210,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -229,6 +235,8 @@ Mer information om hur du skapar shoppingannonser finns i &quot;[Implementera [!
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -250,6 +258,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 ### Responsiva (multimedia) och fält
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -274,6 +284,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 ### Reklamfält för responsiv sökning
 
 Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -305,6 +317,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 >
 >Utökade textannonser har tagits bort. Du kan bara ta bort befintliga textannonser.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -333,6 +347,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 >
 >Det går inte att skapa support.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -351,6 +367,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Fält för produktgrupp som köpts
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -374,6 +392,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 ### Webblänksfält på kampanjnivå
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -394,6 +414,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 ### Målfält för plats
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -406,6 +428,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data om du inte inkluderar kampanj-ID:t.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Målfält på kampanjnivå och annonsgruppsnivå
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -420,6 +444,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhetens mål-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Målfält för RLSA på kampanjnivå och annonsgruppsnivå
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |

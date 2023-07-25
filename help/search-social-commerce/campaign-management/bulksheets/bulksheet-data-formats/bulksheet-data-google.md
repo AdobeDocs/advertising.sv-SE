@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
+source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
 workflow-type: tm+mt
-source-wordcount: '7729'
+source-wordcount: '7884'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabel
 
 I följande tabell beskrivs alla tillgängliga datafält.
 
-Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-google).
+Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-google).&quot;
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 | [!UICONTROL Start Date] | <p>(Endast utökade sitelinks) Det första datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format: <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>, eller <span style="font-style: italic;"><i>m-d-yy</i></span>. Standardinställningen för nya utökade sitelinks är den aktuella dagen.</p><p><b>Obs!</b> Nya utökade sitelinks kan endast skapas i kampanjer med utökade sitelinks eller utan sitelinks.</p> |
 | [!UICONTROL End Date] | <p>(Endast utökade sitelinks) Det sista datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format:  <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>, eller <span style="font-style: italic;"><i>m-d-yy</i></span>. Standardvärdet är inget (inget slutdatum).</p><p><b>Obs!</b> Nya utökade sitelinks kan endast skapas i kampanjer med utökade sitelinks eller utan sitelinks.</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | (Endast befintliga appinstalleringsannonser)</p><p>(Valfritt) Förhindrar [!DNL Google Ads] från att visa annonsen för surfplatteanvändare. Värdena kan innehålla <i>ja</i> och <i>no</i>. |
-| [!UICONTROL Landing Page Suffix] | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klickningsspårningsformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare. |
+| [!UICONTROL Landing Page Suffix] | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klickningsspårningsformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter behövs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare. |
 | [!UICONTROL Tracking Template] | Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Search, Social, &amp; Commerce lägger automatiskt till sin egen omdirigerings- och spårningskod när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part. För en lista med [!DNL ValueTrack] parametrar för att ange slutliga URL:er i spårningsmallar, se parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2375447).<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | [!UICONTROL Base URL/Final URL] | Den URL till landningssidan som sökmotoranvändare tas till när de klickar på annonsen, inklusive eventuella tilläggsparametrar som konfigurerats för kampanjen eller kontot. Bas-/slutadresser på nyckelordsnivå åsidosätter de på annonsnivå och högre.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | [!UICONTROL Destination URL] | (Ingår i genererade kalkylblad för informationsändamål. inte publicerad i sökmotorn) För konton med mål-URL:er är detta den URL som länkar en annons till en bas-URL/landningssida på annonsörens webbplats (ibland via en annan webbplats som spårar klickningen och sedan dirigerar om användaren till landningssidan). Den innehåller eventuella tilläggsparametrar som har konfigurerats för kampanj eller konto för sökning, sociala medier och handel. Om du genererade spårnings-URL:er baseras detta på spårningsparametrarna i dina kontoinställningar och kampanjinställningar. Om du har lagt till sökmotorspecifika parametrar kan de ersättas med motsvarande parametrar för Sök, Socialt och Handel.<br><br>För konton med slutliga URL:er visar den här kolumnen samma värde som kolumnen Bas-URL/Slutlig URL. |
@@ -132,13 +132,13 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 
 Följande avsnitt innehåller fält som är relevanta för specifika kontoenheter.
 
-En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
-
 >[!NOTE]
 >
 >När ett fält inte kan användas för en åtgärd, ignoreras alla värden som anges i fältet.
 
 ### Kampanjfält
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? |
 | ---- | ---- |
@@ -169,6 +169,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 ### Annonsgruppsfält
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
+
 | Fält | Obligatoriskt? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -188,6 +190,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Nyckelordsfält
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -211,6 +215,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Placeringsfält
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -238,6 +244,8 @@ Den här annonstypen kallas nu&quot;dynamisk sökannons&quot; i [!DNL Google Ads
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -261,6 +269,8 @@ Mer information om hur du skapar shoppingannonser finns i &quot;[Implementera [!
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -282,6 +292,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 ### Reklamfält för responsiv sökning
 
 Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -308,6 +320,8 @@ Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bul
 ### Text och fält
 
 Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bulksheet] -dialogrutan.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >
@@ -337,6 +351,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 ### Dynamiska sökmålfält (automatiskt mål)
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -354,6 +370,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Fält för produktgrupp som köpts
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -377,6 +395,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 ### Sitelink-fält på kampanjnivå och annonsnivå
 
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
+
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
@@ -394,7 +414,9 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL Sitelink ID] | Krävs endast när du ändrar eller tar bort platslänken, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera platslänken eller b) en &quot;[!UICONTROL AMO ID].&quot; Om du inte inkluderar [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID]  och egenskapskolumnerna matchar flera sitelinks ändras bara statusen för en av sitelinks.<br><br><b>Obs!</b> Om du redigerar sitelink-egenskapskolumner förutom [!UICONTROL Status] för en befintlig sitelink, och du inkluderar inte [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID], skapas en ny sitelink och den befintliga sitellänken ändras inte. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
-### Målfält för plats
+### Platsmål
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -408,6 +430,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar [!UICONTROL Campaign ID].<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Målfält på kampanjnivå och annonsgruppsnivå
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
@@ -423,6 +447,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhetens mål-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Mål-/exkluderingsfält för RLSA på kampanjnivå och annonsnivå
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 | Fält | Obligatoriskt? | Beskrivning |
 | ---- | ---- | ---- |
