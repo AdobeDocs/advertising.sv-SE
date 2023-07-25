@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
 exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
-source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '7706'
+source-wordcount: '7729'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Varje blad måste innehålla rubrikfält och motsvarande datafält som krävs f�
 
 Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabeller som anger vilka fält som krävs för att lägga till, redigera eller ta bort data för enskilda enheter (till exempel kampanjer och nyckelord).
 
-## Alla tillgängliga datafält
+## Alla tillgängliga datafält {#bulksheet-fields-all-google}
 
-I följande tabell visas alla tillgängliga datafält.
+I följande tabell beskrivs alla tillgängliga datafält.
 
 Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-google).
 
@@ -85,7 +85,7 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 | [!UICONTROL Start Date] | <p>(Endast utökade sitelinks) Det första datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format: <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>, eller <span style="font-style: italic;"><i>m-d-yy</i></span>. Standardinställningen för nya utökade sitelinks är den aktuella dagen.</p><p><b>Obs!</b> Nya utökade sitelinks kan endast skapas i kampanjer med utökade sitelinks eller utan sitelinks.</p> |
 | [!UICONTROL End Date] | <p>(Endast utökade sitelinks) Det sista datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format:  <span style="font-style: italic;"><i>m/d/yyyy</i></span>, <span style="font-style: italic;"><i>m/d/yy</i></span>, <span style="font-style: italic;"><i>m-d-yyyy</i></span>, eller <span style="font-style: italic;"><i>m-d-yy</i></span>. Standardvärdet är inget (inget slutdatum).</p><p><b>Obs!</b> Nya utökade sitelinks kan endast skapas i kampanjer med utökade sitelinks eller utan sitelinks.</p> |
 | [!UICONTROL Exclude Tablet (Google Adwords)] | (Endast befintliga appinstalleringsannonser)</p><p>(Valfritt) Förhindrar [!DNL Google Ads] från att visa annonsen för surfplatteanvändare. Värdena kan innehålla <i>ja</i> och <i>no</i>. |
-| [!UICONTROL Landing Page Suffix] | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klickningsspårningsformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter behövs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare. |
+| [!UICONTROL Landing Page Suffix] | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klickningsspårningsformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md).&quot;<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads] redigerare. |
 | [!UICONTROL Tracking Template] | Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Search, Social, &amp; Commerce lägger automatiskt till sin egen omdirigerings- och spårningskod när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part. För en lista med [!DNL ValueTrack] parametrar för att ange slutliga URL:er i spårningsmallar, se parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2375447).<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | [!UICONTROL Base URL/Final URL] | Den URL till landningssidan som sökmotoranvändare tas till när de klickar på annonsen, inklusive eventuella tilläggsparametrar som konfigurerats för kampanjen eller kontot. Bas-/slutadresser på nyckelordsnivå åsidosätter de på annonsnivå och högre.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive hakparenteser). |
 | [!UICONTROL Destination URL] | (Ingår i genererade kalkylblad för informationsändamål. inte publicerad i sökmotorn) För konton med mål-URL:er är detta den URL som länkar en annons till en bas-URL/landningssida på annonsörens webbplats (ibland via en annan webbplats som spårar klickningen och sedan dirigerar om användaren till landningssidan). Den innehåller eventuella tilläggsparametrar som har konfigurerats för kampanj eller konto för sökning, sociala medier och handel. Om du genererade spårnings-URL:er baseras detta på spårningsparametrarna i dina kontoinställningar och kampanjinställningar. Om du har lagt till sökmotorspecifika parametrar kan de ersättas med motsvarande parametrar för Sök, Socialt och Handel.<br><br>För konton med slutliga URL:er visar den här kolumnen samma värde som kolumnen Bas-URL/Slutlig URL. |
@@ -129,6 +129,10 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
 ## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent {#bulksheet-fields-per-component-google}
+
+Följande avsnitt innehåller fält som är relevanta för specifika kontoenheter.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-google).&quot;
 
 >[!NOTE]
 >

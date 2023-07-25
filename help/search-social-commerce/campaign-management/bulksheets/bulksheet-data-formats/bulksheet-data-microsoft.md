@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
+source-git-commit: 16e7a310571000fc5b584eb67c832df1e12cea72
 workflow-type: tm+mt
-source-wordcount: '6721'
+source-wordcount: '6744'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ Varje blad måste innehålla rubrikfält och motsvarande datafält som krävs f�
 
 Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabeller som anger vilka fält som krävs för att lägga till, redigera eller ta bort data för enskilda enheter (till exempel kampanjer och nyckelord).
 
-## Alla tillgängliga datafält
+## Alla tillgängliga datafält {#bulksheet-fields-all-microsoft}
 
-I följande tabell visas alla tillgängliga datafält.
+I följande tabell beskrivs alla tillgängliga datafält.
 
 Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-microsoft).
 
@@ -118,6 +118,10 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
 ## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent {#bulksheet-fields-per-component-microsoft}
+
+Följande avsnitt innehåller fält som är relevanta för specifika kontoenheter.
+
+En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
 >[!NOTE]
 >
