@@ -2,9 +2,9 @@
 title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
-source-git-commit: 1f27e2616d706c56ef1e6a62cf081d83e6f807c1
+source-git-commit: 9cdfe415c9ec2d7e7b65d5a46d208329d66ca14a
 workflow-type: tm+mt
-source-wordcount: '6900'
+source-wordcount: '6888'
 ht-degree: 1%
 
 ---
@@ -181,8 +181,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -212,8 +212,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -237,8 +237,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -261,8 +261,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -287,8 +287,8 @@ Använd &quot;[!UICONTROL Responsive Search Ad]&quot; i [!UICONTROL Download Bul
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt | |
@@ -319,8 +319,8 @@ Använd &quot;[!UICONTROL Creative (except RSA)]&quot; i [!UICONTROL Download Bu
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -349,8 +349,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -370,8 +370,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
@@ -394,8 +394,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | Beskrivningsrad 1 | Valfritt |
@@ -416,8 +416,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Location] | Obligatoriskt |
@@ -431,8 +431,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Device] | Krävs för att ta bort ett enhetsmål. |
@@ -447,8 +447,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 
 En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#bulksheet-fields-all-microsoft).&quot;
 
-| Fält | Obligatoriskt? | Beskrivning |
-| ---- | ---- | ---- |
+| Fält | Obligatoriskt? |
+| ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller ett &quot;[!UICONTROL AMO ID]&quot; för enheten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Krävs för annonsnivåmål. Gäller inte för kampanjnivåmål. |
