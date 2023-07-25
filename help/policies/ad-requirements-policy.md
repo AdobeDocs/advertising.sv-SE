@@ -1,20 +1,20 @@
 ---
-title: Krav för annonsering på Adobe
+title: Krav för Adobe Advertising-annons
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
-# Krav för annonsering på Adobe
+# Krav för Adobe Advertising-annons
 
-*Senast uppdaterad: 12 juli 2021*
+*Senast uppdaterad: 12 juli 2021 (utom uppdaterade produktnamn och URL för den här sidan)*
 
-*För Adobe Advertising DSP and Adobe Advertising Search*
+*För sökning, sociala medier och handel mellan Adobe Advertising DSP och Adobe Advertising*
 
 Denna policy för annonskrav (&quot;policyn&quot;) innehåller kraven för annonser som distribueras via Adobe&#39;s On-demand Services for Adobe Advertising (&quot;Services&quot;). Denna policy införlivas genom referens i avtalet mellan Adobe och kunden (&quot;du&quot;) med hjälp av On-demand-tjänster. De termer med versaler som används i denna policy men som inte definieras häri får den innebörd som anges i det avtalet.
 
@@ -26,7 +26,7 @@ Utöver kraven som anges nedan och i avtalet måste ni uppfylla kraven som stäl
 
 ### Krav på kreativitet
 
-Alla annonser som ni överför, lagrar, visar, distribuerar eller på annat sätt gör tillgängliga via On-demand-tjänsterna måste överensstämma med annonsspecifikationerna i Adobe Advertising Ad Specs, som kan komma att revideras av Adobe emellanåt.
+Alla annonser som ni överför, lagrar, visar, distribuerar eller på annat sätt gör tillgängliga via On-demand-tjänsterna måste överensstämma med annonsspecifikationerna i Adobe Advertising Ad Specials, som kan komma att revideras av Adobe emellanåt.
 
 ### Förbjudna annonser
 
@@ -128,4 +128,3 @@ Ni får inte använda tjänsterna för att diskriminera personer i strid med lag
 >[!MORELIKETHIS]
 >
 >* [Riktlinjer för godkända hälsosegment](/help/policies/health-segment-guidelines.md)
-
