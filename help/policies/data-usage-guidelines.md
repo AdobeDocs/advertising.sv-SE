@@ -3,16 +3,16 @@ title: Riktlinjer för dataanvändning i Adobe Advertising DSP
 description: Se riktlinjerna för dataanvändning.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 2ba5330a21b637fbf7ae887a0682678eb26e0af9
+source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Riktlinjer för dataanvändning i Adobe Advertising DSP
 
-*Senast uppdaterad: 5 september 2019 (utom för uppdatering av URL-adressen för den här sidan)*
+*Senast uppdaterad: 5 september 2019*
 
 *För Adobe Advertising DSP*
 
