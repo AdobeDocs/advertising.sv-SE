@@ -1,9 +1,10 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
+source-git-commit: e4901c1ac6e73f27886e315136c3fe9b865cdd48
 workflow-type: tm+mt
-source-wordcount: '6595'
+source-wordcount: '6721'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,15 @@ ht-degree: 1%
 
 Skapa och uppdatera [!DNL Microsoft Advertising] kampanjdata i grupp kan du använda bulkbladsfiler för sökning, sociala medier och handel som är särskilt formaterade för [!DNL Microsoft Advertising] konton. Du kan antingen a) [generera bulkbladsfiler för befintliga konton](../bulksheet-download.md) i det önskade filformatet eller b) skapa dem manuellt (se &quot;[Filformat för bulkblad som stöds](bulksheet-file-formats.md)&quot; för allmän information om vilka filformat som stöds).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Varje blad måste innehålla rubrikfält och motsvarande datafält som krävs för [specifika åtgärder som du vill utföra](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (som att skapa en annons). När ett fält inte är obligatoriskt kan du utesluta det från rubriken och dataraderna. Alla anpassade kolumner tas bort när du överför bulkbladsfilen.
+
+Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabeller som anger vilka fält som krävs för att lägga till, redigera eller ta bort data för enskilda enheter (till exempel kampanjer och nyckelord).
 
 ## Alla tillgängliga datafält
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+I följande tabell visas alla tillgängliga datafält.
+
+Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-microsoft).
 
 | Fält | Beskrivning |
 |----|----|
@@ -112,7 +117,11 @@ Skapa och uppdatera [!DNL Microsoft Advertising] kampanjdata i grupp kan du anv�
 
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
-## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent
+## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent {#bulksheet-fields-per-component-microsoft}
+
+>[!NOTE]
+>
+>När ett fält inte kan användas för en åtgärd, ignoreras alla värden som anges i fältet.
 
 ### Kampanjfält
 

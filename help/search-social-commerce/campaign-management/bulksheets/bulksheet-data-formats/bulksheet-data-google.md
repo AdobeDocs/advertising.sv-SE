@@ -1,9 +1,10 @@
 ---
 title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 1e35f503-c2fe-459c-ad13-6b8cf65be67e
+source-git-commit: 09ac5c3fa36f5fce10174d10cb10bb7cf7e836c7
 workflow-type: tm+mt
-source-wordcount: '7515'
+source-wordcount: '7706'
 ht-degree: 1%
 
 ---
@@ -12,11 +13,22 @@ ht-degree: 1%
 
 Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbladsfiler för sökning, sociala medier och handel som är särskilt formaterade för [!DNL Google Ads] konton. Du kan antingen a) [generera bulkbladsfiler för befintliga konton](../bulksheet-download.md) i det önskade filformatet eller b) skapa dem manuellt (se &quot;[Filformat för bulkblad som stöds](bulksheet-file-formats.md)&quot; för allmän information om vilka filformat som stöds).
 
-{{$include /help/_includes/bulksheet-appendices-intro.md}}
+Varje blad måste innehålla rubrikfält och motsvarande datafält som krävs för [specifika åtgärder som du vill utföra](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-operations.md) (som att skapa en annons). När ett fält inte är obligatoriskt kan du utesluta det från rubriken och dataraderna. Alla anpassade kolumner tas bort när du överför bulkbladsfilen.
+
+Nedan följer en tabell över alla tillgängliga datafält och ytterligare tabeller som anger vilka fält som krävs för att lägga till, redigera eller ta bort data för enskilda enheter (till exempel kampanjer och nyckelord).
 
 ## Alla tillgängliga datafält
 
-{{$include /help/_includes/bulksheet-appendices-intro-required-data.md}}
+I följande tabell visas alla tillgängliga datafält.
+
+Information om de datafält som är relevanta för kontoentiteter finns i &quot;[Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent](#bulksheet-fields-per-component-google).
+
+>[!NOTE]
+>
+>* Värdena i alla textkolumner är skiftlägeskänsliga.
+>* När du skapar en ny post och inte inkluderar värden för alla obligatoriska datafält, tilldelas vissa av dessa fält de angivna standardvärdena.
+>* För fält som inte anges nedan används standardvärdet för annonsnätverket.
+>* En lista över tillgängliga kalkylbladsrader i [!UICONTROL Download Bulksheet] se &quot;[Bulkbladsrader efter annonsnätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
 
 | Fält | Beskrivning |
 | ---- | ---- |
@@ -116,7 +128,11 @@ Skapa och uppdatera [!DNL Google Ads] kampanjdata i grupp kan du använda bulkbl
 
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
-## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent
+## Fält som krävs för att skapa, redigera eller ta bort varje kontokomponent {#bulksheet-fields-per-component-google}
+
+>[!NOTE]
+>
+>När ett fält inte kan användas för en åtgärd, ignoreras alla värden som anges i fältet.
 
 ### Kampanjfält
 
