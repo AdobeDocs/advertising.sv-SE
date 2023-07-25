@@ -3,16 +3,16 @@ title: Krav för Adobe Advertising-annons
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 04980842afb60870b2beb851e3e80431ae0b037d
+source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
 
 # Krav för Adobe Advertising-annons
 
-*Senast uppdaterad: 12 juli 2021 (utom uppdaterade produktnamn och URL för den här sidan)*
+*Senast uppdaterad: 12 juli 2021*
 
 *För sökning, sociala medier och handel mellan Adobe Advertising DSP och Adobe Advertising*
 
