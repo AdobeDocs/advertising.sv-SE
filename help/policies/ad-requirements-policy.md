@@ -3,16 +3,16 @@ title: Krav för Adobe Advertising-annons
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: b81323c8f576617cc551963b7abd28575166f53a
+source-git-commit: 6255609563c595b921ef9867359cc57498571d73
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Krav för Adobe Advertising-annons
 
-*Senast uppdaterad: 12 juli 2021*
+*Senast uppdaterad: 12 juli 2021 (utom uppdaterade produktnamn och URL för den här sidan)*
 
 *För sökning, sociala medier och handel mellan Adobe Advertising DSP och Adobe Advertising*
 
@@ -32,11 +32,11 @@ Alla annonser som ni överför, lagrar, visar, distribuerar eller på annat sät
 
 Ni måste se till att era annonser och de webbplatser till vilka en annons länkar eller omdirigering inte innehåller eller befordrar något av följande:
 
-* **Ogiltigt innehåll**. Annonserna får inte innehålla olagligt innehåll eller främja, uppmuntra eller underlätta olaglig verksamhet, produkter eller tjänster. Detta omfattar, men är inte begränsat till, innehåll, produkter, aktiviteter eller tjänster som innefattar användning av olaglig narkotika eller drogparaferi (oavsett om den är olaglig på statlig eller federal nivå) eller strider mot värdepapperslagstiftningen. I denna policy är annonser för innehåll, produkter, verksamheter eller tjänster som rör marijuana eller hampa eller derivat av dessa ämnen, t.ex. kanabidiol (CBD), förbjudna, med följande enda undantag: (1) Hamphärledda CBD-produkter (men inga andra CBD- eller THC-produkter) i USA. och (2) kanabisprodukter i de tillåtna kanadensiska provinserna, som båda omfattas av (a) tidigare ingången till det tillämpliga Adobe Rider-avtalet, (b) uppfyllandet av Adobe kraven på tillbörlig aktsamhet, och (c) enligt vad som tillåts av medieleverantörerna och tillämpliga lagar. tillåtna kanadensiska provinser: provinserna Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island och Saskatchewan.
+* **Ogiltigt innehåll**. Annonserna får inte innehålla olagligt innehåll eller främja, uppmuntra eller underlätta olaglig verksamhet, produkter eller tjänster. Detta omfattar, men är inte begränsat till, innehåll, produkter, aktiviteter eller tjänster som innefattar användning av olaglig narkotika eller drogparaferi (oavsett om den är olaglig på statlig eller federal nivå) eller strider mot värdepapperslagstiftningen. I denna policy är annonser för innehåll, produkter, verksamheter eller tjänster som rör marijuana eller hampa eller derivat av dessa ämnen, t.ex. canabidiol (CBD), förbjudna, med följande undantag: 1) Hamphärledda CBD-produkter (men inga andra CBD- eller THC-produkter) i USA, och 2) canabis-produkter i de tillåtna kanadensiska provinserna, som båda omfattas av a) som tidigare har ingått det tillämpliga Adobe Rider, b) uppfyller Adobe kraven på tillbörlig aktsamhet och c) enligt vad som tillåts av medieleverantörerna och gällande lagstiftning. tillåtna kanadensiska provinser: provinserna Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, Prince Edward Island och Saskatchewan.
 
 * **Överträdelse av en annan persons rättigheter eller avtal**. Annonserna får inte bryta mot eller bryta mot någon annans rättigheter eller kontrakt eller främja någon produkt eller tjänst som bedriver sådan verksamhet. Detta inkluderar intrång i immateriella rättigheter och brott mot sekretess, publicitet eller andra personliga eller egna rättigheter, inklusive främjande av fildelningstjänster som huvudsakligen används för att göra intrång i upphovsrätten.
 
-* **Våld eller farlig verksamhet**. Annonserna får inte främja eller avbilda våldsamma eller farliga aktiviteter eller material, inklusive innehåll som är stötande, sensationellt, goriskt, obscent eller som främjar eller avbildar fysiska skador, skador eller missbruk, vapen (inklusive vapenmodifiering eller tillbehör), ammunition, fyrverkerier eller andra explosiva material.
+* **Våld eller farlig verksamhet**. Annonserna får inte främja eller avbilda våldsamma eller farliga aktiviteter eller material, inklusive innehåll som är stötande, sensationellt, gory, obscen eller som främjar eller avbildar fysiska skador, skador eller missbruk, vapen (inklusive vapenmodifiering eller tillbehör), ammunition, fyrverkerier eller andra explosiva material.
 
 * **Felaktiga eller vilseledande annonser**. Annonser får inte innehålla innehåll som är falskt, vilseledande eller bedrägligt. Detta inkluderar annonsinställningar som ställer in orealistiska förväntningar för användare, döljer det mål som användarna kommer att dirigeras till efter att de klickat på en annons, omdirigerar eller länkar till en webbplats som felaktigt representerar sig själv som en annan tjänst, simulerar systemvarningar eller varningar (t.ex. från ett operativsystem eller mobilprogram) eller som på ett förvirrande sätt liknar en annan produkt eller ett annat program. Alla erbjudanden om&quot;kostnadsfria&quot; eller rabatterade produkter eller tjänster måste innehålla tydliga och korrekta upplysningar om alla villkor eller andra krav för att kunna göra anspråk på sådana erbjudanden som är förenliga med kraven i lagstiftningen. Alla påståenden måste vara korrekta och sanningsenliga.
 
@@ -44,7 +44,7 @@ Ni måste se till att era annonser och de webbplatser till vilka en annons länk
 
 * **Förfalskade produkter**. Annonserna får inte marknadsföra eller avbilda förfalskade eller falska produkter, inklusive falska dokument, såsom pass eller officiella pappersverk.
 
-* **Sexuellt antydande innehåll**. Annonser får inte innehålla innehåll som innehåller eller främjar sexuellt förslagsfullt innehåll, t.ex. nakenhet, pornografi, vuxentjänster eller underhållning, eller antydande eller explicita utdrag eller språk.
+* **Sexuellt antydande innehåll**. Annonserna får inte innehålla innehåll som innehåller eller främjar sexuellt förslagsfullt innehåll, t.ex. nakenhet, pornografi, vuxentjänster eller underhållning, eller antydande eller explicita utdrag eller språk.
 
 * **Onlineapotek**. Ads får inte göra reklam för apotekstjänster som gör receptbelagda eller OTC-läkemedel tillgängliga för inköp online.
 
@@ -62,9 +62,9 @@ Ni måste se till att era annonser och de webbplatser till vilka en annons länk
 
 * **Försäljning av kroppsdelar**. Annonserna får inte främja försäljning av kroppsdelar eller kroppsvätskor.
 
-* **Distraherande annonser**. Annonserna får inte innehålla distraherande, oönskade eller obehagliga funktioner eller innehåll, inklusive autouppspelade funktioner (t.ex. annonser som automatiskt spelar upp ljud eller video), innehåll som blinkar, skakar, pulsar, blinkar eller innehåller extremt animerade objekt, text eller bilder, lokalt delade objekt (inklusive flash cookies och lokal lagring i HTML5) och annonser som stör användarupplevelsen (t.ex. genom att lägga över annat innehåll ).
+* **Distraherande annonser**. Annonserna får inte innehålla distraherande, oönskade eller obehagliga funktioner eller innehåll, inklusive autouppspelade funktioner (t.ex. annonser som automatiskt spelar upp ljud eller video), innehåll som blinkar, skakar, pulsar, blinkar eller innehåller extremt animerade objekt, text eller bilder, lokalt delade objekt (inklusive Flash cookies och lokal lagring i HTML5) och annonser som stör användarupplevelsen (t.ex. genom att lägga över annat innehåll ).
 
-* **Politiskt innehåll**. Politiskt innehåll omfattar kommunikation som 1) betalas av varje kandidat till ämbetet (federal, statlig, lokal eller internationell) eller av kandidatens kampanj, 2) betalas av en enhet som är registrerad eller som rapporterar enligt lagstiftningen om kampanjfinansiering i en jurisdiktion (federala, statliga, lokala eller internationella), (3) uttryckligen förespråkar eller motsätter sig alla klart angivna kandidater (federala, statliga, lokala eller internationella), eller (4) på annat sätt regleras av lagstiftningen om kampanjfinansiering i en jurisdiktion. Detta förbud omfattar, men är inte begränsat till, annonsering av lobbying som direkt eller indirekt har samband med val, politiska kampanjer, kandidat till ämbetet, omröstning, röstningsinitiativ, lagstiftning eller folkomröstning.
+* **Politiskt innehåll**. Politiskt innehåll omfattar kommunikation som (1) betalas för av valfri kandidat till ämbetet (federala, statliga, lokala eller internationella) eller kandidatens kampanj, (2) betalas för av en enhet som är registrerad eller rapporterar enligt lagstiftningen om kampanjfinansiering i en jurisdiktion (federala, statliga, lokala eller internationella), (3) uttryckligen förespråkar eller mot en tydligt identifierad kandidat (federala, statliga, lokala eller internationella), eller (4) på annat sätt regleras under någon jurisdiktion kampanjens finansrätt. Detta förbud omfattar, men är inte begränsat till, annonsering av lobbying som direkt eller indirekt har samband med val, politiska kampanjer, kandidat till ämbetet, omröstning, röstningsinitiativ, lagstiftning eller folkomröstning.
 
 ### Begränsade annonser
 
@@ -86,7 +86,7 @@ Annonser som innehåller innehåll i nedanstående kategorier tillåts med särs
 
 Annonserna får inte använda personuppgifter för att avsiktligt rikta sig till användare under 16 år. Förutom de förbjudna annonser och begränsade annonser som anges ovan, är det inte säkert att annonser medvetet marknadsför eller annonserar följande produkter eller tjänster till användare under 18 år:
 
-* Alkoholdrycker och tillbehör
+* Alkoholhaltiga drycker och tillbehör
 * Projektilt, BB- eller pelletkanoner
 * Säkerhetscertifikat för handvapen
 * Aerosolfärg eller kliande kräm som kan skada egendom
@@ -98,9 +98,9 @@ Annonserna får inte använda personuppgifter för att avsiktligt rikta sig till
 
 ## Riktade annonser
 
-Tjänsterna får inte användas för att rikta annonser till användare eller utesluta användare från målanpassning, inklusive för att rikta om användare baserat på besök på era webbplatser eller andra onlinetjänster, på ett sätt som innebär att ni är medvetna om potentiellt känslig information om dem.
+Tjänsterna får inte användas för att rikta annonser till användare eller utesluta användare från målanpassning, bland annat för att rikta om användare baserat på besök på era webbplatser eller andra onlinetjänster, på ett sätt som innebär att ni är medvetna om potentiellt känslig information om dem.
 
-* **Förbjuden målgruppsanpassning**. Annonserna får inte riktas till eller riktas mot en målgrupp baserat på någon av följande faktorer, vare sig kända eller härledda:
+* **Förbjuden målinriktning**. Annonserna får inte riktas till eller riktas mot en målgrupp på grundval av någon av följande faktorer, vare sig kända eller härledda:
 
    * Religiösa eller liknande trosuppfattningar eller anknytningar
    * Ras, färg eller etnisk tillhörighet
@@ -119,7 +119,7 @@ Tjänsterna får inte användas för att rikta annonser till användare eller ut
    * medlemskap i fackföreningar
    * Andra särskilda kategorier av personuppgifter
 
-* **Hälsorelaterad målinriktning**. Du får inte använda tjänsterna för att samla in känsliga hälsorelaterade uppgifter eller för att dra slutsatser om användarnas känsliga hälsobehandlingar eller medicinska behandlingar. Du får inte använda tjänsterna för att rikta annonser mot något av följande: alla former av cancer, psykiska hälsorelaterade tillstånd eller sexuellt överförbara sjukdomar. Avsikten med annonserna är att de ska vara icke-känsliga hälsotillstånd, bland annat akne, allergier, tandkött, syn, halsbränna, kyla och influensa, sinus, huvudvärk, ryggsmärta, första hjälpen, halsont, blodsockerhantering, kost och träning, hårborttagning samt vitaminer och kosttillskott.
+* **Hälsorelaterad målinriktning**. Du får inte använda tjänsterna för att samla in känsliga hälsorelaterade uppgifter eller för att dra slutsatser om användarnas känsliga hälsobehandlingar eller medicinska behandlingar. Du får inte använda tjänsterna för att rikta annonser mot någon av följande former: cancer, psykiska hälsorelaterade tillstånd eller sexuellt överförbara sjukdomar. Avsikten med annonserna är att de ska vara icke-känsliga hälsotillstånd, bland annat akne, allergier, tandkött, syn, halsbränna, kyla och influensa, sinus, huvudvärk, ryggsmärta, första hjälpen, halsont, blodsockerhantering, kost och träning, hårborttagning samt vitaminer och kosttillskott.
 
 ## Ingen diskriminering
 
