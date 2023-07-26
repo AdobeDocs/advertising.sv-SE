@@ -3,16 +3,16 @@ title: Riktlinjer för dataanvändning i Adobe Advertising DSP
 description: Se riktlinjerna för dataanvändning.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 0f1e024ade1c75d4f6ed3116ec3eb98a13642e9a
+source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
 
 # Riktlinjer för dataanvändning i Adobe Advertising DSP
 
-*Senast uppdaterad: 5 september 2019*
+*Senast uppdaterad: 5 september 2019 (utom för uppdatering av URL-adressen för den här sidan)*
 
 *För Adobe Advertising DSP*
 
@@ -22,6 +22,6 @@ Adobe förbehåller sig rätten att i sin egen bedömning avgöra om kundens anv
 
 ## Användning av [!DNL TruSignal] Data
 
-[!DNL TruSignal] Data kan inte användas för följande: (1) alla tillåtna syften eller negativa effekter enligt definitionen i [!DNL Fair Credit Reporting Act] (som kan ändras då och då). 2. Omförhandling eller omstrukturering av skulder. eller (3) Underlätta all reklam för vuxenunderhållning, pornografi, leksaker för sex, exotisk dans, skjutvapen, olagligt spelande eller någon annan olaglig produkt eller tjänst, inklusive utan begränsning för diskriminering på grund av ras, kön, religion, sexuell läggning eller på något sätt som kan anses orättvist enligt tillämplig lag. och (4) för a) rätt till anställning, b) rätt till krediter, `(c)` rätt till sjukförsäkring, eller d) rätt till försäkringar och priser.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
+[!DNL TruSignal] Data kan inte användas för följande: (1) Alla tillåtna syften eller negativa åtgärder enligt definitionen i [!DNL Fair Credit Reporting Act] (som kan ändras då och då), (2) omförhandling eller omstrukturering av skulder, eller (3) underlättande av reklam för vuxenunderhållning, pornografi, sexleksaker, exotisk dans, skjutvapen, olagligt spelande eller någon annan olaglig produkt eller tjänst, inklusive utan begränsning för diskriminering på grund av ras, kön, religion, sexuell läggning eller på något sätt som kan anses vara orättvist enligt tillämplig lag, och (4) för i a) rätt till anställning, b) rätt till krediter, `(c)` rätt till sjukförsäkring, eller d) rätt till försäkringar och priser.<!-- I used backticks in the previous sentence to prevent ( c ) from displaying as a copyright symbol. I think the OS does that. Using HTML code for the parentheses doesn't prevent it. -->
 
-Dessutom [!DNL TruSignal] Data kan inte vara: 1) dekompilerad, demonterad, använd för att skapa härledda verk eller bakåtkompilerad, eller (2) har vidarelicensierats, vidaresålts, återanvänts eller på annat sätt beviljats rättigheter till tredje part, inklusive användning vid tryckerier.
+Dessutom [!DNL TruSignal] Data kan inte vara: (1) dekompilerade, demonterade, använda för att skapa härledda verk eller omvänd teknik, eller (2) underlicensierade, återsålda, återanvända eller på annat sätt beviljade rättigheter till tredje part, inklusive användning i ett serviceföretag.
