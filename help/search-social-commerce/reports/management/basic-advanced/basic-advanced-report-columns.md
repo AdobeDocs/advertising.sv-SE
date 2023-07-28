@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
+source-git-commit: 7ffdd97387815098994f85c4368e60b2b44838dd
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3603'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | Annonsgrupps-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Campaign ID] | Kampanj-ID som tilldelats av nätverket. |
 | [!UICONTROL Objective Name] | Portföljens mål. |
-| [!UICONTROL Objective Value] | Den totala viktade konverteringen enligt portföljens aktuella mål. Se &quot;[målvärde](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value] | Den totala viktade konverteringen enligt portföljens aktuella mål. |
 | [!UICONTROL Objective Value Calculation] | Den beräkning som används för att härleda målvärdet. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] annonser) Antal klick på länkar i annonser som tar bort folk [!DNL Meta]-ägda egendomar. |
 | [!UICONTROL Parent Product Groupings] | Den fullständiga hierarkin för de överordnade produktgrupperna, med `>>` mellan lager (till exempel `All Products>>CategoryL1=Animals`), i tillämpliga fall. |
