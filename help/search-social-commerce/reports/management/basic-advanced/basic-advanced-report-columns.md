@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: d0b5107363336d5c946f4011e56dc83d2165397d
 workflow-type: tm+mt
-source-wordcount: '3583'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,8 @@ ht-degree: 0%
 | [!UICONTROL Network Ad Group ID] | Annonsgrupps-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Campaign ID] | Kampanj-ID som tilldelats av nätverket. |
 | [!UICONTROL Objective Name] | Portföljens mål. |
+| [!UICONTROL Objective Value] | Den totala viktade konverteringen enligt portföljens aktuella mål. Se &quot;[målvärde](/help/search-social-commerce/glossary.md#o-p).&quot; |
+| [!UICONTROL Objective Value Calculation] | Den beräkning som används för att härleda målvärdet. |
 | [!UICONTROL Outbound Clicks] | ([!DNL Meta] annonser) Antal klick på länkar i annonser som tar bort folk [!DNL Meta]-ägda egendomar. |
 | [!UICONTROL Parent Product Groupings] | Den fullständiga hierarkin för de överordnade produktgrupperna, med `>>` mellan lager (till exempel `All Products>>CategoryL1=Animals`), i tillämpliga fall. |
 | [!UICONTROL Partition Type] | Typ av produktgrupp: <i>[!UICONTROL Sub-Division]</i> (överordnade produktgrupper) eller <i>[!UICONTROL Unit]</i> (lägsta nivån av underordnade produktgrupper, som har ett bud). |
@@ -173,8 +175,17 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) ID för den användare som slutförde transaktionen. |
 | [!UICONTROL Through Plays] | ([!DNL Meta] annonser) Antalet visningar som tittade på hela annonsen. |
 | [!UICONTROL Top of Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas högst upp på sökresultatsidorna under det angivna datumintervallet. |
-
-| [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) Sökning-, Socialkod och Commerce-spårningskod. | | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Den annonserarspecifika transaktionsegenskap som transaktionen krediteras till. | | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då den angivna transaktionsegenskapen krediterades. | | [!UICONTROL User Account Type] | Föråldrad | | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. | | [!UICONTROL Video Average Play Time] | ([!DNL Meta] annonser) Den genomsnittliga tiden som videon spelades upp, inklusive den tid som användes för att spela upp videon, för ett enda intryck. | | [!UICONTROL Video Plays] | ([!DNL Meta] annonser) Antalet gånger som videon börjar spelas upp, exklusive uppspelningar. | | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]och [!UICONTROL VideoQuartile100Rate] | (Videoreklam) Procentandel videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen fram. | | [!UICONTROL View Rate] | (Videoannonser) Antalet visningar eller engagemang delat med antalet gånger som annonsen (video- och miniatyrbilder) visades. | | [!UICONTROL Views] | (Videoreklam) Antal gånger som folk har tittat på eller varit med om annonsen. | | [!UICONTROL ViewThroughConversions] | (Annonser i målgruppsnätverket) Antal konverteringar som ett eller flera intryck ger, men utan klick. |
+| [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) spårningskod för sökning, sociala medier och handel. |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Den annonserarspecifika transaktionsegenskap som transaktionen krediteras till. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då den angivna transaktionsegenskapen krediterades. |
+| [!UICONTROL User Account Type] | Föråldrad |
+| [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] annonser) Den genomsnittliga tiden som videon spelades upp, inklusive den tid som användes för att spela upp videon, för ett enda intryck. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] annonser) Antalet gånger som videon börjar spelas upp, exklusive uppspelningar. |
+| [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]och [!UICONTROL VideoQuartile100Rate] | (Videoannonser) Procentandel videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
+| [!UICONTROL View Rate] | (Videoannonser) Antalet visningar eller engagemang delat med antalet gånger som annonsen (video- och miniatyrbilder) visades. |
+| [!UICONTROL Views] | (Videoannonser) Antal gånger som personer har tittat på eller deltagit i annonsen. |
+| [!UICONTROL ViewThroughConversions] | (Annonser i målgruppsnätverket) Antalet konverteringar som är resultatet av en eller flera visningar, men utan klick. |
 
 <table style="table-layout:auto">
 

@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2073'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 **marginalkostnad:** Förändringen i totalkostnad när kvantiteten ändras med en enhet.
 
+**marginalvärde för kostnad-till-mål:** Den kostnadsförändring som krävs för att öka det objektiva värdet med ett (1). Detta har samma värde som den gamla kolumnen Marginal Cost-to-Revenue.
+
 **matchningstyp:** Ett alternativ som anger hur söktermer matchas mot annonser. Alternativen varierar beroende på annonsnätverk.
 
 **lägsta bud:** 1) Minimibeloppet per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
@@ -113,6 +115,14 @@ ht-degree: 0%
 ## O-P {#o-p}
 
 **mål:** (Annonsörer med portföljer) Ett mål som en kund sätter upp för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppnå ett visst försäljningsmål. Ett mål består av de konverteringsmått (även kallade transaktionsegenskaper) som ska spåras och optimeras för portföljen, och de relativa vikterna för dessa värden.
+
+**målvärde:** (Annonsörer med portföljer) Den totala viktade konverteringen enligt portföljens nuvarande mål, inklusive:
+
+* alla konverteringar, med beaktande av a) de vikter som tilldelats varje konvertering i portföljens objektiva funktion och, i tillämpliga fall, b) genomsynvikten för hela visningen.
+
+* alla klick, som optimeringsfunktionen anser vara en enda konvertering och viktas enligt klickvärdet för målet.
+
+Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **optimeringsfunktion:** (Annonsörer med portföljer) Nyckelordsbudgivningsteknik för sökning, sociala medier och handel, som avgör den optimala strategin för budgivning och budgethantering för en portfölj baserat på dess verksamhetsmål.
 
@@ -178,11 +188,7 @@ ht-degree: 0%
 
 ## B-X {#w-x}
 
-**viktade intäkter:** (Annonsörer med portföljer) De totala intäkterna, som omfattar
-
-* Alla intäkter, med beaktande av a) de vikter som tilldelats varje transaktionsegenskap i portföljens mål och, i tillämpliga fall, b) genomsynvikten för visningar/sociala genomgångar.
-
-* alla klick, som optimeringsfunktionen anser vara en enda transaktionsegenskap och vägs enligt klickvärdet för målet.
+**viktade intäkter:** Se&quot;objektivt värde&quot;.
 
 **XLS** eller **XSX**: Ett binärt filformat för [!DNL Microsoft Office Excel] arbetsböcker.
 
