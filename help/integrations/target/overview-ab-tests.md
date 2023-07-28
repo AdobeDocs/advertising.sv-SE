@@ -1,15 +1,17 @@
 ---
 title: Konfigurera A/B-tester för Adobe Advertising annonser i Adobe Target
-description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP och [!DNL Search, Social, & Commerce] annonser.
+description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för era DSP.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7089f7fe75b551953026ac6cca4ac7aafa06ba7b
+source-git-commit: f68aa3a48ff9676fec8c38af920cff1c3a7d6caa
 workflow-type: tm+mt
-source-wordcount: '1640'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
 
-# Konfigurera A/B-tester i Adobe Target för DSP och [!DNL Advertising Search, Social, & Commerce] Annonser
+# Konfigurera A/B-tester i Adobe Target för annonsering DSP annonser
+
+<!-- In title and Heading1:  DSP and [!DNL Advertising Search, Social, & Commerce] Ads -->
 
 <!-- Add [!UICONTROL and [!DNL tags throughout as needed. -->
 
@@ -27,7 +29,7 @@ Adobe Advertising och Adobe Target gör det ännu enklare för marknadsförare a
 
 I följande avsnitt finns information om krav och instruktioner för att ställa in klicknings- och genomskinlighetsspårning, implementera signaldelning mellan DSP och [!DNL Target] och konfigurera en A/B-testaktivitet och konfigurera [!DNL Analytics] Analysis Workspace för att visa testdata.
 
-Om du har ytterligare frågor kan du kontakta adcloud_support@adobe.com.
+Kontakta adcloud_support@adobe.com om du har ytterligare frågor.
 
 ## Förutsättningar
 
@@ -69,7 +71,7 @@ Kontakta kontoteamet på Adobe och Advertising Solutions Group (aac-advertising-
 
 ![Genomskinligt ramverk](/help/integrations/assets/targetr-vt-framework.png)
 
-Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar och placeringsinställningar kan du skapa ett testsegment för ytterligare visningsmöjligheter.
+Genom att lägga till en händelsepixel för Audience Manager-intrycket i dina annonstaggar och placeringsinställningar kan du skapa ett testsegment för ytterligare visningsmöjligheter.
 
 1. Implementera en händelsepixel för Audience Manager-intryckning i dina annonstaggar och inställningar för DSP.
 
@@ -87,7 +89,7 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
    1. Ange **Nyckel** och **Värde** för signalen som bestämmer på vilken nivå segmentanvändarna grupperas. Använd en [nyckel som stöds](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html) med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-visningshändelsepixeln.
 
-      Om du till exempel vill gruppera användare för en viss placering använder du `d_placement` nyckel. För värdet använder du ett numeriskt placerings-ID (till exempel 2501853 i skärmbilden ovan) som fångas av det DSP makrot `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+      Om du till exempel vill gruppera användare för en viss placering använder du `d_placement` -tangenten. För värdet använder du ett numeriskt placerings-ID (till exempel 2501853 i skärmbilden ovan) som fångas av det DSP makrot `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
       Om fältet Totalt antal visar antalet användare för nyckelvärdepar, vilket anger att pixeln placerades korrekt och att data flödar, kan du fortsätta till nästa steg.
 
@@ -99,7 +101,7 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
    1. Från **Datakälla** nedrullningsbar meny, välja **Ad Cloud**.
 
-   1. I uttrycksverktyget lägger du till `d_event` i fältet Key och `imp` i **Värde** fält, markera **Lägg till regel** och spara sedan tecknet.
+   1. Lägg till `d_event` i fältet Key och `imp` i **Värde** fält, markera **Lägg till regel** och spara sedan EGENSKAPEN.
 
    ![Skärmbild av ett regelbaserat varumärke](/help/integrations/assets/target-am-trait.png)
 
@@ -113,11 +115,11 @@ Genom att lägga till en händelsepixel för Audience Manager i era annonstaggar
 
    ![Skärmbild av ett testsegment](/help/integrations/assets/target-am-segment.png)
 
-## Steg 3: Ställ in en A/B-testaktivitet i mål
+## Steg 3: Konfigurera en A/B-testaktivitet i mål
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-I följande anvisningar markeras information som gäller DSP användningsfall. Fullständiga anvisningar finns i &quot;[Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
+I följande anvisningar markeras information om DSP. Fullständiga anvisningar finns i &quot;[Skapa ett A/B-test](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html)&quot;.
 
 1. [Logga in på Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -141,7 +143,7 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
 
 1. Ange **Prioritet** till `High` eller `999` för att förhindra konflikter när användare i testsegmentet får en felaktig upplevelse på plats.
 
-1. Inom **Rapportinställningar** väljer du **Företag** och **Report Suite** är ansluten till ditt DSP.
+1. Inom **Rapportinställningar** väljer du **Företagsnamn** och **Report Suite** som är ansluten till ditt DSP.
 
    Ytterligare rapportips finns i &quot;[Rapportera bästa praxis och felsökning](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
@@ -153,9 +155,9 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
 
       ![Lägg till målgrupper i aktiviteten](/help/integrations/assets/target-create-ab-audiences.png)
 
-   1. Välj **Webbplatssidor** > **Landningssida** > **Fråga** och ange DSP placeringsnyckel i **Värde** om du vill använda Target-frågesträngsparametrarna för klickbara målgrupper.
+   1. Välj **Webbplatssidor** > **Landningssida** > **Fråga** och ange DSP placeringsnyckel i dialogrutan **Värde** om du vill använda Target-frågesträngsparametrarna för klickbara målgrupper.
 
-      ![Skärmbild av en målgrupp med klickningar](/help/integrations/assets/target-click-audience.jpg)
+      ![Skärmbild av målgruppen](/help/integrations/assets/target-click-audience.jpg)
 
 1. För **Trafikallokeringsmetod**, markera **Manuell (standard)** och dela publiken 50/50.
 
@@ -163,7 +165,7 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
 
 1. Använd [!DNL Target] [Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) för att göra konstruktionsändringar i A/B-testsidans mall för landningssidor.
 
-   * Upplevelse A: Redigera inte, eftersom det är standardupplevelsen/kontrollen av landningssidan utan personalisering.
+   * Upplevelse A: Redigera inte eftersom det är standardupplevelsen/kontrollen av landningssidan utan personalisering.
 
    * Upplevelse B: Använd [!DNL Target] användargränssnitt för att anpassa landningssidans mall baserat på de tillgångar som ingår i testet (t.ex. rubriker, text, knappplacering och kreatörer).
 
@@ -171,11 +173,11 @@ I följande anvisningar markeras information som gäller DSP användningsfall. F
    >
    >Exempel på användningsfall för kreativa tester kan du kontakta ditt Adobe-kontoteam.
 
-## Steg 4: Konfigurera [!DNL Analytics for Target] Analysis Workspace i [!DNL Analytics]
+## Steg 4: Konfigurera [!DNL Analytics for Target] ANALYSIS WORKSPACE i [!DNL Analytics]
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-[!DNL Analytics for Target] (A4T) är en integrering med flera lösningar som gör att annonsörer kan skapa [!DNL Target] verksamhet som bygger på [!DNL Analytics] konverteringsstatistik och målgruppssegment och sedan mäta resultatet med [!DNL Analytics] som rapportkälla. All rapportering och segmentering för den aktiviteten baseras på [!DNL Analytics] datainsamling.
+[!DNL Analytics for Target] (A4T) är en integrerad lösning som gör att annonsörer kan skapa [!DNL Target] verksamhet som bygger på [!DNL Analytics] konverteringsstatistik och målgruppssegment och sedan mäta resultatet med [!DNL Analytics] som rapportkälla. All rapportering och segmentering för den aktiviteten baseras på [!DNL Analytics] datainsamling.
 
 Mer information om [!DNL Analytics for Target], inklusive en länk till implementeringsanvisningar, se[Adobe Analytics som rapportkälla för Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)&quot;.
 
@@ -187,7 +189,7 @@ I Analysis Workspace konfigurerar du [!DNL Analytics for Target panel] för att 
 
 * Skapa en panel på arbetsytan som är specifik för den kampanj, det paket eller den placering som testet kördes för. Använd sammanfattningsvisualiseringar för att visa Adobe Advertising-mått i samma rapport som Target-testets prestanda.
 
-* Prioritera med hjälp av statistik på plats (som besök och konverteringar) för att mäta prestanda.
+* Prioritera med hjälp av statistik på plats (t.ex. besök och konverteringar) för att mäta prestanda.
 
 * Förstå att aggregerade mediemått från Adobe Advertising (t.ex. visningar, klick och kostnader) inte kan matchas mot Target-statistik.
 
@@ -195,7 +197,7 @@ I Analysis Workspace konfigurerar du [!DNL Analytics for Target panel] för att 
 
 Följande dimensioner gäller för [!DNL Analytics for Target]:
 
-* **Verksamheter**: A/B-testets namn
+* **Verksamheter**: Namn på A/B-testet
 
 * **Målgrupper**: Namn på landningssidans upplevelser som används inom aktiviteten
 
