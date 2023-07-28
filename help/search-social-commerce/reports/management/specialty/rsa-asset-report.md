@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL RSA Asset Report]"
+title: '[!UICONTROL RSA Asset Report]'
 description: Läs mer om [!UICONTROL RSA Asset Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 76a7c698-5d05-4b48-bd50-5d126c0c4386
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -18,7 +20,7 @@ The [!UICONTROL RSA Asset Report] innehåller mått för det dagliga intrycket a
 >
 >När du väljer alternativet &quot;[!UICONTROL Include rows with no performance data],&quot; inkluderar resultaten fortfarande inte data för resurser som aldrig har fått data.
 
-Du kan visa data från och med den 8 augusti 2022.<!-- Later: You can view data for the previous 36 months. -->
+Du kan visa data från den 8 augusti 2022.<!-- Later: You can view data for the previous 36 months. -->
 
 ## Standardkolumner
 
@@ -39,4 +41,3 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 >* [Specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)
-

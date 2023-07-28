@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] nyckelordsinställningar"
+title: '''[!DNL Microsoft Advertising] nyckelordsinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] nyckelord.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 248f45c7-8b8c-46fe-a65a-66c50c630044
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -22,7 +24,6 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 >
 >* Du kan skapa negativa nyckelord från [!UICONTROL Keywords] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
 >* Ändra en [!DNL Microsoft Advertising] nyckelordet tar bort det befintliga nyckelordet och skapar ett nytt med ett nytt nyckelords-ID. Om du ändrar matchningstypen tas dock inte det befintliga nyckelordet bort.
-
 
 **[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Aktiv*.
 
@@ -53,4 +54,3 @@ Det här fältet kan även innehålla `{Param2}` och `{Param3}` dynamiska ersät
 >[!MORELIKETHIS]
 >
 >* [Hantera nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
-

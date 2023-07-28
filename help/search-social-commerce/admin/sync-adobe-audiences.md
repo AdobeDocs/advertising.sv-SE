@@ -1,7 +1,9 @@
 ---
 title: Synkronisera [!DNL Adobe] målgrupper
 description: Lär dig hur du synkroniserar metadata, hierarkidata och unika målgruppsdata för [!DNL Adobe] målgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 7d4a3c66-5013-412f-8937-d64c336751e3
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Direct Access]endast klientchefer och administratörer*
 
-*Annonsörer med enbart integrering mellan Adobe Advertising-Adobe Audience Manager och Adobe Advertising-Adobe Analytics*
+*Annonsörer med endast integrering mellan Adobe Advertising, Adobe Audience Manager och Adobe Advertising och Adobe Analytics*
 
 Ni kan låta Search, Social och Commerce hämta in metadata, hierarkidata och unika målgruppsdata för alla annonsörers eller reklambyråers [!DNL Adobe] målgrupper i [!UICONTROL Campaigns] > [!UICONTROL Audiences] vyer. Denna information innehåller uppgifter om
 
@@ -26,7 +28,7 @@ För att vara berättigad måste annonsören eller reklambyrån genomföra [Adob
 
 Den första synkroniseringen tar ca 24 timmar. Efter det synkroniseras data i realtid med en fördröjning på en till två sekunder.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Audience Manager Setup]**.
 
 1. Ange det unika organisations-ID:t för annonserarens Adobe Experience Cloud-konto och klicka sedan på **[!UICONTROL Submit]**.
 
@@ -36,4 +38,3 @@ Den första synkroniseringen tar ca 24 timmar. Efter det synkroniseras data i re
 >
 >* [Om målgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-about.md)
 >* [Integrering med Adobe Experience Cloud lösningar och tjänster](/help/search-social-commerce/introduction/integrations.md)
-

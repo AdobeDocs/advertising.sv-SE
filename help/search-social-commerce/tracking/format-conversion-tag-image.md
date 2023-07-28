@@ -1,7 +1,9 @@
 ---
 title: Format för spårningstaggar för bildkonvertering
 description: Referera formatet för spårningstaggar för bildkonvertering.
-source-git-commit: b230c593d93dfa868b8f075939fc9940ea74fa13
+exl-id: 019981cd-37b6-4b80-bb48-26e0d7ac7665
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -26,7 +28,7 @@ där:
 
 * `<ef-userid>` är ett unikt, numeriskt användar-ID som tilldelas annonsören av Search, Social och Commerce.
 
-* `<propertyname>` är konverteringen som spåras. Om du till exempel spårar en konvertering som kallas &quot;registrering&quot;, kommer taggen att innehålla parametern `ev_registration=<registration>`och du måste överföra de faktiska intäkterna för varje transaktion (till exempel `ev_registration=1`). När flera egenskaper spåras sammanfogas de av ett et-tecken (`&`), till exempel `ev_registration=<registration>&ev_sale=<sale>` (t.ex. `ev_registration=1&ev_sale=12.99`). **Obs!**  Egenskapsnamnet får inte innehålla specialtecken.
+* `<propertyname>` är konverteringen som spåras. Om du till exempel spårar en konvertering som kallas &quot;registrering&quot;, kommer taggen att innehålla parametern `ev_registration=<registration>`och du måste överföra de faktiska intäkterna för varje transaktion (till exempel `ev_registration=1`). När flera egenskaper spåras sammanfogas de av ett et-tecken (`&`), till exempel `ev_registration=<registration>&ev_sale=<sale>` (till exempel `ev_registration=1&ev_sale=12.99`). **Obs!**  Egenskapsnamnet får inte innehålla specialtecken.
 
 * `<transid>` är ett unikt transaktions-ID (t.ex. ett faktiskt order-ID) som annonsören genererar och skickar för att identifiera en transaktion. Den inkluderas endast när[!UICONTROL Include unique transaction IDs]&quot; är valt.
 
@@ -36,8 +38,8 @@ där:
 
 >[!MORELIKETHIS]
 >
->* [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
->* [Generera en konverteringstagg för annonsering i Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+>* [Om taggar för Adobe Advertising-konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Generera en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
 >* [Vanliga frågor om konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
->* [Format för spårningstaggar för JavaScript-konvertering, version 2](format-conversion-tag-jsv2.md)
+>* [Format för spårningstaggar för JavaScript-konvertering version 2](format-conversion-tag-jsv2.md)
 >* [Format för spårningstaggar för JavaScript-konvertering, version 3](format-conversion-tag-jsv3.md)

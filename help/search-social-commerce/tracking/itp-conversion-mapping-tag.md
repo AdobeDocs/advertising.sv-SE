@@ -1,22 +1,24 @@
 ---
-title: Konverteringstaggen Adobe Advertising
+title: Adobe Advertising-konverteringstaggen
 description: Lär dig mer om den JavaScript-baserade konverteringsmappningstaggen för ITP 2.2, som gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
-# JavaScript-konverteringskoden Adobe Advertising
+# Konverteringstaggen för JavaScript-konvertering i Adobe Advertising
 
-*Annonsörer med endast konverteringsspårning för Adobe-annonsering*
+*Annonsörer med enbart konverteringsspårning i Adobe Advertising*
 
-Adobe Advertising JavaScript-based conversion mapping tag, när den används utöver Adobe Advertising JavaScript v2 or v3 conversion tracking tag, allows Adobe Advertising to track a conversion event that occurred on a page that is not the landing page. ITP 2.2-lösningen lagrar en användares cookie i lokal lagring i en annonsörägd iFrame. Lokal lagring kan sedan behålla cookie-värdet från klickningen nedåt till konverteringssidan.
+JavaScript-baserad konverteringsmappningstagg i Adobe Advertising, när den används utöver Adobe Advertising JavaScript v2- eller v3-konverteringstaggen, gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan. ITP 2.2-lösningen lagrar en användares cookie i lokal lagring i en annonsörägd iFrame. Lokal lagring kan sedan behålla cookie-värdet från klickningen nedåt till konverteringssidan.
 
-Använd taggen för konverteringsmappning för att säkerställa att Adobe Advertising kan spåra alla konverteringar som sker i webbläsarna Apple Safari och Mozilla Firefox, vilket begränsar beständigheten hos cookies från första part. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
+Använd taggen för konverteringsmappning för att se till att Adobe Advertising kan spåra alla konverteringar som sker i webbläsarna Apple Safari och Mozilla Firefox, vilket begränsar beständigheten hos cookies från första part. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
-Så här använder du konverteringstaggen:
+Så här använder du konverteringsmappningstaggen:
 
 1. [Distribuera konverteringstaggen](#deploy-conversion-mapping-tag).
 
@@ -32,46 +34,46 @@ Så här använder du konverteringstaggen:
 
 * Om din organisation använder ett enda organisations-ID, som används för ditt konto för sökning, sociala medier och handel, använder du följande tagg:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-   där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
 
 * Om din organisation använder flera organisations-ID:n använder du följande tagg:
 
-   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
+  `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" imsorgid="{xxxxxx@AdobeOrg}" userid="{AMO User ID}"></script>`
 
-   där:
+  där:
 
    * du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras. Använd samma organisations-ID för alla konverteringssidor.
 
    * du ersätta `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
 
-* Om du använder ett tagghanteringssystem som inte har stöd för att lägga till `imsorgid` -variabel till script-taggen och använd sedan följande kod i stället:
+* Om du använder ett tagghanteringssystem som inte stöder tillägg av `imsorgid` -variabel till script-taggen och använd sedan följande kod i stället:
 
-   *Om din organisation använder ett enda organisations-ID:
+  *Om din organisation använder ett enda organisations-ID:
 
-   ```
-   <script>
-   window.ad_cloud = window.ad_cloud || {};
-   window.ad_cloud.userid = "{AMO User ID}"
-   </script>
-   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-   ```
+  ```
+  <script>
+  window.ad_cloud = window.ad_cloud || {};
+  window.ad_cloud.userid = "{AMO User ID}"
+  </script>
+  <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+  ```
 
-   där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
 
-   * Om din organisation använder flera organisations-ID:n:
+   * Om din organisation använder flera organisations-ID:
 
-      ```
-      <script>
-      window.ad_cloud = window.ad_cloud || {};
-      window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
-      window.ad_cloud.userid = "{AMO User ID}"
-      </script>
-      <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
-      ```
+     ```
+     <script>
+     window.ad_cloud = window.ad_cloud || {};
+     window.ad_cloud.imsorgid = "{xxxxxx@AdobeOrg}"
+     window.ad_cloud.userid = "{AMO User ID}"
+     </script>
+     <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
+     ```
 
-      där:
+     där:
 
       * du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras. Använd samma organisations-ID för alla konverteringssidor.
 
@@ -96,7 +98,7 @@ window.ad_cloud.userid = "99999"
 
 ### Var ska taggen läggas till?
 
-Lägg till taggen på en sida som kan vara en landningssida från ett sökklick (helst på alla sidor, eftersom landningssidorna kan ändras över tid). Den måste läsas in före konverteringstaggen JavaScript v3 för Adobe Advertising.
+Lägg till taggen på en sida som kan vara en landningssida från ett sökklick (helst på alla sidor, eftersom landningssidorna kan ändras över tid). Den måste läsas in före konverteringstaggen v3 för JavaScript i Adobe Advertising.
 
 Om den är placerad i en iframe- eller container-tagg:
 

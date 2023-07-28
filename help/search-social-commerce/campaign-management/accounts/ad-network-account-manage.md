@@ -1,7 +1,9 @@
 ---
 title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 >
 >Om du vill skapa ett verkligt konto i annonsnätverket går du till annonsnätverkets webbplats.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -34,7 +36,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
       För annonsnätverk som använder inloggningsauktoriseringstypen &quot;[!UICONTROL oAuth],&quot; tillåter att Search, Social och Commerce får åtkomst till kontot via [OAuth-auktoriseringsprotokoll](https://oauth.net/2/):
 
-      1. Ange **[!UICONTROL Login]** för kontot, ange lösenordet om du vill och klicka sedan på **[!UICONTROL Authenticate]**.
+      1. Ange **[!UICONTROL Login]** för kontot, ange lösenordet och klicka sedan på **[!UICONTROL Authenticate]**.
 
          Det bästa sättet är att använda inloggningen för API-åtkomst till kontot. Ange lösenordet när du vill kryptera och spara det, så att kontogruppen på Adobe kan uppdatera token efter behov.
 
@@ -62,7 +64,7 @@ Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametr
 >
 >Om du vill redigera ett faktiskt konto i annonsnätverket går du till annonsnätverkets webbplats.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Håll markören över kontonamnet och klicka ![Mer](/help/search-social-commerce/assets/more-filters.png "Mer")och sedan markera **[!UICONTROL Edit]**.
 
@@ -88,7 +90,7 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 1. (Om du är inloggad på ett annat konto för samma annonsnätverk i samma webbläsarprogram) Logga ut från något annat konto än annonsörens.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Håll markören över kontonamnet och klicka ![Mer](/help/search-social-commerce/assets/more-filters.png "Mer")och sedan markera **[!UICONTROL Edit]**.
 
@@ -110,7 +112,7 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto stoppar Search, Social och Commerce all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
 1. Gör något av följande:
 
@@ -132,7 +134,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 ### Kontoinformation
 
-**[!UICONTROL SE Account ID]:** (Alla konton utom [!DNL Naver] och [!DNL Yandex] Konton. kan endast redigeras för nya konton) Det konto-ID som tilldelats av annonsnätverket.
+**[!UICONTROL SE Account ID]:** (Alla konton utom [!DNL Naver] och [!DNL Yandex] konton; kan endast redigeras för nya konton) Konto-ID som tilldelats av annonsnätverket.
 
 >[!NOTE]
 >
@@ -142,7 +144,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 >[!NOTE]
 >
->Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot kontaktar du Adobe Account Team så att de kan uppdatera mappningen.
+>Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot kontaktar du ditt kontoteam på Adobe så att de kan uppdatera mappningen.
 
 **[!UICONTROL Login Details]: \[Inloggningstyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras till kontot med:
 
@@ -156,31 +158,31 @@ För [!DNL Microsoft Advertising] konton, endast [!DNL oAuth]-auktoriserade inlo
 
 **[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiverad och alla andra nätverk förutom [!DNL Baidu], [!DNL Meta]och [!DNL Yandex]) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alla annonsnätverk utom [!DNL Naver]) Lösenordet för kontot. För lösenordsaktiverade konton på [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex]är detta fält obligatoriskt. För [!DNL oAuth]-aktiverade konton, detta fält är valfritt; använda den när du vill kryptera och spara lösenordet så att kontohanteraren kan uppdatera tokens efter behov.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alla annonsnätverk utom [!DNL Naver]) Kontots lösenord. För lösenordsaktiverade konton på [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex]är det här fältet obligatoriskt. För [!DNL oAuth]-aktiverade konton, det här fältet är valfritt. Använd det när du vill kryptera och spara lösenordet så att kontohanteraren kan uppdatera tokens efter behov.
 
 **[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] och [!DNL Yandex] endast konton) Åtkomstnyckeln för det utvecklarkonto som ska användas.
 
 **[!UICONTROL Currency]:** Förkortningen för valutan som används för kontot. Det här fältet kan redigeras för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den valuta som konfigurerats för kontot i annonsnätverket när du sparar posten.
 
-**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] och [!DNL Microsoft Advertising] Endast konton. Valfria) Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. innehåller alla parametrar som företaget måste spåra.
+**[!UICONTROL Landing Page Suffix]** ([!DNL Google Ads] och [!DNL Microsoft Advertising] endast konton (valfritt) Alla parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information, inklusive alla parametrar som företaget måste spåra.
 
 Exempel: `param1=value1&param2=value2`
 
-Konton som använder klickspårning i Adobe Advertising måste innehålla annonsnätverkets klickningsidentifierare (`msclkid` for [!DNL Microsoft Advertising]; `gclid` för Google) i suffixet. Konton som är integrerade med Adobe Analytics måste använda `s_kwcid` parameter. Om kontot har en s\_kwcid-implementering på serversidan läggs parametern till automatiskt när en användare klickar på en annons. annars måste du lägga till den manuellt här. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Konton som använder klickspårning i Adobe Advertising måste innehålla annonsnätverkets klickningsidentifierare (`msclkid` for [!DNL Microsoft Advertising]; `gclid` för Google) i suffixet. Konton som är integrerade med Adobe Analytics måste använda `s_kwcid` parameter. Om kontot har en s\_kwcid-implementering på serversidan läggs parametern till automatiskt när en användare klickar på en annons. I annat fall måste du lägga till den manuellt här. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
 >* Det här fältet uppdateras inte av [!UICONTROL Auto Upload] spårningsinställning.
->* Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter behövs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
+>* Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
 
 **Tidszon:** (Alla annonsnätverk utom [!DNL Baidu] och [!DNL Yahoo! Display Network]) Annonsörens tidszon. Det här fältet är redigerbart och valfritt för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den tidszon som konfigurerats för annonserarens konto Sök, Sociala och Commerce när du har sparat posten.
 
 **Status:** Kontostatus i Sök, Socialt och Commerce:
 
 * *Aktiverad:* Sökning, sociala medier och handel synkroniserar kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer.
-* *Inaktiverad:* Sök, Socialt och Commerce stoppar all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod som kontot pausas. Du kan återaktivera kontot senare om du vill återuppta aktiviteten med kontot.
+* *Inaktiverad:* Sök, Socialt och Commerce stoppar all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot pausas. Du kan återaktivera kontot senare om du vill återuppta aktiviteten med kontot.
 
-**Spårningsmall** - ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] Endast konton. (valfritt) Standardspårningsmallen för kontot, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och även bäddar in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
+**Spårningsmall** - ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] endast konton (valfritt) Standardspårningsmallen för kontot, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och även bäddar in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
 
 * Så här bäddar du in den slutliga URL:en:
 
@@ -192,7 +194,7 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 * Du kan också lägga till omdirigeringar och spårning från tredje part.
 
-* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
 
 >[!NOTE]
 >
@@ -202,13 +204,13 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 **[!UICONTROL Master Account ID]:** ([!DNL Microsoft Advertising] endast konton) ID:t för ett agenturkonto/förvaltningskonto som är associerat med kontot.
 
-**[!UICONTROL MCC Account]:** ([!DNL Yandex] Endast konton. valfritt) Ett agentkonto/ledningskonto som är kopplat till kontot. Om du vill ta bort en befintlig association väljer du &quot;[!UICONTROL No MCC Account].&quot;
+**[!UICONTROL MCC Account]:** ([!DNL Yandex] endast konton (valfritt) En byrå/ett förvaltningskonto som är associerat med kontot. Om du vill ta bort en befintlig association väljer du &quot;[!UICONTROL No MCC Account].&quot;
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] endast konton) Den utvecklartoken som ska användas för kontot. Samma token används för alla [!DNL Yandex] konton.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] Konton med inställningen Delat konto endast inaktiverad. valfritt) Det numeriska ID:t för kampanjen som ska användas för att betala för alla annonskampanjer i kontot.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] konton med inställningen Delat konto inaktiverad endast; valfritt) Det numeriska ID:t för kampanjen som ska användas för att betala för alla annonskampanjer i kontot.
 
-**[!UICONTROL Finance Token]:** ([!DNL Yandex] Konton med inställningen Delat konto endast inaktiverad. (valfritt) Den utvecklartoken som ska användas för finansrelaterade API-anrop, t.ex. för att omfördela pengar från plånboken mellan annonserarens kampanjer efter behov för portföljoptimering.
+**[!UICONTROL Finance Token]:** ([!DNL Yandex] konton med inställningen Delat konto inaktiverad endast; valfritt) Den utvecklartoken som ska användas för finansrelaterade API-anrop, t.ex. för omfördelning av pengar från plånboken mellan annonserarens kampanjer efter behov för portföljoptimering.
 
 ### Kontouppföljning
 
@@ -248,7 +250,7 @@ Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klicka
 
 Fullständiga anvisningar finns i &quot;[Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md).&quot;
 
-**Namn på rapportsvit** - (För EF-omdirigering endast med token; annonsörer som är integrerade mellan Adobe Advertising och Adobe Analytics, (valfritt) En eller flera rapportsviter för analyser till vilka Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
+**Namn på rapportsvit** - (For EF Redirect with token only; publishers with an Adobe Advertising-Adobe Analytics integration; optional) One or more Analytics report suites to which Search, Social, &amp; Commerce sending data it samlar in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
 För att data ska kunna visas i rapportsviterna måste antingen (a) serversidan s\_kwcid konfigureras för kontot eller (b) inställningen på annonsörnivå vara &quot;[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
 

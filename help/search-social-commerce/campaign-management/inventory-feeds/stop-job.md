@@ -1,7 +1,9 @@
 ---
 title: Stoppa ett bokföringsjobb för lagerfeed-data
 description: Lär dig hur du stoppar ett bokföringsjobb för lagerflödesdata.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 995dd6f4-fb8c-4b3f-bdc5-1e80d1129f53
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Du kan stoppa bokföring av kampanjdata som genererats från en feed på följan
 
 * Medan data fortfarande sprids stoppar du spridningsjobbet så att inga data är tillgängliga för publicering:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
 
    1. I dialogrutan[!UICONTROL Last Prop. Status]kolumnen bredvid mallnamnet klickar du på **[!UICONTROL Cancel]**.
 
@@ -29,4 +31,3 @@ Du kan stoppa bokföring av kampanjdata som genererats från en feed på följan
 >* [Redigera data som genererats från feeds](propagated-data-edit.md)
 >* [Posta kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
 >* [Status för data som genererats från feeds](propagated-data-status.md)
-

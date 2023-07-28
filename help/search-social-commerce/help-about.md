@@ -1,7 +1,9 @@
 ---
 title: Om den här guiden
 description: Läs vad som beskrivs i respektive kapitel i den här handboken.
-source-git-commit: b857bae4ea175c446072f5dacf82db3845993a45
+exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 * &quot;Introduction&quot; presenterar huvudfunktionerna i Advertising Search, Social, &amp; Commerce.
 
-* &quot;Komma igång&quot; förklarar de viktigaste uppgifterna som ingår i en annonserarimplementering, från att förbereda den första starten till att utföra pågående ledningsuppgifter. och hur användargränssnittet är organiserat.
+* &quot;Komma igång&quot; förklarar de viktigaste uppgifterna som ingår i en annonserarimplementering, från att konfigurera för den första starten till att utföra pågående hanteringsuppgifter samt hur användargränssnittet är organiserat.
 
 * I&quot;Vanliga uppgifter&quot; beskrivs hur du konfigurerar de olika prestandadatavyer baserat på dina informationsbehov och -inställningar, hur du hanterar anpassade mätvärden, hur du hanterar etikettklassificeringar och anbudsbegränsningar samt hur du utför andra vanliga uppgifter.
 
@@ -26,7 +28,7 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 * &quot;Verktyg&quot; förklarar hur du ändrar lösenord, använder verktyg för att generera taggar för klickspårning och konvertering, överför dina konverteringsvärden till [!DNL Google Ads] och era portfoliomål till annonsnätverken för hybridoptimering, ladda upp mätvärden för att spåra kampanjer och replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft Advertising] konton.
 
-* &quot;Administration&quot; förklarar hur annonsörsdata hanteras, inklusive de transaktionsegenskaper som samlas in och eventuella datum som ska uteslutas från portföljprognoser. synkronisera dina konverteringsvärden från en [!DNL Google Analytics] Konto. konfigurera olika inställningar på annonsnivå, och (vissa roller) administrera konton för användare, byråer och annonsörer.
+* &quot;Administration&quot; förklarar hur du hanterar annonsörsdata, inklusive transaktionsegenskaper som samlas in och datum som ska uteslutas från portföljprognoser; synkronisera dina konverteringsvärden från en [!DNL Google Analytics] konto, konfigurera olika inställningar på annonsörnivå och (vissa roller) administrera konton för användare, byråer och annonsörer.
 
 >[!NOTE]
 >

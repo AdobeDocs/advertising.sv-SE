@@ -1,7 +1,9 @@
 ---
 title: Installera och avinstallera [!UICONTROL Notification Center] webbprogram
-description: Lär dig hur du installerar och avinstallerar [!UICONTROL Notification Center] webbprogram.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig installera och avinstallera [!UICONTROL Notification Center] webbprogram.
+exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 
 ## Installera [!UICONTROL Notification Center] webbprogram för [!DNL Google Chrome]
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. Klicka längst ned till höger på ![Webbappen Install Notification Center](/help/search-social-commerce/assets/notifications-install-app.png "Webbappen Install Notification Center").
 
@@ -34,7 +36,7 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 
 * Från Search, Social och Commerce:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+   1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
    1. Klicka längst ned till höger på ![Webbappen Install Notification Center](/help/search-social-commerce/assets/notifications-install-app.png "Webbappen Install Notification Center").
 
@@ -42,9 +44,9 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 
    1. I [!UICONTROL Install Notification Center] appmeddelande, klicka **[!UICONTROL Install]**.
 
-* Från [!DNL Edge] huvudmenyn:
+* Från [!DNL Edge] huvudmeny:
 
-   1. Klicka på **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
+   1. Klicka på i webbläsarens verktygsfält **...** > **[!UICONTROL Apps]** > **[!UICONTROL Install Notification Center]**.
 
    1. I [!UICONTROL Install Notification Center] appmeddelande, klicka **[!UICONTROL Install]**.
 
@@ -64,6 +66,5 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 >* [Visa dina meddelanden](notification-view.md)
 >* [Markera ett meddelande som läst eller oläst](notification-mark-read-unread.md)
 >* [Ta bort ett meddelande](notification-delete.md)
->* [Redigera aviseringsinställningarna](notification-edit.md)
+>* [Redigera meddelandeinställningarna](notification-edit.md)
 >* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
-

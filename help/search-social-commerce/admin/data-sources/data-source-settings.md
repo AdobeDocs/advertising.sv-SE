@@ -3,7 +3,8 @@ title: '''[!DNL Google Analytics] inställningar för datakälla'
 description: Referera till de inställningar som krävs för [!DNL Google Analytics] datakällor.
 role: User, Admin
 exl-id: 531351b4-07f1-43ef-a3d2-892a49ffb5ca
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Data Sources
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 | Avsnitt | Parameter | Beskrivning |
 | ---- | ---- | ---- |
-| [!UICONTROL Connect to Google Analytics] | [!UICONTROL Google Analytics Account ID] | ID för [!DNL Google Analytics] konto från vilket data hämtas. All API-användning för att hämta data faktureras det angivna kontot. Kontot måste ge behörighet att läsa och analysera till den angivna e-postadressen.<br><br>Logga in på [!DNL Google Analytics]. Klicka på uppe till vänster **[!DNL All accounts]** för att öppna en lista över dina konton. ID:t för varje konto finns under kontonamnet. |
-| | [!UICONTROL Google Analytics Login] | Ange den inloggnings-/e-postadress som ska användas för att komma åt data för den här datakällan. Inloggningen måste registreras hos en [!DNL Google] kontot och har behörigheten&quot;Läs och analysera&quot; för [!DNL Google Analytics] konto. Se [instruktioner för att tilldela användarbehörigheter i [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).<br><br><b>Obs!</b> Om du ändrar lösenordet för det här inloggningskontot stängs alla öppna anslutningar till kontot. Om du vill återuppta synkroniseringen av data går du tillbaka till den här sidan och [reauthenticate](data-source-reauthenticate.md). |
-| [!UICONTROL Account Details] | [!UICONTROL Google Analytics Account Name] | (Skrivskyddad; endast anslutna konton) Kontonamnet. |
+| [!UICONTROL Connect to Google Analytics] | [!UICONTROL Google Analytics Account ID] | ID:t för [!DNL Google Analytics] konto från vilket data hämtas. All API-användning för att hämta data faktureras det angivna kontot. Kontot måste ge behörighet att läsa och analysera till den angivna e-postadressen.<br><br>Logga in på [!DNL Google Analytics]. Klicka på uppe till vänster **[!DNL All accounts]** för att öppna en lista över dina konton. ID:t för varje konto finns under kontonamnet. |
+| | [!UICONTROL Google Analytics Login] | Ange den inloggnings-/e-postadress som ska användas för att komma åt data för den här datakällan. Inloggningen måste registreras hos en [!DNL Google] kontot och har behörighet att läsa och analysera för [!DNL Google Analytics] konto. Se [instruktioner för att tilldela användarbehörigheter i [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).<br><br><b>Obs!</b> Om du ändrar lösenordet för det här inloggningskontot stängs alla öppna anslutningar till kontot. Om du vill återuppta synkroniseringen av data går du tillbaka till sidan och [reauthenticate](data-source-reauthenticate.md). |
+| [!UICONTROL Account Details] | [!UICONTROL Google Analytics Account Name] | (Skrivskyddat, endast anslutna konton) Kontonamnet. |
 | | [!UICONTROL Google Analytics Property] | Egenskapen (webbplats, mobilprogram eller enhet) varifrån data ska samlas in för [!DNL Google Analytics] konto.<br><br> Om du vill integrera mätvärden för flera egenskaper skapar du en separat datakälla för varje egenskap. |
 | | [!UICONTROL Google Analytics View] | Vyn som innehåller den datauppsättning som du vill komma åt. Om egenskapen har flera vyer bör du dra den ofiltrerade vyn på den högsta nivån, som innehåller alla data.<br><br>Om du vill integrera mätvärden för flera vyer för samma egenskap skapar du en separat datakälla för varje vy. Se till att vyerna inte innehåller överlappande data. |
 | | [!UICONTROL Google Analytics Dimension] | The [!DNL Google Analytics] anpassad dimension som är ifylld med värdet på frågesträngsparametern &quot;ef_id&quot; i Adobe Advertising. Om du inte ser rätt dimension i listan kontaktar du [!DNL Google Analytics] implementeringsteamet.<br><br>&quot;ef_id&quot; används som primärnyckel för att skicka data från [!DNL Google Analytics] till Adobe Advertising. |

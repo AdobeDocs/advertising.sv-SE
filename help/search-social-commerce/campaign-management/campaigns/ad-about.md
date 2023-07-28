@@ -1,7 +1,9 @@
 ---
 title: Hantera annonser
 description: Läs mer om annonser i sökningar, sociala medier och handel, inklusive tillgängliga annonstyper.
-source-git-commit: eaf08dedb14bdf0c0be087e48c79bbf21b0990aa
+exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
 
-En annons kan visas på en målwebbplats (för innehåll eller placeringsriktade kampanjer). när en användare söker efter ett av nyckelorden i annonsgruppen (för sökkampanjer) eller efter innehåll på din webbplats (dynamiska sökannonser i [!DNL Google Ads] sökkampanjer), eller när en användare gör en sökning som är relevant för ett av objekten i [!DNL Google Merchant Center] eller [!DNL Microsoft® Merchant Center] produktflöde (shoppingannonser i [!DNL Google Ads] eller produktannonser i [!DNL Microsoft® Advertising] kampanjer).
+En annons kan visas på en målwebbplats (för innehåll eller placeringsriktade kampanjer), när en användare söker efter något av nyckelorden i annonsgruppen (för sökkampanjer) eller efter innehåll på din webbplats (dynamiska sökannonser i [!DNL Google Ads] sökkampanjer) eller när en användare gör en sökning som är relevant för något av objekten i [!DNL Google Merchant Center] eller [!DNL Microsoft® Merchant Center] produktflöde (shoppingannonser i [!DNL Google Ads] eller produktannonser i [!DNL Microsoft® Advertising] kampanjer).
 
 ## Tillgängliga annonstyper
 
@@ -20,7 +22,7 @@ Du kan skapa och hantera annonstyper som stöds för annonsgrupper i ett synkron
 
 * **Textannonser eller utökade textannonser** för en annonsgrupp i en kampanj som riktar sig till söknätverket. Textannonser kan innehålla valfria spårningsparametrar som åsidosätter parametrarna på annonsgrupps- eller kampanjnivå. Beroende på annonsnätverket kan du skapa antingen utökade/utökade textannonser eller standardtextannonser.
 
-* Enhetsoberoende, inbyggt **målgruppsannonser** for [!DNL Microsoft® Advertising] på [!DNL Microsoft® Audience Network]. Du har två alternativ för målgruppsannonser, baserat på kampanjinställningarna:
+* Enhetsoberoende, inbyggt **publikannonser** for [!DNL Microsoft® Advertising] på [!DNL Microsoft® Audience Network]. Du har två alternativ för målgruppsannonser, baserat på kampanjinställningarna:
 
    * Om kampanjen är länkad till en handlares centerbutik kan annonsnätverket automatiskt generera annonser som är baserade på kampanjen, med hjälp av butikens produktinformation. Ni behöver inte skapa flödesbaserade annonser för kampanjen, men ni måste skapa annonsgrupper med målinriktning mot användarna.
 
@@ -30,11 +32,11 @@ Du kan skapa och hantera annonstyper som stöds för annonsgrupper i ett synkron
 
 * **Utökade dynamiska sökannonser** (kallas nu bara&quot;dynamiska sökannonser&quot; i annonsnätverken) för [!DNL Google Ads] och [!DNL Microsoft® Advertising] dynamiska sökannonser i sökkampanjer. Dynamiska sökannonser använder innehåll från er webbplats, i stället för nyckelord, för att bestämma när era annonser ska visas. Annonsnätverket genererar rubriken dynamiskt, väljer landningssidans URL och visar URL och genererar automatiskt den slutliga URL:en.
 
-  Du kan definiera sidorna på dina webbplatser vars innehåll används för att rikta in dina dynamiska sökannonser genom att ange specifika dynamiska sökmål för annonsgruppen. För [!DNL Google Ads]kan du skapa dynamiska sökmål i Sök, Social och Commerce; for [!DNL Microsoft® Advertising]måste du skapa dem i [!DNL Microsoft® Advertising]. I [!DNL Google Ads] -kampanjer kan du om du vill ange en webbplatsdomän och ett språk i kampanjens&quot;[!DNL DSA Options]&quot; i stället för, eller utöver, att skapa dynamiska sökmål.
+  Du kan definiera sidorna på dina webbplatser vars innehåll används för att rikta in dina dynamiska sökannonser genom att ange specifika dynamiska sökmål för annonsgruppen. För [!DNL Google Ads]kan du skapa dynamiska sökmål i Sök, Social och Commerce; för [!DNL Microsoft® Advertising]måste du skapa dem i [!DNL Microsoft® Advertising]. I [!DNL Google Ads] -kampanjer kan du om du vill ange en webbplatsdomän och ett språk i kampanjens&quot;[!DNL DSA Options]&quot; i stället för, eller utöver, att skapa dynamiska sökmål.
 
   När en användares sökord exakt matchar ett nyckelord i en av dina nyckelordsbaserade kampanjer visas en annons från den nyckelordsbaserade kampanjen i stället för en dynamisk sökannons. Annonsnätverket visar en dynamisk sökannons i stället för en nyckelordsriktad annons när användarens sökord är en bred matchning eller frasmatchning med något av dina nyckelord och din dynamiska sökannons har en högre annonsrankning.
 
-  Mer information om dynamiska sökannonser finns i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2471185) och [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
+  Mer information om annonser för dynamiska sökningar finns i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2471185) och [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/ads/en/56794).
 
 * **Multimediaannonser** for [!DNL Microsoft® Advertising] sökkampanjer. Multimediaannonser är stora bildannonser som visas på framträdande huvudlinje- och sidofältspositioner, och endast en multimediaannons visas per sida. De kan innehålla flera text- och bildresurser, som responsiva annonser, och annonsnätverket sätter ihop annonserna med de mest effektiva kombinationerna av annonselement. Multimediaannonser ersätter inte er text och era placeringar.
 
@@ -48,7 +50,7 @@ Du kan skapa och hantera annonstyper som stöds för annonsgrupper i ett synkron
 
 >[!NOTE]
 >
->[!DNL Google Ads] inte tillhandahåller data utanför sina redaktörer om de textkombinationer som visades som annonser. Mer information om rapportering för varje textkombination finns i [Google Ads-dokumentation](https://support.google.com/google-ads/answer/7684791).
+>[!DNL Google Ads] inte tillhandahåller data utanför sina redaktörer om de textkombinationer som visades som annonser. Mer information om hur du rapporterar för varje textkombination finns i [Google Ads-dokumentation](https://support.google.com/google-ads/answer/7684791).
 
 ## The [!UICONTROL Ads] visa
 
@@ -60,7 +62,7 @@ Data på annonsnivå är tillgängliga för de flesta annonstyper.
 
 Det är dock inte tillgängligt för [!DNL Google Ads] dynamisk sökannons (DSA), prestanda max, smart shopping och [!DNL YouTube] kampanjer. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
 
-| Annonsnätverk/kampanj/annonstyp | Datatillgänglighet |
+| Annonsnätverk/kampanj/annonstyp | Datatillgång |
 |---|---|
 | [!DNL Google Ads] dynamisk sökannons (DSA) | Campaign, annonsgrupp |
 | [!DNL Google Ads] max | Campaign |

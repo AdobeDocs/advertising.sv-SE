@@ -1,7 +1,9 @@
 ---
 title: Visa [!UICONTROL Change History] rapport
 description: Lär dig hur du visar de senaste ändringarna av annonserarkontot.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 822fa5eb-b7b4-4f32-9cee-984f4e96b978
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -10,23 +12,24 @@ ht-degree: 0%
 
 # Visa [!UICONTROL Change History] rapport
 
-The [!UICONTROL Change History] rapporten innehåller en logg över de senaste 31 dagarnas ändringar av annonskontot. Den kan innehålla ändringar av följande typer av objekt: -användare (annonsörer), portföljer, kampanjer, annonsgrupper, annonser, nyckelord, utplaceringar och produktmål. Som standard visas ändringarna för två dagar sedan.
+The [!UICONTROL Change History] rapporten innehåller en logg över de senaste 31 dagarnas ändringar av annonskontot. Det kan omfatta ändringar av följande typer av objekt: användare (annonsörer), portföljer, kampanjer, annonsgrupper, annonser, nyckelord, placeringar och produktmål. Som standard visas ändringarna för två dagar sedan.
 
 Du kan sortera och filtrera data efter valfri kolumn.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
+1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Change History]**.
 
 1. (Valfritt) Ändra data som ingår i rapporten på något av följande sätt:
 
-   * (Om du vill visa eller dölja kolumner klickar du på ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-expand.png "Nedåtpil") till höger om en kolumnrubrik, markera **[!UICONTROL Columns]** och markera sedan kryssrutan intill varje kolumn som ska tas med och avmarkera kryssrutan intill varje kolumn som ska uteslutas.
+   * (Om du vill visa eller dölja kolumner klickar du på ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-expand.png "Nedåtpil") till höger om en kolumnrubrik, markera **[!UICONTROL Columns]** och markera sedan kryssrutan intill varje kolumn som ska tas med och avmarkera kryssrutan intill varje kolumn som ska tas bort.
 
-      Kolumnkonfigurationen tillämpas på din vy för alla dina annonsörer.
+     Kolumnkonfigurationen tillämpas på din vy för alla dina annonsörer.
 
    * (Om du vill filtrera data efter kolumnvärde) Gör något av följande:
 
       * [Använda ett filter med **[!UICONTROL Add Filter]** link](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
       * [Använda ett filter från en kolumnrubrikmeny](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
    * (Så här ändrar du datumintervallet för rapporten):
 
       1. Ovanför datatabellen klickar du på det aktuella datumintervallet.
@@ -37,14 +40,13 @@ Du kan sortera och filtrera data efter valfri kolumn.
 
          * (För ett visst intervall) — Välj **[!UICONTROL Custom Date Range]** och ange sedan startdatum och slutdatum.
 
-            Ange datum i formatet MM/DD/ÅÅÅÅ eller MM-DD-ÅÅÅÅ, eller klicka ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") intill varje fält för att öppna kalendern och välja ett datum. Du kan bara inkludera data för de senaste 31 dagarna.
+           Ange datum i formatet MM/DD/ÅÅÅÅ eller MM-DD-ÅÅÅÅ, eller klicka ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") intill varje fält för att öppna kalendern och välja ett datum. Du kan bara inkludera data för de senaste 31 dagarna.
+
       1. Klicka på **[!UICONTROL Apply]**.
-
-
 
 1. (Valfritt) Ladda ned en kopia av rapporten:
 
-   1. Ovanför datatabellen klickar du på **[!UICONTROL Download]**.
+   1. Ovanför datatabellen klickar du **[!UICONTROL Download]**.
 
       När rapporten är klar listas den i [!UICONTROL Download] -menyn.
 

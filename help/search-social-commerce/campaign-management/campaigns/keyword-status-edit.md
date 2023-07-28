@@ -1,7 +1,9 @@
 ---
 title: Ändra status för nyckelord och negativa nyckelord
 description: Lär dig hur du ändrar status för nyckelord och negativa nyckelord.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c1562104-048e-486d-b20c-3c15f089324d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Du kan pausa ett aktivt söknyckelord om du vill inaktivera budgivning. Du kan �
 
 Du kan också ta bort aktiva eller pausade söknyckelord eller negativa nyckelord. Borttagna nyckelord/negativa nyckelord tas bort från annonsnätverket. De är fortfarande synliga, men du kan inte ändra dem.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] > \[[!UICONTROL Keywords] \| [!UICONTROL Negatives]\]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika nyckelord eller negativa nyckelord.
 
@@ -28,11 +30,10 @@ Du kan också ta bort aktiva eller pausade söknyckelord eller negativa nyckelor
 
    * (Endast dolda nyckelord) Om du vill pausa raderna klickar du på ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa").
 
-   * Om du vill ta bort raderna klickar du på ![Mer](/help/search-social-commerce/assets/more.png "Mer") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
+   * Klicka på om du vill ta bort raderna ![Mer](/help/search-social-commerce/assets/more.png "Mer") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Om nyckelord](keyword-about.md)
 >* [Hantera anbudsnyckelord](keyword-manage.md)
 >* [Skapa negativa nyckelord](keyword-negative-create.md)
-

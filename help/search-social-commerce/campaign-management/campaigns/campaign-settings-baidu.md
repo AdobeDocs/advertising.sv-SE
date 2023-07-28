@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] kampanjinställningar"
+title: '''[!DNL Baidu] kampanjinställningar'
 description: Referera inställningarna för [!DNL Baidu] kampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 842df637-e7dc-4493-bcdb-a29b478cd350
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -82,4 +84,3 @@ Hur ofta sökmotorn levererar dina aktiva annonser i relation till varandra inom
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Frågor och svar om spårning
 description: Lär dig svar på vanliga frågor om spårning, inklusive felsökning.
-source-git-commit: f5e2044af460ebf561e075ed6b1fb057ed47acc3
+exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 +++Kan jag spåra kampanjer som Adobe Advertising inte klarar?
 
-Ja. Om Search, Social, &amp; Commerce synkroniserar ett av dina annonsnätverkskonton spåras annonsnätverkets klickdata för alla [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) på det kontot. Konverteringsdata spåras även om du har lagt till omdirigeringen Sök, Socialt och Commerce till dina annons- och/eller nyckelordsmål-URL:er eller spårningsmallar och implementerat konverteringsspårning på konverteringssidorna. Förtydliga med ert Adobe Account Team vilka kampanjer ni vill att Search, Social och Commerce ska spåra och vilka ni vill att de ska hantera.
+Ja. Om Search, Social, &amp; Commerce synkroniserar ett av dina annonsnätverkskonton spåras annonsnätverkets klickdata för alla [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) på det kontot. Konverteringsdata spåras även om du har lagt till omdirigeringen Sök, Socialt och Commerce till dina annons- och/eller nyckelordsmål-URL:er eller spårningsmallar och implementerat konverteringsspårning på konverteringssidorna. Förtydliga med ert Adobe Account Team vilka kampanjer ni vill att Search, Social och Commerce ska spåra och vilka ni vill att de ska hantera.
 +++
 
 +++Hur får jag attribuering vid flera händelser?
@@ -25,7 +27,7 @@ Annonsörer som tillhandahåller alla konverteringsdata i en feed-fil måste sj�
 
 >[!NOTE]
 >
->I vyer för kampanjhantering och portföljhantering, rapporter och (tillgängliga för vissa användare) anpassade simuleringar kan du ändra regeln som används för att attributera konverteringsdata i vyerna och rapportresultaten, utan att påverka hur framtida offerter beräknas.
+>I vyer för kampanjhantering och portföljhantering, rapporter och (tillgängliga för vissa användare) anpassade simuleringar kan du ändra regeln som används för att attributera konverteringsdata i vyerna och rapportresultaten, utan att det påverkar hur framtida offerter beräknas.
 
 +++
 
@@ -35,11 +37,11 @@ Dubblerade transaktioner kan inträffa när en användare uppdaterar bekräftels
 
 Följande är Adobe Advertising-dupliceringslogik:
 
-* **När en kund skickar ett värde för `ev_transid` attribute:** Efterföljande pixelbegäranden betraktas som dubbletter av det föregående om följande är desamma: den `ev_transid`; Spårnings-ID för samma nyckelord, annons eller placering. och värdet för en specifik transaktionsegenskap.
+* **När en kund skickar ett värde för `ev_transid` attribute:** Efterföljande pixelbegäranden betraktas som dubbletter av det föregående om följande är desamma: `ev_transid`; spårnings-ID för samma nyckelord, annons eller placering samt värdet för en viss transaktionsegenskap.
 
   Om flera låneansökningar till exempel har samma program-ID och lånebelopp för samma nyckelord i ett visst annonsnätverk betraktas de som dubbletter och endast den första låneansökan räknas.
 
-* **När en klient inte skickar något värde för `ev_transid` attribute:** Efterföljande transaktioner betraktas som dubbletter av det föregående om de delar ett spårnings-ID för samma nyckelord, annons eller placering. och samma värde för en specifik transaktionsegenskap.
+* **När en klient inte skickar något värde för `ev_transid` attribute:** Efterföljande transaktioner betraktas som dubbletter av det föregående om de delar ett spårnings-ID för samma nyckelord, annons eller placering, och samma värde för en viss transaktionsegenskap.
 
   Om flera låneansökningar till exempel har samma nyckelord-ID och lånebelopp betraktas de som dubbletter och endast den första låneansökan räknas.
 +++
@@ -50,14 +52,14 @@ Följande är Adobe Advertising-dupliceringslogik:
 
 Ta först kontakt med ditt Adobe-kontoteam för att ta reda på vad det innebär att ta bort spårnings-URL:er.
 
-I kontot eller kampanjen ändrar du spårningsmetoden till[!UICONTROL No EF Redirect].&quot; Skapa sedan ett kalkylblad med hjälp av[!UICONTROL Generate Tracking URLs]och lägga in det i annonsnätverket. Alla befintliga spårnings-URL:er eller mål-URL:er ersätts.
+I kontot eller kampanjen ändrar du spårningsmetoden till[!UICONTROL No EF Redirect].&quot; Skapa sedan ett kalkylblad med[!UICONTROL Generate Tracking URLs]och lägga in det i annonsnätverket. Alla befintliga spårnings-URL:er eller mål-URL:er ersätts.
 +++
 
 ## Datafrågor
 
 +++Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller spåras av taggen för spårning av konvertering i Adobe Advertising?
 
-I en [!UICONTROL Transaction Report]kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln för konvertering av Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spårnings-URL:er med spårningspixeln Adobe Advertising börjar med `http://pixel.everesttech.net`.
+I en [!UICONTROL Transaction Report]kan du se om en inkluderad transaktionsegenskap spårades av Adobe Advertising-konverteringsspårningspunkten om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spårnings-URL:er med spårningspixeln Adobe Advertising börjar med `http://pixel.everesttech.net`.
 +++
 
 +++Vad är överblivna transaktioner?

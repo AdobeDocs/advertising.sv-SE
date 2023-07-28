@@ -1,7 +1,9 @@
 ---
 title: Implementera [!DNL Naver] konton med enbart spårning
 description: Lär dig hur du ställer in spårningskampanjer för [!DNL Naver] så att ni kan spåra, rapportera om och visualisera resultatet för de annonser ni köper direkt från annonsnätverket.
-source-git-commit: c4848da6c5489a5128a0424eef6a12f2c51caa12
+exl-id: 8013d4e8-0b4f-41a7-9c1b-10c55349930f
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Ni kan spåra resultatvärden för alla era kampanjer och för alla enskilda kam
 
       Sökning, sociala medier och handel inkluderar automatiskt parametern `ev_cl={ef_uniqueid}` i alla spårnings-URL:er som genereras i kalkylblad för kontot. Detta unika ID används för att matcha kampanjdata med alla kostnader och klicka på data som du överför.
 
-   1. Ställ in kampanjer att spåra:
+   1. Ställ in kampanjer för att spåra:
 
       1. I annonsnätverket skapar du en kalkylbladsfil som innehåller alla entiteter, och de överordnade entiteter som krävs, som du vill att Sök efter, Socialt och Commerce ska spåra för kontot.
 
@@ -47,6 +49,7 @@ Ni kan spåra resultatvärden för alla era kampanjer och för alla enskilda kam
 1. Ställ in spårning för kampanjerna:
 
    1. I sökmotorkampanjer, sociala medier och handel [ladda ned en ny kalkylbladsfil](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) med alternativet att[!UICONTROL Generate Tracking URLs].&quot;
+
    Använda &quot;[!UICONTROL Generate Tracking URLs]&quot; fyller i [!UICONTROL Destination URL] fält för varje nyckelord med spårningskoden Sök, Social och Commerce, som är prefix till [!UICONTROL Base URL] värde.
 
    Följande är ett exempel på mål-URL med spårning:
@@ -57,12 +60,11 @@ Ni kan spåra resultatvärden för alla era kampanjer och för alla enskilda kam
 
       Du kan eventuellt lägga till URL:er till relevanta enheter genom att överföra filen till nätverket i annonsnätverkets redigerare. I så fall kan du behöva ta bort vissa kolumner, enligt nätverkets datakrav. Annars måste du ange URL:erna manuellt i nätverket.
 
-
 1. Hämta klicknings- och kostnadsdata varje dag från annonsnätverket för de nyckelord eller annonser på gruppnivå som ni spårar, och sedan [ladda upp klicknings- och kostnadsdata](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md) till sökning, sociala medier och handel i [obligatoriskt format](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md).
 
-   Inkludera den fullständiga kontohierarkin och alla mått som du vill inkludera. Sök, Socialt och e-handel matchar överförda data med data i befintliga kampanjer.
+   Inkludera den fullständiga kontohierarkin och alla mått som du vill inkludera. Sök, Socialt och e-handel matchar överförda data med befintliga kampanjdata.
 
-1. (Valfritt) Om du använder taggar för konverteringsspårning i Adobe på dina webbsidor för att spåra konverteringar som inte spåras i annonsnätverket skickar du feedsfiler med daglig aggregerad konverteringsinformation som läggs till i dina spårningskampanjer.
+1. (Valfritt) Om du använder servicemärken för spårning av konvertering i Adobe Advertising på dina webbsidor för att spåra konverteringar som inte spåras i annonsnätverket skickar du flödesfiler med daglig aggregerad konverteringsinformation som läggs till i dina spårningskampanjer.
 
    Kontakta kontoteamet på Adobe om du vill ha mer information.
 
@@ -74,4 +76,3 @@ Alla överförda spårningsdata är tillgängliga från [!UICONTROL Search] > [!
 >* [Ladda upp trafik- och konverteringsstatistik för [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
 >* [Krav för mätdata för [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-data-requirements.md)
 >* [Klickningsspårningsformat för [!DNL Naver]](/help/search-social-commerce/tracking/formats-click-tracking-naver.md)
-

@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] annonsinställningar endast för samtal"
+title: '''[!DNL Google Ads] annonsinställningar som bara kan anropas'
 description: Referera inställningarna för [!DNL Google Ads] annonser som bara kan användas på samtal.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1f810c2b-9c30-43c6-bda6-07609423ef79
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
@@ -24,9 +26,9 @@ Se [!DNL Google Ads] hjälp för [annonsbegränsningar per konto](https://suppor
 
 **[!UICONTROL Country]:** (Valfritt) Det land där företaget är beläget.
 
-**[!UICONTROL Phone Number]:** Telefonnumret till företaget. Exempel: (124) 123-4567, 12345678901, +441234567890.
+**[!UICONTROL Phone Number]:** Telefonnumret till företaget. Exempel: (124) 123-4567, 12345678901, +41234567890.
 
-**[!UICONTROL Description 1], [!UICONTROL Description 2]:** Den första och andra raden i annonsens brödtext. Den maximala längden för varje rad är 35 eller 17 dubbelbyte-tecken.
+**[!UICONTROL Description 1], [!UICONTROL Description 2]:** Den första och andra raden i annonsen. Den maximala längden för varje rad är 35 eller 17 dubbelbyte-tecken.
 
 Syntaxen för nyckelordsersättning räknas inte in i maxlängden. Till exempel &quot;`{Description1: Free Account Analysis!}`&quot; behandlas som 22 tecken (endast delen &quot;kostnadsfri kontoanalys\!&quot;).
 
@@ -42,9 +44,9 @@ Den maximala längden är 35 enkelbyte- eller 17 dubbelbyte-tecken. Syntaxen fö
 
 **[!UICONTROL Is Tracked]:** Aktiverar samtalsspårning och endast samtalskonverteringar.
 
-**[!UICONTROL Count calls as phone call conversions]:** (När &quot;[!UICONTROL Is Tracked]&quot; är valt; (valfritt) Attributerar alla anrop som är ett resultat av annonsen till en viss typ av konvertering av telefonsamtal, när ett sådant har angetts. I annat fall [!DNL Google Ads] skapar en standardkonverteringsåtgärd med namnet &quot;[!UICONTROL Calls from ads]&quot; när den registrerar minst en konvertering från dina vidarebefordringsnummer och sedan attributar anrop till den.
+**[!UICONTROL Count calls as phone call conversions]:** (När &quot;[!UICONTROL Is Tracked]&quot; är valt; valfritt) Attributerar alla anrop som är ett resultat av annonsen till en viss typ av telefonsamtalskonvertering, när ett sådant har angetts. I annat fall [!DNL Google Ads] skapar en standardkonverteringsåtgärd med namnet &quot;[!UICONTROL Calls from ads]&quot; när den registrerar minst en konvertering från dina vidarebefordringsnummer och sedan attributar anrop till den.
 
-**[!UICONTROL Count Action]:** (När &quot;[!UICONTROL Count calls as phone call conversions]&quot; är valt; (valfritt) Den befintliga konverteringsåtgärden som anrop tilldelas till.
+**[!UICONTROL Count Action]:** (När &quot;[!UICONTROL Count calls as phone call conversions]&quot; är markerat; valfritt) Den befintliga konverteringsåtgärden som anrop tilldelas till.
 
 Du kan skapa och hantera konverteringsåtgärder i [!DNL Google Ads].
 
@@ -58,4 +60,3 @@ Du kan skapa och hantera konverteringsåtgärder i [!DNL Google Ads].
 >* [Hantera annonser](ad-manage.md)
 >* [[!DNL Google Ads] expanderade dynamiska sökannonsinställningar](ad-settings-google-dsa.md)
 >* [[!DNL Google Ads] inställningar för responsiv sökning och](ad-settings-google-rsa.md)
-

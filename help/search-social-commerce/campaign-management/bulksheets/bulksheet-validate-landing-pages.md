@@ -1,7 +1,9 @@
 ---
 title: Validera landningssidor i kalkylbladsfiler
-description: Lär dig hur du validerar mål-URL:er i en enda kontonyckelarksfil.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du validerar mål-URL:er i en enda kontolktsfil.
+exl-id: cf703687-1151-46f6-9540-12a83d41dfc8
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -23,8 +25,7 @@ Du kan hämta filen senare, korrigera felen och överföra den korrigerade filen
 >* Den här funktionen validerar inte värden i kolumnen Bas-URL/Slutlig URL.
 >* Du kan publicera kalkylbladsfiler medan de valideras, eller även om fel hittas.
 
-
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]**.
 
 1. Markera kryssrutan bredvid varje fil som ska valideras.
 
@@ -47,7 +48,6 @@ När aktiviteten startas läggs en ny rad till i [!UICONTROL Bulksheets view]. N
 >* Stora filer tar längre tid att validera.
 >* Bulkbladsfiler för flera kampanjer kan innehålla upp till 500 000 datarader. Om ni genererar data för flera kampanjer och de kombinerade data består av över 500 000 rader, delas data upp efter kampanj i två eller flera filer med namnet `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`och så vidare.
 
-
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjdata med hjälp av kalkylblad](bulksheet-about.md)
@@ -56,4 +56,3 @@ När aktiviteten startas läggs en ny rad till i [!UICONTROL Bulksheets view]. N
 >* [Stoppa ett pågående bulkbladsjobb](bulksheet-stop-job.md)
 >* [Överför ett kalkylblad eller en korrigerad felfil](bulksheet-upload.md)
 >* [Exportera en genererad eller överförd kalkylbladsfil](bulksheet-export.md)
-

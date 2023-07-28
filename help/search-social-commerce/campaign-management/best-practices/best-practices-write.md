@@ -1,7 +1,9 @@
 ---
 title: Skriv gällande text och text
 description: Lär dig mer om de bästa sätten att skriva effektiva annonskopior.
-source-git-commit: c31c8615ecbd24b03c47563aee499fc1d865ea36
+exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -50,7 +52,7 @@ ht-degree: 0%
 
 * Inkludera produkten, tjänsten och annan information (t.ex. kampanjer) i beskrivningen/brödtexten.
 
-* Nå ut till rätt punkt snabbt: innehåller den mest relevanta informationen om verksamheten först.
+* Nå ut i centrum: inkludera den mest relevanta informationen om verksamheten först.
 
 * Relatera annonsen till erbjudanden som finns på landningssidan för att hjälpa användarna att slutföra säljcykeln.
 
@@ -60,13 +62,13 @@ ht-degree: 0%
 
 * Om det är möjligt använder du nyckelordet både i rubriken/titeln och på båda raderna i beskrivningen/brödtexten. [1]
 
-* Inkludera alltid ett anrop till åtgärd i texten, till exempel&quot;Visa&quot;,&quot;Checka ut&quot;,&quot;Ordna&quot; eller&quot;Registrera dig&quot;, för att öka klickfrekvensen. För bildannonser ska du inkludera uppmaningen att agera på en knapp som länkar till din webbplats; för multimediereklam, inkludera uppmaningen att agera i en tidig bildruta.
+* Inkludera alltid ett anrop till åtgärd i texten, till exempel&quot;Visa&quot;,&quot;Checka ut&quot;,&quot;Ordna&quot; eller&quot;Registrera dig&quot;, för att öka klickfrekvensen. För bildannonser inkluderar du uppmaningen att agera på en knapp som länkar till webbplatsen. För multimediereklam inkluderar du uppmaningen att agera i en tidig bildruta.
 
 * Var lyhörd för hur annonsören vill att varumärket ska uppfattas. En annonsör kanske inte vill att ordet&quot;billig&quot; ska visas i annonserna.
 
-* Se vad era konkurrenter gör. Titta på de främsta annonserna för ett space (på webbplatser som www.spyfu.com) och försök förstå vilka annonser som fungerar.
+* Ta reda på vad era konkurrenter gör. Titta på de främsta annonserna för ett space (på webbplatser som www.spyfu.com) och försök förstå vilka annonser som fungerar.
 
-[1]: Om du använder nyckelordsinfogning använder du rätt skiftläge för infogningskoden:
+[1]: Om du använder nyckelordsinfogning ska du använda rätt skiftläge för infogningskoden:
 
 `{keyword:default}` = gräsklippare
 
@@ -74,7 +76,7 @@ ht-degree: 0%
 
 `{KeyWord:default}` = gräsklippare
 
-`{KEYWord:default}` = LAWN Mowers (vilket endast är tillåtet om&quot;LAWN&quot; är ett varumärke)
+`{KEYWord:default}` = LAWN Mowers (vilket endast är tillåtet om LAWN är ett varumärke)
 
 `{KeyWORD:default}` = gräva MOWERS (vilket endast är tillåtet om&quot;MOWERS&quot; är ett varumärke)
 

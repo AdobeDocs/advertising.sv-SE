@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Forecast Accuracy Report]"
+title: '[!UICONTROL Forecast Accuracy Report]'
 description: Lär dig mer om rapporten om prognosnoggrannhet, inklusive datakolumner.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
+feature: Search Reports, Search Model Accuracy Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -24,7 +26,6 @@ Du kan visa data för de föregående 18 månaderna.
 >
 >* När nyckelord i portföljen är kopplade till begränsningar för budskift, kommer portföljens över- eller underutgifter att motsvara det totala belopp som orsakas av budskiftet. Det innebär att de beräknade kostnadskolumnerna avviker från målutgifterna genom de ökade eller minskade utgifterna.
 
-
 ## Tillgängliga kolumner
 
 Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkluderas automatiskt som standard. Du kan lägga till tillgängliga anpassade kolumner från [!UICONTROL Columns] i rapportinställningarna.
@@ -43,10 +44,10 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL Cost Accuracy] | Standard | Kostnadsprognosens exakthet, uttryckt i procent. |
 | [!UICONTROL Predicted Clicks] | Standard | Antal klick som förutsetts för portföljen. |
 | [!UICONTROL Clicks] | Standard | Det faktiska antalet klick för portföljen. |
-| [!UICONTROL Click Accuracy] | Standard | Precisionen för klickprognosen, uttryckt i procent. |
-| [!UICONTROL EF Portfolio Group ID] | Standard | Det numeriska ID:t för portföljgruppen som portföljen tillhör. |
+| [!UICONTROL Click Accuracy] | Standard | Exaktheten för klickprognosen, uttryckt i procent. |
+| [!UICONTROL EF Portfolio Group ID] | Standard | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio Group Name] | Standard | Namnet på den portföljgrupp som portföljen tillhör. |
-| [!UICONTROL Portfolio ID] | Standard | Det numeriska portfölj-ID:t. |
+| [!UICONTROL Portfolio ID] | Standard | Numeriskt portfölj-ID. |
 
 <table style="table-layout:auto">
 
@@ -56,4 +57,3 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 >* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Generera en modellnoggrannhetsrapport](model-accuracy-report-generate.md)
 >* [Rapportinställningar för modellprecision](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
-

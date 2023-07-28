@@ -1,7 +1,9 @@
 ---
 title: Konfigurera ett FTP-konto för överföring av kalkylblad
 description: Lär dig hur du begär ett FTP-konto för att överföra kalkylbladsfiler.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -28,4 +30,3 @@ Hämtade kalkylbladsfiler, och eventuella felfiler som skapas vid publiceringen,
 >
 >* [Hantera kampanjdata med hjälp av kalkylblad](bulksheet-about.md)
 >* [Överför ett kalkylblad eller en korrigerad felfil](bulksheet-upload.md)
-

@@ -2,7 +2,8 @@
 title: Visa rekommendationsloggen för en [!DNL Google Ads] konto
 description: Lär dig hur du visar en logg över varje rekommendation som har tillämpats på en [!DNL Google Ads] konto.
 exl-id: 97db1e9e-6cd8-406f-8fd5-fbb85315fdf6
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Du kan visa en logg över varje rekommendation som har tillämpats för en [!DNL
 
 Avvisade rekommendationer är inte tillgängliga från annonsnätverket.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 

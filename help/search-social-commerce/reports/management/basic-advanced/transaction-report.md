@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Transaction Report]"
+title: '[!UICONTROL Transaction Report]'
 description: Läs mer om [!UICONTROL Transaction Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
+feature: Search Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Du kan visa data för de senaste 45 dagarna.
 >
 >* Om flera budenheter med olika matchningstyper har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
 >* Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer eller i displaykampanjer eller sociala kampanjer (som inte innehåller nyckelord), ska [!UICONTROL Keyword] i den ifyllda rapporten innehåller tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot;
-
 
 ## Standardkolumner
 
@@ -42,4 +43,3 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 >* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
 >* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)
-

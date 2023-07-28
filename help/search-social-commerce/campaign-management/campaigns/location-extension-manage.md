@@ -1,7 +1,9 @@
 ---
 title: Hantera [!DNL Google Ads] platstillägg
-description: Lär dig skapa och hantera [!DNL Google Ads] platstillägg.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du skapar och hanterar [!DNL Google Ads] platstillägg.
+exl-id: 1a1aeb51-563e-453e-bd6f-ea1fa31b8f37
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Annonsnätverket mappar klickningarna på ett platstillägg till det nyckelord s
 
 ## Skapa platstillägg för kampanjer och annonsgrupper
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och sedan markera **[!UICONTROL Location]**.
 
@@ -38,7 +40,7 @@ Annonsnätverket mappar klickningarna på ett platstillägg till det nyckelord s
 
 ## Inaktivera platstillägg för kampanjer och annonsgrupper
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och sedan markera **[!UICONTROL Location]**.
 
@@ -72,6 +74,6 @@ Vilka affärsplatser för en [länkat Google My Business-konto](https://support.
 
 * Om du vill visa de underordnade entiteterna för en kampanj klickar du på kampanjnamnet.
 
-* Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), antingen anger eller klistrar in textsträngen i inmatningsfältet och trycker sedan på **Retur** nyckel.
+* Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), antingen anger eller klistrar in textsträngen i indatafältet och trycker sedan på **Retur** -tangenten.
 
 * Om du vill välja en enhet klickar du på cirkeln bredvid den (![Välj](/help/search-social-commerce/assets/include.png "Välj")).

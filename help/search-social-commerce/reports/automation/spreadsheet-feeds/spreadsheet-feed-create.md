@@ -1,7 +1,9 @@
 ---
 title: Skapa ett kalkylbladsrapportflöde
 description: Lär dig hur du ställer in kalkylbladsfeeds.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ed793de5-0df1-4fc3-be59-29adec4959f7
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Ställ in kalkylbladsfeeds med hjälp av speciellt formaterade [!DNL Excel] kalk
 
 2. Skapa kalkylbladsfeed:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
 
    1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Create]**.
 
@@ -26,7 +28,7 @@ Ställ in kalkylbladsfeeds med hjälp av speciellt formaterade [!DNL Excel] kalk
 
    1. Klicka på **[!UICONTROL Submit]**.
 
-   1. (Valfritt) När matningen är klar [!UICONTROL Update Status] är *[!UICONTROL Finished]*, klicka **[!UICONTROL XLSX]** intill feeden och öppna eller spara sedan filen enligt webbläsarens normala procedur.
+   1. (Valfritt) När matningen är klar [!UICONTROL Update Status] är *[!UICONTROL Finished]*, klicka **[!UICONTROL XLSX]** intill feeden och öppna eller spara sedan filen i enlighet med webbläsarens normala procedur.
 
       >[!NOTE]
       >
@@ -36,11 +38,10 @@ Ställ in kalkylbladsfeeds med hjälp av speciellt formaterade [!DNL Excel] kalk
 
 >[!MORELIKETHIS]
 >
->* [Om rapportflöden för kalkylblad](spreadsheet-feed-about.md)
+>* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
 >* [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
 >* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
 >* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
 >* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
 >* [Ta bort rapportflöden för kalkylblad](spreadsheet-feed-delete.md)
-

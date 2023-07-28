@@ -1,7 +1,9 @@
 ---
 title: Hantera [!DNL Google Ads] bildtexttillägg
-description: Lär dig skapa och hantera [!DNL Google Ads] bildtexttillägg.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du skapar och hanterar [!DNL Google Ads] bildtexttillägg.
+exl-id: 5ac4ae56-6de6-4c35-aaf3-339011af16c5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -14,9 +16,9 @@ ht-degree: 0%
 
 Skapa och hantera delade bildtexttillägg på kontonivå för alla [synkroniserad [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md) från [!UICONTROL Extensions] > [!UICONTROL Callout library].
 
-## Skapa en [!DNL Google Ads] delad bildtext
+## Skapa en [!DNL Google Ads] delad pratbubbla
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -32,7 +34,7 @@ När du har skapat en länk kan du [tilldela det till ett konto, en kampanj elle
 
 Du kan redigera en delad pratbubbla i taget.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Markera kryssrutan bredvid den bildtext som ska redigeras.
 
@@ -44,7 +46,7 @@ Du kan redigera en delad pratbubbla i taget.
 
 ## Ta bort [!DNL Google Ads] delade bildtexter
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]**.
 
 1. Markera kryssrutan bredvid varje delad bildtext som du vill ta bort.
 
@@ -74,4 +76,3 @@ För ytterligare [!DNL Google Ads] profiler och orsaker till att bildtexten inte
 >
 >* [Om [!DNL Google Ads] bildtexttillägg](callout-extension-about.md)
 >* [Associera [!DNL Google Ads] delade bildtexttillägg med kampanjer eller annonsgrupper](callout-extension-associate.md)
-

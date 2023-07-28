@@ -1,7 +1,9 @@
 ---
 title: Ta bort etikettklassificeringsvärden från kontokomponenter
 description: Lär dig hur du tar bort associationer mellan etikettklassificeringsvärden och kontokomponenter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0e7ef344-7f23-40bc-9841-dc0354ad7f07
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Om du tar bort ett klassificeringsvärde tas associationen med kontokomponenten 
 
       * Markera kryssrutan bredvid varje rad.
 
-         Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Klicka på i verktygsfältet ovanför datatabellen ![Mer](/help/search-social-commerce/assets/more.png "Mer")och klicka sedan på **[!UICONTROL Classification]**.
 
@@ -54,4 +56,3 @@ Om du tar bort ett klassificeringsvärde tas associationen med kontokomponenten 
 >* [Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad](classification-values-assign-bulksheets.md)
 >* [Ta bort etikettklassificeringsvärden](classification-values-delete.md)
 >* [Ta bort etikettklassificeringar](classification-delete.md)
-

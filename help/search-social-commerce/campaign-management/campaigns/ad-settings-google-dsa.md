@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] expanderade dynamiska sökannonsinställningar"
+title: '''[!DNL Google Ads] expanderade dynamiska sökannonsinställningar'
 description: Referera inställningarna för [!DNL Google Ads] expanderade dynamiska sökannonser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%
@@ -38,4 +40,3 @@ Se hjälpen för Google Ads för [annonsbegränsningar per konto](https://suppor
 >* [Hantera annonser](ad-manage.md)
 >* [[!DNL Google Ads] annonsinställningar som bara kan anropas](ad-settings-google-call.md)
 >* [[!DNL Google Ads] inställningar för responsiv sökning och](ad-settings-google-rsa.md)
-

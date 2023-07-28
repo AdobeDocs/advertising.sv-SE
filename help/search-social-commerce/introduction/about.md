@@ -1,7 +1,9 @@
 ---
 title: Om Adobe Advertising Search, Social, & Commerce
 description: Läs mer om sökning, sociala medier och handel.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: 0cfd82f7-26b6-4e61-b9a5-718f4eda83c1
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -10,9 +12,9 @@ ht-degree: 0%
 
 # Om Adobe Advertising Search, Social, &amp; Commerce
 
-[!DNL Adobe] är marknadsledande och ledande inom teknologilösningar för kundupplevelser. Adobe Advertising förenklar leverans av annonskampanjer över flera kanaler för hantering av varumärken och prestandakampanjer över alla skärmar, i alla format. Adobe Advertising består av tre underlösningar: Sökning, sociala medier och handel för sökmotorkampanjer, kundkampanjer, sociala medier, målgruppsnätverk och maximala prestandakanaler. Annonsering DSP (Demand Side Platform) för webbannonskanaler. och Advertising Creative för att skapa användarupplevelser för era webbannonser.
+[!DNL Adobe] är marknadsledande och ledande inom teknologilösningar för kundupplevelser. Adobe Advertising förenklar leverans av annonskampanjer över flera kanaler för hantering av varumärken och prestandakampanjer på alla skärmar, i alla format. Adobe Advertising består av tre underlösningar: Sökning efter annonsering, social annonsering och handel för söknings-, shopping-, sociala nätverk, målgruppsnätverk och max-kanaler för prestationer, DSP för annonskanaler (Demand Side Platform) och Advertising Creative för att skapa användarupplevelser för era displayannonser.
 
-Som en del av Adobe Advertising Search, Social, &amp; Commerce kombinerar branschledande portföljbaserad annonshantering med smarta kampanjprognoser och målinriktad annonsering för dataoptimerad annonsering.
+Som en del av Adobe Advertising kombinerar Advertising Search, Social, &amp; Commerce branschledande portföljbaserad annonshantering med smarta kampanjprognoser och målinriktad annonsering för dataoptimerad annonsering.
 
 ## AI-baserad teknik för annonsoptimering
 
@@ -28,7 +30,7 @@ Mer information finns i kapitlet om Portfolio i optimeringshandboken, som finns 
 
 Search, Social, &amp; Commerce erbjuder omfattande kampanjhantering, optimering, spårning och rapportering i alla era annonsnätverk. I annonshanteringsvyerna kan du:
 
-* Synkronisera era annonskonton för annonsnätverk som stöds; skapa och hantera många kampanjtyper manuellt, med hjälp av kalkylblad, och automatiskt använda lagerdataflöden, och kan även gruppera era kampanjer och annonsuppsättningar i olika typer av portfolior för optimering.
+* Synkronisera era annonskonton för annonsnätverk som stöds, konfigurera och hantera många kampanjtyper manuellt, med hjälp av kalkylblad och automatiskt med hjälp av lagerdataflöden, och om du vill kan du gruppera kampanjer och annonsuppsättningar i olika typer av portföljer för optimering.
 
 * Konfigurera åtkomst till andra annonskampanjer som ni bara vill spåra och rapportera för. Detta kan omfatta överföring av kampanjdata och mätvärden.
 
@@ -46,7 +48,7 @@ Mer information om integreringar med dessa och andra Adobe-produkter finns i &qu
 
 ## Konverteringsspårning
 
-Adobe Advertising erbjuder som tillval en tillverkarspecifik, pixelbaserad konverteringsspårningstjänst för att spåra onlinekonverteringar för annonser som länkar till era webbplatser. När du använder tjänsten för pixelspårning spårar Adobe Advertising klickningarna på era annonser och de resulterande transaktionerna/konverteringarna på era webbplatser, vilket exakt mappar varje sekvens av klick och visningar till konverteringar. Du kan använda de spårade konverteringarna för att optimera bud och budget.
+Adobe Advertising kan också tillhandahålla en tillverkarspecifik, pixelbaserad konverteringsspårningstjänst för att spåra onlinekonverteringar för annonser som länkar till era webbplatser. När du använder pixelspårningstjänsten spårar Adobe Advertising klickningarna på annonserna och de resulterande transaktionerna/konverteringarna på webbplatserna, vilket exakt mappar varje sekvens av klick och visningar till konverteringar. Du kan använda de spårade konverteringarna för att optimera bud och budget.
 
 Med tjänsten kan du optimera till olika dataattribueringsregler för de händelser som leder till en konvertering (t.ex. attribuera konverteringar till den senaste relaterade händelsen eller vikta den sista händelsen mer). Det ger också tillgång till avancerade rapporter som kan användas för att förbättra konverteringsgraden, synligheten för klickassistenter och analys av vecko- och intraday-trender.
 
@@ -56,4 +58,3 @@ Mer information om spårning finns i kapitlet om spårning.
 >
 >* [Lager som stöds](supported-inventory.md)
 >* [Integrering med Adobe Experience Cloud lösningar och tjänster](integrations.md)
-

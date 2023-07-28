@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Channel Assist Report]"
+title: '[!UICONTROL Channel Assist Report]'
 description: Läs mer om [!UICONTROL Channel Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -12,11 +14,11 @@ ht-degree: 0%
 
 *Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
 
-The [!UICONTROL Channel Assist Report] ange hur olika marknadsföringskanaler (sökning eller sociala medier från sökning, sociala medier och handel), eller video från Advertising DSP) har hjälpt till med konverteringsprocessen. Rapporten visar hur varje mönster med händelsetyper som ledde till en eller flera konverteringar har bidragit till dina totala konverteringar. Du kan till exempel se hur många konverteringar som gjordes när användarna först såg ett visnings- och visningsintryck, sedan klickade på en sökannons och sedan lade en order; eller så kan du se hur många konverteringar som har gjorts efter att användarna interagerat med mer än 10 annonser. Händelsetyper är bland annat klickningar, visningar och klickningar, videovisningar och klickningar samt andra trycksaker och klickningar. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
+The [!UICONTROL Channel Assist Report] ange hur olika marknadsföringskanaler (sökning eller sociala kanaler från Search, Social, &amp; Commerce, eller displayannonser eller video från Advertising DSP) har hjälpt konverteringsprocessen. Rapporten visar hur varje mönster med händelsetyper som ledde till en eller flera konverteringar har bidragit till dina totala konverteringar. Du kan t.ex. se hur många konverteringar som gjordes när användarna först såg ett visningsannons och sedan klickade på en sökannons och sedan gjorde en beställning. Du kan också se hur många konverteringar som gjordes efter att användarna interagerade med mer än 10 annonser. Händelsetyper är bland annat klickningar, visningar och klickningar, videovisningar och klickningar samt andra trycksaker och klickningar. <!-- [DSP metrics may show up as "Other Path Length (<length>)" or empty; we're supposed to fill in more values for DSP at some point.] -->
 
 Rapportresultaten innehåller aggregerade data för varje mönster av händelsetyper i konverteringsvägen - upp till de N tidigaste händelsetyperna - som inträffade i annonsören [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). Om du t.ex. väljer en banstorlek på fem (5) innehåller rapporten konverteringssökvägar som innehåller upp till de fem tidigaste händelserna, med en rad för varje mönster med händelsetyper som spåras (t.ex.&quot;sökklickning&quot; och sedan&quot;visningsintryck&quot;). Varje rad visar ett händelsemönster, inklusive den första händelsen i sökvägen och den sista händelsen som resulterade i konverteringar (även om den sista händelsen ligger utanför den angivna sökvägsstorleken). Som standard är raderna i stigande ordning efter antalet händelser i sökvägen.
 
-Du kan också inkludera sammanställningskonverteringsdata för varje rad. När du tar med kolumnerna för konverteringar/intäkter i rapporten visas varje konverteringstyp i fyra kolumner, som visar a) det totala antalet konverteringar, b) procentandelen av de totala konverteringarna som var kopplade till det händelsemönstret, c) den genomsnittliga fördröjningen i dagen från den första händelsen till en konvertering och d) den genomsnittliga fördröjningen i dagar från den senaste händelsen till en konvertering. När konverteringssökvägen innehåller fler händelser än den angivna sökvägsstorleken, innehåller rapporten ytterligare rader som samlar data för konverteringar som är ett resultat av det högre antalet händelser (till exempel alla mönster som innehöll sex händelsetyper).
+Du kan också inkludera sammanställningskonverteringsdata för varje rad. När du tar med kolumnerna för konverteringar/intäkter i rapporten visas varje konverteringstyp i fyra kolumner, som visar a) det totala antalet konverteringar, b) procentandelen av de totala konverteringarna som var kopplade till det händelsemönstret, c) den genomsnittliga fördröjningen i dagen från den första händelsen till en konvertering och d) den genomsnittliga fördröjningen i dagar från den senaste händelsen till en konvertering. När konverteringssökvägen innehåller fler händelser än den angivna sökvägsstorleken, innehåller rapporten ytterligare rader som samlar data för konverteringar som är ett resultat av det högre antalet händelser (t.ex. alla mönster som innehöll sex händelsetyper).
 
 Du kan visa data för de föregående 18 månaderna.
 

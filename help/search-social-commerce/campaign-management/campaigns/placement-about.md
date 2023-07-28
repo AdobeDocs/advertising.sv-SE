@@ -1,7 +1,9 @@
 ---
 title: Om [!DNL Google Ads] placeringar
 description: Läs mer om alternativ för offertbara och negativa placeringar för [!DNL Google Ads].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2f390a39-99e9-4b0d-8576-e724882185ef
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]endast konton*
 
-Placeringar är platser i visningsnätverket där annonserna kan visas. Placeringsinställningarna innehåller de maximala parametrarna för köp- och säljannonsering samt valfria spårningsparametrar. Placeringsnivåinställningarna åsidosätter annonsgruppen eller kampanjinställningarna.
+Placeringar är platser i visningsnätverket där annonserna kan visas. Placeringsinställningarna innehåller de maximala parametrarna för köp- och säljannonsering samt valfria spårningsparametrar. Inställningarna på placeringsnivå åsidosätter annonsgruppen eller kampanjinställningarna.
 
 Du kan skapa platser för alla annonsgrupper i en [stöds [!DNL Google Ads] kampanjtyp](/help/search-social-commerce/introduction/supported-inventory.md) som har visningsnätverket som mål inom en [synkroniserat sökmotorkonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md).
 
@@ -31,4 +33,3 @@ Du kan skapa placeringar för en annonsgrupp från [!UICONTROL Placements] > [!U
 >* [Hantera anbudsskyltar](placement-manage.md)
 >* [Skapa negativa placeringar](placement-negative-create.md)
 >* [Ändra status för placeringar och negativa placeringar](placement-status-edit.md)
-

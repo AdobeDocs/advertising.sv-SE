@@ -1,7 +1,9 @@
 ---
 title: Konverteringsspårning för Adobe Analytics
 description: Läs om hur du använder Adobe Analytics konverteringsspårning för kampanjer i Adobe Advertising.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -10,21 +12,21 @@ ht-degree: 0%
 
 # Konverteringsspårning för Adobe Analytics
 
-*Annonsörer med enbart integrering mellan Adobe Advertising och Adobe Analytics*
+*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
 För annonsörer med integrering mellan Adobe Advertising och Adobe Analytics kan Advertising Cloud koppla samman annonsklickningar och visningar med de mått för webbplatsengagemang och konvertering som spåras av [!DNL Analytics] när du använder en omdirigering med token (`ef_id` parameter) i webbadresserna för klickspårning för [mängdenheter](/help/search-social-commerce/glossary.md#a-b). The [!DNL Analytics] data skickas automatiskt till Advertising Cloud via en daglig matningsfil.
 
-Se &quot;[Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot; om du vill ha mer information om integreringen.
+Se &quot;[Översikt [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}&quot; om du vill ha mer information om integrationen.
 
 >[!PREREQUISITES]
 >
-> Tidszoner i annonskontot för sökning, sociala medier och handel, [!DNL Analytics] rapporteringsprogram och annonsnätverkskonton måste matcha. Om de inte matchar finns det dataavvikelser mellan systemen.
+> Tidszoner i annonskontot för sökning, sociala medier och handel, [!DNL Analytics] rapportsviter och annonsnätverkskontona måste matcha. Om de inte matchar finns det dataavvikelser mellan systemen.
 
 ## Implementeringsöversikt
 
 1. I [!DNL Analytics]ändrar implementeringsteamet för sökning, sociala medier och handel följande konfigurationsinställningar för varje rapportserie:
 
-   * Giltighetstiden för `ef_id` eVar har ändrats så att den matchar annonsörens klickfönster för Adobe Advertising.
+   * Giltighetstiden för `ef_id` eVar har ändrats så att den matchar annonsörens fönster för klickning för Adobe Advertising.
 
    * Användar-ID:t för Adobe Advertising.
 

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL AdWords Conversion Report]"
+title: '[!UICONTROL AdWords Conversion Report]'
 description: Läs mer om [!UICONTROL AdWords Conversion Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5c9252fd-b791-421b-a5d2-1f6279d38c45
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]konton med [!DNL Google Ads] endast konverteringsoptimering*
 
-The [!UICONTROL AdWords Conversion Report] innehåller kostnads-, klick- och visningsdata, konverteringsdata per konverteringstyp som spåras av [!DNL Google Ads Conversion Optimizer]; och (valfritt) härledda mätdata för ett eller flera konton, kampanjer, annonsgrupper, annonser eller nyckelord. Data visas bara när [!DNL Google Ads Conversion Optimizer] är aktiverat i kampanjens budgivningsinställningar (och därmed optimerar inte sökningar, sociala medier och handel anbud för kampanjen). Som standard innehåller data en rad för varje konvertering för varje tillämpligt nyckelord för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som nyckelord. Rapporten innehåller inte information om kostnad, klickning eller intryck, och inte heller konverteringsdata som spåras av [!DNL Adobe].
+The [!UICONTROL AdWords Conversion Report] innehåller kostnads-, klicknings- och insiktsdata; konverteringsdata per konverteringstyp som spåras av [!DNL Google Ads Conversion Optimizer]; och (valfritt) härledda mätdata för ett eller flera konton, kampanjer, annonsgrupper, annonser eller nyckelord. Data visas bara när [!DNL Google Ads Conversion Optimizer] är aktiverat i kampanjens budgivningsinställningar (och därmed optimerar inte sökningar, sociala medier och handel anbud för kampanjen). Som standard innehåller data en rad för varje konvertering för varje tillämpligt nyckelord för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som nyckelord. Rapporten innehåller inte information om kostnad, klickning eller intryck, och inte heller konverteringsdata som spåras av [!DNL Adobe].
 
 Du kan visa data för de senaste två månaderna.
 
@@ -48,7 +50,7 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 * [!UICONTROL Google Converted Clicks]
 
 >[!MORELIKETHIS]
+>
 * [Specialrapporter](specialty-report-about.md)
 * [Generera en specialrapport](specialty-report-generate.md)
 * [Inställningar för specialrapport](specialty-report-settings.md)
-

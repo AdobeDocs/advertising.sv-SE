@@ -1,7 +1,9 @@
 ---
 title: Hantera handlarkonton
-description: Lär dig hur du ställer in och hanterar kontoinformation för ett handlarcenterkonto.
-source-git-commit: a24b51405bef1e73ed57b1cb9d012bdfbda9cdec
+description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett handlarcenterkonto.
+exl-id: eca58f55-f056-46b3-b192-2849690e8bcc
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
 >
 >Gå till nätverkets webbplats om du vill skapa ett verkligt konto på handlarnätverket.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
 
 1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Create Account]**.
 
@@ -36,7 +38,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
 
    1. I [!UICONTROL Product Source] väljer du handlarcentret.
 
-   1. (Krävs för [!DNL Google Ads] Konton. valfritt för [!DNL Microsoft Advertising] konton) Tillåt sökning, sociala medier och handel att komma åt kontot via [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/):
+   1. (Krävs för [!DNL Google Ads] konton, valfria för [!DNL Microsoft Advertising] konton) Tillåt sökning, sociala medier och handel att komma åt kontot via [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] endast konton) Välj **[!UICONTROL oAuth]**.
 
@@ -64,7 +66,7 @@ Om kontoinloggningsuppgifterna ändras eller du inte längre vill hämta och anv
 >
 >Gå till nätverkets webbplats om du vill redigera ett faktiskt konto på handlarnätverket.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]\> [!UICONTROL Campaigns] \>[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
+1. Klicka på **[!UICONTROL Search]\> [!UICONTROL Campaigns] \>[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
 
 1. Klicka på bredvid kontonamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
@@ -82,7 +84,7 @@ Om kontoinloggningsuppgifterna ändras eller du inte längre vill hämta och anv
 
 När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in på kontot och hämtar därför inte uppdaterade produktdata. Data som samlats in medan kontot aktiverades lagras fortfarande, och befintliga annonser som skapats med produktdata uppdateras, pausas eller tas bort inte enligt inställningarna för matningsmall och matningsdata.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
+1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** som öppnas i [!UICONTROL Accounts] -fliken.
 
 1. Klicka på bredvid kontonamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
@@ -98,7 +100,7 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Product Source]:** Handlarens nätverk. Du kan inte ändra värdet för ett befintligt konto.
 
-**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] endast konton) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
+**[!UICONTROL OAuth Token]:** ([!DNL Google Merchant Center] (endast konton) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
 **[!UICONTROL Auth Type]:** ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras till kontot med:
 
@@ -112,9 +114,9 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Login]:** Inloggningsnamn eller ID för kontot.
 
-**[!UICONTROL Password]:** Lösenordet för kontot.
+**[!UICONTROL Password]:** Kontots lösenord.
 
-**[!UICONTROL Confirm Password]:** Lösenordet för kontot.
+**[!UICONTROL Confirm Password]:** Kontots lösenord.
 
 **[!UICONTROL EF Account Type]:** Om Search, Social och Commerce kommer åt kontot:
 

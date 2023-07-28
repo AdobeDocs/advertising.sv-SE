@@ -1,7 +1,9 @@
 ---
 title: Ändra visningsnamnet för en transaktionsegenskap
 description: Lär dig hur du ändrar namnet på transaktionsegenskapen som visas i kolumnrubriker i hanteringsvyer och rapporter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 322be2d5-0d66-4d0c-a17a-619a1f6c0644
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Du kan inte ta bort ett befintligt visningsnamn.
 >
 >För [mått från Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md)skrivs eventuella manuella ändringar av visningsnamnet över om du uppdaterar eller autentiserar integreringen igen. Alla namnändringar i Google Analytics ignoreras på samma sätt såvida du inte [uppdatera](/help/search-social-commerce/admin/data-sources/data-source-edit.md) eller [reauthenticate](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) integreringen.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
 
 1. I **[!UICONTROL Display Name]** för egenskapen klickar du inuti cellen.
 
@@ -31,4 +33,3 @@ Du kan inte ta bort ett befintligt visningsnamn.
 >* [Hantera en annonsörs transaktionsegenskaper](transaction-property-about.md)
 >* [Visa transaktionsegenskaper som spårats för en annonsörer](transaction-property-view-tracked.md)
 >* [Ändra transaktionsegenskaperna som är tillgängliga i hanteringsvyer och rapporter](transaction-property-edit-available.md)
-

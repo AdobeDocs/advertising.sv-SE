@@ -1,7 +1,9 @@
 ---
 title: Implementera [!DNL Google Ads] max-kampanjer för prestanda
-description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] maximalt antal kampanjer.
-source-git-commit: 333d32963b96d2add1d99b2e27d7725341b4cfdf
+description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] max-kampanjer för prestanda.
+exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -12,14 +14,13 @@ ht-degree: 0%
 
 I [!DNL Google Ads] max-kampanjer, ni inte skapar annonsgrupper, annonser eller nyckelord. I stället anger du en eller flera resursgrupper, som innehåller rubriker, beskrivningar och överförda bilder, logotyper och [!DNL YouTube videos]. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
 
-Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i [!DNL Campaigns] vy, data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå finns även i rapporter och i Adobe Analytics (för annonsörer med en [Integrering med Analytics](/help/integrations/analytics/overview.md). För att visa prestandadata för maximala prestandakampanjer i [!DNL Analytics]måste kampanjen använda [uppgraderad s_kwcid spårningskod](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (som spårar kampanj-ID och annonsgrupps-ID).
+Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i [!DNL Campaigns] vy; data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå finns även i rapporter och i Adobe Analytics (för annonsörer med en [Analysintegrering](/help/integrations/analytics/overview.md). För att visa prestandadata för maximala prestandakampanjer i [!DNL Analytics]måste kampanjen använda [uppgraderad s_kwcid spårningskod](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) (som spårar kampanj-ID och annonsgrupps-ID).
 
 >[!NOTE]
 >
 >* Du måste överföra alla bildfiler manuellt. Länkar till [!DNL Google Merchant Center] produktflöden stöds inte.
 >* Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL Google Ads] redigerare.
 >* Stöd för listgrupper är inte tillgängligt. Om du vill hantera och visa data för listgrupper loggar du in på [!DNL Google Ads] redigerare.
-
 
 ## Steg som ska konfigureras [!DNL Google Ads] max-kampanjer för prestanda
 

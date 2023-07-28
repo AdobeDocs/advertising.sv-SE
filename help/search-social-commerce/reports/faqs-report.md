@@ -2,7 +2,8 @@
 title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '3919'
 ht-degree: 0%
@@ -44,7 +45,7 @@ Du kan se vilka konverteringar som har gjorts genom att klicka på en [!DNL Goog
 
 >[!NOTE]
 >
->Konverterar från [!DNL Google Ads] platser och telefontillägg inkluderas i data för de annonser som de medföljer. De rapporteras inte separat.
+>Konverteringar från [!DNL Google Ads] platser och telefontillägg inkluderas i data för de annonser som de medföljer. De rapporteras inte separat.
 
 +++
 
@@ -59,7 +60,7 @@ Om du inte vill att data för perioden ska påverka framtida bud alls kan du vä
 +++
 
 +++Kan jag skapa en rapport om ett specifikt egenskapsmått, som [!UICONTROL Device] eller [!UICONTROL Objective Name]?
-För kampanjentitetsrapporter ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report]och [!UICONTROL Product Group Report]) sammanställs mätdata dynamiskt av de egenskapskolumner som du inkluderar i rapporten. Du kan också ta bort rapportens nyckelkolumn och bara ta med de egenskapskolumner för vilka du vill samla in data.
+Kampanjentitetsrapporter ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report]och [!UICONTROL Product Group Report]) sammanställs mätdata dynamiskt av de egenskapskolumner som du inkluderar i rapporten. Du kan också ta bort rapportens nyckelkolumn och bara ta med de egenskapskolumner för vilka du vill samla in data.
 
 Om du till exempel skapar en [!UICONTROL Keyword Report] som innehåller [!UICONTROL Ad Group] och  Enhetskolumner sammanställer sedan rapporten som standard mätvärden för varje nyckelord per annonsgrupp och enhetstyp. Om du däremot tar bort [!UICONTROL Keyword] innan du genererar rapporten, genererar rapporten dynamiskt mått för de angivna annonsgrupperna efter enhetstyp.
 
@@ -91,7 +92,7 @@ Om du genererar en rapport flera gånger med samma rapportparametrar men med oli
 +++Enskilda datafält är felaktiga, men summorna är korrekta.
 Detta kan inträffa när heltal används i mätformaten:
 
-* Om du skapar en [anpassat mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) med formatet *Antal decimalpunkter utan decimaltecken* (som visar data som heltal) och inkludera dem i en vy eller en rapport som använder en viktad konverteringsattribueringsregel ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More], eller [!UICONTROL Even Distribution]) visas utdata i heltal, inte i decimaler. I det här fallet kan enskilda datafält vara felaktiga, även om summorna är korrekta. Om en ordning till exempel fördelas jämnt mellan tre händelser, fördelas en ordning (i stället för 0,33) på var och en av de tre händelserna. För att lösa problemet [ändra måttformatet](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) till *Antal till 2 decimalpunkter*.
+* Om du skapar [anpassat mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) med formatet *Antal decimalpunkter utan decimaltecken* (som visar data som heltal) och inkludera dem i en vy eller en rapport som använder en viktad konverteringsattribueringsregel ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More], eller [!UICONTROL Even Distribution]) visas utdata i heltal, inte i decimaler. I det här fallet kan enskilda datafält vara felaktiga, även om summorna är korrekta. Om en ordning till exempel fördelas jämnt mellan tre händelser, fördelas en ordning (i stället för 0,33) på var och en av de tre händelserna. För att lösa problemet [ändra måttformatet](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) till *Antal till 2 decimalpunkter*.
 
 * Om du har ett intäktsmått som skickas som heltal händer samma sak. (Intäktsformatet styrs av konverteringstaggen som skickar data.) För att lösa problemet [skapa ett anpassat mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som endast består av intäktsmåtten och med formatet *Antal till 2 decimalpunkter*och inkludera det i vyer och rapporter i stället för i det ursprungliga måttet.
 +++
@@ -102,8 +103,8 @@ Klickdatafel uppstår när sökning, sociala medier och handel inte är synkroni
 Intäktsdataproblem kan uppstå på grund av ett problem med spårning eller feed-fil. Kontakta kontoteamet på Adobe för att undersöka problemet. Om intäktsdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från intäktsmodellerna.
 +++
 
-+++Monetära data visas i fel format.
-Som standard visas alla monetära data i rapporter i formatet för US-dollar (till exempel 1 000,00). Om du vill visa värdet i rätt valutaformat (men utan valutasymboler i CSV- och TSV-format) lägger du till &quot;[!UICONTROL Currency]till rapporten. Om rapporten innehåller data för konton med olika valutor, kan alla[!UICONTROL Total]&quot;monetära värden är helt enkelt summan av alla tal i kolumnen, oavsett valuta.
++++monetära data visas i fel format.
+Som standard visas alla monetära data i rapporter i formatet för USD (till exempel 1 000,00). Om du vill visa värdet i rätt valutaformat (men utan valutasymboler i CSV- och TSV-format) lägger du till &quot;[!UICONTROL Currency]till rapporten. Om rapporten innehåller data för konton med olika valutor, kan alla &quot;[!UICONTROL Total]&quot;monetära värden är helt enkelt summan av alla tal i kolumnen, oavsett valuta.
 +++
 
 +++Varför ser jag decimalvärden för en transaktionsegenskap som ska vara ett naturligt tal (1, 2 och så vidare)?
@@ -114,7 +115,7 @@ Du kan se decimalvärden i följande fall:
 * I [!UICONTROL Transaction Report], om flera [mängdenheter](/help/search-social-commerce/glossary.md#a-b) om olika matchningstyper har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
 +++
 
-## Standardprestandamått
+## Standardprestanda, mått
 
 +++Klicka-data saknas i rapporter.
 Nedan följer några vanliga orsaker till att klickdata saknas.
@@ -126,7 +127,7 @@ Nedan följer några vanliga orsaker till att klickdata saknas.
 +++
 
 +++Prestandadata skiljer sig från data i annonsnätverkets redigerare.
-När annonsnätverket skickar uppdateringar till tidigare data (ofta för att de har tilldelat klickbedrägeri) uppdateras inte data i Sök, Sociala och Commerce, såvida det inte finns mer än 5 % diskrepans och Adobe Account Team skickar en begäran.
+När annonsnätverket skickar uppdateringar till tidigare data (ofta för att de har tilldelat klickbedrägeri) uppdateras inte data i Sök, Socialt och Commerce, såvida det inte finns mer än 5 % diskrepans och Adobe Account Team skickar en begäran.
 
 När du jämför visningsdelningsdata som aggregerats över ett datumintervall kan de data som rapporteras i rapporten Sök, Socialt och Commerce skilja sig från de data som annonsnätverket rapporterar. Den här skillnaden beror på hur data rapporteras av annonsnätverkets API, som används för att hämta in data i Search, Social och Commerce. Till exempel [!DNL Google Ads] data:
 
@@ -173,11 +174,11 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 1. Om [!UICONTROL Auto Upload] är inaktiverat för kampanjen och du har lagt till nyckelord eller annonser. Kontrollera sedan att du har skapat en spårningsmall eller en mål-URL som innehåller sök-, sociala och handelsklickningsspårning för varje. Kontoteamet på Adobe kan köra en intern rapport för att se om det finns klickspårnings-URL:er (spårningsmallar eller mål-URL:er) som saknas eller är felaktiga.
 
-   Generera vid behov spårning genom att skapa en kalkylbladsfil med rätt URL:er och posta filen till rätt konto med hjälp av **Generera URL för spårning** alternativ.
+   Generera vid behov spårning genom att skapa en kalkylbladsfil med rätt URL:er och posta filen till rätt konto med hjälp av **Generera spårnings-URL:er** alternativ.
 
    Mål-URL:en ska börja med&quot;http://pixel.everesttech.net&quot; eller&quot;https://pixel.everesttech.net&quot;.
 
-1. Om inget av dessa steg löser problemet kan du [kontakta kundtjänst](/help/search-social-commerce/get-help.md).
+1. Om inget av dessa steg löser problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
    Om klienten inte har startats eller om den har startats nyligen verifierar kundtjänst om en intäktsparser har ställts in. Om parsern är konfigurerad kontrollerar de om Search, Social, &amp; Commerce tar emot pixelkonverteringar och felsöker problemet.
 
@@ -203,13 +204,13 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
    Om formatet eller namnkonventionen ändras korrigerar du filen och skickar den igen.
 
-1. Om filen skickades [kontakta kundtjänst](/help/search-social-commerce/get-help.md).
+1. Om filen skickades [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
    Kundtjänst kontrollerar om filen har tagits emot och tolkats. Om filen bearbetades utan fel söker de efter överblivna transaktioner.
 +++
 
 +++Vissa avancerade rapporter innehåller inte konverteringsdata från en annonsörmatning.
-The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via Adobe Advertising Converting Tracking Service och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
+The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använda data som samlats in via tjänsten för spårning av konvertering till Adobe Advertising och kan genereras endast för annonsörer med tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
 +++
 
 +++Intäktsdata skiljer sig från annonsörens egna intäktsdata.
@@ -226,13 +227,13 @@ The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report]
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
+1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
 
 1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att den relevanta spårningstaggen för konvertering har implementerats på alla tillämpliga webbsidor och inte har redigerats om inte kontoteamet på Adobe har sagt att du ska göra det. En tagg kan saknas eller ändras om webbplatsen nyligen uppdaterades.
 
    För sökning, sociala medier och handel förväntas välformade URL:er (med parametrar i namnvärdespar) i `ef_transaction_properties` variabeln och inom `src` -elementet i `img` -tagg.
 
-1. Om du inte kan fastställa och lösa problemet kan du [kontakta kundtjänst](/help/search-social-commerce/get-help.md).
+1. Om du inte kan fastställa och lösa problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
    Kundtjänst kommer att försöka identifiera de saknade transaktionerna och sedan söka efter enstaka transaktioner och transaktioner som inte kommer från en annons (&quot;okorrelerade konverteringar&quot;).
 
@@ -240,7 +241,7 @@ The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report]
 
 Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
-**Annonsörer med konverteringsdataflöden som använder transaktions-ID:n**
+**Annonsörer med konverteringsdataflöden med transaktions-ID:n**
 
 *Möjliga orsaker:*
 
@@ -252,11 +253,11 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens flödesuppgifter.
+1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens flödesuppgifter.
 
 1. Om en transaktion i feed-filen saknas i rapporten kontrollerar du om en onlinetransaktion med samma transaktions-ID (spårad via pixeln) inträffade före offlinekonverteringen.
 
-1. Om du inte kan fastställa och lösa problemet kan du [kontakta kundtjänst](/help/search-social-commerce/get-help.md).
+1. Om du inte kan fastställa och lösa problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
    Kundtjänst kommer att söka efter fel vid dataanalys och [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
 
@@ -282,11 +283,11 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** och generera [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
+1. Gå till **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
 
 1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att a) matningsfilen innehåller alla nödvändiga transaktions-ID:n och att inga dubbletter av spårnings-ID:n och b) transaktions-ID:n är unika och korrekta.
 
-1. Om du inte kan fastställa och lösa problemet kan du [kontakta kundtjänst](/help/search-social-commerce/get-help.md).
+1. Om du inte kan fastställa och lösa problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
    Kundtjänst kommer att söka efter dataparsningsfel och överblivna transaktioner.
 +++
@@ -297,15 +298,15 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 ## Särskilda rapporter
 
 +++Ska [!UICONTROL Portfolio Report] visa samma siffror som [!UICONTROL Portfolios] visa?
-The [!UICONTROL Portfolio Report] och [!UICONTROL Portfolios] visar samma data när alla filter för vyn, rapportparametrarna och datakolumnerna för vyn och rapporten är desamma. Om [!UICONTROL Portfolios] visa portföljer som är[!UICONTROL All but inactive]&quot; för datumintervallet &quot;[!UICONTROL Last 7 days]&quot; och bara med de standarddatakolumner som visas, [!UICONTROL Portfolio Report] med standardparametrarna visas identiska data. Om du ändrar någon av rapportparametrarna eller använder andra filter i dialogrutan [!UICONTROL Portfolios] kan datavärdena vara olika.
+The [!UICONTROL Portfolio Report] och [!UICONTROL Portfolios] visar samma data när alla filter för vyn, rapportparametrarna och datakolumnerna för vyn och rapporten är desamma. Om [!UICONTROL Portfolios] visa portföljer som är[!UICONTROL All but inactive]&quot; för datumintervallet &quot;[!UICONTROL Last 7 days]&quot; och bara med de standarddatakolumner som visas, [!UICONTROL Portfolio Report] med standardparametrarna visas identiska data. Om du ändrar någon av rapportparametrarna eller använder andra filter i [!UICONTROL Portfolios] kan datavärdena vara olika.
 +++
 
 +++Data i [!UICONTROL Portfolio Report] matchar inte data i [!UICONTROL Search Engine Report] eller [!UICONTROL Search Engine Account Report].
 The [!UICONTROL Portfolio Report] visar endast data för de kampanjer som har tilldelats de angivna portföljerna, men [!UICONTROL Search Engine Report] och [!UICONTROL Search Engine Account Report] kan även innehålla data för kampanjer som inte är tilldelade till en portfölj.
 +++
 
-+++Hur är [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] skiljer sig från portföljnivån [!UICONTROL Model Accuracy Report]?
-(Endast kontohanterare, kontohanterare på Adobe och administratörsanvändare) [!UICONTROL Forecast Accuracy Report] tillgänglig från [!UICONTROL Reports] > [!UICONTROL Model Accuracy] ger samma data som portföljnivån [!UICONTROL Model Accuracy Report] förutom att du kan köra det över flera portföljer och du kan ändra attribueringsregeln. Du kan också köra och schemalägga rapporten med anpassade parametrar, och du kan använda den för att skapa kalkylbladsflöden. Dessutom är [!UICONTROL Forecast Accuracy Report] är exaktare än den äldre portföljnivårapporten eftersom den utvärderar intäktsnoggrannheten med hjälp av portföljens historiska mål snarare än det nuvarande målet, och den ger en mer korrekt bild av data för den tillämpliga tidszonen.
++++Hur är [!UICONTROL Model Accuracy] > [!UICONTROL Forecast Accuracy Report] som skiljer sig från portföljnivån [!UICONTROL Model Accuracy Report]?
+(Endast kontohanterare, kontohanterare på Adobe och administratörsanvändare) [!UICONTROL Forecast Accuracy Report] tillgänglig från [!UICONTROL Reports] > [!UICONTROL Model Accuracy] ger samma data som portföljnivån [!UICONTROL Model Accuracy Report] förutom att du kan köra det över flera portföljer och du kan ändra attribueringsregeln. Du kan också köra och schemalägga rapporten med anpassade parametrar, och du kan använda den för att skapa kalkylbladsflöden. Dessutom är [!UICONTROL Forecast Accuracy Report] är exaktare än den äldre portföljnivårapporten eftersom den utvärderar intäktsnoggrannheten med hjälp av portföljens historiska mål snarare än det nuvarande målet, och den ger mer korrekta uppgifter för den tillämpliga tidszonen.
 +++
 
 +++Data på annandenivå är inte tillgängliga för [!DNL Google Ads] dynamisk sökannons (DSA), prestanda max, smart shopping och [!DNL YouTube] kampanjer.
@@ -325,17 +326,17 @@ När du genererar båda rapporterna per portfölj blir data annorlunda om du gen
 +++Rapport innehåller en blandning av datumintervall.
 Du kan se olika datumintervall om feed aggregerar data med någon annan datagenereringsnivå än &quot;[!UICONTROL Daily].&quot;
 
-Du löser problemet genom att uppdatera kalkylbladsflödet så att data samlas in dagligen. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Microsoft® Excel] använda rapporten och sedan uppdatera feed-inställningarna så att de innehåller den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Du löser problemet genom att uppdatera kalkylbladsflödet så att data samlas in dagligen. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Microsoft® Excel] -mallen som använder rapporten och sedan uppdaterar feed-inställningarna så att de inkluderar den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Ett kalkylbladsflöde resulterar i ett internt fel.
 Det här felet kan inträffa om du ändrar kolumnerna i rapportmallen men inte uppdaterar [!DNL Microsoft® Excel] i enlighet med detta.
 
-Du löser problemet genom att uppdatera kalkylbladsmatningen så att den innehåller de nya kolumnerna. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Excel] använda rapporten och sedan uppdatera feed-inställningarna så att de innehåller den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Du löser problemet genom att uppdatera kalkylbladsflödet så att de nya kolumnerna inkluderas. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Excel] -mallen som använder rapporten och sedan uppdaterar feed-inställningarna så att de inkluderar den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
-+++När jag försöker öppna ett kalkylbladsflöde i [!DNL Excel], [!DNL Excel] rapporterar ett oläsligt innehållsfel och data tas bort från det återskapade innehållet.
-När [!DNL Microsoft® Excel] data sorteras inte efter startdatum i stigande ordning, kalkylbladsflödet kan innehålla tomma rader. I synnerhet [!DNL Excel] rapporterar felet &quot;Excel hittade oläsligt innehåll i &#39;&lt;*rapportnamn*>.xlsx.&#39; Vill du återställa innehållet i arbetsboken? Om du litar på källan till arbetsboken klickar du på Ja.&quot; Om du klickar på Ja visas följande meddelande: &quot;Borttagna poster: Cellinformation från /xl/worksheets/sheet1.xml&quot; och kalkylbladsflödet innehåller tomma rader.
++++När jag försöker öppna ett kalkylbladsflöde i [!DNL Excel], [!DNL Excel] rapporterar ett fel om oläsbart innehåll och data tas bort från det återskapade innehållet.
+När [!DNL Microsoft® Excel] data sorteras inte efter startdatum i stigande ordning, kalkylbladsflödet kan innehålla tomma rader. Särskilt gäller följande: [!DNL Excel] rapporterar felet &quot;Excel hittade oläsligt innehåll i &#39;&lt;*rapportnamn*>.xlsx.&#39; Vill du återställa innehållet i arbetsboken? Om du litar på källan till arbetsboken klickar du på Ja.&quot; Om du klickar på Ja visas följande meddelande: &quot;Borttagna poster: Cellinformation från /xl/worksheets/sheet1.xml&quot; och kalkylbladsflödet innehåller tomma rader.
 
 Du löser problemet genom att redigera [!DNL Excel] mall som är associerad med feeden för att sortera data efter [!DNL Start date in Ascending (Oldest to Newest) order]och överför sedan den uppdaterade mallen via inställningarna för kalkylbladsflöde. Mer information finns i &quot;[Redigera rapportflöden för kalkylblad](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

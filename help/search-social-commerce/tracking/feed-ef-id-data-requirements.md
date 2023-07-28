@@ -1,7 +1,9 @@
 ---
 title: Datakrav för dataflöden som använder EF-ID:n
 description: Referera datakraven för dataflöden med hjälp av EF-ID:n.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -14,8 +16,7 @@ Här följer rubrikfälten och motsvarande datafält som krävs för varje typ a
 
 >[!NOTE]
 >* Rubrikerna kan placeras i vilken ordning som helst så länge som data i efterföljande rader följer samma ordning. Om du inte inkluderar någon rubrik måste dataradernas ordning vara konsekvent med varje matningsfil.
->* Varje rad i matningsfilen måste innehålla data för en transaktion, och transaktionen måste identifieras med ett Adobe Advertising-generated ef_id (token).
-
+>* Varje rad i matningsfilen måste innehålla data för en transaktion, och transaktionen måste identifieras med ett Adobe Advertising-genererat ef_id (token).
 
 | Rubrikfält/kolumnnamn | Typ | Beskrivning |
 | ---- | ---- | ---- |
@@ -39,4 +40,3 @@ TRl4BEtoTPMBEW4SU5ZUMEPIE:20100217065804:s,04896552,2010-02-17,Coffee,22.00
 >
 >* [Filkrav för konvertering av feed-filer](feed-file-requirements.md)
 >* [Konverteringsspårning med en EF ID-feed](/help/search-social-commerce/tracking/feed-efid.md)
-

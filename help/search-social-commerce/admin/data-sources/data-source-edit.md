@@ -3,7 +3,8 @@ title: Redigera en [!DNL Google Analytics] datakälla
 description: Lär dig hur du redigerar konfigurationen för en [!DNL Google Analytics] datakälla.
 role: User, Admin
 exl-id: a23444f7-8f4c-42ba-b5fe-a325fb18136d
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -14,7 +15,7 @@ ht-degree: 1%
 
 *Byråadministratörer (grundroll), kontoansvariga på Adobe och endast administratörer*
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Markera kryssrutan bredvid den datakälla som du vill redigera.
 

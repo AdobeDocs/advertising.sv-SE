@@ -1,7 +1,9 @@
 ---
 title: Hantera produktgrupper för butik
 description: Lär dig hur du skapar och hanterar kundproduktgrupper i shoppingkampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 25912abd-1ddb-443f-a16d-7efe57093677
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -22,7 +24,7 @@ Innan du kan skapa produktgrupper med specifika attribut måste du först skapa 
 >
 >Om du vill skapa flera kontokomponenter samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -44,7 +46,7 @@ När du har skapat minst en fullständig[!UICONTROL All Products]&quot; grupp f�
 >
 >Om du vill skapa flera kontokomponenter samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Valfritt) Om du vill visa en produktgrupp och dess underordnade produktgruppnoder i trädvyn håller du markören över produktgruppens namn och klickar på ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL Tree View]**.
 
@@ -58,13 +60,13 @@ När du har skapat minst en fullständig[!UICONTROL All Products]&quot; grupp f�
 
 Du kan redigera köp- och spårningsmallen för enhetsproduktgruppsnoder (produktgrupper utan underordnade produktgruppnoder) som ingår för en annonsgrupp. Du kan inte redigera någon information för uteslutna enhetsproduktgrupper eller för inkluderade eller exkluderade delavdelningsnoder, som är produktgrupper med underordnade produktgruppnoder.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Valfritt) Om du vill visa en produktgrupp och dess underordnade produktgruppnoder i trädvyn håller du markören över produktgruppens namn och klickar på ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL Tree View]**.
 
 1. Gör något av följande:
 
-   1. (Om du vill redigera inställningar för en enskild produktgruppsnod håller du pekaren över produktgruppsnamnet genom att klicka på ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL + Edit Node]**.
+   1. (Om du vill redigera inställningar för en enskild produktgruppsnod håller du markören över produktgruppnamnet och klickar på ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL + Edit Node]**.
 
    1. (Så här redigerar du inställningar för en eller flera annonsgrupper):
 
@@ -86,7 +88,7 @@ Du kan redigera köp- och spårningsmallen för enhetsproduktgruppsnoder (produk
 
 Du kan ta bort vilken produktgrupp som helst, förutom en&quot;Allt annat&quot;-grupp när det finns andra produktgrupper på samma nivå, som används för att avgöra vilka produkter i ert handlarcenterkonto som ingår i annonsgruppens shoppingannonser. Om du tar bort en produktgrupp tas alla underordnade produktgrupper bort.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Product Groups]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika produktgrupper.
 
@@ -109,4 +111,3 @@ Du kan ta bort vilken produktgrupp som helst, förutom en&quot;Allt annat&quot;-
 >* [Om att handla produktgrupper](product-group-about.md)
 >* [[!DNL Google Ads] produktgruppsinställningar](product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] produktgruppsinställningar](product-group-settings-microsoft.md)
-

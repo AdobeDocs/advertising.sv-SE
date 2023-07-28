@@ -1,16 +1,18 @@
 ---
-title: Om URL-format för klickspårning för konverteringstjänsten Adobe
-description: Lär dig mer om klickspårningsformat för annonsnätverk som stöds.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+title: Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising
+description: Lär dig mer om de klickningsspårningsformat som stöds för annonsnätverk.
+exl-id: 12148caf-fde6-4ac2-b8b4-222409895dd7
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# Om URL-format för klickspårning för konverteringstjänsten Adobe
+# Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising
 
-Spårningsmallar, landningssidessuffix (sista URL-suffix) och mål-URL:er för annonskonton och kampanjer som använder Adobe Advertising Convertising Service har följande format:
+Spårningsmallar, landningssidessuffix (sista URL-suffix) och mål-URL:er för annonskonton och kampanjer som använder Adobe Advertising-konverteringstjänsten har följande format:
 
 `http://pixel.everesttech.net/<advertiser_ID>/<token passing parameter>?ev_sid=<ad network ID>&<tracking ID>&url=<the landing page>`
 
@@ -43,4 +45,3 @@ Se de separata sidorna som indikerar [[!DNL Baidu] format](formats-click-trackin
 >* [Klickspårningsformat för sponsrade annonser på [!DNL Yahoo! Japan Ads]](formats-click-tracking-yahoo-japan.md)
 >* [Klickspårningsformat för sponsrade annonser på [!DNL Yahoo! Display Network]](formats-click-tracking-yahoo-display-network.md)
 >* [Klickspårningsformat för sponsrade annonser på [!DNL Yandex]](formats-click-tracking-yandex.md)
-

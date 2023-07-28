@@ -1,7 +1,9 @@
 ---
 title: Skapa negativa placeringar
 description: Lär dig hur du skapar negativa placeringar för [!DNL Google Ads] kampanjer och annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 8bddfc12-de95-46c3-aa2d-bcce2a5e0de9
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Du kan skapa negativa placeringar för en [!DNL Google Ads] annonsgrupp i en kam
 >[!TIP]
 >Om du vill skapa flera negativa placeringar samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och klicka sedan på **[!UICONTROL Campaign]** för att skapa negativa placeringar på kampanjnivå eller **[!UICONTROL Ad Group]** för att skapa negativa placeringar på annonsnivå.
 
@@ -32,7 +34,7 @@ Du kan skapa negativa placeringar för en [!DNL Google Ads] annonsgrupp i en kam
 
    * En webbplats: Ange en giltig URL, till exempel www.example.com. Se de tillåtna formaten i&quot;How to add your exclude URLs&quot; på https://support.google.com/google-ads/answer/2454012.
 
-   * Ett ämne, en kategori eller ett dokument lodrätt. Se [[!DNL Google Ads] riktlinjer](https://support.google.com/google-ads/editor/answer/30517) och [lista med alla vertikaler](https://developers.google.com/adwords/api/docs/appendix/verticals). Exempel: `category::Industries > Energy & Utilities > Oil & Gas`.
+   * Ett ämne, kategori eller lodrätt dokument. Se [[!DNL Google Ads] riktlinjer](https://support.google.com/google-ads/editor/answer/30517) och [lista med alla vertikaler](https://developers.google.com/adwords/api/docs/appendix/verticals). Exempel: `category::Industries > Energy & Utilities > Oil & Gas`.
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -41,4 +43,3 @@ Du kan skapa negativa placeringar för en [!DNL Google Ads] annonsgrupp i en kam
 >* [Om placeringar](placement-about.md)
 >* [Hantera anbudsskyltar](placement-manage.md)
 >* [Ändra status för placeringar och negativa placeringar](placement-status-edit.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Automatisera och hantera lagerflöden
 description: Lär dig mer om avancerad kampanjhantering, som gör att ni automatiskt kan hantera kontostrukturen och leverera dynamiska annonser baserade på data om er produkt- eller serviceartikeln.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: 2cbf08ce-728e-4d5b-b0a4-01aa244a6e29
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
-The [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] för avancerad kampanjhantering kan ni automatiskt skapa och uppdatera kontostrukturen för annonsnätverk och leverera dynamiska annonser baserade på data om er produkt- eller servicearkiv. Du kan överföra nya filer med produktdata dagligen eller så ofta du vill, eller länka direkt till en [!DNL Google] eller [!DNL Microsoft®] handlant center-konto. Använd funktionen för att:
+The [!UICONTROL Campaigns] > [!UICONTROL Advanced (ACM)] för avancerad kampanjhantering kan ni automatiskt skapa och uppdatera kontostrukturen för annonsnätverk och leverera dynamiska annonser baserade på data om er produkt- eller servicearkiv. Du kan överföra nya filer med produktdata dagligen eller så ofta du vill, eller länka direkt till en [!DNL Google] eller [!DNL Microsoft®] handlant center. Använd funktionen för att:
 
 * Skapa nya kampanjer från beställda datakällor.
 
@@ -24,7 +26,7 @@ Om du vill konfigurera dina annonser skapar du lagerflödesmallar som innehålle
 
 | [!UICONTROL Ad Variation] Avsnitt i mall | Modifierare inom sökning, sociala medier och handel | Feed Contents | Resulterande annonser |
 |----|----|----|----|
-| Titel: Köp avancerad \{<i>Produktkategori</i>\} &lt;<i>CheapList</i>>.<br><br>Beskrivning 1: Mycket stora lager av \{<i>Produktnamn</i>\}.<br><br>Beskrivning 2: Finns på \{<i>Rabattprocent</i>\} % rabatt. | Värden för modifierargruppen &quot;CheapList&quot;:<br><br>&quot;för billigt&quot;<br><br>&quot;till rabatterat pris&quot; | Produktkategori,produktnamn,rabattprocent<br>elektronik, iPod, 10<br><br>kläder,sköldpaddor,15<br><br><b>Obs!</b> Du kan separera värden med kommatecken eller tabbar. | <u>Köp avancerad elektronik till ett lågt pris.</u><br>Omfattande inventering av surfplattor. 10 % rabatt.<br><br><u>Köp avancerad elektronik till rabatterat pris.</u><br>Omfattande inventering av surfplattor. 10 % rabatt.<br><br><u>Köp avancerade kläder till ett lågt pris.</u><br>Enorma skjortor. 15 % rabatt.<br><br><u>Köp avancerade kläder till rabatterat pris.</u><br>Enorma skjortor. 15 % rabatt. |
+| Titel: Köp avancerad \{<i>Produktkategori</i>\}<i>CheapList</i>>.<br><br>Beskrivning 1: Mycket stort lager av \{<i>Produktnamn</i>\}.<br><br>Beskrivning 2: Finns på \{<i>Rabattprocent</i>\} % rabatt. | Värden för modifierargruppen &quot;CheapList&quot;:<br><br>&quot;för billigt&quot;<br><br>&quot;till rabatterat pris&quot; | Produktkategori,produktnamn,rabattprocent<br>elektronik, iPod, 10<br><br>kläder,sköldpaddor,15<br><br><b>Obs!</b> Du kan separera värden med kommatecken eller tabbar. | <u>Köp avancerad elektronik till ett lågt pris.</u><br>Omfattande inventering av surfplattor. 10 % rabatt.<br><br><u>Köp avancerad elektronik till rabatterat pris.</u><br>Omfattande inventering av surfplattor. 10 % rabatt.<br><br><u>Köp avancerade kläder till ett lågt pris.</u><br>Enorma skjortor. 15 % rabatt.<br><br><u>Köp avancerade kläder till rabatterat pris.</u><br>Enorma skjortor. 15 % rabatt. |
 
 När ni har skapat annonserna kan ni granska dem och sedan lägga upp dem i annonsnätverket.
 
@@ -41,7 +43,7 @@ Testa först minst en feed-fil eller ett konto och sedan kan du automatisera pro
 
    Om du använder FTP-katalogen söker flödestjänsten efter nya filer varannan timme.
 
-   I annat fall kan du överföra filer manuellt i [!UICONTROL Advanced (ACM)] vy.
+   Annars kan du överföra filer manuellt i [!UICONTROL Advanced (ACM)] vy.
 
 1. Ange [parametrar för bearbetning av feed-data](feed-settings-manage.md#feed-data-settings).
 
@@ -61,7 +63,7 @@ Om du vill överföra filer manuellt kan du vänta tills du skapar en mall som a
 
 1. [Bokför data](propagated-data-post.md) till relevanta annonsnätverkskonton.
 
-1. (Om du använder FTP eller ett handelscenterkonto för att överföra dina data; (valfritt) När du har validerat utdata från den första feed-filen, [redigera parametrarna](feed-settings-manage.md#feed-data-settings) att automatiskt sprida efterföljande data via tillhörande mallar och lägga upp dem i relevanta annonsnätverk.
+1. (Om du använder FTP eller ett handlande center-konto för att överföra dina data (valfritt) När du har validerat utdata från den första feed-filen, [redigera parametrarna](feed-settings-manage.md#feed-data-settings) att automatiskt sprida efterföljande data via tillhörande mallar och lägga upp dem i relevanta annonsnätverk.
 
 1. (När du har nya datafiler) Om det behövs överför du nya filer, sprider data via mallar och publicerar data i det relevanta annonsnätverket. Du kan också sprida och publicera data i ett enda steg.
 

@@ -1,7 +1,9 @@
 ---
 title: Konfigurera cookie-baserad klickspårning
 description: Lär dig hur du konfigurerar och validerar klickspårningstaggar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 340aec08-a1a5-4aa5-b666-9c819c1709d0
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Följande element måste konfigureras och valideras för att du ska kunna spåra
 
 1. [Ange rätt spårningsalternativ för varje annonsörs annonsnätverkskonton och kampanjer](#set-up-click-tracking-options).
 
-1. Vid behov [generera spårnings-URL:er och överföra dem](#generate-upload-tracking-urls) för vissa kampanjelement.
+1. Vid behov, [generera spårnings-URL:er och överföra dem](#generate-upload-tracking-urls) för vissa kampanjelement.
 
 1. [Validera formatet för några av klickspårnings-URL:erna och testa dem för att validera att rätt landningssida öppnas](#validate-tracking-urls).
 
@@ -26,7 +28,7 @@ Följande element måste konfigureras och valideras för att du ska kunna spåra
 
 1. Gör följande för varje annonsnätverkskonto:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Accounts]**.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Accounts]**.
 
    1. Håll markören över kontonamnet och klicka ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL Edit]**.
 
@@ -40,7 +42,7 @@ Följande element måste konfigureras och valideras för att du ska kunna spåra
 
 1. Gör följande för varje kampanj:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]**.
 
    1. Håll markören över kampanjnamnet och klicka ![Menyikon](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikon")och sedan markera **[!UICONTROL Edit]**.
 
@@ -60,9 +62,9 @@ Se &quot;[När och hur klickspårnings-URL:er ska genereras](/help/search-social
 
 Verifiera att rätt landningssida öppnas för klickspårnings-URL:en.
 
-1. Mimitera ett reklamklick genom att skicka trafik till annonsörens testmiljö:
+1. Mimitera ett reklamklick genom att skicka trafik till annonsörens staging-miljö:
 
-   1. Klistra in en klicknings-URL i en textredigerare, ändra landningssidans URL till att peka mot samma sida i annonsörens testmiljö och klistra sedan in den nya URL:en i webbläsarens adressfält och tryck på **[!DNL Enter]** nyckel.
+   1. Klistra in en klicknings-URL i en textredigerare, ändra landningssidans URL till att peka mot samma sida i annonsörens testmiljö och klistra sedan in den nya URL:en i webbläsarens adressfält och tryck på **[!DNL Enter]** -tangenten.
 
    1. Leta efter cookie-filen i webbläsarens lagrade cookies.
 
@@ -86,4 +88,3 @@ Verifiera att rätt landningssida öppnas för klickspårnings-URL:en.
 >[!MORELIKETHIS]
 >
 >* [När och hur klickspårnings-URL:er ska genereras](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
-

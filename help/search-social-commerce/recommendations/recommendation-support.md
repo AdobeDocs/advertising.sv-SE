@@ -2,7 +2,8 @@
 title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
-source-git-commit: de1b0b3ffbb8cbc3113e4e707b8ee2d647f60ca3
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -19,17 +20,17 @@ ht-degree: 0%
 
 * Varje [!DNL Google Ads] rekommendationer ger anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
 
-* Varje [!DNL Microsoft® Advertising] resultatinsikter meddelar dig om betydande fluktuationer i ett chefskonto, annonsörkonto eller kampanj, identifierar möjliga orsaker och föreslår åtgärder för att optimera prestandan.
+* Varje [!DNL Microsoft® Advertising] resultatinsikter varnar dig om betydande fluktuationer i ett chefskonto, annonsörkonto eller kampanj, identifierar möjliga orsaker och föreslår åtgärder för att optimera prestanda.
 
 ## The [!UICONTROL Recommendations & Publisher Insights] visa
 
 Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]kan du:
 
-* Se i korthet alla rekommendationer som inte har följts under en [!DNL Google Ads] konto eller alla resultatinsikter som genererats under de senaste 30 dagarna för en [Microsoft® Advertising] konto. Informationen för varje inlägg omfattar rekommendationer/insikter och berörda enheter. För [!DNL Google Ads] konton markeras förväntade ökningar av mätvärden i grönt.
+* Se i korthet alla rekommendationer som inte har följts under en [!DNL Google Ads] konto eller alla resultatinsikter som genererats de senaste 30 dagarna för en [Microsoft® Advertising] konto. Informationen för varje tävlingsbidrag omfattar rekommendationer/insikter och berörda enheter. För [!DNL Google Ads] konton markeras förväntade ökningar av mätvärden i grönt.
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
-  Informationen är tillgänglig i realtid när du öppnar vyn. Om du vill uppdatera data klickar du på ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") längst ned till vänster på sidan.
+  Informationen är tillgänglig i realtid när du öppnar vyn. Klicka på om du vill uppdatera data ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") till vänster på sidan.
 
 * För [!DNL Google Ads] konton:
 
@@ -41,7 +42,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 >[!NOTE]
 >
->Annonsnätverksrekommendationer och resultatinsikter hjälper er att förbättra kampanjresultaten, men vissa kanske inte anpassar sig efter era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du implementerar några rekommendationer eller insikter.
+>Annonsnätverksrekommendationer och resultatinsikter hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du implementerar några rekommendationer eller insikter.
 
 ## Rekommendationstyper som stöds för [!DNL Google Ads]
 

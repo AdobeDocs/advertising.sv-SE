@@ -1,7 +1,9 @@
 ---
 title: Ta bort etikettklassificeringsvärden
 description: Lär dig hur du tar bort värden för etikettklassificeringar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97c07598-4740-4e55-85e9-ef4e4e46daeb
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Om du tar bort värden för etikettklassificering blir de otillgängliga för fr
 >* [Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad](classification-values-assign-bulksheets.md)
 >* [Ta bort etikettklassificeringsvärden från kontokomponenter](classification-values-remove.md)
 >* [Ta bort etikettklassificeringar](classification-delete.md)
-

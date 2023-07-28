@@ -1,7 +1,9 @@
 ---
 title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -70,7 +72,7 @@ Om du ändrar visningsnamnen för transaktionsegenskaperna i Sök, Socialt och C
 
 +++ (Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?
 
-Bäst resultat får du om du inte lägger till [!DNL Google Ads] till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och handels-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
+Bäst resultat får du om du inte lägger till [!DNL Google Ads] kampanjer till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och handels-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
 +++
 
 ++([!DNL Google Ads] kampanjer) Kan jag skicka mobilanvändare och icke-mobilanvändare till olika landningssidor?
@@ -79,17 +81,17 @@ Du kan använda [!DNL Google Ads] [!DNL ValueTrack] parameters `{ifmobile}` och 
 
 * Inkludera mobilbeteckningen som värdserver med `{ifmobile:m}{ifnotmobile:www}`.
 
-   Till exempel: `http://{ifmobile:m}{ifnotmobile:www}.example.com` tar mobilanvändare till m.example.com och icke-mobilanvändare till www.example.com.
+  Till exempel: `http://{ifmobile:m}{ifnotmobile:www}.example.com` tar mobilanvändare till m.example.com och icke-mobilanvändare till www.example.com.
 
 * Inkludera mobilbeteckningen som toppnivådomän med `{ifmobile:mobi}{ifnotmobile:com}`.
 
-   Till exempel: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` tar mobilanvändare till www.example.mobi och icke-mobilanvändare till www.example.com.
+  Till exempel: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` tar mobilanvändare till www.example.mobi och icke-mobilanvändare till www.example.com.
 
 I båda fallen inkluderar bas-URL:erna med sök-, sociala och handelsuppföljning den okodade `{}` -taggar och eventuella ytterligare parametrar som har lagts till i bas-URL:en.
 
 >[!NOTE]
 >
->Använd inte en fullständig webbadress som värde för parametrar för ifnomobile och ifmobile. Använd bara den variabla delen av URL:en (till exempel&quot;m&quot; jämfört med&quot;www&quot;,&quot; eller&quot;mobi&quot; jämfört med&quot;com&quot;).
+>Använd inte en fullständig URL som värde för parametrar för ifnotmobile och ifmobile. Använd bara den variabla delen av URL:en (till exempel&quot;m&quot; jämfört med&quot;www&quot; eller&quot;mobi&quot; jämfört med&quot;com&quot;).
 
 +++
 
@@ -97,7 +99,7 @@ I båda fallen inkluderar bas-URL:erna med sök-, sociala och handelsuppföljnin
 
 [!DNL Google Ads] Resultatstatistik på kampanjnivå i söknätverket för den aktuella dagen hämtas kl. 08.00 och kl. 16.00 i annonsörens tidszon.
 
-I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visa och [!UICONTROL Optimization] > [!UICONTROL Portfolios] visa, när du rapporterar om [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen, kommer data att innehålla de senast hämtade uppgifterna.
+I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visa och [!UICONTROL Optimization] > [!UICONTROL Portfolios] visa, när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen, kommer data att innehålla de data som har hämtats senast.
 
 >[!NOTE]
 >
@@ -107,11 +109,11 @@ I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > 
 
 ++([!DNL Google Ads] och [!DNL Microsoft Advertising]) Stöder sökning, sociala medier och handel parallell spårning för annonser i [!DNL Google Ads] eller [!DNL Microsoft Advertising]?
 
-Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en och URL:en för spårningsmallen (med klickmätning) läses in i bakgrunden. landningssidan läses därför in snabbare.
+Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en och URL:en för spårningsmallen (med klickmätning) läses in i bakgrunden, vilket innebär att landningssidan läses in snabbare.
 
 Sökning, sociala medier och handel stöder parallell spårning för sök- och shoppingkampanjer med annonsnätets klickidentifierare (`msclkid` for [!DNL Microsoft Advertising]; `gclid` for [!DNL Google Ads]). Använd en [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) eller [kampanjnivå](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (anropades &quot;[!DNL final URL suffix]&quot; i annonsnätverket), som bifogas till landningssidans URL:er för att spåra klick på underordnade annonser från webbläsare som stöder parallell spårning. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-När en användare tittar på annonsen i en webbläsare som inte stöder parallell spårning används i annonsnätverket sekventiell spårning i stället: kunderna skickas först till din URL för spårningsmall, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL:en. Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+När en användare tittar på din annons i en webbläsare som inte stöder parallell spårning, använder annonsnätverket sekventiell spårning i stället: kunderna skickas först till din URL-adress för spårningsmall, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL-adressen. Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Varför ska jag spåra URL:er för mina annonser med &quot;`&EV_HASH={<hash>}`?&quot;
@@ -119,7 +121,7 @@ När en användare tittar på annonsen i en webbläsare som inte stöder paralle
 När du överför annonser med en [produktinventeringsfeed](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) för ett konto med omdirigering av pixlar för sökning, sociala medier och handel och med nyckelord- och kreativ spårning, lägger sedan sökningen, sociala medier och handel till hash-parametern och värdet i annonsens spårningsmall eller mål-URL för att identifiera att den har skapats med funktionen för lagerfeed.
 +++
 
-## Lagerflöden
+## Lagerfeeds
 
 +++(Produktinventeringsflöden) Ska jag pausa eller ta bort annonser som är föråldrade eller för en produkt vars lagernivå ligger under ett visst minimivärde?
 
@@ -137,9 +139,9 @@ Om nästa feed-fil saknar radobjekt och du inte tidigare har bokfört radobjekte
 
 +++ (produktinventeringsflöden) Kan jag uppdatera priserna för mina produkter utan att påverka en annons kvalitetspoäng?
 
-För [!DNL Google Ads] kampanjer, ja: The [!DNL Google Ads] `{Param 1}` och `{Param 2}` Med variabler kan du dynamiskt infoga numeriska värden i en annonsvariation utan att ta bort och återskapa annonsen, och därför utan att påverka kvalitetspoängen.
+För [!DNL Google Ads] kampanjer, ja: [!DNL Google Ads] `{Param 1}` och `{Param 2}` Med variabler kan du dynamiskt infoga numeriska värden i en annonsvariation utan att ta bort och återskapa annonsen, och därför utan att påverka kvalitetspoängen.
 
-Så här använder du en `{Param 1}` eller `{Param 2}` -variabel för dina prisdata, mappa priskolumnen i datafilen till den variabeln i rätt feed-mallar och ta sedan med variabeln i dina annonsvariantmallar.
+Använda en `{Param 1}` eller `{Param 2}` -variabel för dina prisdata, mappa priskolumnen i datafilen till den variabeln i rätt feed-mallar och ta sedan med variabeln i dina annonsvariantmallar.
 
 Om kolumnen till exempel heter&quot;Pris&quot;, öppnar du den feed-mall som skapar annonserna genom att klicka i inmatningsfältet bredvid **[!UICONTROL Param 1]** och klickar sedan på **[!UICONTROL Price]** kolumn i [!UICONTROL Feeds/Available Columns] lista, som infogar `[Price]` som värdet för [!UICONTROL Param 1]. Infoga sedan i annonsvariantmallen längst ned i feed-mallen `{param1:default text}`, där&quot;standardtext&quot; är text som ska användas om parameterkolumnen i matningsfilen är tom för en annonsrad.
 

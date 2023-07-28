@@ -1,14 +1,16 @@
 ---
-title: Om rapportflöden för kalkylblad
+title: Om rapportfeeds för kalkylblad
 description: Lär dig hur du hämtar data för dagliga prestanda i ett anpassat kalkylbladsformat.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: e497e81f-3936-428c-8910-0c4dffddf060
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
-# Om rapportflöden för kalkylblad
+# Om rapportfeeds för kalkylblad
 
 *Endast för grundläggande rapporter och modellnoggrannhetsrapporter*
 
@@ -25,6 +27,6 @@ The [!UICONTROL Spreadsheets Feeds] visa en lista med alla kalkylbladsfeeds som 
 >* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
 >* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
 >* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
 >* [Ta bort rapportflöden för kalkylblad](spreadsheet-feed-delete.md)
 >* [Om meddelanden](/help/search-social-commerce/notifications/notification-about.md)

@@ -1,7 +1,9 @@
 ---
 title: Hantera en annonsörs transaktionsegenskaper
-description: Lär dig hur du kan använda de transaktionsegenskaper som Adobe Advertising spårar för en annonsör.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du kan använda transaktionsegenskaperna som Adobe Advertising spårar för en annonsörer.
+exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
+feature: Search Admin, Search Transaction Properties
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Hantera en annonsörs transaktionsegenskaper
 
-The [transaktionsegenskaper](/help/search-social-commerce/glossary.md#s-t) Adobe Advertising tracks för en annonsörer, inklusive [konverterings- och webbplatsengagemangsmått synkade från Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), används genomgående i DSP för sökning, sociala medier, handel och annonsering.
+The [transaktionsegenskaper](/help/search-social-commerce/glossary.md#s-t) som Adobe Advertising spårar åt en annonsörer, inklusive [konverterings- och webbplatsengagemangsmått synkade från Adobe Analytics](/help/integrations/analytics/analytics-data-in-advertising.md), används genomgående i DSP för sökning, sociala medier, handel och annonsering.
 
 * I Sök, Socialt och Commerce kan du använda dina transaktionsegenskaper för att skapa mål, som används för att optimera portföljer. Dessutom kan data för transaktionsegenskaperna visas i kolumner i vyer för kampanj- och portföljhantering samt i rapporter.
 
@@ -25,4 +27,3 @@ I listan med egenskaper som du gör tillgängliga kan varje användare som har t
 >* [Visa transaktionsegenskaper som spårats för en annonsörer](transaction-property-view-tracked.md)
 >* [Ändra transaktionsegenskaperna som är tillgängliga i hanteringsvyer och rapporter](transaction-property-edit-available.md)
 >* [Ändra visningsnamnet för en transaktionsegenskap](transaction-property-edit-display-name.md)
-

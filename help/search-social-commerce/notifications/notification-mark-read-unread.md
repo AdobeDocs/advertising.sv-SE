@@ -1,7 +1,9 @@
 ---
 title: Markera ett meddelande som läst eller oläst
 description: Lär dig hur du anger om du har läst eller inte har läst ett meddelande.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 333173a0-7e3a-4fb6-a80c-a9a1f5714fbf
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -27,7 +29,6 @@ Meddelanden markerade som *read* innehåller en ljusare text men är tillgängli
 >* [Om meddelanden](/help/search-social-commerce/notifications/notification-about.md)
 >* [Visa dina meddelanden](notification-view.md)
 >* [Ta bort ett meddelande](notification-delete.md)
->* [Redigera aviseringsinställningarna](notification-edit.md)
+>* [Redigera meddelandeinställningarna](notification-edit.md)
 >* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)
-

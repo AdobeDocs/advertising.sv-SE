@@ -1,7 +1,9 @@
 ---
 title: Om [!DNL Google Ads] bildtexttillägg
 description: Läs mer om [!DNL Google Ads] bildtexttillägg i Sök, Socialt och Commerce.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3d0d864b-35ea-48aa-a812-bba96359eb29
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -32,4 +34,3 @@ I [!DNL Google Ads]kan du se kostnad och klicka på data på [!UICONTROL Campaig
 >
 >* [Hantera [!DNL Google Ads] bildtexttillägg](callout-extension-manage.md)
 >* [Associera [!DNL Google Ads] delade bildtexttillägg med kampanjer eller annonsgrupper](callout-extension-associate.md)
-

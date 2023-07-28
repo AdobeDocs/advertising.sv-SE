@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Baidu] text och inställningar"
+title: '''[!DNL Baidu] text och inställningar'
 description: Referera inställningarna för [!DNL Baidu] textannonser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -18,9 +20,9 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Title]:** Annonsens rubrik. Maxlängden är 14 dubbelbyte- eller 28 enkelbyte-tecken.
 
-**[!UICONTROL Description Line 1]:** Den första raden i en annons brödtext. Minsta längd är fyra dubbelbyte- eller 8 enkelbyte-tecken och den maximala längden är 20 dubbelbyte- eller 40 enkelbyte-tecken.
+**[!UICONTROL Description Line 1]:** Den första raden i en annons innehåll. Minsta längd är fyra dubbelbyte- eller 8 enkelbyte-tecken och den maximala längden är 20 dubbelbyte- eller 40 enkelbyte-tecken.
 
-**[!UICONTROL Description Line 2]:** Den andra raden i en annons brödtext. Minsta längd är fyra dubbelbyte- eller 8 enkelbyte-tecken och den maximala längden är 20 dubbelbyte- eller 40 enkelbyte-tecken.
+**[!UICONTROL Description Line 2]:** Den andra raden i en annons innehåll. Minsta längd är fyra dubbelbyte- eller 8 enkelbyte-tecken och den maximala längden är 20 dubbelbyte- eller 40 enkelbyte-tecken.
 
 **[!UICONTROL Display URL]:** Den URL som visas i en annons. Den maximala längden är 35 tecken med en byte.
 
@@ -44,4 +46,3 @@ ht-degree: 0%
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
-

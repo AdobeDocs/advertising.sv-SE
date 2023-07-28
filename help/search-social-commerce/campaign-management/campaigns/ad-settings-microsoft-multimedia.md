@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] multimediaannonsinställningar"
+title: '''[!DNL Microsoft® Advertising] multimedia och annonsinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] multimediaannonser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,13 +30,13 @@ Se tillåtna proportioner och dimensioner för [multimediaannonser](https://help
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken.
 
-**[!UICONTROL Short Headlines]:** Minst tre, och upp till 15, korta rubriker med minst ett ord och högst 30 tecken vardera.
+**[!UICONTROL Short Headlines]:** Minst tre och upp till 15 korta rubriker med minst ett ord och högst 30 tecken vardera.
 
 **[!UICONTROL Long Headlines]:** Minst tre och upp till fem långa rubriker med högst 90 tecken vardera.
 
 **[!UICONTROL Ad Text]:** Minst två och upp till fyra beskrivningar med minst ett ord och högst 90 tecken vardera.
 
-**[!UICONTROL Call to Action]:** Anropet till åtgärd som ska ingå i annonsen. Som standard är Automatiserad markerat och annonsnätverket väljer anropet till åtgärd. Du kan välja en annan åtgärd.
+**[!UICONTROL Call to Action]:** Uppmaningen att ta med i annonsen. Som standard är Automatiserad markerat och annonsnätverket väljer anropet till åtgärd. Du kan välja en annan åtgärd.
 
 **[!UICONTROL Call to Action Language]:** Språket för alternativen för att ringa upp till åtgärd.
 
@@ -56,4 +58,3 @@ Se tillåtna proportioner och dimensioner för [multimediaannonser](https://help
 >* [[!DNL Microsoft® Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] inställningar för responsiv (målgrupp) annonsering](ad-settings-microsoft-responsive.md)
 >* [[!DNL Microsoft® Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)
-

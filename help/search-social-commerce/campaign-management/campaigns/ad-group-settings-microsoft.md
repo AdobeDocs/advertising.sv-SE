@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft Advertising] annonsgruppsinställningar"
+title: '''[!DNL Microsoft Advertising] och gruppinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%
@@ -62,7 +64,7 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 {{$include /help/_includes/devices.md}}
 
-**[!UICONTROL Gender]:** (Målgrupper och grupper; (valfritt) Specifika genrer som ska inkluderas eller exkluderas som mål: *[!UICONTROL Male]*, *[!UICONTROL Female]* och *[!UICONTROL Unknown]*. Som standard anges alla gendrar som mål. Undantag åsidosätter alltid inkluderingar.
+**[!UICONTROL Gender]:** (Målgrupper och grupper; valfritt) Specifika genrer som ska inkluderas eller exkluderas som mål: *[!UICONTROL Male]*, *[!UICONTROL Female]* och *[!UICONTROL Unknown]*. Som standard anges alla gendrar som mål. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
@@ -70,7 +72,7 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 * Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
-**[!UICONTROL Age]:** (Målgrupper och grupper; (valfritt) Specifika åldersgrupper som ska inkluderas eller exkluderas som mål: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]* och *[!UICONTROL Unknown]*. Som standard anges alla åldrar som mål. Undantag åsidosätter alltid inkluderingar.
+**[!UICONTROL Age]:** (Målgrupper och grupper; valfritt) Specifika ålderskategorier som ska inkluderas eller exkluderas som mål: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]* och *[!UICONTROL Unknown]*. Som standard anges alla åldrar som mål. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
@@ -78,7 +80,7 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 * Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
-**[!UICONTROL Industry]:** (Målgrupper och grupper; (valfritt) Specifika branscher att inkludera eller exkludera som mål. Som standard är alla branscher målinriktade. Undantag åsidosätter alltid inkluderingar.
+**[!UICONTROL Industry]:** (Målgrupper och grupper; valfritt) Specifika branscher att inkludera eller utesluta som mål. Som standard är alla branscher målinriktade. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
@@ -86,7 +88,7 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 * Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
-**[!UICONTROL Job Function Targets]:** (Målgrupper och grupper; (valfritt) Specifika jobbfunktioner som ska inkluderas eller exkluderas som mål. Som standard anges alla jobbfunktioner som mål. Undantag åsidosätter alltid inkluderingar.
+**[!UICONTROL Job Function Targets]:** (Målgrupper och grupper; valfritt) Specifika jobbfunktioner som ska inkluderas eller exkluderas som mål. Som standard anges alla jobbfunktioner som mål. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
@@ -116,11 +118,10 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 ## [!UICONTROL Negative Websites]
 
-**[!UICONTROL Negative Websites]:** (Endast kampanjer i displayen/det egna nätverket). (valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
+**[!UICONTROL Negative Websites]:** (Kampanjer endast på displayen/det ursprungliga nätverket, valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
 
 Mer information om tillgänglighet finns i Microsoft Advertising-hjälpen för &quot;[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Hantera annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

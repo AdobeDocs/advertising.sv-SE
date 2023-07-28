@@ -1,7 +1,9 @@
 ---
 title: Anpassade måttinställningar
 description: Referera inställningarna för anpassade mått, som beräknas utifrån standardvärden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f4b8c44e-ecb3-46dc-9a68-c079188e1d75
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -36,4 +38,3 @@ Anpassade måttinställningar är något annorlunda i olika delar av gränssnitt
 >* [Skapa ett anpassat mått](custom-metric-create.md)
 >* [Redigera ett anpassat mått](custom-metric-edit.md)
 >* [Ta bort ett anpassat mått](custom-metric-delete.md)
-

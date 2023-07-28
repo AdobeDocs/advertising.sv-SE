@@ -3,7 +3,8 @@ title: Synkronisering [!DNL Google Analytics] konverteringsmått
 description: Läs om synkronisering [!DNL Google Analytics] konverteringsstatistik för optimering och rapportering.
 role: User, Admin
 exl-id: 0c263ced-3774-4d4b-9d61-65289cd74027
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,7 +19,7 @@ Sökning, sociala medier och handel kan synkronisera konverteringsvärden för e
 >
 >DSP kan använda konverteringsmåtten som anpassade mål och i rapporter.
 
-All API-användning för dataöverföringar bedöms till ett projekt i tillämpliga [!DNL Google Analytics] konto. Du kan visa dina kvoter för det här projektet i [den [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Se [!DNL Google Analytics] om du vill ha mer information om [kvoter och anropsgränser för rapportering av API-begäranden](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
+All API-användning för dataöverföringar bedöms till ett projekt i tillämpliga [!DNL Google Analytics] konto. Du kan visa dina kvoter för det här projektet i [den [!DNL Google API Console]](https://console.developers.google.com/apis/api/analytics-json.googleapis.com/quotas). Se [!DNL Google Analytics] dokumentation om mer information om [kvoter och anropsgränser för rapportering av API-begäranden](https://developers.google.com/analytics/devguides/reporting/core/v4/limits-quotas).
 
 I följande steg beskrivs processen för synkronisering av konverteringsdata från [!DNL Google Analytics].
 
@@ -26,7 +27,7 @@ I följande steg beskrivs processen för synkronisering av konverteringsdata fr�
 
    * Implementera en Adobe Advertising-token (`ef_id` frågesträngsparameter) på landningssidans URL:er för alla tillämpliga annonskonton.
 
-   * Fånga token för Adobe Advertising (`ef_id` frågesträngsparameter) i en [!DNL Custom Dimension] in [!DNL Google Analytics].
+   * Fånga token för Adobe Advertising (`ef_id` frågesträngsparameter) i [!DNL Custom Dimension] in [!DNL Google Analytics].
 
 1. (Byråkontoadministratör, kontoansvarig för myndighet, [!DNL Adobe] kontohanteraren och endast administratörsanvändare) [Skapa en datakälla per [!DNL Google Analytics] kombination av konto, egenskap och vy](data-source-configure.md).
 

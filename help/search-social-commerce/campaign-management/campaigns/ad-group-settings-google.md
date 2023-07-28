@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] annonsgruppsinställningar"
+title: '''[!DNL Google Ads] och gruppinställningar'
 description: Referera inställningarna för [!DNL Google Ads] annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -28,11 +30,11 @@ ht-degree: 0%
 
 * *[!UICONTROL Rotate forever]:*   Var och en av era annonser går in i annonsauktionen ett jämnare antal gånger, vilket gör det möjligt för Search, Social och Commerce att göra annonser inte bara med klickfrekvens utan även med konverteringar.
 
-* *[!UICONTROL Use campaign setting]*(standard för nya annonsgrupper): Använder den befintliga inställningen för kampanjnivå och rotation. **Obs!** Inställningen på kampanjnivå visas inte i Sök, Socialt och Handel.
+* *[!UICONTROL Use campaign setting]*(standardinställningen för nya annonsgrupper): Använder den befintliga inställningen för kampanjnivå och rotation. **Obs!** Inställningen på kampanjnivå visas inte i Sök, Socialt och Handel.
 
 Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTROL Target CPA], [!UICONTROL Target ROAS], eller [!UICONTROL Enhanced CPC]), sedan [!DNL Google Ads] anger automatiskt alternativet till[!UICONTROL Optimize].&quot;
 
-**[!UICONTROL Custom Bid Level]:** (Kampanjer som endast riktar sig till visningsnätverket) Så här lägger du ett bud: av *[!UICONTROL Ad Group]* (standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intresse &amp; Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (webbplats), *[!UICONTROL Unknown]*, eller *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (Kampanjer som endast riktar sig till visningsnätverket) Så här lägger du ett bud: per *[!UICONTROL Ad Group]* (standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intresse &amp; Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (webbplats), *[!UICONTROL Unknown]*, eller *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
@@ -40,16 +42,15 @@ Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTR
 >* När ni lägger bud per ålder, kön, ränta och lista eller vertikalt för kampanjer i portföljer optimerar inte optimeringsfunktionen budskapen för dimensionen. Dessutom tillämpas all attribuering på annonsgruppen.
 >* I annonser i söknätverket används alltid nyckelordsbud.
 
-
 ## [!UICONTROL Budget Options]
 
 <!-- **[!UICONTROL Bid]:** -->
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Kampanjer med [!UICONTROL Target CPA] budgivning, (frivillig uppgift) Målkostnaden per förvärv (CPA) för annonsgruppen. Det här värdet åsidosätter kampanjnivåmålet.
+**[!UICONTROL Target CPA]:** (Kampanjer med [!UICONTROL Target CPA] budgivning; frivilligt) Målkostnad per förvärv (CPA) för annonskoncernen. Det här värdet åsidosätter kampanjnivåmålet.
 
-**[!UICONTROL Target ROAS]:** (Kampanjer med [!UICONTROL Target ROAS] budgivning, (valfritt) Målavkastningen på annonskostnaderna (ROAS) för annonsgruppen, i procent. Det här värdet åsidosätter kampanjnivåmålet.
+**[!UICONTROL Target ROAS]:** (Kampanjer med [!UICONTROL Target ROAS] budgivning; valfritt) Målavkastningen på annonskostnaderna (ROAS) för annonsgruppen, i procent. Det här värdet åsidosätter kampanjnivåmålet.
 
 ## [!UICONTROL Ad Group Targeting]
 
@@ -88,4 +89,3 @@ Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTR
 >[!MORELIKETHIS]
 >
 >* [Hantera annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

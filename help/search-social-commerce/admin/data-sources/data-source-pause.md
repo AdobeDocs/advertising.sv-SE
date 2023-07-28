@@ -3,7 +3,8 @@ title: Pausa synkroniseringen av en datakälla
 description: Lär dig hur du pausar en datakälla för att stoppa synkroniseringen.
 role: User, Admin
 exl-id: 5495ea13-8700-4e8a-9325-062c9ed8f4f4
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Om du pausar en datakälla avbryts framtida synkroniseringar med datakällan. Om feeden synkroniseras för närvarande slutförs processen först så att data i Adobe Advertising är aktuella.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Markera kryssrutan bredvid datakällan som du vill pausa.
 

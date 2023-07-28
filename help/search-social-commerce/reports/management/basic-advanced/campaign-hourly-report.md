@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Hourly Report]"
+title: '[!UICONTROL Campaign Hourly Report]'
 description: Läs mer om [!UICONTROL Campaign Hourly Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0819d249-c105-4408-b5a2-a82a9e553d31
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Hourly Report]
 
-The [!UICONTROL Campaign Hourly Report] innehåller kostnads-, klicknings- och (valfritt) konverteringsdata för en eller flera [!DNL Google Ads] kampanjer med nyckelord. Som standard innehåller data en rad för varje tillämplig kampanj för varje timme i det angivna datumintervallet, och raderna är i stigande ordning först efter kampanj och sedan (om tillämpligt) efter portfölj.
+The [!UICONTROL Campaign Hourly Report] innehåller kostnads-, klicknings- och (valfritt) konverteringsdata för en eller flera [!DNL Google Ads] kampanjer med nyckelord. Som standard innehåller data en rad för varje tillämplig kampanj för varje timme i det angivna datumintervallet, och raderna är i stigande ordning först efter kampanj och sedan (när det är tillämpligt) efter portfölj.
 
 Du kan även inkludera annonsörspecifika etikettklassificeringar.
 
@@ -37,4 +39,3 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 >* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
 >* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)
-

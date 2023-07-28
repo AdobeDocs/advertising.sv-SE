@@ -1,7 +1,9 @@
 ---
 title: s_kwcid tracking-parametern
 description: Läs mer om spårningsparametern som används för att dela data från Adobe Advertising med Adobe Analytics.
-source-git-commit: a9e23de134274d8f5004a908853c4132300b84e8
+exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Adobe Advertising delar data om era kampanjer med Adobe Analytics via `s_kwcid` 
 
 * (Rekommenderas<!--; the only option for Advertising DSP-->) Funktionen s_kwcid på serversidan är implementerad.
 
-  För [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med [!UICONTROL Auto Upload] inställning aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons <!-- click a search ad or views a display ad --> med Adobe Advertising pixel.
+  För [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med [!UICONTROL Auto Upload] inställning aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons <!-- click a search ad or views a display ad --> med Adobe Advertising-pixeln.
 
   för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med [!UICONTROL Auto Upload] om inställningen är inaktiverad lägger du till parametern manuellt i tilläggsparametrarna på kontonivån, som läggs till i bas-URL:erna.
 
@@ -96,7 +98,7 @@ where:
 
   `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
 
-* Målgruppsnätverkskampanjer:
+* Målgruppskampanjer:
 
   `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
@@ -110,7 +112,7 @@ where:
 
 >[!MORELIKETHIS]
 >
->* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
+>* [Översikt [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
 >* [Hantera och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
 >* [Inställningar för Baidu-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [Kampanjinställningar för Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)

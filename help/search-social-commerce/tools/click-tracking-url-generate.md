@@ -1,7 +1,9 @@
 ---
 title: Generera en URL för klickspårning
 description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och handel.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+feature: Search Tools, Search Tracking
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # Generera en klicknings-URL för sökning, sociala medier och handel med verktyget för spårning av URL:er
 
-*Annonsörer med endast konverteringsspårning för Adobe-annonsering*
+*Annonsörer med enbart konverteringsspårning i Adobe Advertising*
 
 Information om när du manuellt måste generera och implementera en klickspårnings-URL finns i &quot;[När och hur klickspårnings-URL:er ska genereras](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 
@@ -18,11 +20,11 @@ Information om när du manuellt måste generera och implementera en klickspårni
 >
 >Den här funktionen implementerar inte spårningsmallen eller mål-URL:en i det relevanta annonskontot.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]**.
 
 1. Välj annonsnätverkskontot i listan.
 
-   ([!DNL Google Ads] nyckelord; text, mobilappsinstallation och dynamiska sökannonser, placeringar, sitelinks, och produktgrupper) Spårningstaggar för spårningsmallsfältet visas. De innehåller inga tilläggsparametrar på kontonivå. Gå till steg 4.
+   ([!DNL Google Ads] nyckelord; text, mobilappsinstallation och dynamiska sökannonser; placeringar; sitelinks; och produktgrupper) Spårningstaggar för spårningsmallsfältet visas. De innehåller inga tilläggsparametrar på kontonivå. Gå till steg 4.
 
    För alla andra typer av taggar anger du indatainformation för att generera en tagg.
 

@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Bing Ads Geo Report]"
+title: '[!UICONTROL Bing Ads Geo Report]'
 description: Läs mer om [!UICONTROL Bing Ads Geo Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14e5039-4af6-43de-925c-429f537dad6a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -20,7 +22,6 @@ Du kan visa data för de senaste två månaderna.
 >
 >* Summorna för den här rapporten kan skilja sig från summorna för samma kampanjer och tidsperiod i [!UICONTROL Geo Distribution Report] (som sammanställs av Search, Social och Commerce) på grund av olika leverantörer och metoder för att fastställa geografiska platser.
 >* Data för den här rapporten hämtas för föregående dag kl. 23.00 varje dag. Exempelvis hämtas data för 17 juni kl. 23.00 den 18 juni. Om du kör rapporten den 19 juni kl. 9.00 - innan data för 18 juni hämtas - innehåller rapporten data fram till 17 juni kl. 23.00.
-
 
 ## Standardkolumner
 
@@ -46,7 +47,7 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 * [!UICONTROL Ad Distribution]
 
 >[!MORELIKETHIS]
+>
 * [Specialrapporter](specialty-report-about.md)
 * [Generera en specialrapport](specialty-report-generate.md)
 * [Inställningar för specialrapport](specialty-report-settings.md)
-

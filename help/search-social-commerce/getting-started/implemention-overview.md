@@ -1,7 +1,9 @@
 ---
 title: Översikt över att implementera Search, Social och Commerce
-description: Lär dig
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Läs
+exl-id: 31a4cd6f-8b02-4762-8e68-c9f377389935
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 0%
@@ -42,13 +44,13 @@ Här följer det allmänna arbetsflödet för att implementera och använda sök
 
    * Om kontona inte redan innehåller kampanjdata lägger du till kampanjer, annonsgrupper, nyckelord, annonser och placeringar inifrån Search, Social och Commerce eller inifrån annonsnätverket.
 
-      Mer information om hur du ställer in sökkampanjer finns i hjälpkapitlet om&quot;Campaign Management&quot;.
+     Mer information om hur du ställer in sökkampanjer finns i hjälpkapitlet om&quot;Campaign Management&quot;.
 
 1. Ställ in spårning för alla annonser som du vill att Adobe Advertising ska spåra konverteringar för:
 
-   1. (Om det behövs) Ställ in klickspårning för annonser och eventuellt för nyckelord, [!DNL Google Ads] placeringar, och [!DNL Google Ads] tillägg genom att generera och överföra klickspårnings-URL:er.
+   1. (Om det behövs) Ställ in klickspårning för annonser och eventuellt för nyckelord, [!DNL Google Ads] placeringar och [!DNL Google Ads] tillägg genom att generera och överföra klickspårnings-URL:er.
 
-      Klickspårnings-URL:er för annonsörer med Adobe Advertising pixelbased conversion tracking service include a redirect to [!DNL Adobe] servrar.
+      Klicka på spårnings-URL:er för annonsörer med Adobe Advertising som har en omdirigering till [!DNL Adobe] servrar.
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att du lägger till taggar för konverteringsspårning på lämpliga webbsidor och/eller ställer in en daglig feed-släppning för konverteringsdata som du har samlat in med din egen metod.
 
@@ -62,7 +64,7 @@ Här följer det allmänna arbetsflödet för att implementera och använda sök
 
    1. (Annonsörer med [!DNL Google Analytics]) Synkronisera konverteringsvärden för en [!DNL Google Analytics] kombination av konto, egenskap och vy för optimering och rapportering.
 
-      Se hjälpunderkapitlet &quot;Admin&quot; > &quot;[Konfigurera datakällor](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
+      Se hjälpunderkapitlet &quot;Admin&quot; > &quot;[Konfigurerar datakällor](/help/search-social-commerce/admin/data-sources/data-source-about.md).&quot;
 
 1. Skapa och lansera portfolior:
 
@@ -73,6 +75,7 @@ Här följer det allmänna arbetsflödet för att implementera och använda sök
       >Sökning, sociala medier och handel håller fortfarande reda på och rapporterar data för kampanjer som inte är tilldelade till portföljer, men det optimerar inte anbuden för dem.
 
    1. När det finns tillräckligt med data för att skapa en baslinje kan teamet starta portföljen, vilket gör det möjligt för Search, Social och Commerce att optimera anbud och/eller budgetar för portföljen, baserat på optimeringstyp.
+
    Mer information om hur du skapar och startar portföljer finns i hjälpen om optimering, som du hittar på [!UICONTROL Help] meny (![Hjälp-menyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälp-menyn")) i det övre högra hörnet på en sida i Sök, Social och Commerce.
 
 1. Övervaka portföljernas prestanda:

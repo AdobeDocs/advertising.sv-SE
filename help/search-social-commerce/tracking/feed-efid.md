@@ -1,7 +1,9 @@
 ---
 title: Konverteringsspårning med en EF ID-feed
 description: Lär dig hur du använder en EF ID-feed för konverteringsspårningsdata.
-source-git-commit: 46e918418bf2e5c412efa8825dda22bc1953e439
+exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -16,13 +18,13 @@ I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare
 
 *Kontorsansvarig [!DNL Adobe] endast kontohanterare och administratörsanvändarroller*
 
-1. Använd alternativen för konto- eller kampanjspårning &quot;[!UICONTROL EF Redirect],&quot; omdirigeringstypen för &quot;[!UICONTROL Token],&quot; och &quot;[!UICONTROL Auto Upload]&quot; för att automatiskt generera en mål-URL eller en slutlig URL med en Adobe Advertising-token (ef_id) för varje nyckelord (för nyckelordsspårning) eller annons (för annonsnivåspårning) i kontot eller kampanjen.
+1. Använd alternativen för konto- eller kampanjspårning &quot;[!UICONTROL EF Redirect],&quot; omdirigeringstypen för &quot;[!UICONTROL Token],&quot; och &quot;[!UICONTROL Auto Upload]&quot; om du automatiskt vill generera en mål-URL eller en slutlig URL med en Adobe Advertising-token (ef_id) för varje nyckelord (för nyckelordsspårning) eller annons (för annonsnivåspårning) i kontot eller kampanjen.
 
    >[!NOTE]
-   >* Den här metoden kräver inte att annonsören använder konverteringsspårningstaggar för Adobe.
+   >* Den här metoden kräver inte att annonsören använder taggar för konvertering till Adobe Advertising.
    >* Om du byter omdirigeringstyp för ett befintligt konto eller en befintlig kampanj från [!UICONTROL Standard] till [!UICONTROL Token], eller vice versa, måste du återskapa alla tillämpliga spårnings-URL:er.
 
-   ef_id fylls i och läggs till på landningssidans URL när slutanvändaren klickar på annonsen och omdirigeras till en Adobe-annonsserver. ef_id skickas sedan till annonsören i mål-URL:en eller den slutliga URL:en för annonsen eller nyckelordet. Följande är ett exempel på en mål-URL som skickas till annonsören under omdirigeringen:
+   ef_id fylls i och läggs till i landningssidans URL när slutanvändaren klickar på annonsen och omdirigeras till en Adobe Advertising-server. ef_id skickas sedan till annonsören i mål-URL:en eller den slutliga URL:en för annonsen eller nyckelordet. Följande är ett exempel på en mål-URL som skickas till annonsören under omdirigeringen:
 
    `http://pixel.everesttech.net/1180/cq?ev_sid=3&ev_ln={keyword}&ev_crx={creative}&ev_mt={matchtype}&ev_n={network}&ev_ltx=&ev_pl={placement}&url=http%3A//www.example.com&ef_id=D59Nu0u@BD0AAM1q:20110630172936:s`
 
@@ -34,11 +36,9 @@ I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare
 
 1. Technical Services tolkar konverteringsdata i de överförda filerna och överför sedan data till Adobe Advertising. Adobe Advertising spårar sedan data mot enskilda nyckelord, annonser och placeringar och skapar intäktsprognoser för varje.
 
-1. Tekniska tjänster validerar bearbetade data mot feed-data och kontrollerar om det finns några [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
+1. Tekniska tjänster validerar bearbetade data mot feed-data och kontrollerar om det finns [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >
 >* [Filkrav för konvertering av feed-filer](feed-file-requirements.md)
 >* [Datakrav för dataflöden som använder EF-ID:n](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-
-

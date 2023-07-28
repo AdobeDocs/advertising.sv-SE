@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Advertising] responsiva annonsinställningar"
+title: '''[!DNL Microsoft® Advertising] responsiva annonsinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] responsiva annonser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bbe06bdb-c765-4d30-a609-03f476c4ee54
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -28,7 +30,7 @@ För målgruppsannonser [!DNL Microsoft® Advertising] beskär automatiskt den h
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken. Den kan användas i annonseringsformat som bara kan användas för samtal.
 
-**[!UICONTROL Short Headlines]:** Minst tre, och upp till 15, korta rubriker med minst ett ord och högst 30 tecken vardera.
+**[!UICONTROL Short Headlines]:** Minst tre och upp till 15 korta rubriker med minst ett ord och högst 30 tecken vardera.
 
 **[!UICONTROL Long Headlines]:** Minst tre och upp till fem långa rubriker med högst 90 tecken vardera.
 
@@ -52,4 +54,3 @@ För målgruppsannonser [!DNL Microsoft® Advertising] beskär automatiskt den h
 >* [[!DNL Microsoft® Advertising] multimediaannonsinställningar](ad-settings-microsoft-multimedia.md)
 >* [[!DNL Microsoft® Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
 >* [[!DNL Microsoft® Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)
-

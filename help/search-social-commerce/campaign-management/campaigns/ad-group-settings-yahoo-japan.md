@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yahoo! Japan Ads] annonsgruppsinställningar"
+title: '''[!DNL Yahoo! Japan Ads] och gruppinställningar'
 description: Referera inställningarna för [!DNL Yahoo! Japan Ads] annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 987c9627-06b3-447a-aa1b-a4040f4f5a0c
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -41,4 +43,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Hantera annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
-

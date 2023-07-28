@@ -1,7 +1,9 @@
 ---
 title: Om att handla produktgrupper
 description: Läs mer om att handla produktgrupper i shoppingkampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c91e6fb5-3be1-4d21-b508-09f974058fc7
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -22,15 +24,15 @@ Mer information om [!DNL Google] shoppingkampanjer och annonser, se&quot;[Implem
 
 >[!NOTE]
 >
->Support finns inte för [!DNL Google Ads] med en lista över grupper i maximala resultatkampanjer, som ersätter smarta shoppingkampanjer. Om du vill hantera och visa data för listgrupper använder du [!DNL Google Ads] redigerare.
+>Support finns inte för [!DNL Google Ads] med en lista över grupper i maximala resultatkampanjer, som ersätter smarta shoppingkampanjer. Använd [!DNL Google Ads] redigerare.
 
 ## Produktgruppshierarki
 
 Innan du kan skapa produktgrupper med specifika attribut för en annonsgrupp måste du först skapa en produktgrupp som innehåller alla funktioner och som heter[!UICONTROL All Products].&quot; Från den här överordnade produktgruppen kan du skapa underordnade produktgrupper för delmängder av produkter, och du kan skapa underordnade från de underordnade produktgrupperna. När du har skapat den första underordnade produktgruppen för en annonsgrupp, en annan produktgrupp som kallas[!UICONTROL Everything Else]&quot; skapas automatiskt med standardanbudet för annonsgrupp. När du lägger till fler produktgrupper visas[!UICONTROL Everything Else]gruppen justeras i enlighet därmed så att den utgör alla produkter som inte ingår i en annan produktgrupp.
 
-Inom en annonsgrupp kan du skapa upp till sju nivåer av produktgrupper (exklusive &quot;[!UICONTROL All Products]&quot;) att inkludera eller exkludera från anbud, med en eller flera produktgrupper som har samma attribut på varje nivå (till exempel [!UICONTROL Brand]=Köp för en produktgrupp och [!UICONTROL Brand]=AcmePlus för ett annat på samma nivå). Överordnade produktgrupper kallas underindelningar och den lägsta nivån av indelning kallas en enhet. Du kan ange offerter och spårningsmallar, eller helt exkludera budgivning, på enhetsnivå. Hela uppsättningen aktiva produktgrupper för en annonsgrupp används hierarkiskt för att avgöra vilka produkter som omfattas. Om du t.ex. delar upp [!UICONTROL All Products] till [!UICONTROL Brand]=AcmeBasic och [!UICONTROL Brand]=AcmePlus, och sedan kan du dela upp var och en av dessa produktgrupper ytterligare [!UICONTROL Condition]=Nytt och ange anbud. Endast nya produkter med varumärkena AcmeBasic och AcmePlus får annonseras eller uteslutas från annonser.
+Inom en annonsgrupp kan du skapa upp till sju nivåer av produktgrupper (exklusive &quot;[!UICONTROL All Products]&quot;) att inkludera eller exkludera från anbud, med en eller flera produktgrupper som har samma attribut på varje nivå (till exempel [!UICONTROL Brand]=Köp för en produktgrupp och [!UICONTROL Brand]=AcmePlus för ett annat på samma nivå). Överordnade produktgrupper kallas underindelningar och den lägsta nivån av indelning kallas en enhet. Du kan ange offerter och spårningsmallar, eller helt exkludera budgivning, på enhetsnivå. Hela uppsättningen aktiva produktgrupper för en annonsgrupp används hierarkiskt för att avgöra vilka produkter som omfattas. Om du till exempel delar upp [!UICONTROL All Products] till [!UICONTROL Brand]=AcmeBasic och [!UICONTROL Brand]=AcmePlus, och sedan kan du dela upp var och en av dessa produktgrupper ytterligare [!UICONTROL Condition]=Nytt och ange anbud. Endast nya produkter med varumärkena AcmeBasic och AcmePlus får annonseras eller uteslutas från annonser.
 
-![Exempel på en produktgruppsuppsättning](/help/search-social-commerce/assets/product-group-list.png "Exempel på en produktgruppsuppsättning")
+![Exempel på en produktgrupp](/help/search-social-commerce/assets/product-group-list.png "Exempel på en produktgrupp")
 
 ![Exempel på produktgruppshierarki](/help/search-social-commerce/assets/product-group-tree.png "Exempel på produktgruppshierarki")
 
@@ -42,11 +44,11 @@ Du kan skapa och redigera produktgrupper och ta bort produktgrupper och deras un
 
 (Konton/kampanjer med &quot;[!UICONTROL EF Redirect]&quot; spårningsalternativ) Om du vill tillåta sökningar, sociala medier och handel att spåra konverteringar för produktgrupper, [generera spårnings-URL:er för produktgrupper med verktyget för spårning av URL:er](/help/search-social-commerce/tools/click-tracking-url-generate.md)och gör sedan något av följande:
 
-* (Krävs för [!DNL Google Ads]; bästa praxis för [!DNL Microsoft Advertising]) Lägg till spårnings-URL till [!DNL Tracking Template] i inställningarna för konto, kampanj eller produktgrupp. För enklare underhåll bör du lägga till dem på högsta möjliga nivå. Alla tilläggsparametrar som har angetts för kontot eller kampanjen inkluderas inte.
+* (Krävs för [!DNL Google Ads]; bästa praxis för [!DNL Microsoft Advertising]) Lägg till spårnings-URL:en i [!DNL Tracking Template] i inställningarna för konto, kampanj eller produktgrupp. För enklare underhåll bör du lägga till dem på högsta möjliga nivå. Alla tilläggsparametrar som har angetts för kontot eller kampanjen inkluderas inte.
 
-   >[!CAUTION]
-   >
-   >([!DNL Microsoft Advertising]) Använd bara det här alternativet om du inte inkluderar URL:er för sökning, sociala medier och handelsuppföljning i en anpassad kolumn i produktflödet. Om du gör båda, kommer URL-adresserna att innehålla två omdirigeringar och orsaka brutna länkar.
+  >[!CAUTION]
+  >
+  >([!DNL Microsoft Advertising]) Använd bara det här alternativet om du inte inkluderar URL:er för sökning, sociala medier och handelsuppföljning i en anpassad kolumn i produktflödet. Om du gör båda kommer URL:erna att innehålla två omdirigeringar och orsaka brutna länkar.
 
 * ([!DNL Microsoft Advertising] (endast) Lägg till spårnings-URL:en till produktdata i [!DNL Microsoft Merchant Center] konto. Om du vill göra det tar du med spårnings-URL:en tillsammans med värdet i `link` eller `mobile_link` fält, om det är lämpligt, i en anpassad kolumn som kallas [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) i produktflödet. URL:er som skapas med den här metoden innehåller inte spårningsparametrar som anges i konto- eller kampanjinställningarna i Sök, Socialt och Commerce.
 
@@ -59,4 +61,3 @@ Du kan visa data om produktgrupper i [den [!UICONTROL Product Group Report]](/he
 >* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] produktgruppsinställningar](product-group-settings-microsoft.md)
 >* [Implementera [!DNL Microsoft® Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
-

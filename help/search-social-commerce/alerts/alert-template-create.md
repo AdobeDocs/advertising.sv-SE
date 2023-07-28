@@ -1,7 +1,9 @@
 ---
 title: Skapa en anpassad aviseringsmall
 description: Lär dig hur du skapar en mall för att generera anpassade aviseringar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Du kan skapa en aviseringsmall för portföljer, kampanjer, annonsgrupper, nycke
 
 ## Skapa en aviseringsmall från [!UICONTROL Alert Templates] visa
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i [!UICONTROL Alert Templates] vy.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i [!UICONTROL Alert Templates] vy.
 
 1. Klicka på i verktygsfältet ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och välj sedan den enhetstyp som ska utvärderas ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad], eller [!UICONTROL Product Group]).
 
@@ -56,4 +58,3 @@ Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;
 >* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)
-

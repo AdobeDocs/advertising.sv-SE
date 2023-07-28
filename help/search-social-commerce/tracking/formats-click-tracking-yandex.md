@@ -1,7 +1,9 @@
 ---
 title: Klickningsspårningsformat för [!DNL Yandex]
 description: Läs mer om klickningsspårningsformaten för [!DNL Yandex] konton.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cf1d6c4b-9bcd-4b82-919f-c14dbaff9a76
+feature: Search Tracking
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -34,9 +36,7 @@ Exempel:
 >
 >* `position_type` är blocket där annonsen visades på [!DNL Yandex]. Möjliga värden: &quot;premium&quot; (top block), &quot;other&quot; (right block) eller &quot;none&quot; (non-search trafik).
 
-
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för konverteringstjänsten Adobe](formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
 >* [Format för s\_kwcid-spårningskod](skwcid-tracking-parameter.md)
-

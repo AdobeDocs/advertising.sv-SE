@@ -2,7 +2,8 @@
 title: Om meddelanden
 description: Lär dig mer om meddelanden, inklusive olika typer och kategorier.
 exl-id: a21dae13-b948-48e0-922a-d865f86e72f8
-source-git-commit: f3cc5ffae0d5d19c8542a46ffdb49478efa14522
+feature: Search Notifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -31,9 +32,9 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 
 ## Meddelandetyper
 
-* **[!UICONTROL Notices]**: Versionsinformation, driftstoppsmeddelanden och andra meddelanden om ändringshantering.
+* **[!UICONTROL Notices]**: Versionsinformation, information om driftstopp och annan ändringshantering.
 
-* **[!UICONTROL Recommendations]**: Möjligheter som identifierats för att förbättra prestanda, implementera bästa praxis och så vidare.
+* **[!UICONTROL Recommendations]**: Möjligheter som identifierats för att förbättra prestanda, implementera bästa praxis osv.
 
 * **[!UICONTROL Warnings]**: Problem som kräver åtgärd men som inte är viktiga för optimering eller hantering.
 
@@ -43,9 +44,9 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 
 * [!UICONTROL Campaign Management]
 
-   * **[!UICONTROL UI Actions]**: Meddelanden om att dina jobb som utförs i bakgrunden har slutförts eller misslyckats. Jobbtyperna omfattar [bladarbeten](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), massredigera jobb i datatabellen eller med verktygsfältet, enhetstilldelningsjobb eller andra åtgärder i användargränssnittet (t.ex. synkronisering med annonsnätverk, inklistring av rader eller namnbyte av enheter). Enhetstilldelningar omfattar tilldelning eller frigörande av en [etikettklassificeringsvärde](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) till vilken enhet som helst, tilldela en kampanj till en portfölj och tilldela eller ta bort en begränsning till en portfölj.<!--Link "constraint" to constraint-about.md if that file is ever public -->
+   * **[!UICONTROL UI Actions]**: Meddelanden om att de jobb som utförs i bakgrunden har slutförts eller misslyckats. Jobbtyperna omfattar [bladarbeten](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md), massredigera jobb i datatabellen eller med verktygsfältet, enhetstilldelningsjobb eller andra åtgärder i användargränssnittet (t.ex. synkronisering med annonsnätverk, inklistring av rader eller namnbyte av enheter). Enhetstilldelningar omfattar tilldelning eller frigörande av en [etikettklassificeringsvärde](/help/search-social-commerce/campaign-management/label-classifications/classification-about.md) till alla enheter, tilldela en kampanj till en portfölj och tilldela eller ta bort en begränsning till en portfölj.<!--Link "constraint" to constraint-about.md if that file is ever public -->
 
-   * **[!UICONTROL Bulksheets]**: Meddelanden om att en [operation](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) har slutförts eller misslyckats.
+   * **[!UICONTROL Bulksheets]**: Meddelanden om att [operation](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) har slutförts eller misslyckats.
 
    * **[!UICONTROL Manager Account Missing]**: Meddelanden om att autentiseringsuppgifterna för en sökning, sociala medier och handel saknas [annonsera konto för nätverkshanterare](/help/search-social-commerce/admin/manager-accounts.md), som används för att ställa in kritiska funktioner korrekt.
 
@@ -77,9 +78,9 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 
    * **[!UICONTROL Custom Alerts]**: Meddelanden om att [varningsinstanser](/help/search-social-commerce/alerts/alert-about.md) har utlösts för en aviseringsmall.
 
-   * **[!UICONTROL Spreadsheet Feeds]**: Meddelanden om att en [kalkylbladsmatning](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) har slutförts eller misslyckats.
+   * **[!UICONTROL Spreadsheet Feeds]**: Meddelanden om att [kalkylbladsmatning](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md) har slutförts eller misslyckats.
 
-   * **[!UICONTROL Reports]**: Meddelanden om att en [anpassad eller schemalagd rapport](/help/search-social-commerce/reports/report-about.md) har slutförts eller misslyckats.
+   * **[!UICONTROL Reports]**: Meddelanden om att [anpassad eller schemalagd rapport](/help/search-social-commerce/reports/report-about.md) har slutförts eller misslyckats.
 
    * **[!UICONTROL Advertising Insights]**: Meddelanden om att [en [!DNL Advertising Insight]](/help/search-social-commerce/advertising-insights/insight-about.md) har slutförts eller misslyckats.
 
@@ -92,6 +93,6 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
 >* [Visa dina meddelanden](notification-view.md)
 >* [Markera ett meddelande som läst eller oläst](notification-mark-read-unread.md)
 >* [Ta bort ett meddelande](notification-delete.md)
->* [Redigera aviseringsinställningarna](notification-edit.md)
+>* [Redigera meddelandeinställningarna](notification-edit.md)
 >* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
 >* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)

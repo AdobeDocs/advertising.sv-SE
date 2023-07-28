@@ -1,7 +1,9 @@
 ---
 title: De inledande inställningsaktiviteterna för rapporter
 description: Lär dig hur du gör mätvärden tillgängliga i rapporter och hur du automatiserar rapporter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -14,9 +16,9 @@ Nya användare bör utföra följande initiala konfigurationsuppgifter:
 
 * Gör transaktionsegenskaperna som Adobe Advertising spårar för en annonsörer [tillgängliga för rapporter och andra vyer](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)och valfritt [ändra namn på egenskapsnamnen](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) som visas i kolumnrubriker för läsbarhet.
 
-   Transaktionsegenskaper är inte tillgängliga för rapporter om du inte uttryckligen gör dem tillgängliga.
+  Transaktionsegenskaper är inte tillgängliga för rapporter om du inte uttryckligen gör dem tillgängliga.
 
-   Om du senare börjar spåra en ny transaktionsegenskap måste du upprepa den här uppgiften.
+  Om du senare börjar spåra en ny transaktionsegenskap måste du upprepa den här uppgiften.
 
 * (Valfritt) Automatisera rapportgenerering:
 
@@ -30,4 +32,3 @@ Nya användare bör utföra följande initiala konfigurationsuppgifter:
 >
 >* [Rapporter](report-about.md)
 >* [Data som används för rapporter](data-used-for-reports.md)
-

@@ -3,7 +3,8 @@ title: Krav för att konfigurera en [!DNL Google Analytics] datakälla
 description: Lär dig mer om de steg du måste slutföra innan du konfigurerar en [!DNL Google Analytics] datakälla.
 role: User, Admin
 exl-id: cbb2ad6d-8494-4fa4-928c-238b25bda3a6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Krav för att konfigurera en [!DNL Google Analytics] datakälla
 
-Innan du konfigurerar en [!DNL Google Analytics] datakälla måste du ange frågesträngsparametern ef_id för sökning, sociala medier och handel som primärnyckel för att skicka data från [!DNL Google Analytics] för sökning, sociala medier och handel. Ställ in primärnyckeln för varje [!DNL Google Analytics] konto- och egenskapskombination som du vill synkronisera data för. Andra personer i organisationen kan behöva utföra dessa uppgifter; mer information finns nedan.
+Innan du konfigurerar en [!DNL Google Analytics] datakälla måste du ange frågesträngsparametern ef_id för sökning, sociala medier och handel som primärnyckel för att skicka data från [!DNL Google Analytics] för sökning, sociala medier och handel. Ställ in primärnyckeln för varje [!DNL Google Analytics] konto- och egenskapskombination som du vill synkronisera data för. Andra personer i organisationen kan behöva utföra dessa uppgifter; se nedan för mer information.
 
 Om landningssidans URL:er för dina annonser eller nyckelord inte redan innehåller omdirigeringar av typen Sök, Socialt och Commerce, ska du lägga till dem först.
 
@@ -26,9 +27,9 @@ Om ef_id inte finns med ber du ditt kontoteam på Adobe om hjälp.
 
 När alla krav är uppfyllda `ef_id` används som primärnyckel för att skicka data från [!DNL Google Analytics] för sökning, sociala medier och handel.
 
-## Krav 2: Fånga token Search, Social, &amp; Commerce (&quot;ef_id&quot; frågesträngsparameter) i en anpassad dimension för varje relevant [!DNL Google Analytics] property
+## Krav 2: Hämta token för sökning, sociala medier och handel (&quot;ef_id&quot; frågesträngsparameter) i en anpassad dimension för varje relevant [!DNL Google Analytics] property
 
-Upprepa följande åtgärder för varje [!DNL Google Analytics] konto- och egenskapskombination som du vill synkronisera data för. Se [[!DNL Google Analytics] dokumentation om att skapa och implementera anpassade dimensioner](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) om du vill ha hjälp med dessa uppgifter.
+Upprepa följande åtgärder för varje [!DNL Google Analytics] konto- och egenskapskombination som du vill synkronisera data för. Se [[!DNL Google Analytics] dokumentation om hur du skapar och implementerar anpassade dimensioner](https://support.google.com/analytics/answer/2709829?hl=en#zippy=%2Cin-this-article) om du vill ha hjälp med dessa uppgifter.
 
 1. I [!DNL Google Analytics], skapa en anpassad dimension med namnet &quot;`ef_id`&quot;. Ange dimensionens omfång till [!DNL User]och ställ in dimensionen på aktiv.
 

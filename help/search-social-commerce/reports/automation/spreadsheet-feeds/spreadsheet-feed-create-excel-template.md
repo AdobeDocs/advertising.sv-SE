@@ -1,7 +1,9 @@
 ---
 title: Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde
 description: Lär dig hur du skapar specialformaterade kalkylbladsmallar.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -21,7 +23,6 @@ Om du vill skapa kalkylbladsfeeds måste du först skapa särskilt formaterade [
    > * Du kan skapa kalkylbladsfeeds för [!UICONTROL Portfolio], [!UICONTROL Search Engine], [!UICONTROL Search Engine Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Ad Variation], [!UICONTROL Keyword]och [!UICONTROL Forecast Accuracy] rapporter. Om du använder [!UICONTROL Ad Group Report], begränsa antalet annonsgrupper som ingår för snabbare resultat.
    > * The [!UICONTROL Date Range] enheten som definierats i mallen används inte. Du definierar datumen som data ska uppdateras för när du konfigurerar kalkylbladsflödet senare.
 
-
 1. När rapporten har skapats går du till **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** och exportera en TSV- eller XLS-version av rapportutdata till en fil.
 
 1. I [!DNL Excel]skapar du en anpassad mall för rapporten:
@@ -38,23 +39,22 @@ Om du vill skapa kalkylbladsfeeds måste du först skapa särskilt formaterade [
 
       2. Sortera data efter startdatum i stigande ordning (från det äldsta till det senaste).
 
-      3. Ändra namnet på kalkylbladsfliken från[!UICONTROL Sheet1]&quot; till &quot;[!UICONTROL RAW].&quot;
+      3. Ändra namnet på kalkylbladsfliken från[!UICONTROL Sheet1]till[!UICONTROL RAW].&quot;
 
          Det här speciella fliknamnet gör att data kan uppdateras.
 
       4. (Valfritt) Lägg till anpassade kolumner till höger om kolumnerna från rapportmallen efter behov.
+
    1. (Valfritt) Skapa en pivottabell i ett separat kalkylblad. När du är klar högerklickar du i valfri cell i pivottabellen och väljer **[!UICONTROL Pivot Table Options]** klickar du på **[!UICONTROL Data]** och sedan välja **[!UICONTROL Refresh data when opening the file]**.
 
    1. Spara filen som en [!DNL Excel] kalkylblad i XLSX-format.
 
-
 >[!MORELIKETHIS]
 >
->* [Om rapportflöden för kalkylblad](spreadsheet-feed-about.md)
+>* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
 >* [Skapa ett kalkylbladsrapportflöde](spreadsheet-feed-create.md)
 >* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
 >* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
 >* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
 >* [Ta bort rapportflöden för kalkylblad](spreadsheet-feed-delete.md)
-

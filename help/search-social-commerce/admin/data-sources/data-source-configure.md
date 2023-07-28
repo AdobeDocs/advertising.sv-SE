@@ -1,9 +1,10 @@
 ---
 title: Konfigurera en [!DNL Google Analytics] visa som en datakälla
-description: Lär dig konfigurera en datakälla från en [!DNL Google Analytics] vy.
+description: Lär dig hur du konfigurerar en datakälla från en [!DNL Google Analytics] vy.
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
 1. [Utför alla förutsättningar för att integrera [!DNL Google Analytics] konto](data-source-prerequisites.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -34,7 +35,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
       1. Ange det numeriska ID:t för [!DNL Google Analytics] konto.
 
-      1. Ange den e-postadress som ska användas för att komma åt data för den här datakällan. E-postadressen måste registreras hos en [!DNL Google] kontot och har behörigheten&quot;Läs och analysera&quot; för [!DNL Google Analytics] konto. Se [instruktioner för att tilldela användarbehörigheter i [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
+      1. Ange den e-postadress som ska användas för att komma åt data för den här datakällan. E-postadressen måste registreras hos en [!DNL Google] kontot och har behörighet att läsa och analysera för [!DNL Google Analytics] konto. Se [instruktioner för att tilldela användarbehörigheter i [!DNL Google Analytics]](https://support.google.com/analytics/answer/9305587).
 
          >[!TIP]
          >
@@ -42,7 +43,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
          >[!NOTE]
          >
-         >Om du senare ändrar lösenordet för det här e-postkontot stängs alla öppna anslutningar till e-postkontot. Om du vill återuppta synkroniseringen av data går du tillbaka till den här sidan och [reauthenticate](data-source-reauthenticate.md).
+         >Om du senare ändrar lösenordet för det här e-postkontot stängs alla öppna anslutningar till e-postkontot. Om du vill återuppta synkroniseringen av data går du tillbaka till sidan och [reauthenticate](data-source-reauthenticate.md).
 
       1. Markera kryssrutan om du vill att Adobe Advertising ska få åtkomst till kontots statistik.
 

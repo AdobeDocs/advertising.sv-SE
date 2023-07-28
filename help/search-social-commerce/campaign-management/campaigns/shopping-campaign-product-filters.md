@@ -1,7 +1,9 @@
 ---
-title: "Produktfilter för köpkampanjer"
+title: Produktfilter för köpkampanjer
 description: Referera till de produktfilter som finns för att handla produktgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 9c4f3c64-5a51-49de-aeba-bcda8a379609
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -15,7 +17,7 @@ Se även [!DNL Google Ads] help &quot;[Hantera en shoppingkampanj med produktgru
 | Shoppingnätverk | Dimension | Attribut | Anteckningar |
 |----|----|----|----|
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Category=]<br><br>Microsoft: [!UICONTROL Category 1=] till [!UICONTROL Category 5=] | \[Kategori-ID\] | — |
-| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Brand=] | \[Varumärket\] | — |
+| [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Brand=] | \[varumärke\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Item ID=] | \[objekt-ID\] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!UICONTROL Condition] | [!UICONTROL New], [!UICONTROL Used], [!UICONTROL Refurbished], [!UICONTROL Unknown] | — |
 | [!DNL Google Ads], [!DNL Microsoft Advertising] | [!DNL Google Ads]: [!UICONTROL Product Type (1st level)=] till [!UICONTROL Product Type (5th level)=]<br><br>[!DNL Microsoft]: [!UICONTROL Product Type=] | \[Produkttyp\] | — |
@@ -35,4 +37,3 @@ Se även [!DNL Google Ads] help &quot;[Hantera en shoppingkampanj med produktgru
 >* [[!DNL Microsoft Advertising] inställningar för butiks- och mallinställningar för lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
 >* [Obligatoriska data för [!DNL Google Ads] glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
 >* [Obligatoriska data för [!DNL Microsoft Advertising] glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
-

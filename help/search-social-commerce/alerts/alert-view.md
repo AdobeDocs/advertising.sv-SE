@@ -1,7 +1,9 @@
 ---
 title: Visa anpassad varning
-description: Lär dig hur du listar aviseringsinstanser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du listar dina varningsinstanser.
+exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
 ## Visa varningar i [!UICONTROL Triggered Alerts] visa
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
 
 1. Klicka på **[!UICONTROL Triggered Alerts]**.
 
@@ -28,15 +30,15 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
       * (Valfritt) Om du vill öppna en filtrerad vy över enheterna i den relevanta kampanjhanteringsvyn klickar du på **[!UICONTROL Live View]**.
 
-         För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
+        För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
 
-         >[!NOTE]
-         >
-         >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
+        >[!NOTE]
+        >
+        >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
 
       * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och välj filformat.
 
-## Visa en varning i den relevanta enhetsvyn
+## Visa en avisering i den relevanta enhetsvyn
 
 1. (I den relevanta enhetsvyn) Öppna kampanjhanteringsvyn för entitetstypen ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], eller [!UICONTROL Product Groups]).
 
@@ -54,11 +56,11 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
       * (Valfritt) Om du vill öppna en filtrerad vy över enheterna i den relevanta kampanjhanteringsvyn, från vilken du kan interagera med enhetsposterna, klickar du på **[!UICONTROL Live View]**.
 
-         För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
+        För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
 
-         >[!NOTE]
-         >
-         >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
+        >[!NOTE]
+        >
+        >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
 
       * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och välj filformat.
 
@@ -73,4 +75,3 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
 >* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)
-

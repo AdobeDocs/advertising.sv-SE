@@ -1,7 +1,9 @@
 ---
 title: Skapa en rapportmall
 description: Lär dig hur du skapar en återanvändbar rapportmall.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: cd734539-ab01-4106-9998-e2ed994209b2
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Du kan spara flera rapportmallar för alla typer av resultatrapporter. Du kan sk
 
    * Från [!UICONTROL Templates] tab:
 
-      * På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+      * Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
       * Klicka på **[!UICONTROL Templates]** -fliken.
 
@@ -26,17 +28,17 @@ Du kan spara flera rapportmallar för alla typer av resultatrapporter. Du kan sk
 
       * Ange rapportinställningarna.
 
-         The &quot;[!UICONTROL Save as Template]inställningen väljs automatiskt.
+        The &quot;[!UICONTROL Save as Template]inställningen väljs automatiskt.
 
 * Så här skapar du en mall baserad på en befintlig mall:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
    1. Klicka på **[!UICONTROL Templates]** -fliken.
 
    1. Klicka på mallnamnet och redigera rapportinställningarna om det behövs.
 
-   1. Markera kryssrutan bredvid **[!UICONTROL Save as template]** (som finns bredvid rapportnamnet), ange ett nytt rapportnamn och klicka sedan på **[!UICONTROL Update Template]**.
+   1. Markera kryssrutan intill **[!UICONTROL Save as template]** (som finns bredvid rapportnamnet), ange ett nytt rapportnamn och klicka sedan på **[!UICONTROL Update Template]**.
 
 >[!MORELIKETHIS]
 >
@@ -44,4 +46,3 @@ Du kan spara flera rapportmallar för alla typer av resultatrapporter. Du kan sk
 >* [Redigera en rapportmall](template-edit.md)
 >* [Visa en rapportmall](template-view.md)
 >* [Ta bort rapportmallar](template-delete.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Exportera data för anpassade aviseringar
 description: Lär dig hur du exporterar data för en utlöst varning till en fil.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Du kan exportera data för en utlöst varning eller data för den senast utlöst
 
 1. I [!UICONTROL Export] -kolumnen bredvid mall- eller rapportnamnet klickar du på namnet på ett format och öppnar eller sparar sedan filen enligt webbläsarens normala procedur:
 
-   * **[!UICONTROL XLS]** — För [!DNL Excel] arbetsbok med ett enda kalkylblad (XLS). Rapporten innehåller ett kalkylblad, som är märkt överst med parametrarna, med en rad för varje ingående komponent när data för komponenten är tillgängliga. Rader utan data utelämnas. Grundläggande rapporter innehåller en summa för varje numerisk kolumn.
+   * **[!UICONTROL XLS]** — För en [!DNL Excel] arbetsbok med ett enda kalkylblad (XLS). Rapporten innehåller ett kalkylblad, som är märkt överst med parametrarna, med en rad för varje ingående komponent när data för komponenten är tillgängliga. Rader utan data utelämnas. Grundläggande rapporter innehåller en summa för varje numerisk kolumn.
 
    * **[!UICONTROL TSV]** — För en TSV-fil. Rapporten innehåller parametrarna och en rad för varje inkluderad komponent.
 
@@ -36,4 +38,3 @@ Du kan exportera data för en utlöst varning eller data för den senast utlöst
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
 >* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
-

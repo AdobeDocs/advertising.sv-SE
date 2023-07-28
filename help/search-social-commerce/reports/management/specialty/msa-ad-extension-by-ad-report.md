@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension by Ad Report]"
 description: Läs mer om [!UICONTROL MSA Ad Extension by Ad Report].
-source-git-commit: 906df6747838f5febba8a43a74dbf87d35444f8a
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft® Advertising]endast konton*
 
-Den här rapporten visar aggregerade visningar, klick, utgifter och genomsnittskostnad per klick för varje annonstillägg och klickfrekvens per annons. Använd den här rapporten för att jämföra prestandan för olika versioner av dina annonstillägg.
+Den här rapporten visar aggregerade visningar, klickningar, utgifter och genomsnittskostnad per klick för varje annonstillägg och klickfrekvens per annons. Använd den här rapporten för att jämföra prestandan för olika versioner av dina annonstillägg.
 
 När du kör en rapport med enbart måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mätvärden.<!-- all metrics? -->
 

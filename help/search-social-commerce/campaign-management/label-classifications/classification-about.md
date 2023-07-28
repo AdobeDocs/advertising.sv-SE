@@ -1,7 +1,9 @@
 ---
 title: Etikettklassificeringar
 description: Lär dig hur du använder etikettklassificeringar för att gruppera dina kontokomponenter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a4777e7a-50c7-4521-a849-fb4661d94602
+feature: Search Label Classifications
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -34,4 +36,3 @@ The [!UICONTROL Labels Classifications] visa i [!UICONTROL Search] > [!UICONTROL
 >* [Ta bort etikettklassificeringsvärden från kontokomponenter](classification-values-remove.md)
 >* [Ta bort etikettklassificeringsvärden](classification-values-delete.md)
 >* [Ta bort etikettklassificeringar](classification-delete.md)
-

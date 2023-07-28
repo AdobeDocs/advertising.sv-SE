@@ -1,7 +1,9 @@
 ---
 title: Hantera annonsmallar för lagerflöden
 description: Lär dig hur du hanterar annonsmallar genom vilka dina lagerdata kan bearbetas för att hantera kontostrukturen och leverera dynamiska annonser.
-source-git-commit: f8d17ba787496917f4011f9dcbcb5587fe5c83cb
+exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '1415'
 ht-degree: 0%
@@ -26,7 +28,7 @@ Alla mallar kan aktiveras, pausas eller tas bort. Feed-data kan bara spridas aut
 
 Skapa separata mallar för text och utökade/utökade textannonser, responsiva sökannonser, [!DNL Google Ads] shoppingannonser, och [!DNL Microsoft® Advertising] shoppingannonser.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
 
 1. Gör något av följande:
 
@@ -40,7 +42,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
 
    * (Om du vill redigera en befintlig mall) Klicka på bredvid mallnamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
-1. Ange inställningarna för [text och mall](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] mall för butiksannonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), eller [[!DNL Microsoft® Advertising] mall för butiksannonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Ange inställningarna för [text och mall](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), eller [[!DNL Microsoft® Advertising] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. Överst i mallinställningsfönstret anger du mallnamnet och det konto som ska användas.
 
@@ -56,7 +58,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
 
    1. På **[!UICONTROL Account Structure]** anger du kontostrukturinställningarna.
 
-   1. (Endast textannonser) Klicka på **[!UICONTROL Keywords]** och ange nyckelordsinställningar.
+   1. (Endast textannonser) Klicka på **[!UICONTROL Keywords]** och ange nyckelordsinställningarna.
 
    1. (Endast text och responsiva sökannonser) Klicka på **[!UICONTROL Ads]** och gör något av följande:
 
@@ -69,7 +71,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
 
       * Så här lägger du till en annonsvariation:
 
-         1. Klicka **[!UICONTROL Add Ad Variation]** för att skapa en textannons, **[!UICONTROL Add ETA Variation]** för att skapa en utökad/utökad textannons, eller **[!UICONTROL Add RSA Variation]** för att skapa en responsiv textannons.
+         1. Klicka **[!UICONTROL Add Ad Variation]** för att skapa en textannons **[!UICONTROL Add ETA Variation]** för att skapa en utökad/utökad textannons, eller **[!UICONTROL Add RSA Variation]** för att skapa en responsiv textannons.
 
             När du har angett annonstypen kan du bara skapa den annonstypen med mallen.
 
@@ -123,7 +125,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
 
 1. Spara mallen:
 
-   * Om du bara vill spara mallen klickar du på **[!UICONTROL Save]** och klicka sedan på **[!UICONTROL Save]** igen.
+   * Klicka på om du bara vill spara mallen **[!UICONTROL Save]** och klicka sedan på **[!UICONTROL Save]** igen.
 
    * Om du vill spara mallen och sprida den angivna datafilen genom den klickar du på **[!UICONTROL Save]** och klicka sedan på **[!UICONTROL Save & Propagate]**.
 
@@ -135,7 +137,7 @@ Du kan aktivera alla pausade dataflödesmallar eller pausa alla aktiva datafeedm
 >
 >Du kan sprida data manuellt via en pausad mall, men data sprids inte automatiskt genom den.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
 
 1. Markera kryssrutan bredvid varje mall vars status du vill ändra.
 
@@ -143,7 +145,7 @@ Du kan aktivera alla pausade dataflödesmallar eller pausa alla aktiva datafeedm
 
 ## Ta bort feed-mallar
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
 
 1. Markera kryssrutan bredvid varje mall som du vill ta bort.
 

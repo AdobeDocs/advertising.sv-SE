@@ -1,7 +1,9 @@
 ---
 title: Hantera anbudsnyckelord
 description: Lär dig hur du skapar och hanterar anbudssökbara nyckelord för sökannonseringsgrupper.
-source-git-commit: 77069de8ff3367a3ffa6f84583b4a69f37aab88b
+exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Baidu], [!DNL Google Ads] och [!DNL Microsoft® Advertising]och [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
 
-Du kan skapa och redigera nyckelord för sökannonser i [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) som är inriktade på sökning och visning/inbyggda nätverk inom en [synkroniserat annonsnätverkskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
+Du kan skapa och redigera nyckelord för sökannonser i [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) som är inriktade på sökning och visning/inbyggda nätverk inom en [synkroniserat annonskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
 ## Skapa nyckelord
 
@@ -20,7 +22,7 @@ Du kan skapa och redigera nyckelord för sökannonser i [kampanjtyper som stöds
 >
 >Om du vill skapa flera nyckelord samtidigt använder du [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -48,7 +50,7 @@ Det befintliga nyckelordet tas bort och ett annat skapas när:
 >
 >Om du vill redigera större mängder nyckelordsdata samtidigt, inklusive nyckelord i olika annonsnätverk, använder du [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]**.
 
 1. Markera kryssrutan bredvid varje rad som ska redigeras.
 
@@ -64,7 +66,7 @@ Det befintliga nyckelordet tas bort och ett annat skapas när:
 
    * (Enstaka nyckelord) Klicka **[!UICONTROL Post]**.
 
-   * (Flera annonsgrupper) Klicka på **[!UICONTROL Post Now]**.
+   * (Flera annonsgrupper) Klicka **[!UICONTROL Post Now]**.
 
 >[!MORELIKETHIS]
 >

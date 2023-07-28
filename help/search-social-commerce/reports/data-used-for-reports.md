@@ -2,7 +2,8 @@
 title: Data som används för rapporter
 description: Lär dig mer om olika typer av data som finns i datavyer och anpassade rapporter.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -17,9 +18,9 @@ Annonsörer som använder tjänsten för spårning av konvertering i Adobe Adver
 
 De flesta rapporter kan anpassas så att endast den information som du vill se visas. Följande standardvärden är tillgängliga i de flesta rapporter och beräknas på annonsnivå:
 
-* **Standardprestanda:**
+* **Standardvärden för prestanda:**
 
-   * **[!UICONTROL Impressions]:** Det totala antalet gånger som annonsen placerades ut.
+   * **[!UICONTROL Impressions]:** Totalt antal gånger annonsen placerades.
 
    * **[!UICONTROL Clicks]:** Det totala antalet gånger en länk i annonsen klickades.
 
@@ -37,7 +38,7 @@ De flesta rapporter kan anpassas så att endast den information som du vill se v
 
 * **Anpassade mått:** Dina egna mätvärden, som du härleder genom att skapa formler baserade på befintliga mätvärden (till exempel kostnaden per order).
 
-## Datatillgänglighet
+## Tillgänglighet
 
 När du genererar rapporter kan du välja hur konverteringsdata ska tilldelas i en serie händelser som leder till en konvertering. Du kan till exempel välja att tilldela hela konverteringen till den sista händelsen eller att väga den sista händelsen mer än de andra. Som standard tilldelas konverteringar till den sista händelsen.
 

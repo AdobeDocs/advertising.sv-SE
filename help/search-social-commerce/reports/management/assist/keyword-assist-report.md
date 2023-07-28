@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Keyword Assist Report]"
+title: '[!UICONTROL Keyword Assist Report]'
 description: Läs mer om [!UICONTROL Keyword Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
 
-The [!UICONTROL Keyword Assist Report] anger vilka nyckelord eller placeringar som driver klickningar. Rapporten visar varje mönster med betalda söknyckelord eller placeringar som har fått klickningar i en konverteringsbana och visar hur mönstret har bidragit till dina totala konverteringar. Du kan till exempel se hur många konverteringar som gjordes när användarna först klickade på en annons efter en nyckelordssökning efter&quot;läderskor&quot;, sedan klickade på en annons efter en nyckelordssökning efter&quot;suede skor&quot; och sedan lade in en order. eller så kan du se hur många konverteringar som har inträffat efter att användare klickat på annonser som har skapats med mer än 10 nyckelord.
+The [!UICONTROL Keyword Assist Report] anger vilka nyckelord eller placeringar som driver klickningar. Rapporten visar varje mönster med betalda söknyckelord eller placeringar som har fått klickningar i en konverteringsbana och visar hur mönstret har bidragit till dina totala konverteringar. Du kan till exempel se hur många konverteringar som inträffade när användarna först klickade på en annons som är ett resultat av en nyckelordssökning efter&quot;läderskor&quot;, sedan klickade på en annons efter en nyckelordssökning efter&quot;suede skor&quot; och sedan gjorde en beställning. Du kan också se hur många konverteringar som gjordes efter att användarna klickade på annonser som är ett resultat av mer än 10 nyckelord.
 
 Rapportresultaten innehåller aggregerade data för upp till de N tidigaste betalda söknyckelorden eller placeringsklickningarna i konverteringssökvägen som inträffade i annonsörens fönster för klickning och visningssökning. Om du till exempel väljer en banstorlek på fem (5) består rapporten av konverteringssökvägar som innehåller upp till de fem tidigaste nyckelorden eller placeringarna som fick klickningar, med en rad för varje mönster med klickningar spårade. Varje rad innehåller det första nyckelordet eller den första placeringen i sökvägen och det sista nyckelordet eller den sista placeringen som resulterade i konverteringar (även om det sista nyckelordet ligger utanför den angivna sökvägsstorleken). Som standard är raderna i stigande ordning efter antalet händelser i sökvägen.
 

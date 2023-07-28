@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Assist Report]"
+title: '[!UICONTROL Campaign Assist Report]'
 description: Läs mer om [!UICONTROL Campaign Assist Report].
-source-git-commit: e2df0116f912ca9cbf3d140dec4da57536b929bd
+exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
+feature: Search Reports, Search Assist Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # The [!UICONTROL Campaign Assist Report]
 
-*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och med konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
+*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
 
 The [!UICONTROL Campaign Assist Report] anger vilka kampanjer som har hjälpt konverteringsprocessen. Rapporten visar hur varje kampanjmönster vars annonser ledde till en eller flera konverteringar har bidragit till era övergripande konverteringar. Du kan till exempel se hur många konverteringar som inträffade när användarna först såg en annons från Campaign A, sedan klickade på en annons från Campaign B och sedan lade en order. På samma sätt kan du se hur många konverteringar som har gjorts efter att användarna interagerat med annonser från mer än 10 kampanjer.
 
@@ -43,9 +45,9 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL Avg. Conv. Latency (First Campaign To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje transaktionsegenskap som ingår) Genomsnittlig fördröjning i dagar från den första händelsen (i den första kampanjen) till en konvertering. |
 | [!UICONTROL Avg. Conv. Latency (Last Campaign To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningar, men inkluderas automatiskt i rapportutdata) Genomsnittlig fördröjning i dagar från den senaste händelsen (i den senaste kampanjen) till en konvertering. |
 | [!UICONTROL EF Campaign ID] | Egen | Det numeriska ID som tilldelas kampanjen av Search, Social och Commerce. |
-| [!UICONTROL EF Portfolio Group ID] | Egen | Det numeriska ID:t för portföljgruppen som portföljen tillhör. |
+| [!UICONTROL EF Portfolio Group ID] | Egen | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL EF Search Engine ID] | Egen | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
-| [!UICONTROL Portfolio ID] | Det numeriska portfölj-ID:t. |
+| [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
 
 <table style="table-layout:auto">

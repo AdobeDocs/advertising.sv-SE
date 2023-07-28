@@ -1,7 +1,9 @@
 ---
 title: Aktivera en anpassad aviseringsmall
 description: Lär dig hur du aktiverar en pausad aviseringsmall.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6cf9ef6b-9f71-462c-b81e-a604d33c4fb7
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 Du kan aktivera pausade varningsmallar.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i vyn Varningsmallar.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i vyn Varningsmallar.
 
 1. Gör något av följande:
 
@@ -20,7 +22,7 @@ Du kan aktivera pausade varningsmallar.
 
    * (Om du vill aktivera en eller flera mallar) Markera kryssrutan bredvid varje varningsmall som du vill aktivera. Klicka på i verktygsfältet ![Aktivera](/help/search-social-commerce/assets/activate.png "Aktivera"). Klicka på **[!UICONTROL Activate]**.
 
-      Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +34,3 @@ Du kan aktivera pausade varningsmallar.
 >* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)
-

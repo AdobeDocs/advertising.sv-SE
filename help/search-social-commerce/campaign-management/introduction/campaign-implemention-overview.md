@@ -1,7 +1,9 @@
 ---
 title: Översikt över att implementera annonsnätverkskonton och -kampanjer
 description: Lär dig mer om de uppgifter som krävs för att konfigurera, synkronisera och hantera era annonsnätverkskonton.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -43,14 +45,14 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads, and Yandex accounts only) Upload [kalkylbladsfiler](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) som innehåller så mycket data som du vill ha för ett konto och sedan bokför dem i annonsnätverken.
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads och Yandex (endast konton) Ange data för enskilda komponenter direkt i gränssnittet. För de flesta kampanj- och annonstyper kan ni skapa data på kampanjnivå, annonsgruppnivå och individuella nyckelord, placeringar och annonsnivåer.
+
       Vissa kampanjer och annonstyper kräver dock unika arbetsflöden. Se instruktionerna för konfiguration [[!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] max-kampanjer för prestanda](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)och [[!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] endast konton för spårning) Överför [kalkylbladsfiler](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) med data för att replikera befintliga kampanjer, annonsgrupper och nyckelord i Sök, Social och Commerce utan att publicera dem på [!DNL Naver].
 
+1. Ställ in spårning för alla annonser som Adobe Advertising ska spåra konverteringar för:
 
-1. Ställ in spårning för alla annonser som Adobe Advertising kommer att spåra konverteringar för:
-
-   1. (Advertisers med Adobe Advertising conversion service) If necessary, [konfigurera klickspårning](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) för annonser och om du vill kan du söka efter nyckelord, placeringar och annonser genom att generera och överföra klicknings-URL:er för sökning, sociala medier och handel.
+   1. (Annonsörer med Adobe Advertising-tjänst för spårning av konvertering) Vid behov [konfigurera klickspårning](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) för annonser och om du vill kan du söka efter nyckelord, placeringar och annonser genom att generera och överföra klicknings-URL:er för sökning, sociala medier och handel.
 
       För [!DNL Google Ads] maximala prestandakampanjer, konfigurera all spårning i [kampanjens spårningsinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).
 
@@ -58,15 +60,15 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att konverteringsspårningstaggar läggs till på annonsörens webbsidor och/eller att en daglig feed-släppning ställs in för konverteringsdata som annonsören har samlat in separat.
 
-      Om du använder tjänsten för konverteringsspårning i Adobe kan du generera spårningstaggar för konvertering [inom sökning, sociala medier och handel](/help/search-social-commerce/tools/conversion-tag-generate.md) eller [använda Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Om du använder tjänsten för spårning av konvertering i Adobe Advertising kan du generera spårningstaggar för konvertering [inom sökning, sociala medier och handel](/help/search-social-commerce/tools/conversion-tag-generate.md) eller [använda Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
 
    1. Validera de data som spåras.
 
    Mer information om hur du ställer in spårning finns i kapitlet om spårning.
 
-1. (Annonsörer med Adobe Analytics) [Integrera Adobe-annonsering och -analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
+1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analyser](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
 
-1. (Att göra det möjligt för Search, Social och Commerce att optimera anbud och/eller kampanjbudgetar. [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) endast) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Att göra det möjligt för Search, Social och Commerce att optimera anbud och/eller kampanjbudgetar. [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) endast) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Om portföljen inte redan har startats (optimera anbud och/eller budgetar) kan optimeringsfunktionen samla in tillräckligt med data för att kunna skapa kostnads- och intäktsmodeller så att du kan fastställa portföljens baslinjeprestanda innan du startar den.
 
@@ -74,7 +76,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    Mer information om portföljer finns i Optimeringshandboken, som finns i Sök, Socialt och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Om nya konverteringar spåras för annonsören) [Gör konverteringarna tillgängliga](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) för rapporter, kampanjhanteringsvyer och portföljmål.
+1. (Om nya konverteringar spåras för annonsören) [Göra konverteringarna tillgängliga](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) för rapporter, kampanjhanteringsvyer och portföljmål.
 
 1. Verifiera för varje kampanj att Search, Social och Commerce tar emot klick- och kostnadsdata från annonsnätverket och validera de intäktsdata som visas i Search, Social och Commerce med annonsörens egna intäktsdata.
 
@@ -88,4 +90,3 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 >* [Övervaka och hantera resultatet för era annonsnätverkskampanjer](monitor-performance-campaigns.md)
 >* [Google Ads-konverteringsdata i Search, Social och Commerce](google-conversion-data.md)
 >* [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md)
-

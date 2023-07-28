@@ -1,7 +1,8 @@
 ---
 title: "[!UICONTROL MSA Ad Extension Detail Report]"
 description: Läs mer om [!UICONTROL MSA Ad Extension Detail Report].
-source-git-commit: 3aad445fc1a5a0e2210209f181b9756047f44999
+feature: Search Reports, Search Specialty Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%

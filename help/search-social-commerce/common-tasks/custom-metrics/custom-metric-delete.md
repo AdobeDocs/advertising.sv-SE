@@ -1,7 +1,9 @@
 ---
 title: Ta bort ett anpassat mått
 description: Lär dig hur du tar bort anpassade mått, som beräknas utifrån standardvärden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+feature: Search Common Tasks, Search Custom Metrics
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -34,7 +36,7 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 
 ## Ta bort ett anpassat mått från [!UICONTROL Portfolios] vyer
 
-1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
+1. Ovanför datatabellen klickar du ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
 
 1. Klicka på **[!UICONTROL Columns]** -fliken.
 
@@ -48,4 +50,3 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 >* [Skapa ett anpassat mått](custom-metric-create.md)
 >* [Redigera ett anpassat mått](custom-metric-edit.md)
 >* [Anpassade måttinställningar](custom-metric-settings.md)
-

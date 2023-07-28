@@ -1,7 +1,9 @@
 ---
 title: Optimera webbplatsens landningssidor
-description: Lär dig mer om de bästa sätten att optimera era landningssidor för webbplatser.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig mer om de bästa sätten att optimera era era landningssidor för webbplatser.
+exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+feature: Search Best Practices
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -30,7 +32,7 @@ Nedan följer några riktlinjer för utformning av landningssidor som ger en pos
 
 * Placera det åtgärdbara elementet på sidan &quot;ovanför vikningen&quot; så att användaren kan se det utan att behöva rulla nedåt på sidan.
 
-* Använd god siddesign, en bra design kan omedelbart skapa förtroende, kännedomen om välbekant och trovärdighet. Anpassa formulärknapparna så att de blir tydligare; använder inte den webbläsargenererade standardknappen med ordet&quot;Skicka&quot;. Använd en layout med två kolumner, med det åtgärdbara objektet i huvudkolumnen och stödinformation i den andra kolumnen.
+* Använd god siddesign; en bra design kan omedelbart skapa förtroende, kännedomen om välbekant och trovärdighet. Anpassa formulärknapparna så att de blir mer iögonfallande. Använd inte den webbläsargenererade standardknappen med ordet&quot;Skicka&quot;. Använd en layout med två kolumner, med det åtgärdbara objektet i huvudkolumnen och stödinformation i den andra kolumnen.
 
 * Tillhandahålla trovärdighets- och säkerhetsindikatorer. Logotyper och förseglingar bidrar till att minska besökarnas oro. Dessa innehåller [!DNL Verisign], [!DNL BBB] logotyp, [!DNL eTrust], [!DNL HackerSafe], nöjesgarantier, pengarna tillbaka-erbjudanden och så vidare. Inkludera en sekretesspolicy när information samlas in. Placera indikatorerna så nära det användbara objektet som möjligt.
 
@@ -44,7 +46,7 @@ Nedan följer några riktlinjer för utformning av landningssidor som ger en pos
 
 * Inkludera innehåll med nyckelord på sidan. Gör rubriker, inte bilder, och använd rätt titel, metabeskrivning och meta-nyckelordstaggar. Dessa arbetsmetoder hjälper till att förbättra en sidas kvalitetspoäng så att ni får högre annonspositioner i de sponsrade listorna på en annonsresultatsida och en lägre kostnad per klick.
 
-* Var försiktig när du använder vittnesmål. Alla vittnesmål ska kännas äkta. en försäkran som låter generisk eller falsk och åtföljs av ett tydligt aktieporträtt är farligare för sidan än användbart. En beprövad metod är att inkludera ett meddelande, en bild och en signatur från någon som är högt upp på företaget (t.ex. företagets vd, produktutvecklingschef eller ansvarig för konsumentundersökningar) som erbjuder produkten eller tjänsten.
+* Var försiktig när du använder vittnesmål. Alla vittnesmål ska kännas äkta. En vittnesbörd som låter generisk eller falsk och åtföljs av ett tydligt porträtt är farligare för sidan än användbart. En beprövad metod är att inkludera ett meddelande, en bild och en signatur från någon som är högt upp på företaget (t.ex. företagets vd, produktutvecklingschef eller ansvarig för konsumentundersökningar) som erbjuder produkten eller tjänsten.
 
 * Validera landningssidorna i dina bas-/slutadresser eller mål-URL:er med hjälp av kampanjmallar.
 
@@ -56,4 +58,3 @@ För att se effekten av att ändra landningssidan (när allt annat är konstant)
 >
 >* [Analysera rapporter för att förfina nyckelord och kampanjinställningar](best-practices-analyze.md)
 >* [Skriv gällande text och text](best-practices-write.md)
-

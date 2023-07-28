@@ -2,7 +2,8 @@
 title: Tillämpa eller avvisa en [!DNL Google Ads] rekommendation
 description: Lär dig hur du visar en [!DNL Google Ads] rekommendationer och hur rekommendationen ska tillämpas eller avvisas.
 exl-id: 7aab10bf-d5fc-4eb7-b1bb-9e61ba354a29
-source-git-commit: 0f40e771ae332a151dbae6968d6af5baaed55ee7
+feature: Search Recommendations
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -17,7 +18,7 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 >
 >Rekommendationer hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 

@@ -1,7 +1,9 @@
 ---
 title: Filtrera data efter datumintervall
-description: Lär dig hur du använder det globala datumintervallfiltret.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig använda det globala datumintervallfiltret.
+exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+feature: Search Common Tasks, Search Custom Data Views
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +24,6 @@ När du sparar ett visst datumintervall för en standardvy eller anpassad vy anv
 >* Om du vill visa tidigare data går du till [[!UICONTROL Reports] visa](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) och kör en grundläggande rapport.
 >* Du kan också spara ett datumintervall för en [standardvy eller anpassad vy](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-
 ## Ändra det globala datumfiltret i kampanjvyer
 
 1. Klicka på det aktuella datumintervallet ovanför en datatabell i Sök \> kampanjer \> Kampanjer.
@@ -33,19 +34,19 @@ När du sparar ett visst datumintervall för en standardvy eller anpassad vy anv
 
    * För ett visst intervall: Välj **[!UICONTROL Custom Date Range]** och ange sedan startdatum och slutdatum.
 
-      Ange datum i formatet MM/DD/ÅÅÅÅ eller MM-DD-ÅÅÅÅ, eller klicka ![Kalenderikon](/help/search-social-commerce/assets/calendar.png "Kalenderikon") intill varje fält för att öppna kalendern och välja ett datum.
+     Ange datum i formatet MM/DD/ÅÅÅÅ eller MM-DD-ÅÅÅÅ, eller klicka ![Kalenderikon](/help/search-social-commerce/assets/calendar.png "Kalenderikon") intill varje fält för att öppna kalendern och välja ett datum.
 
 1. (Valfritt) Jämför data för det angivna datumintervallet med data för ett andra datumintervall:
 
    1. Flytta **[!UICONTROL Comparison]** skjutreglage till *[!UICONTROL On]*.
 
-      När du väljer det här alternativet läggs ytterligare två kolumner till för varje vanlig datakolumn. I stället för att bara ta med en kolumn för &quot;[!UICONTROL Impressions],&quot; innehåller tabellen kolumner för &quot;[!UICONTROL Impressions R1],&quot; &quot;[!UICONTROL Impressions R2],&quot; och &quot;[!UICONTROL Impressions Diff].&quot;  Om du exporterar data skrivs samma kolumner ut som &quot;[!UICONTROL Impressions Range 1],&quot; &quot;[!UICONTROL Impressions Range 2],&quot; och &quot;[!UICONTROL Impressions Difference].&quot;
+      När du väljer det här alternativet läggs ytterligare två kolumner till för varje vanlig datakolumn. I stället för att bara ta med en kolumn för &quot;[!UICONTROL Impressions],&quot; innehåller tabellen kolumner för &quot;[!UICONTROL Impressions R1],&quot;[!UICONTROL Impressions R2],&quot; och &quot;[!UICONTROL Impressions Diff].&quot;  Om du exporterar data skrivs samma kolumner ut som &quot;[!UICONTROL Impressions Range 1],&quot;[!UICONTROL Impressions Range 2],&quot; och &quot;[!UICONTROL Impressions Difference].&quot;
 
    1. Ange det andra datumintervallet.
 
    1. Välj hur du vill uttrycka skillnaden mellan data i de två valda datumintervallen i &quot;\[_Datafält_\] Differens&quot; kolumn:
 
-      * *[!UICONTROL Variance]* (standard): Visar skillnaden som ett numeriskt värde.
+      * *[!UICONTROL Variance]* (standardvärdet): Visar skillnaden som ett numeriskt värde.
 
       * *[!UICONTROL % Change]:*  Visar skillnaden i procent.
 

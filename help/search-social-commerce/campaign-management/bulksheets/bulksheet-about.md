@@ -1,7 +1,9 @@
 ---
 title: Hantera kampanjdata med hjälp av kalkylblad
 description: Lär dig mer om vilka funktioner som är tillgängliga i annonsnätverk, arbetsflödet för kalkylblad och felhanteringen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 0%
@@ -16,7 +18,7 @@ Du kan generera kalkylblad med så mycket data du vill - eller skapa dem manuell
 
 När du har skapat ett kalkylblad kan du identifiera alla brutna landningssidor som behöver korrigeras eller ytterligare data som ska läggas till eller redigeras. Du kan sedan redigera filen och överföra den till Sök, Socialt, &amp; Commerce. Om du vill kan du schemalägga att den ska bokföras i det relevanta annonsnätverket omedelbart eller senare. Du kan också publicera ett tillgängligt kalkylblad antingen direkt eller senare.
 
-Du kan överföra kalkylbladsfiler till ett angivet FTP-konto för hämtning och automatisk bokföring. Katalogen genomsöks varje timme och nya filer läggs in i söknätverket i den ordning som de tas emot.
+Du kan även överföra kalkylbladsfiler till ett angivet FTP-konto för hämtning och automatisk bokföring. Katalogen genomsöks varje timme och nya filer läggs in i söknätverket i den ordning som de tas emot.
 
 Alla kalkylblad, valideringsfelfiler för landningssidor och andra felfiler tas automatiskt bort 30 dagar efter att de har skapats, såvida du inte tar bort dem tidigare.
 
@@ -24,13 +26,13 @@ Alla kalkylblad, valideringsfelfiler för landningssidor och andra felfiler tas 
 
 * **Ladda ned, ladda upp och posta:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising]och [!DNL Yandex] konton
 
-* **Endast nedladdning och uppladdning:** [!DNL Naver] konton
+* **Endast nedladdning och överföring:** [!DNL Naver] konton
 
-   Du kan överföra [!DNL Naver] data som ska användas i sökningar, sociala medier och handel, men som inte kan publicera dem i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
+  Du kan överföra [!DNL Naver] data som ska användas i sökningar, sociala medier och handel, men som inte kan publicera dem i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
 
 * **Hämta endast data:**  [!DNL Pinterest], [!DNL Yahoo Native]och [!DNL Yahoo! Display Network] konton
 
-   Du kan hämta befintliga (osynkroniserade) data.
+  Du kan hämta befintliga (osynkroniserade) data.
 
 ## Översikt över användning av kalkylblad
 
@@ -40,7 +42,7 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
-1. [Hämta data för ett eller flera konton, kampanjer eller annonsgrupper till en kalkylbladsfil](bulksheet-download.md). Du kan också manuellt fylla i ett annonsspecifikt kalkylblad och överföra filen.
+1. [Hämta data för ett eller flera konton, kampanjer eller annonsgrupper till en kalkylbladsfil](bulksheet-download.md). Om du vill kan du manuellt fylla i ett annonsspecifikt kalkylblad och överföra filen.
 
 1. [Validera landningssidorna](bulksheet-validate-landing-pages.md) i de grundläggande (slutliga) URL:erna eller mål-URL:erna i filen.
 
@@ -84,4 +86,3 @@ Informationen för varje fil innehåller aktivitetsstatus och procent av uppgift
 >* [Överför ett kalkylblad eller en korrigerad felfil](bulksheet-upload.md)
 >* [Bokför kalkylblad eller korrigerade felfiler](bulksheet-post.md)
 >* [Exportera en genererad eller överförd kalkylbladsfil](bulksheet-export.md)
-

@@ -3,7 +3,8 @@ title: Tillgänglig [!DNL Google Analytics] mått
 description: Referera till [!DNL Google Analytics] Tillgängliga mätvärden för datakällor.
 role: User, Admin
 exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+feature: Search Admin, Search Data Sources
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -21,14 +22,14 @@ Följande mått, förutom de undantag som anges, är tillgängliga när de aktiv
 >* Some metrics are assigned at the property level, and others are assigned at the view level.
 -->
 
-| Kategori | Exkluderad | Kommentarer |
+| Kategori | Exkluderad | Kommentar |
 | ---- | ---- | ---- |
 | \[Alla\] | Mätvärden med datatypen PERCENT | Mätvärden som presenteras som en procentandel exkluderas alltid. |
 | Användare | ga:1dayUsers, ga:7dayUsers, ga:14dayUsers, ga:28dayUsers, ga:sessionsPerUser | — |
 | Session | ga:uniqueDimensionKombinations | — |
 | Målkonverteringar | — | — |
 | Sidspårning | ga:entrances, ga:timeOnPage, ga:exits | — |
-| Intern sökning | — | De egna namnen på alla mätvärden från den interna sökningen anges med värdet&quot;InternalSearch: &quot; |
+| Intern sökning | — | De egna namnen på alla mätvärden från den interna sökningen anges med värdet &quot;InternalSearch:&quot; |
 | Händelsespårning | — | — |
 | E-handel | — | — |
 | Social interaktion | — | — |

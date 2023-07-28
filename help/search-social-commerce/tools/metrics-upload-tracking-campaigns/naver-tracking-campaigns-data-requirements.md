@@ -1,7 +1,9 @@
 ---
 title: Datakrav för trafik- och konverteringsstatistik för [!DNL Naver] konton med enbart spårning
 description: Referera dataöverföringskraven för [!DNL Naver] konton med enbart spårning.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6f79730b-f8d6-4a7f-9d31-f42fe63e6b5d
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -29,4 +31,3 @@ Följande rubrikfält är obligatoriska och valfria. Varje datarad måste inneh�
 >* [Implementera [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
 >* [Bilaga - Obligatoriska data för kalkylblad för [!DNL Naver] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md))
 >* [Ladda upp trafik- och konverteringsstatistik för [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
-

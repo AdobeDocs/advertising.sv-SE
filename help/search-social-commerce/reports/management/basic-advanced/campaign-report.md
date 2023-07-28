@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Campaign Report]"
+title: '[!UICONTROL Campaign Report]'
 description: Läs mer om [!UICONTROL Campaign Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: a241535a-d32a-4f84-9e0e-addb68d75496
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -40,4 +42,3 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 >* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
 >* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)
-

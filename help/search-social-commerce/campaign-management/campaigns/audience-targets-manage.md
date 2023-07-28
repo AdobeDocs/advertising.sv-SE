@@ -1,14 +1,16 @@
 ---
 title: Hantera målgruppsmål för kampanjer och annonsgrupper
 description: Lär dig konfigurera och hantera målgruppsmål för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
 
 ---
 
-# Hantera målgruppsmål för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper
+# Hantera målgruppsanpassningar för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper
 
 *[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast*
 
@@ -22,7 +24,7 @@ Ni kan konfigurera målgruppsmål, redigera budmodifierare för målgruppsmål o
 
 ## Konfigurera målgruppsmål
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -40,12 +42,11 @@ Ni kan konfigurera målgruppsmål, redigera budmodifierare för målgruppsmål o
 
       1. (Valfritt) Klicka på kampanjnamnet om du vill expandera en kampanj till dess underordnade annonsgrupper.
 
-      1. (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , antingen anger eller klistrar in textsträngen i inmatningsfältet och trycker sedan på **[!UICONTROL Enter]** nyckel.
+      1. (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , antingen anger eller klistrar in textsträngen i indatafältet och trycker sedan på **[!UICONTROL Enter]** -tangenten.
 
       1. Ange varje kampanj och annonsgruppsmål för det angivna annonsnätverket genom att klicka på den tomma cirkeln bredvid den så att en blå bock (![Välj](/help/search-social-commerce/assets/include.png "Välj")) visas.
 
       Du kan inte konfigurera ett mål för både en överordnad kampanj och en underordnad annonsgrupp (som automatiskt använder målet).
-
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -59,8 +60,7 @@ Ni kan konfigurera målgruppsmål, redigera budmodifierare för målgruppsmål o
 
    * *0 %:* Att inte justera anbuden för annonser för den här målgruppen.
 
-   * /[*Andra värden från -90 % till 900 %*/]: Öka eller minska antalet annonser för den här målgruppen. Om t.ex. anbudet på nyckelordsnivå är 1 USD och budjusteringen för ett visst målgrupp är 50 %, ökar anbudet för den målgruppen till 1,50 USD.
-
+   * /[*Andra värden från -90 % till 900 %*/]: Att öka eller minska antalet annonser för den här målgruppen. Om t.ex. anbudet på nyckelordsnivå är 1 USD och budjusteringen för ett specifikt målgruppsmål är 50 %, ökar anbudet för den målgruppen till 1,50 USD.
 
 ## Redigera anbudsmodifieraren för målgruppsmål
 
@@ -70,7 +70,7 @@ Ni kan ändra anbudsmodifieraren och statusen för målgruppsmål för alla mål
 >
 >Search, Social och Commerce optimerar automatiskt budmodifieraren när den överordnade kampanjen använder CPC:s budstrategi och finns i en portfölj som konfigurerats för automatisk optimering av anbudsjusteringsvärden för målgrupper.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. Gör något av följande:
 
@@ -92,7 +92,7 @@ Ni kan ändra anbudsmodifieraren och statusen för målgruppsmål för alla mål
 
          * *0 %:* Att inte justera anbuden för annonser för den här målgruppen.
 
-         * /[*Andra värden från -90 % till 900 %*/]: Öka eller minska antalet annonser för den här målgruppen. Om t.ex. anbudet på nyckelordsnivå är 1 USD och budjusteringen för ett visst målgrupp är 50 %, ökar anbudet för den målgruppen till 1,50 USD.
+         * /[*Andra värden från -90 % till 900 %*/]: Att öka eller minska antalet annonser för den här målgruppen. Om t.ex. anbudet på nyckelordsnivå är 1 USD och budjusteringen för ett specifikt målgruppsmål är 50 %, ökar anbudet för den målgruppen till 1,50 USD.
 
          För flera mål tillämpas ändringarna på alla valda mål.
 
@@ -100,14 +100,13 @@ Ni kan ändra anbudsmodifieraren och statusen för målgruppsmål för alla mål
 
       1. Klicka på **[!UICONTROL Post]**.
 
-
 ## Ändra status för målgruppsmål
 
 Du kan pausa ett aktivt målgruppsmål om du vill inaktivera budgivning på det. Du kan återuppta offerten senare genom att ändra status till aktiv.
 
 Du kan också ta bort ett aktivt eller pausat sökmålgruppsmål.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Targets]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika målgruppsmål.
 
@@ -121,10 +120,9 @@ Du kan också ta bort ett aktivt eller pausat sökmålgruppsmål.
 
    * Om du vill pausa raderna klickar du på ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa").
 
-   * Om du vill ta bort raderna klickar du på ![Fler åtgärder](/help/search-social-commerce/assets/more.png "Fler åtgärder") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
+   * Klicka på om du vill ta bort raderna ![Fler åtgärder](/help/search-social-commerce/assets/more.png "Fler åtgärder") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Om målgrupper](audience-about.md)
->* [Hantera målgruppsundantag för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
-
+>* [Hantera publikundantag för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)

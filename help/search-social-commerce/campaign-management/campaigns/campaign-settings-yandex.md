@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Yandex] kampanjinställningar"
+title: '''[!DNL Yandex] kampanjinställningar'
 description: Referera inställningarna för [!DNL Yandex] kampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Visar textannonser i söknätverket. Du måste ange nyckelord för varje annonsgrupp.
 
-* *[!UICONTROL Search and Display Network]:* Visar textannonser i söknätverket och [!DNL Yandex Advertising Network]. För sökannonser måste du ange söknyckelord för varje annonsgrupp. För webbannonser måste du ange nyckelord för de webbplatser som du vill annonsera på för varje annonsgrupp.
+* *[!UICONTROL Search and Display Network]:* Visar textannonser i söknätverket och [!DNL Yandex Advertising Network]. För sökannonser måste du ange söknyckelord för varje annonsgrupp. För visningsannonser måste du ange nyckelord för de webbplatser som du vill annonsera för varje annonsgrupp.
 
 * *[!UICONTROL Display Network Only]:* Visar textannonser på [!DNL Yandex Advertising Network]. För varje annonsgrupp måste du ange nyckelord för de webbplatser som du vill annonsera på.
 
@@ -77,4 +79,3 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-

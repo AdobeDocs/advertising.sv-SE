@@ -1,7 +1,9 @@
 ---
 title: Hantera modifierare
 description: Lär dig hur du konfigurerar och hanterar modifierare för dina annonsmallar för lagerdataflöden.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 
 ## Skapa en modifieringsgrupp
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Modifiers]**.
 
@@ -34,7 +36,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 
 ## Redigera en ändringsgrupp
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Modifiers]**.
 
@@ -54,7 +56,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 >
 >När du tar bort en modifieringsgrupp tar du bort alla variabler för den modifieringsgruppen (anges som `<modifier_group_name>`) från fälten i befintliga mallar. Om du försöker sprida data via en mall med variabler för modifierare som inte finns, misslyckas jobbet1.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Modifiers]**.
 
@@ -70,4 +72,3 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 >
 >* [Om lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
 >* [Hantera annonsmallar](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
-

@@ -1,7 +1,9 @@
 ---
-title: Hantera målgruppsundantag för kampanjer och annonsgrupper
+title: Hantera publikundantag för kampanjer och annonsgrupper
 description: Lär dig konfigurera och hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
@@ -24,7 +26,7 @@ Du kan också ta bort publikundantag.
 
 ## Konfigurera målgruppsundantag
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -42,19 +44,19 @@ Du kan också ta bort publikundantag.
 
       1. (Valfritt) Om du vill expandera en kampanj och visa dess underordnade annonsgrupper klickar du på kampanjnamnet.
 
-      1. (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), antingen anger eller klistrar in textsträngen i inmatningsfältet och trycker sedan på [!UICONTROL Enter] nyckel.
+      1. (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), antingen anger eller klistrar in textsträngen i indatafältet och trycker sedan på [!UICONTROL Enter] -tangenten.
 
       1. Gör något av följande:
 
          * Ange varje undantag för annonsgrupper genom att klicka på cirkeln bredvid den så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
-         * Ange varje exkludering av en kampanj genom att klicka på cirkeln bredvid den så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+         * Ange varje exkludering av en kampanj genom att klicka på cirkeln bredvid den så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 1. Klicka på **[!UICONTROL Post]**.
 
 ## Ta bort målgruppsundantag
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika målgruppsundantag.
 
@@ -70,4 +72,3 @@ Du kan också ta bort publikundantag.
 >
 >* [Om målgrupper](audience-about.md)
 >* [Hantera målgruppsmål för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-

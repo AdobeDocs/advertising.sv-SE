@@ -1,7 +1,9 @@
 ---
 title: Hantera [!DNL Microsoft Advertising] dynamisk återmarknadsföring
-description: Lär dig skapa och hantera [!DNL Microsoft Advertising] dynamisk återmarknadsföring.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du skapar och hanterar [!DNL Microsoft Advertising] dynamisk återmarknadsföring.
+exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]endast konton*
 
-Du kan skapa en [!DNL Microsoft Advertising] dynamisk återmarknadsföring av publiken när du använder sökmotorns JavaScript-konverterings- och målgruppsspårningstagg på dina webbsidor. Varje publik skapas med en angiven tagg som finns med på de webbsidor vars användare ska utgöra målgruppen. Du kan skapa flera målgrupper med samma spårningstagg. Du kan också ändra namn och datakälla för befintliga målgrupper eller ta bort befintliga målgrupper.
+Du kan skapa [!DNL Microsoft Advertising] dynamisk återmarknadsföring av publiken när du använder sökmotorns JavaScript-konvertering och målgruppsspårningstagg på dina webbsidor. Varje publik skapas med en angiven tagg som finns med på de webbsidor vars användare ska utgöra målgruppen. Du kan skapa flera målgrupper med samma spårningstagg. Du kan också ändra namn och datakälla för befintliga målgrupper eller ta bort befintliga målgrupper.
 
 Målgrupper för dynamisk återmarknadsföring har typen Målgrupp[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; (t.ex.&quot;Dynamic Remarketing Past Buyers&quot;).
 
@@ -28,7 +30,7 @@ Mer information om dynamisk återmarknadsföring och hur du implementerar den Ja
 
    Du behöver taggens namn i ett senare steg.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -58,7 +60,7 @@ Mer information om dynamisk återmarknadsföring och hur du implementerar den Ja
 
 Du kan ändra namn och datakälla för en [!DNL Microsoft Advertising] dynamisk publik för återmarknadsföring. Du kan inte redigera värdet för [!UICONTROL Membership Days] inställning.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. Markera kryssrutan bredvid målgruppen som ska redigeras.
 
@@ -78,7 +80,7 @@ Du kan ändra namn och datakälla för en [!DNL Microsoft Advertising] dynamisk 
 
 ## Ta bort en dynamisk publik för återmarknadsföring
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika målgrupper.
 
@@ -94,4 +96,3 @@ Du kan ändra namn och datakälla för en [!DNL Microsoft Advertising] dynamisk 
 >* [Skapa [!DNL Google Ads] kundmatcha målgrupper från [!DNL Adobe] målgrupper](google-audience-from-adobe-audience.md)
 >* [Skapa en [!DNL Google Ads] kundmatchande målgrupp från en e-postlista från Adobe Campaign](google-audience-from-campaign-email-list.md)
 >* [Hantera kundmatchande målgrupper med hjälp av kunddatalistor](audience-from-customer-data-list.md)
-

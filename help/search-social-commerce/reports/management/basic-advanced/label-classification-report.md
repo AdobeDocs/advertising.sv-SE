@@ -1,7 +1,9 @@
 ---
-title: "[!UICONTROL Label Classification Report]"
+title: '[!UICONTROL Label Classification Report]'
 description: Läs mer om [!UICONTROL Label Classification Report].
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 97f3b1d5-ec25-49c4-8efe-66395285f0da
+feature: Search Reports, Search Basic Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -18,7 +20,6 @@ Du kan visa data för de senaste 36 månaderna.
 >
 >* Det går inte att rapportera per etikettklassificeringar på ad-nivå för [!DNL Microsoft® Advertising] annonskampanjer för dynamisk sökning (DSA).
 >* Mer än en etikettklassificering kan gälla för samma enhet, så summan för varje mätvärde kan vara högre än den faktiska summan för enheten. Exempel: ett nyckelord &quot;suede skor&quot; har två etikettvärden, &quot;suede&quot; och &quot;skodon&quot;, och nyckelordet fick 100 klick. Kolumnen Click skulle visa &quot;100&quot; för vart och ett av dessa etikettvärden, så summan för båda raderna blir &quot;200&quot;.
-
 * Alla ändringar du gör av etiketteringsindelningar och underordnade etikettvärden för en enhet visas på ungefär en timme.
 
 ## Standardkolumner
@@ -42,4 +43,3 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 >* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
 >* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)
-

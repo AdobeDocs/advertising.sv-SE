@@ -1,7 +1,9 @@
 ---
 title: Hantera autentiseringsuppgifter för annonsnätverkshanterarkonton
 description: Lär dig hur du anger autentiseringsuppgifter för [!DNL Google Ads] chefskonton.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+feature: Search Admin
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -24,7 +26,7 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 
 ## Så här lägger du till autentiseringsuppgifter för ett nytt chefskonto
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Välj **[!UICONTROL Create new manager account]**.
 
@@ -38,9 +40,9 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Så här återautentiserar du ett befintligt chefskonto
+## Återautentisera ett befintligt chefskonto
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Välj **[!UICONTROL Reauthenticate existing manager account]**.
 
@@ -60,5 +62,4 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 >
 >* [Aktivera överföring av mål till annonsnätverk](/help/search-social-commerce/tools/objective-upload-to-networks.md)
 >* [Överför konverteringsmått till [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
->* [Redigera aviseringsinställningarna](/help/search-social-commerce/notifications/notification-edit.md)
-
+>* [Redigera meddelandeinställningarna](/help/search-social-commerce/notifications/notification-edit.md)

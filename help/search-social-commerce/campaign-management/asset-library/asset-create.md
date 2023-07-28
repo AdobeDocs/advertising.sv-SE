@@ -1,7 +1,8 @@
 ---
 title: Skapa och överföra resurser
-description: Lär dig hur du skapar återanvändbara bild-, video- och textresurser och överför dem till [!DNL Google Ads] resursbibliotek på kontonivå.
-source-git-commit: 004f1c41578f0c046ccb81f17fbf812959433c87
+description: Lär dig skapa återanvändbara bild-, video- och textresurser och ladda upp dem till [!DNL Google Ads] resursbibliotek på kontonivå.
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Öppna betafunktion*
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
       * För bildresurser:
 
-         1. Klicka **[!UICONTROL +]** och välj bilder från din enhet eller ditt nätverk.
+         1. Klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
             Varje bild kan vara högst 10 MB stor. Du kan överföra högst 200 MB bilder i taget.
 

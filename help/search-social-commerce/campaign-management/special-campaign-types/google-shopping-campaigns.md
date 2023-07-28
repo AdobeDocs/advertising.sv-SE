@@ -1,7 +1,9 @@
 ---
 title: Implementera [!DNL Google Ads] shoppingkampanjer
 description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] shoppingkampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 Annonser i shoppingkampanjer använder data om produkter i era befintliga [!DNL Google Merchant Center] produktflöde, i stället för nyckelord, för att bestämma hur och var annonserna ska visas.
 
-[!DNL Google Ads] kampanjer kan rikta sig till [!DNL Google Shopping Network] med [!UICONTROL Campaign Type] &quot;[!UICONTROL Shopping Network].&quot; Inställningarna för [!DNL Google Shopping] kampanjer innehåller en prioritet ([!UICONTROL High], [!UICONTROL Medium], eller [!UICONTROL Low]). Du kan även visa din lokala lagerinformation i dina shoppingannonser med hjälp av en inställning på kampanjnivå.
+[!DNL Google Ads] kampanjer kan rikta sig till [!DNL Google Shopping Network] med [!UICONTROL Campaign Type] &quot;[!UICONTROL Shopping Network].&quot; Inställningar för [!DNL Google Shopping] kampanjer innehåller en prioritet ([!UICONTROL High], [!UICONTROL Medium], eller [!UICONTROL Low]). Du kan även visa din lokala lagerinformation i dina shoppingannonser med hjälp av en inställning på kampanjnivå.
 
 Du kan styra vilka produkter som visas med dina shoppingannonser genom att konfigurera flera nivåer *[produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)* på annonsgruppsnivå. Produktgrupper baseras på alla produktattribut (kategori, produkttyp, varumärke, villkor, produkt-ID och anpassade etiketter), och du kan skapa upp till sju nivåer av produktgrupper som ska inkluderas eller exkluderas från bud. Du kan ange offerter på den lägsta produktnivån med samma bud för alla matchande produkter. När samma produkt ingår i mer än en kampanj [!DNL Google Ads] använder prioriteten på kampanjnivå först för att avgöra vilken kampanj (och tillhörande bud) som är berättigad till annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad.
 
@@ -35,6 +37,7 @@ Du kan åsidosätta standardanbudet för enskilda produktgrupper.
    1. [Skapa en produktgrupp för Alla produkter](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
 
    1. (Valfritt) [Skapa underordnade produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md).
+
    >[!NOTE]
    >Ni behöver inte skapa shoppingannonser. Även om annonsgruppen inte innehåller annonsenheter, [!DNL Google Ads] visar fortfarande annonser för produkterna.
 
@@ -46,12 +49,11 @@ Du kan åsidosätta standardanbudet för enskilda produktgrupper.
 
    1. [Redigera kampanjinställningarna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) för att justera kampanjbudgeten.
 
-      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör det möjligt för Search, Social och Commerce att optimera budgeten för alla kampanjer i portföljen.
+      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör att Search, Social och Commerce kan optimera budgeten för alla kampanjer i portföljen.
 
    1. [Justera det högsta anbudet för befintliga produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [ta bort produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) som du inte längre vill skapa annonser för, eller lägga till en [ny produktgrupp&quot;alla produkter&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) eller [nya underordnade produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) för att skapa annonser för ytterligare produkter.
 
 >[!NOTE]
 >
->* Se obligatoriska fält för hantering [!DNL Google Shopping] kampanjer och produktgrupper som använder [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) och [mallar för lagerfeed](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md).
+>* Se obligatoriska fält för hantering [!DNL Google Shopping] kampanjer och produktgrupper med [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md) och [mallar för lagerfeed](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md).
 >* Mer information om [!DNL Google Shopping] kampanjer, se [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/2454022).
-

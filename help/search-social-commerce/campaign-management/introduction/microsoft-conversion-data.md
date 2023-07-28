@@ -1,7 +1,8 @@
 ---
 title: '''[!DNL Microsoft Advertising] konverteringsdata'
-description: Läs mer om de olika typerna av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
-source-git-commit: 0d7a7b63b31f85b3befb3217fc43bcb229b370f0
+description: Läs mer om olika typer av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -32,9 +33,9 @@ Två transaktionsegenskaper för varje [[!DNL Microsoft Advertising]-spårad kon
   >
   >Använd den här typen av egendom i målet för portföljer som innehåller [!DNL Microsoft Advertising] kampanjer med budstrategierna Max Conversions och Target CPA.
 
-Data är tillgängliga baserat på klicktiden och baserat på konverterings-/transaktionstiden från det datum då funktionen aktiverades för kontot.
+Data är tillgängliga baserat på klickningstiden och baserat på konverterings-/transaktionstiden från det datum då funktionen är aktiverad för kontot.
 
-[!DNL Microsoft Advertising] registrerar varje konvertering med [budenhet](/help/search-social-commerce/glossary.md#a-b), enhet och klicka på datumet (inte konverteringsdatumet). Attribution is based on default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising-attribuering beaktas inte eftersom klickdata inte är tillgängliga.
+[!DNL Microsoft Advertising] registrerar varje konvertering med [budenhet](/help/search-social-commerce/glossary.md#a-b), enhet och klicka på datumet (inte konverteringsdatumet). Attribution is based on default attribution setting for each metric in [!DNL Microsoft Advertising]; Adobe Advertising-attribuering är inte indelad eftersom klickdata inte är tillgängliga.
 
 >[!NOTE]
 >
@@ -55,7 +56,7 @@ Generera rapporten för de valda konverteringsåtgärderna per dag och inkludera
 
 I Sök, Socialt, &amp; Commerce använder du alternativet view eller report för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Create Report]** håller du markören över **[!UICONTROL Basic Reports]** och klicka sedan på **[!UICONTROL Search Engine Account Report]**.
 
@@ -67,7 +68,7 @@ I Sök, Socialt, &amp; Commerce använder du alternativet view eller report för
 
    1. I **[!UICONTROL Search/Content]** avsnitt, markera **[!UICONTROL Search Only]**.
 
-   1. I **[!UICONTROL Search Engine Hierarchy]** -avsnittet, expandera [!UICONTROL Microsoft Advertising] och välj kontot.
+   1. I **[!UICONTROL Search Engine Hierarchy]** -avsnittet expanderar du [!UICONTROL Microsoft Advertising] och välj kontot.
 
    1. Öppna [!UICONTROL Columns] och lägga till [!DNL Microsoft Advertising] mätvärden som du vill jämföra.
 

@@ -1,7 +1,9 @@
 ---
 title: Skapa och redigera kampanjdata i grupp med kopiera och klistra in
 description: Lär dig hur du hanterar kampanjdata gruppvis med kopierings- och inklistringsfunktionen.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 09454f19-221b-43bb-ac74-f2c121329422
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 
 ## Kopiera datarader
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. Markera kryssrutan bredvid varje rad som du vill kopiera.
 
@@ -30,7 +32,7 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 
    Du kan även använda operativsystemets &quot;kopiera&quot;-tangentbordskommando, som **[!DNL Ctrl+C]** for [!DNL Microsoft Windows] eller **[!DNL Command-C]** for [!DNL Apple Mac].
 
-1. I [!UICONTROL Copy to Clipboard] dialogruta, klicka **[!UICONTROL Continue]**. När data är klara att kopieras klickar du på **[!UICONTROL Copy]**.
+1. I [!UICONTROL Copy to Clipboard] dialogruta, klicka **[!UICONTROL Continue]**. När data är klara att kopieras klickar du **[!UICONTROL Copy]**.
 
 1. Klistra in raderna i [!DNL Excel] eller en annan redigerare.
 
@@ -38,13 +40,13 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 
 1. Redigera data enligt följande krav:
 
-   * De inklistrade uppgifterna måste innehålla en rubrikrad och nödvändiga kampanjobjektsvärden. se vilka kalkylbladskolumner som krävs för [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visa nätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), [Yahoo! Japan](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). Kolumnordningen spelar ingen roll.
+   * De inklistrade data måste innehålla en rubrikrad och nödvändiga kampanjobjektvärden. Se de kolumner i kalkylbladet som krävs för [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Visa nätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md), [Yahoo! Japan](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md). Kolumnordningen spelar ingen roll.
 
       * För befintliga objekt som du vill redigera måste du inkludera alla relevanta ID-kolumner, entitetsnamn och det attribut som ska redigeras. Redigera inte det numeriska ID:t för objektet.
 
       * Inkludera alla relevanta enhetsnamn och attribut för nya kampanjobjekt, men inkludera inte objekt-ID:n (som genereras automatiskt). Om du till exempel skapar en ny annons lämnar du [!UICONTROL Ad ID] fältet är tomt. Annonsnätverket skapar automatiskt ett ID när du skickar objektet.
-   * Värdet i en icke obligatorisk kolumn kan vara null (tom), men varje rad måste ha samma antal tabbseparerade värden.
 
+   * Värdet i en icke obligatorisk kolumn kan vara null (tom), men varje rad måste ha samma antal tabbseparerade värden.
 
 1. Spara data som tabbseparerade värden.
 
@@ -81,4 +83,3 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 >* [Hantera annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md)
 >* [Hantera nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Hantera annonser](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md)
-

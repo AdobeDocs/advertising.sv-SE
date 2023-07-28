@@ -1,22 +1,24 @@
 ---
-title: Hantera delade länkar
-description: Lär dig hur du skapar och hanterar delade tillägg för länkar.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+title: Hantera delade sitelinks
+description: Lär dig hur du skapar och hanterar delade tillägg för sitelink.
+exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
-# Hantera delade länkar
+# Hantera delade sitelinks
 
 *[!DNL Google Ads]och [!DNL Microsoft Advertising] endast*
 
 Skapa och hantera delade länkar på kontonivå för synkroniserade [!DNL Google Ads] eller [!DNL Microsoft Advertising] konto från [!UICONTROL Extensions] > [!UICONTROL Sitelinks] bibliotek.
 
-## Skapa en delad sitelink
+## Skapa en delad platshållare
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -32,7 +34,7 @@ När du har skapat en länk kan du [tilldela det till ett konto, en kampanj elle
 
 Du kan redigera en delad platshållare åt gången.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Markera kryssrutan bredvid den platslänk som ska redigeras.
 
@@ -44,7 +46,7 @@ Du kan redigera en delad platshållare åt gången.
 
 ## Ta bort delade länkar
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]**.
 
 1. Markera kryssrutan bredvid varje delad platslänk som du vill ta bort.
 
@@ -56,7 +58,7 @@ Du kan redigera en delad platshållare åt gången.
 
 ## Inställningar för delad sitelink {#shared-sitelink-settings}
 
-Ytterligare profiler och orsaker till att du inte godkänner sitelink finns i [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) och [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) krav för sitelink-tillägg.
+Om du vill ha ytterligare profiler och orsaker till att du inte godkänner sitelink går du till [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) och [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) krav för sitelink-tillägg.
 
 ### [!UICONTROL Sitelink]
 
@@ -70,7 +72,7 @@ Ytterligare profiler och orsaker till att du inte godkänner sitelink finns i [[
 
 **[!UICONTROL Description Line 1], [!UICONTROL Description Line 2]:** Extra text som sökmotorn kan visa under länktexten. Om du vill ta med en beskrivning anger du värden för båda beskrivningsfälten. Varje beskrivningsfält kan innehålla upp till 35 enkelbyte- eller 17 dubbelbyte-tecken.
 
-**[!UICONTROL Start Date]:** (Endast kampanjer med befintliga, gamla sitelinks eller inga sitelinks. (valfritt) Det första datum då webbplatslänken kan visas med annonser i kampanjen. Standardvärdet för nya sitelinks är den aktuella dagen. Om du vill ange ett framtida startdatum anger du ett datum i formatet MM/DD/ÅÅÅÅ eller M/D/ÅÅÅ, eller klickar och väljer ett datum.
+**[!UICONTROL Start Date]:** (Campaigns with existing legacy sitelinks or no sitelinks only; optional) The first date on which the sitelink may be displayed with ads in the campaign. Standardvärdet för nya sitelinks är den aktuella dagen. Om du vill ange ett framtida startdatum anger du ett datum i formatet MM/DD/ÅÅÅÅ eller M/D/ÅÅÅ, eller klickar och väljer ett datum.
 
 **[!UICONTROL End Date]:** (Valfritt) Det sista datum då platshållaren kan visas med annonser i kampanjen. Som standard kan sitelänken visas i oändlighet. Om du vill ange ett slutdatum anger du ett datum i formatet MM/DD/ÅÅÅÅ eller M/D/ÅÅÅ, eller klickar och väljer ett datum.
 
@@ -94,7 +96,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 
 **[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
 
-* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot;och &quot;Automatisk överföring&quot;, &quot;Sök, Socialt och e-handel&quot; prefix automatiskt sin egen klickspårningskod när du sparar posten.
+* För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot;och &quot;Automatisk överföring&quot;, &quot;Sök, Socialt och e-handel&quot; prefix automatiskt sin egen klickspårningskod när du sparar posten.
 
 * Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
@@ -104,7 +106,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 
 >[!NOTE]
 >
->* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+>* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* ([!DNL Google Ads]) Om du uppdaterar en spårningsmall på sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
 >* ([!DNL Microsoft Advertising]) Du kan uppdatera dina spårningsmallar på vilken nivå som helst utan att skicka in dina annonser för godkännande på nytt.

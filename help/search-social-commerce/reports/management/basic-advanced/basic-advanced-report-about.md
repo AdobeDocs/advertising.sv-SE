@@ -1,7 +1,9 @@
 ---
 title: Om grundläggande rapporter och avancerade rapporter
 description: Läs mer om anpassningsbara grundläggande och avancerade rapporter.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 6224ee6d-72db-4524-9660-7fc0d57b5347
+feature: Search Reports, Search Basic Reports, Search Advanced Reports
+source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -56,7 +58,7 @@ Grundläggande rapporter visar den faktiska kostnaden och klickdata för portfö
 
 Avancerade rapporter kan hjälpa er att fatta strategiska beslut om er annonseringsstrategi genom att identifiera var ni skulle kunna dra nytta av dem genom att konfigurera om er geografiska målinriktning eller nätverksinställningar. De kan också hjälpa er att validera konverteringsdata som finns i Sök, Socialt och Commerce mot annonsörens interna konverteringsspårningsdata.
 
-Alla användare kan generera [!UICONTROL Transaction Report], som visar enskilda transaktioner efter nyckelord. Alla andra avancerade rapporter använder data som samlats in via konverteringstjänsten för annonsering i Adobe och kan genereras endast för annonsörer som har tjänsten.
+Alla användare kan generera [!UICONTROL Transaction Report], som visar enskilda transaktioner efter nyckelord. Alla andra avancerade rapporter använder data som samlats in via tjänsten för spårning av konvertering till Adobe Advertising och kan bara genereras för annonsörer som använder tjänsten.
 
 Alla avancerade rapporter kan innehålla konverteringsdata eller andra mätvärden du skapar. Avancerade rapporter som genereras av portföljen i stället för av annonsnätverket visar data för kampanjer som för närvarande är mappade till de angivna portföljerna. Rapporterna innehåller inte data för kampanjer som fanns i portföljerna under datumintervallet, men som inte finns där än.
 
@@ -73,4 +75,3 @@ Alla avancerade rapporter kan innehålla konverteringsdata eller andra mätvärd
 >* [Generera en grundläggande eller avancerad rapport](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-settings.md)
 >* [Rapportkolumner för grundläggande och avancerade rapporter](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
-

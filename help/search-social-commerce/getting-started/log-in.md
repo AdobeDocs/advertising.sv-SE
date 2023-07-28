@@ -1,7 +1,9 @@
 ---
 title: Logga in
 description: Lär dig hur du loggar in.
-source-git-commit: 5691766a5e3acca4e94f93f5a4d5c9a7007734b5
+exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+feature: Search Getting Started
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -28,7 +30,7 @@ Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Expe
 
 1. [Logga in på Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. Välj ![lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "lösningsväljare").
+1. I den övre menyn väljer du ![lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "lösningsväljare").
 
 1. Välj **[!UICONTROL Advertising Cloud]**.
 
@@ -37,4 +39,3 @@ Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Expe
 >* [Logga ut](log-out.md)
 >* [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)
 >* [Hur användargränssnittet är organiserat](user-interface.md)
-

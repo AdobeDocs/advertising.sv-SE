@@ -1,7 +1,9 @@
 ---
 title: Om anpassade aviseringar
 description: Lär dig mer om anpassade aviseringar, inklusive hur du skapar aviseringsmallar och när aviseringar utlöses.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+feature: Search Alerts
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -14,7 +16,7 @@ Du kan skapa aviseringsmallar för att identifiera när en portfölj, konto, kam
 
 Du kan skapa varningsmallar från [!UICONTROL Alert Templates] eller från kampanjhanteringsvyn för den entitetstyp som ska utvärderas.
 
-När en aviseringsinstans aktiveras för en aviseringsmall:
+När en aviseringsinstans utlöses för en aviseringsmall:
 
 * De angivna mottagarna får ett e-postmeddelande. När varningen innehåller upp till 1 000 poster innehåller e-postmeddelandet en [CSV](/help/search-social-commerce/glossary.md#c-d) fil med varningsdata, inklusive data för alla enheter som utlöste varningen.
 
@@ -22,7 +24,7 @@ När en aviseringsinstans aktiveras för en aviseringsmall:
 
 * Varningen visas i [!UICONTROL Notifications] i den tillämpliga enhetsvyn, som är tillgänglig från det högra verktygsfältet. Meddelanden finns kvar i [!UICONTROL Notifications] centrera om du inte tar bort dem eller markerar dem som lästa.
 
-I [!UICONTROL Custom Alerts] visa [!UICONTROL Alert Templates] visar alla aviseringsmallar som skapats för kontot och du kan skapa, redigera, pausa, återaktivera och ta bort aviseringsmallar. The [!UICONTROL Triggered Alerts] visa en lista med genererade varningsinstanser.
+I [!UICONTROL Custom Alerts] visa, [!UICONTROL Alert Templates] visar alla aviseringsmallar som skapats för kontot och du kan skapa, redigera, pausa, återaktivera och ta bort aviseringsmallar. The [!UICONTROL Triggered Alerts] visa en lista med genererade varningsinstanser.
 
 >[!MORELIKETHIS]
 >
@@ -34,4 +36,3 @@ I [!UICONTROL Custom Alerts] visa [!UICONTROL Alert Templates] visar alla aviser
 >* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)
-

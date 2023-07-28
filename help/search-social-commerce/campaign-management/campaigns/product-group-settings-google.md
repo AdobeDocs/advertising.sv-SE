@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Google Ads] produktgruppsinställningar"
+title: '''[!DNL Google Ads] produktgruppsinställningar'
 description: Referera inställningarna för [!DNL Google Ads] shoppingproduktgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3bf33d78-0ad5-43c7-970a-2f2d2e591802
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -30,7 +32,7 @@ När du har skapat en produktgrupp för specifika produktdimensioner (det vill s
 
 En lista över tillgängliga produktdimensioner finns i &quot;[Produktfilter för köpkampanjer](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; Din lista över dimensioner kan begränsas baserat på kampanjens [!UICONTROL Inventory Filter] inställning.
 
-**[!UICONTROL Excluded]:** (Valfritt för nya produktgrupper) skrivskyddad för befintliga produktgrupper) Utesluter annonser för matchande produkter.
+**[!UICONTROL Excluded]:** (Valfritt för nya produktgrupper, skrivskyddat för befintliga produktgrupper) Utesluter annonser för matchande produkter.
 
 **[!UICONTROL Bid]:** (Endast inkluderade produktgrupper) Den maximala kostnaden per klick (CPC), som är det högsta beloppet att betala för ett reklamklick. Det här värdet används bara för enheter utan underordnade produktgrupper och används i stället för annonsgruppsnivån.
 
@@ -51,4 +53,3 @@ Den här mallen åsidosätter mallar på högre nivåer och används endast för
 >* [Hantera produktgrupper för butik](product-group-manage.md)
 >* [Produktfilter för köpkampanjer](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
 >* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-

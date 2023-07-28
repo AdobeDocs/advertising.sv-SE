@@ -1,7 +1,9 @@
 ---
 title: Ta bort annonstilläggsassociationer med kampanjer och annonsgrupper
 description: Lär dig hur du kopplar bort annonstillägg till kampanjer och annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 Du kan ta bort associationer på kampanj- och annonsnivå med valfri plats, telefon och sitelink-tillägg.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]**.
 
 1. Markera kryssrutan bredvid varje association som du vill ta bort.
 
@@ -29,4 +31,3 @@ Du kan ta bort associationer på kampanj- och annonsnivå med valfri plats, tele
 >* [Hantera [!DNL Google Ads] bildtexttillägg](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
 >* [Hantera platstillägg](location-extension-manage.md)
 >* [Hantera tillägg för sitelink](sitelink-extension-manage.md)
-

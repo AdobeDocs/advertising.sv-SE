@@ -2,7 +2,8 @@
 title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]
 description: Lär dig hur du exporterar synkroniserade kampanjer i en [!DNL Google Ads] konto direkt i en synkroniserad [!DNL Microsoft® Advertising] konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
-source-git-commit: 8d062e5c74c8f873ab5f2491659a32be47bb2afb
+feature: Search Tools
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 0%
@@ -19,11 +20,11 @@ Du kan replikera följande typer av kampanjer och deras kampanjstruktur:
 
 * [!DNL Google Display Network] kampanjer, inklusive annonser, i [!DNL Microsoft® Advertising] målgruppskampanjer i Microsoft® Audience Network.
 
-  Om du vill upprepa shoppingbaserade displaykampanjer måste du först upprepa [!DNL Google Merchant Center] erbjuder [!DNL Microsoft® Merchant Center]. När du replikerar kampanjerna väljer du [!DNL Microsoft® Merchant Center] lagra i Importalternativen för att länka butiken till era feedbaserade målgruppskampanjer.
+  Om du vill upprepa shoppingbaserade displaykampanjer måste du först upprepa [!DNL Google Merchant Center] erbjudanden [!DNL Microsoft® Merchant Center]. När du replikerar kampanjerna väljer du [!DNL Microsoft® Merchant Center] lagra i Importalternativen för att länka butiken till era feedbaserade målgruppskampanjer.
 
 * [!DNL Google Ads] max-kampanjer, inklusive lokala annonser, i [!DNL Microsoft® Advertising] smarta shoppingkampanjer.
 
-Du kan välja att uppdatera kampanjerna en gång; varje vecka eller varje månad, eller enligt [!DNL Microsoft® Advertising]Rekommenderat schema. Du kan konfigurera meddelanden varje gång ett importjobb körs eller när fel eller ändringar inträffar. När ni har importerat era kampanjer till [!DNL Microsoft® Advertising]kan du kontrollera status för importjobbet, granska felloggar, manuellt köra ett importjobb samt redigera, pausa, aktivera eller ta bort importschemat.
+Du kan välja att uppdatera kampanjerna en gång, varje dag, varje månad eller enligt [!DNL Microsoft® Advertising]Rekommenderat schema. Du kan konfigurera meddelanden varje gång ett importjobb körs eller när fel eller ändringar inträffar. När ni har importerat era kampanjer till [!DNL Microsoft® Advertising]kan du kontrollera status för importjobbet, granska felloggar, manuellt köra ett importjobb samt redigera, pausa, aktivera eller ta bort importschemat.
 
 All kampanjinformation replikeras inte och du kan behöva lägga till viss information i [!DNL Microsoft® Advertising] kampanjer. Mer information om vilka data som importeras finns i [!DNL Microsoft® Advertising] hjälp om &quot;[Vad importeras från [!DNL Google Ads]](https://help.ads.microsoft.com/#apex/ads/en/50851).&quot; Eftersom sökning, social spårning och handelsspårning inte importeras bör du även lägga till spårning i dialogrutan [konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), eller [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) inställningar.
 
@@ -57,13 +58,13 @@ Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.micro
 
 1. Klicka på **[!UICONTROL Post]**.
 
-1. (Valfritt) Lägg till sökning, social- och handelsspårning i [konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), eller [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) inställningar.
+1. (Valfritt) Lägg till sökning, social- och handelsspårning i dialogrutan [konto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), [kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md), [annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md), eller [ad](/help/search-social-commerce/campaign-management/campaigns/ad-manage.md) inställningar.
 
 ## Redigera schemainställningar för ett kampanjimportjobb
 
 Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Markera kryssrutan bredvid importjobbet och klicka sedan på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
 
@@ -77,7 +78,7 @@ Du kan visa alla importjobb, inklusive källan [!DNL Google Ads] konto, målet [
 
 * Gör något av följande:
 
-   * På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+   * Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
      Som standard öppnas vyn i [!UICONTROL List of Import Jobs] -fliken.
 
@@ -85,7 +86,7 @@ Du kan visa alla importjobb, inklusive källan [!DNL Google Ads] konto, målet [
 
 ## Kör ett kampanjimportjobb
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Markera kryssrutan bredvid importjobbet.
 
@@ -93,9 +94,9 @@ Du kan visa alla importjobb, inklusive källan [!DNL Google Ads] konto, målet [
 
 ## Visa loggar för kampanjimportjobb {#campaign-import-log}
 
-Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttiden, källan [!DNL Google Ads] konto, målet [!DNL Microsoft® Advertising] konto, den användare som skapade jobbet, antalet slutförda och misslyckade åtgärder samt e-postadresser som tagit emot meddelanden för varje jobb. Du kan visa mer information om ändringarna av målet [!DNL Microsoft® Advertising] konto som inträffade för varje jobb, inklusive antalet objekt som lagts till, synkroniserats, tagits bort och som genererade fel för varje entitetsnivå (till exempel kampanj eller nyckelord) i kontot.
+Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttiden, källan [!DNL Google Ads] konto, målet [!DNL Microsoft® Advertising] konto, den användare som skapade jobbet, antalet slutförda och misslyckade åtgärder samt e-postadresser som tagit emot meddelanden för varje jobb. Du kan visa mer information om ändringarna av målet [!DNL Microsoft® Advertising] konto som inträffade för varje jobb, inklusive antalet objekt som lagts till, synkroniserats, tagits bort och som genererade fel för varje entitetsnivå (t.ex. kampanj eller nyckelord) i kontot.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]**.
 
 1. Klicka på **[!UICONTROL Import Logs]** -fliken.
 
@@ -107,9 +108,9 @@ Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttiden, 
 
 **[!UICONTROL Source Google Ads account]:** Det synkroniserade [!DNL Google Ads] konto som kampanjdata exporteras från.
 
-**[!UICONTROL Credential ID]:** Ett ID som [!DNL Microsoft® Advertising] använder [!DNL Google Ads] autentiseringsuppgifter.
+**[!UICONTROL Credential ID]:** Ett ID som [!DNL Microsoft® Advertising] används för att representera [!DNL Google Ads] autentiseringsuppgifter.
 
-Automatisk generering av [!DNL Microsoft® Advertising] autentiseringsuppgifter för import är inte tillgängliga på grund av [!DNL Microsoft® Advertising] begränsningar. Kontakta Adobe tekniska support eller ditt kontoteam på Adobe, så genererar de autentiseringsuppgifterna och ger dig ID:t.
+Automatisk generering av [!DNL Microsoft® Advertising] autentiseringsuppgifter för import är inte tillgängliga eftersom [!DNL Microsoft® Advertising] begränsningar. Kontakta Adobe tekniska support eller ditt kontoteam på Adobe, så genererar de autentiseringsuppgifterna och ger dig ID:t.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Det synkroniserade [!DNL Microsoft® Advertising] vilket konto kampanjdata importeras till.
 

@@ -1,7 +1,9 @@
 ---
 title: Hantera [!DNL Google Ads] dynamiska sökmål
-description: Lär dig skapa och hantera [!DNL Google Ads] dynamiska sökmål.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig hur du skapar och hanterar [!DNL Google Ads] dynamiska sökmål.
+exl-id: 85b1455a-dda1-4bb9-b4be-d6e0a837fd9d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -26,13 +28,13 @@ Du kan ange alla villkor eller upp till tre enskilda villkor som mål.
 
 >[!NOTE]
 >
->Skapa en[!UICONTROL All Targets]&quot; för endast en annonsgrupp per kampanj.
+>För bästa spårprestanda skapar du en[!UICONTROL All Targets]&quot; för endast en annonsgrupp per kampanj.
 
 >[!TIP]
 >
 >Om du vill skapa flera kontokomponenter samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -50,7 +52,7 @@ Du kan redigera status eller högsta bud för en [!DNL Google Ads] dynamiskt sö
 >
 >Om du vill redigera stora mängder data samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. Markera kryssrutan bredvid varje rad som ska redigeras.
 
@@ -66,7 +68,7 @@ Du kan redigera status eller högsta bud för en [!DNL Google Ads] dynamiskt sö
 
    * (Enstaka mål) Klicka **[!UICONTROL Post]**.
 
-   * (Flera annonsgrupper) Klicka på **[!UICONTROL Post Now]**.
+   * (Flera annonsgrupper) Klicka **[!UICONTROL Post Now]**.
 
 ## Ändra status för [!DNL Google Ads] dynamiska sökmål
 
@@ -74,7 +76,7 @@ Du kan pausa alla aktiva dynamiska sökmål i en kampanjtyp som stöds om du int
 
 Du kan också ta bort alla dynamiska mål.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika dynamiska mål.
 
@@ -85,20 +87,20 @@ Du kan också ta bort alla dynamiska mål.
    * Så här tar du bort ett eller flera dynamiska mål:
 
       1. Markera kryssrutan bredvid varje dynamiskt mål som du vill ta bort.
-      Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+
+     Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       1. Klicka på i verktygsfältet ![Mer](/help/search-social-commerce/assets/more.png "Mer") och markera **[!UICONTROL Delete]**.
 
       1. Klicka på **[!UICONTROL Delete]**.
 
-
 ## [!DNL Google Ads] målinställningar för dynamisk sökning {#dynamic-search-target-settings}
 
 ### [!UICONTROL Auto-Target Details]
 
-**[!UICONTROL Auto-targets]:** (Krävs om du inte anger en webbplatsdomän och ett språk i kampanjens [!UICONTROL DSA Options] sektion; skrivskyddad för befintliga mål) Dynamiska sökmål för annonsgruppen:
+**[!UICONTROL Auto-targets]:** (Krävs om du inte anger en webbplatsdomän och ett språk i kampanjens [!UICONTROL DSA Options] -sektion; skrivskyddad för befintliga mål) Dynamiska sökmål för annonsgruppen:
 
-* *[!UICONTROL All Targets]* (standard): Målsätter alla indexerade sidor.
+* *[!UICONTROL All Targets]* (standard): Alla indexerade sidor anges som mål.
 
 * *\[Särskilda mål\]:* Målar upp till tre villkor för indexerade sidor. När du väljer det här alternativet måste du ange villkoren genom att ange informationskategorier och specifika värden som annonserna ska riktas mot (t.ex.&quot;URL:en innehåller skor.exempel.com&quot;). Om du vill ange fler än ett villkor klickar du på **[!UICONTROL + And]**. Målkriterierna är följande:
 
@@ -112,7 +114,7 @@ Du kan också ta bort alla dynamiska mål.
 
 **Status:** Status för målinställningarna:
 
-* *[!UICONTROL Active]* (standard): Aktiverar budgivning.
+* *[!UICONTROL Active]* (standard): Aktiverar offerter.
 
 * *[!UICONTROL Paused]:* Inaktiverar budgivning.
 
@@ -129,4 +131,3 @@ Du kan också ta bort alla dynamiska mål.
 >[!MORELIKETHIS]
 >
 >* [Om [!DNL Google Ads] dynamiska sökmål](dynamic-search-target-about.md)
-

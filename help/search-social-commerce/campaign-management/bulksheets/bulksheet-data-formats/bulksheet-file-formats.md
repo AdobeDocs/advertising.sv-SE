@@ -1,7 +1,9 @@
 ---
 title: Filformat för kalkylblad som stöds
 description: Se de allmänna filkraven för kalkylblad.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+feature: Search Bulksheets
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -45,7 +47,7 @@ Datafält i TSV-filer och TXT-filer som är avgränsade med tabbar måste format
 
 * Fälten i varje post avgränsas med tabbtecken. Om du vill utelämna ett värde för ett fält använder du bara tabbtecknet.
 
-   Exempel: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
+  Exempel: `Cruises<TAB>5000<TAB>Caribbean<TAB><TAB><TAB>`
 
 * Fält får inte innehålla inbäddade tabbtecken.
 
@@ -55,28 +57,27 @@ Datafält i CSV-filer och TXT-filer avgränsade med kommatecken måste formatera
 
 * Fälten i en post avgränsas med kommatecken. Om du vill utesluta ett värde för ett fält använder du bara kommatecken.
 
-   Exempel: `Cruises,5000,Caribbean,,,`
+  Exempel: `Cruises,5000,Caribbean,,,`
 
 * Alla fält kan omslutas av citattecken (`""`).
 
-   Exempel:  `"Cruises","5000","Caribbean",`
+  Exempel:  `"Cruises","5000","Caribbean",`
 
 * Fält med inbäddade kommatecken måste omslutas av citattecken (`""`).
 
-   Exempel: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
+  Exempel: `Cruises,5000,Caribbean,"Luxurious, spacious cabins",`
 
 * Fält med inbäddade dubbla citattecken måste omslutas med dubbla citattecken (`""`).
 
-   Exempel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
+  Exempel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
 * Fält med inledande eller avslutande blanksteg måste omslutas av citattecken (`""`).
 
-   Exempel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
+  Exempel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjdata med hjälp av kalkylblad](../bulksheet-about.md)
 >* [Åtgärder som du kan utföra i kalkylblad](bulksheet-operations.md)
->* [Bilaga - Fallkalkylbladsfel](../bulksheet-errors.md)
+>* [Bilaga - Fel i bulkark](../bulksheet-errors.md)
 >* [Hämta/skapa en kalkylbladsfil](../bulksheet-download.md)
-

@@ -1,7 +1,9 @@
 ---
 title: Hantera annonsgrupper
 description: Lär dig hur du skapar och hanterar annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -14,15 +16,15 @@ ht-degree: 0%
 
 En annonsgrupp innehåller en uppsättning annonser och tillhörande nyckelord. En annonsgrupp i en kampanj som riktar sig till visningsnätverket kan även innehålla placeringar, som är platser i visningsnätverket där annonserna kan visas. Inställningarna för annonsgrupper, som gäller för alla komponenter i annonsgruppen, varierar beroende på annonsnätverk.
 
-Du kan skapa annonsgrupper från Sök, Socialt och Commerce för en [kampanjtyp som stöds](/help/search-social-commerce/introduction/supported-inventory.md) inom en [synkroniserat annonsnätverkskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md). Du kan också redigera och ändra status för annonsgrupper.
+Du kan skapa annonsgrupper från Sök, Socialt och Commerce för en [kampanjtyp stöds](/help/search-social-commerce/introduction/supported-inventory.md) inom en [synkroniserat annonskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md). Du kan också redigera och ändra status för annonsgrupper.
 
 ## Skapa en annonsgrupp
 
 >[!TIP]
 >
->Om du vill lägga till stora mängder annonsgruppsdata samtidigt använder du [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Använd kommandot [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
 
@@ -30,7 +32,7 @@ Du kan skapa annonsgrupper från Sök, Socialt och Commerce för en [kampanjtyp 
 
 1. Ange [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
 
-   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Så här konfigurerar du inställningar för [!UICONTROL Negative Keywords] eller [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Negative Keywords]** eller **[!UICONTROL Add Negative Websites]**, respektive.
+   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Konfigurera inställningar för [!UICONTROL Negative Keywords] eller [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Negative Keywords]** eller **[!UICONTROL Add Negative Websites]**, respektive
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -42,9 +44,9 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 
 >[!TIP]
 >
->Om du vill redigera stora mängder data samtidigt använder du [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
+>Använd kommandot [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. Gör något av följande:
 
@@ -54,7 +56,7 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 
       * Markera kryssrutan bredvid varje annonsgrupp.
 
-         Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
 
       * Klicka på i verktygsfältet ovanför datatabellen ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
 
@@ -62,13 +64,13 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 
    För flera annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options], beroende på annonsnätverket. Du kan bara redigera fält som är gemensamma för alla markerade annonsgrupper, och dina ändringar tillämpas på alla markerade annonsgrupper. För vissa alfanumeriska fält kan du ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
-   För enstaka annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Så här konfigurerar du inställningar för [!UICONTROL Negative Keywords] eller [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Negative Keywords]** eller **[!UICONTROL Add Negative Websites]**, respektive.
+   För enstaka annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Konfigurera inställningar för [!UICONTROL Negative Keywords] eller [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Negative Keywords]** eller **[!UICONTROL Add Negative Websites]**, respektive
 
 1. Spara data:
 
    * (Enstaka annonsgrupper) Klicka **[!UICONTROL Post]**.
 
-   * (Flera annonsgrupper) Klicka på **[!UICONTROL Post Now]**.
+   * (Flera annonsgrupper) Klicka **[!UICONTROL Post Now]**.
 
 ## Ändra status för annonsgrupper
 
@@ -76,7 +78,7 @@ Du kan pausa en aktiv sökning och grupp för att inaktivera budgivning. Du kan 
 
 Du kan också ta bort alla aktiva eller pausade sök- och annonsgrupper. Borttagna annonsgrupper tas bort från annonsnätverket. De är fortfarande synliga, men du kan inte ändra dem.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller särskilda annonsgrupper.
 
@@ -89,13 +91,12 @@ Du kan också ta bort alla aktiva eller pausade sök- och annonsgrupper. Borttag
 
    * Om du vill pausa raderna klickar du på ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa").
 
-   * Om du vill ta bort raderna klickar du på ![Mer](/help/search-social-commerce/assets/more.png "Mer") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
+   * Klicka på om du vill ta bort raderna ![Mer](/help/search-social-commerce/assets/more.png "Mer") och markera **[!UICONTROL Delete]**. Klicka på **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >
 >* [Inställningar för Baidu-annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
 >* [Google Ads och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
->* [Inställningar för annonser i Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+>* [Microsoft Advertising and group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
 >* [Yahoo! Inställningar för annonser i Japan](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
 >* [Yandex och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
-

@@ -1,7 +1,9 @@
 ---
 title: FTP-åtkomst till rapporter
 description: Lär dig hur du tar emot rapporter på en skrivskyddad FTP-plats.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 69850b68-0309-4f07-b4cb-c14488219a4b
+feature: Search Reports
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -10,7 +12,7 @@ ht-degree: 0%
 
 # FTP-åtkomst till rapporter
 
-Du kan också ta emot rapporter på en skrivskyddad FTP-plats, där du kan hämta filer för ytterligare automatiserade processer (till exempel för att analysera data med ett annat program). Alla grundläggande rapporter utom [!UICONTROL Search Engine Account Report] och alla avancerade rapporter kan levereras till en FTP-plats som zippade TSV-filer (standard) eller CSV-filer med filnamnstillägget ZIP. Alla TSV- eller CSV-filhuvuden inkluderas och kan inte undertryckas.
+Du kan också ta emot rapporter på en skrivskyddad FTP-plats, där du kan hämta filerna för ytterligare automatiserade processer (till exempel för att analysera data med ett annat program). Alla grundläggande rapporter utom [!UICONTROL Search Engine Account Report] och alla avancerade rapporter kan levereras till en FTP-plats som zippade TSV-filer (standard) eller CSV-filer med filnamnstillägget ZIP. Alla TSV- eller CSV-filhuvuden inkluderas och kan inte undertryckas.
 
 FTP-åtkomst till rapporter kräver åtkomst till ett visst FTP-konto, och du måste skapa rapportmallar med en viss namnkonvention och ett schema.
 
@@ -18,7 +20,7 @@ FTP-åtkomst till rapporter kräver åtkomst till ett visst FTP-konto, och du m�
 
 * Kontakta kontoteamet på Adobe för att skapa ett FTP-konto för rapportåtkomst.
 
-   Teamet kommer att ge dig ditt användarnamn och lösenord.
+  Teamet kommer att ge dig ditt användarnamn och lösenord.
 
 ## Ställ in rapportmallar för FTP-leverans
 
@@ -39,6 +41,7 @@ Skapa en [rapportmall](templates/template-create.md) med följande namnkonventio
       * `[SDATE]` — Inkludera rapportens startdatum i datumintervallet.
 
       * `[EDATE]` — Inkludera slutdatumet för rapportens datumintervall.
+
    * (Valfritt) `[CSV]` (med versaler och omslutna av hakparenteser) om du vill skapa filer i CSV-format i stället för som standard-TSV-format.
 
    Exempel: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` skulle skapa en fil som 202305051656-Portfolio-FTP-20230428-20110504.csv.
@@ -51,7 +54,6 @@ Skapa en [rapportmall](templates/template-create.md) med följande namnkonventio
 >
 >* Om du vill skicka slutförda rapporter via e-post anger du bara adresserna till alla e-postmottagare när du genererar rapporten eller mallen.
 >* Rapporterna körs enligt angivna scheman och levereras till FTP-kontot inom en timme efter att de har slutförts.
-
 
 ## Få åtkomst till rapporter i en FTP-databas
 
@@ -68,4 +70,3 @@ Anslut till någon av följande FTP-värdar med inloggningen för ditt FTP-konto
 >[!MORELIKETHIS]
 >
 >* [Skapa en rapportmall](/help/search-social-commerce/reports/automation/templates/template-create.md)
-

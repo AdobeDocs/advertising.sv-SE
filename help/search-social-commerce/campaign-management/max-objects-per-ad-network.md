@@ -1,7 +1,9 @@
 ---
 title: Maximalt antal objekt per annonsnätverkskonto
 description: Se var du hittar det maximala antalet objekt per annonsnätverkskonto.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 2db46e03-6023-4efb-b30b-24d99795a27d
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
@@ -12,7 +14,7 @@ ht-degree: 0%
 
 I annonsnätverkets dokumentation finns information om de aktuella objektgränserna, som maximalt antal kampanjer per konto, maximalt antal annonsgrupper per kampanj och så vidare.
 
-* **[!DNL Baidu]:** Varje [!DNL Baidu] kontot kan innehålla upp till 100 kampanjer, 1000 annonsgrupper per kampanj, 5000 nyckelord per annonsgrupp; och 50 annonser per annonsgrupp.
+* **[!DNL Baidu]:** Varje [!DNL Baidu] kontot kan innehålla upp till 100 kampanjer, 1 000 annonsgrupper per kampanj, 5 000 nyckelord per annonsgrupp och 50 annonser per annonsgrupp.
 
 * **[!DNL Microsoft Advertising]:** Se&quot;Begränsningar för konton, kampanjer och annonsgrupper&quot; på [https://help.ads.microsoft.com/#apex/ads/en/52001](https://help.ads.microsoft.com/#apex/ads/en/52001).
 

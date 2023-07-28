@@ -1,7 +1,9 @@
 ---
-title: "[!DNL Microsoft® Ads] webb- och mallinställningar för lagerflöden"
+title: '''[!DNL Microsoft® Ads] inställningar för butiks- och mallinställningar för lagerflöden'
 description: Referera inställningarna för [!DNL Microsoft® Ads] shoppingannonsmallar för lagerflöden.
-source-git-commit: a59b477a6f8a616851d85bf89b58434d4d56cd83
+exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+feature: Search Inventory Feeds
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -57,11 +59,11 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 **[!UICONTROL Campaign Tracking Template]:** (Valfritt för mallar för klientflödesfiler) Spårningsmallen på kampanjnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningen på kontonivå, men spårningsmallar på mer detaljnivå (med nyckelordet längst granulat) åsidosätter det här värdet.
 
-* För konverteringsspårning för annonsering i Adobe, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;[!UICONTROL Auto Upload],&quot; gör något av följande&quot;:
+* För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; gör något av följande&quot;:
 
    * (Rekommenderas) Använd [spåra mallformat för Microsoft®-shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
 
-   * Om du i stället tar med ett värde för varje produkt i feeden med hjälp av[!DNL bingads_redirect]&quot; (med [korrekt format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) och sedan ange parametern `{lpurl}`. Du kan lägga till omdirigeringar och spårning från tredje part i `{lpurl}` parameter.
+   * Om du i stället tar med ett värde för varje produkt i feeden med hjälp av[!DNL bingads_redirect]&quot; (med [korrekt format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) och ange sedan parametern `{lpurl}`. Du kan lägga till omdirigeringar och spårning från tredje part i `{lpurl}` parameter.
 
 * Ange ett värde för omdirigeringar och spårning från tredje part.
 
@@ -117,7 +119,7 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 **[!UICONTROL Ad Group Tracking Template]:** (Valfritt) En spårningsmall på annonsgruppsnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljerad nivå åsidosätter det här värdet.
 
-För konverteringsspårning för annonsering i Adobe behöver du inte ange något värde. Kampanjnivån räcker.
+Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 
@@ -147,9 +149,9 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper, valfritt) Spårningsmallen för produktgruppen, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Den här mallen åsidosätter mallar på högre nivåer.
+**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper; valfritt) Spårningsmallen för produktgruppen, som anger alla omdirigerings- och spårningsparametrar utanför landningsdomänen och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Den här mallen åsidosätter mallar på högre nivåer.
 
-För konverteringsspårning för annonsering i Adobe behöver du inte ange något värde. Kampanjnivån räcker.
+Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 

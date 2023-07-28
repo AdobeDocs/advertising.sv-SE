@@ -1,7 +1,9 @@
 ---
 title: Skapa negativa nyckelord
-description: Lär dig hur du skapar negativa nyckelord för sökkampanjer och annonsgrupper.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+description: Lär dig skapa negativa nyckelord för sökkampanjer och annonsgrupper.
+exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -20,7 +22,7 @@ Du kan skapa negativa nyckelord för en sök- och annonsgrupp eller kampanj som 
 >[!TIP]
 >Om du vill skapa flera negativa nyckelord samtidigt använder du [kampanjlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. På huvudmenyn klickar du på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Negatives]**.
 
 1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och klicka sedan på **[!UICONTROL Campaign]** för att skapa negativa nyckelord på kampanjnivå eller **[!UICONTROL Ad Group]** för att skapa negativa nyckelord på annonsnivå.
 
@@ -40,10 +42,9 @@ Du kan skapa negativa nyckelord för en sök- och annonsgrupp eller kampanj som 
 
    * [!DNL Baidu] tillåter endast en matchningstyp per nyckelord per annonsgrupp. Annonsgrupp 1 kan till exempel inte innehålla båda `"keyword"` och `[keyword]`.
 
-   * [!DNL Google Ads]: Varje nyckelord får bestå av högst 10 ord och får endast innehålla bokstäver, siffror och följande specialtecken: space `# $ & _ - " [ ] ' + . / :`
+   * [!DNL Google Ads]: Varje nyckelord får inte bestå av mer än 10 ord och får endast innehålla bokstäver, siffror och följande specialtecken: blanksteg `# $ & _ - " [ ] ' + . / :`
 
    * [!DNL Yandex]: Varje nyckelord kan ha högst sju ord, med undantag för stoppord. Varje [!DNL Yandex ad group] kan innehålla högst 200 nyckelord.
-
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -52,4 +53,3 @@ Du kan skapa negativa nyckelord för en sök- och annonsgrupp eller kampanj som 
 >* [Om nyckelord](keyword-about.md)
 >* [Hantera anbudsnyckelord](keyword-manage.md)
 >* [Ändra status för nyckelord och negativa nyckelord](keyword-status-edit.md)
-

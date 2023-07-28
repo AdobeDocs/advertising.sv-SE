@@ -1,7 +1,9 @@
 ---
 title: Implementera [!DNL Microsoft® Advertising] shoppingkampanjer
 description: Läs mer om arbetsflödet för konfiguration [!DNL Microsoft® Advertising] shoppingkampanjer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 3fb19b92-5bc0-414e-9234-68310082d0ed
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -54,12 +56,11 @@ Du kan åsidosätta standardanbudet för enskilda produktgrupper.
 
    1. [Redigera kampanjinställningarna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) för att justera kampanjbudgeten.
 
-      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör det möjligt för Search, Social och Commerce att optimera budgeten för alla kampanjer i portföljen.
+      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör att Search, Social och Commerce kan optimera budgeten för alla kampanjer i portföljen.
 
    1. Justera det maximala anbudet för befintliga produktgrupper, ta bort produktgrupper som du inte längre vill skapa annonser för, eller lägg till en ny produktgrupp för alla produkter eller nya underordnade produktgrupper för att skapa annonser för ytterligare produkter.
 
 >[!NOTE]
 >
->* Se obligatoriska fält för hantering [!DNL Microsoft® Shopping] kampanjer och produktgrupper som använder [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md) och [mallar för lagerfeed](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md).
+>* Se obligatoriska fält för hantering [!DNL Microsoft® Shopping] kampanjer och produktgrupper med [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md) och [mallar för lagerfeed](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md).
 >* Mer information om [!DNL Microsoft® Shopping] kampanjer, se [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/50903).
-

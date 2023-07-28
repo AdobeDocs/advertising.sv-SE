@@ -1,7 +1,9 @@
 ---
 title: Om tillägg för sitelink
 description: Lär dig mer om tillägg för sitelink.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: bf4ef112-7a9f-4e8a-8f04-06ed123c862a
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -18,7 +20,7 @@ Du skapar text och inställningar för delad sitelink, inklusive datum då sitel
 
 ## The [!UICONTROL Sitelinks] och [!UICONTROL Associations] vyer
 
-The [!UICONTROL Extensions] > [!UICONTROL Sitelinks] bibliotek i [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visar alla dina webbplatslänkar på kontonivå och du kan skapa och hantera dina delade länkar där. I annonsnätverkets hjälp finns information om maximalt antal annonstillägg per [[!DNL Google Ads] konto](https://support.google.com/google-ads/answer/6372658) och per [[!DNL Microsoft® Advertising] konto](https://help.ads.microsoft.com/#apex/3/en/52001). Webbplatslänkar i ditt bibliotek används inte med dina annonser förrän du tilldelar dem till kontoenheter.
+The [!UICONTROL Extensions] > [!UICONTROL Sitelinks] bibliotek i [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visar alla dina webbplatslänkar på kontonivå, och du kan skapa och hantera dina delade länkar där. I annonsnätverkets hjälp finns information om maximalt antal annonstillägg per [[!DNL Google Ads] konto](https://support.google.com/google-ads/answer/6372658) och per [[!DNL Microsoft® Advertising] konto](https://help.ads.microsoft.com/#apex/3/en/52001). Webbplatslänkar i ditt bibliotek används inte med dina annonser förrän du tilldelar dem till kontoenheter.
 
 Från [!UICONTROL Extensions] > [!UICONTROL Associations] kan du tilldela alla dina sitelinks som möjliga tillägg till alla annonser på kontonivån ([!DNL Google Ads] endast), kampanjnivå eller annonsgruppnivå ([!DNL Google Ads] endast).
 
@@ -32,4 +34,3 @@ I [!DNL Google Ads] och [!DNL Microsoft® Advertising]kan du se kostnad och klic
 >
 >* [Hantera delade tillägg för sitelink](sitelink-extension-manage.md)
 >* [Associera delade sitelink-tillägg med kampanjer eller annonsgrupper](sitelink-extension-associate.md)
-

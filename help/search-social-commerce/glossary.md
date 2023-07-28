@@ -1,7 +1,9 @@
 ---
 title: Ordlista
 description: Se definitioner av nyckeltermer.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+feature: Search Introduction
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 0%
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 **budenhet:** En söknings-, social- och handelsterm för en enhet där anbud läggs. För de flesta kampanjer i de flesta nätverk är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sökannonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
 
-**budenhetsbegränsning:** Se Begränsning.
+**budenhetsbegränsning:** Se&quot;begränsning&quot;.
 
 ## C-D {#c-d}
 
@@ -34,19 +36,19 @@ ht-degree: 0%
 
 **klickfrekvens:** (CTR) Antalet klick dividerat med antalet visningar för en annons. Annonser som är mest relevanta för sökfrågan har den högsta klickfrekvensen.
 
-**klicknings-URL:** En spårningsmall eller en mål-URL med inbäddad kod för att spåra klick på ett nyckelord, en annonsvariation eller en placering.
+**klicknings-tracking-URL:** En spårningsmall eller en mål-URL med inbäddad kod för att spåra klick på ett nyckelord, en annonsvariation eller en placering.
 
-**begränsning:** (Annonsörer med portföljer; Gäller endast för budenheter i standardportföljer) En regel för budgivning på ett visst nyckelord eller en viss annons. Det åsidosätter eventuella begränsningar på portföljnivå och den rekommenderade anbudsstrategin.
+**begränsning:** (Annonsörer med portföljer; gäller endast för budenheter i standardportföljer) En regel för budgivning för ett visst nyckelord eller en viss annons. Det åsidosätter eventuella begränsningar på portföljnivå och den rekommenderade anbudsstrategin.
 
-**konvertering:** Slutförande av en åtgärd efter det att en slutanvändare har klickat på en annons, vanligen som ett mätresultat. Exempel är registreringar eller inköp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
+**konvertering:** När en åtgärd har slutförts efter att en slutanvändare har klickat på en annons, som vanligtvis fångats som ett mått. Exempel är registreringar eller köp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
 
-**konverteringsspårning:** Vid konverteringsspårning används cookies för att spåra a) klickningar på annonsörer i annonsnätverken och b) de resulterande transaktionerna på annonsörens webbplats.
+**konvertering:** Vid konverteringsspårning används cookies för att spåra a) klickningar på annonsörer i annonsnätverken och b) de resulterande transaktionerna på annonsörens webbplats.
 
 **kostnadseffektivitet:** (Annonsörer med portföljer) De faktiska utgifterna för en portfölj dividerat med de prognostiserade utgifterna.
 
 **kostnadsmodell:** (Annonsörer med portföljer) Teknik för sökning, sociala medier och handel som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
-**kostnadsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen budenheter som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Alla anbudsenheter har inte kostnadsmodeller. de som räknas av mot kostnadsmodellens täckning.
+**kostnadsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen budenheter som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Alla anbudsenheter har inte kostnadsmodeller; de som räknas in i kostnadsmodellens täckning.
 
 **Kostnadsmodellens halveringstid:** (Annonsörer med portföljer) Antal dagar före dagens datum för vilka kostnadsuppgifterna anses vara nyare och därför mer relevanta för kostnadsmodeller.
 
@@ -92,7 +94,7 @@ ht-degree: 0%
 
 **nyckelord:** Ett ord eller en fras som är kopplad till en annons.
 
-**nyckelordsbegränsning:** Se Begränsning.
+**nyckelordsbegränsning:** Se&quot;begränsning&quot;.
 
 **etikettklassificering:** Ett sätt att gruppera dina kontokomponenter i meningsfulla uppsättningar. En etikettklassificering kan innehålla flera etikettvärden, som anger attribut. En&quot;Geo&quot;-etikettklassificering kan till exempel innehålla värden för olika geografiska regioner.
 
@@ -116,7 +118,7 @@ ht-degree: 0%
 
 **överbliven transaktion:** En transaktionshändelse som inte kan kopplas till ett specifikt nyckelord eller en viss annons.
 
-**pixel:** En genomskinlig bild med en pixel i taget inbäddad på en webbsida för spårningsändamål. Adobe Advertising conversion-tracking tags include either an HTML image pixel or JavaScript to tracking clicks and their operations.
+**pixel:** En genomskinlig bild med en pixel i taget inbäddad på en webbsida för spårningsändamål. Adobe Advertising-taggar för konverteringsspårning innehåller antingen en bildpixel i HTML eller JavaScript för att spåra klick och deras resulterande transaktioner.
 
 **placering:** En plats i ett visningsnätverk där annonserna kan visas. Det kan vara en hel webbplats, en delmängd av en webbplats eller en annonsposition på en viss sida.
 
@@ -136,7 +138,7 @@ ht-degree: 0%
 
 **omdirigerings-URL:** En del av en mål-URL som skickar användaren till en annan server före, eller i stället för, annonsörens landningssida.
 
-**räntabilitet:** (ROI) Intäkter minus kostnader.
+**räntabilitet:** Intäkter minus kostnader.
 
 **intäktsnoggrannhet:** (Annonsörer med portföljer) De faktiska intäkterna för en portfölj dividerat med de beräknade intäkterna.
 
@@ -158,11 +160,11 @@ ht-degree: 0%
 
 **spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar i annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
 
-**transaktion:** Alla spårbara händelser som inträffar online eller offline. Flera transaktionshändelser kan spåras tillsammans som en del av samma transaktion eller konvertering. t.ex. kan en begäran om information online plus en beställning per telefon anses vara en del av ett köp. Termerna &quot;transaktion&quot; och &quot;konvertering&quot; används ofta utan åtskillnad. En transaktion representeras av ett transaktions-ID och har en eller flera egenskaper kopplade till sig.
+**transaktion:** Alla spårbara händelser som inträffar online eller offline. Flera transaktionshändelser kan spåras tillsammans som en del av samma transaktion eller konvertering. Till exempel kan en onlinebegäran om information plus en resulterande beställning per telefon betraktas som en del av ett köp. Termerna &quot;transaktion&quot; och &quot;konvertering&quot; används ofta utan åtskillnad. En transaktion representeras av ett transaktions-ID och har en eller flera egenskaper kopplade till sig.
 
 **transaktions-ID:** Ett annonsörspecificerat ID som identifierar en transaktion. När en transaktion innehåller flera händelser har alla samma transaktions-ID.
 
-**egenskapen transaction:** Ett attribut för en transaktion, t.ex. transaktions-/konverteringstyp, dollarbeloppet för en försäljning eller en typ av sålda produkter (t.ex. &quot;Försäljningsleads&quot;, &quot;Försäljningsbelopp&quot; eller &quot;1-ÅR. Registreringar&quot;). I Sök, Socialt och Commerce mäts transaktionsegenskaper för en portföljs mål och identifieras i spårnings-ID:t. Termerna&quot;transaktionsegenskap&quot; och&quot;conversion&quot;<!-- type-->&quot; används ofta som synonymer.
+**egenskapen transaction:** Ett attribut för en transaktion, t.ex. transaktions-/konverteringstyp, dollarbeloppet för en försäljning eller en typ av sålda produkter (t.ex. &quot;Försäljningsleads&quot;, &quot;Försäljningsbelopp&quot; eller &quot;1-ÅR. Registreringar&quot;). I Sök, Socialt och Commerce mäts transaktionsegenskaper för en portföljs mål och identifieras i spårnings-ID:t. Termerna&quot;transaction property&quot; och&quot;conversion&quot;<!-- type-->&quot; används ofta som synonymer.
 
 **transaktionstid:** Den tidpunkt då ett klick eller ett intryck konverteras till en transaktion. När en transaktion består av flera transaktionshändelser (t.ex. när en kund först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst), kommer transaktionstiden från den första händelsen i kedjan (registrerar sig för den kostnadsfria provperioden).
 
@@ -182,6 +184,6 @@ ht-degree: 0%
 
 * alla klick, som optimeringsfunktionen anser vara en enda transaktionsegenskap och vägs enligt klickvärdet för målet.
 
-**XLS** eller **XLSX**: Ett binärt filformat för [!DNL Microsoft Office Excel] arbetsböcker.
+**XLS** eller **XSX**: Ett binärt filformat för [!DNL Microsoft Office Excel] arbetsböcker.
 
 ## Y-Z {#y-z}

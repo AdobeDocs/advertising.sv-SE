@@ -1,7 +1,9 @@
 ---
 title: Om nyckelord
 description: Lär dig mer om alternativ för anbudsbara och negativa nyckelord.
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+feature: Search Campaign Management
+source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -27,4 +29,3 @@ Du kan skapa nyckelord för en sök- och annonsgrupp från [!UICONTROL Keywords]
 >* [Hantera anbudsnyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Skapa negativa nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Ändra status för nyckelord och negativa nyckelord](keyword-status-edit.md)
-
