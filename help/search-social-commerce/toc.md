@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 18d7ec2254dda9e5f94270e13476a521006ec686
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '1720'
 ht-degree: 2%
@@ -84,19 +84,19 @@ ht-degree: 2%
       + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
-      + Konverteringsspårning för annonsering i Adobe {#advertising-conversion-tracking}
-         + [Om konverteringsspårningstaggar för Adobe](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+      + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}
+         + [Om taggar för Adobe Advertising-konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
          + [Format för spårningstaggar för JavaScript-konvertering, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)
-         + [Format för spårningstaggar för JavaScript-konvertering, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
+         + [Format för spårningstaggar för JavaScript-konvertering version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
          + [Format för spårningstaggar för bildkonvertering](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
-         + [JavaScript-konverteringskoden Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+         + [Konverteringstaggen för JavaScript-konvertering i Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
          + [Vanliga frågor om konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
       + [Konverteringsspårning för Adobe Analytics](/help/search-social-commerce/tracking/conversion-tracking-analytics.md)
       + Advertiser spårade konverteringar med hjälp av flöden{#conversion-feeds}
          + Feeds med EF-ID:n {#ef-ids}
             + [Konverteringsspårning med en EF ID-feed](/help/search-social-commerce/tracking/feed-efid.md)
             + [Datakrav för dataflöden som använder EF-ID:n](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
-         + Feeds som använder transaktions-ID {#transaction-ids}
+         + Feeds med transaktions-ID:n {#transaction-ids}
             + [Konverteringsspårning med en transaktions-ID-feed](/help/search-social-commerce/tracking/feed-transaction-id.md)
             + [Datakrav för dataflöden som använder ett transaktions-ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
          + [Filkrav för konvertering av feed-filer](/help/search-social-commerce/tracking/feed-file-requirements.md)
@@ -183,7 +183,7 @@ ht-degree: 2%
                + [Hantera målgrupper för dynamisk återmarknadsföring](/help/search-social-commerce/campaign-management/campaigns/audience-dynamic-remarketing-manage.md)
                + Målgrupper och uteslutningar {#audience-targets}
                   + [Hantera målgruppsmål för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md)
-                  + [Hantera målgruppsundantag för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
+                  + [Hantera publikundantag för kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md)
          + Annonstillägg {#ad-extensions}
             + [!DNL Google Ads] bildtexttillägg {#callouts}
                + [Om [!DNL Google Ads] bildtexttillägg](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
@@ -192,7 +192,7 @@ ht-degree: 2%
             + [Hantera [!DNL Google Ads] platstillägg](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Webblänkstillägg {#sitelinks}
                + [Om tillägg för sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
-               + [Hantera delade länkar](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
+               + [Hantera delade sitelinks](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
                + [Associera delade sitelinks med konton, kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-associate.md)
             + [Ta bort annonstilläggsassociationer med kampanjer och annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/ad-extension-association-delete.md)
       + Hantera massdata via kalkylblad {#bulksheets}
@@ -213,10 +213,10 @@ ht-degree: 2%
             + [Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
             + [Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
             + [Obligatoriska kalkylbladsdata för [!DNL Naver] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md)
-            + [Bulkbladsdata för [!DNL Yahoo! Display Network] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
-            + [Bulkbladsdata för [!DNL Yahoo! Japan] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
+            + [Bulkbladdata för [!DNL Yahoo! Display Network] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)
+            + [Bulkbladdata för [!DNL Yahoo! Japan] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md)
             + [Obligatoriska kalkylbladsdata för [!DNL Yandex] konton](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md)
-      + Automatisera kampanjdata med lagerflöden {#inventory-feeds}
+      + Automatisera kampanjdata med hjälp av lagerflöden {#inventory-feeds}
          + [Automatisera och hantera lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
          + [När skapas eller tas kontokomponenter bort av lagerfeeds?](/help/search-social-commerce/campaign-management/inventory-feeds/when-are-components-created-deleted.md)
          + [Konfigurera inställningar för feed-data](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md)
@@ -295,7 +295,7 @@ ht-degree: 2%
             + [Rapportkolumner för grundläggande och avancerade rapporter](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-columns.md)
          + Assistentrapporter {#assist-reports}
             + [Hjälp-rapporter](/help/search-social-commerce/reports/management/assist/assist-report-about.md)
-            + Assistentrapportformat {#assist-report-formats}
+            + Rapportformat för assistenter {#assist-report-formats}
                + [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
                + [The [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
                + [The [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
@@ -339,11 +339,11 @@ ht-degree: 2%
             + [Redigera en rapportmall](/help/search-social-commerce/reports/automation/templates/template-edit.md)
             + [Ta bort en rapportmall](/help/search-social-commerce/reports/automation/templates/template-delete.md)
          + Kalkylbladsflöden {#spreadsheet-feeds}
-            + [Om rapportflöden för kalkylblad](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
+            + [Om rapportfeeds för kalkylblad](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md)
             + [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create-excel-template.md)
             + [Skapa ett kalkylbladsrapportflöde](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-create.md)
             + [Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md)
-            + [Uppdatera kalkylbladsrapportfeeds manuellt](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
+            + [Uppdatera tabellrapportfeeds manuellt](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-refresh.md)
             + [Visa eller spara en matningsfil för kalkylbladsrapport](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-view-or-save.md)
             + [Ta bort rapportflöden för kalkylblad](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-delete.md)
             + [Feed-inställningar för kalkylbladsrapport](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-settings.md)
@@ -355,7 +355,7 @@ ht-degree: 2%
       + [Visa dina meddelanden](/help/search-social-commerce/notifications/notification-view.md)
       + [Markera ett meddelande som läst eller oläst](/help/search-social-commerce/notifications/notification-mark-read-unread.md)
       + [Ta bort ett meddelande](/help/search-social-commerce/notifications/notification-delete.md)
-      + [Redigera aviseringsinställningarna](/help/search-social-commerce/notifications/notification-edit.md)
+      + [Redigera meddelandeinställningarna](/help/search-social-commerce/notifications/notification-edit.md)
       + [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notifications-push-enable-disable.md)
       + [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](/help/search-social-commerce/notifications/notification-app-install-uninstall.md)
    + Anpassade aviseringar {#alerts}
@@ -370,7 +370,7 @@ ht-degree: 2%
       + [Visa anpassade aviseringar](/help/search-social-commerce/alerts/alert-view.md)
       + [Exportera data för anpassade aviseringar](/help/search-social-commerce/alerts/alert-export-data.md)
    + [Visa rapporten för ändringshistorik](/help/search-social-commerce/reports/change-history-view.md)
-   + Recommendations och förlag {#recommendations}
+   + Information om Recommendations och utgivare {#recommendations}
       + [Om utgivarens rekommendationer och insikter](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Visa utgivarens rekommendationer och prestandainsikter](/help/search-social-commerce/recommendations/recommendation-view.md)
       + [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
@@ -382,7 +382,7 @@ ht-degree: 2%
       + [Om verktygen för att skapa och avkoda spårningstaggar](/help/search-social-commerce/tools/tracking-tools-about.md)
       + [Generera en URL för klickspårning](/help/search-social-commerce/tools/click-tracking-url-generate.md)
       + [Avkoda en klickspårnings-URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
-      + [Generera en konverteringstagg för annonsering i Adobe](/help/search-social-commerce/tools/conversion-tag-generate.md)
+      + [Generera en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Överför konverteringsdata till annonsnätverk {#upload-ad-networks}
       + [Överför konverteringsmått till [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Aktivera överföring av mål till annonsnätverk](/help/search-social-commerce/tools/objective-upload-to-networks.md)

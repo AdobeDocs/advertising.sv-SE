@@ -3,7 +3,7 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Om annonserarkontot är konfigurerat att använda hybridoptimering kan Adobe Advertising överföra målen för kontots portföljer till [!DNL Google Ads] och [!DNL Microsoft® Advertising] som konverteringar så att du kan använda dem för hybridoptimering.
 
-Om du aktiverar det här alternativet aktiveras automatiskt en överföring för portföljer som innehåller kampanjer med smarta anbudsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje tillämplig kombination av portfölj och mål. Varje konvertering har namnet `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, där `<portfolio_id>` är det numeriska portfölj-ID:t och `<se_acctid/conversion_manager_se_acctid>` är det numeriska ID:t för annonsnätverkskontot eller hanterarkontot. Konverteringen representerar alla viktade transaktionsegenskaper i målet.
+Om du aktiverar det här alternativet aktiveras automatiskt en överföring för portföljer som innehåller kampanjer med smarta anbudsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje tillämplig kombination av portfölj och mål. Varje konvertering har namnet `ACS_OBJ_SID_<portfolio_id>_<se_acctid/conversion_manager_se_acctid>`, där `<portfolio_id>` är det numeriska portfölj-ID:t och `<se_acctid/conversion_manager_se_acctid>` är det numeriska ID:t för annonsnätverkskontot eller hanterarkontot. Konverteringen representerar alla viktade konverteringsvärden i målet.
 
 Överför till [!DNL Google Ads] inträffar dagligen klockan 06:00 i annonsörens tidszon. Överför till [!DNL Microsoft® Advertising] inträffar dagligen klockan 09:00 i annonsörens tidszon.
 

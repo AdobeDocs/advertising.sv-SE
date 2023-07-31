@@ -3,9 +3,9 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3920'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Optimeringsfunktionen bygger sina intäktsmodeller för varje budenhet dagligen 
 Om du inte vill att data för perioden ska påverka framtida bud alls kan du välja att exkludera dessa datum från modellen. Kontakta kontoteamet på Adobe för att exkludera datum.
 +++
 
-+++Kan jag skapa en rapport om ett specifikt egenskapsmått, som [!UICONTROL Device] eller [!UICONTROL Objective Name]?
++++Kan jag skapa en rapport för ett specifikt kontoegenskapsmått, som [!UICONTROL Device] eller [!UICONTROL Objective Name]?
 Kampanjentitetsrapporter ([!UICONTROL Campaign Report], [!UICONTROL Ad Group Report], [!UICONTROL Ad Variation Report], [!UICONTROL Keyword Report]och [!UICONTROL Product Group Report]) sammanställs mätdata dynamiskt av de egenskapskolumner som du inkluderar i rapporten. Du kan också ta bort rapportens nyckelkolumn och bara ta med de egenskapskolumner för vilka du vill samla in data.
 
 Om du till exempel skapar en [!UICONTROL Keyword Report] som innehåller [!UICONTROL Ad Group] och  Enhetskolumner sammanställer sedan rapporten som standard mätvärden för varje nyckelord per annonsgrupp och enhetstyp. Om du däremot tar bort [!UICONTROL Keyword] innan du genererar rapporten, genererar rapporten dynamiskt mått för de angivna annonsgrupperna efter enhetstyp.
@@ -107,7 +107,7 @@ Intäktsdataproblem kan uppstå på grund av ett problem med spårning eller fee
 Som standard visas alla monetära data i rapporter i formatet för USD (till exempel 1 000,00). Om du vill visa värdet i rätt valutaformat (men utan valutasymboler i CSV- och TSV-format) lägger du till &quot;[!UICONTROL Currency]till rapporten. Om rapporten innehåller data för konton med olika valutor, kan alla &quot;[!UICONTROL Total]&quot;monetära värden är helt enkelt summan av alla tal i kolumnen, oavsett valuta.
 +++
 
-+++Varför ser jag decimalvärden för en transaktionsegenskap som ska vara ett naturligt tal (1, 2 och så vidare)?
++++Varför ser jag decimalvärden för ett konverteringsmått som ska vara ett naturligt tal (1, 2 och så vidare)?
 Du kan se decimalvärden i följande fall:
 
 * Om du körde rapporten med någon annan parameter för konverteringsattribueringsregel än [!UICONTROL Last Event] eller [!UICONTROL First Event]kan intäkterna delas upp mellan flera händelser i konverteringsvägen.
@@ -162,13 +162,13 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 * Taggen för konverteringsspårning implementeras inte korrekt på alla tillämpliga webbsidor eller redigerades.
 
-* Transaktionsegenskaperna som spåras av Search, Social och Commerce är exkluderade från rapporter och visas därför inte.
+* Konverteringsmåtten som sökningen, sociala medier och handeln spårar är exkluderade från rapporter och syns därför inte.
 
 * Inkomstparsern för klienten implementerades inte.
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra transaktionsegenskaperna tillgängliga för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Kontrollera att rätt konverteringsspårningstaggar implementeras på alla tillämpliga webbsidor. Om det behövs kan du be ditt kontoteam på Adobe att skapa en testtransaktion för varje tillämplig spårningstagg för konvertering och att registrera information om transaktionen, till exempel `transactionid` och detaljer från cookien (t.ex. `trackingid`, `clickid`och så vidare).
 
@@ -188,7 +188,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 * Feed-filen levererades inte, den parsades inte helt eller så innehöll feeden överblivna transaktioner.
 
-* De relevanta transaktionsegenskaperna utelämnas från rapporter och syns därför inte.
+* De relevanta konverteringsvärdena ingår inte i rapporterna och syns därför inte.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra transaktionsegenskaperna tillgängliga för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
 
 1. Kör [!UICONTROL Portfolio Report]. Om den är tom kör du [!UICONTROL Campaign Report] och [!UICONTROL Search Engine Report] för att se om intäkterna visas i dessa rapporter. Om den gör det kanske kampanjerna inte tilldelas rätt portfölj.
 
@@ -313,8 +313,8 @@ The [!UICONTROL Portfolio Report] visar endast data för de kampanjer som har ti
 Annonsnätverken tillhandahåller inte den identifierare som krävs för att tilldela intäkter till en enskild annons för dessa kampanjer. Följaktligen är inte annonsnivådata tillgängliga för de kampanjtyperna i [!UICONTROL Ads] eller i [!UICONTROL Ad Variation Report]. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
 +++
 
-+++ I [!UICONTROL Transaction Report]Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
-I en transaktionsrapport kan du se om en inkluderad transaktionsegenskap spårades av spårningspixeln för Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spåra URL:er med spårningspixeln Adobe Advertising börjar med`http://pixel.everesttech.net`.&quot;
++++ I [!UICONTROL Transaction Report]Hur vet jag vilka konverteringsmått som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
+I en transaktionsrapport kan du se om ett inkluderat konverteringsmått har spårats av spårningspixeln för Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spåra URL:er med spårningspixeln Adobe Advertising börjar med`http://pixel.everesttech.net`.&quot;
 +++
 
 +++Data i [!UICONTROL Transaction Report] matchar inte data i [!UICONTROL Keyword Report].
