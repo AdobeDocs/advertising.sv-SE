@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Läs mer om [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL First Event Type] | Standard | Händelsetypen för den första (tidigaste) händelsen i konverteringssökvägen. |
 | [!UICONTROL Last Event Type] | Standard | Händelsetypen för den senaste händelsen som resulterade i konverteringar (även om den sista händelsen ligger utanför den angivna sökvägsstorleken). |
 | \[Advertiser-specifika anpassade (härledda) mätvärden\] | Egen | Värdet för ett anpassat mätvärde som du har skapat och som beräknas utifrån befintliga mätvärden. |
-| \[Advertiser-specifika transaktionsegenskaper\] | Egen | Antalet konverteringar för en angiven transaktionsegenskap eller webbplatsengagemangsmått. |
-| [!UICONTROL % of Total] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje transaktionsegenskap som ingår) Procentandelen av dina totala konverteringar för portföljer som tilldelats händelsemönstret. |
+| \[Advertiser-specifika konverteringsvärden\] | Egen | Antalet konverteringar för ett angivet konverteringsmått eller webbplatsengagemangsmått. |
+| [!UICONTROL % of Total] \[konverteringsmått\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje konverteringsmått som ingår) Procentandelen av dina totala konverteringar mellan portföljer som tilldelats händelsemönstret. |
 | [!UICONTROL 6th Event] till [!UICONTROL 30th Event] | Egen | Den sjätte till den 30:e händelsetypen i konverteringssökvägen som inträffade i annonserarens [klicka på uppslagsfönstret](/help/search-social-commerce/glossary.md#c-d) och [visningsfönster](/help/search-social-commerce/glossary.md#i-j). |
-| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje transaktionsegenskap som ingår) Genomsnittlig fördröjning i dagar från den första händelsen till en konvertering. |
-| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningar, men inkluderas automatiskt i rapportutdata) Genomsnittlig fördröjning i dagar från den senaste händelsen till en konvertering. |
+| [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[konverteringsmått\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje konverteringsmått som ingår) Genomsnittlig fördröjning i dagar från den första händelsen till en konvertering. |
+| [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[konverteringsmått\] | Automatisk | (Inte tillgängligt i rapportinställningar, men inkluderas automatiskt i rapportutdata) Genomsnittlig fördröjning i dagar från den senaste händelsen till en konvertering. |
 | [!UICONTROL Path Frequency] | Egen | Antalet gånger som sökvägen för den här raden inträffade före konverteringen. |
 
 >[!MORELIKETHIS]

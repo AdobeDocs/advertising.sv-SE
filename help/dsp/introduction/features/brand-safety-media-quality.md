@@ -3,7 +3,7 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 09ccb4790906e64834e52fb28956fe41997cbd1b
 workflow-type: tm+mt
 source-wordcount: '1354'
 ht-degree: 0%
@@ -58,11 +58,11 @@ Inventariemappning är den detaljerade process för granskning och introduktion 
 
    * Allmänt innehåll, dubblettdomäner och fejkad annonsvisning
 
-* **Niering:** Vi undersöker helhetsvarumärkets närvaro i det övergripande ekosystemet för att klassificera lager i olika nivåer. Du kan [rikta in dina placeringar](/help/dsp/campaign-management/placements/placement-settings.md) till dessa nivåer för önskad nivå av räckvidd:
+* **Niering:** Vi undersöker helhetsvarumärkets närvaro i det övergripande ekosystemet för att klassificera lager i olika nivåer. Du kan [rikta in dina placeringar](/help/dsp/campaign-management/placements/placement-settings.md) till dessa nivåer för önskad räckvidd:
 
-   * **[!UICONTROL T1]** - Varumärkesnamn, internationellt identifierbara webbplatser
+   * **[!UICONTROL T1]** — Varumärkesnamn, internationellt identifierbara webbplatser
 
-   * **[!UICONTROL T2]** - Perfekta webbplatser som är aktuella, aktuella, utan användargenererat innehåll och som vanligtvis saknar global igenkänning
+   * **[!UICONTROL T2]** — Perfekta webbplatser som är aktuella, aktuella, utan användargenererat innehåll och som vanligtvis saknar global igenkänning
 
    * **[!UICONTROL T3]** - Användargenererat innehåll och nischinnehåll
 
@@ -96,7 +96,7 @@ Med kontextuell filtrering kan du rikta eller blockera annonsmöjligheter basera
 
 Du kan ange standardinställningar för kontextuella filter för varje annonsör<!-- [default contextual filter controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->och sedan valfritt [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
-![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39, logotyp](/help/dsp/assets/peer39-logo.png)
+![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
 
 ### Blockering av bedrägeri före köp
 
@@ -106,7 +106,7 @@ Du kan ange standardkontroller för spärra/knip för bedrägeri före bud för 
 
 Om du vill ha mer information om funktionalitet kontaktar du din föredragna leverantör direkt eller kontaktar ditt Adobe-kontoteam.
 
-![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39, logotyp](/help/dsp/assets/peer39-logo.png)
+![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
 
 ### Visning före köp {#pre-bid-viewability}
 
@@ -116,7 +116,7 @@ Du kan ange standardfilter för visning för varje annonsörer<!-- [default pre-
 
 ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising logo](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png)
 
-### Målgruppsanpassning
+### Ämnesanpassning
 
 DSP kan ni rikta in er på eller blockera nyckelordslistor genom att utnyttja våra branschledande sammanhangsbaserade partner [!DNL Comscore] och [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
 
@@ -132,7 +132,7 @@ Så här skapar du anpassade ämnessegment:
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 
-DSP har samarbetat med [!DNL DoubleVerify] att erbjuda [!DNL Authentic Brand Safety] målgruppslösning, som gör att ni kan skapa en centraliserad uppsättning varumärkessäkerhetskrav för att nå ut till alla era inköpsplattformar för att vara enhetliga.
+DSP samarbetar med [!DNL DoubleVerify] att erbjuda [!DNL Authentic Brand Safety] målgruppslösning, som gör att ni kan skapa en centraliserad uppsättning varumärkessäkerhetskrav för att nå ut till alla era inköpsplattformar för att vara enhetliga.
 
 När du har byggt en [!DNL DoubleVerify] varumärkessäkerhetssegmentet med den nödvändiga målgruppsanpassningen kan ni använda det i DSP för att replikera era era regler för postbud med prebid-blockering i olika webbmiljöer.
 
@@ -145,5 +145,4 @@ Mer information om funktioner finns i [!DNL DoubleVerify] direkt eller kontakta 
 >[!MORELIKETHIS]
 >
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-
 <!-- >* [Advertiser Account Settings](/help/dsp/admin/advertiser-settings.md) -->

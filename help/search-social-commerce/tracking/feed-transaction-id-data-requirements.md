@@ -3,9 +3,9 @@ title: Datakrav för dataflöden som använder ett transaktions-ID
 description: Referera datakraven för dataflöden med ett transaktions-ID.
 exl-id: 67e1cadd-b607-465c-9db6-ca76d8ca84c5
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ Här följer rubrikfälten och motsvarande datafält som krävs för varje typ a
 
 | Rubrikfält/kolumnnamn | Typ | Beskrivning |
 | ---- | ---- | ---- |
-| Transaktions-ID (ev_transid) | Skiftlägeskänslig sträng | Den annonserargenererade identifierare som är associerad med transaktionen. Eftersom taggen Adobe Advertising conversion-tracking används för onlinedelarna av transaktionen måste det vara samma som transaktions-ID:t (ev_transid) som Adobe Advertising har angett för den tidigare delen av transaktionen. Detta innebär att konverteringstaggen för onlinedelen av transaktionen måste innehålla en egenskap för ett unikt transaktions-ID.<br><br>**Obs!** Adobe Advertising använder ID:t för att hitta gamla transaktionsdata och uppdatera dem enligt ett överenskommet infogningsläge (till exempel för att ersätta befintliga data eller för att förstärka dem med nya data). |
+| Transaktions-ID (ev_transid) | Skiftlägeskänslig sträng | Den annonserargenererade identifierare som är associerad med transaktionen. Eftersom taggen Adobe Advertising conversion-tracking används för onlinedelarna av transaktionen måste det vara samma som transaktions-ID:t (ev_transid) som Adobe Advertising har angett för den tidigare delen av transaktionen. Detta innebär att konverteringstaggen för onlinedelen av transaktionen måste innehålla ett konverteringsmått för ett unikt transaktions-ID.<br><br>**Obs!** Adobe Advertising använder ID:t för att hitta gamla transaktionsdata och uppdatera dem enligt ett överenskommet infogningsläge (till exempel för att ersätta befintliga data eller för att förstärka dem med nya data). |
 | Transaktionsdatum | DateTime | Datum för transaktionen. Formatet måste vara konsekvent för varje transaktion. |
 | Klientspecifik konvertering | Sträng | En konvertering som spåras (till exempel transaktionstyp eller belopp). Diskutera de konverteringar som ska ingå i implementeringsteamet för Adobe Advertising innan du påbörjar feeden. |
 
 ## Exempel
 
-Följande exempelfil innehåller data för två transaktionsegenskaper (Produkt och Intäkter).
+Följande exempelfil innehåller data för två konverteringsmått (Produkt och Intäkter).
 
 ```
 Transaction ID,Transaction Date,Product,Revenue

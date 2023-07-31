@@ -3,7 +3,7 @@ title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
 exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1472'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Beroende på [inställningar för feed-data](/help/search-social-commerce/campai
 
 ++([!DNL Google Ads] kampanjer) Ändringar av visningsnamnen för [!DNL Google]-spårade konverteringar har återförts.
 
-Om du ändrar visningsnamnen för transaktionsegenskaperna i Sök, Socialt och Commerce skrivs ändringarna över med de namn som konfigurerats i [!DNL Google Ads]. Gör alla namnändringar i [!DNL Google Ads].
+Om du ändrar visningsnamnen för konverteringsmåtten i Sök, Socialt och Commerce, skrivs ändringarna över med namnen som konfigurerats i [!DNL Google Ads]. Gör alla namnändringar i [!DNL Google Ads].
 +++
 
 +++ (Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?

@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '3603'
+source-wordcount: '3598'
 ht-degree: 0%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 0%
 | ---- | ---- |
 | \[Advertiser-specifika anpassade (härledda) mätvärden\] | Värdet för en [anpassat mått som du har skapat](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) som beräknas utifrån befintliga mätvärden. |
 | \[Annonsspecifika etikettklassificeringar\] | Etikettklassificeringar som för närvarande används på enheten på entitetsnivå. Flera etikettklassificeringar avgränsas med kommatecken (,). |
-| \[Advertiser-specifika transaktionsegenskaper\] | Antalet konverteringar för en angiven transaktionsegenskap eller webbplatsengagemangsmått. |
-| \[Google-spårade konverteringar/transaktionsegenskaper\] | Se posten för &quot;GGL\*, GGL_CT\* och GGL_XD_CT\*.&quot; |
+| \[Advertiser-specifika konverteringsvärden\] | Antalet konverteringar för ett angivet konverteringsmått eller webbplatsengagemangsmått. |
+| \[Google-spårade konverteringar\] | Se posten för &quot;GGL\*, GGL_CT\* och GGL_XD_CT\*.&quot; |
 | [!UICONTROL 7-Day Click Accuracy] | ([!UICONTROL Portfolio Report]) Genomsnittlig noggrannhet för klickprognosen för de senaste sju dagarna, exklusive den aktuella dagen (och inte för rapportens angivna datumintervall), uttryckt i procent. |
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) Genomsnittlig noggrannhet för kostnadsprognosen för de senaste sju dagarna, exklusive den aktuella dagen (och inte för rapportens angivna datumintervall), uttryckt i procent. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) Den genomsnittliga exaktheten i intäktsprognosen för de föregående sju dagarna, exklusive den aktuella dagen (och inte för rapportens angivna datumintervall), uttryckt i procent. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (Endast displaykampanjer) Det uppskattade antalet annonsvisningar som har spårats av Search, Social och Commerce. Detta värde kan skilja sig från värdet för [!UICONTROL Impressions] kolumn (om den är tillgänglig), som visar det värde som annonsnätverken tillhandahåller. |
 | [!UICONTROL Exclude (yes/no)] | Huruvida bud ska uteslutas (<i>[!UICONTROL Yes]</i>) eller budgivning tillåts (<i>[!UICONTROL No]</i>) för annonser för matchande produkter. |
 | [!UICONTROL First Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas på den första sidan i sökresultaten under det angivna datumintervallet. |
-| `GGL*`, `GGL_CT*`och `GGL_XD_CT*` [[!DNL Google Ads]-spårade konverteringar/transaktionsegenskaper] | ([!DNL Google Ads] kampanjer i sök- och köpnätverk) [!DNL Google Ads]-spårade konverteringar, med upp till tre separata transaktionsegenskaper för varje konvertering:<ul><li>`GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).</li><li>`GGL_CT*` — Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (När det är tillgängligt för konverteringstypen, när du spårar dem) Antal (antal) konverteringar mellan enheter, mätt med [!DNL Google Ads] som börjar med prefixet &quot;GGL_XD_CT_&quot; (till exempel GGL_XD_CT_Purchase).</li></ul><br>Varje konvertering registreras av anbudsenheten och klickdatumet; den är inte tillgänglig på händelsenivå. Mer information om [!DNL Google Ads]-spårade konverteringar, se[[!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
+| `GGL*`, `GGL_CT*`och `GGL_XD_CT*` [[!DNL Google Ads]-spårade konverteringar] | ([!DNL Google Ads] kampanjer i sök- och köpnätverk) [!DNL Google Ads]-spårade konverteringar, med upp till tre olika mätvärden för varje konvertering:<ul><li>`GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).</li><li>`GGL_CT*` — Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (När det är tillgängligt för konverteringstypen, när du spårar dem) Antal (antal) konverteringar mellan enheter, mätt med [!DNL Google Ads] som börjar med prefixet &quot;GGL_XD_CT_&quot; (till exempel GGL_XD_CT_Purchase).</li></ul><br>Varje konvertering registreras av anbudsenheten och klickdatumet; den är inte tillgänglig på händelsenivå. Mer information om [!DNL Google Ads]-spårade konverteringar, se[[!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] (endast) Procentandelen annonser som visas som första annons ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] endast) Procentandelen annonser som visas ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impressions] | Antal annonsvisningar under det angivna datumintervallet. |
@@ -152,7 +152,7 @@ ht-degree: 0%
 | [!UICONTROL Product Group ID] | Det numeriska ID som annonsnätverket tilldelar produktgruppen. |
 | [!UICONTROL Product Groupings] | Den överordnade produktgruppen. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] produktlistor) Produkt-ID för produkten som visas med annonsen.<br><br><b>Obs!</b> ID:t registreras bara när produktlistan innehåller spårningsparametern `ev_plx=<GMC product ID>`som du måste lägga till inom [!DNL Google Merchant Center]. |
-| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Intäkterna för transaktionsegenskapen (t.ex. 1 för en registrering eller 12 för en 12 USD-order). Om flera budenheter har samma transaktions-ID delas intäkten för spårnings-ID upp efter antalet klick på det angivna klickdatumet (när klickdata är tillgängliga). |
+| [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Omvandlingsmåttets intäkter (t.ex. 1 för en registrering eller 12 för en 12 USD-order). Om flera budenheter har samma transaktions-ID delas intäkten för spårnings-ID upp efter antalet klick på det angivna klickdatumet (när klickdata är tillgängliga). |
 | [!UICONTROL Reach] | ([!DNL Meta] annonser) Antalet personer som såg era annonser minst en gång. Obs! [!DNL Meta] avduplicerar räckvidden för användarprofiler dagligen, så att antalet rapporterade av [!DNL Meta] och via sökning kan sociala medier och handel skilja sig åt. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) En region eller delstat i USA/Kanada där visningar eller klickningar har sitt ursprung. Den avgörs av användarens IP-adress. |
 | [!UICONTROL SE Creative ID] | Det annons-ID som tilldelats av nätverket. |
@@ -176,8 +176,8 @@ ht-degree: 0%
 | [!UICONTROL Through Plays] | ([!DNL Meta] annonser) Antalet visningar som tittade på hela annonsen. |
 | [!UICONTROL Top of Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas högst upp på sökresultatsidorna under det angivna datumintervallet. |
 | [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) spårningskod för sökning, sociala medier och handel. |
-| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Den annonserarspecifika transaktionsegenskap som transaktionen krediteras till. |
-| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då den angivna transaktionsegenskapen krediterades. |
+| [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Det annonsörspecifika konverteringsmått som transaktionen krediteras. |
+| [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då det angivna konverteringsmåttet krediterades. |
 | [!UICONTROL User Account Type] | Föråldrad |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] annonser) Den genomsnittliga tiden som videon spelades upp, inklusive den tid som användes för att spela upp videon, för ett enda intryck. |

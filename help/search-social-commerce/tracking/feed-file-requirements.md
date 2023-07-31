@@ -3,7 +3,7 @@ title: Filkrav för konvertering av feed-filer
 description: Referera till kraven för konvertering av feed-filer.
 exl-id: 7d865802-0ab9-4965-9618-6bc0667f4939
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Följande krav gäller för filformat, obligatoriska och valfria datafält, filn
 
 Datafilen måste vara i platt text (TXT), kommaavgränsade värden (CSV) eller tabbseparerade värden (TSV). Filen kan bestå av en rubrikrad och datarader med värden som avgränsas med tabbar, kommatecken eller något annat tecken (men inte blanksteg):
 
-* **Rubrikrad:** (Valfritt) Den första raden i filen är en rubrik som anger de obligatoriska fältnamnen (eller kolumnnamnen) i en viss ordning, avgränsade med tabbar eller kommatecken. De obligatoriska kolumnnamnen innehåller transaktionsegenskaperna som Adobe Advertising spårar som konverteringar.
+* **Rubrikrad:** (Valfritt) Den första raden i filen är en rubrik som anger de obligatoriska fältnamnen (eller kolumnnamnen) i en viss ordning, avgränsade med tabbar eller kommatecken. De kolumnnamn som krävs inkluderar konverteringsmåtten som Adobe Advertising spårar som konverteringar.
 
-* **Datarader:** Varje efterföljande rad innehåller datafält i samma ordning som rubriken och avgränsas med tabbar eller kommatecken. Om den första posten inte är en rubrik, måste varje datarad innehålla alla möjliga fält i en angiven ordning. Värdena för alla ID:n och transaktionsegenskaper måste vara alfanumeriska.
+* **Datarader:** Varje efterföljande rad innehåller datafält i samma ordning som rubriken och avgränsas med tabbar eller kommatecken. Om den första posten inte är en rubrik, måste varje datarad innehålla alla möjliga fält i en angiven ordning. Värdena för alla ID:n och konverteringsmåtten måste vara alfanumeriska.
 
   När flera klick på en eller flera annonser leder till en transaktion, måste du bestämma vilket klick-ID och vilket spårnings-ID som transaktionen ska kopplas till. Eftersom ett unikt ID rapporteras för varje transaktion kan du uppdatera enskilda transaktioner.
 

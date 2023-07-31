@@ -3,7 +3,7 @@ title: Om den här guiden
 description: Läs vad som beskrivs i respektive kapitel i den här handboken.
 exl-id: fb47db6f-d579-472f-a0e3-7bbc92ceb9e5
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 * &quot;Verktyg&quot; förklarar hur du ändrar lösenord, använder verktyg för att generera taggar för klickspårning och konvertering, överför dina konverteringsvärden till [!DNL Google Ads] och era portfoliomål till annonsnätverken för hybridoptimering, ladda upp mätvärden för att spåra kampanjer och replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft Advertising] konton.
 
-* &quot;Administration&quot; förklarar hur du hanterar annonsörsdata, inklusive transaktionsegenskaper som samlas in och datum som ska uteslutas från portföljprognoser; synkronisera dina konverteringsvärden från en [!DNL Google Analytics] konto, konfigurera olika inställningar på annonsörnivå och (vissa roller) administrera konton för användare, byråer och annonsörer.
+* &quot;Administration&quot; förklarar hur man hanterar annonsörsdata, inklusive konverteringsstatistik som samlats in och datum som ska uteslutas från portföljprognoser; synkronisera konverteringsstatistik från en [!DNL Google Analytics] konto, konfigurera olika inställningar på annonsörnivå och (vissa roller) administrera konton för användare, byråer och annonsörer.
 
 >[!NOTE]
 >

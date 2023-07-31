@@ -3,7 +3,7 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Under [!UICONTROL Search] kan du se följande undermenyer. Vilka alternativ som 
 
 * **[!UICONTROL Tools]** — Den här menyn innehåller alternativ för att ändra ditt kontolösenord, generera taggar för att spåra konverteringar från webbsidor, generera och avkoda klickspårnings-URL:er samt ladda upp statistik för sökspårningskampanjer.
 
-* **[!UICONTROL Admin]** — [!UICONTROL Admin] -menyn innehåller alternativ för att ändra visningsnamnen för en annonsörs transaktionsegenskaper i datatabeller och rapporter, konfigurera inställningar för synkronisering med ett Adobe Audience Manager-konto och synkronisera konverteringsvärden för ett specifikt [!DNL Google Analytics] kombination av konto, egenskap och vy. Beroende på vilken roll du har kan du hantera annonsörkonton, agentkonton, användarroller och användarkonton.
+* **[!UICONTROL Admin]** — [!UICONTROL Admin] -menyn innehåller alternativ för att ändra visningsnamnen för en annonsörs konverteringsmått i datatabeller och rapporter, konfigurera inställningar för att synkronisera med ett Adobe Audience Manager-konto och synkronisera konverteringsmått för en viss [!DNL Google Analytics] kombination av konto, egenskap och vy. Beroende på vilken roll du har kan du hantera annonsörkonton, agentkonton, användarroller och användarkonton.
 
 ## Andra uppgiftsbaserade menyer till höger
 

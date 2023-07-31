@@ -3,7 +3,7 @@ title: Visa och dölja ett trenddiagram
 description: Lär dig hur du visar och döljer ett trenddiagram för data i vissa vyer för kampanjhantering.
 exl-id: 9360e0c1-a326-4b1f-8c80-a4a5049ff024
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Som standard visar diagrammet antalet klick mot kostnad under det valda datumint
 
    1. I diagrammets övre högra hörn anger du vilka mätvärden som ska jämföras och (i tillämpliga fall) vilken valuta som data ska inkluderas för.
 
-      När du har konton med flera valutor visas alla valutor för de relevanta kontona. Om du ändrar valutan visas endast data för de konton som använder den valutan. Alla standardvärden, annonsörspecifika transaktionsegenskaper och anpassade värden som du har hämtat från befintliga värden listas.
+      När du har konton med flera valutor visas alla valutor för de relevanta kontona. Om du ändrar valutan visas endast data för de konton som använder den valutan. Alla standardvärden, annonsörspecifika konverteringsvärden och anpassade värden som du har härlett från befintliga värden listas.
 
    1. Klicka ![Spara](/help/search-social-commerce/assets/save-checkmark.png "Spara").
 

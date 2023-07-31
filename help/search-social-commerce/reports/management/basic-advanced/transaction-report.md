@@ -3,7 +3,7 @@ title: '[!UICONTROL Transaction Report]'
 description: Läs mer om [!UICONTROL Transaction Report].
 exl-id: 879c6dc0-6667-4e63-8403-bc2f2ee5ba3c
 feature: Search Reports, Search Advanced Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 The [!UICONTROL Transaction Report] ger information på transaktionsnivå om aktuella nyckelord i annonsgrupper i sök- och webbkampanjer - och för annonsuppsättningar i sociala kampanjer - inom angivna portföljer (i tillämpliga fall) eller annonskonton. Du kan också inkludera konverteringsvärden. Du kan jämföra resultaten från den här rapporten med annonsörens transaktionsdata för att verifiera att Search, Social, &amp; Commerce rapporterar alla annonserarens transaktioner.
 
-Som standard innehåller rapporten data för transaktioner som inträffade inom det angivna datumintervallet. Data för varje transaktion omfattar transaktions-ID, transaktions- och klicknings-/inställningstider, konverteringstyp, transaktionsegenskap och intäktsdata för transaktionsegenskapen (t.ex. 1 för en registrering eller 12 för en $12-order) för varje nyckelord eller annons-/kampanjkombination/portföljkombination. Som standard är raderna i stigande ordning först efter transaktionstid och sedan efter klickningstid.
+Som standard innehåller rapporten data för transaktioner som inträffade inom det angivna datumintervallet. Data för varje transaktion omfattar transaktions-ID, transaktions- och klicknings-/inställningstider, konverteringstyp, konverteringsmått och intäktsdata för konverteringsmåttet (t.ex. 1 för en registrering eller 12 för en $12-order) för varje nyckelord eller annons-/kampanjkombination/portföljkombination. Som standard är raderna i stigande ordning först efter transaktionstid och sedan efter klickningstid.
 
 Du kan visa data för de senaste 45 dagarna.
 

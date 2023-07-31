@@ -3,7 +3,7 @@ title: Datakrav för dataflöden som använder EF-ID:n
 description: Referera datakraven för dataflöden med hjälp av EF-ID:n.
 exl-id: 15e76f3a-c376-4e7b-b3c8-ca76fd427002
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Här följer rubrikfälten och motsvarande datafält som krävs för varje typ a
 
 ## Exempel
 
-Följande exempelfil innehåller data för två transaktionsegenskaper (Produkt och Intäkter).
+Följande exempelfil innehåller data för två konverteringsmått (Produkt och Intäkter).
 
 ```
 EF ID,Client Transaction ID, Transaction Date,Product,Revenue

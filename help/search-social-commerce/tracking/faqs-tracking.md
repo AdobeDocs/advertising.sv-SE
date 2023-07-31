@@ -3,7 +3,7 @@ title: Frågor och svar om spårning
 description: Lär dig svar på vanliga frågor om spårning, inklusive felsökning.
 exl-id: f559b977-dd44-4d29-b49e-c41c6fb783d1
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
 source-wordcount: '1191'
 ht-degree: 0%
@@ -37,11 +37,11 @@ Dubblerade transaktioner kan inträffa när en användare uppdaterar bekräftels
 
 Följande är Adobe Advertising-dupliceringslogik:
 
-* **När en kund skickar ett värde för `ev_transid` attribute:** Efterföljande pixelbegäranden betraktas som dubbletter av det föregående om följande är desamma: `ev_transid`; spårnings-ID för samma nyckelord, annons eller placering samt värdet för en viss transaktionsegenskap.
+* **När en kund skickar ett värde för `ev_transid` attribute:** Efterföljande pixelbegäranden betraktas som dubbletter av det föregående om följande är desamma: `ev_transid`, spårnings-ID för samma nyckelord, annons eller placering samt värdet för ett visst konverteringsmått.
 
   Om flera låneansökningar till exempel har samma program-ID och lånebelopp för samma nyckelord i ett visst annonsnätverk betraktas de som dubbletter och endast den första låneansökan räknas.
 
-* **När en klient inte skickar något värde för `ev_transid` attribute:** Efterföljande transaktioner betraktas som dubbletter av det föregående om de delar ett spårnings-ID för samma nyckelord, annons eller placering, och samma värde för en viss transaktionsegenskap.
+* **När en klient inte skickar något värde för `ev_transid` attribute:** Efterföljande transaktioner betraktas som dubbletter av det föregående om de delar ett spårnings-ID för samma nyckelord, annons eller placering, och samma värde för ett visst konverteringsmått.
 
   Om flera låneansökningar till exempel har samma nyckelord-ID och lånebelopp betraktas de som dubbletter och endast den första låneansökan räknas.
 +++
@@ -57,9 +57,9 @@ I kontot eller kampanjen ändrar du spårningsmetoden till[!UICONTROL No EF Redi
 
 ## Datafrågor
 
-+++Hur vet jag vilken transaktionsegenskap som kommer från en datafeed eller spåras av taggen för spårning av konvertering i Adobe Advertising?
++++Hur vet jag vilken konverteringsmetod som kommer från en datafeed eller som spåras av spårningstaggen för konvertering i Adobe Advertising?
 
-I en [!UICONTROL Transaction Report]kan du se om en inkluderad transaktionsegenskap spårades av Adobe Advertising-konverteringsspårningspunkten om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spårnings-URL:er med spårningspixeln Adobe Advertising börjar med `http://pixel.everesttech.net`.
+I en [!UICONTROL Transaction Report]kan du se om ett inkluderat konverteringsmått har spårats av spårpixeln för konvertering av Adobe Advertising om du inkluderar den anpassade kolumnen &quot;[!UICONTROL Tracking URL].&quot; Spårnings-URL:er med spårningspixeln Adobe Advertising börjar med `http://pixel.everesttech.net`.
 +++
 
 +++Vad är överblivna transaktioner?

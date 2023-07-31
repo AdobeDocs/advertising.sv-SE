@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 2ea9830c24ec7bdc10c3774b9a97c659b6ea1747
+source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **begränsning:** (Annonsörer med portföljer; gäller endast för budenheter i standardportföljer) En regel för budgivning för ett visst nyckelord eller en viss annons. Det åsidosätter eventuella begränsningar på portföljnivå och den rekommenderade anbudsstrategin.
 
-**konvertering:** När en åtgärd har slutförts efter att en slutanvändare har klickat på en annons, som vanligtvis fångats som ett mått. Exempel är registreringar eller köp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
+**konvertering:** Slutför en åtgärd efter att en slutanvändare har klickat på en annons, som vanligtvis fångas in som ett mått. Exempel är registreringar och inköp, och de kan representera antal eller monetära belopp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
 
 **konvertering:** Vid konverteringsspårning används cookies för att spåra a) klickningar på annonsörer i annonsnätverken och b) de resulterande transaktionerna på annonsörens webbplats.
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 ## O-P {#o-p}
 
-**mål:** (Annonsörer med portföljer) Ett mål som en kund sätter upp för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppnå ett visst försäljningsmål. Ett mål består av de konverteringsmått (även kallade transaktionsegenskaper) som ska spåras och optimeras för portföljen, och de relativa vikterna för dessa värden.
+**mål:** (Annonsörer med portföljer) Ett mål som en kund sätter upp för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppnå ett visst försäljningsmål. Ett mål består av de konverteringsmått som ska spåras och optimeras för portföljen samt de relativa vikterna för dessa mätvärden.
 
 **målvärde:** (Annonsörer med portföljer) Den totala viktade konverteringen enligt portföljens nuvarande mål, inklusive:
 
@@ -138,9 +138,9 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **PPC:** Se&quot;betala per klick&quot;.
 
-**egenskap:** Se&quot;egenskapen transaction&quot;.
+**egenskap:** Se&quot;konverteringsmått&quot;.
 
-**egenskapstid:** Den tidpunkt då en enskild transaktion inträffar. När en transaktion innehåller relaterade uppföljningstransaktioner (t.ex. kundens första registrering för en kostnadsfri provperiod och senare prenumerationer på en betaltjänst) har varje transaktion sin egen ägandetid.
+**egenskapstid:** Den tidpunkt då en enskild konverteringshändelse inträffar. När en händelse innehåller relaterade uppföljningshändelser (som att kunden först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst) har varje händelse en egen ägandetid.
 
 ## Q-R {#q-r}
 
@@ -174,7 +174,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **transaktions-ID:** Ett annonsörspecificerat ID som identifierar en transaktion. När en transaktion innehåller flera händelser har alla samma transaktions-ID.
 
-**egenskapen transaction:** Ett attribut för en transaktion, t.ex. transaktions-/konverteringstyp, dollarbeloppet för en försäljning eller en typ av sålda produkter (t.ex. &quot;Försäljningsleads&quot;, &quot;Försäljningsbelopp&quot; eller &quot;1-ÅR. Registreringar&quot;). I Sök, Socialt och Commerce mäts transaktionsegenskaper för en portföljs mål och identifieras i spårnings-ID:t. Termerna&quot;transaction property&quot; och&quot;conversion&quot;<!-- type-->&quot; används ofta som synonymer.
+**egenskapen transaction:** Se&quot;konvertering&quot;.
 
 **transaktionstid:** Den tidpunkt då ett klick eller ett intryck konverteras till en transaktion. När en transaktion består av flera transaktionshändelser (t.ex. när en kund först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst), kommer transaktionstiden från den första händelsen i kedjan (registrerar sig för den kostnadsfria provperioden).
 
