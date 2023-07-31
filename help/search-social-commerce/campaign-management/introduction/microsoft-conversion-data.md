@@ -2,7 +2,7 @@
 title: '''[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om olika typer av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,19 +19,19 @@ Alla mätvärden är automatiskt tillgängliga i era kampanjhanteringsvyer och g
 
 Sök, Socialt och e-handel synkroniserar data för konverteringar som[!DNL Include in 'Conversions']&quot; är aktiverat, de senaste 35 dagarna hämtas data och data ändras dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
 
-Två transaktionsegenskaper för varje [[!DNL Microsoft Advertising]-spårad konvertering](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (som du konfigurerar i [!DNL Microsoft Advertising]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Microsoft Advertising]. Transaktionsegenskaperna för varje konvertering inkluderar:
+Två mätvärden för varje [[!DNL Microsoft Advertising]-spårad konvertering](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (som du konfigurerar i [!DNL Microsoft Advertising]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Microsoft Advertising]. Mätvärdena för varje konvertering är:
 
 * `<conversion-name>` — Konverteringsvärdet för nyckelordet (till exempel Köp).
 
   >[!TIP]
   >
-  >Använd den här typen av egendom i målet för portföljer som innehåller [!DNL Microsoft Advertising] kampanjer med budstrategierna Max Conversion Value och Target ROAS.
+  >Använd den här typen av konverteringsmått i målet för portföljer som innehåller [!DNL Microsoft Advertising] kampanjer med budstrategierna Max Conversion Value och Target ROAS.
 
 * `CT_<conversion-name>` — Antal konverteringar (antal), med början med prefixet &quot;CT_&quot; (till exempel CT_Purchase).
 
   >[!TIP]
   >
-  >Använd den här typen av egendom i målet för portföljer som innehåller [!DNL Microsoft Advertising] kampanjer med budstrategierna Max Conversions och Target CPA.
+  >Använd den här typen av konverteringsmått i målet för portföljer som innehåller [!DNL Microsoft Advertising] kampanjer med budstrategierna Max Conversions och Target CPA.
 
 Data är tillgängliga baserat på klickningstiden och baserat på konverterings-/transaktionstiden från det datum då funktionen är aktiverad för kontot.
 

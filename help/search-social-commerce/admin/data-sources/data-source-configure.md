@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar en datakälla från en [!DNL Google An
 role: User, Admin
 exl-id: 583cf9aa-861c-4faf-a707-1def4e983b93
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
    Datakällan heter&quot;AccountName > PropertyName > ViewName&quot; och aktiveras automatiskt. Om du vill pausa datakällan läser du &quot;[Pausa en feed från en datakälla](data-source-pause.md).&quot;
 
-   Mätvärdena är tillgängliga nästa dag efter att den dagliga datasynkroniseringen har slutförts, som börjar klockan 05:00 i annonsörens tidszon. När mätvärdena är tillgängliga visas de i [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Varje ny transaktionsegenskap heter`ga:backEndMetricName_propertyID_viewID`,&quot; där&quot;backEndMetricName&quot; är det metriska namn som används av API:t. Visningsnamnet för varje ny transaktionsegenskap är &quot;`friendlyMetricName_ga:MetricTag`,&quot; där&quot;friendlyMetricName&quot; är måttnamnet som visas i [!DNL Google Analytics] och &quot;MetricTag&quot; är [!UICONTROL Metric Tag] som definieras i inställningarna för datakällan.
+   Mätvärdena är tillgängliga nästa dag efter att den dagliga datasynkroniseringen har slutförts, som börjar klockan 05:00 i annonsörens tidszon. När mätvärdena är tillgängliga visas de i [[!UICONTROL Admin] > [!UICONTROL Transaction Properties]](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md). Varje nytt konverteringsmått har namnet &quot;`ga:backEndMetricName_propertyID_viewID`,&quot; där&quot;backEndMetricName&quot; är det metriska namn som används av API:t. Visningsnamnet för varje nytt konverteringsmått är &quot;`friendlyMetricName_ga:MetricTag`,&quot; där&quot;friendlyMetricName&quot; är måttnamnet som visas i [!DNL Google Analytics] och &quot;MetricTag&quot; är [!UICONTROL Metric Tag] som definieras i inställningarna för datakällan.
 
    Ni kan lägga till mätvärden direkt till kampanjhanteringsaktiviteter och portföljhanteringsvyer, rapporter och optimeringsmål.
 

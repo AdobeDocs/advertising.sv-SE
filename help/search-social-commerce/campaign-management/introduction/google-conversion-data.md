@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] konverteringsdata'
 description: Läs mer om olika typer av [!DNL Google Ads]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Alla mätvärden är automatiskt tillgängliga i era kampanjhanteringsvyer och g
 
 Sök, Socialt och e-handel synkroniserar data för konverteringar som[!DNL Include in 'Conversions']&quot; är aktiverat, de senaste 35 dagarna hämtas data och data ändras dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
 
-Upp till tre transaktionsegenskaper för varje [[!DNL Google Ads]-spårad konvertering](https://support.google.com/google-ads/answer/4677036) (som du konfigurerar i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Google Ads]. Transaktionsegenskaperna för varje konvertering inkluderar:
+Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](https://support.google.com/google-ads/answer/4677036) (som du konfigurerar i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
 
 * `GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).
 

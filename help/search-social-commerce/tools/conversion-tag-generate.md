@@ -3,9 +3,9 @@ title: Generera en Adobe Advertising-tagg för konverteringsspårning
 description: Lär dig hur du skapar en konverteringstagg för Adobe Advertising för att spåra konverteringshändelser.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -46,13 +46,13 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 
 Mer information om skillnaderna mellan taggtyperna finns i &quot;[Frågor och svar om spårningstaggar för Adobe Advertising och sidvisning](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
 
-**[!UICONTROL Tag Properties]:** En eller flera transaktionsegenskaper (mått) som ska spåras när en användare visar en sida som innehåller konverteringstaggen. Om du vill lägga till ett mått i listan anger du måttnamnet i rutan[!UICONTROL Add new property]&quot; och klicka **[!UICONTROL Add]**.
+**[!UICONTROL Tag Properties]:** En eller flera konverteringsvärden som ska spåras när en slutanvändare visar en sida som innehåller konverteringstaggen. Om du vill lägga till ett mått i listan anger du måttnamnet i rutan[!UICONTROL Add new property]&quot; och klicka **[!UICONTROL Add]**.
 
 När flera mätvärden spåras förenas de med ett et-tecken (`&`) i taggen, till exempel `ev_Property1=<Property1>&ev_Property2=<Property2>`.
 
 >[!NOTE]
 >
->Mätvärden som läggs till i den här listan sparas inte någonstans eller är integrerade med klientens [!UICONTROL Transaction Properties] listan på [!UICONTROL Admin] -fliken. Mått läggs dock till i klientens [!UICONTROL Transaction Properties] automatiskt när Adobe Advertising verkligen samlar in data för ett mätvärde, vilket inträffar när konverteringstaggen implementeras på en sida och en slutanvändare slutför en transaktion som öppnar den sidan.
+>Mätvärden som läggs till i den här listan sparas inte någonstans eller är integrerade med klientens [!UICONTROL Conversions] listan på [!UICONTROL Admin] -fliken. Mått läggs dock till i klientens [!UICONTROL Conversions] automatiskt när Adobe Advertising verkligen samlar in data för ett mätvärde, vilket inträffar när konverteringstaggen implementeras på en sida och en slutanvändare slutför en transaktion som öppnar den sidan.
 
 **[!UICONTROL Include unique transaction IDs]:** (Valfritt) Innehåller en transaktions-ID-egenskap (`ev_transid=<transid>`) i -taggen. Alternativet är markerat som standard.
 
