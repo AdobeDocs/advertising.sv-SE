@@ -3,7 +3,7 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: Läs mer om [!UICONTROL Campaign Assist Report].
 exl-id: 7fbc9c17-c77d-485b-8d51-5e5a153d7a2b
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -49,8 +49,6 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL EF Search Engine ID] | Egen | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
 | [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

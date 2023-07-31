@@ -3,7 +3,7 @@ title: Bulkbladdata för [!DNL Yahoo! Japan] konton
 description: Referera rubrikfälten och datafälten i hämtade kalkylblad för [!DNL Yahoo! Japan] konton.
 exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 1%
@@ -68,8 +68,6 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL AMO ID] | Ej tillämpligt: Skapa<br><br>Valfritt: Redigera eller ta bort | Ej tillämpligt: Skapa<br><br>Valfritt: Redigera eller ta bort | Ej tillämpligt: Skapa<br><br>Valfritt: Redigera eller ta bort | Ej tillämpligt: Skapa<br><br>Valfritt: Redigera eller ta bort | n/a | (I genererade kalkylblad) [!DNL Adobe]-genererad unik identifierare för en synkroniserad entitet. För responsiva sökannonser finns [!UICONTROL AMO ID] måste redigera eller ta bort annonser såvida du inte inkluderar [!UICONTROL Ad ID]. Redigera data för alla andra entitetstyper med en [!UICONTROL AMO ID], [!UICONTROL AMO ID] krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från Sök, Social och Commerce gällande data på raden. Felmeddelanden ingår i [!UICONTROL EF Errors] filer. Det här värdet är inte registrerat i annonsnätverket. |
 | [!UICONTROL SE Error Message] | n/a | n/a | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från annonsnätverket med avseende på data i raden. Felmeddelanden ingår i [!UICONTROL SE Errors] filer. Det här värdet är inte registrerat i annonsnätverket. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 

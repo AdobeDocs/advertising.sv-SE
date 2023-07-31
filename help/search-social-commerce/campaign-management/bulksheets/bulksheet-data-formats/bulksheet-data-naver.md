@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för [!DNL Naver] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Naver] konton.
 exl-id: bd6e3dab-47b0-428a-825d-bd9c21494fb0
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 1%
@@ -50,8 +50,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,
 | [!UICONTROL AMO ID] | Ej tillämpligt: Skapa<br>Valfritt: Redigera eller ta bort | Ej tillämpligt: Skapa<br>Valfritt: Redigera eller ta bort | Ej tillämpligt: Skapa<br>Valfritt: Redigera eller ta bort | (I genererade kalkylblad) [!DNL Adobe]-genererad unik identifierare för en synkroniserad entitet. För responsiva sökannonser krävs AMO-ID:t för att redigera eller ta bort annonser, såvida du inte inkluderar [!UICONTROL Ad ID]. Om du vill redigera data för alla andra entitetstyper med ett AMO-ID måste AMO-ID:t redigera eller ta bort data, såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Sökning, sociala medier och handel använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från Sök, Social och Commerce gällande data på raden. Felmeddelanden ingår i [!UICONTROL EF Errors] filer. Det här värdet är inte registrerat i annonsnätverket. |
 | [!UICONTROL SE Error Message] | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från annonsnätverket med avseende på data i raden. Felmeddelanden ingår i [!UICONTROL SE Errors] filer. Det här värdet är inte registrerat i annonsnätverket. |
-
-<table style="table-layout:auto">
 
 [^1]: Excel konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 

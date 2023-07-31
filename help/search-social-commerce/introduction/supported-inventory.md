@@ -3,7 +3,7 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 0%
@@ -50,8 +50,6 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 | [!DNL Yahoo Native] (Synkroniseringsstödet upphörde 2022) | Inbyggt nätverk | Inbyggt | Text | —<br><br>Äldre kontoinformation fram till 10 mars 2022 finns som skrivskyddad. | — | — | — | —<br><br>Gammala data på annonsnivå som synkroniserades till och med den 10 mars 2022. | Analysdata för sökning, sociala medier och handel, men inte tvärtom |
 | [!DNL Yandex] | Söknätverk | Sök | Text | Automatisk via API | Använda [kampanjhanteringsvyer](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)och [lagerhanteringsflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Ja | Kampanjer med endast CPC:s anbudsstrategi | Data på annonsnivå | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
 | | Visningsnätverk | Visa/Innehåll | Text | Automatisk via API | Använda [kampanjhanteringsvyer](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md), [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md)och [lagerhanteringsflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) | Ja | Kampanjer med endast CPC:s anbudsstrategi | Data på annonsnivå | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
-
-<table style="table-layout:auto">
 
 [^1]: För de flesta annonsnätverk och kampanjtyper aktiveras[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload]&quot; spårningsinställningar för en aktiv kampanj (antingen inställda på kampanjnivå eller ärvda från kontoinställningarna) skapar Search, Social, &amp; Commerce automatiskt och överför URL:er för annonsgruppskomponenterna till annonsnätverket varje gång det synkroniseras med det. Annars måste du generera spårnings-URL:er och lägga till dem i inställningarna för konto-, kampanj- eller kampanjkomponenten. Se &quot;[När och hur klickspårnings-URL:er ska genereras per annonsnätverk och objekt](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md).&quot;
 

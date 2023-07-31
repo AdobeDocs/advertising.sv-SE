@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy (Actuals) Report]'
 description: Läs mer om [!UICONTROL Forecast Accuracy (Actuals) Report], inklusive datakolumnerna.
 exl-id: ff49284a-2d13-48bf-a172-3bd461db7a3c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
@@ -32,8 +32,6 @@ Följande kolumner inkluderas automatiskt i varje rapport. Du kan inte lägga ti
 | [!UICONTROL Impressions] | Standard | Det totala intrycket. |
 | [!UICONTROL Clicks] | Standard | De totala klickningarna. |
 | [!UICONTROL Cost] | Standard | Den totala kostnaden. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Rapportinställningar för modellprecision
 description: Lär dig mer om de obligatoriska och valfria inställningarna för rapporter om modellprecision.
 exl-id: 0d0e6ace-3cb3-4cf4-8cbf-3dd5a356f35e
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '1782'
 ht-degree: 0%
@@ -31,8 +31,6 @@ ht-degree: 0%
 | [!UICONTROL Scheduling and Delivery] | [!UICONTROL Report Schedule] | (Valfritt), endast tillgängligt när[!UICONTROL Save as template]&quot; är valt) När rapporten ska köras: <i>[!UICONTROL Now]</i> (att köra rapporten en gång; standard) <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly on] [Veckodag]</i>, eller <i>[!UICONTROL Every Month] [Dag i månaden]</i>. För alla tidsperioder utom <i>[!UICONTROL Now]</i>väljer du timmen i annonsörens tidszon, med början 09:00. |
 |  | [!UICONTROL Email Recipients] | <b>Obs!</b>  Den här inställningen används endast när e-postmeddelanden om [!UICONTROL Reports] är [aktiverat i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>E-postadresser till registrerade användare av Sök, Social och Commerce som meddelanden ska skickas till när rapporten har slutförts eller har avbrutits på grund av fel. Som standard anges adressen för ditt användarkonto. Om du vill ange flera adresser avgränsar du dem med kommatecken, blanksteg eller nya rader. När rapporten är schemalagd att köras upprepade gånger skickas ett meddelande varje gång en rapport är slutförd. |
 |  | [!UICONTROL Email Notification] | <b>Obs!</b>  Den här inställningen används endast när e-postmeddelanden om [!UICONTROL Reports] är [aktiverat i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-edit.md).<br><br>(När [!UICONTROL Email Recipients] anges) Vad som ska ingå i e-postmeddelanden till angivna adresser:<ul><li><i>[!UICONTROL Notification Only]</i> (standard): Om du bara vill skicka ett meddelande om att rapporten har slutförts eller misslyckats, utan bilagor. Meddelandet innehåller tillfälliga länkar för alla rapportformat.</li><li><i>[!UICONTROL XLS Attachment]:</i> Att inkludera en kopia av den färdiga rapporten i XLS-format om filen är mindre än cirka 10 MB. Filer som är större än 1 MB komprimeras.</li><li><i>[!UICONTROL TSV Attachment]:</i> Att inkludera en kopia av den färdiga rapporten i TSV-format om filen är mindre än cirka 10 MB. Filer som är större än 1 MB komprimeras.</li><li><i>[!UICONTROL CSV Attachment]:</i> Att inkludera en kopia av den färdiga rapporten i CSV-format om filen är mindre än cirka 10 MB. Filer som är större än 1 MB komprimeras. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

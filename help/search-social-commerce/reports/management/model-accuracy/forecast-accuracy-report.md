@@ -3,7 +3,7 @@ title: '[!UICONTROL Forecast Accuracy Report]'
 description: Lär dig mer om rapporten om prognosnoggrannhet, inklusive datakolumner.
 exl-id: 2bb36728-ae14-441b-bcda-fa457f5cf664
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -48,8 +48,6 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL EF Portfolio Group ID] | Standard | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio Group Name] | Standard | Namnet på den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio ID] | Standard | Numeriskt portfölj-ID. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

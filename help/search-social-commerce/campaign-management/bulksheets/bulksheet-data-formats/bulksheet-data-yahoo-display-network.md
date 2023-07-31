@@ -3,7 +3,7 @@ title: Bulkbladdata för [!DNL Yahoo! Display Network] konton
 description: Referera rubrikfälten och datafälten i hämtade kalkylblad för [!DNL Yahoo! Display Network] konton.
 exl-id: 233a7e1f-328b-4ff8-9e38-66c3185414b6
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -52,8 +52,6 @@ Platform,Acct Name,Campaign Name,Ad Group Name,Ad Name, Ad Title,Description Lin
 | [!UICONTROL Keyword ID] | n/a | n/a | Om ingår | Det unika ID som identifierar ett befintligt nyckelord. |
 | [!UICONTROL AMO ID] | n/a | n/a | n/a | (I genererade kalkylblad) En Adobe-genererad unik identifierare för en synkroniserad enhet. |
 | [!UICONTROL EF Error Message] | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från Sök, Social och Commerce gällande data på raden. Felmeddelanden ingår i [!UICONTROL EF Errors] filer. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

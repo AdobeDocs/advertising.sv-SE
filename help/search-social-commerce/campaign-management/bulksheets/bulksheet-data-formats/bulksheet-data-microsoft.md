@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Microsoft Advertising] konton.
 exl-id: a3090962-49df-46b0-89f8-98b633c3ea7a
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '6888'
 ht-degree: 1%
@@ -113,8 +113,6 @@ Information om de datafält som är relevanta för kontoentiteter finns i &quot;
 | [!UICONTROL SE Error Message] | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från annonsnätverket med avseende på data i raden. Felmeddelanden ingår i [!UICONTROL SE Errors] filer. Det här värdet är inte registrerat i annonsnätverket. |
 | [!UICONTROL Exemption Request] | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa namn och text för alla Google reklampolicyer som en annons bryter mot. |
 | [!UICONTROL Retail Hash] | (Ingår i informationssyfte i kalkylblad som genererats med Advanced Campaign Management) En alfanumerisk hash-kod (t.ex. f9639f40cdf56524b541e5dacf55a991) som anger att objektet genererades i vyn Avancerat (ACM). |
-
-<table style="table-layout:auto">
 
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 

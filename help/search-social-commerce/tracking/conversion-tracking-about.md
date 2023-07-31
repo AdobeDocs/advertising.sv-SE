@@ -3,7 +3,7 @@ title: Alternativ för konverteringsspårning för sökning, sociala medier och 
 description: Läs mer om konverteringsspårningsalternativ för sökning, sociala medier och handel.
 exl-id: 098efaf8-6ffb-4811-8b20-41c7c85df812
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 0%
@@ -34,8 +34,6 @@ I takt med att webbläsar-cookie-reglerna blir allt strängare är det viktigt a
 | EFID-feed | Annonsörens sökkonton har konfigurerats för att generera mål-URL:er/slutliga URL:er med unika ID:n för Adobe Advertising (token). När en användare klickar på en annons skapar Adobe Advertising ett unikt ID (`EFID`) och visar den i slutet av den slutliga URL:en. Annonsörens klientsystem samlar in EFID:t som en unik identifierare för konverteringar som följer av klickningen och skickar det till Adobe Advertising i ett intäktsflöde som innehåller EFID, transaktionsdatum och konverteringsegenskap. Adobe Advertising använder sedan EFID för att matcha konverteringen till originalklickningen. | <ul><li>Annonsören måste ha ett sätt att hämta EFID och skicka automatiska flöden till Adobe Advertising varje dag.</li><li>Konverteringar kan spåras i upp till 180 dagar (per Adobe Advertising) eller i enlighet med annonsörens system.</li></ul> | <ul><li>Den här metoden använder konverteringsdata från första part, så den påverkas inte av cookie-begränsningar från tredje part.</li><li>Konverteringar online och offline kan skickas i en enda feed.</li><li>Inga kodändringar eller taggar krävs för platsen.</li></ul> | Ja |
 | Transaktions-ID-feed [kombinationsfeed] | Annonsörer lägger till Adobe Advertising-pixlar som innehåller en parameter för ett unikt transaktions-ID (`ev_transid=&lt;transid&gt;`) till sina webbsidor och Adobe Advertising hämtar det unika transaktions-ID som skapas när pixeln aktiveras. Annonsörens klientsystem fångar även [!UICONTROL Transaction ID] och skickar Adobe Advertising en intäktsfeed för offlinekonverteringar med matchning [!UICONTROL Transaction ID] values | <ul><li>Om annonsören använder den äldre pixeln, som [!DNL Safari] blockerar från att brännas, så registreras inte ID:t för att användas för offlinedata.</li><li>Matningen är inte automatiserad.</li></ul> | <ul><li>Om du implementerar pixeln från första part ska du [!UICONTROL Transaction ID] hämtas in [!DNL Safari].</li><li>Tillhandahåller spårning av konverteringshändelser offline/godkänt.</li></ul> | Nej |
 | Google Conversion | Konverteringar spårade med [!DNL Google Analytics] -taggar importeras automatiskt till Adobe Advertising via en API-anslutning. Varje konverteringsnamn har en `&quot;GGL_&quot;` prefix. | <ul><li>Google spårar vanligtvis inte offlinedata.</li><li>Konverteringar med Microsoft® Advertising ingår inte.</li></ul> | Google använder maskininlärning för att extrapolera &quot;[modellerade konverteringar](https://support.google.com/google-ads/answer/10081327).&quot; | Nej |
-
-<table style="table-layout:auto">
 
 <!--
 | Microsoft Advertising Conversions | Conversions tracked with Microsoft Advertising universal event tags (UET) are automatically imported to Adobe Advertising via an API connection. Each conversion name has a &quot;???&quot; prefix. | Microsoft Advertising typically doesn't track offline data. Google conversions aren't included. | ?? | No |

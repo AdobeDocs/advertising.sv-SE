@@ -3,7 +3,7 @@ title: '[!UICONTROL Channel Assist Report]'
 description: Läs mer om [!UICONTROL Channel Assist Report].
 exl-id: 49616327-72e9-49c6-90b9-91c7486e8417
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -39,8 +39,6 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje transaktionsegenskap som ingår) Genomsnittlig fördröjning i dagar från den första händelsen till en konvertering. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningar, men inkluderas automatiskt i rapportutdata) Genomsnittlig fördröjning i dagar från den senaste händelsen till en konvertering. |
 | [!UICONTROL Path Frequency] | Egen | Antalet gånger som sökvägen för den här raden inträffade före konverteringen. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >

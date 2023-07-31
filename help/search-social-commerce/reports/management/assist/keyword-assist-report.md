@@ -3,7 +3,7 @@ title: '[!UICONTROL Keyword Assist Report]'
 description: Läs mer om [!UICONTROL Keyword Assist Report].
 exl-id: 07de2880-111b-498f-9f7f-ec15f89230ae
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -43,8 +43,6 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL Avg. Conv. Latency (First Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningarna, men inkluderas automatiskt i rapportutdata för varje transaktionsegenskap som ingår) Genomsnittlig fördröjning i dagar från den första händelsen (för det första nyckelordet eller placeringen) till en konvertering. |
 | [!UICONTROL Avg. Conv. Latency (Last Channel To Conversion)] \[transaktionsegenskap\] | Automatisk | (Inte tillgängligt i rapportinställningar, men inkluderas automatiskt i rapportutdata) Den genomsnittliga fördröjningen i dagar från den senaste händelsen (på det sista nyckelordet eller den sista placeringen) till en konvertering. |
 | [!UICONTROL Path Frequency] | Egen | Antalet gånger som sökvägen för den här raden inträffade före konverteringen. |
-
-<table style="table-layout:auto">
 
 >[!MORELIKETHIS]
 >
