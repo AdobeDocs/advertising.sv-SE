@@ -3,18 +3,18 @@ title: Skapa information om avtal-ID manuellt
 description: Lär dig hur du manuellt anger information för ett avtal-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Skapa information om avtal-ID manuellt
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Ovanför datatabellen klickar du på **[!UICONTROL Create]** och sedan markera **[!UICONTROL Deal ID]**.
+1. Ovanför datatabellen klickar du **[!UICONTROL Create]** och sedan markera **[!UICONTROL Deal ID]**.
 
 1. Ange [inställningar](deal-id-settings.md):
 
@@ -22,11 +22,11 @@ ht-degree: 0%
 
       Du kan spåra placeringen av garanterade erbjudanden genom att ta med kolumnen&quot;PG Impression Pacing&quot; i vyn Inventory > Deals.
 
-   1. (Endast administratörsanvändare; valfritt) [!UICONTROL Technical] redigerar du standardinställningarna efter behov.
+   1. (Endast administratörsanvändare; valfritt) I dialogrutan [!UICONTROL Technical] redigerar du standardinställningarna.
 
    1. Klicka på **[!UICONTROL Save]**.
 
-1. (Garanterade erbjudanden) Välj de annonser som ska användas för erbjudandet och skapa en standardplacering med programgaranti (PG).
+1. (Garanterade erbjudanden) Välj de annonser som ska användas för erbjudandet (eller en 1 x 1 pixel för utgivarhanterade annonser) och skapa en standardplacering med programgaranti (PG).
 
    Standardplaceringar av PG-paket ser till att ditt avtal alltid returnerar ett bud för varje anbudsförfrågan. Om du inte skapar en standardplacering i PG-format lägger inte eventuella placeringar som är avsedda för erbjudandet anbud om de inte är rätt konfigurerade. Du bör alltid skapa en standardplacering för PG. I [!UICONTROL Placements] vy, standardplaceringar i PG har en [!UICONTROL Sub-type] kolumnvärde för &quot;[!UICONTROL PG Default].&quot;
 
@@ -38,18 +38,19 @@ ht-degree: 0%
 
       1. I listan med tillgängliga annonser markerar du kryssrutan bredvid varje annons som ska användas för erbjudandet.
 
+      1. För annonser som hanteras av utgivaren tillämpas en spårningspixel på 1x1 automatiskt när annonsören och kampanjen har valts.
+
       1. Klicka på **[!UICONTROL Apply]**.
+
    1. På skärmen för placeringsinställningar:
 
       1. Ange placeringsnamnet.
 
-      1. (Valfritt) Redigera [placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md), inklusive att skriva över standardanbudet, som automatiskt fylls i med CPM-värdet från affären, ändra datumintervallet, eller bifoga fler annonser.
+      1. (Valfritt) Redigera [placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md), inklusive att skriva över standarderbjudandet, som automatiskt fylls i med CPM-värdet från avtalet, ändra datumintervallet eller bifoga fler annonser.
 
       Avtalen anges automatiskt i avsnittet Inventeringsmål. Alla andra målinriktningsalternativ är inte tillämpliga.
 
       1. Klicka på **[!UICONTROL Create placement]**.
-
-
 
 När du har skapat avtalet kan du använda det som ett lagermål för flera placeringar.
 
@@ -59,17 +60,14 @@ När du har skapat avtalet kan du använda det som ett lagermål för flera plac
 
 >[!TIP]
 >
->* I [!UICONTROL Inventory] > [!UICONTROL Deals] visa [!UICONTROL Pacing & Budget] kolumn visar hur erbjudandet gäller det angivna flygdatumet och det angivna visningsmålet.
+>* I [!UICONTROL Inventory] > [!UICONTROL Deals] visa, [!UICONTROL Pacing & Budget] kolumn visar hur erbjudandet gäller det angivna flygdatumet och det angivna visningsmålet.
 >
 >* Om leveransen är under- eller överbelagd kontaktar du utgivaren för att justera hur mycket av volymen den skickar genom erbjudandet.
-
 
 >[!MORELIKETHIS]
 >
 >* [Manuella inställningar för avtal-ID](deal-id-settings.md)
->* [Ställ in en programgarantiavtal](programmatic-guaranteed-set-up.md)
+>* [Ställ in en programgaranterad affär](programmatic-guaranteed-set-up.md)
 >* [Skicka in en annons för en programmatisk garanterad affär med [!DNL FreeWheel]](freewheel-submit.md)
 >* [Om programmatiska erbjudanden](programmatic-guaranteed-about.md)
-
-   <!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
-
+<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
