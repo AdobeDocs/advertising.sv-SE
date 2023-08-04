@@ -1,11 +1,11 @@
 ---
 title: Godkänn ett avtal i [!UICONTROL Deal ID Inbox]
-description: Lär dig hur du godkänner ett privat avtal som du redan har förhandlat med en utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare känt som [!DNL AdX]), and [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) med Inkorgen för erbjudande-ID.
+description: Lär dig hur du godkänner ett privat avtal som du redan har förhandlat med en utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare känt som [!DNL AdX]), and [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) med hjälp av Inkorgen för avtal-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c4816e7cebe9db2a344f7268ed5615bb672f387d
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Använd [!UICONTROL Deal ID inbox] för att snabbt acceptera ett privat avtal so
 >
 >Konfigurera programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] kräver extra behörigheter och steg. Se &quot;[Översikt över hur man ställer in garantierbjudanden i FreeWheel](freewheel-overview.md)&quot; för mer information.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
+1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
 1. Ovanför listan över [!UICONTROL Deals]klickar du på det blå fältet för att öppna [!UICONTROL Deal ID inbox].
 
@@ -30,7 +30,7 @@ Använd [!UICONTROL Deal ID inbox] för att snabbt acceptera ett privat avtal so
 
 1. (Om du tidigare ignorerade erbjudandet) Klicka på **[!UICONTROL Ignored Deals]** -fliken.
 
-1. Om du vill granska och bekräfta avtalsinformationen, t.ex. utgivaren och datumen, håller du markören över avtalsraden och klickar på ![Granska](/help/dsp/assets/review.png).
+1. Om du vill granska och bekräfta avtalsinformationen, till exempel utgivaren och datum, håller du markören över avtalsraden och klickar på ![Granska](/help/dsp/assets/review.png).
 
 1. Gör något av följande:
 
@@ -44,15 +44,14 @@ Använd [!UICONTROL Deal ID inbox] för att snabbt acceptera ett privat avtal so
 
    1. Klicka på **[!UICONTROL Save]**.
 
-1. (Gäller endast garanterade programerbjudanden) Följ anvisningarna för att välja en annons för erbjudandet och skapa en programmatisk standardplacering för erbjudandet.
+1. (Gäller endast garanterad programmatisk annonsering) Följ anvisningarna för att välja en annons, eller 1x1-spårningspixel för annonser som hanteras av utgivaren, för erbjudandet och skapa en programmatisk garanterad standardplacering som är riktad mot erbjudandet.
 
 När du har accepterat ett avtal har det flyttats från [!UICONTROL Deal ID inbox] till [!UICONTROL Inventory] > [!UICONTROL Deals] och erbjudandet är tillgängligt som en privat lagerkälla i varje placerings [!UICONTROL Inventory Targeting] -avsnitt.
 
 >[!MORELIKETHIS]
 >
 >* [Om Inkorgen för avtal-ID](deal-id-inbox-about.md)
->* [Ställ in en programgarantiavtal](programmatic-guaranteed-set-up.md)
+>* [Ställ in en programgaranterad affär](programmatic-guaranteed-set-up.md)
 >* [Skicka in en annons för en programmatisk garanterad affär med [!DNL FreeWheel]](freewheel-submit.md)
 >* [Om programmatiska erbjudanden](programmatic-guaranteed-about.md)
 >* [Översikt över inventeringsfunktioner](inventory-overview.md)
-
