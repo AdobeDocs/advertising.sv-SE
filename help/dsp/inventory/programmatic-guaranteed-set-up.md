@@ -1,18 +1,18 @@
 ---
-title: Ställ in en programgarantiavtal
+title: Ställ in en programgaranterad affär
 description: Lär dig hur du skapar ett programmatiskt garantiavtal (PG) som du har förhandlat fram med en utgivare.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: b1a772acbd9b934f2b4679d1111d56e1059e0cca
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
-# Ställ in en programgarantiavtal
+# Ställ in en programgaranterad affär
 
-*[Endast plattformar som stöds](programmatic-guaranteed-about.md)*
+*[Endast plattformar som stöds av leverantörer](programmatic-guaranteed-about.md)*
 
 När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds kan du konfigurera avtalet i DSP med [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
 
@@ -28,33 +28,33 @@ Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buy
 
 1. [Acceptera erbjudandet](deal-id-inbox-accept.md).
 
-1. När du har sparat erbjudandet väljer du de annonser som ska användas för erbjudandet och skapar en programmatisk standardplacering (PG) enligt uppmaningen.
+1. När du har sparat erbjudandet väljer du de annonser (eller 1x1-spårningspixel för utgivarhanterade annonser) som ska användas för erbjudandet och skapar en programmatisk standardplacering som garanteras (PG) enligt uppmaningen.
 
    Det är obligatoriskt att skapa en standardplacering för PG-paketet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 
    * Om du bara tecknar ett enstaka erbjudande omdirigeras du automatiskt till arbetsflödet för att skapa standardplaceringar i PG.
 
-      Alla [!DNL FreeWheel] Erbjudandena föreslås som ett enda avtal.
+     Alla [!DNL FreeWheel] Erbjudandena föreslås som ett enda avtal.
 
    * Om du godkänner ett förslag med flera PDF-avtal-ID:n ska du identifiera varje PG-standardplacering som du måste skapa. När du har skapat alla obligatoriska placeringar aktiveras knappen Fortsätt.
 
 1. (Valfritt) Rikta in dig på PG-erbjudandet genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
-   Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (som ansluten TV, dator och ljud).
+   Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (t.ex. ansluten TV, dator och ljud).
 
-## Ställ in en programmatisk garanterad affär manuellt
+## Ställ in en programmatisk garantiavtal manuellt
 
 Använd den här metoden för alla andra SSP:er.
 
 1. [Ställ in detaljer för erbjudande-ID manuellt](deal-id-create.md).
 
-1. När du har sparat erbjudandet väljer du de annonser som ska användas för erbjudandet och skapar en standardplacering för PG, enligt uppmaningen.
+1. När du har sparat erbjudandet väljer du de annonser (eller 1x1-spårningspixel för utgivarhanterade annonser) som ska användas för erbjudandet och skapar en PG-standardplacering enligt uppmaningen.
 
    Det är obligatoriskt att skapa en PG-standardplacering för erbjudandet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 
 1. (Valfritt) Rikta in dig på PG-erbjudandet genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
-   Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (som ansluten TV, dator och ljud).
+   Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (t.ex. ansluten TV, dator och ljud).
 
 >[!MORELIKETHIS]
 >
@@ -65,4 +65,3 @@ Använd den här metoden för alla andra SSP:er.
 >* [Skapa information om avtal-ID manuellt](deal-id-create.md)
 >* [SSP-partners](ssp-partners.md)
 >* [Översikt över inventeringsfunktioner](inventory-overview.md)
-
