@@ -3,9 +3,9 @@ title: Om programmatiska erbjudanden
 description: Lär dig mer om programmatiska erbjudanden (PG) och vilka SSP:er som är certifierade att erbjuda dem.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
+source-git-commit: 1a684a2fc2834b03e010eaaefaa5132c439796a3
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ Ett avtal med programgaranti (PG) är ett garanterat köp direkt till en utgivar
 * Vanligtvis har affären högre prioritet i utgivarens annonsserver.
 * Anbudsförfrågningar är inte exklusiva för en enskild affär eller köpare.
 * Flera typer av video stöds på ett enda erbjudande-ID.
-* Annonser som hanteras av utgivaren accepteras via Google Authorized Buyers SSP.
+* Annonser som hanteras av utgivaren accepteras via [!DNL Google Authorized Buyers] SSP.
 * SSP:er och utgivare har SLA:er för leverans.
 
-PG-avtal kräver en standardplacering av PG-filer och annonser (eller 1x1 pixlar för annonser som hanteras av utgivaren) så att DSP kan returnera en begäran till varje anbudsförfrågan och slutföra SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
+PG-avtal kräver en standardplacering av PG-filer och annonser (eller en pixel på 1x1 för annonser som hanteras av utgivaren) så att DSP kan returnera en begäran till varje anbudsförfrågan och slutföra SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
 
 ## SSP Certified for PG Deals in DSP
 
