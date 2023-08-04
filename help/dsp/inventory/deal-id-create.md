@@ -3,7 +3,7 @@ title: Skapa information om avtal-ID manuellt
 description: Lär dig hur du manuellt anger information för ett avtal-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 9dd60e9892b02cb3d19479b007ee1a7d70a1987d
+source-git-commit: 60676d8ef022d2ed61467d7254405695d5f106b3
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    1. Klicka på **[!UICONTROL Save]**.
 
-1. (Garanterade erbjudanden) Välj de annonser som ska användas för erbjudandet (eller en 1 x 1 pixel för utgivarhanterade annonser) och skapa en standardplacering med programgaranti (PG).
+1. (Garanterade erbjudanden) Välj de annonser som ska användas för erbjudandet (eller 1 x 1-pixeln för utgivarhanterade annonser) och skapa en standardplacering med programgaranti (PG).
 
    Standardplaceringar av PG-paket ser till att ditt avtal alltid returnerar ett bud för varje anbudsförfrågan. Om du inte skapar en standardplacering i PG-format lägger inte eventuella placeringar som är avsedda för erbjudandet anbud om de inte är rätt konfigurerade. Du bör alltid skapa en standardplacering för PG. I [!UICONTROL Placements] vy, standardplaceringar i PG har en [!UICONTROL Sub-type] kolumnvärde för &quot;[!UICONTROL PG Default].&quot;
 
