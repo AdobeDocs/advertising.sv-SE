@@ -3,9 +3,9 @@ title: Om programmatiska erbjudanden
 description: Lär dig mer om programmatiska erbjudanden (PG) och vilka SSP:er som är certifierade att erbjuda dem.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 700a38baba3e9abc871e23e95faba6715d661eb9
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,16 @@ Ett avtal med programgaranti (PG) är ett garanterat köp direkt till en utgivar
 
 ## Funktioner i ett PG-avtal
 
-* Erbjudandet faktureras alltid via DSP.
+* Det faktureras alltid via DSP.
 * Avtalet har ett fast pris och en fast kvantitet.
 * Utgivaren eller leverantörsplattformen (SSP) hanterar alla budgetpaket, budgetar och alla målgruppsanpassningar.
 * Vanligtvis har affären högre prioritet i utgivarens annonsserver.
 * Anbudsförfrågningar är inte exklusiva för en enskild affär eller köpare.
 * Flera typer av video stöds på ett enda erbjudande-ID.
+* Annonser som hanteras av utgivaren accepteras via Google Authorized Buyers SSP.
 * SSP:er och utgivare har SLA:er för leverans.
 
-PG-avtal kräver en standardplacering av PG-filer och annonser så att DSP kan returnera en begäran till varje anbudsförfrågan och uppfylla SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
+PG-avtal kräver en standardplacering av PG-filer och annonser (eller 1x1 pixlar för annonser som hanteras av utgivaren) så att DSP kan returnera en begäran till varje anbudsförfrågan och slutföra SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
 
 ## SSP Certified for PG Deals in DSP
 
@@ -39,7 +40,6 @@ PG-avtal kräver en standardplacering av PG-filer och annonser så att DSP kan r
 >[!MORELIKETHIS]
 >
 >* [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Ställ in en programgarantiavtal](programmatic-guaranteed-set-up.md)
+>* [Ställ in en programgaranterad affär](programmatic-guaranteed-set-up.md)
 >* [SSP-partners](ssp-partners.md)
 >* [Översikt över inventeringsfunktioner](inventory-overview.md)
-
