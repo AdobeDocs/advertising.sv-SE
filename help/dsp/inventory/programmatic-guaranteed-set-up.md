@@ -3,9 +3,9 @@ title: Ställ in en programgaranterad affär
 description: Lär dig hur du skapar ett programmatiskt garantiavtal (PG) som du har förhandlat fram med en utgivare.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Använd den här metoden för alla andra SSP:er.
 
 1. [Ställ in detaljer för erbjudande-ID manuellt](deal-id-create.md).
 
-1. När du har sparat erbjudandet väljer du de annonser (eller pixeln 1x1 tracking för utgivarhanterade annonser) som ska användas för erbjudandet och skapar en standardplacering för PG-annonser enligt uppmaningen.
+1. När du har sparat erbjudandet väljer du de annonser (eller 1x1-spårningspixlar för annonser som hanteras av utgivaren) som ska användas för erbjudandet och skapar en standardplacering för PG, enligt uppmaningen.
 
    Det är obligatoriskt att skapa en PG-standardplacering för erbjudandet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 
