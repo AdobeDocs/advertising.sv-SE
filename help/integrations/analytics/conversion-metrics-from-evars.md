@@ -2,9 +2,9 @@
 title: "Skapa konverteringsstatistik från Adobe Analytics [!DNL eVars] och proppar"
 description: "Konfigurera anpassade händelsemätningar för framgångar med [!DNL eVar]- och [!DNL prop]data på -nivå."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: f6f3e0b3cc867b817ce40c7ba06c76885948edbe
+source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
-Ni kan använda framgångsstatistik för att optimera DSP och sök-, sociala och handelskampanjer baserade på Adobe Analytics webbplatsdata som bäst passar ert varumärkes mål. Du kan konfigurera anpassade händelsemätningar för framgångshändelser baserat på [din befintliga [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) och [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) med kanttning [!DNL eVar]- och [!DNL prop]data på -nivå till en händelse. Övriga [!DNL Analytics] Mätvärden, inklusive standardvärden, anpassade och reserverade konverteringsvärden och trafikvärden, är automatiskt tillgängliga i DSP och sökningar, sociala medier och handel.
+Ni kan använda framgångsstatistik för att optimera DSP och sök-, sociala och handelskampanjer baserade på Adobe Analytics webbplatsdata som bäst passar ert varumärkes mål. Du kan konfigurera anpassade händelsemätningar för framgångshändelser baserat på dina befintliga [[!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) och [[!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) med kanttning [!DNL eVar]- och [!DNL prop]data på -nivå till en händelse. Övriga [!DNL Analytics] Mätvärden, inklusive standardvärden, anpassade och reserverade konverteringsvärden och trafikvärden, är automatiskt tillgängliga i DSP och sökningar, sociala medier och handel.
 
 ![Exempel på användning](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Exempel på användning")
 
@@ -35,7 +35,7 @@ De flesta av följande åtgärder måste utföras av en [!DNL Analytics] adminis
 
    Ni behöver inte implementera det nya evenemanget på ert varumärkes webbplats eftersom det använder befintliga data som redan har samlats in.
 
-1. Skapa en bearbetningsregel i [!DNL Analytics]:
+1. Skapa och validera en bearbetningsregel i [!DNL Analytics]:
 
    >[!NOTE]
    >
