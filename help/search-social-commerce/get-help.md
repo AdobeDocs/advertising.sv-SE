@@ -1,9 +1,10 @@
 ---
 title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
-source-git-commit: 7ecba48f473e8d1c5f193327d9890759536c1d40
+exl-id: 956117ea-9e3e-4ee0-b6cf-67ee5f2bc77a
+source-git-commit: e0bcead14a3638ee013925336b38382ab205d69d
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ Du kan öppna direkthjälpen från vilken sida som helst i användargränssnitte
 
 * Så här visar du en beskrivning av en term med en hjälpikon (![Hjälpikon](/help/search-social-commerce/assets/help-field.png "Hjälpikon") ) håller du pekaren över hjälpikonen tills du är klar eller rullar genom innehållet genom att klicka i hjälpfönstret.
 
-   Om du vill öppna länkar i ett hjälpavsnitt kan du behöva konfigurera webbläsarinställningarna så att popup-fönster tillåts från den webbplats för sökning, sociala medier och handel som du använder (till exempel https://enterprise-na.efrontier.com för nordamerikanska användare eller https://enterprise-intl.efrontier.com för alla andra användare).
+  Om du vill öppna länkar i ett hjälpavsnitt kan du behöva konfigurera webbläsarinställningarna så att popup-fönster tillåts från den webbplats för sökning, sociala medier och handel som du använder (till exempel https://enterprise-na.efrontier.com för nordamerikanska användare eller https://enterprise-intl.efrontier.com för alla andra användare).
 
 * Om du vill öppna fullständiga hjälpuppsättningar som förklarar hur du använder alla funktioner klickar du på följande länkar överst på en sida:
 
@@ -24,21 +25,19 @@ Du kan öppna direkthjälpen från vilken sida som helst i användargränssnitte
 
    * ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **Optimeringshandbok för sökning, sociala medier och handel**.
 
-## Fråga Adobe Advertising Community
+## Fråga Adobe Advertising-communityn
 
-Hitta svar på dina frågor i [Adobe Advertising Community forum](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+Hitta svar på dina frågor i [Adobe Advertising användarforum](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
 
 ## Kontakta Adobe
 
 | Till... | Kontakta oss på |
 | ---- | ---- |
-| Problem med konton för sökning, sociala medier och handel | Kontakta kontoteamet på Adobe. |
-|  | För icke-kritiska problem: Kontakta kontoteamet på Adobe eller skicka e-post till `<Your Search, Social, & Commerce user account>@support.efrontier.com`. |
-| Synpunkter om sökning, sociala medier och handel | Klicka på ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **[!UICONTROL Provide Feedback]**, skriv meddelandet och klicka sedan på **[!UICONTROL Send Feedback]**. |
-| Synpunkter på dokumentationen | Kontakta kontoteamet på Adobe. |
+| Sök, social, &amp; Commerce, produkt- eller kontoproblem | Kontakta kontoteamet på Adobe. |
+| Synpunkter om sökning, sociala medier och handel | Klicka på i den övre menyn ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **[!UICONTROL Provide Feedback]**, skriv meddelandet och klicka sedan på **[!UICONTROL Send Feedback]**. |
 
-### Information som ska inkluderas för kontoproblem
+### Information som ska inkluderas vid produktproblem
 
-Ge supportteamet detaljerade anvisningar för att återskapa problemet, webbläsarens namn och version, relevanta data och information om den preliminära felsökningen som du har utfört.
+Ange detaljerade steg för att återskapa problemet, webbläsarens namn och version, relevanta data och information om den preliminära felsökningen som du har utfört.
 
-Ta inte bort rapporten för rapportproblem och ge supportteamet rapportnamnet och URL:en.
+Ta inte bort rapporten för rapportproblem och ange rapportnamnet och URL-adressen.
