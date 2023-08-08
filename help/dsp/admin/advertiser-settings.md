@@ -2,7 +2,7 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan vissa produkter med hjälp av organisationens unika ID för Experience Cloud. Du kan konfigurera specifika produktintegreringar i [!UICONTROL Integrations] -avsnitt.
 
-**[!UICONTROL Account IMS org and ID]:** (Annonsörer med ytterligare Experience Cloud-produkter som licensieras via ett Experience Cloud-konto hos flera annonsörer. (valfritt) Annonsörens organisations-ID för Experience Cloud.
+**[!UICONTROL Account IMS org and ID]:** (Annonsörer med ytterligare Experience Cloud-produkter som licensieras via ett Experience Cloud-konto hos flera annonsörer; valfritt) Annonsörens Experience Cloud-organisations-ID.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Annonsörer med direktlicens för ytterligare Experience Cloud-produkter. (valfritt) Annonsörens organisations-ID för Experience Cloud.
+**[!UICONTROL Advertiser IMS org and ID]:** (Annonsörer med direktlicenser för ytterligare Experience Cloud-produkter; valfritt) Annonsörens organisation-ID för Experience Cloud.
 
 ### [!UICONTROL Integrations]
 
@@ -41,17 +41,17 @@ Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan viss
 
 **[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder konverteringspixlar för Adobe Advertising) A [!DNL Search, Social, & Commerce] konto som DSP ska använda för att utbyta attribueringsdata.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; frivilligt, gäller endast data som samlats in med hjälp av spårningstaggar för konvertering av Adobe Advertising som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från klientens webbplats till DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Annonsörer med Adobe Analytics; valfritt; endast tillgängligt för data som samlats in med hjälp av Adobe Advertising-konverteringstaggar som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från klientens webbplats till DSP.
 
-För att data ska visas i rapportsviterna [!DNL Search, Social, & Commerce] inställning på annonsörnivå till[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Annonsörens [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
+För att data ska visas i rapportsviterna bör [!DNL Search, Social, & Commerce] Inställningar på annonsörnivå måste aktiveras. Dessutom har annonsören [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
 
 >[!WARNING]
 >
 >Om du tar bort en tidigare länkad rapportsvit kommer DSP inte längre att utbyta data med den sviten. Förvänta dig att se fluktuationer i data.
 
-Mer information om integrationen med [!DNL Analytics], se &quot;[Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
+Mer information om integrationen med [!DNL Analytics], se &quot;[Översikt [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Annonsörer med Adobe Audience Manager eller Adobe Analytics. valfritt) En Audience Manager eller [!DNL Analytics] vilket konto som DSP kommer att hämta in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertisers with Adobe Audience Manager or Adobe Analytics; optional) An Audience Manager or [!DNL Analytics] vilket konto som DSP kommer att hämta in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
 
 * Audience Manager segment
 * [!DNL Analytics] segment som publiceras till Adobe Experience Cloud
@@ -122,7 +122,7 @@ Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstä
 
 #### [!UICONTROL Ads.text]
 
-**[!UICONTROL Ads.txt Filtering]:** Som standard, vilken nivå av [[!DNL Ads.txt] filtrering före bud](https://iabtechlab.com/ads-txt-about/) att använda genom att utnyttja varje utgivares [!DNL Authorized Digital Sellers] lista:
+**[!UICONTROL Ads.txt Filtering]:** Som standard är [[!DNL Ads.txt] filtrering före bud](https://iabtechlab.com/ads-txt-about/) att använda genom att utnyttja varje utgivares [!DNL Authorized Digital Sellers] lista:
 * *[!UICONTROL Opt out of ads.txt (default)]*: För att köpa lager från alla säljare.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: Att prioritera inköp av lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Att endast köpa lager från en domäns auktoriserade direktförsäljare och återförsäljare.
@@ -136,7 +136,7 @@ Du kan åsidosätta inställningen på annonsörnivå på [placeringsnivå](/hel
 
 #### [!UICONTROL DoubleVerify Authentic Brand Safety]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] Endast kunder. valfritt) Det varumärkessäkerhetssegment-ID som är kopplat till organisationens [!DNL DoubleVerify] konto.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] endast kunder (valfritt) Det varumärkessäkerhetssegment-ID som är kopplat till organisationens [!DNL DoubleVerify] konto.
 
 **[!UICONTROL Enable Authentic Brand Safety]:** (Valfritt) Som standard aktiveras [!DNL DoubleVerify] Autentiell varumärkessäkerhet, som blockerar visningar efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
 
