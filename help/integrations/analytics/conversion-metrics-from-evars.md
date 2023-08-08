@@ -1,19 +1,19 @@
 ---
-title: Skapa konverteringsstatistik från Adobe Analytics eVars och props
-description: Konfigurera anpassade händelsemätningar för framgångar med hjälp av data på eVar- och prop-nivå.
+title: "Skapa konverteringsstatistik från Adobe Analytics [!DNL eVars] och proppar"
+description: "Konfigurera anpassade händelsemätningar för framgångar med [!DNL eVar]- och [!DNL prop]data på -nivå."
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: d4f439ad23fc386bc85d95cc1291ec668ecf1cd2
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
-# Skapa konverteringsstatistik från Adobe Analytics eVars och props
+# Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och [!DNL props]
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
-Ni kan använda framgångsstatistik för att optimera DSP och sök-, sociala och handelskampanjer baserade på Adobe Analytics webbplatsdata som bäst passar ert varumärkes mål. Du kan konfigurera anpassade händelsemätningar för framgångshändelser baserat på dina befintliga [!DNL Analytics] [eVars](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) och [proppar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) genom att samla data på eVar- och prop-nivå i en händelse. Övriga [!DNL Analytics] Mätvärden, inklusive standardvärden, anpassade och reserverade konverteringsvärden och trafikvärden, är automatiskt tillgängliga i DSP och sökningar, sociala medier och handel.
+Ni kan använda framgångsstatistik för att optimera DSP och sök-, sociala och handelskampanjer baserade på Adobe Analytics webbplatsdata som bäst passar ert varumärkes mål. Du kan konfigurera anpassade händelsemätningar för framgångshändelser baserat på [din befintliga [!DNL Analytics] [!DNL eVars]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) och [din [!DNL props]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/prop.html) med kanttning [!DNL eVar]- och [!DNL prop]data på -nivå till en händelse. Övriga [!DNL Analytics] Mätvärden, inklusive standardvärden, anpassade och reserverade konverteringsvärden och trafikvärden, är automatiskt tillgängliga i DSP och sökningar, sociala medier och handel.
 
 ![Exempel på användning](/help/integrations/assets/a4adc-conversion-evar-example.jpg "Exempel på användning")
 
@@ -43,17 +43,17 @@ De flesta av följande åtgärder måste utföras av en [!DNL Analytics] adminis
 
    1. [Skapa en bearbetningsregel](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.html?lang=en), med följande konfiguration:
 
-      * Ange de eVars eller props som krävs för villkoret som måste uppfyllas.
+      * För villkoret som måste uppfyllas anger du det som krävs [!DNL eVars] eller [!DNL props].
 
         Du kan konfigurera ytterligare granularitetsnivåer efter behov för att säkerställa att de mest korrekta händelserna skapas.
 
         >[!TIP]
         >
-        >Det bästa sättet är att bara använda en eVar eller ett produktstöd.
+        >Det bästa sättet är att bara använda en [!DNL eVar] eller [!DNL prop].
 
       * För åtgärden väljer du **Ange händelse** och välj platshållarhändelsen.
 
-   1. I [!DNL Analytics] [!DNL Analysis Workspace], [skapa ett projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) och dra in den nya händelsen i en frihandstabell för att säkerställa att data fylls i för eVar- eller propmåttet.
+   1. I [!DNL Analytics] [!DNL Analysis Workspace], [skapa ett projekt](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) och dra in den nya händelsen i en frihandstabell för att säkerställa att data fylls i för [!DNL eVar] eller [!DNL prop] mätvärden.
 
 1. Kontakta kontoteamet på Adobe för att synkronisera det nya mätvärdet med Adobe Advertising.
 

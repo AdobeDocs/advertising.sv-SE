@@ -4,9 +4,9 @@ user-guide-description: Lär dig mer om integreringar för Advertising DSP och A
 breadcrumb-title: Integreringar med Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 6f486ac4664ff58813d55c9c09a2d59b6bd47473
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 12%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 12%
       + [Använda Adobe Advertising ID:n för att skapa [!DNL Marketing Channels] Bearbetar regler](/help/integrations/analytics/marketing-channels/mc-ids.md)
       + [Använda [!DNL Marketing Channels] med data från Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md)
       + [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md)
-   + [Skapa konverteringsstatistik från Adobe Analytics eVars och props](/help/integrations/analytics/conversion-metrics-from-evars.md)
+   + [Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och [!DNL props]](/help/integrations/analytics/conversion-metrics-from-evars.md)
 + Integrering med Adobe Audience Manager {#audience-manager}
    + [Integrering av Adobe Advertising med Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
    + [Importera Audience Manager-segment till Adobe Advertising](/help/integrations/audience-manager/import-audiences.md)

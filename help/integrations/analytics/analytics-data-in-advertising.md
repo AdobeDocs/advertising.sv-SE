@@ -3,9 +3,9 @@ title: '''[!DNL Analytics] Data i Adobe Advertising'
 description: '''[!DNL Analytics] Data i Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Det tar 24-48 timmar för nya segment att visas i Adobe Advertising. Uppdatering
 
 >[!NOTE]
 >
->* [!DNL Analytics] skickar händelser för EF ID-eVar till Adobe Advertising.  Standardintegreringen stöder inte sändning av beräknade mått eller andra dimensioner (eVars) till Adobe Advertising. Om det beräknade måttet kan hämtas helt i en anpassad händelse kan Adobe Advertising däremot importera den anpassade händelsen.
+>* [!DNL Analytics] skickar händelser för EF-ID [!DNL eVar] till Adobe Advertising.  Standardintegreringen stöder inte sändning av beräknade mått eller andra dimensioner ([!DNL eVars]) till Adobe Advertising. Om det beräknade måttet kan hämtas helt i en anpassad händelse kan Adobe Advertising däremot importera den anpassade händelsen.
 >* [!DNL Analytics] skickar data till Adobe Advertising per timme.
 
 * [!UICONTROL Timespent_secs_1stvisit]: Antalet sekunder som har ägnats åt webbplatsen under besökarens första besök.
@@ -56,9 +56,9 @@ Det tar 24-48 timmar för nya segment att visas i Adobe Advertising. Uppdatering
 
 Dessa mätvärden är specifika för rapportsviten, så de tillgängliga mätvärdena varierar för varje kund och rapportserie.
 
-### Anpassade konverteringsmått skapade från eVars och Props
+### Anpassade konverteringsmått skapade från [!DNL eVars] och [!DNL Props]
 
-Tillgängliga mätvärden varierar för varje kund. Se &quot;[Skapa konverteringsstatistik från Adobe Analytics eVars och props](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+Tillgängliga mätvärden varierar för varje kund. Se &quot;[Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
 
 ### Reserverade konverteringsmått
 

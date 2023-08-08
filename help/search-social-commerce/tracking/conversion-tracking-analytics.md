@@ -3,9 +3,9 @@ title: Konverteringsspårning för Adobe Analytics
 description: Läs om hur du använder Adobe Analytics konverteringsspårning för kampanjer i Adobe Advertising.
 exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Se &quot;[Översikt [!DNL Analytics for Advertising]](https://experienceleague.a
 
 1. I [!DNL Analytics]ändrar implementeringsteamet för sökning, sociala medier och handel följande konfigurationsinställningar för varje rapportserie:
 
-   * Giltighetstiden för `ef_id` eVar har ändrats så att den matchar annonsörens fönster för klickning för Adobe Advertising.
+   * Giltighetstiden för `ef_id` [!DNL eVar] har ändrats så att den matchar annonsörens klickfönster för Adobe Advertising.
 
    * Användar-ID:t för Adobe Advertising.
 
