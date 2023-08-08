@@ -3,7 +3,7 @@ title: Om målgrupper
 description: Lär dig mer om alternativ för att spåra, skapa och hantera [!DNL Google Ads] och [!DNL Microsoft® Advertising] målgrupper.
 exl-id: 34169650-9820-4b7d-9ae6-09ff8a8c6f2e
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 9f30518efbbe29f976298fe1fcd962182285679f
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Du kan också skapa och hantera målgrupper med hjälp av segment eller e-postli
 
    * (Annonsörer med Audience Manager-konton) Du kan skapa [!DNL Google Ads] som matchar målgrupper med användar-ID:n från Audience Manager-segment som har Sök, Social och Commerce som mål. Detta kan omfatta Adobe Analytics-segment som publiceras till Adobe Experience Cloud och segment som skapats med Adobe Experience Cloud Audience Library.
 
-  För att skapa kundmatchande målgrupper måste annonsören [!DNL Google Ads] kontot måste [kan få anpassad matchning](https://support.google.com/adspolicy/answer/6299717) och har valt [användar-ID-segment](https://support.google.com/google-ads/answer/9199250). Annonsörskontot i Sök, Socialt och Commerce måste också konfigureras så att det går att skapa kundmatchande målgrupper.<!-- For Analytics audiences: Analytics Only Integration. For Audience Manager, Enable CM/CRM option) -->
+  För att skapa kundmatchande målgrupper måste annonsören [!DNL Google Ads] kontot måste [kan få anpassad matchning](https://support.google.com/adspolicy/answer/6299717) och har valt [användar-ID-segment](https://support.google.com/google-ads/answer/9199250). Annonsörskontot i Sök, Socialt och Commerce måste också konfigureras så att det går att skapa kundmatchande målgrupper.
 
   [!DNL Adobe] segmentdata och cookie-synkroniseringsfiler för kunddatabaserade målgrupper synkroniseras till [!DNL Google Ads] varje dag.
 

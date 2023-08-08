@@ -3,9 +3,9 @@ title: Om kampanjhantering i Sök, Social och Commerce
 description: Läs om kampanjhanteringsfunktioner i Sök, Socialt och Commerce.
 exl-id: e6fca48d-1f6c-4d36-a10d-e1a5db859a37
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: d23b5a3c56c35fc5abbeafde681b9f584bf1c905
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mer information om spårning finns i kapitlet om spårning.
 
 För [annonsnätverk som stöds och kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md)kan ni gruppera era kampanjer i portföljer, där vart och ett har ett specifikt affärsmål och ett specifikt budget- eller prestationsmål. I standardportföljer optimerar Search, Social och Commerce CPC-nyckelordsbud och kampanjbudgetar. Hybridportföljer kombinerar optimeringstekniker från Search, Social, &amp; Commerce och era annonsnätverk.
 
-Mer information om tillgängliga portföljalternativ och hur du ställer in portföljer finns i kapitlet om optimeringsguiden för hantering av Portfolio, som du når från Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Mer information om tillgängliga portföljalternativ och om hur du ställer in portföljer finns i kapitlet om optimeringsguiden för Portfolio, som du når från Sök, Sociala medier och handel.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Vyer för kampanjhantering
 

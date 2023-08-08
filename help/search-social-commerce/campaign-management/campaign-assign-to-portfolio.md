@@ -3,9 +3,9 @@ title: Tilldela kampanjer till en portfölj
 description: Lär dig hur du inkluderar kampanjer i portfolior för optimering.
 exl-id: ecf9f45f-5e90-4acb-a880-21fd8c96499d
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a041b44550b56a01d817d8e1bc9d91a025a4e721
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Genom att tilldela en kampanj till en optimerad portfölj kan sökningar, sociala medier och handel optimera offerter och kampanjbudgetar för nyckelord och annonser i kampanjen. Du kan tilldela kampanjer till en portfölj från [!UICONTROL Campaigns] när du skapar portföljen eller genom att redigera inställningarna för en portfölj.
 
-Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom optimeringsstödet för varje strategi för kampanjbud genom att läsa&quot;Godtagbara Portfolio-typer per kampanjbudstrategi&quot; i optimeringsguiden för hantering av Portfolio, som är tillgänglig från Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom optimeringsstödet för varje strategi för kampanjbud genom att läsa&quot;Godtagbara Portfolio-typer per kampanjbudstrategi&quot; i optimeringsguiden för Portfolio, som är tillgänglig från Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
