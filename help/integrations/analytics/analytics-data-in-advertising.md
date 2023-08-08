@@ -3,16 +3,16 @@ title: '''[!DNL Analytics] Data i Adobe Advertising'
 description: '''[!DNL Analytics] Data i Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: c6ed3277873f5c4a75fc19480b0ec77ab4110d7b
+source-git-commit: b382184072af88273570fc045d0bcebe24ed81fb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
 
-# [!DNL Analytics] Data i Adobe-reklam
+# [!DNL Analytics] Data i Adobe Advertising
 
-*Annonsörer med endast Adobe Advertising-Adobe Analytics Integration*
+*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
 ## Analyssegment
 
@@ -26,14 +26,13 @@ Det tar 24-48 timmar för nya segment att visas i Adobe Advertising. Uppdatering
 
 >[!NOTE]
 >
->* [!DNL Analytics] skickar händelser för EF ID-eVar till Adobe Advertising.  Standardintegreringen stöder inte sändning av beräknade värden eller andra dimensioner (eVars) till Adobe Advertising. Om det beräknade måttet kan hämtas helt i en anpassad händelse kan Adobe Advertising däremot importera den anpassade händelsen.
->* [!DNL Analytics] skickar data till Adobe Advertising timme i timmen.
+>* [!DNL Analytics] skickar händelser för EF ID-eVar till Adobe Advertising.  Standardintegreringen stöder inte sändning av beräknade mått eller andra dimensioner (eVars) till Adobe Advertising. Om det beräknade måttet kan hämtas helt i en anpassad händelse kan Adobe Advertising däremot importera den anpassade händelsen.
+>* [!DNL Analytics] skickar data till Adobe Advertising per timme.
 
-
-* [!UICONTROL Timespent_secs_1stvisit]: Antalet sekunder som har tillbringats på platsen under besökarens första besök.
-* [!UICONTROL Timespent_secs_total]: Det totala antalet sekunder som har tillbringats på webbplatsen för alla besök i fönstret för klicksökning.
+* [!UICONTROL Timespent_secs_1stvisit]: Antalet sekunder som har ägnats åt webbplatsen under besökarens första besök.
+* [!UICONTROL Timespent_secs_total]: Det totala antalet sekunder som har tillbringats på webbplatsen för alla besök i klickfönstret.
 * [!UICONTROL Pageviews_1stvisit]: Antalet sidvisningar på webbplatsen under besökarens första besök.
-* [!UICONTROL Pageviews_total]: Det totala antalet sidvisningar på webbplatsen för alla besök i klickfönstret.
+* [!UICONTROL Pageviews_total]: Det totala antalet sidvisningar på webbplatsen för alla besök i klickningsfönstret.
 * [[!UICONTROL Bounces] mått](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
 * [[!UICONTROL Visits] mått](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: Antal gånger som [!DNL Analytics] insamlat [!UICONTROL EF ID].
@@ -57,12 +56,15 @@ Det tar 24-48 timmar för nya segment att visas i Adobe Advertising. Uppdatering
 
 Dessa mätvärden är specifika för rapportsviten, så de tillgängliga mätvärdena varierar för varje kund och rapportserie.
 
+### Anpassade konverteringsmått skapade från eVars och Props
+
+Tillgängliga mätvärden varierar för varje kund. Se &quot;[Skapa konverteringsstatistik från Adobe Analytics eVars och props](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot;
+
 ### Reserverade konverteringsmått
 
 Dessa mätvärden är specifika för rapportsviten, så de tillgängliga mätvärdena varierar för varje kund och rapportserie.
 
 >[!MORELIKETHIS]
 >
->* [Översikt över [!DNL Analytics for Advertising]](overview.md)
+>* [Översikt [!DNL Analytics for Advertising]](overview.md)
 >* [Adobe Advertising Metrics in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
-
