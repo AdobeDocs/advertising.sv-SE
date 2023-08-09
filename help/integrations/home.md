@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: 45e9e52f1eff2e60eb03b930b6902b97e2d452dc
+source-git-commit: e0044c5241b6a7a89fdce9d7ef9225a2fb0cc19f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Följande funktioner är nya eller nyligen ändrade.
 | 19 april 2021 | [!DNL Analytics for Advertising] | Lär dig varför och hur du lägger till makron i dina [!DNL Flashtalking] annonstaggar för att skicka klickdata till Adobe Analytics. | Se &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md).&quot; |
 | 27 oktober 2021 | [!DNL Analytics for Advertising] | Om din organisation vill byta från att använda den gamla Adobe Analytics `visitorAPI.js` till [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) bibliotek (`alloy.js`) för datainsamling måste du göra några ändringar för att aktivera ID-sammanfogning. | Se &quot;[Använda [!DNL Last Event Service] JavaScript-bibliotek med Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md).&quot; |
 | 26 maj 2021 | Hjälp | Kapitlet &quot;[!DNL Analytics for Advertising]&quot; innehåller nu ett underkapitel om &quot;Arbeta i [!DNL Analytics Marketing Channels].&quot; | Se: &quot;[Grunderna i marknadsföringskanaler](/help/integrations/analytics/marketing-channels/mc-overview.md),&quot;[Använda Adobe Advertising ID:n för att skapa [!DNL Analytics Marketing Channels] Bearbetar regler](/help/integrations/analytics/marketing-channels/mc-ids.md),&quot;[Använda [!DNL Analytics Marketing Channels] med data från Adobe Advertising](/help/integrations/analytics/marketing-channels/mc-ac-data.md),&quot; och &quot;[Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Analytics Marketing Channels]](/help/integrations/analytics/marketing-channels/mc-data-variances.md).&quot; |
-| 26 maj 2021 | Hjälp | En länk till alla videokurser om [!DNL Analytics for Advertising] lades till. | [Videosjälvstudiekurser om integreringar med Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html) |
+| 26 maj 2021 | Hjälp | En länk till alla videokurser om [!DNL Analytics for Advertising] lades till. | Se: &quot;[Videosjälvstudiekurser om integreringar med Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html).&quot; |
 
 {style="table-layout:auto"}
 
