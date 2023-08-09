@@ -3,7 +3,7 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
+source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
 workflow-type: tm+mt
 source-wordcount: '3912'
 ht-degree: 0%
@@ -168,7 +168,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Kontrollera att rätt konverteringsspårningstaggar implementeras på alla tillämpliga webbsidor. Om det behövs kan du be ditt kontoteam på Adobe att skapa en testtransaktion för varje tillämplig spårningstagg för konvertering och att registrera information om transaktionen, till exempel `transactionid` och detaljer från cookien (t.ex. `trackingid`, `clickid`och så vidare).
 
@@ -196,7 +196,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md).
+1. Kontrollera att rätt kolumner inkluderas i rapporter eller datavyer. Om rätt kolumner inte är tillgängliga att lägga till måste du eller ditt Adobe-kontoteam [göra konverteringsstatistik tillgänglig för rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md).
 
 1. Kör [!UICONTROL Portfolio Report]. Om den är tom kör du [!UICONTROL Campaign Report] och [!UICONTROL Search Engine Report] för att se om intäkterna visas i dessa rapporter. Om den gör det kanske kampanjerna inte tilldelas rätt portfölj.
 

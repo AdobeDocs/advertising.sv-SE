@@ -3,9 +3,9 @@ title: De inledande inställningsaktiviteterna för rapporter
 description: Lär dig hur du gör mätvärden tillgängliga i rapporter och hur du automatiserar rapporter.
 exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nya användare bör utföra följande initiala konfigurationsuppgifter:
 
-* Göra konverteringsmått som Adobe Advertising spårar för en annonsörer [tillgängliga för rapporter och andra vyer](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)och valfritt [ändra namn på konverteringsmåtten](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) som visas i kolumnrubriker för läsbarhet.
+* Göra konverteringsmått som Adobe Advertising spårar för en annonsörer [tillgängliga för rapporter och andra vyer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)och valfritt [ändra namn på konverteringsmåtten](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md som visas i kolumnrubriker för läsbarhet.
 
   Transaktionsegenskaper är inte tillgängliga för rapporter om du inte uttryckligen gör dem tillgängliga.
 

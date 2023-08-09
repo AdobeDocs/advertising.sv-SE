@@ -3,7 +3,7 @@ title: Översikt över att implementera annonsnätverkskonton och -kampanjer
 description: Lär dig mer om de uppgifter som krävs för att konfigurera, synkronisera och hantera era annonsnätverkskonton.
 exl-id: 401c5ebb-258c-4614-96e8-ca604fc698c0
 feature: Search Campaign Management
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    Mer information om portföljer finns i Optimeringshandboken, som finns i Sök, Socialt och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
-1. (Om nya konverteringar spåras för annonsören) [Göra konverteringarna tillgängliga](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) för rapporter, kampanjhanteringsvyer och portföljmål.
+1. (Om nya konverteringar spåras för annonsören) [Göra konverteringarna tillgängliga](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) för rapporter, kampanjhanteringsvyer och portföljmål.
 
 1. Verifiera för varje kampanj att Search, Social och Commerce tar emot klick- och kostnadsdata från annonsnätverket och validera de intäktsdata som visas i Search, Social och Commerce med annonsörens egna intäktsdata.
 

@@ -3,7 +3,7 @@ title: Skapa ett anpassat mål
 description: Skapa ett anpassat mål
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
 
 1. Logga in [!DNL Advertising Search, Social, & Commerce] at (användare i Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (alla andra användare) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 1. Kontrollera att mätvärdena du vill inkludera i ditt mål har spårats, att de är tillgängliga i produkten och att de innehåller ett visningsnamn:
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Transaction Properties]**.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]**.
    1. Leta reda på måtten och se till att **[!UICONTROL Show in UI and Reports]** är aktiverat för måttet.
    1. Om måttet inte har något värde i **[!UICONTROL Display Name]** kolumn, klicka i cellen, ange visningsnamnet och klicka sedan på **[!UICONTROL Apply].**
 1. Skapa det anpassade målet som ett *mål*:

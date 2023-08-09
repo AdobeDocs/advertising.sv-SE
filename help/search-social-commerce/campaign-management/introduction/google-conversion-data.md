@@ -2,10 +2,10 @@
 title: '''[!DNL Google Ads] konverteringsdata'
 description: Läs mer om olika typer av [!DNL Google Ads]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
-feature: Search Campaign Management
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+feature: Search Campaign Management, Conversions
+source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,16 @@ Sök, Socialt och e-handel synkroniserar data för konverteringar som[!DNL Inclu
 
 Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](https://support.google.com/google-ads/answer/4677036) (som du konfigurerar i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
 
+<!--
+
+* `<conversion-name>` &mdash; (When you track it) The conversion value for the keyword, beginning with the "GGL" prefix (such as GGL Purchase).
+
+`CT_<conversion-name>` &mdash; The number (count) of conversions, beginning with the "GGL_CT" prefix (such as GGL_CT_Purchase).
+
+* `XD_<conversion-name>` &mdash; (When available for the conversion type, when you track them) The number (count) of cross-device conversions, as measured by Google, beginning with the "GGL_XD_CT_" prefix (such as GGL_XD_CT_Purchase).
+
+-->
+
 * `GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).
 
 * `GGL_CT*` — Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).
@@ -32,7 +42,7 @@ Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](htt
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md) för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Transaction Properties]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
 >* Data på anbudsenhetsnivå matchar data i [!DNL Google Ads] på samma nivå. Men [!DNL Google Ads]&#39; egna konverteringsdata för högre nivåer kan innehålla ytterligare konverteringar som inte är kopplade till de underordnade budenheterna. Data i Sök, Socialt, &amp; Commerce samlas alltid in från anbudsenhetsnivån, så en kampanjnivårapport kanske inte har samma summor som en kampanjnivårapport i Google Ads.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
 >* Konverteringsdata är inte tillgängliga för [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]och [!DNL YouTube] annonser. Filtrera ut de här annonstyperna när du jämför data i [!DNL Google Ads] med data i sökningar, sociala medier och handel.
@@ -94,4 +104,5 @@ I Sök, Socialt, &amp; Commerce använder du alternativet view eller report för
 >
 >* [Översikt över att implementera annonsnätverkskonton och -kampanjer](campaign-implemention-overview.md)
 >* [Övervaka och hantera resultatet för era annonsnätverkskampanjer](monitor-performance-campaigns.md)
->* [Visa transaktionsegenskaper som spårats för en annonsörer](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
+>* [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+>* [Skapa en konverteringstagg för [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

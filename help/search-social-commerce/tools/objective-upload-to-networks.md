@@ -3,7 +3,7 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft® Advertising].
 exl-id: 75a1a804-ad6a-4dbc-9cde-30fe54476162
 feature: Search Tools
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -36,5 +36,5 @@ Om du aktiverar det här alternativet aktiveras automatiskt en överföring för
 
 >[!MORELIKETHIS]
 >
->* [Hantera en annonsörs transaktionsegenskaper](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Om att hantera en annonsörs konverteringsstatistik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
 >* [Överför konverteringsmått till [!DNL Google Ads]](conversion-metrics-upload-to-google.md)

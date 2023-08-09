@@ -3,7 +3,7 @@ title: Data som används för rapporter
 description: Lär dig mer om olika typer av data som finns i datavyer och anpassade rapporter.
 exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Sökning, sociala medier och handel innehåller en omfattande uppsättning resultatrapporter baserade på klicknings- och konverteringsdata. Du kan visa grundläggande prestandadata för de olika komponenterna i en portfölj eller ett annonskonto från [!UICONTROL Portfolios] och [!UICONTROL Campaigns] vyer och genom att generera olika grundläggande och avancerade rapporter.
 
-Annonsörer som använder tjänsten för spårning av konvertering i Adobe Advertising kan också identifiera antalet klick för en geografisk plats eller ett domännamn för en hänvisande webbplats, hur annonser i varje kanal och de olika händelser som leder till konvertering bidrar till den totala konverteringsgraden samt distributionen av konverteringar för en enda [konverteringsmått](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) efter marknadsföringskanal. Vilka rapporter som är tillgängliga varierar beroende på typ av användarkonto. Kontogruppen Adobe har tillgång till alla rapporter.
+Annonsörer som använder tjänsten för spårning av konvertering i Adobe Advertising kan också identifiera antalet klick för en geografisk plats eller ett domännamn för en hänvisande webbplats, hur annonser i varje kanal och de olika händelser som leder till konvertering bidrar till den totala konverteringsgraden samt distributionen av konverteringar för en enda [konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) efter marknadsföringskanal. Vilka rapporter som är tillgängliga varierar beroende på typ av användarkonto. Kontogruppen Adobe har tillgång till alla rapporter.
 
 De flesta rapporter kan anpassas så att endast den information som du vill se visas. Följande standardvärden är tillgängliga i de flesta rapporter och beräknas på annonsnivå:
 

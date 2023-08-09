@@ -3,7 +3,7 @@ title: Generera en Adobe Advertising-tagg för konverteringsspårning
 description: Lär dig hur du skapar en konverteringstagg för Adobe Advertising för att spåra konverteringshändelser.
 exl-id: 617cd808-c4ba-4413-89e4-0f52cb44f44b
 feature: Search Tools, Search Tracking
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 
 >[!NOTE]
 >
->Varje mätvärde i den nya konverteringstaggen visas automatiskt i [!UICONTROL Admin] > [!UICONTROL Transaction Properties]även om det inte är implementerat eller webbsidorna har det inte fått några klick. Detta beteende skiljer sig från beteendet för mätvärden i taggar som skapats manuellt eller någon annanstans och som inte finns med i listan [!UICONTROL Admin] > [!UICONTROL Transaction Properties] tills någon av webbsidorna har fått ett klick. I samtliga fall undantas dock varje mätvärde från början från portföljmål, rapporter och vyer tills du uttryckligen gör dem tillgängliga. Innan du lägger till mätvärden i portföljmål bör du dock överväga att först göra mätvärdena tillgängliga och lägga till dem i rapporter för att kontrollera när de får klickningar.
+>Varje mätvärde i den nya konverteringstaggen visas automatiskt i [!UICONTROL Admin] > [!UICONTROL Conversions]även om det inte är implementerat eller webbsidorna har det inte fått några klick. Detta beteende skiljer sig från beteendet för mätvärden i taggar som skapats manuellt eller någon annanstans och som inte finns med i listan [!UICONTROL Admin] > [!UICONTROL Conversions] tills någon av webbsidorna har fått ett klick. I samtliga fall undantas dock varje mätvärde från början från portföljmål, rapporter och vyer tills du uttryckligen gör dem tillgängliga. Innan du lägger till mätvärden i portföljmål bör du dock överväga att först göra mätvärdena tillgängliga och lägga till dem i rapporter för att kontrollera när de får klickningar.
 
 ## Inställningar för konverteringstaggar i Adobe Advertising {#conversion-tag-settings}
 
@@ -81,4 +81,4 @@ Se &quot;[Frågor och svar om spårningstaggar för Adobe Advertising och sidvis
 >* [Format för spårningstaggar för JavaScript-konvertering version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md)
 >* [Format för spårningstaggar för bildkonvertering](/help/search-social-commerce/tracking/format-conversion-tag-image.md)
 >* [Konverteringstaggen för JavaScript-konvertering i Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
->* [Hantera en annonsörs transaktionsegenskaper](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
+>* [Om att hantera en annonsörs konverteringsstatistik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)

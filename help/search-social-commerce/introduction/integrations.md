@@ -3,7 +3,7 @@ title: Integrering med Adobe Experience Cloud lösningar och tjänster
 description: Läs mer om integrering av sökning, sociala medier och handel med Adobe Experience Cloud lösningar och tjänster.
 exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
 feature: Search Introduction
-source-git-commit: b730716565dfae9cb32556eaede1c3f29f316ac7
+source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Reklamsökning, sociala medier och handel är integrerade med följande [!DNL Ad
 
      >[!NOTE]
      >
-     >Som standard är [!DNL Analytics] mätvärden visas inte på skärmar för sökning, sociala medier och handel. Du måste uttryckligen [göra mätvärdena tillgängliga i kampanjhanteringsvyer, portfolior och rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md) efter [!DNL Adobe] implementeringsteamet har konfigurerat utvalda standard- eller anpassade händelser som ska skickas till Adobe Advertising. Du kan ändra de måttnamn som visas (utan att ändra dem i [!DNL Analytics]). Du kan göra mätvärden synliga i användargränssnittet och ändra namn på mätvärden från [!UICONTROL Admin] > [!UICONTROL Transaction Properties].
+     >Som standard är [!DNL Analytics] mätvärden visas inte på skärmar för sökning, sociala medier och handel. Du måste uttryckligen [göra mätvärdena tillgängliga i kampanjhanteringsvyer, portfolior och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) efter [!DNL Adobe] implementeringsteamet har konfigurerat utvalda standard- eller anpassade händelser som ska skickas till Adobe Advertising. Du kan ändra de måttnamn som visas (utan att ändra dem i [!DNL Analytics]). Du kan göra mätvärden synliga i användargränssnittet och ändra namn på mätvärden från [!UICONTROL Admin] > [!UICONTROL Conversions].
 
    * Annonsörer med [!DNL Analytics] men inte Audience Manager kan [skapa [!DNL Google Ads] kundmatchande målgrupper](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) från [!DNL Analytics] segment som delas med Adobe Experience Cloud. För att vara berättigad måste annonsören implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) och distribuera en tagg på sina webbplatser. Sedan kan du använda målgrupperna i [!DNL Google Ads] kampanjer på kampanjnivå eller annonsgruppnivå [mål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) eller [undantag](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
 

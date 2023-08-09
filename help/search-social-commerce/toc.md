@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1728'
 ht-degree: 2%
 
 ---
@@ -404,10 +404,12 @@ ht-degree: 2%
       + [Återautentisera en [!DNL Google Analytics] datakälla](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md)
       + [[!DNL Google Analytics] inställningar för datakälla](/help/search-social-commerce/admin/data-sources/data-source-settings.md)
       + [Bilaga - tillgänglig [!DNL Google Analytics] mått](/help/search-social-commerce/admin/data-sources/data-source-ga-metrics.md)
-   + Hantera en annonsörs transaktionsegenskaper{#transaction-properties}
-      + [Hantera en annonsörs transaktionsegenskaper](/help/search-social-commerce/admin/transaction-properties/transaction-property-about.md)
-      + [Visa transaktionsegenskaper som spårats för en annonsörer](/help/search-social-commerce/admin/transaction-properties/transaction-property-view-tracked.md)
-      + [Ändra transaktionsegenskaperna som är tillgängliga i hanteringsvyer och rapporter](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-available.md)
-      + [Ändra visningsnamnet för en transaktionsegenskap](/help/search-social-commerce/admin/transaction-properties/transaction-property-edit-display-name.md)
+   + Hantera en annonsörs konverteringsstatistik{#conversion-metrics}
+      + [Om att hantera en annonsörs konverteringsstatistik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md)
+      + [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
+      + [Ändra konverteringsstatistik som är tillgänglig i ledningslägen och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
+      + [Ändra visningsnamnet för ett konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
+      + Hantera konverteringstaggar {#conversion-tags}
+         + [Skapa en konverteringstagg för [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
 + [Få hjälp](get-help.md)
 + [Ordlista](glossary.md)
