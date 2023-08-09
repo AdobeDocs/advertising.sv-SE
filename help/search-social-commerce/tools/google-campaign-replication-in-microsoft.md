@@ -3,9 +3,9 @@ title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]
 description: Lär dig hur du exporterar synkroniserade kampanjer i en [!DNL Google Ads] konto direkt i en synkroniserad [!DNL Microsoft® Advertising] konto.
 exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttiden, 
 
 **[!UICONTROL Credential ID]:** Ett ID som [!DNL Microsoft® Advertising] används för att representera [!DNL Google Ads] autentiseringsuppgifter.
 
-Automatisk generering av [!DNL Microsoft® Advertising] autentiseringsuppgifter för import är inte tillgängliga eftersom [!DNL Microsoft® Advertising] begränsningar. Kontakta Adobe tekniska support eller ditt kontoteam på Adobe, så genererar de autentiseringsuppgifterna och ger dig ID:t.
+Automatisk generering av [!DNL Microsoft® Advertising] autentiseringsuppgifter för import är inte tillgängliga eftersom [!DNL Microsoft® Advertising] begränsningar. Kontakta kontoteamet på Adobe så genererar de autentiseringsuppgifterna och ger dig ID:t.
 
 **[!UICONTROL Target Microsoft® Ads account]:** Det synkroniserade [!DNL Microsoft® Advertising] vilket konto kampanjdata importeras till.
 

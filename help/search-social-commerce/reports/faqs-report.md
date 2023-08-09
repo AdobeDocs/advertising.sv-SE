@@ -3,9 +3,9 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
 feature: Search Reports
-source-git-commit: 82023f8c0fc72cc7993c238116fff3c0b4180221
+source-git-commit: 68fb5d737b76e7b388f15a2fdd1f57ce9cd6a3e2
 workflow-type: tm+mt
-source-wordcount: '3920'
+source-wordcount: '3912'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Nedan följer några vanliga orsaker till att klickdata saknas.
 
 | Orsak | Upptäckt/analys | Upplösning |
 |---|---|---|
-| Processen som hämtar klickdata från annonskontot misslyckades. | Det finns inget systematiskt sätt att upptäcka detta problem, men ni kanske märker att en kampanj inte visar någon kostnads- eller klickinformation trots att annonskontot spenderade pengar. | Kontakta kundsupport på &lt;*ditt användarkonto för sökning, sociala medier och handel*>@support\.efrontier\.com.<!-- Escaped periods and using HTML code for angle brackets --><br><br>Om data saknas i mer än 24 timmar ska dessa datum uteslutas från kostnadsprognoserna tills data har hämtats. Kontoteamet på Adobe kan exkludera datum. |
+| Processen som hämtar klickdata från annonskontot misslyckades. | Det finns inget systematiskt sätt att upptäcka detta problem, men ni kanske märker att en kampanj inte visar någon kostnads- eller klickinformation trots att annonskontot spenderade pengar. | Kontakta kontoteamet på Adobe.<br><br>Om data saknas i mer än 24 timmar ska dessa datum uteslutas från kostnadsprognoserna tills data har hämtats. Kontoteamet på Adobe kan exkludera datum. |
 | Ett faktureringsproblem mellan annonsören och annonsnätverket förhindrar annonskontot från att spendera pengar. | Det finns inget systematiskt sätt att upptäcka detta problem, men du kanske märker att en kampanj inte visar någon kostnads- eller klickinformation. | Om du vet att ett annonskonto inte kunde användas på grund av ett faktureringsproblem, ska du undanta dessa datum från kostnadsprognoserna. Kontoteamet på Adobe kan exkludera datum. |
 +++
 
