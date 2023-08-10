@@ -2,7 +2,7 @@
 title: Skapa en konverteringstagg för [!DNL Google Ads]
 description: Lär dig skapa en [!DNL Google Ads] konverteringstagg.
 feature: Conversions
-source-git-commit: 8f08151013ec63df14843733a0c83badcceba4c3
+source-git-commit: 395421c69214c3b0370523909047a924af23ea55
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%
@@ -45,7 +45,7 @@ När du har lagt till taggarna på webbplatsen och de börjar skjuta, [!DNL Goog
 
 **[!UICONTROL Conversion Name]:** Ett unikt namn för konverteringsmåttet.
 
-**\[Målkategori\]:** Konverteringskategorin. Vilka kategorier som är tillgängliga varierar beroende på konverteringstyp. För *[!UICONTROL Calls to a phone number on your website]* och *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; är markerat som standard.
+**\[Konverteringskategori\]:** Konverteringskategorin. Vilka kategorier som är tillgängliga varierar beroende på konverteringstyp. För *[!UICONTROL Calls to a phone number on your website]* och *[!UICONTROL Clicks to your number on your mobile website]*, &quot;[!UICONTROL Phone Call Lead]&quot; är markerat som standard.
 
 **\[Åtgärdstyp\]:** Om målet är ett *[!UICONTROL Primary action used for bidding optimization]* eller en *[!UICONTROL Secondary action not used for bidding optimization]*.
 
