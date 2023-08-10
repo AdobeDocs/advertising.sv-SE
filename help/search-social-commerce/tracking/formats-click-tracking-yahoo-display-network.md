@@ -3,7 +3,7 @@ title: Klickningsspårningsformat för [!DNL Yahoo! Display Network]
 description: Läs mer om klickningsspårningsformaten för [!DNL Yahoo! Display Network] konton.
 exl-id: 62ea592c-9138-4a8e-9616-c8f2475fea26
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Exempel:
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
->* [Format för s\_kwcid-spårningskod](skwcid-tracking-parameter.md)
+>* [Format för spårningskod för AMO ID](skwcid-tracking-parameter.md)

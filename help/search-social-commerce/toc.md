@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 8cb7e92d674466653b67ed5502883630ad633eb2
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '1728'
 ht-degree: 2%
@@ -112,7 +112,7 @@ ht-degree: 2%
       + Annonsnätverkskonton {#ad-network-accounts}
          + [Om och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
          + [Hantera och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
-         + [Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-skwcid-google.md)
+         + [Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)
       + [Hantera säljcenterkonton](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md)
    + [Implementera [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md)
    + Hantera kampanjer {#management}

@@ -3,7 +3,7 @@ title: Om och nätverkskonton
 description: Läs mer om annonsnätverkskonton i Sök, Socialt och Handel.
 exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
@@ -42,4 +42,4 @@ Mer information om [!DNL Naver] spåra kampanjer endast, se&quot;[Implementera [
 >
 >* [Hantera och nätverkskonton](ad-network-account-manage.md)
 >* [Hantera säljcenterkonton](merchant-account-manage.md)
->* [Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](update-skwcid-google.md)
+>* [Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](update-amo-id-google.md)

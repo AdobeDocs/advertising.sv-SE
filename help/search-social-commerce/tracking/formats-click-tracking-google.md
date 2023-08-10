@@ -3,9 +3,9 @@ title: Klickningsspårningsformat för [!DNL Google Ads]
 description: Läs mer om klickningsspårningsformaten för [!DNL Google Ads] konton.
 exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Konton som använder Adobe Advertising-konverteringsspårning måste innehålla 
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla något av följande:
 
-   * [!DNL Google Ads] konton som använder de senaste `s_kwcid` som stöder kampanjrapporter och rapporter på annonsnivå för maximala resultatkampanjer samt utkast och experimentkampanjer:
+   * [!DNL Google Ads] konton som använder det senaste AMO ID-formatet (med början `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala resultatkampanjer samt utkast och experimentkampanjer:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Om kontot har en s_kwcid-implementering på serversidan och konto- eller kampanjinställningen &quot;[!UICONTROL Auto Upload]&quot; är aktiverat läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt.
+     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen &quot;[!UICONTROL Auto Upload]&quot; är aktiverat läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt.
 
    * Alla andra [!DNL Google Ads] konton:
 
@@ -88,9 +88,9 @@ Konton som använder Adobe Advertising-konverteringsspårning måste innehålla 
 >
 >* Landing page suffix at lower levels override the account-level suffix. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
 >
->* (Dynamiska sökannonser, annonsörer med Adobe Analytics och utan spårning på serversidan) När du vill inkludera spårning för omvänd feed från Adobe Advertising till Analytics lägger du till `s_kwcid` Spårningskod till slutet av landningssidans suffix på kontonivå.
+>* (Dynamiska sökannonser, annonsörer med Adobe Analytics och utan spårning på serversidan) När du vill inkludera spårning för omvänd feed från Adobe Advertising till Analytics, lägger du sedan till spårningskoden för AMO ID i slutet av landningssidans suffix på kontonivå.
 
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
->* [Format för s\_kwcid-spårningskod](skwcid-tracking-parameter.md)
+>* [Format för spårningskod för AMO ID](skwcid-tracking-parameter.md)

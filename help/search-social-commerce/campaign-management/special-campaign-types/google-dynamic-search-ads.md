@@ -3,7 +3,7 @@ title: Implementera [!DNL Google Ads] dynamiska sökannonser
 description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] dynamiska sökannonser.
 exl-id: 4c806824-b582-46dc-8d88-85c73bfb0944
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Du kan konfigurera dynamiska sökannonser antingen individuellt eller med hjälp
 
    1. (Valfritt) Konfigurera en spårningsmall på kampanjnivå som åsidosätter spårningsmallen på kontonivå men kan åsidosättas på lägre nivåer.
 
-      (Annonsörer med Adobe Analytics utan spårning på serversidan) Om du vill ta med spårning för omvänd feed från Search, Social och Commerce till Analytics, lägger du till spårningskoden s_kwcid i tilläggsparametrarna på kontonivå, som lägger till koden i den slutliga URL:en. Se &quot;[s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
+      (Annonsörer med Adobe Analytics utan spårning på serversidan) Om du vill ta med spårning för omvänd feed från Search, Social och Commerce till Analytics, lägger du till spårningskoden för AMO-ID i tilläggsparametrarna på kontonivå, som lägger till koden i den slutliga URL:en. Se &quot;[Spårningsparametern för AMO ID](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md).&quot;
 
 1. [Skapa en annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) i kampanjen, inklusive följande steg:
 
