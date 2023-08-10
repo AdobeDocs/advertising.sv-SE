@@ -3,30 +3,30 @@ title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Camp
 description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] annonstaggar
 feature: Integration with Adobe Analytics
 exl-id: 89cd4e1d-277a-4a43-9c38-ae6641302e09
-source-git-commit: cd461f73f4a70a5647844a6075ba1c65d64a9b04
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
 
 # Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar
 
-*Annonsörer med endast Adobe Advertising-Adobe Analytics Integration*
+*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
 *Gäller endast DSP*
 
-Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för era DSP annonser, lägg till [!DNL Analytics for Advertising] parametrar till landningssidans URL:er med [`%p` makro](https://support.google.com/campaignmanager/table/6096962). Parameterposten `s_kwcid` och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
+Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för era annonser DSP annonser, append [!DNL Analytics for Advertising] parametrar till landningssidans URL:er med hjälp av [`%p` makro](https://support.google.com/campaignmanager/table/6096962). Parameterposten för AMO-ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
 
 Använd makron för [!DNL Campaign Manager 360] webbannonser och videoannonser för följande typer av [!DNL Analytics for Advertising] implementeringar:
 
-* **Annonsörer med [!DNL Adobe] [!DNL Analytics for Advertising] JavaScript-kod som implementeras på deras webbplatser**: JavaScript-koden registrerar redan `s_kwcid` och `ef_id` frågesträngsparametrar. Om du använder makron utökas dock spårningen så att den omfattar klickbaserade konverteringar när cookies från tredje part inte stöds. Det bästa sättet är att lägga till makron i följande avsnitt i dina annonstaggar för att hämta ytterligare klickdata som inte fångas in via JavaScript-koden.
+* **Annonsörer med [!DNL Adobe] [!DNL Analytics for Advertising] JavaScript-kod som implementeras på deras webbplatser**: JavaScript-koden registrerar redan AMO-ID:t (`s_kwcid`) och `ef_id` frågesträngparametrar. Om du använder makron utökas dock spårningen så att den omfattar klickbaserade konverteringar när cookies från tredje part inte stöds. Det bästa sättet är att lägga till makron i följande avsnitt i dina annonstaggar för att hämta ytterligare klickdata som inte fångas in via JavaScript-koden.
 
 >[!NOTE]
 >
 >JavaScript-koden är bara en lösning för klickspårning medan cookies fortfarande är tillgängliga. När cookies har upphört måste följande makron implementeras.
 
-* **Annonsörer vars webbplatser inte använder [!DNL Analytics for Advertising] JavaScript-kod och förlita dig istället på [!DNL Analytics] vidarebefordran på serversidan endast för klickbara data** (utan genomskinliga data): Följande makron krävs för att rapportera klickningsaktiviteter på plats som styrs av annonser som du köper via Adobe Advertising.
+* **Annonsörer vars webbplatser inte använder [!DNL Analytics for Advertising] JavaScript-kod och förlita dig istället på [!DNL Analytics] vidarebefordran på serversidan endast för klickbara data** (utan genomskinliga data): Följande makron krävs för att rapportera klickningsaktiviteter på plats som är kopplade till annonser som du köper via Adobe Advertising.
 
 ## Lägg till makron i [!DNL Google Campaign Manager 360] Annonser
 
@@ -41,11 +41,9 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 ```
 
 >[!NOTE]
->* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du `amo` parametern före hash-symbolen.
-
 >
->* >Om inga andra parametrar inkluderas efter `amo` lägger du sedan till en parameter (till exempel &amp;a=b) efter den. Exempel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
-
+>>* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du `amo` parametern före hash-symbolen.
+>* Om inga andra parametrar inkluderas efter `amo` lägger du sedan till en parameter (till exempel &amp;a=b) efter den. Exempel:`https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Konfigurera URL-suffixet för marknadsföringsnivålandningssida
 
@@ -64,7 +62,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 ## Hur [!DNL Analytics for Advertising] Makron utökas i DSP
 
-I DSP, när du skapar en annons som innehåller [!DNL Analytics for Advertising] parameter (`amo`), `ef_id` och `s_kwcid` makron läggs automatiskt till i klickwebbadressen. Det bästa sättet är att checka in DSP för att säkerställa att `ef_id` och `s_kwcid` makron finns.
+I DSP, när du skapar en annons som innehåller [!DNL Analytics for Advertising] parameter (`amo`), `ef_id` och `s_kwcid` makron läggs automatiskt till i klickwebbadressen. Det bästa sättet är att checka in DSP för att se till att `ef_id` och `s_kwcid` makron finns.
 
 Följande är ett exempel på en [!DNL Google Campaign Manager 360] [taggen ins](https://support.google.com/campaignmanager/answer/6080468) som det visas i DSP.
 
@@ -83,7 +81,7 @@ data-dcm-param-amo='ef_id=${TM_USER_ID}:${TM_DATETIME}:d&s_kwcid=AC!${TM_AD_ID}!
 När en användare klickar på annonsen [!DNL Google Campaign Manager 360] ser `%pamo` i URL-suffixet och infogar dynamiskt värdet för `amo` i URL:en.
 
 >[!MORELIKETHIS]
-* [Översikt över [!DNL Analytics for Advertising]](overview.md)
-* [Adobe Advertising IDs Used by [!DNL Analytics]](/help/integrations/analytics/ids.md)
-* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](macros-flashtalking.md)
-
+>
+>* [Översikt [!DNL Analytics for Advertising]](overview.md)
+>* [Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](macros-flashtalking.md)

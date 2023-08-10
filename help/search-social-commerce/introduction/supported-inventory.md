@@ -3,7 +3,7 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: 25e2ccf1-4de3-4b0d-a8ef-df7001c77733
 feature: Search Introduction
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 703cda43e96dfa9d80bbce2d64192fc461d5dbae
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -57,4 +57,4 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 
 [^3]: Kräver integrering med Adobe Analytics. Se &quot;[Översikt över Analytics för Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).&quot;
 
-[^4]: [!DNL Analytics] data skickas till Search, Social, &amp; Commerce med den uppgraderade spårningsparametern för AMO ID (s_kwcid), oavsett vilket AMO ID-format du vanligtvis använder för kontot. Om du vanligtvis använder den äldre versionen av AMO ID rekommenderar vi att du uppgraderar till det nya AMO ID-formatet för att få en så bra upplevelse som möjligt. Men även om era klicknings-/kostnadsdata och intäktsdata spåras med olika AMO-ID:n, klassificeras båda datauppsättningarna fullständigt och slås samman under samma kampanj och konto.
+[^4]: [!DNL Analytics] data skickas till Search, Social, &amp; Commerce med den uppgraderade spårningsparametern för AMO ID (med början `s_kwcid`), oavsett vilket AMO ID-format du vanligtvis använder för kontot. Om du vanligtvis använder den äldre versionen av AMO ID rekommenderar vi att du uppgraderar till det nya AMO ID-formatet för att få en så bra upplevelse som möjligt. Men även om era klicknings-/kostnadsdata och intäktsdata spåras med olika AMO-ID:n, klassificeras båda datauppsättningarna fullständigt och slås samman under samma kampanj och konto.

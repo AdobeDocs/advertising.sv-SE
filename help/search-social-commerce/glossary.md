@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2017'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 **annonsgrupp:** En uppsättning annonser och deras relaterade nyckelord, placeringar och produktgrupper för en kampanj.
 
 **annonsvariation:** Alla annonser inom en annonsgrupp eller annonsstrategi.
+
+**AMO-ID:** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
 
 **budenhet:** En söknings-, social- och handelsterm för en enhet där anbud läggs. För de flesta kampanjer i de flesta nätverk är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sökannonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
 
@@ -166,7 +168,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **utgiftsstrategi:** (Annonsörer med portföljer) Den strategi som valts för att optimera budgivning via nyckelord/annonser för en portfölj.
 
-**`s_kwcid`:** En spårningskod som gör att Adobe Advertising kan dela data om sökkampanjer med Adobe Analytics.
+**`s_kwcid`:** Se&quot;AMO ID&quot;.
 
 **spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar i annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
 

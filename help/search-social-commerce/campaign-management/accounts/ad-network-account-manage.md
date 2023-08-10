@@ -3,9 +3,9 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
 feature: Search Campaign Management
-source-git-commit: c296766697903d7cb95ca59ca6b4c375629ddd2b
+source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2086'
 ht-degree: 0%
 
 ---
@@ -240,22 +240,22 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S\_kwcid-format** - (Befintlig [!DNL Google Ads] konton för annonsörer med integrering mellan Adobe Advertising och Adobe Analytics och för vilka AMO-ID:t (s\_kwcid) inte redan har migrerats)
+* **S_kwcid-format** - (Befintlig [!DNL Google Ads] konton för annonsörer med integrering mellan Adobe Advertising och Adobe Analytics och för vilka AMO-ID (s_kwcid) inte redan har migrerats)
 
 Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. The [senaste formatet](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som behövs för att kunna rapportera korrekt på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] max-prestandakampanjer och utkast och experimentera med kampanjer i Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klickar du på [!UICONTROL Edit] (blyertspenna) och sedan **[!UICONTROL Migrate to new s\_kwcid format]** för att byta till det nya formatet. För konton som inte innehåller de här kampanjtyperna är migrering till det nya formatet valfritt, men rekommenderas.
+Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klickar du på [!UICONTROL Edit] (blyertspenna) och sedan **[!UICONTROL Migrate to new s_kwcid format]** för att byta till det nya formatet. För konton som inte innehåller de här kampanjtyperna är migrering till det nya formatet valfritt, men rekommenderas.
 
 Fullständiga anvisningar finns i &quot;[Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
 **Namn på rapportsvit** - (For EF Redirect with token only; publishers with an Adobe Advertising-Adobe Analytics integration; optional) One or more Analytics report suites to which Search, Social, &amp; Commerce sending data it samlar in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
-För att data ska kunna visas i rapportsviterna måste antingen (a) serversidan s\_kwcid konfigureras för kontot eller (b) inställningen på annonsörnivå vara &quot;[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
+För att data ska kunna visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen på annonsörnivå måste vara &quot;[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
 
 >[!MORELIKETHIS]
 >
 >* [Om och nätverkskonton](ad-network-account-about.md)
 >* [Hantera säljcenterkonton](merchant-account-manage.md)
->* [Uppdatera s\_kwcid-spårningskoden för en [!DNL Google Ads] konto](update-amo-id-google.md)
+>* [Uppdatera s_kwcid-spårningskoden för en [!DNL Google Ads] konto](update-amo-id-google.md)
