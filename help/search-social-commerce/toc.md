@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: 4fff88683c524b4844104102ed09c0a6b08e5701
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1730'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Klickningsspårningsformat för [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Valfria spårningsparametrar för klickspårnings-URL:er](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
       + [Adobe Advertising cookies (länk)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
-      + [s_kwcid tracking-parametern](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+      + [Spårningsparametern för AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
       + Spårning av konvertering i Adobe Advertising {#advertising-conversion-tracking}

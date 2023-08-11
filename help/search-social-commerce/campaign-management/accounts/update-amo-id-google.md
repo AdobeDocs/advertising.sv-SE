@@ -3,7 +3,7 @@ title: Uppdatera spårningskod för AMO ID (s_kwcid) för en [!DNL Google Ads] k
 description: Lär dig hur du byter till den senaste spårningskoden för AMO ID för en [!DNL Google Ads] konto.
 exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
 feature: Search Campaign Management
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]endast konton*
 
-Det äldre formatet för [Spårningskod för AMO ID](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md) för befintlig [!DNL Google Ads] konton har inte stöd för vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] max-prestandakampanjer, utkast och experimentera och andra användningsfall där samma kombination av ad+keyword+match finns i flera kampanjer.
+Det äldre formatet för [Spårningskod för AMO ID](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) för befintlig [!DNL Google Ads] konton har inte stöd för vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] max-prestandakampanjer, utkast och experimentera och andra användningsfall där samma kombination av ad+keyword+match finns i flera kampanjer.
 
 Det senaste formatet innehåller parametrar för kampanj-ID och annonsgrupps-ID:
 
@@ -58,7 +58,7 @@ Alla nya [!DNL Google Ads] konton använder automatiskt det nya AMO ID-formatet.
 
    * När [!UICONTROL Auto Upload]&quot;funktionen är aktiverad i spårningsinställningarna, så uppdaterar Search, Social och Commerce automatiskt spårningskoden i Landing Page Suffix för det här kontot och dess kampanjer. Ni behöver inte göra någonting.
 
-   * När [!UICONTROL Auto Upload]&quot; är inte aktiverad och du använder inte [AMO ID-funktion på serversidan](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)måste du manuellt uppdatera parametern AMO ID i inställningarna för delningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i konto- och kampanjinställningarna eller genom att överföra ändringar i ett kalkylblad. Om du vill konfigurera ett suffix på annonsgruppnivå eller lägre använder du [!DNL Google Ads] redigerare.
+   * När [!UICONTROL Auto Upload]&quot; är inte aktiverad och du använder inte [AMO ID-funktion på serversidan](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)måste du manuellt uppdatera parametern AMO ID i inställningarna för delningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i konto- och kampanjinställningarna eller genom att överföra ändringar i ett kalkylblad. Om du vill konfigurera ett suffix på annonsgruppnivå eller lägre använder du [!DNL Google Ads] redigerare.
 
    * Om du inkluderar AMO-ID:t i inställningen Bas-URL för någon kampanjkomponent, flyttar du det till relevant inställning för Landing Page Suffix.
 
@@ -67,5 +67,5 @@ Alla nya [!DNL Google Ads] konton använder automatiskt det nya AMO ID-formatet.
 >[!MORELIKETHIS]
 >
 >* [Hantera och nätverkskonton](ad-network-account-manage.md)
->* [Spårningsparametern för AMO ID](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md)
+>* [Spårningsparametern för AMO ID](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
 >* [Översikt [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

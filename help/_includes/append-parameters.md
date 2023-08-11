@@ -1,5 +1,5 @@
 ---
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -19,4 +19,4 @@ Avgränsa flera parametrar med kommatecken eller et-tecken (&amp;). Kapslade hak
 
 * (Annonsnätverk med parallell spårning) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
-* (Annonsörer med integrering mellan Adobe Advertising och Adobe Analytics) Att inkludera en AMO ID-parameter för att skicka data från sök, sociala och kommersiella aktiviteter till [!DNL Analytics], se [och nätverksspecifika format](/help/search-social-commerce/tracking/skwcid-tracking-parameter.md). Du behöver inte lägga till parametern manuellt för [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med en AMO ID-implementering på serversidan.
+* (Annonsörer med integrering mellan Adobe Advertising och Adobe Analytics) Att inkludera en AMO ID-parameter för att skicka data från sök, sociala och kommersiella aktiviteter till [!DNL Analytics], se [och nätverksspecifika format](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md). Du behöver inte lägga till parametern manuellt för [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med en AMO ID-implementering på serversidan.

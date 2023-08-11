@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -15,6 +15,10 @@ ht-degree: 0%
 # Nyheter
 
 Följande funktioner är nya eller nyligen ändrade.
+
+<!--
+| ?? August 2023| Placement Forecasting | The [!UICONTROL Forecast] section of the placement settings includes a new XXX section, which indicates XXX. | &mdash; |
+-->
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
