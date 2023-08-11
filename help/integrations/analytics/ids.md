@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -95,71 +95,135 @@ I [!DNL Analytics] rapporter kan du hitta data för EF ID genom att söka efter 
 
 EF ID:n omfattas av den unika identifierargränsen på 500 kB i Analysis Workspace. När 500 kB-värdet har uppnåtts rapporteras alla nya spårningskoder under rubriken&quot; på en rad[!UICONTROL Low Traffic].&quot; På grund av risken för att rapporteringsnoggrannheten saknas klassificeras inte dessa EF-ID:n, och du bör inte använda dem för segment eller rapportering i [!DNL Analytics].
 
-## Adobe Advertising AMO-ID
+## Adobe Advertising AMO-ID {#amo-id}
 
 AMO ID spårar varje unik annonskombination på en mindre detaljerad nivå och används för [!DNL Analytics] dataklassificering och konsumtion av annonsstatistik (t.ex. visningar, klickningar och kostnader) från Adobe Advertising. AMO-ID:t lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller rVar dimension (AMO ID) och används exklusivt för rapportering i [!DNL Analytics].
 
 AMO-ID:t kallas även `s_kwcid`, som ibland uttalas som[!DNL the squid].&quot;
 
-### AMO ID-format för [!DNL DSP]
+### AMO ID-format {#amo-id-formats}
 
-```
-<Channel ID>!<Ad ID>!<Placement ID>
-```
+#### AMO ID-format för [!DNL DSP]
+
+`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
 
 där:
 
-* &lt;*Kanal-ID*> kan vara:
+* `AC` anger visningskanalen.
 
-   * `AC` = DSP
-   * `AL` for [!DNL Advertising Search, Social, & Commerce]
+* `{TM_AD_ID}` är den Adobe Advertising-genererade alfanumeriska annonstangenten. Den används som en unik identifierare för en annons och fungerar som en nyckel för att omvandla metadata för Adobe Advertising-entitet till läsbara [!DNL Analytics] dimensioner.
 
-* &lt;*Annons-ID*> används en Adobe Advertising-genererad unik identifierare för en annons. Det fungerar som en nyckel för översättning av Adobe Advertising-entitetsmetadata till läsbara [!DNL Analytics] dimensioner.
-
-* &lt;*Placement-ID*> är en Adobe Advertising-genererad unik identifierare för en placering. Det fungerar som en nyckel för översättning av Adobe Advertising-entitetsmetadata till läsbara [!DNL Analytics] dimensioner.
+* `{TM_PLACEMENT_ID}` är den Adobe Advertising-genererade alfanumeriska placeringsnyckeln. Den används som en unik identifierare för en placering och fungerar som en nyckel för att omvandla metadata för Adobe Advertising-entitet till läsbara [!DNL Analytics] dimensioner.
 
 Exempel på AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-### AMO ID-format för [!DNL Search, Social, & Commerce]
+#### AMO ID-format för sök-, sociala och kommersiella annonser
 
-AMO-ID:n för [!DNL Search, Social, & Commerce] följer ett distinkt format för varje sökmotor. Formatet för alla sökmotorer börjar med följande:
+Parametrarna varierar beroende på annonsnätverk, men följande parametrar är gemensamma för alla:
 
-```
-AL!{userid}!{sid}
-```
+* `AL` anger sökkanalen. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
+
+* `{userid}` är ett unikt användar-ID som tilldelats annonsören.
+
+* `{sid}` ersätts med det numeriska ID:t för annonsören och annonsnätverkskontot: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (borttagen), eller *106* for [!DNL Pinterest] (föråldrat).
+
+##### [!DNL Baidu]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
+
+där:
+
+* `{creative}` är annonsnätverkets unika numeriska ID för den kreativa.
+* `{placement}` är den webbplats där annonsen klickades.
+* `{keywordid}` är annonsnätverkets unika numeriska ID för det nyckelord som utlöste annonsen.
+
+##### [!DNL Google Ads]
+
+Detta inkluderar shoppingkampanjer som använder [!DNL Google Merchant Center].
+
+* Konton som använder det senaste AMO ID-formatet, som har stöd för kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+
+* Alla andra konton:
+
+  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 där:
 
-* `AL` är kanal-ID:t för annonsnätverket.
-* `{userid}` är det unika numeriska användar-ID som Adobe Advertising tilldelar annonsören.
-* `{sid}` är det numeriska ID som Adobe Advertising använder för det angivna annonsnätverket, till exempel `3` for [!DNL Google Ads] eller `10` for [!DNL Microsoft Advertising].
-
-Nedan följer de fullständiga AMO ID-formaten för ett par annonsnätverk. Om du vill ha AMO ID-format för andra annonsnätverk kontaktar du kontoteamet på Adobe.
-
-AMO ID-format för [!DNL Google Ads]:
-
-```
-AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
-```
-
-där:
+<!-- VERIFY CREATIVE description. Also, are there more networks now (audience and shopping?) -->
 
 * `{creative}` är [!DNL Google Ads] unikt numeriskt ID för den kreativa.
 * `{matchtype}` är matchningstypen för nyckelordet som utlöste annonsen: `e` för exakta, `p` för fras, eller `b` för breda.
 * `{placement}` är domännamnet för den webbplats där annonsen klickades. Det finns ett värde för annonser i riktade kampanjer och för annonser i kampanjer riktade mot nyckelord som visas på innehållswebbplatser.
-* `{network}` anger nätverket som klickningen inträffade från:  `g` for [!DNL Google] sökning (endast för annonser riktade mot nyckelord), `s` för en sökpartner (endast för annonser riktade till nyckelord), eller `d` för Display Network (för antingen nyckelordsriktade eller placeringsriktade annonser).
+* `{network}` anger nätverket som klickningen inträffade från: `g` for [!DNL Google] sökning (endast för annonser riktade mot nyckelord), `s` för en sökpartner (endast för annonser riktade till nyckelord), eller `d` för visningsnätverket (för antingen nyckelordsriktade eller placeringsriktade annonser).
+* `{product_partition_id}` är annonsnätverkets unika numeriska ID för produktgruppen som används med produktannonser.
 * `{keyword}` är antingen det specifika nyckelord som utlöste din annons (på sökwebbplatser) eller det bästa matchande nyckelordet (på innehållswebbplatser).
+* `{campaignid}` är annonsnätverkets unika numeriska ID för kampanjen.
+* `{adgroupid}` är annonsnätverkets unika numeriska ID för annonsgruppen.
 
-AMO ID-format för [!DNL Microsoft Advertising]:
+>[!NOTE]
+>
+>* För dynamiska sökannonser {keyword} fylls i med det automatiska målet.
+>* När du genererar spårning för [!DNL Google] shoppingannonser, en produkt-ID-parameter, `{adwords_producttargetid}`infogas före nyckelordsparametern. Produkt-ID-parametern visas inte i [!DNL Google Ads] spårningsparametrar på kontonivå och kampanjnivå.
+>* Information om hur du använder den senaste spårningskoden för AMO-ID finns i &quot;[Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
 
-```
-AL!{userid}!{sid}!{AdId}!{OrderItemId}
-```
+<!--
+
+##### [!DNL Meta]
+
+`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+
+where:
+
+* `{{ad.id}}` is the unique numeric ID for the ad/creative.
+
+* `{{campaign.id}}` is the unique ID for the campaign.
+
+* `{{adset.id}}` is the unique ID for the ad set.
+
+-->
+
+##### [!DNL Microsoft Advertising]
+
+* Sökkampanjer:
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+
+* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+
+* Målgruppskampanjer:
+
+  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 där:
 
-* `{AdId}` är [!DNL Microsoft Advertising] unikt numeriskt ID för den kreativa.
-* `{OrderItemId}` är [!DNL Microsoft Advertising] numeriskt ID för nyckelordet.
+* `{AdId}` är annonsnätverkets unika numeriska ID för den kreativa.
+* `{OrderItemId}` är annonsnätverkets numeriska ID för nyckelordet.
+* `{CriterionId}` är annonsnätverkets numeriska ID för produktgruppen som används med produktannonser.
+
+##### [!DNL Yahoo! Japan Ads]
+
+`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
+
+där:
+
+* `{creative}` är annonsnätverkets unika numeriska ID för den kreativa.
+* `{matchtype}` är matchningstypen för nyckelordet som utlöste annonsen: `be` för exakta, `bp` för fras, eller `bb` för breda.
+* `{network}` anger nätverket som klickningen inträffade från: `n` för inbyggt eller `s` för sökning.
+* `{keyword}` är nyckelordet som utlöste din annons.
+
+##### [!DNL Yandex]
+
+`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+
+där:
+
+* `{ad_id}` är annonsnätverkets unika numeriska ID för den kreativa.
+* `{source_type}` är den typ av webbplats där annonsen har visats: *b* för sökning, *c* för kontext (innehåll), eller *ct* för kategori.
+* `{phrase_id}` är annonsnätverkets numeriska ID för nyckelordet.
 
 ### AMO ID-Dimension i [!DNL Analytics]
 

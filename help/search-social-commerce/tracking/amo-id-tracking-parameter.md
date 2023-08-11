@@ -3,9 +3,9 @@ title: Spårningsparametern för AMO-ID (s_kwcid)
 description: Läs mer om spårningsparametern som används för att dela data från Adobe Advertising med Adobe Analytics.
 exl-id: 3f739f1c-3cb7-40d0-86ab-cf66afe6a06f
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: a150a55fd8d97db83cc269c787a1c67d557b7e3a
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -32,91 +32,12 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
 Om du vill implementera infogningsfunktionen på serversidan eller fastställa det bästa alternativet för din verksamhet kan du tala med ditt Adobe-kontoteam.
 
-## AMO ID-format för annonser DSP annonser
-
-`s_kwcid=AC!${TM_AD_ID}!${TM_PLACEMENT_ID}`
-
-där:
-
-* `AC` anger visningskanalen.
-
-* `{TM_AD_ID}` är den alfanumeriska annonstangenten.
-
-* `{TM_PLACEMENT_ID}` är den alfanumeriska placeringsnyckeln.
-
-## AMO ID-format för sök-, sociala och kommersiella annonser
-
-Parametrarna varierar beroende på annonsnätverk, men följande parametrar är gemensamma för alla:
-
-* `AL` anger sökkanalen. <!-- what about social/Facebook, and display ads on Google (like Gmail, YouTube)? -->
-
-* `{userid}` är ett unikt användar-ID som tilldelats annonsören.
-
-* `{sid}` ersätts med det numeriska ID:t för annonsören och annonsnätverkskontot: *3* for [!DNL Google Ads], *10* for [!DNL Microsoft Advertising], *45* for [!DNL Meta], *86* for [!DNL Yahoo! Display Network], *87* for [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (borttagen), eller *106* for [!DNL Pinterest] (föråldrat).
-
-### [!DNL Baidu]
-
-`s_kwcid=AL!{userid}!{sid}!{creative}!{placement}!{keywordid}`
-
-### [!DNL Google Ads]
-
-Detta inkluderar shoppingkampanjer som använder [!DNL Google Merchant Center].
-
-* Konton som använder det senaste AMO ID-formatet, som har stöd för kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
-
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
-
-* Alla andra konton:
-
-  `s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
-
->[!NOTE]
->
->* För dynamiska sökannonser {keyword} fylls i med det automatiska målet.
->* När du genererar spårning för [!DNL Google] shoppingannonser, en produkt-ID-parameter, `{adwords_producttargetid}`infogas före nyckelordsparametern. Produkt-ID-parametern visas inte i [!DNL Google Ads] spårningsparametrar på kontonivå och kampanjnivå.
->* Information om hur du använder den senaste spårningskoden för AMO-ID finns i &quot;[Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot; <!-- Update terminology there too. -->
-
-<!--
-
-### [!DNL Meta]
-
-`s_kwcid=AL!{userid}!{sid}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
-
-where:
-
-* `{{ad.id}}` is the unique numeric ID for the ad/creative.
-
-* `{{campaign.id}}` is the unique ID for the campaign.
-
-* `{{adset.id}}` is the unique ID for the ad set.
-
--->
-
-### [!DNL Microsoft Advertising]
-
-* Sökkampanjer:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
-
-* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* Målgruppskampanjer:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
-
-### [!DNL Yahoo! Japan Ads]
-
-`s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{network}!{keyword}`
-
-### [!DNL Yandex]
-
-`s_kwcid=AL!{userid}!{sid}!{ad_id}!{source_type}!!!{phrase_id}`
+AMO ID-formaten för DSP och sökning, sociala medier och handel finns i &quot;[Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id).&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Översikt [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md){target="_blank"}
+>* [Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id){target="_blank"}
 >* [Hantera och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md)
 >* [Inställningar för Baidu-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
 >* [Kampanjinställningar för Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)

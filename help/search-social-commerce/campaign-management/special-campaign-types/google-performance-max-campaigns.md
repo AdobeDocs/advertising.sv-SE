@@ -3,7 +3,7 @@ title: Implementera [!DNL Google Ads] max-kampanjer för prestanda
 description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] max-kampanjer för prestanda.
 exl-id: afad96b2-d4a6-41ee-ad84-38aa1306d73e
 feature: Search Campaign Management
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I [!DNL Google Ads] max-kampanjer, ni inte skapar annonsgrupper, annonser eller nyckelord. I stället anger du en eller flera resursgrupper, som innehåller rubriker, beskrivningar och överförda bilder, logotyper och [!DNL YouTube videos]. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
 
-Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i [!DNL Campaigns] vy; data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå finns även i rapporter och i Adobe Analytics (för annonsörer med en [Analysintegrering](/help/integrations/analytics/overview.md). För att visa prestandadata för maximala prestandakampanjer i [!DNL Analytics]måste kampanjen använda [uppgraderad spårningskod för AMO ID](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md) (som spårar kampanj-ID och annonsgrupps-ID).
+Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i [!DNL Campaigns] vy; data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå finns även i rapporter och i Adobe Analytics (för annonsörer med en [Analysintegrering](/help/integrations/analytics/overview.md). För att visa prestandadata för maximala prestandakampanjer i [!DNL Analytics]måste kampanjen använda [uppgraderad spårningskod för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) (som spårar kampanj-ID och annonsgrupps-ID).
 
 >[!NOTE]
 >

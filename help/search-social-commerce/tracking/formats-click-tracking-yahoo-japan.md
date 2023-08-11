@@ -3,9 +3,9 @@ title: Klickningsspårningsformat för [!DNL Yahoo! Japan Ads]
 description: Läs mer om klickningsspårningsformaten för [!DNL Yahoo! Japan Ads] konton.
 exl-id: 4584f2c4-8090-4931-bd44-0df42f350755
 feature: Search Tracking
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -35,4 +35,4 @@ Exempel:
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
->* [Format för spårningskod för AMO ID](amo-id-tracking-parameter.md)
+>* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
