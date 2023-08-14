@@ -2,9 +2,9 @@
 title: '''[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om olika typer av [!DNL Microsoft Advertising]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: c3d901e7cc2cf61b86f25c5942cbd116b5fca003
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Data är tillgängliga baserat på klickningstiden och baserat på konverterings
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
 >* Data på anbudsenhetsnivå matchar data i annonsnätverket på samma nivå. Annonsnätverkets egna konverteringsdata för högre nivåer kan dock innehålla ytterligare konverteringar som inte är kopplade till de underordnade budenheterna. Data i Sök, Socialt, &amp; Commerce samlas alltid in från nivån för budenheter, så en kampanjnivårapport kanske inte har samma summor som en kampanjnivårapport i annonsnätverket.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
 >* Data är inte tillgängliga på målgrupps- eller geografisk platsnivå och används därför inte för automatisk optimering av RLSA och platsbudsjusteringar.

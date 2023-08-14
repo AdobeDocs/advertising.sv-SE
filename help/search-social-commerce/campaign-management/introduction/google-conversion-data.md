@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] konverteringsdata'
 description: Läs mer om olika typer av [!DNL Google Ads]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
 exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
 feature: Search Campaign Management, Conversions
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](htt
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
 >* Data på anbudsenhetsnivå matchar data i [!DNL Google Ads] på samma nivå. Men [!DNL Google Ads]&#39; egna konverteringsdata för högre nivåer kan innehålla ytterligare konverteringar som inte är kopplade till de underordnade budenheterna. Data i Sök, Socialt, &amp; Commerce samlas alltid in från anbudsenhetsnivån, så en kampanjnivårapport kanske inte har samma summor som en kampanjnivårapport i Google Ads.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
 >* Konverteringsdata är inte tillgängliga för [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]och [!DNL YouTube] annonser. Filtrera ut de här annonstyperna när du jämför data i [!DNL Google Ads] med data i sökningar, sociala medier och handel.
