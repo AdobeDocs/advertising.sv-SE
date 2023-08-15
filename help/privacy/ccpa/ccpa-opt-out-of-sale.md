@@ -1,17 +1,17 @@
 ---
-title: 'Stöd från Adobe Advertising för Kaliforniens konsumentintegritetslag: Konsumentsupport'
-description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning.
+title: 'Stöd för Kaliforniens konsumentsekretesslag (Privacy Act) för Adobe Advertising: Opt-Out-of-Sale Support'
+description: Läs mer om stöd för att hämta in förfrågningar om att avanmäla sig från försäljning till konsumenter.
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Support for the California Consumer Privacy Act: Konsumentens avanmälan från försäljningssupport
+# Adobe Advertising Support for the California Consumer Privacy Act: Consumer Opt-Out of Sale Support
 
 *För Adobe Advertising Demand Side Platform (DSP)*
 
@@ -27,18 +27,18 @@ Som tjänsteleverantör ger Adobe Advertising stöd till ert företag så att de
 
 I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur du kan förmedla begäran om avanmälan till Adobe Advertising och hur du hämtar rapporter om din organisations begäran om avanmälan från försäljning.
 
-Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative, och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md).
+Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative, och [!DNL Advertising DCO] ge stöd för åtkomst till och radering av personuppgifter för konsumenter, se [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Data Access and Delete Support](/help/privacy/ccpa/ccpa-access-delete.md).
 
 Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Kommunicera förfrågningar om avanmälan från försäljning till Adobe Advertising
+## Kommunicera förfrågningar om konsumentavanmälan utanför försäljning till Adobe Advertising
 
 Du kan förmedla önskemål om avanmälan från försäljning till konsumenter genom att antingen:
 
 * ett avanmälningssegment för CCPA som skapats i DSP
-* Adobe Experience Platform Privacy Service API
+* ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API
 
-### Metod 1: Kommunicera CCPA-begäran om avanmälan vid försäljning med en [!UICONTROL CCPA Opt-Out-of-Sale] Segment i DSP
+### Metod 1: Kommunicera CCPA-förfrågningar om att avanmäla sig från försäljning med en [!UICONTROL CCPA Opt-Out-of-Sale] Segment i DSP
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 1. Logga in på annonsörens konto i DSP [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Skapa ett CCPA-segment för avanmälan och implementera segmentpixeln för att hämta avanmälningsbegäranden](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
-### Metod 2: Kommunicera CCPA-förfrågningar om avanmälan vid försäljning med Adobe Experience Platform Privacy Service API
+### Metod 2: Kommunicera CCPA-förfrågningar om att avanmäla sig från försäljning med hjälp av Adobe Experience Platform Privacy Service API
 
 *Annonsörer tilldelade endast ett Adobe Experience Cloud-organisations-ID*
 
@@ -65,7 +65,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 
    >[!IMPORTANT]
    >
-   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla era Adobe-annonskonton finns - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
+   >Kontakta Adobe Advertising och bekräfta att alla era Adobe Advertising-konton är korrekta - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
 1. Använd Adobe Experience Platform Privacy Service API för att [skicka begäran om avanmälan](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga förfrågningar.
 
@@ -79,16 +79,16 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 
 ## Hämtar rapporter om konsumenter som har lämnat in begäran om avanmälan vid försäljning
 
-Adobe Advertising skapar månadsrapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segment för avanmälan från försäljning som skapats i DSP och alla inskickade data via Privacy Services-API. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
+Adobe Advertising genererar månadsrapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segment för avanmälan från försäljning som skapats i DSP och alla inskickade data via Privacy Services-API. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
 
-Du kan hämta länkar till de månadsrapporter som har skapats under de senaste tre månaderna, antingen från DSP eller genom att använda DSP Advertising [!DNL Trafficking API]. Varje länk gäller i sju dagar, men uppdateras varje gång en kund försöker hämta en länk.
+Du kan hämta länkar till de månadsrapporter som har skapats under de senaste tre månaderna, antingen från DSP eller via DSP Advertising [!DNL Trafficking API]. Varje länk gäller i sju dagar, men uppdateras varje gång en kund försöker hämta en länk.
 
-### Metod 1: Få rapporter om kundernas avanmälan till utförsäljning inom DSP
+### Metod 1: Hämta rapporter om konsumentens avanmälan från försäljning inom DSP
 
 1. Logga in på annonsörens konto i DSP [https://advertising.adobe.com/](https://advertising.adobe.com/).
 1. [Hämta rapporterna](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
-### Metod 2: Hämta rapporter om konsumentens avanmälan vid försäljning med hjälp av DSP [!DNL Trafficking API]
+### Metod 2: Hämta rapporter om konsumentens avanmälan från försäljning med hjälp av DSP [!DNL Trafficking API]
 
 Den här funktionen är tillgänglig för organisationer som använder [!DNL Trafficking API]. Dokumentationen för [!DNL Trafficking API] för mer information.
 
