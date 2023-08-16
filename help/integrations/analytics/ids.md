@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 38f94db19b94f4cb7a6965ccf5da6d83a31154af
+source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,11 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
 * Infoga-funktionen på serversidan är inte implementerad:
 
-   * DSP kunder:
+   * DSP: [JavaScript-kod](javascript.md) registrerar automatiskt klickningar och genomgångar. När en webbläsare inte stöder cookies från tredje part kan du fortfarande spåra klickbaserade konverteringar för följande annonstyper:
 
       * För [!DNL Flashtalking] annonstaggar, infoga ytterligare makron manuellt per &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md).&quot;
 
       * För [!DNL Google Campaign Manager 360] annonstaggar, infoga ytterligare makron manuellt per &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
-
-  <!--  * For all other ads, XXXX. -->
 
    * Kunder inom sökning, sociala medier och handel:
 
