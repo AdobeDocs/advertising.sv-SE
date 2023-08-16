@@ -3,9 +3,9 @@ title: Advertising DSP Macros
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | Makro | Ersättningsbeskrivning | Typ |
 | ----- | ----------------------- | ---- |
 | `${TM_ACCOUNT_ID}` | Konto-ID. | heltal |
-| `${TM_AD_ID}` | Annonstangenten (adKey). | string |
+| `${TM_AD_ID}` | Annonsnyckeln (adKey). | string |
 | `${TM_AD_ID_NUM}` | Annons-ID. | heltal |
 | `${TM_ADVERTISER_ID}` | Annonsörs-ID. | heltal |
 | `${TM_CAMPAIGN_ID}` | Kampanjnyckeln. | string |
@@ -39,9 +39,9 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | `${TM_PLACEMENT_ID_NUM}` | Placerings-ID. | heltal |
 | `${TM_RANDOM}` | Cachebuster: ett slumpmässigt tal mellan 1 och 100000. | long |
 | `${TM_SESSION_ID}` | Sessionens ID, som motsvarar en enda hämtning av annonstaggen. | string |
-| `${TM_SITE_DOMAIN_URLENC}` | Den sidunderdomän som tolkas från URL:en i anbudsförfrågan. URL-kodad. Stöds inte för annonser i banner, click-to-play. | string |
+| `${TM_SITE_DOMAIN_URLENC}` | Den sidunderdomän som tolkas från URL:en i anbudsförfrågan, URL-kodad. Stöds inte för annonser i banner, click-to-play. | string |
 | ` ${TM_SITE_NAME}` | Platsnamnet för placeringen. | string |
-| `${TM_SITE_URL_URLENC}` | Den URL som skickades i anbudsförfrågan. URL-kodad. Stöds inte för annonser i banner, click-to-play. | string |
+| `${TM_SITE_URL_URLENC}` | Den URL som skickades i anbudsförfrågan, URL-kodad. Stöds inte för annonser i banner, click-to-play. | string |
 | `${TM_SITE_ID_NUM}` | Platsens ID för placeringen. | heltal |
 | `${TM_TIMESTAMP}` | Unix-tidsstämpeln anger hur många sekunder som har gått sedan midnatt (00:00 UTC) den 1 januari 1970. | long |
 | ` ${TM_VIDEO_DURATION}` | Annonsvideons längd i sekunder. | heltal |
@@ -60,7 +60,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | `${CS_DEVICE_MODEL}` | ([!DNL ComScore]) Enhetens modellnamn, URL-kodat. | string |
 | `${CS_IMPLEMENTATION_TYPE}` | ([!DNL ComScore]) I vilken miljö annonsen betjänades:<ul><li>`a` = mobilapplikation</li><li>`b` = mobilwebbplats</li></ul> | sträng (`a` eller `b`) |
 | `${NS_PLATFORM_ID}` | ([!DNL Nielsen]) Plattforms-ID, som motsvarar enhetens operativsystem:<ul><li>`ios`= [!DNL Apple iOS]</li><li>`android` = [!DNL Google Android]</li><li>`windows` = [!DNL Windows Mobile]</li><li>`blackberry` = [!DNL Blackberry]</li> <li>`other` när plattformen inte är något av ovanstående</li></ul> | string |
-| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Enhetstypen som annonsen visades på:<ul><li>`TAB` = surfplatta</li><li>`PHN` = mobil</li><li>`computer` = dator</li></ul> | string |
+| `${NS_DEVICE_GROUPING}` | ([!DNL Nielsen]) Enhetstypen som annonsen visades på:<ul><li>`TAB` = tablet</li><li>`PHN` = mobil</li><li>`computer` = dator</li></ul> | string |
 | `${UOO}` | ([!DNL Nielsen]) Om användaren har valt bort annonsspårning eller inte:<ul><li>`1` (DNT-flagga = 1) = användaren har valt bort annonsspårning</li><li>`0` (DNT-flagga = 0) = användaren har angett annonsspårning</li></ul> | heltal (`0` eller `1`) |
 | `${TM_BUNDLE}` | The [!DNL iOS] eller [!DNL Android] app store bundle-ID. Exempel: com.zynga.wwf2.free eller id804379658 | string |
 | `gdpr=${GDPR_ENFORCED}&gdpr_consent=${GDPR_CONSENT}` | `gdpr=${GDPR_ENFORCED}` anger om anbudsgivaren fastställer att anbudsförfrågan kommer från EU:s ursprung och kräver att GDPR verkställs:<ul><li>`1` = GDPR ska verkställas</li><li>`0` = GDPR ska inte verkställas</li></ul>`gdpr_consent=${GDPR_CONSENT}` är det värde för samtycke som skickas från leveranspartnern i ankommande anbudsförfrågan:<ul><li>I de flesta fall är detta en base64url-kodad medgivandesträng, eller daisybit (exempel: BN5lERiOMYEdiAKAWXEND1HoSBE6CAFAApAMgBkIDIgM0AgOJxAnQA)</li><li>`0` = inget samtycke</li><li>`1` = samtycke</li></ul> | daisybit eller heltal |
@@ -69,11 +69,11 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 
 ## Klicka på Makron för visningsannonser från tredje part
 
-För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar måste DSP ha ett musklickningsmakro. Endast en version av makrot krävs. vilket makro det gäller beror på vilken typ av tagg det är.
+För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar måste DSP ha ett musklick. Endast en version av makrot krävs. Det relevanta makrot beror på taggens typ.
 
 | Makro | Ersättningsbeskrivning | Typ |
 | ----- | ----------------------- | ---- |
-| `${TM_CLICK_URL}` | Den omdirigerings-URL som gör det möjligt för annonsservrar att spåra och räkna annonsklickningar på plattformen. | string |
+| `${TM_CLICK_URL}` | Den omdirigerings-URL som gör att annonsservrar kan spåra och räkna annonsklickningar på plattformen. | string |
 | `${TM_CLICK_URL_URLENC}` | Den omdirigerings-URL som gör det möjligt för annonsservrar som kräver URL-kodning att spåra och räkna annonsklickningar på plattformen. | string |
 
 {style="table-layout:auto"}
@@ -85,9 +85,13 @@ DSP infogar automatiskt klickmakron i en tredjeparts visningstagg när du:
 
 Om ett klickande makro saknas när du skapar en visningsannons visas ett varningsmeddelande, som uppmanar dig att manuellt infoga rätt visningsklicksmakro i rätt område i taggen.
 
+## [!DNL Analytics for Advertising] Makron
+
+Ytterligare makron finns specifikt för [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) kunder, se &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md)och &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
 ## Felsökning av makrofel
 
-När du lägger till makron i koden måste du använda makrots exakta syntax. När du validerar makrona kontrollerar DSP att makrot matchar ett av de giltiga makrona.
+När du lägger till makron i koden måste du använda makrots exakta syntax. När du validerar makrona kontrollerar DSP att makrot exakt matchar något av de giltiga makrona.
 
 Fel genereras om tecken saknas i början eller slutet av makronamnet. Du får till exempel ett felmeddelande om:
 
@@ -103,4 +107,3 @@ Fel genereras om tecken saknas i början eller slutet av makronamnet. Du får ti
 >* [Inbyggda annonsinställningar](/help/dsp/campaign-management/ads/ad-settings-native.md)
 >* [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
 >* [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
-
