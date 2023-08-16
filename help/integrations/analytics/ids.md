@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1653'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,20 @@ ht-degree: 0%
 
 Adobe Advertising använder två ID:n för prestandaspårning på plats: *EF ID* och *AMO-ID*.
 
-När ett annonsintryck inträffar skapar Adobe Advertising värdena för AMO ID och EF ID och lagrar dem. När en besökare som har sett en annons komma in på webbplatsen utan att klicka på en annons, [!DNL Analytics] anropar dessa värden från Adobe Advertising via [!DNL Analytics for Advertising] JavaScript-kod. För genomskinlig trafik [!DNL Analytics] genererar ett extra ID (`SDID`), som används för att sammanfoga EES ID och AMO ID till [!DNL Analytics]. För genomklickningstrafik inkluderas dessa ID:n i landningssidans URL med hjälp av `s_kwcid` och `ef_id` frågesträngparametrar.
+När ett annonsintryck inträffar skapar Adobe Advertising värdena för AMO ID och EF ID och lagrar dem. När en besökare som har sett en annons komma in på webbplatsen utan att klicka på en annons, [!DNL Analytics] anropar dessa värden från Adobe Advertising via [!DNL Analytics for Advertising] JavaScript-kod. För genomskinlig trafik [!DNL Analytics] genererar ett extra ID (`SDID`), som används för att sammanfoga EES ID och AMO ID till [!DNL Analytics]. För genomklickningstrafik inkluderas dessa ID:n i landningssidans URL med hjälp av `ef_id` och `s_kwcid` (för AMO ID) frågesträngsparametrar.
 
 Adobe Advertising skiljer mellan klicknings- och vyposter på webbplatsen enligt följande kriterier:
 
 * En genomsiktspost hämtas när en användare besöker webbplatsen efter att ha visat en annons, men inte klickat på den. [!DNL Analytics] spelar in en genomskinlig vy om två villkor uppfylls:
+
    * Besökaren har ingen klickfrekvens för en [!DNL DSP] eller [!DNL Search, Social, & Commerce] under [klicka på uppslagsfönstret](#lookback-a4adc).
+
    * Besökaren har sett minst en [!DNL DSP] under [visningsfönster](#lookback-a4adc). Det sista intrycket skickas som en genomgång.
+
 * En klickbar post hämtas när en besökare klickar på en annons innan han/hon kommer in på webbplatsen. [!DNL Analytics] hämtar en klickning genom när något av följande inträffar:
+
    * URL:en innehåller ett EF-ID och AMO-ID som Adobe Advertising har lagt till i landningssidans URL.
+
    * URL:en innehåller inga spårningskoder, men JavaScript-koden i Adobe Advertising identifierar ett klick inom de senaste två minuterna.
 
 ![Adobe Advertising vybaserad [!DNL Analytics] integration](/help/integrations/assets/a4adc-view-through-process.png)
@@ -100,6 +105,38 @@ EF ID:n omfattas av den unika identifierargränsen på 500 kB i Analysis Workspa
 AMO ID spårar varje unik annonskombination på en mindre detaljerad nivå och används för [!DNL Analytics] dataklassificering och konsumtion av annonsstatistik (t.ex. visningar, klickningar och kostnader) från Adobe Advertising. AMO-ID:t lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller rVar dimension (AMO ID) och används exklusivt för rapportering i [!DNL Analytics].
 
 AMO-ID:t kallas även `s_kwcid`, som ibland uttalas som[!DNL the squid].&quot;
+
+### Sätt att implementera AMO-ID
+
+Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
+
+* (Rekommenderas) Funktionen för infogning på serversidan implementeras.
+
+   * DSP: Pixelservern lägger automatiskt till parametern s_kwcid i landningssidans suffix när en användare tittar på en displayannons med pixeln Adobe Advertising.
+
+   * Kunder inom sökning, sociala medier och handel:
+
+      * För [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] om inställningen är aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med Adobe Advertising.
+
+      * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] om inställningen är inaktiverad lägger du till parametern manuellt i tilläggsparametrarna på kontonivån, som läggs till i bas-URL:erna.
+
+* Infoga-funktionen på serversidan är inte implementerad:
+
+   * DSP kunder:
+
+      * För [!DNL Flashtalking] annonstaggar, infoga ytterligare makron manuellt per &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md).&quot;
+
+      * För [!DNL Google Campaign Manager 360] annonstaggar, infoga ytterligare makron manuellt per &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+
+  <!--  * For all other ads, XXXX. -->
+
+   * Kunder inom sökning, sociala medier och handel:
+
+      * För ([!DNL Google Ads] och [!DNL Microsoft® Advertising]), lägger du till AMO ID-parametern manuellt i landningssidans suffix.
+
+      * För annonser i alla andra annonsnätverk lägger du manuellt till parametern AMO ID i dina tilläggsparametrar på kontonivå, som lägger till den i dina bas-URL:er.
+
+Om du vill implementera infogningsfunktionen på serversidan eller fastställa det bästa alternativet för din verksamhet kan du tala med ditt Adobe-kontoteam.
 
 ### AMO ID-format {#amo-id-formats}
 
