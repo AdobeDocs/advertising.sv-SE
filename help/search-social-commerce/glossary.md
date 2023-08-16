@@ -3,7 +3,7 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
 feature: Search Introduction
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
 workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **annonsvariation:** Alla annonser inom en annonsgrupp eller annonsstrategi.
 
-**AMO-ID:** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
+**[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
 
 **budenhet:** En söknings-, social- och handelsterm för en enhet där anbud läggs. För de flesta kampanjer i de flesta nätverk är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sökannonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
 
