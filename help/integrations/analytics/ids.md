@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 426f6e25f0189221986cc42d186bfa60f5268ef1
+source-git-commit: 21acf015a511c578a95e938e32fb170287f91555
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
       * För [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] om inställningen är aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med Adobe Advertising.
 
-      * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] om inställningen är inaktiverad lägger du till parametern manuellt i tilläggsparametrarna på kontonivån, som läggs till i bas-URL:erna.
+      * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] inställning inaktiverad, manuellt [lägg till parametern i dina tilläggsparametrar på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), som lägger till den till dina bas-URL:er.
 
 * Infoga-funktionen på serversidan är inte implementerad:
 
@@ -132,9 +132,9 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
    * Kunder inom sökning, sociala medier och handel:
 
-      * För ([!DNL Google Ads] och [!DNL Microsoft® Advertising]), lägger du till AMO ID-parametern manuellt i landningssidans suffix.
+      * För ([!DNL Google Ads] och [!DNL Microsoft® Advertising]), lägger du till AMO ID-parametern manuellt i landningssidans suffix, helst på sidan [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) såvida inte olika spårning för enskilda kontokomponenter krävs.
 
-      * För annonser i alla andra annonsnätverk lägger du manuellt till parametern AMO ID i dina tilläggsparametrar på kontonivå, som lägger till den i dina bas-URL:er.
+      * För annonser i alla andra annonsnätverk, manuellt [lägg till parametern AMO ID i tilläggsparametrarna på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md), som lägger till den till dina bas-URL:er.
 
 Om du vill implementera infogningsfunktionen på serversidan eller fastställa det bästa alternativet för din verksamhet kan du tala med ditt Adobe-kontoteam.
 
