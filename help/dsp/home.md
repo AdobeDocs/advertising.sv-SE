@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ca9425333731ada692c68f08b20f070265eb3409
+source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
@@ -15,10 +15,6 @@ ht-degree: 0%
 # Nyheter
 
 Följande funktioner är nya eller nyligen ändrade.
-
-<!--
-| ?? August 2023| Placement Forecasting | The [!UICONTROL Forecast] section of the placement settings includes a new XXX section, which indicates XXX. | &mdash; |
--->
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
@@ -74,7 +70,7 @@ Följande funktioner är nya eller nyligen ändrade.
 | 7 /June 2021 | Help | Instructions are available for running ads using programmatic guaranteed deals with publishers on [!DNL FreeWheel]. | See "[Overview of Setting up Programmatic Guaranteed Deals in [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)," "[Submit an Ad for a Programmatic Guaranteed Deal to [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)," "[Check the Status of Ads for [!DNL Freewheel] Programmatic Guaranteed Deals](/help/dsp/inventory/freewheel-check-status.md)," and "[Error Codes for [!DNL FreeWheel] Ad Submissions](/help/dsp/inventory/freewheel-error-codes.md)." |
 | 27 May 2021 | Help | Guidelines are available for acceptable health-related audience segments and tactics to use as alternatives to targeting health-related audience segments. | See "[Acceptable Health Segment Guidelines](/help/policies/health-segment-guidelines.md)." |
 | 26 May 2021 | Help | The chapter "Integrations with Adobe Experience Cloud" is now a separate guide, available from the [Adobe Advertising documentation homepage](https://experienceleague.adobe.com/docs/advertising.html). The new guide includes a new subchapter on "Working in [!DNL Analytics Marketing Channels]."<br>The table of contents for this DSP Guide includes a link to the new guide. | See "[Integrations with Adobe Experience Cloud](/help/integrations/home.md)." |
-| 24 May 2021 | Help | In the "Campaign Management" chapter, new topics are available on how to review and edit key placement settings for a campaign using Excel QA spreadsheets. | See "[About Correcting Placement Settings for a Campaign Using Spreadsheets](/help/dsp/campaign-management/qa/qa-about.md), "[Download Placement Settings for a Campaign](/help/dsp/campaign-management/qa/qa-sheet-download.md)," "[Upload Placement Settings for a Campaign](/help/dsp/campaign-management/qa/qa-sheet-upload.md), and "[Columns in Downloaded/Uploaded Spreadsheets](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
+| 24 May 2021 | Help | In the "Campaign Management" chapter, new topics are available on how to review and edit key placement settings for a campaign using Excel QA spreadsheets. | See "[About Correcting Placement Settings Using Spreadsheets](/help/dsp/campaign-management/qa/qa-about.md), "[Download Placement Settings in a Spreadsheet](/help/dsp/campaign-management/qa/qa-sheet-download.md)," "[Upload Placement Settings in a Spreadsheet](/help/dsp/campaign-management/qa/qa-sheet-upload.md), and "[Columns in Downloaded/Uploaded Spreadsheets](/help/dsp/campaign-management/qa/qa-sheet-columns.md). |
 | 5 May 2021 | Package Settings | A new Pacing Fill Strategy option, 'Slightly Ahead," is available and is the default for new packages. This strategy accelerates delivery so that it’s 55-65% complete halfway through the flight duration. | See "[Package Settings](/help/dsp/campaign-management/packages/package-settings.md)." |
 | 17 March 2021 | Help | The "Campaign Management" chapter has been expanded to include many more procedures and references. | In the table of contents, open the "Campaign Management" chapter and subsections. |
 | 10 March 2021 | Inventory | You can no longer create [!UICONTROL Smart Ad Serving] deals using VAST tags. Instead, ask your publisher if they can run your private deal via a deal ID. You can import deal IDs directly from the publisher using the [!UICONTROL Deal ID inbox] or enter your deal details manually.<br><br>Your existing Smart Ad Serving deals are still available but will be sunset later this year. | See "[About the [!UICONTROL Deal ID inbox]](/help/dsp/inventory/deal-id-inbox-about.md)" and "[Manually Create [!UICONTROL Deal ID] Details](/help/dsp/inventory/deal-id-create.md)" |

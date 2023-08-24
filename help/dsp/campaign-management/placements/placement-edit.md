@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 >
 > Om du bara vill redigera placeringsnamn, status, högsta bud och budget läser du &quot;[Redigera inställningar för tangentmontering snabbt](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
@@ -38,7 +38,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 Använd bara det här alternativet om du vill använda samma ändringar på alla markerade placeringar.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
@@ -71,8 +71,8 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
       * **Pausa** (för att pausa annonser)
 
       * **Ta bort** (för att ta bort angivna värden)
-   1. Redigera [placeringsinställning](placement-settings.md).
 
+   1. Redigera [placeringsinställning](placement-settings.md).
 
 1. Klicka på **[!UICONTROL Submit]**.
 
@@ -87,6 +87,5 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Om att korrigera placeringsinställningar för en kampanj med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
+>* [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-

@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: b505a40d04fc57fce245d111f58a614bd6756c65
+source-git-commit: 99f580547f4f0463418dfca52481e58927339169
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 5%
@@ -54,7 +54,7 @@ ht-degree: 5%
       + [Duplicera ett paket](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Koppla en placering till ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md)
-      + [Arkivera eller arkivera ett paket](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
+      + [Arkivera eller avarkivera ett paket](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
    + Placeringar {#placements}
@@ -88,7 +88,7 @@ ht-degree: 5%
          + [Inställningar för ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
          + [Visa annonsinställningar](/help/dsp/campaign-management/ads/ad-settings-display.md)
          + [Inställningar för mobilannonsering](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
-         + [Annonsinställningar för inbyggd visning](/help/dsp/campaign-management/ads/ad-settings-native.md)
+         + [Annonsinställningar för inbyggd bildskärm](/help/dsp/campaign-management/ads/ad-settings-native.md)
          + [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
@@ -107,8 +107,8 @@ ht-degree: 5%
       + [Hantera datavisualiseringar](/help/dsp/campaign-management/reports/campaign-data-visualization-manage.md)
    + Korrigera placeringsinställningar med kalkylblad {#qa-spreadsheet}
       + [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Hämta placeringsinställningar för en kampanj](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Överför placeringsinställningar för en kampanj](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
+      + [Hämta placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-download.md)
+      + [Överför placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
       + [Kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP makron](/help/dsp/campaign-management/macros.md)
    + [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
@@ -148,10 +148,10 @@ ht-degree: 5%
       + [Målgruppsinställningar](/help/dsp/audiences/audience-settings.md)
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Källor {#sources}
-      + [Om aktivering av autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
+      + [Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
       + [Aktivera autentiserade segment från varaktiga ID-partners](/help/dsp/audiences/sources/source-durable-id.md)
       + [Skapa en målgruppskälla för att aktivera förstahandspubliker](/help/dsp/audiences/sources/source-create.md)
-      + [Inställningar för målgruppskälla](/help/dsp/audiences/sources/source-settings.md)
+      + [Inställningar för målkälla](/help/dsp/audiences/sources/source-settings.md)
    + [Tillgängliga dataproviders från tredje part](/help/dsp/audiences/third-party-data-providers.md)
 + Lager {#inventory}
    + [Översikt över inventeringsfunktioner](/help/dsp/inventory/inventory-overview.md)
@@ -159,14 +159,14 @@ ht-degree: 5%
    + [SSP-partners](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] Lager {#on-demand}
       + [Om [!DNL On Demand] Premiumlager](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Tillgänglig [!DNL On Demand] Premium Inventory Publishers {#publishers}
+      + Tillgänglig [!DNL On Demand] Förstklassiga lager {#publishers}
          + [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
       + [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Devices](/help/dsp/inventory/on-demand-inventory-subscribe.md)
       + [Begäran igen [!DNL On Demand] Premium Inventory Devices](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [Visa din [!DNL On Demand] Avtalsförfrågningar och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [Visa din status [!DNL On Demand] Avtalsförfrågningar och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Privat lager {#private-inventory}
       + [Om privat lager](/help/dsp/inventory/private-inventory-about.md)
       + Avtals-ID {#deal-ids}
@@ -174,12 +174,12 @@ ht-degree: 5%
             + [Om [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [Godkänn ett avtal i [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
          + Manuellt angivna avtal-ID:n {#manual}
-            + [Skapa manuellt [!UICONTROL Deal ID] Detaljer](/help/dsp/inventory/deal-id-create.md)
+            + [Skapa manuellt [!UICONTROL Deal ID] Information](/help/dsp/inventory/deal-id-create.md)
             + [Manuell [!UICONTROL Deal ID] Inställningar](/help/dsp/inventory/deal-id-settings.md)
          + Programmatiska garanterade erbjudanden {#programmatic-guaranteed-deal}
             + [Översikt över programmatiska garanterade erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
-            + [Ställ in en programgarantiavtal](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
+            + [Ställ in en programgaranterad affär](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] Programmatiska garanterade erbjudanden {#freewheel}
                + [Översikt över hur man ställer in garantierbjudanden för programmatiska inköp i [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [Skicka in en annons för en programmatisk garanterad affär till [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)

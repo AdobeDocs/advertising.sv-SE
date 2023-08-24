@@ -1,20 +1,22 @@
 ---
-title: Hämta placeringsinställningar för en kampanj
-description: Lär dig hur du hämtar placeringsinställningar för en kampanj med Excel QA-kalkylblad.
+title: Hämta placeringsinställningar i ett kalkylblad
+description: Lär dig hur du hämtar placeringsinställningar till kalkylblad.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
+source-git-commit: d8c59b2c39a4c0f7c9dca92cdc8081de7debf629
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-# Hämta placeringsinställningar för en kampanj
+# Hämta placeringsinställningar i ett kalkylblad
 
-Du kan hämta placeringsinställningarna för en kampanj i XLSX-format (Excel-kalkylblad).
+Du kan hämta placeringsinställningar i XLSX-format (Excel-kalkylblad).
 
 Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den hämtade filen och [ladda upp ändringarna](qa-sheet-upload.md) till DSP.
+
+## Hämta inställningar för alla placeringar i en kampanj
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
@@ -34,9 +36,23 @@ Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den h
 
    Filen sparas i mappen Downloads i webbläsaren. Se &quot;[Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)&quot; om du vill se en lista över de kolumner som ingår.
 
+## Hämta inställningar för en eller flera placeringar
+
+1. Klicka på **[!UICONTROL Campaigns]**.
+
+1. Klicka på kampanjens namn.
+
+1. Klicka på **[!UICONTROL Placements]**.
+
+1. Markera kryssrutan bredvid varje placering vars inställningar du vill hämta.
+
+1. Klicka på i verktygsfältet för gruppåtgärder **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]**.
+
+Filen sparas automatiskt i webbläsarens hämtningsmapp. Se &quot;[Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)&quot; om du vill se en lista över de kolumner som ingår.
+
 >[!MORELIKETHIS]
 >
->* [Om att korrigera placeringsinställningar för en kampanj med kalkylblad](qa-about.md)
->* [Överför placeringsinställningar för en kampanj](qa-sheet-upload.md)
+>* [Om att korrigera placeringsinställningar med kalkylblad](qa-about.md)
+>* [Överför placeringsinställningar i ett kalkylblad](qa-sheet-upload.md)
 >* [Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
