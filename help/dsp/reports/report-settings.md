@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
+source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -126,11 +126,13 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 * *[!UICONTROL sFTP]:* Skicka den färdiga rapporten till en eller flera SFTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL FTP]:* Skicka den färdiga rapporten till en eller flera FTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL FTP SSL](I betaversion):* Skicka den färdiga rapporten till en eller flera FTP SSL-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
-* *[!UICONTROL Email]:* Ange e-postadresser dit slutförda rapporter eller meddelanden ska skickas om rapporten avbryts på grund av fel. Om du vill ange flera adresser avgränsar du dem med kommatecken eller mellanslag.
+* *[!UICONTROL Email]:* Ange e-postadresser dit slutförda rapporter eller meddelanden ska skickas om rapporten avbryts på grund av fel.
 
 >[!NOTE]
 >
 > Du kan inte ändra måltypen när du har sparat rapporten.
+
+**[!UICONTROL Email]:** (Endast typ av e-postmål) Ange adressen för varje adress och klicka på **+**.
 
 **[!UICONTROL Destination Name]:** (Endast måltyperna S3, FTP, sFTP och FTP SSL) Namnen på rapportdestinationerna som den anpassade rapporten ska skickas till.
 
@@ -148,9 +150,13 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Frequency]:** (För varje [!UICONTROL Destination Name]) Hur ofta ska rapporten skickas till destinationen: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, eller *[!UICONTROL Monthly]*.
 
+**[!UICONTROL Start Day]:** (För varje [!UICONTROL Destination Name] med [!UICONTROL Frequency] av *[!UICONTROL Weekly]* eller *[!UICONTROL Monthly]*) Vilken dag rapporten ska genereras. För veckorapporter väljer du veckodag. För månadsrapporter väljer du den numeriska dagen i månaden.
+
 ## [!UICONTROL Save Report] Avsnitt
 
-**[!UICONTROL Send & Save]:** När rapporten ska skickas: *[!UICONTROL On Schedule]* eller *[!UICONTROL Run Now]*. Schemalagda rapporter levereras senast 09:00 i kontots tidszon.
+**[!UICONTROL When to Generate]:** När rapporten ska genereras: *[!UICONTROL On Schedule]* eller *[!UICONTROL Run Now]*. Schemalagda rapporter levereras senast 09:00 i kontots tidszon.
+
+**[!UICONTROL End Date]:** Rapportens förfallodatum, som kan vara upp till fyra månader bort. Innan en rapport förfaller får alla angivna e-postmottagare ett e-postmeddelande sju dagar och en dag före förfallodatumet. Om du vill behålla rapporten längre ändrar du förfallodatumet i rapportinställningarna.
 
 >[!NOTE]
 >
