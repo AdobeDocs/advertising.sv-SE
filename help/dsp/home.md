@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 095af9bbf0b4f69e626a44cf3afe35d50b3e0b81
+source-git-commit: 237b37a03664abab00c9fd4b68a564a0f57cdc5c
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 23 augusti 2023 | [!UICONTROL Placements] | Nu kan du snabbt associera flera annonser med placeringar genom att ladda ned en kalkylbladsfil för en kampanj eller för en eller flera placeringar och redigera filen så att den innehåller värden i den nya[!UICONTROL Attached Ad ID]och sedan överföra den redigerade filen. Använd kolumnen för att lägga till annonser i placeringen men inte ta bort dem.<br><br>Hämta en lista med annonsnamn och associerade annonser [!UICONTROL Ad ID]s, gå till [!UICONTROL Ads] skapa en anpassad vy som innehåller [!UICONTROL ID] och exportera sedan data. | Se &quot;[Hämta placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot;[Placera kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; och &quot;[Överför placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Se även &quot;[Exportera data från en Campaign Management-vy](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 | 19 juli 2023 | Lager | Nu kan ni köra annonser som hanteras av utgivaren för programmatiska garanterade avtal med Google Authorized Buyers SSP. Genom att publicera era annonser direkt hos utgivaren kan ni i stället för i DSP dra nytta av anpassade multimedieannonsformat. Anpassade annonseringsformat körs vanligtvis via direkta reservationer, så möjligheten att välja annonser som hanteras av utgivaren i DSP gör att ni också kan ändra era direkta reservationsbudgetar till det programmatiska ekosystemet. | Se &quot;[Om programmatiska erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)och &quot;[Ställ in en programgaranterad affär](/help/dsp/inventory/programmatic-guaranteed-set-up.md).&quot; |
 | 19 juli 2023 | Rapportering | Den nya [!UICONTROL Household Conversions Report] visar genomskinliga konverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. | Se &quot;[Om rapporter](/help/dsp/reports/report-about.md)och &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md).&quot; |
 | 29 maj 2023 | [!UICONTROL Campaigns] | Nu kan ni pausa eller aktivera kampanjer, paket och annonser. Du kan redan pausa och aktivera placeringar. | Se &quot;[Pausa eller aktivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-pause-activate.md),&quot;[Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md),&quot; och &quot;[Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md).&quot; |
