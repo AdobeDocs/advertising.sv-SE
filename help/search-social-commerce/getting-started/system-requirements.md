@@ -3,9 +3,9 @@ title: Systemkrav
 description: Läs mer om krav för program och konton.
 exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,13 @@ Du behöver följande information om programvara och konto.
 
 Du behöver ett användarnamn och ett lösenord för att kunna logga in. Ditt Adobe-kontoteam konfigurerar ditt användarkonto och skapar ditt användarnamn och lösenord.
 
-## Språkinställningar för dator och webbläsare
+## Inställningar för dator och webbläsare
+
+### Inställningar för webbläsarwebbplats
+
+Om du vill visa förhandsvisningar av bilder för vissa annonstyper/resurstyper inaktiverar du annonsblockerare/innehållsblockerare för `efrontier.com` genom att tillåta ett undantag för platsen. Hantera annonsblockerare i webbläsarens inställningar för webbplats/webbplats eller (i Firefox) genom att redigera inställningarna för de webbläsartillägg för annonsblockering som du har installerat.
+
+### Språkinställningar för dator och webbläsare
 
 Följande information avgör vilka teckenuppsättningar som ska användas och vilka format som ska användas för att visa tal, datum, tid och valutor:
 

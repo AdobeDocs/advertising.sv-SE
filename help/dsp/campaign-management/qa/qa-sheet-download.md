@@ -3,7 +3,7 @@ title: Hämta placeringsinställningar för en kampanj
 description: Lär dig hur du hämtar placeringsinställningar för en kampanj med Excel QA-kalkylblad.
 feature: DSP Placements
 exl-id: dd65eec8-9616-4eca-b6b9-b904b3e65141
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 735bbe90e313dfe93408d72875654830d96f0889
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Du kan hämta placeringsinställningarna för en kampanj i XLSX-format (Excel-ka
 
 Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den hämtade filen och [ladda upp ändringarna](qa-sheet-upload.md) till DSP.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Gör något av följande:
 
@@ -31,7 +31,8 @@ Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den h
    * Klicka på **[!UICONTROL Download].**
 
    * Klicka på till höger om den övre menyraden ![Jobb](/help/dsp/assets/downloads.png). Klicka **[!UICONTROL Download]** bredvid jobbet.
-   Filen sparas i webbläsarens hämtningsmapp. Se &quot;[Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)&quot; om du vill se en lista över de kolumner som ingår.
+
+   Filen sparas i mappen Downloads i webbläsaren. Se &quot;[Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)&quot; om du vill se en lista över de kolumner som ingår.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +40,3 @@ Om det behövs kan du redigera senare [välj fält](qa-sheet-columns.md) i den h
 >* [Överför placeringsinställningar för en kampanj](qa-sheet-upload.md)
 >* [Kolumner i hämtade/överförda kalkylblad](qa-sheet-columns.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-

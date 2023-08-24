@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 54e60a47c54eaac687fd0b385a94b25818b66b71
+source-git-commit: fbe955795e6c451313f80056ca65ad210f752ddf
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 **\[Datumintervall\]:** Datumintervallet som data ska genereras för. Antalet tillgängliga dagar varierar beroende på rapport och valda dimensioner. Välj ett alternativ:
 
-* **[!UICONTROL Previous N days]:** Inkluderar data för ett visst antal dagar före idag.
+* **[!UICONTROL Previous N days]:** Inkluderar data för ett visst antal dagar före dagens datum.
 
 * **[!UICONTROL Custom]:** Inkluderar data mellan specifika start- och slutdatum. Om du vill rapportera data till föregående dag väljer du **[!UICONTROL Present]**.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 **[!UICONTROL Add Filters]:** (Valfritt) Ytterligare dimensioner som data kan filtreras med, oavsett om dimensionerna inkluderas som kolumner i rapporten eller inte. De tillgängliga filtren varierar beroende på rapporttyp och kan omfatta: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* och *[!UICONTROL Video Duration]*.
 
-\* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [kontorapportering](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe för mer information om kontorapportering.
+\* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [kontorapportering](report-about.md#cross-account-reporting):  [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)]och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe om du vill ha mer information om kontorapportering.
 
 Så här använder du ett eller flera filter:
 
@@ -72,13 +72,13 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Attribution Rule Settings]:** Inställningarna varierar beroende på rapporttyp:
 
-* **\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering i Adobe Advertising) I rapporten, hur man attribuerar konverteringsdata i en serie händelser som leder till en konvertering:
+* **\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner; annonsörer med endast Adobe Advertising-konverteringsspårning) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering:
 
    * *[!UICONTROL Unique]:* (Standard) Räknar det antal gånger som ett dimensionsvärde (till exempel en enhet eller placering) befann sig på sökvägen till konverteringen.
 
    * *[!UICONTROL Multi-Touch Attribution (MTA)]:*  Fördelar krediten för varje konvertering baserat på frekvensen för förekomsten av dimensionsvärdet (till exempel en enhet eller placering) på sökvägen till konverteringen. Om det till exempel fanns totalt 10 visningar före konverteringen, med 8 på CTV och 2 på Mobile, ges 80 % av krediten (0,8) till CTV-skärmar och 0,2 till Mobile.
 
-* **\[Regeltyp\]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med enbart konverteringsspårning för Adobe Advertising) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
+* **\[Regeltyp\]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner; annonsörer med endast Adobe Advertising-konverteringsspårning) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering. Du kan välja mer än en regel om du vill jämföra skillnader mellan reglerna.
 
   >[!NOTE]
   >
@@ -102,7 +102,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
   <!-- See also [How Attribution Rules Are Calculated for Adobe Advertising](). -->
 
-* **Lookback:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner, annonsörer med endast spårning av konvertering mellan Adobe Advertising) I rapporten, det maximala antal dagar efter en intryckshändelse som en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]*, och det högsta antalet är 92 dagar.
+* **Lookback:** ([!UICONTROL Household Conversion] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner; annonsörer med endast Adobe Advertising-konverteringsspårning) I rapporten, det maximala antal dagar efter en intryckshändelse som en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]*, och det högsta antalet är 92 dagar.
 
 **[!UICONTROL Paths as Columns]:**  (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment]och [!UICONTROL Site] rapporter med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner) Vilka typer av konverteringar som ska rapporteras när tidigare händelser inträffar på samma enhet. Du kan inkludera upp till tre typer. För varje vald typ inkluderas en separat kolumn för varje konverteringsmått och den läggs till med det angivna suffixet ([!UICONTROL (tl)], [!UICONTROL (ct)], eller [!UICONTROL (vt)]):
 
@@ -122,10 +122,10 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Destination Type]:** Välj någon av följande måltyper:
 
-* *[!UICONTROL S3]:* Skicka den färdiga rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) -platser, som du anger i **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL S3]:* Skicka den färdiga rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL sFTP]:* Skicka den färdiga rapporten till en eller flera SFTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL FTP]:* Skicka den färdiga rapporten till en eller flera FTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
-* *[!UICONTROL FTP SSL](För närvarande i betaversion):* Skicka den färdiga rapporten till en eller flera FTP SSL-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL FTP SSL](I betaversion):* Skicka den färdiga rapporten till en eller flera FTP SSL-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL Email]:* Ange e-postadresser dit slutförda rapporter eller meddelanden ska skickas om rapporten avbryts på grund av fel. Om du vill ange flera adresser avgränsar du dem med kommatecken eller mellanslag.
 
 >[!NOTE]
@@ -140,13 +140,13 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
    1. Klicka **Lägg till nytt mål**.
 
-   1. Ange [inställningar för rapportmål](/help/dsp/reports/report-destinations/report-destination-settings.md)och klicka **Spara**.
+   1. Ange [rapportdestinationsinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)och klicka **Spara**.
 
    1. Tillbaka i rapportinställningarna, klicka på **Uppdatera målnamn.**
 
       Det nya målet är nu tillgängligt i listan över befintliga mål och du kan lägga till det i rapporten om du vill.
 
-**[!UICONTROL Frequency]:** (För varje [!UICONTROL Destination Name] Hur ofta rapporten ska skickas till målet: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, eller *[!UICONTROL Monthly]*.
+**[!UICONTROL Frequency]:** (För varje [!UICONTROL Destination Name]) Hur ofta ska rapporten skickas till destinationen: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, eller *[!UICONTROL Monthly]*.
 
 ## [!UICONTROL Save Report] Avsnitt
 
