@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: 53c2712ff63aabf26b2f9a292ba62e068bf9db22
+source-git-commit: 3cfc1703e06ee5a8271de2eae3aac3f0494aedff
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
-| ---- | ------- | ----------- | -------------------- |
+| ---- | ------- | ----------- | --------------------- |
 | 15 augusti 2023 | Konverteringsmått | [!UICONTROL Admin] > [!DNL Transaction Properties] innehåller nu en[!UICONTROL Source]&quot;, som anger källan för varje mätvärde, till exempel [!UICONTROL Adobe Advertising], [!UICONTROL Adobe Analytics], [!UICONTROL Google Ads], eller [!UICONTROL Custom Feed]. | Se &quot;[Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md).&quot; |
 | 9 augusti 2023 | Konverteringsmått | [!UICONTROL Admin] > [!DNL Transaction Properties] har ändrat namn [!UICONTROL Conversions]. | Se &quot;[Om att hantera en annonsörs konverteringsstatistik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).&quot; |
 |  | [!DNL Google] taggar för konverteringsspårning | En uppdaterad skärm för att skapa [!DNL Google] taggar för konverteringsspårning är tillgängliga från [!UICONTROL Admin] > [!UICONTROL Conversions]. Den äldre skärmen på [!UICONTROL Tools] > [!UICONTROL Google Ads Conversion Tags] tas bort i framtiden. | Se &quot;[Skapa en konverteringstagg för [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md).&quot; |
