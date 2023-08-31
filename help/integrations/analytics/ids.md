@@ -3,7 +3,7 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 7433c2b0e0f61c2c72b27fb026202a76875c6b7e
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 0%
@@ -262,13 +262,13 @@ där:
 
 ### AMO ID-Dimension i [!DNL Analytics]
 
-I analysrapporter kan du söka efter AMO ID-data genom att söka efter [!UICONTROL AMO ID] -dimensionen och använda [!UICONTROL AMO ID Instance] mätvärden. The [!UICONTROL AMO ID] dimensioner innehåller alla värden för AMO ID, medan [!UICONTROL AMO ID Instance] anger hur ofta ett AMO ID-värde hämtades av platsen. Om användaren till exempel klickade fyra gånger på samma sökannons men Analytics spårade sju webbplatsposter, kommer [!UICONTROL AMO ID Instance] skulle vara sju (7) och [!UICONTROL Clicks] skulle vara fyra (4).
+I analysrapporter kan du söka efter AMO ID-data genom att söka efter [!UICONTROL AMO ID] -dimensionen och använda [!UICONTROL AMO ID Instances] mätvärden. The [!UICONTROL AMO ID] dimensioner innehåller alla värden för AMO ID, medan [!UICONTROL AMO ID Instances] anger hur ofta ett AMO ID-värde hämtades av platsen. Om användaren till exempel klickade fyra gånger på samma sökannons men Analytics spårade sju webbplatsposter, kommer [!UICONTROL AMO ID Instances] skulle vara sju (7) och [!UICONTROL Clicks] skulle vara fyra (4).
 
 För rapportering och revision inom [!DNL Analytics]är det bästa sättet att använda AMO-ID tillsammans med motsvarande instans. Mer information finns i &quot;[Dataverifiering för [!DNL Analytics for Advertising]](data-variances.md#data-validation)&quot; i &quot;Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising.&quot;
 
 ## Om analysklassificeringar
 
-I [!DNL Analytics], a [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) är en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar rådata i Adobe Advertising med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising rapportering i [!DNL Analytics] och kan användas med AMO-värden, som [!UICONTROL AMO Cost], [!UICONTROL AMO Impressions]och [!UICONTROL AMO Clicks], liksom med anpassade och standardiserade händelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]och [!UICONTROL Revenue].
+I [!DNL Analytics], a [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) är en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar rådata i Adobe Advertising med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising rapportering i [!DNL Analytics] och kan användas med AMO-värden, som [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions]och [!UICONTROL AMO Clicks], liksom med anpassade och standardiserade händelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders]och [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertisin
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: e564ea441e5ea0d25ee7f99962e72192750c5c40
 workflow-type: tm+mt
-source-wordcount: '3268'
+source-wordcount: '3265'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ The [!DNL Paid Search Detection] kan du identifiera naturlig söktrafik i [[!DNL
 
 För integreringen bör du validera klickinformationen för att säkerställa att alla sidor på webbplatsen följer klickfrekvensen.
 
-I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for Advertising] tracking är att jämföra klickningar med instanser med hjälp av det beräknade måttet&quot;Click to AMO ID Instances&quot;, som beräknas så här:
+I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for Advertising] tracking är att jämföra klickningar med instanser med hjälp av en&quot;Click to [!UICONTROL AMO ID Instances]&quot;, beräknat enligt följande:
 
 ```
-Clicks to AMO ID Instances = (AMO ID Instances / AMO Clicks)
+Clicks to [!UICONTROL AMO ID Instances] = ([!UICONTROL AMO ID Instances] / Adobe Advertising Clicks)
 ```
 
 [!UICONTROL AMO ID Instances] representerar antalet gånger som [AMO-ID](ids.md) spåras på webbplatsen. Varje gång en annons klickas visas ett AMO-ID (`s_kwcid`) läggs till i landningssidans URL. Antalet [!UICONTROL AMO ID Instances]motsvarar därför antalet klick och kan valideras mot faktiska annonsklickningar. Vi ser vanligtvis en matchningsfrekvens på 80 % för [!DNL Search, Social, & Commerce] och en matchningsfrekvens på 30 % för [!DNL DSP] trafik (när den filtreras så att den endast innehåller klickfrekvens [!UICONTROL AMO ID Instances]). Skillnaden i förväntningarna mellan sökning och visning kan förklaras av det förväntade trafikbeteendet. Sökfunktionen hämtar avsikten, och som sådan har användarna vanligtvis för avsikt att klicka på sökresultaten från sin fråga. Användare som ser en webbannons eller en videoannons är mer benägna att klicka på annonsen oavsiktligt och sedan antingen hoppa från webbplatsen eller avbryta det nya fönster som läses in innan sidaktiviteten spåras.
@@ -236,19 +236,19 @@ Klickdata kan också spelas in i miljöer där klickningar inte kan spelas in me
 
 Adobe Advertising tillhandahåller Analytics med [reklamspecifik trafikstatistik och relaterade dimensioner från [!DNL DSP] och [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Mätvärdena som tillhandahålls av Adobe Advertising gäller endast de angivna Adobe Advertising-dimensionerna och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
 
-Om du till exempel visar [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] mått per konto, vilket är en Adobe Advertising-dimension, så ser du det totala [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] efter konto.
+Om du till exempel visar [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] mått per konto, vilket är en Adobe Advertising-dimension, så ser du det totala [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] efter konto.
 
 ![Exempel på Adobe Advertising-mått i en rapport som använder en Adobe Advertising-dimension](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 
-Om du däremot visar [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] mått per siddimension (till exempel Sida), som Adobe Advertising inte tillhandahåller data för, och sedan [!UICONTROL AMO Clicks] och [!UICONTROL AMO Cost] för varje sida är noll (0).
+Om du däremot visar [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] mått per siddimension (till exempel Sida), som Adobe Advertising inte tillhandahåller data för, och sedan [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] för varje sida är noll (0).
 
 ![Exempel på Adobe Advertising-mått i en rapport som använder en dimension som inte stöds](/help/integrations/assets/a4adc-traffic-unsupported-dimension.png)
 
 ### Använda [!UICONTROL AMO ID Instances] som ersättning för klick med Dimensioner utanför Adobe Advertising
 
-Eftersom du inte kan använda [!UICONTROL AMO Clicks] med webbplatsdimensioner kan du behöva hitta en som motsvarar klickningar. Det kan vara frestande att använda besök som ersättning, men det är inte det bästa alternativet eftersom varje besökare kan ha flera besök. (Se &quot;[Skillnaden mellan klick och besök](#clicks-vs-visits).&quot; Vi rekommenderar istället att du använder [!UICONTROL AMO ID Instances], vilket är antalet gånger som AMO-ID:t hämtas. while [!UICONTROL AMO ID Instances] matchar inte [!UICONTROL AMO Clicks] exakt är de det bästa alternativet för att mäta klicktrafiken på webbplatsen. Mer information finns i &quot;[Dataverifiering för [!DNL Analytics for Advertising]](#data-validation).&quot;
+Eftersom du inte kan använda [!UICONTROL Adobe Advertising Clicks] med webbplatsdimensioner kan du behöva hitta en som motsvarar klickningar. Det kan vara frestande att använda besök som ersättning, men det är inte det bästa alternativet eftersom varje besökare kan ha flera besök. (Se &quot;[Skillnaden mellan klick och besök](#clicks-vs-visits).&quot; Vi rekommenderar istället att du använder [!UICONTROL AMO ID Instances], vilket är antalet gånger som AMO-ID:t hämtas. while [!UICONTROL AMO ID Instances] matchar inte [!UICONTROL Adobe Advertising Clicks] exakt är de det bästa alternativet för att mäta klicktrafiken på webbplatsen. Mer information finns i &quot;[Dataverifiering för [!DNL Analytics for Advertising]](#data-validation).&quot;
 
-![Exempel på [!UICONTROL AMO ID Instances] i stället för [!UICONTROL AMO Clicks] för en dimension som inte stöds](/help/integrations/assets/a4adc-amo-id-instances.png)
+![Exempel på [!UICONTROL AMO ID Instances] i stället för [!UICONTROL Adobe Advertising Clicks] för en dimension som inte stöds](/help/integrations/assets/a4adc-amo-id-instances.png)
 
 >[!MORELIKETHIS]
 >
