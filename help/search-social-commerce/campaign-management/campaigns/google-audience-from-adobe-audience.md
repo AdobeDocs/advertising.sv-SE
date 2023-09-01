@@ -3,9 +3,9 @@ title: Skapa [!DNL Google Ads] kundmatcha målgrupper från [!DNL Adobe] målgru
 description: Lär dig hur du skapar [!DNL Google Ads] matchar kunderna målgrupper från era befintliga Adobe Analytics- och Audience Manager-målgrupper.
 exl-id: 17cf0729-bc13-4ec3-918e-039ecdc91a41
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aa913130d0f611c4164ef8bdca57983d8c6c0405
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Varje ny [!DNL Google] målgruppen har samma namn som originalet [!DNL Adobe] m�
 
 1. Slutför kraven efter behov:
 
-   1. (För att skapa användare-ID:n för ommarknadsföring listmålgrupper) En [!DNL Adobe] Administratörsanvändare eller kontohanterare måste välja inställningen på annonsörnivå för att aktivera kundmatchande målgrupper. Inställningarna skiljer sig mellan annonsörer med Audience Manager och annonsörer med [!DNL Analytics] endast.
+   1. (För att skapa användare-ID:n för ommarknadsföring listmålgrupper) En [!DNL Adobe] Administratörsanvändare eller kontohanterare måste välja inställningen på annonsörnivå för att aktivera kundmatchande målgrupper.
 
    1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 eller senare.
 
@@ -40,7 +40,9 @@ Varje ny [!DNL Google] målgruppen har samma namn som originalet [!DNL Adobe] m�
 
       `<script src="//pixel.everesttech.net/rlsa/<Advertising_Cloud_UserID>" type="text/javascript"> </script>`
 
-      där `Advertising_Cloud_UserID` är det unika användar-ID som tilldelats annonsören. Exempel:  `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
+      där `Advertising_Cloud_UserID` är det unika numeriska användar-ID som tilldelats annonsören.
+
+      Exempel: `<script src="//pixel.everesttech.net/rlsa/1234" type="text/javascript"> </script>`
 
    1. (Om det inte redan är ifyllt) En behörig användare måste konfigurera annonsörens konto till [synkronisera med annonsörens organisationskonto i Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
