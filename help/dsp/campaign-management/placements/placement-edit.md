@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: e0bd3d4ff50b32dd44ba413b83445866de6f3a75
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,7 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
+>* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

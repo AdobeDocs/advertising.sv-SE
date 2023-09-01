@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 99f580547f4f0463418dfca52481e58927339169
+source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '907'
 ht-degree: 5%
 
 ---
@@ -96,6 +96,7 @@ ht-degree: 5%
       + [Om rapporter på plattformen](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportera data från en Campaign Management-vy](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Visa Sites, Ads och Frequency Details för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + Hantera datavyer {#data-views}
          + [Om kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
