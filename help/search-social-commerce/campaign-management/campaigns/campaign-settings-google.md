@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: d16ef1a9-f943-494c-8655-975383707f3c
 feature: Search Campaign Management
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2309'
 ht-degree: 0%
 
 ---
@@ -254,43 +254,59 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 **[!UICONTROL Final URL]:** Den slutliga URL:en för alla annonser som skapats från resursgruppen. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Upp till femton bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Så här överför du bilder:
+**[!UICONTROL Images]:** Upp till femton bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
-1. Klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+* Så här överför du bilder:
 
-1. För varje bild:
+   1. På [!UICONTROL Upload from computer] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
-   1. Välj proportioner.
+   1. För varje bild:
 
-   1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
+      1. Välj proportioner.
 
-   1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
+      1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
 
-      En resurs skapas för varje vald proportion.
+      1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
 
-   1. Klicka på **[!UICONTROL Proceed]**.
+         En resurs skapas för varje vald proportion.
 
-1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+      1. Klicka på **[!UICONTROL Proceed]**.
 
-**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en liggande (4:1) logotyp. Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Så här överför du bilder:
+   1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
 
-1. Klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+* Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
 
-1. För varje bild:
+**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en liggande (4:1) logotyp. Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
-   1. Välj proportioner.
+* Så här överför du bilder:
 
-   1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
+   1. På [!UICONTROL Upload from computer] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
-   1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
+   1. För varje bild:
 
-      En resurs skapas för varje vald proportion.
+      1. Välj proportioner.
 
-   1. Klicka på **[!UICONTROL Proceed]**.
+      1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och ändra storleken på den del av bilden som kan visas när det är möjligt.
 
-1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+      1. (Valfritt) Välj ytterligare bildproportioner och ändra eventuellt bildens placering och storlek efter behov för varje vald bildproportion.
 
-**[!UICONTROL Videos]:** (Valfritt) URL:en för minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa.
+         En resurs skapas för varje vald proportion.
+
+      1. Klicka på **[!UICONTROL Proceed]**.
+
+   1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+
+* Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
+
+**[!UICONTROL Videos]:** (Valfritt) Minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa.  Du kan antingen ange URL:er eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+
+* Så här anger du URL:er:
+
+   1. På [!UICONTROL Upload from computer] anger du en URL-adress.
+
+   1. (Valfritt) Om du vill lägga till en annan URL klickar du på [!UICONTROL + Add]** och ange URL:en.
+
+* Så här väljer du videofilmer från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj videoklipp.
 
 **[!UICONTROL Headlines]:** Minst tre och upp till fem korta rubriker med högst 30 tecken vardera. Minst en rubrik får innehålla högst 15 tecken. Om alternativet på kampanjnivå för att aktivera slutlig URL-utökning har angetts i [!DNL Google Ads]sedan [!DNL Google Ads] ersätter det här värdet med en anpassad rubrik baserad på landningssidans innehåll.
 
@@ -302,7 +318,24 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken.
 
+**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Google Ads] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Google Ads] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
+
+>[!NOTE]
+>Målgruppssignaler skiljer sig från [målgrupper på kampanjnivå och annonsnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+
 **[!UICONTROL Add new asset group]:** Gör att du kan ange en annan resursgrupp.
+
+## [!UICONTROL Conversion Goals]
+
+**[!UICONTROL Conversion Goal]:** Om *[!UICONTROL Use account conversion goals for this campaign]* (standard) eller *[!UICONTROL Use campaign specific conversion goals]*. Om du väljer att ange konverteringsmål för kampanjen väljer du standardmål och/eller skapar ett anpassat mål för kampanjen.
+
+Mål synkroniseras dagligen, så befintliga mål som skapats under de senaste 24 timmarna kanske inte visas. Om du vill uppdatera listan [manuellt synkronisera annonsens nätverksdata](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+
+Om du vill skapa ett anpassat konverteringsmål klickar du **[!UICONTROL + Add custom goal]**, ange det anpassade målnamnet och välj [konverteringsåtgärder](https://support.google.com/google-ads/answer/6032150) som ska ingå i det anpassade målet och sedan klicka **[!UICONTROL Save]**. **Obs!** Varje kampanj kan bara ha ett anpassat mål.
+
+>[!TIP]
+>
+>Om kampanjen ingår i en portfölj ska du använda samma konverteringsmål som portföljens mål. Olika konverteringsmål kan påverka portföljens prestanda.
 
 >[!MORELIKETHIS]
 >

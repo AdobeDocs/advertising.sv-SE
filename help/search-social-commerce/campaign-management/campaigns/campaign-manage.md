@@ -3,7 +3,7 @@ title: Hantera kampanjer
 description: Lär dig hur du skapar och hanterar annonskampanjer.
 exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 0%
@@ -35,7 +35,7 @@ En gång [göra ett annonsnätverkskonto tillgängligt](/help/search-social-comm
 
 1. Ange [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) kampanjinställningar.
 
-   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]och [!UICONTROL (Google) DSA Options]. Konfigurera inställningar för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], eller [!UICONTROL Asset Groups] (om tillgängligt), klicka på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, eller **[!UICONTROL Manage Asset Groups]**, respektive
+   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]och [!UICONTROL (Google) DSA Options]. Om du vill konfigurera ytterligare inställningar för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups], eller [!UICONTROL Campaign Goals], klicka **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**, eller **[!UICONTROL Set Campaign Goals]**, respektive
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -65,9 +65,9 @@ Du kan redigera inställningar för enskilda kampanjer. Du kan också redigera v
 
 1. Redigera [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md) kampanjinställningar.
 
-   För flera kampanjer kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options]och [!UICONTROL URL Options], beroende på annonsnätverk. Du kan bara redigera fält som är gemensamma för alla valda kampanjer, och dina ändringar tillämpas på alla valda kampanjer. För vissa alfanumeriska fält kan du ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
+   För flera kampanjer kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options]och [!UICONTROL URL Options], beroende på annonsnätverk. Du kan bara redigera fält som är gemensamma för alla valda kampanjer, och dina ändringar tillämpas på alla valda kampanjer. För vissa alfanumeriska fält har du möjlighet att ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
-   Inställningarna kan grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]och [!UICONTROL (Google) DSA Options]. Konfigurera inställningar för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], eller [!UICONTROL Asset Groups] (om tillgängligt), klicka på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Set Campaign Goals]**, eller **[!UICONTROL Manage Asset Groups]**, respektive
+   Inställningarna kan grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options]och [!UICONTROL (Google) DSA Options]. Om du vill konfigurera ytterligare inställningar för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups], eller [!UICONTROL Campaign Goals], klicka **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]**, eller **[!UICONTROL Set Campaign Goals]**, respektive
 
 1. Spara data:
 
@@ -102,7 +102,7 @@ Du kan också ta bort alla aktiva eller pausade sökkampanjer. Borttagna kampanj
 >[!MORELIKETHIS]
 >
 >* [Inställningar för Baidu-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md)
->* [Kampanjinställningar för Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
+>* [[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md)
 >* [Inställningar för Microsoft Advertising-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md)
 >* [Yahoo! Inställningar för japanska annonskampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md)
 >* [Inställningar för Yandex-kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)
