@@ -3,7 +3,7 @@ title: Optimeringsmål och Så här använder du dem
 description: Referera till tillgängliga optimeringsmål och se när de ska användas.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: 900a8e876e99b3d826c8934a266a3c4e1b226a1c
+source-git-commit: 42f10200bb28f4509a04ac69d415e7254537b769
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -34,6 +34,7 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Moat - MRC)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. Om utgiftsmålen uppfylls försöker DSP balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att uppnå bästa möjliga vCPM.<br><br>Om du vill garantera ett maximalt CPM-värde använder du det som det maximala Bid-värdet för placeringen.<br><br>Den här inställningen fungerar bäst när data från tredje part hämtas [!DNL Moat] informerar algoritmen. Använd bara det här målet när du har aktiverat [!DNL Moat] integrering för kampanjen. |
 | [!UICONTROL Always Max Bid and Maximize Reach] | Detta mål försöker uppnå maximal räckvidd för hushållen med ett visst antal visningar, som alltid använder placeringsnivån Max Bid. Om utgiftsmålen uppfylls blir DSP mer selektiv och budges till en auktion endast när det finns en chans att nå en inkrementell unik räckvidd. | Kampanjtyp: Varumärke<br><br>Benchmark: Maximera räckvidd<br><br>Annonstyper: Pre-roll, Display, CTV, Native, Audio och Universal Video |
 | [!UICONTROL Lowest Cost per Reach] | Detta mål försöker uppnå maximal hushållsräckvidd med en viss budget. Om utgiftsmålen uppfylls varierar DSP anbud beroende på möjligheten att uppnå en inkrementell unik räckvidd. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv kostnad per område<br><br>Annonstyper: Pre-roll, Display, CTV, Native, Audio och Universal Video |
+
 {style="table-layout:auto"}
 
 >[!MORELIKETHIS]
