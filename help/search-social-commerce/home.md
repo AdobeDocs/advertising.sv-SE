@@ -4,10 +4,10 @@ description: Lär dig mer om de senaste uppdateringarna och nya funktioner i Ann
 cloud: Experience Cloud
 product: advertising cloud
 index: true
-exl-id: 8b90bb13-9fc1-4671-b16e-15c1d80aec6e
-source-git-commit: ba500532712d002547e5e067d1a0af4e3202daad
+exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
+source-git-commit: 4c851ce01c69460b3d1f1c7357af377718eb8488
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 7 oktober 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Två nya specialrapporter för [!DNL Microsoft Advertising] konton visar kampanjnivå efter annonsdistribution (sökning eller målgrupp) och/eller nätverk (som [!DNL Microsoft] och välj trafik eller publik):<ul><li>[!UICONTROL MSA Network Performance Report]: Innehåller grundläggande trafikstatistik (kostnad, klick, visningar), konverteringar och intäkter.</li><li>[!UICONTROL MSA Network Impression Share Report]: Inkluderar mått för visningsdelning och grundläggande trafikstatistik (kostnad, klick, visningar).</li></ul> | — |
 | 14 september 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] max antal kampanjer) I en kampanjs resursgrupper kan du nu välja bland befintliga textresurser i [!UICONTROL Asset Library]. Du kan även överföra nya textresurser. | — |
 | 5 september 2023 | Kampanjer | ([!DNL Google Ads] kampanjer) För alla tillgängliga kampanjtyper kan du nu välja befintliga konverteringsmål eller skapa nya inom kampanjinställningarna.</li> | Se &quot;[[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | | Kampanjer | ([!DNL Google Ads] maximalt antal prestandakampanjer) Med nya funktioner kan du<ul><li>Välj befintliga konverteringsmål eller skapa nya för en kampanj, som nämns ovan.</li><li>Välj bland befintliga resurser i [!UICONTROL Asset Library] för bilder, logotyper och videoklipp inom de maximala prestandakampanjinställningarna. Du kan fortfarande överföra nya resurser.</li><li>(Valfritt) Ge målgruppssignaler för att du ska få bästa möjliga prestanda genom att välja [!DNL Google Ads] målgrupper. [!DNL Google Ads] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. **Obs!** Målgruppssignaler skiljer sig från [målgrupper på kampanjnivå och annonsnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).</li></ul> | Se &quot;[[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
