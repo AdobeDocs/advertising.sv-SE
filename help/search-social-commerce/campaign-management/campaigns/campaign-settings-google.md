@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
-exl-id: d16ef1a9-f943-494c-8655-975383707f3c
+exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 7588e82bc64eb1c3eda0b04cabfc6510ee3c06c3
+source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
@@ -254,11 +254,11 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 **[!UICONTROL Final URL]:** Den slutliga URL:en för alla annonser som skapats från resursgruppen. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Upp till femton bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Images]:** Upp till 15 bilder för annonsen, inklusive följande storlekar: 1) minst tre fyrkantiga bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
-   1. På [!UICONTROL Upload from computer] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+   1. På [!UICONTROL Upload from Device] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -280,7 +280,7 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 * Så här överför du bilder:
 
-   1. På [!UICONTROL Upload from computer] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+   1. På [!UICONTROL Upload from Device] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -298,21 +298,47 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
 
 * Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
 
-**[!UICONTROL Videos]:** (Valfritt) Minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa.  Du kan antingen ange URL:er eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Videos]:** (Valfritt) Minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa. Du kan antingen ange URL:er eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här anger du URL:er:
 
-   1. På [!UICONTROL Upload from computer] anger du en URL-adress.
+   1. På [!UICONTROL Enter Video Url] anger du en URL-adress.
 
-   1. (Valfritt) Om du vill lägga till en annan URL klickar du på [!UICONTROL + Add]** och ange URL:en.
+   1. (Valfritt) Om du vill lägga till en annan URL klickar du på **[!UICONTROL + Add]** och ange webbadressen.
 
 * Så här väljer du videofilmer från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj videoklipp.
 
 **[!UICONTROL Headlines]:** Minst tre och upp till fem korta rubriker med högst 30 tecken vardera. Minst en rubrik får innehålla högst 15 tecken. Om alternativet på kampanjnivå för att aktivera slutlig URL-utökning har angetts i [!DNL Google Ads]sedan [!DNL Google Ads] ersätter det här värdet med en anpassad rubrik baserad på landningssidans innehåll.
 
-**[!UICONTROL Long Headlines]:** Minst en och upp till fem långa rubriker med högst 90 tecken vardera.
+Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
-**[!UICONTROL Descriptions]:** Minst två och upp till fyra beskrivningar med högst 90 tecken vardera. Minst en beskrivning måste innehålla minst 30 tecken.
+* Så här skriver du text:
+
+   1. På [!UICONTROL Enter Text] anger du texten.
+
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
+
+* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
+
+**[!UICONTROL Long Headlines]:** Minst en och upp till fem långa rubriker med högst 90 tecken vardera. Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+
+* Så här skriver du text:
+
+   1. På [!UICONTROL Enter Text] anger du texten.
+
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
+
+* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
+
+**[!UICONTROL Descriptions]:** Minst två och upp till fyra beskrivningar med högst 90 tecken vardera. Minst en beskrivning måste innehålla minst 30 tecken. Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+
+* Så här skriver du text:
+
+   1. På [!UICONTROL Enter Text] anger du texten.
+
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
+
+* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
 
 **[!UICONTROL Call to Action]:** Uppmaningen att ta med i annonsen. Som standard *[!UICONTROL Automated]* är markerat och [!DNL Google Ads] väljer anropet till åtgärd. Du kan välja en annan åtgärd.
 
