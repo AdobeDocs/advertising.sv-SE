@@ -3,7 +3,7 @@ title: JavaScript-kod för [!DNL Analytics for Advertising]
 description: JavaScript-kod för [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 3fb462444709fc48f48bc2ef86b55272a17eb17a
+source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 0%
@@ -50,7 +50,7 @@ JavaScript-biblioteket består av två rader som tillåter [!DNL Analytics] och 
 <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
 <script>
      if("undefined" != typeof AdCloudEvent) 
-          stitchId = AdCloudEvent('IMS ORG Id', 'rsid').generateRandomId();
+          stitchId = AdCloudEvent('IMS ORG Id','rsid').generateRandomId();
 </script>
 ```
 
