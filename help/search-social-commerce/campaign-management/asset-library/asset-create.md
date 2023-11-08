@@ -1,17 +1,18 @@
 ---
 title: Skapa och överföra resurser
-description: Lär dig skapa återanvändbara bild-, video- och textresurser och ladda upp dem till [!DNL Google Ads] resursbibliotek på kontonivå.
+description: Lär dig skapa återanvändbara bild-, video- och textresurser och ladda upp dem till [!DNL Google Ads] och [!DNL Microsoft® Advertising] resursbibliotek på kontonivå.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
+source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Skapa och överföra resurser
 
-*För [!DNL Google Ads] endast konton*
+*För [!DNL Google Ads] och [!DNL Microsoft® Advertising] endast konton*
 
 *Öppna betafunktion*
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
         Du kan publicera upp till 10 video-URL:er åt gången.
 
-      * Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och ange en annan textsträng.
+      * ([!DNL Google Ads] endast konton) Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och ange en annan textsträng.
 
         Varje textresurs kan innehålla högst 1 000 tecken. Du kan överföra högst 10 textresurser åt gången.
 
