@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: 236224a1d8e38862f70db63b3762b763f5703623
+source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Betafunktion) Visar videoannonser på uppkopplade TV-apparater (CTV) i målgruppsnätverket.
 
-* *[!UICONTROL Performance Max]:* Visar flera annonstyper i alla nätverk.
+* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk.
 
 ## [!UICONTROL Campaign Details]
 
