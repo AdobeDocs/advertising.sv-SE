@@ -1,9 +1,9 @@
 ---
 title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
-exl-id: 20ce9519-4a13-4175-bf7c-26f1dc4c9bd1
+exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 0%
@@ -48,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] kampanjer) Den aktuella justeringen av mobilbud på kampanjnivå, som avgör hur offerterna justeras när annonsen visas på en mobil enhet. |
 | [!UICONTROL Campaign Start Date] | Den första dagen då anbud lämnades/delgavs kampanjen. |
 | [!UICONTROL Campaign Status] | Kampanjstatus: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>, eller <i>[!UICONTROL Deleted]</i>. |
-| [!UICONTROL Campaign Type] | kampanjtypen, till exempel <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Video]</i>, eller <i>[!UICONTROL Others]</i>. |
+| [!UICONTROL Campaign Type] | kampanjtypen, till exempel <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>, eller <i>[!UICONTROL Others]</i>. |
 | [!UICONTROL Channel Type] | Typ av marknadsföringskanal: <i>[!UICONTROL Search]</i> eller <i>[!UICONTROL Content]</i>. Den här kolumnen inkluderas inte när rapportens [!UICONTROL Search/Content] i rapportinställningarna är &quot;[!UICONTROL Combined].&quot; |
 | [!UICONTROL City] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Transaction Report]) En stad som klickningarna härstammar från. Den avgörs av användarens IP-adress. |
 | [!UICONTROL Click Match Type] | Nyckelordsmatchningstypen för den annons som klickades. Detta är samma sak som [!UICONTROL Listing Match Type] förutom [!DNL Microsoft Advertising] nyckelord med flera matchningstyper. För [!DNL Microsoft Advertising] nyckelord, det här är matchningstypen som användaren faktiskt klickade på. |
