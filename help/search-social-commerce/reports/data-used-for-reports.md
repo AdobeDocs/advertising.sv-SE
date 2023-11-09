@@ -1,9 +1,9 @@
 ---
 title: Data som används för rapporter
 description: Lär dig mer om olika typer av data som finns i datavyer och anpassade rapporter.
-exl-id: 3e1f2967-5034-46bc-8473-63cffeeeecba
+exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Beroende på vilken attribueringsregel du anger för rapporten är data för var
 | [!UICONTROL Assist Reports] | Alla | De senaste 18 månaderna. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | Föregående år. |
 | | [!UICONTROL RSA Assets Report] | Från och med den 10 augusti 2022. |
-| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report] | De senaste 180 dagarna. |
+| | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | De senaste 180 dagarna. |
 | | Alla andra [!UICONTROL Specialty Reports] | De föregående två (2) månaderna. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | De senaste 18 månaderna. |
 | [!UICONTROL Change History Report] | — | De senaste 31 dagarna. |

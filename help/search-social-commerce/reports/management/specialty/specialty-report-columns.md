@@ -1,11 +1,11 @@
 ---
 title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
-exl-id: 5cc98781-588b-4bf3-8978-a7966009fa51
+exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 0b6b3ac85b5f47986b9246dccddf0ad51c380dbe
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2607'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 |----|----|
 | \[Advertiser-specifika anpassade (härledda) mätvärden\] | Värdet för ett anpassat mätvärde som du har skapat och som beräknas utifrån befintliga mätvärden. |
 | \[Advertiser-specifika konverteringsvärden\] | Antalet konverteringar för ett angivet konverteringsmått eller webbplatsengagemangsmått. |
+| [!UICONTROL Absolute Top Impression Rate Percent] | Procentandelen annonser som visades på den första positionen högst upp i sökresultaten. |
+| [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | Den beräknade procentandel av tiden som dina annonser inte visades i den första positionen högst upp i sökresultaten eftersom din dagliga eller månadsvisa budget var för låg. |
+| [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | Den procentandel av tiden som era annonser inte visades i den första positionen högst upp i sökresultaten på grund av dålig annonsrankning. |
+| [!UICONTROL Absolute Top Impression Share Percent] | De avbildningar du har fått på den absoluta översta platsen (första och ovanför sökresultaten för organisk sökning) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. |
 | [!UICONTROL Account Name] | Kontonamnet. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] rapporter) Den kontoidentifierare som har tilldelats av annonsnätverket. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] rapporter) Kontots status: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, eller *[!UICONTROL Inactive]*. |
-| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report]) Där annonsen distribuerades: *[!UICONTROL Search]* (på sökresultatsidor) eller *[!UICONTROL Content]* (på [!DNL Microsoft®]egna webbplatser eller deltagande partnerwebbplatser). |
+| [!UICONTROL Ad Distribution] | ([!UICONTROL Bing Ads Geo Report], [!UICONTROL MSA Network Impression Share Report]och [!UICONTROL MSA Network Performance Report]) Där annonsen distribuerades: *[!UICONTROL Audience]* (i målgruppsnätverket)*,[!UICONTROL Search]* (på sökresultatsidor) eller *[!UICONTROL Content]* (på [!DNL Microsoft®]egna webbplatser eller deltagande partnerwebbplatser). |
 | [!UICONTROL Ad Extension ID] | ([!UICONTROL MSA Ad Extension] rapporter) ID:t för annonseringstillägget. |
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] rapporter) Versionsattributet för tillägget. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] rapporter) Typ av annonstillägg. |
@@ -44,6 +48,9 @@ ht-degree: 0%
 | [!UICONTROL Assists] | ([!UICONTROL MSA Ad Extension] rapporter) Antal gånger ett företag bidragit till en konvertering som är associerad med ett annat företag. |
 | [!UICONTROL Audience ID] | Det numeriska målgrupps-ID:t. |
 | [!UICONTROL Audience Name] | Publiken. Bland de tillgängliga målgrupperna finns [!DNL Google Ads] kunddatabaserade, marknadsbaserade och liknande målgrupper samt din [!DNL [!DNL Microsoft® Advertising]] anpassade, kundmatchningar, dynamisk återmarknadsföring, återmarknadsföring, ommarknadsföring och liknande målgrupper. |
+| [!UICONTROL Audience Impression Lost To Budget Percent] | Den procentandel av ditt intryck som du förlorade på Microsoft Audience Network eftersom din dagliga eller månadsvisa budget var för låg. |
+| [!UICONTROL Audience Impression Lost To Rank Percent] | Den procentandel av ditt intryck som du förlorade i Microsoft Audience Network på grund av dålig annonsrankning. |
+| [!UICONTROL Audience Impression Share Percent] | Uppskattad procentandel avtryck på [!DNL Microsoft Audience Network] dividerat med det totala antal avtryck du kan ha fått. |
 | [!UICONTROL Audience Status] | Publiken. |
 | [!UICONTROL Average CPC] | Genomsnittskostnaden per klick. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | Den genomsnittliga positionen för annonserna under det angivna datumintervallet.<br><br>För [!DNL Google Ads] och [!DNL Yahoo! Japan Ads] är dessa data tillgängliga först i september 2019. För [!DNL Microsoft® Advertising]är dessa uppgifter tillgängliga först till och med den 22 januari 2021. |
@@ -88,12 +95,15 @@ ht-degree: 0%
 | [!UICONTROL End Date] | Den sista dagen som rapporterades. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] rapporter) [tilläggets visningsnamn](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] rapporter) ID:t för annonsen. |
-| [!UICONTROL Goal] | ([!UICONTROL MSA Ad Extension] rapporter) Namnet på konverteringsmålet. |
-| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] rapporter) Typ av konverteringsmål. |
+| [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] rapporter, [!UICONTROL MSA Network Performance Report]) Namnet på konverteringsmålet. |
+| [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] rapporter, [!UICONTROL MSA Network Performance Report]) Typ av konverteringsmål. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Antalet onlinekonverteringar som spåras av [den [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report], togs bort 2016) Antalet klick som resulterade i en eller flera konverteringar. |
-| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visas som första annons ovanför resultaten av organiska sökningar. |
+| [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visades som den första och över resultaten från den organiska sökningen. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report]och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visas ovanför resultaten av den organiska sökningen. |
+| [!UICONTROL Impression Lost To Budget Percent] | Den beräknade procentandel av tiden som dina annonser inte visades eftersom din dagliga eller månadsvisa budget var för låg. |
+| [!UICONTROL Impression Lost To Rank Percent] | Den procentandel av tiden som era annonser inte visades på grund av en dålig annonsrankning. |
+| [!UICONTROL Impression Share Percent] | De exponeringar du har fått divideras med det uppskattade antalet visningar som du har rätt att få. |
 | [!UICONTROL Impressions] | Antal annonsvisningar under det angivna datumintervallet. |
 | [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
 | [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Sök, Socialt och Commerce. |
@@ -121,7 +131,7 @@ ht-degree: 0%
 | [!UICONTROL Query Match Type] | (Frågerapport för sökning av ord) Nyckelordsmatchningstypen för sökfrågan. |
 | [!UICONTROL Region] | ([!UICONTROL AdWords Geo Report] och [!UICONTROL Bing Ads Geo Report]) En region eller delstat i USA/Kanada där visningar eller klickningar har sitt ursprung. Den avgörs av användarens IP-adress. |
 | [!UICONTROL Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] rapporter) De totala intäkterna dividerat med utgifterna, uttryckt i procent. |
-| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] rapporter) De totala intäkterna. |
+| [!UICONTROL Revenue] | ([!UICONTROL MSA Ad Extension] rapporter, [!UICONTROL MSA Network Performance Report]) De totala intäkterna. |
 | [!UICONTROL Revenue per Assist] | ([!UICONTROL MSA Ad Extension] rapporter) De totala intäkterna per assistent. |
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) De totala intäkterna per konvertering. |
 | [!UICONTROL SE Account Name] | Kontonamnet i annonsnätverket. |
@@ -150,6 +160,10 @@ ht-degree: 0%
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den första raden i annonsen som länkar till webbplatsen. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den andra raden i annonsen som länkar till webbplatsen. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den tredje raden i annonsen som länkar till webbplatsen. |
+| [!UICONTROL Top Impression Rate Percent] | Procentandelen annonser som visas på huvudlinjen (den översta annonsplaceringen ovanför sökresultaten). |
+| [!UICONTROL Top Impression Share Lost To Budget Percent] | Den beräknade procentandel av tiden som dina annonser inte visades på huvudraden (de översta annonsplatserna ovanför sökresultaten) eftersom din dagliga eller månadsvisa budget var för låg. |
+| [!UICONTROL Top Impression Share Lost To Rank Percent] | Den procentandel av tiden som era annonser inte visades på huvudlinjen (den översta annonsen placerar ovanför sökresultaten) på grund av dålig annonsrankning. |
+| [!UICONTROL Top Impression Share Percent] | De visningar du fått på huvudlinjen (de översta annonsplatserna ovanför sökresultaten) dividerat med det beräknade antalet visningar som du var berättigad att ta emot på den översta platsen. |
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] rapporter) Platsen för din annons på sökresultatsidan. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet klick när annonselementet fanns i annonskopian, oavsett om någon klickade på det eller inte. |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
