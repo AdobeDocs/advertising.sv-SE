@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 8f17f930-cfad-465f-992f-8b966d27ff36
-source-git-commit: b431d7e0a1c2a5c254adb399a9008ebadad11913
+source-git-commit: 9b103745ef8b09c46049a9a89b676825311db4f2
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 8 november 2023 | [!UICONTROL Asset Library] | (Open beta feature; [!DNL Microsoft® Advertising] konton) i [!UICONTROL Campaigns] > [!UICONTROL Asset Library]kan du skapa återanvändbara bild- och videoresurser och överföra dem till [!DNL Microsoft® Advertising] resursbibliotek på kontonivå. Du kan lägga till dina överförda resurser i tillämpliga kampanjtyper i [!DNL Microsoft® Advertising] redigerare. | Se &quot;[Om [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)och &quot;[Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md).&quot; |
 | 7 oktober 2023 | [!UICONTROL Campaigns], [!UICONTROL Optimization], [!UICONTROL Reports] | Två nya specialrapporter för [!DNL Microsoft Advertising] konton visar kampanjnivå efter annonsdistribution (sökning eller målgrupp) och/eller nätverk (som [!DNL Microsoft] och välj trafik eller publik):<ul><li>[!UICONTROL MSA Network Performance Report]: Innehåller grundläggande trafikstatistik (kostnad, klick, visningar), konverteringar och intäkter.</li><li>[!UICONTROL MSA Network Impression Share Report]: Inkluderar mått för visningsdelning och grundläggande trafikstatistik (kostnad, klick, visningar).</li></ul> | — |
 | 14 september 2023 | [!UICONTROL Campaigns] | ([!DNL Google Ads] max antal kampanjer) I en kampanjs resursgrupper kan du nu välja bland befintliga textresurser i [!UICONTROL Asset Library]. Du kan även överföra nya textresurser. | Se &quot;[[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |
 | 5 september 2023 | Kampanjer | ([!DNL Google Ads] kampanjer) För alla tillgängliga kampanjtyper kan du nu välja befintliga konverteringsmål eller skapa nya inom kampanjinställningarna.</li> | Se &quot;[[!DNL Google Ads] kampanjinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md).&quot; |

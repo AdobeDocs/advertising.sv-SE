@@ -1,10 +1,11 @@
 ---
-title: "Om [!UICONTROL Asset Library]"
+title: Om [!UICONTROL Asset Library]
 description: Lär dig mer om resursbiblioteket för era annonsresurser.
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+exl-id: b1484114-21cb-4aba-9f23-d9d8ce0559dd
+source-git-commit: 627034d80c261eb73de634306c63711f055e5294
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -13,14 +14,18 @@ ht-degree: 0%
 
 <!-- Combine with "Create" page into one page? -->
 
-*För [!DNL Google Ads] endast konton*
+*För [!DNL Google Ads] och [!DNL Microsoft® Advertising] endast konton*
 
 *Öppna betafunktion*
 
-I [!UICONTROL Campaigns] > [!UICONTROL Asset Library]kan du skapa återanvändbara bild-, video- och textresurser och överföra dem till [!DNL Google Ads] resursbibliotek på kontonivå.
+I [!UICONTROL Campaigns] > [!UICONTROL Asset Library]kan du skapa återanvändbar bild, video och [!DNL Google Ads] endast) textresurser och ladda upp dem till [!DNL Google Ads] och [!DNL Microsoft® Advertising] resursbibliotek på kontonivå.
 
-Ni kan använda era resurser för annonser när ni skapar eller redigerar kampanjer med [!DNL Google Ads] redigerare.
+Ni kan använda era resurser för annonser när ni skapar eller redigerar kampanjer:
+
+* [!DNL Google Ads]: Inom inställningarna för maximal kampanj i Advertising Search kan du välja bland befintliga resurser i din [!UICONTROL Asset Library] för bilder, logotyper och videor. Du kan också överföra nya resurser.
+
+* [!DNL Microsoft® Advertising]: Du kan lägga till dina överförda resurser i tillämpliga kampanjer i [!DNL Microsoft® Advertising] redigerare.
 
 >[!MORELIKETHIS]
 >
->* [Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+>* [Skapa och överföra resurser](asset-create.md)
