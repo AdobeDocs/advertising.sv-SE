@@ -4,16 +4,16 @@ description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligator
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 1ae5b1c1d9742d877763b9efd09585da3a6d4e48
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # Stöd till Adobe Advertising för den allmänna dataskyddsförordningen
 
-*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
+*För [!DNL Adobe Advertising Search, Social, & Commerce], Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Den allmänna dataskyddsförordningen (GDPR), som är en lag som gäller den 25 
 
 Adobe Experience Cloud fungerar som personuppgiftsbiträde för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvarig avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce]; Reklamkreatörer; Reklam DSP (Demand Side Platform). och [!DNL Advertising DCO] ge stöd för de registrerade i GDPR för åtkomst och borttagning av data med hjälp av Adobe Experience Platform Privacy Service API och användargränssnittet för Privacy Service.
+Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce], Advertising Creative, DSP (Demand Side Platform), och [!DNL Advertising DCO] ge stöd för de registrerade i GDPR för åtkomst och borttagning av data med hjälp av Adobe Experience Platform Privacy Service API och användargränssnittet för Privacy Service.
 
 Mer information om vad GDPR innebär för ditt företag finns i [GDPR och er verksamhet](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
@@ -35,9 +35,9 @@ Adobe Experience Platform ger företag möjlighet att utföra följande uppgifte
 * Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för registrerade i en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för registrerade som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
-## Nödvändig inställning för att skicka begäranden för Adobe-annonsering
+## Nödvändig inställning för att skicka begäranden för Adobe Advertising
 
-Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste du:
+Om du vill begära åtkomst till och ta bort data för Adobe Advertising måste du:
 
 1. Distribuera ett JavaScript-bibliotek för att hämta och ta bort era cookies för registrerade data. Samma bibliotek, `AdobePrivacy.js`, används för alla Adobe Experience Cloud-lösningar.
 
@@ -51,7 +51,7 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
 
    >[!NOTE]
    >
-   >Att ta bort personuppgifter skiljer sig från avanmäl dig, vilket stoppar målsättningen för en slutanvändare med målgruppssegment. När en registrerade begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en begäran till Adobe om att avanmäla den registrerade från segmentmålinriktning. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du ger de registrerade en länk till [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
+   >Att ta bort personuppgifter skiljer sig från avanmäl dig, vilket stoppar målsättningen för en slutanvändare med målgruppssegment. När en registrerade begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en begäran till Adobe Advertising om att avanmäla den registrerade från segmentmålinriktning. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du ger de registrerade en länk till [https://www.adobe.com/privacy/opt-out.html](https://www.adobe.com/privacy/opt-out.html), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
 
 1. Identifiera ditt organisations-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
 
@@ -61,9 +61,9 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
    >
    >Kontakta Adobe Advertising och bekräfta att alla era Adobe Advertising-konton är korrekta - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
-1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (vid ad hoc-begäran) att skicka in begäran om åtkomst och radering till Adobe Advertising för de registrerade samt att kontrollera status för befintliga ansökningar.
+1. Använd antingen [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (vid ad hoc-begäran) att skicka in begäran om åtkomst och radering till Adobe Advertising för de registrerade samt att kontrollera status för befintliga ansökningar.
 
-   För annonsörer som har en mobilapp för att interagera med registrerade personer och starta kampanjer med DSP måste du ladda ned de sekretessfärdiga SDK:erna för Experience Cloud. Med Mobile SDK:er kan personuppgiftsansvariga ange statusflaggor för avanmälan, hämta den registrerade personens enhets-ID (namnområdes-ID: deviceID) och skicka begäranden till Privacy Services-API. Din mobilapp kräver SDK version 4.15.0 eller senare.
+   För annonsörer som har en mobilapp för att interagera med registrerade personer och starta kampanjer med DSP måste du ladda ned de sekretessfärdiga SDK:erna för Experience Cloud. Tack vare SDK för mobiler kan personuppgiftsansvariga ange statusflaggor för avanmälan, hämta den registrerade personens enhets-ID (namnområdes-ID: deviceID) och skicka begäranden till Privacy Service-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
 
    När du skickar en begäran om åtkomst för en registrerad returnerar Privacy Services-API information som baseras på den angivna cookien eller det angivna enhets-ID:t, som du sedan måste returnera till den registrerade.
 
@@ -73,14 +73,14 @@ Om du vill begära åtkomst till och ta bort data för Adobe-annonsering måste 
    >
    Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
-Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [Integritet och GDPR](https://developer.adobe.com/client-sdks/documentation/privacy-and-gdpr/).
+Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i &quot;[Översikt över Privacy Servicen](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)och &quot;[API-guide för Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html).&quot;
 
 ## Obligatoriska fältvärden i JSON-begäranden i Adobe Advertising
 
 &quot;&quot;företagskontext&quot;:
 
 * `"namespace": **imsOrgID**`
-* `"value":` &lt;*ditt IMS-organisations-ID-värde*>
+* `"value":` &lt;*ditt IMS Org ID-värde*>
 
 `"users":`
 
@@ -98,7 +98,7 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"regulation": **gdpr**` (som är den sekretessregel som gäller för begäran)
 
-## Exempel på begäran som skickats av den registrerade med ett användar-ID för Adobe-annonsering som hämtats från `AdobePrivacy.js`
+## Exempel på begäran som skickats av den registrerade med ett användar-ID i Adobe Advertising som hämtats från `AdobePrivacy.js`
 
 ```
 {
