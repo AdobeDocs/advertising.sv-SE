@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: c6d86fb8-48b0-40fd-bcfc-c4afdccd5283
 feature: Search Campaign Management
-source-git-commit: c83663a65d5ec6d672c648c3fd59ae75ee3823d8
+source-git-commit: 1a4f802c51f29b2d7811ff21a9c7f0f20feb30ba
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1131'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience]:* Visar annonser på webben/skärmen på [!DNL Microsoft® Audience Network]. Du kan antingen a) automatiskt generera feed-baserade annonser genom att länka kampanjen till en handlarcenterbutik i [!UICONTROL Shopping Settings] eller b) skapa responsiva annonser med textresurser och överförda bilder. Båda alternativen kräver att ni skapar annonsgrupper med målgruppsanpassning.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Betafunktion) Marknadsför dina produkter via länkade återförsäljare i söknings- och målgruppsnätverk. Du kan skapa underordnade annonsgrupper och produktgrupper (appar som ska marknadsföras) för kampanjen, och [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Betafunktion) Marknadsför dina produkter via länkade återförsäljare i söknings- och målgruppsnätverk. Du kan skapa underordnade annonsgrupper och produktgrupper (appar som ska marknadsföras) och valfria produktannonser för kampanjen; [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Betafunktion) Markerar dina appar och spel som är tillgängliga i [!DNL Microsoft® Store]. Du kan skapa underordnade annonsgrupper och produktgrupper för kampanjen, och [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
+* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Betafunktion) Markerar dina appar och spel som är tillgängliga i [!DNL Microsoft® Store]. Du kan skapa underordnade annonsgrupper, produktgrupper och valfria produktannonser för kampanjen; [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
 
 * *[!UICONTROL Audience Video]:* (Betafunktion) Visar videoannonser i målgruppsnätverket.
 
 * *[!UICONTROL Audience Video]:* (Betafunktion) Visar videoannonser på uppkopplade TV-apparater (CTV) i målgruppsnätverket.
 
-* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk.
+* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk. Tilldela resursgrupper separat i [!DNL Microsoft® Advertising] annonsredigerare.
 
 ## [!UICONTROL Campaign Details]
 

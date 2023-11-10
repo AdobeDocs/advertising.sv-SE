@@ -1,9 +1,9 @@
 ---
 title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft® Advertising]
 description: Lär dig hur du exporterar synkroniserade kampanjer i en [!DNL Google Ads] konto direkt i en synkroniserad [!DNL Microsoft® Advertising] konto.
-exl-id: 1bb0d915-bf33-4c50-88a5-268d4de5ccff
+exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: f857da54ff75ba7b8065b8c08d6d28eb54445b48
+source-git-commit: 877333330df84ff5c8bd7ee1bfc837de492877fb
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Du kan replikera följande typer av kampanjer och deras kampanjstruktur:
 
   Om du vill upprepa shoppingbaserade displaykampanjer måste du först upprepa [!DNL Google Merchant Center] erbjudanden [!DNL Microsoft® Merchant Center]. När du replikerar kampanjerna väljer du [!DNL Microsoft® Merchant Center] lagra i Importalternativen för att länka butiken till era feedbaserade målgruppskampanjer.
 
-* [!DNL Google Ads] max-kampanjer, inklusive lokala annonser, i [!DNL Microsoft® Advertising] smarta shoppingkampanjer.
+* [!DNL Google Ads] max-kampanjer, inklusive lokala annonser, i [!DNL Microsoft® Advertising] max-kampanjer för prestanda.
 
 Du kan välja att uppdatera kampanjerna en gång, varje dag, varje månad eller enligt [!DNL Microsoft® Advertising]Rekommenderat schema. Du kan konfigurera meddelanden varje gång ett importjobb körs eller när fel eller ändringar inträffar. När ni har importerat era kampanjer till [!DNL Microsoft® Advertising]kan du kontrollera status för importjobbet, granska felloggar, manuellt köra ett importjobb samt redigera, pausa, aktivera eller ta bort importschemat.
 
