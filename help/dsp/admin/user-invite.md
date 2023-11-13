@@ -1,9 +1,9 @@
 ---
 title: Bjud in en ny användare till ditt organisationskonto
 description: Lär dig hur du bjuder in en ny användare att gå med i kontot.
-role: User, Admin
+role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 97e91adf4edf7ac482e949d3e1d4be6c883a589c
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Om det behövs kan du avbryta inbjudan till en användare med en väntande inbju
 
 1. Gör något av följande:
 
-   * På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
 
-   * På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
 
 1. I **[!UICONTROL Invitations]** avsnitt, klicka **[!UICONTROL Send Invite]**.
 
