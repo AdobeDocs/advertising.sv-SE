@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: fb95be48fae44a4ca365fe501253c185e76d64be
+source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
 workflow-type: tm+mt
-source-wordcount: '1732'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 2%
                + [Om [!DNL Google Ads] bildtexttillägg](/help/search-social-commerce/campaign-management/campaigns/callout-extension-about.md)
                + [Hantera [!DNL Google Ads] bildtexttillägg](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
                + [Associera [!DNL Google Ads] delade bildtexttillägg med kampanjer eller annonsgrupper](/help/search-social-commerce/campaign-management/campaigns/callout-extension-associate.md)
-            + [Hantera [!DNL Google Ads] platstillägg](/help/search-social-commerce/campaign-management/campaigns/location-extension-manage.md)
             + Webblänkstillägg {#sitelinks}
                + [Om tillägg för sitelink](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-about.md)
                + [Hantera delade sitelinks](/help/search-social-commerce/campaign-management/campaigns/sitelink-extension-manage.md)
