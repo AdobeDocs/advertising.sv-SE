@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 60988223d584741675e44fca2a50a228e4a3da91
+source-git-commit: 7b4818260fad61a773fb7261cbcdfd84bee84d42
 workflow-type: tm+mt
-source-wordcount: '2449'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,6 @@ När du lägger till en kampanj med eCPC i en optimerad portfölj för sökning,
    * (Platser nära en adress; endast inkluderade mål) Klicka **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Address]**. Ange adressen och radien i engelska mil eller kilometer runt den adress du vill ange som mål och klicka sedan på **[!UICONTROL Add]**.
 
    * (Platser nära geografiska koordinater; endast inkluderade mål) Klicka **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Coordinate]**. Ange latitud och longitud samt radien i engelska mil eller kilometer runt den plats du vill rikta, och klicka sedan på **[!UICONTROL Add]**.
-
-   * (Platser nära [!DNL My Business] platser som är tillgängliga som platstillägg (endast inkluderade mål) Klicka på **[!UICONTROL Location Group Target]** (![Platsgrupp](/help/search-social-commerce/assets/location-group.png "Platsgrupp")); ange ett land, en stat, en storstadsregion eller en stad om du vill föra ned listan över tillgängliga platser och välj sedan en eller flera platser i listan över [!DNL Google My Business] platser. Ange radien i engelska mil eller kilometer runt de platser du vill rikta och klicka sedan på **[!UICONTROL Add]**.
 
 * (Så här lägger du till en anbudsjustering för en inkluderad målplats) Ange ett värde för anbudsjustering:
 
