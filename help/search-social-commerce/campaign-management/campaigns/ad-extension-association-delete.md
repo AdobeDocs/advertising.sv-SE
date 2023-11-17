@@ -1,11 +1,11 @@
 ---
 title: Ta bort annonstilläggsassociationer med kampanjer och annonsgrupper
 description: Lär dig hur du kopplar bort annonstillägg till kampanjer och annonsgrupper.
-exl-id: 89aa556b-65fa-43de-989a-f58f0bbcf1f2
+exl-id: 123838fc-ebfb-477f-b33d-03d9e2d98789
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bd7d7ed571ef281f534ab45dc92f20be9445b055
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -29,5 +29,4 @@ Du kan ta bort associationer på kampanj- och annonsnivå med valfri plats, tele
 >[!MORELIKETHIS]
 >
 >* [Hantera [!DNL Google Ads] bildtexttillägg](/help/search-social-commerce/campaign-management/campaigns/callout-extension-manage.md)
->* [Hantera platstillägg](location-extension-manage.md)
 >* [Hantera tillägg för sitelink](sitelink-extension-manage.md)
