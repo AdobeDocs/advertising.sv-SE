@@ -1,11 +1,11 @@
 ---
 title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
-exl-id: 166c429a-043a-4e74-b1ee-5359cd483de5
+exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 30d7aeb970380e528096bfff2964901781a4e221
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,11 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Responsive search improve ad strength] | Förslag för att förbättra annonsstyrkan för en responsiv sökannons |
 | | [!UICONTROL Sitelink extension] | Lägga till sitelink-tillägg i en kampanj |
 | | [!UICONTROL Text ad] | Lägg till annonsförslag |
-| [!UICONTROL Automated campaigns] | [!UICONTROL Upgrade local campaign to performance max] | Uppgradera en äldre lokal kampanj till en maximal resultatkampanj |
+| [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrera dynamiska sökannonser till maximala prestandakampanjer. |
+| | [!UICONTROL Dynamic image extension opt in] | Aktivera dynamiska bildtillägg för kontot, vilket tillåter [!DNL Google Ads] maskininlärning för att automatiskt lägga till de mest relevanta bilderna från annonsens landningssida i annonsen. |
+| | [!UICONTROL Förbättra högsta prestanda och styrka | Förbättra resursgruppsstyrkan i en prestandamängdskampanj så att den får ett utmärkt omdöme. |
+| | [!UICONTROL Performance max opt in] | Anmäl dig till maximala prestandakampanjer. |
+| | [!UICONTROL Upgrade local campaign to performance max] | Uppgradera en äldre lokal kampanj till en maximal resultatkampanj |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Uppgradera en äldre smart shoppingkampanj till en maximalt resultatanpassad kampanj |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Korrigera kampanjer som begränsas av budgeten |
 | | [!UICONTROL Enhanced CPC opt in] | Köp med [!UICONTROL Enhanced CPC] |
@@ -68,6 +72,8 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Move unused budget] | Flytta oanvända till begränsade budgetar |
 | | [!UICONTROL Raise Target CPA bid too low] | Öka [!UICONTROL Target CPA] med en rekommenderad mängd när den är för låg och det finns få eller inga konverteringar |
 | | [!UICONTROL Target CPA opt in] | Köp med [!UICONTROL Target CPA] |
+| | [!UICONTROL Target CPA raising] | Öka [!UICONTROL Target CPA] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar. |
+| | [!UICONTROL Target ROAS lowering] | Nedre [!UICONTROL Target ROAS] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar. |
 | | [!UICONTROL Target ROAS opt in] | Köp med [!UICONTROL Target ROAS] |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Utvidga räckvidden genom att uppdatera en kampanj för att använda displayexpansion |
 | | [!UICONTROL Keyword] | Lägg till nya nyckelord |
