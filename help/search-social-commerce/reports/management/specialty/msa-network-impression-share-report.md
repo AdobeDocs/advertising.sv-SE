@@ -1,8 +1,9 @@
 ---
-title: "Den [!UICONTROL MSA Network Impression Share Report]"
+title: The [!UICONTROL MSA Network Impression Share Report]
 description: Läs mer om [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 016e54ee5631c3a849b5a3c6cc928b13a5030eef
+exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
+source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
