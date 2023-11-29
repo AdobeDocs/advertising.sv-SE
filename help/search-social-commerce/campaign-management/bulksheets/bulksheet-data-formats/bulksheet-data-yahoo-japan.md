@@ -1,11 +1,11 @@
 ---
 title: Bulkbladdata för [!DNL Yahoo! Japan] konton
 description: Referera rubrikfälten och datafälten i hämtade kalkylblad för [!DNL Yahoo! Japan] konton.
-exl-id: b68edbc1-0054-4dac-be3f-4df3c4e00ba9
+exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: 97111c6cd38098cac72b8773390afd254a017d1d
+source-git-commit: 5583128ec1c93b3a6244afb040e94c3b539c9db4
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2629'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 -->
 
 ## Tillgängliga datafält
+
+>[!TIP]
+>
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen genom att klicka på ![Dölj innehållsförteckning](/help/search-social-commerce/assets/hide-toc.png "Dölj innehållsförteckning") överst i den vänstra rutan.
 
 | Fält | Campaign | Annonsgrupp | Nyckelord | Text Ad | Mål för kampanjplats | Beskrivning |
 |----|----|----|----|----|----|----|
@@ -49,7 +53,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 | [!UICONTROL Description Line 1] | n/a | n/a | n/a | Obligatoriskt | n/a | Annonsens brödtext. För annonser med utökad text är maxlängden 80 enkelbyte- eller 40 dubbelbyte-tecken. Om du ändrar annonskopian tas den befintliga annonsen bort och en ny skapas. |
 | [!UICONTROL Description Line 2] | n/a | n/a | n/a | Obligatoriskt | n/a | (Endast standardtextannonser) Annonsens andra rad. Den maximala längden är 38 enkelbyte- eller 19 dubbelbyte-tecken. Om du ändrar annonskopian tas den befintliga annonsen bort och en ny skapas. <b>Obs!</b> [!DNL Yahoo! Japan Ads] tillåter inte längre att vanliga textannonser skapas och redigeras. |
 | [!UICONTROL Creative Type] | n/a | n/a | n/a | Valfritt | n/a | Annonsformatet:<ul><li>*[!UICONTROL Text]* (standard för nya annonser): Textannonser som kan visas på datorer, surfplattor och smarttelefoner.</li><li>*[!UICONTROL Mobile]:* Föråldrat.</li></ul> |
-| [!UICONTROL Display URL] | n/a | n/a | n/a | Obligatoriskt / ingen/a: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | n/a | (Endast befintliga standardtextannonser; skrivskyddade) Den URL som visas i annonsen. Maxlängden är 255 enkelbyte- eller 127 dubbelbyte-tecken. Dessutom måste domänerna för visnings-URL och landningssidans URL vara desamma. <b>Obs!</b> [!DNL Yahoo! Japan Ads] används inte för att skapa och redigera standardtexter och utökade textannonser. |
+| [!UICONTROL Display URL] | n/a | n/a | n/a | Obligatoriskt / ingen/a: Skapa<br><br>Valfritt/ej tillämpligt: Redigera eller ta bort | n/a | (Endast befintliga standardtextannonser; skrivskyddade) Den URL som visas i annonsen. Den maximala längden är 255 enkelbyte- eller 127 dubbelbyte-tecken. Dessutom måste domänerna för visnings-URL och landningssidans URL vara desamma. <b>Obs!</b> [!DNL Yahoo! Japan Ads] används inte för att skapa och redigera standardtexter och utökade textannonser. |
 | [!UICONTROL Display Path 1], [!UICONTROL Display Path 2] | n/a | n/a | n/a | Valfri/ingen/a | n/a | (Endast annonser i utökad text; valfritt) Text som läggs till i URL:en som automatiskt extraheras från den slutliga URL:en. Det föregås av ett snedstreck (`/`). En bana får inte innehålla snedstreck (`/`) eller newline (`\n`). Maxlängden är 15 tecken eller 7 dubbelbyte-tecken.<br><br>Använd följande format om du vill infoga en annonsanpassare: `Default text` är ett valfritt värde som ska infogas när din feed-fil inte innehåller ett giltigt värde:<ul><li>[!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}, such as {CUSTOMIZER.Discount:10%}`</li><li>[!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}, such as {CUSTOMIZER.Discount:10%}`</li></ul>Om [!UICONTROL Display Path 1] är&quot;erbjudanden&quot;, blir URL:en för displayen `&lt;display URL&gt;/deals`, till exempel www.example.com/deals. |
 | [!UICONTROL Base URL/Final URL] | n/a | n/a | Valfritt | Obligatoriskt | n/a | URL:en till landningssidan som slutanvändarna tas till när de klickar på annonsen, inklusive eventuella tilläggsparametrar som konfigurerats för kampanjen eller kontot. Bas/slutliga URL:er på nyckelordsnivå åsidosätter URL:er på annonsnivå och högre. |
 | [!UICONTROL Destination URL] | n/a | n/a | n/a | n/a | n/a | (Ingår i genererade kalkylblad i informationssyfte, inte i annonsnätverket) För konton med mål-URL:er är denna URL den URL som länkar en annons till en bas-URL/landningssida på annonsörens webbplats (ibland via en annan webbplats som spårar klickningen och sedan dirigerar om användaren till landningssidan). Den innehåller eventuella tilläggsparametrar som har konfigurerats för kampanj eller konto för sökning, sociala medier och handel. Om du genererade spårnings-URL:er baseras detta på spårningsparametrarna i dina kontoinställningar och kampanjinställningar. Om du har lagt till nätverksspecifika parametrar kan de ersättas med motsvarande parametrar för Sök, Socialt och Handel.<br><br>För konton med slutliga URL:er visar den här kolumnen samma värde som kolumnen Bas-URL/Slutlig URL.<br><br>Mål-URL:er på nyckelordet eller placeringsnivån åsidosätter URL:er på annonsnivån. |
