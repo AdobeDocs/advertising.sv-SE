@@ -3,16 +3,16 @@ title: Redigera en blockerad webbplatslista på kontonivå eller annonsnivå
 description: Lär dig hur du hanterar listan över blockerade webbplatser för ett konto eller en annonsörer.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
 
 # Redigera en blockerad webbplatslista på kontonivå eller annonsnivå
 
-1. På huvudmenyn klickar du på **Inställningar > Platser.**
+1. Klicka på **Inställningar > Platser.**
 
 1. Välj listnivå: *Konto* eller *Annonsör*.
 
@@ -30,13 +30,13 @@ ht-degree: 0%
 
    * (Valfritt) Om du vill ta bort ett eller flera värden gör du något av följande:
 
-      * Om du vill ta bort alla värden klickar du på **Rensa alla**. Klicka på **OK**.
+      * Om du vill ta bort alla värden klickar du **Rensa alla**. Klicka på **OK**.
 
       * Om du vill ta bort ett eller flera värden markerar du kryssrutan bredvid varje och klickar sedan på **Ta bort markerade**.
 
       * Om du vill ta bort enstaka värden klickar du på **X** bredvid värdet.
 
-   * (Valfritt) Om du vill exportera listan till ett Microsoft Excel-kalkylblad i CV-format (kommaseparerade värden) klickar du på **Exportera**.
+   * (Valfritt) Exportera listan till en [!DNL Microsoft Excel]  kalkylblad i CV-format (kommaavgränsade värden), klicka **Exportera**.
 
 >[!MORELIKETHIS]
 >
