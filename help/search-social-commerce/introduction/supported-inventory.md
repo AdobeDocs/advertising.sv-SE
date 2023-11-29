@@ -3,9 +3,9 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: 3bdc21ee649ddc16e144bfa15e16eeac27dfe5d0
+source-git-commit: 8540bfad431c82c52f54e17d7d82c0ac94213663
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Lager som stöds
 
 Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt vilka funktioner som är tillgängliga för var och en av dem.
+
+>[!TIP]
+>
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen genom att klicka på ![Dölj innehållsförteckning](/help/dsp/assets/hide-toc.png "Dölj innehållsförteckning") överst i den vänstra rutan.
 
 | Källa | Nätverk | Kampanjtyp | Annonstyp | Synkronisera och visa | Skapa/redigera | Spåra[^1] | Optimera | Rapport[^2] | Adobe Analytics Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|

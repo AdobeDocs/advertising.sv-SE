@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dda4a3dcd8d2cb35269ffcb6c600efdde57f2c90
+source-git-commit: 277ea1c216536138e1b08e451532dae1ab4b590d
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 
 >[!TIP]
 >
->Följande tabell är bred. Använd rullningslisten längst ned i tabellen för att visa hela innehållet.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen genom att klicka på ![Dölj innehållsförteckning](/help/dsp/assets/hide-toc.png "Dölj innehållsförteckning") överst i den vänstra rutan.
 
 | SSP-lista | Företag | Plats-ID | Programmatiskt garanterat stöd | Län | Valuta som stöds | Video Desktop | Video Mobile | Video CTV | Display Desktop | Visa mobil | Inbyggd visning | Ljuddator och mobil |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
