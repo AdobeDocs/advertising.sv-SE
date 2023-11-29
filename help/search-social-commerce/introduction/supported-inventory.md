@@ -3,16 +3,16 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: b42f4065b6fd346dbee2ddfa802ca6947772c963
+source-git-commit: 06a14b364e41ca37725abb279b40cfa79bd3fd23
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2712'
 ht-degree: 0%
 
 ---
 
 # Lager som stöds
 
-Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt vilka funktioner som är tillgängliga för var och en av dem.
+Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt vilka funktioner som är tillgängliga för varje annonstyp.
 
 >[!TIP]
 >
