@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för [!DNL Baidu] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Baidu] konton.
 exl-id: 9680cb37-50d4-4b4b-b359-ac54267cd5e6
 feature: Search Bulksheets
-source-git-commit: 255bdcd1e14bd1204b3b0a73034029ba7f4ef965
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1930'
+source-wordcount: '1932'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Location,Excluded IPs (Baidu), 
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen genom att klicka på ![Dölj innehållsförteckning](/help/search-social-commerce/assets/hide-toc.png "Dölj innehållsförteckning") överst i den vänstra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj rutan](/help/search-social-commerce/assets/hide-pane.png "Dölj rutan") överst i den vänstra eller högra rutan.
 
 | Fält | Campaign | Annonsgrupp | Nyckelord | Text Ad | Platsmål | Beskrivning |
 |----|----|----|----|----|----|----|

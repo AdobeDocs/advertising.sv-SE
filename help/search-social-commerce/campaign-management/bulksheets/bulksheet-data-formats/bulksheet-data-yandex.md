@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för [!DNL Yandex] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Yandex] konton.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 85a828367ebce0c9bdb851bd7b639cd2f870012a
+source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1907'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen genom att klicka på ![Dölj innehållsförteckning](/help/search-social-commerce/assets/hide-toc.png "Dölj innehållsförteckning") överst i den vänstra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj rutan](/help/search-social-commerce/assets/hide-pane.png "Dölj rutan") överst i den vänstra eller högra rutan.
 
 | Fält | Campaign | Annonsgrupp | Nyckelord | Text Ad | Webblänk | Beskrivning |
 |----|----|-----|-----|----|----|----|
