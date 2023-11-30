@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj rutan](/help/dsp/assets/hide-pane.png "Dölj rutan") överst i den vänstra eller högra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") överst i den vänstra rutan eller ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") överst i den högra rutan.
 
 | SSP-lista | Företag | Plats-ID | Programmatiskt garanterat stöd | Län | Valuta som stöds | Video Desktop | Video Mobile | Video CTV | Display Desktop | Visa mobil | Inbyggd visning | Ljuddator och mobil |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |

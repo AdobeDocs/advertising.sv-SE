@@ -3,9 +3,9 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2728'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj rutan](/help/search-social-commerce/assets/hide-pane.png "Dölj rutan") överst i den vänstra eller högra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/search-social-commerce/assets/hide-left-pane.png "Dölj den vänstra rutan") överst i den vänstra rutan eller ![Dölj den högra rutan](/help/search-social-commerce/assets/hide-right-pane.png "Dölj den högra rutan") överst i den högra rutan.
 
 | Källa | Nätverk | Kampanjtyp | Annonstyp | Synkronisera och visa | Skapa/redigera | Spåra[^1] | Optimera | Rapport[^2] | Adobe Analytics Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|

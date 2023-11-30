@@ -3,9 +3,9 @@ title: Bulkbladdata för [!DNL Yahoo! Japan] konton
 description: Referera rubrikfälten och datafälten i hämtade kalkylblad för [!DNL Yahoo! Japan] konton.
 exl-id: 78eb41ce-3854-454c-adf2-ba0339e2aef7
 feature: Search Bulksheets
-source-git-commit: db4a7e2f2fa312a9091accda7d38197ac0efe015
+source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2645'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Platform,Acct Name,Campaign Name,Campaign Budget,Delivery Method,Mobile Bid Adju
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj rutan](/help/search-social-commerce/assets/hide-pane.png "Dölj rutan") överst i den vänstra eller högra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/search-social-commerce/assets/hide-left-pane.png "Dölj den vänstra rutan") överst i den vänstra rutan eller ![Dölj den högra rutan](/help/search-social-commerce/assets/hide-right-pane.png "Dölj den högra rutan") överst i den högra rutan.
 
 | Fält | Campaign | Annonsgrupp | Nyckelord | Text Ad | Mål för kampanjplats | Beskrivning |
 |----|----|----|----|----|----|----|
