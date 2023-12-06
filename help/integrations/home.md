@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: e5874077-d2a8-43bb-ad4e-55547442c8a4
-source-git-commit: e0044c5241b6a7a89fdce9d7ef9225a2fb0cc19f
+source-git-commit: cde3e59564eeaeb1659715e77c30f2c7beae687e
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Följande funktioner är nya eller nyligen ändrade.
 | ---- | ------- | ----------- | -------------------- |
 | 8 augusti 2023 | [!DNL Analytics for Advertising] | Några [!DNL Analytics] framgångsstatistik, inklusive standardvärden, anpassade och reserverade konverteringsvärden och trafikvärden, är automatiskt tillgängliga i DSP och i sökningar, sociala medier och handel. Nu kan ni också konfigurera egna framgångsmått baserat på era befintliga [!DNL Analytics] [!DNL eVars] och [!DNL props] med kanttning [!DNL eVar]- och [!DNL prop]data på -nivå till en anpassad lyckad händelse. | Se &quot;[Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och [!DNL Props]](/help/integrations/analytics/conversion-metrics-from-evars.md).&quot; |
 | 13 juli 2023 | Rapportering | (DSP användare med [!DNL Analytics for Advertising]) Omvandlingar via visning för uppkopplade TV-apparater (CTV) ingår nu i konverteringsdata som är tillgängliga i Adobe Analytics. | Se avsnittet &quot;Exempel på hur du använder integreringen&quot; i &quot;[Översikt [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md#integration-examples).&quot; |
-| 1 november 2022 | Hjälp | I ett nytt dokument beskrivs hur du implementerar klicknings- och genomskinlighetssignaldelning mellan Advertising DSP och Adobe Target, konfigurerar en A/B-testaktivitet i [!DNL Target] för era DSP och hur ni konfigurerar Adobe Analytics Analysis Workspace för att visa testdata. | Se &quot;[Konfigurera A/B-tester i Adobe Target för annonsering DSP annonser](/help/integrations/target/overview-ab-tests.md).&quot; |
+| 1 november 2022 | Hjälp | I ett nytt dokument beskrivs hur du implementerar klicknings- och genomskinlighetssignaldelning mellan Advertising DSP och Adobe Target, konfigurerar en A/B-testaktivitet i [!DNL Target] för era DSP och hur ni konfigurerar Adobe Analytics Analysis Workspace för att visa testdata. | Se &quot;[Konfigurera A/B-tester i Adobe Target för annonsering DSP annonser](/help/integrations/target/ab-tests-dsp.md).&quot; |
 | 17 augusti 2022 | Hjälp | I ett nytt kapitel förklaras alla sätt på vilka Adobe Advertising är integrerat med Adobe Audience Manager. | Se kapitlet om&quot;Integrering med Adobe Audience Manager&quot; med en översikt över &quot;[Integrering av Adobe Advertising med Adobe Audience Manager](/help/integrations/audience-manager/overview.md).&quot; |
 | 27 april 2021 | [!DNL Analytics for Advertising] | Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] annonstaggar för att skicka klickdata till Adobe Analytics. | Se &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot; |
 | 19 april 2021 | [!DNL Analytics for Advertising] | Lär dig varför och hur du lägger till makron i dina [!DNL Flashtalking] annonstaggar för att skicka klickdata till Adobe Analytics. | Se &quot;[Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md).&quot; |
