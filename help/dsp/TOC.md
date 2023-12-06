@@ -4,10 +4,10 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 7d5f3028f3f8ff23a97274c182c37477a69c3f48
+source-git-commit: 72ee396019d5a444bd326fe659ce68eb3490a439
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 5%
+source-wordcount: '931'
+ht-degree: 3%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 5%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Support för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Policyer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Stöd för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Politik och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Översikt över Campaign Management Structure](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -215,6 +215,15 @@ ht-degree: 5%
       + [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
++ Planering {#planner}
+   + [Om DSP](/help/dsp/planner/planner-about.md)
+   + [Skapa en uppkopplad TV-sändningsplan](/help/dsp/planner/planner-create.md)
+   + [Duplicera en ansluten TV-sändningsplan](/help/dsp/planner/planner-duplicate.md)
+   + [Redigera en plan för ansluten TV-räckvidd](/help/dsp/planner/planner-edit.md)
+   + [Inställningar för uppkopplade TV-program](/help/dsp/planner/planner-settings.md)
+   + [Exportera en prognos för en plan för anslutningsbart TV-intervall](/help/dsp/planner/planner-export.md)
+   + [Generera om prognosen för en plan för uppkopplad TV](/help/dsp/planner/planner-forecast.md)
+   + [Arkivera ett uppkopplat program för tv-räckvidd](/help/dsp/planner/planner-archive.md)
 + Administration {#admin}
    + [Redigera din profil](/help/dsp/admin/user-own-profile-edit.md)
    + Användare {#users}
@@ -227,6 +236,6 @@ ht-degree: 5%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integrering med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Kundsupport](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)
-+ [Versionsinformation om Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
