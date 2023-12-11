@@ -3,22 +3,20 @@ title: JavaScript-kod för [!DNL Analytics for Advertising]
 description: JavaScript-kod för [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 8689bc2b5532b0e75ebf3cee14a42fa733d5ded5
+source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
 
 # JavaScript-kod för [!DNL Analytics for Advertising]
 
-*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
-
 *Annonsörer med endast DSP*
 
-För DSP [!DNL Analytics for Advertising] integreringen spårar genomskinlig och klickbar interaktion mellan webbplatser. Klicka-för-klicka-besök spåras av Adobe Analytics standardkod på webbsidorna, [!DNL Analytics] koden hämtar parametrarna AMO ID och EF ID i landningssidans URL och spårar dem i deras respektive reserverade eVars. Du kan spåra visningar genom att distribuera ett JavaScript-kodfragment på dina webbsidor.
+För DSP [!DNL Analytics for Advertising] integreringen spårar genomskinlig och klickbar interaktion mellan webbplatser. Klicka-för-klicka-besök spåras av Adobe Analytics standardkod på webbsidorna, [!DNL Analytics] koden hämtar parametrarna AMO ID och EF ID i landningssidans URL och spårar dem i deras respektive reserverade [!DNL eVars]. Du kan spåra visningar genom att distribuera ett JavaScript-kodfragment på dina webbsidor.
 
-I den första sidvyn av ett besök på webbplatsen kontrollerar JavaScript-koden i Adobe Advertising om besökaren tidigare har sett eller klickat på en annons. Om användaren tidigare har kommit in på webbplatsen via en klickning eller inte har sett någon annons, ignoreras besökaren. Om besökaren har sett en annons och inte har gått in på webbplatsen via ett klick under [klicka på uppslagsfönstret](/help/integrations/analytics/prerequisites.md#lookback-a4adc) som anges i Adobe Advertising, använder JavaScript-koden i Adobe Advertising antingen a) [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html) för att generera ett extra ID (`SDID`) eller b) använder Adobe Experience Platform [!DNL Web SDK] `generateRandomID` metod för att generera en `[!DNL StitchID]`. Båda ID:n används för att knyta data från Adobe Advertising till besökarens Adobe Analytics-träff. Adobe Analytics frågar sedan Adobe Advertising efter det AMO-ID och EF-ID som är kopplat till annonsexponeringen. AMO-ID:t och EF-ID:n fylls sedan i i deras respektive eVars. Dessa värden gäller under en angiven period (som standard 60 dagar).
+I den första sidvyn av ett besök på webbplatsen kontrollerar JavaScript-koden i Adobe Advertising om besökaren tidigare har sett eller klickat på en annons. Om användaren tidigare har kommit in på webbplatsen via en klickning eller inte har sett någon annons, ignoreras besökaren. Om besökaren har sett en annons och inte har gått in på webbplatsen via ett klick under [klicka på uppslagsfönstret](/help/integrations/analytics/prerequisites.md#lookback-a4adc) som anges i Adobe Advertising, använder JavaScript-koden i Adobe Advertising antingen a) [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html) för att generera ett extra ID (`SDID`) eller b) använder Adobe Experience Platform [!DNL Web SDK] `generateRandomID` metod för att generera en `[!DNL StitchID]`. Båda ID:n används för att knyta data från Adobe Advertising till besökarens Adobe Analytics-träff. Adobe Analytics frågar sedan Adobe Advertising efter det AMO-ID och EF-ID som är kopplat till annonsexponeringen. AMO-ID:t och EF-ID:n fylls sedan i i deras respektive [!DNL eVars]. Dessa värden gäller under en angiven period (som standard 60 dagar).
 
 [!DNL Analytics] skickar statistik om webbplatstrafiken (t.ex. sidvisningar, besök och hur länge de används) och [!DNL Analytics] Anpassade händelser eller standardhändelser till Adobe Advertising per timme, med EF ID som nyckel. Dessa [!DNL Analytics] mätvärden körs sedan genom Adobe Advertising attribueringssystem för att koppla konverteringarna till klicknings- och exponeringshistoriken.
 
@@ -107,8 +105,8 @@ Du kan utföra valideringen med valfritt verktyg för paketkodsnuttar (t.ex. [!D
 1. Öppna [[!DNL Adobe Experience Cloud Debugger]](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) på din hemsida.
 1. Gå till [!UICONTROL Network] -fliken.
 1. I [!UICONTROL Solutions Filter] verktygsfält, klicka [!UICONTROL Adobe Advertising] och [!UICONTROL Analytics].
-1. I [!UICONTROL Request URL – Hostname] parameterrad, lokalisera `lasteventf-tm.everesttech.net`.
-1. I [!UICONTROL Request – Parameters] rad, granska genererade signaler, liknande steg 3 i &quot;[Bekräfta koden med [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
+1. I [!UICONTROL Request URL - Hostname] parameterrad, lokalisera `lasteventf-tm.everesttech.net`.
+1. I [!UICONTROL Request - Parameters] rad, granska genererade signaler, liknande steg 3 i &quot;[Bekräfta koden med [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementeringar som använder Experience Cloud Identity Service `visitorAPI.js` kod) Kontrollera att `Sdid` parametern matchar `Supplemental Data ID` i Adobe Analytics-filtret.
    * (Implementeringar som använder Experience Platform [!DNL Web SDK] `alloy.js`kod) Kontrollera värdet på `advertisingStitchID` parametern matchar `Sdid` skickas till Experience Platform Edge-nätverket.
    * Om koden inte genereras kontrollerar du att cookien Adobe Advertising har tagits bort i [!UICONTROL Application] -fliken. Uppdatera sidan och upprepa processen när den har tagits bort.

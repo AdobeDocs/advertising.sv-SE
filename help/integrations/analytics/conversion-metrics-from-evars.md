@@ -1,10 +1,11 @@
 ---
-title: "Skapa konverteringsstatistik från Adobe Analytics [!DNL eVars] och proppar"
-description: "Konfigurera anpassade händelsemätningar för framgångar med [!DNL eVar]- och [!DNL prop]data på -nivå."
+title: Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och proppar
+description: Konfigurera anpassade händelsemätningar med [!DNL eVar]- och [!DNL prop]data på -nivå.
 feature: Integration with Adobe Analytics, Conversions
-source-git-commit: 71ffd021b31154a2ed2a522049f656a13d364d00
+exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
+source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -64,6 +65,4 @@ Mer information om hur du skapar mål finns i kapitlet om optimeringsguiden,&quo
 >[!MORELIKETHIS]
 >
 >* [[!DNL Analytics] Data i Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)
-<!--
->* [](/help/search-social-commerce/admin/conversion-metrics/ ????????)
--->
+>* [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
