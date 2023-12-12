@@ -3,16 +3,16 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 # Skapa och implementera ett anpassat segment
 
-Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och implementera ett anpassat DSP. Du kan använda segmentet för att spåra a) användare som exponeras för annonser från datorer, mobila enheter och CTV-enheter och b) användare som besöker specifika webbsidor. Du kan senare rikta om användare i segmentet med ytterligare annonser eller hindra användare i segmentet från att få ytterligare annonser.
+Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och implementera ett anpassat DSP. Du kan använda segmentet för att spåra a) användare som exponeras för annonser från datorer och mobila enheter och b) användare som besöker specifika webbsidor. Du kan senare rikta om användare i segmentet med ytterligare annonser eller hindra användare i segmentet från att få ytterligare annonser.
 
 >[!NOTE]
 >
@@ -20,9 +20,9 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
 1. Skapa segmentet:
 
-   1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+   1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
 
-   1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**.
+   1. Ovanför datatabellen klickar du **[!UICONTROL Create]**.
 
    1. Ange ett unikt **[!UICONTROL Segment Name]**.
 
@@ -44,15 +44,15 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
          1. Kopiera spårningstaggen för sidvyn, som har etiketten[!UICONTROL Desktop or mobile websites].&quot;
 
-         1. Ge annonsören eller webbplatskontakten taggen för distribution.
+         1. Ange taggen till annonsören eller webbplatskontakten för distribution.
 
             Annonsörens IT-avdelning eller annan grupp kan behöva schemalägga, eller få information om, tagghanteringen.
-      * Så här spårar du användare som exponeras för en annonsenhet på datorer, mobila enheter eller CTV-enheter:
+
+      * Så här spårar du användare som exponeras för en annonsenhet på datorer eller mobila enheter:
 
          1. Kopiera taggen för visningsspårning, som har etiketten &quot;[!UICONTROL Desktop or mobile ads].&quot;
 
-
-1. Lägg till taggen i antingen [!UICONTROL Pixel] flik för varje relevant annons eller för [!UICONTROL Event Pixels] i [[!UICONTROL Tracking] inställningar för varje relevant placering](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+1. Lägg till taggen i antingen [!UICONTROL Pixel] för varje relevant annons eller för [!UICONTROL Event Pixels] i [[!UICONTROL Tracking] inställningar för varje relevant placering](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 När du har implementerat en spårningstagg kan du använda segmentet i målgruppen eller exkluderingarna för alla placeringar.
 
@@ -71,4 +71,3 @@ När du har implementerat en spårningstagg kan du använda segmentet i målgrup
 >* [Skapa en återanvändbar publik](reusable-audience-create.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-
