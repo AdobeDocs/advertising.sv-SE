@@ -3,9 +3,9 @@ title: Visa en logg för platsändring
 description: Lär dig hur du visar ändringar som gjorts i placeringen.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: bcd4da87642125f173befb1cdff43330ec1145bc
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
@@ -39,7 +39,6 @@ Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 >* [Skapa en placering](placement-create.md)
 >* [Redigera en placering](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Redigera annonsschemat för en placering](placement-edit-ad-schedule.md)
+>* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Placeringsinställningar](placement-settings.md)
-

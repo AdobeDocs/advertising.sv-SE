@@ -3,9 +3,9 @@ title: Redigera inställningar för tangentmontering snabbt
 description: Lär dig hur du snabbt ändrar inställningar för tangentplacering.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >
 > Om du vill redigera en placeringsinställning läser du &quot;[Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
@@ -33,9 +33,8 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >* [Skapa en placering](placement-create.md)
 >* [Redigera en placering](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Redigera annonsschemat för en placering](placement-edit-ad-schedule.md)
+>* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
-

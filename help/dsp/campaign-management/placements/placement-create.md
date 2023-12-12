@@ -3,10 +3,10 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: c86493663b096854ab3ac2e07244619459ac004c
+source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 1%
+source-wordcount: '673'
+ht-degree: 0%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 1%
 
       * Så här skapar du en ny annons:
 
-         1. Klicka på **[!UICONTROL Create a New Ad].**
+         1. Klicka **[!UICONTROL Create a New Ad].**
 
          1. Ange annonsinställningar för [ljudannonser](/help/dsp/campaign-management/ads/ad-settings-audio.md), [ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [displayannonser](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [inbyggda annonser](/help/dsp/campaign-management/ads/ad-settings-native.md), [pre-roll-ads](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), eller [universella videobrev](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
@@ -136,7 +136,7 @@ ht-degree: 1%
 >
 >* [Om Platshantering](placement-about.md)
 >* [Redigera en placering](placement-edit.md)
->* [Redigera annonsschemat för en placering](placement-edit-ad-schedule.md)
+>* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
