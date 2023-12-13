@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
+source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
 workflow-type: tm+mt
-source-wordcount: '3755'
+source-wordcount: '3749'
 ht-degree: 0%
 
 ---
@@ -190,7 +190,7 @@ ht-degree: 0%
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] endast kampanjer) Den genomsnittliga tiden som videon spelades upp, inklusive hur länge videon spelades upp, för ett enda intryck. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] endast kampanjer) Det antal gånger som videon börjar spelas upp, med undantag för repriser. |
-| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]och [!UICONTROLVVideo spelas upp med 100 procent] | (Videoannonser) Antalet videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]och [!UICONTROL Video Played at 100 Percent Count] | (Videoannonser) Antalet videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]och [!UICONTROL VideoQuartile100Rate] | (Videoannonser) Procentandel videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
 | [!UICONTROL View Rate] | (Videoannonser) Antalet visningar eller engagemang delat med antalet gånger som annonsen (video- och miniatyrbilder) visades. |
 | [!UICONTROL Views] | (Videoannonser) Antal gånger som personer har tittat på eller deltagit i annonsen. |
