@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 0e82baca53d27dea4207cb2eef3f4be7a9f99fb5
+source-git-commit: 2a4920bc8a9b45061fb0b3773e5a90954ce2dff5
 workflow-type: tm+mt
-source-wordcount: '3598'
+source-wordcount: '3755'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Type] | Annonsgruppstypen, till exempel <i>[!UICONTROL Audience]</i> (endast för målgruppskampanjer), <i>[!UICONTROL Discovery]</i> (endast för identifieringskampanjer), <i>[!UICONTROL Display]</i> (endast för displaykampanjer), <i>[!UICONTROL Search Dynamic]</i> (endast för dynamiska sökannonser), <i>[!UICONTROL Search Standard]</i> (endast för responsiva sökannonser och befintliga expanderade textannonser), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (endast för standardkampanjer) eller <i>[!UICONTROL Shopping Smart]</i> (för smarta shoppingkampanjer). För vissa kampanjtyper kan en enda kampanj innehålla flera annonstyper. |
 | [!UICONTROL Ad Groups] | Antalet annonsgrupper som etikettvärdet tilldelas till. |
 | [!UICONTROL AD Name] | Annonsgruppens namn; samma värde som [!UICONTROL Ad Group]. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer att komma ihåg er annons inom två dagar. |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer att komma ihåg er annons inom två dagar delat med det antal personer ni har nått, som en procentandel. |
 | [!UICONTROL Ad Size] | Annonsens dimensioner. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsiva sökannonser) Annonsens effektivitet: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>, eller <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] kampanjer) Den aktuella ändringen av ert mobilbud på annonsgruppsnivå, som avgör hur anbuden justeras när annonsen visas på en mobil enhet. |
@@ -46,6 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Campaign] | Kampanjen. |
 | [!UICONTROL Campaign Budget] | Kampanjbudgeten. |
 | [!UICONTROL Campaign MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] kampanjer) Den aktuella justeringen av mobilbud på kampanjnivå, som avgör hur offerterna justeras när annonsen visas på en mobil enhet. |
+| [!UICONTROL Campaign Product Scope Filter] | (Kampanjer som endast använder shoppingnätverket) De produkter på ert handelskonto för vilka produktannonser kan skapas för kampanjen. |
 | [!UICONTROL Campaign Start Date] | Den första dagen då anbud lämnades/delgavs kampanjen. |
 | [!UICONTROL Campaign Status] | Kampanjstatus: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Ended]</i>, eller <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Campaign Type] | kampanjtypen, till exempel <i>[!UICONTROL Audience (Ctv Video)]</i><i>[!UICONTROL Audience (Feed)]</i>, <i>[!UICONTROL Audience (Image)]</i>, <i>[!UICONTROL Audience (Video)]</i>, <i>[!UICONTROL Brand Shopping]</i>, <i>[!UICONTROL Discovery]</i>, <i>[!UICONTROL Search and Display]</i>, <i>[!UICONTROL Standard Display]</i>, <i>[!UICONTROL Standard Performance Max]</i>, <i>[!UICONTROL Standard Search]</i>, <i>[!UICONTROL Standard Shopping]</i>, <i>[!UICONTROL Store Ad]</i>, <i>[!UICONTROL Video]</i>, eller <i>[!UICONTROL Others]</i>. |
@@ -106,6 +109,7 @@ ht-degree: 0%
 | [!UICONTROL Estimated Impressions] | (Endast displaykampanjer) Det uppskattade antalet annonsvisningar som har spårats av Search, Social och Commerce. Detta värde kan skilja sig från värdet för [!UICONTROL Impressions] kolumn (om den är tillgänglig), som visar det värde som annonsnätverken tillhandahåller. |
 | [!UICONTROL Exclude (yes/no)] | Huruvida bud ska uteslutas (<i>[!UICONTROL Yes]</i>) eller budgivning tillåts (<i>[!UICONTROL No]</i>) för annonser för matchande produkter. |
 | [!UICONTROL First Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas på den första sidan i sökresultaten under det angivna datumintervallet. |
+| [!UICONTROL Frequency] | ([!DNL Meta] endast kampanjer) Det genomsnittliga antalet gånger någon såg din annons. |
 | `GGL*`, `GGL_CT*`och `GGL_XD_CT*` [[!DNL Google Ads]-spårade konverteringar] | ([!DNL Google Ads] kampanjer i sök- och köpnätverk) [!DNL Google Ads]-spårade konverteringar, med upp till tre olika mätvärden för varje konvertering:<ul><li>`GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).</li><li>`GGL_CT*` — Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).</li><li>`GGL_XD_CT*` — (När det är tillgängligt för konverteringstypen, när du spårar dem) Antal (antal) konverteringar mellan enheter, mätt med [!DNL Google Ads] som börjar med prefixet &quot;GGL_XD_CT_&quot; (till exempel GGL_XD_CT_Purchase).</li></ul><br>Varje konvertering registreras av anbudsenheten och klickdatumet; den är inte tillgänglig på händelsenivå. Mer information om [!DNL Google Ads]-spårade konverteringar, se[[!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md).&quot; |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] (endast) Procentandelen annonser som visas som första annons ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] endast) Procentandelen annonser som visas ovanför resultaten av den organiska sökningen. |
@@ -127,16 +131,17 @@ ht-degree: 0%
 | [!UICONTROL Market Type] | Marknadstyp:  <i>[!UICONTROL search]</i> eller <i>[!UICONTROL social]</i> |
 | [!UICONTROL Max Spend % Target] | (Kampanjer i portföljer med [!UICONTROL ROI], [!UICONTROL CPT], eller [!UICONTROL Marginal Cost per Transaction] utgiftsstrategier) Det maximala dagliga budgetmålet för portföljen. |
 | [!UICONTROL Max Spend (%)] | ([!UICONTROL Network Constraint Report]) Den maximala procentandel av portföljens utgifter som har konfigurerats för annonsnätverket. För portföljer som använder begränsningstypen[!UICONTROL Min-Max],&quot; det här är [!UICONTROL Max %] värde. För portföljer som använder begränsningstypen[!UICONTROL Target Spend],&quot; det här är [!UICONTROL Target Spend] värde. |
-| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report])  <!-- ???????? Insert value --> |
+| [!UICONTROL Method ID] | ([!UICONTROL Portfolio Report]) |
 | [!UICONTROL Metro Code] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) En numerisk tunnelbanekod som användes för att skapa visningar eller klickningar (till exempel us-751 för Denver). Det bestäms av sökanvändarens IP-adress. |
 | [!UICONTROL Min Spend (%)] | ([!UICONTROL Network Constraint Report]) Den minsta procentandel av portföljens utgifter som har konfigurerats för annonsnätverket. För portföljer som använder begränsningstypen[!UICONTROL Min-Max],&quot; det här är [!UICONTROL Min %] värde, om ett [!UICONTROL Min %] är konfigurerad. För portföljer som använder begränsningstypen[!UICONTROL Target Spend],&quot; det här är [!UICONTROL Target Spend] värde. |
 | [!UICONTROL Network Account ID] | Konto-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Ad Group ID] | Annonsgrupps-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Campaign ID] | Kampanj-ID som tilldelats av nätverket. |
+| [!UICONTROL Network Campaign Objective] | ([!DNL Meta] endast kampanjer) Målet för kampanjen. |
 | [!UICONTROL Objective Name] | Portföljens mål. |
 | [!UICONTROL Objective Value] | Den totala viktade konverteringen enligt portföljens aktuella mål. |
 | [!UICONTROL Objective Value Calculation] | Den beräkning som används för att härleda målvärdet. |
-| [!UICONTROL Outbound Clicks] | ([!DNL Meta] annonser) Antal klick på länkar i annonser som tar bort folk [!DNL Meta]-ägda egendomar. |
+| [!UICONTROL Outbound Clicks] | ([!DNL Meta] endast kampanjer) Antalet klick på länkar i annonser som tar bort människor [!DNL Meta]-ägda egendomar. |
 | [!UICONTROL Parent Product Groupings] | Den fullständiga hierarkin för de överordnade produktgrupperna, med `>>` mellan lager (till exempel `All Products>>CategoryL1=Animals`), i tillämpliga fall. |
 | [!UICONTROL Partition Type] | Typ av produktgrupp: <i>[!UICONTROL Sub-Division]</i> (överordnade produktgrupper) eller <i>[!UICONTROL Unit]</i> (lägsta nivån av underordnade produktgrupper, som har ett bud). |
 | [!UICONTROL Path Position] | ([!UICONTROL Transaction Report]) Händelsens position i konverteringssökvägen. |
@@ -150,10 +155,12 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) Det dagliga målet för portföljens utgiftsstrategi. För varje dag/månad och dag i vecka/månad visas den aktuella dagens mål. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] kampanjer) Om annonsinställningarna prioriterar <i>[!UICONTROL Mobile ads]</i> eller till <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | Det numeriska ID som annonsnätverket tilldelar produktgruppen. |
+| [!UICONTROL Product Group Name] | Produktgruppens namn. |
+| [!UICONTROL Product Group Status] | Produktgruppens status. |
 | [!UICONTROL Product Groupings] | Den överordnade produktgruppen. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] produktlistor) Produkt-ID för produkten som visas med annonsen.<br><br><b>Obs!</b> ID:t registreras bara när produktlistan innehåller spårningsparametern `ev_plx=<GMC product ID>`som du måste lägga till inom [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Omvandlingsmåttets intäkter (t.ex. 1 för en registrering eller 12 för en 12 USD-order). Om flera budenheter har samma transaktions-ID delas intäkten för spårnings-ID upp efter antalet klick på det angivna klickdatumet (när klickdata är tillgängliga). |
-| [!UICONTROL Reach] | ([!DNL Meta] annonser) Antalet personer som såg era annonser minst en gång. Obs! [!DNL Meta] avduplicerar räckvidden för användarprofiler dagligen, så att antalet rapporterade av [!DNL Meta] och via sökning kan sociala medier och handel skilja sig åt. |
+| [!UICONTROL Reach] | ([!DNL Meta] endast kampanjer) Antalet personer som såg era annonser minst en gång. Obs! [!DNL Meta] avduplicerar räckvidden för användarprofiler dagligen, så att antalet rapporterade av [!DNL Meta] och via sökning kan sociala medier och handel skilja sig åt. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) En region eller delstat i USA/Kanada där visningar eller klickningar har sitt ursprung. Den avgörs av användarens IP-adress. |
 | [!UICONTROL SE Creative ID] | Det annons-ID som tilldelats av nätverket. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]) De visningar du fått på den absolut översta platsen (den allra första och ovanför sökresultatet för organisk sökning) dividerat med det uppskattade antalet visningar du var berättigad att ta emot på den översta platsen. Procenttal under 10 % anges som &quot;`<10%`&quot; eller &quot;`0.0999`.&quot; |
@@ -173,15 +180,17 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | Första dagen som rapporterades. |
 | [!UICONTROL State] | (Geo Distribution Report, [!UICONTROL Keyword Report]) Ett tillstånd som transaktionen härstammar från. Den avgörs av användarens IP-adress. |
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) ID för den användare som slutförde transaktionen. |
-| [!UICONTROL Through Plays] | ([!DNL Meta] annonser) Antalet visningar som tittade på hela annonsen. |
+| [!UICONTROL Thru Plays] | ([!DNL Meta] endast kampanjer) Antalet visningar som tittade på hela annonsen. |
 | [!UICONTROL Top of Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas högst upp på sökresultatsidorna under det angivna datumintervallet. |
 | [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) spårningskod för sökning, sociala medier och handel. |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Det annonsörspecifika konverteringsmått som transaktionen krediteras. |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då det angivna konverteringsmåttet krediterades. |
+| [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] endast kampanjer) Det antal gånger som videon spelades upp under minst två sammanhängande sekunder. |
 | [!UICONTROL User Account Type] | Föråldrad |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
-| [!UICONTROL Video Average Play Time] | ([!DNL Meta] annonser) Den genomsnittliga tiden som videon spelades upp, inklusive den tid som användes för att spela upp videon, för ett enda intryck. |
-| [!UICONTROL Video Plays] | ([!DNL Meta] annonser) Antalet gånger som videon börjar spelas upp, exklusive uppspelningar. |
+| [!UICONTROL Video Average Play Time] | ([!DNL Meta] endast kampanjer) Den genomsnittliga tiden som videon spelades upp, inklusive hur länge videon spelades upp, för ett enda intryck. |
+| [!UICONTROL Video Plays] | ([!DNL Meta] endast kampanjer) Det antal gånger som videon börjar spelas upp, med undantag för repriser. |
+| [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]och [!UICONTROLVVideo spelas upp med 100 procent] | (Videoannonser) Antalet videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
 | [!UICONTROL VideoQuartile25Rate], [!UICONTROL VideoQuartile50Rate], [!UICONTROL VideoQuartile75Rate]och [!UICONTROL VideoQuartile100Rate] | (Videoannonser) Procentandel videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
 | [!UICONTROL View Rate] | (Videoannonser) Antalet visningar eller engagemang delat med antalet gånger som annonsen (video- och miniatyrbilder) visades. |
 | [!UICONTROL Views] | (Videoannonser) Antal gånger som personer har tittat på eller deltagit i annonsen. |
