@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b01b1044e33743a7690c25a8294e35e5cd19ca07
+source-git-commit: ad0b60d3de4155330f7709701cf110cc760ec8ea
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,8 @@ Följande funktioner är nya eller nyligen ändrade.
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
 | 6 december 2023 | Planering | (Betafunktion) Det nya plannerverktyget hjälper till att förutsäga den unika räckvidd som uppkopplad TV (CTV) har på hushållsnivå enligt angivna budgetar och riktningskriterier. När du har utvärderat flera planer kan du implementera paket och placeringar som är bäst anpassade efter det önskade resultatet. | Se &quot;[Om DSP](/help/dsp/planner/planner-about.md).&quot; |
-| 27 september 2023 | Optimering | Två nya målgruppsbaserade optimeringsmål, **[!UICONTROL Always Max Bid and Maximize Reach]** och **[!UICONTROL Lowest Cost per Reach]**, hjälper er att nå så många unika hushåll som möjligt med tanke på samma nivå av visningar eller utgifter. Båda målen är tillgängliga både på paketnivå och på placeringsnivå. | Se &quot;[Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md).&quot; |
+|  | Optimering | Två nya klickbaserade optimeringsmål är tillgängliga för alla användare: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** och **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Se &quot;[Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)och &quot;[Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
+| 27 september 2023 | Optimering | Två nya målgruppsbaserade optimeringsmål, **[!UICONTROL Always Max Bid and Maximize Reach]** och **[!UICONTROL Lowest Cost per Reach]**, hjälper er att nå så många unika hushåll som möjligt genom att använda samma nivå av visningar eller utgifter. Båda målen är tillgängliga både på paketnivå och på placeringsnivå. | Se &quot;[Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md).&quot; |
 | 23 augusti 2023 | [!UICONTROL Placements] | Det nya verktyget för placeringsprognos visar prognostiserat antal visningar, utgifter och optimalt högsta bud för en viss målinriktningsstrategi. Prognosen beräknas utifrån det totala lagret som är tillgängligt för placeringen och de unika användare som är tillgängliga. | Se &quot;[Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md).&quot; |
 |  |  | Nu kan du snabbt associera flera annonser med placeringar genom att ladda ned en kalkylbladsfil för en kampanj eller för en eller flera placeringar och redigera filen så att den innehåller värden i den nya[!UICONTROL Attached Ad ID]och sedan överföra den redigerade filen. Använd kolumnen för att lägga till annonser i placeringen men inte ta bort dem.<br><br>Hämta en lista med annonsnamn och associerade annonser [!UICONTROL Ad ID]s, gå till [!UICONTROL Ads] skapa en anpassad vy som innehåller [!UICONTROL ID] och exportera sedan data. | Se &quot;[Hämta placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-download.md),&quot;[Placera kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md),&quot; och &quot;[Överför placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-upload.md).&quot;<br><br>Se även &quot;[Exportera data från en Campaign Management-vy](/help/dsp/campaign-management/reports/campaign-export-data.md).&quot; |
 |  | [!UICONTROL Custom Reports] | Anpassade rapporter har nu [!UICONTROL End Date], som kan ligga upp till fyra månader bort. För befintliga rapporter är förfallodatumet den 24 september 2023.<br><br>Innan en rapport förfaller får alla angivna e-postmottagare ett e-postmeddelande sju dagar och en dag före förfallodatumet. Om du vill behålla rapporten längre ändrar du förfallodatumet i rapportinställningarna. | Se &quot;[Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)och &quot;[Anpassade rapportinställningar](/help/dsp/reports/report-settings.md).&quot; |
