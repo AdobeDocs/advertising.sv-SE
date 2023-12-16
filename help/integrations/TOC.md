@@ -4,10 +4,10 @@ user-guide-description: Lär dig mer om integreringar för Advertising DSP och A
 breadcrumb-title: Integreringar med Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 676b7bb7303369a8e212a27cec99c0e1f88da9ae
+source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 12%
+source-wordcount: '214'
+ht-degree: 11%
 
 ---
 
@@ -45,5 +45,7 @@ ht-degree: 12%
       + [Samla in impression och klicka på Data från DSP Campaigns](/help/integrations/audience-manager/media-data-integration/collect.md)
       + [Användningsexempel](/help/integrations/audience-manager/media-data-integration/use-cases.md)
    + [Adobe Audience Analytics för reklamkunder](/help/integrations/audience-manager/audience-analytics.md)
-+ [Konfigurera A/B-tester i Adobe Target för DSP annonser](/help/integrations/target/ab-tests-dsp.md)
++ Integrering med Adobe Target {#target}
+   + [Konfigurera A/B-tester i Adobe Target för DSP annonser](/help/integrations/target/ab-tests-dsp.md)
+   + [Konfigurera A/B-tester i Adobe Target för annonser för sökning, sociala medier och handel](/help/integrations/target/ab-tests-search.md)
 + [Videofilmer om integrering med Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
