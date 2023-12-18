@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | SSP-lista | Företag | Plats-ID | Programmatiskt garanterat stöd | Län | Valuta som stöds | Video Desktop | Video Mobile | Video CTV | Display Desktop | Visa mobil | Inbyggd visning | Ljuddator och mobil |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL AdColony] (tidigare [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Nej | Global | USD | x | x |  | x | x |  |  |
-| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Nej | Global | US-dollar, EUR, GBP |  |  |  |  |  |  | x |
+| [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Ja | Global | US-dollar, EUR, GBP |  |  |  |  |  |  | x |
 | [!DNL AppNexus] | [!DNL Xandr] | ID för videoplats: 9094<br>Visningsplats-ID: 3939 | Nej | Global | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] eller Adobe Advertising | Nej | USA och EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nej | USA/CA | USD | x | x | x | x | x |  |  |
