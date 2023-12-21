@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: e1ae2bb601bc00dad8c611a00cb6ba88c9c57dee
+source-git-commit: 6b2ed619b5f902207720b646693253244cd7b567
 workflow-type: tm+mt
-source-wordcount: '1836'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 21 december 2023 | [!UICONTROL Audiences] | Dokumentation finns nu för delning av egna data från [!DNL Tealium] plattform för kunddata med DSP [!DNL Amazon Web Services]. Du kan ange DSP för segmenten med [!DNL RampIDs]. Inom placeringsinställningarna för [!UICONTROL Audience Targeting]är de delade segmenten tillgängliga i [!UICONTROL First Party Segments] lista. | Se &quot;[Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)och &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 december 2023 | Planering | (Betafunktion) Det nya plannerverktyget hjälper till att förutsäga den unika räckvidd som uppkopplad TV (CTV) har på hushållsnivå enligt angivna budgetar och riktningskriterier. När du har utvärderat flera planer kan du implementera paket och placeringar som är bäst anpassade efter det önskade resultatet. | Se &quot;[Om DSP](/help/dsp/planner/planner-about.md).&quot; |
 |  | Optimering | Två nya klickbaserade optimeringsmål är tillgängliga för alla användare: **[!UICONTROL Highest ROAS (click focused) - Custom Goal]** och **[!UICONTROL Lowest CPA (click focused) - Custom Goal]**. | Se &quot;[Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)och &quot;[Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).&quot; |
 | 27 september 2023 | Optimering | Två nya målgruppsbaserade optimeringsmål, **[!UICONTROL Always Max Bid and Maximize Reach]** och **[!UICONTROL Lowest Cost per Reach]**, hjälper er att nå så många unika hushåll som möjligt genom att använda samma nivå av visningar eller utgifter. Båda målen är tillgängliga både på paketnivå och på placeringsnivå. | Se &quot;[Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md).&quot; |

@@ -3,7 +3,7 @@ title: Målgruppsinställningar
 description: Se beskrivningar av tillgängliga målgruppsinställningar.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 53b52066eda55b3338a8a11773fdb8924211bddc
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ## Tredjepartssegment
 
-(Valfritt) Alla standardsegment som är tillgängliga via Adobe Advertising third-party data taxonomy, och som ska ingå i målgruppskonfigurationen.
+(Valfritt) Alla standardsegment som är tillgängliga via datataxonomin från tredje part i Adobe Advertising, och som ska ingå i målgruppskonfigurationen.
 
-## Första partssegment
+## Segment från första part
 
 (Valfritt) Alla segment från första part som importerats och/eller anpassats för kontot och som ska ingå i målgruppskonfigurationen.
 
 ## Adobe segment
 
-(Valfritt) Alla [!DNL Adobe Real-Time Customer Data Profile], Adobe Analytics eller Adobe Audience Manager som ska ingå i målgruppskonfigurationen.
+(Valfritt) Alla [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics eller Adobe Audience Manager som ska ingå i målgruppskonfigurationen.
 
 ## Egna segment
 
@@ -41,4 +41,3 @@ ht-degree: 0%
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
 >* [Skapa och implementera en [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-

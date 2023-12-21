@@ -3,10 +3,10 @@ title: Skapa en målgruppskälla för att aktivera förstahandspubliker
 description: Lär dig hur du skapar en källa för att importera målgrupper till ditt konto eller till ett annonserarkonto.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 3347bfbaec92bb13428a39207954f895eb4f5d6d
+source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 1%
 
 ---
 
@@ -14,19 +14,21 @@ ht-degree: 0%
 
 <!-- Will this remain for admin users/Adobe Account Team users only? -->
 
-Skapa en källa för att importera målgrupper till ditt DSP eller ett annonserarkonto. För närvarande kan du importera målgrupper från [den [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html).
+Skapa en källa i DSP för att importera förstahandsmålgrupper till ditt DSP eller ett annonserarkonto.
 
->[!NOTE]
->
->När du har skapat en källa för [!DNL Real-Time CDP]måste du aktivera [!DNL Real-Time CDP] målgrupper genom Adobe Advertising DSP destination inom [!DNL Real-Time CDP] för att börja importera dem. Se [stegen i aktiveringsarbetsflödet](source-about.md#workflow-sources).
+Ytterligare steg som krävs för att importera segment från specifika kunddataplattformar finns i [målgruppsspecifika arbetsflöden för aktivering](source-about.md)
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Sources]**.
 
-1. Klicka på [!UICONTROL Add Source].
+1. Klicka på **[!UICONTROL Add Source]**.
 
 1. I [!UICONTROL Select a Type] väljer du källtyp.
 
-   *[!UICONTROL RT-CDP]*: Den här källtypen för [den [!DNL Adobe Real-Time Customer Data Profile]](source-about.md), är det enda alternativet.
+   * *[!UICONTROL RT-CDP]*: [The [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+
+   <!-- * *[!UICONTROL ActionIQ]*: The [[!DNL ActionIQ] customer data platform](source-about.md). -->
+
+   * *[!UICONTROL Tealium CDP]*: [[!DNL Tealium] plattform för kunddata](source-about.md).
 
 1. Ange [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* eller *[!UICONTROL Account]*.
 
@@ -36,15 +38,14 @@ Skapa en källa för att importera målgrupper till ditt DSP eller ett annonsera
 
 1. Klicka på **[!UICONTROL Save]**.
 
-1. I Experience Platform skapar du en DSP målanslutning med [!UICONTROL Source Key] som genererades i DSP källinställningar.
-
-   Instruktioner om hur du aktiverar DSP målanslutning, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html).&quot;
+>[!NOTE]
+>
+>När du har skapat en källa för din kunddataplattform måste du slutföra ytterligare steg. Se [aktiveringsarbetsflöde för [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> och [aktiveringsarbetsflöde för [!DNL Tealium]](source-tealium.md).
 
 >[!MORELIKETHIS]
 >
->* [Inställningar för målgruppskälla](source-settings.md)
->* [Om aktivering av autentiserade segment från målgruppskällor](source-about.md)
->* [Aktivera autentiserade segment från varaktiga ID-partners](source-durable-id.md)<!-- title?-->
->* [Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Inställningar för målkälla](source-settings.md)
+>* [Aktivera autentiserade segment från målgruppskällor](source-about.md)
+>* [Aktivera autentiserade segment från universella ID-partners](source-universal-id.md)<!-- title?-->
+>* [Adobe Advertising Cloud DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
-

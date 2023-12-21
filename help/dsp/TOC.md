@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: eb4db7c91d98cd14e9006f0647f964cdf054962f
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '949'
 ht-degree: 3%
 
 ---
@@ -150,7 +150,11 @@ ht-degree: 3%
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Källor {#sources}
       + [Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
-      + [Aktivera autentiserade segment från varaktiga ID-partners](/help/dsp/audiences/sources/source-durable-id.md)
+      + Arbetsflöden efter kunddataplattform {#sources-workflows}
+         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
+            + [Arbetsflöde för att använda DSP integrering med [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+            + [Aktivera autentiserade segment från universella ID-partners](/help/dsp/audiences/sources/source-universal-id.md)
+         + [Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
       + [Skapa en målgruppskälla för att aktivera förstahandspubliker](/help/dsp/audiences/sources/source-create.md)
       + [Inställningar för målkälla](/help/dsp/audiences/sources/source-settings.md)
    + [Tillgängliga dataproviders från tredje part](/help/dsp/audiences/third-party-data-providers.md)

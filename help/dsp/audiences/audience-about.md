@@ -3,7 +3,7 @@ title: Om Audience Management i DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Det finns även andra typer av målgrupper att tillgå för riktad marknadsföri
 
 DSP kan importera egna datasegment från första part från datahanteringsplattformen (DMP) och tillhandahålla dem till alla typer av annonsörer efter behov.
 
-DSP är ett integrerat mål för [den [!DNL Adobe Real-Time Customer Data Profile (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)så att ni kan dela autentiserade förstahandssegment med godkända annonsörer och användare för kampanjaktivering. Mer information om Real-Time CDP-integrationen finns i [Avsnittet Källor](/help/dsp/audiences/sources/source-about.md).
+DSP är ett integrerat mål för [den [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)så att ni kan dela autentiserade förstahandssegment med godkända annonsörer och användare för kampanjaktivering. Mer information om Real-Time CDP-integrationen finns i [Avsnittet Källor](/help/dsp/audiences/sources/source-about.md).
 
 DSP kan även importera egna tredjepartssegment, inklusive komplexa kombinationer av tredjepartssegment. Ni kan vid behov tillhandahålla segmenten till valfri uppsättning annonsörer.
 
