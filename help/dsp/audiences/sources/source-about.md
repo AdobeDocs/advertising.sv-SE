@@ -3,9 +3,9 @@ title: Aktivera autentiserade segment från målgruppskällor
 description: Lär dig mer om hur man hämtar in förstahandssegment från en kunddataplattform.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: e3e8753db31bc835c49eb2037fdcd7696a895a8c
+source-git-commit: f01cfbf22628cec0510f4a860ad927b333d5946a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP är integrerat med [den [!DNL Adobe Real-Time Customer Data Platform (CDP)]]
 
 I [!DNL Real-Time CDP], *mål* är anslutningar till externa dataplattformar som möjliggör smidig dataaktivering. Du kan till exempel använda destinationer för att aktivera dina kända kundrelationer (till exempel hash-kodade e-postadresser) för riktad reklam i olika digitala format som stöds av DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), inklusive en översikt över produkten, instruktioner för [skapa målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapa målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)och [aktivera data till mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Se &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Mer information finns i &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ## [!DNL ActionIQ]
 
@@ -32,7 +32,7 @@ Den här integreringen kräver anpassning. Kontakta kontoteamet på Adobe för m
 
 ## [!DNL Tealium]
 
-Du kan dela organisationens egna data från [!DNL Tealium] kunddataplattform som använder [!DNL Amazon Web Services]. Sedan kan du ange DSP för segmenten med [!DNL RampIDs]. Se &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Du kan dela organisationens egna data från [!DNL Tealium] kunddataplattform som använder [!DNL Amazon Web Services]. Sedan kan du ange DSP för segmenten med [!DNL RampIDs]. Mer information finns i &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot;
 
 >[!MORELIKETHIS]
 >
