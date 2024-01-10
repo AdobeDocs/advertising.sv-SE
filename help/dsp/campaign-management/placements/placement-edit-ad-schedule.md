@@ -3,9 +3,9 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
+source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonser som är kop
 
       * Om du vill rotera annonserna för en flygning jämnt anger du `[!UICONTROL Even]`.
 
-      * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent. Flygningens totala vikt skall vara lika med 100.
+      * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent (till exempel `40` för 40 %). Flygningens totala vikt skall vara lika med 100.
 
 1. Ladda upp mallen för redigerat annonsschema:
 
