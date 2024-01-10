@@ -3,44 +3,52 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 0b89d346aa7d1443e50605e1300a6a3645fe9b21
+source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Redigera annonsplaner för praktik
 
-<!--
+## Redigera annonsscheman för en eller flera placeringar
 
-## Edit the Ad Schedules for One or More Placements
+Du kan ändra schemalagda flygdatum och annonsrotation för annonser som är kopplade till flera placeringar med en [!DNL Microsoft Excel] kalkylblad. Varje annons kan vara aktiv under flera flygningar.
 
-You can change the scheduled flight dates and ad rotation for the ads attached to multiple placements using a [!DNL Microsoft Excel] spreadsheet. Each ad can be active during multiple flights.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
-1. In the main menu, click **[!UICONTROL Campaigns]**.
+1. Klicka på kampanjens namn.
 
-1. Click the name of the campaign.
+1. Klicka på **[!UICONTROL Placements]**.
 
-1. In the submenu, click **[!UICONTROL Placements]**.
+1. Markera kryssrutan bredvid varje placering vars annonsdata du vill hämta.
 
-1. Select the check box next to each placement whose ad data you want to download.
+1. Klicka på i verktygsfältet för gruppåtgärder **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
 
-1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Download Custom Ad Schedule Sheet]**.
+1. När filen är tillgänglig klickar du på **[!UICONTROL Download]** i meddelandet längst upp på webbläsarsidan om du vill hämta en kalkylbladsfil (i XLSX-format) enligt webbläsarens normala procedur.
 
-1. When the file is available, click **[!UICONTROL Download]** in the notification at the top of the browser page to download a worksheet file (in XLSX format) according to your browser's normal procedure..
+   ![Ladda ned meddelande om klar hämtning](/help/dsp/assets/download-ready.png "Ladda ned meddelande om klar hämtning")
 
-   ![Download Ready notification](/help/dsp/assets/download-ready.png "Download Ready notification")
+1. Öppna den hämtade filen, redigera flyginformationen efter behov och spara den uppdaterade filen:
 
-1. Open the downloaded file and edit the flight dates as needed.
+   * Om du vill lägga till en flygning anger du flygdatum för varje annonsrad som ska ingå i flygningen med hjälp av **[!UICONTROL Flight N Start Date]** och **[!UICONTROL Flight N End Date]** kolumner. Använd formatet ÅÅÅ-MM-DD för varje datum.
 
-1. Upload the edited ad schedule template:
+     För annonser i den första flygningen anger du värden i [!UICONTROL Flight 1 Start Date] och [!UICONTROL Flight 1 End Date] fält. Om annonsraderna inte redan finns med i filen anger du önskad annonsinformation i nya rader.
 
-   1. Select the check box next to each applicable placement.
+     Alla annonser med tomma fält för flygdatum behandlas som annonser som inte deltar.
 
-   1. In the bulk actions toolbar, click **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]**, and specify the file to upload.
+   * Om du vill rotera annonserna för en flygning jämnt anger du &quot;**[!UICONTROL Even]**&quot; i relevanta **[!UICONTROL Flight N Weight]** fält (som [!UICONTROL Flight 1 Weight]).
 
--->
+   * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent, i relevant **[!UICONTROL Flight N Weight]** fält (som [!UICONTROL Flight 1 Weight]).
+
+     Den totala vikten för varje flygning måste vara lika med 100.
+
+1. Ladda upp mallen för redigerat annonsschema:
+
+   1. Markera kryssrutan bredvid varje lämplig placering.
+
+   1. Klicka på i verktygsfältet för gruppåtgärder **[!UICONTROL ...]** > **[!UICONTROL Upload Custom Ad Schedule Sheet]** och ange vilken fil som ska överföras.
 
 ## Redigera annonsschemat för en enstaka placering
 
