@@ -3,9 +3,9 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: d993ffe4a7dceed36ecbae85642e82de271432cd
+source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,15 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonser som är kop
 
    ![Ladda ned meddelande om klar hämtning](/help/dsp/assets/download-ready.png "Ladda ned meddelande om klar hämtning")
 
-1. Öppna den hämtade filen, redigera flyginformationen efter behov och spara den uppdaterade filen:
+1. Öppna den hämtade filen, redigera flyginformationsfälten för varje annonsrad och spara den uppdaterade filen:
 
-   * Om du vill lägga till en flygning anger du flygdatum för varje annonsrad som ska ingå i flygningen med hjälp av **[!UICONTROL Flight N Start Date]** och **[!UICONTROL Flight N End Date]** kolumner. Använd formatet ÅÅÅ-MM-DD för varje datum.
+   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (till exempel [!UICONTROL Flight 1 Start Date] och [!UICONTROL Flight 1 End Date]): flygningens första och sista datum. Använd formatet ÅÅÅ-MM-DD för varje datum. Alla annonser med tomma fält för flygdatum behandlas som annonser som inte deltar.
 
-     För annonser i den första flygningen anger du värden i [!UICONTROL Flight 1 Start Date] och [!UICONTROL Flight 1 End Date] fält. Om annonsraderna inte redan finns med i filen anger du önskad annonsinformation i nya rader.
+   **[!UICONTROL Flight N Weight]** (till exempel [!UICONTROL Flight 1 Weight]): Så här roterar du annonserna för ett flyg. Ange ett värde:
 
-     Alla annonser med tomma fält för flygdatum behandlas som annonser som inte deltar.
+   * Om du vill rotera annonserna för en flygning jämnt anger du &quot;**[!UICONTROL Even]**&quot;.
 
-   * Om du vill rotera annonserna för en flygning jämnt anger du &quot;**[!UICONTROL Even]**&quot; i relevanta **[!UICONTROL Flight N Weight]** fält (som [!UICONTROL Flight 1 Weight]).
-
-   * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent, i relevant **[!UICONTROL Flight N Weight]** fält (som [!UICONTROL Flight 1 Weight]).
-
-     Den totala vikten för varje flygning måste vara lika med 100.
+   * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent. Flygningens totala vikt skall vara lika med 100.
 
 1. Ladda upp mallen för redigerat annonsschema:
 
