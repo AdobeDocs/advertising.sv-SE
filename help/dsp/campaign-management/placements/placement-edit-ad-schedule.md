@@ -3,7 +3,7 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 042cd16591869668339a27fa36de57aa1825dd51
+source-git-commit: a001d7fbde6ef1346383925db9179d824eb7bb78
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -32,13 +32,13 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonser som är kop
 
 1. Öppna den hämtade filen, redigera flyginformationsfälten för varje annonsrad och spara den uppdaterade filen:
 
-   **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (till exempel [!UICONTROL Flight 1 Start Date] och [!UICONTROL Flight 1 End Date]): flygningens första och sista datum. Använd formatet ÅÅÅ-MM-DD för varje datum. Alla annonser med tomma fält för flygdatum behandlas som annonser som inte deltar.
+   * **[!UICONTROL Flight N Start Date]** / **[!UICONTROL Flight N End Date]** (till exempel [!UICONTROL Flight 1 Start Date] och [!UICONTROL Flight 1 End Date]): flygningens första och sista datum. Använd formatet ÅÅÅ-MM-DD för varje datum. Alla annonser med tomma fält för flygdatum behandlas som annonser som inte deltar.
 
-   **[!UICONTROL Flight N Weight]** (till exempel [!UICONTROL Flight 1 Weight]): Så här roterar du annonserna för ett flyg. Ange ett värde:
+   * **[!UICONTROL Flight N Weight]** (till exempel [!UICONTROL Flight 1 Weight]): Så här roterar du annonserna för ett flyg. Ange ett värde:
 
-   * Om du vill rotera annonserna för en flygning jämnt anger du &quot;**[!UICONTROL Even]**&quot;.
+      * Om du vill rotera annonserna för en flygning jämnt anger du `[!UICONTROL Even]`.
 
-   * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent. Flygningens totala vikt skall vara lika med 100.
+      * Om du vill rotera annonserna för en flygning ojämnt anger du den relativa vikt som varje annons ska roteras med, i procent. Flygningens totala vikt skall vara lika med 100.
 
 1. Ladda upp mallen för redigerat annonsschema:
 
