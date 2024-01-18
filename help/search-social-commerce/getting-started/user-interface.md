@@ -1,11 +1,11 @@
 ---
 title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
-exl-id: a1574502-70a4-4705-8ae6-0de590e1342b
+exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,6 @@ ht-degree: 0%
 Överst på varje sida finns huvudmenyn och andra uppgiftsbaserade menyer.
 
 ## Huvudmenyn
-
-Huvudmenyalternativen på den översta nivån baseras på de tillgängliga annonskanalerna. Du kommer bara att se de annonskanaler som gäller dig:
-
-* **[!UICONTROL DSP]** — (När du har tillgång till Adobe Advertising DSP (Demand Side Platform)) För att hantera din webbannonsering och uppkopplad TV-reklam. En separat [DSP](https://experienceleague.adobe.com/docs/advertising/dsp/home.html) är tillgängligt.
-
-* **[!UICONTROL Creative]** — (När ni har tillgång till Adobe Advertising Creative) Automatisera personaliserade annonsupplevelser i realtid och optimera era era annonser på elementnivå för det kreativa. Separat hjälp finns i Creative Cloud.
 
 * **[!UICONTROL Search]** — För att hantera annonsnätverkskonton inom Sök, Socialt och Commerce, inklusive sådana för vilka Search, Social och Commerce spårar men inte lägger bud.
 
