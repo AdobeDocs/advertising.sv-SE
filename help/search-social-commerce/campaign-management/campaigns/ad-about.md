@@ -1,18 +1,18 @@
 ---
 title: Hantera annonser
 description: Läs mer om annonser i sökningar, sociala medier och handel, inklusive tillgängliga annonstyper.
-exl-id: 92ae631a-c35a-40ec-9d40-ebce13e3311b
+exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 # Om annonser
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 En annons kan visas på en målwebbplats (för innehåll eller placeringsriktade kampanjer), när en användare söker efter något av nyckelorden i annonsgruppen (för sökkampanjer) eller efter innehåll på din webbplats (dynamiska sökannonser i [!DNL Google Ads] sökkampanjer) eller när en användare gör en sökning som är relevant för något av objekten i [!DNL Google Merchant Center] eller [!DNL Microsoft® Merchant Center] produktflöde (shoppingannonser i [!DNL Google Ads] eller produktannonser i [!DNL Microsoft® Advertising] kampanjer).
 

@@ -1,8 +1,9 @@
 ---
-title: "Arbetsflöde för att använda DSP integrering med [!DNL Tealium]"
-description: "Lär dig hur DSP kan importera [!DNL Tealium] förstapartssegment."
+title: Arbetsflöde för att använda DSP integrering med [!DNL Tealium]
+description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: e7c967d66be9c8ca78a64d644c7e3a691f1e216a
+exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
+source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%

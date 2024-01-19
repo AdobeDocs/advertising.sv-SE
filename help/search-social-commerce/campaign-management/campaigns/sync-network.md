@@ -1,20 +1,20 @@
 ---
 title: Synkronisera annonsdata manuellt
 description: Lär dig hur du manuellt aktiverar synkronisering av din kampanjstruktur och kampanjentiteter för annonsnätverk som stöds.
-exl-id: da437f37-800a-4c56-b5c1-7c985ddd45c8
+exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Synkronisera annonsdata manuellt
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising] (tidigare [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising] (tidigare [!DNL Bing Ads]), [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
-Synkronisering är den process som används för att samla in uppdaterad information för varje annonsörs annonsnätverkskonton på [stödda annonsnätverk](/help/search-social-commerce/introduction/supported-inventory.md). Dessa data omfattar annonsörens kampanjstruktur och kampanjentiteter, inklusive de flesta av deras attribut som hanteras eller rapporteras i Sök, Socialt och Commerce. Det omfattar inte klickdata, och inte heller bud och budmodifierare som anges utanför Sök, Social och Commerce, som samlas in separat.
+Synkronisering är den process genom vilken Search, Social och Commerce samlar in uppdaterad information för varje annonsörs anslutna annonsnätverkskonton på [stödda annonsnätverk](/help/search-social-commerce/introduction/supported-inventory.md). Dessa data omfattar annonsörens kampanjstruktur och kampanjentiteter, inklusive de flesta av deras attribut som hanteras eller rapporteras i Sök, Socialt och Commerce. Det omfattar inte klickdata, och inte heller bud och budmodifierare som anges utanför Sök, Social och Commerce, som samlas in separat.
 
 Search, Social, &amp; Commerce synkroniserar automatiskt (synkroniserar) med annonsnätverkskonton en gång om dagen, och även när det upptäcker en ny kampanj i något av dina annonsnätverk. Dessutom skickas omedelbart alla ändringar av kampanjdata som gjorts i Search, Social och Commerce till annonsnätverket.
 

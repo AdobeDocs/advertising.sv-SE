@@ -1,18 +1,18 @@
 ---
 title: Hantera kampanjer
 description: Lär dig hur du skapar och hanterar annonskampanjer.
-exl-id: 9406e4bd-d5a2-4744-ab71-fc52428e3af6
+exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 8521d686c9bd499dbe89b5acf27595c381041b44
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
 
 # Hantera kampanjer
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 En kampanj är den primära komponenten i ett annonsnätverkskonto. För de flesta kampanjtyper består den av en uppsättning annonsgrupper eller annonsuppsättningar. Kampanjinställningarna omfattar kampanjbudgetparametrar, annonsmål och valfria spårningsparametrar för alla annonser i kampanjen. Spårningsparametrar på kampanjnivå åsidosätter kontonivåparametrarna, men de kan i sig åsidosättas på en lägre nivå.
 

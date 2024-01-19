@@ -1,11 +1,11 @@
 ---
 title: Om och nätverkskonton
 description: Läs mer om annonsnätverkskonton i Sök, Socialt och Handel.
-exl-id: fca469f1-502c-415a-897d-03b6e6ba34e8
+exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: f80d05aa40fd4114e9585220fe747ca7d36a19bb
+source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Sökning, sociala medier och handel kan spåra ett annonsörs konton i annonsnä
 
 ## Konton som har synkroniserats via API:er
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] (tidigare [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads]och [!DNL Yandex] konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising] (tidigare [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] konton*
 
 Synkronisering av sökning, sociala medier och handel (*synk*) med annonsnätverkskonton som stöds så att ni kan spåra, rapportera om och visualisera resultatet för annonserna. För alla annonsnätverk utom [!DNL Yahoo! Display Network]kan du hantera kampanjer för ditt konto i Sök, Socialt och Commerce, om du vill. [!DNL Yahoo! Display Network], är kampanjer skrivskyddade. För alla annonsnätverk kan ni tillåta optimeringsmöjligheterna att optimera annonser i hanterade konton genom att lägga till dem i portföljer.
 

@@ -1,18 +1,18 @@
 ---
 title: Hantera annonsgrupper
 description: Lär dig hur du skapar och hanterar annonsgrupper.
-exl-id: b86ea2e9-0d4b-4885-9cc9-b62d2c784017
+exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
 # Hantera annonsgrupper
 
-*[!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 En annonsgrupp innehåller en uppsättning annonser och tillhörande nyckelord. En annonsgrupp i en kampanj som riktar sig till visningsnätverket kan även innehålla placeringar, som är platser i visningsnätverket där annonserna kan visas. Inställningarna för annonsgrupper, som gäller för alla komponenter i annonsgruppen, varierar beroende på annonsnätverk.
 
@@ -62,7 +62,7 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 
 1. Redigera [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
 
-   För flera annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options], beroende på annonsnätverket. Du kan bara redigera fält som är gemensamma för alla markerade annonsgrupper, och dina ändringar tillämpas på alla markerade annonsgrupper. För vissa alfanumeriska fält kan du ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
+   För flera annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options], beroende på annonsnätverket. Du kan bara redigera fält som är gemensamma för alla markerade annonsgrupper, och dina ändringar tillämpas på alla markerade annonsgrupper. För vissa alfanumeriska fält har du möjlighet att ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
    För enstaka annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Konfigurera inställningar för [!UICONTROL Negative Keywords] eller [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Negative Keywords]** eller **[!UICONTROL Add Negative Websites]**, respektive
 

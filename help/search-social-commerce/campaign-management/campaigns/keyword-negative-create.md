@@ -1,18 +1,18 @@
 ---
 title: Skapa negativa nyckelord
 description: Lär dig skapa negativa nyckelord för sökkampanjer och annonsgrupper.
-exl-id: 683e5395-cb65-4d7f-a981-7fc9f84d4192
+exl-id: afe786bf-eda8-4590-b471-3fb696c420de
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # Skapa negativa nyckelord
 
-*[!DNL Baidu], [!DNL Google Ads] och [!DNL Microsoft® Advertising]och [!DNL Yahoo! Japan Ads] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads]och befintlig [!DNL Baidu] endast konton*
 
 Du kan skapa negativa nyckelord för en sök- och annonsgrupp eller kampanj som riktar sig till nätverket för sökning eller visning/inbyggt nätverk. Negativa nyckelord utlöser inte annonser.
 

@@ -1,11 +1,11 @@
 ---
 title: Ordlista
 description: Se definitioner av nyckeltermer.
-exl-id: 906acea8-731d-4a3c-929b-9d63e8e1eafe
+exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 11aaafc7f6b888a2cf341cbd7416c609450324fb
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2024'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## C-D {#c-d}
 
-**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsrymd, målgruppsanpassning och andra inställningar. **Obs!** [!DNL Baidu] har inte samma koncept som kampanjer, men Search, Social och Commerce skapar pseudokampanjer för varje uppsättning relaterade annonsgrupper i [!DNL Baidu] som synkroniseras inom Sök, Socialt och Commerce.
+**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsrymd, målgruppsanpassning och andra inställningar. **Obs!** [!DNL Baidu] har inte samma koncept som kampanjer, men Search, Social och Commerce skapar pseudokampanjer för varje uppsättning relaterade annonser i befintliga [!DNL Baidu] konton som synkroniseras inom Sök, Socialt och Handel.
 
 **skiftlägeskänsligt fält:** Ett skiftlägeskänsligt fält eller en fråga behandlar versaler (t.ex. C) annorlunda än gemener (t.ex. c). Bilen behandlas till exempel som ett annat värde än bilen.
 

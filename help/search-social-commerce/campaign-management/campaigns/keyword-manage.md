@@ -1,18 +1,18 @@
 ---
 title: Hantera anbudsnyckelord
 description: Lär dig hur du skapar och hanterar anbudssökbara nyckelord för sökannonseringsgrupper.
-exl-id: c52364bf-a55a-444e-bde8-88d46c2f4813
+exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
 # Hantera anbudsnyckelord
 
-*[!DNL Baidu], [!DNL Google Ads] och [!DNL Microsoft® Advertising]och [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 Du kan skapa och redigera nyckelord för sökannonser i [kampanjtyper](/help/search-social-commerce/introduction/supported-inventory.md) som är inriktade på sökning och visning/inbyggda nätverk inom en [synkroniserat annonskonto](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
 
@@ -60,7 +60,7 @@ Det befintliga nyckelordet tas bort och ett annat skapas när:
 
 1. Redigera [[!DNL Baidu] nyckelordsinställningar](keyword-settings-baidu.md), [[!DNL Google Ads] nyckelordsinställningar](keyword-settings-google.md), [[!DNL Microsoft® Advertising] nyckelordsinställningar](keyword-settings-microsoft.md), [[!DNL Yahoo! Japan Ads] nyckelordsinställningar](keyword-settings-yahoo-japan.md), eller [[!DNL Yandex] nyckelordsinställningar](keyword-settings-yandex.md).
 
-   Om du har flera nyckelord kan du bara redigera de fält som är gemensamma för alla markerade nyckelord. Ändringarna tillämpas sedan på alla markerade nyckelord. För vissa alfanumeriska fält kan du ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
+   Om du har flera nyckelord kan du bara redigera de fält som är gemensamma för alla markerade nyckelord. Ändringarna tillämpas sedan på alla markerade nyckelord. För vissa alfanumeriska fält har du möjlighet att ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
 1. Spara data:
 

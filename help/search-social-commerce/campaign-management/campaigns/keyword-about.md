@@ -1,9 +1,9 @@
 ---
 title: Om nyckelord
 description: Lär dig mer om alternativ för anbudsbara och negativa nyckelord.
-exl-id: f9216251-e0ab-43c1-81da-30503ee9f54e
+exl-id: d94c6f3f-0ea3-4792-8a6d-78f3a2af80e8
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Om nyckelord
 
-*[!DNL Baidu], [!DNL Google Ads] och [!DNL Microsoft® Advertising]och [!DNL Yahoo! Japan Ads]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 Ett nyckelord är ett ord eller en fras som är kopplad till en annons. Nyckelordsinställningarna innehåller matchningstypen för nyckelord, det högsta antalet bud som ska användas när din annons aktiveras av nyckelordet och (vissa annonsnätverk) valfria spårningsparametrar. Inställningarna på nyckelordsnivå åsidosätter inställningarna för annonsgruppen eller kampanjen.
 

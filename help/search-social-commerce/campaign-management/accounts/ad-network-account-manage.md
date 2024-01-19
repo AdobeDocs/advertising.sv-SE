@@ -1,11 +1,11 @@
 ---
 title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
-exl-id: fd8b38bd-24d0-488c-9e57-a516f5ae67ac
+exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,18 @@ ht-degree: 0%
 
 Nedan följer instruktioner om hur du skapar och redigerar och uppdaterar information om nätverkskonton [!DNL oAuth] token för ett konto och inaktivera konton.
 
+Mer information om vilka funktioner som är tillgängliga för varje annonsnätverk finns i &quot;[Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+
 ## Skapa information om annonsnätverkskonton {#create-account}
 
 *Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
 
-Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa en motsvarande kontopost som innehåller kontoinloggningsuppgifterna och spårningsalternativen och med statusen *aktiv*. Mer information om vilka funktioner som är tillgängliga för varje annonsnätverk finns i &quot;[Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md).&quot;
+Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa en motsvarande kontopost som innehåller kontoinloggningsuppgifterna och spårningsalternativen och med statusen *aktiv*.
 
 >[!NOTE]
 >
->Om du vill skapa ett verkligt konto i annonsnätverket går du till annonsnätverkets webbplats.
+>* Support finns inte för nya [!DNL Baidu] konton.
+>* Om du vill skapa ett verkligt konto i annonsnätverket går du till annonsnätverkets webbplats.
 
 1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -138,7 +141,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 >[!NOTE]
 >
->Konton för annonsnätverkshanterare stöds inte här. Identifiera ett chefskonto för [!DNL Microsoft Advertising] eller [!DNL Yandex]använder du fältet Överordnad konto-ID eller MCC-konto. Till [konfigurera autentiseringsuppgifter för en [!DNL Google Ads] huvudkonto](/help/search-social-commerce/admin/manager-accounts.md), gå till [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
+>Konton för annonsnätverkshanterare stöds inte här. Identifiera ett chefskonto för [!DNL Microsoft Advertising] eller [!DNL Yandex]använder du fältet Huvudkonto-ID eller MCC-konto. Till [konfigurera autentiseringsuppgifter för en [!DNL Google Ads] huvudkonto](/help/search-social-commerce/admin/manager-accounts.md), gå till [!UICONTROL Admin] \> [!UICONTROL Manager Accounts].
 
 **[!UICONTROL Account Name]:** Namnet som ska visas för kontot i Sök, Socialt och Commerce.
 
@@ -156,11 +159,11 @@ För [!DNL Microsoft Advertising] konton, endast [!DNL oAuth]-auktoriserade inlo
 
 **[!UICONTROL Login Details]: [!UICONTROL Login]:** (Alla annonsnätverk utom [!DNL Naver]) Inloggningsnamnet eller ID:t för att aktivera API-åtkomst till kontot.
 
-**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiverad och alla andra nätverk förutom [!DNL Baidu], [!DNL Meta]och [!DNL Yandex]) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
+**[!UICONTROL Login Details]: [!UICONTROL OAuth Token]:** ([!DNL Microsoft Advertising] [!DNL oAuth]-aktiverad och alla andra nätverk förutom [!DNL Meta] och [!DNL Yandex]) Kontots token för att auktorisera inloggningar med [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/).
 
-**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alla annonsnätverk utom [!DNL Naver]) Kontots lösenord. För lösenordsaktiverade konton på [!DNL Baidu], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex]är det här fältet obligatoriskt. För [!DNL oAuth]-aktiverade konton, det här fältet är valfritt. Använd det när du vill kryptera och spara lösenordet så att kontohanteraren kan uppdatera tokens efter behov.
+**[!UICONTROL Login Details]: [!UICONTROL Password]:** (Alla annonsnätverk utom [!DNL Naver]) Kontots lösenord. För lösenordsaktiverade konton på [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads]och [!DNL Yandex]är det här fältet obligatoriskt. För [!DNL oAuth]-aktiverade konton, det här fältet är valfritt. Använd det när du vill kryptera och spara lösenordet så att kontohanteraren kan uppdatera tokens efter behov.
 
-**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Baidu] och [!DNL Yandex] endast konton) Åtkomstnyckeln för det utvecklarkonto som ska användas.
+**[!UICONTROL Login Details]: [!UICONTROL Access Key]:** ([!DNL Yandex] endast konton) Åtkomstnyckeln för det utvecklarkonto som ska användas.
 
 **[!UICONTROL Currency]:** Förkortningen för valutan som används för kontot. Det här fältet kan redigeras för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den valuta som konfigurerats för kontot i annonsnätverket när du sparar posten.
 
