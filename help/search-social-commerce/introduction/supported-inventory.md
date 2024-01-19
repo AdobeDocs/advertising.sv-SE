@@ -3,9 +3,9 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: ca3d21fdfc770767502ea8757b5140d68a3e6328
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 
 | Källa | Nätverk | Kampanjtyp | Annonstyp | Synkronisera och visa | Skapa/redigera | Spåra[^1] | Optimera | Rapport[^2] | Adobe Analytics Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|
-| [!DNL Baidu]: Befintliga konton endast i sökningar, sociala medier och handel; inget stöd för nya konton | Söknätverk | Manuell | Text | Automatiskt via API | Redigera och ta bort med [kampanjhanteringsvyer](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) och [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampanjer med enbart manuell CPC-anbudsstrategi | Data på annonsnivå | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
+| [!DNL Baidu]: *Stöd endast för befintliga konton i Sök, Sociala och Commerce* | Söknätverk | Manuell | Text | Automatiskt via API | Redigera och ta bort med [kampanjhanteringsvyer](/help/search-social-commerce/campaign-management/campaigns/campaign-management-options.md) och [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja | Kampanjer med enbart manuell CPC-anbudsstrategi | Data på annonsnivå | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
 | [!DNL Google Ads] | Alla [!DNL Google] feeds | Identifiering (betafunktion) | Discovery (enbildsannonser)<br><br>Discovery Carousel (Carousel-annonser för flera bilder) | Automatiskt via API | — | Ja | Endast i hybridportföljer<br><br>Mål för bud och anbudsstrategier fastställs på kampanjnivå, tillsammans med kampanjbudgetar, beroende på vad som gäller för optimeringstypen. | Data på annonsnivå | Data på annonsnivå för sökning, sociala medier och handel [med den uppgraderade spårningskoden för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats)[^4]<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser |
 | | Alla | Högsta prestanda (betafunktion) | Alla typer | Automatiskt via API | Skapa/redigera kampanjer och ladda upp annonsmaterial i kampanjinställningarna i [!UICONTROL Campaigns] > [!UICONTROL Campaigns]<br><br>Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL om du vill ha valfria inställningar och listgrupper [!DNL Google Ads] Ads] editor. | Ja | Endast i hybridportföljer<br><br>Mål för anbudsstrategier fastställs på kampanjnivå, tillsammans med kampanjbudgetar. | Data på kampanjnivå<br><br>Det finns inga tillgängliga data för listgrupper och annonsnätverket tillhandahåller inga data på annonsnivå. | Analysdata för sökning, sociala medier och handel<br><br>Kampanjdata från sökning, sociala medier och handel till analyser. Kräver uppgradering [Spårningskod för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats). |
 | | Visningsnätverk | Standardvisning | Bild | Automatiskt via API | Redigera URL och status endast med [glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) | Ja, när du lägger till klickspårningstaggar manuellt för att spåra mallar i annonsnätverket | — | Data på annonsnivå, men inga genomskinliga data | Analysdata för sökning, sociala medier och handel<br><br>Data på annonsnivå från sökning, sociala medier och handel till analyser, men inga genomskinliga data |
