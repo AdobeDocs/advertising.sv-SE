@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Maximize Conversion Value]:* (Sökning och shopping/smarta shoppingnätverk, maximala resultatkampanjer) Annonsnätverket - inte Search, Social, &amp; Commerce - optimerar anbud för att maximera konverteringsvärdet. Du kan även ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
 
-* *[!UICONTROL Maximize Conversions]:* (Kampanjer i söknätverket) <!-- future: and audience network -->, max-kampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringarna. Du kan även ange **[!UICONTROL Target CPC]** (kostnad per klick)<!-- future: ; for audience campaigns, you can also enter an optional [!UICONTROL Target CPA] (cost per acquisition) -->. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
+* *[!UICONTROL Maximize Conversions]:* (Prestanda för max antal kampanjer och kampanjer i söknätverket eller målgruppsnätverket (men inte i målgruppsvideor eller i ansluten TV)) Annonsnätverket - inte i Sök, sociala medier och handel - optimerar offerterna för att maximera konverteringarna. Du kan även ange **[!UICONTROL Target CPC]** (kostnad per klick). För målgruppskampanjer kan ni också ange ett **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
 
 * *[!UICONTROL Target CPA]:* (Kampanjer i söknätverket) Annonsnätverket - inte Sök, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), vilket är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
 
