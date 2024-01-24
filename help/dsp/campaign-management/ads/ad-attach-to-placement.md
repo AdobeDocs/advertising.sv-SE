@@ -1,132 +1,80 @@
 ---
-title: Bifoga en annons till en placering
-description: Lär dig hur du bifogar en annons till en placering.
+title: Bifoga annonser till placeringar
+description: Lär dig hur du bifogar annonser till praktik.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 796af195bf935fa6ad9d83d9aa17931b9a640855
+source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 1%
+source-wordcount: '434'
+ht-degree: 0%
 
 ---
 
-# Bifoga en annons till en placering
+# Bifoga annonser till placeringar
 
 >[!NOTE]
 >
 >Universella videoannonser kan bara bifogas till universella videomaterial.
 
-## Bifoga en ny annons från [!UICONTROL Ads] Visa
+## Bifoga annonser till placeringar {#attach-ads-campaign}
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Ads]**.
+1. Öppna [!UICONTROL Ad Tools] visa på något av följande sätt:
 
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (Från [!UICONTROL Packages] , [!UICONTROL Placements], eller [!UICONTROL Ads] vy) Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. Gör något av följande på skärmen Montera annons:
+   * (Från [!UICONTROL Placements] vy) Bredvid placeringsnamnet klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Så här skapar du en ny placering för annonsen:
+   * (Från [!UICONTROL Ads] vy) Bredvid annonsnamnet klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Klicka på **[!UICONTROL Create New Placement]**.
+1. I [!UICONTROL Edit] gör du följande för varje grupp med annonser som du vill bifoga till placeringar:
 
-      1. Ange [placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)och klicka sedan på **[!UICONTROL Create Placement]**.
+   1. (Valfritt) Hitta specifika placeringar och annonser på något av följande sätt:
 
-   * Så här lägger du till annonsen på en eller flera befintliga placeringar:
+      * Ovanför tabellerna klickar du ![Filter](/help/dsp/assets/filter.png) och filtrera listorna efter placeringstyp, placeringsstatus, annonstyp eller annonsstatus.
 
-      1. Klicka **[!UICONTROL Select a Placement].**
+      * I den högra och vänstra tabellen söker du efter specifika textsträngar i placerings- och annonsnamnen.
 
-      1. Gör något av följande:
+   1. I den vänstra tabellen markerar du kryssrutan bredvid varje placering som annonserna ska kopplas till.
 
-         * Så här lägger du till en annons i taget:
+   1. I den högra tabellen markerar du kryssrutan bredvid varje annons som du vill bifoga till de markerade placeringarna.
 
-            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
+      Endast annonser som gäller för placeringstypen och som inte redan är kopplade till de valda placeringarna kan markeras.
 
-            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach to Other Placement]**. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
+   1. Klicka längst ned till höger på  **[!UICONTROL Attach]**.
 
-         * Så här bifogar du annonsen till upp till 20 placeringar i taget:
+1. (Valfritt) Om du vill återgå till kampanjdetaljvyerna klickar du på ![Återgå till mappen](/help/dsp/assets/breadcrumb-return.png "Återgå till mappen") till vänster om [!UICONTROL Ad Tools] och välj kampanjnamnet.
 
-            1. Markera kryssrutan bredvid **Välj flera.&quot;
+## Visa annonser som är kopplade till placeringar {#view-ads-campaign}
 
-            1. Markera kryssrutan bredvid varje placering som annonsen ska kopplas till.
-
-            1. Klicka på **[!UICONTROL Attach]**.
-
-      1. Välj något av följande på fliken Slutför och granska:
-
-         * Om du vill återgå till annonsvyn klickar du på **[!UICONTROL I'm done for now]**.
-
-         * Om du vill koppla annonsen till en annan placering klickar du på **[!UICONTROL Attach To Other Placement]**.
-
-## Bifoga en ny eller befintlig annons från [!UICONTROL Placements] Visa
+<!-- should be a separate page, combined with "List the Placements Associated with an Ad" (although that pertains to a single ad only), or maybe just rename this topic -->
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Placements]**.
+1. Öppna [!UICONTROL Ad Tools] visa på något av följande sätt:
 
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (Från [!UICONTROL Packages] , [!UICONTROL Placements], eller [!UICONTROL Ads] vy) Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
 
-1. I [!UICONTROL Add Ad to Placement] gör du något av följande:
+   * (Om du vill se annonser kopplade till en viss placering) Klicka på undermenyn **[!UICONTROL Placements]**. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
 
-   * Så här skapar du en ny annons:
+   * (Om du vill visa de placeringar som en annons är eller kan bli kopplad till) På undermenyn klickar du på **[!UICONTROL Ads]**. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
 
-      1. Klicka på **[!UICONTROL Create a New Ad]**.
+1. Växla till **[!UICONTROL View]** i det övre högra hörnet.
 
-      1. Ange annonsinställningarna för [ljudannonser](ad-settings-audio.md), [ansluten TV](ad-settings-connected-tv.md), [displayannonser](ad-settings-display.md), [mobilannonser](ad-settings-mobile.md), [inbyggda annonser](ad-settings-native.md), eller [pre-roll-ads](ad-settings-pre-roll.md).
+1. (Valfritt) Sök efter specifika placeringar och annonser efter behov:
 
-      1. Klicka på **[!UICONTROL Save & Submit for Review]**.
+   * Ovanför den vänstra tabellen filtrerar du listorna efter placeringstyp, placeringsstatus, annonstyp eller annonsstatus.
 
-         The [granskning av annonser](ad-about.md) för den nya annonsen tar 24-48 timmar och innehåller kontroller för känsliga kategorier, klicka på URL-funktionen och förhandsgranska rendering. The [!UICONTROL Status] kolumn anger om DSP har godkänt annonsen. Brutna annonser kan ha en väntande status i mer än 24-48 timmar, så du har tid att åtgärda felen innan de avvisas.
+   * I den högra och vänstra tabellen söker du efter specifika textsträngar i placerings- eller annonsnamnet.
 
-         >[!NOTE]
-         >
-         >Din annons kan endast användas om både DSP och SSP har godkänt den kreativa processen. Varje enskild SSP har sina egna krav och processer för godkännande.
+1. Klicka på en placeringsrad i den vänstra tabellen för att se de bifogade annonserna i den högra tabellen.
 
-   * Så här väljer du befintliga annonser:
-
-      1. Klicka **[!UICONTROL Select an Ad].**
-
-      1. Ange annonserna:
-
-         * Så här lägger du till en annons i taget:
-
-            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
-
-            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Add Another Ad]**. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
-
-         * Så här lägger du till upp till 20 annonser i taget:
-
-            1. Markera kryssrutan intill **[!UICONTROL Bulk Select]**.&quot;
-
-            1. Markera kryssrutan bredvid varje annons som ska läggas till.
-
-            1. Klicka på **[!UICONTROL Attach]**.
-
-      1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
-
-         1. Klicka på **[!UICONTROL Custom Schedule Ads]**.
-
-         1. Gör något av följande:
-
-            * Om du vill lägga till en flygning klickar du **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
-
-            * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
-
-            * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
-
-            * (När flera annonser har samma plan) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och ange sedan den relativa vikt som varje annons ska roteras med, i procent.
-
-              Den totala vikten måste vara lika med 100.
-
-         1. Klicka på uppe till höger **[!UICONTROL Continue]**.
-
-         1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
-
-      1. Klicka på **[!UICONTROL I'm done for now]**.
+1. (Valfritt) Om du vill bifoga fler annonser till kampanjens praktik byter du till **[!UICONTROL Edit]** i det övre högra hörnet. Se steg 4 i föregående procedur, &quot;[Bifoga annonser till placeringar](#attach-ads-campaign),&quot; för instruktioner.
 
 >[!MORELIKETHIS]
 >

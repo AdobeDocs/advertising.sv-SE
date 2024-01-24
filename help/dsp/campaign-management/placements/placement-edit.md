@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,6 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
    1. Välj **[!UICONTROL Edit Mode]**.
 
       Alternativen varierar beroende på inställningen, men kan innehålla:
-
-      * **Lägg till** (för att bifoga annonser)
 
       * **Lägg till** (för att behålla befintliga värden och lägga till nya värden)
 

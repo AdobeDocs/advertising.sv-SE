@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: b013270066876069d4c548bc821dc9d932f0f0d7
+source-git-commit: 48c37e0c85f34ec462631055dd207c1133809065
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 24 januari 2024 | [!UICONTROL Placements] och [!UICONTROL Ads] | Arbetsflödet för att bifoga annonser till praktik har omarbetats. | Se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10 januari 2024 | [!UICONTROL Placements] | Nu kan du snabbt anpassa annonsplanering för flera placeringar med hjälp av ett kalkylblad:<ul><li>Du kan ladda ned en annonsschemamall för placeringar. Du kan redigera flygdatum och annonsrotation i den hämtade filen efter behov.</li><li>Du kan sedan överföra den redigerade mallen för annonseringsschema.</li></ul> | Se &quot;[Redigera annonsplanerna för praktik](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
 | 21 december 2023 | [!UICONTROL Audiences] | Dokumentation finns nu för delning av egna data från [!DNL Tealium] plattform för kunddata med DSP [!DNL Amazon Web Services]. Du kan ange DSP för segmenten med [!DNL RampIDs]. Inom placeringsinställningarna för [!UICONTROL Audience Targeting]är de delade segmenten tillgängliga i [!UICONTROL First Party Segments] lista. | Se &quot;[Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)och &quot;[Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md).&quot; |
 | 6 december 2023 | Planering | (Betafunktion) Det nya plannerverktyget hjälper till att förutsäga den unika räckvidd som uppkopplad TV (CTV) har på hushållsnivå enligt angivna budgetar och riktningskriterier. När du har utvärderat flera planer kan du implementera paket och placeringar som är bäst anpassade efter det önskade resultatet. | Se &quot;[Om DSP](/help/dsp/planner/planner-about.md).&quot; |
