@@ -3,9 +3,9 @@ title: Översikt över Campaign Management i DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,7 @@ DSP har följande hierarki:
 * Campaign
    * Paket
       * Placering(ar)
-         * Annonser
-
+         * Annons(er)
 <!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package will include placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
@@ -41,7 +40,7 @@ A [placering](/help/dsp/campaign-management/placements/placement-about.md) lagra
 
 ## [!UICONTROL Ads]
 
-[Annonser](/help/dsp/campaign-management/ads/ad-about.md) innehåller kreativa resurser och spårnings-URL:er. Du kan överföra tredjepartsannonser som servar taggar individuellt eller gruppvis med hjälp av partnertaggmallar eller bulktaggmallen. Du kan också skapa inbyggda displayannonser manuellt för DSP.
+[Annonser](/help/dsp/campaign-management/ads/ad-about.md) innehåller kreativa resurser och spårnings-URL:er. Du kan överföra tredjepartsannonser som servar taggar individuellt eller gruppvis med hjälp av partnertaggmallar eller mallen för bulktaggar. Du kan också skapa inbyggda displayannonser manuellt för DSP.
 
 När ni väl har ställt in era annonser måste ni bifoga varje annons på en plats. Du kan bifoga en annons till en eller flera ersättningar.
 
@@ -55,7 +54,6 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 >* [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Om rapporter på plattformen](/help/dsp/campaign-management/reports/campaign-reports-about.md)
->* [Om kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-about.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [Om prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+>* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
