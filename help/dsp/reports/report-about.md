@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,6 @@ Dina kontoinställningar på [!UICONTROL Settings] > [!UICONTROL Account] ange a
 >* [Skapa en anpassad rapport](/help/dsp/reports/report-create.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)
->* [Om prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

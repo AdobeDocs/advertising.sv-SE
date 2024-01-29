@@ -3,9 +3,9 @@ title: Visa diagnostikrapporter för placering
 description: Lär dig hur du diagnostiserar problem med placeringskonfiguration och placering.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,6 @@ Följande verktyg kan hjälpa dig att diagnostisera problem med placeringskonfig
 
 >[!MORELIKETHIS]
 >
->* [Om prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

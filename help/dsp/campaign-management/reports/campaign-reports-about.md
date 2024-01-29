@@ -1,16 +1,16 @@
 ---
-title: Om prestandarapporter i Campaign Management-vyer
+title: Typer av prestandarapporter i Campaign Management-vyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 3f1095fe08e6bc6bf9c942b70295ac06d64ff852
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Om prestandarapporter i Campaign Management-vyer
+# Typer av prestandarapporter i Campaign Management-vyer
 
 Vyerna för kampanjhantering omfattar omfattande rapportdata. De tillgängliga rapporterna hjälper dig att identifiera de paket och placeringar som fungerar bra och de som behöver din uppmärksamhet. Snabba åtgärdsknappar gör dig också mer produktiv.
 
@@ -62,49 +62,26 @@ På varje enhetsflik innehåller varje rad som standard värden för avstånd oc
 An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
 -->
 
-### Placement [!UICONTROL Inspector] {#placement-inspector}
-
-För varje placering kan du [öppna en (detaljvy) [!UICONTROL Inspector])](placement-details-view.md), som innehåller följande detaljerade data:
-
-* **[!UICONTROL Sites]:** Alla platser där placeringen har haft avtryck.
-
-  The [!UICONTROL Sites] -fliken innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan, och en [!UICONTROL Exclude] i varje rad så att du snabbt kan utesluta en plats från placeringen.
-
-* **[!UICONTROL Ads]:** Alla annonser på platsen.
-
-  The [!UICONTROL Ads] -fliken innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan samt snabbåtgärdsknappar på varje rad, som [!UICONTROL Pause] (så att du snabbt kan pausa en annons).
-
-* **[!UICONTROL Frequency]:** Uppgifter för varje annonsfrekvensnivå för placeringen, inklusive:
-   * annonsfrekvensen (t.ex. &quot;1&quot; för alla tillfällen då användaren såg en annons en gång)
-   * det uppskattade unika antalet enheter/webbläsare eller personer (beroende på angivet [!UICONTROL Cross Device Level] för kampanjen) som fick intrycket på den angivna frekvensnivån
-   * det uppskattade antalet avtryck på den angivna frekvensnivån
-   * den uppskattade genomsnittliga frekvensen för den angivna frekvensnivån. Detta värde är lika med (Estimated Impressions)/(Estimated Uniques).
-
-* **[!UICONTROL Inventory]:** Information om alla avtal som är inriktade på placeringen.
-
-  The [!UICONTROL Inventory] -fliken möjliggör snabb felsökning genom att visa prestandastatistik, som [!UICONTROL Auctions], [!UICONTROL Bids]och [!UICONTROL Win Rate]. Fliken innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan samt snabbåtgärdsknappar i varje rad, inklusive [!UICONTROL Edit], [!UICONTROL View Report]och [[!UICONTROL Auction Insights] för ytterligare felsökning](/help/dsp/inventory/private-deal-auction-insights.md).
-
-#### Felsökning av lager
-
-| Problem | Möjlig orsak | Åtgärder att vidta |
-| -----------| ---------- | ---------- |
-| [!UICONTROL Zero Auctions] | Utgivaren har inte börjat skicka anbudsförfrågningar. | Kontakta utgivaren för att aktivera erbjudandet. |
-| | Avtalet ställdes in felaktigt, till exempel genom att ett felaktigt externt avtal-ID angavs. | Bekräfta avtalsinformationen och redigera erbjudandet. |
-| [!UICONTROL Auctions but no Bids] | Placeringsmålet matchar inte inkommande anbudsförfrågningar för erbjudandet. <br><br> En placering kan till exempel vara inriktad på en geografi som inte är berättigad till erbjudandet. | Redigera placeringsmålen efter behov för att undvika felaktiga målmatchningar. |
-| | Placeringen har ingen aktiv annons med den medietyp som krävs för erbjudandet. | Skapa och bifoga en annons med rätt medietyp till placeringen. |
-| | Placeringen har inte tillräcklig budget. | Öka placeringsbudgeten för att tillåta offerter på inkommande begäranden. |
-| | Flightdatumen för placeringen överlappar inte leveransdatumen för erbjudandet. | Redigera placeringens flygdatum efter behov. |
-| [!UICONTROL Low Win Rate] | Placeringens högsta bud (golv eller fast) ligger under det minimiantal som krävs för erbjudandet. | Öka placeringens [!UICONTROL Max Bid] efter behov. |
-| | I placeringen används filter som begränsar budgivning före bud. | Sänk tröskelvärdena för föranbudsfiltren så att fler budgivningar tillåts. |
-| | Målgruppsanpassningen för placeringen är för restriktiv. | Kontrollera om de angivna målgruppsmålen har tillräckligt många aktiva användare och utöka målgruppen om möjligt. |
-
-![placeringsinspektör](/help/dsp/assets/placement-inspector.png)
-
-Du kan exportera data på [!UICONTROL Sites], [!UICONTROL Ads], eller [!UICONTROL Frequency] som en rapport i XLSM-format.
-
 ### Andra typer av kampanjnivårapportering
 
-Om du vill se andra databrytningar [rapportsidor på kampanjnivå](/help/dsp/campaign-management/campaigns/campaign-view-report.md). The <!--legacy --> rapporten innehåller avsnitt om [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]och [!UICONTROL Audience Performance] data.
+Om du vill se andra databrytningar [rapportsidor på kampanjnivå](/help/dsp/campaign-management/campaigns/campaign-view-report.md). Rapporten innehåller avsnitt om [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]och [!UICONTROL Audience Performance] data.
+
+### Andra typer av rapportering på placeringsnivå
+
+Om du vill se andra databrytningar [rapportsidor på placeringsnivå](/help/dsp/campaign-management/placements/placement-view-report.md). Rapporten innehåller avsnitt om [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications]och [!UICONTROL Ads] data.
+
+Dessutom kan du visa följande data i placeringsinställningarna:
+
+* [A (detaljvy) [!UICONTROL Inspector])](placement-details-view.md), som visar alla riktade webbplatser, annonser, frekvensdata och erbjudanden för en placering.
+
+* A [placeringsprognosrapport](/help/dsp/campaign-management/reports/placement-forecast.md)
+
+* [Diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md).
+
+
+### Andra typer av rapportering på annonsnivå
+
+Om du vill se andra databrytningar [rapportsidor på annonsnivå](/help/dsp/campaign-management/ads/ad-view-report.md). Rapporten innehåller [!UICONTROL Overview], [!UICONTROL Geography]och [!UICONTROL Viewability] data.
 
 >[!MORELIKETHIS]
 >

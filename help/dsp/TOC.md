@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 6c117e57471d85fc044a7b814a231037ce89d90c
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '929'
 ht-degree: 3%
 
 ---
@@ -93,9 +93,9 @@ ht-degree: 3%
          + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
    + Prestandarapporter i Campaign Management-vyer {#campaign-reports}
-      + [Om prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportera data från en Campaign Management-vy](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [Visa Sites, Ads och Frequency Details för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Visa Sites, Ads, Frequency och Inventory Details för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

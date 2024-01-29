@@ -3,9 +3,9 @@ title: Översikt över Campaign Management i DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,6 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 >* [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Om prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
 >* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

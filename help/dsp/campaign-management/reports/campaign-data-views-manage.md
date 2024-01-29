@@ -2,9 +2,9 @@
 title: Hantera era kampanjdatavyer
 description: Lär dig hur du kan anpassa datavyer för kampanjer, paket, ersättningar och annonser.
 feature: DSP Campaign Data Views
-source-git-commit: 61ca25565e09bbce505d6f5cb0e5e8b7214eb1e0
+source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -171,7 +171,7 @@ Längst ned till höger på en sida, bredvid **[!UICONTROL Items per page]** , m
 
 >[!MORELIKETHIS]
 >
->* [Om prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
 >* [Visa Sites, Ads och Frequency Details för en placering](placement-details-view.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visa diagnostikrapporter för placering](placement-diagnostics.md)
