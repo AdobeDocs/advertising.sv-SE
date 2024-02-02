@@ -1,11 +1,11 @@
 ---
 title: Uppdatera spårningskod för AMO ID (s_kwcid) för en [!DNL Google Ads] konto
 description: Lär dig hur du byter till den senaste spårningskoden för AMO ID för en [!DNL Google Ads] konto.
-exl-id: 82168ee6-43bb-4b8d-882d-5254a1abcb09
+exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: 515c049a45d795fd973b5fcead5f96e71dbf844a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 *[!DNL Google Ads]endast konton*
 
-Det äldre formatet för [Spårningskod för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) för befintlig [!DNL Google Ads] konton har inte stöd för vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] max-prestandakampanjer, utkast och experimentera och andra användningsfall där samma kombination av ad+keyword+match finns i flera kampanjer.
+Det äldre formatet (före oktober 2019) för [Spårningskod för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) för befintlig [!DNL Google Ads] konton har inte stöd för vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] max-prestandakampanjer, utkast och experimentera och andra användningsfall där samma kombination av ad+keyword+match finns i flera kampanjer.
 
-Det senaste formatet innehåller parametrar för kampanj-ID och annonsgrupps-ID:
+Det aktuella formatet innehåller parametrar för kampanj-ID och annonsgrupps-ID:
 
 ```
 s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}
 ```
 
-Du kan ändra till det nya formatet för något eller alla dina befintliga konton, enskilt. Om ni inte har max antal resultatkampanjer eller utkast och experimentkampanjer är migrering till det nya formatet valfritt.
+Du kan ändra det aktuella formatet för ett eller alla befintliga konton, enskilt. Om ni inte har max antal resultatkampanjer eller utkast och experimentkampanjer är migrering till det nya formatet valfritt.
 
-Alla nya [!DNL Google Ads] konton använder automatiskt det nya AMO ID-formatet.
+Alla nya [!DNL Google Ads] konton använder automatiskt det aktuella AMO ID-formatet.
 
 >[!NOTE]
 >

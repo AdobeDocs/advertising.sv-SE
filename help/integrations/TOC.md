@@ -4,9 +4,9 @@ user-guide-description: Lär dig mer om integreringar för Advertising DSP och A
 breadcrumb-title: Integreringar med Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 5b72ac7dccfd72a1173347e91fe582a55d58fd7b
+source-git-commit: 41029d46df032a7fdf5b215df1c9413b4ae08a8c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '216'
 ht-degree: 11%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 11%
    + [Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
    + Planera implementeringen {#planning}
       + [Krav och viktig information för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)
-      + [JavaScript-kod för [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
+      + [(DSP) JavaScript-kod för [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md)
       + [Använda [!DNL Last Event Service] JavaScript-bibliotek med Adobe Experience Platform [!DNL Web SDK]](/help/integrations/analytics/web-sdk.md)
-      + Makron för annonstaggar {#macros}
+      + (DSP) Makron för annonstaggar {#macros}
          + [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar](/help/integrations/analytics/macros-flashtalking.md)
          + [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md)
    + Utbytt data {#data}

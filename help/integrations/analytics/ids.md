@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 3e6c90c1fc36ffc8fd404b5fe589f1f79f69a096
+source-git-commit: 0d48ceda77783cd8b5fd9e609da424dcfa94f278
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ AMO-ID:t kallas även `s_kwcid`, som ibland uttalas som[!DNL the squid].&quot;
 
 Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
-* (Rekommenderas) Funktionen för infogning på serversidan implementeras.
+* (Rekommenderas) När infogningsfunktionen på serversidan implementeras.
 
    * DSP: Pixelservern lägger automatiskt till parametern s_kwcid i landningssidans suffix när en användare tittar på en displayannons med pixeln Adobe Advertising.
 
@@ -120,7 +120,7 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
       * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] inställning inaktiverad, lägg till parametern manuellt i [tilläggsparametrar på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den till dina bas-URL:er.
 
-* Infoga-funktionen på serversidan är inte implementerad:
+* När infogningsfunktionen på serversidan inte är implementerad:
 
    * DSP: [JavaScript-kod](javascript.md) registrerar automatiskt klickningar och genomgångar. När en webbläsare inte stöder cookies från tredje part kan du fortfarande spåra klickbaserade konverteringar för följande annonstyper:
 
@@ -152,7 +152,7 @@ där:
 
 Exempel på AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### AMO ID-format för sök-, sociala och kommersiella annonser
+#### AMO ID-format för sök-, sociala och kommersiella annonser {#amo-id-format-search}
 
 Parametrarna varierar beroende på annonsnätverk, men följande parametrar är gemensamma för alla:
 
