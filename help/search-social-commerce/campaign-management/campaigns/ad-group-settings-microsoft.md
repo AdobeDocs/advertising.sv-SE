@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft Advertising] och gruppinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] annonsgrupper.
-exl-id: 5dfa766d-2a42-455d-a340-e72e11a38032
+exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardinställningen för nya annonsgrupper är *Aktiv*.
 
-**[!UICONTROL Ad Language]:** Målspråket för annonser.<!-- Which campaign types? Not there for audience image-based ad groups. -->
+**[!UICONTROL Ad Language]:** (Sökkampanjer) Målspråket för annonser.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Networks]
 
-**[!UICONTROL Networks]:** Placera annonser inom annonsgruppen hur och var:
+**[!UICONTROL Networks]:** (Sök annonser) Placera annonser inom annonsgruppen och hur de ska placeras:
 
 * *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (standard): Om du vill lägga bud på annonser i söknätverket.
 
@@ -105,6 +105,8 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 <!-- **[!UICONTROL Custom Parameters]:** -->
 
 {{$include /help/_includes/custom-parameters.md}}
+
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Valfritt) Det antal gånger en kund får annonser från annonskoncern. Ange ett värde och välj tidsenhet (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, eller *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

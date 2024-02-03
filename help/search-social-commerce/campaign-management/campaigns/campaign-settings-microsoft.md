@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 0b68db50d7f4c40eb2742c3906b79c5347c05f66
+source-git-commit: 6b5c37b02191cf7097eb547f9ad58f347824579c
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 * *[!UICONTROL Microsoft® Store Ads Campaign]:* (Betafunktion) Markerar dina appar och spel som är tillgängliga i [!DNL Microsoft® Store]. Du kan skapa underordnade annonsgrupper, produktgrupper och valfria produktannonser för kampanjen; [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
 
-* *[!UICONTROL Audience Video]:* (Betafunktion) Visar standardvideoannonser i målgruppsnätverket.
+* *[!UICONTROL Audience CTV Video]:* (Betafunktion) Visar videoannonser på uppkopplade TV-apparater (CTV) i målgruppsnätverket.
 
-* *[!UICONTROL Audience Video]:* (Betafunktion) Visar videoannonser på uppkopplade TV-apparater (CTV) i målgruppsnätverket.
+* *[!UICONTROL Audience Video]:* (Betafunktion) Visar standardvideoannonser i målgruppsnätverket.
 
 * *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk. Tilldela resursgrupper separat i [!DNL Microsoft® Advertising] annonsredigerare.
 
