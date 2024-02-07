@@ -3,9 +3,9 @@ title: Bifoga annonser till placeringar
 description: Lär dig hur du bifogar annonser till praktik.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 2690117dd4edb66a1bdbdca307bc4f91b0efc059
+source-git-commit: 55a9dd36d64fa42b7ff21714bae6e5afd04d1389
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 1. (Valfritt) Sök efter specifika placeringar och annonser efter behov:
 
-   * Ovanför den vänstra tabellen filtrerar du listorna efter placeringstyp, placeringsstatus, annonstyp eller annonsstatus.
+   * Ovanför den vänstra tabellen filtrerar du listorna efter paket, placeringstyp, placeringsstatus, annonstyp eller annonsstatus.
 
    * I den högra och vänstra tabellen söker du efter specifika textsträngar i placerings- eller annonsnamnet.
 
