@@ -1,11 +1,11 @@
 ---
 title: Överför konverteringsmått till [!DNL Google Ads]
 description: Lär dig hur du överför konverteringsstatistik för sökning, sociala medier och handel till [!DNL Google Ads].
-exl-id: 88db66c2-12db-41cf-b6c4-ed821cb3b8ea
+exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 608c1a189017f1a7ebfbccf3d8b3455886c297f9
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med [!DNL Google Ads] Endast konton*
 
-Sök, Socialt, &amp; Commerce kan överföra till [!DNL Google Ads] alla konverteringsmått som spåras för [!DNL Google Ads] kampanjer som använder Adobe Advertising konverteringsspårningstjänsten och konverteringsstatistik som synkroniseras från Adobe Analytics. Det här alternativet gör inte konverteringarna tillgängliga för hybridoptimering. Om du vill använda dina Adobe-konverteringar för hybridoptimering, se&quot;[Aktivera överföring av mål till annonsnätverk](objective-upload-to-networks.md).&quot;
+Sök, Socialt, &amp; Commerce kan överföra till [!DNL Google Ads] alla konverteringsmått som spåras för [!DNL Google Ads] kampanjer som använder tjänsten för spårning av konvertering i Adobe Advertising. Det här alternativet gör inte konverteringarna tillgängliga för hybridoptimering. Om du vill använda dina Adobe-konverteringar för hybridoptimering, se&quot;[Aktivera överföring av mål till annonsnätverk](objective-upload-to-networks.md).&quot;
 
 Dagliga överföringar inkluderar spårade `gclid` värdet, det konverteringsvärde som definieras med hjälp av attribueringsmodellen på annonsörnivå och tidsstämpeln. Om attribueringsmodellen uppdateras kommer nästa överföring att använda den nya modellen, men tidigare data uppdateras inte för att använda den nya modellen.
 
