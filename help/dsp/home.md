@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 59270088af96acd5f65b8af10251308123af3faa
+source-git-commit: 0a8bf1a457ecfa84164fb5ee4ff75aa95487edd2
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2221'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 21 februari 2024 | [!UICONTROL Alerts] for [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads]och [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] ikonen i [!UICONTROL Campaigns], [!UICONTROL Packages] och paketinformation, [!UICONTROL Placements]och [!UICONTROL Ads] vyer visar om det finns några varningar tillgängliga för objekt i vyn. Du kan öppna panelen för att visa varje varning och eventuellt öppna den aktuella vyn (till exempel [!UICONTROL Placements] med rätt placering (listad) så att du kan redigera inställningarna efter behov för att lösa problemet. Du kan också stänga alla aviseringar.<br><br>Dessutom är [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements]och [!UICONTROL Ads] vyerna innehåller en[!UICONTROL Alerts]&quot; som anger när ett objekt eller någon av dess komponenter har problem.<br><br>Aviseringar finns på kampanj-, paket-, annons- och avtalsnivå. | Se &quot;[Visa aviseringar och aviseringar](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
+|  | [!UICONTROL Placements] | Nya placeringsinställningar gör att du kan ange a) en minimiplaceringsbudget som åsidosätter budgetallokeringen på paketnivå när tillräcklig budget är tillgänglig och b) åsidosätta budprisalgoritmen för att bjuda minst de fasta och lägsta priserna för erbjudanden:<ul><li>I inställningarna för placeringar som tillhör paket kan du nu ange en minimibudget som en procentandel av paketbudgeten. Om du vill använda funktionen väljer du alternativet för placeringsfinansiering till[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (tidigare &quot;[!UICONTROL Set a fixed budget cap]&quot;). Du kan fortfarande ange en [!UICONTROL Maximum Budget] i USD (som du kunde göra tidigare för budgettaket), och du kan även ange en [!UICONTROL Minimum Budget] som en procentandel av paketbudgeten. För befintliga placeringar behålls dina befintliga inställningar med de nya fältnamnen.</li><li>I [!UICONTROL Inventory Targeting] inställningar, ett nytt alternativ för [!UICONTROL On Demand] lager och privat lager gör att du kan[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | Se &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 7 februari 2024 | [!UICONTROL Placements] och [!UICONTROL Ads] | The [!UICONTROL Ads Tool] har nu ett paketfilter. | Se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 24 januari 2024 | [!UICONTROL Placements] och [!UICONTROL Ads] | Arbetsflödet för att bifoga annonser till praktik har omarbetats. | Se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 | 10 januari 2024 | [!UICONTROL Placements] | Nu kan du snabbt anpassa annonsplanering för flera placeringar med hjälp av ett kalkylblad:<ul><li>Du kan ladda ned en annonsschemamall för placeringar. Du kan redigera flygdatum och annonsrotation i den hämtade filen efter behov.</li><li>Du kan sedan överföra den redigerade mallen för annonseringsschema.</li></ul> | Se &quot;[Redigera annonsplanerna för praktik](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md).&quot; |
