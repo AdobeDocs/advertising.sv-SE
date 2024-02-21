@@ -3,9 +3,9 @@ title: Om pakethantering i DSP
 description: Läs mer om pakethantering.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Som standard visas även avstånd- och leveransmått per paket. Du kan också vi
 >
 >Du kan anpassa innehållet i och leveransen av paketrapporter ytterligare via [anpassade rapporter](/help/dsp/reports/report-about.md).
 
-Om du vill visa alla placeringar i ett paket klickar du på paketnamnet.
+Om du vill visa alla placeringar i ett paket och flygdatum för paketet klickar du på paketnamnet.
 
 >[!MORELIKETHIS]
 >
@@ -39,4 +39,3 @@ Om du vill visa alla placeringar i ett paket klickar du på paketnamnet.
 >* [Koppla en placering till ett paket](package-attach-placement.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
 >* [Paketinställningar](package-settings.md)
-

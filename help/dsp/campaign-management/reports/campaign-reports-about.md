@@ -3,9 +3,9 @@ title: Typer av prestandarapporter i Campaign Management-vyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,13 @@ Som standard innehåller varje kampanjrad pacing- och leveransstatistik. Mellanr
 
 Du kan fortsätta [anpassa datatabellerna](campaign-data-views-manage.md#data-tables-manage) på ytterligare sätt och [filtrera synliga data](campaign-data-views-manage.md#filter-data-tables).
 
-<!--
-An "Alerts" column indicates when a campaign (or any child entity under it) has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
-
 Klicka på kampanjnamnet om du vill visa en mer detaljerad kampanj.
+
+#### Varningsindikatorer
+
+*Betafunktion*
+
+An &quot;[!UICONTROL Alerts]&quot;kolumn anger när en kampanj, eller någon underordnad enhet under den, har ett problem. A [!UICONTROL Pulse Panel] till höger om verktygsfältet anger även om det finns några varningar tillgängliga för de enheter som visas. Se &quot;[Visa aviseringar](campaign-alerts.md)&quot; för mer information.
 
 ## Single Campaign Reporting {#single-campaign-reporting}
 
@@ -58,9 +60,11 @@ Se [Diagramvy om kampanjstatistik](#chart-view) för mer information.
 
 På varje enhetsflik innehåller varje rad som standard värden för avstånd och leverans, men du kan [ändra kolumnvyn](campaign-data-views-manage.md#column-view-change) eller jämn [skapa en anpassad kolumnvy](campaign-data-views-manage.md#column-view-create) som ska gälla alla underflikar för kampanjen. Du kan fortsätta [anpassa datatabellerna](campaign-data-views-manage.md#data-tables-manage) på ytterligare sätt. Varje datatabell innehåller en [!UICONTROL Subtotals] rad, som visar antingen summan eller det genomsnittliga värdet för varje mätvärde över alla synliga rader.
 
-<!--
-An "Alerts" column indicates when a package, placement, or ad &mdash; or any child entity under a package or placement &mdash; has an issue. Alert indicators include "Critical" (![Critical](/help/dsp/assets/indicator-critical.png "Critical")) and "Warning" (![Warning](/help/dsp/assets/indicator-warning.png "Warning")). See "[View Alerts and Notifications](campaign-alerts.md) for more information.
--->
+#### Varningsindikatorer
+
+*Betafunktion*
+
+An &quot;[!UICONTROL Alerts]&quot;kolumn anger när ett paket, en placering eller en annons - eller någon underordnad enhet under ett paket eller en placering - har problem. An &quot;[!UICONTROL Alerts]&quot;kolumn anger när en kampanj, eller någon underordnad enhet under den, har ett problem. A [!UICONTROL Pulse Panel] till höger om verktygsfältet anger även om det finns några varningar tillgängliga för de enheter som visas. Se &quot;[Visa aviseringar](campaign-alerts.md)&quot; för mer information.
 
 ### Andra typer av kampanjnivårapportering
 
@@ -89,3 +93,4 @@ Om du vill se andra databrytningar [rapportsidor på annonsnivå](/help/dsp/camp
 >* [Hantera era kampanjdatavyer](campaign-data-views-manage.md)
 >* [Exportera data från en Campaign Management-vy](campaign-export-data.md)
 >* [Visa en detaljerad rapport för en kampanj](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
+>* [Visa aviseringar](campaign-alerts.md)
