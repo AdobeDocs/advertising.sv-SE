@@ -4,7 +4,7 @@ description: Se policyn för användning av universella ID:n.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: e809a521efc35442b912375cda19516b6be7e90b
+source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Om du får ett avanmäl dig efter gällande data kommer du inte längre att anv�
 
 Ni får inte använda tjänsterna för att diskriminera personer i strid med lagen, bland annat genom att målinrikta vissa grupper av människor felaktigt för annonsering, på ett felaktigt sätt utesluta vissa grupper av människor från att se annonser eller genom att erbjuda diskriminerande innehåll i annonser. Du ansvarar för att använda tjänsterna på ett ansvarsfullt sätt för att undvika diskriminering av skyddade klasser, inklusive, men inte begränsat till, att säkerställa att era annonser inte har olika påverkan på skyddade klasser.
 
-## EXHIBIT A: FÖRBJUDET AV LÄNDER {#prohibited-countries}
+## Utdrag A: Förbjudna länder {#prohibited-countries}
 
 ### EU-länder
 
