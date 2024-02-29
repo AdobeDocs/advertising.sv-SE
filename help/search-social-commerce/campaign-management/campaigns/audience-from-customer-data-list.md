@@ -3,7 +3,7 @@ title: Hantera kundmatchande målgrupper med hjälp av kunddatalistor
 description: Lär dig skapa och redigera [!DNL Google Ads] och [!DNL Microsoft® Advertising] matchar kunderna målgrupper utifrån era kunddatalistor.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 588b6b5887903e5912fc68a18ef142d908026870
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
@@ -66,7 +66,7 @@ För [!DNL Microsoft® Advertising] kan filen innehålla e-postadresser. För [!
 
       1. Markera kryssrutan för att ange att du godkänner villkoren i [!DNL Adobe] och annonsera sekretesspolicyer för nätverk.
 
-      1. (Advertisers skapa [!DNL Google Ads] målgrupper som gör affärer i EES (European Economic Area) eller UK (UK); valfritt) Om du har fått EES- och UK-användares samtycke till att överföra deras data för annonsändamål markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+      1. (Advertisers skapa [!DNL Google Ads] målgrupper som gör affärer i EES (European Economic Area) eller UK (UK); valfritt) Om du har inhämtat samtycke från användare i EES och Storbritannien att överföra sina data för annonsändamål, markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
       [!DNL Google Ads] ignorerar alla data för användare i EES och UK med ospecificerad medgivandestatus. Detta kan leda till diskrepans och prestandaproblem.
 

@@ -3,7 +3,7 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft® Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 0fb03410e67be28d24496c948b52399c8465e041
+source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Om du aktiverar det här alternativet aktiveras automatiskt en överföring för
 
    Det här alternativet är bara tillgängligt om annonserarkontot är konfigurerat att använda hybridoptimering. Om du vill aktivera hybridoptimering kontaktar du kontoteamet på Adobe.
 
-1. (Annonsörer med [!DNL Google Ads] konton som bedriver verksamhet i Europeiska ekonomiska samarbetsområdet (EES) eller Storbritannien (UK); valfritt) Om du har fått EES- och UK-användares medgivande att överföra sina uppgifter i annonssyfte markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+1. (Annonsörer med [!DNL Google Ads] konton som bedriver verksamhet i Europeiska ekonomiska samarbetsområdet (EES) eller Storbritannien (UK); valfritt) Om du har inhämtat samtycke från användare i EES och Storbritannien att överföra sina uppgifter i annonssyfte markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Klicka på **[!UICONTROL Save]**.
 
