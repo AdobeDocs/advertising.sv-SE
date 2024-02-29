@@ -1,11 +1,11 @@
 ---
 title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
-exl-id: b5975869-4bc3-461d-8cb7-eeefab157137
+exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 +++Kan jag flytta kampanjer och komponenter från ett konto till ett annat?
 
-Flytta eller kopiera inte en kampanj- eller kampanjkomponent, som har ett unikt ID, till ett konto med ett annat konto-ID. Om du gör det kommer datafel att uppstå.
+Flytta eller kopiera inte en kampanj- eller kampanjkomponent, som har ett unikt ID, till ett konto med ett annat konto-ID. Om du gör det uppstår datafel.
 +++
 
 +++När uppdateras klickdata från annonsnätverken?
@@ -30,7 +30,7 @@ Dessutom [!DNL Google Ads] Resultatstatistik på kampanjnivå i söknätverket f
 
 >[!NOTE]
 >
->(Annonsörer med portföljer) Förvänta dig att prestanda för kombinationer av nya nyckelord och matchningstyper blir instabila medan Sök, Socialt och Commerce samlar in data för att skapa nya modeller.
+>(Annonsörer med portföljer) Förvänta dig att prestanda för kombinationer av nya nyckelord och matchningstyper blir instabila medan Sök, Socialt och Commerce samlar in data för att skapa modeller för dem.
 
 **Åtgärder i [!UICONTROL Search] > [!UICONTROL Campaigns] vyer, i utskicksprocessen för kalkylblad och i annonsnätverkets egen redigerare:**
 
@@ -38,11 +38,11 @@ Det befintliga nyckelordet eller annonsen tas bort och ett annat skapas när:
 
 * ([!DNL Baidu], [!DNL Google Ads]och [!DNL Yandex]) Du redigerar ett nyckelordsnamn.
 
-* ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yandex]) Du ändrar nyckelordets matchningstyp.
+* ([!DNL Google Ads], [!DNL Microsoft® Advertising]och [!DNL Yandex]) Du ändrar nyckelordets matchningstyp.
 
 * Du flyttar ett nyckelord mellan annonsgrupper.
 
-* ([!DNL Google Ads] dynamiska sökannonser, [!DNL Microsoft Advertising] expanderade textannonser och alla annonstyper i andra annonsnätverk som stöds) Du kan redigera och kopiera (rubrik/rubrik eller beskrivning) eller en annonsbild.
+* ([!DNL Google Ads] dynamiska sökannonser, [!DNL Microsoft® Advertising] expanderade textannonser och alla annonstyper i andra annonsnätverk som stöds) Du kan redigera och kopiera (rubrik/rubrik eller beskrivning) eller en annonsbild.
 
 * Du flyttar en annons mellan annonsgrupper.
 
@@ -72,7 +72,7 @@ Om du ändrar visningsnamnen för konverteringsmåtten i Sök, Socialt och Comme
 
 +++ (Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?
 
-Bäst resultat får du om du inte lägger till [!DNL Google Ads] kampanjer till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och handels-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
+Bäst resultat får du om du inte lägger till [!DNL Google Ads] till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och handels-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
 +++
 
 ++([!DNL Google Ads] kampanjer) Kan jag skicka mobilanvändare och icke-mobilanvändare till olika landningssidor?
@@ -99,7 +99,7 @@ I båda fallen inkluderar bas-URL:erna med sök-, sociala och handelsuppföljnin
 
 [!DNL Google Ads] Resultatstatistik på kampanjnivå i söknätverket för den aktuella dagen hämtas kl. 08.00 och kl. 16.00 i annonsörens tidszon.
 
-I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visa och [!UICONTROL Optimization] > [!UICONTROL Portfolios] visa, när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen, kommer data att innehålla de data som har hämtats senast.
+I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] visa och [!UICONTROL Optimization] > [!UICONTROL Portfolios] visa, när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen, innehåller data om den senast synkroniserade informationen.
 
 >[!NOTE]
 >
@@ -107,13 +107,21 @@ I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > 
 
 +++
 
-++([!DNL Google Ads] och [!DNL Microsoft Advertising]) Stöder sökning, sociala medier och handel parallell spårning för annonser i [!DNL Google Ads] eller [!DNL Microsoft Advertising]?
++++Vad är skillnaden mellan en spårningsmall och ett landningssidessuffix?
 
-Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en och URL:en för spårningsmallen (med klickmätning) läses in i bakgrunden, vilket innebär att landningssidan läses in snabbare.
+Använd bara ett landningssidessuffix för annonsnätverk som stöder parallell spårning. I Sök, Socialt, &amp; Commerce ska både spårningsmallar och landningssidans suffix innehålla en klickidentifierare från annonsnätverket, men spårningsmallarna innehåller ytterligare spårningsparametrar.
 
-Sökning, sociala medier och handel stöder parallell spårning för sök- och shoppingkampanjer med annonsnätets klickidentifierare (`msclkid` for [!DNL Microsoft Advertising]; `gclid` for [!DNL Google Ads]). Använd en [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) eller [kampanjnivå](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (anropades &quot;[!DNL final URL suffix]&quot; i annonsnätverket), som bifogas till landningssidans URL:er för att spåra klick på underordnade annonser från webbläsare som stöder parallell spårning. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Se nästa Frågor och svar om [stöd för parallell spårning](#parallel-tracking) om du vill ha mer information om hur spårningsmallar och landningssidessuffix läses in när en användare klickar på en annons.
 
-När en användare tittar på din annons i en webbläsare som inte stöder parallell spårning, använder annonsnätverket sekventiell spårning i stället: kunderna skickas först till din URL-adress för spårningsmall, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL-adressen. Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
++++
+
+++([!DNL Google Ads] och [!DNL Microsoft® Advertising]) Stöder sökning, sociala medier och handel parallell spårning för annonser i [!DNL Google Ads] eller [!DNL Microsoft® Advertising]? {#parallel-tracking}
+
+Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en, som kan innehålla tillagda parametrar från ett slutligt URL-suffix, eller&quot;landningssidessuffix&quot;. URL:en till spårningsmallen (med ytterligare parametrar för klickmätning) läses in separat i bakgrunden. Detta innebär att landningssidan läses in snabbare.
+
+Sökning, sociala medier och handel stöder parallell spårning för sök- och shoppingkampanjer med annonsnätets klickidentifierare (`msclkid` for [!DNL Microsoft® Advertising]; `gclid` for [!DNL Google Ads]). Använd en [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) eller [kampanjnivå](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (anropades &quot;[!DNL final URL suffix]&quot; i annonsnätverket), som bifogas till landningssidans URL:er för att spåra klick på underordnade annonser från webbläsare som stöder parallell spårning. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+
+När en användare tittar på din annons i en webbläsare som inte stöder parallell spårning, använder annonsnätverket sekventiell spårning i stället: kunderna skickas först till din spårningsmalls-URL, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL:en (som kan innehålla ytterligare parametrar i ett landningssidessuffix). Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Varför ska jag spåra URL:er för mina annonser med &quot;`&EV_HASH={<hash>}`?&quot;
@@ -129,7 +137,7 @@ Det beror på annonsörens verksamhetskrav.
 
 När du pausar annonser återaktiveras de om du skickar in samma annons igen eller om lagernivån överstiger minimivärdet. På så sätt kan ni behålla annonsens historik.
 
-När ni tar bort annonser och skickar in dem igen skapas nya annonser och historiska data måste samlas in. Om du inte förväntar dig att skicka in raderade annonser igen är det dock inte viktigt att ha historiska data.
+När du tar bort annonser och skickar in dem igen skapas nya annonser och historiska data måste samlas in för de nya annonserna. Om du inte förväntar dig att skicka in raderade annonser igen är det dock inte viktigt att ha historiska data.
 +++
 
 +++(Produktinventeringsflöden) Om jag tar bort en annonsmall och sedan skapar en ny, identisk, saknas objekt i nästa feed-fil som pausats (när inställningarna för feed-filen har konfigurerats för detta)?
@@ -150,7 +158,7 @@ När du skickar data, datafälten för [!UICONTROL Param1] och [!UICONTROL Param
 
 +++Mina kampanjer som genereras från lagerfeeds har många överblivna transaktioner.
 
-Om [inställningar för feed-data](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) har konfigurerats för att ta bort annonser i olika situationer, och eventuella fördröjda konverteringar som inträffar efter klickningar på annonsen kan orsaka [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p). Det bästa sättet är att pausa annonser i stället för att ta bort dem. Om en annons fortfarande inte har fått några intäkter efter en längre tid kan du ta bort den via ett kalkylblad eller annonshanteringsvyn.
+Om [inställningar för feed-data](/help/search-social-commerce/campaign-management/inventory-feeds/feed-settings-manage.md#feed-data-settings) har konfigurerats för att ta bort annonser i olika situationer, och eventuella fördröjda konverteringar som inträffar efter klickningar på annonsen kan orsaka [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p). Det bästa sättet är att pausa annonser i stället för att ta bort dem. Om en annons fortfarande inte har fått några intäkter på lång tid kan du ta bort den via ett kalkylblad eller annonshanteringsvyn.
 +++
 
 ## Konto- och kampanjrelaterade prestandaproblem

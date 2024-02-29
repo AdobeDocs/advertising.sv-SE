@@ -3,9 +3,9 @@ title: Överför konverteringsmått till [!DNL Google Ads]
 description: Lär dig hur du överför konverteringsstatistik för sökning, sociala medier och handel till [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: 608c1a189017f1a7ebfbccf3d8b3455886c297f9
+source-git-commit: a004f5025ee94c6a40c24124a9cb134a4e1668ce
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Dagliga överföringar inkluderar spårade `gclid` värdet, det konverteringsvä
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 
 1. Markera kryssrutan intill **[!UICONTROL Upload Conversions to Google Ads]**.
+
+1. (Annonsörer som bedriver verksamhet i Europeiska ekonomiska samarbetsområdet (EES) eller Storbritannien (UK); valfritt) Om du har fått EES- och UK-användares samtycke till att överföra sina uppgifter i annonssyfte markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
 1. Klicka på **[!UICONTROL Save]**.
 
