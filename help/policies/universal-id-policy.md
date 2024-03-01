@@ -4,9 +4,9 @@ description: Se policyn för användning av universella ID:n.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: 90c4e8055b8438e7375968980f5344d7497fbc8f
+source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -29,21 +29,25 @@ Utöver de krav som anges nedan och i avtalet måste du uppfylla de krav som st�
 
 Genom att välja att använda de universella ID:n som blir tillgängliga via tjänsterna, samtycker du till att se till att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On-demand-tjänster är förenliga med följande universella ID-specifikationer och andra krav i denna policy, vilket kan komma att ändras genom [!DNL Adobe] emellanåt.
 
-Klientdata har samlats in av dig direkt från användare eller licensierats av dig från en annan part som antingen (i) har samlat in klientdata direkt från de användare som dessa data hör till eller (ii) har hämtat klientdata via mellanhänder som har samlat in data från en annan part som har samlat in sådana data från användaren, förutsatt att du kan identifiera den ursprungliga part som samlade in klientdata från de användare som uppgifterna gäller.
+* Klientdata har samlats in av dig direkt från användare eller licensierats av dig från en annan part som antingen (i) har samlat in klientdata direkt från de användare som dessa data hör till eller (ii) har hämtat klientdata via mellanhänder som har samlat in data från en annan part som har samlat in sådana data från användaren, förutsatt att du kan identifiera den ursprungliga part som samlade in klientdata från de användare som uppgifterna gäller.
 
-Klientdata har inte skapats via webbscraping eller köp av en databas från en källa som inte är kopplad till den ursprungliga datainsamlingen.
+* Klientdata har inte skapats via webbscraping eller köp av en databas från en källa som inte är kopplad till den ursprungliga datainsamlingen.
 
-Du har tillhandahållit alla meddelanden och fått allt samtycke som krävs för att lämna ut klientdata till [!DNL Adobe] och dess partner för de ändamål som anges i avtalet.
+* Du har tillhandahållit alla meddelanden och fått allt samtycke som krävs för att lämna ut klientdata till [!DNL Adobe] och dess partner för de ändamål som anges i avtalet.
 
-Klientdata avser inte en person (i) som har utnyttjat ett alternativ som du direkt eller indirekt har åtagit dig att följa när det gäller att skapa eller använda data för målgrupper (&quot;avanmäl dig&quot;), (ii) som du vet är en minderårig (som är individer under majoritetsåldern definierad i lag i en tillämplig jurisdiktion), (iii) där du har faktisk kunskap om att en sådan individ lider av ett visst hälsotillstånd, eller (iv) som är en bosatt i något av följande [Förbjudna länder som anges på Utgåva A](#prohibited-countries) härför.
+* Klientdata avser inte en person (i) som har utnyttjat ett alternativ som du direkt eller indirekt har åtagit dig att följa när det gäller att skapa eller använda data för målgrupper (&quot;avanmäl dig&quot;), (ii) som du vet är en minderårig (som är individer under majoritetsåldern definierad i lag i en tillämplig jurisdiktion) eller (iii) där du har faktisk kunskap om att en sådan individ lider av ett visst hälsotillstånd.
 
-Om du får ett avanmäl dig efter gällande data kommer du inte längre att använda det universella ID som tillhör den användaren.
+* Om du får en avanmälan efter avtalets giltighetsdatum, kommer du inte längre att använda det universella ID som tillhör den användaren.
+
+### Förbjudna länder för UID2
+
+Genom att välja att använda UID2 Universal ID:n via tjänsterna godkänner du att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On demand-tjänster för sådan användning i samband med UID2 Universal ID:n inte är relaterade till någon person som bor i något av [UID2 Förbjudna länder som anges på utställning A](#prohibited-countries-uid2) härför.
 
 ## Ingen diskriminering
 
 Ni får inte använda tjänsterna för att diskriminera personer i strid med lagen, bland annat genom att målinrikta vissa grupper av människor felaktigt för annonsering, på ett felaktigt sätt utesluta vissa grupper av människor från att se annonser eller genom att erbjuda diskriminerande innehåll i annonser. Du ansvarar för att använda tjänsterna på ett ansvarsfullt sätt för att undvika diskriminering av skyddade klasser, inklusive, men inte begränsat till, att säkerställa att era annonser inte har olika påverkan på skyddade klasser.
 
-## Utdrag A: Förbjudna länder {#prohibited-countries}
+## Utdrag A: UID2-förbjudna länder {#prohibited-countries-uid2}
 
 ### EU-länder
 
