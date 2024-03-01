@@ -3,9 +3,9 @@ title: Aktivera autentiserade segment från universella ID-partners
 description: Lär dig hur du aktiverar autentiserade målgrupper med en universell ID-lösning.
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: e9ff454428d0256402a2ef2fa74f8bd45bd7592f
+source-git-commit: 5d031fe746dc5051320e5d2092f9148b5a8a1bd5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ För att aktivera autentiserade målgrupper via en universell ID-lösning i DSP 
 
 1. För båda alternativen kontaktar du `adcloud-support@adobe.com` för att aktivera följande inställningar i DSP, vilket gör att ni kan inrikta er på autentiserade segment i DSP kampanjer en gång [alla steg i aktiveringsarbetsflödet är slutförda](source-adobe-rtcdp.md):
 
-   1. [!DNL LiveRamp] [!DNL RampID] kampanjkonfiguration före segmentdelning från [!DNL Real-Time CDP].
+   * [!DNL LiveRamp] [!DNL RampID] kampanjkonfiguration före segmentdelning från [!DNL Real-Time CDP]
 
-   1. Kontonivån &quot;[!UICONTROL LiveRamp segments]&quot;.
+   * Kontonivån &quot;[!UICONTROL LiveRamp segments]&quot;, alternativ
 
 1. (Användare delar autentiserade segment manuellt från [!DNL LiveRamp]) Utför följande steg i [!DNL LiveRamp] [!DNL Connect] kontrollpanel:
 
