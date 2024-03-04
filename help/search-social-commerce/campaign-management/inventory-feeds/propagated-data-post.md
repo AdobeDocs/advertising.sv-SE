@@ -1,11 +1,11 @@
 ---
 title: Posta kampanjdata som genererats från feeds till annonsnätverk
 description: Lär dig hur du bokför data som genererats från lagerdataflöden till annonsnätverk.
-exl-id: 14ce377c-9b71-48ac-8ead-cada9c06d52f
+exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ För en framgångsrik bokföring måste alla annonsgrupper tilldelas till kampan
 
               Om du vill ange ett datum använder du formatet DD/MM/ÅÅÅÅ eller D/M/ÅÅÅÅ eller klickar [Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [välj ett datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Om du vill ändra en tid anger du tiden i 24-timmarsformat, HH/MM eller H/M, eller väljer en tid (i 30-minutersintervall) i listan.
 
-         * *[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Skapar en bulkbladsfil som är tillgänglig från [!UICONTROL Search] > [!UICONTROL Bulksheets] vy. Du kan också publicera filen därifrån.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Skapar en bulkbladsfil som är tillgänglig från [!UICONTROL Search] > [!UICONTROL Bulksheets] vy. Du kan också publicera filen därifrån.
 
            När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format. Du behöver inte packa upp filen för att publicera den.
 
