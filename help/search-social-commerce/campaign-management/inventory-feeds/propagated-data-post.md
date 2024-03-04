@@ -3,7 +3,7 @@ title: Posta kampanjdata som genererats från feeds till annonsnätverk
 description: Lär dig hur du bokför data som genererats från lagerdataflöden till annonsnätverk.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 6b3c876f17d0e30dcce69048bb4041fc8cd29902
+source-git-commit: c27665b979ad8e37fd4f92385bb7339af4354d5f
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -52,7 +52,7 @@ För en framgångsrik bokföring måste alla annonsgrupper tilldelas till kampan
 
             * **[!UICONTROL End Time]:** Ett framtida datum och en framtida tidpunkt då de bokförda annonserna kan pausas eller tas bort baserat på [inställning för feed-data](feed-settings-manage.md#feed-data-settings) for &quot;[!UICONTROL When the Scheduled End Date is reached].&quot; Som standard är sluttiden 00:00 (12:00) 30 dagar från idag. Välj **[!UICONTROL None]** om du vill att data ska förbli aktiva i oändlighet (eller tills du sprider nya data för mallen) eller ange ett datum och en tid.
 
-              Om du vill ange ett datum använder du formatet DD/MM/ÅÅÅÅ eller D/M/ÅÅÅÅ eller klickar [Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [välj ett datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Om du vill ändra en tid anger du tiden i 24-timmarsformat, HH/MM eller H/M, eller väljer en tid (i 30-minutersintervall) i listan.
+              Om du vill ange ett datum använder du formatet DD/MM/ÅÅÅÅ eller D/M/ÅÅÅÅ eller klickar ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [välj ett datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Om du vill ändra en tid anger du tiden i 24-timmarsformat, HH/MM eller H/M, eller väljer en tid (i 30-minutersintervall) i listan.
 
          * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Skapar en bulkbladsfil som är tillgänglig från [!UICONTROL Search] > [!UICONTROL Bulksheets] vy. Du kan också publicera filen därifrån.
 
