@@ -4,7 +4,7 @@ description: Se policyn för användning av universella ID:n.
 feature: Policies, DSP Ads
 hide: true
 hidefromtoc: true
-source-git-commit: b870d2cb7d8c6304016af0c7fbec1e56511bdac1
+source-git-commit: 2a77177ea7fb563835731fbbaa5447df94c211e9
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- In TOC, but hidden from TOC and both external and internal search -->
 
-Senast uppdaterad: 1 mars 2024
+Senast uppdaterad: 29 februari 2024
 
 Denna policy för krav på universella ID (&quot;Policy&quot;) anger kraven för användning av universella ID:n i samband med annonser som distribueras via [!DNL Adobe's] On-demand-tjänster för Adobe Advertising (&quot;tjänster&quot;). Denna policy införlivas genom hänvisning i avtalet mellan [!DNL Adobe] och kunden (&quot;du&quot;) som använder On-Demand-tjänster. De termer med versaler som används i denna policy men som inte definieras häri får den innebörd som anges i det avtalet.
 
