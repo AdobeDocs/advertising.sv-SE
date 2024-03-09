@@ -3,9 +3,9 @@ title: Om Audience Management i DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 0979032c6dff9cfe7b5fb7deb10f53114efffb7e
+source-git-commit: e2387f7e373e69c72e97ee83eff8f6a7ce9ceed5
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ Det finns även andra typer av målgrupper att tillgå för riktad marknadsföri
 
 ## Importera datasegment från första och tredje part
 
-DSP kan importera egna datasegment från första part från datahanteringsplattformen (DMP) och tillhandahålla dem till alla typer av annonsörer efter behov.
+DSP kan översätta era egna segment till universella ID:n för cookiefri målgruppsanpassning, och du kan göra dem tillgängliga för alla annonsörer och konton. DSP har etablerat kontakter för [den [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html) och andra CDP:er. Mer information finns i [Avsnittet Källor](/help/dsp/audiences/sources/source-about.md).
 
-DSP är ett integrerat mål för [den [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html)så att ni kan dela autentiserade förstahandssegment med godkända annonsörer och användare för kampanjaktivering. Mer information om Real-Time CDP-integrationen finns i [Avsnittet Källor](/help/dsp/audiences/sources/source-about.md).
+DSP kan även importera dina andra datasegment från första part direkt från datahanteringsplattformen (DMP) och tillhandahålla dem till alla annonsörsuppsättningar, efter behov.
 
-DSP kan även importera egna tredjepartssegment, inklusive komplexa kombinationer av tredjepartssegment. Ni kan vid behov tillhandahålla segmenten till valfri uppsättning annonsörer.
+Dessutom kan DSP importera anpassade tredjepartssegment, inklusive komplexa kombinationer av tredjepartssegment. Ni kan vid behov tillhandahålla segmenten till valfri uppsättning annonsörer.
 
 Kontakta kontoteamet på Adobe för mer information.
 
