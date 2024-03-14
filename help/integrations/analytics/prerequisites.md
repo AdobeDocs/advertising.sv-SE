@@ -3,9 +3,9 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e7773c31c1834b05731b4711ae237cde481e5639
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Granska följande information innan du integrerar Adobe Advertising med Adobe An
    * Identitetstjänst för Experience Cloud: `visitorAPI.js` version 2.0 eller senare
 * Alla versioner av Adobe Analytics (inklusive [!DNL Prime], [!DNL Premium], eller [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` version 2.1 eller senare
+* (DSP kunder) och [Advertising DSP JavaScript snippet](javascript.md) på webbsidorna för att spåra besök.
 
 >[!TIP]
 >
@@ -89,7 +90,7 @@ Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stö
 
 * Integreringen godkänns endast [!DNL Analytics] standardhändelser och anpassade händelser till Adobe Advertising för att optimera antalet köpta medier och annonssatsningar. Det går inte [!DNL Analytics] segment, beräknade värden, och [!DNL eVars] till Adobe Advertising för anbudsoptimering.
 
-* Adobe Advertising skapar beständiga ID:n i [!DNL Analytics] baserat på den senaste annonsen som klickades eller visades innan användaren kom in på webbplatsen, baserat på [klicka och visa sökningsfönster](#lookback-a4adc) konfigurerat i Adobe Advertising. Om en besökare skulle ha båda typerna av webbplatspostinteraktioner i sin profil, och klickningen ligger inom uppslagsperioden, skulle besökarens klicknings-ID åsidosätta det genomsöknings-ID som används för platsrapportering.
+* Adobe Advertising skapar beständiga ID:n i [!DNL Analytics] baserat på den senaste annonsen som klickades eller visades innan användaren kom in på webbplatsen, baserat på [klicka och visa sökningsfönster](#lookback-a4adc) konfigurerat i Adobe Advertising. Om en besökare har båda typerna av webbplatsposteringsinteraktioner i sin profil, och klickningen är inom uppslagsperioden, åsidosätter besökarens klicknings-ID visnings-ID:t för platsrapportering.
 
 * [!DNL Analytics for Advertising] Vid konverteringsspårning i Adobe Analytics används ett konfigurerbart uppföljningsfönster (60 dagar som standard). Adobe Advertising-rapporter återspeglar webbplatskonverteringar och engagemang i slutet av detta uppföljningsfönster.
 
