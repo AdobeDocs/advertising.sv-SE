@@ -3,9 +3,9 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: ce35295fcb003b1cc0a171d171317601eadf6288
+source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -151,8 +151,8 @@ Använda kontextuell filtrering, blockering av bedrägeri före bud och/eller [!
 
 ## Steg 5 - Använd rätt kreativa resurser
 
-* Det bästa sättet är att inkludera så många unika annonsstorlekar som möjligt för att maximera räckvidden. Med den universella visningsmallen kan du överföra alla standardstorlekar för visning och visning.
-* Kontrollera att alla placeringar innehåller *minst* alla de primära bildskärmsannonserna (300 × 250, 728 × 90, 160 × 600, 300 × 600, 320 × 50 och 300 × 50).
+* Det bästa sättet är att inkludera så många unika annonsstorlekar som möjligt för att maximera räckvidden. Med den universella visningsmallen kan du överföra alla standardstorlekar för visning och visning.
+* Kontrollera att alla placeringar innehåller *minst* alla de primära bildskärmsannonserna (300 × 250, 728 × 90, 160 × 600, 300 × 600, 320 × 50 och 300 × 50).
 * Uppdatera kreatörerna ofta för att förhindra kreativ trötthet.
 
 >[!MORELIKETHIS]

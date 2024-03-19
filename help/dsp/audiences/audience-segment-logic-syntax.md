@@ -3,7 +3,7 @@ title: Syntax för målgruppssegmentslogik
 description: Referera till den syntax du kan använda för att definiera logiken för målgruppssegment.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -24,14 +24,13 @@ När du skapar återanvändbara målgrupper kan du definiera segmentlogik manuel
 >* Alla angivna segmentgrupper inkluderas om de inte föregås av ! (som utesluter dem).
 >* Du kan [hitta segment-ID:t för en målgrupp](reusable-audience-clipboard.md) från [!UICONTROL Audiences] > [!UICONTROL All audiences].
 
-
-Till exempel följande logik:
+Följande logik:
 
 ```
 (X5vUk1cNvZxvBJ3jMjTt) || (sfvXrmQkk77PL5OtHpLH) && !(SMWSjTZFiy9hR1bKm1vw || x08UReA0IcP9HAJdcGVe)
 ```
 
-betyder (på engelska)
+betyder (på vanlig engelska)
 
 ```
 [!DNL INCLUDE] Segment ID X5vUk1cNvZxvBJ3jMjTt [!DNL OR] INCLUDE Segment ID sfvXrmQkk77PL5OtHpLH [!DNL AND EXCLUDE] (Segment ID SMWSjTZFiy9hR1bKm1vw AND Segment ID x08UReA0IcP9HAJdcGVe)
@@ -48,4 +47,3 @@ betyder (på engelska)
 >* [Skapa en återanvändbar publik](reusable-audience-create.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
-
