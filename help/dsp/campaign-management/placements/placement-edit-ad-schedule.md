@@ -3,7 +3,7 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: bc45e96cf091cba3872b20f6ea691e369b29982f
+source-git-commit: 02a643662b00e2aed6dccf80cf8eeaf04d3d5c34
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -60,21 +60,21 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonserna som är k
 
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Ad schedule]**.
 
-   1. Gör något av följande:
+1. Gör något av följande:
 
-      * Om du vill lägga till en flygning klickar du **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
+   * Om du vill lägga till en flygning klickar du **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
 
-      * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
+   * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
 
-      * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
+   * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
 
       * (När flera annonser har samma plan) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och ange sedan den relativa vikt som varje annons ska roteras med, i procent.
 
         Den totala vikten måste vara lika med 100.
 
-   1. Klicka på uppe till höger **[!UICONTROL Continue]**.
+1. Klicka på uppe till höger **[!UICONTROL Continue]**.
 
-   1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
+1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
