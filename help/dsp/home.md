@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: d21750762d2f90092f044a37f749fe1fcf8c248e
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 20 mars 2024 | Orsaker till placeringen som inte är anbud | Alla åtgärdbara skäl (NBR), som är viktiga datapunkter som hjälper till att felsöka underutgiftsproblem, är nu tillgängliga för självbetjänande kunder. Tidigare hade självbetjäningsanvändare bara partiell åtkomst till NBR:er och var tvungna att förlita sig på kontohanterare eller handelsanalytiker (som har administratörsåtkomst) för att kunna felsöka. | Se [!UICONTROL Non Bids] i [placeringsdiagnostikrapport](/help/dsp/campaign-management/reports/placement-diagnostics.md). |
 | 20 mars 2024 | Planering | Det nya plannerverktyget är inte längre i betaläge. | Se &quot;[Om DSP](/help/dsp/planner/planner-about.md).&quot; |
 | 21 februari 2024 | [!UICONTROL Alerts] for [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads]och [!UICONTROL Deals] | A [!UICONTROL Pulse Panel] ikonen i [!UICONTROL Campaigns], [!UICONTROL Packages] och paketinformation, [!UICONTROL Placements]och [!UICONTROL Ads] vyer visar om det finns några varningar tillgängliga för objekt i vyn. Du kan öppna panelen för att visa varje varning och eventuellt öppna den aktuella vyn (till exempel [!UICONTROL Placements] med rätt placering (listad) så att du kan redigera inställningarna efter behov för att lösa problemet. Du kan också stänga alla aviseringar.<br><br>Dessutom är [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements]och [!UICONTROL Ads] vyerna innehåller en[!UICONTROL Alerts]&quot; som anger när ett objekt eller någon av dess komponenter har problem.<br><br>Aviseringar finns på kampanj-, paket-, annons- och avtalsnivå. | Se &quot;[Visa aviseringar och aviseringar](/help/dsp/campaign-management/reports/campaign-alerts.md).&quot; |
 |  | [!UICONTROL Placements] | Nya placeringsinställningar gör att du kan ange a) en minimiplaceringsbudget som åsidosätter budgetallokeringen på paketnivå när tillräcklig budget är tillgänglig och b) åsidosätta budprisalgoritmen för att bjuda minst de fasta och lägsta priserna för erbjudanden:<ul><li>I inställningarna för placeringar som tillhör paket kan du nu ange en minimibudget som en procentandel av paketbudgeten. Om du vill använda funktionen väljer du alternativet för placeringsfinansiering till[!UICONTROL Set a Fixed Minimum or Maximum Budget]&quot; (tidigare &quot;[!UICONTROL Set a fixed budget cap]&quot;). Du kan fortfarande ange en [!UICONTROL Maximum Budget] i USD (som du kunde göra tidigare för budgettaket), och du kan även ange en [!UICONTROL Minimum Budget] som en procentandel av paketbudgeten. För befintliga placeringar behålls dina befintliga inställningar med de nya fältnamnen.</li><li>I [!UICONTROL Inventory Targeting] inställningar, ett nytt alternativ för [!UICONTROL On Demand] lager och privat lager gör att du kan[!UICONTROL Ensure Fixed or Floor Price for the bid].&quot;</li></ul> | Se &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
