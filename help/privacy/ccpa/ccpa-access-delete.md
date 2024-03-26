@@ -1,19 +1,19 @@
 ---
-title: 'Adobe Advertising support for the California Consumer Privacy Act : Stöd för åtkomst och borttagning av konsumentdata'
+title: 'Stöd för Adobe Advertising i Kalifornien Privacy Act: Consumer Data Access and Delete Support'
 description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligatoriska inställnings- och fältvärden samt exempel på API-åtkomstbegäranden som använder äldre produkt-ID:n och returnerade datafält.
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: df19f47971e97727c85bce99ce80b677fbdb1a49
+source-git-commit: 5edcd810c86f3b3ae65ccc92748177fa8cd0765e
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising Support for the California Consumer Privacy Act: Stöd för åtkomst och borttagning av konsumentdata
+# Adobe Advertising Support for the California Consumer Privacy Act: Consumer Data Access and Delete Support
 
-*För [!DNL Adobe Advertising Search, Social, & Commerce]; Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
+*För [!DNL Adobe Advertising Search, Social, & Commerce], Adobe Advertising DSP, Adobe Advertising Creative, och Adobe Advertising DCO*
 
 >[!IMPORTANT]
 >
@@ -25,9 +25,9 @@ Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar oc
 
 Som tjänsteleverantör tillhandahåller Adobe Advertising stöd till ert företag för att uppfylla de skyldigheter enligt CCPA som är tillämpliga på användningen av produkter och tjänster från Adobe Advertising, inklusive hantering av förfrågningar om tillgång till och radering av personuppgifter och hantering av ansökningar om att avanmäla försäljning av personuppgifter.
 
-Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative, Reklam DSP (Demand Side Platform). och [!DNL Advertising DCO] - som tjänsteleverantörer - stödja konsumenternas rätt att få tillgång till och radera personuppgifter via Adobe [!DNL Experience Platform Privacy Service API] och [!DNL Privacy Service UI].
+Det här dokumentet beskriver hur [!DNL Advertising Search, Social, & Commerce], Advertising Creative, DSP (Demand Side Platform), och [!DNL Advertising DCO] - som tjänsteleverantörer - stödja konsumenternas rätt att få tillgång till och radera personuppgifter via Adobe [!DNL Experience Platform Privacy Service API] och [!DNL Privacy Service UI].
 
-Information om hur Advertising DSP stöder konsumentens rätt att avanmäla sig från försäljning av personuppgifter finns i [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+Information om hur Advertising DSP stöder konsumentens rätt att avanmäla sig från försäljning av personuppgifter finns i [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
@@ -36,7 +36,7 @@ Mer information om Adobe sekretessavtal för CCPA finns i [Adobe Privacy Center]
 Adobe Experience Platform ger företag möjlighet att utföra följande uppgifter:
 
 * Få tillgång till data på cookie-nivå eller data på enhets-ID-nivå (för annonser i mobilappar) inom [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO].
-* Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för konsumenter som använder en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för konsumenter som använder appar på mobila enheter.
+* Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för konsumenter som använder en webbläsare, eller ta bort ID-nivådata som lagras i [!DNL DSP] för konsumenter som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
 ## Nödvändig inställning för att skicka begäranden för Adobe Advertising
@@ -55,19 +55,19 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
 
    >[!NOTE]
    >
-   >Att ta bort personuppgifter skiljer sig från att avanmäla sig, vilket förhindrar målgruppsanpassningen för en slutanvändare med målgruppssegment. När en konsument begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en begäran till Adobe Advertising om att avanmäla kunden från att målinrikta segment. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du ger dina kunder en länk till [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
+   >Att ta bort personuppgifter skiljer sig från att avanmäla sig, vilket förhindrar målgruppsanpassningen för en slutanvändare med målgruppssegment. När en konsument begär att få ta bort personuppgifter från [!DNL Creative], [!DNL DSP], eller [!DNL DCO], skickar biblioteket också en begäran till Adobe Advertising om att avanmäla kunden från att målinrikta segment. För annonsörer med [!DNL Search, Social, & Commerce]rekommenderar vi att du länkar till dina kunder [https://www.adobe.com/privacy/opt-out.html#customeruse](https://www.adobe.com/privacy/opt-out.html#customeruse), som förklarar hur man avanmäler sig från målgruppssegmentsmålgruppsanpassning.
 
 1. Identifiera ditt organisations-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
 
-   Ett Experience Cloud-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med &quot;@AdobeOrg&quot;. De flesta Experience Cloud-kunder har tilldelats ett organisations-ID. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till ditt företags-ID eller inte vet om det har etablerats kontaktar du Adobe kundtjänst på gdprsupport@adobe.com. Du behöver organisations-ID:t för att kunna skicka begäranden till sekretess-API:t med hjälp av `imsOrgID` namnutrymme.
+   Ett Experience Cloud-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med &quot;@AdobeOrg&quot;. De flesta Experience Cloud-kunder har tilldelats ett organisations-ID. Om ert marknadsföringsteam eller er interna [!DNL Adobe] systemadministratören känner inte till ditt organisations-ID, eller är inte säker på om det har etablerats, och kontaktar sedan ditt Adobe-kontoteam. Du behöver organisations-ID:t för att kunna skicka begäranden till sekretess-API:t med hjälp av `imsOrgID` namnutrymme.
 
    >[!IMPORTANT]
    >
    >Kontakta Adobe Advertising och bekräfta att alla era Adobe Advertising-konton är korrekta - inklusive [!DNL DSP] Konton eller annonsörer. [!DNL Search, Social, & Commerce] konton, och [!DNL Creative] eller [!DNL DCO] konton - är länkade till ditt företags-ID för Experience Cloud.
 
-1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för tillfälliga framställningar) att lämna in ansökningar om tillgång till och radering av personuppgifter till Adobe Advertising för konsumenternas räkning samt att kontrollera status för befintliga ansökningar.
+1. Använd antingen [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för tillfälliga framställningar) att lämna in ansökningar om tillgång till och radering av personuppgifter till Adobe Advertising för konsumenternas räkning samt att kontrollera status för befintliga ansökningar.
 
-   För annonsörer som har en mobilapp att interagera med kunderna och lansera kampanjer med [!DNL DSP]behöver du ladda ned sekretessfärdiga SDK:er för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Services-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
+   För annonsörer som har en mobilapp att interagera med kunder och lansera kampanjer med [!DNL DSP]behöver du ladda ned sekretessfärdiga SDK:er för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Services-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
 
    När du skickar en begäran om konsumentåtkomst returnerar Privacy Service-API:t information om en konsument baserat på den angivna cookien eller enhets-ID:t, som du sedan måste returnera till konsumenten.
 
@@ -75,7 +75,7 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
 
    >[!NOTE]
    >
-   Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
+   >Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
 Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
@@ -86,7 +86,7 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*ditt Experience Cloud-organisations-ID*>
 
-&quot;användare&quot;:
+användare:
 
 * `"key":` &lt;*vanligtvis kundens namn*>
 
@@ -94,11 +94,11 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (vilket anger adcloud cookie space)
+   * `"namespace": **411**` (som anger [!DNL adcloud] cookie space)
 
    * `"value":` &lt;*den faktiska kundens cookie-ID-värde som hämtats från`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (som är den Adobe-produkt som är tillämplig på ansökan)
+* `"include": **adCloud**` (som är [!DNL Adobe] produkt som gäller för begäran)
 
 * `"regulation": **ccpa**` (som är den sekretessregel som gäller för begäran)
 
@@ -107,30 +107,29 @@ Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer
 ```
 {
 "companyContexts":[
-      {
-         "namespace":"imsOrgID",
-         "value":"5AB13068374019BC@AdobeOrg"
-      }
-   ],
-   "users": [
+    {
+        "namespace":"imsOrgID",
+        "value":"5AB13068374019BC@AdobeOrg"
+      }
+   ],
+   "users": [
 {
- "key": "John Doe",
- "action":["access"],
-  "userIDs":[
-      {
-         "namespace":"411",
-         "value":"Wqersioejr-wdg",
-         "type":"namespaceId",
-         "deletedClientSide":false
-      }
-   ]
+ "key": "John Doe",
+ "action":["access"],
+ "userIDs":[
+      { 
+        "namespace":"411",
+        "value":"Wqersioejr-wdg",
+        "type":"namespaceId",
+        "deletedClientSide":false
+      }
+   ]
 }
 ],
 "include":[
-      "adCloud"
-   ],
-    "regulation":"ccpa"
-}
+      "adCloud"
+   ],
+    "regulation":"ccpa"
 }
 ```
 
