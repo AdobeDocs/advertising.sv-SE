@@ -4,9 +4,9 @@ description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligator
 feature: GDPR
 role: User, Developer
 exl-id: abf0dc51-e23b-4c9a-95aa-14e0844939bb
-source-git-commit: 403fdb9a54ea79390ae535f31287b327ebf71d5f
+source-git-commit: 80072930c0506a017a927ce53eaad900a2642e92
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -31,10 +31,8 @@ Mer information om vad GDPR innebär för ditt företag finns i [GDPR och er ver
 
 Adobe Experience Platform ger företag möjlighet att utföra följande uppgifter:
 
-* Åtkomst till data på cookie-nivå i en registrerad [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO]; data på enhets-ID-nivå för annonser i mobilappar i [!DNL DSP]eller data på e-postnivå som är kopplade till ett enhetligt ID 2.0 i [!DNL DSP].
-
-* Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för registrerade som använder en webbläsare; radera data på ID-nivå lagrade i [!DNL DSP] för registrerade som använder appar på mobila enheter, eller ta bort hashdata på e-postnivå som är kopplade till ett enhetligt ID 2.0-ID som lagras i [!DNL DSP].<!-- stored within DSP? I thought we don't store the email addresses but dump them as soon as they're translated to a universal ID? -->
-
+* Åtkomst till data på cookie-nivå eller data på enhets-ID-nivå (för annonser i mobilappar) inom [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO].
+* Ta bort data på cookie-nivå som lagras i [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP], eller [!DNL DCO] för registrerade i en webbläsare, eller ta bort data på ID-nivå som lagras i [!DNL DSP] för registrerade som använder appar på mobila enheter.
 * Kontrollera status för en eller alla befintliga begäranden.
 
 ## Nödvändig inställning för att skicka begäranden för Adobe Advertising
@@ -69,7 +67,7 @@ Om du vill begära åtkomst till och ta bort data för Adobe Advertising måste 
 
    När du skickar en begäran om åtkomst för en registrerad returnerar Privacy Services-API information som baseras på den angivna cookien eller det angivna enhets-ID:t, som du sedan måste returnera till den registrerade.
 
-   När du skickar en begäran om borttagning av en registrerade tas cookie-ID:t eller enhets-ID bort från servern. För förfrågningar till [!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]alla kostnads-, klick- och intäktsdata som är kopplade till cookie-ID:t tas också bort från servern.
+   När du skickar en begäran om borttagning av en registrerad tas cookie-ID:t eller enhets-ID:t och alla kostnads-, klicknings- och intäktsdata som är kopplade till cookien bort från servern.
 
    >[!NOTE]
    >
@@ -83,11 +81,6 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"namespace": **imsOrgID**`
 * `"value":` &lt;*ditt Experience Cloud-organisations-ID*>
-  `"users":`  där du ersätter detta med [cookie-baserade begäranden](#gdpr-request-fields-cookie) eller [e-postbaserade förfrågningar](#gdpr-request-fields-email)<!-- wording? -->.
-
-<!-- Complete this section -->
-
-### Cookie-baserade begäranden {#gdpr-request-fields-cookie}<!-- Header? -->
 
 `"users":`
 
@@ -97,7 +90,7 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (som anger [!DNL adCloud] cookie space)&lt;!>— Det numeriska värdet är egentligen &quot;namespaceId&quot;, inte &quot;namespace&quot;, enligt https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>
+   * `"namespace": **411**` (som anger [!DNL adcloud] cookie space)
 
    * `"value":` &lt;*den registrerade personens cookie-ID-värde som hämtats från`AdobePrivacy.js`*>
 
@@ -105,79 +98,15 @@ Alla dessa steg är nödvändiga för Adobe Advertising. Mer information om dess
 
 * `"regulation": **gdpr**` (som är den sekretessregel som gäller för begäran)
 
-## Haschade e-postbaserade begäranden {#gdpr-request-fields-email}<!-- Header? -->
-
-`"users":`
-
-* `"key":` &lt;*vanligtvis namnet på den registrerade*>
-
-* `"action":` antingen `**access**` eller `**delete**`
-
-* `"user IDs":`
-
-   * `"namespace": **Email_LC_SHA256**` (vilket anger det hash-kodade e-postutrymmet)
-
-   * `"type": **standard**`
-
-   * `"value":` &lt;*det faktiska hash-kodade e-postvärdet i SHA256*>
-
-   * `"namespaceId": **411**` (som anger [!DNL adCloud] cookie space)&lt;!>— Det numeriska värdet är egentligen &quot;namespaceId&quot;, inte &quot;namespace&quot;, enligt https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix>
-
-* `"include": **adCloud**` (som är [!DNL Adobe] produkt som gäller för begäran)
-
-* `"regulation": **gdpr**` (som är den sekretessregel som gäller för begäran)
-
 ## Exempel på begäran som skickats av den registrerade med ett användar-ID i Adobe Advertising som hämtats från `AdobePrivacy.js`
 
-I följande exempel visas en åtkomstbegäran för båda cookie-baserad information (med namnutrymmet `411`) och hashad e-postbaserad information (med namnutrymmet `Email_LC_SHA256`) för en enskild användare.
-
 ```
-...
-`{
-    "companyContexts": [
-      {
-        "namespace": "imsOrgID",
-        "value": "5AB13068374019BC@AdobeOrg"
-      }
-    ],
-    "users": [
-      {
-        "key": "John Doe",
-        "action": ["access"],
-        "userIDs": [
-          {
-            "namespace": "411",
-            "value": "Wqersioejr-wdg",
-            "type":"namespaceId",
-            "deletedClientSide":false
-          },
-          {
-            "namespace":"Email_LC_SHA256",
-            "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-            "type":"standard",
-            "deletedClientSide":false
-          }
-        ]
-      },
-    ],
-    "include": ["adCloud"],
-    "regulation": "gdpr"
-}'
-```
-
-<!-- old format with just cookie-level data
-```
-
-{
-    "companyContexts": [
-      {
-        
 {
 "companyContexts":[
     {
         "namespace":"imsOrgID",
         "value":"5AB13068374019BC@AdobeOrg"
-    }
+      }
    ],
    "users": [
 {
@@ -189,12 +118,6 @@ I följande exempel visas en åtkomstbegäran för båda cookie-baserad informat
         "value":"Wqersioejr-wdg",
         "type":"namespaceId",
         "deletedClientSide":false
-      },
-      {
-        "namespace":"Email_LC_SHA256",
-        "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-        "type":"standard",
-        "deletedClientSide":false
       }
    ]
 }
@@ -205,76 +128,12 @@ I följande exempel visas en åtkomstbegäran för båda cookie-baserad informat
     "regulation":"gdpr"
 }
 ```
- -->
 
 ## Datafält som returneras för åtkomstbegäranden
 
 Nedan följer ett exempel på ett åtkomstsvar för Adobe Advertising.
 
 ```
-{
-    "jobId": "6fc09b53-c24f-4a6c-9ca2-c6076b0842b6",
-    "action":"access",
-    "product":"adCloud",
-    "status":"complete",
-    "results":{
-        "userIDs":[
-            {
-                "namespace": "411",
-                "userID":"Wqersioejr-wdg"
-            },
-            {
-                "namespace": "Email_LC_SHA256",
-                "type":"standard",
-                "value":"d78a276e7bb11a62d3c13ea58b9368ba70523cf1d834ffd5c629a1e93def3495",
-                "isDeletedClientSide":false
-            }
-        ],
-        "receiptData":{
-            "impressionCount":"100",
-            "clickCount":5,
-            "geo":[
-                "United States of America",
-                "San Francisco CA"
-            ],
-            "profile":[
-                {
-                    "pixelid":"111",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                },
-                {
-                    "pixelid":"123",
-                    "ut1":"abc",
-                    "ut2":"def",
-                    "ut3":"ghi",
-                    "ut4":"jkl",
-                    "ut5":"mno"
-                }
-            ],
-            "matchingSegments":[
-                {
-                    "segmentName":"AP4 - Art/Culture - In-Market",
-                    "segmentID":"kV1mPa2aqPNWKSNtf325",
-                    "serviceProvider":"Adobe"
-                },
-                {
-                    "segmentName":"EMEA - UK - Health Food Buyers",
-                    "segmentID":"eP2oJ2UPsfsDVDhvlGewx",
-                    "serviceProvider":"BlueKai"
-                }
-            ]
-        }
-    }
-}
-```
-
-<!-- old format with just cookie-level data
-```
-...
 {
     "jobId":"12345AD43E",
     "action":"access",
@@ -328,4 +187,3 @@ Nedan följer ett exempel på ett åtkomstsvar för Adobe Advertising.
     }
 }
 ```
--->
