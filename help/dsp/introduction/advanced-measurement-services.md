@@ -2,9 +2,9 @@
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: fed8daa79688d65d1b64ae8145cc1d1d0d84f11a
+source-git-commit: c06cbb80d9215ef7ce93d801520369ae8e316189
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
   Förstå hur målgrupper och taktiker överlappar varandra på personnivå, inklusive exponeringar i olika digitala miljöer, som datorer, mobiler, inbyggda medier och ljud.
 
-* **Personbaserad räckvidd för olika ID**
+   * **Personbaserad räckvidd för olika ID**
 
-  Mät den unika räckvidden och överlappningen mellan cookies och RampID samt kostnaden per mätvärde per ID-typ. Bevisa hur effektivt det är att testa ramp-ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment i flera digitala miljöer, som datorer, mobiler, inbyggda och ljud.
+     Mät den unika räckvidden och överlappningen mellan cookies och RampID samt kostnaden per mätvärde per ID-typ. Bevisa hur effektivt det är att testa ramp-ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment i flera digitala miljöer, som datorer, mobiler, inbyggda och ljud.
 
 * **[!DNL Dynata]Panelbaserade undersökningar**
 
@@ -76,10 +76,6 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
    * Hushållsbaserad mätning av räckvidd, frekvens och konvertering
 
      Alla kunder som vill förstå räckvidd/inkrementell räckvidd och kostnadsbaserade effektivitetsvinster och/eller konverteringsvärden över flera digitala strategier
-
-   * Personbaserad räckvidd för olika ID
-
-     Alla kunder som vill kvantifiera den unika räckvidden och överlappningen mellan cookies och RampID:n och kostnaden per mätvärde per ID-typ över flera digitala strategier
 
    * Mätning av skärmens räckvidd, frekvens och konvertering
 
