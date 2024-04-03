@@ -3,7 +3,7 @@ title: Om meddelanden
 description: Lär dig mer om meddelanden, inklusive olika typer och kategorier.
 exl-id: 79495e1c-72ce-476f-83df-c4d95391f51c
 feature: Search Notifications
-source-git-commit: 955f19647d49c31f70b8ec574734b44a9b490d52
+source-git-commit: 49dc6a4a18966bbf68402d70aec9574ed11e1886
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Du kan visa dina meddelanden, markera meddelanden som lästa eller olästa samt 
   <!--
   * [!UICONTROL Setup Errors]
   
-    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); or it's overridden at a lower level by an incorrect value.
+    * **[!UICONTROL Adobe Analytics Tracking Setup Error]**: : Notifications that the [!UICONTROL Landing Page Suffix] value is incorrect, missing, or contains an incorrect [AMO ID template](/help/integrations/analytics/ids.md#amo-id-formats); the [!UICONTROL Tracking Template] is incorrect or missing; or the [!UICONTROL Landing Page Suffix] or [!UICONTROL Tracking Template] is overridden at a lower level by an incorrect value. Separate notifications are sent a) for errors at the account level and b) for errors at the campaign and lower levels.
     
     * **[!UICONTROL Manager Account Missing]**: Notifications that Search, Social, & Commerce is missing the credentials for an [ad network manager account](/help/search-social-commerce/admin/manager-accounts.md), which are required for the correct setup of critical functions.
   -->
