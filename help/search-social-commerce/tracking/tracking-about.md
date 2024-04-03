@@ -1,11 +1,11 @@
 ---
 title: Om spårning för sökning, sociala medier och handel
 description: Läs om spårningsalternativ för sökning, sociala medier och handel.
-exl-id: 0a26f67c-8b3b-4fa1-ac24-a8461624cfc5
+exl-id: f0fd367a-dd5a-46ec-a3d6-9b491860aae8
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: aeb5f9a903290926afc27fe32c32646561850cc1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Om du vill spåra kampanjer i annonsnätverk som inte synkroniserar data med Sea
 
 ### Klickspårningstaggar
 
-Ert implementeringsteam för sökning, sociala medier och handel ställer in klickspårning genom att uppdatera spårningsmallarna och mål-URL:erna för annonser, nyckelord, placeringar, produktgrupper och sitelink-tillägg i era synkroniserade annonskampanjer, så att de innehåller en unik spårnings-ID-sträng och en omdirigering från Adobe Advertising. De lägger även till spårning i landsidessuffixen (sista URL-suffix) för dina [!DNL Google Ads] och [!DNL Microsoft Advertising] konton och kampanjer.
+Ert implementeringsteam för sökning, sociala medier och handel ställer in klickspårning genom att uppdatera spårningsmallarna och mål-URL:erna för annonser, nyckelord, placeringar, produktgrupper och sitelink-tillägg i era synkroniserade annonskampanjer, så att de innehåller en unik spårnings-ID-sträng och en omdirigering från Adobe Advertising. De lägger även till spårning i landsidessuffixen (sista URL-suffix) för dina [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton och kampanjer.
 
 Spårningsparametrarna gör det möjligt för Adobe Advertising att spåra klick på en enskild nyckelordsnivå (sökkampanjer) eller annonsvariationsnivå (sökkampanjer med innehåll eller webbplatsanpassning, webbkampanjer och sociala kampanjer). Varje gång en användare tittar på en skärm/ett innehåll och klickar på någon av dina annonser, skickar annonsnätverket händelsen till Adobe Advertising-pixelservrarna med en klickspårningstagg som är kopplad till nyckelordet eller annonsen. För klickningar:
 
-* För annonser i Google Ads och Microsoft Advertising i webbläsare som stöder parallell spårning skickar annonsnätverket klicket först till din webbplats och sedan till pixelservrarna i Adobe Advertising, som sedan placerar en cookie på användarens dator, om det inte redan finns en.
+* För [!DNL Google Ads] och [!DNL Microsoft® Advertising] annonser i webbläsare som stöder parallell spårning skickar annonsnätverket klickningen till webbplatsen först och sedan till Adobe Advertising pixelservrar, som sedan placerar en cookie på användarens dator, om det inte redan finns en.
 
 * I alla andra fall skickar annonsnätverket klickljudet direkt till Adobe Advertising-pixelservrarna. Pixelservern placerar en cookie på användarens dator (om det inte finns någon) och dirigerar sedan om användaren till den relevanta URL:en på webbplatsen. Den övergripande upplevelsen för slutanvändaren är densamma som den skulle vara utan en omdirigering.
 

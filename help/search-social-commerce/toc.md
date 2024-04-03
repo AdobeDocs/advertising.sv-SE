@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: cdb86533b46b196fe7a3394ab9e4fc8209a3df69
+source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1698'
 ht-degree: 2%
 
 ---
@@ -163,8 +163,8 @@ ht-degree: 2%
          + Produktgrupper {#product-groups}
             + [Om produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-about.md)
             + [Hantera produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)
-            + [Inställningar för Google Ads-produktgrupp](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
-            + [Produktgruppsinställningar för Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
+            + [[!DNL Google Ads] produktgruppsinställningar](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
+            + [[!DNL Microsoft Advertising] produktgruppsinställningar](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
             + [Produktfilter för köpkampanjer](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
          + Placeringar {#placements}
             + [Om placeringar](/help/search-social-commerce/campaign-management/campaigns/placement-about.md)

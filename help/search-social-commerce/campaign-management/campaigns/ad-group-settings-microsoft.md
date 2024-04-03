@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft Advertising] och gruppinställningar'
-description: Referera inställningarna för [!DNL Microsoft Advertising] annonsgrupper.
+title: '''[!DNL Microsoft® Advertising] och gruppinställningar'
+description: Referera inställningarna för [!DNL Microsoft® Advertising] annonsgrupper.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: a31179383fa9c1c9f6eb697d0aa3dd3301d41823
+source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] och gruppinställningar
+# [!DNL Microsoft® Advertising] och gruppinställningar
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Sök annonser) Placera annonser inom annonsgruppen och hur de ska placeras:
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (standard): Om du vill lägga bud på annonser i söknätverket.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (standard): Om du vill lägga bud på annonser i söknätverket.
 
-* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Att lägga bud på annonser på syndikerade partnerwebbplatser.
+* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Att lägga bud på annonser på syndikerade partnerwebbplatser.
 
 * *[!UICONTROL Content network]:* Föråldrat
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte budmodifierare för platsmål i standardportföljer med &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+För [!DNL Microsoft® Advertising] annonser i målgruppsnätverket optimeras inte budmodifierare för platsmål i standardportföljer med &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -122,7 +122,7 @@ För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte
 
 **[!UICONTROL Negative Websites]:** (Kampanjer endast på displayen/det ursprungliga nätverket, valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
 
-Mer information om tillgänglighet finns i Microsoft Advertising-hjälpen för &quot;[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Mer information om tillgänglighet finns i [!DNL Microsoft® Advertising] hjälp att[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >
