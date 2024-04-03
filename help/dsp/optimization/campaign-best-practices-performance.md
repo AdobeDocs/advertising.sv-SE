@@ -3,7 +3,7 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
+source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Använd även följande inställningar.
 
 * **Budget:** DSP försöker alltid fördela 100 % av paketbudgeten jämnt mellan alla placeringar i ett paket. Om en placering har låga utgifter eller inga utgifter rekommenderar vi att placeringen begränsas så att mer av budgeten kan allokeras till utplaceringar i stor skala. Tillåt 24-48 timmar för budgetändringar att kalibrera.
 
-* **Optimeringsmål:** Använd ett av de två målen för prestandaoptimering, *[!UICONTROL Highest ROAS]* eller *[!UICONTROL Lowest CPA]*, beroende på paketets mål. Dessa mål optimerar paketet automatiskt mot den högsta ROAS- respektive den lägsta CPA-placeringen.
+* **Optimeringsmål:** Använd ett av de två målen för prestandaoptimering, *[!UICONTROL Highest Return on Ad Spend]* eller *[!UICONTROL Lowest Cost per Acquisition]*, beroende på paketets mål. Dessa mål optimerar paketet automatiskt mot den högsta ROAS- respektive den lägsta CPA-placeringen.
 
 * **Anpassade mål:**
    * Om ett nytt paket har samma mål som ett befintligt paket kan du länka det befintliga paketet så att algoritmen kan använda befintliga maskininlärningsdata.
