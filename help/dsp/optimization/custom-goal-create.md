@@ -3,9 +3,9 @@ title: Skapa ett anpassat mål
 description: Skapa ett anpassat mål
 feature: DSP Optimization
 exl-id: 81b0acfa-085d-495b-9516-576b952b1307
-source-git-commit: 1dbe8da7122b38dd11a242c453d71a832b31eee8
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
 
       1. Klicka på längst ned i inställningarna **[!UICONTROL Save]**.
 
-När du har skapat ett mål kan du tilldela det till ett DSP paket som ett anpassat mål när optimeringsmålet slutar med[!UICONTROL - Custom Goal]&quot; (t.ex. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;).
+När du har skapat ett mål kan du tilldela det till ett DSP paket som ett anpassat mål när optimeringsmålet är antingen[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot;
 
 >[!TIP]
 >

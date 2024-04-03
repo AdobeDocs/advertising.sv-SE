@@ -3,9 +3,9 @@ title: Bästa metoder för att skapa ett anpassat mål
 description: Lär dig de bästa sätten att skapa anpassade mål för att definiera framgångsrika händelser.
 feature: DSP Optimization, DSP Best Practices
 exl-id: 8b1247cd-083d-4c8c-8588-9e8c03c4cc67
-source-git-commit: 2c2f65f45fb7515068cee36493f514ce2e456e75
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 I följande exempel visas hur du kan konfigurera mål som har ett enda konverteringsmått som mål.
 
-### Exempel på en kampanj med &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot; Optimeringsmål
+### Exempel på en kampanj med &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Optimeringsmål
 
-Om kampanjmålet är intäkter ([!UICONTROL Highest ROAS - Custom Goal]), kommer ditt anpassade mål (mål) att innehålla[!UICONTROL Revenue]&quot; med en vikt på 1 (1).
+Om kampanjmålet är intäkter ([!UICONTROL Highest Return on Ad Spend (ROAS)]), kommer ditt anpassade mål (mål) att innehålla[!UICONTROL Revenue]&quot; med en vikt på 1 (1).
 
 ![exempel på ett anpassat ROAS-mål med ett enda konverteringsmått](/help/dsp/assets/custom-goal-roas.png)
 
@@ -28,7 +28,7 @@ Om kampanjmålet är intäkter ([!UICONTROL Highest ROAS - Custom Goal]), kommer
 >
 > En konvertering på 250 USD med vikten 1 rapporteras till exempel som 250 USD. Om konverteringsmåttet har tilldelats vikten 0,5, rapporteras konverteringen på $250 som $125 i Adobe Advertising ($250 Conversion * 0,5) [!UICONTROL Property Weight] = $125).
 
-### Exempel på en kampanj med &quot;[!UICONTROL Lowest CPA - Custom Goal]&quot; Optimeringsmål
+### Exempel på en kampanj med &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Optimeringsmål
 
 Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräver en lyckad händelse, inkluderar du det måttet (i följande exempel&quot;Application Submit&quot;). Det bästa sättet är att ange vikten som ett (1).
 

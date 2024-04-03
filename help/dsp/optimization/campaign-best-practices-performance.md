@@ -3,9 +3,9 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: efd169f5e1e191f7635abf5b7a325e3483395165
+source-git-commit: 6aa81fe4fd5ea6cb188b7f18b1574c26ddfcbb92
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ DSP kan optimera era prestandainriktade kampanjer. Se följande metodtips för p
 
 ## Steg 1 - Definiera ditt mål
 
-Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmål](/help/dsp/optimization/optimization-goals.md) som slutar med &quot;[!UICONTROL - Custom Goal]&quot; (t.ex. &quot;[!UICONTROL Highest ROAS - Custom Goal]&quot;). För varje paket i kampanjen anger ni optimeringsmålet utifrån detta.
+Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmål](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; För varje paket i kampanjen anger ni optimeringsmålet utifrån detta.
 
 ![optimeringsmål](/help/dsp/assets/optimization-goals.png)
 
