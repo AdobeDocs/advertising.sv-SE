@@ -3,16 +3,16 @@ title: Hantera annonsgrupper
 description: Lär dig hur du skapar och hanterar annonsgrupper.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 06febcd91ff8576c8bf93c8e74475b297e0415bf
+source-git-commit: 3f9380076389d00c87efbcdbbb2112352cbe173c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # Hantera annonsgrupper
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
 
 En annonsgrupp innehåller en uppsättning annonser och tillhörande nyckelord. En annonsgrupp i en kampanj som riktar sig till visningsnätverket kan även innehålla placeringar, som är platser i visningsnätverket där annonserna kan visas. Inställningarna för annonsgrupper, som gäller för alla komponenter i annonsgruppen, varierar beroende på annonsnätverk.
 
@@ -30,7 +30,7 @@ Du kan skapa annonsgrupper från Sök, Socialt och Commerce för en [kampanjtyp 
 
 1. Välj annonsnätverket, kontot och kampanjen och klicka sedan på **[!UICONTROL Continue]**.
 
-1. Ange [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
+1. Ange [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
 
    Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options]. Konfigurera inställningar för [!UICONTROL Adgroup Frequency Cap Settings], [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites]när de är tillgängliga klickar du på **[!UICONTROL Add Frequency Cap Settings]**, **[!UICONTROL Add Negative Keywords]**, eller **[!UICONTROL Add Negative Websites]**, respektive
 
@@ -60,7 +60,7 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 
       * Klicka på i verktygsfältet ovanför datatabellen ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
 
-1. Redigera [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
+1. Redigera [Baidu](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md), eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md) och gruppinställningar.
 
    För flera annonsgrupper kan inställningarna grupperas i [!UICONTROL Ad Group Details], [!UICONTROL Budget Options], [!UICONTROL Ad Group Targeting]och [!UICONTROL URL Options], beroende på annonsnätverket. Du kan bara redigera fält som är gemensamma för alla markerade annonsgrupper, och dina ändringar tillämpas på alla markerade annonsgrupper. För vissa alfanumeriska fält har du möjlighet att ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
@@ -95,8 +95,8 @@ Du kan också ta bort alla aktiva eller pausade sök- och annonsgrupper. Borttag
 
 >[!MORELIKETHIS]
 >
->* [Inställningar för Baidu-annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
->* [Google Ads och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
->* [Microsoft Advertising and group settings](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
->* [Yahoo! Inställningar för annonser i Japan](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
->* [Yandex och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
+>* [[!DNL Baidu] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-baidu.md)
+>* [[!DNL Google Ads] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-google.md)
+>* [[!DNL Microsoft® Advertising] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-microsoft.md)
+>* [[!DNL Yahoo! Japan Ads] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yahoo-japan.md)
+>* [[!DNL Yandex] och gruppinställningar](/help/search-social-commerce/campaign-management/campaigns/ad-group-settings-yandex.md)
