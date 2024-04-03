@@ -3,7 +3,7 @@ title: JavaScript-kod för [!DNL Analytics for Advertising]
 description: JavaScript-kod för [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: 9158ed3fc8b35b5f79f217b619c2ff8e596895ab
+source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Du kan utföra valideringen med valfritt verktyg för paketkodsnuttar (t.ex. [!D
      Om du inte ser samtalet till Adobe Advertising kanske det inte är den första sidvyn av ditt besök. I testsyfte kan du ta bort cookien så att nästa anrop blir den första sidvyn för motsvarande besök:
 
    1. På fliken Program hittar du `adcloud` cookie, och verifiera att cookien innehåller `_les_v` (senaste besök) med värdet `y` och en UTC-epok som går ut om 30 minuter.
-      1. Ta bort `ad cloud` cookie och uppdatera sidan.
+      1. Ta bort `adcloud` cookie och uppdatera sidan.
 
 1. (Implementeringar som använder Experience Cloud Identity Service `visitorAPI.js` kod) Filtrera på `/b/ss` för att se Analytics-träffen.
 
