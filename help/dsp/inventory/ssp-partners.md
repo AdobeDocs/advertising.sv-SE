@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: bb8e99e94a1425cf86afc848bae8f2f92b4d487d
+source-git-commit: c9ec713dbd95e9be717d957ebeac57eeeae02634
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] eller Adobe Advertising | Nej | USA och EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nej | USA/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (tidigare [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
-| [!DNL Google Authorized Buyers] (tidigare [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe EU - 94893418<br>Adobe APAC - 89185975 | Ja | Global | USD, BRL | x | x | x | x | x |  | x |
+| [!DNL Google Authorized Buyers] (tidigare [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC och EMEA - 89185975 | Ja | Global | USD, BRL | x | x | x | x | x |  | x |
 | [!DNL GumGum] |  | Adobe Advertising | Nej | USA/CA | USD | x | x |  | x | x |  |  |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Nej | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (tidigare [!DNL Telaria] och [!DNL Tremor]) | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | AUD, USD | x | x | x |  |  |  |  |
