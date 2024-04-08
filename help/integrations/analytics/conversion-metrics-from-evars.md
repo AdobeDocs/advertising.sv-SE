@@ -3,7 +3,7 @@ title: Skapa konverteringsmått från Adobe Analytics [!DNL eVars] och proppar
 description: Konfigurera anpassade händelsemätningar med [!DNL eVar]- och [!DNL prop]data på -nivå.
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: 686ca84a34117bcb4f4d5f295ed27bb308e6f287
+source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -58,7 +58,7 @@ De flesta av följande åtgärder måste utföras av en [!DNL Analytics] adminis
 
 1. Kontakta kontoteamet på Adobe för att synkronisera det nya mätvärdet med Adobe Advertising.
 
-När mätvärdena är tillgängliga kan du använda dem för att skapa ett mål som du sedan kan tilldela till en portfölj för sökning, sociala medier och handel eller använda som en [anpassat mål](/help/dsp/optimization/custom-goal-about.md) för ett DSP.
+När mätvärdena är tillgängliga kan du använda dem för att skapa ett mål som du sedan kan tilldela till en portfölj för sökning, sociala medier och handel eller använda som en [anpassat mål](/help/dsp/optimization/custom-goal.md) för ett DSP.
 
 Mer information om hur du skapar mål finns i kapitlet om optimeringsguiden,&quot;Mål&quot;, som du når via Sök, Socialt och Commerce.
 

@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 1e5dee912a4c3cdbab5c389725b9d48a354d0b7d
+source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
@@ -113,10 +113,7 @@ ht-degree: 3%
    + [Hur [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)
    + [Pre-bid-filter på placeringsnivå och Så här använder du dem](/help/dsp/optimization/optimization-pre-bid-filters.md)
-   + Anpassade mål {#custom-goals}
-      + [Om anpassade mål](/help/dsp/optimization/custom-goal-about.md)
-      + [Skapa ett anpassat mål](/help/dsp/optimization/custom-goal-create.md)
-      + [Bästa metoder för att skapa anpassade mål](/help/dsp/optimization/custom-goal-best-practices.md)
+   + [Anpassade mål](/help/dsp/optimization/custom-goal.md)
    + [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
    + [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 + Målgrupper {#audiences}

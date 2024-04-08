@@ -3,7 +3,7 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: b3a03aa34bbdcf668a71d6810362d735c21961d7
+source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta m�
 
 ![optimeringsmål](/help/dsp/assets/optimization-goals.png)
 
-Du måste också fastställa vilka framgångshändelser som ska leda till det övergripande målet och skapa anpassade mål utifrån detta. För varje paket anger du ett anpassat mål som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål finns i [Bästa metoder för att skapa ett anpassat mål](custom-goal-best-practices.md).
+Du måste också fastställa vilka framgångshändelser som ska leda till det övergripande målet och skapa anpassade mål utifrån detta. För varje paket anger du ett anpassat mål som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål finns i [Bästa metoder för att skapa ett anpassat mål](custom-goal.md#custom-goal-best-practices).
 
 ![anpassade mål](/help/dsp/assets/objective-goals.png)
 

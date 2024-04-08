@@ -2,8 +2,8 @@
 title: Om att hantera en annonsörs konverteringsstatistik
 description: Lär dig hur du kan använda konverteringsmåtten som Adobe Advertising spårar för en annonsörer.
 feature: Conversions
-exl-id: e5e4dc8a-04b0-4423-be1d-18f89453d264
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: 8cfb4df8-ed48-4809-b383-7a6011b1f530
+source-git-commit: c3c864a838b5d7efca523ba8b35a5a3db47f71b8
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -16,7 +16,7 @@ The [konvertering](/help/search-social-commerce/glossary.md#c-d) mätvärden som
 
 * I Sök, Socialt och Commerce kan du använda dina konverteringsvärden för att skapa mål, som används för att optimera portföljer. Dessutom kan data för konverteringsmåtten visas i kolumner i vyer för kampanj- och portföljhantering och i rapporter.
 
-* I Advertising DSP kan ni använda konverteringsstatistik för att [skapa anpassade mål](/help/dsp/optimization/custom-goal-create.md), som används för att optimera paket.
+* I Advertising DSP kan ni använda konverteringsstatistik för att skapa [anpassade mål](/help/dsp/optimization/custom-goal.md), som används för att optimera paket.
 
 Som standard har ingen annonsörs konverteringsstatistik - förutom konverteringar som spåras av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft® Advertising] universella taggar för händelsespårning - finns tillgängliga för vyer och rapporter för kampanj- och portföljhantering. De är bara tillgängliga när du gör dem tillgängliga och innehåller ett visningsnamn, som är det namn som visas. När du gör ett konverteringsmått tillgängligt kan du antingen använda måttnamnet exakt som det är skrivet i hämtade data eller ändra namnet som visas i kolumnrubrikerna för läsbarhet.
 

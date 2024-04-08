@@ -2,7 +2,7 @@
 title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
-source-git-commit: f05d0f909cda6248260eaafd2fd24a8eca7f47e5
+source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -57,11 +57,11 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
       >* [!DNL Analytics] anpassade händelser följer den här namnkonventionen: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exempel: `custom_event_16_examplersid`
       >* [!DNL Analytics] dimensioner och segment är inte tillgängliga för optimering av Adobe Advertising.
 
-I DSP för paket som använder optimeringsmålet[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; finns nu målnamnet med i [!UICONTROL Custom Goals] lista. När du väljer målet som anpassat mål för ett paket visas [!UICONTROL Conversion Metric] listan innehåller alla målvärden för målet.
+      >[!TIP]
+      >
+      >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Se [Bästa metoder för att skapa ett anpassat mål](#custom-goal-best-practices) för riktlinjer.
 
->[!TIP]
->
->För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Se [Bästa metoder för att skapa ett anpassat mål](custom-goal-best-practices.md) för riktlinjer.
+I DSP för paket som använder optimeringsmålet[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; finns nu målnamnet med i [!UICONTROL Custom Goals] lista. När du väljer målet som anpassat mål för ett paket visas [!UICONTROL Conversion Metric] listan innehåller alla målvärden för målet.
 
 ## Bästa metoder för att skapa ett anpassat mål [#custom-target-best-practices]
 
