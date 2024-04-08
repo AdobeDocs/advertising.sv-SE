@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 0606614cc4fca842b800c089afa0303b67ecba5f
+source-git-commit: cb57ada624bdc810a0d6921e89deba832a2b16d9
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Valfritt): paket med &quot;[!UICONTROL Highest Return on Ad Spend]och &quot;[!UICONTROL Lowest Cost per Acquisition]&quot;endast optimeringsmål) Anger att optimeringsmodellen endast ska lära sig av klickbaserade konverteringar. I annat fall lär sig optimeringsmodellen av både klicknings- och inställningsbaserade konverteringar.
 
-**[!UICONTROL Conversion Metric]:** (Valfritt): paket med &quot;[!UICONTROL Highest Return on Ad Spend]och &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; enbart optimeringsmål) Den slutliga konverteringshändelsen (som registreringar) eller intäktshändelsen/försäljningsbeloppet (som köp- och inköpsvärden) som ska användas för att beräkna avkastningen på annonskostnaderna eller kostnaden per förvärv. Välj i en lista över alla händelser som är mappade till det valda anpassade målet.
+**[!UICONTROL Conversion Metric]:** (Valfritt): paket med &quot;[!UICONTROL Highest Return on Ad Spend]och &quot;[!UICONTROL Lowest Cost per Acquisition]&quot; enbart optimeringsmål) Den slutliga konverteringshändelsen (som registreringar) eller intäktshändelsen/försäljningsbeloppet (som köp- och inköpsvärden) som ska användas för att beräkna avkastningen på annonskostnaderna eller kostnaden per förvärv. Välj i en lista över alla primära händelser (&quot;målmått&quot;) mappade till det valda anpassade målet. Om listan är tom redigerar du det anpassade målet så att minst en av de underliggande händelserna inkluderas som målmått.
 
 **[!UICONTROL Package Goal Type]:** (Paket med enbart anpassade optimeringsmål) Paketets syfte. Med den här inställningen kan du avgöra hur paketet ska optimeras:
 
