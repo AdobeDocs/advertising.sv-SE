@@ -2,9 +2,9 @@
 title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
-source-git-commit: c5973ac62ea6925252438dbd67d934303a23ccf3
+source-git-commit: 6dba85185789c365bd72787eb0fa16ef90bf6b9e
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
 
 I DSP för paket som använder optimeringsmålet[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)],&quot; finns nu målnamnet med i [!UICONTROL Custom Goals] lista. När du väljer målet som anpassat mål för ett paket visas [!UICONTROL Conversion Metric] listan innehåller alla målvärden för målet.
 
-## Bästa metoder för att skapa ett anpassat mål [#custom-target-best-practices]
+## Bästa metoder för att skapa ett anpassat mål {#custom-goal-best-practices}
 
 ### Anpassade mål med ett enda mått
 
