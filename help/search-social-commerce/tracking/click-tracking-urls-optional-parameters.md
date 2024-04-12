@@ -3,16 +3,16 @@ title: Valfria spårningsparametrar för klickspårnings-URL:er
 description: Lär dig mer om parametrar för sökning, social spårning och handelsuppföljning samt om nätverksspecifika spårningsparametrar som du kan lägga till i dina klicknings-spårnings-URL:er.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: cc312009303f86a2f9eddcc98f33d7e2c22fcb85
+source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # Valfria spårningsparametrar för klickspårnings-URL:er
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo Native], [!DNL Yahoo! Japan]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan]och [!DNL Yandex] endast konton*
 
 I stället för att bara använda standardspårningsparametrarna för en slutlig URL eller mål-URL kan du lägga till fler parametrar för att spåra specifika data för ett annonsnätverkskonto. Du kan lägga till valfri kombination av följande parametrar i kontoinställningarna eller kampanjinställningarna:
 
@@ -66,16 +66,8 @@ Se [https://support.google.com/google-ads/answer/2375447](https://support.google
 
 Se [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 
-&lt;&lt;&lt;&lt;&lt;&lt; Uppdaterat uppströms
-## [!DNL Yahoo Native] dynamiska spårningsparametrar
-
-Se [https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters](https://developer.yahoo.com/nativeandsearch/guide/resources/dynamic-parameters).
-
-## [!DNL Yahoo! Japan Ads] dynamiska spårningsparametrar
-=======
 ## Yahoo! Japan lägger till dynamiska spårningsparametrar
->>>>>>>>>>Streckade ändringar
-> 
+
 Se [https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US](https://ads-help.yahoo-net.jp/s/article/H000044463?language=en_US).
 
 ## [!DNL Yandex] dynamiska spårningsparametrar
@@ -84,4 +76,4 @@ Se [https://yandex.com/support/direct/statistics/url-tags.html](https://yandex.c
 
 >[!MORELIKETHIS]
 >
-* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](/help/search-social-commerce/tracking/formats-click-tracking-about.md)
