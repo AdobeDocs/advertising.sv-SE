@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 1b58c38858532dc41a467fd86a6a28e3383386be
+source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 3%
@@ -118,16 +118,6 @@ ht-degree: 3%
    + [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 + Målgrupper {#audiences}
    + [Om Audience Management](/help/dsp/audiences/audience-about.md)
-   + Segment {#segments}
-      + [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segment {#ccpa-opt-out-of-sale-segments}
-         + [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [Skapa och implementera en [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Hämta [!UICONTROL Consumer Opt-Out-of-Sale] Rapporter](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
-      + [Redigera segmentinformation](/help/dsp/audiences/segment-edit.md)
-      + [Dela eller Sluta dela ett segment](/help/dsp/audiences/segment-share.md)
-      + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
-      + [Ta bort ett segment](/help/dsp/audiences/segment-delete.md)
    + Målgrupper {#reusable-audiences}
       + [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicera en återanvändbar publik](/help/dsp/audiences/reusable-audience-duplicate.md)
@@ -139,6 +129,16 @@ ht-degree: 3%
       + [Ta bort en återanvändbar publik](/help/dsp/audiences/reusable-audience-delete.md)
       + [Målgruppsinställningar](/help/dsp/audiences/audience-settings.md)
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
+   + Segment {#segments}
+      + [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] Segment {#ccpa-opt-out-of-sale-segments}
+         + [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [Skapa och implementera en [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [Hämta [!UICONTROL Consumer Opt-Out-of-Sale] Rapporter](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [Redigera segmentinformation](/help/dsp/audiences/segment-edit.md)
+      + [Dela eller Sluta dela ett segment](/help/dsp/audiences/segment-share.md)
+      + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
+      + [Ta bort ett segment](/help/dsp/audiences/segment-delete.md)
    + Källor {#sources}
       + [Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
       + Arbetsflöden efter kunddataplattform {#sources-workflows}
