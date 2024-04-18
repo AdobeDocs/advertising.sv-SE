@@ -2,9 +2,9 @@
 title: Hantera budmultiplikationer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för angivna placeringsmål.
 feature: DSP Placements
-source-git-commit: 6994a15af080057889607c0e28dd519a1ddb28de
+source-git-commit: b3932c066e0ecd29e57152f0654ee4b0d9e0dda1
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '409'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Du kan bara konfigurera budmodifierare för inkluderade mål, inte exkluderade m
 
 * **Målgrupper:** segment, dagdelar och ämnen
 
-* **ads.txt target:** (När du avanmäler dig från ads.txt) är det endast säljarna av ads.txt, ads.txt direct sellers och ads.txt sellers och webbplatser utan ads.txt.
+* **ads.txt target:** (När du avanmäler dig från ads.txt, som gör att du kan köpa lager från alla säljare), annonser.txt-säljare, annonser.txt-direktförsäljare och annonser.txt-säljare plus webbplatser utan annonser.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
 ## Maximalt antal buddelsemultiplikatorer per måltyp {#bid-multiplier-limits-by-target}
 
