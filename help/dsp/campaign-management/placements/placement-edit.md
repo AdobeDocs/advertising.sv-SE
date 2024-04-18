@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: c64d53949b8655f6b7efeaf4d10407a26cf9e9e8
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Redigera inställningar för tangentmontering snabbt](placement-quick-edit.md)
 >* [Skapa en placering](placement-create.md)
 >* [Duplicera en placering](placement-duplicate.md)
+>* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)

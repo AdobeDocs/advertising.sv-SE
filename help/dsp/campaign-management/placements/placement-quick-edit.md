@@ -3,9 +3,9 @@ title: Redigera inställningar för tangentmontering snabbt
 description: Lär dig hur du snabbt ändrar inställningar för tangentplacering.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >* [Skapa en placering](placement-create.md)
 >* [Redigera en placering](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
+>* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)

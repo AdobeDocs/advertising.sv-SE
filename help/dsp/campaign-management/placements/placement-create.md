@@ -3,9 +3,9 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: d1e1a8507b08a64bdc582c2967964b869c7d5bc7
+source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -136,6 +136,7 @@ ht-degree: 0%
 >
 >* [Om Platshantering](placement-about.md)
 >* [Redigera en placering](placement-edit.md)
+>* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)

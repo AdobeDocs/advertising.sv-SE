@@ -3,16 +3,16 @@ title: Om Placement Management i DSP
 description: Lär dig mer om placeringshantering.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Om Placement Management i DSP
 
-En placering innehåller parametrar för målinriktning för en eller flera annonser av samma annonstyp. Du kan skapa en placering för en enskild kampanj eller ett paket och sedan tilldela annonser till den. Varje kampanj eller placering kan innehålla flera placeringar, med en angiven annonsrotation. Som standard roteras annonserna jämnt.
+En placering innehåller parametrar för målinriktning för en eller flera annonser av samma annonstyp. Du kan skapa en placering för en enskild kampanj eller ett paket och sedan tilldela annonser till den. Varje kampanj eller placering kan innehålla flera placeringar, med en angiven annonsrotation. Som standard roteras annonserna jämnt. Du kan konfigurera budmultiplikatorer separat för olika placeringsmåltyper.
 
 När du har tilldelat en aktiv placering till ett aktivt paket eller en aktiv kampanj, är alla aktiva, godkända annonser i placeringen berättigade att köras baserat på parametrarna för riktad placering.
 
@@ -20,7 +20,7 @@ Du kan skapa en placering manuellt eller genom att duplicera en befintlig. Du ka
 
 ## Tillgängliga placeringstyper
 
-* Före rullning
+* Pre-Roll
 * Mobil
 * Visa
 * Inbyggt
@@ -38,7 +38,7 @@ Kontrollpanelen innehåller ett anpassningsbart trenddiagram på hög nivå med 
 
 På kontrollpanelen visas även plats- och leveransmått som standard. Du kan också visa resultatmått för placeringarna och skapa anpassade kolumnuppsättningar. Du kan hämta hela datatabellen till webbläsarens standardmapp för hämtning som en rapport i XLSM-format (makroaktiverat Excel-kalkylblad).
 
-Du kan öppna en detaljerad vy ([den [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), som innehåller resultatvärden, pacing- och leveransstatistik samt anpassade kolumnuppsättningar per webbplats, annons och lager. och även frekvensvärden. Du kan också vidta snabba åtgärder för de inkluderade webbplatserna, annonserna och lagren, som att utesluta en webbplats, pausa en annons eller redigera ett avtal. Håll markören över placeringsraden och klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** eller **[!UICONTROL Inventory]**. Du kan exportera data på [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency], eller [!UICONTROL Inventory]  som en rapport i XLSM-format.
+För varje placering kan du öppna en detaljerad vy ([den [!UICONTROL Inspector]](/help/dsp/campaign-management/reports/campaign-reports-about.md)), som innehåller resultatvärden, pacing- och leveransstatistik samt anpassade kolumnuppsättningar per webbplats, annons och lager, och även frekvensvärden. Du kan också vidta snabba åtgärder för de inkluderade webbplatserna, annonserna och lagren, som att utesluta en webbplats, pausa en annons eller redigera ett avtal. Håll markören över placeringsraden och klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Sites]**, **[!UICONTROL Ads]**, **[!UICONTROL Frequency]** eller **[!UICONTROL Inventory]**. Du kan exportera data på [!UICONTROL Sites], [!UICONTROL Ads], [!UICONTROL Frequency], eller [!UICONTROL Inventory]  som en rapport i XLSM-format.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Du kan öppna en detaljerad vy ([den [!UICONTROL Inspector]](/help/dsp/campaign-
 >[!MORELIKETHIS]
 >
 >* [Skapa en placering](placement-create.md)
+>* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
-

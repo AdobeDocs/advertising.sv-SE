@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 79de03696624146d7c82e8658229d19059dc1713
+source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
@@ -63,6 +63,7 @@ ht-degree: 3%
       + [Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Redigera inställningar för tangentmontering snabbt](/help/dsp/campaign-management/placements/placement-quick-edit.md)
       + [Duplicera en placering](/help/dsp/campaign-management/placements/placement-duplicate.md)
+      + [Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Redigera annonsplanerna för praktik](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Visa en detaljerad rapport för en placering](/help/dsp/campaign-management/placements/placement-view-report.md)
