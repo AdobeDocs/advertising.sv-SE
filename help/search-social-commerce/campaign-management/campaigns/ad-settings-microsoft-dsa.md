@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Microsoft® Advertising] expanderade dynamiska sökannonsinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] expanderade dynamiska sökannonser.
-exl-id: 73ac6cca-717e-46d2-a060-f1eafd754245
+exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: bb3c366d702cdf2604388720313a7d23938d902a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Utökade dynamiska sökannonser (eDSA) är bara tillgängliga i dynamiska annons
 
 <!-- **[!UICONTROL Display Path 1]**, **[!UICONTROL Display Path 2]:** -->
 
-**[!UICONTROL Description Line 2]:** (Valfritt) En andra rad för annonsen. Maxlängden är 90 enkelbyte-tecken eller 45 dubbelbyte-tecken.
-
 {{$include /help/_includes/display-path1-2.md}}
+
+**[!UICONTROL Description Line 2]:** (Valfritt) En andra rad för annonsen. Maxlängden är 90 enkelbyte-tecken eller 45 dubbelbyte-tecken.
 
 <!-- **[!UICONTROL Status]:** -->
 

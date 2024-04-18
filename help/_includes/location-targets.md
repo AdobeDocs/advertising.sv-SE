@@ -1,13 +1,15 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 6b4dd1b8912703a5d45ffa872fe0231716cfb9a5
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 # Platsmålfält i vissa kampanjinställningar och i MS- och gruppinställningar
 
-**[!UICONTROL Location Targets]:** Specifika användargeografiska platser att inkludera eller exkludera som mål. Som standard anges alla platser som mål. Du kan inkludera och exkludera användare i valfri kombination av platser. Undantag åsidosätter alltid inkluderingar.
+<!-- MS performance max campaigns, MSA ad groups, Baidu campaigns, YJP campaigns -->
+
+**[!UICONTROL Location Targets]:** (När det är tillgängligt) Specifika användargeografiska platser att inkludera eller exkludera som mål. Som standard anges alla platser som mål. Du kan inkludera och exkludera användare i valfri kombination av platser. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla platser som mål väljer du inga platser.
 
