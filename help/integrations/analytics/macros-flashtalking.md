@@ -3,9 +3,9 @@ title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalkin
 description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] annonstaggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 6e5d79eb9c04a12813c42e33a2228c69f2adbaae
+source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,33 @@ Använd makron för [!DNL Flashtalking] webbannonser och videoannonser för föl
 
 I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i `Clicktag` fält:
 
-```html
-?[ftqs:[AdobeAMO]]
+```
+[ftqs:[AdobeAMO]]
 ```
 
-Exempel:  `https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+Det är den första eller enda frågesträngen efter bas-URL:en, och separera den sedan från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+
+Exempel:
+
+`https://www.adobe.com/products/photoshop?[ftqs:[AdobeAMO]]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
 ## Video Ad-taggar
 
 I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i `Clicktag` fält:
 
-```html
-?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
+```
+[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Exempel:  `https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+Det är den första eller enda frågesträngen efter bas-URL:en, och separera den sedan från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+
+Exempel:
+
+`https://www.adobe.com/products/photoshop?[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
+
+`https://www.adobe.com/products/photoshop?cid=email&[%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]`
 
 >[!MORELIKETHIS]
 >
