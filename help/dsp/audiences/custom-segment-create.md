@@ -3,9 +3,9 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
+source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
    1. Lägg till följande parameter på dina webbsidor före eller i dialogrutan [JavaScript-kod krävs för [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - var som helst innan den sista händelsetjänsten initieras.
 
-      `window.id5PartnerId=Your_ID5_PartnerID;`
+      ```window.id5PartnerId=Your_ID5_PartnerID;```
 
       Exempel:
 
