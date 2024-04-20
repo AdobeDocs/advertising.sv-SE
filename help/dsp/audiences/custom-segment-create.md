@@ -3,9 +3,9 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 67b59f4f066d25f323620b83b5a0cb49beb3ee04
+source-git-commit: 9fc4c123fb682bbc2aee0ae72931c63d31f020be
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,33 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 >
 >Om du vill spåra användar-ID:n från förfrågningar om avanmälan till försäljning på din webbplats, enligt California Consumer Privacy Act (CCPA), skapar du en [CCPA Avanmäl segmentet](ccpa-opt-out-segment-create.md).
 
+## Krav för segment för att spåra ID5
+
+*Betafunktion*
+
+* Innan du genererar ett segment för att spåra användare som är kopplade till ID5-ID:n måste du signera ett avtal med [!DNL ID5] och skaffa din organisations partner-ID. Kontakta kontoteamet på Adobe för instruktioner.
+
+* För mätning i Adobe Analytics måste du:
+
+   1. Slutför alla [krav för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) och [AMO ID och EF ID i dina spårnings-URL:er](/help/integrations/analytics/ids.md).
+
+   1. Lägg till följande parameter på dina webbsidor före eller i dialogrutan [JavaScript-kod krävs för [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - var som helst innan den sista händelsetjänsten initieras.
+
+      `window.id5PartnerId=Your_ID5_PartnerID;`
+
+      Exempel:
+
+      ```
+      <script src="https://www.everestjs.net/static/le/last-event-tag-latest.min.js">
+      <script>
+        window.id5PartnerId=Your_ID5_PartnerID;
+             if("undefined" != typeof AdCloudEvent)
+                 AdCloudEvent('IMS ORG Id','rsid');
+      </script>
+      ```
+
+## Skapa och implementera ett anpassat segment
+
 1. Skapa segmentet:
 
    1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
@@ -28,9 +55,19 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
    1. För **[!UICONTROL Segment Type]**, markera *[!UICONTROL Custom]*.
 
-   1. Ange **[!UICONTROL Segment Window]**, vilket är antalet dagar som en användares cookie stannar kvar i segmentet.
+   1. Ange **[!UICONTROL Lookback Window]**, vilket är antalet dagar som en användares cookie stannar kvar i segmentet.
 
       Standardfönstret är 45 dagar. Ange ett värde mellan 1 och 365.
+
+   1. Klicka **[!UICONTROL Advanced]** för att utöka de avancerade inställningarna och sedan välja de typer av användaridentifierare som segmenttaggen ska spåra:
+
+      * *[!UICONTROL Cookies]:* (Standardvärdet) Segmenttaggen spårar cookies.
+
+      * [!UICONTROL Universal IDs (Beta)]:
+
+         * *[!UICONTROL ID5]:* Segmenttaggen spåras [!DNL ID5] ID. Inga avgifter tas ut för visningar som skickas till universella ID:n.
+
+        **[!UICONTROL Terms of Service]:** Villkor för serviceavtal för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
    1. Klicka på **[!UICONTROL Save]**.
 
@@ -51,6 +88,20 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
       * Så här spårar du användare som exponeras för en annonsenhet på datorer eller mobila enheter:
 
          1. Kopiera taggen för visningsspårning, som har etiketten &quot;[!UICONTROL Desktop or mobile ads].&quot;
+
+   1. (Taggar för segment som spårar [!DNL ID5] ID för persondator- och mobilbesökare på en webbsida) Ersätt i den kopierade taggen `ID5_PARTNER_ID` med partner-ID som [!DNL ID5] som tilldelats din organisation.
+
+   Om ditt ID5-partner-ID till exempel är `abcde` och den genererade segmenttaggen är
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=ID5_PARTNER_ID"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   och ersätt `ID5_PARTNER_ID` med `abcde` i -taggen för att få följande:
+
+   ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
+
+   Organisationen fick sitt partner-ID när den signerade ett avtal med [!DNL ID5]. Om du inte känner till ditt partner-ID kontaktar du ditt Adobe-kontoteam.
+
+   Det här steget behövs inte för att taggar ska kunna spåra [!DNL ID5] ID för användare som exponeras för en annonsenhet på datorer eller mobila enheter.
 
 1. Lägg till taggen i antingen [!UICONTROL Pixel] för varje relevant annons eller för [!UICONTROL Event Pixels] i [[!UICONTROL Tracking] inställningar för varje relevant placering](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
