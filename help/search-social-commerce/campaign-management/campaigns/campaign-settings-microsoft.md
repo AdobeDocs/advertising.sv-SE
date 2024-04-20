@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 96ff5244c5baedf009c1bac05b609611607bd867
+source-git-commit: cfac578e173e82ffeffcbd5094304c1132b5f177
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Audience Video]:* (Betafunktion) Visar standardvideoannonser i målgruppsnätverket.
 
-* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria uppmaningar och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
+* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft® Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria uppmaningar och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Anbudsstrategin för kampanjen:
 
-* *[!UICONTROL Cost per Sale]:* (Endast köpkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på **[!UICONTROL Target CPS]** (kostnad per försäljning). Du betalar bara när ett klick på produkten leder till en försäljning inom 24 timmar. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.<!-- Verify all -->
+* *[!UICONTROL Cost per Sale]:* (Endast köpkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på **[!UICONTROL Target CPS]** (kostnad per försäljning). Du betalar bara när ett klick på produkten leder till en försäljning inom 24 timmar. **Obs!** Inkludera inte kampanjer med den här anbudsstrategin i portföljer. Optimering av sökmotorkampanjer, sociala kampanjer och Commerce är inte tillgängligt för kampanjer med den här anbudsstrategin.
 
   När ni väl har sparat en shoppingkampanj för varumärken med denna anbudsstrategi kan ni inte ändra anbudsstrategin. För andra typer av shoppingkampanjer är den här strategin bara tillgänglig för nya kampanjer.
 
@@ -68,15 +68,15 @@ ht-degree: 0%
 
   När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfolio optimerar Search, Social och Commerce basanbuden och - när &quot;[!UICONTROL Auto adjust campaign budget limits]Alternativet &quot; är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning:** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna i annonsnätverket är anpassade efter portföljmålet.
 
-* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft Store Ads] kampanjer, borttagna av [!DNL Microsoft® Advertising] 2021 för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
+* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft® Store Ads] kampanjer, borttagna av [!DNL Microsoft® Advertising] 2021 för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Detta är samma sak som att använda &quot;[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Det här alternativet är detsamma som att använda &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] kampanjer) Använder modellen för kostnad per förvärv (CPA).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] kampanjer) Använder modellen för kostnad per förvärv (CPA).
 
 * *[!UICONTROL Manual CPM]* (Endast målgruppskampanjer och målgruppsvideokampanjer) Använder modellen med CPM (cost-per-tusen-imponsions), där du anger vad du vill spendera per 1 000 visningar. Kampanjer med denna anbudsstrategi optimeras inte när de ingår i portföljer.
 
-* *[!UICONTROL Maximize Clicks]:* (Sök- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan även ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning:** När ni lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
+* *[!UICONTROL Maximize Clicks]:* (Sök- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan även ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning:** När du lägger till en kampanj med den här strategin i en portfölj skapar klickvikten (inte portföljmålet) budgivning.
 
 * *[!UICONTROL Maximize Conversion Value]:* (Sökning och shopping/smarta shoppingnätverk, maximala prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud för att maximera konverteringsvärdet. Du kan även ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Target Impression Share]:* (Kampanjer i söknätverket) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att uppnå en målvisningsresurs och en annonsposition. Du kan även ange **[!UICONTROL Target Impression Share]** som procent **[!UICONTROL Target Ad Position]** och en **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i hybridportföljer.
 
-* *[!UICONTROL Target Return on Ad Spend]:*  (Kampanjer i sök- och köpnätverk) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på er **[!UICONTROL Target ROAS]** (avkastning på annonsutgift), angett i procent. Du kan även ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Kampanjer i sök- och köpnätverk) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på er **[!UICONTROL Target ROAS]** (avkastning på annonsutgift), angett i procent. Du kan även ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
 
   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
@@ -116,7 +116,7 @@ När du har länkat kampanjen till en butik och sparat inställningarna kan du i
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Endast maximala prestandakampanjer) Språket för annonsen, som ska matcha språket för de webbplatser där annonsen ska visas. [!DNL Microsoft Advertising] avgör användarens språk utifrån olika signaler, inklusive användarens fråga, utgivarens land och användarens språkinställning.
+**[!UICONTROL Languages]:** (Endast maximala prestandakampanjer) Språket för annonsen, som ska matcha språket för de webbplatser där annonsen kan visas. [!DNL Microsoft® Advertising] avgör användarens språk utifrån olika signaler, inklusive användarens fråga, utgivarens land och användarens språkinställning.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -206,7 +206,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 **[!UICONTROL Final URL]:** Den slutliga URL:en för alla annonser som skapats från resursgruppen.
 
-**[!UICONTROL Images]:** Upp till 20 bilder för annonsen, inklusive minst en fyrkantig bild och en liggande bild. Se [[!DNL Microsoft Advertising] riktlinjer för bilder](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Images]:** Upp till 20 bilder för annonsen, inklusive minst en fyrkantig bild och en liggande bild. Se [[!DNL Microsoft® Advertising] riktlinjer för bilder](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
@@ -228,7 +228,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 * Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
 
-**[!UICONTROL Logos]:** Minst en logotyp. Du kan inkludera upp till fem. Se [[!DNL Microsoft Advertising] riktlinjer för tillgångar](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Logos]:** Minst en logotyp. Du kan inkludera upp till fem. Se [[!DNL Microsoft® Advertising] riktlinjer för tillgångar](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
@@ -284,7 +284,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken. Det får inte innehålla skript, HTML eller något annat markeringsspråk.
 
-**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
+**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft® Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft® Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
 
 >[!NOTE]
 >Målgruppssignaler skiljer sig från [och målgruppsmål på gruppnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
