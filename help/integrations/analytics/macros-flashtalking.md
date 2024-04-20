@@ -3,7 +3,7 @@ title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalkin
 description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] annonstaggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: ca8260e643f24787f7918249906f3f38f3bbef6d
+source-git-commit: 7b31fb7939f44aa99826bea3f183897683189eae
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -65,3 +65,4 @@ Exempel:
 >* [Översikt [!DNL Analytics for Advertising]](overview.md)
 >* [Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md)
+
