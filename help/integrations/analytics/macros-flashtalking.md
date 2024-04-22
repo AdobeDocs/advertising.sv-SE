@@ -3,7 +3,7 @@ title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalkin
 description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] annonstaggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 2a124481f98a5b5f17d613becacb0bdfa6935836
+source-git-commit: c6a7d99875d54d7ff807f94b8fdd7a903c05b6e5
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -36,7 +36,7 @@ I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i
 [ftqs:[AdobeAMO]]
 ```
 
-Det är den första eller enda frågesträngen efter bas-URL:en, och separera den sedan från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
 
 Exempel:
 
@@ -52,7 +52,7 @@ I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Det är den första eller enda frågesträngen efter bas-URL:en, och separera den sedan från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
 
 Exempel:
 
