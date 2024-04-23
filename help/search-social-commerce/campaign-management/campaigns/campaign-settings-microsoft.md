@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: c7821f112757f695a6ab9da1fffb014b822e1ff3
+source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 0%
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Anbudsstrategin för kampanjen:
 
-* *[!UICONTROL Cost per Sale]:* (Endast köpkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på **[!UICONTROL Target CPS]** (kostnad per försäljning). Du betalar bara när ett klick på produkten leder till en försäljning inom 24 timmar. **Obs!** Inkludera inte kampanjer med den här anbudsstrategin i portföljer. Optimering av sökmotorkampanjer, sociala kampanjer och Commerce är inte tillgängligt för kampanjer med den här anbudsstrategin.
+* *[!UICONTROL Cost per Sale]:* (Endast köpkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på [!UICONTROL Target CPS] (kostnad per försäljning). Du betalar bara när ett klick på produkten leder till en försäljning inom 24 timmar. **Obs!** Inkludera inte kampanjer med den här anbudsstrategin i portföljer. Optimering av sökmotorkampanjer, sociala kampanjer och Commerce är inte tillgängligt för kampanjer med den här anbudsstrategin.
 
   När ni väl har sparat en shoppingkampanj för varumärken med denna anbudsstrategi kan ni inte ändra anbudsstrategin. För andra typer av shoppingkampanjer är den här strategin bara tillgänglig för nya kampanjer.
 
