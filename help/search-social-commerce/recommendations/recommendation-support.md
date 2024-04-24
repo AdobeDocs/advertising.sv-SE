@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 250e6c7aaeb64c811b3648ac1aee2a7bd0a6f753
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -16,29 +16,27 @@ ht-degree: 0%
 
 *Betafunktion för [!DNL Microsoft® Advertising] konton*
 
-[!DNL Google Ads] rekommendationer och [!DNL Microsoft® Advertising] resultatinsikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
+[!DNL Google Ads] och [!DNL Microsoft® Advertising] rekommendationer och insikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
 
 * Varje [!DNL Google Ads] rekommendationer ger anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
 
-* Varje [!DNL Microsoft® Advertising] resultatinsikter varnar dig om betydande fluktuationer i ett chefskonto, annonsörkonto eller kampanj, identifierar möjliga orsaker och föreslår åtgärder för att optimera prestanda.
+* Varje [!DNL Microsoft® Advertising] resultatinsikter och rekommendationer tyder på förändringar för att optimera kampanjresultaten baserat på algoritmer för maskininlärning och bästa praxis.
 
 ## The [!UICONTROL Recommendations & Publisher Insights] visa
 
 Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]kan du:
 
-* Se i korthet alla rekommendationer som inte har följts under en [!DNL Google Ads] konto eller alla resultatinsikter som genererats de senaste 30 dagarna för en [Microsoft® Advertising] konto. Informationen för varje tävlingsbidrag omfattar rekommendationer/insikter och berörda enheter. För [!DNL Google Ads] konton markeras förväntade ökningar av mätvärden i grönt.
+* Se i korthet alla rekommendationer som stöds och som inte har använts för ett konto. Informationen för varje post innehåller rekommendationstypen, [!DNL Adobe] rekommendation, de mätvärden som påverkas, den enhet som påverkas och en länk till mer information. Förutsagda ökningar av mätvärden markeras med grönt.
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
   Informationen är tillgänglig i realtid när du öppnar vyn. Klicka på om du vill uppdatera data ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") till vänster på sidan.
 
-* För [!DNL Google Ads] konton:
+* För [Microsoft® Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [Microsoft® Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Alla insikter innehåller datum, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna Microsoft® Advertising editor, där du kan agera utifrån den specifika insikten.
 
-   * Visa rekommendationsinformation och direkt tillämpa eller avvisa en rekommendation.
+* Visa information om en rekommendation och direkt tillämpa eller avvisa rekommendationen.
 
-   * Visa en logg över alla rekommendationer som har tillämpats för kontot, inklusive de berörda enheterna som har tillämpat rekommendationen och tidsstämpeln.
-
-* För [Microsoft® Advertising] konton, öppna [!DNL Microsoft® Advertising] som du kan agera utifrån en viss insikt i.
+* Visa en logg över alla rekommendationer som har tillämpats för kontot, inklusive de berörda enheterna som har tillämpat rekommendationen och tidsstämpeln.
 
 >[!NOTE]
 >
@@ -80,9 +78,17 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Search partners opt in] | Nå ut bättre med [!DNL Google] sökpartner |
 | | [!UICONTROL Use broad match keyword] | Använd bred matchning för konverteringsbaserade kampanjer med fullt automatiserad konverteringsbaserad budgivning |
 
+## Rekommendationstyper som stöds för [!DNL Microsoft Advertising]
+
+| Rekommendationskategori | Rekommendationstyp | Beskrivning |
+| --- | --- | --- |
+| [!UICONTROL Ads and extensions] | [!UICONTROL Responsive search ad] | Lägg till ny responsiv sökannons |
+| [!UICONTROL Bidding and budgets] | [!UICONTROL Campaign budget] | Korrigera kampanjer som begränsas av budgeten |
+| [!UICONTROL Keywords and targeting] | [!UICONTROL Keyword] | Lägg till nya nyckelord från alla källor |
+
 >[!MORELIKETHIS]
 >
 >* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
->* [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](google-recommendation-apply-dismiss.md)
->* [Visa rekommendationsloggen för en [!DNL Google Ads] konto](google-recommendation-view-log.md)
->* [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](recommendation-best-practices.md)
+>* [Tillämpa eller avvisa en utgivarrekommendation](recommendation-apply-dismiss.md)
+>* [Visa loggen för utgivarens rekommendationer för ett konto](recommendation-view-log.md)
+>* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)

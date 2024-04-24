@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 198dc41ba0ae1cd55e18c34e04cd2ea2297aa127
+source-git-commit: c53d79bd185630fb535c44bc05a4e0b7582f14ca
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 + [Nyheter](home.md)
 + [Om den här guiden](help-about.md)
 + Introduktion {#intro}
-   + [Om Adobe Advertising Search, Social, &amp; Commerce](/help/search-social-commerce/introduction/about.md)
+   + [Om Adobe Advertising Search, Social och Commerce](/help/search-social-commerce/introduction/about.md)
    + [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integrering med Adobe Experience Cloud {#integrations}
       + [Integrering med Adobe Experience Cloud lösningar och tjänster](/help/search-social-commerce/introduction/integrations.md)
@@ -374,9 +374,9 @@ ht-degree: 2%
    + Information om Recommendations och utgivare {#recommendations}
       + [Om utgivarens rekommendationer och insikter](/help/search-social-commerce/recommendations/recommendation-support.md)
       + [Visa utgivarens rekommendationer och prestandainsikter](/help/search-social-commerce/recommendations/recommendation-view.md)
-      + [Tillämpa eller avvisa en [!DNL Google Ads] rekommendation](/help/search-social-commerce/recommendations/google-recommendation-apply-dismiss.md)
-      + [Visa rekommendationsloggen för en [!DNL Google Ads] konto](/help/search-social-commerce/recommendations/google-recommendation-view-log.md)
-      + [Bästa tillvägagångssätt för att använda utgivarrekommendationer och insikter med portföljer](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
+      + [Tillämpa eller avvisa en utgivarrekommendation](/help/search-social-commerce/recommendations/recommendation-apply-dismiss.md)
+      + [Visa loggen för utgivarens rekommendationer för ett konto](/help/search-social-commerce/recommendations/recommendation-view-log.md)
+      + [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](/help/search-social-commerce/recommendations/recommendation-best-practices.md)
 + verktyg {#tools}
    + [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)
    + Verktyg för att skapa och avkoda spårningstaggar{#tracking}
