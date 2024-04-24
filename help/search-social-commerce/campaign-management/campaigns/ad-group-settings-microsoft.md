@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] och gruppinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] annonsgrupper.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 29401370d18a5d1c7d5c28cb90a109ea5134ac00
+source-git-commit: 7339af39250f0328bc6e8d530a2d7f04286132e5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,14 @@ ht-degree: 0%
 {{$include /help/_includes/location-targets.md}}
 
 För [!DNL Microsoft® Advertising] annonser i målgruppsnätverket optimeras inte budmodifierare för platsmål i standardportföljer med &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+
+**[!UICONTROL Genre]:** (Annonsgrupper i [!UICONTROL Audience CTV Video] -kampanjer, tillgängliga i USA, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY och TH<!-- should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Målgenren, som avgör vilka program och kanaler annonserna visas på:
+
+* *[!UICONTROL All genres]:* (Standardvärdet) Målsätter alla genrer.
+
+* *[!UICONTROL Select From Below List]:* Målar valda genrer. Välj i listan över alla tillgängliga genrer.
+
+Annonsplacering via uppkopplad TV (CTV) beror på videons kvalitet och anbudsbelopp. Se [tekniska krav för CTV-reklam](https://help.ads.microsoft.com/#apex/ads/en/60102/0/#TechnicalRequirements).
 
 <!-- **[!UICONTROL Devices]:** -->
 
