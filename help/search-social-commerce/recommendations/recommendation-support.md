@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 7f45a89dbff37592eec9991c47ade3094ca024a8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
   Informationen är tillgänglig i realtid när du öppnar vyn. Klicka på om du vill uppdatera data ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") till vänster på sidan.
 
-* För [Microsoft® Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [Microsoft® Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Alla insikter innehåller datum, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna Microsoft® Advertising editor, där du kan agera utifrån den specifika insikten.
+* För [DNL Microsoft® Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [DNL Microsoft® Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Alla insikter innehåller datum, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna Microsoft® Advertising editor, där du kan agera utifrån den specifika insikten.
 
 * Visa information om en rekommendation och direkt tillämpa eller avvisa rekommendationen.
 

@@ -1,16 +1,16 @@
 ---
 title: Generera en URL för klickspårning
-description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och handel.
-exl-id: d22a472a-a562-4812-a067-fbd407cd7d00
+description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och Commerce.
+exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Generera en klicknings-URL för sökning, sociala medier och handel med verktyget för spårning av URL:er
+# Generera en sök-, social- och Commerce klickspårnings-URL med verktyget för spårning av URL:er
 
 *Annonsörer med enbart konverteringsspårning i Adobe Advertising*
 
@@ -48,7 +48,7 @@ Information om när du manuellt måste generera och implementera en klickspårni
 
            Filen kan innehålla upp till 10 000 rader.
 
-         * ([!DNL Google Merchant Center] produktgrupper och [Microsoft® Advertising] produktannonser) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] produktgrupper och [DNL Microsoft® Advertising] produktannonser) `product name <tab> ** <tab> landing_page`
 
            där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
@@ -88,4 +88,4 @@ För konton med slutliga URL:er anger du värdet på skärmen i lämplig [!UICON
 >
 >* [Om verktygen för att skapa och avkoda spårningstaggar](tracking-tools-about.md)
 >* [När och hur klickspårnings-URL:er ska genereras](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md)
->* [Avkoda en klicknings-URL för sökning, sociala medier och handel](click-tracking-url-decode.md)
+>* [Avkoda en klicknings-URL för sökning, sociala medier och Commerce](click-tracking-url-decode.md)
