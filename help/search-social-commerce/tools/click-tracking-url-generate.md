@@ -3,9 +3,9 @@ title: Generera en URL för klickspårning
 description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 0da23a2756fc7ed4d2ef8fb739d94a91ac6400ba
+source-git-commit: a4d892b413dde26a96f03c797991c4df17da7562
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Information om när du manuellt måste generera och implementera en klickspårni
 
            Filen kan innehålla upp till 10 000 rader.
 
-         * ([!DNL Google Merchant Center] produktgrupper och [DNL Microsoft® Advertising] produktannonser) `product name <tab> ** <tab> landing_page`
+         * ([!DNL Google Merchant Center] produktgrupper och [!DNL Microsoft® Advertising] produktannonser) `product name <tab> ** <tab> landing_page`
 
            där `product name` är produktnamnet och `landing_page` är en giltig URL för landningssida eller en bas-URL.
 
