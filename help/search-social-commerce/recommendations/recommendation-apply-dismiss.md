@@ -3,7 +3,7 @@ title: Tillämpa eller avvisa en utgivarrekommendation
 description: Lär dig hur du visar, tillämpar eller inaktiverar en utgivarrekommendation.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: 93e9a36cd479e0f076f72661f0983a5bd856806a
+source-git-commit: 2e1544658804afb298bf2c1a46f197d36ef6854e
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -48,3 +48,4 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 >* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
 >* [Visa loggen för utgivarens rekommendationer för ett konto](recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)
+
