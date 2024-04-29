@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 8d1ff29322799ff7905ee808703e00f5190ae8af
+source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -299,7 +299,15 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 **[!UICONTROL Conversion Goal]:** Om *[!UICONTROL Use account conversion goals for this campaign]* (standard) eller *[!UICONTROL Use campaign specific conversion goals]*. Om du väljer att ange konverteringsmål för kampanjen väljer du målen i listan med alla tillgängliga mål. **Obs!** Mål synkroniseras dagligen, så mål som skapats under de senaste 24 timmarna kanske inte visas. Om du vill uppdatera listan [manuellt synkronisera annonsens nätverksdata](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
 
-Om kampanjen ingår i en portfölj ska du använda samma konverteringsmål som portföljens mål. Olika konverteringsmål kan påverka portföljens prestanda.
+>[!TIP]
+>
+>För hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar konverteringar som spåras av [!DNL Microsoft Advertising] UET-taggen (Universal Event tracking) och lägg sedan till dem i [!DNL Microsoft Advertising] redaktör eftersom de inte kommer att överföras till annonsnätverket igen med målet. I [!DNL Microsoft Advertising] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att avmarkera Inkludera i konverteringar.
+
+<!-- Check on this:
+>If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>
+>The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
+-->
 
 >[!MORELIKETHIS]
 >
