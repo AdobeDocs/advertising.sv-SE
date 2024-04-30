@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: ce17567bbf1a409cc2894e48188235b7473b914c
+source-git-commit: 1f2ffd65f9341db4492a2796bc82ed0bb42f13ed
 workflow-type: tm+mt
 source-wordcount: '1967'
 ht-degree: 0%
