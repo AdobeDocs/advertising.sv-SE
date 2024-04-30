@@ -3,7 +3,7 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 1f2ffd65f9341db4492a2796bc82ed0bb42f13ed
+source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
 workflow-type: tm+mt
 source-wordcount: '2431'
 ht-degree: 0%
