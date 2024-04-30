@@ -3,9 +3,9 @@ title: Visa prognosrapport för placering
 description: Se hur många visningar, utgifter och optimalt maximalt bud som prognostiserats för en viss målinriktningsstrategi för en placering.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1596fb810d8eb0c3e7ebb0a955bf82ed5bbc22f5
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Verktyget för placeringsprognos visar prognostiserat antal visningar, utgifter 
 
 >[!NOTE]
 >
+>* Postnummer tas inte med i beräkningen av placeringsprognos.
 >* Ingen prognos genereras för praktik med endast programmatisk målgruppsanpassning (PG) eftersom tillgänglighet och utgifter är deterministiska.
 
 ## Information i prognosen
