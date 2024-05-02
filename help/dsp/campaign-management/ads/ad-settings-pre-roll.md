@@ -3,7 +3,7 @@ title: Inställningar för annonsering före registrering
 description: Se beskrivningar av tillgängliga annonsinställningar för förrollsannonser.
 feature: DSP Ads
 exl-id: d0ba4346-13ae-405c-92b6-a0c32dd09d0a
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Om du vill kontrollera giltigheten för en VAST-tagg klistrar du in den i en webbläsare och trycker på **[!UICONTROL Enter]** nyckel. Om märkordet är giltigt visas en XML-fil som innehåller `<VAST>` nära toppen.
+> Om du vill kontrollera giltigheten för en VAST-tagg klistrar du in den i en webbläsare och trycker på **[!UICONTROL Enter]** -tangenten. Om märkordet är giltigt visas en XML-fil som innehåller `<VAST>` nära toppen.
 
 ## [!UICONTROL Ad Options]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och några nyckelattribut (t.ex. Helgdagsproduktförhandsvisning: 30 sek före (pre-roll)&quot;).
+> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och vissa nyckelattribut (t.ex. Heldagsproduktsförhandsvisning: 30sek före).
 
 **[!UICONTROL Width]| [!UICONTROL Ad Unit Width]:** (Endast standard- och överhoppningsbara pre-roll-annonser) Bredden på hela annonsenheten. Det här alternativet kan vara låst beroende på vilken typ av annonsenhet du har valt.
 
@@ -56,15 +56,15 @@ Detta är samma sak som **[!UICONTROL Height]** fält.
 
 **[!UICONTROL Preserve Aspect Ratio]:** Om videons bredd- och höjdproportioner ska behållas (*[!UICONTROL Yes]*) eller för att sträcka ut videon så att den fyller ut det tillgängliga utrymmet (*[!UICONTROL No]*).
 
-**[!UICONTROL VAST Tag]:** (Endast annonser som använder VAST-taggar. skrivskyddad) Den VAST-tagg från tredje part som du angav som annonskälla.
+**[!UICONTROL VAST Tag]:** (Lägger till annonser med enbart VAST-taggar; skrivskyddat) Den VAST-tagg från tredje part som du angav som annonskälla.
 
-**[!UICONTROL Final VAST Tag]:** (Endast annonser som använder VAST-taggar. skrivskyddad) Den VAST-tagg från tredje part som du angav som annonskälla med den nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
+**[!UICONTROL Final VAST Tag]:** (Annonserar endast med VAST-taggar; skrivskyddat) Den VAST-tagg från tredje part som du angav som annonskälla med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
 **[!UICONTROL Wmode]:** (Endast interaktiv förrullning) Fönsterläge: *[!UICONTROL window]*, *[!UICONTROL transparent]*, eller *[!UICONTROL opaque]*.
 
 **[!UICONTROL Video Format]:** (Endast interaktiv förregistrering) Annonsspelarens format för potentiell inventering: *[!UICONTROL VPAID]* eller *[!UICONTROL VPAID & VAST]*. Visningsbarheten mäts alltid för VPAID, men VPAID och VAST inkluderar lager som inte tillåter visningsbarhetsmätning. Tänk på den här skillnaden om mätvärden för visningsbarhet är viktiga för er kampanj.
 
-**[!UICONTROL Clock Number]**: (Endast interaktiv förrullning. endast används i Förenade kungariket, är bara tillgängligt för användare med behörighet) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
+**[!UICONTROL Clock Number]**: (Endast interaktiv pre-roll; används endast i Storbritannien; endast för användare med tillstånd) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
 
 ### [!UICONTROL Pixel]
 
@@ -72,7 +72,7 @@ Alla befintliga pixlar för händelsespårning för placeringen bifogas automati
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
-**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. Använd pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. För den här annonstypen använder du pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** Om pixeln är en *[!UICONTROL IMG URL]* (1 × 1 pixelbildfil), *[!UICONTROL HTML]*, eller *[!UICONTROL JavaScript URL]*.
 
@@ -80,7 +80,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 **[!UICONTROL Pixel Name]:** Pixelnamnet. Använd ett namn som gör det enkelt att identifiera pixeln.
 
-**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, eller *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -89,4 +89,3 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP makron](/help/dsp/campaign-management/macros.md)
-

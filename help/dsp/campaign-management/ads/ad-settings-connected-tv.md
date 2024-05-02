@@ -3,7 +3,7 @@ title: Inställningar för ansluten TV-annons
 description: Se beskrivningar av tillgängliga annonsinställningar för anslutna TV-annonser.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: VAST-taggens URL.
 
-**[!UICONTROL Title]**: Ett namn på filen som ska användas i annonsvyn och rapporter.
+**[!UICONTROL Title]**: Ett namn på filen som ska användas i annonsvyn och -rapporter.
 
 >[!TIP]
 >
-> Om du vill kontrollera giltigheten för en VAST-tagg klistrar du in den i en webbläsare och trycker på **[!UICONTROL Enter]** nyckel. Om märkordet är giltigt visas en XML-fil som innehåller `<VAST>` nära toppen.
+> Om du vill kontrollera giltigheten för en VAST-tagg klistrar du in den i en webbläsare och trycker på **[!UICONTROL Enter]** -tangenten. Om märkordet är giltigt visas en XML-fil som innehåller `<VAST>` nära toppen.
 
 ## [!UICONTROL Ad Options]
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och några nyckelattribut (t.ex. Helgdagsproduktförhandsvisning: 30 sek CTV&quot;).
+> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och vissa nyckelattribut (t.ex. heldagsproduktsförhandsvisning: 30sek CTV&quot;).
 
 **[!UICONTROL Width | Ad Unit Width]:** Bredden på hela annonsenheten. Det här alternativet kan vara låst beroende på vilken typ av annonsenhet du har valt.
 
@@ -56,11 +56,11 @@ Detta är samma sak som **[!UICONTROL Height]** fält.
 
 **[!UICONTROL Preserve Aspect Ratio]:** Om videons bredd- och höjdproportioner ska behållas (*[!UICONTROL Yes]*) eller för att sträcka ut videon så att den fyller ut det tillgängliga utrymmet (*[!UICONTROL No]*).
 
-**[!UICONTROL VAST Tag]:** (Endast annonser som använder VAST-taggar. skrivskyddad) Den VAST-tagg från tredje part som du angav som annonskälla.
+**[!UICONTROL VAST Tag]:** (Lägger till annonser med enbart VAST-taggar; skrivskyddat) Den VAST-tagg från tredje part som du angav som annonskälla.
 
-**[!UICONTROL Final VAST Tag]:** (Endast annonser som använder VAST-taggar. skrivskyddad) Den VAST-tagg från tredje part som du angav som annonskälla med den nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
+**[!UICONTROL Final VAST Tag]:** (Annonserar endast med VAST-taggar; skrivskyddat) Den VAST-tagg från tredje part som du angav som annonskälla med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
-**[!UICONTROL Clock Number]**: (Används endast i Förenade kungariket.) är bara tillgängligt för användare med behörighet) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
+**[!UICONTROL Clock Number]**: (Används endast i Storbritannien; endast för användare med tillstånd) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
 
 ### [!UICONTROL Pixel]
 
@@ -68,7 +68,7 @@ Alla befintliga pixlar för händelsespårning för placeringen bifogas automati
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
-**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. Använd pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. För den här annonstypen använder du pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** Om pixeln är en *[!UICONTROL IMG URL]* (1 × 1 pixelbildfil), *[!UICONTROL HTML]*, eller *[!UICONTROL JavaScript URL]*.
 
@@ -76,7 +76,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 **[!UICONTROL Pixel Name]:** Pixelnamnet. Använd ett namn som gör det enkelt att identifiera pixeln.
 
-**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, eller *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -85,4 +85,3 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP makron](/help/dsp/campaign-management/macros.md)
-

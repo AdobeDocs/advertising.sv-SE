@@ -3,7 +3,7 @@ title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -24,9 +24,9 @@ Följande inställningar gäller för vanliga displayannonser.
 
 >[!TIP]
 >
-> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och några nyckelattribut (t.ex. Helgdagsproduktförhandsvisning: 300x250-spelare&quot;).
+> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och några nyckelattribut (t.ex. Holiday Product Preview: 300x250 Gamer&quot;).
 
-**\[Annonskälla\]**: (Skrivskyddad) *[!UICONTROL 3rd party]*.
+**\[Annonskälla\]**: (skrivskyddat) *[!UICONTROL 3rd party]*.
 
 **[!UICONTROL This is an expandable Banner]:** (Endast annonser från tredje part) Anger att annonsen är en utbyggbar banners. De relaterade expansionsinställningarna avgör vilket lager som ska köpas, så se till att de återspeglar annonsbeteendet.
 
@@ -40,7 +40,7 @@ Följande inställningar gäller för vanliga displayannonser.
 
 **[!UICONTROL Final Display Code]:** (Endast annonser från tredje part) URL:en för den kreativa resursen från tredje part, med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
-**[!UICONTROL Ad Size]:** Annonsens bredd och höjd. Det måste vara en [stöd för standardstorlek](ad-specs.md). Du kan ange annonsstorleken manuellt innan du överför annonsen eller ange en [!UICONTROL Display Code]. Om du inte anger annonsstorleken anges dimensionerna för den överförda annonstaggen eller annonstaggen automatiskt som skrivskyddade. Observera att annonsen för bildskärm inte sparas om dimensionerna inte finns i standardvisning i storlekar - t.ex. 301x250 i stället för 300x250 i annonsstorlek.
+**[!UICONTROL Ad Size]:** Annonsens bredd och höjd. Det måste vara en [stöd för standardstorlek för bildskärm](ad-specs.md). Du kan ange annonsstorleken manuellt innan du överför annonsen eller ange en [!UICONTROL Display Code]. Om du inte anger annonsstorleken anges dimensionerna för den överförda annonstaggen eller annonstaggen automatiskt som skrivskyddade. Observera att displayannonsen inte sparar om dimensionerna inte finns i standardvisning som storlekar - t.ex. 301x250 i stället för 300x250 i annonsstorlek.
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Alla befintliga pixlar för händelsespårning för placeringen bifogas automati
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
-**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. Använd pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
+**[!UICONTROL Integration Event]:** Den händelse som utlöser pixeln som utlöses. För den här annonstypen använder du pixlar som aktiveras på *[!UICONTROL Impression]* eller *[!UICONTROL Click-through]*.
 
 **[!UICONTROL Pixel Type]:** Om pixeln är en *[!UICONTROL IMG URL]* (1 × 1 pixelbildfil), *[!UICONTROL HTML]*, eller *[!UICONTROL JavaScript URL]*.
 
@@ -60,7 +60,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 **[!UICONTROL Pixel Name]:** Pixelnamnet. Använd ett namn som gör det enkelt att identifiera pixeln.
 
-**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, eller *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -69,4 +69,3 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Visa en lista över placeringar som är kopplade till en annons](ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP makron](/help/dsp/campaign-management/macros.md)
-

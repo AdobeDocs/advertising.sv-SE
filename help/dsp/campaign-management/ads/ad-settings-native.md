@@ -1,16 +1,16 @@
 ---
-title: Annonsinställningar för inbyggd visning
+title: Annonsinställningar för inbyggd bildskärm
 description: Se beskrivningar av tillgängliga annonsinställningar för inbyggda displayannonser.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
 
-# Annonsinställningar för inbyggd visning
+# Annonsinställningar för inbyggd bildskärm
 
 ## [!UICONTROL Ad Options]
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och några nyckelattribut (t.ex. Helgdagsproduktförhandsvisning: 15 sek inbyggd&quot;).
+> Använd ett namn som är lätt att hitta när du kopplar annonsen till en placering i [!UICONTROL Ads] och i rapporter. Beskriv t.ex. enhetstypen och vissa nyckelattribut (t.ex. Heldagsproduktförhandsvisning: 15sec Native&quot;).
 
 **[!UICONTROL Native Creative]:** En bild på 1 200 x 627 som maximerar leveransen på mobilmaterial. Klicka **[!UICONTROL Browse]** och leta upp filen på din enhet eller ditt nätverk och klicka sedan på **[!UICONTROL Upload]**.
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **[!UICONTROL Description]:** Annonsens brödtext. Maximala längden är 100 tecken.
 
-**[!UICONTROL Landing Page]:** Den URL som visningsprogrammet får när han/hon klickar på annonsen.
+**[!UICONTROL Landing Page]:** Den URL som visningsprogrammet får när de klickar på annonsen.
 
 **[!UICONTROL Final Landing Page]:** The [!UICONTROL Landing Page] URL med nödvändig [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
@@ -54,7 +54,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 **[!UICONTROL Pixel Name]:** Pixelnamnet. Använd ett namn som gör det enkelt att identifiera pixeln.
 
-**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Nielsen]*, eller *[!UICONTROL Comscore]*.
+**[!UICONTROL Pixel Provider]:** Pixelprovidern: *[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
@@ -63,4 +63,3 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP makron](/help/dsp/campaign-management/macros.md)
-
