@@ -3,9 +3,9 @@ title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Följande inställningar gäller för vanliga displayannonser.
 
 ### [!UICONTROL Pixel]
 
-Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen.
+Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips:** Redigera pixlar för spårning från tredje part för flera annonser på en plats samtidigt med hjälp av [!UICONTROL Ad Tools] visa, se &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 

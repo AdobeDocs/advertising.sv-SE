@@ -3,9 +3,9 @@ title: Ljudannonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för ljudannonser.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: f521cf26d9d3945bdf1abe4577bb37d732432c87
+source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Det här fältet kanske visas eller inte, beroende på kontobehörigheterna.
 
 **[!UICONTROL Select Rate]:** (Användare med endast tillstånd) En förförhandlad avgift som faktureras via Adobe, eller en av de priser som du har förhandlat och som faktureras via leverantören. Om du vill lägga till en avgift kontaktar du kontoteamet på Adobe.
 
-### Pixel
+### [!UICONTROL Pixel]
 
-Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen.
+Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips:** Redigera pixlar för spårning från tredje part för flera annonser på en plats samtidigt med hjälp av [!UICONTROL Ad Tools] visa, se &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads).&quot;
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
@@ -60,7 +60,7 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
 **[!UICONTROL Pixel Name]:** Pixelnamnet. Använd ett namn som gör det enkelt att identifiera pixeln.
 
-**[!UICONTROL Pixel Provider]:** Pixelprovidern:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*..
+**[!UICONTROL Pixel Provider]:** Pixelprovidern:*[!UICONTROL None]*, *[!UICONTROL Comscore]*, *[!UICONTROL WhiteOps]*, eller *[!UICONTROL IAS]*.
 
 >[!MORELIKETHIS]
 >
