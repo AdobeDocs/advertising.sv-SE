@@ -3,7 +3,7 @@ title: Skapa en återanvändbar publik
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgruppssegment och till och med andra sparade målgrupper, som ni kan använda som mål eller exkluderingar för flera platser.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]**.
 
-1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**.
+1. Ovanför datatabellen klickar du **[!UICONTROL Create]**.
 
-1. Ange ett unikt [!UICONTROL Audience Name].
+1. Ange ett unikt **[!UICONTROL Audience Name]**.
 
 1. (Valfritt) Avmarkera alternativet till **[!UICONTROL Share with all advertisers in my account]**.
 
@@ -32,23 +32,24 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 
    >[!NOTE]
    >
-   >När ni bygger upp målgruppen, detaljerat [målgruppsstorleksdata](audience-about.md) uppdateras i den högra panelen
+   >När ni bygger upp målgruppen är [målgruppsstorleksdata](audience-about.md) uppdateras i den högra panelen
 
    * Skapa segmentlogiken manuellt med hjälp av segment som finns på [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments]och [!UICONTROL Saved Audiences] tabbar](audience-settings.md)gör du följande.
 
       * Om du vill lägga till det första segmentet letar du reda på segmentet i den vänstra panelen och markerar kryssrutan bredvid segmentnamnet.
 
-      * Så här lägger du till ett segment i en befintlig segmentgrupp:
+      * Lägga till ett segment i en befintlig segmentgrupp:
 
          1. Klicka på segmentgruppen på den högra panelen.
 
          1. (Valfritt) Ändra grupplogiken till *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, eller *[!UICONTROL Exclude All]*, efter behov.
 
-            *[!UICONTROL Exclude All]* är inte tillgänglig för den första segmentgruppen. För en målgrupp som endast innehåller undantag, bygg denna målgrupp som *[!UICONTROL Include Any]* och sedan, på en plats, välja den publiken på menyn Uteslutna målgrupper.
+            *[!UICONTROL Exclude All]* är inte tillgänglig för den första segmentgruppen. För en målgrupp som endast innehåller undantag, bygg denna målgrupp som *[!UICONTROL Include Any]* och välj sedan den målgruppen på menyn Uteslutna målgrupper på en plats.
 
          1. Leta reda på det nya segmentet i den vänstra panelen och markera kryssrutan bredvid segmentnamnet.
 
             Segmentgruppen uppdateras automatiskt med det nya segmentet.
+
       * Så här lägger du till en ny segmentgrupp:
 
          1. Klicka **[!UICONTROL + New Group]** i den högra panelen.
@@ -58,6 +59,7 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
          1. Leta reda på segmenten för den nya gruppen i den vänstra panelen och markera kryssrutorna bredvid segmentnamnen.
 
          1. (Valfritt) Ändra grupplogiken till *[!UICONTROL Include Any]*, *[!UICONTROL Include All]*, eller *[!UICONTROL Exclude All]*, efter behov.
+
    * Så här använder du segmentlogik från en befintlig målgrupp:
 
       1. Kopiera segmentlogiken från den befintliga målgruppen på något av följande sätt:
@@ -67,14 +69,12 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
          * Klicka på i inställningarna för den befintliga målgruppen längst upp på segmentlogikpanelen **[!UICONTROL More]** > **[!UICONTROL Copy to Clipboard]**.
 
          * I en textredigerare skapar du segmentlogiken manuellt med hjälp av alfanumeriska segment-ID:n och [Boolesk syntax](audience-segment-logic-syntax.md)och kopiera det till Urklipp.
+
       1. Klicka **[!UICONTROL paste in an audience rule to begin building]**, klistra in den befintliga segmentlogiken i indatafältet och klicka sedan på **[!UICONTROL Apply]**.
 
          >[!NOTE]
          >
          >Om målgruppen redan innehåller någon segmentlogik skrivs den befintliga logiken över när du klistrar in den i den nya segmentlogiken.
-
-
-
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -87,4 +87,3 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
 >* [Skapa och implementera en [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-
