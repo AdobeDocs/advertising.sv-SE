@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: df89207a61235ccf83d2c4b898ac60598f8e2877
+source-git-commit: e794f6ee4731479cd1961201ac479d66216a3200
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,13 @@ ht-degree: 0%
 
 Du kan redigera inställningarna för en enstaka placering eller för flera placeringar samtidigt.
 
+<!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
 >[!NOTE]
 >
->Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i en delmängd av fält och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och korrigera placeringsinställningar med kalkylblad](placement-qa.md).&quot;
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+>Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i en begränsad delmängd av nyckelfälten och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och korrigera placeringsinställningar med kalkylblad](placement-qa.md).&quot;
 
 ## Redigera inställningar för tangentmontering snabbt {#placement-quick-edit}
-
-<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
 Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna de fullständiga placeringsinställningarna.
 
