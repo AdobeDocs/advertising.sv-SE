@@ -2,16 +2,16 @@
 title: Granska annonsinställningar med kalkylblad
 description: Lär dig hur du granskar annonsinställningar med hjälp av kalkylblad.
 feature: DSP Ads
-source-git-commit: abaac57698111f85d87c5059a62c1737391a6efd
+source-git-commit: a2e444a6cd5dcca6f02b92dec05321f4df4b0045
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # Granska annonsinställningar med kalkylblad
 
-Du kan hämta inställningarna för dina annonser.<!-- Clarify once I can get this to work: Do these include all ads in the campaign? And does it include all possible settings, or just a subset?  -->
+Du kan hämta inställningarna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
 >[!TIP]
 >
