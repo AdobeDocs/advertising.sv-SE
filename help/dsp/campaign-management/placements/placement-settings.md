@@ -3,7 +3,7 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: caab8c3163a7ffdbc0b5ef28176b2ee73f83b6e8
+source-git-commit: 9586b743df5af61db81f781224bed28b02e0c4a8
 workflow-type: tm+mt
 source-wordcount: '3540'
 ht-degree: 0%
@@ -308,7 +308,9 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 **[!UICONTROL Excluded Audiences]:** Alla målgrupper som ska uteslutas för placeringen, inklusive målgrupper med [tredjepartssegment, förstapartssegment, Adobe-segment, anpassade segment och sparade målgrupper](/help/dsp/audiences/audience-settings.md). Den totala och aktiva borttagna dubblettstorleken för alla uteslutna målgrupper visas också. Du kan välja en befintlig målgrupp eller skapa en ny som du kan återanvända senare:
 
 * Om du vill välja en befintlig målgrupp klickar du ![Välj](/help/dsp/assets/chevron-down.png) nästa [!UICONTROL Excluded Audiences]och sedan välja målgrupp.
+
 * Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) nästa [!UICONTROL Excluded Audiences]och sedan markera **+ Skapa publik**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md), från steg 3.
+
 * Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i &quot;[Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md).&quot; När du är klar klickar du **Spara**.
 
 **[!UICONTROL Cross Device Targeting]:** (Tillgängligt när du markerar minst ett segment eller en målgrupp och [kampanjen är konfigurerad för personbaserad målinriktning på olika enheter](/help/dsp/campaign-management/campaigns/campaign-settings.md). Gör att du kan utöka målanpassningen för alla kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten. Avgifterna kan tillkomma beroende på vilket diagram som har angetts för kampanjen. Enhetsdiagramdata är bara tillgängliga i Nordamerika.
