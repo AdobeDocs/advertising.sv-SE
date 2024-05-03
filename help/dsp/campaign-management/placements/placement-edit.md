@@ -3,9 +3,9 @@ title: Redigera en placering
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: 787bf675c24fe22a5ca3c9fd599135f81ddd5296
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,24 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 <!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 
+## Redigera inställningar för tangentmontering snabbt {#placement-quick-edit}
+
+<!-- Some placements don't have this option. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
+
+Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna de fullständiga placeringsinställningarna.
+
+1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på kampanjens namn.
+1. Klicka på **[!UICONTROL Placements]**.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
+1. Redigera alla tillgängliga [placeringsinställningar](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
+1. Klicka på **[!UICONTROL Apply]**.
+
 ## Redigera en enstaka placering
 
 >[!TIP]
 >
-> Om du bara vill redigera placeringsnamn, status, högsta bud och budget läser du &quot;[Redigera inställningar för tangentmontering snabbt](/help/dsp/campaign-management/placements/placement-quick-edit.md).&quot;
+> Om du bara vill redigera placeringsnamn, status, högsta bud och budget läser du &quot;[Redigera inställningar för tangentmontering snabbt](#placement-quick-edit).&quot;
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
@@ -77,7 +90,7 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >[!MORELIKETHIS]
 >
 >* [Om Platshantering](placement-about.md)
->* [Redigera inställningar för tangentmontering snabbt](placement-quick-edit.md)
+>* [Granska och korrigera placeringsinställningar med kalkylblad](placement-qa.md)
 >* [Skapa en placering](placement-create.md)
 >* [Duplicera en placering](placement-duplicate.md)
 >* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
@@ -87,5 +100,4 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Placeringsinställningar](placement-settings.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
 >* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

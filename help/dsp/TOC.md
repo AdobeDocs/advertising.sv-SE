@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: c5f26fba0dcf26e0017d881b5ccd9101f98ff43f
+source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '897'
 ht-degree: 3%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 3%
       + [Om Platshantering](/help/dsp/campaign-management/placements/placement-about.md)
       + [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)
       + [Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Redigera inställningar för tangentmontering snabbt](/help/dsp/campaign-management/placements/placement-quick-edit.md)
+      + [Granska och korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Duplicera en placering](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -101,11 +101,6 @@ ht-degree: 3%
       + [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Visa aviseringar](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + Korrigera placeringsinställningar med kalkylblad {#qa-spreadsheet}
-      + [Om att korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/qa/qa-about.md)
-      + [Hämta placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-download.md)
-      + [Överför placeringsinställningar i ett kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-upload.md)
-      + [Kolumner i hämtade/överförda kalkylblad](/help/dsp/campaign-management/qa/qa-sheet-columns.md)
    + [DSP makron](/help/dsp/campaign-management/macros.md)
    + [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
    + [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
