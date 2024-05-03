@@ -1,16 +1,16 @@
 ---
-title: Granska och korrigera placeringsinställningar med kalkylblad
+title: Granska och redigera placeringsinställningar med kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelplacering med hjälp av kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
-# Granska och korrigera placeringsinställningar med kalkylblad
+# Granska och redigera placeringsinställningar med kalkylblad
 
 Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
 
@@ -22,7 +22,7 @@ Du kan sedan göra ändringar i markerade fält och överföra dem tillbaka till
 
 >[!TIP]
 >
->Om du vill göra mer omfattande ändringar av placeringsinställningarna använder du [massredigeringsfunktion](/help/dsp/campaign-management/placements/placement-edit.md).
+>Om du vill redigera fler fält för en eller flera placeringar läser du &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 ## Hämta inställningar för alla placeringar i en kampanj
 
@@ -193,5 +193,5 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. Se &quot;[Kolumner i h�
 
 >[!MORELIKETHIS]
 >
->* [Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

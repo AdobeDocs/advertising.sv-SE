@@ -3,9 +3,9 @@ title: Visa en lista över placeringar som är kopplade till en annons
 description: Lär dig hur du ser de placeringar som är kopplade till en annons.
 feature: DSP Ads
 exl-id: e7c6ce90-b1c9-4ed4-a7db-9e279de15520
-source-git-commit: c3844b70aee5102e47dc8676064ea5a1e6cacaac
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -25,5 +25,5 @@ Se även &quot;[Visa annonser som är kopplade till placeringar](/help/dsp/campa
 >
 >* [Om annonshantering](ad-about.md)
 >* [Redigera en annons](ad-edit.md)
->* [Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md)
+>* [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Visa en detaljerad rapport för en placering](/help/dsp/campaign-management/placements/placement-view-report.md)

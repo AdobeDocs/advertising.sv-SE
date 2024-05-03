@@ -3,9 +3,9 @@ title: Arkivera eller arkivera en placering
 description: Lär dig hur du arkiverar eller avarkiverar en placering.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan när som helst avarkivera en placering för att återställa dess tidigar
 
 ## Arkivera en placering
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
@@ -28,11 +28,11 @@ Du kan när som helst avarkivera en placering för att återställa dess tidigar
 
 >[!NOTE]
 >
->Om du vill visa arkiverade placeringar filtrerar du [!UICONTROL Placements] vy: klicka ![Filterknapp](/help/dsp/assets/filter.png), klicka **[!UICONTROL Placement status]** och markera **[!UICONTROL Archived]** och klicka sedan på **[!UICONTROL Apply].**
+>Om du vill visa arkiverade placeringar filtrerar du [!UICONTROL Placements] visa: klicka ![Filterknapp](/help/dsp/assets/filter.png), klicka **[!UICONTROL Placement status]** och markera **[!UICONTROL Archived]** och klicka sedan på **[!UICONTROL Apply].**
 
 ## Avarkivera en placering
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]**.
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
@@ -41,6 +41,5 @@ Du kan när som helst avarkivera en placering för att återställa dess tidigar
 >[!MORELIKETHIS]
 >
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
->* [Redigera en placering](placement-edit.md)
+>* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
-

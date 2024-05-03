@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: f352af0ffd5bfeab08f6592b4f3af56a9668feaa
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '901'
 ht-degree: 3%
 
 ---
@@ -60,8 +60,8 @@ ht-degree: 3%
    + Placeringar {#placements}
       + [Om Platshantering](/help/dsp/campaign-management/placements/placement-about.md)
       + [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md)
-      + [Granska och korrigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Granska och redigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicera en placering](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
@@ -77,6 +77,7 @@ ht-degree: 3%
       + [Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md)
       + [Skapa flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Skapa annonser med [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Granska annonsinställningar med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
       + [Bifoga annonser till placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)<!-- Dupe link to this file (in Placements chapter), so need to use an absolute link in one of the listings -->

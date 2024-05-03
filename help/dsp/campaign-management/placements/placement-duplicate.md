@@ -1,11 +1,11 @@
 ---
 title: Duplicera placeringar
-description: Lär dig hur du duplicerar en eller flera placeringar.
+description: Lär dig duplicera en eller flera placeringar.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Duplicera en eller flera placeringar för att skapa placeringar med liknande ins
 
 Se &quot;[Vad som inte är duplicerat](#placement-not-duplicated)&quot; för en lista med placeringsinställningar som inte är duplicerade.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på kampanjens namn.
 
@@ -31,7 +31,7 @@ Se &quot;[Vad som inte är duplicerat](#placement-not-duplicated)&quot; för en 
 
 1. Gör något av följande:
 
-   * Om du vill duplicera en placering klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** bredvid paketnamnet.
+   * Om du vill duplicera en placering klickar du  **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** bredvid paketnamnet.
 
    * Så här duplicerar du flera placeringar:
 
@@ -67,13 +67,12 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Geografiska mål
    * Händelsepixlar
    * Annonser
-   * Placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] segment (som åsidosätter segment på annonsörnivå)
+   * Placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] segment (som åsidosätter segmenten på annonsörnivå)
 
 >[!MORELIKETHIS]
 >
 >* [Om Platshantering](placement-about.md)
 >* [Skapa en placering](placement-create.md)
->* [Redigera en placering](placement-edit.md)
+>* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
-

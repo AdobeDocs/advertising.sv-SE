@@ -3,9 +3,9 @@ title: Redigera inställningar för tangentmontering snabbt
 description: Lär dig hur du snabbt ändrar inställningar för tangentplacering.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 3071e4ef8d0c4262483937cf70ed5747bae568c9
+source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 >[!TIP]
 >
-> Om du vill redigera en placeringsinställning läser du &quot;[Redigera en placering](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Om du vill redigera en placeringsinställning läser du &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på kampanjens namn.
@@ -31,7 +31,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >
 >* [Om Platshantering](placement-about.md)
 >* [Skapa en placering](placement-create.md)
->* [Redigera en placering](placement-edit.md)
+>* [Redigera placeringar](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
 >* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
