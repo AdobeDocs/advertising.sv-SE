@@ -2,7 +2,7 @@
 title: Granska annonsinformation med kalkylblad
 description: Lär dig granska annonsinformation, inklusive annonsinställningar och tillhörande placeringar, med kalkylblad.
 feature: DSP Ads
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: fd197543d9f96bfb29784402a4510bd200888b60
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Granska annonsinformation med kalkylblad
 
-Du kan hämta information om alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning. Informationen omfattar annonsinställningarna och tillhörande placeringar.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
+Du kan hämta information om alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning. Bland detaljerna finns annonsinställningarna och tillhörande placeringar.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? -->
 
 >[!NOTE]
 >
