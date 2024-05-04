@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 01cc40d455b0f1b95d3cfe4b93e862627e2025d3
+source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 2 maj 2024 | Ads, Pixels | Du kan hämta inställningarna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning från [!UICONTROL Ad Tools] vy. | Se &quot;[Granska annonsinställningar med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
+| 2 maj 2024 | Ads, Pixels | Du kan hämta annonsinställningarna och placeringsassociationerna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning från [!UICONTROL Ad Tools] vy. | Se &quot;[Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | The [!UICONTROL Ad Tools] visa > [!UICONTROL Attach Pixels] -fliken visar pixlar för spårning från tredje part som är kopplade till dina annonser och ett nytt arbetsflöde för att koppla pixlar till en eller flera annonser och frigöra befintliga pixlar. | Se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
 |  | Placeringar, målgrupper | Nu kan du utesluta enskilda målgruppssegment eller icke återanvändbara målgrupper från placeringar via gruppredigeringsverktyg eller placeringsredigeraren. | Se &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)och &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 18 april 2024 | Placeringar | Nu kan du skapa och hantera budmodifierare, som multipliceras med ett bud för att öka eller minska anbudet, för angivna måltyper för en placering. Standardbudmodifieraren är 1,00, vilket betyder ingen ökning eller minskning. Värdena kan ligga mellan 0,10 och 10,00. En budmodifierare på 0,50 minskar till exempel ett USD 6-bud till USD 3 (0,50 x 6). När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmodifierare. Anbudsmodifierare ökar aldrig anbudet till mer än det högsta anbudet. | Se &quot;[Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
