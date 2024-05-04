@@ -2,9 +2,9 @@
 title: Granska annonsinställningar med kalkylblad
 description: Lär dig hur du granskar annonsinställningar med hjälp av kalkylblad.
 feature: DSP Ads
-source-git-commit: ba940f8476463a6804f024b1597be74ffc5a6c0c
+source-git-commit: 24e6339d7217c02c993702e203acda362c25fd0e
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Du kan hämta inställningarna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning.<!-- Clarify once I can get this to work: Do these include all ads in the campaign, only active ads in live or pending campaigns, or what? And does it include all possible settings, or just a subset?  -->
 
->[!TIP]
+>[!NOTE]
 >
->*Använd [massredigeringsfunktion](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Information om hur du redigerar annonsinställningarna finns i [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md).
 >*Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt eller bifoga annonser till praktik går du till &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
 
 1. Klicka på **[!UICONTROL Campaigns]**.
