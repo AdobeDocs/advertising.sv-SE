@@ -3,9 +3,9 @@ title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Följande inställningar gäller för vanliga displayannonser.
 
 **[!UICONTROL Certified Vendors]:** (Endast utbyggbara banners från tredje part) Den certifierade leverantör som annonsen är tillgänglig för: *[!UICONTROL DCM]* ([!DNL Google DoubleClick for Advertisers]), *[!UICONTROL Flashtalking]*, *[!UICONTROL Sizmek]*, eller *[!UICONTROL Jivox]*.
 
-**[!UICONTROL Display Code]:** (Endast annonser från tredje part) URL:en för den kreativa resursen från tredje part. Alla [tidsstämpel] och [[tidsstämpel]]-parametrar ersätts med faktiska värden.
+**[!UICONTROL Display Code]:** (Endast annonser från tredje part) URL:en för den kreativa resursen från tredje part. Alla [tidsstämpel] och [[tidsstämpel]]-parametrar ersätts med verkliga värden.
 
 **[!UICONTROL Final Display Code]:** (Endast annonser från tredje part) URL:en för den kreativa resursen från tredje part, med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 

@@ -3,9 +3,9 @@ title: Inställningar för mobilannonsering
 description: Se beskrivningar av tillgängliga annonsinställningar för mobilannonser.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 **\[Annonskälla\]**: (skrivskyddat) *[!UICONTROL 3rd party]*.
 
-**[!UICONTROL Display Code]:** URL:en för den kreativa resursen från tredje part. Alla [tidsstämpel] och [[tidsstämpel]]-parametrar ersätts med faktiska värden.
+**[!UICONTROL Display Code]:** URL:en för den kreativa resursen från tredje part. Alla [tidsstämpel] och [[tidsstämpel]]-parametrar ersätts med verkliga värden.
 
 **[!UICONTROL Final Display Code]:** URL:en för det kreativa materialet från tredje part, med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 

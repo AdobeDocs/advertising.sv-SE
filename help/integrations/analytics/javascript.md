@@ -3,9 +3,9 @@ title: JavaScript-kod för [!DNL Analytics for Advertising]
 description: JavaScript-kod för [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 18bfb32d-2754-44b2-86c1-d102836cc08c
-source-git-commit: d591388a956adf41882b0bfdd5f74c5a07837657
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Du kan utföra valideringen med valfritt verktyg för paketkodsnuttar (t.ex. [!D
 
    ![Filtrera på `/interact`](/help/integrations/assets/a4adc-code-validation-filter-interact.png)
 
-1. Jämför ID-värdena mellan de två träffarna. Alla värden kommer att finnas i frågesträngsparametrar förutom rapportsvitens-ID i Analytics-träffen, som är URL-sökvägen omedelbart efter `/b/ss/`.
+1. Jämför ID-värdena mellan de två träffarna. Alla värden ska finnas i frågesträngsparametrar förutom för rapportsvitens-ID i Analytics-träffen, som är URL-sökvägen omedelbart efter `/b/ss/`.
 
    | ID | Analysparameter | Edge Network | Adobe Advertising-parameter |
    | --- | --- | --- | --- |
@@ -108,7 +108,7 @@ Du kan utföra valideringen med valfritt verktyg för paketkodsnuttar (t.ex. [!D
 1. I [!UICONTROL Request URL - Hostname] parameterrad, lokalisera `lasteventf-tm.everesttech.net`.
 1. I [!UICONTROL Request - Parameters] rad, granska genererade signaler, liknande steg 3 i &quot;[Bekräfta koden med [!DNL Chrome Developer Tools]](#validate-js-chrome).&quot;
    * (Implementeringar som använder Experience Cloud Identity Service `visitorAPI.js` kod) Kontrollera att `Sdid` parametern matchar `Supplemental Data ID` i Adobe Analytics-filtret.
-   * (Implementeringar som använder Experience Platform [!DNL Web SDK] `alloy.js`kod) Kontrollera värdet på `advertisingStitchID` parametern matchar `Sdid` skickas till Experience Platform Edge-nätverket.
+   * (Implementeringar som använder Experience Platform [!DNL Web SDK] `alloy.js`kod) Kontrollera värdet på `advertisingStitchID` parametern matchar `Sdid` skickas till Experience Platform Edge Network.
    * Om koden inte genereras kontrollerar du att cookien Adobe Advertising har tagits bort i [!UICONTROL Application] -fliken. Uppdatera sidan och upprepa processen när den har tagits bort.
 
    ![Granskning [!DNL Analytics for Advertising] JavaScript-kod i [!DNL Experience Cloud Debugger]](/help/integrations/assets/a4adc-js-audit-debugger.png)

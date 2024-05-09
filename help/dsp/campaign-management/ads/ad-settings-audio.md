@@ -3,9 +3,9 @@ title: Ljudannonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för ljudannonser.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: VAST-taggens URL.
 
-**[!UICONTROL Title]**: Ett namn på filen som ska användas i [!UICONTROL Ads] visa och rapportera.
+**[!UICONTROL Title]**: Ett namn på filen som används i [!UICONTROL Ads] visa och rapportera.
 
 >[!TIP]
 >
@@ -44,7 +44,7 @@ Det här fältet kanske visas eller inte, beroende på kontobehörigheterna.
 
 **[!UICONTROL Final VAST Tag]:** (Endast annonser som använder VAST-taggar) URL:en för annonskällan från tredje part med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
-**[!UICONTROL Select Rate]:** (Användare med endast tillstånd) En förförhandlad avgift som faktureras via Adobe, eller en av de priser som du har förhandlat och som faktureras via leverantören. Om du vill lägga till en avgift kontaktar du kontoteamet på Adobe.
+**[!UICONTROL Select Rate]:** (Användare med enbart tillstånd) En förförhandlad avgift som faktureras via Adobe, eller en av de priser som du har förhandlat och som faktureras via leverantören. Om du vill lägga till en avgift kontaktar du kontoteamet på Adobe.
 
 ### [!UICONTROL Pixel]
 

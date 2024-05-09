@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: a2712e16a54c7108e5999cb1b8db46e507a9ed55
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Conversion Reporting Based On]:**  Rapportera konverteringsdata:
 
-* *[!UICONTROL Conversion Timestamp]:* (Standardvärdet) Konverteringar associeras med konverteringsdatumet.
+* *[!UICONTROL Conversion Timestamp]:* (Standard) Konverteringar är associerade med konverteringsdatumet.
 
 * *[!UICONTROL Event Timestamp]:* Konverteringar rapporteras baserat på datumet för det intryck eller klick som orsakade konverteringen, enligt det angivna [!UICONTROL Attribution Rule Settings].
 
@@ -134,7 +134,7 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Email]:** (Endast typ av e-postmål) Ange adressen för varje adress och klicka på **+**.
 
-**[!UICONTROL Destination Name]:** (Endast måltyperna S3, FTP, sFTP och FTP SSL) Namnen på rapportdestinationerna som den anpassade rapporten ska skickas till.
+**[!UICONTROL Destination Name]:** (Endast måltyperna S3, FTP, sFTP och FTP SSL) Namnen på rapportdestinationerna som den anpassade rapporten skickas till.
 
 * Om du vill ange ett befintligt mål väljer du ett målnamn i listan. Du kan markera flera målnamn separat.
 

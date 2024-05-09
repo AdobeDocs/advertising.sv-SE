@@ -3,9 +3,9 @@ title: Inställningar för ansluten TV-annons
 description: Se beskrivningar av tillgängliga annonsinställningar för anslutna TV-annonser.
 feature: DSP Ads
 exl-id: d8e47f7e-7480-400f-8ffa-ecf41ce2ebfb
-source-git-commit: 2f137b17deea4cd02ae19494a306ff37c7002423
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL URL]**: VAST-taggens URL.
 
-**[!UICONTROL Title]**: Ett namn på filen som ska användas i annonsvyn och -rapporter.
+**[!UICONTROL Title]**: Ett namn på filen, som används i annonsvyn och rapporter.
 
 >[!TIP]
 >

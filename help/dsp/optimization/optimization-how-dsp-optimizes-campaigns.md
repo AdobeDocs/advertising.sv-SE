@@ -3,9 +3,9 @@ title: Hur DSP optimerar era kampanjer
 description: Lär dig hur DSP optimerar paketen i era kampanjer.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ På den här sidan beskrivs hur den DSP optimeringsmotorn som drivs av [!DNL Ado
 
 Paketoptimeringsmålen fungerar på två nivåer:
 
-* För varje paket: DSP allokerar budget till varje placering i paketet baserat på placeringens prestanda jämfört med den valda KPI:n.
+* För varje paket: DSP allokerar budget till varje placering i paketet baserat på placeringens prestanda i förhållande till den valda KPI:n.
 
 * För varje placering/auktion i paketet: DSP beräknar det ekonomiska KPI-värdet i realtid för varje auktion per placering och använder sedan detta värde för att fastställa anbudet.
 
-   >[!NOTE]
-   >
-   >Det ekonomiska värdet kan vägas kraftigt baserat på hur väl en placering är utgiven. Om en placering ligger bakom utgiftsmålet får man köpa auktioner med lägre kvalitet. Om en placering lätt kan uppnå sitt utgiftsmål kommer den att fokusera på auktioner med högre kvalitet.
+  >[!NOTE]
+  >
+  >Det ekonomiska värdet kan vägas kraftigt baserat på hur väl en placering är utgiven. Om en placering ligger bakom sitt utgiftsmål får man köpa auktioner med lägre kvalitet. Om en placering lätt kan uppnå sitt utgiftsmål flyttas fokus till auktioner med högre kvalitet.
 
 ## Paketoptimering
 
@@ -34,7 +34,7 @@ DSP kan optimera leveransen på två grundläggande sätt, med 20 olika variante
 
 Se [Optimeringsmål och Så här använder du dem](optimization-goals.md) för att avgöra vilket optimeringsmål som hjälper dig att uppnå dina nyckeltal.
 
-### Paket som prioriterar prestandahastigheten
+### Paket som prioriterar prestandahastighet
 
 För optimeringsmål som prioriterar prestandakursen förutser DSP resultatet för varje auktion och alltid offerter vid det högsta anbudet. Exempel på tillämpliga optimeringsmål är [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate]och så vidare.
 
@@ -50,9 +50,9 @@ Det här optimeringsläget fungerar bra om:
 
 * Om ni spenderar pengar i takt med detta blir budgivningen mer selektiv, så att ni bara kan lägga bud på auktioner som förväntas ha höga prestationsnivåer.
 
-* Om ni ligger efter kommer budgivningen att bli mindre selektiv, så att ni kan lägga bud på auktioner som förväntas ha lägre prestationsnivåer för att hinna ikapp målsättningen.
+* Om ni ligger efter i tiden blir budgivningen mindre selektiv, så att ni kan lägga bud på auktioner som förväntas ha lägre prestationsnivåer för att hinna med det kommande målet.
 
-#### Rensa pris/budskugga {#clearing-price-performance}
+#### Rensar pris/budskugga {#clearing-price-performance}
 
 När den har exekverat paketeringslogiken, kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 
@@ -66,9 +66,9 @@ För vissa optimeringsmål förutser DSP resultatet för varje auktion och juste
 
 * Om ett prestandamått också balanseras (alla mål utom [!UICONTROL Lowest CPM]), blandas den förväntade KPI:n med beloppet som är anbudet. Ni lägger därför ett högre bud på auktioner som förutspås bli mer presterande på&quot;kostnad per&quot;-basis.
 
-* Om utgiftsnivån ligger efter blir DSP mindre priskänslig och offrar högre belopp, upp till [!UICONTROL Max Bid], för att sälja in vinsten med paketplanen.
+* Om utgiftsnivån ligger efter blir DSP mindre priskänslig och offrar högre belopp, upp till [!UICONTROL Max Bid], för att sälja in vinsten med en pacingplan.
 
-#### Rensa pris/budskugga {#clearing-price-balanced}
+#### Rensar pris/budskugga {#clearing-price-balanced}
 
 När den har exekverat paketeringslogiken, kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 
@@ -89,4 +89,3 @@ Se [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimizati
 >* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
 >* [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md)
 >* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
-

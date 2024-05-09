@@ -3,9 +3,9 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
    1. I **[!UICONTROL Account Details]** anger du kontoinformationen.
 
-      För annonsnätverk som använder inloggningsauktoriseringstypen &quot;[!UICONTROL oAuth],&quot; tillåter att Search, Social och Commerce får åtkomst till kontot via [OAuth-auktoriseringsprotokoll](https://oauth.net/2/):
+      För annonsnätverk som använder inloggningsauktoriseringstypen &quot;[!UICONTROL oAuth],&quot; gör att Search, Social och Commerce kan komma åt kontot via [OAuth-auktoriseringsprotokoll](https://oauth.net/2/):
 
       1. Ange **[!UICONTROL Login]** för kontot, ange lösenordet och klicka sedan på **[!UICONTROL Authenticate]**.
 
@@ -55,7 +55,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
 1. Klicka på **[!UICONTROL Post]**.
 
-   De senaste kostnads- och klickdatan för alla kampanjer på kontot är tillgängliga inom Sök, Sociala och Commerce på cirka 24 timmar. Som standard är data tillgängliga under de senaste 5-10 dagarna, beroende på annonsnätverket. Vid behov kan startteamet dock hämta data för upp till de senaste 60 dagarna.
+   De senaste kostnads- och klickuppgifterna för alla kampanjer på kontot finns tillgängliga i Search, Social och Commerce på cirka 24 timmar. Som standard är data tillgängliga under de senaste 5-10 dagarna, beroende på annonsnätverket. Vid behov kan startteamet dock hämta data för upp till de senaste 60 dagarna.
 
 ## Redigera information om nätverkskonton {#edit-account}
 
@@ -81,13 +81,13 @@ Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametr
 
    >[!NOTE]
    >
-   >Search, Social, &amp; Commerce måste synkronisera nya kontodata med data i annonsnätverket. Detta sker automatiskt en gång om dagen, eller oftare när Sök, Social och Commerce upptäcker ändringar i annonsnätverket.
+   >Search, Social och Commerce måste synkronisera de nya kontodata med de som finns i annonsnätverket. Detta sker automatiskt en gång om dagen, eller oftare när Search, Social och Commerce upptäcker ändringar i annonsnätverket.
 
 ## Uppdatera åtkomsttoken för autentisering för sökkonton {#refresh-oauth-tokens}
 
 *Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
 
-Om Sök, Socialt och Commerce kommer åt kontot med [OAuth-auktoriseringsprotokoll](https://oauth.net/2/) och kontoinloggningsuppgifterna ändras, eller om ytterligare åtkomst krävs för att ge stöd åt nya funktioner i Sök, Socialt och Commerce, måste du skaffa en ny åtkomsttoken för kontot.
+Om Search, Social och Commerce har åtkomst till kontot via [OAuth-auktoriseringsprotokoll](https://oauth.net/2/) och kontoinloggningsuppgifterna ändras, eller om ytterligare åtkomst krävs för att stödja nya funktioner i Sök, Sociala och Commerce, måste du skaffa en ny åtkomsttoken för kontot.
 
 Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
@@ -113,7 +113,7 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 *Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
 
-När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto stoppar Search, Social och Commerce all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
+När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto stoppar Search, Social och Commerce all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
 
 1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]**.
 
@@ -178,12 +178,12 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 >* Det här fältet uppdateras inte av [!UICONTROL Auto Upload] spårningsinställning.
 >* Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
 
-**Tidszon:** (Alla annonsnätverk utom [!DNL Baidu] och [!DNL Yahoo! Display Network]) Annonsörens tidszon. Det här fältet är redigerbart och valfritt för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den tidszon som konfigurerats för annonserarens konto Sök, Sociala och Commerce när du har sparat posten.
+**Tidszon:** (Alla annonsnätverk utom [!DNL Baidu] och [!DNL Yahoo! Display Network]) Annonsörens tidszon. Det här fältet är redigerbart och valfritt för nya [!DNL Naver] konton. För alla andra söknätverk fylls värdet automatiskt i med den tidszon som konfigurerats för annonserarens konto Sök, Socialt och Commerce när du har sparat posten.
 
-**Status:** Kontostatus i Sök, Socialt och Commerce:
+**Status:** Kontostatus i Search, Social och Commerce:
 
-* *Aktiverad:* Sökning, sociala medier och handel synkroniserar kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer.
-* *Inaktiverad:* Sök, Socialt och Commerce stoppar all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot pausas. Du kan återaktivera kontot senare om du vill återuppta aktiviteten med kontot.
+* *Aktiverad:* Search, Social och Commerce synkroniserar kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer.
+* *Inaktiverad:* Search, Social och Commerce stoppar all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot pausas. Du kan återaktivera kontot senare om du vill återuppta aktiviteten med kontot.
 
 **Spårningsmall** - ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] endast konton (valfritt) Standardspårningsmallen för kontot, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och även bäddar in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
 
@@ -197,7 +197,7 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 * Du kan också lägga till omdirigeringar och spårning från tredje part.
 
-* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Search, Social och Commerce prefixerar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
 
 >[!NOTE]
 >
@@ -211,7 +211,7 @@ Konton som använder klickspårning i Adobe Advertising måste innehålla annons
 
 **[!UICONTROL Application ID]:** ([!DNL Yandex] endast konton) Den utvecklartoken som ska användas för kontot. Samma token används för alla [!DNL Yandex] konton.
 
-**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] konton med inställningen Delat konto inaktiverad endast; valfritt) Det numeriska ID:t för kampanjen som ska användas för att betala för alla annonskampanjer i kontot.
+**[!UICONTROL Purse Campaign ID]:** ([!DNL Yandex] konton med inställningen Delat konto inaktiverad endast; valfritt) Det numeriska ID:t för kampanjen som används för att betala för alla annonskampanjer i kontot.
 
 **[!UICONTROL Finance Token]:** ([!DNL Yandex] konton med inställningen Delat konto inaktiverad endast; valfritt) Den utvecklartoken som ska användas för finansrelaterade API-anrop, t.ex. för omfördelning av pengar från plånboken mellan annonserarens kampanjer efter behov för portföljoptimering.
 
@@ -253,7 +253,7 @@ Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klicka
 
 Fullständiga anvisningar finns i &quot;[Uppdatera spårningskoden för AMO ID för en [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md).&quot;
 
-**Namn på rapportsvit** - (For EF Redirect with token only; publishers with an Adobe Advertising-Adobe Analytics integration; optional) One or more Analytics report suites to which Search, Social, &amp; Commerce sending data it samlar in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
+**Namn på rapportsvit** - (For EF Redirect with token only; publishers with an Adobe Advertising-Adobe Analytics integration; optional) One or more Analytics report suites to which Search, Social, &amp; Commerce send data it collections from the ad network, including entity classifications and click data for the account. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
 För att data ska kunna visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen på annonsörnivå måste vara &quot;[!UICONTROL Enable tracking for SAINT feeds]måste vara aktiverat. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
 

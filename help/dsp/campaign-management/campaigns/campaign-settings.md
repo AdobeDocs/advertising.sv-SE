@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,9 @@ När du väljer *[!UICONTROL Yes],* ange marginaltyp och marginalbelopp:
 
    * *[!UICONTROL Dynamic]:* Gör att du kan hantera marginaler ned till placeringsnivån genom att ange en separat [!UICONTROL Budget Reserve %] och [!UICONTROL Gross Budget] för varje paket och placering i kampanjen. DSP optimerar utifrån varje placerings ekonomiska effektivitet, utan att garantera en viss marginal. Använd detta för infogningsorder som består av flera radobjekt för vilka du har godkänt att leverera ett fast antal enheter eller enhetstyper till en fast ränta.
 
-* **[!UICONTROL Fixed Margin %]:** (Endast kampanjer med fasta marginaler) Standardkoden för varje infogningsorder <!-- impression? -->, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+* **[!UICONTROL Fixed Margin %]:** (Endast kampanjer med fasta marginaler) Standardkoden för varje infogningsorder <!-- impression? -->, som ett procenttal. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
 
-* **[!UICONTROL Budget Reserve %]:** (Endast kampanjer med fasta marginaler. valfritt) Reserverar en angiven procentandel av [!UICONTROL Gross Budget] som skydd. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+* **[!UICONTROL Budget Reserve %]:** (Endast kampanjer med fasta marginaler, valfritt) Reserverar en angiven procentandel av [!UICONTROL Gross Budget] som skydd. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
 
 **[!UICONTROL Gross Budget]:** (Endast kampanjer med marginalledning) Bruttokampanjbudgeten, innan de angivna marginaljusteringarna tillämpas.
 
@@ -60,7 +60,7 @@ Så här beräknar du källskatt:
 
 1. Klicka på **[!UICONTROL Update rates here]**.
 
-1. Ange **[!UICONTROL Estimated tax rate]**, i procent.
+1. Ange **[!UICONTROL Estimated tax rate]**, som ett procenttal.
 
 1. Markera kryssrutan bredvid varje avgiftstyp för vilken du vill hålla inne skatt. Avgiftstyperna är:
 
@@ -78,16 +78,15 @@ Så här beräknar du källskatt:
 >
 >* Du kan också konfigurera dessa värden i kontots avgiftsinställningar.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
+**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP ska rikta annonser och tillämpa frekvensgränser: *Samma enhet* för en enhet eller *Folk* för att rikta sig till en person på alla deras kända enheter.
 
-**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020. inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP ska rikta annonser och tillämpa frekvensbegränsningar: *Samma enhet* för en enhet eller *Folk* för att rikta sig till en person på alla deras kända enheter.
-
-**[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer. kampanjer med personbaserad målinriktning på olika enheter) Enhetsgrafen som ska användas för målinriktning på olika enheter och frekvenshantering:
+**[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer; kampanjer med personbaserad målinriktning över flera enheter) Det enhetsdiagram som ska användas för målinriktning mellan olika enheter och frekvenshantering:
 
 * *[!UICONTROL LiveRamp - U.S. only]:* Tillgängligt för alla annonsörer för målinriktning mellan olika enheter på 0,35 CPM för visningar som levereras med [!DNL LiveRamp] enhetsdiagram (d.v.s. för enheter som inte hittas inom målgruppssegmenten). Ni kan ange målinriktning mellan olika enheter på placeringsnivå.
 
-   Det här alternativet är även tillgängligt för alla annonsörer, utan avgifter, för frekvenshantering och attribueringsmätning.
+  Det här alternativet är även tillgängligt för alla annonsörer, utan avgifter, för frekvenshantering och attribueringsmätning.
 
-**[!UICONTROL Frequency Cap]:** (Valfritt) Antalet gånger en unik enhet eller person (beroende på den angivna [!UICONTROL Cross Device Level]) får annonser från kampanjen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
+**[!UICONTROL Frequency Cap]:** (Valfritt) Antalet gånger en unik enhet eller person (beroende på den angivna [!UICONTROL Cross Device Level]) kan få annonser från kampanjen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
 
 >[!NOTE]
 >
@@ -109,13 +108,13 @@ Så här beräknar du källskatt:
 
 * **[!UICONTROL Measure On]:** Det lager som ska mätas: *[!UICONTROL Display and VPAID video inventory]* (standard) eller *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
-   >[!NOTE]
-   >
-   >Videosynlighet kan endast mätas i VPAID-lager.
+  >[!NOTE]
+  >
+  >Videosynlighet kan endast mätas i VPAID-lager.
 
-* **[!UICONTROL IAS Account ID (AnID)]:** (Advertisers with their own [!DNL IAS] Konton. valfritt) Organisationens [!DNL IAS] konto-ID, som [!DNL IAS] fakturerar direkt för användning.
+* **[!UICONTROL IAS Account ID (AnID)]:** (Advertisers with their own [!DNL IAS] konton; valfritt) Organisationens [!DNL IAS] konto-ID, som [!DNL IAS] fakturerar direkt för användning.
 
-* **[!UICONTROL IAS Team ID]:** (Advertisers with their own [!DNL IAS] Konton. valfritt) ID för team för organisationens [!DNL IAS] konto, som [!DNL IAS] fakturerar direkt för användning. <!-- verify -->
+* **[!UICONTROL IAS Team ID]:** (Advertisers with their own [!DNL IAS] (valfritt) ID för team för organisationens [!DNL IAS] konto, som [!DNL IAS] fakturerar direkt för användning. <!-- verify -->
 
 **[!UICONTROL MOAT]:** (Valfritt) Aktiverar [!DNL MOAT] mätning och rapportering av synlighet, bedrägeri, varumärkessäkerhet och målgruppsverifiering. Ytterligare avgifter tillkommer.
 
@@ -139,7 +138,7 @@ Så här beräknar du källskatt:
 
 ### [!UICONTROL 1st Party Metrics]
 
-**[!UICONTROL Viewability sensitivity]:** Aktiverar mätning och rapportering av visningsbarhet från första part med [!DNL IAB Open Video Viewability (OpenVV)] teknik som bygger på den angivna känslighetsnivån:
+**[!UICONTROL Viewability sensitivity]:** Aktiverar förstahandsmätning och rapportering av visningsbarhet med [!DNL IAB Open Video Viewability (OpenVV)] teknik som bygger på den angivna känslighetsnivån:
 
 * *[!UICONTROL Standard (50% of ad in view for two consecutive seconds)]*
 
@@ -151,4 +150,3 @@ Så här beräknar du källskatt:
 >* [Skapa en kampanj](campaign-create.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
-

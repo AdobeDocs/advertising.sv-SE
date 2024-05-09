@@ -3,9 +3,9 @@ title: Skapa flera tredjepartsannonser
 description: Lär dig skapa flera tredjepartsannonser samtidigt.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 5139e6022cd5f5f11046d8f38bd0f1db91464928
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ Du kan överföra antingen [!DNL DoubleClick] och [!DNL Flashtalking] eller en f
 
 >[!TIP]
 >
-> Det bästa sättet är att använda tredjepartsannonser som hanteras säkert med HTTPS. URL:er som hanteras med HTTPS börjar med &quot;https&quot;.
+> Det bästa sättet är att använda annonser från tredje part som hanteras säkert med HTTPS. URL:er som hanteras med HTTPS börjar med &quot;https&quot;.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 
 1. Klicka på namnet på kampanjen där annonsen ska inkluderas.
 
-1. Ovanför datatabellen klickar du på **[!UICONTROL Create]**. Klicka på i avsnittet Ad Types på menyn **[!UICONTROL Bulk upload ads]**.
+1. Ovanför datatabellen klickar du **[!UICONTROL Create]**. Klicka på i avsnittet Ad Types på menyn **[!UICONTROL Bulk upload ads]**.
 
 1. Välj annonsservern som annonsen finns på: *[!UICONTROL DoubleClick]*, *[!UICONTROL Flashtalking]*, eller *[!UICONTROL Other]*.
 
@@ -48,19 +48,19 @@ Du kan överföra antingen [!DNL DoubleClick] och [!DNL Flashtalking] eller en f
 
    1. (Valfritt) Gör något av följande för varje annons:
 
-      * Om du vill förhandsgranska en annons klickar du på ![play](/help/dsp/assets/play.png) i annonsraden.
+      * Om du vill förhandsgranska en annons klickar du ![play](/help/dsp/assets/play.png) i annonsraden.
 
       * Om du vill redigera annonsinformationen klickar du på ![redigera](/help/dsp/assets/edit.png), redigera informationen och klicka sedan på **Spara**.
 
-      * Om du vill ta bort en annons klickar du på **[!UICONTROL X]** i annonsraden.
+      * Om du vill ta bort en annons klickar du **[!UICONTROL X]** i annonsraden.
 
-1. Klicka **[!UICONTROL Create *N *Annonser]**.
+1. Klicka **[!UICONTROL Create *N *Annons(er)]**.
 
 1. Gör något av följande:
 
    * Klicka på **[!UICONTROL Done]**.
 
-   * (Om en annons avslås. (valfritt) Om du vill redigera annonsposten och skicka om annonsen för granskning:
+   * (Om en annons refuseras, valfritt) Om du vill redigera annonsposten och skicka annonsen igen för granskning:
 
       1. Klicka på annonsens namn.
 
@@ -77,6 +77,5 @@ Du kan överföra antingen [!DNL DoubleClick] och [!DNL Flashtalking] eller en f
 >* [Om annonshantering](ad-about.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [Skapa en annons](ad-create.md)
->* [Video: Så här överför du tredjeparts-annonstaggar gruppvis](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Video: Så här överför du externa annonstaggar gruppvis](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
-

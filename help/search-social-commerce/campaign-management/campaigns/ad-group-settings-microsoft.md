@@ -3,7 +3,7 @@ title: '''[!DNL Microsoft® Advertising] och gruppinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] annonsgrupper.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 2407d29fb4061e6b3181b86c335c52a8384c4ca3
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Annonsplacering via uppkopplad TV (CTV) beror på videons kvalitet och anbudsbel
 
 {{$include /help/_includes/custom-parameters.md}}
 
-**[!UICONTROL Adgroup Frequency Cap Settings]:** (Valfritt) Det antal gånger en kund får annonser från annonskoncern. Ange ett värde och välj tidsenhet (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, eller *[!UICONTROL Week]*).
+**[!UICONTROL Adgroup Frequency Cap Settings]:** (Valfritt) Det antal gånger en kund kan få annonser från annonskoncern. Ange ett värde och välj tidsenhet (*[!UICONTROL Hour]*, *[!UICONTROL Day]*, eller *[!UICONTROL Week]*).
 
 ## [!UICONTROL Negative Keywords]
 

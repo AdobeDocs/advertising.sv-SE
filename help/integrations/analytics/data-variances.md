@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertisin
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3212'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Anta att en besökare fick en annons dag 1 i följande exempel, utförde ett bes
 
 ![Exempel på en konvertering av genomskinlig bild i [!DNL Analytics] men inte Adobe Advertising](/help/integrations/assets/a4adc-viewthrough-example.png)
 
-En annan orsak till diskrepanser är att du i Adobe Advertising kan tilldela visningskonverteringar till anpassade *genomskinlig vikt* som är relativ till den vikt som tillskrivs en klickbaserad konvertering. Standardbredden för genomvyn är 40 %, vilket innebär att en genomsiktskonvertering räknas som 40 % av värdet för en klickbaserad konvertering. [!DNL Analytics] innehåller ingen sådan viktning av genomskinliga konverteringar. En 100 US-dollar-intäktsorder som hämtats in i [!DNL Analytics] kommer att diskonteras till 40 USD i Adobe Advertising om du använder standardvikten för att visa genom, vilket är en skillnad på 60 USD.
+En annan orsak till diskrepanser är att du i Adobe Advertising kan tilldela visningskonverteringar till anpassade *genomskinlig vikt* som är relativ till den vikt som tillskrivs en klickbaserad konvertering. Standardbredden för genomvyn är 40 %, vilket innebär att en genomsiktskonvertering räknas som 40 % av värdet för en klickbaserad konvertering. [!DNL Analytics] innehåller ingen sådan viktning av genomskinliga konverteringar. En 100 US-dollar-intäktsorder som hämtats in i [!DNL Analytics] Rabatteras till 40 USD i Adobe Advertising om du använder standardvikten för att visa genom, dvs. en skillnad på 60 USD.
 
 Tänk på dessa skillnader när du jämför genomskinliga konverteringar mellan Adobe Advertising och [!DNL Analytics] rapporter.
 
@@ -96,7 +96,7 @@ Om du är inloggad [!DNL Search, Social, & Commerce]finns det en lista
 
 #### Attribut för händelsedatum i Adobe Advertising
 
-I Adobe Advertising kan du rapportera konverteringsdata antingen efter det associerade klickdatumet/händelsedatumet (datumet för klickhändelsen eller tryckhändelsen) eller efter transaktionsdatumet (konverteringsdatumet). Konceptet för klicknings-/händelsedatumrapportering finns inte i [!DNL Analytics]; alla konverteringar spåras i [!DNL Analytics] rapporteras per transaktionsdatum. Därför kan samma konvertering rapporteras med olika datum i Adobe Advertising och [!DNL Analytics]. Tänk dig en användare som klickar på en annons den 1 januari och konverterar den 5 januari. Om du visar konverteringsdata per händelsedatum i Adobe Advertising rapporteras konverteringen den 1 januari, när klickningen inträffade. I [!DNL Analytics], skulle samma konvertering rapporteras den 5 januari.
+I Adobe Advertising kan du rapportera konverteringsdata antingen efter det associerade klickdatumet/händelsedatumet (datumet för klickhändelsen eller tryckhändelsen) eller efter transaktionsdatumet (konverteringsdatumet). Konceptet för klicknings-/händelsedatumrapportering finns inte i [!DNL Analytics]; alla konverteringar spåras i [!DNL Analytics] rapporteras per transaktionsdatum. Därför kan samma konvertering rapporteras med olika datum i Adobe Advertising och [!DNL Analytics]. Tänk dig en användare som klickar på en annons den 1 januari och konverterar den 5 januari. Om du visar konverteringsdata per händelsemedatum i Adobe Advertising rapporteras konverteringen den 1 januari, när klickningen inträffade. I [!DNL Analytics], rapporteras samma konvertering den 5 januari.
 
 ![Exempel på en konvertering som tilldelats olika datum](/help/integrations/assets/a4adc-conversions-based-on.png)
 

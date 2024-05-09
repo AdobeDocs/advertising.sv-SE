@@ -3,9 +3,9 @@ title: Visa prognosrapport för placering
 description: Se hur många visningar, utgifter och optimalt maximalt bud som prognostiserats för en viss målinriktningsstrategi för en placering.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 2ecf1eacb2a47c20e0c05f9ff62386869b644ba6
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Prognosen innehåller följande information:
 
    * Placeringen använder en ny annonstyp för kampanjen.
 
-     En placering är vanligtvis en samling med flera annonsmallar som definieras av plattformar på utbudssidan. Så även om placeringen har funnits länge kan den underliggande annonsmallen vara ny och prognosverktyget kan inte prognostisera.
+     En placering är vanligtvis en samling med flera annonsmallar som definieras av plattformar på utbudssidan. Så även om placeringen har funnits länge, och om den underliggande annonsmallen är ny, kan prognosverktyget inte skapa en prognos.
 
 ## Öppna prognosrapporten för placering
 

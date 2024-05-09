@@ -2,9 +2,9 @@
 title: Hantera budmultiplikationer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för angivna placeringsmål.
 feature: DSP Placements
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ För alla markerade placeringar kan du antingen redigera värden manuellt eller 
 
    * Flytta till varje målspecifik flik ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och[!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen.
 
-   Samma ändringar görs på alla markerade placeringar.
+   Samma ändringar gäller för alla markerade placeringar.
 
    * Så här överför du en CSV-fil med budmultiplikatorvärden som skriver över befintliga värden:
 

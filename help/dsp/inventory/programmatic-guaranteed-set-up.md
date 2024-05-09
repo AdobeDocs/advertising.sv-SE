@@ -3,9 +3,9 @@ title: Ställ in en programgaranterad affär
 description: Lär dig hur du skapar ett programmatiskt garantiavtal (PG) som du har förhandlat fram med en utgivare.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: f887524a22dd5d665dcfc38b1a4ce2a1242638d7
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buy
 
 1. [Acceptera erbjudandet](deal-id-inbox-accept.md).
 
-1. När du har sparat erbjudandet väljer du de annonser (eller 1 x 1-pixel för spårning av annonser som hanteras av utgivaren) som ska användas för erbjudandet och skapar en programmatisk standardplacering som garanteras (PG) enligt uppmaningen.
+1. När du har sparat erbjudandet väljer du annonserna (eller 1x1-spårningspixel för publicerarhanterade annonser) som ska användas för erbjudandet och skapar en programmatisk standardplacering som garanteras (PG) enligt uppmaningen.
 
    Det är obligatoriskt att skapa en standardplacering för PG-paketet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 
@@ -48,7 +48,7 @@ Använd den här metoden för alla andra SSP:er.
 
 1. [Ställ in detaljer för erbjudande-ID manuellt](deal-id-create.md).
 
-1. När du har sparat erbjudandet väljer du de annonser (eller 1x1-spårningspixlar för annonser som hanteras av utgivaren) som ska användas för erbjudandet och skapar en standardplacering för PG, enligt uppmaningen.
+1. När du har sparat erbjudandet väljer du annonserna (eller 1x1-spårningspixlar för publicerarhanterade annonser) som ska användas för erbjudandet och skapar en standardplacering för PG-annonser enligt uppmaningen.
 
    Det är obligatoriskt att skapa en PG-standardplacering för erbjudandet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 

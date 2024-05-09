@@ -3,9 +3,9 @@ title: Syntax för målgruppssegmentslogik
 description: Referera till den syntax du kan använda för att definiera logiken för målgruppssegment.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 97f5e8913afb2f71505512bf8e4ab5bf56c1d7f8
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ betyder (på vanlig engelska)
 
 >[!NOTE]
 >
->I placeringsinställningarna kan du använda sparade målgrupper antingen som målgrupper för att explicit målinrikta eller som separata målgrupper för att exkludera från målinriktning. Se till att segmentlogiken återspeglar syftet med målgruppen.
+>I placeringsinställningarna kan du använda sparade målgrupper antingen som målgrupper för att explicit målinrikta eller som separata målgrupper för att exkludera från målinriktning. Se till att segmentlogiken återspeglar målgruppens syfte.
 
 >[!MORELIKETHIS]
 >

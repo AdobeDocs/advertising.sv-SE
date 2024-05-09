@@ -3,9 +3,9 @@ title: Ange placeringar och annonser för ett privat avtal
 description: Lär dig hur du använder ett privat avtal med ytterligare praktik och annonser.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: d6d295119bc974a87840e757877c1507237a6fa2
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du kan också [bifoga annonser till placeringar](/help/dsp/campaign-management/a
 
        1. Välj annonsören, kampanjen och annonstypen. Du kan också välja en annonsstatus att filtrera annonserna med.
        
-       1. Markera kryssrutan bredvid varje annons som ska användas för erbjudandet i listan över tillgängliga annonser.
+       1. I listan med tillgängliga annonser markerar du kryssrutan bredvid varje annons som ska användas för erbjudandet.
        
        1. Klicka **[!UICONTROL Apply]**.
    

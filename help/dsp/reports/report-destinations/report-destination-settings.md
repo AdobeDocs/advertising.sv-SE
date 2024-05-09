@@ -3,9 +3,9 @@ title: Inställningar för rapportmål
 description: Se informationen som krävs för rapportdestinationer, per måltyp.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Name]:** Ett namn som hjälper dig att identifiera målet.
 
-**[!UICONTROL S3 Bucket URL]:** Den fullständiga sökvägen till mappen på [!DNL Amazon Simple Storage Service] (S3)-bucket som rapporten ska överföras till. Exempel: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Den fullständiga sökvägen till mappen på [!DNL Amazon Simple Storage Service] (S3)-bucket som rapporten överförs till. Exempel: `s3://dsp_account/reports`
 
 **[!UICONTROL Access Key ID]:** Åtkomstnyckel-ID till ([!DNL Amazon S3]) bucket (tillhandahålls av [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** Nyckeln för hemlig åtkomst till ([!DNL Amazon S3]) bucket (tillhandahålls av [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** Nyckeln för hemlig åtkomst till[!DNL Amazon S3]) bucket (tillhandahålls av [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 
@@ -40,7 +40,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
 
-**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna ska överföras till.
+**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 
 ## [!UICONTROL SFTP]
 
@@ -54,7 +54,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
 
-**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna ska överföras till.
+**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 
 ## [!UICONTROL FTP SSL]
 
@@ -68,7 +68,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
 
-**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna ska överföras till.
+**[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 
 >[!MORELIKETHIS]
 >
@@ -76,4 +76,3 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 >* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-
