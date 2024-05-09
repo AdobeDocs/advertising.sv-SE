@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertisin
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: fb0634643e40b67e50461823f976a93129e2f038
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '3217'
+source-wordcount: '3216'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Uppslagsfönstret för [!DNL Marketing Channels] kan anpassas. I Adobe Advertisi
 
 Adobe Advertising rapporterar att endast betalda medier som handlats via Adobe Advertising (betald sökning efter [!DNL Advertising Search, Social, & Commerce] annonser och displayannonser för annonser DSP annonser), medan [!DNL Marketing Channels] kan spåra alla digitala kanaler. Detta kan leda till en diskrepans i den kanal för vilken en konvertering görs.
 
-Till exempel har betalsökningar och naturliga sökkanaler ofta en symbiotisk relation, där varje kanal hjälper den andra. The [!DNL Marketing Channels] rapporten kommer att attribuera vissa konverteringar till naturlig sökning som Adobe Advertising inte kommer att göra eftersom den inte spårar naturlig sökning.
+Till exempel har betalsökningar och naturliga sökkanaler ofta en symbiotisk relation, där varje kanal hjälper den andra. The [!DNL Marketing Channels] i rapporten kopplas vissa konverteringar till naturlig sökning som Adobe Advertising inte gör eftersom den inte spårar naturlig sökning.
 
 Överväg också en kund som visar en displayannons, klickar på en betald sökannons, klickar i ett e-postmeddelande och lägger sedan en 30 USD-order. Även om Adobe Advertising och [!DNL Marketing Channels] båda använder den sista pekattribueringsmodellen, men konverteringen skulle ändå tilldelas olika till var och en. Adobe Advertising har inte åtkomst till [!UICONTROL Email] kanal, vilket innebär att betalsökningen för konverteringen får poäng. [!DNL Marketing Channels]har dock tillgång till alla tre kanalerna, så det skulle kreditera [!UICONTROL Email] för konverteringen.
 

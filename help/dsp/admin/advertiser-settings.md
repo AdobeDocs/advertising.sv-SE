@@ -2,9 +2,9 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: 201eb485e196dc0823dd6d592f67f62122c214b1
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Om du väljer *[!UICONTROL Other]*, så kan annonsören inte komma åt DSP [!DNL On Demand Inventory].
+>Om du väljer *[!UICONTROL Other]*, kan annonsören inte komma åt DSP [!DNL On Demand Inventory].
 
 **[!UICONTROL Advertiser URL]:** Annonsörens hemsida eller webbplats-URL (börjar med `http://` eller `https://`).
 

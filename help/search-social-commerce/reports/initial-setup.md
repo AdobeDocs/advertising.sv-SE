@@ -1,9 +1,9 @@
 ---
 title: De inledande inställningsaktiviteterna för rapporter
 description: Lär dig hur du gör mätvärden tillgängliga i rapporter och hur du automatiserar rapporter.
-exl-id: 0f55aae9-6898-4967-a377-190a13dff6fd
+exl-id: c2e76c63-ddb8-4762-8628-30cf3f54b8fd
 feature: Search Reports
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -18,13 +18,13 @@ Nya användare bör utföra följande initiala konfigurationsuppgifter:
 
   Transaktionsegenskaper är inte tillgängliga för rapporter om du inte uttryckligen gör dem tillgängliga.
 
-  Om du senare börjar spåra en ny konverteringsmetod måste du upprepa den här uppgiften.
+  Om du senare börjar spåra ett nytt konverteringsmått måste du upprepa den här uppgiften.
 
 * (Valfritt) Automatisera rapportgenerering:
 
-   * Om du regelbundet vill generera rapportdata för en viss tidsperiod, till exempel en [!UICONTROL Campaign Report] för den senaste veckan eller de senaste 30 dagarna kan du konfigurera [rapportmallar](/help/search-social-commerce/reports/automation/templates/template-about.md) och schemalägga att de ska köras dagligen eller en viss dag i veckan eller månaden. Varje gång rapporten är schemalagd att köras genereras en ny rapport. Du kan meddela e-postadresserna till specifika användare av Sök, Socialt och Handel när rapporten är klar, baserat på [meddelandeinställningar konfigurerade i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * Om du regelbundet vill generera rapportdata för en viss tidsperiod, till exempel en [!UICONTROL Campaign Report] för den senaste veckan eller de senaste 30 dagarna kan du konfigurera [rapportmallar](/help/search-social-commerce/reports/automation/templates/template-about.md) och schemalägga att de ska köras dagligen eller en viss dag i veckan eller månaden. Varje gång rapporten är schemalagd att köras genereras en ny rapport. Du kan meddela e-postadresserna till specifika användare av Sök, Social och Commerce när rapporten är klar, baserat på [meddelandeinställningar konfigurerade i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
 
-   * Om du vill visa aktuella, dagliga rapportdata i ett anpassat kalkylblad, med eller utan pivottabeller och eventuella ytterligare kolumner som du behöver utföra ytterligare beräkningar, kan du skapa en daglig [kalkylbladsmatning](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md). Kalkylbladsflödena uppdateras dagligen med de senaste prestandadata och fortsätter att behålla data för de föregående datumen. Om du vill konfigurera kalkylbladsfeeds måste du först skapa en anpassad kalkylbladsmall i [!DNL Microsoft Excel]. Du kan meddela e-postadresserna till specifika användare av Sök, Sociala och Commerce när en feed-fil är tillgänglig, baserat på [meddelandeinställningar konfigurerade i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
+   * Om du vill visa aktuella, dagliga rapportdata i ett anpassat kalkylblad, med eller utan pivottabeller och eventuella ytterligare kolumner som du behöver utföra ytterligare beräkningar, kan du skapa en daglig [kalkylbladsmatning](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-about.md). Kalkylbladsflödena uppdateras dagligen med de senaste prestandadata och fortsätter att behålla data för de föregående datumen. Om du vill konfigurera kalkylbladsfeeds måste du först skapa en anpassad kalkylbladsmall i [!DNL Microsoft Excel]. Du kan meddela e-postadresserna till specifika användare av Search, Social och Commerce när en feed-fil är tillgänglig, baserat på [meddelandeinställningar konfigurerade i [!UICONTROL Notification Center]](/help/search-social-commerce/notifications/notification-about.md).
 
    * Om du vill få grundläggande och avancerade rapporter på en FTP-plats kan du konfigurera [FTP-åtkomst till grundläggande och avancerade rapporter](/help/search-social-commerce/reports/automation/ftp-reports.md) genom att begära ett FTP-konto och skapa rapportmallar med hjälp av en specifik namnkonvention.
 

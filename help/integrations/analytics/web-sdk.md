@@ -3,9 +3,9 @@ title: Använda [!DNL Last Event Service] JavaScript-bibliotek med [!DNL Web SDK
 description: Lär dig hur du byter från att använda [!DNL Analytics] [!DNL visitorAPI] till [!DNL Experience Platform] [!DNL Web SDK] bibliotek för [!DNL Analytics for Advertising] implementering.
 feature: Integration with Adobe Analytics
 exl-id: 764724a2-536a-43b9-955d-28d6146db29a
-source-git-commit: 7501c1f8f6477a4ee6de64c64d52b1aafaf16994
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---

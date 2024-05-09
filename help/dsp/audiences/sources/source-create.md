@@ -3,9 +3,9 @@ title: Skapa en målgruppskälla för att aktivera förstahandspubliker
 description: Lär dig hur du skapar en källa för att importera målgrupper till ditt konto eller till ett annonserarkonto.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 6c918b387067237de5d1eae42ae8ad253884d761
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---

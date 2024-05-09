@@ -4,9 +4,9 @@ description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligator
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 2e2d95ab2a6add695c3852a06e256b6db980779d
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Experience Platform ger företag möjlighet att utföra följande uppgifte
 
 ## Nödvändig inställning för att skicka begäranden för Adobe Advertising
 
-Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe Advertising måste du:
+För att begära åtkomst till och radera konsumentpersonuppgifter från Adobe Advertising måste du:
 
 1. Distribuera ett JavaScript-bibliotek för att hämta och ta bort kundens cookies. Samma bibliotek, `AdobePrivacy.js`, används för alla Adobe Experience Cloud-lösningar.
 
@@ -67,7 +67,7 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
 
 1. Använd antingen [ADOBE EXPERIENCE PLATFORM PRIVACY SERVICE API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiska förfrågningar) eller [Privacy Servicens användargränssnitt](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för tillfälliga framställningar) att lämna in ansökningar om tillgång till och radering av personuppgifter till Adobe Advertising för konsumenternas räkning samt att kontrollera status för befintliga ansökningar.
 
-   För annonsörer som har en mobilapp att interagera med kunder och lansera kampanjer med [!DNL DSP]behöver du ladda ned sekretessfärdiga SDK:er för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Services-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
+   För annonsörer som har en mobilapp att interagera med kunder och lansera kampanjer med [!DNL DSP]måste du ladda ned sekretessfärdiga SDK:er för mobiler för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Services-API:t. Din mobilapp kräver SDK version 4.15.0 eller senare.
 
    När du skickar en begäran om konsumentåtkomst returnerar Privacy Service-API:t information om en konsument baserat på den angivna cookien eller enhets-ID:t, som du sedan måste returnera till konsumenten.
 
@@ -77,7 +77,7 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
    >
    >Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP]och [!DNL DCO]), med ett konto per dellösning.
 
-Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar de objekt du behöver finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, samt var du hittar objekten du behöver, finns i [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Obligatoriska fältvärden i JSON-begäranden i Adobe Advertising
 

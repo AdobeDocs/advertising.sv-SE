@@ -3,9 +3,9 @@ title: Översikt över Campaign Management i DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ A [placering](/help/dsp/campaign-management/placements/placement-about.md) lagra
 
 [Annonser](/help/dsp/campaign-management/ads/ad-about.md) innehåller kreativa resurser och spårnings-URL:er. Du kan överföra tredjepartsannonser som servar taggar individuellt eller gruppvis med hjälp av partnertaggmallar eller mallen för bulktaggar. Du kan också skapa inbyggda displayannonser manuellt för DSP.
 
-När ni väl har ställt in era annonser måste ni bifoga varje annons på en plats. Du kan bifoga en annons till en eller flera ersättningar.
+När annonserna har konfigurerats måste du bifoga varje annons till en plats för att börja köra annonsen. Du kan bifoga en annons till en eller flera ersättningar.
 
 Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan köras baserat på parametrarna för riktade placeringar.
 
