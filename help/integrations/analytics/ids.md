@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 9374f5ef6aaff1f638022bc878c7af190e31888f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ EF ID är en unik variabel som Adobe Advertising använder för att koppla aktiv
 
 >[!NOTE]
 >
->EF ID:n är skiftlägeskänsliga. Om en [!DNL Analytics] implementeringen tvingar URL-spårning till gemener, så kommer Adobe Advertising inte att känna igen EF-ID:t. Detta påverkar Adobe Advertising budgivning och rapportering men påverkar inte Adobe Advertising rapportering inom [!DNL Analytics].
+>EF ID:n är skiftlägeskänsliga. Om en [!DNL Analytics] implementeringen tvingar URL-spårning till gemener, så att Adobe Advertising inte känner igen EF-ID:t. Detta påverkar Adobe Advertising budgivning och rapportering men påverkar inte Adobe Advertising rapportering inom [!DNL Analytics].
 
 #### [!DNL Google Ads] sökannonser
 
@@ -152,7 +152,7 @@ där:
 
 Exempel på AMO-ID: AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
 
-#### AMO ID-format för sök-, sociala och kommersiella annonser {#amo-id-format-search}
+#### AMO ID-format för sök-, sociala och Commerce-annonser {#amo-id-format-search}
 
 Parametrarna varierar beroende på annonsnätverk, men följande parametrar är gemensamma för alla:
 

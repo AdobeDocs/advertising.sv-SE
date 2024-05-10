@@ -3,9 +3,9 @@ title: Översikt [!DNL Analytics for Advertising]
 description: Översikt [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Du kan använda standardhändelser och anpassade händelser från [!DNL Analytic
 >
 > Du kan inte mappa beräknade värden från [!DNL Analytics] till Adobe Advertising.
 
-Adobe Advertising-teamet hjälper dig att identifiera och kartlägga de händelser som gäller för betalmedieprestanda i Adobe Advertising, där de kommer att visas i [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Adobe Advertising-teamet hjälper dig att identifiera och kartlägga de händelser som gäller för betalmedieprestanda i Adobe Advertising, där de listas i [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 Se &quot;[Analytics-statistik i Adobe Advertising](analytics-data-in-advertising.md)&quot; om du vill se en lista över tillgängliga mätvärden.
 

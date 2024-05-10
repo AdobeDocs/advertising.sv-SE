@@ -1,11 +1,11 @@
 ---
 title: Filtrera data efter datumintervall
 description: Lär dig använda det globala datumintervallfiltret.
-exl-id: e67e843a-1a73-4ab1-9ef7-c97afeb999f6
+exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Samma globala datumintervallfilter tillämpas på de flesta av era kampanjdatavyer, för alla era annonsörer, förutom för standardvyer och anpassade vyer för vilka ni har sparat specifika datumintervall. Systemets standarddatumintervall för kampanjhanteringsvyer är&quot;I går&quot;.
 
-Inställningarna för datumintervall sparas i en webbläsarspecifik cookie, så alla ändringar i datumintervallfiltret används för alla dina annonsörer varje gång du loggar in med samma webbläsarprogram tills du ändrar filtret eller tar bort cookien. Varje webbläsarprogram som du använder lagrar filterinställningar för datumintervall i en egen cookie.
+Inställningarna för datumintervall sparas i en webbläsarspecifik cookie, så alla ändringar i datumintervallfiltret används för alla dina annonsörer varje gång du loggar in med samma webbläsarprogram tills du ändrar filtret eller tar bort cookien. Varje webbläsarprogram som du använder lagrar inställningar för datumintervallfilter i en annan cookie.
 
 När du sparar ett visst datumintervall för en standardvy eller anpassad vy används det intervallet när du använder vyn, oavsett vilket webbläsarprogram du använder.
 

@@ -1,11 +1,11 @@
 ---
 title: Anpassa data i kampanjhanteringsvyer
 description: Lär dig mer om de typer av data som du kan anpassa i kampanjdatavyer.
-exl-id: a8e4020a-ed8e-4ccc-9aaf-8ba115fb9ea3
+exl-id: 89f36865-9275-494e-ac33-d41fa30faa2a
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I de flesta kampanjdatavyer kan du anpassa de data som visas i datatabellen. Du 
 
    * Sök efter kampanjer per portfölj eller portföljgrupp och filtrera efter enhetens status och statusen för portföljgruppen, portföljen och kampanjen. Klicka på en portföljgrupp, portfölj eller kampanj i panelen för att läsa in data för portföljgruppen, portföljen eller kampanjen i den aktuella enhetsvyn.
 
-   * Få åtkomst till, redigera och återställ standardvyer samt få tillgång till, redigera och ta bort anpassade vyer. Om du klickar på ett vynamn läses lämplig vy in.
+   * Få åtkomst till, redigera och återställ standardvyer samt få tillgång till, redigera och ta bort anpassade vyer. När du klickar på ett vynamn läses lämplig vy in.
 
 * Använd filter på alla tillgängliga datakolumner för att ändra de data som visas på den aktuella fliken. Du kan skapa filter från kolumnrubrikerna eller från en knapp i verktygsfältet. Filter bevaras när du öppnar underordnade enheter. Om du till exempel visar kampanjer med \> 100 klick och sedan öppnar en annonsgrupp i kampanjen visas bara annonsgrupper med \> 100 klick.
 

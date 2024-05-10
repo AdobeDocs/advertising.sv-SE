@@ -2,9 +2,9 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -39,19 +39,19 @@ Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan viss
 
 (Valfritt) Ytterligare Experience Cloud-produkter som är kopplade till DSP konto. Produkterna måste vara kopplade till samma Experience Cloud-organisations-ID som anges i [!UICONTROL Adobe IMS IDs] -avsnitt.
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder konverteringspixlar för Adobe Advertising) A [!DNL Search, Social, & Commerce] konto som DSP ska använda för att utbyta attribueringsdata.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (Annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder konverteringspixlar för Adobe Advertising) A [!DNL Search, Social, & Commerce] vilket konto som DSP utbyter attribueringsdata med.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Annonsörer med Adobe Analytics; valfritt; endast tillgängligt för data som samlats in med hjälp av Adobe Advertising-konverteringstaggar som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar data som samlas in från utgivare och leverantörer. Analyserna skickar också de data som samlas in från klientens webbplats till DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Annonsörer med Adobe Analytics; valfritt; endast tillgängligt för data som samlats in med hjälp av Adobe Advertising-konverteringstaggar som innehåller en [!DNL EF Redirect] och endast token) en eller flera [!DNL Analytics] rapportera programsviter till vilka DSP skickar in data från utgivare och leverantörer. Analytics skickar också de data som samlas in från kundens webbplats till DSP.
 
 För att data ska visas i rapportsviterna bör [!DNL Search, Social, & Commerce] Inställningar på annonsörnivå måste aktiveras. Dessutom har annonsören [!DNL Analytics] kontot måste vara konfigurerat för att ta emot data från Adobe Advertising.
 
 >[!WARNING]
 >
->Om du tar bort en tidigare länkad rapportsvit kommer DSP inte längre att utbyta data med den sviten. Förvänta dig att se fluktuationer i data.
+>Om du tar bort en tidigare länkad rapportsvit utbyter DSP inte längre data med den sviten. Förvänta dig att se fluktuationer i data.
 
 Mer information om integrationen med [!DNL Analytics], se &quot;[Översikt [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).&quot;
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertisers with Adobe Audience Manager or Adobe Analytics; optional) An Audience Manager or [!DNL Analytics] vilket konto som DSP kommer att hämta in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (Advertisers with Adobe Audience Manager or Adobe Analytics; optional) An Audience Manager or [!DNL Analytics] vilket konto som DSP hämtar in segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
 
 * Audience Manager segment
 * [!DNL Analytics] segment som publiceras till Adobe Experience Cloud
@@ -114,7 +114,7 @@ Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstä
 
 ##### [!UICONTROL Peer 39] {#peer-39-fraud}
 
-**[!UICONTROL Block sites that are]:** (Valfritt) En eller flera typer av bedrägeri som gör att DSP blockerar annonser som standard: *[!UICONTROL Fraud]* (som blockerar alla webbplatser med bedrägeri), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* och/eller *[!UICONTROL Fraud: Zero Ads]*. Ytterligare avgifter kan tillkomma.
+**[!UICONTROL Block sites that are]:** (Valfritt) En eller flera typer av bedrägeri som får DSP att blockera annonser som standard: *[!UICONTROL Fraud]* (som blockerar alla webbplatser med bedrägeri), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* och/eller *[!UICONTROL Fraud: Zero Ads]*. Ytterligare avgifter kan tillkomma.
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 

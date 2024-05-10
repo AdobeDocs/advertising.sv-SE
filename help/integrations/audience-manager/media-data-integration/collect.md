@@ -3,9 +3,9 @@ title: Samla in klicknings- och imponeringsdata från DSP kampanjer
 description: Lär dig hur du fångar in cookie-baserat intryck och klickar på händelser från Advertising DSP ads med Audience Manager pixlar
 feature: Integration with Adobe Audience Manager
 exl-id: d827fbb8-b61a-4601-a42a-1ea60e4f36b7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ På annonsservern infogar du klickhändelsepixeln (med den kodade URL:en tillagd
 
 ## Steg 3: Åtgärder efter implementering
 
-När händelsetaggarna implementeras flödar data in i Audience Manager datainsamlingsservrar. Utför följande åtgärder innan du kan använda data i rapporter.
+När händelsetaggar har implementerats flödar data in i Audience Manager datainsamlingsservrar. Utför följande åtgärder innan du kan använda data i rapporter.
 
 ### Skapa en [!DNL Amazon S3] Bucket och datakälla
 
@@ -120,7 +120,7 @@ När data finns på Audience Manager-servrarna måste du skapa en [!DNL Amazon S
 
 ### Skapa Audience Manager-traits och segment
 
-Dina händelsedata flödar in i Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Skapa manuellt [regelbaserade egenskaper](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) från inkapslade data och sedan skapa [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) med dessa egenskaper, innan du kan använda data i rapporter.
+Dina händelsedata flödar till Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Skapa manuellt [regelbaserade egenskaper](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) från inkapslade data och sedan skapa [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) med dessa egenskaper, innan du kan använda data i rapporter.
 
 Exempeldiagram som fyller i användarnivådata för användare som exponeras för en viss kreativ i DSP:
 

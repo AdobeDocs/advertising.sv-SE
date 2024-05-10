@@ -1,11 +1,11 @@
 ---
 title: Om taggar för Adobe Advertising-konverteringsspårning
 description: Läs om hur du använder Adobe Advertising-taggar för konvertering.
-exl-id: 07403d60-6db2-47e7-977b-4b59c8797c3d
+exl-id: 8194d5eb-9a5d-4c4e-bb02-e578ffb84d18
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---

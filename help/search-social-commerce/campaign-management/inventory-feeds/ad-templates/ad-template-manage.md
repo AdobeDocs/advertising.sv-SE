@@ -1,11 +1,11 @@
 ---
 title: Hantera annonsmallar för lagerflöden
 description: Lär dig hur du hanterar annonsmallar genom vilka dina lagerdata kan bearbetas för att hantera kontostrukturen och leverera dynamiska annonser.
-exl-id: b26fc32a-76bc-470a-8ce5-fbaad4b3ca71
+exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Före eller efter att du har överfört data kan du skapa sökmotorspecifika annonsmallar genom vilka dina data kan bearbetas. Du kan skapa mallar för textannonser och utökade/utökade textannonser, [!DNL Google Ads] och [!DNL Microsoft® Advertising] responsiva sökannonser och för [!DNL Google Ads] och [!DNL Microsoft® Advertising] shoppingannonser.
 
-Du kan associera varje mall med en feed-fil, [!DNL Google Merchant Center] konto, eller [!DNL Microsoft® Merchant Center] och du kan koppla flera mallar till samma feed-fil eller konto. En annonsmall kan innehålla variabler, som ersätts med faktiska datakolumner från en överförd fil eller ett konto. I de flesta fall kan variablerna även innehålla [en modifieringsgrupp](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) som du skapat i Sök, Socialt, &amp; Commerce för att skapa flera annonser, nyckelord, kampanjer eller annonsgrupper för varje tillämplig rad i datafilen. Med mallalternativen kan du antingen skapa en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappa annonserna till den befintliga kontostrukturen.
+Du kan associera varje mall med en feed-fil, [!DNL Google Merchant Center] konto, eller [!DNL Microsoft® Merchant Center] och du kan koppla flera mallar till samma feed-fil eller konto. En annonsmall kan innehålla variabler, som ersätts med faktiska datakolumner från en överförd fil eller ett konto. I de flesta fall kan variablerna även innehålla [en modifieringsgrupp](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) som du skapat i Search, Social och Commerce för att skapa flera annonser, nyckelord, kampanjer eller annonsgrupper för varje tillämplig rad i datafilen. Med mallalternativen kan du antingen skapa en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappa annonserna till den befintliga kontostrukturen.
 
 Förutom att skapa nya mallar från grunden kan du även skapa nya mallar genom att klona befintliga och redigera befintliga mallar.
 

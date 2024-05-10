@@ -2,16 +2,17 @@
 title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
-source-git-commit: 7b9926d0bbba12728ed6a42e56115e8df708587b
+exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
 
 # Anpassade mål
 
-Anpassade mål definierar vilka framgångshändelser en annonsörer behöver för att uppfylla sina affärsmål. Varje paket som använder optimeringsmålet[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; måste innehålla ett anpassat mål som hjälper till att uppnå det övergripande optimeringsmålet. Du kan skapa anpassade mål som *mål* in [!DNL Advertising Search, Social, & Commerce].
+Anpassade mål definierar vilka framgångshändelser en annonsörer behöver för att uppfylla sina affärsmål. Varje paket som använder optimeringsmålet[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; måste innehålla ett anpassat mål för att uppnå det övergripande optimeringsmålet. Du kan skapa anpassade mål som *mål* in [!DNL Advertising Search, Social, & Commerce].
 
 <!-- update image or omit it
 
@@ -103,7 +104,7 @@ Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräve
 
 Det finns två scenarier där du kan använda flera mätvärden i ett anpassat mål:
 
-* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller tre separata mätvärden, där varje mätvärde har en (1) icke-mobil- och mobilvikt, ska [!DNL Adobe Sensei] -algoritmen behandlar alla mätvärden och användarenhetstyper lika viktigt. Om de olika måtten och enhetstyperna har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
+* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller tre separata mätvärden, där varje mätvärde har en (1) icke-mobil- och mobilvikt, ska [!DNL Adobe Sensei] algoritmen behandlar alla mätvärden och användarenhetstyper lika viktigt. Om de olika måtten och enhetstyperna har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
 
 <!-- update image or delete it and adjust the wording above
 

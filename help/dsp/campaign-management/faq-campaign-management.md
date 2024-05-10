@@ -3,9 +3,9 @@ title: Frågor och svar om Campaign Management
 description: Lär dig mer om kampanjhantering, inklusive latensperioden för ändringar och vad som händer när du gör budgetändringar under en flygning.
 feature: DSP Packages, DSP Placements
 exl-id: 8a443543-ebb1-4273-a007-afef07d32d8c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Fördröjning för inställningsändringar
 
-* När du ändrar en placering eller paketinställning, när kommer ändringen att gälla?
+* När du ändrar en placering eller paketinställning, när träder ändringen i kraft?
 
   Inställningarna börjar oftast gälla omedelbart, men kan ta upp till 12 timmar.
 
-  Om det är sista leveransdagen kan du göra ändringar tidigt på dagen så att DSP hinner kalibrera om paketet baserat på ändringarna. Om du till exempel ändrar från jämna mellanrum till förhandslastpacing, måste DSP omvärdera hur de kommer att fördela utgifterna under resten av flygningen. Gör inte den sortens förändring om du bara har en timma kvar att leverera på flygningens sista dag.
+  Om det är sista leveransdagen kan du göra ändringar tidigt på dagen så att DSP hinner kalibrera om paketet baserat på ändringarna. Om du till exempel ändrar från jämna mellanrum till förhandslastpacing, måste DSP omvärdera hur utgifterna ska fördelas under resten av flygningen. Gör inte den sortens förändring om du bara har en timma kvar att leverera på flygningens sista dag.
 
 ## Budgetuppdateringar efter halva flygresan
 

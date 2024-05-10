@@ -2,9 +2,10 @@
 title: Pausa eller aktivera en kampanj
 description: Lär dig hur du pausar eller aktiverar en livekampanj.
 feature: DSP Campaigns
-source-git-commit: bd02a305083a52ada68ea4a3f83b308687273968
+exl-id: ed199864-8532-411b-b8ea-443ee1c149a2
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -13,11 +14,11 @@ ht-degree: 0%
 
 Pausa en livekampanj eller aktivera en pausad kampanj när den ligger inom det konfigurerade flygschemat.
 
-Alla placeringar som pausats innan en kampanj har pausats kommer att förbli pausade när kampanjen aktiveras.
+Alla placeringar som pausas innan en kampanj pausas förblir pausade när kampanjen aktiveras.
 
 ## Pausa en kampanj
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
 
 >[!NOTE]
@@ -26,7 +27,7 @@ Alla placeringar som pausats innan en kampanj har pausats kommer att förbli pau
 
 ## Aktivera en kampanj
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]**.
 1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
 
 >[!MORELIKETHIS]

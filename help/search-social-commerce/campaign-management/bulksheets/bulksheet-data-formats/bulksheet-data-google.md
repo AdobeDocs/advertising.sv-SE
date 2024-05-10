@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för [!DNL Google Ads] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för [!DNL Google Ads] konton.
 exl-id: 756b77fe-f95d-469f-9ae0-7424c2fad0b1
 feature: Search Bulksheets
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '7860'
+source-wordcount: '7855'
 ht-degree: 0%
 
 ---
@@ -147,8 +147,8 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | [!UICONTROL Delivery Method] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Channel Type] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Networks] | Krävs för att skapa en kampanj. |
-| [!UICONTROL DSA Domain Name] | Krävs för att skapa en kampanj i söknätverket som ska ha dynamiska sökannonser. |
-| [!UICONTROL DSA Domain Language] | Krävs för att skapa en kampanj i söknätverket som ska ha dynamiska sökannonser. |
+| [!UICONTROL DSA Domain Name] | Krävs för att skapa en kampanj med dynamiska sökannonser i söknätverket. |
+| [!UICONTROL DSA Domain Language] | Krävs för att skapa en kampanj med dynamiska sökannonser i söknätverket. |
 | [!UICONTROL Campaign Priority] | Krävs för att skapa en shoppingkampanj. |
 | [!UICONTROL Merchant ID] | Krävs för att skapa en shoppingkampanj. |
 | [!UICONTROL Sales Country] | Krävs för att skapa en shoppingkampanj. |
@@ -410,7 +410,7 @@ En beskrivning av varje datafält finns i &quot;[Alla tillgängliga datafält](#
 | [!UICONTROL Sitelink Status] | Krävs endast för att ta bort en sitellänk. |
 | [!UICONTROL Campaign ID] | Valfritt |
 | [!UICONTROL Ad Group ID] | Valfritt |
-| [!UICONTROL Sitelink ID] | Krävs endast när du ändrar eller tar bort platslänken, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera platslänken eller b) en &quot;[!UICONTROL AMO ID].&quot; Om du inte inkluderar [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID]  och egenskapskolumnerna matchar flera sitelinks ändras bara statusen för en av sitelinks.<br><br><b>Obs!</b> Om du redigerar sitelink-egenskapskolumner förutom [!UICONTROL Status] för en befintlig sitelink, och du inkluderar inte någon av [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID], skapas en ny sitelink och den befintliga sitellänken ändras inte. |
+| [!UICONTROL Sitelink ID] | Krävs endast när du ändrar eller tar bort platslänken, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera platslänken eller b) en &quot;[!UICONTROL AMO ID].&quot; Om du inte inkluderar [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID]  och egenskapskolumnerna matchar flera sitelinks, ändras bara statusen för en av sitelinks.<br><br><b>Obs!</b> Om du redigerar sitelink-egenskapskolumner förutom [!UICONTROL Status] för en befintlig sitelink, och du inkluderar inte någon av [!UICONTROL Sitelink ID] eller [!UICONTROL AMO ID], skapas en ny sitelink och den befintliga sitellänken ändras inte. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Search, Social och Commerce använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Platsmål

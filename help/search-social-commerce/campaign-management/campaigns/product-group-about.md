@@ -3,9 +3,9 @@ title: Om att handla produktgrupper
 description: Läs mer om att handla produktgrupper i shoppingkampanjer.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 4ed0d225dafcb07e8a563ef7e723cd247da5e1a9
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,13 @@ Du kan skapa och redigera produktgrupper och ta bort produktgrupper och deras un
 
 ## Spårnings- och prestandadata för kundproduktgrupper
 
-(Konton/kampanjer med &quot;[!UICONTROL EF Redirect]&quot; spårningsalternativ) Om du vill tillåta sökningar, sociala medier och handel att spåra konverteringar för produktgrupper, [generera spårnings-URL:er för produktgrupper med verktyget för spårning av URL:er](/help/search-social-commerce/tools/click-tracking-url-generate.md)och gör sedan något av följande:
+(Konton/kampanjer med &quot;[!UICONTROL EF Redirect]&quot; spårningsalternativ) Om du vill tillåta sökningar, sociala medier och Commerce att spåra konverteringar för produktgrupper, [generera spårnings-URL:er för produktgrupper med verktyget för spårning av URL:er](/help/search-social-commerce/tools/click-tracking-url-generate.md)och gör sedan något av följande:
 
 * (Krävs för [!DNL Google Ads]; bästa praxis för [!DNL Microsoft® Advertising]) Lägg till spårnings-URL:en i [!DNL Tracking Template] i inställningarna för konto, kampanj eller produktgrupp. För enklare underhåll bör du lägga till dem på högsta möjliga nivå. Alla tilläggsparametrar som har angetts för kontot eller kampanjen inkluderas inte.
 
   >[!CAUTION]
   >
-  >([!DNL Microsoft® Advertising]) Använd bara det här alternativet om du inte inkluderar URL:er för sökning, sociala medier och handelsuppföljning i en anpassad kolumn i produktflödet. Om du gör båda kommer URL:erna att innehålla två omdirigeringar och orsaka brutna länkar.
+  >([!DNL Microsoft® Advertising]) Använd bara det här alternativet om du inte inkluderar URL:er för sökning, sociala medier och Commerce-spårning i en anpassad kolumn i produktflödet. Om du gör båda, kommer URL-adresserna att innehålla två omdirigeringar och orsaka brutna länkar.
 
 * ([!DNL Microsoft® Advertising] (endast) Lägg till spårnings-URL:en till produktdata i [!DNL Microsoft® Merchant Center] konto. Om du vill göra det tar du med spårnings-URL:en tillsammans med värdet i `link` eller `mobile_link` fält, om det är lämpligt, i en anpassad kolumn som kallas [`bingads_redirect`](https://help.ads.microsoft.com/#apex/3/en/51084/0) i produktflödet. URL:er som skapas med den här metoden innehåller inte spårningsparametrar som anges i konto- eller kampanjinställningarna i Sök, Socialt och Commerce.
 

@@ -1,18 +1,18 @@
 ---
 title: Klickningsspårningsformat för [!DNL Microsoft Advertising]
 description: Läs mer om klickningsspårningsformaten för [!DNL Microsoft Advertising] konton.
-exl-id: 725981db-1b9a-4c89-b95d-98d07ec99756
+exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
 
 # Klickningsspårningsformat för [!DNL Microsoft Advertising]
 
-Nedan följer basspårningsmallens och landningssidans suffixformat (det sista URL-suffixet) som Sök, Socialt, &amp; Commerce kräver för [!DNL Microsoft Advertising].
+Nedan följer basspårningsmallens och landningssidans suffix (sista URL-suffix) format som Search, Social och Commerce kräver för [!DNL Microsoft Advertising].
 
 ## Spåra mallformat
 
@@ -72,7 +72,7 @@ Exempel:
 >
 >* `{TargetId}` representerar ID:t för a) antingen nyckelordet eller b) nyckelordet och återmarknadsföringslistan (publik) som utlöste annonsen (till exempel &quot;kwd-123:aud-456&quot; för både ett nyckelord och en återmarknadsföringslista eller &quot;kwd-123&quot; för enbart nyckelord).
 >
->* (Valfritt) I stället för att ange spårningsmallar på konto-, kampanj-, annonsgruppsnivå eller produktgruppsnivå kan du lägga till spårnings-URL:en till produktinformationen i [!DNL Microsoft Merchant Center] konto. Om du vill göra det tar du med spårnings-URL:en tillsammans med värdet i`link`&quot; eller &quot;`mobile_link`&quot;, beroende på vad som är tillämpligt, i en anpassad kolumn &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; i produktflödet. Värdet i`bingads_redirect`&quot; ersätts värdena i &quot;`link`och &quot;`mobile_link`&quot; fält. URL:er som skapas med den här metoden innehåller inga spårningsparametrar som anges i inställningarna för konto eller kampanj för sökning, sociala medier och handel.
+>* (Valfritt) I stället för att ange spårningsmallar på konto-, kampanj-, annonsgruppsnivå eller produktgruppsnivå kan du lägga till spårnings-URL:en till produktinformationen i [!DNL Microsoft Merchant Center] konto. Om du vill göra det tar du med spårnings-URL:en tillsammans med värdet i`link`&quot; eller &quot;`mobile_link`&quot;, beroende på vad som är tillämpligt, i en anpassad kolumn &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; i produktflödet. Värdet i`bingads_redirect`&quot; ersätter värdena i &quot;`link`och &quot;`mobile_link`&quot; fält. URL-adresser som skapas med den här metoden innehåller inte spårningsparametrar som anges i inställningarna för kontot Sök, Socialt &amp; Commerce eller för kampanjen.
 
 ## Format för landningssidans suffix (sista URL-suffix)
 

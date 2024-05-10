@@ -1,14 +1,14 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
 # Koda fältet Bas-URL i konto- och kampanjinställningarna
 
-**[!UICONTROL Encode Base URL]:** (Konton med mål-URL:er och spårningstyp [!UICONTROL EF Redirect] endast) Anger om slutanvändaren ska se teckenkodning (t.ex. `%3D` i stället för `=`) i URL:en i webbläsarens adressfält:
+**[!UICONTROL Encode Base URL]:** (Konton med mål-URL:er och spårningstyp [!UICONTROL EF Redirect] endast) Anger om URL:en i slutanvändarens adressfält innehåller teckenkodning (till exempel `%3D` i stället för `=`):
 
-* *[!UICONTROL On]* (standard): Visa teckenkodning i URL-adresser.
+* *[!UICONTROL On]* (standard): Om du vill visa teckenkodning i URL-adresser.
 
 * *[!UICONTROL Off]:* Om du vill visa okodade URL:er.

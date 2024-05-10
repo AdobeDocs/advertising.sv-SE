@@ -3,9 +3,9 @@ title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Följande inställningar gäller för vanliga displayannonser.
 
 **[!UICONTROL Final Display Code]:** (Endast annonser från tredje part) URL:en för den kreativa resursen från tredje part, med nödvändiga [Annonsera DSP spårningsmakron](/help/dsp/campaign-management/macros.md) infogad, om tillämpligt.
 
-**[!UICONTROL Ad Size]:** Annonsens bredd och höjd. Det måste vara en [stöd för standardstorlek för bildskärm](ad-specs.md). Du kan ange annonsstorleken manuellt innan du överför annonsen eller ange en [!UICONTROL Display Code]. Om du inte anger annonsstorleken anges dimensionerna för den överförda annonstaggen eller annonstaggen automatiskt som skrivskyddade. Observera att displayannonsen inte sparar om dimensionerna inte finns i standardvisning som storlekar - t.ex. 301x250 i stället för 300x250 i annonsstorlek.
+**[!UICONTROL Ad Size]:** Annonsens bredd och höjd. Det måste vara en [stöd för standardstorlek för bildskärm](ad-specs.md). Du kan ange annonsstorleken manuellt innan du överför annonsen eller ange en [!UICONTROL Display Code]. Om du inte anger annonsstorleken anges dimensionerna för den överförda annonstaggen eller annonstaggen automatiskt som skrivskyddade.
 
 >[!IMPORTANT]
 >

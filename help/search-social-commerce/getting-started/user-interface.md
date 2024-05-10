@@ -3,9 +3,9 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: de3c12275d5a6f05e52a8c080c26d93e837d9f71
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## Huvudmenyn
 
-* **[!UICONTROL Search]** — För att hantera annonsnätverkskonton inom Sök, Socialt och Commerce, inklusive sådana för vilka Search, Social och Commerce spårar men inte lägger bud.
+* **[!UICONTROL Search]** — För att hantera annonsnätverkskonton i Search, Social och Commerce, inklusive sådana där Search, Social och Commerce spårar men inte lägger bud.
 
 ## [!UICONTROL Search] menyer
 
-Under [!UICONTROL Search] kan du se följande undermenyer. Vilka alternativ som är tillgängliga beror på din roll:
+The [!UICONTROL Search] innehåller följande undermenyer. Vilka alternativ som är tillgängliga beror på din roll:
 
 * **[!UICONTROL Campaigns]** - Den här menyn innehåller alternativ för att visa och hantera information om annonskonton och kampanjer som du hanterar eller spårar. Beroende på annonsnätverket och din roll kan du behöva skapa och redigera konton och kampanjer samt deras komponenter. Du kan också hantera etikettklassificeringar, som du kan tilldela till olika kontokomponenter.
 
@@ -40,7 +40,7 @@ Under [!UICONTROL Search] kan du se följande undermenyer. Vilka alternativ som 
 
 * (I tillämpliga fall) En valbar lista över annonsörer som du hanterar.
 
-* ![Aviseringsmeddelanden](/help/search-social-commerce/assets/notifications-panel.png "Varningsmeddelanden") En panel med dina meddelanden om sökning, sociala medier och handel.
+* ![Aviseringsmeddelanden](/help/search-social-commerce/assets/notifications-panel.png "Varningsmeddelanden") En panel med information om dina söknings-, sociala och Commerce-meddelanden.
 
   När du är [inloggad via Adobe Experience Cloud](log-in.md)visas dina meddelanden från Experience Cloud i den här panelen.
 

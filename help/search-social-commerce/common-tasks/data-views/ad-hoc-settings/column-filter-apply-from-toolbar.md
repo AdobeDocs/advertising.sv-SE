@@ -1,9 +1,9 @@
 ---
 title: Använda datafilter från verktygsfältet
 description: Lär dig filtrera siddata från verktygsfältet.
-exl-id: 922cc148-e6dc-428b-a7f3-1da3780df326
+exl-id: fc1dca75-b0e5-48fd-90ee-f09c158e3e8b
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Du kan använda så många filter du vill i en vy. Alla filter förenas med oper
 
            Beroende på datatypen kan tillgängliga operatorer inkludera *[!UICONTROL greater than]*, *[!UICONTROL less than]*, *[!UICONTROL equals]*, *[!UICONTROL contains]*, *[!UICONTROL doesn't contain]*, *[!UICONTROL starts with]*, *[!UICONTROL ends with]*, *[!UICONTROL no value]*, *[!UICONTROL has value]*, *[!UICONTROL before]*, *[!UICONTROL after]*, eller *[!UICONTROL no date].*
 
-           **Obs!** Textvärden är inte skiftlägeskänsliga. Om du till exempel filtrerar efter kampanjer med&quot;lån&quot; i namnet kommer resultatet att vara&quot;konsumentlån&quot; och&quot;låneansökningar&quot;.
+           **Obs!** Textvärden är inte skiftlägeskänsliga. Om du t.ex. filtrerar efter kampanjer med&quot;lån&quot; i namnet blir resultatet&quot;konsumentlån&quot; och&quot;låneansökningar&quot;.
 
          * ([!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Product Groups], [!UICONTROL Placements]och [!UICONTROL Auto Targets] endast vyer; valfritt) Ändra inställningen till[!UICONTROL Include rows with performance data only].&quot;
 

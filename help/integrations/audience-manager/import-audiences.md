@@ -3,9 +3,9 @@ title: Importera Adobe Audience Manager-segment för annonsinriktning
 description: Så här importerar du [!DNL Adobe] målgrupper i Advertising DSP and Search med Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ För åtkomst [!DNL Adobe] målgrupper i DSP eller [!DNL Creative]måste ni impo
 
 * Annonsören måste implementera [den [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) version 2.0 eller senare. The [!DNL Identity Service] ger ett universellt, beständigt ID som identifierar besökarna i alla lösningar i Experience Cloud.
 
-   Implementeringen innefattar att lägga till [!DNL Identity service] koda till varje webbsida på annonsörens webbplatser.
+  Implementeringen innefattar att lägga till [!DNL Identity service] koda till varje webbsida på annonsörens webbplatser.
 
 * Organisationen måste vara [aktiverat för Experience Cloud-tjänster](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html) och ha Experience Cloud [!DNL Organization ID] (kallades tidigare [!DNL IMS org ID]).
 
-   The [!UICONTROL Organization ID] kan företag med flera Adobe Experience Cloud-produkter dela data mellan vissa av dessa produkter.
+  The [!UICONTROL Organization ID] kan företag med flera Adobe Experience Cloud-produkter dela data mellan vissa av dessa produkter.
 
 * (Annonsörer med [!DNL Analytics]) Annonsören måste [implementera [!DNL Analytics] använda `appMeasurement.js`](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) version 1.6.4 eller senare.
 
@@ -50,11 +50,11 @@ The [!DNL Adobe] Konto- och datahanteringsteamen utför följande steg.
 
 1. Kontoteamet på Adobe bör konfigurera inställningen på annonsörnivå[!UICONTROL Adobe Analytics Cloud].&quot;
 
-1. Kontoteamet på Adobe bör skicka en begäran<!-- Submit a request as a JIRA task? --> till datahanteringsteamet<!-- implementation team? --> om du vill importera organisationens Audience Manager-segment med hjälp av Advertising DSP native API-integrering.
+1. Kontoteamet på Adobe bör skicka en begäran<!-- Submit a request as a JIRA task? --> till datateam<!-- implementation team? --> om du vill importera organisationens Audience Manager-segment med hjälp av Advertising DSP native API-integrering.
 
 ### Vilka förändringar ger Audience Manager?
 
-API:t automatiskt:
+API automatiskt:
 
 * Skapar två DSP mål i Audience Manager:
 
@@ -64,11 +64,11 @@ API:t automatiskt:
 
 * Mappar de två destinationerna till alla Audience Manager-segment, så att Audience Manager kan dela segmenten med det DSP annonskonto som är associerat med samma Experience Cloud [!DNL Organization ID] används för Audience Manager. <!-- Verify -->
 
-   Organisationen kan även ta bort onödiga segment från destinationerna i Audience Manager.
+  Organisationen kan även ta bort onödiga segment från destinationerna i Audience Manager.
 
 * Lägger till följande cookie-synkpixel för utbyte i Audience Manager-behållaren för att öka kundkampanjernas räckvidd:
 
-   * Adobe AdCloud: 411 (Detta levereras som standard och automatiskt som en del av [!DNL Identity Service] version 2.0. Organisationer med [!DNL Identity Service] i versioner under 2.0 bör den här pixeln läggas till i Audience Manager-behållaren.
+   * Adobe AdCloud: 411 (Detta kommer som standard och automatiskt som en del av [!DNL Identity Service] version 2.0. Organisationer med [!DNL Identity Service] i versioner under 2.0 bör den här pixeln läggas till i Audience Manager-behållaren.
 
 ## Importera målgrupper från Audience Manager till [!DNL Search, Social, & Commerce]
 
@@ -96,7 +96,7 @@ API:t automatiskt:
 
 ### Vilka förändringar ger Audience Manager?
 
-Organisationen kommer att se två [!DNL Search, Social, & Commerce] destinationer i Audience Manager:
+Två [!DNL Search, Social, & Commerce] destinationer blir tillgängliga för organisationen i Audience Manager:
 
 * **[!UICONTROL Adobe Media Optimizer (HTTP)]**
 * **[!UICONTROL Adobe Media Optimizer Batch Destination])**
@@ -142,7 +142,7 @@ I DSP ordnas segmentnamnen efter Audience Manager-taxonomin och är tillgänglig
 
 * I [målgruppsinställningar](/help/dsp/audiences/audience-settings.md): På [!UICONTROL Adobe Segments] -fliken.
 
-### I reklambranschen
+### I ADVERTISING CREATIVE
 
 I [!DNL Creative], är segmenten tillgängliga i upplevelseinställningarna för målnoder.
 
@@ -154,5 +154,4 @@ För varje [!DNL Google] målgrupper som du skapar, [!DNL Google] används för 
 
 >[!MORELIKETHIS]
 >
->* [Adobe reklamintegrering med Adobe Audience Manager](/help/integrations/audience-manager/overview.md)
-
+>* [Integrering av Adobe Advertising med Adobe Audience Manager](/help/integrations/audience-manager/overview.md)

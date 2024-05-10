@@ -3,9 +3,9 @@ title: Advertising DSP Macros
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: bb404dd1ff2fda5e37435ac892e2a0f6beba0b33
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Ytterligare makron finns specifikt för [[!DNL Analytics for Advertising]](/help
 
 När du lägger till makron i koden måste du använda makrots exakta syntax. När du validerar makrona kontrollerar DSP att makrot exakt matchar något av de giltiga makrona.
 
-Fel genereras om tecken saknas i början eller slutet av makronamnet. Du får till exempel ett felmeddelande om:
+Fel genereras om tecken saknas i början eller slutet av makronamnet. Ett felmeddelande visas till exempel om:
 
 * Du glömmer ett eller flera av tecknen i början av makronamnet, t.ex. `${`. Om du inte inkluderar den fullständiga syntaxen kan posten inte tolkas som ett giltigt makro.
 * Makrot avslutas inte med en giltig teckenuppsättning, till exempel `}`.

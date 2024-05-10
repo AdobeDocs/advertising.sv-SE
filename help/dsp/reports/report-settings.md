@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -122,10 +122,10 @@ Se &quot;[Tillgängliga rapportkolumner](report-columns.md)&quot; för beskrivni
 
 **[!UICONTROL Destination Type]:** Välj någon av följande måltyper:
 
-* *[!UICONTROL S3]:* Skicka den färdiga rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
-* *[!UICONTROL sFTP]:* Skicka den färdiga rapporten till en eller flera SFTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
-* *[!UICONTROL FTP]:* Skicka den färdiga rapporten till en eller flera FTP-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
-* *[!UICONTROL FTP SSL](I betaversion):* Skicka den färdiga rapporten till en eller flera FTP SSL-platser, som du anger i dialogrutan **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL S3]:* Skicka den färdiga rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) -platser, som du måste ange i **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL sFTP]:* Om du vill skicka den färdiga rapporten till en eller flera SFTP-platser, som du måste ange i dialogrutan **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL FTP]:* Om du vill skicka den färdiga rapporten till en eller flera FTP-platser, som du måste ange i dialogrutan **[!UICONTROL Destination Name]** fält.
+* *[!UICONTROL FTP SSL](I betaversion):* Om du vill skicka den färdiga rapporten till en eller flera FTP SSL-platser, som du måste ange i dialogrutan **[!UICONTROL Destination Name]** fält.
 * *[!UICONTROL Email]:* Ange e-postadresser dit slutförda rapporter eller meddelanden ska skickas om rapporten avbryts på grund av fel.
 
 >[!NOTE]

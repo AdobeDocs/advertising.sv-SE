@@ -1,11 +1,11 @@
 ---
 title: Hantera [!DNL Microsoft Advertising] dynamisk återmarknadsföring
 description: Lär dig hur du skapar och hanterar [!DNL Microsoft Advertising] dynamisk återmarknadsföring.
-exl-id: 6f0cb6a0-36cc-4a07-82a8-247191b6c4f5
+exl-id: 52faab75-e723-4e59-aac6-b4d0c4c1cf60
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Microsoft Advertising]endast konton*
 
-Du kan skapa [!DNL Microsoft Advertising] dynamisk återmarknadsföring av publiken när du använder sökmotorns JavaScript-konvertering och målgruppsspårningstagg på dina webbsidor. Varje publik skapas med en angiven tagg som finns med på de webbsidor vars användare ska utgöra målgruppen. Du kan skapa flera målgrupper med samma spårningstagg. Du kan också ändra namn och datakälla för befintliga målgrupper eller ta bort befintliga målgrupper.
+Du kan skapa [!DNL Microsoft Advertising] dynamisk återmarknadsföring av publiken när du använder sökmotorns JavaScript-konvertering och målgruppsspårningstagg på dina webbsidor. Varje publik skapas med en angiven tagg som finns på de webbsidor vars användare omfattar publiken. Du kan skapa flera målgrupper med samma spårningstagg. Du kan också ändra namn och datakälla för befintliga målgrupper eller ta bort befintliga målgrupper.
 
 Målgrupper för dynamisk återmarknadsföring har typen Målgrupp[!UICONTROL Dynamic Remarketing] \&lt;visitor type=&quot;&quot;>&quot; (t.ex.&quot;Dynamic Remarketing Past Buyers&quot;).
 
@@ -42,7 +42,7 @@ Mer information om dynamisk återmarknadsföring och hur du implementerar den Ja
 
    1. Ange **[!UICONTROL Audience Name]**.
 
-   1. Välj namnet på sökmotorkontot i en lista över alla tillgängliga taggar för sökmotorkontot [!DNL Microsoft Advertising] UET-tagg som ingår i de webbsidor vars användare ska omfatta publiken.
+   1. Välj namnet på sökmotorkontot i en lista över alla tillgängliga taggar för sökmotorkontot [!DNL Microsoft Advertising] UET-tagg som ingår i de webbsidor vars användare omfattar publiken.
 
    1. Välj besökartyp för målgruppen, som baseras på besökaråtgärder på relevanta webbsidor: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, eller *[!UICONTROL Shopping Cart Abandoners]*.
 
@@ -72,7 +72,7 @@ Du kan ändra namn och datakälla för en [!DNL Microsoft Advertising] dynamisk 
 
    1. (Valfritt) Ändra **[!UICONTROL Audience Name]**.
 
-   1. (Valfritt) Ändra namnet på annonsnätverkskontot i en lista över alla tillgängliga taggar för annonsnätverkskontot [!DNL Microsoft Advertising] UET-tagg som ingår i de webbsidor vars användare ska omfatta publiken.
+   1. (Valfritt) Ändra namnet på annonsnätverkskontot i en lista över alla tillgängliga taggar för annonsnätverkskontot [!DNL Microsoft Advertising] UET-tagg som ingår i de webbsidor vars användare omfattar publiken.
 
    1. (Valfritt) Ändra besökartypen för målgruppen, som baseras på besökaråtgärder på relevanta webbsidor: *[!UICONTROL General Visitors]*, *[!UICONTROL Product Searchers]*, *[!UICONTROL Product Viewers]*, *[!UICONTROL Past Buyers]*, eller *[!UICONTROL Shopping Cart Abandoners]*.
 

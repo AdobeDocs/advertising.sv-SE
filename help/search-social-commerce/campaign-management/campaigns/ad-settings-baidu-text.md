@@ -1,11 +1,11 @@
 ---
 title: '''[!DNL Baidu] text och inställningar'
 description: Referera inställningarna för [!DNL Baidu] textannonser.
-exl-id: 68165d1f-a7ef-4b2a-ae5d-36190fb49d77
+exl-id: 1c914e8a-e39b-477e-9c19-919ffedc30c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display URL]:** Den URL som visas i en annons. Den maximala längden är 35 tecken med en byte.
 
-**[!UICONTROL Mobile Preferred]:** (Valfritt) Tillåter nätverket att försöka visa annons- eller annonstillägget för användare av mobila enheter i stället för för för användare på datorer eller surfplattor. Som standard är alternativet inte aktiverat och annonsen visas på alla enhetstyper.
+**[!UICONTROL Mobile Preferred]:** (Valfritt) Tillåter nätverket att försöka visa annons- eller annonstillägget för användare av mobila enheter i stället för för för användare på datorer eller surfplattor. Som standard är alternativet inte aktiverat och annonsen kan visas på alla enhetstyper.
 
 >[!NOTE]
 >

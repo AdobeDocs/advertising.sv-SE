@@ -3,9 +3,9 @@ title: Använda [!DNL Roku] Lager
 description: Läs om DSP partnerskap med [!DNL Roku], inklusive lageralternativ, godkända tredjepartsleverantörer av spårning och bästa praxis för [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ DSP erbjuder unika funktioner för annonsering på [!DNL Roku].
 
 ## DSP och [!DNL Roku] Partnerskap
 
-Roku och DSP har ett unikt samarbete som matchar dina [!DNL DSP] målgrupper till [!DNL Roku] ID:n för 1:1 deterministisk målgruppsanpassning på [!DNL Roku] lager.
+Roku och DSP har ett unikt samarbete som matchar dina [!DNL DSP] målgrupper [!DNL Roku] ID:n för 1:1 deterministisk målgruppsanpassning på [!DNL Roku] lager.
 
 Utanför Rokus egna DSP (OneView) har Advertising DSP tillgång till dessa målningsfunktioner. DSP är också den enda DSP som har tillstånd att mäta [!DNL Roku] leverans bredvid alla andra TV-lager (med internetanslutning). För [!DNL Roku] delar inte alla standard-RTB- och visningssignaler i pixlar, och ingen annan DSP kan rikta eller mäta sig med den Roku-sålda CTV-leverantören.
 
@@ -28,9 +28,9 @@ Du kan antingen a) konfigurera privata avtal-ID:n direkt med [!DNL Roku] och ang
 >
 >[!DNL Roku] det finns inget tillgängligt lager på öppna marknadsplatser och börser.
 
-* För era privata erbjudanden [konfigurera information om erbjudande-ID:n i DSP](/help/dsp/inventory/deal-id-create.md) och sedan ange &quot;[!UICONTROL Roku Network – Audience]&quot; och &quot;[!UICONTROL The Roku Channel – Audience]&quot; inom [!DNL Roku] placeringar.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals will show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* För era privata erbjudanden [konfigurera information om erbjudande-ID:n i DSP](/help/dsp/inventory/deal-id-create.md) och sedan ange &quot;[!UICONTROL Roku Network – Audience]och &quot;[!UICONTROL The Roku Channel – Audience]&quot; inom [!DNL Roku] placeringar.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
-* Du kan [prenumerera på följande [!DNL Roku] lager inom [!DNL On Demand] Galleri](/help/dsp/inventory/on-demand-inventory-subscribe.md)och därefter rikta in er på något av de godkända erbjudandena inom [!DNL Roku] placeringar:
+* Du kan [prenumerera på följande [!DNL Roku] lager inom [!DNL On Demand] Galleri](/help/dsp/inventory/on-demand-inventory-subscribe.md)och därefter rikta in er på något av de godkända avtalen inom [!DNL Roku] placeringar:
 
    * &quot;[!UICONTROL Roku Network – Audience]&quot; för lager i hela [!DNL Roku] ekosystem med partners för premiuminnehåll, som [!DNL The CW], [!DNL ABC]och [!DNL ESPN].
    * &quot;[!UICONTROL The Roku Channel – Audience]&quot; for [!DNL Roku] App-innehåll som ägs och drivs (O&amp;O).
@@ -83,4 +83,3 @@ Till maximal skala:
 >* [Skapa information om avtal-ID manuellt](/help/dsp/inventory/deal-id-create.md)
 > * [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Devices](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)
-

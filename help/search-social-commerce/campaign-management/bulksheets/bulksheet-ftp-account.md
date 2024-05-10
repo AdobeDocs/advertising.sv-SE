@@ -1,11 +1,11 @@
 ---
 title: Konfigurera ett FTP-konto för överföring av kalkylblad
 description: Lär dig hur du begär ett FTP-konto för att överföra kalkylbladsfiler.
-exl-id: 6867d705-b8ef-4066-81dd-8742a6f5b126
+exl-id: c8c70638-10ea-476c-8b02-921adb091ef9
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---

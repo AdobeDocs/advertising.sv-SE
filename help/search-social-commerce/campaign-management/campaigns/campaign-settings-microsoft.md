@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -301,7 +301,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 >[!TIP]
 >
->För hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar konverteringar som spåras av [!DNL Microsoft Advertising] UET-taggen (Universal Event tracking) och lägg sedan till dem i [!DNL Microsoft Advertising] redaktör eftersom de inte kommer att överföras till annonsnätverket igen med målet. I [!DNL Microsoft Advertising] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att avmarkera Inkludera i konverteringar.
+>För hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar konverteringar som spåras av [!DNL Microsoft Advertising] UET-taggen (Universal Event tracking) och lägg sedan till dem i [!DNL Microsoft Advertising] redigerare eftersom de inte överförs till annonsnätverket igen med målet. I [!DNL Microsoft Advertising] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att avmarkera Inkludera i konverteringar.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Så här beräknar du källskatt:
 
 * **[!UICONTROL Target Age]:** Det åldersintervall som ska anges som mål. Använd vänster och höger skjutreglage för att minska intervallet efter behov.
 
-* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Nielsen] kommer endast att mäta visningar i de länder som stöds.
+* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Nielsen] endast i de länder som stöds.
 
 **[!UICONTROL comScore vCE]:** (Valfritt) Aktiverar [!DNL Comscore validated Campaign Essentials (vCE)] mätning och rapportering av målgruppsverifiering, med de angivna inställningarna. Ytterligare avgifter tillkommer.
 
@@ -134,7 +134,7 @@ Så här beräknar du källskatt:
 
 * **[!UICONTROL Target Age]:** Det åldersintervall som ska anges som mål. Använd vänster och höger skjutreglage för att minska intervallet efter behov.
 
-* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Comscore] kommer endast att mäta visningar i de länder som stöds.
+* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Comscore] endast i de länder som stöds.
 
 ### [!UICONTROL 1st Party Metrics]
 

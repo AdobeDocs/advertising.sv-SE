@@ -1,11 +1,11 @@
 ---
 title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
-exl-id: 85707666-7c0f-4aa3-8c91-fb73ef6a5061
+exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 2903bf783969b3e2d59c0933629cbb170c0a314c
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '3922'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Du kan se vilka konverteringar som har gjorts genom att klicka på en [!DNL Goog
 När raden innehåller data för innehållsaktiverade sökkampanjer, webbkampanjer eller sociala kampanjer - som inte innehåller nyckelord - är [!UICONTROL Keyword] -kolumnen visar det tillämpliga annonsgruppsnamnet i stället.
 +++
 
-+++På grund av säsongsförändringar eller förändringar på marknaden visar mina rapporter atypiska data. Kommer detta att påverka buden när villkoren ändras?
++++På grund av säsongsförändringar eller förändringar på marknaden visar mina rapporter atypiska data. Påverkar detta anbud när villkoren ändras?
 Optimeringsfunktionen bygger sina intäktsmodeller för varje budenhet dagligen för att säkerställa att den identifierar och omedelbart reagerar på trender, och modellerna bygger på långsiktiga historiska data för att hjälpa till att förutsäga säsongsrelaterade resultat. Portföljens intäktsmodell, halveringstid<!-- add link to glossary? --> avgör också hur mycket de senaste intäktsuppgifterna viktas. Det bästa sättet är att minska halveringstiden under en period med atypiska resultat men öka den efter att intäktsmodellen har justerats. Om du har några frågor om huruvida det är nödvändigt att justera halveringstiden kontaktar du ditt Adobe-kontoteam.
 
 Om du inte vill att data för perioden ska påverka framtida bud alls kan du välja att exkludera dessa datum från modellen. Kontakta kontoteamet på Adobe för att exkludera datum.
@@ -98,7 +98,7 @@ Detta kan inträffa när heltal används i mätformaten:
 +++
 
 +++Hur förhindrar jag att klicknings- eller intäktsdata påverkar framtida anbud?
-Klickdatafel uppstår när sökning, sociala medier och handel inte är synkroniserat med annonsnätverket. Kontakta kontoteamet på Adobe om du vill synkronisera kontot manuellt. Om klickdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från kostnadsmodellerna.
+Klicka på dataproblem när sökningen, sociala medier och Commerce inte är synkroniserade med annonsnätverket. Kontakta kontoteamet på Adobe om du vill synkronisera kontot manuellt. Om klickdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från kostnadsmodellerna.
 
 Intäktsdataproblem kan uppstå på grund av ett problem med spårning eller feed-fil. Kontakta kontoteamet på Adobe för att undersöka problemet. Om intäktsdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från intäktsmodellerna.
 +++
@@ -127,23 +127,23 @@ Nedan följer några vanliga orsaker till att klickdata saknas.
 +++
 
 +++Prestandadata skiljer sig från data i annonsnätverkets redigerare.
-När annonsnätverket skickar uppdateringar till tidigare data (ofta för att de har tilldelat klickbedrägeri) uppdateras inte data i Sök, Socialt och Commerce, såvida det inte finns mer än 5 % diskrepans och Adobe Account Team skickar en begäran.
+När annonsnätverket skickar uppdateringar till tidigare data (ofta för att de har tilldelat klickbedrägeri) uppdaterar inte Search, Social och Commerce data om det inte finns mer än 5 % diskrepans och Adobe Account Team skickar en begäran.
 
-När du jämför visningsdelningsdata som aggregerats över ett datumintervall kan de data som rapporteras i rapporten Sök, Socialt och Commerce skilja sig från de data som annonsnätverket rapporterar. Den här skillnaden beror på hur data rapporteras av annonsnätverkets API, som används för att hämta in data i Search, Social och Commerce. Till exempel [!DNL Google Ads] data:
+När du jämför visningsdelningsdata som aggregerats över ett datumintervall kan de data som rapporteras i Search, Social och Commerce skilja sig från de data som annonsnätverket rapporterar. Skillnaden beror på hur data rapporteras av annonsnätverkets API, som används av Search, Social och Commerce för att hämta in data. Till exempel [!DNL Google Ads] data:
 
 * För de flesta intrycket används samma mätvärden [!DNL Google Ads] Ändrar antingen den nedre eller övre delen av de värden som rapporteras för värden som är antingen mindre än 10 % eller större än 90 %. Data rapporteras som 0,0999 för &lt;10% och 0,9001 för >90%
 
-* När det finns en blandning av begränsade och obegränsade data inom datumintervallet delar Search, Social och Commerce in visningsdata med hjälp av de värden som skickas i API:t i befintligt skick. 0,0999 används för rader med &lt;10% och 0,9001 för rader med >90 %. Den här aggregeringen kan resultera i en avvikelse från [!DNL Google Ads] föraggregerade data eftersom [!DNL Google Ads] kan använda faktiska procentvärden, som 7 % eller 97 %.
+* När det finns en blandning av begränsade och obegränsade data inom datumintervallet delar Sökning, Sociala och Commerce-aggregerade visningsdata med hjälp av de värden som skickas i API:t i befintligt skick. 0,0999 används för rader med &lt;10% och 0,9001 för rader med >90 %. Den här aggregeringen kan resultera i en avvikelse från [!DNL Google Ads] föraggregerade data eftersom [!DNL Google Ads] kan använda faktiska procentvärden, som 7 % eller 97 %.
 +++
 
 +++Prestandadata i rapporter skiljer sig från data i [!DNL Google Analytics].
 De två systemen mäter olika data, så du bör förvänta dig att se olika data. Exempel:
 
-* Sök, social, &amp; Commerce (och Google Ads) spårar klick, medan [!DNL Google Analytics] spårar besök per 30-minuters webbläsarsession. Om en användare till exempel klickar på din annons en gång, klickar på knappen Bakåt och sedan klickar på annonsen igen, registrerar sökning, sociala medier och handel två klick, men [!DNL Google Analytics] registrerar ett besök.
+* Sök, social, &amp; Commerce (och Google Ads) håller reda på klick, medan [!DNL Google Analytics] spårar besök per 30-minuters webbläsarsession. Om en användare till exempel klickar på din annons en gång, klickar på knappen Bakåt och sedan klickar på annonsen igen, registrerar Sök, Socialt och Commerce två klick, men [!DNL Google Analytics] registrerar ett besök.
 
 * [!DNL Google Analytics] visar alla trafikdata, medan Sök, Social och Commerce (och [!DNL Google Ads]) filtrerar ogiltiga klick (t.ex. överdrivet, upprepade klick).
 
-* [!DNL Google Analytics] innehåller klicknings- och intäktsdata för alla klickningar. Det går inte att spåra klick- och intäktsdata för annonser och nyckelord med felaktiga eller saknade spårnings-URL:er i sökningen, sociala medier och e-handel.
+* [!DNL Google Analytics] innehåller klicknings- och intäktsdata för alla klickningar. Search, Social och Commerce kan inte spåra klicknings- och intäktsdata för annonser och nyckelord med felaktiga eller saknade spårnings-URL:er.
 +++
 
 ## Konverteringsmått
@@ -158,11 +158,11 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 *Möjliga orsaker:*
 
-* Nyckelord eller annonser lades till utan att prefixet Sök, Socialt och Commerce för klickspårning lades till i spårningsmallarna eller mål-URL:erna, eller så är spårningsprefixet felaktigt.
+* Nyckelord eller annonser lades till utan att prefixet Sök, Socialt och Commerce klickspårning lades till i spårningsmallarna eller mål-URL:erna, eller så är spårningsprefixet felaktigt.
 
 * Taggen för konverteringsspårning implementeras inte korrekt på alla tillämpliga webbsidor eller redigerades.
 
-* Konverteringsmåtten som sökningen, sociala medier och handeln spårar är exkluderade från rapporter och syns därför inte.
+* Konverteringsmåtten som Search, Social och Commerce spårar är exkluderade från rapporter och syns därför inte.
 
 * Inkomstparsern för klienten implementerades inte.
 
@@ -172,7 +172,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 1. Kontrollera att rätt konverteringsspårningstaggar implementeras på alla tillämpliga webbsidor. Om det behövs kan du be ditt kontoteam på Adobe att skapa en testtransaktion för varje tillämplig spårningstagg för konvertering och att registrera information om transaktionen, till exempel `transactionid` och detaljer från cookien (t.ex. `trackingid`, `clickid`och så vidare).
 
-1. Om [!UICONTROL Auto Upload] är inaktiverat för kampanjen och du har lagt till nyckelord eller annonser. Kontrollera sedan att du har skapat en spårningsmall eller en mål-URL som innehåller sök-, sociala och handelsklickningsspårning för varje. Kontoteamet på Adobe kan köra en intern rapport för att se om det finns klickspårnings-URL:er (spårningsmallar eller mål-URL:er) som saknas eller är felaktiga.
+1. Om [!UICONTROL Auto Upload] är inaktiverat för kampanjen och du har lagt till nyckelord eller annonser. Kontrollera sedan att du har genererat en spårningsmall eller mål-URL som innehåller Sökning, Socialt och Commerce klickomdirigeringsspårning för varje. Kontoteamet på Adobe kan köra en intern rapport för att se om det finns klickspårnings-URL:er (spårningsmallar eller mål-URL:er) som saknas eller är felaktiga.
 
    Generera vid behov spårning genom att skapa en kalkylbladsfil med rätt URL:er och posta filen till rätt konto med hjälp av **Generera spårnings-URL:er** alternativ.
 
@@ -180,7 +180,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 1. Om inget av dessa steg löser problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
-   Om klienten inte har startats eller om den har startats nyligen verifierar kundtjänst om en intäktsparser har ställts in. Om parsern är konfigurerad kontrollerar de om Search, Social, &amp; Commerce tar emot pixelkonverteringar och felsöker problemet.
+   Om klienten inte har startats eller om den har startats nyligen verifierar kundtjänst om en intäktsparser har ställts in. Om parsern är konfigurerad kontrollerar de om Search, Social och Commerce tar emot pixelkonverteringar och felsöker problemet.
 
 **Annonsörer som skickar konverteringsdataflöden**
 
@@ -227,11 +227,11 @@ The [!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report]
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
+1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce har tagit emot med annonsörens data.
 
 1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att den relevanta spårningstaggen för konvertering har implementerats på alla tillämpliga webbsidor och inte har redigerats om inte kontoteamet på Adobe har sagt att du ska göra det. En tagg kan saknas eller ändras om webbplatsen nyligen uppdaterades.
 
-   För sökning, sociala medier och handel förväntas välformade URL:er (med parametrar i namnvärdespar) i `ef_transaction_properties` variabeln och inom `src` -elementet i `img` -tagg.
+   För Sök, Socialt och Commerce förväntas URL:er med rätt format (med parametrar i namnvärdespar) i `ef_transaction_properties` variabeln och inom `src` -elementet i `img` -tagg.
 
 1. Om du inte kan fastställa och lösa problemet kan du [kontakta Kundtjänst](/help/search-social-commerce/get-help.md).
 
@@ -253,7 +253,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens flödesuppgifter.
+1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce har tagit emot med annonsörens flödesuppgifter.
 
 1. Om en transaktion i feed-filen saknas i rapporten kontrollerar du om en onlinetransaktion med samma transaktions-ID (spårad via pixeln) inträffade före offlinekonverteringen.
 
@@ -269,9 +269,9 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * Trafiken till annonsörens sida kom från ett bokmärke eller en organisk sökning istället för från en annons.
 
-* Det finns [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p)så Search, Social, &amp; Commerce räknar inte alla intäkter som det ska ha.
+* Det finns [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p), så Search, Social och Commerce räknar inte med alla intäkter de behöver.
 
-* Annonsören validerade en rapport för sökning, sociala medier och handel mot en annan uppsättning data än de skickade i flödet.
+* Annonsören validerade en Search-, Social- och Commerce-rapport mot en annan uppsättning data än de skickade i feeden.
 
 * Transaktions-ID:n (`ev_transid` värden) skickades inte, är inte unika eller är felaktiga.
 
@@ -279,11 +279,11 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * Fel uppstod när filen parsades.
 
-* Annonsörens dedupliceringslogik skiljer sig från logiken Sök, Social och Commerce.
+* Annonsörens dedupliceringslogik skiljer sig från logiken i Search, Social och Commerce.
 
 *Möjlig lösning eller tillfällig lösning:*
 
-1. Gå till **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce tog emot med annonsörens data.
+1. Gå till **[!UICONTROL Insights]&amp;[!UICONTROL Reports > Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce har tagit emot med annonsörens data.
 
 1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att a) matningsfilen innehåller alla nödvändiga transaktions-ID:n och att inga dubbletter av spårnings-ID:n och b) transaktions-ID:n är unika och korrekta.
 

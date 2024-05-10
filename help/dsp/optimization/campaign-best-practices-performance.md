@@ -3,9 +3,9 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: c2c2ddb18b100dc0592d07af3ed1d9f030178eca
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ DSP kan optimera era prestandainriktade kampanjer. Se följande metodtips för p
 
 ## Steg 1 - Definiera ditt mål
 
-Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmål](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; För varje paket i kampanjen anger ni optimeringsmålet utifrån detta.
+Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmål](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Ange optimeringsmålet för varje paket i kampanjen utifrån detta.
 
 ![optimeringsmål](/help/dsp/assets/optimization-goals.png)
 
-Du måste också fastställa vilka framgångshändelser som ska leda till det övergripande målet och skapa anpassade mål utifrån detta. För varje paket anger du ett anpassat mål som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål finns i [Bästa metoder för att skapa ett anpassat mål](custom-goal.md#custom-goal-best-practices).
+Du måste också identifiera de framgångshändelser som leder till det övergripande målet och skapa anpassade mål utifrån detta. För varje paket anger du ett anpassat mål som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål finns i [Bästa metoder för att skapa ett anpassat mål](custom-goal.md#custom-goal-best-practices).
 
 ![anpassade mål](/help/dsp/assets/objective-goals.png)
 
@@ -97,7 +97,7 @@ Nedan följer de rekommenderade placeringsinställningarna för prestandakampanj
 
 ### Mål
 
-Du konfigurerar CPA- eller ROAS-optimering på paketnivå (se Steg 3 - Skapa paket), men du kan lägga till ytterligare inställningar på placeringsnivå.
+Du måste konfigurera CPA- eller ROAS-optimering på paketnivå (se Steg 3 - Skapa paket), men du kan lägga till ytterligare inställningar på placeringsnivå.
 
 * **Max. bud:**
    * Använd ett lågt maximalt bud ($5) för prospekteringsplaceringar.
@@ -105,7 +105,7 @@ Du konfigurerar CPA- eller ROAS-optimering på paketnivå (se Steg 3 - Skapa pak
 
 * **Föranbudsfilter:** Minimera, eller helst undvik, att ställa in aggressiva förbudsfilter, som förhindrar att placeringen når skala. De bästa sätten är följande:
 
-   * Använd ett (1) förbudsfilter per placering. Flera föranbudsfilter kräver att båda uppfylls, vilket minskar skalan.
+   * Använd ett (1) förbudsfilter per placering. Om du använder flera förbudsfilter måste båda vara uppfyllda, vilket minskar skalan.
 
    * Överväg att ställa in mindre strikta förbudsfilter om ytterligare målgruppsanpassning (som målgruppsanpassning, geolokalisering och webbplatsanpassning) tillämpas.
 
@@ -132,7 +132,7 @@ Om du vill maximera skalan använder du [!UICONTROL Public] (Open Exchange) och 
 
 >[!NOTE]
 >
->Dina annonser fungerar bäst om en användare bara kan nås på ett ställe. Betydande överlappning mellan användare på olika platser kan leda till konkurrens, vilket leder till en cykel med ständigt ökande bud, vilket ökar kostnaden per användare. Om du inkluderar flera målgrupper måste du därför se till att de inte består av överlappande användare/målgruppsmedlemmar.
+>Dina annonser fungerar bäst om en användare bara kan nås på en plats. Betydande överlappning mellan användare på olika platser kan leda till konkurrens, vilket leder till en cykel med ständigt ökande bud, vilket ökar kostnaden per användare. Om du inkluderar flera målgrupper måste du därför se till att de inte består av överlappande användare/målgruppsmedlemmar.
 >
 > Ni kan undvika överlappande målgrupper genom att skapa era målgrupper i lager så att ni kan utelämna de högre, mer omfattande nivåerna från placeringar efter behov.
 

@@ -3,9 +3,9 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: fcce2b2ba7ab9717e83b05ddf8f22399f6b2e28e
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -59,13 +59,13 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
       Standardfönstret är 45 dagar. Ange ett värde mellan 1 och 365.
 
-   1. Klicka **[!UICONTROL Advanced]** för att utöka de avancerade inställningarna och sedan välja de typer av användaridentifierare som segmenttaggen ska spåra:
+   1. Klicka **[!UICONTROL Advanced]** för att utöka de avancerade inställningarna och sedan välja de typer av användaridentifierare som segmenttaggen spårar:
 
       * *[!UICONTROL Cookies]:* (Standardvärdet) Segmenttaggen spårar cookies.
 
       * [!UICONTROL Universal IDs (Beta)]:
 
-         * *[!UICONTROL ID5]:* Segmenttaggen spåras [!DNL ID5] ID. Inga avgifter tas ut för visningar som skickas till universella ID:n.
+         * *[!UICONTROL ID5]:* Segmenttaggspår [!DNL ID5] ID. Inga avgifter tas ut för visningar som skickas till universella ID:n.
 
         **[!UICONTROL Terms of Service]:** Villkor för serviceavtal för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 

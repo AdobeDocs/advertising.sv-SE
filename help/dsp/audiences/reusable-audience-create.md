@@ -3,9 +3,9 @@ title: Skapa en återanvändbar publik
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: eb3ce7d8bcddf52844b50797a95cb3b5aec13684
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 
 1. (Valfritt) Avmarkera alternativet till **[!UICONTROL Share with all advertisers in my account]**.
 
-   När ni delar en publik blir målgruppen tillgänglig som mål eller exkludering för alla annonsörer på kontot. De enskilda segmenten i målgruppen är dock bara tillgängliga för användare som segmenten delas med. Om du till exempel delar en publik som innehåller Adobe Analytics-segment med en annonsörer som inte är mappad till samma [!DNL Analytics] kommer segmentet inte att förhandsgranskas för den annonsören. Endast de segment som är tillgängliga för den annonsören förhandsgranskas i målgruppen.
+   När ni delar en publik blir målgruppen tillgänglig som mål eller exkludering för alla annonsörer på kontot. De enskilda segmenten i målgruppen är dock bara tillgängliga för användare som segmenten delas med. Om du till exempel delar en publik som innehåller Adobe Analytics-segment med en annonsörer som inte är mappade till samma [!DNL Analytics] så förhandsvisas inte segmentet för den annonsören. Endast de segment som är tillgängliga för den annonsören förhandsgranskas i målgruppen.
 
 1. Klicka på **[!UICONTROL Save]**.
 

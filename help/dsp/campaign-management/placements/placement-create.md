@@ -3,9 +3,9 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
       Vissa fält har standardvärden som du kan åsidosätta.
 
-      Om paketet som placeringen är tilldelad till har paketnivåpacing, kommer dina mål och paketinställningar att återspegla paketinställningarna.
+      Om paketet som placeringen är tilldelad till har paketnivåpaketering, återspeglar mål- och paketinställningarna paketinställningarna.
 
    1. (Valfritt) I dialogrutan [!UICONTROL Geo-Targeting] avgränsar du de platser som är inkluderade eller exkluderade.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
          1. (Valfritt) För varje ytterligare annons som du vill skapa för placeringen klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa steg 1-3.
 
-         1. Om du inte vill bifoga några annonser klickar du på **[!UICONTROL I'm done for now]**.
+         1. Om du inte vill bifoga några befintliga annonser klickar du på **[!UICONTROL I'm done for now]**.
 
       * Så här bifogar du befintliga annonser i kampanjen:
 

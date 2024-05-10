@@ -1,11 +1,11 @@
 ---
 title: Konverteringsspårning för Adobe Analytics
 description: Läs om hur du använder Adobe Analytics konverteringsspårning för kampanjer i Adobe Advertising.
-exl-id: 0ed1d059-829a-4090-950d-41cbcc27b3ac
+exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: 73cdb171523b55f48b5ae5c5b2b4843f542336a6
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Se &quot;[Översikt [!DNL Analytics for Advertising]](https://experienceleague.a
 
 >[!PREREQUISITES]
 >
-> Tidszoner i annonskontot för sökning, sociala medier och handel, [!DNL Analytics] rapportsviter och annonsnätverkskontona måste matcha. Om de inte matchar finns det dataavvikelser mellan systemen.
+> Tidszoner i annonskontot för sökning, sociala medier och Commerce, [!DNL Analytics] rapportsviter och annonsnätverkskontona måste matcha. Om de inte matchar varandra sker dataavvikelser mellan systemen.
 
 ## Implementeringsöversikt
 
-1. I [!DNL Analytics]ändrar implementeringsteamet för sökning, sociala medier och handel följande konfigurationsinställningar för varje rapportserie:
+1. I [!DNL Analytics]ändrar ert implementeringsteam för sökningar, sociala medier och Commerce följande konfigurationsinställningar för varje rapportserie:
 
    * Giltighetstiden för `ef_id` [!DNL eVar] har ändrats så att den matchar annonsörens klickfönster för Adobe Advertising.
 
@@ -32,9 +32,9 @@ Se &quot;[Översikt [!DNL Analytics for Advertising]](https://experienceleague.a
 
    * Standardhändelser och anpassade händelser som ska användas för optimering.
 
-1. I Search, Social, &amp; Commerce kan ditt implementeringsteam:
+1. I Search, Social, &amp; Commerce, ditt implementeringsteam:
 
-   1. Synkroniserar den befintliga kontohierarkin i annonsnätverk till Sök, Socialt och Commerce.
+   1. Synkroniserar den befintliga kontohierarkin i annonsnätverk till Search, Social och Commerce.
 
    1. Lägger till omdirigeringar med &quot;`ef_id`&quot;-token som skickas till spårnings-URL:er och som skickas till annonsnätverket.
 

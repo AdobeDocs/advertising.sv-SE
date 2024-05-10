@@ -3,9 +3,9 @@ title: Hantera handlarkonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett handlarcenterkonto.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: 35a27d075d5de7c3526cd6522376671954b608db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
 
-Sökning, sociala medier och handel kan hämta och visa produktdata varje dag för annonsörens konton på Google Merchant Center eller Microsoft Merchant Center. Dessutom kan sökningar, sociala medier och handel automatisera annonsinställningarna baserat på innehållet i handelskontot.Om du vill arbeta direkt med produktdata i sökningar, sociala medier och handel måste du skapa en motsvarande kontopost som innehåller inloggningsuppgifterna och med åtkomst *aktiverad*.
+Search, Social, &amp; Commerce kan ladda ned och visa produktdata varje dag för alla annonsörer som har konton på Google Merchant Center eller Microsoft Merchant Center. Dessutom kan sökningar, sociala medier och Commerce automatisera annonsinställningarna baserat på innehållet i handelskontot.Om du vill arbeta direkt med produktdata i sökningar, sociala medier och Commerce måste du skapa en motsvarande kontopost som innehåller kontoinloggningsuppgifterna och med åtkomst *aktiverad*.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
    
    -->
 
-   1. (Krävs för [!DNL Google Ads] konton, valfria för [!DNL Microsoft Advertising] konton) Tillåt sökning, sociala medier och handel att komma åt kontot via [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/):
+   1. (Krävs för [!DNL Google Ads] konton, valfria för [!DNL Microsoft Advertising] konton) Ge Search, Social och Commerce åtkomst till kontot via [[!DNL OAuth] auktoriseringsprotokoll](https://oauth.net/2/):
 
       1. ([!DNL Microsoft Advertising] endast konton) Välj **[!UICONTROL oAuth]**.
 
@@ -84,7 +84,7 @@ Om kontoinloggningsuppgifterna ändras eller du inte längre vill hämta och anv
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerce måste synkronisera nya kontodata med data i handelsnätverket. Detta sker automatiskt en gång om dagen kl. 06:00 i användarens lokala tidszon.
+>Search, Social och Commerce måste synkronisera de nya kontodata med de som finns i handelsnätverket. Detta sker automatiskt en gång om dagen kl. 06:00 i användarens lokala tidszon.
 
 ## Inaktivera åtkomst till ett handlarkonto {#disable-merchant-account}
 
@@ -118,7 +118,7 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Access Key]:** ([!DNL Microsoft Merchant Center] bara) Åtkomstnyckeln som utvecklarkontot ska använda.
 
-**[!UICONTROL Account Name]:** Namnet som visas för kontot i Sök, Socialt och Handel.
+**[!UICONTROL Account Name]:** Namnet som visas för kontot i Sök, Socialt och Commerce.
 
 **[!UICONTROL Login]:** Inloggningsnamn eller ID för kontot.
 
@@ -126,7 +126,7 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Confirm Password]:** Kontots lösenord.
 
-**[!UICONTROL EF Account Type]:** Om Search, Social och Commerce kommer åt kontot:
+**[!UICONTROL EF Account Type]:** Om Search, Social och Commerce har åtkomst till kontot:
 
 * *[!UICONTROL Enabled]* (standard): Sök, Socialt och Commerce kan logga in på kontot för att hämta produktdata.
 
@@ -134,7 +134,7 @@ När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in 
 
 **[!UICONTROL Account ID]:** Handlarens konto-ID. Om du bara har ett konto med den angivna inloggningsinformationen är det här värdet valfritt.
 
-**[!UICONTROL Time Zone]:** Annonsörens tidszon. Använd samma tidszon som konfigurerats för annonsörens kontoinformation för sökning, sociala medier och handel (som anges när kontot skapas). Du kan inte ändra värdet för ett befintligt konto.
+**[!UICONTROL Time Zone]:** Annonsörens tidszon. Använd samma tidszon som konfigurerats för annonsörens kontoinformation för sökning, sociala medier och Commerce (som ställs in när kontot skapas). Du kan inte ändra värdet för ett befintligt konto.
 
 >[!MORELIKETHIS]
 >

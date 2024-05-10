@@ -3,9 +3,9 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stö
 
 ## Saker att känna till innan du implementerar
 
-* Implementeringsteamet på Adobe Advertising kommer att konfigurera integreringen.
+* Implementeringsteamet på Adobe Advertising ställer upp integreringen.
 
 * Inga extra kostnader debiteras för den här integreringen och serveranrop leder inte heller till ytterligare [!DNL Analytics] eller avgifter från Adobe Advertising.
 

@@ -1,11 +1,11 @@
 ---
 title: Om [!DNL Google Ads] dynamiska sökmål
 description: Läs mer om [!DNL Google Ads] dynamiska sökmål.
-exl-id: 3936455b-926a-4a3f-b3df-54e92cdfdc99
+exl-id: e6a8a426-5848-4161-99f3-1140aa3e4b9f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *[!DNL Google Ads]endast konton*
 
-Dynamiska sökmål definierar om annonsnätverket ska använda alla eller en del av sidorna på webbplatsen för att rikta in era dynamiska sökannonser. Konfigurera dynamiska sökmål på annonsgruppsnivå. De gäller alla dynamiska sökannonser i samma annonsgrupp.
+Dynamiska sökmål definierar om annonsnätverket använder alla eller en delmängd av sidorna på webbplatsen för att rikta in era dynamiska sökannonser. Konfigurera dynamiska sökmål på annonsgruppsnivå. De gäller alla dynamiska sökannonser i samma annonsgrupp.
 
 Beroende på dina kampanjinställningar kan dynamiska sökmål vara obligatoriska eller valfria:
 

@@ -3,7 +3,7 @@ title: Hur DSP optimerar era kampanjer
 description: Lär dig hur DSP optimerar paketen i era kampanjer.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP kan optimera leveransen på två grundläggande sätt, med 20 olika variante
 
 * Prioritera balansering av kostnadseffektivitet med prestandahastighet
 
-Se [Optimeringsmål och Så här använder du dem](optimization-goals.md) för att avgöra vilket optimeringsmål som hjälper dig att uppnå dina nyckeltal.
+Se [Optimeringsmål och Så här använder du dem](optimization-goals.md) för att avgöra vilket optimeringsmål som kan hjälpa dig att uppnå dina KPI:er.
 
 ### Paket som prioriterar prestandahastighet
 
@@ -48,9 +48,9 @@ Det här optimeringsläget fungerar bra om:
 
 #### Mellanrumslogik {#pacing-logic-performance}
 
-* Om ni spenderar pengar i takt med detta blir budgivningen mer selektiv, så att ni bara kan lägga bud på auktioner som förväntas ha höga prestationsnivåer.
+* Om ni spenderar pengar i takt med detta blir budgivningarna mer selektiva så att ni bara lägger bud på auktioner som förväntas ha höga prestationsnivåer.
 
-* Om ni ligger efter i tiden blir budgivningen mindre selektiv, så att ni kan lägga bud på auktioner som förväntas ha lägre prestationsnivåer för att hinna med det kommande målet.
+* Om ni ligger efter i tiden blir budgivningen mindre selektiv så att ni kan lägga bud på auktioner som förväntas ha lägre prestationsnivåer för att hinna ikapp målsättningen.
 
 #### Rensar pris/budskugga {#clearing-price-performance}
 
@@ -80,7 +80,7 @@ Placering av filter före bud är det enklaste sättet att säkerställa höga p
 >
 >Vilka filter som är tillgängliga för förbud varierar beroende på annonstyp. För en standardplacering kan du till exempel filtrera genom klickfrekvens och visningsbarhet, men inte efter slutförandegrad.
 
-Se [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md) för att avgöra vilket föranbudsfilter som hjälper dig att uppnå dina KPI:er.
+Se [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md) för att avgöra vilket föranbudsfilter som kan hjälpa dig att uppnå dina KPI:er.
 
 >[!MORELIKETHIS]
 >

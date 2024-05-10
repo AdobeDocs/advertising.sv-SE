@@ -3,7 +3,7 @@ title: Om [!UICONTROL Report Destinations]
 description: Lär dig hur du hanterar leveransplatser för anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Du kan skapa och hantera leveransplatser, som kallas *[!DNL report destinations]
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
 * SFTP
-* FTP SSL (i beta)
+* FTP SSL (i betaversion)
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Du kan skapa nya mål samt redigera och ta bort befintliga mål från den här v
 
 >[!NOTE]
 >
->Om du uppdaterar autentiseringsuppgifterna för dina befintliga rapportdestinationer avbryts inte rapportleveransen så länge som autentiseringsuppgifterna är giltiga.
+>Uppdateringen av autentiseringsuppgifterna för dina befintliga rapportdestinationer avbryter inte rapportleveransen så länge autentiseringsuppgifterna är giltiga.
 
 ![Rapportdestinationer](/help/dsp/assets/report-destinations.png)
 
@@ -43,4 +43,3 @@ Du kan skapa nya mål samt redigera och ta bort befintliga mål från den här v
 >* [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
 >* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

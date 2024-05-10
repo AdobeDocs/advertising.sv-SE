@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 227a78310199ee8bf8a66bc3197f8eaf97cd008a
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '2431'
+source-wordcount: '2430'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,7 @@ Om du vill skapa ett anpassat konverteringsmål klickar du **[!UICONTROL + Add c
 
 >[!TIP]
 >
->För kampanjer i hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar [!DNL Google]-spårade konverteringar och lägg sedan till dem i [!DNL Google Ads] redaktör eftersom de inte kommer att överföras till annonsnätverket igen med målet. I [!DNL Google Ads] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att markera dem som sekundära (inte primära) mål.
+>För kampanjer i hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar [!DNL Google]-spårade konverteringar och lägg sedan till dem i [!DNL Google Ads] redigerare eftersom de inte överförs till annonsnätverket igen med målet. I [!DNL Google Ads] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att markera dem som sekundära (inte primära) mål.
 
 <!-- Check on this:
 >If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.

@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertisin
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3212'
+source-wordcount: '3205'
 ht-degree: 0%
 
 ---
@@ -28,17 +28,17 @@ The [!DNL Analytics for Advertising] integrering använder två variabler ([!DNL
 
 Uppslagsfönster och attribueringsmodeller kan dock konfigureras i båda Analytics (via [!DNL eVars]) och i Adobe Advertising. I Adobe Advertising är attribueringsmodellen dessutom konfigurerbar inte bara på annonsörsnivå (för anbudsoptimering) utan också inom enskilda datavyer och rapporter (endast för rapportering). En organisation kan till exempel föredra att använda modellen för jämn fördelning för optimering, men använda den senaste beröringsattribueringen för rapporter i DSP eller [!DNL Advertising Search, Social, & Commerce]. Om du ändrar attribueringsmodeller ändras antalet konverteringar.
 
-Om ett rapportsökningsfönster eller en attribueringsmodell ändras i en produkt och inte i en annan, kommer samma rapporter från varje system att visa distinkta data:
+Om ett rapportsökningsfönster eller en attribueringsmodell ändras i en produkt och inte i en annan, visar samma rapporter från varje system distinkta data:
 
 * **Exempel på avvikelser orsakade av olika uppslagsfönster:**
 
-  Anta att Adobe Advertising har ett 60-dagars klickfönster och [!DNL Analytics] har ett 30-dagars uppslagsfönster. Anta också att en användare kommer till webbplatsen via en Adobe Advertising-spårad annons, lämnar och sedan återgår till dag 45 och konverterar. Adobe Advertising kommer att attribuera konverteringen till det ursprungliga besöket eftersom konverteringen gjordes inom 60-dagars uppslagsfönstret. [!DNL Analytics]Men det går inte att attribuera konverteringen till det ursprungliga besöket eftersom konverteringen inträffade efter att 30-dagars uppslagsfönstret hade gått ut. I det här exemplet skulle Adobe Advertising rapportera fler konverteringar än [!DNL Analytics] skulle.
+  Anta att Adobe Advertising har ett 60-dagars klickfönster och [!DNL Analytics] har ett 30-dagars uppslagsfönster. Anta också att en användare kommer till webbplatsen via en Adobe Advertising-spårad annons, lämnar och sedan återgår till dag 45 och konverterar. Adobe Advertising attribuerar konverteringen till det ursprungliga besöket eftersom konverteringen inträffade inom 60-dagars uppslagsfönstret. [!DNL Analytics]Men det går inte att attribuera konverteringen till det ursprungliga besöket eftersom konverteringen inträffade efter att 30-dagars uppslagsfönstret hade gått ut. I det här exemplet rapporterar Adobe Advertising fler konverteringar än [!DNL Analytics] gör det.
 
   ![Exempel på en konvertering som har tilldelats i Adobe Advertising men inte [!DNL Analytics]](/help/integrations/assets/a4adc-lookback-example.png)
 
 * **Exempel på avvikelser orsakade av olika attribueringsmodeller:**
 
-  Anta att en användare interagerar med tre olika Adobe Advertising-annonser innan de konverterar, med intäkt som konverteringstyp. Om en Adobe Advertising-rapport använder en jämn distributionsmodell för attribuering, kommer intäkterna att fördelas jämnt över alla annonser. If [!DNL Analytics] använder den sista pekattribueringsmodellen, men då attribueras intäkterna till den sista annonsen. I följande exempel tillskriver Adobe Advertising till och med 10 USD av de 30 dollardollarintäkterna till var och en av de tre annonserna, medan [!DNL Analytics] tilldelar alla 30 USD av intäkter till den sista annansen som användaren ser. När du jämför rapporter från Adobe Advertising och [!DNL Analytics]kan du förvänta dig att se effekten av skillnaden i attribuering.
+  Anta att en användare interagerar med tre olika Adobe Advertising-annonser innan de konverterar, med intäkt som konverteringstyp. Om en Adobe Advertising-rapport använder en jämn distributionsmodell för attribuering, fördelas intäkterna jämnt över alla annonser. If [!DNL Analytics] använder den sista pekattribueringsmodellen, men då attribueras intäkterna till den sista annonsen. I följande exempel tillskriver Adobe Advertising till och med 10 USD av de 30 dollardollarintäkterna till var och en av de tre annonserna, medan [!DNL Analytics] tilldelar alla 30 USD av intäkter till den sista annansen som användaren ser. När du jämför rapporter från Adobe Advertising och [!DNL Analytics]kan du förvänta dig att se effekten av skillnaden i attribuering.
 
   ![Olika intäkter från Adobe Advertising och [!DNL Analytics] baserat på olika attribueringsmodeller](/help/integrations/assets/a4adc-attribution-example.png)
 
@@ -110,7 +110,7 @@ I Adobe Advertising kan du rapportera konverteringsdata antingen efter det assoc
 
 ### Potentiellt olika attribueringsmodeller i [!DNL Marketing Channels]
 
-Mest [!DNL Marketing Channels] rapporter har konfigurerats med [!UICONTROL Last Touch] attribuering, för vilken den senaste marknadsföringskanalen har tilldelats 100 % av konverteringsvärdet. Använda olika attribueringsmodeller för [!DNL Marketing Channels] Rapporterna och rapporterna från Adobe Advertising kommer att leda till avvikelser i de konverteringar som tilldelats.
+Mest [!DNL Marketing Channels] rapporter har konfigurerats med [!UICONTROL Last Touch] attribuering, för vilken den senaste marknadsföringskanalen har tilldelats 100 % av konverteringsvärdet. Använda olika attribueringsmodeller för [!DNL Marketing Channels] Rapporter och rapporter från Adobe Advertising leder till avvikelser i konverteringar av tilldelningar.
 
 ### Ett potentiellt annorlunda fönster för att söka efter [!DNL Marketing Channels]
 
@@ -230,13 +230,13 @@ Klickningar och klickningar kan skilja sig avsevärt på grund av oavsiktliga an
 
 Webbplatser som är inlästa på mobila enheter är också mindre benägna att resultera i klickningar på grund av lägre bandbredder eller tillgänglig processorkraft, vilket gör att landningssidor tar längre tid att läsa in. Det är inte ovanligt att 50-70 % av klickningarna inte leder till klickningar. I mobilmiljöer kan skillnaden vara så hög som 90 % på grund av kombinationen av en långsammare webbläsare och den större sannolikheten att användaren av misstag klickar på annonsen när han eller hon bläddrar igenom sidan eller försöker stänga annonsen.
 
-Klickdata kan också spelas in i miljöer där klickningar inte kan spelas in med de aktuella spårningsmekanismerna (t.ex. klick som går in i eller från en mobilapp) eller där annonsören endast har använt en spårningsmetod (t.ex. med den genomskinliga JavaScript-metoden, webbläsare som blockerar cookies från tredje part spårar klickningar, men inte klickningar). En viktig orsak till att Adobe rekommenderar att man använder sig av både klicknings-URL:er och JavaScript-spårningsmetoder är att maximera täckningen av spårbara klickningar.
+Klickdata kan också spelas in i miljöer där klickningar inte kan spelas in med de aktuella spårningsmekanismerna (t.ex. klick som kommer in i eller från en mobilapp) eller där annonsören bara använde en spårningsmetod (t.ex. med den genomskinliga JavaScript-metoden, webbläsare som blockerar cookies från tredje part spårar klickningar, men inte klickningar). En viktig orsak till att Adobe rekommenderar att man använder sig av både klicknings-URL:er och JavaScript-spårningsmetoder är att maximera täckningen av spårbara klickningar.
 
 ### Använda Adobe Advertising-trafikstatistik för Dimensioner utanför Adobe Advertising
 
 Adobe Advertising tillhandahåller Analytics med [reklamspecifik trafikstatistik och relaterade dimensioner från [!DNL DSP] och [!DNL Search, Social, & Commerce]](advertising-metrics-in-analytics.md). Mätvärdena som tillhandahålls av Adobe Advertising gäller endast de angivna Adobe Advertising-dimensionerna och data är inte tillgängliga för andra dimensioner i [!DNL Analytics].
 
-Om du till exempel visar [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] mått per konto, vilket är en Adobe Advertising-dimension, så ser du det totala [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] efter konto.
+Om du till exempel visar [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] mått per konto, vilket är en Adobe Advertising-dimension, sedan totalt [!UICONTROL Adobe Advertising Clicks] och [!UICONTROL Adobe Advertising Cost] visas efter konto.
 
 ![Exempel på Adobe Advertising-mått i en rapport som använder en Adobe Advertising-dimension](/help/integrations/assets/a4adc-traffic-supported-dimension.png)
 

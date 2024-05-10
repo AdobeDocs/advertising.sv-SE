@@ -3,9 +3,9 @@ title: Specialrapporter
 description: Läs mer om specialrapporter.
 exl-id: fd2bcd97-70dd-4160-8209-6cdf9c9a6d62
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 879cc2fa13475c90e92367b9fa0a9fa3d6203d7d
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ De flesta specialrapporter består endast av data som samlats in av annonsnätve
 
 >[!NOTE]
 >
->För de flesta specialrapporter hämtas data för föregående dag kl. 23.00 varje dag. Exempelvis, kl. 23.00 den 18 juni, hämtar den in data för 17 juni. Om du kör rapporten den 19 juni kl. 9.00 - innan data för den 18 juni hämtas - innehåller rapporten data fram till 17 juni kl. 23.00. Den här datasynkroniseringen gäller för alla [!DNL Google Ads] specialrapporter och [!UICONTROL Bing Ads Geo Report] och [!UICONTROL Bing Ads Search Query Report].
+>För de flesta specialrapporter hämtas data för föregående dag kl. 23.00 varje dag. Exempelvis hämtas data för 17 juni kl. 23.00 den 18 juni. Om du kör rapporten den 19 juni kl. 9.00 - innan data för den 18 juni hämtas - innehåller rapporten data fram till 17 juni kl. 23.00. Den här datasynkroniseringen gäller för alla [!DNL Google Ads] specialrapporter och [!UICONTROL Bing Ads Geo Report] och [!UICONTROL Bing Ads Search Query Report].
 
 ## Typer av specialrapporter
 
@@ -52,6 +52,6 @@ De flesta specialrapporter består endast av data som samlats in av annonsnätve
 
 >[!MORELIKETHIS]
 >
-* [Generera en specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
-* [Inställningar för specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
-* [Rapportkolumner för specialrapporter](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)
+>* [Generera en specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md)
+>* [Inställningar för specialrapport](/help/search-social-commerce/reports/management/specialty/specialty-report-settings.md)
+>* [Rapportkolumner för specialrapporter](/help/search-social-commerce/reports/management/specialty/specialty-report-columns.md)

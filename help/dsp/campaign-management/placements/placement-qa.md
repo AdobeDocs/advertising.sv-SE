@@ -3,9 +3,9 @@ title: Granska och redigera placeringsinställningar med kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelplacering med hjälp av kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
 
 * Vilka målgrupper kampanjen riktar sig till.
-* När placeringarna börjar leverera, och när de kommer att sluta.
+* När placeringarna börjar leverera, och när de slutar.
 * Vilka annonser som är kopplade till placeringarna.
 
 Du kan sedan göra ändringar i markerade fält och överföra dem tillbaka till DSP alla samtidigt. Redigerbara fält innehåller placeringsnamn, status, bud, budgetar, paketeringsstrategier och frekvensomfång.

@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 6b820606208b662eaa1f5c4d2e63bb08f1ac5885
+source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
 workflow-type: tm+mt
-source-wordcount: '3749'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 | [!UICONTROL 7-Day Cost Accuracy] | ([!UICONTROL Portfolio Report]) Genomsnittlig noggrannhet för kostnadsprognosen för de senaste sju dagarna, exklusive den aktuella dagen (och inte för rapportens angivna datumintervall), uttryckt i procent. |
 | [!UICONTROL 7-Day Revenue Accuracy] | ([!UICONTROL Portfolio Report]) Den genomsnittliga exaktheten i intäktsprognosen för de föregående sju dagarna, exklusive den aktuella dagen (och inte för rapportens angivna datumintervall), uttryckt i procent. |
 | [!UICONTROL Account] | Kontonamnet. |
-| [!UICONTROL Account Status] | Status för kontot i Sök, Socialt och Handel: <ul><li><i>[!UICONTROL Enabled]:</i> (Standard) För synkroniserade annonsnätverk kan Sök, Socialt och Commerce logga in på annonsnätverkskontot för att hämta kampanjdata, och andra tillämpliga funktioner som optimering och spårningsgenerering är aktiverade.<br><br>För annonsnätverk som inte är synkroniserade finns det funktioner som optimering och/eller spårningsgenerering.</li><li><i>[!UICONTROL Disabled]:</i> För synkroniserade annonsnätverk loggar inte Search, Social och Commerce in på annonsnätverkskontot och hämtar därför inte kampanjdata, och andra tillämpliga funktioner som optimering och spårningsgenerering är inaktiverade. Data som samlas in medan kontot var aktiverat lagras fortfarande, men alla kampanjhanteringsvyer och rapporter som du skapar i framtiden kommer inte att innehålla data för den tidsperiod under vilken kontot är inaktiverat.<br><br>För annonsnätverk som inte är synkroniserade är tillämpliga funktioner som optimering och/eller spårningsgenerering inte tillgängliga.</li></ul> |
+| [!UICONTROL Account Status] | Kontots status i Sök, Socialt och Commerce: <ul><li><i>[!UICONTROL Enabled]:</i> (Standardvärdet) För synkroniserade annonsnätverk kan Search, Social och Commerce logga in på annonsnätverkskontot för att hämta kampanjdata, och andra tillämpliga funktioner som optimering och spårningsgenerering är aktiverade.<br><br>För annonsnätverk som inte är synkroniserade finns det funktioner som optimering och/eller spårningsgenerering.</li><li><i>[!UICONTROL Disabled]:</i> För synkroniserade annonsnätverk loggar inte Search, Social och Commerce in på annonsnätverkskontot och hämtar därför inte kampanjdata, och andra tillämpliga funktioner som optimering och spårningsgenerering är inaktiverade. Data som samlas in medan kontot var aktiverat lagras fortfarande, men alla kampanjhanteringsvyer och alla rapporter som du skapar i framtiden inkluderar inte data för den tidsperiod under vilken kontot är inaktiverat.<br><br>För annonsnätverk som inte är synkroniserade är tillämpliga funktioner som optimering och/eller spårningsgenerering inte tillgängliga.</li></ul> |
 | [!UICONTROL Active Ad Groups] | Antalet aktiva annonsgrupper. |
 | [!UICONTROL Active Ads/Creatives] | Antalet aktiva annonser/kreatörer. |
 | [!UICONTROL Active Campaigns] | Antalet aktiva kampanjer. |
@@ -33,15 +33,15 @@ ht-degree: 0%
 | [!UICONTROL Ad Group Type] | Annonsgruppstypen, till exempel <i>[!UICONTROL Audience]</i> (endast för målgruppskampanjer), <i>[!UICONTROL Discovery]</i> (endast för identifieringskampanjer), <i>[!UICONTROL Display]</i> (endast för displaykampanjer), <i>[!UICONTROL Search Dynamic]</i> (endast för dynamiska sökannonser), <i>[!UICONTROL Search Standard]</i> (endast för responsiva sökannonser och befintliga expanderade textannonser), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (endast för standardkampanjer) eller <i>[!UICONTROL Shopping Smart]</i> (för smarta shoppingkampanjer). För vissa kampanjtyper kan en enda kampanj innehålla flera annonstyper. |
 | [!UICONTROL Ad Groups] | Antalet annonsgrupper som etikettvärdet tilldelas till. |
 | [!UICONTROL AD Name] | Annonsgruppens namn; samma värde som [!UICONTROL Ad Group]. |
-| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer att komma ihåg er annons inom två dagar. |
-| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer att komma ihåg er annons inom två dagar delat med det antal personer ni har nått, som en procentandel. |
+| [!UICONTROL Ad Recall Lift] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer ihåg er annons inom två dagar. |
+| [!UICONTROL Ad Recall Rate] | ([!DNL Meta] endast kampanjer) Det uppskattade antalet personer som kommer ihåg er annons inom två dagar delat med det antal personer ni har nått, som en procentandel. |
 | [!UICONTROL Ad Size] | Annonsens dimensioner. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsiva sökannonser) Annonsens effektivitet: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i>, eller <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] kampanjer) Den aktuella ändringen av ert mobilbud på annonsgruppsnivå, som avgör hur anbuden justeras när annonsen visas på en mobil enhet. |
 | [!UICONTROL Advertiser] | Annonsörens namn. |
-| [!UICONTROL Advertiser ID] | Det numeriska ID:t för annonsörens konto för sökning, sociala medier och handel. |
+| [!UICONTROL Advertiser ID] | Det numeriska ID:t för annonsörens konto Search, Social och Commerce. |
 | [!UICONTROL Avg Position] | Den genomsnittliga positionen för annonserna under det angivna datumintervallet.<br><br>För [!DNL Google Ads] och [!DNL Yahoo! Japan Ads] är dessa data tillgängliga först i september 2019. För [!DNL Microsoft Advertising]är dessa uppgifter tillgängliga först till och med den 22 januari 2021. |
-| [!UICONTROL Base URL] | Bas-URL för nyckelordet, inklusive eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot. Den innehåller ingen kod för omdirigering av sökningar, sociala medier och handel samt spårning. |
+| [!UICONTROL Base URL] | Bas-URL för nyckelordet, inklusive eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot. Den innehåller ingen kod för omdirigering av sökningar, sociala medier och Commerce samt spårning. |
 | [!UICONTROL Bid Strategy] | (De flesta annonsnätverk) För kampanjer eller kampanjkomponenter är detta kampanjens anbudsstrategi. För annonsnätverkskonton som är länkade till ett chefskonto är det här en strategi för bud mellan konton. Vilka värden som är tillgängliga varierar beroende på annonsnätverk. |
 | [!UICONTROL Business Name] | ([!DNL Microsoft Advertising] responsiva annonser) Affärsnamnet. |
 | [!UICONTROL Call to Action] | ([!DNL Microsoft Advertising] responsiva annonser och multimediaannonser) Anropet till åtgärd ingår i annonsen. |
@@ -74,7 +74,7 @@ ht-degree: 0%
 | [!UICONTROL Cost] | Den totala kostnaden för annonser under det angivna datumintervallet. |
 | [!UICONTROL Country] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) Ett land som klickningarna härstammar från. Den avgörs av användarens IP-adress. |
 | [!UICONTROL CPC] | Kostnaden per klick (CPC) för annonser under det angivna datumintervallet. |
-| [!UICONTROL Creative Base URL] | Bas-URL:en för annonsen, inklusive eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot. Den innehåller ingen kod för omdirigering av sökningar, sociala medier och handel samt spårning. |
+| [!UICONTROL Creative Base URL] | Bas-URL:en för annonsen, inklusive eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot. Den innehåller ingen kod för omdirigering av sökningar, sociala medier och Commerce samt spårning. |
 | [!UICONTROL Creative Destination URL] | Den slutliga URL:en eller mål-URL:en (inklusive eventuella spårningsparametrar) för annonsen. |
 | [!UICONTROL Creative Name] | ([!DNL Yahoo! Japan] bara) annonsbildens namn. |
 | [!UICONTROL Creative Title], [!UICONTROL Creative Title2] - [!UICONTROL Creative Title3] | Annonsens rubriker. Olika typer har olika antal obligatoriska och valfria rubrikrader. För att se [!UICONTROL Creative Title4] och högre kolumner i [!DNL Microsoft Advertising] responsiva annonser eller multimediaannonser, inkludera &quot;[!UICONTROL Creative Titles]i rapportinställningarna. |
@@ -98,15 +98,15 @@ ht-degree: 0%
 | [!UICONTROL eCPM] | Den faktiska CPM-kostnaden, eller den genomsnittliga kostnad som betalas per 1 000 visningar under ett visst datumintervall. eCPM-värden beräknas för CPM- eller CPC-kampanjer. |
 | [!UICONTROL EF Campaign ID] | Det numeriska ID som tilldelas kampanjen av Search, Social och Commerce. |
 | [!UICONTROL EF ID] | ([!UICONTROL Transaction Report]) (Advertisers with Adobe Advertising conversion tracking service and the &quot;[!UICONTROL EF Redirect]&quot; tracking method with a token) The token for the click or conversion.<ul><li>För [!DNL Google Ads] sökannonser, EF-ID är `{gclid}:G:s`, som innehåller Google Click ID (GCLID) och nätverkstypen (&quot;s&quot; för sökning).</li><li> För [!DNL Microsoft Advertising] sökannonser, EF-ID är `{msclkid}:G:s`, som innehåller Microsoft Click ID (MSCLKID) och nätverkstypen (&quot;s&quot; för sökning).</li><li>För sökannonser i andra annonsnätverk innehåller EF-id:t surfer-ID, klickningstid och nätverkstyp.</li><li>För displayannonser innehåller EF-ID:t surfer-ID, klicknings- eller intryckstidpunkt samt nätverkstyp.</li></ul> |
-| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; endast för sökning, sociala medier och handel) Ett internt ID för geografisk plats, som används för att normalisera data. |
+| [!UICONTROL EF Pixel Location ID] | ([!UICONTROL Geo Distribution Report]; endast för Sök, Social och Commerce) Ett internt ID för geografisk plats, som används för att normalisera data. |
 | [!UICONTROL EF Portfolio Group ID] | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL EF Search Engine ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce:  <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
 | [!UICONTROL End Date] | Den sista dagen som rapporterades. |
 | [!UICONTROL Engagement Rate] | (Videoannonser) Antalet ärenden delat med det antal gånger din annons visades. |
 | [!UICONTROL Engagements] | (Videoannonser) Antalet gånger som användarna har tittat på din annons i minst 10 sekunder, eller hela annonsen om den är kortare än 10 sekunder. |
 | [!UICONTROL Est. Clicks] | ([!UICONTROL Geo Distribution Report]; sök- och displaykampanjer endast) Det uppskattade antalet klick för kombinationen annonsgrupp/kampanj/portfolio. Detta värde kan skilja sig från värdet som anges av annonsnätverken. |
-| [!UICONTROL Estimated Cost] | Den totala uppskattade kostnaden för associerade annonser som har spårats av Search, Social och Commerce. Detta värde kan skilja sig från värdet som anges av annonsnätverken. |
-| [!UICONTROL Estimated Impressions] | (Endast displaykampanjer) Det uppskattade antalet annonsvisningar som har spårats av Search, Social och Commerce. Detta värde kan skilja sig från värdet för [!UICONTROL Impressions] kolumn (om den är tillgänglig), som visar det värde som annonsnätverken tillhandahåller. |
+| [!UICONTROL Estimated Cost] | Den totala uppskattade kostnaden för associerade annonser som Search, Social och Commerce har spårat. Detta värde kan skilja sig från värdet som anges av annonsnätverken. |
+| [!UICONTROL Estimated Impressions] | (Endast displaykampanjer) Det uppskattade antalet annonsvisningar som Search, Social och Commerce har spårat. Detta värde kan skilja sig från värdet för [!UICONTROL Impressions] kolumn (om den är tillgänglig), som visar det värde som annonsnätverken tillhandahåller. |
 | [!UICONTROL Exclude (yes/no)] | Huruvida bud ska uteslutas (<i>[!UICONTROL Yes]</i>) eller budgivning tillåts (<i>[!UICONTROL No]</i>) för annonser för matchande produkter. |
 | [!UICONTROL First Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas på den första sidan i sökresultaten under det angivna datumintervallet. |
 | [!UICONTROL Frequency] | ([!DNL Meta] endast kampanjer) Det genomsnittliga antalet gånger någon såg din annons. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (Videoannonser) Antal gånger som folk tittade på din annons. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> när portföljen innehåller kampanjer med [!UICONTROL Maximize Clicks] anbudsstrategi, och <i>false</i> annars. |
 | [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
-| [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Sök, Socialt och Commerce. |
+| [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Search, Social och Commerce. |
 | [!UICONTROL Keyword Status] | Status för nyckelordet som söktermen matchades mot: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i>, eller <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] och [!UICONTROL Label Value Report]) Etikettklassificeringen. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] och [!UICONTROL Label Value Report]) Ett värde för etikettklassificeringen. |
@@ -160,7 +160,7 @@ ht-degree: 0%
 | [!UICONTROL Product Groupings] | Den överordnade produktgruppen. |
 | [!UICONTROL Product ID] | ([!UICONTROL Keyword Report]; [!DNL Google Ads] produktlistor) Produkt-ID för produkten som visas med annonsen.<br><br><b>Obs!</b> ID:t registreras bara när produktlistan innehåller spårningsparametern `ev_plx=<GMC product ID>`som du måste lägga till inom [!DNL Google Merchant Center]. |
 | [!UICONTROL Raw Transaction Data] | ([!UICONTROL Transaction Report]) Omvandlingsmåttets intäkter (t.ex. 1 för en registrering eller 12 för en 12 USD-order). Om flera budenheter har samma transaktions-ID delas intäkten för spårnings-ID upp efter antalet klick på det angivna klickdatumet (när klickdata är tillgängliga). |
-| [!UICONTROL Reach] | ([!DNL Meta] endast kampanjer) Antalet personer som såg era annonser minst en gång. Obs! [!DNL Meta] avduplicerar räckvidden för användarprofiler dagligen, så att antalet rapporterade av [!DNL Meta] och via sökning kan sociala medier och handel skilja sig åt. |
+| [!UICONTROL Reach] | ([!DNL Meta] endast kampanjer) Antalet personer som såg era annonser minst en gång. Obs! [!DNL Meta] avduplicerar räckvidden för användarprofiler dagligen, så att antalet rapporterade av [!DNL Meta] och via Sök kan sociala medier och Commerce skilja sig åt. |
 | [!UICONTROL Region] | ([!UICONTROL Geo Distribution Report], [!UICONTROL Keyword Report]) En region eller delstat i USA/Kanada där visningar eller klickningar har sitt ursprung. Den avgörs av användarens IP-adress. |
 | [!UICONTROL SE Creative ID] | Det annons-ID som tilldelats av nätverket. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]) De visningar du fått på den absolut översta platsen (den allra första och ovanför sökresultatet för organisk sökning) dividerat med det uppskattade antalet visningar du var berättigad att ta emot på den översta platsen. Procenttal under 10 % anges som &quot;`<10%`&quot; eller &quot;`0.0999`.&quot; |
@@ -182,12 +182,12 @@ ht-degree: 0%
 | [!UICONTROL Surfer ID] | ([!UICONTROL Transaction Report]) ID för den användare som slutförde transaktionen. |
 | [!UICONTROL Thru Plays] | ([!DNL Meta] endast kampanjer) Antalet visningar som tittade på hela annonsen. |
 | [!UICONTROL Top of Page CPC] | (Endast Google-kampanjer) Kostnaden per klick (CPC) för annonser som visas högst upp på sökresultatsidorna under det angivna datumintervallet. |
-| [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) spårningskod för sökning, sociala medier och handel. |
+| [!UICONTROL Tracking URL] | (Endast sökriktade nyckelord) Spårningsmallen eller mål-URL:en som är inbäddad med (om tillämpligt) Sökning-, Socialkod och spårningskod för Commerce. |
 | [!UICONTROL Transaction Property Name] | ([!UICONTROL Transaction Report]) Det annonsörspecifika konverteringsmått som transaktionen krediteras. |
 | [!UICONTROL Transaction Time] | ([!UICONTROL Transaction Report]) Den tidpunkt då det angivna konverteringsmåttet krediterades. |
 | [!UICONTROL Two Second Continuous Video Plays] | ([!DNL Meta] endast kampanjer) Det antal gånger som videon spelades upp under minst två sammanhängande sekunder. |
 | [!UICONTROL User Account Type] | Föråldrad |
-| [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce. |
+| [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket av Search, Social och Commerce. |
 | [!UICONTROL Video Average Play Time] | ([!DNL Meta] endast kampanjer) Den genomsnittliga tiden som videon spelades upp, inklusive hur länge videon spelades upp, för ett enda intryck. |
 | [!UICONTROL Video Plays] | ([!DNL Meta] endast kampanjer) Det antal gånger som videon börjar spelas upp, med undantag för repriser. |
 | [!UICONTROL Video Played at 25 Percent Count], [!UICONTROL Video Played at 50 Percent Count], [!UICONTROL Video Played at 75 Percent Count]och [!UICONTROL Video Played at 100 Percent Count] | (Videoannonser) Antalet videor som spelades upp 25 %, 50 %, 75 % eller 100 % av vägen igenom. |
