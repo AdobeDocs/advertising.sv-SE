@@ -3,7 +3,7 @@ title: Hantera annonsmallar för lagerflöden
 description: Lär dig hur du hanterar annonsmallar genom vilka dina lagerdata kan bearbetas för att hantera kontostrukturen och leverera dynamiska annonser.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1423'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Hantera annonsmallar för lagerflöden
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
-Före eller efter att du har överfört data kan du skapa sökmotorspecifika annonsmallar genom vilka dina data kan bearbetas. Du kan skapa mallar för textannonser och utökade/utökade textannonser, [!DNL Google Ads] och [!DNL Microsoft® Advertising] responsiva sökannonser och för [!DNL Google Ads] och [!DNL Microsoft® Advertising] shoppingannonser.
+Före eller efter att du har överfört data kan du skapa sökmotorspecifika annonsmallar genom vilka dina data kan bearbetas. Du kan skapa mallar för textannonser och utökade/utökade textannonser, [!DNL Google Ads] och [!DNL Microsoft Advertising] responsiva sökannonser och för [!DNL Google Ads] och [!DNL Microsoft Advertising] shoppingannonser.
 
-Du kan associera varje mall med en feed-fil, [!DNL Google Merchant Center] konto, eller [!DNL Microsoft® Merchant Center] och du kan koppla flera mallar till samma feed-fil eller konto. En annonsmall kan innehålla variabler, som ersätts med faktiska datakolumner från en överförd fil eller ett konto. I de flesta fall kan variablerna även innehålla [en modifieringsgrupp](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) som du skapat i Search, Social och Commerce för att skapa flera annonser, nyckelord, kampanjer eller annonsgrupper för varje tillämplig rad i datafilen. Med mallalternativen kan du antingen skapa en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappa annonserna till den befintliga kontostrukturen.
+Du kan associera varje mall med en feed-fil, [!DNL Google Merchant Center] konto, eller [!DNL Microsoft Merchant Center] och du kan koppla flera mallar till samma feed-fil eller konto. En annonsmall kan innehålla variabler, som ersätts med faktiska datakolumner från en överförd fil eller ett konto. I de flesta fall kan variablerna även innehålla [en modifieringsgrupp](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) som du skapat i Search, Social och Commerce för att skapa flera annonser, nyckelord, kampanjer eller annonsgrupper för varje tillämplig rad i datafilen. Med mallalternativen kan du antingen skapa en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappa annonserna till den befintliga kontostrukturen.
 
 Förutom att skapa nya mallar från grunden kan du även skapa nya mallar genom att klona befintliga och redigera befintliga mallar.
 
@@ -26,7 +26,7 @@ Alla mallar kan aktiveras, pausas eller tas bort. Feed-data kan bara spridas aut
 
 ## Skapa, klona eller redigera en flödesmall
 
-Skapa separata mallar för text och utökade/utökade textannonser, responsiva sökannonser, [!DNL Google Ads] shoppingannonser, och [!DNL Microsoft® Advertising] shoppingannonser.
+Skapa separata mallar för text och utökade/utökade textannonser, responsiva sökannonser, [!DNL Google Ads] shoppingannonser, och [!DNL Microsoft Advertising] shoppingannonser.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
 
@@ -42,7 +42,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
 
    * (Om du vill redigera en befintlig mall) Klicka på bredvid mallnamnet ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
-1. Ange inställningarna för [text och mall](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), eller [[!DNL Microsoft® Advertising] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
+1. Ange inställningarna för [text och mall](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-text-rsa.md), [[!DNL Google Ads] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md), eller [[!DNL Microsoft Advertising] mall för annonser](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md):
 
    1. Överst i mallinställningsfönstret anger du mallnamnet och det konto som ska användas.
 
@@ -158,5 +158,5 @@ Du kan aktivera alla pausade dataflödesmallar eller pausa alla aktiva datafeedm
 >* [Automatisera och hantera lagerflöden](../inventory-feeds-about.md)
 >* [Inställningar för textannons och responsiv sökning och mallar](template-text-rsa.md)
 >* [[!DNL Google Ads] inställningar för butiks- och mallinställningar](template-google-shopping.md)
->* [[!DNL Microsoft® Advertising] inställningar för butiks- och mallinställningar](template-microsoft-shopping.md)
+>* [[!DNL Microsoft Advertising] inställningar för butiks- och mallinställningar](template-microsoft-shopping.md)
 >* [Sprida feed-data via mallar](../feed-data-propagate.md)

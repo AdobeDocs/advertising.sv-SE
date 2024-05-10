@@ -1,9 +1,9 @@
 ---
 title: Redigera data som genererats från feeds
 description: Lär dig hur du redigerar data som genereras från lagerdataflöden.
-exl-id: 5f866557-e44b-4fd9-9683-f7fbaf6d308b
+exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redigera data som genererats från feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket kan du redigera data på något av följande sätt. Du kan välja senare [data](propagated-data-post.md) från båda ställena till de relevanta annonsnätverken:
 

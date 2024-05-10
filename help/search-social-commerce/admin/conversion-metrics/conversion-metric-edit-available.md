@@ -2,8 +2,8 @@
 title: Ändra konverteringsstatistik som är tillgänglig i ledningslägen och rapporter
 description: Lär dig hur du gör konverteringsstatistik tillgänglig i dina ledningslägen och rapporter.
 feature: Conversions
-exl-id: a8f3a2d6-4203-42db-96cd-faf02d20d247
-source-git-commit: af32aea1c50edb6b22b0b15c920cb8c2dcdc37e9
+exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Ändra konverteringsstatistik som är tillgänglig i ledningslägen och rapporter
 
-När Adobe Advertising spårar en [konvertering](/help/search-social-commerce/glossary.md#c-d) För en annonsörer ingår den inte i portföljens mål, rapporter och ledningens åsikter. Om du vill att ett konverteringsmått ska vara synligt måste du göra det tillgängligt explicit och sedan eventuellt ändra standardvisningsnamnet, som är det namn som visas. Det enda undantaget är att konverteringar spåras av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft® Advertising] universella händelsespårningstaggar är automatiskt tillgängliga och synliga.
+När Adobe Advertising spårar en [konvertering](/help/search-social-commerce/glossary.md#c-d) För en annonsörer ingår den inte i portföljens mål, rapporter och ledningens åsikter. Om du vill att ett konverteringsmått ska vara synligt måste du göra det tillgängligt explicit och sedan eventuellt ändra standardvisningsnamnet, som är det namn som visas. Det enda undantaget är att konverteringar spåras av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft Advertising] universella händelsespårningstaggar är automatiskt tillgängliga och synliga.
 
 På samma sätt kan du dölja ett konverteringsmått för portföljmål, rapporter och vyer över hanteringen. När du döljer ett konverteringsmått som tidigare var synligt tas det bort från alla härledda mått som innehåller konverteringsmåttet.
 
@@ -50,10 +50,10 @@ I den lista över konverteringsmått som är tillgängliga kan varje användare 
 
 >[!NOTE]
 >
->Om Adobe Advertising samlar in data för nya konverteringsvärden, kommer de nya mätvärdena - förutom konverteringar som spåras av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft® Advertising] taggar för universell händelsespårning - exkluderas automatiskt från hanteringsvyer och rapporter tills du inkluderar dem. Nya konverteringar spårade av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft® Advertising] universella händelsespårningstaggar är alltid automatiskt tillgängliga.
+>Om Adobe Advertising samlar in data för nya konverteringsvärden, kommer de nya mätvärdena - förutom konverteringar som spåras av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft Advertising] taggar för universell händelsespårning - exkluderas automatiskt från hanteringsvyer och rapporter tills du inkluderar dem. Nya konverteringar spårade av [!DNL Google Ads], [!DNL Google Analytics]och [!DNL Microsoft Advertising] universella händelsespårningstaggar är alltid automatiskt tillgängliga.
 
 >[!MORELIKETHIS]
 >
-* [Om att hantera en annonsörs konverteringsstatistik](conversion-metric-about.md)
-* [Visa konverteringsstatistik som spårats för en annonsörer](conversion-metric-view-tracked.md)
-* [Ändra visningsnamnet för ett konverteringsmått](conversion-metric-edit-display-name.md)
+>* [Om att hantera en annonsörs konverteringsstatistik](conversion-metric-about.md)
+>* [Visa konverteringsstatistik som spårats för en annonsörer](conversion-metric-view-tracked.md)
+>* [Ändra visningsnamnet för ett konverteringsmått](conversion-metric-edit-display-name.md)

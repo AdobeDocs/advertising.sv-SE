@@ -1,21 +1,21 @@
 ---
 title: Konfigurera A/B-tester för Adobe Advertising Search, Social och Commerce Ads i Adobe Target
-description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för [!DNL Google Ads] och [!DNL Microsoft® Advertising] annonser i sökningar, sociala medier och handel.
+description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för [!DNL Google Ads] och [!DNL Microsoft Advertising] annonser i sökningar, sociala medier och Commerce.
 exl-id: 564c7d61-beec-40cf-ac68-83d1e87e3008
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
 
 ---
 
-# Konfigurera A/B-tester i Adobe Target för annonseringsannonser för sökning, sociala medier och handel
+# Konfigurera A/B-tester i Adobe Target för annonsering av annonser i sökningar, sociala medier och Commerce
 
-*Annonsörer med endast annonssökning, sociala medier och handel*
+*Endast annonsörer med Advertising Search, Social och Commerce*
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast konton*
 
-Adobe Advertising och Adobe Target gör det enkelt att skapa A/B-tester för landningssidor för digital reklamtrafik [!DNL Google Ads] och [!DNL Microsoft® Advertising] till:
+Adobe Advertising och Adobe Target gör det enkelt att skapa A/B-tester för landningssidor för digital reklamtrafik [!DNL Google Ads] och [!DNL Microsoft Advertising] till:
 
 * Förbättra konverteringsgraden (CVR) och effektivitetsåtgärderna för förvärv (såsom CPA, CPL och CAC).
 
@@ -23,13 +23,13 @@ Adobe Advertising och Adobe Target gör det enkelt att skapa A/B-tester för lan
 
 Du kan också kombinera det inbyggda [[!DNL Analytics] för annonsering](/help/integrations/analytics/overview.md) och [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integreringsrapporteringsdimensioner som är integrerade i Adobe Analytics för att mäta och visualisera testdata med [!DNL Analytics] mätvärden och framgångshändelser.
 
-I följande avsnitt finns information om krav, anvisningar för hur du ställer in A/B-tester i [!DNL Target] för klickbar trafik från annonser i sökmotorkampanjer, sociala kampanjer och e-handel, samt tips om hur du mäter och visualiserar dina tester i [!DNL Analytics].
+I följande avsnitt finns information om krav, anvisningar för hur du ställer in A/B-tester i [!DNL Target] för klickbar trafik från annonser i Search, Social och Commerce, samt tips om hur du mäter och visualiserar dina tester i [!DNL Analytics].
 
 ## Förutsättningar
 
 ### Nödvändiga produkter
 
-* Sökning, sociala medier och handel
+* Search, Social, &amp; Commerce
 * [!DNL Target]
 
 ### Rekommenderade produkter och integreringar
@@ -40,9 +40,9 @@ I följande avsnitt finns information om krav, anvisningar för hur du ställer 
 
 * [[!DNL Analytics] for [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) integration
 
-## Steg 1: Skapa en A/B-testaktivitet i [!DNL Target] för sökning, sociala medier och handel
+## Steg 1: Skapa en A/B-testaktivitet i [!DNL Target] för sökning, sociala medier och Commerce
 
-I följande anvisningar finns information om användningen av sökningar, sociala medier och handel.
+I följande anvisningar finns information om användningen av sökningar, sociala medier och Commerce.
 
 1. [Logga in på Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -59,13 +59,13 @@ I följande anvisningar finns information om användningen av sökningar, social
    1. Ange **[!UICONTROL Priority]** till `High` eller `999` för att förhindra konflikter när användare i testsegmentet får en felaktig upplevelse på plats.
 
 
-   1. Inom **[!UICONTROL Reporting Settings]** väljer du **[!UICONTROL Company Name]** och **[!UICONTROL Report Suite]** är kopplat till ditt konto för sökning, sociala medier och handel.
+   1. Inom **[!UICONTROL Reporting Settings]** väljer du **[!UICONTROL Company Name]** och **[!UICONTROL Report Suite]** är kopplat till ditt Search-, Social- och Commerce-konto.
 
       Ytterligare rapportips finns i &quot;[Rapportera bästa praxis och felsökning](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).&quot;
 
    1. I **[!UICONTROL Date Range]** anger du lämpliga start- och slutdatum för testet.
 
-   1. Välj **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. I **[!UICONTROL Value]** fält, ange [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], eller [!UICONTROL Network Ad ID] för den relevanta annonsnätverksenheten inom sökning, sociala medier och handel. På så sätt kan du använda [!DNL Target] frågesträngsparametrar för klickbara målgrupper för entiteten.
+   1. Välj **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]**. I **[!UICONTROL Value]** fält, ange [!UICONTROL Network Account ID], [!UICONTROL Network Campaign ID], [!UICONTROL Network Adgroup ID], eller [!UICONTROL Network Ad ID] för det relevanta annonsnätverket i Search, Social och Commerce. På så sätt kan du använda [!DNL Target] frågesträngsparametrar för klickbara målgrupper för entiteten.
 
       Du kan hitta ditt ID med [lägga till relevant ID-kolumn i entitetsvyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
@@ -134,7 +134,7 @@ Om du inom Analysis Workspace märker att data om aktivitet och upplevelser är 
 ## Ytterligare läsning
 
 * [Integrera Target med Analytics](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Beskriver hur du konfigurerar [!DNL Target] i Analysis Workspace.
-* [A/B-testöversikt](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beskriver A/B-testaktiviteter, som du kan använda med sök-, sociala och Commerce-annonser.
+* [A/B-testöversikt](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beskriver A/B-testaktiviteter, som du kan använda med reklam i sökmotorkampanjer, sociala kampanjer och Commerce.
 * [Översikt över Analytics for Advertising](/help/integrations/analytics/overview.md) - introducerar Analytics for Advertising, som gör att ni kan spåra klicknings- och genomskinlighetsinteraktioner på webbplatsen i era Analytics-instanser.
 
 >[!MORELIKETHIS]

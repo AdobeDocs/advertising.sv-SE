@@ -3,7 +3,7 @@ title: '[!UICONTROL Label Classification Report]'
 description: Läs mer om [!UICONTROL Label Classification Report].
 exl-id: 847fa384-b9c6-446f-9ebf-da7679ed35ae
 feature: Search Reports, Search Basic Reports
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan visa data för de senaste 36 månaderna.
 
 >[!NOTE]
 >
->* Det går inte att rapportera per etikettklassificeringar på ad-nivå för [!DNL Microsoft® Advertising] annonskampanjer för dynamisk sökning (DSA).
+>* Det går inte att rapportera per etikettklassificeringar på ad-nivå för [!DNL Microsoft Advertising] annonskampanjer för dynamisk sökning (DSA).
 >* Mer än en etikettklassificering kan gälla för samma enhet, så summan för varje mätvärde kan vara högre än den faktiska summan för enheten. Exempel: ett nyckelord &quot;suede skor&quot; har två etikettvärden, &quot;suede&quot; och &quot;skodon&quot;, och nyckelordet fick 100 klick. Kolumnen Click skulle visa &quot;100&quot; för vart och ett av dessa etikettvärden, så summan för båda raderna skulle vara &quot;200&quot;.
 * Alla ändringar du gör av etiketteringsindelningar och underordnade etikettvärden för en enhet visas på ungefär en timme.
 

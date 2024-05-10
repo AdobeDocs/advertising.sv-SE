@@ -1,9 +1,9 @@
 ---
 title: Valfria spårningsparametrar för klickspårnings-URL:er
-description: Lär dig mer om parametrar för sökning, social spårning och handelsuppföljning samt om nätverksspecifika spårningsparametrar som du kan lägga till i dina klicknings-spårnings-URL:er.
+description: Läs mer om parametrar för sökning, social spårning och Commerce-spårning samt nätverksspecifika spårningsparametrar som du kan lägga till i dina klickspårnings-URL:er.
 exl-id: df53bb8c-63ad-47f9-af44-57bd4bd58d71
 feature: Search Tracking
-source-git-commit: c743e0dec75578d739a704ef94f96dd7be4f982e
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Valfria spårningsparametrar för klickspårnings-URL:er
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan]och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan]och [!DNL Yandex] endast konton*
 
 I stället för att bara använda standardspårningsparametrarna för en slutlig URL eller mål-URL kan du lägga till fler parametrar för att spåra specifika data för ett annonsnätverkskonto. Du kan lägga till valfri kombination av följande parametrar i kontoinställningarna eller kampanjinställningarna:
 
@@ -36,7 +36,7 @@ I stället för att bara använda standardspårningsparametrarna för en slutlig
 >  * ett tomt utrymme ersätts med `%2B`
 >  När du t.ex. lägger till parametern `campaign={ef_campaign}` till bas-URL:en http://www.example.com för ett nyckelord genereras bas-URL:en för det nyckelordet som `http://www.example.com/campaign%3D{ef_campaign}`.
 
-## Statiska spårningsparametrar för sökning, sociala medier och handel
+## Statiska parametrar för sökning, sociala medier och Commerce
 
 Du kan använda följande parametrar för konton i valfritt annonsnätverk och kombinera dem med parametrar för ett specifikt annonsnätverk efter behov. Vissa av dessa parametrar duplicerar de parametrar som läggs till automatiskt för specifika annonsnätverk när kontots spårningsmetod är &quot;[!UICONTROL EF Direct].&quot;
 
@@ -47,7 +47,7 @@ Alla följande parametrar måste anges som ett nyckelvärdepar. Du kan inkludera
 | <code>{custom_code}</code> | Infoga data från kolumnen Anpassad URL-parameter i en överförd kalkylbladsfil i spårnings-URL:en. {custom_code} kan bara användas i slutet av värdet för ett eller flera nyckelvärdepar i spårnings-URL:en. Exempel:  <code>a={custom_code}</code>; <code>a={ef_campaignid}{custom_code}</code>; <code>a={ef_campaignid}{custom_code}&amp;b={custom_code}</code><br><br><b>Obs!</b> Om du vill infoga det anpassade värdet från kalkylbladsfilen i spårnings-URL:en överför du kalkylbladsfilen med alternativet Generera spårnings-URL:er. Mer information om hur du använder kalkylbladsfiler finns i &quot;[Hantera kampanjdata med hjälp av kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).&quot; |
 | <code>{ef_uniqueid}</code> | Infoga det unika ID som skapats av Adobe Advertising. Tillagd automatiskt när spårningsmetoden är &quot;EF-omdirigering&quot;. |
 | <code>{ef_userid}</code> | Infoga det unika användar-ID som Adobe Advertising tilldelar annonsören. |
-| <code>{ef_sid}</code> | Så här infogar du det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft®® Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
+| <code>{ef_sid}</code> | Så här infogar du det numeriska ID som tilldelas annonsnätverket i Search, Social och Commerce: <i>[!UICONTROL 3]</i> for [!DNL Google Ads], <i>[!UICONTROL 10]</i> for [!DNL Microsoft® Advertising], <i>[!UICONTROL 45]</i> for [!DNL Meta], <i>[!UICONTROL 86]</i> for [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> for [!DNL Naver], <i>[!UICONTROL 88]</i> for [!DNL Baidu], <i>[!UICONTROL 90]</i> for [!DNL Yandex], <i>[!UICONTROL 94]</i> for [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> for [!DNL Yahoo Native] (borttagen), eller <i>[!UICONTROL 106]</i> for [!DNL Pinterest] (föråldrat). |
 | <code>{ef_searchengine}</code> | Infoga annonsnätverksnamnet. |
 | <code>{ef_campaign}</code> | Infoga kampanjnamnet. |
 | <code>{ef_campaignid}</code> | Infoga kampanj-ID. <b>Obs!</b> ID:t för en ny kampanj skapas inte förrän kampanjen har publicerats i annonsnätverket. Om kontot använder &quot;[!UICONTROL EF Redirect]Alternativ för &quot; och &quot;AutoUpload&quot;, infogar Adobe Advertising automatiskt kampanj-ID i relevanta mål-URL:er eller slutliga URL:er nästa dag. Om kontot inte använder[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; och du vill infoga kampanj-ID i relevanta mål-URL:er eller slutliga URL:er måste du skapa kampanjen, hämta en kalkylbladsfil för den nya kampanjen med alternativet&quot;Generera URL:er för spårning&quot; och sedan skicka filen till annonsnätverket. |
@@ -55,14 +55,14 @@ Alla följande parametrar måste anges som ett nyckelvärdepar. Du kan inkludera
 | <code>{ef_adgroupid}</code> | Infoga annonsgruppens ID. <b>Obs!</b> ID:t för en ny annonsgrupp skapas inte förrän annonsgruppen har bokförts i annonsnätverket. Om kontot använder &quot;[!UICONTROL EF Redirect]och alternativen &quot;AutoUpload&quot; infogar Adobe Advertising automatiskt annonsgrupps-ID:t i de relevanta mål-URL:erna eller de slutliga URL:erna nästa dag. Om kontot inte använder[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; och du vill infoga annonsgruppens ID i de relevanta mål-URL:erna eller de slutliga URL:erna, måste du skapa annonsgruppen, hämta en kalkylbladsfil för den nya annonsgruppen med alternativet&quot;Generera URL:er för spårning&quot; och sedan skicka filen till annonsnätverket. |
 | <code>{ef_keyword}</code> | Infoga nyckelordet. |
 | <code>{ef_keywordid}</code> | Infoga nyckelords-ID. <b>Obs!</b> ID:t för ett nytt nyckelord skapas inte förrän nyckelordet har publicerats i annonsnätverket. Om kontot använder &quot;[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; infogar Adobe Advertising automatiskt nyckelords-ID:t i de relevanta mål-URL:erna eller de slutliga URL:erna nästa dag. Om kontot inte använder[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; och om du vill infoga nyckelords-ID i de relevanta mål-URL:erna eller de slutliga URL:erna måste du skapa nyckelordet, hämta en kalkylbladsfil för det nya nyckelordet med alternativet&quot;Generera URL:er för spårning&quot; och sedan skicka filen till annonsnätverket. |
-| <code>{ef_matchtype}</code> | Om du vill infoga nyckelordsmatchningstypen som &quot;Bred&quot;, &quot;Exakt&quot; eller &quot;Fras&quot;. Ingår automatiskt i [!DNL Google Ads] och [!DNL Microsoft® Advertising] med &quot;[!UICONTROL EF Redirect]&quot; spårningsmetod. |
+| <code>{ef_matchtype}</code> | Om du vill infoga nyckelordsmatchningstypen som &quot;Bred&quot;, &quot;Exakt&quot; eller &quot;Fras&quot;. Ingår automatiskt i [!DNL Google Ads] och [!DNL Microsoft Advertising] med &quot;[!UICONTROL EF Redirect]&quot; spårningsmetod. |
 | <code>{ef_adid}</code> | Infoga annons-ID. <b>Obs!</b> ID:t för en ny annons skapas inte förrän annonsen har publicerats i annonsnätverket. Om kontot använder &quot;[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; infogar Adobe Advertising automatiskt annons-ID i de relevanta mål-URL:erna eller de slutliga URL:erna nästa dag. Om kontot inte använder[!UICONTROL EF Redirect]&quot; och [!UICONTROL Auto Upload]&quot; och du vill infoga annons-ID i de relevanta mål-URL:erna eller de slutliga URL:erna måste du skapa annonsen, hämta en kalkylbladsfil för den nya annonsen med alternativet&quot;Generera URL:er för spårning&quot; och sedan skicka filen till annonsnätverket. |
 
 ## [!DNL Google Ads] dynamiska spårningsparametrar
 
 Se [https://support.google.com/google-ads/answer/2375447](https://support.google.com/google-ads/answer/2375447).
 
-## [!DNL Microsoft® Advertising] dynamiska spårningsparametrar
+## [!DNL Microsoft Advertising] dynamiska spårningsparametrar
 
 Se [https://help.bingads.microsoft.com/#apex/3/en/51091/2](https://help.bingads.microsoft.com/#apex/3/en/51091/2).
 

@@ -3,7 +3,7 @@ title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 295d576cff59f1313a317473db6e5f271d55e7da
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Dessutom [!DNL Google Ads] Resultatstatistik på kampanjnivå i söknätverket f
 
 >[!NOTE]
 >
->(Annonsörer med portföljer) Förvänta dig att prestanda för kombinationer av nya nyckelord och matchningstyper blir instabila medan Sök, Socialt och Commerce samlar in data för att skapa modeller för dem.
+>(Annonsörer med portföljer) Förvänta dig att prestanda för kombinationer av nya nyckelord och matchningstyper ska bli instabila när Search, Social och Commerce samlar in data för att skapa modeller för dem.
 
 **Åtgärder i [!UICONTROL Search] > [!UICONTROL Campaigns] vyer, i utskicksprocessen för kalkylblad och i annonsnätverkets egen redigerare:**
 
@@ -38,11 +38,11 @@ Det befintliga nyckelordet eller annonsen tas bort och ett annat skapas när:
 
 * ([!DNL Baidu], [!DNL Google Ads]och [!DNL Yandex]) Du redigerar ett nyckelordsnamn.
 
-* ([!DNL Google Ads], [!DNL Microsoft® Advertising]och [!DNL Yandex]) Du ändrar nyckelordets matchningstyp.
+* ([!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yandex]) Du ändrar nyckelordets matchningstyp.
 
 * Du flyttar ett nyckelord mellan annonsgrupper.
 
-* ([!DNL Google Ads] dynamiska sökannonser, [!DNL Microsoft® Advertising] expanderade textannonser och alla annonstyper i andra annonsnätverk som stöds) Du kan redigera och kopiera (rubrik/rubrik eller beskrivning) eller en annonsbild.
+* ([!DNL Google Ads] dynamiska sökannonser, [!DNL Microsoft Advertising] expanderade textannonser och alla annonstyper i andra annonsnätverk som stöds) Du kan redigera och kopiera (rubrik/rubrik eller beskrivning) eller en annonsbild.
 
 * Du flyttar en annons mellan annonsgrupper.
 
@@ -67,12 +67,12 @@ Beroende på [inställningar för feed-data](/help/search-social-commerce/campai
 
 ++([!DNL Google Ads] kampanjer) Ändringar av visningsnamnen för [!DNL Google]-spårade konverteringar har återförts.
 
-Om du ändrar visningsnamnen för konverteringsmåtten i Sök, Socialt och Commerce, skrivs ändringarna över med namnen som konfigurerats i [!DNL Google Ads]. Gör alla namnändringar i [!DNL Google Ads].
+Om du ändrar visningsnamnen för konverteringsmåtten i Search, Social och Commerce skrivs ändringarna över med namnen som konfigurerats i [!DNL Google Ads]. Gör alla namnändringar i [!DNL Google Ads].
 +++
 
 +++ (Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?
 
-Bäst resultat får du om du inte lägger till [!DNL Google Ads] till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och handels-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
+Bäst resultat får du om du inte lägger till [!DNL Google Ads] till [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade för[!UICONTROL Auto adjust campaign budget limits].&quot; Om du gör det, [!DNL Google Ads] åsidosätter budgeten för sök-, sociala och Commerce-optimerade kampanjer, vilket kan leda till ineffektiva anbud.
 +++
 
 ++([!DNL Google Ads] kampanjer) Kan jag skicka mobilanvändare och icke-mobilanvändare till olika landningssidor?
@@ -87,7 +87,7 @@ Du kan använda [!DNL Google Ads] [!DNL ValueTrack] parameters `{ifmobile}` och 
 
   Till exempel: `http://www.example.{ifmobile:mobi}{ifnotmobile:com}` tar mobilanvändare till www.example.mobi och icke-mobilanvändare till www.example.com.
 
-I båda fallen inkluderar bas-URL:erna med sök-, sociala och handelsuppföljning den okodade `{}` -taggar och eventuella ytterligare parametrar som har lagts till i bas-URL:en.
+I båda fallen inkluderar bas-URL:erna med Sökning, Socialt och Commerce-spårning den okodade `{}` -taggar och eventuella ytterligare parametrar som har lagts till i bas-URL:en.
 
 >[!NOTE]
 >
@@ -109,24 +109,24 @@ I [!UICONTROL Campaigns] i båda [!UICONTROL Search] > [!UICONTROL Campaigns] > 
 
 +++Vad är skillnaden mellan en spårningsmall och ett landningssidessuffix?
 
-Använd bara ett landningssidessuffix för annonsnätverk som stöder parallell spårning. I Sök, Socialt, &amp; Commerce ska både spårningsmallar och landningssidans suffix innehålla en klickidentifierare från annonsnätverket, men spårningsmallarna innehåller ytterligare spårningsparametrar.
+Använd bara ett landningssidessuffix för annonsnätverk som stöder parallell spårning. I Sök, Socialt och Commerce ska både spårningsmallar och landningssidans suffix innehålla en klickidentifierare från annonsnätverket, men spårningsmallarna innehåller ytterligare spårningsparametrar.
 
 Se nästa Frågor och svar om [stöd för parallell spårning](#parallel-tracking) om du vill ha mer information om hur spårningsmallar och landningssidessuffix läses in när en användare klickar på en annons.
 
 +++
 
-++([!DNL Google Ads] och [!DNL Microsoft® Advertising]) Stöder sökning, sociala medier och handel parallell spårning för annonser i [!DNL Google Ads] eller [!DNL Microsoft® Advertising]? {#parallel-tracking}
+++([!DNL Google Ads] och [!DNL Microsoft Advertising]) Har Search, Social och Commerce stöd för parallell spårning av annonser i [!DNL Google Ads] eller [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en, som kan innehålla tillagda parametrar från ett slutligt URL-suffix, eller&quot;landningssidessuffix&quot;. URL:en till spårningsmallen (med ytterligare parametrar för klickmätning) läses in separat i bakgrunden. Detta innebär att landningssidan läses in snabbare.
 
-Sökning, sociala medier och handel stöder parallell spårning för sök- och shoppingkampanjer med annonsnätets klickidentifierare (`msclkid` for [!DNL Microsoft® Advertising]; `gclid` for [!DNL Google Ads]). Använd en [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) eller [kampanjnivå](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (anropades &quot;[!DNL final URL suffix]&quot; i annonsnätverket), som bifogas till landningssidans URL:er för att spåra klick på underordnade annonser från webbläsare som stöder parallell spårning. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Search, Social, &amp; Commerce har stöd för parallell spårning för sök- och shoppingkampanjer med annonsnätets klickidentifierare (`msclkid` for [!DNL Microsoft Advertising]; `gclid` for [!DNL Google Ads]). Använd en [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md#account-settings) eller [kampanjnivå](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) [!UICONTROL Landing Page Suffix] (anropades &quot;[!DNL final URL suffix]&quot; i annonsnätverket), som bifogas till landningssidans URL:er för att spåra klick på underordnade annonser från webbläsare som stöder parallell spårning. Se [obligatoriska suffixformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
-När en användare tittar på din annons i en webbläsare som inte stöder parallell spårning, använder annonsnätverket sekventiell spårning i stället: kunderna skickas först till din spårningsmalls-URL, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL:en (som kan innehålla ytterligare parametrar i ett landningssidessuffix). Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft® Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+När en användare tittar på din annons i en webbläsare som inte stöder parallell spårning, använder annonsnätverket sekventiell spårning i stället: kunderna skickas först till din spårningsmalls-URL, som kan dirigera om kunder till mellanliggande spårningsservrar innan de dirigeras om till den slutliga URL:en (som kan innehålla ytterligare parametrar i ett landningssidessuffix). Alla spårningsmallar för ett annonsnätverkskonto ska innehålla samma klickidentifierarparameter som du använder i [!UICONTROL Landing Page Suffix]. Se [spåra mallformat för [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [spåra mallformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 +++
 
 +++Varför ska jag spåra URL:er för mina annonser med &quot;`&EV_HASH={<hash>}`?&quot;
 
-När du överför annonser med en [produktinventeringsfeed](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) för ett konto med omdirigering av pixlar för sökning, sociala medier och handel och med nyckelord- och kreativ spårning, lägger sedan sökningen, sociala medier och handel till hash-parametern och värdet i annonsens spårningsmall eller mål-URL för att identifiera att den har skapats med funktionen för lagerfeed.
+När du överför annonser med en [produktinventeringsfeed](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md) för ett konto med pixelomdirigeringen Sök, Socialt och Commerce och med nyckelords- och kreativa spårningsfunktioner lägger Search, Social och Commerce till hash-parametern och -värdet i annonsens spårningsmall eller mål-URL för att identifiera att den har skapats med funktionen för lagerfeed.
 +++
 
 ## Lagerfeeds

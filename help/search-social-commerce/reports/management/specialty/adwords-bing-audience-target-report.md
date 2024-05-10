@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords and Bing Audience Target Report]'
 description: Läs mer om [!UICONTROL AdWords and Bing Audience Target Report].
-exl-id: 02c12266-f11b-4478-a511-8ee464dbb061
+exl-id: 083a5316-e4ec-45f5-a9ae-901cf5eecef4
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords and Bing Audience Target Report]
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast konton*
 
-The [!UICONTROL AdWords and Bing Audience Target Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata per målgrupp ([!DNL Google Ads] kunddatabaserade, marknadsinterna och liknande målgrupper och era [!DNL Microsoft® Advertising] ommarknadsföring, anpassad marknadsföring, kundmatchning, liknande och marknadsinterna målgrupper) för en eller flera annonsgrupper eller kampanjer. Som standard innehåller data en rad för varje målgrupp som fick minst ett intryck eller klickar för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som standard. Rapporten innehåller konverteringsdata som spåras av [!DNL Adobe] endast för mål för återmarknadsföringslista.
+The [!UICONTROL AdWords and Bing Audience Target Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata per målgrupp ([!DNL Google Ads] kunddatabaserade, marknadsinterna och liknande målgrupper och era [!DNL Microsoft Advertising] ommarknadsföring, anpassad marknadsföring, kundmatchning, liknande och marknadsinterna målgrupper) för en eller flera annonsgrupper eller kampanjer. Som standard innehåller data en rad för varje målgrupp som fick minst ett intryck eller klickar för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som standard. Rapporten innehåller konverteringsdata som spåras av [!DNL Adobe] endast för mål för återmarknadsföringslista.
 
 Du kan visa data för upp till föregående år.
 
@@ -42,6 +42,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
-* [Specialrapporter](specialty-report-about.md)
-* [Generera en specialrapport](specialty-report-generate.md)
-* [Inställningar för specialrapport](specialty-report-settings.md)
+>* [Specialrapporter](specialty-report-about.md)
+>* [Generera en specialrapport](specialty-report-generate.md)
+>* [Inställningar för specialrapport](specialty-report-settings.md)

@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Microsoft® Advertising] responsiva annonsinställningar'
-description: Referera inställningarna för [!DNL Microsoft® Advertising] responsiva annonser.
+title: '''[!DNL Microsoft Advertising] responsiva annonsinställningar'
+description: Referera inställningarna för [!DNL Microsoft Advertising] responsiva annonser.
 exl-id: 29404500-d929-4683-be71-150ea8ab805d
 feature: Search Campaign Management
-source-git-commit: dae8d3726b48240a2cad7d3e188694f72934295f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] inställningar för responsiv (målgrupp) annonsering
+# [!DNL Microsoft Advertising] inställningar för responsiv (målgrupp) annonsering
 
-Det responsiva annonsformatet är tillgängligt för bildbaserade, videobaserade och uppkopplade TV-baserade målgruppsannonser på [!DNL Microsoft® Audience Network]. Annonsnätverket samlar dynamiskt ihop responsiva annonser med de mest effektiva kombinationerna av annonselement.
+Det responsiva annonsformatet är tillgängligt för bildbaserade, videobaserade och uppkopplade TV-baserade målgruppsannonser på [!DNL Microsoft Audience Network]. Annonsnätverket samlar dynamiskt ihop responsiva annonser med de mest effektiva kombinationerna av annonselement.
 
 ## [!UICONTROL Ad Settings] (för videoannonser) och [!UICONTROL Audience CTV Video Ad Details]
 
@@ -28,7 +28,7 @@ Det responsiva annonsformatet är tillgängligt för bildbaserade, videobaserade
 
 **[!UICONTROL Images]:** Upp till 15 JPEG- eller PNG-bilder för annonsen. Inkludera minst en bild med bildförhållandet 1,91:1. Se tillåtna proportioner och dimensioner för [målgrupp och bilder](https://help.ads.microsoft.com/#apex/ads/en/56912/0).
 
-För målgruppsannonser [!DNL Microsoft® Advertising] beskär automatiskt den här bilden för alla möjliga proportioner.
+För målgruppsannonser [!DNL Microsoft Advertising] beskär automatiskt den här bilden för alla möjliga proportioner.
 
 <!-- Instructions -->
 
@@ -56,7 +56,7 @@ För målgruppsannonser [!DNL Microsoft® Advertising] beskär automatiskt den h
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
->* [[!DNL Microsoft® Advertising] expanderade dynamiska sökannonsinställningar](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] multimediaannonsinställningar](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft® Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] expanderade dynamiska sökannonsinställningar](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] multimediaannonsinställningar](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)

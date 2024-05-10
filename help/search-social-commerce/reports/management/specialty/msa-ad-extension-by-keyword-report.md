@@ -1,23 +1,24 @@
 ---
-title: "[!UICONTROL MSA Ad Extension by Keyword Report]"
+title: '[!UICONTROL MSA Ad Extension by Keyword Report]'
 description: Läs mer om [!UICONTROL MSA Ad Extension by Keyword Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+exl-id: 0c23f8f8-6216-488b-b634-0de3cc18966d
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL MSA Ad Extension by Keyword Report]
 
-*[!DNL Microsoft® Advertising]endast konton*
+*[!DNL Microsoft Advertising]endast konton*
 
 Den här rapporten visar visningar, klickningar, utgifter och genomsnittskostnad per klick för varje annonstillägg och klickning per nyckelord. Använd den här rapporten om du vill jämföra prestanda för dina annonstillägg för varje nyckelord.
 
 När du kör en rapport med enbart måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mätvärden.<!-- all metrics? -->
 
-Du kan visa data de senaste 180 dagarna. Sökning, sociala medier och handel hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
+Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
 
 >[!NOTE]
 >

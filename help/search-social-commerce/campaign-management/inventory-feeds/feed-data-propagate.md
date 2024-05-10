@@ -1,20 +1,20 @@
 ---
 title: Sprida lagerflödesdata via mallar
 description: Lär dig mer om att sprida data från era inventeringsflöden via annonsmallar för att hantera kontostrukturen och leverera dynamiska annonser.
-exl-id: 40de75e8-8440-48f4-9fa7-1aeb2ae392c5
+exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
 
 # Sprida lagerflödesdata via mallar
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
-När du har skapat en annonsspecifik feed-mall och associerat en feed-fil eller en [!DNL Google] eller [!DNL Microsoft®] säljcenterkonto med det kan du dynamiskt skapa annonser genom att sprida flödesuppgifterna via mallen enligt [inställningar för feed-data](feed-settings-manage.md). Under spridningen ersätts kolumnnamnen i mallen med datavärden i feeden, och de genererade kampanjerna och deras komponenter har standardinställningarna om inte mallen anger något annat. Beroende på mallalternativen skapar Search, Social och Commerce antingen en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappar annonserna till den befintliga kontostrukturen.
+När du har skapat en annonsspecifik feed-mall och associerat en feed-fil eller en [!DNL Google] eller [!DNL Microsoft] säljcenterkonto med det kan du dynamiskt skapa annonser genom att sprida flödesuppgifterna via mallen enligt [inställningar för feed-data](feed-settings-manage.md). Under spridningen ersätts kolumnnamnen i mallen med datavärden i feeden, och de genererade kampanjerna och deras komponenter har standardinställningarna om inte mallen anger något annat. Beroende på mallalternativen skapar Search, Social och Commerce antingen en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappar annonserna till den befintliga kontostrukturen.
 
 När nya feed-data innehåller nya datavärden för ett objekt, eller mallen har ändrats, tas befintliga annonser bort och nya skapas. Om den enda förändringen är [!DNL Google Ads] Param 1 och Param 2, så uppdateras bara dessa värden. Dubblerade annonser (samma annonskopia och landningssida) skapas aldrig.
 

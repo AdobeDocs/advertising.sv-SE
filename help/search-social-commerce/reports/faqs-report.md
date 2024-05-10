@@ -3,7 +3,7 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -326,17 +326,17 @@ När du genererar båda rapporterna per portfölj blir data annorlunda om du gen
 +++Rapport innehåller en blandning av datumintervall.
 Du kan se olika datumintervall om feed aggregerar data med någon annan datagenereringsnivå än &quot;[!UICONTROL Daily].&quot;
 
-Du löser problemet genom att uppdatera kalkylbladsflödet så att data samlas in dagligen. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Microsoft® Excel] -mallen som använder rapporten och sedan uppdaterar feed-inställningarna så att de inkluderar den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
+Du löser problemet genom att uppdatera kalkylbladsflödet så att data samlas in dagligen. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Microsoft Excel] -mallen som använder rapporten och sedan uppdaterar feed-inställningarna så att de inkluderar den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++Ett kalkylbladsflöde resulterar i ett internt fel.
-Det här felet kan inträffa om du ändrar kolumnerna i rapportmallen men inte uppdaterar [!DNL Microsoft® Excel] i enlighet med detta.
+Det här felet kan inträffa om du ändrar kolumnerna i rapportmallen men inte uppdaterar [!DNL Microsoft Excel] i enlighet med detta.
 
 Du löser problemet genom att uppdatera kalkylbladsflödet så att de nya kolumnerna inkluderas. Den här uppgiften innefattar att uppdatera rapportmallen, generera en rapport med hjälp av mallen, skapa en anpassad [!DNL Excel] -mallen som använder rapporten och sedan uppdaterar feed-inställningarna så att de inkluderar den nya Excel-mallen. Mer information finns i &quot;[Redigera inställningar för matning av kalkylbladsrapporter](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++
 
 +++När jag försöker öppna ett kalkylbladsflöde i [!DNL Excel], [!DNL Excel] rapporterar ett fel om oläsbart innehåll och data tas bort från det återskapade innehållet.
-När [!DNL Microsoft® Excel] data sorteras inte efter startdatum i stigande ordning, kalkylbladsflödet kan innehålla tomma rader. Särskilt gäller följande: [!DNL Excel] rapporterar felet &quot;Excel hittade oläsligt innehåll i &#39;&lt;*rapportnamn*>.xlsx.&#39; Vill du återställa innehållet i arbetsboken? Om du litar på källan till arbetsboken klickar du på Ja.&quot; Om du klickar på Ja visas följande meddelande: &quot;Borttagna poster: Cellinformation från /xl/worksheets/sheet1.xml&quot; och kalkylbladsflödet innehåller tomma rader.
+När [!DNL Microsoft Excel] data sorteras inte efter startdatum i stigande ordning, kalkylbladsflödet kan innehålla tomma rader. Särskilt gäller följande: [!DNL Excel] rapporterar felet &quot;Excel hittade oläsligt innehåll i &#39;&lt;*rapportnamn*>.xlsx.&#39; Vill du återställa innehållet i arbetsboken? Om du litar på källan till arbetsboken klickar du på Ja.&quot; Om du klickar på Ja visas följande meddelande: &quot;Borttagna poster: Cellinformation från /xl/worksheets/sheet1.xml&quot; och kalkylbladsflödet innehåller tomma rader.
 
 Du löser problemet genom att redigera [!DNL Excel] mall som är associerad med feeden för att sortera data efter [!DNL Start date in Ascending (Oldest to Newest) order]och överför sedan den uppdaterade mallen via inställningarna för kalkylbladsflöde. Mer information finns i &quot;[Redigera rapportflöden för kalkylblad](/help/search-social-commerce/reports/automation/spreadsheet-feeds/spreadsheet-feed-edit.md).&quot;
 +++

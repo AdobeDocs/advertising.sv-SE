@@ -1,9 +1,9 @@
 ---
 title: Hantera lagerdataflödesfiler
 description: Lär dig hur du konfigurerar inställningar som styr hur feed-data bearbetas.
-exl-id: 73d372de-2673-4190-94cf-2f07f4ce2493
+exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hantera lagerdataflödesfiler
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 Om du skickar in dina egna feed-data måste du överföra filer som innehåller dina produktdata för att dynamiskt skapa kampanjstruktur, annonser och nyckelord baserat på dina produktdata. Du kan sedan koppla dem till annonsnätverksspecifika annonsmallar och bearbeta data via mallarna, och sedan publicera data i relevanta annonsnätverk. Du kan associera flera mallar med en feed-fil, men varje mall kan bara associeras med en feed-fil.
 
@@ -22,7 +22,7 @@ Om du skickar in dina egna feed-data måste du överföra filer som innehåller 
 
 Du kan överföra och bearbeta dataflödesfiler på något av följande sätt:
 
-* **Använda FTP automatiskt:** Du kan överföra filer direkt till en FTP-katalog. Flödestjänsten söker efter nya filer varannan timme. När du har överfört en fil för första gången kan du koppla den till en annonsspecifik mall. Senare kopplas alla filer som du överför med samma namn automatiskt till samma mall. Beroende på hur du [konfigurera inställningar för feed-data](feed-settings-manage.md)kan sökningar, sociala medier och handel automatiskt sprida flödesuppgifterna via alla tillämpliga mallar och eventuellt publicera kampanjdata och annonsdata till relevanta annonsnätverk.
+* **Använda FTP automatiskt:** Du kan överföra filer direkt till en FTP-katalog. Flödestjänsten söker efter nya filer varannan timme. När du har överfört en fil för första gången kan du koppla den till en annonsspecifik mall. Senare kopplas alla filer som du överför med samma namn automatiskt till samma mall. Beroende på hur du [konfigurera inställningar för feed-data](feed-settings-manage.md), Search, Social, &amp; Commerce kan automatiskt sprida flödesuppgifterna via alla tillämpliga mallar och eventuellt publicera kampanjdata och annonsdata till relevanta annonsnätverk.
 
   Om du vill konfigurera en FTP-katalog för insättning och automatisk bearbetning av datafiler kontaktar du kontogruppen på Adobe.
 
@@ -109,7 +109,7 @@ Mer information finns i webbläsarens onlinehjälp.
 
 1. Ange vilken fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på **[!UICONTROL Browse]** för att hitta filen på enheten eller i nätverket.
 
-1. Klicka på **[!UICONTROL Upload].
+1. Klicka **[!UICONTROL Upload].
 
 Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlängder senare förrän du korrigerar värdena. Alla kolumnnamn i filen blir tillgängliga i mallar som dynamiska parametrar.
 

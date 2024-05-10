@@ -1,20 +1,20 @@
 ---
 title: Associera delade sitelinks med konton, kampanjer och annonsgrupper
 description: Lär dig hur du tilldelar delade tillägg för sitelink till konton, kampanjer och annonsgrupper.
-exl-id: c7bd92ab-3768-4b6e-988a-32e644c3d583
+exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
 # Associera delade sitelinks med konton, kampanjer och annonsgrupper
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast*
 
-Du kan skapa tillägg genom att tilldela sitelinks från [!DNL Sitelinks] bibliotek till kontoentiteter, endast för användning i söknätverket. För [!DNL Google Ads] kan du tilldela sitelinks till konton eller till kampanjer och annonsgrupper i söknätverket. För [!DNL Microsoft® Advertising] konton kan du tilldela sitelinks till kampanjer i söknätverket (och till konton och annonsgrupper inifrån [!DNL Microsoft® Advertising] annonsansvarig).
+Du kan skapa tillägg genom att tilldela sitelinks från [!DNL Sitelinks] bibliotek till kontoentiteter, endast för användning i söknätverket. För [!DNL Google Ads] kan du tilldela sitelinks till konton eller till kampanjer och annonsgrupper i söknätverket. För [!DNL Microsoft Advertising] konton kan du tilldela sitelinks till kampanjer i söknätverket (och till konton och annonsgrupper inifrån [!DNL Microsoft Advertising] annonsansvarig).
 
 Du måste ha minst sex aktiva sitelinks för både dator och mobil för att dina sitelinks ska kunna visas med annonser. Du kan tilldela upp till 20 sitelinks per konto, kampanj eller annonsgrupp.
 

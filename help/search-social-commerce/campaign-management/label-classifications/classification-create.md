@@ -1,11 +1,11 @@
 ---
 title: Skapa en etikettklassificering
 description: Lär dig hur du skapar en etikettklassificering för att gruppera dina kontokomponenter.
-exl-id: a7f6ca43-e829-4295-96bc-27ce8858227a
+exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Varje annonsör kan ha upp till 30 etikettklassificeringar.
 
 1. Ange ett unikt etikettklassificeringsnamn och klicka sedan på **[!UICONTROL Save]**.
 
-   Namnet måste vara unikt för annonserarkontot och bestå av [ASCII-tecken 32-126](https://www.asciitable.com/)och den maximala längden är 27 enkelbyte-tecken. Namnet får inte vara identiskt med namnet på en befintlig rapportkolumn eller en befintlig kalkylbladskolumn. Se namnen på kolumnerna i kalkylbladet [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft® Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Visa nätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Namnet måste vara unikt för annonserarkontot och bestå av [ASCII-tecken 32-126](https://www.asciitable.com/)och den maximala längden är 27 enkelbyte-tecken. Namnet får inte vara identiskt med namnet på en befintlig rapportkolumn eller en befintlig kalkylbladskolumn. Se namnen på kolumnerna i kalkylbladet [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Visa nätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
 När du har skapat en etikettklassificering kan du skapa specifika etikettvärden för klassificeringen och tilldela etikettvärdena till kontoenheter från [kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med glödlampor](classification-values-assign-bulksheets.md).
 

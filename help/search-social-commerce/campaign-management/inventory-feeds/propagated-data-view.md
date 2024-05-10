@@ -1,9 +1,9 @@
 ---
 title: Visa data som genererats från feeds
 description: Lär dig hur du visar data som genererats från lagerdataflöden.
-exl-id: 961155ac-a9d3-42e4-904b-b968e9f3383b
+exl-id: ee48f0f1-65fb-4d27-8f59-0108835d70e5
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visa data som genererats från feeds
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket kan du förhandsgranska data på något av följande sätt. Du kan välja senare [data](propagated-data-post.md) från båda ställena till de relevanta annonsnätverken.
 

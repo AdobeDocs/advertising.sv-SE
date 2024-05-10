@@ -1,11 +1,11 @@
 ---
 title: Hämta data från en kampanjhanteringsvy
 description: Lär dig hur du hämtar data från de flesta vyer för kampanjhantering.
-exl-id: 0bbb02df-2ee0-4610-b60a-ca2b58daadbb
+exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan hämta data från [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] förutom för [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences]och [!UICONTROL Extensions] vyer. Du kan hämta antingen:
 
-* En rapport i [!DNL XLSM] (makroaktiverat) [!DNL Microsoft® Excel] kalkylblad). Om du markerar specifika rader i vyn innehåller rapporten en rad för varje markerad rad. Om du inte markerar några rader skapas en rad för varje rad i vyn.
+* En rapport i [!DNL XLSM] (makroaktiverat) [!DNL Microsoft Excel] kalkylblad). Om du markerar specifika rader i vyn innehåller rapporten en rad för varje markerad rad. Om du inte markerar några rader skapas en rad för varje rad i vyn.
 
 * En kalkylbladsfil i TXT-format som innehåller alla relevanta underordnade enheter. Om du väljer rader för entiteter i flera annonsnätverk skapas en fil för varje relevant annonsnätverk. Om du inte markerar några rader skapas en fil för varje annonsnätverk som visas i vyn. Bulkbladsfiler som genereras för olika annonsnätverk innehåller olika datakolumner.
 

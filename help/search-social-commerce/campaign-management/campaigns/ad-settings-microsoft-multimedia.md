@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] multimedia och annonsinställningar'
-description: Referera inställningarna för [!DNL Microsoft® Advertising] multimediaannonser.
-exl-id: b7ce413c-ee7a-420a-8791-e2666cc33eba
+title: '''[!DNL Microsoft Advertising] multimedia och annonsinställningar'
+description: Referera inställningarna för [!DNL Microsoft Advertising] multimediaannonser.
+exl-id: 920ecb8d-e179-4946-be60-64f00bbabb70
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] multimediaannonsinställningar
+# [!DNL Microsoft Advertising] multimediaannonsinställningar
 
 Multimediaannonser finns tillgängliga i söknätverket. Annonsnätverket samlar dynamiskt ihop multimediereklam med de mest effektiva kombinationerna av annonselement.
 
@@ -54,7 +54,7 @@ Se tillåtna proportioner och dimensioner för [multimediaannonser](https://help
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
->* [[!DNL Microsoft® Advertising] expanderade dynamiska sökannonsinställningar](ad-settings-microsoft-dsa.md)
->* [[!DNL Microsoft® Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft® Advertising] inställningar för responsiv (målgrupp) annonsering](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft® Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] expanderade dynamiska sökannonsinställningar](ad-settings-microsoft-dsa.md)
+>* [[!DNL Microsoft Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] inställningar för responsiv (målgrupp) annonsering](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)

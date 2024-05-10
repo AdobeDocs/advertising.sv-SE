@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] och gruppinställningar'
-description: Referera inställningarna för [!DNL Microsoft® Advertising] annonsgrupper.
+title: '''[!DNL Microsoft Advertising] och gruppinställningar'
+description: Referera inställningarna för [!DNL Microsoft Advertising] annonsgrupper.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] och gruppinställningar
+# [!DNL Microsoft Advertising] och gruppinställningar
 
 ## [!UICONTROL Adgroup Details]
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 **[!UICONTROL Networks]:** (Sök annonser) Placera annonser inom annonsgruppen och hur de ska placeras:
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! websites]* (standard): Om du vill lägga bud på annonser i söknätverket.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! websites]* (standard): Om du vill lägga bud på annonser i söknätverket.
 
-* *[!UICONTROL Only Microsoft® Advertising and Yahoo! syndicated search partners]:* Att lägga bud på annonser på syndikerade partnerwebbplatser.
+* *[!UICONTROL Only Microsoft Advertising and Yahoo! syndicated search partners]:* Att lägga bud på annonser på syndikerade partnerwebbplatser.
 
 * *[!UICONTROL Content network]:* Föråldrat
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 {{$include /help/_includes/location-targets.md}}
 
-För [!DNL Microsoft® Advertising] annonser i målgruppsnätverket optimeras inte budmodifierare för platsmål i standardportföljer med &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
+För [!DNL Microsoft Advertising] annonser i målgruppsnätverket optimeras inte budmodifierare för platsmål i standardportföljer med &quot;[!UICONTROL Auto-optimize Bid Adjustment Values]&quot;.
 
 **[!UICONTROL Genre]:** (Annonsgrupper i [!UICONTROL Audience CTV Video] -kampanjer, tillgängliga i USA, CA, BR, MX, UK, DE, ES, FR, IT, AU, MY och TH<!-- Should that go in the campaign sub-type description instead, or is this applicable for this feature only? -->) Målgenren, som avgör vilka program och kanaler annonserna visas på:
 
@@ -130,7 +130,7 @@ Annonsplacering via uppkopplad TV (CTV) beror på videons kvalitet och anbudsbel
 
 **[!UICONTROL Negative Websites]:** (Kampanjer endast på displayen/det ursprungliga nätverket, valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
 
-Mer information om tillgänglighet finns i [!DNL Microsoft® Advertising] hjälp att[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Mer information om tillgänglighet finns i [!DNL Microsoft Advertising] hjälp att[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 >[!MORELIKETHIS]
 >

@@ -1,11 +1,11 @@
 ---
 title: Redigera inställningar för matning av kalkylbladsrapporter
 description: Lär dig hur du redigerar inställningarna för kalkylbladsfeeds.
-exl-id: 063b5fb8-905f-480a-817f-f6b339af6028
+exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Endast för grundläggande rapporter och modellnoggrannhetsrapporter*
 
-Du kan ändra vilken rapportmall som [!DNL Microsoft® Excel] -mallar och andra parametrar används för kalkylbladsfeeds.
+Du kan ändra vilken rapportmall som [!DNL Microsoft Excel] -mallar och andra parametrar används för kalkylbladsfeeds.
 
 >[!NOTE]
 >

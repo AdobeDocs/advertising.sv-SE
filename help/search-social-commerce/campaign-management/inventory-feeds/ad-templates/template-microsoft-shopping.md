@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Ads] inställningar för butiks- och mallinställningar för lagerflöden'
-description: Referera inställningarna för [!DNL Microsoft® Ads] shoppingannonsmallar för lagerflöden.
-exl-id: 64d0092a-bd63-48f4-8e15-f5585f7a022a
+title: '''[!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerflöden'
+description: Referera inställningarna för [!DNL Microsoft Ads] shoppingannonsmallar för lagerflöden.
+exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Ads] inställningar för butiks- och mallinställningar för lagerflöden
+# [!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerflöden
 
 Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
@@ -61,7 +61,7 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 * För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; gör något av följande&quot;:
 
-   * (Rekommenderas) Använd [spåra mallformat för Microsoft®-shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
+   * (Rekommenderas) Använd [spåra mallformat för Microsoft shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
 
    * Om du i stället tar med ett värde för varje produkt i feeden med hjälp av[!DNL bingads_redirect]&quot; (med [korrekt format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) och ange sedan parametern `{lpurl}`. Du kan lägga till omdirigeringar och spårning från tredje part i `{lpurl}` parameter.
 

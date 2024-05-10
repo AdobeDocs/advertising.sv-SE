@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Bing Ads Search Query Report]'
 description: Läs mer om [!UICONTROL Bing Ads Search Query Report].
-exl-id: 5674577b-8f95-4f43-aca9-73fdd6bb8e33
+exl-id: 0207cfe7-a789-409f-af1b-a9579f2abe1e
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft® Advertising]endast konton*
+*[!DNL Microsoft Advertising]endast konton*
 
 The [!UICONTROL Bing Ads Search Query Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata för söktermer för användare för en eller flera annonsgrupper. Som standard innehåller data en rad för varje sökterm som resulterade i avtryck eller klick för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som sökord. Rapporten innehåller inte nyckelordet som söktermen matchades mot, och inte heller några konverteringsdata som spåras av [!DNL Adobe].
 
@@ -41,6 +41,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
-* [Specialrapporter](specialty-report-about.md)
-* [Generera en specialrapport](specialty-report-generate.md)
-* [Inställningar för specialrapport](specialty-report-settings.md)
+>* [Specialrapporter](specialty-report-about.md)
+>* [Generera en specialrapport](specialty-report-generate.md)
+>* [Inställningar för specialrapport](specialty-report-settings.md)

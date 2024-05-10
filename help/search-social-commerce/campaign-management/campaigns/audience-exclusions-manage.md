@@ -1,18 +1,18 @@
 ---
 title: Hantera publikundantag för kampanjer och annonsgrupper
-description: Lär dig konfigurera och hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
+description: Lär dig konfigurera och hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer och annonsgrupper.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
-# Hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper
+# Hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer och annonsgrupper
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast*
 
 Ni kan utesluta specifika målgrupper som mål för specifika annonsgrupper och kampanjer. Genom att exkludera en publik säkerställs att de personerna inte får annonser i de angivna annonserna och kampanjerna.
 

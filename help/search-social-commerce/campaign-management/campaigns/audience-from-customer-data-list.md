@@ -1,34 +1,34 @@
 ---
 title: Hantera kundmatchande målgrupper med hjälp av kunddatalistor
-description: Lär dig skapa och redigera [!DNL Google Ads] och [!DNL Microsoft® Advertising] matchar kunderna målgrupper utifrån era kunddatalistor.
+description: Lär dig skapa och redigera [!DNL Google Ads] och [!DNL Microsoft Advertising] matchar kunderna målgrupper utifrån era kunddatalistor.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Hantera [!DNL Google Ads] och [!DNL Microsoft® Advertising] kundmatcha målgrupper med hjälp av kunddatalistor
+# Hantera [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatcha målgrupper med hjälp av kunddatalistor
 
-Du kan [!DNL Google Ads] och [!DNL Microsoft® Advertising] matchar kunderna målgrupper utifrån era kunddatalistor. Du kan även uppdatera [!DNL Google Ads] eller [!DNL Microsoft® Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp.
+Du kan [!DNL Google Ads] och [!DNL Microsoft Advertising] matchar kunderna målgrupper utifrån era kunddatalistor. Du kan även uppdatera [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp.
 
 ## Skapa en kundmatchande målgrupp från en kunddatalista
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] konton som endast är berättigade till kundmatchning*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] konton som endast är berättigade till kundmatchning*
 
-Du kan skapa [!DNL Google Ads] eller [!DNL Microsoft® Advertising] kunddatabaserad lista från en datafil som du genererar från CRM-systemet (customer relationship management).
+Du kan skapa [!DNL Google Ads] eller [!DNL Microsoft Advertising] kunddatabaserad lista från en datafil som du genererar från CRM-systemet (customer relationship management).
 
-För [!DNL Microsoft® Advertising] kan filen innehålla e-postadresser. För [!DNL Google Ads] kan filen innehålla e-postadresser, e-postadresser eller telefonnummer, användar-ID:n eller mobila enhets-ID:n från CRM.
+För [!DNL Microsoft Advertising] kan filen innehålla e-postadresser. För [!DNL Google Ads] kan filen innehålla e-postadresser, e-postadresser eller telefonnummer, användar-ID:n eller mobila enhets-ID:n från CRM.
 
 >[!NOTE]
 >
->Sök, Socialt och e-handel lagrar inte någon av de kunddata som du överför eller från [!DNL Adobe] segment som används för att skapa eller redigera en [!DNL Google Ads] eller [!DNL Microsoft® Advertising] målgrupp.
+>Search, Social, &amp; Commerce lagrar inte kunddata som du överför eller från [!DNL Adobe] segment som används för att skapa eller redigera en [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp.
 
 1. Generera en fil med kunddata i det format som krävs.
 
-   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft® Advertising] målgrupper, se [!DNL Microsoft® Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft® Excel] mall för kontaktinformation.
+   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft Excel] mall för kontaktinformation.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 
@@ -85,13 +85,13 @@ För [!DNL Microsoft® Advertising] kan filen innehålla e-postadresser. För [!
 
 ## Redigera en kundmatchande målgrupp med hjälp av en kunddatalista
 
-Du kan uppdatera alla [!DNL Google Ads] eller [!DNL Microsoft® Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp. Du kan överföra data som ska läggas till, tas bort eller ersätta alla befintliga data för målgruppen.
+Du kan uppdatera alla [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp. Du kan överföra data som ska läggas till, tas bort eller ersätta alla befintliga data för målgruppen.
 
 Data måste vara av samma typ som den ursprungliga kundlistan (e-postadresser, e-postadresser, telefonnummer, användar-ID:n eller mobilenhets-ID:n för en viss app i ett visst mobiloperativsystem).
 
 1. Generera en fil med kunddata i det format som krävs för den befintliga datatypen.
 
-För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft® Advertising] målgrupper, se [!DNL Microsoft® Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft® Excel] mall för kontaktinformation.
+För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft Excel] mall för kontaktinformation.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
 

@@ -1,11 +1,11 @@
 ---
 title: Hantera kampanjdata med hjälp av kalkylblad
 description: Lär dig mer om vilka funktioner som är tillgängliga i annonsnätverk, arbetsflödet för kalkylblad och felhanteringen.
-exl-id: 207cc08b-8650-4243-b9fd-1c920b81c1f9
+exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Ett kalkylblad är en fil som innehåller kampanjdata i ett visst format och kan
 
 Du kan generera kalkylblad med så mycket data du vill - eller skapa dem manuellt och överföra dem (se kapitlet&quot;Obligatoriska/inkluderade data i kalkylblad&quot;).
 
-När du har skapat ett kalkylblad kan du identifiera alla brutna landningssidor som behöver korrigeras eller ytterligare data som ska läggas till eller redigeras. Du kan sedan redigera filen och överföra den till Sök, Socialt, &amp; Commerce. Om du vill kan du schemalägga att den ska bokföras i det relevanta annonsnätverket omedelbart eller senare. Du kan också publicera ett tillgängligt kalkylblad antingen direkt eller senare.
+När du har skapat ett kalkylblad kan du identifiera alla brutna landningssidor som behöver korrigeras eller ytterligare data som ska läggas till eller redigeras. Du kan sedan redigera filen och överföra den till Search, Social och Commerce, och sedan schemalägga att den ska läggas upp i det relevanta annonsnätverket omedelbart eller senare. Du kan också publicera ett tillgängligt kalkylblad antingen direkt eller senare.
 
 Du kan även överföra kalkylbladsfiler till ett angivet FTP-konto för hämtning och automatisk bokföring. Katalogen genomsöks varje timme och nya filer läggs in i söknätverket i den ordning som de tas emot.
 
@@ -24,11 +24,11 @@ Alla kalkylblad, valideringsfelfiler för landningssidor och andra felfiler tas 
 
 ## Ad Network-funktionalitet
 
-* **Ladda ned, ladda upp och posta:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft® Advertising]och [!DNL Yandex] konton
+* **Ladda ned, ladda upp och posta:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yandex] konton
 
 * **Endast nedladdning och överföring:** [!DNL Naver] konton
 
-  Du kan överföra [!DNL Naver] data som ska användas i sökningar, sociala medier och handel, men som inte kan publicera dem i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
+  Du kan överföra [!DNL Naver] data som ska användas i Search, Social och Commerce, men som inte kan publiceras i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
 
 * **Hämta endast data:**  [!DNL Pinterest], [!DNL Yahoo Native]och [!DNL Yahoo! Display Network] konton
 
@@ -48,9 +48,9 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
 
 1. När du behöver lägga till data eller göra korrigeringar:
 
-   1. [Exportera filen](bulksheet-export.md) till datorn och redigera den i [!DNL Microsoft® Excel].
+   1. [Exportera filen](bulksheet-export.md) till datorn och redigera den i [!DNL Microsoft Excel].
 
-   1. [Överför den redigerade filen manuellt](bulksheet-upload.md) till sökning, sociala medier och handel, eller [överföra filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
+   1. [Överför den redigerade filen manuellt](bulksheet-upload.md) till Search, Social, &amp; Commerce, eller [överföra filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
 
 1. (För filer som överförts manuellt) [Bokför filen](bulksheet-post.md) till annonsnätverket antingen när du överför det eller senare.
 
@@ -58,7 +58,7 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
 
 ## Hantera fel vid överföring och bokföring av kampanjdata
 
-Sökning, sociala medier och handel överför och skickar så många rader med data som det kan från ett kampanjgruppsblad, inklusive URL:er för spårning som genereras vid behov.
+Search, Social, &amp; Commerce överför och skickar så många datarader som det kan från ett kampanjgruppsblad, inklusive URL:er för spårning som genereras vid behov.
 
 När fel uppstår under en bladåtgärd genereras en av följande två typer av felfiler:
 

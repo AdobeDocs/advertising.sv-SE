@@ -1,9 +1,9 @@
 ---
 title: Aktivera överföring av mål till annonsnätverk
-description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft® Advertising].
+description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Aktivera överföring av mål till annonsnätverk
 
-*Annonsörer med [!DNL Google Ads] och [!DNL Microsoft® Advertising] endast konton*
+*Annonsörer med [!DNL Google Ads] och [!DNL Microsoft Advertising] endast konton*
 
 *Annonsörer endast aktiverade för hybridoptimering*
 
-Search, Social, &amp; Commerce kan överföra målen för ett annonskontos portföljer till [!DNL Google Ads] och [!DNL Microsoft® Advertising] så att du kan använda dem för hybridoptimering. De uppladdade målen är tillgängliga som konverteringsåtgärder för anpassade konverteringsmål på kontonivå och kampanjnivå.
+Search, Social, &amp; Commerce kan överföra målen för ett annonskontos portföljer till [!DNL Google Ads] och [!DNL Microsoft Advertising] så att du kan använda dem för hybridoptimering. De uppladdade målen är tillgängliga som konverteringsåtgärder för anpassade konverteringsmål på kontonivå och kampanjnivå.
 
 Om du aktiverar det här alternativet aktiveras automatiskt en överföring för mål i portföljer som innehåller kampanjer med smarta budgivningsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje relevant mål. Konverteringen representerar alla viktade konverteringsvärden i målet. Varje konvertering har ett av följande namn:
 
@@ -30,7 +30,7 @@ Om du aktiverar det här alternativet aktiveras automatiskt en överföring för
 
   Kontoteamet på Adobe kommer att arbeta med dig för att migrera befintliga namn på konverteringsåtgärder i annonsnätverket innan det gamla formatet har tagits bort. Under migreringsperioden kommer både den gamla och den nya formatöverföringen att köras parallellt. Modellering och optimering påverkas inte eftersom de nya konverteringsåtgärderna först visas med sekundär (inte optimerad) status och med 90 dagars data för bakåtfyllnad.
 
-Överför till [!DNL Google Ads] inträffar dagligen klockan 06:00 i annonsörens tidszon. Överför till [!DNL Microsoft® Advertising] inträffar dagligen klockan 09:00 i annonsörens tidszon.
+Överför till [!DNL Google Ads] inträffar dagligen klockan 06:00 i annonsörens tidszon. Överför till [!DNL Microsoft Advertising] inträffar dagligen klockan 09:00 i annonsörens tidszon.
 
 >[!IMPORTANT]
 >

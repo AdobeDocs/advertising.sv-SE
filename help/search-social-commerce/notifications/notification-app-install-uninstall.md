@@ -1,11 +1,11 @@
 ---
 title: Installera och avinstallera [!UICONTROL Notification Center] webbprogram
 description: Lär dig installera och avinstallera [!UICONTROL Notification Center] webbprogram.
-exl-id: e1afc7c0-4bbb-44d6-9871-924580648fa9
+exl-id: e0a72907-3b5e-4678-b08b-95ed099f2dab
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 *Betafunktion*
 
-Du kan ta emot och hantera meddelanden utanför webbläsaren genom att installera en [!UICONTROL Notification Center] webbprogram. Programmet ser likadant ut och har samma funktioner som [!UICONTROL Notification Center] inom sökning, sociala medier och handel. Programmet är tillgängligt för [!DNL Google Chrome] 40 eller senare [!DNL Microsoft® Edge] 17 och senare.
+Du kan ta emot och hantera meddelanden utanför webbläsaren genom att installera en [!UICONTROL Notification Center] webbprogram. Programmet ser likadant ut och har samma funktioner som [!UICONTROL Notification Center] i Search, Social och Commerce. Programmet är tillgängligt för [!DNL Google Chrome] 40 eller senare [!DNL Microsoft Edge] 17 och senare.
 
 När du har installerat [!UICONTROL Notification Center] programmet aktiveras det automatiskt i webbläsarens programhanterare och läses in som ett separat fönster vars layout ordnas dynamiskt baserat på fönsterstorleken. Du kan öppna och stänga programmet från webbläsarens programhanterare eller fästa det i operativsystemets aktivitetsfält eller Dock. Programmet uppdateras automatiskt.
 
-![Notiscenter-ikon i Aktivitetsfältet i Microsoft® Windows](/help/search-social-commerce/assets/windows-taskbar.png "Notiscenter-ikon i Aktivitetsfältet i Microsoft® Windows")
+![Notiscenter-ikon i Aktivitetsfältet i Microsoft Windows](/help/search-social-commerce/assets/windows-taskbar.png "Notiscenter-ikon i Aktivitetsfältet i Microsoft Windows")
 
 Du kan inaktivera eller avinstallera programmet från webbläsarens programhanterare. Mer information om hur du hanterar webbprogram finns i hjälpen till webbläsaren.
 
@@ -32,7 +32,7 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 
 1. I installationsappen? meddelande, klicka **[!UICONTROL Install]**.
 
-## Installera [!UICONTROL Notification Center] webbprogram för [!DNL Microsoft® Edge]
+## Installera [!UICONTROL Notification Center] webbprogram för [!DNL Microsoft Edge]
 
 * Från Search, Social och Commerce:
 
@@ -54,7 +54,7 @@ Du kan inaktivera eller avinstallera programmet från webbläsarens programhante
 
 * I [!DNL Chrome], gå till `chrome://apps`, högerklicka **[!UICONTROL notification-center]** och klicka sedan på **[!UICONTROL Remove from Chrome]**.
 
-## Avinstallera [!UICONTROL Notification Center] webbprogram för [!DNL Microsoft® Edge]
+## Avinstallera [!UICONTROL Notification Center] webbprogram för [!DNL Microsoft Edge]
 
 1. I [!DNL Edge] webbläsarens verktygsfält, klicka **...** > **[!UICONTROL Apps]** > **[!UICONTROL Manage apps]**. Alternativt går du till `edge://apps`.
 

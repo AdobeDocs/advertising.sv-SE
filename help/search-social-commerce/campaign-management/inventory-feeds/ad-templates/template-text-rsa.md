@@ -3,7 +3,7 @@ title: Inställningar för textannonser och responsiva sökannonser för lagerfl
 description: Referera inställningarna för text och responsiva sökannonsmallar för lagerflöden.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '3325'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Inställningar för textannonser och responsiva sökannonser för lagerflöden
 
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och [!DNL Microsoft Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799/2) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{unescapedurl}` Ange landningssidans URL.
 
@@ -142,7 +142,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part. Ange landni
 
 * För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
-* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+* För parametrar som är tillgängliga för Microsoft Advertising and Google Ads accounts, se [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljnivå (med nyckelordet som mest detaljerat) åsidosätter det här värdet.
 
@@ -166,7 +166,7 @@ Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men
 
 Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i inmatningsfältet och sedan på ett kolumnnamn i kolumnlistan eller en [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan Modifierare. Om du vill ange flera nyckelord eller flera matchningstyper för samma nyckelord anger du dem på separata rader. Om du vill ange matchningstyp för nyckelord använder du följande matchningstypssyntax runt kolumnnamnet:
 
-* För [!DNL Google Ads], [!DNL Microsoft® Advertising]och [!DNL Yahoo! Japan Ads] mallar:
+* För [!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yahoo! Japan Ads] mallar:
 
    * För dynamiska parametrar: Bred matchning = `[keyword]`, Bred Match Modifier för den första termen i [!UICONTROL Keyword] kolumn (t.ex. +blå suede-skor) = `+[keyword]`, Bred Matcha modifierare för varje term i kolumnen Nyckelord (till exempel +blue +suede +skor) = `+[keyword]+`, frasmatchning = `"[keyword]"`, Exakt matchning = `[[keyword]]`
 
@@ -206,7 +206,7 @@ Om du använder en [!DNL Google Merchant Center] feed och inkludera det här vä
 
 * Ange landningssidans URL:
 
-   * ([!DNL Google Ads] och [!DNL Microsoft® Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft® Advertising] endast) [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och [!DNL Microsoft Advertising] (endast) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` Ange landningssidans URL.
 
@@ -234,15 +234,15 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
    * Två tal kan bäddas in med ett snedstreck. 4/1 och 0.95/0.45 är till exempel giltiga.
 
-**[!UICONTROL Param 2]\[[!DNL Microsoft® Advertising] mallar\]:** ([!DNL Microsoft® Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om rubriken, texten, URL:en eller den slutliga URL:en innehåller `{Param2}` dynamisk ersättningssträng. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
+**[!UICONTROL Param 2]\[[!DNL Microsoft Advertising] mallar\]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om rubriken, texten, URL:en eller den slutliga URL:en innehåller `{Param2}` dynamisk ersättningssträng. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Param 3]:** ([!DNL Microsoft® Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om rubriken, texten, URL:en eller den slutliga URL:en innehåller `{Param3}` dynamisk ersättningssträng. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
+**[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om rubriken, texten, URL:en eller den slutliga URL:en innehåller `{Param3}` dynamisk ersättningssträng. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
 **[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande anbudet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 
-**[!UICONTROL Ad Type]:** ([!DNL Google Ads] och [!DNL Microsoft® Advertising] endast kampanjer) Annonstyp: *[!UICONTROL Expanded Search Ads]* eller *[!UICONTROL Responsive Search Ads]*.
+**[!UICONTROL Ad Type]:** ([!DNL Google Ads] och [!DNL Microsoft Advertising] endast kampanjer) Annonstyp: *[!UICONTROL Expanded Search Ads]* eller *[!UICONTROL Responsive Search Ads]*.
 
 **[!UICONTROL Prefill]:** (Valfritt) Fyller i alla alternativa fält för annonsruta med text från de ursprungliga kopiefälten.
 
@@ -258,7 +258,7 @@ Det måste finnas minst en rubrik för varje position. Om du fäster flera titla
 
 {{inventory-feed-template-insert-ad-customizer}}
 
-**[!UICONTROL Ad Title]:** (Endast befintlig Microsoft® Advertising standard text ads; skrivskyddad) Titeln, eller första raden, för en annons. Microsoft® Advertising har ersatt framtagning och redigering av standardtextannonser.
+**[!UICONTROL Ad Title]:** (Endast befintliga standardannonser i Microsoft Advertising; skrivskyddade) Rubriken, eller första raden, i en annons. Microsoft Advertising har ersatt skapande och redigering av standardtextannonser.
 
 **[!UICONTROL Headline 1]**, **[!UICONTROL Headline 2]:** ([!DNL Google Ads] och [!DNL Yahoo! Japan Ads] expanderad/utökad text och endast mallar) Rubriken för en annons. Den maximala längden för varje rad (efter att alla dynamiska parametrar har ersatts) är 30 eller 15 dubbelbyte-tecken.
 
@@ -270,13 +270,13 @@ Det måste finnas minst en rubrik för varje position. Om du fäster flera titla
 
 **[!UICONTROL Title]:** ([!DNL Yandex] only) Rubriken, eller första raden, för en annons. Maximalt 33 tecken.
 
-**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Endast Microsoft® Advertising expanderad text ads) Rubriken för en annons. Den maximala längden för varje rad (efter att alla dynamiska parametrar har ersatts) är 30 eller 15 dubbelbyte-tecken.
+**[!UICONTROL Title Part 1]**, **[!UICONTROL Title Part 2]:** (Endast Microsoft Advertising expanderade text ads) Rubriken för en annons. Den maximala längden för varje rad (efter att alla dynamiska parametrar har ersatts) är 30 eller 15 dubbelbyte-tecken.
 
 <!-- using a snippet for the note instead of an include because this is used multiple times on the page, which ExL doesn't support for includes -->
 
 {{inventory-feed-template-insert-dynamic-parameter}}
 
-**[!UICONTROL Ad Text]:** (Endast Microsoft® Advertising expanderad text ads) En annons brödtext. Den maximala längden (efter att alla dynamiska parametrar har ersatts) är 80 eller 40 dubbelbyte-tecken (till exempel kinesiska, japanska och koreanska).
+**[!UICONTROL Ad Text]:** (Endast Microsoft Advertising expanderad text) En annons brödtext. Den maximala längden (efter att alla dynamiska parametrar har ersatts) är 80 eller 40 dubbelbyte-tecken (till exempel kinesiska, japanska och koreanska).
 
 ### [!UICONTROL Descriptions]
 
@@ -312,11 +312,11 @@ För responsiva sökannonser infogar du en annonsanpassare med följande format,
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, till exempel `{CUSTOMIZER.Discount:10%}`
 
-* [!DNL Microsoft® Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, till exempel `{CUSTOMIZER.Discount:10%}`
+* [!DNL Microsoft Advertising]: `{CUSTOMIZER.Attribute name:Default text}`, till exempel `{CUSTOMIZER.Discount:10%}`
 
-**[!UICONTROL Display URL]:** (Befintlig [!DNL Microsoft® Advertising] och [!DNL Yahoo! Japan Ads] endast standardtextannonser; skrivskyddad) URL:en som visas i en annons.
+**[!UICONTROL Display URL]:** (Befintlig [!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] endast standardtextannonser; skrivskyddad) URL:en som visas i en annons.
 
-[!DNL Microsoft® Advertising] och [!DNL Yahoo! Japan Ads] inte längre används för att skapa och redigera standardtexter.
+[!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] inte längre används för att skapa och redigera standardtexter.
 
 **[!UICONTROL Base URL]:** (Konton med endast mål-URL:er) Den sida som användarna tas till. Den kan innehålla omdirigerings- och spårningskod från tredje part. Om du använder tjänsten för spårning av konvertering i Adobe Advertising, och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå. Sedan lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
 
@@ -339,7 +339,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part. Ange landni
 
 * För Yahoo! Japan Ads-konton, använd parametern {lpurl}.
 
-* Information om parametrar för Microsoft® Advertising and Google Ads accounts finns i [[!DNL Microsoft® Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
+* För parametrar som är tillgängliga för Microsoft Advertising and Google Ads accounts, se [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgänglig&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
 **\[Alternativa fält under de ursprungliga reklamfälten\]:** (Valfritt) En alternativ uppsättning annonskopior för en annons, som kan användas om någon av raderna i den ursprungliga annonskopian överskrider den maximala längden när alla dynamiska parametrar fylls i med data under spridningen.
 

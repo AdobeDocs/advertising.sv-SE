@@ -3,22 +3,22 @@ title: The [!UICONTROL MSA Network Performance Report]
 description: Läs mer om [!UICONTROL MSA Network Performance Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: da2b85e9-5e78-4a1c-9268-8686f025e80c
-source-git-commit: 22fd10dec43c43c6f03860e6e4839a8bb8d56017
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
 # The [!UICONTROL MSA Network Performance Report]
 
-*[!DNL Microsoft® Advertising]endast konton*
+*[!DNL Microsoft Advertising]endast konton*
 
-Den här rapporten visar resultat på kampanjnivå (kostnad, klick, visningar och [!DNL Microsoft® Advertising]-spårade intäkter) efter annonsdistribution (sökning eller målgrupp) för angivna [!DNL Microsoft® Advertising] konton.
+Den här rapporten visar resultat på kampanjnivå (kostnad, klick, visningar och [!DNL Microsoft Advertising]-spårade intäkter) efter annonsdistribution (sökning eller målgrupp) för angivna [!DNL Microsoft Advertising] konton.
 
 När du kör en rapport med enbart måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mätvärden.
 
-Du kan visa data de senaste 180 dagarna. Sökning, sociala medier och handel hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
+Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
 
 >[!NOTE]
 >

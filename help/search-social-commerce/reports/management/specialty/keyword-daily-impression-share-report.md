@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Daily Impression Share Report]'
 description: Läs mer om [!UICONTROL Keyword Daily Impression Share Report].
-exl-id: 177f7c9e-407f-4200-90a6-57b2fd569cf4
+exl-id: 761864db-a6ef-4155-8959-6c2c90f14a6b
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast konton*
 
 The [!UICONTROL Keyword Daily Impression Share Report] innehåller dagliga mått för visningsdelning för varje nyckelord, motsvarande matchningstyp och motsvarande enhetstyp för en eller flera annonsgrupper eller -kampanjer. Som standard innehåller data en rad för varje nyckelord, matchningstyp och enhet som fick minst ett intryck eller klickar för varje tillämplig annonsgrupp för varje dag i det angivna datumintervallet. Raderna är i stigande ordning efter datum som standard. Rapporten kan även innehålla data som spåras av [!DNL Adobe] och härledda mätvärden.
 

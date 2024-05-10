@@ -1,9 +1,9 @@
 ---
 title: Hantera modifierare
 description: Lär dig hur du konfigurerar och hanterar modifierare för dina annonsmallar för lagerdataflöden.
-exl-id: ade1472d-10e3-454e-8095-c579b48cfc01
+exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hantera modifierare
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 Modifierare är adjektiver eller annonser som kan läggas till i eller tas bort från en mening utan att ändra den grundläggande meningsstrukturen. Du kan skapa grupper med modifierare som du kan använda som variabler i olika datafält i flödesdatamallar. Genom att ta med modifierare i kontostrukturfält (kampanj och annonsgrupp), nyckelord, bas-URL:er och annonser, skapar du ett värde för varje associerat modifieringsvärde. Om du till exempel använder en modifierargruppvariabel i en annonsrubrik och modifierargruppen innehåller tre modifierare (&quot;billig&quot;,&quot;rabatt&quot; och&quot;överkomlig&quot;) skapas tre separata annonser för varje datarad i dataflödet - en för varje modifierare. Om du inkluderar en modifieringsgrupp med flera värden i bas-URL:en för en annonsgrupp skapas en uppsättning nyckelord för var och en av de resulterande bas-URL:erna.
 

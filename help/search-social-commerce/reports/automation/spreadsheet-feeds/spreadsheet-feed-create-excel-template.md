@@ -1,9 +1,9 @@
 ---
 title: Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde
 description: Lär dig hur du skapar specialformaterade kalkylbladsmallar.
-exl-id: d675cb8c-b7a9-4d7b-8435-5dd662d151a3
+exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Endast för grundläggande rapporter och modellnoggrannhetsrapporter*
 
-Om du vill skapa kalkylbladsfeeds måste du först skapa särskilt formaterade [!DNL Microsoft® Excel] kalkylbladsmallar med regelbundna rapportmallar. Du kan också anpassa [!DNL Excel] kalkylblad som innehåller ytterligare spalter och diagram.
+Om du vill skapa kalkylbladsfeeds måste du först skapa särskilt formaterade [!DNL Microsoft Excel] kalkylbladsmallar med regelbundna rapportmallar. Du kan också anpassa [!DNL Excel] kalkylblad som innehåller ytterligare spalter och diagram.
 
 1. I **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**, generera önskad rapporttyp med en [!UICONTROL Date Aggregation] enhet för &quot;[!UICONTROL Daily]&quot; och med alla andra dataparametrar som du vill ha sparar du rapporten som en mall.
 

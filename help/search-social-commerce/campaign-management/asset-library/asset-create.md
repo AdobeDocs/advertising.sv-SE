@@ -1,18 +1,18 @@
 ---
 title: Skapa och överföra resurser
-description: Lär dig skapa återanvändbara bild-, video- och textresurser och ladda upp dem till [!DNL Google Ads] och [!DNL Microsoft® Advertising] resursbibliotek på kontonivå.
+description: Lär dig skapa återanvändbara bild-, video- och textresurser och ladda upp dem till [!DNL Google Ads] och [!DNL Microsoft Advertising] resursbibliotek på kontonivå.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: 68c082131378974bf95534050b8ddf2db0ae394b
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
 # Skapa och överföra resurser
 
-*För [!DNL Google Ads] och [!DNL Microsoft® Advertising] endast konton*
+*För [!DNL Google Ads] och [!DNL Microsoft Advertising] endast konton*
 
 *Öppna betafunktion*
 

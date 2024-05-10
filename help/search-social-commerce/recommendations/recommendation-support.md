@@ -3,7 +3,7 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d6808281dc3ba26a48ae33079c2f411705f43ddd
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Om utgivarens rekommendationer och insikter
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] konton*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
 
-*Betafunktion för [!DNL Microsoft® Advertising] konton*
+*Betafunktion för [!DNL Microsoft Advertising] konton*
 
-[!DNL Google Ads] och [!DNL Microsoft® Advertising] rekommendationer och insikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
+[!DNL Google Ads] och [!DNL Microsoft Advertising] rekommendationer och insikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
 
 * Varje [!DNL Google Ads] rekommendationer ger anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
 
-* Varje [!DNL Microsoft® Advertising] resultatinsikter och rekommendationer tyder på förändringar för att optimera kampanjresultaten baserat på algoritmer för maskininlärning och bästa praxis.
+* Varje [!DNL Microsoft Advertising] resultatinsikter och rekommendationer tyder på förändringar för att optimera kampanjresultaten baserat på algoritmer för maskininlärning och bästa praxis.
 
 ## The [!UICONTROL Recommendations & Publisher Insights] visa
 
@@ -32,7 +32,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
   Informationen är tillgänglig i realtid när du öppnar vyn. Klicka på om du vill uppdatera data ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") till vänster på sidan.
 
-* För [!DNL Microsoft® Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [!DNL Microsoft® Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Varje insikt innehåller datumet, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna [!DNL Microsoft® Advertising] som du kan agera utifrån den specifika insikten.
+* För [!DNL Microsoft Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [!DNL Microsoft Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Varje insikt innehåller datumet, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna [!DNL Microsoft Advertising] som du kan agera utifrån den specifika insikten.
 
 * Visa information om en rekommendation och direkt tillämpa eller avvisa rekommendationen.
 

@@ -3,7 +3,7 @@ title: Redigera en plan för ansluten TV-räckvidd
 description: Lär dig hur du redigerar inställningarna för en ansluten TV-räckvidd.
 feature: DSP Planner
 exl-id: 675a09d1-9548-416d-bfa6-a6242149b255
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -24,7 +24,7 @@ När du redigerar planinställningarna genereras en ny prognos.
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Exportera [!UICONTROL Budget vs Reach] prognos till [!DNL Microsoft® Excel] kalkylblad**, klicka **[!UICONTROL ...]** i det övre högra hörnet och klicka sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Exportera [!UICONTROL Budget vs Reach] prognos till [!DNL Microsoft Excel] kalkylblad**, klicka **[!UICONTROL ...]** i det övre högra hörnet och klicka sedan på **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

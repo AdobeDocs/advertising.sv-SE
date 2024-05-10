@@ -1,20 +1,20 @@
 ---
 title: Hantera målgruppsmål för kampanjer och annonsgrupper
-description: Lär dig konfigurera och hantera målgruppsmål för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
+description: Lär dig konfigurera och hantera målgruppsmål för [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer och annonsgrupper.
 exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
-# Hantera målgruppsanpassningar för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper
+# Hantera målgruppsanpassningar för [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer och annonsgrupper
 
-*[!DNL Google Ads]och [!DNL Microsoft® Advertising] endast*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast*
 
-[!DNL Google Ads] kampanjer och annonsgrupper, och [!DNL Microsoft® Advertising] annonsgrupper, kan inrikta sig på specifika målgrupper från samma annonsnätverk. Annonsnätverket avgör hur stor en målgrupp måste vara för att kunna målgruppsanpassas.
+[!DNL Google Ads] kampanjer och annonsgrupper, och [!DNL Microsoft Advertising] annonsgrupper, kan inrikta sig på specifika målgrupper från samma annonsnätverk. Annonsnätverket avgör hur stor en målgrupp måste vara för att kunna målgruppsanpassas.
 
 >[!NOTE]
 >

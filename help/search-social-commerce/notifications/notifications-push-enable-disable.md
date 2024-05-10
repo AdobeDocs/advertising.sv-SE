@@ -1,11 +1,11 @@
 ---
 title: Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]
 description: Lär dig hur du aktiverar och inaktiverar push-meddelanden från [!UICONTROL Notification Center].
-exl-id: 71d115d0-6190-4052-a299-d5e8cde8e46c
+exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *Betafunktion*
 
-Du kan aktivera meddelanden i Sök, Socialt och Commerce, där de visas i enlighet med webbläsarens meddelandekonventioner. På enheter som använder [!DNL Microsoft® Windows]visas meddelanden längst ned till höger på skärmen (systemfältet). På [!DNL Apple Mac] enheter visas meddelanden på den högra menyn.
+Du kan aktivera meddelanden i Sök, Sociala och Commerce, där de visas i enlighet med webbläsarens meddelandekonventioner. På enheter som använder [!DNL Microsoft Windows]visas meddelanden längst ned till höger på skärmen (systemfältet). På [!DNL Apple Mac] enheter visas meddelanden på den högra menyn.
 
 Push-meddelanden är tillgängliga i följande webbläsare:
 
 * [!DNL Google Chrome] 40 eller senare
 
-* [!DNL Microsoft® Edge] 17 och senare
+* [!DNL Microsoft Edge] 17 och senare
 
 * [!DNL Mozilla Firefox] 44 och senare
 
@@ -36,9 +36,9 @@ Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
 4. Konfigurera webbläsaren så att meddelanden från [!UICONTROL Notification Center] på`https://alert-center-ui-na.efrontier.com`.
 
-   Standardinställningarna för meddelanden varierar beroende på webbläsare, och du kan antingen a) visas automatiskt med alternativet att tillåta meddelanden från [!UICONTROL Notification Center] eller b) måste hantera meddelandeinställningarna manuellt. Till exempel i [!DNL Microsoft® Edge]kan du tillåta meddelanden från [!UICONTROL Notification Center] i webbläsarens verktygsfält. Se instruktionerna i webbläsarens hjälp.
+   Standardinställningarna för meddelanden varierar beroende på webbläsare, och du kan antingen a) visas automatiskt med alternativet att tillåta meddelanden från [!UICONTROL Notification Center] eller b) måste hantera meddelandeinställningarna manuellt. Till exempel i [!DNL Microsoft Edge]kan du tillåta meddelanden från [!UICONTROL Notification Center] i webbläsarens verktygsfält. Se instruktionerna i webbläsarens hjälp.
 
-   ![Hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Hantera meddelandeinställningar i Microsoft® Edge")
+   ![Hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Hantera meddelandeinställningar i Microsoft Edge")
 
 5. I [meddelandeinställningar](notification-edit.md), aktivera [!UICONTROL Web] meddelanden om de larmtyper som du vill ska skickas.
 

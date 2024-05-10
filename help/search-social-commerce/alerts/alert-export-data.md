@@ -1,9 +1,9 @@
 ---
 title: Exportera data för anpassade aviseringar
 description: Lär dig hur du exporterar data för en utlöst varning till en fil.
-exl-id: c6c3d977-8ee8-4393-a6c7-8f7b9ca5c913
+exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Exportera data för anpassade aviseringar
 
-Du kan exportera data för en utlöst varning eller data för den senast utlösta aviseringen för en aviseringsmall som en [!DNL Microsoft® Excel] arbetsbok ([XLS](/help/search-social-commerce/glossary.md#w-x) -fil), ett tabbavgränsat värde ([TSV](/help/search-social-commerce/glossary.md#s-t)) eller ett kommaavgränsat värde ([CSV](/help/search-social-commerce/glossary.md#c-d)). Det finns hämtningsbara rapporter som är tillgängliga i tio dagar efter att varningen har utlösts och som sedan tas bort automatiskt.
+Du kan exportera data för en utlöst varning eller data för den senast utlösta aviseringen för en aviseringsmall som en [!DNL Microsoft Excel] arbetsbok ([XLS](/help/search-social-commerce/glossary.md#w-x) -fil), ett tabbavgränsat värde ([TSV](/help/search-social-commerce/glossary.md#s-t)) eller ett kommaavgränsat värde ([CSV](/help/search-social-commerce/glossary.md#c-d)). Det finns hämtningsbara rapporter som är tillgängliga i tio dagar efter att varningen har utlösts och som sedan tas bort automatiskt.
 
 1. Gör något av följande:
 

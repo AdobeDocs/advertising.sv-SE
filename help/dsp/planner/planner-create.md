@@ -3,7 +3,7 @@ title: Skapa en uppkopplad TV-sändningsplan
 description: Lär dig hur du skapar en uppkopplad TV-räckvidd.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 8574d76fd322cb1cbc6aaaf316e7ad2f961a9f6c
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Exportera [!UICONTROL Budget vs Reach] prognos till [!DNL Microsoft® Excel] kalkylblad**, klicka **[!UICONTROL ...]** i det övre högra hörnet och klicka sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Exportera [!UICONTROL Budget vs Reach] prognos till [!DNL Microsoft Excel] kalkylblad**, klicka **[!UICONTROL ...]** i det övre högra hörnet och klicka sedan på **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

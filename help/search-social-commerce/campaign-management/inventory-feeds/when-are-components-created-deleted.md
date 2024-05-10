@@ -1,18 +1,18 @@
 ---
 title: När skapas eller tas kontokomponenter bort av lagerfeeds?
 description: Lär dig vilka situationer som skapar och tar bort kontokomponenter när du bokför lagerfeeds.
-exl-id: 93b31996-15dd-4215-ae9d-39327910f712
+exl-id: 39a3cc2c-f956-4a89-a69d-687a27a38a1e
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # När skapas eller tas kontokomponenter bort av lagerfeeds?
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 När en lagerflödesfil sprids via en mall skapas och tas kontokomponenter bort enligt följande.
 
@@ -23,9 +23,9 @@ När en lagerflödesfil sprids via en mall skapas och tas kontokomponenter bort 
 | Scenario | Exempel | Åtgärd |
 |----|----|----|
 | Feed-data innehåller ett nytt värde för en kolumn som används i ett kampanjnamn, annonsgruppsnamn, nyckelord eller produktgrupp. | Tidigare filer:<br>Campaign=Hats<br>Campaign=Handskar<br><br>Ny fil:<br>Campaign=Shoes | En ny kampanj, annonsgrupp, nyckelord eller produktgrupp skapas om den inte finns i annonsnätverket. |
-| Feed-data innehåller ett nytt värde för en kolumn som används i en annons. | Tidigare fil: En annons innehöll price=20<br><br>Ny fil: för samma annons, pris=10 | När annonskopia för [!DNL Microsoft® Advertising] expanderade textannonser, [!DNL Yahoo! Japan ads], eller [!DNL Yandex] annonser ändras, den befintliga annonsen tas bort och en ny skapas.<br><br>När annonskopia ändras för andra annonstyper eller när tillämplig kolumn används för en [!DNL Google Ads] ad-parameter ({param1} eller {param2}) i en annons uppdateras den befintliga annonsen. |
+| Feed-data innehåller ett nytt värde för en kolumn som används i en annons. | Tidigare fil: En annons innehöll price=20<br><br>Ny fil: för samma annons, pris=10 | När annonskopia för [!DNL Microsoft Advertising] expanderade textannonser, [!DNL Yahoo! Japan ads], eller [!DNL Yandex] annonser ändras, den befintliga annonsen tas bort och en ny skapas.<br><br>När annonskopia ändras för andra annonstyper eller när tillämplig kolumn används för en [!DNL Google Ads] ad-parameter ({param1} eller {param2}) i en annons uppdateras den befintliga annonsen. |
 | Mallinställningarna för kampanjen, annonsgruppen, nyckelordet eller produktgruppen har ändrats sedan den senaste spridningen. | Föregående inställning:Nyckelord=[Nyckelord]<br><br>Ny inställning: Nyckelord=&lt;color>[Nyckelord] | En ny kampanj, annonsgrupp, nyckelord eller produktgrupp skapas om den inte finns i annonsnätverket. |
-| Mallinställningarna för en annons har ändrats sedan den senaste spridningen. | Föregående inställning: Ad description=&quot;Köp [kategori] nu.&quot;<br><br>Ny inställning: Ad description=&quot;Köp [varumärke] nu.&quot; | När annonskopia för [!DNL Microsoft® Advertising] expanderade textannonser, [!DNL Yahoo! Japan ads], eller [!DNL Yandex] annonser ändras, den befintliga annonsen tas bort och en ny skapas.<br><br>När en annonskopia ändras för andra annonstyper eller när ändringen visar en ändring i kolumnen som används för en enskild [!DNL Google Ads] ad-parameter ({param1} eller {param2}) i en annons uppdateras den befintliga annonsen. |
+| Mallinställningarna för en annons har ändrats sedan den senaste spridningen. | Föregående inställning: Ad description=&quot;Köp [kategori] nu.&quot;<br><br>Ny inställning: Ad description=&quot;Köp [varumärke] nu.&quot; | När annonskopia för [!DNL Microsoft Advertising] expanderade textannonser, [!DNL Yahoo! Japan ads], eller [!DNL Yandex] annonser ändras, den befintliga annonsen tas bort och en ny skapas.<br><br>När en annonskopia ändras för andra annonstyper eller när ändringen visar en ändring i kolumnen som används för en enskild [!DNL Google Ads] ad-parameter ({param1} eller {param2}) i en annons uppdateras den befintliga annonsen. |
 | Nya flödesuppgifter innehåller inte någon rad för en befintlig kampanj eller annonsgrupp. | n/a | Befintliga kampanjer och annonsgrupper håller sig i befintligt skick. |
 | Nya matningsdata inkluderar inte en rad för en befintlig annonsgrupp, annons, nyckelord eller produktgrupp. | n/a | Den befintliga annonsgruppen, annonsen, nyckelordet eller produktgruppen förblir som den är, är pausad eller tas bort enligt [inställningar för feed-data](feed-settings-manage.md#feed-data-settings). |
 | Nya feed-data för en befintlig överordnad produktgrupp innehåller inte rader för dess befintliga underordnade produktgrupper. | n/a | Den befintliga överordnade produktgruppen förblir oförändrad eller tas bort enligt [inställningar för feed-data](feed-settings-manage.md#feed-data-settings). <b>Obs!</b> Om matningsdatainställningarna har konfigurerats för att pausa saknade radartiklar tas den överordnade produktgruppen fortfarande bort eftersom du inte kan pausa produktgrupper. |

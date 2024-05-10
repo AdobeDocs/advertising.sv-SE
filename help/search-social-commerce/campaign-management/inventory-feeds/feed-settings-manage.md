@@ -1,18 +1,18 @@
 ---
 title: Konfigurera inställningar för feed-data
 description: Lär dig hur du konfigurerar inställningar som styr hur feed-data bearbetas.
-exl-id: fc72d1bc-aac7-4280-80c6-4fc53a96a49f
+exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Konfigurera inställningar för feed-data
 
-*[!DNL Google Ads], [!DNL Microsoft® Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
 
 Du kan konfigurera hur annonsgrupper, nyckelord och annonser ska hanteras i feed-datafiler och hur data i FTP-filer ska bearbetas specifikt via feed-inställningarna.
 
@@ -63,7 +63,7 @@ Du kan konfigurera hur annonsgrupper, nyckelord och annonser ska hanteras i feed
 
 * *[!UICONTROL None]* (standard): Ändra inte befintliga komponenter.
 
-**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Vad du ska göra med befintliga objekt när 1) de inte tas med a) i en ny feed-fil som har överförts till en FTP-katalog eller b) i ett handlarcenterkonto nästa gång som Sök, Socialt, &amp; Commerce synkroniseras med den, eller 2) när de inte mappar till befintliga kampanjer eller annonsgrupper per [!UICONTROL Map Only] inställningar i mallen.
+**[!UICONTROL Missing line items in an FTP feed/GMC account]:** Vad du ska göra med befintliga objekt när 1) de inte ingår a) i en ny feed-fil som har överförts till en FTP-katalog eller b) i ett handlarcenterkonto nästa gång som Search, Social, &amp; Commerce synkroniserar med den, eller 2) när de inte mappar till befintliga kampanjer eller annonsgrupper per [!UICONTROL Map Only] inställningar i mallen.
 
 * *[!UICONTROL Delete]:* Ta bort befintliga komponenter.
 

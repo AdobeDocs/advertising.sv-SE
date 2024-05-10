@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Microsoft® Advertising] kampanjinställningar'
-description: Referera inställningarna för [!DNL Microsoft® Advertising] kampanjer.
+title: '''[!DNL Microsoft Advertising] kampanjinställningar'
+description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1966'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft® Advertising] kampanjinställningar
+# [!DNL Microsoft Advertising] kampanjinställningar
 
 ## \[Kampanjskapande skärm\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search]:* Visar textannonser i söknätverket.
 
-* *[!UICONTROL Shopping Network]:* Visar produktannonser - för era produkter i [!DNL Microsoft® Merchant Center] produktkatalog - i shoppingnätverket.
+* *[!UICONTROL Shopping Network]:* Visar produktannonser - för era produkter i [!DNL Microsoft Merchant Center] produktkatalog - i shoppingnätverket.
 
-* *[!UICONTROL Audience]:* Visar annonser på webben/skärmen på [!DNL Microsoft® Audience Network]. Du kan antingen a) automatiskt generera feed-baserade annonser genom att länka kampanjen till en handlarcenterbutik i [!UICONTROL Shopping Settings] eller b) skapa responsiva annonser med textresurser och överförda bilder. Båda alternativen kräver att ni skapar annonsgrupper med målgruppsanpassning.
+* *[!UICONTROL Audience]:* Visar annonser på webben/skärmen på [!DNL Microsoft Audience Network]. Du kan antingen a) automatiskt generera feed-baserade annonser genom att länka kampanjen till en handlarcenterbutik i [!UICONTROL Shopping Settings] eller b) skapa responsiva annonser med textresurser och överförda bilder. Båda alternativen kräver att ni skapar annonsgrupper med målgruppsanpassning.
 
-* *[!UICONTROL Shopping Campaigns for Brands]:* (Betafunktion) Marknadsför dina produkter via länkade återförsäljare i söknings- och målgruppsnätverk. Du kan skapa underordnade annonsgrupper och produktgrupper (appar som ska marknadsföras) och valfria produktannonser för kampanjen; [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna. Använd anbudsstrategin för att handla kampanjer för varumärken [!UICONTROL Manual CPC]Använd anbudsstrategin för att handla kampanjer för varumärken [!UICONTROL Cost per Sale].
+* *[!UICONTROL Shopping Campaigns for Brands]:* (Betafunktion) Marknadsför dina produkter via länkade återförsäljare i söknings- och målgruppsnätverk. Du kan skapa underordnade annonsgrupper och produktgrupper (appar som ska marknadsföras) och valfria produktannonser för kampanjen; [!DNL Microsoft Advertising] skapar automatiskt annonser för produktgrupperna. Använd anbudsstrategin för att handla kampanjer för varumärken [!UICONTROL Manual CPC]Använd anbudsstrategin för att handla kampanjer för varumärken [!UICONTROL Cost per Sale].
 
-* *[!UICONTROL Microsoft® Store Ads Campaign]:* (Betafunktion) Markerar dina appar och spel som är tillgängliga i [!DNL Microsoft® Store]. Du kan skapa underordnade annonsgrupper, produktgrupper och valfria produktannonser för kampanjen; [!DNL Microsoft® Advertising] skapar automatiskt annonser för produktgrupperna.
+* *[!UICONTROL Microsoft Store Ads Campaign]:* (Betafunktion) Markerar dina appar och spel som är tillgängliga i [!DNL Microsoft Store]. Du kan skapa underordnade annonsgrupper, produktgrupper och valfria produktannonser för kampanjen; [!DNL Microsoft Advertising] skapar automatiskt annonser för produktgrupperna.
 
 * *[!UICONTROL Audience CTV Video]:* (Betafunktion) Visar videoannonser på uppkopplade TV-apparater (CTV) i målgruppsnätverket.
 
 * *[!UICONTROL Audience Video]:* (Betafunktion) Visar standardvideoannonser i målgruppsnätverket.
 
-* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft® Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria uppmaningar och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
+* *[!UICONTROL Performance Max]:* (Betafunktion) Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria uppmaningar och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -68,11 +68,11 @@ ht-degree: 0%
 
   När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfolio optimerar Search, Social och Commerce basanbuden och - när &quot;[!UICONTROL Auto adjust campaign budget limits]Alternativet &quot; är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning:** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna i annonsnätverket är anpassade efter portföljmålet.
 
-* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft® Store Ads] kampanjer, borttagna av [!DNL Microsoft® Advertising] 2021 för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
+* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft Store Ads] kampanjer, borttagna av [!DNL Microsoft Advertising] 2021 för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
 
    * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Det här alternativet är detsamma som att använda &quot;[!UICONTROL Enhanced CPC]&quot;.
 
-* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft® Store Ads] kampanjer) Använder modellen för kostnad per förvärv (CPA).
+* *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] kampanjer) Använder modellen för kostnad per förvärv (CPA).
 
 * *[!UICONTROL Manual CPM]* (Endast målgruppskampanjer och målgruppsvideokampanjer) Använder modellen med CPM (cost-per-tusen-imponsions), där du anger vad du vill spendera per 1 000 visningar. Kampanjer med denna anbudsstrategi optimeras inte när de ingår i portföljer.
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
-**[!UICONTROL Link with Microsoft® Merchant Center]:** (Endast målgruppskampanjer, valfritt) Länkar kampanjen till en viss handlarcenterbutik för automatiska flödesbaserade annonser i stället för responsiva annonser. När du väljer det här alternativet anger du [!UICONTROL Merchant ID] och [!UICONTROL Products]. Ni måste skapa annonsgrupper för kampanjen, men ni behöver inte skapa annonser.
+**[!UICONTROL Link with Microsoft Merchant Center]:** (Endast målgruppskampanjer, valfritt) Länkar kampanjen till en viss handlarcenterbutik för automatiska flödesbaserade annonser i stället för responsiva annonser. När du väljer det här alternativet anger du [!UICONTROL Merchant ID] och [!UICONTROL Products]. Ni måste skapa annonsgrupper för kampanjen, men ni behöver inte skapa annonser.
 
 När du har länkat kampanjen till en butik och sparat inställningarna kan du inte ändra det här alternativet.
 
@@ -116,7 +116,7 @@ När du har länkat kampanjen till en butik och sparat inställningarna kan du i
 
 ## [!UICONTROL Campaign Targeting]
 
-**[!UICONTROL Languages]:** (Endast maximala prestandakampanjer) Språket för annonsen, som ska matcha språket för de webbplatser där annonsen kan visas. [!DNL Microsoft® Advertising] avgör användarens språk utifrån olika signaler, inklusive användarens fråga, utgivarens land och användarens språkinställning.
+**[!UICONTROL Languages]:** (Endast maximala prestandakampanjer) Språket för annonsen, som ska matcha språket för de webbplatser där annonsen kan visas. [!DNL Microsoft Advertising] avgör användarens språk utifrån olika signaler, inklusive användarens fråga, utgivarens land och användarens språkinställning.
 
 <!-- **[!UICONTROL Location Targets]:** -->
 
@@ -164,7 +164,7 @@ När du har länkat kampanjen till en butik och sparat inställningarna kan du i
 
 **[!UICONTROL Negative Websites]:** (Kampanjer endast på displayen/det ursprungliga nätverket, valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
 
-Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot;[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Mer information om tillgänglighet finns i Microsoft Advertising Help to &quot;[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -206,7 +206,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 **[!UICONTROL Final URL]:** Den slutliga URL:en för alla annonser som skapats från resursgruppen.
 
-**[!UICONTROL Images]:** Upp till 20 bilder för annonsen, inklusive minst en fyrkantig bild och en liggande bild. Se [[!DNL Microsoft® Advertising] riktlinjer för bilder](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Images]:** Upp till 20 bilder för annonsen, inklusive minst en fyrkantig bild och en liggande bild. Se [[!DNL Microsoft Advertising] riktlinjer för bilder](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
@@ -228,7 +228,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 * Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
 
-**[!UICONTROL Logos]:** Minst en logotyp. Du kan inkludera upp till fem. Se [[!DNL Microsoft® Advertising] riktlinjer för tillgångar](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Logos]:** Minst en logotyp. Du kan inkludera upp till fem. Se [[!DNL Microsoft Advertising] riktlinjer för tillgångar](https://help.ads.microsoft.com/#apex/ads/en/60204/0). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
@@ -284,7 +284,7 @@ Mer information om tillgänglighet finns i Microsoft® Advertising help to &quot
 
 **[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken. Det får inte innehålla skript, HTML eller något annat markeringsspråk.
 
-**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft® Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft® Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
+**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
 
 >[!NOTE]
 >Målgruppssignaler skiljer sig från [och målgruppsmål på gruppnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

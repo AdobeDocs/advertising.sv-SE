@@ -3,7 +3,7 @@ title: Adobe Advertising-ID som används av [!DNL Analytics]
 description: Adobe Advertising-ID som används av [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -116,9 +116,9 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
    * Kunder inom sökning, sociala medier och handel:
 
-      * För [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] om inställningen är aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med Adobe Advertising.
+      * För [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med [!UICONTROL Auto Upload] om inställningen är aktiverad för kontot eller kampanjen lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med Adobe Advertising.
 
-      * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft® Advertising] konton med [!UICONTROL Auto Upload] inställning inaktiverad, lägg till parametern manuellt i [tilläggsparametrar på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den till dina bas-URL:er.
+      * för andra annonsnätverk, eller [!DNL Google Ads] och [!DNL Microsoft Advertising] konton med [!UICONTROL Auto Upload] inställning inaktiverad, lägg till parametern manuellt i [tilläggsparametrar på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den till dina bas-URL:er.
 
 * När infogningsfunktionen på serversidan inte är implementerad:
 
@@ -130,7 +130,7 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
    * Kunder inom sökning, sociala medier och handel:
 
-      * För ([!DNL Google Ads] och [!DNL Microsoft® Advertising]), lägger du till AMO ID-parametern manuellt i landningssidans suffix, helst på sidan [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} såvida inte olika spårning för enskilda kontokomponenter krävs.
+      * För ([!DNL Google Ads] och [!DNL Microsoft Advertising]), lägger du till AMO ID-parametern manuellt i landningssidans suffix, helst på sidan [kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"} såvida inte olika spårning för enskilda kontokomponenter krävs.
 
       * För annonser i alla andra annonsnätverk lägger du manuellt till parametern AMO ID i [tilläggsparametrar på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den till dina bas-URL:er.
 
