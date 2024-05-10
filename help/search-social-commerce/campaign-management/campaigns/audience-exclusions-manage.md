@@ -1,11 +1,11 @@
 ---
 title: Hantera publikundantag för kampanjer och annonsgrupper
 description: Lär dig konfigurera och hantera målgruppsundantag för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
-exl-id: 0b05d980-d736-4b44-8317-c90de687dbd4
+exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Du kan också ta bort publikundantag.
 
       1. Gör något av följande:
 
-         * Ange varje undantag för annonsgrupper genom att klicka på cirkeln bredvid den så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+         * Ange varje undantag för annonsgrupper genom att klicka på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
-         * Ange varje exkludering av en kampanj genom att klicka på cirkeln bredvid den så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+         * Ange varje kampanjundantag genom att klicka på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 1. Klicka på **[!UICONTROL Post]**.
 

@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft® Advertising] och gruppinställningar'
 description: Referera inställningarna för [!DNL Microsoft® Advertising] annonsgrupper.
 exl-id: 5d788e5b-ddf3-4f4e-8e8d-98e3235cb187
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -76,33 +76,33 @@ Annonsplacering via uppkopplad TV (CTV) beror på videons kvalitet och anbudsbel
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
-* Om du vill ta med ett värde klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje könsrelaterat mål.
+* Om du vill ta med ett värde klickar du en gång på den intilliggande cirkeln så att en blå bockmarkering (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje könsrelaterat mål.
 
-* Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+* Om du vill exkludera ett värde klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 **[!UICONTROL Age]:** (Målgrupper och grupper; valfritt) Specifika ålderskategorier som ska inkluderas eller exkluderas som mål: *[!UICONTROL 18-24]*, *[!UICONTROL 25-34]*, *[!UICONTROL 35-49]*, *[!UICONTROL 50-64]*, *[!UICONTROL 65+]* och *[!UICONTROL Unknown]*. Som standard anges alla åldrar som mål. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
-* Om du vill ta med ett värde klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje målålder.
+* Om du vill ta med ett värde klickar du en gång på den intilliggande cirkeln så att en blå bockmarkering (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje målålder.
 
-* Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+* Om du vill exkludera ett värde klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 **[!UICONTROL Industry]:** (Målgrupper och grupper; valfritt) Specifika branscher att inkludera eller utesluta som mål. Som standard är alla branscher målinriktade. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
-* Om du vill ta med ett värde klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje bransch som de riktar sig till.
+* Om du vill ta med ett värde klickar du en gång på den intilliggande cirkeln så att en blå bockmarkering (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje bransch som de riktar sig till.
 
-* Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+* Om du vill exkludera ett värde klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 **[!UICONTROL Job Function Targets]:** (Målgrupper och grupper; valfritt) Specifika jobbfunktioner som ska inkluderas eller exkluderas som mål. Som standard anges alla jobbfunktioner som mål. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla värden som mål ska du inte markera några värden.
 
-* Om du vill ta med ett värde klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje jobbfunktion som du har som mål.
+* Om du vill ta med ett värde klickar du en gång på den intilliggande cirkeln så att en blå bockmarkering (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas. Du kan också öka eller minska anbuden med en angiven procentandel för varje jobbfunktion som du har som mål.
 
-* Om du vill exkludera ett värde klickar du två gånger på cirkeln så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+* Om du vill exkludera ett värde klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
 ## [!UICONTROL URL Options]
 

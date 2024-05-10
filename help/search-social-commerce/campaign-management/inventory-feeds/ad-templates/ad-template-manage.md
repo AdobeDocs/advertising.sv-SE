@@ -3,9 +3,9 @@ title: Hantera annonsmallar för lagerflöden
 description: Lär dig hur du hanterar annonsmallar genom vilka dina lagerdata kan bearbetas för att hantera kontostrukturen och leverera dynamiska annonser.
 exl-id: b0e540cf-8735-4812-9df5-58f488a25ba5
 feature: Search Inventory Feeds
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Skapa separata mallar för text och utökade/utökade textannonser, responsiva s
                >* Om den ursprungliga annonskopian uppfyller sökmotorns krav på längd, ignoreras den alternativa annonskopian.
                >* Du kan ange upp till fyra alternativ för varje reklamkopieringsfält.
 
-         * Om du vill ta bort en annonsvariation klickar du på **[!UICONTROL Remove ETA Variation]** (för expanderade/utökade textannonser) eller **[!UICONTROL Remove RSA Variation]** (för responsiva sökannonser) bredvid den, beroende på vad som är tillämpligt.
+         * Om du vill ta bort en annonsvariation klickar du på **[!UICONTROL Remove ETA Variation]** (för expanderade/utökade textannonser) eller **[!UICONTROL Remove RSA Variation]** (för responsiva sökannonser) bredvid annonsvariationen, beroende på vad som är tillämpligt.
 
    1. (Endast köpmallar) Klicka på **[!UICONTROL Product Groups]** och sedan ange information om de produktgrupper du vill använda som mål.
 

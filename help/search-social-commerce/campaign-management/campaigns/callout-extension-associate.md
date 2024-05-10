@@ -1,11 +1,11 @@
 ---
 title: Associera [!DNL Google Ads] delade bildtexttillägg med kampanjer eller annonsgrupper
 description: Lär dig hur du tilldelar [!DNL Google Ads] delade bildtexttillägg för kampanjer eller annonsgrupper.
-exl-id: 17ee3de7-562e-4ed4-bf03-3b5e728d8a68
+exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Tilldela minst två pratbubblor per kampanj eller annonsgrupp så att dina annon
 
       * (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter"), antingen anger eller klistrar in textsträngen i indatafältet och trycker sedan på **Retur** -tangenten.
 
-      * Om du vill välja en enhet klickar du på cirkeln bredvid den (![Välj](/help/search-social-commerce/assets/include.png "Välj")).
+      * Klicka på den intilliggande cirkeln (![Välj](/help/search-social-commerce/assets/include.png "Välj")).
 
    1. Klicka på **[!UICONTROL Post]**.
 

@@ -1,11 +1,11 @@
 ---
 title: Hantera målgruppsmål för kampanjer och annonsgrupper
 description: Lär dig konfigurera och hantera målgruppsmål för [!DNL Google Ads] och [!DNL Microsoft® Advertising] kampanjer och annonsgrupper.
-exl-id: 0016a69c-7642-4060-8125-947ffef6fb03
+exl-id: 9a496d15-082d-44e1-a0a3-71356e24b932
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Ni kan konfigurera målgruppsmål, redigera budmodifierare för målgruppsmål o
 
       1. (Valfritt) Om du vill filtrera en kampanjlista eller annonsgrupplista med en textsträng som ingår i namnet klickar du på ![Filter](/help/search-social-commerce/assets/filter.png "Filter") , antingen anger eller klistrar in textsträngen i indatafältet och trycker sedan på **[!UICONTROL Enter]** -tangenten.
 
-      1. Ange varje kampanj och annonsgruppsmål för det angivna annonsnätverket genom att klicka på den tomma cirkeln bredvid den så att en blå bock (![Välj](/help/search-social-commerce/assets/include.png "Välj")) visas.
+      1. Ange varje kampanj och annonsgruppmål för det angivna annonsnätverket genom att klicka på den intilliggande tomma cirkeln så att en blå bock (![Välj](/help/search-social-commerce/assets/include.png "Välj")) visas.
 
       Du kan inte konfigurera ett mål för både en överordnad kampanj och en underordnad annonsgrupp (som automatiskt använder målet).
 

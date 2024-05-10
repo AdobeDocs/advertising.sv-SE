@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '2430'
+source-wordcount: '2426'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
       * Om du vill ta med en plats och dess underordnade platser klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas.
 
-      * Om du vill utesluta en plats klickar du två gånger på cirkeln bredvid den så att en röd bock (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+      * Om du vill utesluta en plats klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
 
       * Klicka på platsnamnet om du vill expandera en plats till dess underkomponenter (t.ex. delstater, storstadsområden eller städer i USA).
 

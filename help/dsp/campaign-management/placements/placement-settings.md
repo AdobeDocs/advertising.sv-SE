@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
 workflow-type: tm+mt
-source-wordcount: '3539'
+source-wordcount: '3535'
 ht-degree: 0%
 
 ---
@@ -258,7 +258,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
       1. Klicka på **[!UICONTROL Search]**.
       1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
       1. Välj de webbplatser som ska uteslutas i sökresultaten:
-         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid den.
+         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid.
          * (När fler än 50 resultat är tillgängliga) Om du vill utesluta de första 50 resultaten klickar du på **[!UICONTROL Exclude these 50]**. Om du vill utesluta alla sökresultat klickar du på **[!UICONTROL Exclude these \<*NN *\>]**.
    * Så här anger du domännamn:
       1. Klicka på **[!UICONTROL Paste]**.
@@ -289,7 +289,7 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
       1. Klicka på **[!UICONTROL Search]**.
       1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
       1. Markera de webbplatser som ska inkluderas i sökresultaten:
-         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid den.
+         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid.
          * (När det finns fler än 50 resultat) Om du vill ta med de första 50 resultaten klickar du på **[!UICONTROL Include these 50]**. Om du vill inkludera alla sökresultat klickar du på **[!UICONTROL Include these \<*NN *\>]**.
    * Så här anger du domännamn:
       1. klicka **[!UICONTROL Paste]**.
