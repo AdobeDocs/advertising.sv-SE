@@ -1,11 +1,11 @@
 ---
 title: Hantera delade sitelinks
 description: Lär dig hur du skapar och hanterar delade tillägg för sitelink.
-exl-id: 33d52179-b968-4eab-a1b9-b10ff20948e3
+exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du kan redigera en delad platshållare åt gången.
 
 ## Inställningar för delad sitelink {#shared-sitelink-settings}
 
-Om du vill ha ytterligare profiler och orsaker till att du inte godkänner sitelink går du till [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) och [[!DNL Microsoft Advertising]](https://about.ads.microsoft.com/en-us/resources/policies/ad-extensions-policies) krav för sitelink-tillägg.
+Om du vill ha ytterligare profiler och orsaker till att du inte godkänner sitelink går du till [[!DNL Google Ads]](https://support.google.com/adspolicy/answer/1054210) och [[!DNL Microsoft Advertising]](https://help.ads.microsoft.com/#apex/ads/en/ext60206) krav för sitelink-tillägg.
 
 ### [!UICONTROL Sitelink]
 
@@ -96,7 +96,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 
 **[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
 
-* För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot;och &quot;Automatisk överföring&quot;, &quot;Sök, Socialt och e-handel&quot; prefix automatiskt sin egen klickspårningskod när du sparar posten.
+* För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]&quot; och &quot;Auto Upload&quot;, Search, Social och Commerce prefix automatiskt sin egen klickspårningskod när du sparar posten.
 
 * Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i[!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] dokumentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar&quot; i [[!DNL Google Ads] dokumentation](https://support.google.com/google-ads/answer/6305348).
 
@@ -106,7 +106,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 
 >[!NOTE]
 >
->* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+>* När kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Search, Social och Commerce prefixerar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* ([!DNL Google Ads]) Om du uppdaterar en spårningsmall på sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
 >* ([!DNL Microsoft Advertising]) Du kan uppdatera dina spårningsmallar på vilken nivå som helst utan att skicka in dina annonser för godkännande på nytt.
