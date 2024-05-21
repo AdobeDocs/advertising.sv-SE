@@ -1,7 +1,7 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 10f86463b1b9f0a5ddf0bb48518eb6bf9bfe7219
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -9,4 +9,4 @@ ht-degree: 0%
 
 **[!UICONTROL Budget]:** Budgeten, som är det belopp som du vill spendera dagligen, i genomsnitt.
 
-Om du tilldelar den här kampanjen till en portfölj där kampanjbudgetgränserna automatiskt justeras, kan du - beroende på sökvillkoren - faktiskt spendera mer eller mindre än den angivna budgeten under en given period.
+Om du tilldelar den här kampanjen till en portfölj där kampanjbudgetgränserna automatiskt justeras, kan du - beroende på sökvillkoren - faktiskt spendera mer eller mindre än den angivna budgeten under en given period. Dessutom kan eventuella manuella ändringar av kampanjbudgeten - från Search, Social och Commerce eller annonsnätverket - skrivas över av optimeringsfunktionen.
