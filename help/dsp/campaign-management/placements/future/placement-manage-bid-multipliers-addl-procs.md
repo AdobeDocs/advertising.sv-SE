@@ -2,9 +2,9 @@
 title: Hantera budmultiplikationer för praktik
 description: Lär dig xxx
 feature: DSP Placements
-source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
+source-git-commit: b6758541b59f1fd924a2fe83c769f5ba385409aa
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,19 @@ ht-degree: 0%
 
      De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori för att hantera budmultiplikatorer för den underkategorin, beroende på vad som är tillämpligt.
 
-   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över befintliga värden:
+   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över alla befintliga värden:
 
       1. Klicka **[!UICONTROL CSV File Edit]** i det övre högra hörnet.
 
-      1. Antingen a) klickar du **[!UICONTROL Download Template]** och ange målen med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärden eller b) redigera en mall som laddats ned tidigare med samma information. Spara den redigerade filen på enheten eller i nätverket.
+      1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera filen eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+
+         Hämtade mallar innehåller ett ark för varje måltyp (t.ex. Land, Källor och Platskategori). Endast befintliga budmultiplikatorer med andra värden än 1.0 inkluderas.
+
+         * Om du vill lägga till en budmultiplikator för ett befintligt mål anger du målet med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärde.
+
+         * Om du vill ta bort en budmodifierare anger du multiplikatorvärdet 1.0 eller tar bort all information för raden.
+
+         ![Exempelrad i en anbudsmultiplikator-kalkylbladsfil](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exempelrad i en anbudsmultiplikator-kalkylbladsfil")
 
       1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Upload File] och antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
 
@@ -59,17 +67,25 @@ ht-degree: 0%
 
    Samma ändringar gäller för alla markerade placeringar.
 
-   * Så här överför du en CSV-fil med budmultiplikatorvärden som skriver över befintliga värden:
+* Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över alla befintliga värden:
 
-     >[!NOTE]
-     >
-     >Om du lämnar ett fält tomt tas alla värden för den måltypen bort.<!-- Verify and re-word if needed. I'm not sure if you'll be able to have multiple data rows (one per placement) or if there only one data row is applicable for all. -->
+   1. Klicka **[!UICONTROL CSV File Edit]** i det övre högra hörnet.
 
-      1. Klicka **[!UICONTROL CSV Edit]** i det övre högra hörnet.
+   1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera filen eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
 
-      1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera värdena för budmultiplikatorn eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+      Hämtade mallar innehåller ett ark för varje måltyp (t.ex. Land, Källor och Platskategori). Endast befintliga budmultiplikatorer med andra värden än 1.0 inkluderas.
 
-      1. antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
+      * Om du vill lägga till en budmultiplikator för ett befintligt mål anger du målet med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärde.
+
+      * Om du vill ta bort en budmodifierare anger du multiplikatorvärdet 1.0 eller tar bort all information för raden.
+
+      ![Exempelrad i en anbudsmultiplikator-kalkylbladsfil](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exempelrad i en anbudsmultiplikator-kalkylbladsfil")
+
+   1. Klicka **[!UICONTROL CSV Edit]** i det övre högra hörnet.
+
+   1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera värdena för budmultiplikatorn eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+
+   1. antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
 
    1. Klicka på **[!UICONTROL Upload]**.
 
