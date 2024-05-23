@@ -1,24 +1,24 @@
 ---
 title: Hantera budmultiplikationer för praktik
-description: Lär dig hur du skapar och redigerar budmultiplikatorer för angivna placeringsmål.
+description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 1%
 
 ---
 
 # Hantera budmultiplikationer för praktik
 
-Du kan ändra budmultiplikaterna för dina befintliga placeringsmål med den här funktionen. Du kan hantera budmultiplikatorer för en placering i taget.<!-- remove that line once we can edit multiple -->
+Du kan skapa och hantera budmultiplikatorer, som ett bud multipliceras med för att öka eller minska anbudet, för dina befintliga placeringsmål på [måltyper](#bid-multiplier-by-target). Du kan antingen redigera budmultiplikatorvärden manuellt eller överföra ett kalkylblad med värden.
 
-Information om hur du ändrar de valda målen för dina placeringar finns i &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+Som standard är budmultiplikatorn för ett mål 1,00, vilket innebär att anbudet inte justeras för det målet. Värdena kan ligga mellan 0,10 och 10,00. En budmodifierare på 0,5 minskar till exempel ett USD 6-bud till USD 3 (0,5 x 6). När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmodifierare. Anbudsmodifierare ökar aldrig anbudet till mer än det högsta anbudet.
 
-<!-- 
-## Manage the Bid Multipliers for a Single Placement
--->
+Du kan ange budmultiplikatorer (med andra värden än 1,00) för en [begränsat antal mål](#bid-multiplier-limits-by-target).
+
+Den här funktionen fungerar med dina befintliga placeringsmål. Information om hur du ändrar de valda målen för dina placeringar finns i &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
@@ -28,15 +28,19 @@ Information om hur du ändrar de valda målen för dina placeringar finns i &quo
 
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Flytta till varje [målspecifik flik](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och [!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen. De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori om du vill hantera budmultiplikatorer för den underkategorin, när den är tillämplig.
+1. Justera budmultiplikatorerna för det berättigade målet manuellt eller genom att överföra en CSV-fil med målvärden:
 
-   Som standard är budmultiplikatorn för ett mål 1,00, vilket innebär att anbudet inte justeras för det målet. Värdena kan ligga mellan 0,10 och 10,00. En budmodifierare på 0,5 minskar till exempel ett USD 6-bud till USD 3 (0,5 x 6). Anbudsmodifierare ökar aldrig anbudet till mer än det högsta anbudet.
+   * Om du vill justera budmultiplikatorvärdena manuellt går du till varje [målspecifik flik](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och [!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen. De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori om du vill hantera budmultiplikatorer för den underkategorin, när den är tillämplig.
 
-   När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmodifierare.
+   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över befintliga värden:
 
-   Du kan ange budmultiplikatorer (med andra värden än 1,00) för en [begränsat antal mål](#bid-multiplier-limits-by-target).
+      1. Klicka **[!UICONTROL CSV File Edit]** i det övre högra hörnet.
 
-1. Klicka på uppe till höger **[!UICONTROL Save]**.
+      1. Antingen a) klickar du **[!UICONTROL Download Template]** och ange målen med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärden eller b) redigera en mall som laddats ned tidigare med samma information. Spara den redigerade filen på enheten eller i nätverket.
+
+      1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Upload File] och antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
+
+      1. Verifiera överförda data i [!UICONTROL Review & Submit] och klicka sedan på **[!UICONTROL Save]**.
 
 ## Måltyper som är berättigade för budmultiplikatorer {#bid-multiplier-by-target}
 
