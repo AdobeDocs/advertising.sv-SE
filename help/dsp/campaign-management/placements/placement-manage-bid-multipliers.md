@@ -3,10 +3,10 @@ title: Hantera budmultiplikationer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
+source-git-commit: 2c6e21dd63c5d0c8e0d0c82bcacd0851c56c6084
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 2%
+source-wordcount: '613'
+ht-degree: 1%
 
 ---
 
@@ -34,11 +34,19 @@ Den här funktionen fungerar med dina befintliga placeringsmål. Information om 
 
      De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori för att hantera budmultiplikatorer för den underkategorin, beroende på vad som är tillämpligt.
 
-   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över befintliga värden:
+   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över alla befintliga värden:
 
       1. Klicka **[!UICONTROL CSV File Edit]** i det övre högra hörnet.
 
-      1. Antingen a) klickar du **[!UICONTROL Download Template]** och ange målen med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärden eller b) redigera en mall som laddats ned tidigare med samma information. Spara den redigerade filen på enheten eller i nätverket.
+      1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera filen eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+
+         Hämtade mallar innehåller ett ark för varje måltyp (t.ex. Land, Källor och Platskategori). Endast befintliga budmultiplikatorer med andra värden än 1.0 inkluderas.
+
+         * Om du vill lägga till en budmultiplikator för ett befintligt mål anger du målet med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärde.
+
+         * Om du vill ta bort en budmodifierare anger du multiplikatorvärdet 1.0 eller tar bort all information för raden.
+
+         ![Exempelrad i en anbudsmultiplikator-kalkylbladsfil](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exempelrad i en anbudsmultiplikator-kalkylbladsfil")
 
       1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Upload File] och antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
 
