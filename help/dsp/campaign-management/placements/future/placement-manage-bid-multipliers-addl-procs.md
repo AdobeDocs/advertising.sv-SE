@@ -1,30 +1,45 @@
 ---
 title: Hantera budmultiplikationer för praktik
-description: Lär dig hur du skapar och redigerar budmultiplikatorer för angivna placeringsmål.
+description: Lär dig xxx
 feature: DSP Placements
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 85e1338b841cd9615f7d2881185487ae79743303
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Hantera budmultiplikationer för praktik
+# XXX
 
+## Hantera budmultiplikatorer för en enda placering
 
-<!--
+1. Klicka på **[!UICONTROL Campaigns]**.
 
-See if any of these procedures are implemented; may need to be edited and/or re-worded based on functionality/UI
+1. Klicka på kampanjens namn.
 
--->
+1. Klicka på **[!UICONTROL Placements]**.
 
-Du kan ändra budmultiplikaterna för dina befintliga placeringsmål med den här funktionen.
+1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-Information om hur du ändrar de valda målen för dina placeringar finns i &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+1. Justera budmultiplikaterna för giltiga mål:
+
+   * Om du vill justera budmultiplikatorvärdena manuellt går du till varje [målspecifik flik](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och [!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen.
+
+     De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori för att hantera budmultiplikatorer för den underkategorin, beroende på vad som är tillämpligt.
+
+   * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över befintliga värden:
+
+      1. Klicka **[!UICONTROL CSV File Edit]** i det övre högra hörnet.
+
+      1. Antingen a) klickar du **[!UICONTROL Download Template]** och ange målen med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärden eller b) redigera en mall som laddats ned tidigare med samma information. Spara den redigerade filen på enheten eller i nätverket.
+
+      1. Klicka **[!UICONTROL Next]** för att gå till [!UICONTROL Upload File] och antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
+
+      1. Verifiera överförda data i [!UICONTROL Review & Submit] och klicka sedan på **[!UICONTROL Save]**.
 
 ## Hantera budmultiplikatorer för en eller flera placeringar
 
-För alla markerade placeringar kan du antingen redigera värden manuellt eller överföra ett kalkylblad med värden.
+<!-- verify all and edit accordingly -->
 
 1. Klicka på **[!UICONTROL Campaigns]**.
 
@@ -34,9 +49,11 @@ För alla markerade placeringar kan du antingen redigera värden manuellt eller 
 
 1. Markera kryssrutan bredvid varje placering vars budmultiplikatorer du vill hantera.
 
-1. Klicka på i verktygsfältet för gruppåtgärder **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
+1. Klicka på i verktygsfältet för gruppåtgärder **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
 
-1. Justera budmultiplikatorerna för det berättigade målet manuellt eller genom att överföra en CSV-fil med målvärden:
+<!-- Check the following this functionality when available in UAT -->
+
+1. Justera budmultiplikaterna för giltiga mål:
 
    * Flytta till varje målspecifik flik ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och[!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen.
 
@@ -55,43 +72,6 @@ För alla markerade placeringar kan du antingen redigera värden manuellt eller 
       1. antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
 
    1. Klicka på **[!UICONTROL Upload]**.
-
-   Som standard är budmultiplikatorn för ett mål 1,00, vilket innebär att anbudet inte justeras för det målet. Värdena kan ligga mellan 0,10 och 10,00. En budmodifierare på 0,5 minskar till exempel ett USD 6-bud till USD 3 (0,5 x 6). Du kan ange budmultiplikatorer (med andra värden än 1,00) för en [begränsat antal mål](#bid-multiplier-limits-by-target).
-
-   När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmodifierare.
-
-   Anbudsmodifierare ökar aldrig anbudet till mer än det högsta anbudet.
-
-1. Klicka på **[!UICONTROL Save]**.
-
-—>
-
-## Ladda upp ett kalkylblad för att hantera budmultiplikatorer för en enstaka placering<!-- Is this still going to exist independently, or will you just do this via the "Bid Multiplier" option in the main context menu for placements? If both options, then reword headings for distinction -->
-
-Ändringar i den överförda filen skriver över de befintliga budmultiplikatorvärdena.<!-- what if you delete a row? -->
-
-1. Klicka på **[!UICONTROL Campaigns]**.
-
-1. Klicka på kampanjens namn.
-
-1. Klicka på **[!UICONTROL Placements]**.
-
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Upload Bid Multiplier Excel Sheet]**.
-
-1. 
-   <!-- Verify the rest of these steps. -->
-
-1. Antingen a) klickar du **[!UICONTROL Download Template]** och redigera värdena för budmultiplikatorn eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
-
-   Som standard är budmultiplikatorn för ett mål 1,00, vilket innebär att anbudet inte justeras för det målet. Värdena kan ligga mellan 0,10 och 10,00. En budmodifierare på 0,5 minskar till exempel ett USD 6-bud till USD 3 (0,5 x 6). Du kan ange budmultiplikatorer (med andra värden än 1,00) för en [begränsat antal mål](#bid-multiplier-limits-by-target).
-
-   När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmodifierare.
-
-   Anbudsmodifierare ökar aldrig anbudet till mer än det högsta anbudet.
-
-1. antingen a) dra och släpp den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
-
-1. Klicka på **[!UICONTROL Upload]**.
 
 1. Klicka på **[!UICONTROL Save]**.
 
