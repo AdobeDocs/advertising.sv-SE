@@ -3,10 +3,10 @@ title: Hantera budmultiplikationer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 5f358bbc63a5767649f42551f05cfae9fdc2b445
+source-git-commit: c23da6494c6d4ce89735f3f63f89f5320ca02a40
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
+source-wordcount: '543'
+ht-degree: 2%
 
 ---
 
@@ -28,9 +28,11 @@ Den här funktionen fungerar med dina befintliga placeringsmål. Information om 
 
 1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]**.
 
-1. Justera budmultiplikatorerna för det berättigade målet manuellt eller genom att överföra en CSV-fil med målvärden:
+1. Justera budmultiplikaterna för giltiga mål:
 
-   * Om du vill justera budmultiplikatorvärdena manuellt går du till varje [målspecifik flik](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och [!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen. De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori om du vill hantera budmultiplikatorer för den underkategorin, när den är tillämplig.
+   * Om du vill justera budmultiplikatorvärdena manuellt går du till varje [målspecifik flik](#bid-multiplier-by-target) ([!UICONTROL Geo], [!UICONTROL Inventory], [!UICONTROL Sites], [!UICONTROL Audience]och [!UICONTROL Brand Safety]) och redigera de befintliga värdena för placeringsmålen.
+
+     De flesta målkategorierna listar underkategorier till vänster. Klicka på en underkategori för att hantera budmultiplikatorer för den underkategorin, beroende på vad som är tillämpligt.
 
    * Så här överför du en CSV-fil med budmultiplikatorvärden för att skriva över befintliga värden:
 
