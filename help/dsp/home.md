@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 3ffd3fdbe61d66a7c3a181e07559727b5db83a7e
+source-git-commit: 62ed2870c84a72662832bd21e0820a517f7c3d00
 workflow-type: tm+mt
 source-wordcount: '2912'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 22 maj 2024 | Optimering för CTV-paket | I paket med optimeringsmålen&quot;Lägsta CPA&quot; och&quot;Högsta ROAS&quot; använder prestandamodellerna för anslutna tv-annonser nu data från flera kontaktytor i konverteringsvägen för snabbare och mer robust maskininlärning. Befintliga paket uppgraderas för att använda multitouch-optimering, och ingen åtgärd krävs. | — |
+| 22 maj 2024 | Optimering, anslutna TV-annonser | I paket med optimeringsmålen&quot;Lägsta CPA&quot; och&quot;Högsta ROAS&quot; använder prestandamodellerna för anslutna tv-annonser nu data från flera kontaktytor i konverteringsvägen för snabbare och mer robust maskininlärning. Befintliga paket uppgraderas för att använda multitouch-optimering, och ingen åtgärd krävs. | — |
 | 20 maj 2024 | Ankopplade TV-annonser, pixlar, återmarknadsföringssegment | (Open beta, endast tillgängligt i USA och AUS) Nu kan du omdirigera målgruppssegment som exponerats för en CTV-kampanj med ytterligare annonser för att förbättra kanalövergripande annonsering:<ol><li>Ställ in ett annonsexponeringssegment och kopiera taggen för visningsspårning till önskad CTV-placering eller annons för att börja spåra segmentet.</li><li>Markera CTV-exponeringssegmentet i [!UICONTROL Audience Targeting] -avsnitt.</li></ol> | Se &quot;[Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)och &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 maj 2024 | Ads, Pixels | Du kan hämta annonsinställningarna och placeringsassociationerna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning från [!UICONTROL Ad Tools] vy. | Se &quot;[Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
 | |  | The [!UICONTROL Ad Tools] visa > [!UICONTROL Attach Pixels] -fliken visar pixlar för spårning från tredje part som är kopplade till dina annonser och ett nytt arbetsflöde för att koppla pixlar till en eller flera annonser och frigöra befintliga pixlar. | Se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot; |
