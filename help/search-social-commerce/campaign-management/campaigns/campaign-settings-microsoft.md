@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 0f128b569f8c005c4f72a0c85ebf59e9fed53320
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1963'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
   När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfolio optimerar Search, Social och Commerce basanbuden och - när &quot;[!UICONTROL Auto adjust campaign budget limits]Alternativet &quot; är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning:** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna i annonsnätverket är anpassade efter portföljmålet.
 
-* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft Store Ads] kampanjer, borttagna av [!DNL Microsoft Advertising] 2021 för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
+* *[!UICONTROL Manual CPC]*: (Köpkampanjer för varumärken; [!DNL Microsoft Store Ads] kampanjer, borttagna för andra kampanjtyper) Använder CPC-modellen (cost-per-click). För vissa annonstyper kan ni välja att tillåta annonsnätverket att ändra anbud för kampanjen:
 
    * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Det här alternativet är detsamma som att använda &quot;[!UICONTROL Enhanced CPC]&quot;.
 
