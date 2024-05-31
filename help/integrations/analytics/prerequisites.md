@@ -3,9 +3,9 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 63b91d84118c6b84fe72ae1c3ac1a9f68d7201fc
+source-git-commit: 156e64af56e0aa95999210bd0cc8df38ce42690d
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,6 @@ Granska följande information innan du integrerar Adobe Advertising med Adobe An
 * Alla versioner av Adobe Analytics (inklusive [!DNL Prime], [!DNL Premium], eller [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` version 2.1 eller senare
 * (DSP kunder) och [Advertising DSP JavaScript snippet](javascript.md) på webbsidorna för att spåra besök.
-* Parametern AMO ID i spårnings-URL:erna för dina annonser.
-
-  Parametern läggs i vissa fall till automatiskt för att spåra URL:er, men du kan behöva lägga till den manuellt. I&quot;Adobe Advertising ID:n som används av [!DNL Analytics]/help/integrations/analytics/ids.md&quot; se &quot;[Sätt att implementera AMO-ID](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
 
 >[!TIP]
 >
