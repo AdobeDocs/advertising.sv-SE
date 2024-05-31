@@ -3,7 +3,7 @@ title: Typer av prestandarapporter i Campaign Management-vyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: c7860d98edbf44b71d97c3800edf47a409606b74
+source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Dessutom kan du visa följande data i placeringsinställningarna:
 
 * [A (detaljvy) [!UICONTROL Inspector])](placement-details-view.md), som visar alla riktade webbplatser, annonser, frekvensdata och erbjudanden för en placering.
 
-* A [placeringsprognosrapport](/help/dsp/campaign-management/reports/placement-forecast.md)
+* A [placeringsprognosrapport](/help/dsp/campaign-management/reports/placement-forecast.md).
 
 * [Diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md).
 
