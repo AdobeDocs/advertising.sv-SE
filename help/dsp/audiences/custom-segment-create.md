@@ -3,9 +3,9 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: b90e831d0fdd5f4f4f47381a2603a3adaea765b2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
 * För mätning i Adobe Analytics måste du:
 
-   1. Slutför alla [krav för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) och [AMO ID och EF ID i dina spårnings-URL:er](/help/integrations/analytics/ids.md).
+   1. Slutför alla [krav för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md)och se till att [AMO ID och EF ID](/help/integrations/analytics/ids.md) fylls i i dina spårnings-URL:er.
 
    1. Lägg till följande parameter på dina webbsidor före eller i dialogrutan [JavaScript-kod krävs för [!DNL Analytics for Advertising]](/help/integrations/analytics/javascript.md) - var som helst innan den sista händelsetjänsten initieras.
 
