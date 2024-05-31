@@ -3,9 +3,9 @@ title: Översikt [!DNL Analytics for Advertising]
 description: Översikt [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: a0a3bb1e74ffc687118d0336a03dcc6164b67226
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Fördelar:
 
 Används [!DNL Analytics] som ert betalda medierapporteringsverktyg behöver din organisation logga in på Experience Cloud med tillgång till Analysis Workspace. Adobe Advertising-teamet kommer att hjälpa er att mappa data från Adobe Advertising till enskilda rapporteringsprogram i Analysis Workspace. Du kan skicka data från Adobe Advertising till alla rapportsviter, men du bör vara medveten om de rapportsviter som har mappats till Adobe Advertising och de som inte har det. Beroende på rapportsviten kan detta ändra rapporterade data.
 
-[Adobe Advertising-ID:n i [!DNL Analytics]](ids.md) fungerar som andra [!DNL eVars], med en anpassad, permanent förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med ditt kontoteam på Adobe.
+[Adobe Advertising-ID:n i [!DNL Analytics]](ids.md) arbeta som andra [!DNL eVars], med en anpassad, permanent förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med ditt kontoteam på Adobe.
 
 Adobe Advertising-dimensioner läggs till med suffixet&quot;(AMO ID)&quot; (t.ex.&quot;Ad Type (AMO ID)&quot;). Se &quot;[Adobe Advertising Metrics in Analysis Workspace](advertising-metrics-in-analytics.md)&quot; för en lista över tillgängliga dimensioner.
 
@@ -84,7 +84,7 @@ Se &quot;[Analytics-statistik i Adobe Advertising](analytics-data-in-advertising
 
 Adobe Advertising kan äta [!DNL Analytics] segment för återmarknadsföring för DSP och [!DNL Search, Social, & Commerce] annonser som använder Experience Cloud-målgruppsintegreringen mellan [!DNL Analytics] och Experience Cloud.
 
-Så här öppnar du [!DNL Analytics] segment, ett annonserarkonto måste ha [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html) aktiverat. När ID-tjänsten är aktiverad, alla segment i Experience Cloud (inklusive segment skapade i [!DNL Analytics] och publiceras i Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service]och segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) blir tillgängliga i Adobe Advertising så snart de bearbetas.
+Så här öppnar du [!DNL Analytics] segment, ett annonserarkonto måste aktivera [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html). När ID-tjänsten är aktiverad, alla segment i Experience Cloud (inklusive segment skapade i [!DNL Analytics] och publiceras i Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service]och segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) blir tillgängliga i Adobe Advertising så snart de bearbetas.
 
 [!DNL Analytics] segmenten är tillgängliga inom 24 timmar och uppdateras dagligen.
 
@@ -135,6 +135,10 @@ Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i An
 ### Använda Adobe Advertising-ID för analys av webbplatspost
 
 Se videon &quot; om du vill se hur du kan skapa en rapport på Adobe Advertising för att övervaka veckodag, tidpunkt, webbläsare och geografiska förhållanden.[Skapa rapporter för webbplatsposter i Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).&quot;
+
+## Initiera en [!DNL Analytics for Advertising] Implementering
+
+Kontakta kontoteamet på Adobe som kommer att slutföra den initiala konfiguration som krävs för att börja och hjälpa dig att planera implementeringen och dataanvändningen baserat på organisationens behov.
 
 >[!MORELIKETHIS]
 >
