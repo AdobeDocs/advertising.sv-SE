@@ -2,9 +2,9 @@
 title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 56489cd226d4a46fa3b1548492b4a9c6fd7e0528
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 * **[!DNL Analytics]rapporter:** Annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) som har implementerat alla nödvändiga steg kan se genomskinlighetskonverteringar med universaltyp i [!DNL Analytics].
 
+  >[!IMPORTANT]
+  >
+  >För korrekt konverteringsattribuering bör du se till att klicknings-URL:erna för dina annonser innehåller båda [EF-ID och AMO-ID](/help/integrations/analytics/ids.md).
+
 * **Segmentinformation:** För alla segmenttyper omfattar segmentinformationen målgruppens storlek efter typ av universellt ID och efter den enhetstyp som spåras av cookies eller enhets-ID.
 
 ## Använda ett universellt ID som målgrupp i dina praktikanter
@@ -46,19 +50,25 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 Gör följande i en ny, schemalagd eller pausad placering:
 
-* I [!UICONTROL Geo-Targeting] Ange de geografiska områden som ska vara mål. Varje partner för universella ID tillåter endast målgruppsanpassning i specifika geografiska områden, och endast giltiga ID-typer är tillgängliga i [!UICONTROL Targeting] inställningar.
+1. I [!UICONTROL Geo-Targeting] Ange de geografiska områden som ska vara mål. Varje partner för universella ID tillåter endast målgruppsanpassning i specifika geografiska områden, och endast giltiga ID-typer är tillgängliga i [!UICONTROL Targeting] inställningar.
 
-* I [!UICONTROL Audience Targeting] gör du följande:
+1. I [!UICONTROL Audience Targeting] gör du följande:
 
-   * I [!UICONTROL Included Audiences] väljer du det segment för vilket användardata konverterades till universella ID.
+   1. I [!UICONTROL Included Audiences] väljer du det segment för vilket användardata konverterades till universella ID.
 
-     Du kan inkludera ytterligare segment om du vill.
+      Du kan inkludera ytterligare segment om du vill.
 
-   * I [!UICONTROL Targeting] anger du vilken universell ID-typ som ska användas som mål.
+   1. I [!UICONTROL Targeting] inställningar:
 
-     Inställningen innehåller alternativen &quot;[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; som kan innehålla underalternativen &quot;[!UICONTROL ID5],&quot;[!UICONTROL RampID],&quot; och &quot;[!UICONTROL Unified ID2.0].&quot; De faktiska delalternativen bestäms av de valda geografiska målen.
+      1. Välj den universella ID-typ som du vill använda som mål.
 
-     Du kan välja båda[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; men du kan bara välja en typ av universellt ID per placering. När du väljer både äldre ID:n och universella ID:n ges budgivningsinställningar till universella ID:n.
+         Inställningen innehåller alternativen &quot;[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; som kan innehålla underalternativen &quot;[!UICONTROL ID5],&quot;[!UICONTROL RampID],&quot; och &quot;[!UICONTROL Unified ID2.0].&quot; De faktiska delalternativen bestäms av de valda geografiska målen.
+
+         Du kan välja båda[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; men du kan bara välja en typ av universellt ID per placering. När du väljer både äldre ID:n och universella ID:n ges budgivningsinställningar till universella ID:n.
+
+      1. (Om det behövs) Acceptera villkoren i serviceavtalet för användning av universella ID:n.
+
+         Innan du kan konvertera data till en ny ID-typ måste en användare på DSP acceptera villkoren i serviceavtalet. Villkoren får bara godkännas en gång per ID-typ, per konto.
 
 Se &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot;
 
@@ -75,6 +85,8 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 * Kopiera dina originalpaket och -placeringar, justera budgeten baserat på testets storlek, ändra målgrupperna till att använda [!DNL RampID]-baserade segment (för autentiserade användare) eller ID5-baserade segment (för oautentiserade användare) och verifiera att de nya paketen och placeringarna spenderar sin fulla budget.
 
    * Om du vill jämföra prestanda för universella ID-baserade segment med prestanda för placeringar som riktar sig till andra målgruppsidentifierare, som cookies eller mobilannonser, skapar du en kampanj med en separat universell ID-baserad placering och en äldre ID-baserad placering.
+
+     Om du vill ha ett fullständigt återmarknadsföringstest anger du både ramp-ID:n för autentiserade användare och ID5s för oautentiserade användare som mål.
 
      Att få bästa prestanda bör inte vara den primära jämförelsen. Bestäm i stället vilka ID:n som ska skalas bra, vilket kan informera optimeringen och budgetallokeringarna senare. Det långsiktiga målet är att kompensera för förlorade intryck och webbplatstrafik när cookies används.
 
@@ -97,6 +109,20 @@ Det finns två orsaker till avvikelser för hashad e-post-ID:n som har översatt
 * A [!DNL RampID] kan uppgraderas till ett nytt värde. If [!DNL LiveRamp] känner inte igen ett e-post-ID eller kan inte mappa det till ett befintligt [!DNL RampID] i sin databas tilldelar den en ny [!DNL RampID] till e-post-ID:t. När de kan mappa e-post-ID:t till ett annat [!DNL RampID] eller kan samla in mer information om samma e-post-ID, uppgradera [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] avser denna åtgärd uppgradering från en&quot;härledd&quot; [!DNL RampID] till en&quot;bibehållen&quot; [!DNL RampID]. DSP får dock inte mappningar mellan härledda och bevarade [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från DSP. I det här fallet kan segmentantalet vara större än profidräkningen.
 
   Exempel: En användare loggar in på [!DNL Adobe] och besöker Photoshop sida. If [!DNL LiveRamp] saknar befintlig information om e-post-ID, så tilldelar de det till en härledd [!DNL RampID], säger D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har omfördelat [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID: D123 och M123.
+
+## Felsökning
+
+Om du inte ser antalet användare, eller om målgruppsstorleken är låg, ska du kontrollera följande:
+
+* Om du [!DNL Flashtalking] eller [!DNL Google Campaign Manager 360] annonser, kontrollera sedan att dina annonsers klicknings-URL:er har rätt makron. Se makrona för [[!DNL Flashtalking] annonser](/help/integrations/analytics/macros-flashtalking.md) och [[!DNL Google Campaign Manager 360] annonser](/help/integrations/analytics/macros-google-campaign-manager.md).
+
+* Se till att rätt, universell ID-partnerspecifik kod implementeras på din webbplats för att matcha händelser på plats och annonsexponeringar. Arbeta med dina [!DNL LiveRamp] eller [!DNL ID5] vid behov.
+
+* (för [!DNL RampIDs] och [!DNL UID 2.0] ID) Se till att [DSP datakälla är korrekt konfigurerad](/help/dsp/audiences/sources/source-settings.md)och att antalet användare fylls i för de genererade målgruppssegmenten.
+
+* Om ni är mindre än förväntat bör ni kontrollera att målgruppssegmentets logik inte är för detaljerad.
+
+Om du inte kan lösa problemet kontaktar du ditt kontoteam på Adobe.
 
 >[!MORELIKETHIS]
 >

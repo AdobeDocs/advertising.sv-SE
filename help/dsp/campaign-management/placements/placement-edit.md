@@ -3,16 +3,16 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Redigera placeringar
 
-Du kan redigera inställningarna för en enstaka placering eller för flera placeringar samtidigt.
+Du kan redigera inställningarna för en enstaka placering eller för flera placeringar samtidigt. Vissa inställningar kan inte ändras när placeringen är aktiv.
 
 <!-- Some placements don't have these options. Clarify which placement types aren't eligible -- is it PG placements, or all placements using private inventory? And anything else? -->
 

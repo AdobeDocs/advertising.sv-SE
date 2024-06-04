@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 1d8f7c8a365b53a0345ef4155802802acbf3f027
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
 * Förkonfigurerade rapportmallar
 
-   * **[!UICONTROL Billing]:** Använd den här rapporten för att förstå viktiga faktureringsvärden som utgiftsmått för mediefakturering per kampanj.
+   * **[!UICONTROL Billing]:** Använd den här rapporten för att förstå viktiga faktureringsvärden som utgiftsmått för mediefakturering per kampanj. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
      >[!NOTE]
      >
@@ -61,7 +61,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Geo]**: Använd den här förifyllda mallen för att se nyckeltal efter geografiska dimensioner.
 
-   * **[!UICONTROL Margin]:** Använd den här rapporten för att se nyckeltal som marginal, vinst och andra utgiftsmått per kampanj eller placering.
+   * **[!UICONTROL Margin]:** Använd den här rapporten för att se nyckeltal som marginal, vinst och andra utgiftsmått per kampanj eller placering. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
    * **[!UICONTROL Segment]:** Använd den här förifyllda mallen för att se nyckeltal efter segment.
 
@@ -72,9 +72,9 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Site]:** Som standard innehåller standardvärden, totala mediekostnader och totala fakturerbara nettoutgifter per webbplats.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+   * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill se visningar, räckvidd och frekvens för en enda dimension i olika annonsformat i ett hushåll baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
-   * **[!UICONTROL Household Conversions]:** Använd den här rapporten för att se genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information.
+   * **[!UICONTROL Household Conversions]:** Använd den här rapporten för att se genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Se &quot;[Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)&quot; för mer information. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
 ## Kontorapportering {#cross-account-reporting}
 

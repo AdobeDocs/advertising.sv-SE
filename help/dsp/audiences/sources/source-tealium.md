@@ -1,18 +1,22 @@
 ---
-title: Arbetsflöde för att använda DSP integrering med [!DNL Tealium]
+title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: b94541bf8675d535b2f19b26c05235eb56bc6c0b
+source-git-commit: 606e721d80f30fa3a3546a14f0f876f4338dd30c
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
 
-# Arbetsflöde för att använda DSP integrering med [!DNL Tealium]
+# Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 
-Du kan dela organisationens egna data från [!DNL Tealium] plattform för kunddata med [!DNL Amazon Web Services] (AWS) firehose-anslutning. Det finns fyra steg för att dela data från Tealium med DSP:
+*Betafunktion*
+
+Använd DSP integrering med [!DNL Tealium] plattform för kunddata för att konvertera organisationens egna hashade e-postadresser till universella ID:n för riktad reklam. Processen använder [!DNL Amazon Web Services] (AWS) firehose-anslutning. Så här delar du data från Tealium med DSP:
+
+1. (Konvertera e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Aktivera spårning [!DNL Analytics] mått](#analytics-tracking).
 
 1. [Skapa en publikkälla i DSP](#source-create).
 
@@ -22,25 +26,45 @@ Du kan dela organisationens egna data från [!DNL Tealium] plattform för kundda
 
 1. [Duplicera den befintliga kopplingen i [!DNL Tealium] för att fortsätta dela segment](#duplicate-connector).
 
-## Steg 1: Skapa en publikkälla i DSP {#source-create}
+1. [Jämför antalet universella ID:n med antalet hashade e-postadresser](#compare-id-count).
 
-* [Skapa en publikkälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto och dela källkodnyckeln med [!DNL Tealium] användare.
+Segmenten bör vara tillgängliga i DSP inom 24 timmar och uppdateras var 24:e timme.
 
-## Steg 2: Förbered och dela segmentmappningsdata {#map-data}
+## Steg 1: Ställ in spårning för [!DNL Analytics] mått {#analytics-tracking}
+
+*Annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md))*
+
+Konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID måste du göra följande:
+
+1. (Om du inte redan har gjort det) Slutför alla [krav för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) och se till att [AMO ID och EF ID](/help/integrations/analytics/ids.md) fylls i i dina spårnings-URL:er.
+
+1. Registrera dig hos den universella ID-partnern och distribuera universell ID-specifik kod på dina webbsidor för att matcha konverteringar från ID:n i webbläsare för datorer och mobila enheter (men inte i mobilappar) för att visa genomgångar:
+
+   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n i webbläsare för datorer och mobila enheter (men inte i mobilappar) för att kunna visa igenom dem. Kontakta kontoteamet på Adobe som ger dig anvisningar om hur du registrerar dig för en [!DNL LiveRamp] [!DNL LaunchPad] tagga från [!DNL LiveRamp] Lösningar för autentiseringstrafik. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
+
+## Steg 2: Skapa en publikkälla i DSP {#source-create}
+
+1. [Skapa en publikkälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till någon av [tillgängliga universella ID-format](source-about.md).
+
+   Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att förbereda segmentmappningsdata.
+
+1. När du har skapat målgruppskällan kan du dela källkodnyckeln med [!DNL Tealium] användare.
+
+## Steg 3: Förbered och dela segmentmappningsdata {#map-data}
 
 1. Annonsören måste förbereda och dela segmentmappningsdata:
 
    1. Annonsören måste förbereda uppgifterna i [!DNL Tealium]:
 
-      1. E-post-ID:n för annonsörens målgrupp måste hashas med algoritmen SHA-256.
+      1. Hash-koda e-post-ID:n för annonsörens målgrupp med hjälp av SHA-256-algoritmen.
 
-      1. Kolumnen som innehåller hash-kodade e-post-ID:n måste mappas till attributet för typen av besökar-ID.
+      1. Mappa kolumnen som innehåller hash-kodade e-post-ID:n till attributet för typen av besökar-ID.
 
-      1. Publiken måste skapas med `Tealium_visitor_id` -attribut. Rätt berikning måste tillämpas för att få publiken att lyfta. Se [[!DNL Tealium] dokumentation om attribut för besökar-ID](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+      1. Skapa målgrupper med `Tealium_visitor_id` -attribut. Använd rätt berikning för att få publiken att häpna. Se [[!DNL Tealium] dokumentation om attribut för besökar-ID](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
    1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
 
-      * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är &quot;`<DSP source key>_<Tealium segment name>`, till exempel &quot;57bf424dc10_kaffedryckers.&quot;
+      * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är &quot;`<DSP source key>_<Tealium segment name>`, till exempel &quot;57bf424dc10_kaffedryckers.&quot; Använd DSP [!UICONTROL Source Key] från DSP inställningar för målgruppskälla.
 
       * **Segmentnamn:** Segmentnamnet.
 
@@ -54,7 +78,7 @@ Du kan dela organisationens egna data från [!DNL Tealium] plattform för kundda
 
       * **Segmentfönster:** Segmentets time-to-live.
 
-## Steg 3: Skapa anslutningar i [!DNL Tealium] dela segmentdata {#tealium-connector}
+## Steg 4: Skapa anslutningar i [!DNL Tealium] dela segmentdata {#tealium-connector}
 
 För varje segment som du vill dela skapar du en separat koppling för varje åtgärd som utlöser dataändringar. Om du till exempel vill dela två segment som var och en har två utlösare, skapar du fyra kopplingar.
 
@@ -102,24 +126,34 @@ För varje segment som du vill dela skapar du en separat koppling för varje åt
 
                * Namnge det anpassade meddelandet för Cookies-attributet `cookies`.
 
-            1. I alternativet att skapa ett anpassat fält, i [!DNL Source Key] fält, ange [!UICONTROL External Segment Key] som ingick i segmentmappningsdata i [Steg 2](#map-data).
+            1. I alternativet att skapa ett anpassat fält, i [!DNL Source Key] fält, ange [!UICONTROL External Segment Key] som ingick i [segmentmappningsdata](#map-data) i föregående procedur.
 
                DSP använder den här nyckeln för att fylla i ditt segment.
 
             1. (Rekommenderas) Skapa en uppdateringsåtgärd för att hålla segmentet aktuellt.
 
-## Steg 4: Duplicera den befintliga kopplingen i [!DNL Tealium] för att fortsätta dela segment {#duplicate-connector}
+## Steg 5: Duplicera den befintliga kopplingen i [!DNL Tealium] för att fortsätta dela segment {#duplicate-connector}
 
 Du kan bara ha en koppling per segment och ett segment per koppling.
 
 1. I [!DNL Tealium], duplicera det segment som du vill skapa ett annat segment för och byt namn på det nya segmentet.
 
-1. I [!DNL Tealium], duplicera den koppling du skapade i [Steg 3](#tealium-connector)och byta namn på den nya kopplingen från`<original name>-copy`till det nya segmentnamnet.
+1. I [!DNL Tealium], duplicera [den koppling du skapade](#tealium-connector) i föregående procedur och ändra namnet på den nya kopplingen från`<original name>-copy`till det nya segmentnamnet.
+
+## Steg 6: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
+
+När du är klar med alla steg kan du verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fylls i inom 24 timmar. Jämför antalet universella ID:n med antalet ursprungliga hash-adresser.
+
+Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Om du till exempel skickar 100 hashas-e-postadresser från din kunddataplattform bör de översättas till mer än 90 universella ID:n. En översättningsgrad på 90 % eller mindre är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+
+Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar för att säkerställa sekretessefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Tealium] var 30:e dag eller mindre.
+
+Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
->* [Skapa en målgruppskälla för att aktivera förstahandspubliker](source-create.md)
+>* [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
+>* [Skapa en målgruppskälla för att aktivera universella ID-målgrupper](source-create.md)
 >* [Inställningar för målkälla](source-settings.md)
->* [Arbetsflöde för att använda DSP integrering med [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)

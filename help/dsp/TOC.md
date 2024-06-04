@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 08f177d0cc05b9a4e6c240ba78dcb903587a1bfa
+source-git-commit: b579c0413400b0af697f06c272878c46cce8003e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,8 @@ ht-degree: 3%
    + [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
 + Målgrupper {#audiences}
    + [Om Audience Management](/help/dsp/audiences/audience-about.md)
-   + Målgrupper {#reusable-audiences}
+   + [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
+   + Återanvändbara målgrupper {#reusable-audiences}
       + [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md)
       + [Duplicera en återanvändbar publik](/help/dsp/audiences/reusable-audience-duplicate.md)
       + [Redigera en återanvändbar publik](/help/dsp/audiences/reusable-audience-edit.md)
@@ -137,14 +138,13 @@ ht-degree: 3%
       + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Ta bort ett segment](/help/dsp/audiences/segment-delete.md)
    + Källor {#sources}
-      + [Aktivera autentiserade segment från målgruppskällor](/help/dsp/audiences/sources/source-about.md)
+      + [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
       + Arbetsflöden efter kunddataplattform {#sources-workflows}
-         + [!DNL Adobe Real-Time CDP] {#sources-adobe-rt-cdp}
-            + [Arbetsflöde för att använda DSP integrering med [!DNL Adobe Real-Time CDP]](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-            + [Aktivera autentiserade segment från universella ID-partners](/help/dsp/audiences/sources/source-universal-id.md)
-         + [Arbetsflöde för att använda DSP integrering med [!DNL Tealium]](/help/dsp/audiences/sources/source-tealium.md)
-      + [Skapa en målgruppskälla för att aktivera förstahandspubliker](/help/dsp/audiences/sources/source-create.md)
+         + [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
+      + [Skapa en målgruppskälla för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-create.md)
       + [Inställningar för målkälla](/help/dsp/audiences/sources/source-settings.md)
+   + [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Tillgängliga dataproviders från tredje part](/help/dsp/audiences/third-party-data-providers.md)
 + Lager {#inventory}
    + [Översikt över inventeringsfunktioner](/help/dsp/inventory/inventory-overview.md)

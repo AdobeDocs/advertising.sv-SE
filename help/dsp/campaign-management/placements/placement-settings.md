@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '3535'
+source-wordcount: '3789'
 ht-degree: 0%
 
 ---
@@ -311,11 +311,25 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 
 * Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) nästa [!UICONTROL Excluded Audiences]och sedan markera **+ Skapa publik**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md), från steg 3.
 
-* Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i &quot;[Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md).&quot; När du är klar klickar du **Spara**.
+**[!UICONTROL Targeting]:** De typer av användar-ID som ska anges som mål. Du kan inte ändra den här inställningen efter att placeringen är aktiv (det vill säga efter att flygningen har börjat).
 
-**[!UICONTROL Cross Device Targeting]:** (Tillgängligt när du markerar minst ett segment eller en målgrupp och [kampanjen är konfigurerad för personbaserad målinriktning på olika enheter](/help/dsp/campaign-management/campaigns/campaign-settings.md). Gör att du kan utöka målanpassningen för alla kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten. Avgifterna kan tillkomma beroende på vilket diagram som har angetts för kampanjen. Enhetsdiagramdata är bara tillgängliga i Nordamerika.
+När du väljer både äldre ID:n och universella ID:n ges budgivningsinställningar till universella ID:n.
 
-**[!UICONTROL Placement Cap]:** (Valfritt) Antalet gånger en unik enhet eller person (beroende på den angivna [!UICONTROL Cross Device Level] för kampanjen) får annonser från placeringen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
+* *[!UICONTROL Legacy IDs (Cookies, MAIDS, CTV)]*: (Standard) Målsätter användare baserat på deras cookies, ID:n för mobilannonsering eller CTV-ID:n (connected TV). ID:n väljs baserat på webbläsaren, appen eller CTV-inventeringen.
+
+* *[!UICONTROL Universal ID Beta]*: Målgruppsinriktade ID:n för användarintegritet; välj en ID-typ. De tillgängliga alternativen avgörs av de valda geografiska målen i [!UICONTROL Geo-Targeting] -avsnitt. Använd med [[!DNL RampID] segment som importeras direkt till DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md), [segment för vilka DSP konverterar din PII till universella ID](/help/dsp/audiences/sources/source-about.md), eller [anpassade segment som spårar universella ID:n](/help/dsp/audiences/custom-segment-create.md).
+
+   * *[!UICONTROL ID5]*: Målgrupper [!DNL ID5] ID:n har skapats med sannolikhet från e-postadresser och andra signaler.<!-- What countries/geos are these available for? Everywhere?--> ID5-ID:n är kostnadsfria. **Obs!** Tredjepartssegment från [!DNL Eyeota] kan innehålla ID5-ID.
+
+   * *[!UICONTROL RampID]*: Målgrupper [!DNL LiveRamp] [!DNL RampIDs] av användare som är inloggade på webbplatsen med sina e-postadresser.<!-- Verify --> [!DNL RampIDs] är tillgängliga för användare i Nordamerika, Australien och Nya Zeeland.
+
+   * *[!UICONTROL Unified ID2.0]*: Målgrupper [!DNL Unified ID2.0] (UID2) ID:n för användare som är inloggade på webbplatsen med sina e-postadresser.<!-- Verify -->[!DNL UID2 IDs] är inte tillgängliga för användare i Europeiska ekonomiska samarbetsområdet och vissa andra länder. Se [förteckning över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+
+  **[!UICONTROL Terms of service]**: Villkor för serviceavtal för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan konvertera data till en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
+
+**[!UICONTROL Cross Device Targeting]:** (Tillgängligt när [kampanjen är konfigurerad för personbaserad målinriktning på olika enheter](/help/dsp/campaign-management/campaigns/campaign-settings.md)målgruppsanpassas endast äldre ID:n (inte universella ID:n) och du väljer minst ett segment eller en målgrupp. Gör att du kan utöka målanpassningen för alla kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten. Avgifterna kan tillkomma beroende på vilket diagram som har angetts för kampanjen. Enhetsdiagramdata är bara tillgängliga i Nordamerika.
+
+**[!UICONTROL Placement Cap]:** (Valfritt) Antalet gånger som en unik enhet, ett universellt ID eller person (beroende på den angivna [!UICONTROL Cross Device Level] för kampanjen och placeringen [!UICONTROL Targeting] inställning) kan hanteras med annonser från placeringen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
 
 >[!NOTE]
 >

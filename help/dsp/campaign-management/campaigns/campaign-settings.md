@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Så här beräknar du källskatt:
 >
 >* Du kan också konfigurera dessa värden i kontots avgiftsinställningar.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP ska rikta annonser och tillämpa frekvensgränser: *Samma enhet* för en enhet eller *Folk* för att rikta sig till en person på alla deras kända enheter.
+**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP avser annonser och tillämpar frekvensgränser: *Samma enhet* för en enhet eller *Folk* för att rikta sig till en person på alla deras kända enheter. **Obs!** Stöd för flera enheter är inte tillgängligt för placeringar som har universella ID som mål.
 
 **[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer; kampanjer med personbaserad målinriktning över flera enheter) Det enhetsdiagram som ska användas för målinriktning mellan olika enheter och frekvenshantering:
 
@@ -86,7 +86,9 @@ Så här beräknar du källskatt:
 
   Det här alternativet är även tillgängligt för alla annonsörer, utan avgifter, för frekvenshantering och attribueringsmätning.
 
-**[!UICONTROL Frequency Cap]:** (Valfritt) Antalet gånger en unik enhet eller person (beroende på den angivna [!UICONTROL Cross Device Level]) kan få annonser från kampanjen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
+  Stöd för flera enheter gäller endast för placeringar som har äldre ID:n som mål, men inte för placeringar som har universella ID:n som mål (inklusive [!DNL LiveRamps]). Målinriktning, frekvenshantering och attribuering för universella ID:n används endast på ID-nivå.
+
+**[!UICONTROL Frequency Cap]:** (Valfritt) Antalet gånger som en unik enhet, ett universellt ID eller person (beroende på den angivna [!UICONTROL Cross Device Level] och placeringen [!UICONTROL Targeting] -inställning) kan användas för annonser från kampanjen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
 
 >[!NOTE]
 >
