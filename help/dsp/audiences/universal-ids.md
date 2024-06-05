@@ -2,9 +2,10 @@
 title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
+source-git-commit: 2d8edb7e5c32ba7077a7f4e6550ed22ec680b1fc
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1366'
 ht-degree: 0%
 
 ---
@@ -62,7 +63,7 @@ Gör följande i en ny, schemalagd eller pausad placering:
 
       1. Välj den universella ID-typ som du vill använda som mål.
 
-         Inställningen innehåller alternativen &quot;[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; som kan innehålla underalternativen &quot;[!UICONTROL ID5],&quot;[!UICONTROL RampID],&quot; och &quot;[!UICONTROL Unified ID2.0].&quot; De faktiska delalternativen bestäms av de valda geografiska målen.
+         Inställningen innehåller alternativen &quot;[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; som kan innehålla underalternativen &quot;[!UICONTROL ID5],&quot;[!UICONTROL RampID],&quot; och &quot;[!UICONTROL Unified ID2.0].&quot; De valda geografiska målen avgör vilka delalternativ som är tillgängliga.
 
          Du kan välja båda[!UICONTROL Legacy IDs]och &quot;[!UICONTROL Universal ID],&quot; men du kan bara välja en typ av universellt ID per placering. När du väljer både äldre ID:n och universella ID:n ges budgivningsinställningar till universella ID:n.
 
@@ -80,7 +81,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
   Se &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances)&quot; för mer information om hur antalet segment kan variera.
 
-* Ändra inte befintliga paket och placeringar. Om du inte har en stegvis budget för att testa universella ID:n ska du minska den ursprungliga budgeten för att finansiera testerna.
+* Ändra inte befintliga paket och placeringar. Om du inte har någon ytterligare budget för att testa universella ID:n ska du minska den ursprungliga budgeten för att finansiera testerna.
 
 * Kopiera dina originalpaket och -placeringar, justera budgeten baserat på testets storlek, ändra målgrupperna till att använda [!DNL RampID]-baserade segment (för autentiserade användare) eller ID5-baserade segment (för oautentiserade användare) och verifiera att de nya paketen och placeringarna spenderar sin fulla budget.
 
@@ -96,7 +97,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
      >[!NOTE]
      >
-     >Frekvensbegränsningen gäller för ett enskilt ID. När en användare har flera ID-typer kanske du når den användaren mer än du hade förväntat dig.
+     >Frekvensbegränsningen gäller för ett enskilt ID. När en användare har flera ID-typer kan du nå användaren mer än du förväntar dig.
 
 * Tänk på att räckvidden för autentiserade målgruppssegment är naturligt mindre än räckvidden för cookie-baserade segment, och att ytterligare målgruppsalternativ minskar er räckvidd ytterligare. Var klok på att använda detaljerad målinriktning, särskilt genom att koppla ihop flera mål med AND-satser.
 
@@ -108,7 +109,7 @@ Det finns två orsaker till avvikelser för hashad e-post-ID:n som har översatt
 
 * A [!DNL RampID] kan uppgraderas till ett nytt värde. If [!DNL LiveRamp] känner inte igen ett e-post-ID eller kan inte mappa det till ett befintligt [!DNL RampID] i sin databas tilldelar den en ny [!DNL RampID] till e-post-ID:t. När de kan mappa e-post-ID:t till ett annat [!DNL RampID] eller kan samla in mer information om samma e-post-ID, uppgradera [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] avser denna åtgärd uppgradering från en&quot;härledd&quot; [!DNL RampID] till en&quot;bibehållen&quot; [!DNL RampID]. DSP får dock inte mappningar mellan härledda och bevarade [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från DSP. I det här fallet kan segmentantalet vara större än profidräkningen.
 
-  Exempel: En användare loggar in på [!DNL Adobe] och besöker Photoshop sida. If [!DNL LiveRamp] saknar befintlig information om e-post-ID, så tilldelar de det till en härledd [!DNL RampID], säger D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har omfördelat [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID: D123 och M123.
+  Exempel: En användare loggar in på [!DNL Adobe] och besöker Photoshop webbplats. If [!DNL LiveRamp] saknar befintlig information om e-post-ID, så tilldelar de det till en härledd [!DNL RampID], säger D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har omfördelat [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID: D123 och M123.
 
 ## Felsökning
 
