@@ -2,9 +2,9 @@
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 06275b37fd5e9449cbf80bcff4f55aaaa8a99b55
+source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,26 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
 * **Hushållsbaserad räckvidd, frekvens och konvertering**
 
-  Förstå den totala kampanjens räckvidd på hushållsnivå och hur de enskilda skärmarna bidrar. Rapportalternativen är:
+  Förstå kampanjens totala räckvidd på hushållsnivå och hur de enskilda skärmarna bidrar. Rapportalternativen är:
+
+   * Cross-ID Household Reach, Frequency, &amp; Conversion (Cookiless)
+
+      * Mät unik/inkrementell räckvidd, överlappning och konverteringar på hushållsnivå med cookiefri ID-typ (RampID, ID5) i flera miljöer, inklusive ansluten TV (CTV) och digital (dator, mobil, inbyggd och ljud).
+
+      * Bevisa hur effektivt det är att testa cookiefria ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment.
 
    * Genomsnittlig tid för konvertering
+
    * Konverteringsfrekvens
-   * CTV-rapportering (Connected TV)
+
+   * CTV-rapportering
+
    * CTV App Incrementality
+
    * Korsskärmsrapportering (Digital och CTV)
+
    * Plus-rapportering för flera skärmar (digital, CTV och TV)
+
    * Intervall och frekvens för digital segmentering
 
 * **Personbaserad räckvidd och konverteringar**
@@ -42,6 +54,11 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
    * **Personbaserad räckvidd för olika ID**
 
      Mät den unika räckvidden och överlappningen mellan cookies och RampID samt kostnaden per mätvärde per ID-typ. Bevisa hur effektivt det är att testa ramp-ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment i flera digitala miljöer, som datorer, mobiler, inbyggda och ljud.
+
+* **Haloeffekt på sökrapportering**
+
+  Mät effekten av exponering för färgtelevisionsreklam och digitala annonser när det gäller att skapa sökklick, sökkonverteringar och ROAS på hushållsnivå för hela CTV-appen, söknyckelord, sökmotor samt anpassade målgrupper och taktiska nivåer.
+
 
 * **[!DNL Dynata]Panelbaserade undersökningar**
 
@@ -79,7 +96,7 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
    * Mätning av skärmens räckvidd, frekvens och konvertering
 
-     Alla kunder som vill förstå räckvidd/inkrementell räckvidd och kostnadsbaserade effektivitetsvinster och/eller konverteringsmått i olika digitala strategier i förhållande till investeringar i Linear TV
+     Alla kunder som vill förstå räckvidd/inkrementell räckvidd och kostnadsbaserade effektivitetsvinster och/eller konverteringsmått i olika digitala strategier i förhållande till investeringar i linjär TV
 
    * Panelbaserade undersökningar på Dynata
 
