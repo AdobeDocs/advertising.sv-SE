@@ -3,7 +3,7 @@ title: Hantera budmultiplikationer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: c8246f3834884f78a7d55499aaf9dbe401157d88
+source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
