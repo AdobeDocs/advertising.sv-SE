@@ -3,9 +3,9 @@ title: '''[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: fd5a78a0eb2982ee85ca2d2b6a3cd79a0821d965
 workflow-type: tm+mt
-source-wordcount: '2426'
+source-wordcount: '2424'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Display Network Only]:* Visar annonser i visningsnätverket. För varje annonsgrupp måste du ange placeringar och om du vill kan du ange nyckelord.
 
-* *[!UICONTROL Performance Max]:* (Betafunktion) Visar och optimerar konverteringar för era annonser i alla kanaler med [!DNL Google Ads] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria videor och målgruppssignaler. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Visar och optimerar konverteringar för era annonser i alla kanaler med [!DNL Google Ads] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria videor och målgruppssignaler. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
 
   **Anteckningar:**
 
