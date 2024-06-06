@@ -2,9 +2,9 @@
 title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Optimizely] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,6 @@ Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcl
 >
 >* [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Inställningar för målkälla](source-settings.md)
 >* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)

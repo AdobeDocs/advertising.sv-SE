@@ -3,9 +3,9 @@ title: Om källor för förstagångspubliker
 description: Lär dig hur du konverterar andra användaridentifierare i dina förstapartssegment till universella ID:n för cookiefri målinriktning.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,6 @@ Du kan dela organisationens egna data från [!DNL Tealium] kunddataplattform som
 >* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Inställningar för målkälla](source-settings.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

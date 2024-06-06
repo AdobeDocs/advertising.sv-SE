@@ -3,9 +3,9 @@ title: Använda DSP integrering med [!DNL Adobe] [!DNL Real-time CDP]
 description: Lär dig hur du aktiverar DSP att importera [!DNL Adobe] [!DNL Real-time CDP] förstahandssegment.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
+source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock ef
 >[!MORELIKETHIS]
 >
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Inställningar för målkälla](source-settings.md)
 >* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* Adobe Experience Platform [Översikt över målkatalog](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
