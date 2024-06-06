@@ -3,9 +3,9 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
+source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 *Betafunktion*
 
-Skapa en källa i DSP för varje enskild målgrupp på kunddataplattformen som du vill konvertera till segment som innehåller angivna universella ID-typer. Du kan importera segmenten till din organisations DSP eller till ett annonsörskonto. Dataavgifter tillämpas baserat på de valda universella ID-typerna.
-
-Ytterligare steg krävs för att importera målgrupperna från varje kunddataplattform. Se anmärkningen i slutet av proceduren.
+Skapa en källa i DSP för varje enskild målgrupp på kunddataplattformen som du vill konvertera till segment som innehåller angivna universella ID-typer. Du kan importera segmenten till din organisations DSP eller till ett annonsörskonto. Dataavgifter tillämpas baserat på de valda universella ID-typerna. När du har skapat en källa krävs ytterligare steg för att importera målgrupperna från varje kunddataplattform. Se kommentaren i slutet av proceduren för att skapa en källa.
 
 Du kan senare ändra de universella ID-typer som källmålgruppen översätts till och visa en logg över ändringarna.
 
