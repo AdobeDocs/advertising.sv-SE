@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 048752e0f9a5d95c22bd9acb4b70034b5f833494
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2973'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 5 juni 2024 | Placeringar | Nu kan du hantera budmultiplikatorer för flera placeringar samtidigt med hjälp av ett kalkylblad. | Se &quot;[Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
+|  | Målgruppskällor | Du kan nu ändra de universella ID-typer som källmålgruppen översätts till och visa en logg över ändringarna. | Se &quot;[Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 maj 2024 | Optimering, anslutna TV-annonser | I paket med optimeringsmålen&quot;Lägsta CPA&quot; och&quot;Högsta ROAS&quot; använder prestandamodellerna för anslutna tv-annonser nu data från flera kontaktytor i konverteringsvägen för snabbare och mer robust maskininlärning. Befintliga paket uppgraderas för att använda multitouch-optimering, och ingen åtgärd krävs. | — |
 | 20 maj 2024 | Ankopplade TV-annonser, pixlar, återmarknadsföringssegment | (Open beta, endast tillgängligt i USA och AUS) Nu kan du omdirigera målgruppssegment som exponerats för en ansluten TV-kampanj med ytterligare annonser för att förbättra flerkanalsannonsering:<ol><li>Ställ in ett annonsexponeringssegment och kopiera taggen för visningsspårning till önskad ansluten TV-placering eller annons för att börja spåra segmentet.</li><li>På återmarknadsföring väljer du det anslutna TV-exponeringssegmentet i [!UICONTROL Audience Targeting] -avsnitt.</li></ol> | Se &quot;[Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)och &quot;[Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).&quot; |
 | 2 maj 2024 | Ads, Pixels | Du kan hämta annonsinställningarna och placeringsassociationerna för alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning från [!UICONTROL Ad Tools] vy. | Se &quot;[Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md).&quot; |
