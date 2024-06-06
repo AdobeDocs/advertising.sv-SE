@@ -3,7 +3,7 @@ title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID måste du gör
 
 ## Steg 2: Skapa en publikkälla i DSP {#source-create}
 
-1. [Skapa en publikkälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till någon av [tillgängliga universella ID-format](source-about.md).
+1. [Skapa en publikkälla](source-manage.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till någon av [tillgängliga universella ID-format](source-about.md).
 
    Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att förbereda segmentmappningsdata.
 

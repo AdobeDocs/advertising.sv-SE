@@ -2,7 +2,7 @@
 title: "Konvertera användar-ID från [!DNL ActionIQ] till universella ID"
 description: "Lär dig hur DSP kan importera [!DNL ActionIQ] förstapartssegment."
 feature: DSP Audiences
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: 729098f01fb9d076efb2b945be4011df9ab1c905
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Det finns <!-- NN --> steg för att dela data från [!DNL ActionIQ] med DSP:
 
 ## Steg 1: Skapa en publikkälla i DSP {#source-create}
 
-1. [Skapa en publikkälla](source-create.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto och ange [universella ID-format](source-about.md) som du vill konvertera dina användaridentifierare till.
+1. [Skapa en publikkälla](source-manage.md) för att importera målgrupper till ditt DSP eller ett annonserarkonto och ange [universella ID-format](source-about.md) som du vill konvertera dina användaridentifierare till.
 
 1. När du har skapat målgruppskällan kan du dela källkodnyckeln med [!DNL ActionIQ] användare.
 
