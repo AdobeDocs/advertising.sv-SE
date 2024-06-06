@@ -3,7 +3,7 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Om du inte ser antalet användare, eller om målgruppsstorleken är låg, ska du
 
 * Se till att rätt, universell ID-partnerspecifik kod implementeras på din webbplats för att matcha händelser på plats och annonsexponeringar. Arbeta med dina [!DNL LiveRamp] eller [!DNL ID5] vid behov.
 
-* (för [!DNL RampIDs] och [!DNL UID 2.0] ID) Se till att [DSP datakälla är korrekt konfigurerad](/help/dsp/audiences/sources/source-settings.md)och att antalet användare fylls i för de genererade målgruppssegmenten.
+* (för [!DNL RampIDs] och [!DNL UID 2.0] ID) Se till att [DSP datakälla är korrekt konfigurerad](/help/dsp/audiences/sources/source-manage.md#source-settings)och att antalet användare fylls i för de genererade målgruppssegmenten.
 
 * Om ni är mindre än förväntat bör ni kontrollera att målgruppssegmentets logik inte är för detaljerad.
 

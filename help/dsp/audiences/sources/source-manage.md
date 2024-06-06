@@ -3,7 +3,7 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: e3b88a37bec68bd63a4a285b2d8c5cd028ed2659
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -44,7 +44,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Ange [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* eller *[!UICONTROL Account]*.
 
-1. Ange återstående [källinställningar](source-settings.md).
+1. Ange återstående [källinställningar](#source-settings).
 
    Behåll en kopia av [!UICONTROL Source Key] som genereras. Du behöver värdet senare.
 
@@ -69,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Håll markören över källraden och klicka **[!UICONTROL Edit]**.
 
-1. Ändra [ID som valts för källan](source-settings.md).
+1. Ändra [ID som valts för källan](#source-settings).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -101,7 +101,7 @@ Du kan visa information om ändringar i en målgruppskällpost och eventuellt bi
 
 1. (Valfritt) Om du vill öppna loggen på en större detaljskärm håller du markören över källraden och klickar på **[!UICONTROL View Details]**.
 
-## Inställningar för målkälla
+## Inställningar för målkälla {#source-settings}
 
 **[!UICONTROL Data Visibility Level]:** Om segmenten är tillgängliga för en enskild annonsörer med tillgång till kontot (*[!UICONTROL Advertiser]*) eller till alla annonsörer med tillgång till kontot *[!UICONTROL Account]*.
 
