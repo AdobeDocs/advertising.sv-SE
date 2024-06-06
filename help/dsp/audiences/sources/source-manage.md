@@ -3,7 +3,7 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 9411089703ce0b9502c1c2522cce999c3a5fafbf
+source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -32,13 +32,13 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Klicka på **[!UICONTROL Add Source]**.
 
-1. I [!UICONTROL Select a Type] väljer du din kunddataplattform:
+1. I [!UICONTROL Select a Type] väljer du [plattform för kunddata](source-about.md):
 
-   * *[!UICONTROL RT-CDP]*: [The [!DNL Adobe Real-Time Customer Data Platform]](source-about.md).
+   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time Customer Data Platform].
 
-   * *[!UICONTROL ActionIQ]*: [[!DNL ActionIQ] plattform för kunddata](source-about.md).
+   * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ] plattform för kunddata.
 
-   * *[!UICONTROL Tealium CDP]*: (Endast konfigurerade användare) [[!DNL Tealium] plattform för kunddata](source-about.md).
+   * *[!UICONTROL Tealium CDP]*: (Endast konfigurerade användare) [!DNL Tealium] plattform för kunddata.
 
 1. Ange [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* eller *[!UICONTROL Account]*.
 
