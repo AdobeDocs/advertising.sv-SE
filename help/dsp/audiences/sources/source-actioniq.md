@@ -2,9 +2,9 @@
 title: "Konvertera användar-ID från [!DNL ActionIQ] till universella ID"
 description: "Lär dig hur DSP kan importera [!DNL ActionIQ] förstapartssegment."
 feature: DSP Audiences
-source-git-commit: bd0586516c2457e4dfcd1a23046707e8bf652e3b
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Segmenten uppdateras var 24:e timme.
 >[!MORELIKETHIS]
 >
 >* [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
->* [Skapa en målgruppskälla för att aktivera universella ID-målgrupper](source-create.md)
+>* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Inställningar för målkälla](source-settings.md)
 >* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)

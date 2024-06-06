@@ -3,9 +3,9 @@ title: Inställningar för målkälla
 description: Läs mer om inställningarna för målgruppskällor.
 feature: DSP Audiences
 exl-id: 274ea502-ad15-4d3d-922a-17caddb87f69
-source-git-commit: 16a796e02150b00c77c825d7f54c6e390c85214a
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ För [!DNL RampID] och [!DNL Unified ID2.0]söker leverantören upp varje e-post
 
 >[!MORELIKETHIS]
 >
->* [Skapa en målgruppskälla för att aktivera universella ID-målgrupper](source-create.md)
+>* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Om källor för förstagångspubliker](source-about.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
 >* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)

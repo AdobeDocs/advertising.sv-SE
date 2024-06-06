@@ -3,9 +3,9 @@ title: Importera autentiserade segment manuellt från [!DNL LiveRamp]
 description: Läs om hur du aktiverar autentiserade målgrupper via [!DNL LiveRamp].
 feature: DSP Audiences
 exl-id: c56a54c7-5300-4cda-96d0-82d86e76ee39
-source-git-commit: f10a0bd487d641bd150d9ecbefe907b2bf25e5a7
+source-git-commit: 295cc610a7e5e811fe555db69373a8bf5b4012f7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Segmentmappningen och överföringen för varje importjobb kan ta upp till sju d
 >[!MORELIKETHIS]
 >
 >* [Om källor för förstagångspubliker](source-about.md)
->* [Skapa en målgruppskälla för att aktivera universella ID-målgrupper](source-create.md)
+>* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Inställningar för målkälla](source-settings.md)
 >* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
