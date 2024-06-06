@@ -1,22 +1,20 @@
 ---
 title: Hantera autentiseringsuppgifter för annonsnätverkshanterarkonton
 description: Lär dig hur du anger autentiseringsuppgifter för [!DNL Google Ads] chefskonton.
-exl-id: bde22f70-12a7-4eef-a141-dafeed9a7dc5
+exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
 
 # Hantera autentiseringsuppgifter för annonsnätverkshanterarkonton
 
-*Betafunktion*
-
 *[!DNL Google Ads]endast konton*
 
-Ange autentiseringsuppgifter för [!DNL Google Ads] chefskonton dit du vill att kontona ska överföras via sökning, sociala medier och handel. Använd den här funktionen om du vill a) överföra [!DNL Adobe]-spårade, kontoövergripande konverteringsvärden till en [!DNL Google Ads] chefskonto eller b) överföra portföljmål som omfattar kontoövergripande konverteringar till [!DNL Google Ads] för hybridoptimering.
+Ange autentiseringsuppgifter för [!DNL Google Ads] hanterarkonton som du vill att Search, Social och Commerce ska överföra kontonakonverteringar till. Använd den här funktionen om du vill a) överföra [!DNL Adobe]-spårade, kontoövergripande konverteringsvärden till en [!DNL Google Ads] chefskonto eller b) överföra portföljmål som omfattar kontoövergripande konverteringar till [!DNL Google Ads] för hybridoptimering.
 
 <!-- [Maybe later: and c) sync conversion value rules for accounts that use cross-account conversion tracking with Google Ads.] -->
 
@@ -32,9 +30,9 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 
 1. Ange inloggningsuppgifter för hanterarkontot.
 
-   The **[!UICONTROL Manager Account ID]** och **[!UICONTROL Login Email]** krävs. Sökning, sociala medier och handel hämtar och lagrar automatiskt kontotoken som ska användas för autentisering.
+   The **[!UICONTROL Manager Account ID]** och **[!UICONTROL Login Email]** krävs. Search, Social och Commerce hämtar och lagrar automatiskt den kontotoken som ska användas för autentisering.
 
-   Du kan även inkludera en **[!UICONTROL MCC Account Name]** för identifiering inom sökning, sociala medier och handel samt kontot **[!UICONTROL Password]**. Ange lösenordet när du vill kryptera och spara det så att kontohanteraren kan uppdatera tokens efter behov.
+   Du kan även inkludera en **[!UICONTROL MCC Account Name]** för identifiering i Search, Social och Commerce samt kontot **[!UICONTROL Password]**. Ange lösenordet när du vill kryptera och spara det så att kontohanteraren kan uppdatera tokens efter behov.
 
 1. Klicka på **[!UICONTROL Authenticate]**.
 
@@ -50,9 +48,9 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 
 1. Ange inloggningsuppgifter för hanterarkontot.
 
-   The **[!UICONTROL Manager Account ID]** och **E-postadress för inloggning** krävs. Sökning, sociala medier och handel hämtar och lagrar automatiskt kontotoken som ska användas för autentisering.
+   The **[!UICONTROL Manager Account ID]** och **E-postadress för inloggning** krävs. Search, Social och Commerce hämtar och lagrar automatiskt den kontotoken som ska användas för autentisering.
 
-   Du kan även inkludera en **[!UICONTROL MCC Account Name]** för identifiering inom sökning, sociala medier och handel samt kontot **[!UICONTROL Password]**. Ange lösenordet när du vill kryptera och spara det så att kontohanteraren kan uppdatera tokens efter behov.
+   Du kan även inkludera en **[!UICONTROL MCC Account Name]** för identifiering i Search, Social och Commerce samt kontot **[!UICONTROL Password]**. Ange lösenordet när du vill kryptera och spara det så att kontohanteraren kan uppdatera tokens efter behov.
 
 1. Klicka på **[!UICONTROL Authenticate]**.
 
