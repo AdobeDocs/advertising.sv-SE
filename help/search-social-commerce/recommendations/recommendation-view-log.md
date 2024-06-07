@@ -3,9 +3,9 @@ title: Visa loggen för utgivarens rekommendationer för ett konto
 description: Lär dig hur du visar en logg över varje rekommendation som har tillämpats på en [!DNL Google Ads] eller [!DNL Microsoft Advertising] konto.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d12b4905218b7c1057e7987f1a49a8691557455d
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Visa utgivarens rekommendationer för ett konto
 
 *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
-
-*Betafunktion för [!DNL Microsoft Advertising] konton*
 
 Du kan visa en logg över varje rekommendation som har tillämpats för en [!DNL Google Ads] eller [!DNL Microsoft Advertising] konto. Informationen omfattar rekommendationskategori, rekommendationstyp, berörda enheter, användaren som tillämpade rekommendationen och tidsstämpeln.
 

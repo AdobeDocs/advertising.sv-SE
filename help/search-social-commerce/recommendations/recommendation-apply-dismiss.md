@@ -3,9 +3,9 @@ title: Tillämpa eller avvisa en utgivarrekommendation
 description: Lär dig hur du visar, tillämpar eller inaktiverar en utgivarrekommendation.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: bd0c158ca27258fa7600553462bf4fedbabc9089
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Tillämpa eller avvisa en utgivarrekommendation
 
 *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
-
-*Betafunktion för [!DNL Microsoft Advertising] konton*
 
 Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna skulle vara bra för en utgivarrekommendation. Du kan sedan tillämpa rekommendationen när den passar era affärsmål och avvisa en rekommendation när den inte gör det.
 

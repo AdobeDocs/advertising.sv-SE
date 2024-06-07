@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,6 @@ ht-degree: 0%
 # Om utgivarens rekommendationer och insikter
 
 *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
-
-*Betafunktion för [!DNL Microsoft Advertising] konton*
 
 [!DNL Google Ads] och [!DNL Microsoft Advertising] rekommendationer och insikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
 
