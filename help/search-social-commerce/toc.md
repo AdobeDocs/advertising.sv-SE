@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1694'
 ht-degree: 2%
 
 ---
@@ -103,11 +103,11 @@ ht-degree: 2%
    + [Frågor och svar om spårning](/help/search-social-commerce/tracking/faqs-tracking.md)
 + Kampanjhantering {#campaign-management}
    + Introduktion {#campaign-management-intro}
-      + [Om kampanjhantering i Sök, Social och Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
+      + [Om kampanjhantering i Search, Social och Commerce](/help/search-social-commerce/campaign-management/introduction/campaign-management-about.md)
       + [Översikt över att implementera annonsnätverkskonton och -kampanjer](/help/search-social-commerce/campaign-management/introduction/campaign-implemention-overview.md)
       + [Övervaka och hantera resultatet för era annonsnätverkskampanjer](/help/search-social-commerce/campaign-management/introduction/monitor-performance-campaigns.md)
-      + [[!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
-      + [[!DNL Microsoft Advertising] konverteringsdata i sökning, sociala medier och handel](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
+      + [[!DNL Google Ads] konverteringsdata i sökningar, sociala medier och Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
+      + [[!DNL Microsoft Advertising] konverteringsdata i sökningar, sociala medier och Commerce](/help/search-social-commerce/campaign-management/introduction/microsoft-conversion-data.md)
    + Konfigurera konton {#campaign-management-accounts}
       + Annonsnätverkskonton {#ad-network-accounts}
          + [Om och nätverkskonton](/help/search-social-commerce/campaign-management/accounts/ad-network-account-about.md)
@@ -249,9 +249,7 @@ ht-degree: 2%
       + [Ta bort etikettklassificeringsvärden från kontokomponenter](/help/search-social-commerce/campaign-management/label-classifications/classification-values-remove.md)
       + [Ta bort etikettklassificeringsvärden](/help/search-social-commerce/campaign-management/label-classifications/classification-values-delete.md)
       + [Ta bort etikettklassificeringar](/help/search-social-commerce/campaign-management/label-classifications/classification-delete.md)
-   + Hantera annonsresurser {#assets}
-      + [Om [!UICONTROL Asset Library]](/help/search-social-commerce/campaign-management/asset-library/asset-library-about.md)
-      + [Skapa och överföra resurser](/help/search-social-commerce/campaign-management/asset-library/asset-create.md)
+   + [Visa och skapa annonsresurser](/help/search-social-commerce/campaign-management/asset-view-create.md)
    + Bästa tillvägagångssätt för sökkampanjer {#best-practices-search}
       + [Analysera rapporter för att förfina nyckelord och kampanjinställningar](/help/search-social-commerce/campaign-management/best-practices/best-practices-analyze.md)
       + [Skriv gällande text och text](/help/search-social-commerce/campaign-management/best-practices/best-practices-write.md)
