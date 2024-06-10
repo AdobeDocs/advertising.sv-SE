@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: d5f9bdf69bb68f302bc40d94413397ccd13357cc
+source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -42,18 +42,6 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 ## Rekommendationstyper som stöds för [!DNL Google Ads]
 
-<!--
-
--- Add to "Bidding and budget" section of table
-
-| | [!UICONTROL Forecasting set Target CPA] | Set a target CPA for campaigns without one before a seasonal event that's forecasted to increase traffic |
-
-| | [!UICONTROL Set Target CPA] | Set a target CPA for campaigns without one |
-
-| | [!UICONTROL Set ROAS Target] | Set a target ROAS for campaigns without one |
-
--->
-
 | Rekommendationskategori | Rekommendationstyp | Beskrivning |
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (kallas nu &quot;[!DNL Ads and assets]&quot; in [!DNL Google Ads]) | [!UICONTROL Call extension] | Lägga till samtalstillägg till en kampanj |
@@ -74,6 +62,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Rekommenderad budget för en kampanj som för närvarande är begränsad av budgeten |
 | | [!UICONTROL Enhanced CPC opt in] | Köp med [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Rekommenderad budget för en kampanj som förväntas begränsas av budgeten i framtiden |
+| | [!UICONTROL Forecasting set Target CPA] | Ange ett mål-CPA för kampanjer utan en före en säsongshändelse som beräknas öka trafiken |
 | | [!UICONTROL Forecasting set Target ROAS] | Öka budgeten före en säsongshändelse som beräknas öka trafiken och ändra budgivningsstrategin från [!UICONTROL Maximize Conversion Value] till [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Justera kampanjbudgeten för att öka avkastningen |
 | | [!UICONTROL Maximize clicks opt in] | Ändra till [!UICONTROL Maximize Clicks] budgivningsstrategi |
@@ -81,6 +70,8 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Maximize conversions opt in] | Ändra till [!UICONTROL Maximize Conversions] budgivningsstrategi |
 | | [!UICONTROL Move unused budget] | Flytta oanvänd budget till en begränsad budget |
 | | [!UICONTROL Raise Target CPA bid too low] | Öka [!UICONTROL Target CPA] med en rekommenderad mängd när den är för låg och det finns få eller inga konverteringar |
+| | [!UICONTROL Set Target CPA] | Ange mål-CPA för kampanjer utan ett mål |
+| | [!UICONTROL Set Target ROAS] | Ange ett mål för ROAS för kampanjer utan ett |
 | | [!UICONTROL Target CPA opt in] | Ändra till [!UICONTROL Target CPA] budgivningsstrategi |
 | | [!UICONTROL Target CPA raising] | Öka [!UICONTROL Target CPA] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar |
 | | [!UICONTROL Target ROAS lowering] | Nedre [!UICONTROL Target ROAS] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar |
