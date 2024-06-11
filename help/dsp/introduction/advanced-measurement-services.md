@@ -2,9 +2,9 @@
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: 226b9a78b00f547da840c27663241f91dfca92d3
+source-git-commit: f1d657960beb667001341e191daaddbe03d931b0
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
    * Cross-ID Household Reach, Frequency, &amp; Conversion (Cookiless)
 
-      * Mät unik/inkrementell räckvidd, överlappning och konverteringar på hushållsnivå med cookiefri ID-typ (RampID, ID5) i flera miljöer, inklusive ansluten TV (CTV) och digital (dator, mobil, inbyggd och ljud).
+     <!-- Hide for now * Quantify unique/incremental reach, overlap, and conversions at a household level by cookieless ID type (RampID, ID5) across multiple environments, including connected TV (CTV) and digital (desktop, mobile, native, and audio). -->
 
-      * Bevisa hur effektivt det är att testa cookiefria ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment.
+     <!-- Hide for now * Prove the effectiveness of testing cookieless IDs in finding incremental reach relative to cookie-based segments. -->
 
    * Genomsnittlig tid för konvertering
 
@@ -51,9 +51,9 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
   Förstå hur målgrupper och taktiker överlappar varandra på personnivå, inklusive exponeringar i olika digitala miljöer, som datorer, mobiler, inbyggda medier och ljud.
 
-   * **Personbaserad räckvidd för olika ID**
+  <!-- Hide for now * **Cross-ID People-Based Reach**
 
-     Mät den unika räckvidden och överlappningen mellan cookies och RampID samt kostnaden per mätvärde per ID-typ. Bevisa hur effektivt det är att testa ramp-ID:n för att hitta inkrementell räckvidd i förhållande till cookie-baserade segment i flera digitala miljöer, som datorer, mobiler, inbyggda och ljud.
+      Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
 * **Haloeffekt på sökrapportering**
 
