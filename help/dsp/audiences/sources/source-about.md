@@ -3,9 +3,9 @@ title: Om källor för förstagångspubliker
 description: Lär dig hur du konverterar andra användaridentifierare i dina förstapartssegment till universella ID:n för cookiefri målinriktning.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ DSP kan importera [!DNL Adobe] [!DNL Real-time CDP] förstahandssegment och konv
 
 ### [!DNL ActionIQ]
 
-Du kan dela organisationens egna data från [!DNL Action IQ] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Den här integreringen kräver anpassning. Kontakta kontoteamet på Adobe för mer information.
+Du kan dela organisationens egna data från [!DNL ActionIQ] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Den här integreringen kräver anpassning. Kontakta kontoteamet på Adobe för mer information.
+
+### [!DNL Amperity]
+
+Du kan dela organisationens egna data från [!DNL Amperity] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md).&quot;
+
+### [!DNL Optimizely]
+
+Du kan dela organisationens egna data från [!DNL Optimizely] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md).&quot;
 
 ### [!DNL Tealium]
 
@@ -88,13 +96,11 @@ Du kan dela organisationens egna data från [!DNL Tealium] kunddataplattform som
 
 >[!MORELIKETHIS]
 >
->* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
+>* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

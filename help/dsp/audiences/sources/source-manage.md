@@ -3,9 +3,9 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: f24aec0588f0298c5a3aa63226bd05bd4fa95f92
+source-git-commit: 78b1a8a8e0567afb0c172c7bef1a639ab5b47bab
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ You can create one source for each combination of universal ID partner and data 
 
    * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ] plattform för kunddata.
 
+   * *[!UICONTROL Amperity]*: [!DNL Amperity] plattform för kunddata.
+
+   * *[!UICONTROL Optimizely]*: [!DNL Optimizely]: [!DNL Amperity] plattform för kunddata.
+
    * *[!UICONTROL Tealium CDP]*: (Endast konfigurerade användare) [!DNL Tealium] plattform för kunddata.
 
 1. Ange [!UICONTROL Data Visibility Level]: *[!UICONTROL Advertiser]* eller *[!UICONTROL Account]*.
@@ -50,7 +54,7 @@ You can create one source for each combination of universal ID partner and data 
 
 >[!NOTE]
 >
->När du har skapat en källa för din kunddataplattform måste du slutföra ytterligare steg. Se [arbetsflöde för att importera målgrupper från [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md)<!-- the [activation workflow for [!DNL ActionIQ]](source-actioniq.md), --> och [arbetsflöde för att importera målgrupper från [!DNL Tealium]](source-tealium.md).
+>När ni har skapat en källa för er kunddataplattform måste ni slutföra ytterligare steg för att importera er målgrupp. Se [arbetsflöde [!DNL Adobe] [!DNL Real-time CDP]](source-adobe-rtcdp.md),<!-- the [workflow for [!DNL ActionIQ]](source-actioniq.md), --> den [arbetsflöde [!DNL Amperity]](source-amperity.md), [arbetsflöde [!DNL Optimizely]](source-optimizely.md)och [arbetsflöde [!DNL Tealium]](source-tealium.md).
 
 ## Ändra ID-typer för en målkälla
 
@@ -131,6 +135,9 @@ För [!DNL RampID] och [!DNL Unified ID2.0]söker leverantören upp varje e-post
 >[!MORELIKETHIS]
 >
 >* [Om källor för förstagångspubliker](source-about.md)
->* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Adobe Advertising DSP Connection](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
+>* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)

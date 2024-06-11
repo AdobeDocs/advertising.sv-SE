@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 0a1555875fd18b326297475bc19fcfd6f28ea0c5
+source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -52,31 +52,31 @@ Konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID måste du gör
 
 ## Steg 3: Förbered och dela segmentmappningsdata {#map-data}
 
-1. Annonsören måste förbereda och dela segmentmappningsdata:
+Annonsören måste ta fram och dela segmentmappningsdata.
 
-   1. Annonsören måste förbereda uppgifterna i [!DNL Tealium]:
+1. Annonsören måste förbereda uppgifterna i [!DNL Tealium]:
 
-      1. Hash-koda e-post-ID:n för annonsörens målgrupp med hjälp av SHA-256-algoritmen.
+   1. Hash-koda e-post-ID:n för annonsörens målgrupp med hjälp av SHA-256-algoritmen.
 
-      1. Mappa kolumnen som innehåller hash-kodade e-post-ID:n till attributet för typen av besökar-ID.
+   1. Mappa kolumnen som innehåller hash-kodade e-post-ID:n till attributet för typen av besökar-ID.
 
-      1. Skapa målgrupper med `Tealium_visitor_id` -attribut. Använd rätt berikning för att få publiken att häpna. Se [[!DNL Tealium] dokumentation om attribut för besökar-ID](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
+   1. Skapa målgrupper med `Tealium_visitor_id` -attribut. Använd rätt berikning för att få publiken att häpna. Se [[!DNL Tealium] dokumentation om attribut för besökar-ID](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-   1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
+1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
 
-      * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är &quot;`<DSP source key>_<Tealium segment name>`, till exempel &quot;57bf424dc10_kaffedryckers.&quot; Använd DSP [!UICONTROL Source Key] från DSP inställningar för målgruppskälla.
+   * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är &quot;`<DSP source key>_<Tealium segment name>`, till exempel &quot;57bf424dc10_kaffedryckers.&quot; Använd DSP [!UICONTROL Source Key] från DSP inställningar för målgruppskälla.
 
-      * **Segmentnamn:** Segmentnamnet.
+   * **Segmentnamn:** Segmentnamnet.
 
-      * **Segmentbeskrivning:** Segmentets syfte eller regel, eller både och.
+   * **Segmentbeskrivning:** Segmentets syfte eller regel, eller både och.
 
-      * **Överordnat ID:** Behåll tomt
+   * **Överordnat ID:** Behåll tomt
 
-      * **Video CPM:** 0
+   * **Video CPM:** 0
 
-      * **CPM för bildskärm:** 0
+   * **CPM för bildskärm:** 0
 
-      * **Segmentfönster:** Segmentets time-to-live.
+   * **Segmentfönster:** Segmentets time-to-live.
 
 ## Steg 4: Skapa anslutningar i [!DNL Tealium] dela segmentdata {#tealium-connector}
 
@@ -154,9 +154,5 @@ Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcl
 >
 >* [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om Audience Management](/help/dsp/audiences/audience-about.md)
-
-<!--
->* [Convert User IDs from [!DNL Optimizely] to Universal IDs](/help/dsp/audiences/sources/source-optimizely.md)
--->

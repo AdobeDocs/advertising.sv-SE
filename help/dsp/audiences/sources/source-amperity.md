@@ -1,23 +1,25 @@
 ---
-title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
-description: Lär dig hur du aktiverar DSP att importera [!DNL Optimizely] förstahandssegment.
+title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID
+description: Lär dig hur du aktiverar DSP att importera [!DNL Amperity] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: 9b784b99051e33330ee7fbc736a9edbdf22066ca
+source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
-# Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
+# Konvertera användar-ID:n från [!DNL Amperity] till universella ID
 
-Använd DSP integrering med [!DNL Optimizely] plattform för kunddata för att konvertera organisationens egna hashade e-postadresser till universella ID:n för riktad reklam.
+Använd DSP integrering med [!DNL Amperity] plattform för kunddata för att konvertera organisationens egna hashade e-postadresser till universella ID:n för riktad reklam.
 
 1. (Konvertera e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Aktivera spårning [!DNL Analytics] mått](#analytics-tracking).
 
 1. [Skapa en publikkälla i DSP](#source-create).
 
-1. [Förbereda och flytta segmentdata](#push-data).
+1. [Förbered och dela segmentmappningsdata](#map-data).
+
+1. [Begär en datapush från [!DNL Amperity] till DSP](#push-data).
 
 1. [Jämför antalet universella ID:n med antalet hashade e-postadresser](#compare-id-count).
 
@@ -39,27 +41,39 @@ Konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID måste du gör
 
    Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att överföra segmentdata.
 
-1. När du har skapat målgruppskällan kan du dela källkodnyckeln med [!DNL Optimizely] användare.
+1. När du har skapat målgruppskällan kan du dela källkodnyckeln med [!DNL Amperity] användare.
 
-## Steg 3: Förbered och push-överföra segmentdata {#push-data}
+## Steg 3: Förbered och dela segmentmappningsdata {#map-data}
 
-Annonsören måste ta fram och publicera data med hjälp av sina [!DNL Optimizely] -representant.
+Annonsören måste ta fram och dela segmentmappningsdata.
 
-1. Inom [!DNL Optimizely Data Platform], hash the email IDs for the publish&#39;s publiser using the SHA-256 algorithm.
+1. Inom [!DNL Amperity], hash the email IDs for the målgrupp using the SHA-256 algorithm.
 
-1. Kontakta annonsörens [!DNL Optimizely] -representant för instruktioner om hur du flyttar segmentet till DSP. Inkludera följande information när du flyttar segmentet:
+1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
 
-   * **Källnyckel:** Detta är den källnyckel som skapas i [Steg 2](#source-create).
+   * **Extern segmentnyckel:** The [!DNL Amperity] segmentnyckel som är associerad med segmentet.
 
-   * **Kontokod:** Det här är den alfanumeriska DSP kontokoden som du hittar DSP på [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Segmentnamn:** Segmentnamnet.
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar för att säkerställa sekretess och regelefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Optimizely] var 30:e dag eller mindre.
+   * **Segmentbeskrivning:** Segmentets syfte eller regel, eller både och.
 
-<!--
-Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]
--->
+   * **Överordnat ID:** Behåll tomt
 
-## Steg 4: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
+   * **Video CPM:** 0
+
+   * **CPM för bildskärm:** 0
+
+   * **Segmentfönster:** Segmentets time-to-live.
+
+## Steg 4: Begär en datapush från [!DNL Amperity] till DSP {#push-data}
+
+1. När segmentet har mappats inom DSP måste annonsören arbeta med sina [!DNL Amperity] för att distribuera segmentdata till DSP.
+
+1. Annonsören måste sedan bekräfta med Adobe Account Team att segmentuppgifterna har tagits emot.
+
+Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar för att säkerställa sekretess och regelefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Amperity] var 30:e dag eller mindre.
+
+## Steg 5: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
 När du är klar med alla steg kan du verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i inom 24 timmar. Jämför antalet universella ID:n med antalet ursprungliga hash-adresser.
 
