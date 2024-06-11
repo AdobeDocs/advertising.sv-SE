@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 096ca9b5fce101995ca620b78f2ad8abf40355cd
+source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ Använd DSP integrering med [!DNL Tealium] plattform för kunddata för att konv
 1. [Duplicera den befintliga kopplingen i [!DNL Tealium] för att fortsätta dela segment](#duplicate-connector).
 
 1. [Jämför antalet universella ID:n med antalet hashade e-postadresser](#compare-id-count).
-
-Segmenten bör vara tillgängliga i DSP inom 24 timmar och uppdateras var 24:e timme.
 
 ## Steg 1: Ställ in spårning för [!DNL Analytics] mått {#analytics-tracking}
 
@@ -142,7 +140,7 @@ Du kan bara ha en koppling per segment och ett segment per koppling.
 
 ## Steg 6: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-När du är klar med alla steg kan du verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fylls i inom 24 timmar. Jämför antalet universella ID:n med antalet ursprungliga hash-adresser.
+När du är klar med alla steg bör segmenten vara tillgängliga DSP 24 timmar. Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fylls i inom 24 timmar. Jämför antalet universella ID:n med antalet ursprungliga hash-adresser.
 
 Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Om du till exempel skickar 100 hashas-e-postadresser från din kunddataplattform bör de översättas till mer än 90 universella ID:n. En översättningsgrad på 90 % eller mindre är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 

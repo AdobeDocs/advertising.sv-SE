@@ -2,14 +2,16 @@
 title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Amperity] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: 29fd744ba993e65b43cdf24a49b57208f0b06177
+source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Konvertera användar-ID:n från [!DNL Amperity] till universella ID
+
+*Betafunktion*
 
 Använd DSP integrering med [!DNL Amperity] plattform för kunddata för att konvertera organisationens egna hashade e-postadresser till universella ID:n för riktad reklam.
 
