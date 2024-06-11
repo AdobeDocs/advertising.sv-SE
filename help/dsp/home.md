@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 8374fbedf8c209b6b2638cd16aa21b79e251486d
+source-git-commit: 53f5bdf56e65aede2240a60973844a6b1657f893
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3055'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Följande funktioner är nya eller nyligen ändrade.
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
 | 10 juni 2024 | [!UICONTROL Audiences] | (Betafunktion) Nu kan du konvertera dina egna segment från [!DNL Amperity] och [!DNL Optimizely] kunddataplattformar till segment som består av [[!DNL LiveRamp] [!DNL RampIDs]] eller [!DNL Unified ID 2.0 (UID2.0)] ID. Inom placeringsinställningarna för målgruppsanpassning är de delade segmenten tillgängliga i listan över segment i första parten. | Se &quot;[Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md),&quot;[Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md),&quot; och &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot; |
+|  |  | Det finns dokumentation om DSP betafunktioner för personbaserade, universella ID:n för cookiefri målinriktning. | Se &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot; |
 | 5 juni 2024 | Placeringar | Nu kan du hantera budmultiplikatorer för flera placeringar samtidigt med hjälp av ett kalkylblad. | Se &quot;[Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md).&quot; |
 |  | Målgruppskällor | Du kan nu ändra de universella ID-typer som källmålgruppen översätts till och visa en logg över ändringarna. | Se &quot;[Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md).&quot; |
 | 22 maj 2024 | Optimering, anslutna TV-annonser | I paket med optimeringsmålen&quot;Lägsta CPA&quot; och&quot;Högsta ROAS&quot; använder prestandamodellerna för anslutna tv-annonser nu data från flera kontaktytor i konverteringsvägen för snabbare och mer robust maskininlärning. Befintliga paket uppgraderas för att använda multitouch-optimering, och ingen åtgärd krävs. | — |

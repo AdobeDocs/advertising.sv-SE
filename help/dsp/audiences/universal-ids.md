@@ -3,9 +3,9 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 4b8dc6e691516d87e391802b54664b96ad603b75
+source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 ## Felsökning
 
-Om du inte ser antalet användare, eller om målgruppsstorleken är låg, ska du kontrollera följande:
+Om du inte ser antalet användare, eller om målgruppens storlek är låg, ska du kontrollera följande:
 
 * Om du [!DNL Flashtalking] eller [!DNL Google Campaign Manager 360] annonser, kontrollera sedan att dina annonsers klicknings-URL:er har rätt makron. Se makrona för [[!DNL Flashtalking] annonser](/help/integrations/analytics/macros-flashtalking.md) och [[!DNL Google Campaign Manager 360] annonser](/help/integrations/analytics/macros-google-campaign-manager.md).
 
