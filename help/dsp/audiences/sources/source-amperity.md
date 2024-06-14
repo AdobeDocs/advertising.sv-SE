@@ -2,9 +2,9 @@
 title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Amperity] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: dab24efea38951373ec1ada571b10d9843409baf
+source-git-commit: 25bcc2eefa4dc7873ab8189122d43da336e3e046
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Annonsören måste ta fram och dela segmentmappningsdata.
 
 1. Annonsören måste sedan bekräfta med Adobe Account Team att segmentuppgifterna har tagits emot.
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar för att säkerställa sekretess och regelefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Amperity] var 30:e dag eller mindre.
+Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration inom [!DNL Amperity]. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Amperity] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Steg 5: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 

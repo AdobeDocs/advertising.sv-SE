@@ -2,9 +2,9 @@
 title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Optimizely] förstahandssegment.
 feature: DSP Audiences
-source-git-commit: 23d4dc50d1c6bf966148dab772e0e770087ac869
+source-git-commit: f51f07c1e057eb09c2cad292b2c8062f7d993166
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Annonsören måste ta fram och publicera data med hjälp av sina [!DNL Optimizel
 
    * **Kontokod:** Det här är den alfanumeriska DSP kontokoden som du hittar DSP på [!UICONTROL Settings] > [!UICONTROL Account].
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar för att säkerställa sekretess och regelefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Optimizely] var 30:e dag eller mindre.
+Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Optimizely] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 <!--
 Are they using the Data Platform web services, another type of API, or a UI? Add a link to instructions, including how to designate DSP as the destination. And where will they input the DSP-specific fields?]

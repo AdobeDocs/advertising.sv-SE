@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 2d045640b5bdf8dfba70d0f7da3ac012fd86e82e
+source-git-commit: 84ecc81745c6445d08cd743abfd412d62eddde86
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ När du är klar med alla steg bör segmenten vara tillgängliga DSP 24 timmar. 
 
 Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Om du till exempel skickar 100 hashas-e-postadresser från din kunddataplattform bör de översättas till mer än 90 universella ID:n. En översättningsgrad på 90 % eller mindre är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
-Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar för att säkerställa sekretessefterlevnad, så uppdatera målgrupperna genom att trycka på dem igen [!DNL Tealium] var 30:e dag eller mindre.
+Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Tealium] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
