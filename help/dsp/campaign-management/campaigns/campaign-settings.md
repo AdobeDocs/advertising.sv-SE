@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
+source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Så här beräknar du källskatt:
 
 #### Målgruppsverifiering
 
-**[!UICONTROL comScore Campaign Ratings]:** (Valfritt) Aktiverar [!DNL Comscore validerade kampanjklassificeringar och rapportering av målgruppsverifiering med de angivna inställningarna. Ytterligare avgifter tillkommer.
+**[!UICONTROL comScore Campaign Ratings]:** (Valfritt) Aktiverar [!DNL Comscore] validerad [!DNL Campaign Ratings] mätning och rapportering av målgruppsverifiering, med de angivna inställningarna. Ytterligare avgifter tillkommer.
 
 * **[!UICONTROL Target Gender]:** Det kön som målet ska vara: *[!UICONTROL Both]* (standard), *[!UICONTROL Male]*, eller *[!UICONTROL Female]*
 
