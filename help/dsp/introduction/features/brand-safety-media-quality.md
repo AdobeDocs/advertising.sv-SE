@@ -3,9 +3,9 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,9 @@ Du kan ange standardfilter för visning för varje annonsörer<!-- [default pre-
 
 ### Ämnesanpassning
 
-DSP kan ni rikta in er på eller blockera nyckelordslistor genom att utnyttja våra branschledande sammanhangsbaserade partner [!DNL Comscore] och [!DNL Oracle Data Cloud] ([!DNL Grapeshot]). Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
+DSP kan ni rikta in er på eller blockera nyckelordslistor genom att utnyttja våra branschledande sammanhangsbaserade partner [!DNL Comscore] och [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]). Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
 
-För målinriktning mot ämnen måste du skapa anpassade ämnessegment direkt med [!DNL Comscore] eller [!DNL Grapeshot] (med [!DNL Oracle Data Cloud]). När de har skapats på partnerplattformen kan du [mål eller exkludera ett segment-ID i [!UICONTROL Audience Targeting] sektion för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma för den här funktionen.
+För målinriktning efter ämne måste du skapa anpassade ämnessegment direkt med partnerplattformen. När segmenten har skapats kan du [mål eller exkludera ett segment-ID i [!UICONTROL Audience Targeting] sektion för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma för den här funktionen.
 
 Så här skapar du anpassade ämnessegment:
 

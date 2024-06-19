@@ -3,7 +3,7 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 0%
@@ -346,7 +346,7 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
    * Om du vill markera ett intervall manuellt klickar du inuti en cell och väljer intervallet genom att dra.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Valfritt) tillgängligt för annonsörer som konfigurerats med [!DNL Comscore] och [!DNL Grapeshot] segment) Specifika segmentnamn eller ID:n från [!DNL Comscore] och [!DNL Grapeshot] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
+**[!UICONTROL Topic Targeting]:** (Valfritt) tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] och [!DNL Grapeshot] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] och [!DNL Grapeshot] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
 
 Så här anger du målinriktning:
 
@@ -361,7 +361,7 @@ Så här anger du målinriktning:
 >
 >* Ämnesinriktningen begränsar det lager där placeringen kan offereras, så använd Ämnesanpassning för endast en liten andel av hela köpet.
 >
->* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Comscore] eller [!DNL Grapeshot].
+>* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Grapeshot].
 
 **[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Så här anger du målinriktning:
 
