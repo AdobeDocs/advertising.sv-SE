@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 4aff26ef50d970b8440e2cf07b5f835d2b5a6599
+source-git-commit: d572a406be9271c6ca14d35740f04d15ddbf7364
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -130,9 +130,9 @@ Så här beräknar du källskatt:
 
 * **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Comscore] endast i de länder som stöds.
 
-### [!UICONTROL Attention Measurement]
+### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Aktiverar spårning för placeringsnivån [!UICONTROL Attention Score] Mått (det viktade genomsnittliga antalet uppmärksamhetsenheter över visningar) från [!DNL Adelaide]. Mätvärden är tillgängliga för alla placeringstyper förutom för [!DNL Roku] ansluten TV, endast VPAID-pre-roll och ljud som inte är en poddsändning. DSP kopplar automatiskt en JavaScript-tagg till alla associerade kreatörer, och [!DNL Adelaide] spårar exponeringsdata och skickar dem till DSP dagligen. Du kan använda datumet för att manuellt optimera dina utgifter mot placeringsstrategier med bättre resultat.
+**[!UICONTROL Adelaide]:** Aktiverar spårning för placeringsnivån [!UICONTROL Attention Score] mått (det vägda genomsnittliga antalet [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; över intryck). Mätvärden är tillgängliga för alla placeringstyper förutom för [!DNL Roku] ansluten TV, endast VPAID-pre-roll och ljud som inte är en poddsändning. DSP kopplar automatiskt en JavaScript-tagg till alla associerade kreatörer, och [!DNL Adelaide] spårar exponeringsdata och skickar dem till DSP dagligen. Du kan använda datumet för att manuellt optimera dina utgifter mot placeringsstrategier med bättre resultat.
 
 The [!UICONTROL Attention Score] fältet är tillgängligt i [!UICONTROL Metrics] rapportavsnitt, inom [!UICONTROL Campaigns], [!UICONTROL Packages]och [!UICONTROL Placements] åsikter, och på [!UICONTROL Sites], [!UICONTROL Ads]och [!UICONTROL Inventory] -flikar i [vyn med placeringsinformation](/help/dsp/campaign-management/reports/placement-details-view.md).
 

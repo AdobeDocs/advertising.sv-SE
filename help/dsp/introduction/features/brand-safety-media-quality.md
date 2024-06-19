@@ -3,9 +3,9 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: c8cad651585210d46cb0237e1843952e5e5cec3e
+source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1425'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,16 @@ Visningsfilter som tillhandahålls av våra branschledande partners [!DNL Double
 Du kan ange standardfilter för visning för varje annonsörer<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) -->och sedan valfritt [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
 ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising logo](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png)
+
+### Målinriktning och mätning
+
+[!DNL Adobe's] partnerskap med [!DNL Adelaide] ger annonsörer stöd för Adelaide-måttet &quot;[!DNL Attention Units],&quot; som mäter mediakvaliteten baserat på ögonspårning, exponering och resultatdata.
+
+[Fokusering på placeringsnivå före bud](/help/dsp/campaign-management/placements/placement-settings.md) gör det möjligt för annonsörer att rikta in sig på särskilda nivåer för att förbättra kundengagemanget.
+
+Dessutom kan annonsörer aktivera [spårning för placeringsnivå [!UICONTROL Attention Score] mått](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) (det vägda genomsnittliga antalet [!DNL Attention Units] över intryck) för alla kampanjer för att förstå vilka placeringsstrategier som ger bäst affärsresultat.
+
+Ytterligare avgifter tillkommer för varje separat funktion.
 
 ### Ämnesanpassning
 
