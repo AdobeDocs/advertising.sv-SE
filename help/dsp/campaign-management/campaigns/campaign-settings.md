@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: e231afad3153d8861adf2510a6a2039d781ee1a5
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -122,21 +122,27 @@ Så här beräknar du källskatt:
 
 #### Målgruppsverifiering
 
-**[!UICONTROL Nielsen]:** (Valfritt) Aktiverar [!DNL Nielsen] mätning och rapportering av målgruppsverifiering, med de angivna inställningarna. Ytterligare avgifter tillkommer.
-
-* **[!UICONTROL Target Gender]:** Det kön som målet ska vara: *[!UICONTROL Both]* (standard), *[!UICONTROL Male]*, eller *[!UICONTROL Female]*
-
-* **[!UICONTROL Target Age]:** Det åldersintervall som ska anges som mål. Använd vänster och höger skjutreglage för att minska intervallet efter behov.
-
-* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Nielsen] endast i de länder som stöds.
-
-**[!UICONTROL comScore vCE]:** (Valfritt) Aktiverar [!DNL Comscore validated Campaign Essentials (vCE)] mätning och rapportering av målgruppsverifiering, med de angivna inställningarna. Ytterligare avgifter tillkommer.
+**[!UICONTROL comScore Campaign Ratings]:** (Valfritt) Aktiverar [!DNL Comscore validerade kampanjklassificeringar och rapportering av målgruppsverifiering med de angivna inställningarna. Ytterligare avgifter tillkommer.
 
 * **[!UICONTROL Target Gender]:** Det kön som målet ska vara: *[!UICONTROL Both]* (standard), *[!UICONTROL Male]*, eller *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** Det åldersintervall som ska anges som mål. Använd vänster och höger skjutreglage för att minska intervallet efter behov.
 
 * **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Comscore] endast i de länder som stöds.
+
+### [!UICONTROL Attention Measurement]
+
+**[!UICONTROL Adelaide]:** Aktiverar spårning för placeringsnivån [!UICONTROL Attention Score] Mått (det viktade genomsnittliga antalet uppmärksamhetsenheter över visningar) från [!DNL Adelaide]. Mätvärden är tillgängliga för alla placeringstyper förutom för [!DNL Roku] ansluten TV, endast VPAID-pre-roll och ljud som inte är en poddsändning. DSP kopplar automatiskt en JavaScript-tagg till alla associerade kreatörer, och [!DNL Adelaide] spårar exponeringsdata och skickar dem till DSP dagligen. Du kan använda datumet för att manuellt optimera dina utgifter mot placeringsstrategier med bättre resultat.
+
+The [!UICONTROL Attention Score] fältet är tillgängligt i [!UICONTROL Metrics] rapportavsnitt, inom [!UICONTROL Campaigns], [!UICONTROL Packages]och [!UICONTROL Placements] åsikter, och på [!UICONTROL Sites], [!UICONTROL Ads]och [!UICONTROL Inventory] -flikar i [vyn med placeringsinformation](/help/dsp/campaign-management/reports/placement-details-view.md).
+
+Använda [!DNL Adelaide] segment för mätning medför en CPM-avgift för varje intryck som skickas från annonser med [!DNL Adelaide] måttetiketter. Avgiften är skild från avgifterna för [målinriktning på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
+
+<!--
+Example JavaScript tag:
+
+`<script src="https://www.example.com/aam?asid=0123456789&ad=${TM_AD_ID_NUM}&adv=${TM_ADVERTISER_ID}&ca=${TM_CAMPAIGN_ID_NUM}&df=${NS_PLATFORM_ID}&dt=${NS_DEVICE_GROUPING}&pl=${TM_PLACEMENT_ID_NUM}&ra=${TM_RANDOM}&st=${TM_SITE_URL_URLENC}"></script>`
+-->
 
 ### [!UICONTROL 1st Party Metrics]
 

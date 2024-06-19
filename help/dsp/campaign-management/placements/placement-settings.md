@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 74b7ccc97339663c8baba633ff2baedfb13cba80
+source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
 workflow-type: tm+mt
-source-wordcount: '3789'
+source-wordcount: '3857'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 
 **[!UICONTROL Traffic type]:** De typer av trafik som ska mål. Alternativen inkluderar **[!UICONTROL Websites]** och **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på de webbplatser som ska målas. Nivåerna 1-3 är alla varumärkesskyddade och har godkänts av DSP kartteam.
+**[!UICONTROL Site tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på de webbplatser som ska målas. Nivåerna 1-3 är alla varumärkessäkra och har godkänts av DSP.
 
 * *[!UICONTROL Tier 1]:* Premium-sajter och -tillämpningar som är nationellt igenkännbara.
 
@@ -346,7 +346,7 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
    * Om du vill markera ett intervall manuellt klickar du inuti en cell och väljer intervallet genom att dra.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Valfritt) tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] och [!DNL Grapeshot] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] och [!DNL Grapeshot] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
+**[!UICONTROL Topic Targeting]:** (Valfritt) tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] och [!DNL Oracle Data Cloud] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] och [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]) som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
 
 Så här anger du målinriktning:
 
@@ -361,7 +361,7 @@ Så här anger du målinriktning:
 >
 >* Ämnesinriktningen begränsar det lager där placeringen kan offereras, så använd Ämnesanpassning för endast en liten andel av hela köpet.
 >
->* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Grapeshot].
+>* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Oracle Data Cloud].
 
 **[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Så här anger du målinriktning:
 
@@ -435,6 +435,8 @@ Vilken nivå av [Ads.txt](https://iabtechlab.com/ads-txt-about/) förfiltrera ge
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: Att prioritera inköp av lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Att endast köpa lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Att endast köpa lager från en domäns auktoriserade direktförsäljare.
+
+**[!UICONTROL Attention Targeting]:** (Bildskärm, video, mobiler och vanliga TV-utplaceringar) Målgrupper [!DNL Adelaide] förbudssegment med en viss prioritetsnivå (hög, medel eller låg) baserat på den angivna platsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Använda [!DNL Adelaide] segment för målinriktning får en CPM-avgift för varje intryck som levereras med [!DNL Adelaide] målinriktning; denna avgift är separat från avgifter för [noggrannhetsmätning](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
 
 **[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Annonsörer konfigurerade med [!UICONTROL DoubleVerify Authentic Brand Safety] option) Aktiverar [!DNL DoubleVerify Authentic Brand Safety], som blockerar visningar efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av det segment-ID som anges i annonserarens inställningar.
 
