@@ -3,9 +3,9 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 9332a7e2dae7819d65d35c01a0e3fb71a1c4e992
+source-git-commit: e8cb734e313b6aecfb75dfcbf70347efe83254a5
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
@@ -100,13 +100,13 @@ Du kan ange standardinställningar för kontextuella filter för varje annonsör
 
 ### Blockering av bedrägeri före köp
 
-Utnyttja våra integreringar med andra leverantörer [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science]och [!DNL Peer39] för att blockera icke-mänsklig trafik från era kampanjer. Dessa integreringar ger branschledande funktioner för att blockera före bud för att minimera både allmän och avancerad ogiltig trafik (GIVT och SIVT) i era kampanjer.
+Utnyttja våra integreringar med andra leverantörer [!DNL DoubleVerify], [!DNL Integral Ad Science]och [!DNL Peer39] för att blockera icke-mänsklig trafik från era kampanjer. Dessa integreringar ger branschledande funktioner för att blockera före bud för att minimera både allmän och avancerad ogiltig trafik (GIVT och SIVT) i era kampanjer.
 
 Du kan ange standardkontroller för spärra/knip för bedrägeri före bud för varje annonsörer<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) -->och sedan valfritt [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
 Om du vill ha mer information om funktionalitet kontaktar du din föredragna leverantör direkt eller kontaktar ditt Adobe-kontoteam.
 
-![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
+![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
 
 ### Visning före köp {#pre-bid-viewability}
 

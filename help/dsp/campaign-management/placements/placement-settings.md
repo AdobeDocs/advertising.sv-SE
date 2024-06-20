@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 80b584c124e247e97e8a21153abf30072c361c42
+source-git-commit: e2eca3b77882716c15fc3cde331d211efcd3fb8a
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3858'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Så här anger du målinriktning:
 >
 >* Ämnesinriktningen begränsar det lager där placeringen kan offereras, så använd Ämnesanpassning för endast en liten andel av hela köpet.
 >
->* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Oracle Data Cloud].
+>* Ställ in negativ målgruppsanpassning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]).
 
 **[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Så här anger du målinriktning:
 
