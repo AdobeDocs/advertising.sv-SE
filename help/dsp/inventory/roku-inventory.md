@@ -3,7 +3,7 @@ title: Använda [!DNL Roku] Lager
 description: Läs om DSP partnerskap med [!DNL Roku], inklusive lageralternativ, godkända tredjepartsleverantörer av spårning och bästa praxis för [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Varje [!DNL Roku] placeringen måste ha minst ett mål [!DNL Roku] erbjudande el
 
 ### [!DNL Roku]-Godkända tredjepartsleverantörer av spårning
 
-[!DNL Roku] placeringar kan innehålla händelsepixlar från tredje part och konverteringspixlar från följande leverantörer:  [!DNL Acxiom], [!DNL comScore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]och [!DNL Research Now].
+[!DNL Roku] placeringar kan innehålla händelsepixlar från tredje part och konverteringspixlar från följande leverantörer:  [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]och [!DNL Research Now].
 
 ### Bästa praxis efter placeringsstrategi
 
