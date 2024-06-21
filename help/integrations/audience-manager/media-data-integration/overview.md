@@ -3,9 +3,9 @@ title: Översikt över att skicka DSP exponeringsdata till Adobe Audience Manage
 description: Lär dig hur du använder händelsepixlar från Audience Manager för att hämta in data på visningsnivå och klicknivå från annonskampanjer DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med endast DSP*
 
-*Annonsörer med endast Adobe Advertising-Adobe Audience Manager Integration*
+*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Audience Manager*
 
 Annonsera DSP kunder med Adobe Audience Manager kan använda Audience Manager-händelsepixlar för att hämta in data på visningsnivå och klicknivådata från DSP kampanjer. Händelsepixlarna skickar data som åtgärdbara signaler till Audience Manager. Dessa signaler möjliggör olika DSP, t.ex. mer avancerad segmentering, frekvenshantering, marknadsanalyser och rapportinsikter.
 
@@ -36,7 +36,7 @@ DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du b
 
 ## Hur data spåras
 
-Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte in händelser som inträffar i cookie-fria miljöer, som mobilappar och ansluten TV (CTV).
+Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte in händelser som inträffar i cookie-fria miljöer, som mobilappar och ansluten TV (CTV).<!-- Verify if this is still correct. -->
 
 ### Impression-Tracking Pixels
 
@@ -48,10 +48,9 @@ Audience Manager spårar klickningar på liknande sätt som visningar, förutom 
 
 >[!NOTE]
 >
->Om din organisation använder [!DNL Analytics] spårning behöver du kanske inte spåra Audience Manager-klickningar. Adobe Analytics tar klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Om din organisation använder [!DNL Analytics] spårning behöver du kanske inte spåra Audience Manager-klickningar. Adobe Analytics fångar klicksignalerna och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Samla in data om klick och tryck från annonskampanjer DSP kampanjer](collect.md)
+>* [Samla in klicknings- och imponeringsdata från DSP kampanjer](collect.md)
 >* [Användningsexempel](use-cases.md)
-
