@@ -3,9 +3,9 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: d3991123110617968ce858fd76c12fa039acc2d6
+source-git-commit: db21fa1ed9daab9070fa1ce7740dd5dbaa0f3a2f
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 * Du kan skapa anpassade segment som spårar användare som är kopplade till universella ID:n för ID5 som exponeras för annonser från datorer och mobila enheter och som besöker specifika webbsidor. ID5 använder en sannolikhetsmodell för att tilldela ett ID som härleds från olika användarsignaler och webbläsarsignaler. Instruktioner finns i &quot;[Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md).&quot;
 
-* Tredjepartssegment från [!DNL Eyeota] och vissa andra leverantörer kan automatiskt inkludera ID5-ID:n, förutom användare som spåras med cookies eller enhets-ID:n. Segmentinformationen innehåller storleken för varje typ. Den vanliga användaravgiften för varje segment, som anges bredvid segmentnamnet, gäller. Inga ytterligare avgifter tas ut för ID5-ID:n.
+* Tredjepartssegment från vissa leverantörer kan automatiskt inkludera universella ID:n utöver användare som spåras med cookies eller enhets-ID:n. Till exempel segment från [!DNL Eyeota] kan automatiskt inkludera ID5-ID:n och segment från [!DNL Lotame] kan innehålla UID2.0-ID. Segmentinformationen innehåller storleken för varje typ. Den vanliga användaravgiften för varje segment, som anges bredvid segmentnamnet, gäller. Inga ytterligare avgifter tas ut för ID5-ID:n.
 
 ## Rapportering efter typ av universellt ID
 
