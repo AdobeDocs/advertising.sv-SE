@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: fc58392d060e97f99b12ef41b96c09a0e3fb9aa1
+source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nej | USA/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (tidigare [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
 | [!DNL Google Authorized Buyers] (tidigare [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC och EU - 89185975 | Ja | Global | USD, BRL | x | x | x | x | x |  | x |
-| [!DNL GumGum] |  | Adobe Advertising | Nej | Global | USD | x | x |  | x | x |  | Hangtime-kortplats: 21x21, Mobile-video på kortplatsen: 22x22, Hangtime Desktop på kortplatsen: 24x24, Hoverboard på kortplatsen: 25x25, hastighet på kortplatsen: 26x26, Super Skin: 29x26 9, utbyggbart hörn på skärmen: 20 × 20 |
+| [!DNL GumGum] |  | Adobe Advertising | Nej | Global | USD | x | x |  | x | x |  | |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | Nej | Global | USD | x | x | x | x | x | | |
 | [!DNL Magnite (Streaming) CTV] | [!DNL Magnite] (tidigare [!DNL Telaria] och [!DNL Tremor]) | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | AUD, USD | x | x | x |  |  |  |  |
 | [!DNL Magnite DV+] | [!DNL Magnite] (tidigare [!DNL Telaria] och [!DNL Tremor]) | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | USD | x | x | x | x | x |  | x |
