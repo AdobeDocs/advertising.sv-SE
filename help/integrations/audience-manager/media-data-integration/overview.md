@@ -3,9 +3,9 @@ title: Översikt över att skicka DSP exponeringsdata till Adobe Audience Manage
 description: Lär dig hur du använder händelsepixlar från Audience Manager för att hämta in data på visningsnivå och klicknivå från annonskampanjer DSP
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: 49f7225840ddaf26a37376ffaf7b93207f3ff2f7
+source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du b
 
 ## Hur data spåras
 
-Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte in händelser som inträffar i cookie-fria miljöer, som mobilappar och ansluten TV (CTV).<!-- Verify if this is still correct. -->
+Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte händelser som inträffar i cookie-fria miljöer, som mobilappar.<!-- Verify if this is still correct. -->
 
 ### Impression-Tracking Pixels
 
