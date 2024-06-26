@@ -3,9 +3,9 @@ title: Certifierade annonserande partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8dc79126a63f2c20f8fdaa666c0197ec6583b78e
+source-git-commit: 1c9c7ff2340d4abf4c64f015172b5e0a33b3e1fe
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 | [!DNL Eyereturn] | | X | | | |
 | [!DNL Flashtalking] | X | X | | X | |
 | [!DNL Frequency] | X | | | | |
-| [!DNL Gum Gum] | | | X | | |
+| [!DNL GumGum] | | | X | | Hangtime-kortplats: 21x21, Mobile-video på kortplatsen: 22x22, Hangtime Desktop på kortplatsen: 24x24, Hoverboard på kortplatsen: 25x25, hastighet på kortplatsen: 26x26, Super Skin: 29x26 9, utbyggbart hörn på skärmen: 20 × 20 |
 | [!DNL HUMAN] (Tidigare [!DNL White Ops]) | X | X | | X | |
 | [!DNL IAS] | X | X | | X | |
 | [!DNL IBM] | | X | | X | |
