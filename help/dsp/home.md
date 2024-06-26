@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: a4b0cf95aeedd4dc0c98a23ff0ecbcaad10bd762
+source-git-commit: 1e90b1d4ddcc8fd7b1febc1214fce71daf140a26
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3305'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 24 juni 2024 | Certifierade annonserings-partners | Nya displayannonsenheter med hög effekt är tillgängliga från [!DNL GumGum] | Se &quot;[Certifierade annonserande partners](/help/dsp/campaign-management/ads/certified-ad-servers.md).&quot; |
+| 24 juni 2024 | Certifierade annonserings-partners | Stöd finns för högkvalitativa displayannonsenheter från [!DNL GumGum]. | Se &quot;[Certifierade annonserande partners](/help/dsp/campaign-management/ads/certified-ad-servers.md).&quot; |
 | 19 juni 2024 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | I [!UICONTROL Campaigns], [!UICONTROL Packages]och [!UICONTROL Placements] vyer:<ul><li>Trenddiagram kan nu innehålla följande valfria värden:</li><ul><li>**Dagavstånd:** Visar hur &quot;Gårdagens pacing&quot;-mätresultat trendar över tid.</li><li>**Flygplats framåt/bakåt:** Visar hur den kumulativa paciteten (i förhållande till förfluten tid) trendar över tiden.</li></ul>![Nya mellanrumsmått](/help/dsp/assets/trend-chart-pacing-metrics.png "Nya mellanrumsmått")<li>Datatabeller kan även innehålla nya mellanrumsrelaterade måttkolumner:</li><ul><li>**Gårdagens nödvändiga utgifter:** Det belopp som skulle ha använts i går för en enhetlig fördelning av den återstående budgeten genom resten av flygningen.</li><li>**Gårdagens pacing:** Gårdagens utgifter som en procentandel av gårdagens obligatoriska utgifter. Det här är en förbättrad version av&quot;Today&#39;s OTS&quot;, som nu är föråldrad. När dagens paketering genomgående är mindre än 100 % har paketet eller placeringen problem med sin budgeterade leverans.</li><li>**Dagens nödvändiga utgifter:** Det belopp som i dag ska användas för en enhetlig fördelning av den återstående budgeten genom resten av flygningen.</li><li>**Pacing:** Dagens utgifter som en procentandel av dagens nödvändiga utgifter; värdet uppdateras var 30:e minut. Det här är en förbättrad version av&quot;Gårdagens OTS&quot;, som nu är föråldrad. När gårdagens paketering genomgående är mindre än 100 % har paketet eller placeringen problem med sin budgeterade leverans.</li></ul><li>I datatabeller har kolumnerna&quot;Gårdagens mål&quot; och&quot;Dagens mål&quot; bytt namn till&quot;Gårdagens målutgifter&quot; och&quot;Dagens målutgifter&quot;.</li></ul> | Se &quot;[Skapa en anpassad kolumnvy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create)och &quot;[Redigera en anpassad kolumnvy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit).&quot; |
 | 10 juni 2024 | [!UICONTROL Audiences] | (Betafunktion) Nu kan du konvertera dina egna segment från [!DNL Amperity] och [!DNL Optimizely] kunddataplattformar till segment som består av [[!DNL LiveRamp] [!DNL RampIDs]] eller [!DNL Unified ID 2.0 (UID2.0)] ID. Inom placeringsinställningarna för målgruppsanpassning är de delade segmenten tillgängliga i listan över segment i första parten. | Se &quot;[Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md),&quot;[Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md),&quot; och &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot; |
 |  |  | Det finns dokumentation om DSP betafunktioner för personbaserade, universella ID:n för cookiefri målinriktning. | Se &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot; |
