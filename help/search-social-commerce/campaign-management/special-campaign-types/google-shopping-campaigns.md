@@ -1,11 +1,11 @@
 ---
 title: Implementera [!DNL Google Ads] shoppingkampanjer
 description: Läs mer om arbetsflödet för konfiguration [!DNL Google Ads] shoppingkampanjer.
-exl-id: aab61d94-861f-4072-b044-f9ae6759e028
+exl-id: d80370d9-534d-4854-b7d3-1384a84320ad
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: 3c702a01df1186e74c4f329a08199ce829be0827
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Du kan skapa shoppingkampanjer med [mallar för lagerfeed](/help/search-social-c
 
 1. Konfigurera [!DNL Google Merchant Center] och fylla i produktdata.
 
-1. [Tillåt sökning, sociala medier och handel att hämta data från [!DNL Google Merchant Center] konto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
+1. [Tillåt att Search, Social och Commerce hämtar data från [!DNL Google Merchant Center] konto](/help/search-social-commerce/campaign-management/accounts/merchant-account-manage.md).
 
 1. [Skapa en kampanj](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) i shoppingnätverket.
 
 1. [Skapa en annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) inom kampanjen och ange standarderbjudandet för alla annonser.
 
-Du kan åsidosätta standardanbudet för enskilda produktgrupper.
+   Du kan åsidosätta standardanbudet för enskilda produktgrupper.
 
 1. Skapa produktgrupper för annonsgruppen:
 
@@ -49,7 +49,7 @@ Du kan åsidosätta standardanbudet för enskilda produktgrupper.
 
    1. [Redigera kampanjinställningarna](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md) för att justera kampanjbudgeten.
 
-      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör att Search, Social och Commerce kan optimera budgeten för alla kampanjer i portföljen.
+      Om kampanjen är en del av en portfölj är portföljinställningen[!UICONTROL Auto adjust campaign budget limits]&quot; gör det möjligt för Search, Social och Commerce att optimera budgeten för alla kampanjer i portföljen.
 
    1. [Justera det högsta anbudet för befintliga produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md), [ta bort produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) som du inte längre vill skapa annonser för, eller lägga till en [ny produktgrupp&quot;alla produkter&quot;](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md)) eller [nya underordnade produktgrupper](/help/search-social-commerce/campaign-management/campaigns/product-group-manage.md) för att skapa annonser för ytterligare produkter.
 

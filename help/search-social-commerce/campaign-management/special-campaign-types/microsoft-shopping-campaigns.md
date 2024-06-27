@@ -3,7 +3,7 @@ title: Implementera [!DNL Microsoft Advertising] shoppingkampanjer
 description: Läs mer om arbetsflödet för konfiguration [!DNL Microsoft Advertising] shoppingkampanjer.
 exl-id: fd10237b-864d-4808-8644-3fcb18edebde
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d5d4dee4356d941ea9cae74b9385add00e0480c3
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Du kan skapa shoppingkampanjer med [mallar för lagerfeed](/help/search-social-c
 
 1. [Skapa en annonsgrupp](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) inom kampanjen och ange standarderbjudandet för alla annonser.
 
-Du kan åsidosätta standardanbudet för enskilda produktgrupper.
+   Du kan åsidosätta standardanbudet för enskilda produktgrupper.
 
 1. Skapa produktgrupper för annonsgruppen:
 

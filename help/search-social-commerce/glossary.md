@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 5555bc8ec7e407596252cd385cf1410f7fe959a6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 0%
 
 **[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
 
-**budenhet:** En söknings-, social- och handelsterm för en enhet där anbud läggs. För de flesta kampanjer i de flesta nätverk är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sökannonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
+**budenhet:** En Search-, Social- och Commerce-term för en enhet där anbud ska lämnas.
+
+* För CPC-kampanjer är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sök- och annonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
+
+* För kampanjer med [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition], eller [!DNL Target Return on Ad Spend] utgiftsstrategier är varje kampanj en budenhet.
+
+* För kampanjer på [!DNL Yahoo! Display Network], som inte använder nyckelord, har alla annonser i en annonsgrupp samma bud och betraktas som samma budenhet.
 
 **budenhetsbegränsning:** Se&quot;begränsning&quot;.
 
 ## C-D {#c-d}
 
-**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsrymd, målgruppsanpassning och andra inställningar. **Obs!** [!DNL Baidu] har inte samma koncept som kampanjer, men Search, Social och Commerce skapar pseudokampanjer för varje uppsättning relaterade annonser i befintliga [!DNL Baidu] konton som synkroniseras inom Sök, Socialt och Handel.
+**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsrymd, målgruppsanpassning och andra inställningar. **Obs!** [!DNL Baidu] har inte samma koncept som kampanjer, men Search, Social och Commerce skapar pseudokampanjer för varje uppsättning relaterade annonser i befintliga [!DNL Baidu] konton som synkroniseras i Search, Social och Commerce.
 
 **skiftlägeskänsligt fält:** Ett skiftlägeskänsligt fält eller en fråga behandlar versaler (t.ex. C) annorlunda än gemener (t.ex. c). Bilen behandlas till exempel som ett annat värde än bilen.
 
@@ -48,7 +54,7 @@ ht-degree: 0%
 
 **kostnadseffektivitet:** (Annonsörer med portföljer) De faktiska utgifterna för en portfölj dividerat med de prognostiserade utgifterna.
 
-**kostnadsmodell:** (Annonsörer med portföljer) Teknik för sökning, sociala medier och handel som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
+**kostnadsmodell:** (Annonsörer med portföljer) Sök-, social- och Commerce-teknik som beräknar kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering och CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
 **kostnadsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen budenheter som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Alla anbudsenheter har inte kostnadsmodeller; de som räknas in i kostnadsmodellens täckning.
 
@@ -126,7 +132,7 @@ ht-degree: 0%
 
 Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
-**optimeringsfunktion:** (Annonsörer med portföljer) Nyckelordsbudgivningsteknik för sökning, sociala medier och handel, som avgör den optimala strategin för budgivning och budgethantering för en portfölj baserat på dess verksamhetsmål.
+**optimeringsfunktion:** (Annonsörer med portföljer) Nyckelordsbudgivningsteknik för sökning, sociala medier och Commerce, som avgör den optimala strategin för budgivning och budgethantering för en portfölj baserat på dess affärsmål.
 
 **överbliven transaktion:** En transaktionshändelse som inte kan kopplas till ett specifikt nyckelord eller en viss annons.
 
@@ -154,7 +160,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **intäktsnoggrannhet:** (Annonsörer med portföljer) De faktiska intäkterna för en portfölj dividerat med de beräknade intäkterna.
 
-**intäktsmodell:** (Annonsörer med portföljer) Teknik för sökning, sociala medier och handel som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala data) eller visningsdata (displaydata) och annonsörens konverteringsdata.
+**intäktsmodell:** (Annonsörer med portföljer) Sök-, social- och Commerce-teknik som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala data) eller visningsdata (displaydata) och annonsörens konverteringsdata.
 
 **intäktsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen av anbudsenheter i en portfölj med intäktsmodeller. Anbudsenheterna kan ha intäktsmodeller även om de inte har fått några intäkter utan fått intäktsvisningar.
 
