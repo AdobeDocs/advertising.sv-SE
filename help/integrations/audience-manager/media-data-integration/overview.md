@@ -1,22 +1,22 @@
 ---
 title: Översikt över att skicka DSP exponeringsdata till Adobe Audience Manager
-description: Lär dig hur du använder händelsepixlar från Audience Manager för att hämta in data på visningsnivå och klicknivå från annonskampanjer DSP
+description: Lär dig hur du använder händelsepixlar från Audience Manager för att hämta in data på visningsnivå och klicknivå från Advertising DSP-kampanjer
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: aec57b49e636d63fc6967af8764ed62f239f31bb
+source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
 # Översikt över att skicka DSP exponeringsdata till Adobe Audience Manager
 
-*Annonsörer med endast DSP*
+*Annonsörer endast med Advertising DSP*
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Audience Manager*
 
-Annonsera DSP kunder med Adobe Audience Manager kan använda Audience Manager-händelsepixlar för att hämta in data på visningsnivå och klicknivådata från DSP kampanjer. Händelsepixlarna skickar data som åtgärdbara signaler till Audience Manager. Dessa signaler möjliggör olika DSP, t.ex. mer avancerad segmentering, frekvenshantering, marknadsanalyser och rapportinsikter.
+Advertising DSP-kunder med Adobe Audience Manager kan använda Audience Manager händelsepixlar för att hämta in data på visningsnivå och klicknivådata från DSP kampanjer. Händelsepixlarna skickar data som åtgärdbara signaler till Audience Manager. Dessa signaler möjliggör olika DSP, t.ex. mer avancerad segmentering, frekvenshantering, marknadsanalyser och rapportinsikter.
 
 DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du betalar standardkostnaden för att ta emot Audience Manager baserat på serversamtal enligt Audience Manager-avtalet. Audience Manager tar bort dubbletthändelser som spåras på två olika sätt, så att varje händelse bara debiteras en gång.
 
@@ -36,7 +36,7 @@ DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du b
 
 ## Hur data spåras
 
-Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte händelser som inträffar i cookie-fria miljöer, som mobilappar.<!-- Verify if this is still correct. -->
+Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte in händelser som inträffar i miljöer utan cookies, som mobilappar och ansluten TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Impression-Tracking Pixels
 
@@ -52,5 +52,5 @@ Audience Manager spårar klickningar på liknande sätt som visningar, förutom 
 
 >[!MORELIKETHIS]
 >
->* [Samla in klicknings- och imponeringsdata från DSP kampanjer](collect.md)
+>* [Samla in klicknings- och imponeringsdata från Advertising DSP Campaigns](collect.md)
 >* [Användningsexempel](use-cases.md)
