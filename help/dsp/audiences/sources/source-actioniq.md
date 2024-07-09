@@ -2,9 +2,9 @@
 title: "Konvertera användar-ID från [!DNL ActionIQ] till universella ID"
 description: "Lär dig hur DSP kan importera [!DNL ActionIQ] förstapartssegment."
 feature: DSP Audiences
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,21 @@ Det finns <!-- NN --> steg för att dela data från [!DNL ActionIQ] med DSP:
 
 1. När du har skapat målgruppskällan kan du dela källkodnyckeln med [!DNL ActionIQ] användare.
 
-1. 
-   <!-- ActionIQ-specific step(s) -->
+## Steg 2:
+
+## Steg 3:
 
 1. Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fyller i och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
 
-   Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
-
-   Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
-
-   Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
+   Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar. Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
 Segmenten uppdateras var 24:e timme.
 
-## Steg 2:
+## Felsökning
+
+Om du vill felsöka problem med översättningsfrekvens och antal användare kan du läsa &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot;
+
+Om du vill felsöka problem med konverteringsproceduren kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

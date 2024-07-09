@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Optimizely] förstahandssegment.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,13 @@ Segmenten kommer att uppdateras enligt annonsörens konfiguration. Oberoende av 
 
 Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
 
-Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
+Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser. Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
-Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+## Felsökning
 
-Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
+Om du vill felsöka problem med översättningsfrekvens och antal användare kan du läsa &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot;
+
+Om du vill felsöka problem med konverteringsproceduren kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

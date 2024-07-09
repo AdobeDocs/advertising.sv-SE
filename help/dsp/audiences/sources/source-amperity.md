@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Amperity] förstahandssegment.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,15 @@ Segmenten kommer att uppdateras enligt konfigurationen för annonsören i [!DNL 
 
 ## Steg 5: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar. I ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
+När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
 
-Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+I ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) jämför antalet universella ID med antalet ursprungliga hashade e-postadresser. Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
-Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
+## Felsökning
+
+Om du vill felsöka problem med översättningsfrekvens och antal användare kan du läsa &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot;
+
+Om du vill felsöka problem med konverteringsproceduren kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

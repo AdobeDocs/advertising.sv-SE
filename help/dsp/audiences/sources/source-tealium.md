@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Tealium] förstahandssegment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -142,13 +142,15 @@ Du kan bara ha en koppling per segment och ett segment per koppling.
 
 Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
 
-Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fyller i och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
-
-Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fyller i och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser. Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
 Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Tealium] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
 
-Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
+## Felsökning
+
+Om du vill felsöka problem med översättningsfrekvens och antal användare kan du läsa &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot;
+
+Om du vill felsöka problem med konverteringsproceduren kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

@@ -3,9 +3,9 @@ title: Använda DSP integrering med [!DNL Adobe] [!DNL Real-time CDP]
 description: Lär dig hur du aktiverar DSP att importera [!DNL Adobe] [!DNL Real-time CDP] förstahandssegment.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
+source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,15 @@ Använd DSP integrering med [den [!DNL Adobe Real-Time Customer Data Platform (C
 
 1. Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) som segmentet fyller i och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
 
-   Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
-
-   Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
-
-   Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
+   Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar. Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
 Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera era segment genom att trycka dem igen från Real-Time CDP innan de upphör att gälla. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
+
+## Felsökning
+
+Om du vill felsöka problem med översättningsfrekvens och antal användare kan du läsa &quot;[Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md).&quot;
+
+Om du vill felsöka problem med konverteringsproceduren kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
