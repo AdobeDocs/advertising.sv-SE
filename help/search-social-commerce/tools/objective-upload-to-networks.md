@@ -3,9 +3,9 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: d703b0d0134dbd16b2672b13d2ea63e4f102e105
+source-git-commit: 39936c6834012432447d3216d8463937996b0017
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 Search, Social, &amp; Commerce kan överföra målen för ett annonskontos portföljer till [!DNL Google Ads] och [!DNL Microsoft Advertising] så att du kan använda dem för hybridoptimering. De uppladdade målen är tillgängliga som konverteringsåtgärder för anpassade konverteringsmål på kontonivå och kampanjnivå.
 
-Om du aktiverar det här alternativet aktiveras automatiskt en överföring för mål i portföljer som innehåller kampanjer med smarta budgivningsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje relevant mål. Konverteringen representerar alla viktade konverteringsvärden i målet på nivån för EF-ID (klicka-ID). Varje konvertering har ett av följande namn:
+Om du aktiverar det här alternativet aktiveras automatiskt en överföring för mål i portföljer som innehåller kampanjer med smarta budgivningsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje relevant mål. Konverteringen representerar alla viktade konverteringsvärden i målet på nivån för EF-ID (klicka-ID). För [!DNL Google Ads] klickningar är EF-ID:t [!DNL Google Ads] `gclid`; for [!DNL Microsoft Advertising] klickningar är EF-ID:t [!DNL Microsoft Advertising] `msclkid`. På grund av det här klicknings-ID:t kan konverteringsdata mappas till det specifika nyckelordet och klicktiden.
+
+Varje konvertering som skickas har ett av följande namn:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -34,15 +36,7 @@ Om du aktiverar det här alternativet aktiveras automatiskt en överföring för
 
 >[!IMPORTANT]
 >
->Konverteringar som spåras av Google Ads och Microsoft Advertising UET-taggen (Universal Event tracking) överförs inte till annonsnätverken igen. Om ni inkluderar dem i ett mål lägger ni till dem i kampanjmålen i annonsnätverkets redaktör.
-
-<!--
->[!IMPORTANT]
->
->Objectives for hybrid portfolios may include conversion goals from multiple ad networks and other types of conversion metrics. However, the individual campaigns in the portfolio can't include conversion goals that aren't included in the portfolio's objective; using additional conversion goals may impact portfolio performance.
--->
-
-<!-- Can conversions from events triggered on other ad networks be included in the portfolio (and just be ignored)? -->
+>Konverteringar som spåras av Google Ads och Microsoft Advertising UET-taggen (Universal Event tracking) överförs inte till annonsnätverken igen. Om ni inkluderar dem i ett mål måste ni lägga till dem i kampanjmålen i annonsnätverkets redaktör.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]**.
 

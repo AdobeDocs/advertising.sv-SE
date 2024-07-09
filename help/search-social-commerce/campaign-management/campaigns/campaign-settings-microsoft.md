@@ -3,9 +3,9 @@ title: '''[!DNL Microsoft Advertising] kampanjinställningar'
 description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: 41feb7c717307bc716236517320bdfe7e98c45ab
+source-git-commit: 096271a2e9daddc20f7f5f4e0063fda21974c8a1
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 0%
 
   När ni väl har sparat en shoppingkampanj för varumärken med denna anbudsstrategi kan ni inte ändra anbudsstrategin. För andra typer av shoppingkampanjer är den här strategin bara tillgänglig för nya kampanjer.
 
-* *[!UICONTROL CPV]* (Endast CTV-kampanjer för målgrupp) Använder modellen för kostnad per vy (CPV). <!-- Campaigns with this bid strategy aren't optimized when they're included in portfolios. -->
+* *[!UICONTROL CPV]* (Endast CTV-kampanjer för målgrupp) Använder modellen för kostnad per vy (CPV). Search, Social och Commerce erbjuder ingen optimering för kampanjer med denna anbudsstrategi som ingår i portföljer.
 
 * *[!UICONTROL Enhanced CPC]:* (Kampanjer för målgrupp, söknätverk och shoppingnätverk) Använder annonsnätverkets förbättrade modell för kostnad per klick (eCPC), som gör att annonsnätverket automatiskt kan ändra priset per klick (CPC) för varje auktion i ett försök att maximera konverteringarna med hjälp av konverteringar som anges i annonsnätverket (inte i Search, Social och Commerce), samtidigt som man försöker hålla den genomsnittliga CPC:n under den maximala CPC:n.
 
@@ -164,7 +164,7 @@ När du har länkat kampanjen till en butik och sparat inställningarna kan du i
 
 **[!UICONTROL Negative Websites]:** (Kampanjer endast på displayen/det ursprungliga nätverket, valfritt) Webbplatser i visningsnätverket där du inte vill att dina annonser ska visas. Ange en giltig URL, till exempel www.example.com. Om du vill ange flera strängar avgränsar du dem med kommatecken eller anger dem på separata rader.
 
-Mer information om tillgänglighet finns i Microsoft Advertising Help to &quot;[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
+Mer information om tillgänglighet finns i Microsoft Advertising-hjälpen till[Förhindra att annonser visas på specifika webbplatser](https://help.ads.microsoft.com/#apex/bae/en/14061/0).&quot;
 
 ## [!UICONTROL Campaign Tracking]
 
@@ -301,13 +301,9 @@ Mer information om tillgänglighet finns i Microsoft Advertising Help to &quot;[
 
 >[!TIP]
 >
->För hybridportfolior för vilka ni överför mål till annonsnätverket är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Men om kampanjmålen omfattar konverteringar som spåras av [!DNL Microsoft Advertising] UET-taggen (Universal Event tracking) och lägg sedan till dem i [!DNL Microsoft Advertising] redigerare eftersom de inte överförs till annonsnätverket igen med målet. I [!DNL Microsoft Advertising] kan du ta bort kampanjens konverteringsåtgärder som standardmål genom att avmarkera Inkludera i konverteringar.
-
-<!-- Check on this:
->If the campaign is part of a hybrid portfolio, then use only conversion goals that are included in the portfolio's objective for the campaign. Including additional conversion goals may impact portfolio performance.
+>Om kampanjen ingår i en blandad portfölj är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Om ytterligare konverteringsmål inkluderas kan portföljens resultat påverkas.
 >
->The objective may include conversion goals or other conversions that aren't included for the campaign, but the campaign can't include conversion goals that aren't included in the objective.
--->
+> Men för kampanjer i hybridportfolior som ni [överföra mål till annonsnätverket](/help/search-social-commerce/tools/objective-upload-to-networks.md), gör följande i annonsnätverkets redigerare i stället för här: a) lägg till det överförda söknings-, sociala och Commerce-portföljmålet (som börjar med&quot;O_ACS_OBJ&quot;) som ett konverteringsmål för kampanjen, och b) lägg till alla kampanjmål som inkluderar konverteringar som spåras av kampanjen [!DNL Microsoft Advertising] UET-tagg (Universal Event tracking) eftersom annonsnätverkets spårade mätvärden inte överförs till annonsnätverket med målet.
 
 >[!MORELIKETHIS]
 >
