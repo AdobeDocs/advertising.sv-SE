@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
+source-git-commit: a8227e42c49e30d6b73daf51e4f62da05f6508f3
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,14 @@ Du kan åsidosätta inställningen på paketnivå på [placeringsnivå](/help/ds
 
 * **[!UICONTROL Placement level pacing]:**  Den här paketeringsstrategin fungerar genom att alla inkluderade placeringar paketeras och fästs *individuellt*. Det bästa sättet är att endast använda denna strategi för att genomföra garanterade privata marknadsplatserbjudanden.
 
-**[!UICONTROL Flight Dates]:** Paketets startdatum och slutdatum.
-
-Om du vill skapa icke-jämna mellanrum för paketet väljer du *[!UICONTROL *Activate Custom Flighting]** och konfigurera anpassade flygningar i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad belysning och sparat paketet kan du inte inaktivera anpassad belysning.
+**[!UICONTROL Flight Dates]:** Paketets totala startdatum och slutdatum. Flightdatumen måste inkluderas i kampanjens flygdatum.
 
 >[!NOTE]
 >
->* Flightdatumen måste inkluderas i kampanjens flygdatum. Dessutom måste flygdatum för alla placeringar som är tilldelade detta paket inkluderas i dessa datum.
+>* Flightdatumen för alla placeringar som är tilldelade detta paket måste inkluderas inom dessa datum.
 > * Du kan inte redigera paketets startdatum när anpassad ljussättning aktiveras.
+
+**[!UICONTROL *Activate Custom Flighting]:** Gör att du kan skapa icke-jämna mellanrum för paketet i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad felsökning och sparat paketet kan du inte inaktivera anpassad felsökning eller redigera paketets startdatum.
 
 **[!UICONTROL Budget]:** (Paket med enbart paketnivåpaketering) Bruttobudgetens övre gräns och budgetintervallet.
 
