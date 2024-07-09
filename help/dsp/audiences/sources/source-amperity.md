@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Amperity] förstahandssegment.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: ed74f3fa3d0036e0dc8a529b05452567527f68a1
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Segmenten kommer att uppdateras enligt konfigurationen för annonsören i [!DNL 
 
 När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar. I ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
 
-Översättningsfrekvensen för hash-kodade e-postadresser till universella ID måste vara högre än 90 %. Översättningsfrekvensen för [!DNL RampIDs] ska i synnerhet vara 95 % om alla hash-kodade e-postadresser är unika. Om du t.ex. skickar 100 hash-kodade e-postadresser från din kunddataplattform bör de översättas till minst 95 [!DNL RampIDs] eller mer än 90 andra typer av universella ID:n. En lägre översättningsgrad är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+Information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
 Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 

@@ -3,9 +3,9 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
+source-git-commit: 8a8f19c7db95c0eda05a3262eeaf4c8a0aeaaa64
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Ungefär 24 timmar efter att du har aktiverat ett segment ska du kontrollera antalet konverterade ID:n för segmentet inom [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Kontakta ditt kontoteam på Adobe om ID-antalet är oväntat.
 
-  Se &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances)&quot; för mer information om hur antalet segment kan variera.
+  Se &quot;[Datavariationer mellan e-post-ID och universella ID](#universal-ids-data-variances)&quot; för mer information om hur antalet segment kan variera.
 
 * Ändra inte befintliga paket och placeringar. Om du inte har någon ytterligare budget för att testa universella ID:n ska du minska den ursprungliga budgeten för att finansiera testerna.
 
@@ -96,15 +96,21 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Tänk på att räckvidden för autentiserade målgruppssegment är naturligt mindre än räckvidden för cookie-baserade segment, och att ytterligare målgruppsalternativ minskar er räckvidd ytterligare. Var klok på att använda detaljerad målinriktning, särskilt genom att koppla ihop flera mål med AND-satser.
 
-## Orsaker till dataavvikelser mellan e-post-ID och universella ID {#universal-ids-data-variances}
+## Datavariationer mellan e-post-ID och universella ID {#universal-ids-data-variances}
+
+### Godtagbara variationsnivåer
+
+Översättningsfrekvensen för hash-kodade e-postadresser till universella ID måste vara högre än 90 %. Översättningsfrekvensen för [!DNL RampIDs] ska i synnerhet vara 95 % om alla hash-kodade e-postadresser är unika. Om du t.ex. skickar 100 hash-kodade e-postadresser från din kunddataplattform bör de översättas till minst 95 [!DNL RampIDs] eller mer än 90 andra typer av universella ID:n. En lägre översättningsgrad kan tyda på ett problem. Se &quot;[Orsaker till avvikelse](#universal-ids-data-variances-reasons&quot;) för möjliga förklaringar.
+
+För [!DNL RampIDs]kan du kontakta kontoteamet på Adobe för att få mer information om översättningsnivån är lägre än 70 %.
+
+### Orsaker till avvikelse {#universal-ids-data-variances-causes}
 
 * Hash-kodade e-post-ID:n som översatts till ID5-ID:n:
 
   Sannolikhetsmodellen har en felvarians på +/- 5 %. Det innebär att antalet målgrupper kan överskattas eller underskattas med 5 %.
 
 * Hash-kodade e-post-ID:n översatta till [!DNL RampIDs]:
-
-  Översättningsfrekvensen för hash-kodade e-postadresser till [!DNL RampIDs] ska vara 95 % om alla hashade e-postadresser är unika. Om du vill ha en översättningsnivå som är lägre än 70 % kontaktar du kontoteamet på Adobe för ytterligare information.
 
    * När flera profiler använder samma e-post-ID kan antalet DSP vara lägre än antalet profiler på er kunddataplattform. I Adobe Photoshop kan du till exempel skapa ett företagskonto och ett personligt konto med ett enda e-post-ID. Men om båda profilerna tillhör samma person mappas profilerna till ett e-post-ID och därefter till ett [!DNL RampID].
 
