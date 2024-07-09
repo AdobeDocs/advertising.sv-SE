@@ -3,7 +3,7 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
+source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du kan åsidosätta inställningen på paketnivå på [placeringsnivå](/help/ds
 >* Flightdatumen för alla placeringar som är tilldelade detta paket måste inkluderas inom dessa datum.
 > * Du kan inte redigera paketets startdatum när anpassad ljussättning aktiveras.
 
-**[!UICONTROL *Activate Custom Flighting]:** Gör att du kan skapa icke-jämna mellanrum för paketet i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad felsökning och sparat paketet kan du inte inaktivera anpassad felsökning eller redigera paketets startdatum.
+**[!UICONTROL Activate Custom Flighting]:** Gör att du kan skapa icke-jämna mellanrum för paketet i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad felsökning och sparat paketet kan du inte inaktivera anpassad felsökning eller redigera paketets startdatum.
 
 **[!UICONTROL Budget]:** (Paket med enbart paketnivåpaketering) Bruttobudgetens övre gräns och budgetintervallet.
 
