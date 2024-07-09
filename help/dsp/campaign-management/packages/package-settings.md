@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
+source-git-commit: 5a173c53bdd0a5673c968b1ebc6348a40e99c80c
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -120,12 +120,10 @@ Ange startdatum, slutdatum och mål för utgift för varje flygning. Klicka på 
 För befintliga paket kan du även ange ett värde i [!UICONTROL Rollover] kolumn för en flygning för att lägga till eventuell oanvänd budget till nästa flygning. Projicerat värde i [!UICONTROL Adjusted Goal (Goal + Rollover)] -kolumnen ändras därefter.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
-
-För e
->>
-* [Om pakethantering](package-about.md)
+>
+>* [Om pakethantering](package-about.md)
 >* [Skapa ett paket](package-create.md)
-* [Redigera ett paket](package-edit.md)
-* [Koppla en placering till ett paket](package-attach-placement.md)
-* [Visa ändringsloggen för ett paket](package-change-log.md)
-* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Redigera ett paket](package-edit.md)
+>* [Koppla en placering till ett paket](package-attach-placement.md)
+>* [Visa ändringsloggen för ett paket](package-change-log.md)
+>* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
