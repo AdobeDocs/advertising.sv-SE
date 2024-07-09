@@ -3,16 +3,16 @@ title: Krav och viktig information för implementering [!DNL Analytics for Adver
 description: Krav och viktig information för implementering [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 156e64af56e0aa95999210bd0cc8df38ce42690d
+source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
 
 # Krav och viktig information för implementering [!DNL Analytics for Advertising]
 
-*Annonsörer med DSP och[!DNL Advertising Search, Social, & Commerce]*
+*Annonsörer med Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
 
 Granska följande information innan du integrerar Adobe Advertising med Adobe Analytics.
 
@@ -23,7 +23,7 @@ Granska följande information innan du integrerar Adobe Advertising med Adobe An
    * Identitetstjänst för Experience Cloud: `visitorAPI.js` version 2.0 eller senare
 * Alla versioner av Adobe Analytics (inklusive [!DNL Prime], [!DNL Premium], eller [!DNL Ultimate])
 * Adobe Analytics: `appMeasurement.js` version 2.1 eller senare
-* (DSP kunder) och [Advertising DSP JavaScript snippet](javascript.md) på webbsidorna för att spåra besök.
+* (Advertising DSP-kunder) En [Advertising DSP JavaScript snippet](javascript.md) på webbsidorna för att spåra besök.
 
 >[!TIP]
 >
@@ -58,7 +58,7 @@ För [!DNL Analytics] data skickas till Adobe Advertising för rapportering och 
   >
   > Fönstret för visningssökning är specifikt för Adobe Advertising, inte [!DNL Analytics for Advertising], rapporter.
 
-The [!DNL Analytics for Advertising] JavaScript använder dessa inställningar för att avgöra hur långt tillbaka en genomskinlig post eller klickbar post till webbplatsen ska vara giltig. Mer information om hur du ser genom- och genomklickningar finns i &quot;[Adobe Advertising ID som används av Analytics](ids.md).&quot;
+The [!DNL Analytics for Advertising] JavaScript använder dessa inställningar för att avgöra hur långt tillbaka en genomskinlig eller klickbar post till webbplatsen ska vara. Mer information om hur du ser genom- och genomklickningar finns i &quot;[Adobe Advertising ID som används av Analytics](ids.md).&quot;
 
 ## Adobe Advertising data i [!DNL Analytics]
 
@@ -76,6 +76,7 @@ The [!DNL Analytics for Advertising] JavaScript använder dessa inställningar f
 * Visa
 * Video
 * Online-video
+* Ansluten TV
 * Inbyggt
 
 Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stöds i varje kanal.
@@ -95,8 +96,6 @@ Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stö
 * [!DNL Analytics for Advertising] Vid konverteringsspårning i Adobe Analytics används ett konfigurerbart uppföljningsfönster (60 dagar som standard). Adobe Advertising-rapporter återspeglar webbplatskonverteringar och engagemang i slutet av detta uppföljningsfönster.
 
 * Alla annonstyper stöds. Alla annonsmiljöer stöds dock inte.
-
-  Annonser för uppkopplad TV (CTV) spåras till exempel inte eftersom det inte finns några klick i CTV och inga konverteringar kan ske på samma enhet. Men om annonsen visas i en skrivbordsmiljö kan vissa data för genomskinlig webbplatspost spåras.
 
 * [!DNL Analytics] konverteringar spåras för närvarande och tilldelas endast en besökare på samma enhet.
 
