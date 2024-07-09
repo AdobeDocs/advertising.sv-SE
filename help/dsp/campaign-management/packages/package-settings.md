@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 6e4416f7a46c6d7e9a4c680c850f81ef836f9f7a
+source-git-commit: 1ae55a0c4750e25429c954c406352b2235805016
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -115,13 +115,17 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 (Paket med pachelagring på paketnivå och med[!UICONTROL Activate Custom Flighting]&quot; aktiverat) Anpassade flygperioder inom det övergripande [!UICONTROL Flight Dates] som anges i [!UICONTROL Goals & Budget] -avsnitt.
 
-Ange startdatum, slutdatum och målantal visningar för varje flygning. Klicka på **[!UICONTROL Add Flight]**.
+Ange startdatum, slutdatum och mål för utgift för varje flygning. Klicka på **[!UICONTROL Add Flight]**.
+
+För befintliga paket kan du även ange ett värde i [!UICONTROL Rollover] kolumn för en flygning för att lägga till eventuell oanvänd budget till nästa flygning. Projicerat värde i [!UICONTROL Adjusted Goal (Goal + Rollover)] -kolumnen ändras därefter.<!-- clarify usage -->
 
 >[!MORELIKETHIS]
->
->* [Om pakethantering](package-about.md)
+
+För e
+>>
+* [Om pakethantering](package-about.md)
 >* [Skapa ett paket](package-create.md)
->* [Redigera ett paket](package-edit.md)
->* [Koppla en placering till ett paket](package-attach-placement.md)
->* [Visa ändringsloggen för ett paket](package-change-log.md)
->* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+* [Redigera ett paket](package-edit.md)
+* [Koppla en placering till ett paket](package-attach-placement.md)
+* [Visa ändringsloggen för ett paket](package-change-log.md)
+* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
