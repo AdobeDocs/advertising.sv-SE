@@ -1,24 +1,22 @@
 ---
 title: Använda [!DNL Roku] Lager
-description: Läs om DSP partnerskap med [!DNL Roku], inklusive lageralternativ, godkända tredjepartsleverantörer av spårning och bästa praxis för [!DNL Roku]-specifika placeringar.
+description: Läs om hur du DSP partnerskap med [!DNL Roku], inklusive lageralternativ, godkända tredjepartsleverantörer av spårning och bästa praxis för [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Använda [!DNL Roku] Lager
 
-DSP erbjuder unika funktioner för annonsering på [!DNL Roku].
+Advertising DSP har funktioner för annonsering på [!DNL Roku].
 
 ## DSP och [!DNL Roku] Partnerskap
 
-Roku och DSP har ett unikt samarbete som matchar dina [!DNL DSP] målgrupper [!DNL Roku] ID:n för 1:1 deterministisk målgruppsanpassning på [!DNL Roku] lager.
-
-Utanför Rokus egna DSP (OneView) har Advertising DSP tillgång till dessa målningsfunktioner. DSP är också den enda DSP som har tillstånd att mäta [!DNL Roku] leverans bredvid alla andra TV-lager (med internetanslutning). För [!DNL Roku] delar inte alla standard-RTB- och visningssignaler i pixlar, och ingen annan DSP kan rikta eller mäta sig med den Roku-sålda CTV-leverantören.
+The [!DNL Roku] och DSP partnerskap matchar [!DNL DSP] målgrupper [!DNL Roku] ID:n för 1:1 deterministisk målgruppsanpassning på [!DNL Roku] lager.
 
 ## [!DNL Roku] Lageralternativ
 
@@ -53,7 +51,7 @@ Med privata avtal kan ni anpassa avtalsparametrarna efter era behov.
 
 DSP kampanjer [skapa [!DNL Roku]-specifika placeringar](/help/dsp/campaign-management/placements/placement-create.md) med placeringstypen &quot;[!UICONTROL Connected TV (Roku)].&quot; Inkludera [!DNL Roku] placeringar i [!DNL Roku]-specifika paket med definierade mål.
 
-Varje [!DNL Roku] placeringen måste ha minst ett mål [!DNL Roku] erbjudande eller källa. Använd DSP unika målgruppsmatchning med [!DNL Roku], innehåller ett eller flera målgruppssegment som kan matchas mot [!DNL Roku] (opted-in) deterministic dataset.
+Varje [!DNL Roku] placeringen måste ha minst ett mål [!DNL Roku] erbjudande eller källa. Använda DSP målgruppsmatchning med [!DNL Roku], innehåller ett eller flera målgruppssegment som kan matchas mot [!DNL Roku] (opted-in) deterministic dataset.
 
 ### [!DNL Roku]-Godkända tredjepartsleverantörer av spårning
 
