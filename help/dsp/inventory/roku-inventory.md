@@ -3,9 +3,9 @@ title: Använda [!DNL Roku] Lager
 description: Läs om hur du DSP partnerskap med [!DNL Roku], inklusive lageralternativ, godkända tredjepartsleverantörer av spårning och bästa praxis för [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 5427b476d8475c1f6863d5227df45685c39da297
+source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Advertising DSP har funktioner för annonsering på [!DNL Roku].
 
-## DSP och [!DNL Roku] Partnerskap
+## Målgruppsmatchning
 
 The [!DNL Roku] och DSP partnerskap matchar [!DNL DSP] målgrupper [!DNL Roku] ID:n för 1:1 deterministisk målgruppsanpassning på [!DNL Roku] lager.
 
@@ -26,12 +26,12 @@ Du kan antingen a) konfigurera privata avtal-ID:n direkt med [!DNL Roku] och ang
 >
 >[!DNL Roku] det finns inget tillgängligt lager på öppna marknadsplatser och börser.
 
-* För era privata erbjudanden [konfigurera information om erbjudande-ID:n i DSP](/help/dsp/inventory/deal-id-create.md) och sedan ange &quot;[!UICONTROL Roku Network – Audience]och &quot;[!UICONTROL The Roku Channel – Audience]&quot; inom [!DNL Roku] placeringar.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
+* För era privata erbjudanden [konfigurera information om erbjudande-ID:n i DSP](/help/dsp/inventory/deal-id-create.md) och sedan ange &quot;[!UICONTROL Roku Network - Audience]och &quot;[!UICONTROL The Roku Channel - Audience]&quot; inom [!DNL Roku] placeringar.<!-- Or do you target the deal ID?? I see those strings for Roku On Demand inventory. Clarify if all Roku private deals show up as one or the other of these in Roku Private inventory in Roku placement settings. -->
 
 * Du kan [prenumerera på följande [!DNL Roku] lager inom [!DNL On Demand] Galleri](/help/dsp/inventory/on-demand-inventory-subscribe.md)och därefter rikta in er på något av de godkända avtalen inom [!DNL Roku] placeringar:
 
-   * &quot;[!UICONTROL Roku Network – Audience]&quot; för lager i hela [!DNL Roku] ekosystem med partners för premiuminnehåll, som [!DNL The CW], [!DNL ABC]och [!DNL ESPN].
-   * &quot;[!UICONTROL The Roku Channel – Audience]&quot; for [!DNL Roku] App-innehåll som ägs och drivs (O&amp;O).
+   * &quot;[!UICONTROL Roku Network - Audience]&quot; för lager i hela [!DNL Roku] ekosystem med partners för premiuminnehåll, som [!DNL The CW], [!DNL ABC]och [!DNL ESPN].
+   * &quot;[!UICONTROL The Roku Channel - Audience]&quot; for [!DNL Roku] App-innehåll som ägs och drivs (O&amp;O).
 
 ### Fördelar med att anpassa privata marknadsplatser med [!DNL Roku]
 
