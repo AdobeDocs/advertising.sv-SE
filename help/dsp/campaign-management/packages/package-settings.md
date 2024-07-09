@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c2de7424ecae0ad30792eaa459c8d9bfd3ff3b7c
+source-git-commit: 81415330017ee207fa1aa43ffdf2fe3205d88e9a
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 (Paket med paketnivåpaketering) Paketets flygperioder, inklusive eventuella anpassade flygperioder inom det övergripande [!UICONTROL Flight Dates] för paketet. Du kan bara konfigurera anpassade flygningar när [!UICONTROL Activate Custom Flighting] är aktiverat i [!UICONTROL Goals & Budget] -avsnitt.
 
-**[DNL Flight N]:** (Endast tillgängligt när [!UICONTROL Activate Custom Flighting] är aktiverat) För varje flygning anger du startdatum, slutdatum och målutgiftsmål. Klicka på **[!UICONTROL Add Flight]**.
+**[!DNL Flight N]:** (Endast tillgängligt när [!UICONTROL Activate Custom Flighting] är aktiverat) För varje flygning anger du startdatum, slutdatum och målutgiftsmål. Klicka på **[!UICONTROL Add Flight]**.
 
 För befintliga paket kan du även ange ett värde i [!UICONTROL Rollover] kolumn för en flygning för att lägga till eventuell oanvänd budget till nästa flygning. Projicerat värde i [!UICONTROL Adjusted Goal (Goal + Rollover)] -kolumnen ändras därefter.<!-- clarify usage -->
 
