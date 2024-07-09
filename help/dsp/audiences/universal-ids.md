@@ -3,9 +3,9 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: ea50b94ebc6d27fda9c0bd9f61da16750fa58f83
+source-git-commit: 42cfd98f3ef4145f5ac44e955a9b2f08a698f239
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1435'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Once we have CDP support for ID5 and can set up activation via sources, then maybe I can move this info into "About Sources" and "About Audiences." Or maybe make this the go-to page, removing info from those other pages? -->
 
-*Betafunktion*
+*Funktionen Beta*
 
-DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning av olika enheter (inte för olika enheter) i olika digitala format som stöds av DSP.
+DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning till olika digitala format som stöds av DSP.
 
 * Du kan skicka din autentiserade [[!DNL LiveRamp] [!DNL RampIDs]] direkt till DSP med [!DNL LiveRamp] [!DNL Connect] kontrollpanel. Se &quot;[Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).&quot;
 
@@ -104,11 +104,13 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Hash-kodade e-post-ID:n översatta till [!DNL RampIDs]:
 
+  Översättningsfrekvensen för hash-kodade e-postadresser till [!DNL RampIDs] ska vara 95 % om alla hashade e-postadresser är unika. Om du vill ha en översättningsnivå som är lägre än 70 % kontaktar du kontoteamet på Adobe för ytterligare information.
+
    * När flera profiler använder samma e-post-ID kan antalet DSP vara lägre än antalet profiler på er kunddataplattform. I Adobe Photoshop kan du till exempel skapa ett företagskonto och ett personligt konto med ett enda e-post-ID. Men om båda profilerna tillhör samma person mappas profilerna till ett e-post-ID och därefter till ett [!DNL RampID].
 
-   * A [!DNL RampID] kan uppgraderas till ett nytt värde. If [!DNL LiveRamp] känner inte igen ett e-post-ID eller kan inte mappa det till ett befintligt [!DNL RampID] i sin databas tilldelar den en ny [!DNL RampID] till e-post-ID:t. När de kan mappa e-post-ID:t till ett annat [!DNL RampID] eller kan samla in mer information om samma e-post-ID, uppgradera [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] avser denna åtgärd uppgradering från en&quot;härledd&quot; [!DNL RampID] till en&quot;bibehållen&quot; [!DNL RampID]. DSP får dock inte mappningar mellan härledda och bevarade [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från DSP-segmentet. I det här fallet kan segmentantalet vara större än profidräkningen.
+   * A [!DNL RampID] kan uppgraderas till ett nytt värde. If [!DNL LiveRamp] känner inte igen ett e-post-ID eller kan inte mappa det till ett befintligt [!DNL RampID] i sin databas tilldelar den en ny [!DNL RampID] till e-post-ID:t. När de kan mappa e-post-ID:t till ett annat [!DNL RampID] eller kan samla in mer information om samma e-post-ID, uppgradera [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] avser denna åtgärd uppgradering från en&quot;härledd&quot; [!DNL RampID] till en&quot;bibehållen&quot; [!DNL RampID]. DSP får dock inte mappningar mellan härledda och bevarade [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från DSP. I det här fallet kan segmentantalet vara större än profidräkningen.
 
-     Exempel: En användare loggar in på [!DNL Adobe] och besöker Photoshop-sidan. If [!DNL LiveRamp] saknar befintlig information om e-post-ID, så tilldelar de det till en härledd [!DNL RampID], säger D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har omfördelat [!DNL RampID] till M123. Även om kunddataplattformens segment &quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två rampID: D123 och M123.
+     Exempel: En användare loggar in på [!DNL Adobe] och besöker Photoshop webbplats. If [!DNL LiveRamp] saknar befintlig information om e-post-ID, så tilldelar de det till en härledd [!DNL RampID], säger D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har omfördelat [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID: D123 och M123.
 
 ## Felsökning
 

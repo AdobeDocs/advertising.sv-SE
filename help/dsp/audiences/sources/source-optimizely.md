@@ -3,9 +3,9 @@ title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID
 description: Lär dig hur du aktiverar DSP att importera [!DNL Optimizely] förstahandssegment.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 31713da81bbb1eb840de0f8e0d40013b42cd3140
+source-git-commit: 49902a99b78f867dd71c0cd15b97342a70abbc97
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,15 @@ Annonsören måste förbereda och skicka data med [!DNL Optimizely Data Platform
 
    * **Kontokod:** Det här är den alfanumeriska DSP kontokoden som du hittar DSP på [!UICONTROL Settings] > [!UICONTROL Account].
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar och uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Optimizely] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
+Segmenten kommer att uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera era segment genom att trycka på dem igen [!DNL Optimizely] före utgångsdatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Steg 4: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-När du är klar med alla steg kan du verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i inom 24 timmar. Jämför antalet universella ID:n med antalet ursprungliga hash-adresser.
+Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
 
-Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Om du till exempel skickar 100 hashas-e-postadresser från din kunddataplattform bör de översättas till mer än 90 universella ID:n. En översättningsgrad på 90 % eller mindre är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
+Verifiera i ditt målgruppsbibliotek (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID med antalet ursprungliga hashade e-postadresser.
+
+Översättningsfrekvensen för hash-kodade e-postadresser till universella ID måste vara högre än 90 %. Översättningsfrekvensen för [!DNL RampIDs] ska i synnerhet vara 95 % om alla hash-kodade e-postadresser är unika. Om du t.ex. skickar 100 hash-kodade e-postadresser från din kunddataplattform bör de översättas till minst 95 [!DNL RampIDs] eller mer än 90 andra typer av universella ID:n. En lägre översättningsgrad är ett problem. Mer information om hur antalet segment kan variera finns i &quot;[Orsaker till dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).&quot;
 
 Om du vill ha felsökningssupport kontaktar du kontoteamet på Adobe eller `adcloud-support@adobe.com`.
 
