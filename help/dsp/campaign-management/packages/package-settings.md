@@ -3,7 +3,7 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 78b8f6cd689e5faf4b0cbd2b41983b00663448a4
+source-git-commit: 644847918f6f6dd86dec80ad89128c31a0c0284b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 **[!UICONTROL 3rd Party Billed Fees]:** (Valfritt) En statisk tredjepartsavgift som ska spåras som en icke fakturerbar kostnad:
 
+* **[!UICONTROL CPM]:** Kostnaden per 1 000 visningar (CPM).
+
+* **[!UICONTROL Description]:** En beskrivning av CPM-avgiften.
+
 >[!NOTE]
 >
 >Faktureringsbara avgifter återspeglas i [!UICONTROL Net CPM] mätvärden.
->
-* **[!UICONTROL CPM]:** Kostnaden per 1 000 visningar (CPM).
-
-* **[!UICONTROL CPM Description]:** En beskrivning av CPM-avgiften.
 
 Du kan åsidosätta inställningen på paketnivå på [placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -45,7 +45,7 @@ Du kan åsidosätta inställningen på paketnivå på [placeringsnivå](/help/ds
 >* Flightdatumen för alla placeringar som är tilldelade detta paket måste inkluderas inom dessa datum.
 > * Du kan inte redigera paketets startdatum när anpassad ljussättning aktiveras.
 
-**[!UICONTROL Activate Custom Flighting]:** Gör att du kan skapa icke-jämna mellanrum för paketet i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad felsökning och sparat paketet kan du inte inaktivera anpassad felsökning eller redigera paketets startdatum.
+**[!UICONTROL *Activate Custom Flighting]:** Gör att du kan skapa icke-jämna mellanrum för paketet i [!UICONTROL Flighting] nedan. När du har aktiverat anpassad felsökning och sparat paketet kan du inte inaktivera anpassad felsökning eller redigera paketets startdatum.
 
 **[!UICONTROL Budget]:** (Paket med enbart paketnivåpaketering) Bruttobudgetens övre gräns och budgetintervallet.
 
