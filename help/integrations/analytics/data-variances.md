@@ -3,9 +3,9 @@ title: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertisin
 description: Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 1f27738d383c8c420155d6d12c98c646bba7d7b4
+source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3358'
 ht-degree: 0%
 
 ---
@@ -154,10 +154,10 @@ The [!DNL Paid Search Detection] kan du identifiera naturlig söktrafik i [[!DNL
 
 För integreringen bör du validera klickinformationen för att säkerställa att alla sidor på webbplatsen följer klickfrekvensen.
 
-I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for Advertising] spårning är att jämföra instanser med klickningar med hjälp av ett beräkningsmått för&quot;AMO ID Instances to Adobe Advertising Clicks&quot;, som beräknas enligt följande:
+I [!DNL Analytics], ett av de enklaste sätten att validera [!DNL Analytics for Advertising] tracking är att jämföra instanser med klickningar med hjälp av ett beräkningsmått för&quot;AMO ID Instances to Clicks&quot;, som beräknas så här:
 
 ```
-AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+AMO ID Instances to Clicks = ([!UICONTROL AMO ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 [!UICONTROL AMO ID Instances] representerar antalet gånger som [AMO-ID](ids.md) spåras på webbplatsen. Varje gång en annons klickas visas ett AMO-ID (`s_kwcid`) läggs till i landningssidans URL. Antalet [!UICONTROL AMO ID Instances]motsvarar därför antalet klick och kan valideras mot faktiska annonsklickningar. Vi ser vanligtvis en matchningsfrekvens på 85 % för [!DNL Search, Social, & Commerce] och en matchningsfrekvens på 30 % för [!DNL DSP] trafik (när den filtreras så att den endast innehåller klickfrekvens [!UICONTROL AMO ID Instances]). Skillnaden i förväntningarna mellan sökning och visning kan förklaras av det förväntade trafikbeteendet. Sökfunktionen hämtar avsikten, och som sådan har användarna vanligtvis för avsikt att klicka på sökresultaten från sin fråga. Användare som ser en webbannons eller en videoannons är mer benägna att klicka på annonsen oavsiktligt och sedan antingen hoppa från webbplatsen eller avbryta det nya fönster som läses in innan sidaktiviteten spåras.
@@ -165,7 +165,7 @@ AMO ID Instances to Adobe Advertising Clicks = ([!UICONTROL AMO ID Instances] / 
 I Adobe Advertising-rapporter kan du jämföra instanser med klickningar med hjälp av[!UICONTROL EF ID Instances]&quot; i stället för [!UICONTROL AMO ID Instances]:
 
 ```
-EF ID Instances to Adobe Advertising Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
+EF ID Instances to Clicks = ([!UICONTROL EF ID Instances] / [!UICONTROL Adobe Advertising Clicks])
 ```
 
 Du bör förvänta dig en hög matchningsfrekvens mellan AMO ID och EF ID, men vänta inte med 100 % paritet eftersom AMO ID och EF ID i grunden spårar olika data, och den här skillnaden kan leda till små skillnader i den totala [!UICONTROL AMO ID Instances] och [!UICONTROL EF ID Instances]. Om summan [!UICONTROL AMO ID Instances] in [!DNL Analytics] skiljer sig från [!UICONTROL EF ID Instances] mer än 1 % i Adobe Advertising ska du kontakta ditt kontoteam på Adobe för att få hjälp.
@@ -181,7 +181,7 @@ The following is an example of a workspace to track clicks to instances.
 
 ### Felsöka skillnader mellan klick och instanser
 
-Om [!UICONTROL EF ID Instances]-till-[!UICONTROL Adobe Advertising Clicks] är under 85 % och kontrollera sedan följande:
+Om [!UICONTROL EF ID Instances]Förhållandet -to-Clicks är under 85 % och kontrollera följande:
 
 * Saknar du klickspårning för kontot eller på någon undernivå, eller har du klickspårning (till exempel på både konto- och kampanjnivå)?
 
