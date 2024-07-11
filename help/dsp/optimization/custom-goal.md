@@ -3,9 +3,9 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 42fca0c829c708281703a6a1ea59c42dc7ac9f0d
+source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ I följande exempel visas hur du kan konfigurera mål som har ett enda konverter
 
 #### Exempel på en kampanj med &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)]&quot; Optimeringsmål
 
-Om kampanjmålet är intäkter ([!UICONTROL Highest Return on Ad Spend (ROAS)]), och intäkter från alla typer av enheter är lika viktiga för dig, och inkluderar sedan[!UICONTROL Revenue]&quot; med en icke-mobil vikt (för konverteringar från en icke-mobil enhet) på ett (1) och en mobilvikt (för konverteringar från en mobil enhet) på ett (1). Välj måtttyp *[!UICONTROL Goal]*.
+Om kampanjmålet är intäkter ([!UICONTROL Highest Return on Ad Spend (ROAS)]), och intäkter från alla typer av enheter är lika viktiga för dig, och inkluderar sedan[!UICONTROL Revenue]&quot; med en icke-mobil vikt på 1 (1); mobilvikten ignoreras. Välj måtttyp *[!UICONTROL Goal]*.
 
 <!-- update image or delete 
 
@@ -90,13 +90,11 @@ Om kampanjmålet är intäkter ([!UICONTROL Highest Return on Ad Spend (ROAS)]),
 
 >[!NOTE]
 >
-> En mobilvikt eller en icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje $1 av intäkt som spåras.
->
-> En konvertering på 250 USD med en icke-mobil vikt på 1 (1) rapporteras som 250 USD för konverteringar. Om konverteringsmåttet har tilldelats en icke-mobil vikt på 0,5, rapporteras konverteringen på $250 från en icke-mobil enhet som $125 i Adobe Advertising ($250 Conversion * 0,5) [!UICONTROL Non-mobile Weight] = $125).
+> En icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje $1 av intäkt som spåras för displayannonser på alla enheter. En konvertering på 250 USD med en icke-mobil vikt på 1 (1) rapporteras som 250 USD för konverteringar. Om konverteringsmåttet har tilldelats en icke-mobil vikt på 0,5, rapporteras konverteringen på $250 som $125 i Adobe Advertising ($250 Conversion * 0.5) [!UICONTROL Non-mobile Weight] = $125).
 
 #### Exempel på en kampanj med &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)]&quot; Optimeringsmål
 
-Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräver en lyckad händelse (t.ex. &quot;Application Submit&quot;) inkluderar du det måttet och anger måtttypen som *[!UICONTROL Goal]*. Det bästa sättet är att ange både icke-mobil vikt och den mobila vikten som en (1).
+Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräver en lyckad händelse (t.ex. &quot;Application Submit&quot;) inkluderar du det måttet och anger måtttypen som *[!UICONTROL Goal]*. Det bästa sättet är att ange den icke-mobila vikten som ett (1). Den mobila vikten ignoreras.
 
 <!-- update image or delete 
 
@@ -106,13 +104,13 @@ Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräve
 
 >[!NOTE]
 >
-> En mobilvikt eller icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje konvertering som spåras. Om till exempel 10 programsändningskonverteringar spåras rapporteras 10 programsändningskonverteringar. Om konverteringsmåttet tilldelas en icke-mobil vikt på 0,5 rapporteras däremot de 10 icke-mobila konverteringarna som fem (5) i Adobe Advertising (10 konverteringar * 0,5) [!UICONTROL Non-mobile Weight] = 5).
+> En icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje konvertering som spåras för visningsannonser på alla enheter. Om till exempel 10 programsändningskonverteringar spåras rapporteras 10 programsändningskonverteringar. Om konverteringsmåttet tilldelas en icke-mobil vikt på 0,5 rapporteras dock de 10 konverteringarna som fem (5) i Adobe Advertising (10 konverteringar * 0,5) [!UICONTROL Non-mobile Weight] = 5).
 
 ### Anpassade mål med flera mätvärden
 
 Det finns två scenarier där du kan använda flera mätvärden i ett anpassat mål:
 
-* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller tre separata mätvärden, där varje mätvärde har en (1) icke-mobil- och mobilvikt, ska [!DNL Adobe Sensei] algoritmen behandlar alla mätvärden och användarenhetstyper lika viktigt. Om de olika måtten och enhetstyperna har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
+* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller tre separata mätvärden, var och en med icke-mobila vikter på ett (1), ska [!DNL Adobe Sensei] algoritmen behandlar alla mätvärden och användarenhetstyper lika viktigt. Om de olika måtten har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -124,7 +122,7 @@ Det finns två scenarier där du kan använda flera mätvärden i ett anpassat m
 
   När du lägger till stödmått till ett anpassat mål ska du väga dem efter deras relativa betydelse för händelsen om det ska lyckas och tänka på mängden datapunkter. På så sätt kan Adobe Sensei-algoritmen balansera flera mätvärden och optimera mot ditt mål.
 
-  Följande exempelmål innehåller tre mätvärden, var och en med olika icke-mobilvikt: Application Submit = 1, Application Start = 0.1 och Advertiser Landing Page = 0.01. Det innebär att varje konvertering av Application Submit från icke-mobila enheter har samma värde för ditt företag som i genomsnitt 10 konverteringar av Application Start från icke-mobila enheter och 100 konverteringar av Advertiser Landing Page från icke-mobila enheter.
+  Följande exempelmål innehåller tre mätvärden, var och en med olika icke-mobilvikt: Application Submit = 1, Application Start = 0.1 och Advertiser Landing Page = 0.01. Det innebär att varje konvertering av Application Submit har samma värde som i genomsnitt 10 konverteringar av Application Start och 100 konverteringar av Advertiser Landing Page.
 
 <!-- update image or delete it and adjust the wording above
 
