@@ -3,9 +3,9 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: ef732108b248995a6b321e991fa122caaa40e2fe
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1229'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,13 @@ Anpassade mål definierar vilka framgångshändelser en annonsörer behöver fö
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Varje anpassat mål består av en eller flera konverteringsvärden och de relativa vikterna för dessa värden. De tillgängliga konverteringsmåtten inkluderar alla mätvärden som spåras med konverteringspixeln Adobe Advertising och via Adobe Analytics.
+Varje anpassat mål (mål) består av en eller flera konverteringsvärden och de relativa vikterna för dessa värden. Endast icke-mobila vikter beaktas för DSP anpassade mål. De tillgängliga konverteringsmåtten inkluderar alla mätvärden som spåras med konverteringspixeln Adobe Advertising och via Adobe Analytics.
 
 Anta till exempel att tre konverteringsvärden är relevanta för ett specifikt paket i en av era kampanjer:&quot;Hämta PDF&quot;, som värderas till 20 USD,&quot;Registrera via e-post&quot; som värderas till 30 USD och&quot;Bekräfta beställning&quot; som värderas till 40 USD. Om ni vill lägga vikt efter det engångs-monetära värdet av kundens åtgärd blir de relativa vikterna för måtten 1, 1,5 och 2.
 
 En gång [skapa ett anpassat mål](#custom-goal-create)kan du [tilldela det till ett paket](/help/dsp/campaign-management/packages/package-settings.md) för rapportering och algoritmisk optimering med Adobe Sensei.
+
+Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt inom DSP inom två dagar. Mer information om viktrekommendationer finns i kapitlet om optimeringsguiden för nya mål (Beta), som du hittar i avsnitten om sökning, sociala medier och Commerce.
 
 ## Skapa ett anpassat mål {#custom-goal-create}
 
@@ -49,9 +51,15 @@ Om du vill skapa ett anpassat mål måste DSP vara länkat till ett [!DNL Search
 
    1. Klicka på i verktygsfältet ![Skapa](/help/dsp/assets/create-search-ui.png "Skapa").
 
-   1. Ange de objektiva inställningarna, inklusive tillhörande mått och deras relativa numeriska vikter för icke-mobila enheter och mobila enheter, och spara sedan målet.
+   1. Ange målinställningarna, inklusive tillhörande mått och deras relativa numeriska vikter för icke-mobila enheter, och spara sedan målet. Tänk på följande:
 
-      Minst ett mått måste ha måtttypen *[!UICONTROL Goal]*.
+      * För mål som används för Advertising DSP-paket måste målnamnet föregås av&quot;ADSP_&quot;, t.ex.&quot;ADSP_Registrations&quot;. Prefixet är inte skiftlägeskänsligt.
+
+      * Inkludera endast mätvärden som är kopplade till DSP. Alla mätvärden som kan tillskrivas Search, Social och Commerce eller något annat annonsnätverk ignoreras.
+
+      * Minst ett mått måste ha måtttypen *[!UICONTROL Goal]*.
+
+      * DSP använder icke-mobila vikter för alla annonser. Alla angivna mobilvikter ignoreras.
 
       >[!NOTE]
       >
