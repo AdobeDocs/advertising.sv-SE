@@ -3,9 +3,9 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportfolior till [!DNL Google Ads] och [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 39936c6834012432447d3216d8463937996b0017
+source-git-commit: aaad3eb6cd33f4342c46ffb244227a00fbcb4e44
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social, &amp; Commerce kan överföra målen för ett annonskontos portf
 
 Om du aktiverar det här alternativet aktiveras automatiskt en överföring för mål i portföljer som innehåller kampanjer med smarta budgivningsstrategier. Search, Social, &amp; Commerce skapar en konvertering i annonsnätverket för varje relevant mål. Konverteringen representerar alla viktade konverteringsvärden i målet på nivån för EF-ID (klicka-ID). För [!DNL Google Ads] klickningar är EF-ID:t [!DNL Google Ads] `gclid`; for [!DNL Microsoft Advertising] klickningar är EF-ID:t [!DNL Microsoft Advertising] `msclkid`. På grund av det här klicknings-ID:t kan konverteringsdata mappas till det specifika nyckelordet och klicktiden.
 
-Varje konvertering som skickas har ett av följande namn:
+Varje överförd konvertering har ett av följande namn:
 
 * `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>`
 
@@ -56,7 +56,7 @@ Varje konvertering som skickas har ett av följande namn:
 
 ## Hur det viktade målet beräknas
 
-Det viktade målet som skickas till annonsnätverket är summan av alla mätvärden som samlats in, med undantag för konverteringar som spåras av [!DNL Google Ads] eller av [!DNL Microsoft Advertising] UET-tagg (Universal Event tracking).
+Det viktade målet som skickas till annonsnätverket är summan av alla mätvärden som samlats in, med undantag för konverteringar som spåras av [!DNL Google Ads] eller av [!DNL Microsoft Advertising] UET-tagg (Universal Event tracking). Värdet beräknas med hjälp av den attribueringsmetod som har ställts in för annonsörens konto Search, Social och Commerce.
 
 Exempel: Målmåttet är Art Additions med vikten 25, och dina mått inkluderar GGL_Lead och Revenue med vikten 1 och Downloads med vikten 0,5.
 
@@ -70,6 +70,12 @@ Anta att ett nyckelord resulterade i följande åtgärder för portföljen:
 * 5 GGL_Lead
 
 GGL_Lead tas inte med i beräkningen/överföringen eftersom det är ett Google Ads-spårat mätvärde. Det viktade objektiva värdet beräknas därför som ((10 x 25) + (500 x 1) + (50 x 0,5)) = 775.
+
+>[!TIP]
+>
+>Du kan visa data för Adobe Advertising-viktade intäkter i annonsnätverkets rapporter. Det bästa sättet är att jämföra de viktade intäkterna med [!DNL Google Ads] &quot;All conv. (efter konv. time)&quot; eller [!DNL Microsoft Advertising] metrisk &quot;All conv. intäkter&quot;, segmenterade efter mätvärdet för O_ACS_OBJ*.<!--clarify -->
+
+i annonsnätverkets redigerare
 
 ## Felsöka saknade mål
 
