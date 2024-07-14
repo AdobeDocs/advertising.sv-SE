@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -16,59 +16,59 @@ ht-degree: 0%
 
 **[!UICONTROL Name]:** Kampanjnamnet.
 
-**[!UICONTROL Advertiser]:** (Skrivskyddat för befintliga kampanjer) Den tillämpliga annonseraren (varumärke). Välj en befintlig annonsör eller skapa en ny.
+**[!UICONTROL Advertiser]:** (Skrivskyddad för befintliga kampanjer) Den tillämpliga annonseraren (varumärke). Välj en befintlig annonsör eller skapa en ny.
 
 **[!UICONTROL Advertiser URL]:** Annonsörens officiella sida. Det här fältet snabbar upp er process för godkännande av annonser med lagerpartners.
 
-**[!UICONTROL Timezone]:** (Skrivskyddat för befintliga kampanjer) Tidszonen för rapportering och budgivning.
+**[!UICONTROL Timezone]:** (Skrivskyddad för befintliga kampanjer) Tidszonen för rapportering och budgivning.
 
-**[!UICONTROL Customer PO]:** (Valfritt) En kundinköpsorder för infogningsordern/inköpsordern.
+**[!UICONTROL Customer PO]:** (Valfritt) En kundinköpsorder för insättningsordern/inköpsordern.
 
-**[Kampanjdatum]:** Start- och slutdatum för kampanjen.
+**[Kampanjdatum]:** Kampanjens start- och slutdatum.
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** Om marginaler ska hanteras för kampanjen: *[!UICONTROL Yes]* eller *[!UICONTROL No]* (standard).
+**[!UICONTROL Margin Management]:** Om marginaler ska hanteras för kampanjen: *[!UICONTROL Yes]* eller *[!UICONTROL No]* (standardvärdet).
 
-När du väljer *[!UICONTROL Yes],* ange marginaltyp och marginalbelopp:
+När du väljer *[!UICONTROL Yes]anger* marginaltyp och belopp:
 
 * **[!UICONTROL Margin Type]:** Marginaltypen. Du kan inte ändra marginaltypen när du har aktiverat marginalhantering och sparat kampanjen.
 
-   * *[!UICONTROL Fixed]:* (standard) Tillåter DSP att beräkna automatiskt och använda tak baserat på en fast marginalprocent av [!UICONTROL Gross Budget].
+   * *[!UICONTROL Fixed]:* (standardvärdet) Tillåter DSP att beräkna automatiskt och sätta ändar baserat på en fast marginalprocent för [!UICONTROL Gross Budget].
 
-   * *[!UICONTROL Dynamic]:* Gör att du kan hantera marginaler ned till placeringsnivån genom att ange en separat [!UICONTROL Budget Reserve %] och [!UICONTROL Gross Budget] för varje paket och placering i kampanjen. DSP optimerar utifrån varje placerings ekonomiska effektivitet, utan att garantera en viss marginal. Använd detta för infogningsorder som består av flera radobjekt för vilka du har godkänt att leverera ett fast antal enheter eller enhetstyper till en fast ränta.
+   * *[!UICONTROL Dynamic]:* Gör att du kan hantera marginaler ned till placeringsnivån genom att ange separata [!UICONTROL Budget Reserve %] och [!UICONTROL Gross Budget] för varje paket och placering i kampanjen. DSP optimerar utifrån varje placerings ekonomiska effektivitet, utan att garantera en viss marginal. Använd detta för infogningsorder som består av flera radobjekt för vilka du har godkänt att leverera ett fast antal enheter eller enhetstyper till en fast ränta.
 
-* **[!UICONTROL Fixed Margin %]:** (Endast kampanjer med fasta marginaler) Standardkoden för varje infogningsorder <!-- impression? -->, som ett procenttal. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+* **[!UICONTROL Fixed Margin %]:** (Endast kampanjer med fasta marginaler) Standardkoden för varje infogningsordning <!-- impression? -->, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
 
-* **[!UICONTROL Budget Reserve %]:** (Endast kampanjer med fasta marginaler, valfritt) Reserverar en angiven procentandel av [!UICONTROL Gross Budget] som skydd. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+* **[!UICONTROL Budget Reserve %]:** (Endast kampanjer med fasta marginaler, valfritt) Reserverar en angiven procentandel av [!UICONTROL Gross Budget] som en säkerhetslösning. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
 
-**[!UICONTROL Gross Budget]:** (Endast kampanjer med marginalledning) Bruttokampanjbudgeten, innan de angivna marginaljusteringarna tillämpas.
+**[!UICONTROL Gross Budget]:** (Endast kampanjer med marginalhantering) Bruttokampanjbudgeten, innan de angivna marginaljusteringarna tillämpas.
 
 Du kan lägga till ytterligare en daglig, vecko- eller månadsbudget (brutto):
 
 1. Klicka på **[!UICONTROL Add an additional Gross Budget]**.
 
-1. Ange **[!UICONTROL Gross Budget]** och välj budgetintervall: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* eller *[!UICONTROL Monthly]*.
+1. Ange **[!UICONTROL Gross Budget]** och välj budgetintervallet: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* eller *[!UICONTROL Monthly]*.
 
 Den totala nettobudgeten, som är utgiftstaket för kampanjen, beräknas automatiskt baserat på marginalinställningarna och anges under det här värdet.
 
-**[!UICONTROL Budget]:** (Kampanjer utan marginalhantering) Den övergripande kampanjbudgeten.
+**[!UICONTROL Budget]:** (kampanjer utan marginallösning) Den övergripande kampanjbudgeten.
 
-**[!UICONTROL Estimated Tax Withholding]:** Innehåller en procentandel av de totala utgifterna över annonsavgifter, annonsavgifter och/eller dataavgifter på kontonivån för nationella eller lokala skatter. Kurser är uppskattningar av budgeterings- och kostnadsredovisningsändamål, så de fakturerade skattesatserna kan variera.
+**[!UICONTROL Estimated Tax Withholding]:** Innehåller en procentandel av de totala utgifterna över annonsavgifter, och servar avgifter och/eller datarån på kontonivån för nationella eller lokala skatter. Kurser är uppskattningar av budgeterings- och kostnadsredovisningsändamål, så de fakturerade skattesatserna kan variera.
 
 Så här beräknar du källskatt:
 
 1. Klicka på **[!UICONTROL Update rates here]**.
 
-1. Ange **[!UICONTROL Estimated tax rate]**, som ett procenttal.
+1. Ange **[!UICONTROL Estimated tax rate]** som en procentandel.
 
 1. Markera kryssrutan bredvid varje avgiftstyp för vilken du vill hålla inne skatt. Avgiftstyperna är:
 
-   * *[!UICONTROL Include estimated tax - ads fee]:* Gäller alla utgifter för annonsering DSP media, inklusive skatter på kampanjhanteringsavgifter.
+   * *[!UICONTROL Include estimated tax - ads fee]:* Gäller alla utgifter för Advertising DSP-media, inklusive skatter på kampanjhanteringsavgifter.
 
-   * *[!UICONTROL Include estimated tax - ad serving fee]:* Gäller för alla utgifter för DSP med annonsering utom för media och data. exklusive moms för kampanjhanteringsavgifter
+   * *[!UICONTROL Include estimated tax - ad serving fee]:* Gäller för alla utgifter på Advertising DSP utom för media och data. exklusive moms för kampanjhanteringsavgifter
 
-   * *[!UICONTROL Include estimated tax - data fee]:* Gäller för alla datatillgångar för DSP.
+   * *[!UICONTROL Include estimated tax - data fee]:* Gäller alla datatillgångar på Advertising DSP.
 
 1. Klicka på **[!UICONTROL Submit]**.
 
@@ -78,23 +78,23 @@ Så här beräknar du källskatt:
 >
 >* Du kan också konfigurera dessa värden i kontots avgiftsinställningar.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP avser annonser och tillämpar frekvensgränser: *Samma enhet* för en enhet eller *Folk* för att rikta sig till en person på alla deras kända enheter. **Obs!** Stöd för flera enheter är inte tillgängligt för placeringar som har universella ID som mål.
+**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP annonserar och tillämpar frekvensomfång: *Samma enhet* för att rikta in en enhet eller *Personer* för att rikta en person över alla kända enheter. **Obs!** Stöd för flera enheter är inte tillgängligt för platser som har universella ID som mål.
 
-**[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer; kampanjer med personbaserad målinriktning över flera enheter) Det enhetsdiagram som ska användas för målinriktning mellan olika enheter och frekvenshantering:
+**[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer, kampanjer med personbaserad målinriktning endast över enheter) Enhetsgrafen som ska användas för målinriktning mellan enheter och frekvenshantering:
 
-* *[!UICONTROL LiveRamp - U.S. only]:* Tillgängligt för alla annonsörer för målinriktning mellan olika enheter på 0,35 CPM för visningar som levereras med [!DNL LiveRamp] enhetsdiagram (d.v.s. för enheter som inte hittas inom målgruppssegmenten). Ni kan ange målinriktning mellan olika enheter på placeringsnivå.
+* *[!UICONTROL LiveRamp - U.S. only]:* Tillgängligt för alla annonsörer för målinriktning mellan olika enheter på 0,35 CPM för visningar som levereras med hjälp av enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas i målgruppssegmenten). Ni kan ange målinriktning mellan olika enheter på placeringsnivå.
 
   Det här alternativet är även tillgängligt för alla annonsörer, utan avgifter, för frekvenshantering och attribueringsmätning.
 
   Stöd för flera enheter gäller endast för placeringar som har äldre ID:n som mål, men inte för placeringar som har universella ID:n som mål (inklusive [!DNL LiveRamps]). Målinriktning, frekvenshantering och attribuering för universella ID:n används endast på ID-nivå.
 
-**[!UICONTROL Frequency Cap]:** (Valfritt) Antalet gånger som en unik enhet, ett universellt ID eller person (beroende på den angivna [!UICONTROL Cross Device Level] och placeringen [!UICONTROL Targeting] -inställning) kan användas för annonser från kampanjen. Alternativen inkluderar *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
+**[!UICONTROL Frequency Cap]:** (Valfritt) Det antal gånger som en unik enhet, ett universellt ID eller en person (beroende på angiven [!UICONTROL Cross Device Level] och placeringens [!UICONTROL Targeting]-inställning) kan få annonser från kampanjen. Alternativen är *[!UICONTROL Unlimited]* eller ett specifikt belopp per dag, vecka eller månad.
 
 >[!NOTE]
 >
 > Du kan ange frekvensgränser på kampanj-, paket- och placeringsnivåer. DSP respekterar det striktaste frekvenstaket i kampanjhierarkin.
 
-**[!UICONTROL Packages]:** The [paket](/help/dsp/campaign-management/packages/package-about.md) som ska ingå i kampanjen. Välj befintliga paket och/eller skapa paket som ska inkluderas. Om du skapar paket läser du beskrivningar om [paketinställningar](/help/dsp/campaign-management/packages/package-settings.md) för mer information.
+**[!UICONTROL Packages]:** De [paket](/help/dsp/campaign-management/packages/package-about.md) som ska inkluderas i kampanjen. Välj befintliga paket och/eller skapa paket som ska inkluderas. Om du skapar paket kan du läsa beskrivningar om [paketinställningarna](/help/dsp/campaign-management/packages/package-settings.md) för mer information.
 
 ## [!UICONTROL Campaign Measurement]
 
@@ -106,7 +106,7 @@ Så här beräknar du källskatt:
 
 #### [!UICONTROL Viewability, Fraud, & Brand Safety]
 
-**[!UICONTROL IAS]:** (Valfritt) Aktiverar [!DNL IAS] mätning och rapportering av synlighet, bedrägeri, varumärkessäkerhet och målgruppsverifiering med angivna inställningar. Ytterligare avgifter tillkommer.
+**[!UICONTROL IAS]:** (Valfritt) Aktiverar [!DNL IAS] mätning och rapportering av visningsbarhet, bedrägeri, varumärkessäkerhet och målgruppsverifiering med de angivna inställningarna. Ytterligare avgifter tillkommer.
 
 * **[!UICONTROL Measure On]:** Det lager som ska mätas: *[!UICONTROL Display and VPAID video inventory]* (standard) eller *[!UICONTROL Display, VPAID & VAST video inventory]*.
 
@@ -114,29 +114,29 @@ Så här beräknar du källskatt:
   >
   >Videosynlighet kan endast mätas i VPAID-lager.
 
-* **[!UICONTROL IAS Account ID (AnID)]:** (Advertisers with their own [!DNL IAS] konton; valfritt) Organisationens [!DNL IAS] konto-ID, som [!DNL IAS] fakturerar direkt för användning.
+* **[!UICONTROL IAS Account ID (AnID)]:** (Annonsörer med egna [!DNL IAS]-konton; valfritt) Organisationens [!DNL IAS] konto-ID, som [!DNL IAS] debiterar direkt för användning.
 
-* **[!UICONTROL IAS Team ID]:** (Advertisers with their own [!DNL IAS] (valfritt) ID för team för organisationens [!DNL IAS] konto, som [!DNL IAS] fakturerar direkt för användning. <!-- verify -->
+* **[!UICONTROL IAS Team ID]:** (Advertisers with their own [!DNL IAS] accounts; optional) The team ID for the organization&#39;s [!DNL IAS] account, which [!DNL IAS] will Bill directly for usage. <!-- verify -->
 
-**[!UICONTROL MOAT]:** (Valfritt) Aktiverar [!DNL MOAT] mätning och rapportering av synlighet, bedrägeri, varumärkessäkerhet och målgruppsverifiering. Ytterligare avgifter tillkommer.
+**[!UICONTROL MOAT]:** (Valfritt) Aktiverar [!DNL MOAT] mätning och rapportering av visningsbarhet, bedrägeri, varumärkessäkerhet och målgruppsverifiering. Ytterligare avgifter tillkommer. **Obs!** [!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL MOAT].
 
 #### Målgruppsverifiering
 
-**[!UICONTROL Comscore Campaign Ratings]:** (Valfritt) Aktiverar [!DNL Comscore] validerad [!DNL Campaign Ratings] mätning och rapportering av målgruppsverifiering, med de angivna inställningarna. Ytterligare avgifter tillkommer.
+**[!UICONTROL Comscore Campaign Ratings]:** (Valfritt) Aktiverar [!DNL Comscore] verifierad [!DNL Campaign Ratings] mätning och rapportering av målgruppsverifiering med de angivna inställningarna. Ytterligare avgifter tillkommer.
 
-* **[!UICONTROL Target Gender]:** Det kön som målet ska vara: *[!UICONTROL Both]* (standard), *[!UICONTROL Male]*, eller *[!UICONTROL Female]*
+* **[!UICONTROL Target Gender]:** Genus att ange som mål: *[!UICONTROL Both]* (standard), *[!UICONTROL Male]* eller *[!UICONTROL Female]*
 
 * **[!UICONTROL Target Age]:** Det åldersintervall som ska anges som mål. Använd vänster och höger skjutreglage för att minska intervallet efter behov.
 
-* **[!UICONTROL Target Country]:** (Valfritt) Ett land att rikta sig till. [!DNL Comscore] endast i de länder som stöds.
+* **[!UICONTROL Target Country]:** (valfritt) Ett land att rikta sig till. [!DNL Comscore] mäter endast exponeringar i länder som stöds.
 
 ### [!UICONTROL Attention Measurement]{#attention-measurement}
 
-**[!UICONTROL Adelaide]:** Aktiverar spårning för placeringsnivån [!UICONTROL Attention Score] mått (det vägda genomsnittliga antalet [!DNL Adelaide] &quot;[!DNL Attention Units]&quot; över intryck). Mätvärden är tillgängliga för alla placeringstyper förutom för [!DNL Roku] ansluten TV, endast VPAID-pre-roll och ljud som inte är en poddsändning. DSP kopplar automatiskt en JavaScript-tagg till alla associerade kreatörer, och [!DNL Adelaide] spårar exponeringsdata och skickar dem till DSP dagligen. Du kan använda datumet för att manuellt optimera dina utgifter mot placeringsstrategier med bättre resultat.
+**[!UICONTROL Adelaide]:** Aktiverar spårning för mätvärdet för placeringsnivå [!UICONTROL Attention Score] (det viktade genomsnittliga antalet [!DNL Adelaide] [!DNL Attention Units] för alla visningar). Mätvärden är tillgängliga för alla placeringstyper förutom för [!DNL Roku] ansluten TV, förrullning endast för VPAID och ljud som inte är en poddsändning. DSP kopplar automatiskt en JavaScript-tagg till alla associerade kreatörer och [!DNL Adelaide] spårar exponeringsdata och skickar dem till DSP dagligen. Du kan använda datumet för att manuellt optimera dina utgifter mot placeringsstrategier med bättre resultat.
 
-The [!UICONTROL Attention Score] fältet är tillgängligt i [!UICONTROL Metrics] rapportavsnitt, inom [!UICONTROL Campaigns], [!UICONTROL Packages]och [!UICONTROL Placements] åsikter, och på [!UICONTROL Sites], [!UICONTROL Ads]och [!UICONTROL Inventory] -flikar i [vyn med placeringsinformation](/help/dsp/campaign-management/reports/placement-details-view.md).
+Fältet [!UICONTROL Attention Score] är tillgängligt i avsnittet [!UICONTROL Metrics] i rapporter, i vyerna [!UICONTROL Campaigns], [!UICONTROL Packages] och [!UICONTROL Placements] samt på flikarna [!UICONTROL Sites], [!UICONTROL Ads] och [!UICONTROL Inventory] i vyn [placeringsinformation](/help/dsp/campaign-management/reports/placement-details-view.md).
 
-Använda [!DNL Adelaide] segment för mätning medför en CPM-avgift för varje intryck som skickas från annonser med [!DNL Adelaide] måttetiketter. Avgiften är skild från avgifterna för [målinriktning på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
+Om [!DNL Adelaide] segment används för mätning medför det en CPM-avgift för varje intryck som skickas från annonser med [!DNL Adelaide]-mätningstaggar. Avgiften är skild från avgifter för [målinriktning på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
 
 <!--
 Example JavaScript tag:
@@ -146,7 +146,7 @@ Example JavaScript tag:
 
 ### [!UICONTROL 1st Party Metrics]
 
-**[!UICONTROL Viewability sensitivity]:** Aktiverar förstahandsmätning och rapportering av visningsbarhet med [!DNL IAB Open Video Viewability (OpenVV)] teknik som bygger på den angivna känslighetsnivån:
+**[!UICONTROL Viewability sensitivity]:** Aktiverar förstahandsmätning och rapportering av visningsbarhet med hjälp av [!DNL IAB Open Video Viewability (OpenVV)] -tekniken, baserat på den angivna känslighetsnivån:
 
 * *[!UICONTROL Standard (50% of ad in view for two consecutive seconds)]*
 
