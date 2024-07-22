@@ -14,5 +14,4 @@ Tabellen nedan visar vilka fält som är obligatoriska, valfria eller inte till�
 >* Värdena i alla textkolumner är skiftlägeskänsliga.
 >* När du skapar en ny post och inte inkluderar värden för alla obligatoriska datafält, tilldelas vissa av dessa fält de angivna standardvärdena.
 >* För fält som inte anges nedan används standardvärdet för annonsnätverket.
->* En lista över tillgängliga kalkylbladsrader i [!UICONTROL Download Bulksheet] se &quot;[Bulkbladsrader efter annonsnätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network).&quot;
-
+>* En lista över tillgängliga kalkylbladsrader i dialogrutan [!UICONTROL Download Bulksheet] finns i &quot;[Bulkbladsrader per annonsnätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md#bulksheet-rows-by-ad-network)&quot;.

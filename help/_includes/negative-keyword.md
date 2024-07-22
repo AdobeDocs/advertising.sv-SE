@@ -1,13 +1,13 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 # Negativa nyckelordsfält i inställningar för kampanj och annonsgrupp för Baidu, GGL, MS, YJP
 
-**[!UICONTROL Negative Keywords]:** (Valfritt) Alla nyckelord som inte utlöser någon annons när de efterfrågas. Använd följande syntax utan minustecken (`-`):
+**[!UICONTROL Negative Keywords]:** (Valfritt) Alla nyckelord som inte utlöser någon annons när de efterfrågas. Använd följande syntax, utan ett minustecken (`-`):
 
 * Negativ bred matchning: `keyword` (stöds inte av [!DNL Microsoft Advertising])
 * Negativ frasmatchning: `"keyword"`

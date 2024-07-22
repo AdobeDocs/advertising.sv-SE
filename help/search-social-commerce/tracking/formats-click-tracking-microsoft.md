@@ -1,6 +1,6 @@
 ---
-title: Klickningsspårningsformat för [!DNL Microsoft Advertising]
-description: Läs mer om klickningsspårningsformaten för [!DNL Microsoft Advertising] konton.
+title: Klickspårningsformat för  [!DNL Microsoft Advertising]
+description: Lär dig mer om knappspårningsformat för  [!DNL Microsoft Advertising] konton.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Klickningsspårningsformat för [!DNL Microsoft Advertising]
+# Klickspårningsformat för [!DNL Microsoft Advertising]
 
-Nedan följer basspårningsmallens och landningssidans suffix (sista URL-suffix) format som Search, Social och Commerce kräver för [!DNL Microsoft Advertising].
+Nedan följer basspårningsmallen och landningssidans suffix (det sista URL-suffixet) som krävs för Search, Social och Commerce för [!DNL Microsoft Advertising].
 
 ## Spåra mallformat
 
@@ -30,7 +30,7 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
 >* `{TargetId}` representerar ID:t för a) antingen nyckelordet eller b) nyckelordet och återmarknadsföringslistan (publik) som utlöste annonsen (till exempel &quot;kwd-123:aud-456&quot; för både ett nyckelord och en återmarknadsföringslista eller &quot;kwd-123&quot; för enbart nyckelord).
 
@@ -46,13 +46,13 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
 >* `{TargetId}` representerar ID:t för a) antingen nyckelordet eller b) nyckelordet och återmarknadsföringslistan (publik) som utlöste annonsen (till exempel &quot;kwd-123:aud-456&quot; för både ett nyckelord och en återmarknadsföringslista eller &quot;kwd-123&quot; för enbart nyckelord).
 >
 >* `{adextensionid}` används inte.
 >
->* (Sitelinks) Du kan se vilka konverteringar som har gjorts genom att klicka på en sitellänk genom att skapa en [!UICONTROL Transaction Report]. The [!UICONTROL Link Type] kolumnvärdet för en sitelink är `sl:<Sitelink text>`, till exempel `sl:See Current Offers`.
+>* (Sitelinks) Du kan se vilka konverteringar som har gjorts genom att klicka på en sitellänk genom att generera en [!UICONTROL Transaction Report]. Kolumnvärdet [!UICONTROL Link Type] för en sitelink är `sl:<Sitelink text>`, till exempel `sl:See Current Offers`.
 
 ### Shoppingnätverk
 
@@ -68,11 +68,11 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
 >* `{TargetId}` representerar ID:t för a) antingen nyckelordet eller b) nyckelordet och återmarknadsföringslistan (publik) som utlöste annonsen (till exempel &quot;kwd-123:aud-456&quot; för både ett nyckelord och en återmarknadsföringslista eller &quot;kwd-123&quot; för enbart nyckelord).
 >
->* (Valfritt) I stället för att ange spårningsmallar på konto-, kampanj-, annonsgruppsnivå eller produktgruppsnivå kan du lägga till spårnings-URL:en till produktinformationen i [!DNL Microsoft Merchant Center] konto. Om du vill göra det tar du med spårnings-URL:en tillsammans med värdet i`link`&quot; eller &quot;`mobile_link`&quot;, beroende på vad som är tillämpligt, i en anpassad kolumn &quot;[bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0)&quot; i produktflödet. Värdet i`bingads_redirect`&quot; ersätter värdena i &quot;`link`och &quot;`mobile_link`&quot; fält. URL-adresser som skapas med den här metoden innehåller inte spårningsparametrar som anges i inställningarna för kontot Sök, Socialt &amp; Commerce eller för kampanjen.
+>* (Valfritt) I stället för att ange spårningsmallar på konto-, kampanj-, annonsgruppsnivå eller produktgruppsnivå kan du lägga till spårnings-URL:en till produktdata i [!DNL Microsoft Merchant Center]-kontot. Om du vill göra det inkluderar du spårnings-URL:en, tillsammans med värdet i fältet `link` eller `mobile_link`, beroende på vad som är lämpligt, i en anpassad kolumn, [bingads_redirect](https://help.bingads.microsoft.com/#apex/3/en/51084/0), i produktflödet. Värdet i fältet `bingads_redirect` ersätter värdena i fälten `link` och `mobile_link`. URL-adresser som skapas med den här metoden innehåller inte spårningsparametrar som anges i inställningarna för kontot Sök, Socialt &amp; Commerce eller för kampanjen.
 
 ## Format för landningssidans suffix (sista URL-suffix)
 
@@ -82,7 +82,7 @@ Exempel:
 
 ### Sök- och målgruppsnätverk
 
-Konton som använder Adobe Advertising-konverteringsspårning måste innehålla annonsnätverkets klickningsidentifierare (`msclkid` for [!DNL Microsoft Advertising]) i suffixet:
+Konton som använder Adobe Advertising-konverteringsspårning måste inkludera annonsnätverkets klickidentifierare (`msclkid` för [!DNL Microsoft Advertising]) i suffixet:
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla följande:
 
@@ -94,7 +94,7 @@ Konton som använder Adobe Advertising-konverteringsspårning måste innehålla 
 
 ### Shoppingnätverk
 
-Konton som använder Adobe Advertising-konverteringsspårning måste innehålla annonsnätverkets klickningsidentifierare (`msclkid` for [!DNL Microsoft Advertising]) i suffixet:
+Konton som använder Adobe Advertising-konverteringsspårning måste inkludera annonsnätverkets klickidentifierare (`msclkid` för [!DNL Microsoft Advertising]) i suffixet:
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla följande:
 
@@ -106,5 +106,5 @@ Konton som använder Adobe Advertising-konverteringsspårning måste innehålla 
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
 >* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Ni kan skapa en målgrupp genom att duplicera en befintlig målgrupp.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]** på huvudmenyn.
 
-1. Håll markören över målgruppsraden och klicka **[!UICONTROL Duplicate]**.
+1. Håll markören över målgruppsraden och klicka på **[!UICONTROL Duplicate]**.
 
 1. (Valfritt) Ändra standardmålgruppens namn till ett annat unikt namn.
 
-   Som standard kallas den nya publiken för[publik] copy.&quot;
+   Som standard kallas den nya målgruppen för [målgruppskopia].
 
 1. Klicka på **[!UICONTROL Duplicate]**.
 
@@ -28,15 +28,14 @@ Ni kan skapa en målgrupp genom att duplicera en befintlig målgrupp.
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
->* [Skapa en återanvändbar publik](reusable-audience-create.md)
->* [Redigera en återanvändbar publik](reusable-audience-edit.md)
->* [Visa information om en återanvändbar publik](reusable-audience-view-details.md)
+>* [Om målgruppshantering](audience-about.md)
+>* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
+>* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
+>* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
->* [Exportera en återanvändbar publik](reusable-audience-export.md)
+>* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
 >* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
 >* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
-

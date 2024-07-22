@@ -14,13 +14,13 @@ ht-degree: 1%
 
 Ändringar i ett rapportmål påverkar leveransen av alla länkade anpassade rapporter. Kontrollera att de angivna autentiseringsuppgifterna är giltiga för att förhindra avbrott i rapportleveransen.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]** på huvudmenyn.
 
 1. Håll markören över rapportens målrad och klicka sedan på **[!UICONTROL Edit]**.
 
 1. Klicka på Redigera för önskat mål
 
-1. Redigera [inställningar för rapportmål](/help/dsp/reports/report-destinations/report-destination-settings.md).
+1. Redigera [rapportens målinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -30,4 +30,3 @@ ht-degree: 1%
 >* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-

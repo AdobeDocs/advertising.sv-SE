@@ -9,4 +9,4 @@ ht-degree: 0%
 
 <!-- moved to snippet because used multiple times in one file, which ExL doesn't support -->
 
-Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i inmatningsfältet och sedan på ett kolumnnamn i kolumnlistan eller en [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan Modifierare. Infoga [!DNL Param1] eller [!DNL Param2] variabel, ange värdet `{param1:default text}` eller `{param2:default text}`, där&quot;standardtext&quot; är text som används om parameterkolumnen i matningsfilen är tom för en annonsrad.
+Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i indatafältet och sedan på ett kolumnnamn i kolumnlistan eller ett [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan Modifierare. Om du vill infoga variabeln [!DNL Param1] eller [!DNL Param2] anger du värdet `{param1:default text}` eller `{param2:default text}`, där&quot;standardtext&quot; är text som används om parameterkolumnen i matningsfilen är tom för en annonsrad.

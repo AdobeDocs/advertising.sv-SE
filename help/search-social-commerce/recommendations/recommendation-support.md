@@ -14,23 +14,23 @@ ht-degree: 0%
 
 *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
 
-[!DNL Google Ads] och [!DNL Microsoft Advertising] rekommendationer och insikter är förslag från annonsnätverket som hjälper er att förbättra kampanjernas prestanda och effektivitet:
+[!DNL Google Ads] och [!DNL Microsoft Advertising] rekommendationer och insikter är förslag från annonsnätverket som kan förbättra kampanjernas prestanda och effektivitet:
 
-* Varje [!DNL Google Ads] rekommendationer ger anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
+* Varje [!DNL Google Ads]-rekommendation innehåller anpassade förslag om olika resultataspekter av en kampanj - från att lägga till en resurs till att öka budgeten - baserat på kontots resultathistorik, kampanjinställningar och trender över [!DNL Google Ads].
 
-* Varje [!DNL Microsoft Advertising] resultatinsikter och rekommendationer tyder på förändringar för att optimera kampanjresultaten baserat på algoritmer för maskininlärning och bästa praxis.
+* Varje [!DNL Microsoft Advertising] prestandainsikter och rekommendation föreslår ändringar för att optimera kampanjprestanda baserat på maskininlärningsalgoritmer och bästa praxis.
 
-## The [!UICONTROL Recommendations & Publisher Insights] visa
+## Vyn [!UICONTROL Recommendations & Publisher Insights]
 
-Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights]kan du:
+Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights] kan du:
 
-* Se i korthet alla rekommendationer som stöds och som inte har använts för ett konto. Informationen för varje post innehåller rekommendationstypen, [!DNL Adobe] rekommendation, de mätvärden som påverkas, den enhet som påverkas och en länk till mer information. Förutsagda ökningar av mätvärden markeras med grönt.
+* Se i korthet alla rekommendationer som stöds och som inte har använts för ett konto. Informationen för varje post omfattar rekommendationstypen, [!DNL Adobe]-rekommendationen, de mått som påverkas, den enhet som påverkas och en länk till mer information. Förutsagda ökningar av mätvärden markeras med grönt.
 
   ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
 
-  Informationen är tillgänglig i realtid när du öppnar vyn. Klicka på om du vill uppdatera data ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") till vänster på sidan.
+  Informationen är tillgänglig i realtid när du öppnar vyn. Om du vill uppdatera data klickar du på ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") längst ned till vänster på sidan.
 
-* För [!DNL Microsoft Advertising] konton, se i korthet alla resultatinsikter som genererats under de senaste 30 dagarna för en [!DNL Microsoft Advertising] konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Varje insikt innehåller datumet, en beskrivning av problemet, den påverkade enheten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna [!DNL Microsoft Advertising] som du kan agera utifrån den specifika insikten.
+* För [!DNL Microsoft Advertising]-konton kan du snabbt se alla prestandainsikter som har genererats under de senaste 30 dagarna för ett [!DNL Microsoft Advertising]-konto. Insikter ger liknande information som rekommendationer, men i ett annat format. Varje insikt innehåller datumet, en beskrivning av problemet, den påverkade entiteten, grundorsaken (som kan innehålla länkar till mer information) och den föreslagna åtgärden med en länk för att öppna [!DNL Microsoft Advertising]-redigeraren, varifrån du kan agera utifrån den specifika insikten.
 
 * Visa information om en rekommendation och direkt tillämpa eller avvisa rekommendationen.
 
@@ -44,7 +44,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 | Rekommendationskategori | Rekommendationstyp | Beskrivning |
 | --- | --- | --- |
-| [!UICONTROL Ads and extensions] (kallas nu &quot;[!DNL Ads and assets]&quot; in [!DNL Google Ads]) | [!UICONTROL Call extension] | Lägga till samtalstillägg till en kampanj |
+| [!UICONTROL Ads and extensions] (kallas nu [!DNL Ads and assets] i [!DNL Google Ads]) | [!UICONTROL Call extension] | Lägga till samtalstillägg till en kampanj |
 | | [!UICONTROL Callout extension] | Lägga till bildtexttillägg i en kampanj |
 | | [!UICONTROL Optimize ad rotation] | Använd optimerade annonser |
 | | [!UICONTROL Responsive search ad] | Lägg till en ny responsiv sökannons |
@@ -53,32 +53,32 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Sitelink extension] | Lägga till sitelink-tillägg i en kampanj |
 | | [!UICONTROL Text ad] | Lägg till en ny textannons |
 | [!UICONTROL Automated campaigns] | [!UICONTROL DSA to performance max migration] | Migrera dynamiska sökannonser till maximala prestandakampanjer |
-| | [!UICONTROL Dynamic image extension opt in] | Aktivera dynamiska bildtillägg för kontot, vilket tillåter [!DNL Google Ads] maskininlärning för att automatiskt lägga till de mest relevanta bilderna från annonsens landningssida i annonsen |
+| | [!UICONTROL Dynamic image extension opt in] | Aktivera dynamiska bildtillägg för kontot, vilket gör att [!DNL Google Ads] maskininlärning automatiskt lägger till de mest relevanta bilderna från annonsens startsida i annonsen |
 | | [!UICONTROL Improve performance max ad strength] | Förbättra tillgångsgruppens styrka i en kampanj med högsta prestanda till ett&quot;enastående&quot; betyg |
 | | [!UICONTROL Performance max final URL opt in] | Aktivera den slutliga URL-utökningen för maximala prestandakampanjer |
 | | [!UICONTROL Performance max opt in] | Anmäl dig till maximala prestandakampanjer |
 | | [!UICONTROL Upgrade local campaign to performance max] | Uppgradera en äldre lokal kampanj till en maximal resultatkampanj |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Uppgradera en äldre smart shoppingkampanj till en maximalt resultatanpassad kampanj |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Rekommenderad budget för en kampanj som för närvarande är begränsad av budgeten |
-| | [!UICONTROL Enhanced CPC opt in] | Köp med [!UICONTROL Enhanced CPC] |
+| | [!UICONTROL Enhanced CPC opt in] | Ansök med [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Rekommenderad budget för en kampanj som förväntas begränsas av budgeten i framtiden |
 | | [!UICONTROL Forecasting set Target CPA] | Ange ett mål-CPA för kampanjer utan en före en säsongshändelse som beräknas öka trafiken |
 | | [!UICONTROL Forecasting set Target ROAS] | Öka budgeten före en säsongshändelse som beräknas öka trafiken och ändra budgivningsstrategin från [!UICONTROL Maximize Conversion Value] till [!UICONTROL Target ROAS] |
 | | [!UICONTROL Marginal ROI campaign budget] | Justera kampanjbudgeten för att öka avkastningen |
-| | [!UICONTROL Maximize clicks opt in] | Ändra till [!UICONTROL Maximize Clicks] budgivningsstrategi |
+| | [!UICONTROL Maximize clicks opt in] | Ändra till [!UICONTROL Maximize Clicks]-budgivningsstrategin |
 | | [!UICONTROL Maximize conversion value opt in] | Byt till Maximera konverteringsvärdesstrategi |
-| | [!UICONTROL Maximize conversions opt in] | Ändra till [!UICONTROL Maximize Conversions] budgivningsstrategi |
+| | [!UICONTROL Maximize conversions opt in] | Ändra till [!UICONTROL Maximize Conversions]-budgivningsstrategin |
 | | [!UICONTROL Move unused budget] | Flytta oanvänd budget till en begränsad budget |
-| | [!UICONTROL Raise Target CPA bid too low] | Öka [!UICONTROL Target CPA] med en rekommenderad mängd när den är för låg och det finns få eller inga konverteringar |
+| | [!UICONTROL Raise Target CPA bid too low] | Höj [!UICONTROL Target CPA] med rekommenderat belopp när det är för lågt och det finns få eller inga konverteringar |
 | | [!UICONTROL Set Target CPA] | Ange mål-CPA för kampanjer utan ett mål |
 | | [!UICONTROL Set Target ROAS] | Ange ett mål för ROAS för kampanjer utan ett |
-| | [!UICONTROL Target CPA opt in] | Ändra till [!UICONTROL Target CPA] budgivningsstrategi |
-| | [!UICONTROL Target CPA raising] | Öka [!UICONTROL Target CPA] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar |
-| | [!UICONTROL Target ROAS lowering] | Nedre [!UICONTROL Target ROAS] baserat på [!DNL Google Ads] prognoser, som beräknas utifrån tidigare konverteringar |
-| | [!UICONTROL Target ROAS opt in] | Ändra till [!UICONTROL Target ROAS] budgivningsstrategi |
+| | [!UICONTROL Target CPA opt in] | Ändra till [!UICONTROL Target CPA]-budgivningsstrategin |
+| | [!UICONTROL Target CPA raising] | Höj upp [!UICONTROL Target CPA] baserat på [!DNL Google Ads]-prognoser, som beräknas från tidigare konverteringar |
+| | [!UICONTROL Target ROAS lowering] | Sänk värdet för [!UICONTROL Target ROAS] baserat på [!DNL Google Ads] prognoser, som beräknas från tidigare konverteringar |
+| | [!UICONTROL Target ROAS opt in] | Ändra till [!UICONTROL Target ROAS]-budgivningsstrategin |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Utvidga räckvidden genom att uppdatera en kampanj för att använda displayexpansion |
 | | [!UICONTROL Keyword] | Lägg till nya nyckelord |
-| | [!UICONTROL Search partners opt in] | Nå ut bättre med [!DNL Google] sökpartner |
+| | [!UICONTROL Search partners opt in] | Utöka räckvidden med [!DNL Google] sökpartners |
 | | [!UICONTROL Use broad match keyword] | Använd bred matchning för konverteringsbaserade kampanjer med fullt automatiserad konverteringsbaserad budgivning |
 
 ## Rekommendationstyper som stöds för [!DNL Microsoft Advertising]
@@ -91,7 +91,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 >[!MORELIKETHIS]
 >
->* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
->* [Tillämpa eller avvisa en utgivarrekommendation](recommendation-apply-dismiss.md)
+>* [Visa dina utgivarrekommendationer och prestandainsikter](recommendation-view.md)
+>* [Tillämpa eller inaktivera en utgivarrekommendation](recommendation-apply-dismiss.md)
 >* [Visa loggen för utgivarens rekommendationer för ett konto](recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)

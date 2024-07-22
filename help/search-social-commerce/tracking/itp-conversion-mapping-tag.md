@@ -1,42 +1,42 @@
 ---
 title: Adobe Advertising-konverteringstaggen
-description: Lär dig mer om den JavaScript-baserade konverteringsmappningstaggen för ITP 2.2, som gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan.
-exl-id: 6e2515da-2552-4f19-8344-1dee96cbf706
+description: Lär dig mer om den JavaScript-baserade konverteringstaggen för ITP 2.2, som gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan.
+exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
 
-# Konverteringstaggen för JavaScript-konvertering i Adobe Advertising
+# Konverteringstaggen Adobe Advertising JavaScript
 
-*Annonsörer med enbart konverteringsspårning i Adobe Advertising*
+*Annonsörer med endast Adobe Advertising-konverteringsspårning*
 
-JavaScript-baserad konverteringsmappningstagg i Adobe Advertising, när den används utöver Adobe Advertising JavaScript v2- eller v3-konverteringstaggen, gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan. ITP 2.2-lösningen lagrar en användares cookie i lokal lagring i en annonsörägd iFrame. Lokal lagring kan sedan behålla cookie-värdet från klickningen nedåt till konverteringssidan.
+Med den Adobe Advertising JavaScript-baserade konverteringsmappningstaggen kan Adobe Advertising spåra konverteringshändelser som inträffar på en sida som inte är landningssidan, utöver taggen Adobe Advertising JavaScript v2 eller v3 för konverteringsspårning. ITP 2.2-lösningen lagrar en användares cookie i lokal lagring i en annonsörägd iFrame. Lokal lagring kan sedan behålla cookie-värdet från klickningen nedåt till konverteringssidan.
 
 Använd taggen för konverteringsmappning för att se till att Adobe Advertising kan spåra alla konverteringar som sker i webbläsarna Apple Safari och Mozilla Firefox, vilket begränsar beständigheten hos cookies från första part. <!-- For all requirements to track conversions from Safari, see "Track Conversions from Apple Safari Browsers." -->
 
 Så här använder du konverteringsmappningstaggen:
 
-1. [Distribuera konverteringstaggen](#deploy-conversion-mapping-tag).
+1. [Distribuera konverteringsmappningstaggen](#deploy-conversion-mapping-tag).
 
-1. Om din organisation använder flera Adobe Experience Cloud Identity Service-organisations-ID:n (kallades tidigare IMS Org ID:n) ska du [uppdatera konverteringstaggar](#update-conversion-tags) för att inkludera organisations-ID:t.
+1. Om din organisation använder flera Adobe Experience Cloud Identity Service-organisations-ID:n (kallades tidigare IMS-organisations-ID:n) [uppdaterar du dina konverteringstaggar](#update-conversion-tags) så att de innehåller organisations-ID:t.
 
-1. [Validera taggdistributionen](#validate-conversion-mapping).
+1. [Verifiera taggdistributionen](#validate-conversion-mapping).
 
-## Distribuera konverteringstaggen för JavaScript för ITP 2.2 {#deploy-conversion-mapping-tag}
+## Distribuera JavaScript konverteringstagg för ITP 2.2 {#deploy-conversion-mapping-tag}
 
 >[!NOTE]
 >
->Om du använder konverteringstaggen JavaScript för ITP 2.0 ska du ersätta den befintliga taggen på alla konverteringssidor med någon av följande taggar.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
+>Om du använder konverteringstaggen för JavaScript för ITP 2.0 ska du ersätta den befintliga taggen på alla konverteringssidor med någon av följande taggar.<!-- any other instructions, too? Point them to the other page on Track Conversions from Safari...." -->
 
-* Om din organisation använder ett enda organisations-ID, som används för ditt konto för sökning, sociala medier och handel, använder du följande tagg:
+* Om din organisation använder ett enda organisations-ID, som används för ditt Search-, Social- och Commerce-konto, använder du följande tagg:
 
   `<script src="//www.everestjs.net/static/amo-conversion-mapper.js" userid="{AMO User ID}"></script>`
 
-  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt Search-, Social- och Commerce-konto.
 
 * Om din organisation använder flera organisations-ID:n använder du följande tagg:
 
@@ -44,11 +44,11 @@ Så här använder du konverteringsmappningstaggen:
 
   där:
 
-   * du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras. Använd samma organisations-ID för alla konverteringssidor.
+   * du ersätter värdet `{xxxxxx@AdobeOrg}` med organisations-ID:t som sidans konverteringar spåras för. Använd samma organisations-ID för alla konverteringssidor.
 
-   * du ersätta `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+   * du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt Search-, Social- och Commerce-konto.
 
-* Om du använder ett tagghanteringssystem som inte stöder tillägg av `imsorgid` -variabel till script-taggen och använd sedan följande kod i stället:
+* Om du använder ett tagghanteringssystem som inte har stöd för att lägga till variabeln `imsorgid` i skripttaggen ska du använda följande kod i stället:
 
   *Om din organisation använder ett enda organisations-ID:
 
@@ -60,7 +60,7 @@ Så här använder du konverteringsmappningstaggen:
   <script src="//www.everestjs.net/static/amo-conversionmapper.js"></script>
   ```
 
-  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+  där du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt Search-, Social- och Commerce-konto.
 
    * Om din organisation använder flera organisations-ID:
 
@@ -75,11 +75,11 @@ Så här använder du konverteringsmappningstaggen:
 
      där:
 
-      * du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras. Använd samma organisations-ID för alla konverteringssidor.
+      * du ersätter värdet `{xxxxxx@AdobeOrg}` med organisations-ID:t som sidans konverteringar spåras för. Använd samma organisations-ID för alla konverteringssidor.
 
-      * du ersätta `{AMO User ID}` med det unika användar-ID:t för ditt konto för sökning, sociala medier och handel.
+      * du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt Search-, Social- och Commerce-konto.
 
-Om du inte känner till värdet på ditt företags-ID eller ditt användar-ID för sökning, sociala nätverk och handel frågar du kontohanteraren för Adobe.
+Om du inte känner till värdet på ditt företags-ID eller ditt användar-ID för sökningar, sociala medier och Commerce frågar du din kontoansvarige på Adobe.
 
 ### Exempel
 
@@ -98,7 +98,7 @@ window.ad_cloud.userid = "99999"
 
 ### Var ska taggen läggas till?
 
-Lägg till taggen på en sida som kan vara en landningssida från ett sökklick (helst på alla sidor, eftersom landningssidorna kan ändras över tid). Den måste läsas in före konverteringstaggen v3 för JavaScript i Adobe Advertising.
+Lägg till taggen på en sida som kan vara en landningssida från ett sökklick (helst på alla sidor, eftersom landningssidorna kan ändras över tid). Den måste läsas in före konverteringstaggen för JavaScript v3 i Adobe Advertising.
 
 Om den är placerad i en iframe- eller container-tagg:
 
@@ -118,7 +118,7 @@ Lägg till följande sträng i början av konverteringsskripttaggen:
 
 `ef_imsorgid="{xxxxxx@AdobeOrg}";`
 
-där du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras.
+där du ersätter värdet `{xxxxxx@AdobeOrg}` med organisations-ID:t som sidans konverteringar spåras för.
 
 Exempel:
 
@@ -144,11 +144,11 @@ effp();
 
 ### JavaScript V3-taggar
 
-Efter `window.EF` är definierad lägger du till följande sträng:
+När `window.EF` har definierats lägger du till följande sträng:
 
 `window.EF.imsorgid = "{xxxxxx@AdobeOrg}";`
 
-där du ersätter värdet `{xxxxxx@AdobeOrg}` med det organisations-ID för vilket sidans konverteringar spåras.
+där du ersätter värdet `{xxxxxx@AdobeOrg}` med organisations-ID:t som sidans konverteringar spåras för.
 
 Exempel:
 

@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Baidu] och gruppinställningar'
-description: Referera inställningarna för [!DNL Baidu] annonsgrupper.
-exl-id: 940c5d62-8646-4686-ad34-1fbabe69e1b3
+title: '[!DNL Baidu] och gruppinställningar'
+description: Referera inställningarna för  [!DNL Baidu] annonsgrupper.
+exl-id: 1d480339-a8c8-4874-ad8e-d8973660682c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Ett annonsgruppsnamn som är unikt i kampanjen. Maxlängden är 15 dubbelbyte-tecken.
 
-**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardinställningen för nya annonsgrupper är *Aktiv*.
+**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardvärdet för nya annonsgrupper är *Aktiv*.
 
 ## [!UICONTROL Budget Options]
 

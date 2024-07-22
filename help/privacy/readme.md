@@ -5,8 +5,8 @@ source-wordcount: '26'
 ht-degree: 0%
 
 ---
-# Dokumentation om konsumentsekretessupporten för Adobe Advertising
+# Dokumentation till Adobe Advertising om konsumentsekretessupporten
 
-Den här mappen är till för Adobe Advertising-stöd för konsumentintegritet.
+Den här mappen är avsedd för Adobe Advertising som hanterar konsumenternas integritet.
 
 **Obs! Den här sidan publiceras inte i kunddokumentationen.**

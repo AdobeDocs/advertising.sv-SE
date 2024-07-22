@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Campaign Daily Impression Share Report]
 
-*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast konton*
+Endast *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
 
-The [!UICONTROL Campaign Daily Impression Share Report] inkluderar mått för dagliga tittarsiffror per enhetstyp för en eller flera kampanjer. Som standard innehåller data en rad för varje kampanj som fick minst ett intryck eller en klickning för varje dag i det angivna datumintervallet, och raderna är i stigande ordning efter datum. Rapporten kan även innehålla data som spåras av [!DNL Adobe] och härledda mätvärden.
+[!UICONTROL Campaign Daily Impression Share Report] innehåller dagliga mått för visningsdelning per enhetstyp för en eller flera kampanjer. Som standard innehåller data en rad för varje kampanj som fick minst ett intryck eller en klickning för varje dag i det angivna datumintervallet, och raderna är i stigande ordning efter datum. Rapporten kan även innehålla data som spåras av [!DNL Adobe] och härledda värden.
 
 Mätvärden för Impression Share finns tillgängliga kl. 13:00 i annonsörens tidszon för föregående dag. Du kan visa data för de senaste två månaderna.
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL Start Date]
 * [!UICONTROL End Date]
@@ -43,6 +43,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Specialrapporter](specialty-report-about.md)
+>* [Om specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)

@@ -18,19 +18,19 @@ Om det behövs kan du avbryta inbjudan till en användare med en väntande inbju
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Users]** på huvudmenyn.
 
-   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account]** på huvudmenyn och klicka sedan på **[!UICONTROL Edit users]**.
 
-1. I **[!UICONTROL Invitations]** avsnitt, klicka **[!UICONTROL Send Invite]**.
+1. Klicka på **[!UICONTROL Send Invite]** i avsnittet **[!UICONTROL Invitations]**.
 
-1. I **[!UICONTROL User Email]** anger du den e-postadress dit inbjudan ska skickas.
+1. I fältet **[!UICONTROL User Email]** anger du den e-postadress dit inbjudan ska skickas.
 
 1. Klicka på **[!UICONTROL Send Invite]**.
 
 >[!MORELIKETHIS]
 >
 >* [Skicka om en väntande användarinbjudan](user-resend-invite.md)
->* [Avbjuda en väntande användare](user-uninvite.md)
+>* [Ångra inbjudan till en väntande användare](user-uninvite.md)
 
 <!-- >* [Edit User Permissions or Delete a User](user-edit.md) -->

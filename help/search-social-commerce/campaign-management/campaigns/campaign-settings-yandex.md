@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Yandex] kampanjinställningar'
+title: '[!DNL Yandex] kampanjinställningar'
 description: Referera inställningarna för [!DNL Yandex] kampanjer.
-exl-id: 33e73b90-7a37-4be7-b96d-02ef8bfdb79e
+exl-id: 3be88471-06b8-4f05-8a4e-24f71f7a36f7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yandex] kampanjinställningar
+# Inställningar för [!DNL Yandex]-kampanj
 
 ## \[Kampanjskapande skärm\]
 
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 * *[!UICONTROL Search Network Only]:* Visar textannonser i söknätverket. Du måste ange nyckelord för varje annonsgrupp.
 
-* *[!UICONTROL Search and Display Network]:* Visar textannonser i söknätverket och [!DNL Yandex Advertising Network]. För sökannonser måste du ange söknyckelord för varje annonsgrupp. För visningsannonser måste du ange nyckelord för de webbplatser som du vill annonsera för varje annonsgrupp.
+* *[!UICONTROL Search and Display Network]:* Visar textannonser i söknätverket och i [!DNL Yandex Advertising Network]. För sökannonser måste du ange söknyckelord för varje annonsgrupp. För visningsannonser måste du ange nyckelord för de webbplatser som du vill annonsera för varje annonsgrupp.
 
 * *[!UICONTROL Display Network Only]:* Visar textannonser på [!DNL Yandex Advertising Network]. För varje annonsgrupp måste du ange nyckelord för de webbplatser som du vill annonsera på.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt inom kontot.
+**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt i kontot.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** Visningsstatus för kampanjen: *Aktiv* eller *Pausad*. Standardinställningen för nya annonskampanjer är *Aktiv*.
+**[!UICONTROL Status]:** Visningsstatusen för kampanjen: *Aktiv* eller *Pausad*. Standardvärdet för nya annonskampanjer är *Aktiv*.
 
 ## [!UICONTROL Budget Options]
 

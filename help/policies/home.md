@@ -1,6 +1,6 @@
 ---
 title: Policyer och riktlinjer för Adobe Advertising
-description: Läs mer om policyer och riktlinjer för DSP och annonssökning.
+description: Läs mer om policyer och riktlinjer för Advertising DSP och Advertising Search.
 index: true
 cloud: Experience Cloud
 product: advertising cloud
@@ -13,9 +13,9 @@ ht-degree: 21%
 
 # Policyer och riktlinjer för Adobe Advertising
 
-Läs mer om policyer och riktlinjer för DSP och annonssökning:
+Läs om policyer och riktlinjer för Advertising DSP och Advertising Search:
 
 + [Krav för annonser](/help/policies/ad-requirements-policy.md)
 + [Princip för krav på universella ID](/help/policies/universal-id-policy.md)
 + [Riktlinjer för godkända hälsosegment](/help/policies/health-segment-guidelines.md)
-+ [[!DNL DSP] Riktlinjer för dataanvändning](/help/policies/data-usage-guidelines.md)
++ [Riktlinjer för dataanvändning för [!DNL DSP]](/help/policies/data-usage-guidelines.md)

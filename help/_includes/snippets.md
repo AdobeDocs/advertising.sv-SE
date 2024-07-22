@@ -11,11 +11,11 @@ ht-degree: 0%
 
 <!-- Duplicated from include file because one file has multiple occurrences, which ExL doesn't support. -->
 
-**[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen, och även bäddar in URL:en för sista sidan/landningssidan i en [!DNL ValueTrack] parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
+**[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL:en, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för sista sidan/landningssidan i en [!DNL ValueTrack] -parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` som ska inkludera en omdirigering.
 
-För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefix automatiskt för Sökning, Socialt och Commerce för sin egen omdirigerings- och spårningskod när du sparar posten.
 
-* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Google Ads] dokumentation för de [!DNL ValueTrack] format](https://support.google.com/google-ads/answer/6305348). (Gå till parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängligt&quot; [!DNL ValueTrack] Parametrar.&quot;)
+* Information om parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Google Ads] dokumentationen för de  [!DNL ValueTrack] format](https://support.google.com/google-ads/answer/6305348) som stöds. (Gå till parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga [!DNL ValueTrack]-parametrar&quot;.)
 
 * Du kan också inkludera URL-parametrar och anpassade parametrar som definierats för kampanjen, avgränsade med et-tecken (&amp;), till exempel {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -27,15 +27,15 @@ För spårning av konvertering till Adobe Advertising, som används när kampanj
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* Om du uppdaterar en spårningsmall på annons-, sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
 
-## Fältet Spårningsmall för [!DNL Microsoft Advertising] enheter {#tracking-template-microsoft}
+## Spårningsmallfält för [!DNL Microsoft Advertising] entiteter {#tracking-template-microsoft}
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
+**[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL:en, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för slut-/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` som ska inkludera en omdirigering.
 
-För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefix automatiskt för Sökning, Socialt och Commerce för sin egen omdirigerings- och spårningskod när du sparar posten.
 
-* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Microsoft Advertising] dokumentation om parametrar för att ange den slutliga URL:en](https://help.ads.microsoft.com/#apex/3/en/56799).
+* Information om parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Microsoft Advertising] dokumentationen om parametrar för att ange den slutliga URL:en](https://help.ads.microsoft.com/#apex/3/en/56799).
 
 * Du kan också inkludera URL-parametrar och anpassade parametrar som definierats för kampanjen, avgränsade med et-tecken (&amp;), till exempel {lpurl}?matchtype={matchtype}&amp;device={device}.
 
@@ -50,11 +50,11 @@ För spårning av konvertering till Adobe Advertising, som används när kampanj
 
 ## Text och mall - Obs! Hur man infogar en dynamisk parameter {#inventory-feed-template-insert-dynamic-parameter}
 
-Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i inmatningsfältet och sedan på ett kolumnnamn i kolumnlistan eller en [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan Modifierare. Infoga [!DNL Param1] eller [!DNL Param2] variabel, ange värdet `{param1:default text}` eller `{param2:default text}`, där&quot;standardtext&quot; är text som används om parameterkolumnen i matningsfilen är tom för en annonsrad.
+Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i indatafältet och sedan på ett kolumnnamn i kolumnlistan eller ett [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan Modifierare. Om du vill infoga variabeln [!DNL Param1] eller [!DNL Param2] anger du värdet `{param1:default text}` eller `{param2:default text}`, där&quot;standardtext&quot; är text som används om parameterkolumnen i matningsfilen är tom för en annonsrad.
 
 ## Text- och annonsmall - Observera hur du infogar en annonsanpassare {#inventory-feed-template-insert-ad-customizer}
 
-Använd följande format om du vill infoga en annonsanpassare: `Default text` är ett valfritt värde som ska infogas när din feed-fil inte innehåller ett giltigt värde:
+Om du vill infoga en annonsanpassare använder du följande format, där `Default text` är ett valfritt värde att infoga när din feed-fil inte innehåller ett giltigt värde:
 
 * [!DNL Google Ads]: `{CUSTOMIZER.AdCustomizerName:Default text}`, till exempel `{CUSTOMIZER.Discount:10%}`
 

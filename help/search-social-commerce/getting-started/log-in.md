@@ -1,11 +1,11 @@
 ---
 title: Logga in
 description: Lär dig hur du loggar in.
-exl-id: b4359852-ed2a-4c97-864c-4a456fe57648
+exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -20,19 +20,19 @@ Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Expe
 
    * Användare i Nordamerika: [https://enterprise-na.efrontier.com](https://enterprise-na.efrontier.com)
 
-   * Användare inom alla andra områden: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
+   * Användare i alla andra områden: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
 ## Logga in från Adobe Experience Cloud
 
 >[!NOTE]
 >
->Ditt företag måste etableras i Adobe Experience Cloud och du måste ha [länkade ditt Experience Cloud-konto till ett konto för sökning, sociala medier och handel](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Ditt företag måste etableras i Adobe Experience Cloud och du måste ha [kopplat ditt Experience Cloud-konto till ett Search-, Social- och Commerce-konto](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 1. [Logga in på Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. I den övre menyn väljer du ![lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "lösningsväljare").
+1. Välj ![lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "lösningsväljare") på den översta menyn.
 
-1. Välj **[!UICONTROL Advertising Cloud]**.
+1. Välj **[!UICONTROL Advertising Cloud]** på undermenyn.
 
 >[!MORELIKETHIS]
 >

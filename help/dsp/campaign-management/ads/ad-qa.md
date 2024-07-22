@@ -16,26 +16,26 @@ Du kan hämta information om alla annonser i en kampanj i XLSX-format (Excel-kal
 
 >[!NOTE]
 >
->*Information om hur du redigerar annonsinställningarna finns i [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md).
->*Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt eller bifoga annonser till praktik går du till &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md).&quot;
+>*Mer information om hur du redigerar annonsinställningarna finns i [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md).
+>*Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt eller om du vill bifoga annonser till placeringar ska du läsa &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på kampanjens namn.
 
-1. Öppna [!UICONTROL Ad Tools] visa på något av följande sätt:
+1. Öppna vyn [!UICONTROL Ad Tools] på något av följande sätt:
 
-   * (Från [!UICONTROL Packages] , [!UICONTROL Placements], eller [!UICONTROL Ads] vy) Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]**.
+   * (I vyn [!UICONTROL Packages], [!UICONTROL Placements] eller [!UICONTROL Ads]) Klicka **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]** i det övre högra hörnet.
 
-   * (Från [!UICONTROL Placements] vy) Bredvid placeringsnamnet klickar du på **[!UICONTROL ...]** > **[!UICONTROL Attach Ads].**
+   * (I vyn [!UICONTROL Placements]) Klicka på **[!UICONTROL ...]** > **[!UICONTROL Attach Ads]bredvid placeringsnamnet.**
 
-   * (Från [!UICONTROL Ads] vy) Bredvid annonsnamnet klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]**.
+   * (I vyn [!UICONTROL Ads]) Klicka på **[!UICONTROL ...]** > **[!UICONTROL Add to Placements]** bredvid annonsnamnet.
 
-1. Klicka på uppe till höger **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA].**
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Ads QA]i det övre högra hörnet.**
 
 1. Hämta filen:
 
-   1. Klicka på till höger om den övre menyraden ![Jobb](/help/dsp/assets/downloads.png).
+   1. Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden.
 
    1. När jobbet är klart och filen är tillgänglig klickar du på **[!UICONTROL Download]** bredvid jobbet.
 

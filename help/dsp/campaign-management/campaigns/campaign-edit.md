@@ -5,16 +5,16 @@ feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
 # Redigera en kampanj
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
-1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
-1. Redigera [kampanjinställningar](campaign-settings.md).
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid kampanjnamnet.
+1. Redigera [kampanjinställningarna](campaign-settings.md).
 1. Klicka på **[!UICONTROL Save Campaign]**.
 
 >[!MORELIKETHIS]
@@ -24,4 +24,3 @@ ht-degree: 0%
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
 >* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
 >* [Kampanjinställningar](campaign-settings.md)
-

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # [!UICONTROL MSA Ad Extension by Ad Report]
 
-*[!DNL Microsoft Advertising]endast konton*
+Endast *[!DNL Microsoft Advertising]konton*
 
 Den här rapporten visar aggregerade visningar, klickningar, utgifter och genomsnittskostnad per klick för varje annonstillägg och klickfrekvens per annons. Använd den här rapporten för att jämföra prestandan för olika versioner av dina annonstillägg.
 
-När du kör en rapport med enbart måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mätvärden.<!-- all metrics? -->
+När du kör en rapport med endast måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mått.<!-- all metrics? -->
 
-Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
+Du kan visa data de senaste 180 dagarna. Search, Social och Commerce hämtar data från [!DNL Microsoft Advertising] i realtid och det kan ta flera minuter att generera rapporter med större datavolym.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar 
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -47,6 +47,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Specialrapporter](specialty-report-about.md)
+>* [Om specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)

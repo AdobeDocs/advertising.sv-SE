@@ -12,17 +12,17 @@ ht-degree: 2%
 
 # Skapa ett rapportmål
 
-1. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Add Destination]**.
 
-1. Ange [rapportdestinationsinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md), som varierar beroende på måltyp.
+1. Ange [rapportens målinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md), som varierar beroende på måltyp.
 
 1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
-> Om rapporten är konfigurerad för leverans till någon typ av FTP eller [!DNL Amazon S3] får du inga meddelanden om rapporten avbryts på grund av fel. Om du inte får de rapporter du förväntar dig kan du kontakta ditt Adobe-kontoteam och ta reda på varför.
+> Om rapporten har konfigurerats för leverans till någon typ av FTP eller [!DNL Amazon S3]-plats, får du inga meddelanden om rapporten har avbrutits på grund av fel. Om du inte får de rapporter du förväntar dig kan du kontakta ditt Adobe-kontoteam och ta reda på varför.
 
 >[!MORELIKETHIS]
 >

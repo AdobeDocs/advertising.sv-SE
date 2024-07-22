@@ -1,11 +1,11 @@
 ---
 title: Systemkrav
 description: Läs mer om krav för program och konton.
-exl-id: 9ff7d9ba-3f04-4552-b24f-6c8165cd89e1
+exl-id: 818494f2-45d6-4788-a847-d80dec711245
 feature: Search Getting Started
-source-git-commit: 2fc49a64366ee9fbf05b5eb4bbda37badcf9b763
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ Du behöver följande information om programvara och konto.
 
 * Någon av följande webbläsare:
 
-   * [!DNL Apple Safari] (inklusive [!DNL Safari] for [!DNL iOS]) 10 eller högre
+   * [!DNL Apple Safari] (inklusive [!DNL Safari] för [!DNL iOS]) 10 eller högre
 
-   * [!DNL Google Chrome] 103 eller högre
+   * [!DNL Google Chrome] 103 eller senare
 
    * [!DNL Microsoft Edge] 104 och senare
 
-   * [!DNL Mozilla Firefox] 102 eller högre, [!DNL Mozilla Firefox Extended Support Release] 91.11 och senare
+   * [!DNL Mozilla Firefox] 102 eller högre; [!DNL Mozilla Firefox Extended Support Release] 91.11 och högre
 
 * (Om du vill visa exporterade filer i XLS-format) [!DNL Microsoft Excel] rekommenderas
 
-  Om du använder ett annat program än [!DNL Microsoft Excel] om du vill visa exporterade XLS-filer kan det hända att siffror, datum, tider och valutor inte har rätt format.
+  Om du använder ett annat program än [!DNL Microsoft Excel] för att visa exporterade XLS-filer kan nummer, datum, tider och valutor ha fel format.
 
 ## Användarnamn och lösenord
 
@@ -38,7 +38,7 @@ Du behöver ett användarnamn och ett lösenord för att kunna logga in. Ditt Ad
 
 ### Inställningar för webbläsarwebbplats
 
-Om du vill visa förhandsvisningar av bilder för vissa annonstyper/resurstyper inaktiverar du annonsblockerare/innehållsblockerare för `efrontier.com` genom att tillåta ett undantag för platsen. Hantera annonsblockerare i webbläsarens inställningar för webbplats/webbplats eller (i Firefox) genom att redigera inställningarna för de webbläsartillägg för annonsblockering som du har installerat.
+Om du vill visa förhandsvisningar av bilder för vissa annonstyper/tillgångstyper inaktiverar du annonsblockerare/innehållsblockerare för domänen `efrontier.com` genom att tillåta ett undantag för webbplatsen. Hantera annonsblockerare i webbläsarens inställningar för webbplats/webbplats eller (i Firefox) genom att redigera inställningarna för de webbläsartillägg för annonsblockering som du har installerat.
 
 ### Språkinställningar för dator och webbläsare
 

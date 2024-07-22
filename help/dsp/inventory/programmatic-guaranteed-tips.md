@@ -5,7 +5,7 @@ feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ När köparen och utgivaren förhandlar om en programgaranterad affär måste de
 
 >[!MORELIKETHIS]
 >
->* [Om programmatiska erbjudanden](programmatic-guaranteed-about.md)
->* [Ställ in en programgarantiavtal](programmatic-guaranteed-set-up.md)
+>* [Om programmatiska garanterade erbjudanden](programmatic-guaranteed-about.md)
+>* [Konfigurera ett garanterat programavtal](programmatic-guaranteed-set-up.md)
 >* [SSP-partners](ssp-partners.md)
-

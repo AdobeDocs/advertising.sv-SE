@@ -25,14 +25,14 @@ ht-degree: 3%
 + [Nyheter](/help/dsp/home.md)
 + Introduktion {#introduction}
    + [Introduktion till Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Viktiga funktioner {#features}
+   + Nyckelfunktioner {#features}
       + [Optimering](/help/dsp/introduction/features/optimization.md)
       + [Varumärkessäkerhet och mediakvalitet](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentintegritet](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Politik och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + Campaign Management {#campaign-management}
    + [Översikt över Campaign Management Structure](/help/dsp/campaign-management/campaign-management-overview.md)
@@ -71,12 +71,12 @@ ht-degree: 3%
       + [Pausa eller aktivera en placering](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [Arkivera eller arkivera en placering](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-   + Annonser {#ads}
+   + Ads {#ads}
       + [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
       + [Certifierade annonserande partners](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md)
       + [Skapa flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md)
-      + [Skapa annonser med [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
+      + [Skapa annonser med  [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
       + [Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
@@ -107,7 +107,7 @@ ht-degree: 3%
    + [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
-   + [Hur [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [ [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)
    + [Pre-bid-filter på placeringsnivå och Så här använder du dem](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Anpassade mål](/help/dsp/optimization/custom-goal.md)
@@ -129,10 +129,10 @@ ht-degree: 3%
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Segment {#segments}
       + [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
-      + [!UICONTROL CCPA Opt-out-of-Sale] Segment {#ccpa-opt-out-of-sale-segments}
-         + [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-about.md)
-         + [Skapa och implementera en [!UICONTROL CCPA Opt-out-of-Sale] Segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
-         + [Hämta [!UICONTROL Consumer Opt-Out-of-Sale] Rapporter](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
+      + [!UICONTROL CCPA Opt-out-of-Sale] segment {#ccpa-opt-out-of-sale-segments}
+         + [Om [!UICONTROL CCPA Opt-out-of-Sale] segment](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [Skapa och implementera ett [!UICONTROL CCPA Opt-out-of-Sale]-segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
+         + [Hämta [!UICONTROL Consumer Opt-Out-of-Sale] rapporter](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [Redigera segmentinformation](/help/dsp/audiences/segment-edit.md)
       + [Dela eller Sluta dela ett segment](/help/dsp/audiences/segment-share.md)
       + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
@@ -140,44 +140,44 @@ ht-degree: 3%
    + Källor {#sources}
       + [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
       + Arbetsflöden efter kunddataplattform {#sources-workflows}
-         + [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md)
-         + [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md)
-         + [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
+         + [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)
+         + [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md)
+         + [Konvertera användar-ID:n från [!DNL Tealium] till universella ID:n](/help/dsp/audiences/sources/source-tealium.md)
       + [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
-   + [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
+   + [Importera autentiserade segment manuellt från  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
    + [Tillgängliga dataproviders från tredje part](/help/dsp/audiences/third-party-data-providers.md)
 + Lager {#inventory}
    + [Översikt över inventeringsfunktioner](/help/dsp/inventory/inventory-overview.md)
-   + [Använda [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
+   + [Använder  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP-partners](/help/dsp/inventory/ssp-partners.md)
-   + [!DNL On Demand] Lager {#on-demand}
-      + [Om [!DNL On Demand] Premiumlager](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Tillgänglig [!DNL On Demand] Förstklassiga lager {#publishers}
+   + [!DNL On Demand] lager {#on-demand}
+      + [Om [!DNL On Demand] Premium Inventory](/help/dsp/inventory/on-demand-inventory-about.md)
+      + Tillgängliga [!DNL On Demand] Premium Inventory Publishers {#publishers}
          + [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
          + [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
          + [[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
          + [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Devices](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [Begäran igen [!DNL On Demand] Premium Inventory Devices](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [Visa din status [!DNL On Demand] Avtalsförfrågningar och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Begär  [!DNL On Demand] Premium Inventory Deals igen](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [Visa status för dina [!DNL On Demand] avtalsbegäranden och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Privat lager {#private-inventory}
       + [Om privat lager](/help/dsp/inventory/private-inventory-about.md)
       + Avtals-ID {#deal-ids}
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [Om [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
-            + [Godkänn ett avtal i [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
-         + Manuellt angivna avtal-ID:n {#manual}
-            + [Skapa manuellt [!UICONTROL Deal ID] Information](/help/dsp/inventory/deal-id-create.md)
-            + [Manuell [!UICONTROL Deal ID] Inställningar](/help/dsp/inventory/deal-id-settings.md)
+            + [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
+         + Manuellt angivna avtal-ID {#manual}
+            + [Skapa information för [!UICONTROL Deal ID] manuellt](/help/dsp/inventory/deal-id-create.md)
+            + [Manuella [!UICONTROL Deal ID]-inställningar](/help/dsp/inventory/deal-id-settings.md)
          + Programmatiska garanterade erbjudanden {#programmatic-guaranteed-deal}
             + [Översikt över programmatiska garanterade erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Ställ in en programgaranterad affär](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] Programmatiska garanterade erbjudanden {#freewheel}
-               + [Översikt över hur man ställer in garantierbjudanden för programmatiska inköp i [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Skicka in en annons för en programmatisk garanterad affär till [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [Kontrollera status för annonserna [!DNL FreeWheel] Programmatiska garanterade erbjudanden](/help/dsp/inventory/freewheel-check-status.md)
+               + [Översikt över inställning av programmatiska garanterade erbjudanden i  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Skicka en annons för en programmatisk garanterad affär till  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Kontrollera status för annonser för [!DNL FreeWheel] Programmatiska erbjudanden](/help/dsp/inventory/freewheel-check-status.md)
                + [Felkoder för FreeWheel Ad-överföringar](/help/dsp/inventory/freewheel-error-codes.md)
       + [Redigera inställningar för privat avtal](/help/dsp/inventory/deal-id-edit.md)
       + [Ange placeringar och annonser för ett privat avtal](/help/dsp/inventory/deal-id-attach-placements.md)
@@ -186,11 +186,11 @@ ht-degree: 3%
       + [Visa auktionsinsikter för ett privat avtal](/help/dsp/inventory/private-deal-auction-insights.md)
       + [Lista placeringar och annonser för ett privat avtal](/help/dsp/inventory/private-deal-view-placements.md)
       + [Arkivera eller arkivera ett privat avtal](/help/dsp/inventory/private-deal-archive-unarchive.md)
-   + [!UICONTROL Simple Ad Serving] Erbjudanden {#sas}
+   + [!UICONTROL Simple Ad Serving] erbjudanden {#sas}
       + [Om [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-      + [Skapa en [!UICONTROL Simple Ad Serving] Erbjudande](/help/dsp/inventory/simple-deal-create.md)
-      + [Redigera [!UICONTROL Simple Ad Serving] Avtalsinställningar](/help/dsp/inventory/simple-deal-edit.md)
-      + [[!UICONTROL Simple Ad Serving] Avtalsinställningar](/help/dsp/inventory/simple-deal-settings.md)
+      + [Skapa ett avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-create.md)
+      + [Redigera inställningar för avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-edit.md)
+      + [Inställningar för avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-settings.md)
    + [Visa en detaljerad rapport för ett avtal](/help/dsp/inventory/deal-view-report.md)
 + Anpassade rapporter {#custom-reports}
    + [Om anpassade rapporter](/help/dsp/reports/report-about.md)
@@ -207,7 +207,7 @@ ht-degree: 3%
       + [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
       + [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
       + [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
+      + [Inställningar för [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Planering {#planner}
    + [Om DSP](/help/dsp/planner/planner-about.md)
    + [Skapa en uppkopplad TV-sändningsplan](/help/dsp/planner/planner-create.md)
@@ -229,6 +229,6 @@ ht-degree: 3%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integrering med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + [Kundsupport](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)
 + [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)

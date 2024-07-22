@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Kontofinansiering
 
-Se till att ditt konto har tillräckligt med kredit för att köra hela kampanjen. Du kan kontrollera och fylla i kontomedel i [!UICONTROL Settings] > [!UICONTROL Account] eller genom att kontakta kontoteamet på Adobe.
+Se till att ditt konto har tillräckligt med kredit för att köra hela kampanjen. Du kan kontrollera och fylla i kontomedel i [!UICONTROL Settings] > [!UICONTROL Account] eller genom att kontakta ditt Adobe-kontoteam.
 
 ## Kampanjstatus
 
@@ -22,7 +22,7 @@ Bekräfta att kampanjdatum och budget är korrekt inställda.
 
 ## Placeringsstatus
 
-Kontrollera att placeringsstatusen är &quot;[!UICONTROL Active]&quot; eller &quot;[!UICONTROL Scheduled].&quot; Kontrollera även att övriga placeringsparametrar (som platslistan, budget, mål, flygdatum och frekvens) är korrekta.
+Kontrollera att placeringsstatusen är [!UICONTROL Active] eller [!UICONTROL Scheduled]. Kontrollera även att övriga placeringsparametrar (som platslistan, budget, mål, flygdatum och frekvens) är korrekta.
 
 ## Annonsstatus
 
@@ -32,5 +32,4 @@ Bekräfta att alla annonser är bifogade, godkända och aktiva. Kontrollera ocks
 >
 >* [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
-
+>* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)

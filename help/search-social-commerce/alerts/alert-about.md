@@ -1,30 +1,30 @@
 ---
 title: Om anpassade aviseringar
 description: Lär dig mer om anpassade aviseringar, inklusive hur du skapar aviseringsmallar och när aviseringar utlöses.
-exl-id: d5264837-797c-4528-afbb-78e3a95a5b59
+exl-id: 11dcc96c-06b8-4d2a-a671-af26297fdc3f
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Om anpassade aviseringar
 
-Du kan skapa aviseringsmallar för att identifiera när en portfölj, konto, kampanj, annonsgrupp, nyckelord och/eller kundproduktgrupp uppfyller specifika villkor - till exempel ett prestandamått - under en angiven period och sedan generera en avisering. Varningar är tillgängliga för en enskild annonsörer. Varningar innehåller alla kolumner i den aktuella standardvyn. Varningar på kampanjnivå innehåller till exempel alla kolumner i standardvärdet [!UICONTROL Campaigns] vy.
+Du kan skapa aviseringsmallar för att identifiera när en portfölj, konto, kampanj, annonsgrupp, nyckelord och/eller kundproduktgrupp uppfyller specifika villkor - till exempel ett prestandamått - under en angiven period och sedan generera en avisering. Varningar är tillgängliga för en enskild annonsörer. Varningar innehåller alla kolumner i den aktuella standardvyn. Varningar på kampanjnivå innehåller till exempel alla kolumner i standardvyn [!UICONTROL Campaigns].
 
-Du kan skapa varningsmallar från [!UICONTROL Alert Templates] eller från kampanjhanteringsvyn för den entitetstyp som ska utvärderas.
+Du kan skapa aviseringsmallar från vyn [!UICONTROL Alert Templates] eller från kampanjhanteringsvyn för entitetstypen som ska utvärderas.
 
 När en aviseringsinstans utlöses för en aviseringsmall:
 
-* De angivna mottagarna får ett e-postmeddelande. När varningen innehåller upp till 1 000 poster innehåller e-postmeddelandet en [CSV](/help/search-social-commerce/glossary.md#c-d) fil med varningsdata, inklusive data för alla enheter som utlöste varningen.
+* De angivna mottagarna får ett e-postmeddelande. När aviseringen innehåller upp till 1 000 poster innehåller e-postmeddelandet en [CSV](/help/search-social-commerce/glossary.md#c-d)-fil med varningsdata, inklusive data för alla entiteter som utlöste aviseringen.
 
-* Varningen visas i [!UICONTROL Triggered Alerts] visa i [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. En nedladdningsbar rapport finns tillgänglig i tio dagar efter att varningen har utlösts.
+* Varningen visas i vyn [!UICONTROL Triggered Alerts] i [!UICONTROL Search] > [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts]. En nedladdningsbar rapport finns tillgänglig i tio dagar efter att varningen har utlösts.
 
-* Varningen visas i [!UICONTROL Notifications] i den tillämpliga enhetsvyn, som är tillgänglig från det högra verktygsfältet. Meddelanden finns kvar i [!UICONTROL Notifications] centrera om du inte tar bort dem eller markerar dem som lästa.
+* Varningen visas i [!UICONTROL Notifications]-centret i den aktuella entitetsvyn, som är tillgänglig från det högra verktygsfältet. Meddelanden finns kvar i [!UICONTROL Notifications] om du inte tar bort dem eller markerar dem som lästa.
 
-I [!UICONTROL Custom Alerts] visa, [!UICONTROL Alert Templates] visar alla aviseringsmallar som skapats för kontot och du kan skapa, redigera, pausa, återaktivera och ta bort aviseringsmallar. The [!UICONTROL Triggered Alerts] visa en lista med genererade varningsinstanser.
+I vyn [!UICONTROL Custom Alerts] visas alla aviseringsmallar som skapats för kontot i vyn [!UICONTROL Alert Templates]. Du kan skapa, redigera, pausa, återaktivera och ta bort aviseringsmallar. I vyn [!UICONTROL Triggered Alerts] visas de genererade varningsinstanserna.
 
 >[!MORELIKETHIS]
 >
@@ -33,6 +33,6 @@ I [!UICONTROL Custom Alerts] visa, [!UICONTROL Alert Templates] visar alla avise
 >* [Pausa en anpassad aviseringsmall](alert-template-pause.md)
 >* [Aktivera en anpassad aviseringsmall](alert-template-activate.md)
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
->* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
+>* [Inställningar för anpassad aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)

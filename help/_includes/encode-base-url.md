@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Koda fältet Bas-URL i konto- och kampanjinställningarna
 
-**[!UICONTROL Encode Base URL]:** (Konton med mål-URL:er och spårningstyp [!UICONTROL EF Redirect] endast) Anger om URL:en i slutanvändarens adressfält innehåller teckenkodning (till exempel `%3D` i stället för `=`):
+**[!UICONTROL Encode Base URL]:** (Konton med mål-URL:er och endast spårningstypen [!UICONTROL EF Redirect]) Om URL:en i slutanvändarens adressfält innehåller teckenkodning (till exempel `%3D` i stället för `=`):
 
 * *[!UICONTROL On]* (standard): Om du vill visa teckenkodning i URL-adresser.
 

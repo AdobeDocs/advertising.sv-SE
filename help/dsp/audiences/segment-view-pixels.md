@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Visa spårningspixlar för ett segment
 
-1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** på huvudmenyn.
 
-1. Håll markören över segmentraden och klicka **[!UICONTROL Get Pixel]**.
+1. Håll markören över segmentraden och klicka på **[!UICONTROL Get Pixel]**.
 
-   * Taggen för spårning av sidvy, som spårar besökare på datorer och mobila enheter till en webbsida, heter &quot;[!UICONTROL Desktop or mobile websites].&quot; För segment som spåras [!DNL ID5] ID, ersätt `ID5_PARTNER_ID` i den kopierade taggen med partner-ID som [!DNL ID5] som tilldelats din organisation när den har signerat ett avtal med [!DNL ID5]. Om du inte känner till ditt partner-ID kontaktar du ditt Adobe-kontoteam.
+   * Spårningstaggen för sidvyn, som spårar besökare på datorer och mobila enheter till en webbsida, har etiketten [!UICONTROL Desktop or mobile websites]. För segment som spårar [!DNL ID5] ID:n ersätter du `ID5_PARTNER_ID` i den kopierade taggen med det partner-ID som [!DNL ID5] tilldelades din organisation när den signerade ett avtal med [!DNL ID5]. Om du inte känner till ditt partner-ID kontaktar du ditt Adobe-kontoteam.
 
      Lägg till taggen på de sidor vars vyer du vill spåra.
 
-   * (Endast anpassade segment) Taggen för visningsspårning, som spårar användare som exponeras för en annonsenhet på datorer, mobiler eller CTV-enheter, har etiketten &quot;[!UICONTROL Desktop or mobile ads].&quot; Lägg till taggen i de annonser vars vyer du vill spåra. Du kan också lägga till taggen på en plats för att som standard bifoga den till alla annonser som är kopplade till placeringen.
+   * (Endast anpassade segment) Taggen för visningsspårning, som spårar användare som exponeras för en annonsenhet på datorer, mobilenheter och CTV-enheter, har etiketten [!UICONTROL Desktop or mobile ads]. Lägg till taggen i de annonser vars vyer du vill spåra. Du kan också lägga till taggen på en plats för att som standard bifoga den till alla annonser som är kopplade till placeringen.
 
 När du har implementerat en spårningstagg kan du använda segmentet i målgruppen eller exkluderingarna för alla placeringar.
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
+>* [Om målgruppshantering](audience-about.md)
 >* [Skapa ett anpassat segment](custom-segment-create.md)
 >* [Redigera segmentinformation](segment-edit.md)
 >* [Ta bort ett segment](segment-delete.md)
->* [Dela eller Sluta dela ett segment](segment-share.md)
+>* [Dela eller sluta dela ett segment](segment-share.md)

@@ -1,9 +1,9 @@
 ---
 title: Rapporter om modellprecision
 description: Läs om rapporter som visar hur korrekta de kostnads- och intäktsmodeller är som används för att optimera anbud.
-exl-id: 8aeb2308-8775-4a6d-9d25-ba5378490344
+exl-id: 2f655db6-8f4f-4eae-9f18-cc04acad3c5c
 feature: Search Reports, Search Model Accuracy Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Modellernas noggrannhetsrapporter visar noggrannheten i de kostnads- och intäktsmodeller som används för att optimera anbud.
 
-Felaktiga uppgifter kan tyda på prestandaproblem och du kan behöva justera portföljinställningarna. Mer information om felsökning av felaktiga prognoser finns i Vanliga frågor om Portfolio i avsnittet Portfolio i optimeringshandboken som är tillgänglig i Sök, sociala medier och handel.<!-- verify convention for referencing Optimization Guide here -->
+Felaktiga uppgifter kan tyda på prestandaproblem och du kan behöva justera portföljinställningarna. Mer information om felsökning av felaktiga prognoser finns i Vanliga frågor om Portfolio i avsnittet Portfolio i optimeringshandboken som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Typer av modellnoggrannhetsrapporter
 
-* [The [!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
+* [[!UICONTROL Forecast Accuracy Report]](forecast-accuracy-report.md)
 
-* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
+* [[!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 
 >[!MORELIKETHIS]
 >
@@ -28,4 +28,4 @@ Felaktiga uppgifter kan tyda på prestandaproblem och du kan behöva justera por
 >* [The [!UICONTROL Forecast Accuracy (Actuals) Report]](forecast-accuracy-actuals-report.md)
 >* [Generera en modellnoggrannhetsrapport](model-accuracy-report-generate.md)
 >* [Rapportinställningar för modellprecision](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-settings.md)
->* [Rapporter](/help/search-social-commerce/reports/report-about.md)
+>* [Om rapporter](/help/search-social-commerce/reports/report-about.md)

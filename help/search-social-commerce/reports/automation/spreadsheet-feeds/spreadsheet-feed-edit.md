@@ -14,33 +14,33 @@ ht-degree: 0%
 
 *Endast för grundläggande rapporter och modellnoggrannhetsrapporter*
 
-Du kan ändra vilken rapportmall som [!DNL Microsoft Excel] -mallar och andra parametrar används för kalkylbladsfeeds.
+Du kan ändra vilken rapportmall, [!DNL Microsoft Excel]-mall och andra parametrar som används för en kalkylbladsfeed.
 
 >[!NOTE]
 >
-> Om du redigerar kolumnerna i rapportmallen eller använder en ny eller uppdaterad rapportmall måste du uppdatera [!DNL Excel] och ladda upp mallen igen.
+> Om du redigerar kolumnerna i rapportmallen eller använder en ny eller uppdaterad rapportmall måste du uppdatera [!DNL Excel]-mallen och överföra den igen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
-1. (Valfritt) Uppdatera rapportmallen eller [!DNL Excel] mall som används för kalkylarksmatning:
+1. (Valfritt) Om du vill uppdatera rapportmallen eller mallen [!DNL Excel] som används för kalkylarksfeeden:
 
-   * (Valfritt) Om du vill använda en annan eller uppdaterad rapportmall för flödet [skapa en ny [!DNL Excel] mall för rapportmallen](spreadsheet-feed-create-excel-template.md).
+   * (Valfritt) Om du vill använda en annan eller uppdaterad rapportmall för feeden [skapar du en ny [!DNL Excel] mall för rapportmallen](spreadsheet-feed-create-excel-template.md).
 
-     Du måste överföra både rapportmallen och den nya [!DNL Excel] i nästa steg.
+     Du måste överföra både rapportmallen och den nya [!DNL Excel]-filen i nästa steg.
 
-   * (Valfritt) Om du bara vill lägga till anpassade kolumner i [!DNL Excel] infogar du kolumnerna till höger om kolumnerna från rapportmallen och sparar sedan filen som en [!DNL Excel] kalkylblad i XLSX-format. Du måste ladda upp den nya [!DNL Excel] i nästa steg.
+   * (Valfritt) Om du bara vill lägga till anpassade kolumner i mallen [!DNL Excel] infogar du kolumnerna till höger om kolumnerna från rapportmallen och sparar sedan filen som ett [!DNL Excel] -kalkylblad i XLSX-format. Du måste överföra den nya [!DNL Excel]-filen i nästa steg.
 
 1. Ändra inställningar för kalkylbladsfeed:
 
-   * Klicka på **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]**.
+   * Klicka på **[!UICONTROL Reports]>[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
-   * Klicka på bredvid namnet på kalkylbladsfeeden ![Knappen Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Knappen Visa/redigera inställningar").
+   * Bredvid namnet på kalkylbladsfeeden klickar du på ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar").
 
-   * I [!UICONTROL Edit Spreadsheet Feed] dialogrutan, ändra [matningsinställningar för kalkylblad](spreadsheet-feed-settings.md).
+   * I dialogrutan [!UICONTROL Edit Spreadsheet Feed] ändrar du inställningarna för [kalkylbladsfeed](spreadsheet-feed-settings.md).
 
    * Klicka på **[!UICONTROL Submit]**.
 
-   * (Valfritt) När matningen är klar [!UICONTROL Update Status] är *[!UICONTROL Finished]*, klicka **[!UICONTROL XLSX]** intill feeden och öppna eller spara sedan filen i enlighet med webbläsarens normala procedur.
+   * (Valfritt) När matningens [!UICONTROL Update Status] är *[!UICONTROL Finished]* klickar du på **[!UICONTROL XLSX]** intill matningen och öppnar eller sparar sedan filen enligt webbläsarens normala procedur.
 
      >[!NOTE]
      >
@@ -50,10 +50,10 @@ Du kan ändra vilken rapportmall som [!DNL Microsoft Excel] -mallar och andra pa
 
 >[!MORELIKETHIS]
 >
->* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
+>* [Om tabellrapportfeeds](spreadsheet-feed-about.md)
 >* [Skapa ett kalkylbladsrapportflöde](spreadsheet-feed-create.md)
->* [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
->* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
->* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
->* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Skapa en [!DNL Excel] mall för ett kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
+>* [Redigera inställningar för kalkylbladsrapportfeed](spreadsheet-feed-edit.md)
+>* [Inställningar för kalkylbladsrapportfeed](spreadsheet-feed-settings.md)
+>* [Visa eller spara en kalkylbladsrapportfeed-fil](spreadsheet-feed-view-or-save.md)
+>* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)

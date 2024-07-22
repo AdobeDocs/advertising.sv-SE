@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Visa information om en återanvändbar publik
 
-1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]** på huvudmenyn.
 
-1. Håll markören över målgruppsraden och klicka **[!UICONTROL View Details]**.
+1. Håll markören över målgruppsraden och klicka på **[!UICONTROL View Details]**.
 
-1. (Valfritt) Om du vill visa antalet aktiva eller totala målgruppsmedlemmar per enhetstyp (för cookie-baserade ID:n) och per universaltyp klickar du på ![Enhetsfördelning](/help/dsp/assets/device-breakdown.png) bredvid **[!UICONTROL Active]** eller **[!UICONTROL Total]** målgruppsstorlek.
+1. (Valfritt) Om du vill visa antalet aktiva eller totala målgruppsmedlemmar per enhetstyp (för cookie-baserade ID:n) och per universell ID-typ klickar du på ![Enhetsdelning](/help/dsp/assets/device-breakdown.png) bredvid målgruppsstorleken **[!UICONTROL Active]** eller **[!UICONTROL Total]** .
 
-1. (Valfritt) Om du vill redigera publikinställningarna klickar du på **[!UICONTROL Edit Audience]** och [redigera målgruppens namn och konfiguration](reusable-audience-edit.md).
+1. (Valfritt) Om du vill redigera målgruppsinställningarna klickar du på **[!UICONTROL Edit Audience]** och [redigerar målgruppsnamnet och konfigurationen](reusable-audience-edit.md).
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
->* [Skapa en återanvändbar publik](reusable-audience-create.md)
+>* [Om målgruppshantering](audience-about.md)
+>* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
->* [Redigera en återanvändbar publik](reusable-audience-edit.md)
+>* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
->* [Exportera en återanvändbar publik](reusable-audience-export.md)
+>* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
 >* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
 >* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)

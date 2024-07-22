@@ -22,11 +22,11 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Name]:** Ett namn som hjälper dig att identifiera målet.
 
-**[!UICONTROL S3 Bucket URL]:** Den fullständiga sökvägen till mappen på [!DNL Amazon Simple Storage Service] (S3)-bucket som rapporten överförs till. Exempel: `s3://dsp_account/reports`
+**[!UICONTROL S3 Bucket URL]:** Den fullständiga sökvägen till mappen på det [!DNL Amazon Simple Storage Service] (S3)-paket som rapporten överförs till. Exempel: `s3://dsp_account/reports`
 
-**[!UICONTROL Access Key ID]:** Åtkomstnyckel-ID till ([!DNL Amazon S3]) bucket (tillhandahålls av [!DNL Amazon]).
+**[!UICONTROL Access Key ID]:** Åtkomstnyckel-ID till ([!DNL Amazon S3])-bucket (tillhandahålls av [!DNL Amazon]).
 
-**[!UICONTROL Secret Access Key]:** Nyckeln för hemlig åtkomst till[!DNL Amazon S3]) bucket (tillhandahålls av [!DNL Amazon]).
+**[!UICONTROL Secret Access Key]:** Nyckeln för hemlig åtkomst till ([!DNL Amazon S3])-bucket (tillhandahålls av [!DNL Amazon]).
 
 ## [!UICONTROL FTP]
 

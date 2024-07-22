@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Baidu] nyckelordsinställningar'
-description: Referera inställningarna för [!DNL Baidu] nyckelord.
-exl-id: 70ecb5da-1056-4d87-82ba-ac03e0c81761
+title: '[!DNL Baidu] nyckelordsinställningar'
+description: Referera inställningarna för  [!DNL Baidu] nyckelord.
+exl-id: 3b3a578b-06f1-486f-9ade-9104e0a1dd5f
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# [!DNL Baidu] nyckelordsinställningar
+# Inställningar för nyckelord för [!DNL Baidu]
 
 ## [!UICONTROL Keyword Details]
 
@@ -19,16 +19,16 @@ ht-degree: 0%
 Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord med kommatecken eller ange dem på separata rader. Använd följande syntax:
 
 * `keyword` för bred matchning
-* `"keyword"` for phrase match
+* `"keyword"` för frasmatchning
 * `[keyword]` för exakt matchning
 
 >[!NOTE]
 >
->* [!DNL Baidu] tillåter endast en matchningstyp per nyckelord per annonsgrupp. Annonsgrupp 1 kan till exempel inte innehålla båda `"keyword"` och `[keyword]`.
->* Du kan skapa negativa nyckelord från [!UICONTROL Keywords] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
->* Ändra en [!DNL Baidu] nyckelordet tar bort det befintliga nyckelordet och skapar ett nytt med ett nytt nyckelords-ID. Om du ändrar matchningstypen tas dock inte det befintliga nyckelordet bort.
+>* [!DNL Baidu] tillåter bara en matchningstyp per nyckelord per annonsgrupp. Annonsgrupp 1 kan till exempel inte innehålla både `"keyword"` och `[keyword]`.
+>* Du kan skapa negativa nyckelord från vyn [!UICONTROL Keywords] > [!UICONTROL Negatives] och i annonsgruppen och kampanjinställningarna.
+>* Om du ändrar ett [!DNL Baidu]-nyckelord tas det befintliga nyckelordet bort och ett nytt skapas med ett nytt nyckelords-ID. Om du ändrar matchningstypen tas dock inte det befintliga nyckelordet bort.
 
-**[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Aktiv*.
+**[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -38,11 +38,12 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 
 ## URL-alternativ
 
-**[!UICONTROL Base URL]:** (Kampanjer med enbart nyckelordsspårning, valfritt) Den URL till landningssidan som användarna tas till när de klickar på din annons. Den kan innehålla omdirigerings- och spårningskod från tredje part. Om du anger ett värde åsidosätter det annonsens bas-URL.
+**[!UICONTROL Base URL]:** (Kampanjer med enbart nyckelordsnivåspårning, valfritt) Den URL till landningssidan som användarna tas till när de klickar på din annons. Den kan innehålla
+omdirigering och spårningskod från tredje part. Om du anger ett värde åsidosätter det annonsens bas-URL.
 
 När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot.
 
-Om du använder tjänsten för spårning av konvertering i Adobe Advertising och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på nyckelordsnivå lägger sedan Search, Social och Commerce automatiskt till en egen klickspårningskod.
+Om du använder tjänsten för spårning av Adobe Advertising-konvertering och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på nyckelordsnivå, lägger Search, Social och Commerce automatiskt till en egen klickspårningskod.
 
 >[!MORELIKETHIS]
 >

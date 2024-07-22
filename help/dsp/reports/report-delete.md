@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Ta bort en anpassad rapport
 
-1. På huvudmenyn klickar du på **[!UICONTROL Reports]**.
-1. I [!UICONTROL Options] kolumn för rapportraden klickar du på **[!UICONTROL options]** > **[!UICONTROL Delete]**.
-1. Klicka på **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL Reports]** på huvudmenyn.
+1. Klicka på **[!UICONTROL options]** > **[!UICONTROL Delete]** i kolumnen [!UICONTROL Options] för rapportraden.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
@@ -24,4 +24,3 @@ ht-degree: 0%
 >* [Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
-

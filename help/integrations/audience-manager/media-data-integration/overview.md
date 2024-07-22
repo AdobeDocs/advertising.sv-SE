@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Översikt över att skicka DSP exponeringsdata till Adobe Audience Manager
 
-*Annonsörer endast med Advertising DSP*
+*Annonsörer med endast Advertising DSP*
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Audience Manager*
 
@@ -32,15 +32,15 @@ DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du b
 
 * Ni kan utnyttja kampanjdata för exempelvis frekvensbegränsning för alla kreatörer, återmarknadsföring av användare som exponerats för tidigare kampanjer samt analysera beteenden och startpunkter för webbplatser längre fram i kedjan.
 
-* De samlade data ger en enhetlig bild av kampanjens resultat, hjälper till att identifiera anpassade konverteringsvägar och kan användas för att förbättra händelseföljden som leder till konverteringar via Audience Manager [!DNL Audience Optimization Reports] eller genom [[!DNL Audience Analytics] integrering med Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
+* De aggregerade data ger en enhetlig vy över kampanjprestanda, hjälper till att identifiera anpassade konverteringsvägar och kan användas för att förbättra händelseföljden som leder till konverteringar via Audience Manager [!DNL Audience Optimization Reports] eller genom en [[!DNL Audience Analytics] integrering med Adobe Analytics](/help/integrations/audience-manager/audience-analytics.md).
 
 ## Hur data spåras
 
-Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte in händelser som inträffar i miljöer utan cookies, som mobilappar och ansluten TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
+Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte händelser som inträffar i miljöer utan cookies, som mobilappar och ansluten TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
 ### Impression-Tracking Pixels
 
-Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
+Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager, och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
 
 ### Click-Tracking Pixels
 
@@ -48,7 +48,7 @@ Audience Manager spårar klickningar på liknande sätt som visningar, förutom 
 
 >[!NOTE]
 >
->Om din organisation använder [!DNL Analytics] spårning behöver du kanske inte spåra Audience Manager-klickningar. Adobe Analytics fångar klicksignalerna och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >

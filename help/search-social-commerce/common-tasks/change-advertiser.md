@@ -1,9 +1,9 @@
 ---
 title: Visa data för en annan annonsör
 description: Lär dig hur du visar data för en annan annonsör.
-exl-id: 823689b3-7c74-4927-8973-c6ce9fc79729
+exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visa data för en annan annonsör
 
-*Kontorsansvarig [!DNL Adobe] endast kontohanterare och administratörsanvändarroller*
+*Endast kontohanterare, [!DNL Adobe] kontohanterare och administratörsanvändarroller*
 
 *Användare som bara hanterar flera annonseringskonton*
 

@@ -16,25 +16,25 @@ ht-degree: 0%
 >
 >Skapa praktik baserat på specifika kampanjmål eller rapporteringsbehov.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på namnet på kampanjen där placeringen ska inkluderas.
 
-1. Ovanför datatabellen klickar du **[!UICONTROL Create]**. I [!UICONTROL Placement Types] klickar du på placeringstypen.
+1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på placeringstypen i avsnittet [!UICONTROL Placement Types] på menyn.
 
    Placeringstypen bestämmer annonstypen som placeringen kan inkludera.
 
-1. Ange [placeringsinställningar](placement-settings.md):
+1. Ange [placeringsinställningarna](placement-settings.md):
 
-   1. Ange [!UICONTROL Placement Basics] inställningar.
+   1. Ange inställningarna för [!UICONTROL Placement Basics].
 
-   1. I [!UICONTROL Goals] -avsnittet, ange [!UICONTROL Gross Budget] och, om du vill, ange ytterligare placeringsmål.
+   1. I avsnittet [!UICONTROL Goals] anger du [!UICONTROL Gross Budget] och eventuellt anger ytterligare placeringsmål.
 
       Vissa fält har standardvärden som du kan åsidosätta.
 
       Om paketet som placeringen är tilldelad till har paketnivåpaketering, återspeglar mål- och paketinställningarna paketinställningarna.
 
-   1. (Valfritt) I dialogrutan [!UICONTROL Geo-Targeting] avgränsar du de platser som är inkluderade eller exkluderade.
+   1. (Valfritt) I avsnittet [!UICONTROL Geo-Targeting] kan du begränsa de platser som är inkluderade eller exkluderade.
 
       Om du inte identifierar specifika platser anges alla platser som mål.
 
@@ -42,29 +42,29 @@ ht-degree: 0%
       >
       >Ort och DMA-platser är inte tillgängliga för Roku-ersättningar.
 
-   1. I [!UICONTROL Inventory Targeting] kan du begränsa vilka lagerkällor som ska inkluderas eller exkluderas.
+   1. I avsnittet [!UICONTROL Inventory Targeting] kan du begränsa vilka lagerkällor som ska inkluderas eller exkluderas.
 
       För de flesta placeringstyper inkluderas alla lagertyper och alla källor för varje typ som standard. För [!DNL Roku] placeringar måste du ange lagertyp och källor.
 
-   1. (Valfritt) I dialogrutan [!UICONTROL Site Targeting] avgränsar du de webbplatser som du vill ha som mål och anger de webbplatser som du vill utesluta.
+   1. (Valfritt) I avsnittet [!UICONTROL Site Targeting] kan du begränsa vilka webbplatser du vill använda som mål och ange vilka webbplatser du vill utesluta.
 
-   1. (Valfritt) I dialogrutan [!UICONTROL Audience Targeting] avsnitt:
+   1. (Valfritt) I avsnittet [!UICONTROL Audience Targeting]:
 
       1. Begränsa publiken. Detta inkluderar att välja målgruppssegment att inrikta sig på inom placeringen.
 
-         För [!DNL Roku] placeringar, du kan använda [DSP unika målgruppsmatchning med [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) genom att inkludera ett eller flera målgruppssegment som kan matchas mot [!DNL Roku] (opted-in) deterministic dataset.
+         För [!DNL Roku]-placeringar kan du utnyttja [DSP unika målgruppsmatchning med  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) genom att ta med ett eller flera målgruppssegment som kan matchas mot den [!DNL Roku] (valfria) deterministiska datamängden.
 
       1. (För kampanjer med enhetsövergripande målgruppsanpassning på personnivå, valfritt) När placeringen riktar sig till en eller flera specifika målgrupper kan du aktivera personbaserad målinriktning på olika enheter för placeringen.
 
-         Personbaserad målinriktning på olika enheter tillhandahålls av [!DNL LiveRamp] endast med data från USA. Tjänsten är tillgänglig för alla annonsörer på $0,35 CPM för visningar som levereras med [!DNL LiveRamp] enhetsdiagram (d.v.s. för enheter som inte hittas inom målgruppssegmenten).
+         Personbaserad målinriktning mellan olika enheter tillhandahålls av [!DNL LiveRamp] endast med data från USA. Tjänsten är tillgänglig för alla annonsörer på $0,35 CPM för visningar som levereras med enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas i målgruppssegmenten).
 
-   1. (Valfritt) I dialogrutan [!DNL Brand Safety and Media Targeting] kan du lägga till begränsningar för varumärkesskydd för dina placeringar.
+   1. (Valfritt) Använd varumärkessäkerhetsbegränsningar för dina placeringar i avsnittet [!DNL Brand Safety and Media Targeting].
 
-   1. (Valfritt) I dialogrutan [!DNL Tracking] anger du händelsepixlar från tredje part eller konverterar pixlar för annonser i placeringen.
+   1. (Valfritt) Ange händelsepixlar från tredje part eller konverteringspixlar för annonser i placeringen i avsnittet [!DNL Tracking].
 
       >[!NOTE]
       >
-      >([!DNL Roku] placements) Tredjepartsleverantörer av pixlar som godkänts av [!DNL Roku] include [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk]och [!DNL Research Now].
+      >([!DNL Roku] placeringar) Tredjepartsleverantörer av pixlar som godkänts av [!DNL Roku] omfattar [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] och [!DNL Research Now].
 
 1. Klicka på **[!UICONTROL Create Placement]**.
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
       * Så här skapar du en ny annons:
 
-         1. Klicka **[!UICONTROL Create a New Ad].**
+         1. Klicka på **[!UICONTROL Create a New Ad].**
 
-         1. Ange annonsinställningar för [ljudannonser](/help/dsp/campaign-management/ads/ad-settings-audio.md), [ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [displayannonser](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [inbyggda annonser](/help/dsp/campaign-management/ads/ad-settings-native.md), [pre-roll-ads](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md), eller [universella videobrev](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+         1. Ange annonsinställningarna för [ljudannonser](/help/dsp/campaign-management/ads/ad-settings-audio.md), [anslutna TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md), [visningsannonser](/help/dsp/campaign-management/ads/ad-settings-display.md), [mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md), [inbyggda annonser](/help/dsp/campaign-management/ads/ad-settings-native.md), [pre-roll-ads](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md) eller [universella videoannonser](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
         >[!NOTE]
         >
@@ -86,7 +86,7 @@ ht-degree: 0%
 
          1. Klicka på **[!UICONTROL Save & Submit for Review]**.
 
-         1. (Valfritt) För varje ytterligare annons som du vill skapa för placeringen klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa steg 1-3.
+         1. (Valfritt) För varje ytterligare annons som du vill skapa för placeringen klickar du på **[!UICONTROL Attach Another Ad]** och upprepar sedan steg 1-3.
 
          1. Om du inte vill bifoga några befintliga annonser klickar du på **[!UICONTROL I'm done for now]**.
 
@@ -98,9 +98,9 @@ ht-degree: 0%
 
          * Så här lägger du till en annons i taget:
 
-            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select].**
+            1. Klicka på **[!UICONTROL Select]bredvid annonsnamnet.**
 
-            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och sedan upprepa processen.
+            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och upprepar sedan processen.
 
          * Så här lägger du till upp till 20 annonser i taget:
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
             1. Klicka på **[!UICONTROL Attach]**.
 
-            1. Klicka på bredvid annonsnamnet **[!UICONTROL Select]**.
+            1. Klicka på **[!UICONTROL Select]** bredvid annonsnamnet.
 
       1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
 
@@ -118,26 +118,26 @@ ht-degree: 0%
 
          1. Gör något av följande:
 
-            * Om du vill lägga till en flygning klickar du **[!UICONTROL Add Flight]** och ange sedan startdatum och slutdatum.
+            * Om du vill lägga till en flygning klickar du på **[!UICONTROL Add Flight]** och anger sedan startdatum och slutdatum.
 
             * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
 
             * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
 
-            * (När flera annonser har samma plan) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och ange sedan den relativa vikt som varje annons ska roteras med, i procent.
+            * (När flera annonser har samma flygning) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och anger sedan den relativa vikt som varje annons ska roteras med, i procent.
 
               Den totala vikten måste vara lika med 100.
 
-         1. Klicka på uppe till höger **[!UICONTROL Continue]**.
+         1. Klicka på **[!UICONTROL Continue]** i det övre högra hörnet.
 
          1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
->* [Om Platshantering](placement-about.md)
+>* [Om placeringshantering](placement-about.md)
 >* [Redigera placeringar](placement-edit.md)
->* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
->* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
+>* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
@@ -145,4 +145,4 @@ ht-degree: 0%
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
->* [Video: Skapa en standardbildskärmsplacering](https://video.tv.adobe.com/v/340454)
+>* [Video: Så här skapar du en standardbildskärmsplacering](https://video.tv.adobe.com/v/340454)

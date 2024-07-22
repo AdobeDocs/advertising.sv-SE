@@ -1,12 +1,12 @@
 ---
 title: Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad
 description: Lär dig hur du använder kalkylblad för att tilldela klassificeringsvärden till kontokomponenter.
-exl-id: 9bb38f28-d6bc-41f4-9c28-b391d9b9e412
+exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 6%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 >[!NOTE]
 >
->Dina nyckelord och din annonskopia för vissa annonsnätverk och kampanjtyper är [ej ändringsbar](/help/search-social-commerce/campaign-management/faqs-campaigns.md), vilket innebär att om du redigerar dem tas den befintliga enheten bort och en ny skapas. När en befintlig enhet tas bort på det här sättet tilldelas inte etikettklassificeringen till den nya enheten.
+>Dina nyckelord och din annonskopia för vissa annonsnätverk och kampanjtyper är [inte ändringsbara](/help/search-social-commerce/campaign-management/faqs-campaigns.md), vilket innebär att om du redigerar dem tas den befintliga entiteten bort och en ny skapas. När en befintlig enhet tas bort på det här sättet tilldelas inte etikettklassificeringen till den nya enheten.
 
-1. [Ladda ned ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) som innehåller de enheter som du vill tilldela etikettklassificeringsvärden till:
+1. [Hämta ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) som innehåller entiteterna som du vill tilldela etikettklassificeringsvärden till:
 
-   * På [!UICONTROL Rows and Columns] -fliken, expandera [!UICONTROL Campaign] listan i [!UICONTROL Bulksheet Columns] fönster.
+   * Expandera listan [!UICONTROL Campaign] i rutan [!UICONTROL Bulksheet Columns] på fliken [!UICONTROL Rows and Columns].
 
-   * Expandera [!UICONTROL Label Classification] lista.
+   * Expandera listan [!UICONTROL Label Classification].
 
    * Markera varje klassificering som du vill ta med en kolumn i kalkylbladsfilen för.
 
@@ -38,7 +38,7 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
    Förutom att lägga till värden kan du även ta bort befintliga värden genom att ta bort dem från relevanta rader. Om du vill ta bort värden från både en överordnad enhet och dess underordnade enheter, kan du antingen a) ta med endast den överordnade enhetsraden och ta bort det befintliga klassificeringsvärdet eller b) ta med både den överordnade enheten och dess underordnade enheter och ta bort det befintliga klassificeringsvärdet från alla överordnade och underordnade rader.
 
-1. [Överför filen](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) för att skapa associationerna.
+1. [Överför filen ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) för att skapa associationerna.
 
 De överförda etikettvärdena visas i de relevanta enhetsvyerna.
 
@@ -48,19 +48,19 @@ Det här exemplet innehåller kolumner för etiketterna &quot;Color&quot; och &q
 
 | Konto | Campaign | Annonsgrupp | Nyckelord | Annons | Placement | Etiketter | Färg | Geo |
 |---|---|---|---|---|---|---|---|---|
-| Acct1 | C1 | | | | | | Grön | |
-| Acct1 | C1 | AG1 | | | | | | |
-| Acct1 | C1 | AG1 | K1 | | | | | Storbritannien |
-| Acct1 | C1 | AG1 | K2 | | | | Röd | AU |
-| Acct1 | C1 | AG1 | K3 | | | | Blå | DE |
-| Acct1 | C1 | AG1 | | A1 | | | | |
-| Acct1 | C1 | AG1 | | A1 | | | Röd | |
-| Acct1 | C1 | AG1 | | | P1 | | Röd | AU |
-| Acct1 | C1 | AG1 | | | P2 | | Blå | DE |
+| Konto1 | C1 | | | | | | Grön | |
+| Konto1 | C1 | AG1 | | | | | | |
+| Konto1 | C1 | AG1 | K1 | | | | | Storbritannien |
+| Konto1 | C1 | AG1 | K2 | | | | Röd | AU |
+| Konto1 | C1 | AG1 | K3 | | | | Blå | DE |
+| Konto1 | C1 | AG1 | | A1 | | | | |
+| Konto1 | C1 | AG1 | | A1 | | | Röd | |
+| Konto1 | C1 | AG1 | | | P1 | | Röd | AU |
+| Konto1 | C1 | AG1 | | | P2 | | Blå | DE |
 
 >[!MORELIKETHIS]
 >
->* [Etikettklassificeringar](classification-about.md)
+>* [Om etikettklassificeringar](classification-about.md)
 >* [Skapa en etikettklassificering](classification-create.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter från kampanjhanteringsvyer](classification-values-assign-campaign-management.md)
 >* [Ta bort etikettklassificeringsvärden från kontokomponenter](classification-values-remove.md)

@@ -1,19 +1,19 @@
 ---
-title: Tillgänglig [!DNL Google Analytics] mått
-description: Referera till [!DNL Google Analytics] Tillgängliga mätvärden för datakällor.
+title: Tillgängliga [!DNL Google Analytics] mått
+description: Referera till  [!DNL Google Analytics] mätvärden som är tillgängliga för datakällor.
 role: User, Admin
-exl-id: f7ac93e3-1aed-4165-ae65-7966ca192c84
+exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# Bilaga - tillgänglig [!DNL Google Analytics] mått
+# Bilaga - tillgängliga [!DNL Google Analytics]-mått
 
-Följande mått, förutom de undantag som anges, är tillgängliga när de aktiveras i kundens implementering i [!DNL Google Analytics].
+Följande mått, förutom de undantag som anges, är tillgängliga när de är aktiverade i kundens implementering i [!DNL Google Analytics].
 
 <!-- Notes as FYI to self:
 >[!NOTE]
@@ -38,9 +38,9 @@ Följande mått, förutom de undantag som anges, är tillgängliga när de aktiv
 
 >[!MORELIKETHIS]
 >
->* [Synkronisering [!DNL Google Analytics] konverteringsmått](data-source-about.md)
+>* [Synkronisering av  [!DNL Google Analytics] konverteringsmått](data-source-about.md)
 >* [Krav för att konfigurera en [!DNL Google Analytics] datakälla](data-source-prerequisites.md)
->* [Konfigurera en [!DNL Google Analytics] visa som en datakälla](data-source-configure.md)
+>* [Konfigurera en [!DNL Google Analytics] vy som datakälla](data-source-configure.md)
 >* [Redigera en [!DNL Google Analytics] datakälla](data-source-edit.md)
 >* [Pausa synkroniseringen av en datakälla](data-source-pause.md)
 >* [Återautentisera en [!DNL Google Analytics] datakälla](data-source-reauthenticate.md)

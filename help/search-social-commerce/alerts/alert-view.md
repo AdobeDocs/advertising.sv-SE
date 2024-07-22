@@ -1,9 +1,9 @@
 ---
 title: Visa anpassad varning
 description: Lär dig hur du listar dina varningsinstanser.
-exl-id: a2ba2a8c-7334-4a6e-9873-8a4f59b9717c
+exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Visa anpassade aviseringar
 
-Du kan visa en lista med alla varningsinstanser från varningsmallar i [!UICONTROL Triggered Alerts] från den relevanta kampanjhanteringsvyn.
+Du kan visa en lista över alla varningsinstanser från varningsmallar i vyn [!UICONTROL Triggered Alerts] och från den relevanta kampanjhanteringsvyn.
 
 Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en avisering kan du öppna en skrivskyddad, filtrerad vy som innehåller data för aviseringen. Du kan sedan öppna en filtrerad vy över enheterna i den relevanta kampanjhanteringsvyn.
 
-## Visa varningar i [!UICONTROL Triggered Alerts] visa
+## Visa aviseringar i vyn [!UICONTROL Triggered Alerts]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL Triggered Alerts]**.
+1. Klicka på **[!UICONTROL Triggered Alerts]** på undermenyn.
 
 1. (Valfritt) Öppna en filtrerad vy över de enheter som uppfyller aviseringskriterierna:
 
@@ -28,25 +28,25 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
    1. (Valfritt) Gör något av följande:
 
-      * (Valfritt) Om du vill öppna en filtrerad vy över enheterna i den relevanta kampanjhanteringsvyn klickar du på **[!UICONTROL Live View]**.
+      * (Valfritt) Om du vill öppna en filtrerad vy över entiteterna i den relevanta kampanjhanteringsvyn klickar du på **[!UICONTROL Live View]**.
 
-        För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
+        För en varning på kampanjnivå öppnar den här åtgärden vyn [!UICONTROL Campaigns] med en lista över kampanjer som uppfyller aviseringskriterierna.
 
         >[!NOTE]
         >
-        >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
+        >Om Search, Social och Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
 
-      * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och välj filformat.
+      * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och väljer filformatet.
 
 ## Visa en avisering i den relevanta enhetsvyn
 
-1. (I den relevanta enhetsvyn) Öppna kampanjhanteringsvyn för entitetstypen ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], eller [!UICONTROL Product Groups]).
+1. (I den relevanta entitetsvyn) Öppna kampanjhanteringsvyn för entitetstypen ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] eller [!UICONTROL Product Groups]).
 
-1. Klicka på uppe till höger på sidan ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden")
+1. Klicka på ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden") längst upp till höger på sidan
 
-1. I [!UICONTROL Notifications] visa klickar du på **[!UICONTROL Alerts]** -fliken.
+1. Klicka på fliken **[!UICONTROL Alerts]** i vyn [!UICONTROL Notifications].
 
-1. Klicka på varningens namn för att öppna [!UICONTROL Triggered Alerts]visa med aviseringen.
+1. Klicka på varningens namn för att öppna vyn [!UICONTROL Triggered Alerts]med varningen angiven.
 
 1. (Valfritt) Öppna en filtrerad vy över de enheter som uppfyller aviseringskriterierna:
 
@@ -54,15 +54,15 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
    1. (Valfritt) Gör något av följande:
 
-      * (Valfritt) Om du vill öppna en filtrerad vy över enheterna i den relevanta kampanjhanteringsvyn, från vilken du kan interagera med enhetsposterna, klickar du på **[!UICONTROL Live View]**.
+      * (Valfritt) Om du vill öppna en filtrerad vy över entiteterna i den relevanta kampanjhanteringsvyn, från vilken du kan interagera med entitetsposterna, klickar du på **[!UICONTROL Live View]**.
 
-        För en varning på kampanjnivå öppnar den här åtgärden [!UICONTROL Campaigns] visa med en lista över kampanjer som uppfyller aviseringskriterierna.
+        För en varning på kampanjnivå öppnar den här åtgärden vyn [!UICONTROL Campaigns] med en lista över kampanjer som uppfyller aviseringskriterierna.
 
         >[!NOTE]
         >
-        >Om Search, Social, &amp; Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
+        >Om Search, Social och Commerce har tagit emot intäktsuppdateringar eller annonsnätverket har uppdaterat trafikstatistik sedan aviseringen utlöstes, kan mätvärdena i kampanjhanteringsvyn skilja sig från mätvärdena i den ursprungliga aviseringen.
 
-      * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och välj filformat.
+      * (Valfritt) Om du vill hämta varningsrapporten klickar du på **[!UICONTROL Download]** och väljer filformatet.
 
 
 >[!MORELIKETHIS]
@@ -73,5 +73,5 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 >* [Pausa en anpassad aviseringsmall](alert-template-pause.md)
 >* [Aktivera en anpassad aviseringsmall](alert-template-activate.md)
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
->* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
+>* [Inställningar för anpassad aviseringsmall](alert-template-settings.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)

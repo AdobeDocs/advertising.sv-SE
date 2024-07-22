@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Avancerade mätningslösningar
 
-Annonsörer kämpar ofta med att förstå var deras bästa nästa mediedollar ska spenderas, eller för att kvantifiera effekten av deras onlineannonser. I ett datadrivet medielandskap ger attribueringsmätning en lösning på denna utmaning. The [!DNL Strategic Advertising Consulting] teamet hjälper varumärken och byråer att mäta hur deras element [!DNL Adobe] genom annonser. Med stabila attribueringsmätningserbjudanden kan teamet driftsätta välstrukturerade målinriktningsstrategier med ett sofistikerat mätramverk, vilket gör det enkelt för varumärken att koppla sina mediebeslut till verkliga resultat som driver deras verksamhet. Teamet kan hjälpa er att
+Annonsörer kämpar ofta med att förstå var deras bästa nästa mediedollar ska spenderas, eller för att kvantifiera effekten av deras onlineannonser. I ett datadrivet medielandskap ger attribueringsmätning en lösning på denna utmaning. [!DNL Strategic Advertising Consulting]-teamet hjälper varumärken och myndighetspartners att mäta hur delar av deras [!DNL Adobe]-anslutningar kommer till sin rätt via annonsering. Med stabila attribueringsmätningserbjudanden kan teamet driftsätta välstrukturerade målinriktningsstrategier med ett sofistikerat mätramverk, vilket gör det enkelt för varumärken att koppla sina mediebeslut till verkliga resultat som driver deras verksamhet. Teamet kan hjälpa er att
 
 * Aktivera mätningsstudier för digitala mediekampanjer med helfunktion
 
@@ -23,7 +23,7 @@ Annonsörer kämpar ofta med att förstå var deras bästa nästa mediedollar sk
 
 Följande mätningslösningspaket finns tillgängliga för att validera framgångarna med era annonskampanjer:
 
-* **Hushållsbaserad räckvidd, frekvens och konvertering**
+* **Hushållsbaserad räckvidd, frekvens och konverteringar**
 
   Förstå kampanjens totala räckvidd på hushållsnivå och hur de enskilda skärmarna bidrar. Rapportalternativen är:
 
@@ -55,12 +55,12 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
       Quantify the unique reach and overlap between cookies and RampIDs, as well as the cost per metric by ID type. Prove the effectiveness of testing RampIDs in finding incremental reach relative to cookie-based segments across multiple digital environments, such as desktop, mobile, native, and audio. -->
 
-* **Haloeffekt på sökrapportering**
+* **Haloeffekt i sökrapporter**
 
   Mät effekten av exponering för färgtelevisionsreklam och digitala annonser när det gäller att skapa sökklick, sökkonverteringar och ROAS på hushållsnivå för hela CTV-appen, söknyckelord, sökmotor samt anpassade målgrupper och taktiska nivåer.
 
 
-* **[!DNL Dynata]Panelbaserade undersökningar**
+* **[!DNL Dynata]panelbaserade undersökningar**
 
   Genomför kontroll/exponerade enkäter för att avgöra hur annonsexponering påverkar mätvärden som medvetenhet, kunskap och avsikter.
 
@@ -76,15 +76,15 @@ Följande mätningslösningspaket finns tillgängliga för att validera framgån
 
   Fastställ effekten av annonsexponering på försäljningen med hjälp av robusta, deterministiska försäljnings- och debetuppgifter.
 
-* **Experimentdesignern (A/B-testning)**
+* **Experimentera med Designer (A/B-testning)**
 
   Jämför beteendet och känslan hos slumpmässiga, ömsesidigt uteslutande provgrupper med enkel, ren A/B-testning.
 
 ## Hitta den perfekta måttenheten: Lösningar lodrätt
 
-* **Valfri lodrät:**
+* **Alla lodräta:**
 
-   * Experimentera med designern (Placebo- och A/B-testning)
+   * Experimentera med Designer (Placebo- och A/B-tester)
 
    * Personbaserad räckvidd och konverteringar
 

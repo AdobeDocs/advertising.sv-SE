@@ -1,9 +1,9 @@
 ---
 title: Övervaka och hantera kampanjernas resultat
 description: Lär dig hur du övervakar resultatet för varje kampanj och portfolio och gör ändringar för att uppnå dina mål.
-exl-id: cf3d015f-a171-45f2-be92-94f19b30e5ce
+exl-id: dad9d218-37ee-4949-ae61-ac91f7723906
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Kontoteamet på Adobe, reklambyrån eller annonsören (beroende på villkoren i 
 
 Övervaka regelbundet resultatet av varje kampanj genom att:
 
-* Visa [anpassade aviseringar](/help/search-social-commerce/alerts/alert-view.md) som är tillgängliga för dig.
+* Visa de [anpassade aviseringar](/help/search-social-commerce/alerts/alert-view.md) som är tillgängliga för dig.
 
 * Visa kontosammanfattning och prestandainformation om de inkluderade kampanjerna.
 
-* Körs [rapporter](/help/search-social-commerce/reports/report-about.md), inklusive [den [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (i tillämpliga fall), [den [!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [den [!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md)och ytterligare prestandarapporter när det är tillämpligt. När du använder portföljer måste du jämföra prognostiserade prestanda med faktiska prestanda.
+* Körer [rapporter](/help/search-social-commerce/reports/report-about.md), inklusive [ [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (om tillämpligt), [[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) och ytterligare prestandarapporter när det är tillämpligt. När du använder portföljer måste du jämföra prognostiserade prestanda med faktiska prestanda.
 
 ## Hantera prestanda och justera kampanj- och portföljstrukturerna
 
@@ -44,6 +44,6 @@ Beroende på prestanda kan du behöva utföra ytterligare affärsåtgärder, som
 
 >[!MORELIKETHIS]
 >
->* [Om kampanjhantering i Sök, Social och Commerce](campaign-management-about.md)
->* [Översikt över att implementera annonsnätverkskonton och -kampanjer](campaign-implemention-overview.md)
+>* [Om kampanjhantering i Sök, Socialt och Commerce](campaign-management-about.md)
+>* [Översikt över implementering av annonsnätverkskonton och kampanjer](campaign-implemention-overview.md)
 >* [Google Ads-konverteringsdata i Search, Social och Commerce](google-conversion-data.md)

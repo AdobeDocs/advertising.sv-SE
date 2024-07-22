@@ -14,18 +14,18 @@ ht-degree: 0%
 
 Du kan generera om prognosen för en ansluten TV-räckvidd baserat på de senaste observerade data.
 
-1. Klicka på **[!UICONTROL Planner]**.
+1. Klicka på **[!UICONTROL Planner]** på huvudmenyn.
 
-1. Håll markören över planraden och klicka **[!UICONTROL Forecast]**.
+1. Håll markören över planraden och klicka på **[!UICONTROL Forecast]**.
 
-1. (Valfritt) Exportera [!UICONTROL Budget vs Reach] prognos till [!DNL Microsoft Excel] kalkylblad**, klicka **[!UICONTROL ...]** i det övre högra hörnet och klicka sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Om DSP](planner-about.md)
->* [Skapa en uppkopplad TV-sändningsplan](planner-create.md)
+>* [Om DSP ](planner-about.md)
+>* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
->* [Exportera ett uppkopplat TV-program](planner-export.md)
->* [Arkivera ett uppkopplat program för tv-räckvidd](planner-archive.md)
->* [Inställningar för uppkopplade TV-program](planner-settings.md)
+>* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
+>* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
+>* [Inställningar för anslutna TV-program ](planner-settings.md)

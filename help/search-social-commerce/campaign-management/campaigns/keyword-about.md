@@ -12,20 +12,21 @@ ht-degree: 0%
 
 # Om nyckelord
 
-*[!DNL Google Ads]och [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex]och befintlig [!DNL Baidu] endast konton*
+*[!DNL Google Ads]och [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads], [!DNL Yandex] och befintliga [!DNL Baidu]-konton är bara*
 
 Ett nyckelord är ett ord eller en fras som är kopplad till en annons. Nyckelordsinställningarna innehåller matchningstypen för nyckelord, det högsta antalet bud som ska användas när din annons aktiveras av nyckelordet och (vissa annonsnätverk) valfria spårningsparametrar. Inställningarna på nyckelordsnivå åsidosätter inställningarna för annonsgruppen eller kampanjen.
 
 Du kan skapa nyckelord för alla annonsgrupper i en kampanj som har söknätverket som mål.
 
-## The [!UICONTROL Keywords] vyer
+## [!UICONTROL Keywords]-vyerna
 
-The [!UICONTROL Keywords] > [!UICONTROL Keywords] visa en lista med alla dina anbudsbara nyckelord och [!UICONTROL Keywords] > [!UICONTROL Negatives] visar en lista med alla dina negativa nyckelord, som annonser inte visas för.
+I vyn [!UICONTROL Keywords] > [!UICONTROL Keywords] visas alla dina budbara nyckelord och i vyn [!UICONTROL Keywords] > [!UICONTROL Negatives] visas alla negativa nyckelord som annonser inte visas för.
 
-Du kan skapa nyckelord för en sök- och annonsgrupp från [!UICONTROL Keywords] > [!UICONTROL Keywords] vy. Du kan skapa negativa nyckelord för en annonsgrupp eller kampanj från antingen [!UICONTROL Keywords] > [!UICONTROL Negatives] visa eller från inställningarna för kampanj och annonsgrupp. Du kan också redigera och ändra status för aktiva och pausade nyckelord och ta bort negativa nyckelord.
+Du kan skapa nyckelord för en sök- och annonsgrupp från vyn [!UICONTROL Keywords] > [!UICONTROL Keywords]. Du kan
+negativa nyckelord för en annonsgrupp eller kampanj från vyn [!UICONTROL Keywords] > [!UICONTROL Negatives] eller från inställningarna för kampanj och annonsgrupp. Du kan också redigera och ändra status för aktiva och pausade nyckelord och ta bort negativa nyckelord.
 
 >[!MORELIKETHIS]
 >
->* [Hantera anbudsnyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
+>* [Hantera anbudssökbara nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-manage.md)
 >* [Skapa negativa nyckelord](/help/search-social-commerce/campaign-management/campaigns/keyword-negative-create.md)
 >* [Ändra status för nyckelord och negativa nyckelord](keyword-status-edit.md)

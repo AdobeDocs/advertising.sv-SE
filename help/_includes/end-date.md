@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Slutdatumfält i vissa kampanjinställningar och inställningar för MS och grupp
 
-**[!UICONTROL End date]:** Det sista datum då anbud får lämnas. Standardvärdet är *Inget slutdatum*. Om du vill lämna anbud till ett visst datum anger du ett datum i formatet MM/DD/ÅÅÅÅ eller klickar på ![Kalender](/help/search-social-commerce/assets/calendar.png) och välj ett datum.
+**[!UICONTROL End date]:** Det sista datum då bud får placeras. Standardvärdet är *Inget slutdatum*. Om du vill lägga bud till ett visst datum anger du ett datum i formatet MM/DD/ÅÅÅÅ eller klickar på ![Kalender](/help/search-social-commerce/assets/calendar.png) och väljer ett datum.

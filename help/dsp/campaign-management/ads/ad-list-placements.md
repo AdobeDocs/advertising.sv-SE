@@ -14,12 +14,12 @@ ht-degree: 0%
 
 Visa en lista med placeringar som är kopplade till en annons för att se prestandadata genom placering och redigera placeringsinställningarna om det behövs.
 
-Se även &quot;[Visa annonser som är kopplade till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).&quot;
+Se även [Visa annonser som är kopplade till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#view-ads-campaign).
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL See placements]**.
+1. Klicka på **[!UICONTROL Ads]** på undermenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL See placements]** bredvid annonsnamnet.
 
 >[!MORELIKETHIS]
 >

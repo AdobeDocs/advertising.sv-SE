@@ -5,8 +5,8 @@ source-wordcount: '28'
 ht-degree: 0%
 
 ---
-# Dokumentation om annonseringsprinciper och riktlinjer för Adobe
+# Dokumentation om policyer och riktlinjer för Adobe Advertising
 
-Det här är mappen för hjälpdokumentation om policyer och riktlinjer för annonsering mellan Adobe.
+Det här är mappen för hjälpdokumentation om policyer och riktlinjer för olika Adobe Advertising.
 
 **Obs! Den här sidan publiceras inte i kunddokumentationen.**

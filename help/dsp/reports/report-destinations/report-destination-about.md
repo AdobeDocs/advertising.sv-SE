@@ -25,9 +25,9 @@ Du kan skapa och hantera leveransplatser, som kallas *[!DNL report destinations]
 >
 > Du kan också leverera anpassade rapporter till e-postmottagare som inte behöver ha något sparat rapportmål. Du kan ange e-postmottagare i stället för sparade mål i rapportinställningarna.
 
-## The [!UICONTROL Report Destinations] Visa
+## Vyn [!UICONTROL Report Destinations]
 
-The [!UICONTROL Report Destinations] visar alla dina befintliga destinationer och antalet rapporter som är länkade till varje. Du kan filtrera listan efter måltyp.
+I vyn [!UICONTROL Report Destinations] visas alla dina befintliga mål och antalet rapporter som är länkade till varje mål. Du kan filtrera listan efter måltyp.
 
 Du kan skapa nya mål samt redigera och ta bort befintliga mål från den här vyn.
 
@@ -35,7 +35,7 @@ Du kan skapa nya mål samt redigera och ta bort befintliga mål från den här v
 >
 >Uppdateringen av autentiseringsuppgifterna för dina befintliga rapportdestinationer avbryter inte rapportleveransen så länge autentiseringsuppgifterna är giltiga.
 
-![Rapportdestinationer](/help/dsp/assets/report-destinations.png)
+![Rapportera mål](/help/dsp/assets/report-destinations.png)
 
 >[!MORELIKETHIS]
 >

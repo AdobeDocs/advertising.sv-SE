@@ -1,9 +1,9 @@
 ---
-title: Visa eller spara en [!DNL Advertising Insight]
-description: Lär dig hur du visar en [!DNL Advertising Insight] och spara den i en fil.
-exl-id: 165a6036-c911-4c56-a820-c9d172e47ea4
+title: Visa eller spara en  [!DNL Advertising Insight]
+description: Lär dig hur du visar en [!DNL Advertising Insight]  och sparar den i en fil.
+exl-id: 4baf24eb-5ebf-41d9-8b3b-6af1672ad030
 feature: Search Advertising Insights
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Visa eller spara en [!DNL Advertising Insight]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]** på huvudmenyn.
 
-2. Klicka på ![Rapporter](/help/search-social-commerce/assets/insight-reports.png "Rapporter").
+2. Klicka på ![Rapporter](/help/search-social-commerce/assets/insight-reports.png "Rapporter") på den vänstra menyn.
 
-3. I [!UICONTROL Generated Insights] gör du något av följande:
+3. Gör något av följande på panelen [!UICONTROL Generated Insights]:
 
    * Klicka på rapportinstansen.
 
-   * Håll markören över rapportinstansen och klicka sedan ![Ladda ned](/help/search-social-commerce/assets/insight-download.png "Ladda ned").
+   * Håll markören över rapportinstansen och klicka sedan på ![Hämta](/help/search-social-commerce/assets/insight-download.png "Hämta").
 
 4. Öppna eller spara filen enligt webbläsarens normala procedur.
 

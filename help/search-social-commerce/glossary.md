@@ -14,51 +14,51 @@ ht-degree: 0%
 
 ## A-B {#a-b}
 
-**annonsgrupp:** En uppsättning annonser och deras relaterade sökord, placeringar och produktgrupper för en kampanj.
+**annonsgrupp:** En uppsättning annonser och deras relaterade nyckelord, placeringar och produktgrupper för en kampanj.
 
 **annonsvariation:** Alla annonser inom en annonsgrupp eller annonsstrategi.
 
-**[AMO-ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
 
-**budenhet:** En Search-, Social- och Commerce-term för en enhet där anbud ska lämnas.
+**anbudsenhet:** En söknings-, social- och Commerce-term för en enhet där bud placeras.
 
 * För CPC-kampanjer är detta ett nyckelord och dess matchningstyp för en sök- eller innehållskampanj, en produktgrupp på enhetsnivå (den lägsta nivån av underindelning) för en shoppingkampanj eller ett dynamiskt sökmål för en dynamisk sök- och annonskampanj. När samma kombination av nyckelord och matchningstyp, samma produktgrupp eller samma dynamiska sökmål inträffar inom flera annonsgrupper i en och samma kampanj betraktas alla instanser som samma budenhet och har därmed samma bud.
 
-* För kampanjer med strategierna , [!DNL Maximize Clicks][!DNL Maximize Conversion Value], [!DNL Target Cost Per Acquisition][!DNL Maximize Conversions], eller [!DNL Target Return on Ad Spend] utgifter är varje kampanj en budenhet.
+* För kampanjer med utgiftsstrategierna [!DNL Maximize Clicks], [!DNL Maximize Conversion Value], [!DNL Maximize Conversions], [!DNL Target Cost Per Acquisition] eller [!DNL Target Return on Ad Spend] är varje kampanj en budenhet.
 
-* För kampanjer på [!DNL Yahoo! Display Network], som inte använder sökord, har alla annonser i en annonsgrupp samma bud och anses vara samma budenhet.
+* För kampanjer på [!DNL Yahoo! Display Network], som inte använder nyckelord, har alla annonser i en annonsgrupp samma bud och betraktas som samma budenhet.
 
-**Begränsning av budenhet:** Se &quot;begränsning&quot;.
+**BUD-enhetsbegränsning:** Se &quot;begränsning&quot;.
 
 ## C-D {#c-d}
 
-**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsintervall, inriktning och andra inställningar. **Observera:** [!DNL Baidu] har inte begreppet kampanjer, men Sök, Social och handel skapar pseudokampanjer för varje uppsättning relaterade annonsgrupper i befintliga [!DNL Baidu] konton som synkroniseras inom Sök, Socialt och handel.
+**kampanj:** En uppsättning annonsgrupper i ett enda annonskonto som delar budget, tidsintervall, målgruppsinställningar och andra inställningar. **Obs!** [!DNL Baidu] har inte samma koncept som kampanjer, men Search, Social och Commerce skapar pseudokampanjer för varje uppsättning med relaterade annonsgrupper i befintliga [!DNL Baidu]-konton som synkroniseras i Search, Social och Commerce.
 
-**skiftlägeskänsligt fält:** Ett skiftlägeskänsligt fält eller en fråga behandlar versaler (t.ex. C) på ett annat sätt än gemener (t.ex. c). Bil behandlas till exempel som ett annat värde än bil.
+**skiftlägeskänsligt fält:** I ett skiftlägeskänsligt fält eller en fråga behandlas versaler (t.ex. C) annorlunda än gemener (t.ex. c). Bilen behandlas till exempel som ett annat värde än bilen.
 
-**click:** En enskild användare klickar på eller i en onlineannons.
+**klicka:** En enskild användare klickar på eller i en onlineannons.
 
-**klickuppslagsfönster:** En inställning på annonsörsnivå som anger antalet dagar efter att ett betalt klick i en händelseserie inträffar där klicket kan tillskrivas en konvertering.
+**klicka på uppslagsfönstret:** En inställning på annonsörnivå som anger antalet dagar efter ett betalt klick i en händelseserie där klickningen kan kopplas till en konvertering.
 
-**klicktid:** Den tidpunkt då en slutanvändare med en unik IP-adress först klickar på en annons i annonsnätverket.
+**klickningstid:** Den tidpunkt då en slutanvändare med en unik IP-adress först klickar på en annons i annonsnätverket.
 
-**Klickfrekvens:** (CTR) Antalet klick dividerat med antalet visningar av en annons. Annonser som är mest relevanta för sökfrågan har de högsta klickfrekvenserna.
+**klickfrekvens:** (CTR) Antalet klick dividerat med antalet visningar för en annons. Annonser som är mest relevanta för sökfrågan har den högsta klickfrekvensen.
 
 **klicknings-tracking-URL:** En spårningsmall eller en mål-URL med inbäddad kod för att spåra klick på ett nyckelord, en annonsvariation eller en placering.
 
-**begränsning:** (Annonsörer med portföljer; gäller endast för budenheter i standardportföljer) En regel för budgivning för ett visst nyckelord eller en viss annons. Det åsidosätter eventuella begränsningar på portföljnivå och den rekommenderade anbudsstrategin.
+**begränsning:** (annonsörer med portföljer; gäller endast för budenheter i standardportföljer) En regel för budgivning för ett specifikt nyckelord eller en viss annons. Det åsidosätter eventuella begränsningar på portföljnivå och den rekommenderade anbudsstrategin.
 
-**konvertering:** Slutför en åtgärd efter att en slutanvändare har klickat på en annons, som vanligtvis fångas in som ett mått. Exempel är registreringar och inköp, och de kan representera antal eller monetära belopp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
+**konvertering:** Slutförande av en åtgärd efter att en slutanvändare har klickat på en annons, som vanligtvis fångas in som ett mått. Exempel är registreringar och inköp, och de kan representera antal eller monetära belopp. En konvertering kan bestå av en eller flera transaktionshändelser, men termerna &quot;konvertering&quot; och &quot;transaktion&quot; används ofta utan åtskillnad.
 
-**konvertering:** Vid konverteringsspårning används cookies för att spåra a) klickningar på annonsörer i annonsnätverken och b) de resulterande transaktionerna på annonsörens webbplats.
+**konverteringsspårning:** Konverteringsspårning använder cookies för att spåra a) klickningar på en annonsörs annonser i annonsnätverket och b) de resulterande transaktionerna på annonsörens webbplats.
 
-**kostnadseffektivitet:** (Annonsörer med portföljer) De faktiska utgifterna för en portfölj dividerat med de prognostiserade utgifterna.
+**kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna.
 
-**kostnadsmodell:** (Annonsörer med portföljer) Sök-, social- och Commerce-teknik som beräknar kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering och CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
+**kostnadsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
-**kostnadsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen budenheter i CPC- eller eCPC-kampanjer som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Inte alla budenheter har kostnadsmodeller; budenheterna med kostnadsmodeller räknas in i kostnadsmodellens täckning.
+**täckningsgrad för kostnadsmodell:** (annonsörer med portföljer) Antal och/eller procentandel av anbudsenheter i CPC- eller eCPC-kampanjer som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Inte alla budenheter har kostnadsmodeller; budenheterna med kostnadsmodeller räknas in i kostnadsmodellens täckning.
 
-**Kostnadsmodellens halveringstid:** (Annonsörer med portföljer) Antal dagar före dagens datum för vilka kostnadsuppgifterna anses vara nyare och därför mer relevanta för kostnadsmodeller.
+**halveringstid för kostnadsmodell:** (annonsörer med portföljer) Antal dagar före det aktuella datumet för vilket kostnadsdata anses vara nyare och därför mer relevanta för kostnadsmodeller.
 
 **kostnad per 1 000 visningar:** (CPM) Kostnaden för en annons för varje tusen visningar. Annonsörer som använder en CPM-prismodell betalar med visningar i stället för med klick.
 
@@ -80,73 +80,73 @@ ht-degree: 0%
 
 **CPT:** Se&quot;kostnad per transaktion&quot;.
 
-**CSV:** Ett filformat som består av kommaseparerade värden (CSV).
+**CSV:** Ett filformat som består av kommaavgränsade värden (CSV).
 
-**CTR:** Se &quot;klickfrekvens&quot;.
+**CTR:** Se klickfrekvens.
 
 ## E-F {#e-f}
 
-**eCPM:** Den effektiva CPM, eller den genomsnittliga kostnaden som betalats per 1000 visningar under ett angivet datumintervall. eCPM-värden kan beräknas för antingen CPM- eller CPC-kampanjer.
+**eCPM:** Den effektiva CPM-modulen, eller den genomsnittliga kostnad som betalas per 1 000 visningar under ett angivet datumintervall. eCPM-värden kan beräknas för CPM- eller CPC-kampanjer.
 
 ## G-H {#g-h}
 
 ## I-J {#i-j}
 
-**intryck:** En enda annonsvisning på en webbsida, i en mobilapp eller i ett annat leveransmedium. Användaren behöver inte visa eller klicka på annonsen för att den ska räknas som ett intryck.
+**intryck:** En enskild annonsvisning på en webbsida, i en mobilapp eller i ett annat leveransmedium. Användaren behöver inte visa eller klicka på annonsen för att den ska räknas som ett intryck.
 
-**visningsfönster:** (Endast displaykampanjer och sociala kampanjer) En inställning på annonsnivå som anger antalet dagar efter att ett annonsintryck inträffar som intrycket kan tillskrivas en konvertering.
+**visningsfönstret:** (Endast för displaykampanjer och sociala kampanjer) En inställning på annonsnivå som anger antalet dagar efter att ett annonsintryck inträffar som gör att intrycket kan tillskrivas en konvertering.
 
-**visningsåsidosättningsvikt:** En angiven procentandel av ett konverteringsvärde som ska tilldelas avbildningar som inträffar i klientens visningsfönster när konverteringen föregås av både betalda klick och visningar. När en konvertering föregås av endast visningar används annonsörens genomsiktsvikt, i stället för att tryckningen åsidosätter vikten, på tryckningarna.
+**visningsåsidosättningsvikt:** En angiven procentandel av ett konverteringsvärde som ska tilldelas till avbildningar som inträffar i klientens visningsfönster när konverteringen föregås av både betalda klick och visningar. När en konvertering föregås av endast visningar används annonsörens genomsiktsvikt, i stället för att tryckningen åsidosätter vikten, på tryckningarna.
 
 ## K-L {#k-l}
 
-**nyckelord:** Ett ord eller en fras som är kopplad till en annons.
+**nyckelord:** Ett ord eller en fras som är associerad med en annons.
 
-**nyckelordsbegränsning:** Se&quot;begränsning&quot;.
+**nyckelordsbegränsning:** Se &quot;begränsning&quot;.
 
 **etikettklassificering:** Ett sätt att gruppera dina kontokomponenter i meningsfulla uppsättningar. En etikettklassificering kan innehålla flera etikettvärden, som anger attribut. En&quot;Geo&quot;-etikettklassificering kan till exempel innehålla värden för olika geografiska regioner.
 
-**etikettvärde:** Ett element i en etikettklassificering. Den kan tilldelas som en tagg för annonskampanjer och kampanjentiteter så att ni kan filtrera resultatdata och rapporter efter etikett eller konfigurera valfria begränsningar för budenheter som är kopplade till etiketten.
+**label-värde:** Ett element i en etikettklassificering. Den kan tilldelas som en tagg för annonskampanjer och kampanjentiteter så att ni kan filtrera resultatdata och rapporter efter etikett eller konfigurera valfria begränsningar för budenheter som är kopplade till etiketten.
 
-**URL för landningssida:** URL:en till annonserarens webbsida som öppnas när slutanvändaren klickar på en annons.
+**URL för landningssida:** URL:en för annonserarens webbsida som öppnas när slutanvändaren klickar på en annons.
 
 ## M-N {#m-n}
 
-**marginalkostnad:** Förändringen i den totala kostnaden när kvantiteten ändras med en enhet.
+**marginalkostnad:** Förändringen i totalkostnad när kvantiteten ändras med en enhet.
 
-**marginalkostnad i förhållande till målvärde:** Den kostnadsförändring som krävs för att höja det objektiva värdet med ett (1). Detta har samma värde som den gamla kolumnen Marginal Cost-to-Revenue.
+**marginalvärde för kostnad-till-mål:** Den kostnadsförändring som krävs för att öka det objektiva värdet med ett (1). Detta har samma värde som den gamla kolumnen Marginal Cost-to-Revenue.
 
 **matchningstyp:** Ett alternativ som anger hur söktermer matchas mot annonser. Alternativen varierar beroende på annonsnätverk.
 
-**lägsta bud:** 1) Minimibeloppet per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
+**minsta bud:** 1) Det minsta belopp som ska betalas per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
 
 ## O-P {#o-p}
 
-**mål:** (Annonsörer med portföljer) Ett mål som en kund sätter upp för att uppfylla sitt affärsmål för en specifik portfölj eller en displaykampanj, till exempel för att maximera vinsten eller för att uppfylla ett specifikt försäljningsmål. Ett mål består av de konverteringsmått som ska spåras och optimeras för portföljen och de relativa vikterna för dessa mätvärden.
+**mål:** (annonsörer med portföljer) Ett mål som en kund ställer in för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppfylla ett visst försäljningsmål. Ett mål består av de konverteringsmått som ska spåras och optimeras för portföljen samt de relativa vikterna för dessa mätvärden.
 
-**Målvärde:** (Annonsörer med portföljer) Det totala viktade antalet konverteringar som beräknats enligt portföljens aktuella målsättning, inklusive:
+**objektivt värde:** (annonsörer med portföljer) Den totala viktade konverteringen enligt portföljens aktuella mål, inklusive:
 
-* Alla konverteringar, med beaktande av a) de vikter som tilldelats varje konvertering i portföljens målfunktion och, i förekommande fall, b) visningsvikten för visningsgenomgångar.
+* alla konverteringar, med beaktande av a) de vikter som tilldelats varje konvertering i portföljens objektiva funktion och, i tillämpliga fall, b) genomsynvikten för hela visningen.
 
-* Alla klick, som optimeringsfunktionen betraktar som en enda konvertering och viktas enligt klickvärdet för målet.
+* alla klick, som optimeringsfunktionen anser vara en enda konvertering och viktas enligt klickvärdet för målet.
 
-Detta har samma värde som den äldre kolumnen &quot;Viktad intäkt&quot;.
+Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
-**Optimeringsförmåga:** (Annonsörer med portföljer) Teknik för budgivning med sökord i Sök, Sociala medier och Handel, som bestämmer den optimala budgivnings- och budgethanteringsstrategin för en portfölj baserat på dess affärsmål.
+**optimeringsfunktion:** (annonsörer med portföljer) Nyckelordsbudgivningsteknik för sökning, sociala medier och Commerce, som avgör den optimala budgivnings- och budgethanteringsstrategin för en portfölj baserat på dess affärsmål.
 
-**Anonym transaktion:** En transaktionshändelse som inte kan kopplas till ett specifikt sökord eller en specifik annons.
+**Överbliven transaktion:** En transaktionshändelse som inte kan associeras med ett visst nyckelord eller en viss annons.
 
-**pixel:** En genomskinlig bild som är en pixel gånger en pixel inbäddad på en webbsida i spårningssyfte. Adobe Advertising konverteringsspårningstaggar innehåller antingen en HTML-bildpixel eller JavaScript för att spåra klick och deras resulterande transaktioner.
+**pixel:** En genomskinlig bild med en pixel i taget som är inbäddad på en webbsida för spårningsändamål. Taggar för spårning av konvertering mellan Adobe Advertising omfattar antingen en bildpixel i HTML eller JavaScript för att spåra klick och deras resulterande transaktioner.
 
-**placering:** En plats i ett Display-nätverk där dina annonser kan visas. Det kan vara en hel webbplats, en delmängd av en webbplats eller en annonsposition på en specifik sida.
+**placering:** En plats i ett visningsnätverk där dina annonser kan visas. Det kan vara en hel webbplats, en delmängd av en webbplats eller en annonsposition på en viss sida.
 
-**portfolio:** En uppsättning annonskampanjer och tillhörande budenheter som är optimerade för ett enda affärsmål och ett resultatmål.
+**portfölj:** En uppsättning annonskampanjer och deras associerade budenheter, som är optimerade för ett enda affärsmål och ett prestationsmål.
 
-**POS:** procent av utgiften
+**Kassaflöde:** procent av utgiften
 
-**PPC:** Se&quot;betala per klick&quot;.
+**PPC:** Se&quot;Betala per klick&quot;.
 
-**egenskap:** Se&quot;konverteringsmått&quot;.
+**egenskap:** Se &quot;konverteringsmått&quot;.
 
 **egenskapstid:** Den tidpunkt då en enskild konverteringshändelse inträffar. När en händelse innehåller relaterade uppföljningshändelser (som att kunden först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst) har varje händelse en egen ägandetid.
 
@@ -154,50 +154,50 @@ Detta har samma värde som den äldre kolumnen &quot;Viktad intäkt&quot;.
 
 **kvalitetspoäng:** Ett poängtal som ett annonsnätverk tilldelar något av dina nyckelord för att fastställa dess budpris och annonsposition. Det beräknas utifrån nyckelordets relevans för den associerade annonsen och användarens sökfråga, nyckelordets klickfrekvens och andra faktorer.
 
-**omdirigerings-URL:** En del av en mål-URL som skickar användaren till en annan server före, eller i stället för, annonsörens landningssida.
+**omdirigerings-URL:** Del av en mål-URL som skickar användaren till en annan server före, eller i stället för, annonsörens landningssida.
 
-**räntabilitet:** Intäkter minus kostnader.
+**avkastning på investering:** (ROI) Intäkter minus kostnader.
 
-**intäktsnoggrannhet:** (Annonsörer med portföljer) De faktiska intäkterna för en portfölj dividerat med de beräknade intäkterna.
+**intäktsnoggrannhet:** (Annonsörer med portföljer) Den faktiska intäkten för en portfölj dividerat med den prognostiserade intäkten.
 
-**intäktsmodell:** (Annonsörer med portföljer) Sök-, social- och Commerce-teknik som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala data) eller visningsdata (displaydata) och annonsörens konverteringsdata.
+**intäktsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala medier) eller visningsdata (displaydata) och annonsörens konverteringsdata.
 
-**intäktsmodelltäckning:** (Annonsörer med portföljer) Antalet och/eller procentandelen av anbudsenheter i en portfölj med intäktsmodeller. Anbudsenheterna kan ha intäktsmodeller även om de inte har fått några intäkter utan fått intäktsvisningar.
+**intäktsmodelltäckning:** (annonsörer med portföljer) Antal och/eller procentandel av budenheter i en portfölj med intäktsmodeller. Anbudsenheterna kan ha intäktsmodeller även om de inte har fått några intäkter utan fått intäktsvisningar.
 
-**intäktsmodellens halveringstid:** (Annonsörer med portföljer) Det antal dagar före det aktuella datum för vilket inkomstuppgifterna anses vara nyare och därför mer relevanta för intäktsmodeller.
+**halveringstid för intäktsmodell:** (annonsörer med portföljer) Det antal dagar före det aktuella datumet för vilket intäktsinformationen anses vara nyare och därför mer relevant för intäktsmodeller.
 
-**avkastning:** Se&quot;räntabilitet&quot;.
+**ROI:** Se &quot;räntabilitet&quot;.
 
 ## S-T {#s-t}
 
-**simulering:** (Annonsörer med portföljer) Modellering i Portfolio som beräknar antalet klick och konverteringar som en portfölj kan förvänta sig för olika utgiftsnivåer och motsvarande dagliga budgetar, med hjälp av historiska data.
+**simulering:** (annonsörer med portföljer) Portfolio-modellering som uppskattar antalet klick och konverteringar som en portfölj kan förvänta sig för olika utgiftsnivåer och motsvarande dagliga budgetar, med hjälp av historiska data.
 
-**utgiftsstrategi:** (Annonsörer med portföljer) Den strategi som valts för att optimera budgivning via nyckelord/annonser för en portfölj.
+**utgiftsstrategi:** (annonsörer med portföljer) Den strategi som valts för att optimera budgivning via nyckelord/annonser för en portfölj.
 
-**`s_kwcid`:** Se&quot;AMO ID&quot;.
+**`s_kwcid`:** Se &quot;AMO ID&quot;.
 
-**spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar i annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
+**spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar på annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
 
 **transaktion:** Alla spårbara händelser som inträffar online eller offline. Flera transaktionshändelser kan spåras tillsammans som en del av samma transaktion eller konvertering. Till exempel kan en onlinebegäran om information plus en resulterande beställning per telefon betraktas som en del av ett köp. Termerna &quot;transaktion&quot; och &quot;konvertering&quot; används ofta utan åtskillnad. En transaktion representeras av ett transaktions-ID och har en eller flera egenskaper kopplade till sig.
 
 **transaktions-ID:** Ett annonsörspecificerat ID som identifierar en transaktion. När en transaktion innehåller flera händelser har alla samma transaktions-ID.
 
-**egenskapen transaction:** Se&quot;konvertering&quot;.
+**transaktionsegenskap:** Se &quot;konvertering&quot;.
 
-**transaktionstid:** Den tidpunkt då ett klick eller ett intryck konverteras till en transaktion. När en transaktion består av flera transaktionshändelser (t.ex. när en kund först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst), kommer transaktionstiden från den första händelsen i kedjan (registrerar sig för den kostnadsfria provperioden).
+**transaktionstid:** Den tid då ett klick eller ett intryck konverteras till en transaktion. När en transaktion består av flera transaktionshändelser (t.ex. när en kund först registrerar sig för en kostnadsfri provperiod och senare prenumererar på en betaltjänst), kommer transaktionstiden från den första händelsen i kedjan (registrerar sig för den kostnadsfria provperioden).
 
 **TSV:** Ett filformat som består av tabbseparerade värden (CSV).
 
 ## U-V {#u-v}
 
-**genomgång:** (Webbannonsering och social annonsering) Ett annonsintryck (eller en sträng av visningar) som resulterar i en konvertering utan att användaren klickar på en annons.
+**visa-genom:** (annonser och annonser i sociala medier) Ett annonsintryck (eller en sträng med visningar) som resulterar i en konvertering utan att användaren klickar på en annons.
 
-**genomskinlig vikt:** (Endast displaykampanjer och sociala kampanjer) En inställning på annonsörnivå som anger vikten som ska tilldelas en genomsiktskonvertering i förhållande till den vikt som tilldelats en klickbaserad konvertering, i procent.
+**genomsynlig vikt:** (endast för visnings- och sociala kampanjer) En inställning på annonsörnivå som anger vikten som ska tilldelas en genomsynskonvertering i förhållande till den vikt som tilldelats en klickbaserad konvertering, i procent.
 
 ## B-X {#w-x}
 
-**viktade intäkter:** Se&quot;objektivt värde&quot;.
+**viktad intäkt:** Se &quot;objektivt värde&quot;.
 
-**XLS** eller **XSX**: Ett binärt filformat för [!DNL Microsoft Office Excel] arbetsböcker.
+**XLS** eller **XLSX**: Ett binärt filformat för [!DNL Microsoft Office Excel]-arbetsböcker.
 
 ## Y-Z {#y-z}

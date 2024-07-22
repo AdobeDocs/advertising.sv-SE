@@ -1,6 +1,6 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa'
-description: '[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa'
+title: '[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika'
+description: '[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
 source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa
+# [!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
@@ -227,9 +227,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om [!DNL On Demand] Premiumlager](on-demand-inventory-about.md)
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premiumlager](on-demand-inventory-subscribe.md)
+>* [Om [!DNL On Demand] Premiuminventering](on-demand-inventory-about.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](on-demand-inventory-publishers-na.md)
-

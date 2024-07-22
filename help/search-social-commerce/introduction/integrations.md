@@ -1,41 +1,41 @@
 ---
 title: Integrering med Adobe Experience Cloud lösningar och tjänster
-description: Läs mer om integrering av sökning, sociala medier och handel med Adobe Experience Cloud lösningar och tjänster.
-exl-id: e8b521f5-f426-4c50-9df4-361a047c9ff0
+description: Läs mer om lösningar och tjänster från Adobe Experience Cloud för sökmotoroptimering, sociala medier och Commerce.
+exl-id: 26456f60-937a-4f39-b5cf-a71c1c1b4833
 feature: Search Introduction
-source-git-commit: 5141c332fc00e9eae62ef507d215dd435e86e8ba
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
 
 # Integrering med Adobe Experience Cloud lösningar och tjänster
 
-Reklamsökning, sociala medier och handel är integrerade med följande [!DNL Adobe] produkter.
+Advertising Search, Social och Commerce är integrerade med följande [!DNL Adobe]-produkter.
 
-* [Taggar från Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) - Du kan använda [Adobe Advertising Cloud Extension](https://exchange.adobe.com/apps/ec/100155) för att Adobe Experience Platform ska kunna skapa spårningstaggar för Adobe Advertising, liksom spårningstaggar från tredje part, för era annonssidor. (Du kan också [skapa spårningstaggar för konvertering direkt i Sök, Social och Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md).) Kontakta kontogruppen eller implementeringsteamet på Adobe för att få information om hur du tar med dina taggar.
+* [Taggar från Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) - Du kan använda [Adobe Advertising Cloud-tillägget](https://exchange.adobe.com/apps/ec/100155) för Adobe Experience Platform för att skapa spårningstaggar för Adobe Advertising-konvertering samt spårningstaggar från tredje part för dina annonssidor. (Du kan också [skapa konverteringsspårningstaggar direkt i Sök, Socialt och Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md).) Kontakta kontogruppen eller implementeringsteamet på Adobe för att få information om hur du tar med dina taggar.
 
-* Adobe Analytics - (anmälningsfunktion) Adobe Advertising och [!DNL Analytics] är integrerade på följande sätt:
+* Adobe Analytics — (avanmälningsfunktion) Adobe Advertising och [!DNL Analytics] är integrerade på följande sätt:
 
-   * Adobe Advertising och [!DNL Analytics] dela data smidigt. [!DNL Analytics] kan skicka data om webbplatsengagemang och konvertering dagligen till sökningar, sociala medier och handel, där data är tillgängliga för annonsoptimering och rapportering. Dessutom kan Adobe Advertising skicka annonsdata - inklusive visningar, klickningar och kostnader - från ert annonsnätverk dagligen till [!DNL Analytics], där data är tillgängliga i alla rapporteringsverktyg.
+   * Adobe Advertising och [!DNL Analytics] delar sömlöst data. [!DNL Analytics] kan dagligen skicka webbplatsengagemangs- och konverteringsdata till Search, Social och Commerce, där informationen är tillgänglig för annonsoptimering och rapportering. Dessutom kan Adobe Advertising dagligen skicka annonsdata - inklusive visningar, klickningar och kostnader - från dina annonsnätverk till [!DNL Analytics], där data finns tillgängliga i alla rapporteringsverktyg.
 
-     Se &quot;[Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md)&quot; för mer information om [!DNL Analytics] stöd för varje annonsnätverk och annonstyp. Se även &quot;[Översikt [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}&quot; för mer information om datautbytet.
+     Mer information om stöd för [!DNL Analytics] för varje annonsnätverk och annonstyp finns i [Supported Inventory](/help/search-social-commerce/introduction/supported-inventory.md). Se även [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"} för mer information om datautbytet.
 
-     Att utbyta data, både Adobe Advertising och [!DNL Analytics] måste initialt konfigureras. Kontakta kontoteamet på Adobe om du vill ha mer information om den första konfigurationen.
+     Både Adobe Advertising och [!DNL Analytics] måste vara konfigurerade för att kunna utbyta data. Kontakta kontoteamet på Adobe om du vill ha mer information om den första konfigurationen.
 
      >[!NOTE]
      >
-     >Som standard är [!DNL Analytics] mätvärden visas inte på skärmar för sökning, sociala medier och handel. Du måste uttryckligen [göra mätvärdena tillgängliga i kampanjhanteringsvyer, portfolior och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) efter [!DNL Adobe] implementeringsteamet har konfigurerat utvalda standard- eller anpassade händelser som ska skickas till Adobe Advertising. Du kan ändra de måttnamn som visas (utan att ändra dem i [!DNL Analytics]). Du kan göra mätvärden synliga i användargränssnittet och ändra namn på mätvärden från [!UICONTROL Admin] > [!UICONTROL Conversions].
+     >Som standard visas inte måtten [!DNL Analytics] på skärmarna Sök, Socialt och Commerce. Du måste uttryckligen [göra mätvärdena tillgängliga i kampanjhanteringsvyer, portföljer och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md) när implementeringsteamet [!DNL Adobe] har konfigurerat valda standard- eller anpassade händelser som ska överföras till Adobe Advertising. Du kan ändra de måttnamn som visas (utan att ändra dem i [!DNL Analytics]). Du kan göra mätvärden synliga i gränssnittet och ändra namn på mätvärden från [!UICONTROL Admin] > [!UICONTROL Conversions].
 
-   * Annonsörer med [!DNL Analytics] men inte Audience Manager kan [skapa [!DNL Google Ads] kundmatchande målgrupper](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) från [!DNL Analytics] segment som delas med Adobe Experience Cloud. För att vara berättigad måste annonsören implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) och distribuera en tagg på sina webbplatser. Sedan kan du använda målgrupperna i [!DNL Google Ads] kampanjer på kampanjnivå eller annonsgruppnivå [mål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) eller [undantag](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
+   * Annonsörer med [!DNL Analytics] men inte Audience Manager kan [skapa [!DNL Google Ads] kundmatchande målgrupper](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) från [!DNL Analytics] segment som delas med Adobe Experience Cloud. För att vara berättigad måste en annonsörer implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) och distribuera en tagg på sina webbplatser. Du kan sedan använda målgrupperna i [!DNL Google Ads] kampanjer som [mål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) eller [undantag](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) på kampanjnivå eller annonsgruppsnivå.
 
-* Adobe Audience Manager segment - (anmäl dig) Du kan [skapa [!DNL Google Ads] kundmatchande målgrupper](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) från Audience Manager-segment som har Sök, Social och Commerce som mål. Detta kan omfatta [!DNL Analytics] segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud Audience Library. Sedan kan du använda målgrupperna i [!DNL Google Ads] kampanjer på kampanjnivå eller annonsgruppnivå [mål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) eller [undantag](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md).
+* Adobe Audience Manager-segment - (anmälningsfunktion) Du kan [skapa [!DNL Google Ads] kundmatchande målgrupper](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-adobe-audience.md) från Audience Manager-segment som har Sök, Socialt och Commerce som mål. Detta kan omfatta [!DNL Analytics] segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud Audience Library. Du kan sedan använda målgrupperna i [!DNL Google Ads] kampanjer som [mål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md) eller [undantag](/help/search-social-commerce/campaign-management/campaigns/audience-exclusions-manage.md) på kampanjnivå eller annonsgruppsnivå.
 
-  Se &quot;[Integrering av Adobe Advertising med Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html)&quot; för mer information.
+  Mer information finns i [Integrering med Adobe Audience Manager](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html).
 
-* Adobe Target - Du kan implementera klickbar signaldelning mellan Search, Social och Commerce och [!DNL Target], konfigurera en A/B-testaktivitet i [!DNL Target] för era annonser och sedan använda [!DNL Analytics] Analysis Workspace för att visa testdata.
+* Adobe Target - Du kan implementera klickningsbaserad signaldelning mellan Search, Social och Commerce och [!DNL Target], konfigurera en A/B-testaktivitet i [!DNL Target] för dina annonser och sedan använda [!DNL Analytics] Analysis Workspace för att visa testdata.
 
-* Adobe Campaign - du kan [skapa och uppdatera en [!DNL Google Ads] kundmatchande målgrupp med hjälp av en e-postlista i [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
+* Adobe Campaign - Du kan [skapa och uppdatera en [!DNL Google Ads] kundmatchande målgrupp med hjälp av en e-postlista i [!DNL Campaign]](/help/search-social-commerce/campaign-management/campaigns/google-audience-from-campaign-email-list.md).
 
-* Adobe Experience Cloud Notifications - (When you are logged in through Adobe Experience Cloud) From the notifications link ([Varningsmeddelanden](/help/search-social-commerce/assets/notifications-panel.png "Varningsmeddelanden")) högst upp på varje sida kan du visa alla systemuppdateringar, meddelanden, omnämnanden och delade resurser för Adobe Experience Cloud. Kontakta kontoteamet på Adobe för information om åtkomst till Adobe Experience Cloud.
+* Adobe Experience Cloud-meddelanden - (När du är inloggad via Adobe Experience Cloud) Från meddelandelänken ([Varningsmeddelanden](/help/search-social-commerce/assets/notifications-panel.png "Varningsmeddelanden")) högst upp på varje sida kan du visa alla Adobe Experience Cloud-systemuppdateringar, inlägg, omnämnanden och delade resurser. Kontakta kontoteamet på Adobe för information om åtkomst till Adobe Experience Cloud.

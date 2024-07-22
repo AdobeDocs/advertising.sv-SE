@@ -15,9 +15,9 @@ ht-degree: 0%
 När du skapar återanvändbara målgrupper kan du definiera segmentlogik manuellt med hjälp av alfanumeriska segment-ID:n (nycklar) och följande syntax:
 
 * () för att ange en grupp
-* `||` for [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
-* &amp;&amp; för [!DNL AND]
-* ! for [!DNL NOT] (exkludera)
+* `||` för [!DNL OR] <!-- || escaped with backticks so Jenkins doesn't think it's a Markdown table -->
+* &amp;för [!DNL AND]
+* ! för [!DNL NOT] (exkludera)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ betyder (på vanlig engelska)
 >[!MORELIKETHIS]
 >
 >* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
->* [Om Audience Management](audience-about.md)
->* [Skapa en återanvändbar publik](reusable-audience-create.md)
+>* [Om målgruppshantering](audience-about.md)
+>* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)

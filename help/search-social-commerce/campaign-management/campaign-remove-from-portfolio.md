@@ -1,9 +1,9 @@
 ---
 title: Ta bort kampanjer från en portfölj
 description: Lär dig ta bort kampanjer från en portfölj.
-exl-id: f86ebc10-650c-42ef-b3df-cd707a863c70
+exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -12,23 +12,23 @@ ht-degree: 0%
 
 # Ta bort kampanjer från en portfölj
 
-När du tar bort en kampanj från en portfölj kan sökmarknadsföring, sociala medier och handel inte optimera bud och budgetar för nyckelorden och annonserna i den kampanjen.
+När du tar bort en kampanj från en portfölj kan inte Search, Social och Commerce optimera bud och budgetar för nyckelorden och annonserna i den kampanjen.
 
 Åtgärden loggas i portföljens ändringshistorik.
 
-Mer information om optimering finns i Optimeringshandboken, som är tillgänglig via Sök, Social och Commerce.
+Mer information om optimering finns i Optimeringshandboken, som finns i Sök, Social och Commerce.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** och sedan hitta portföljen.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
 
-   Du kan filtrera portföljlistan från [!UICONTROL Portfolios] genom att välja en portföljgrupp eller [!UICONTROL Ungrouped Portfolios] nod.
+   Du kan filtrera portföljlistan från menyn [!UICONTROL Portfolios] på den vänstra panelen genom att välja en portföljgrupp eller noden [!UICONTROL Ungrouped Portfolios].
 
-1. Klicka på bredvid portföljnamnet ![Knappen Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Knappen Visa/redigera inställningar") .
+1. Klicka på knappen ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar") bredvid portföljnamnet.
 
-1. Klicka på **[!UICONTROL Campaigns]** och sedan ta bort kampanjerna:
+1. Klicka på **[!UICONTROL Campaigns]** i den vänstra menyn och ta sedan bort kampanjerna:
 
    * Om du vill ta bort alla tilldelade kampanjer klickar du på ![Ta bort alla kampanjer från portföljen](/help/search-social-commerce/assets/arrow-remove-all.png "Ta bort alla kampanjer från portföljen").
 
-   * Om du vill ta bort en enskild kampanj klickar du på kampanjen och drar sedan kampanjen till [!UICONTROL Available Campaigns] eller klicka på ![Ta bort kampanj från portfölj](/help/search-social-commerce/assets/arrow-remove.png "Ta bort kampanj från portfölj") .
+   * Om du vill ta bort en enskild kampanj klickar du på kampanjen och drar sedan kampanjen till listan [!UICONTROL Available Campaigns] eller klickar på ![Ta bort kampanj från portföljen](/help/search-social-commerce/assets/arrow-remove.png "Ta bort kampanj från portföljen") .
 
 1. Klicka på **[!UICONTROL Save]**.
 

@@ -14,18 +14,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Du kan också [dela och sluta dela ett erbjudande-ID med alla annonsörer inom angivna konton](deal-id-share.md).
+>Du kan också [dela och sluta dela ett avtal-ID med alla annonsörer inom angivna konton](deal-id-share.md).
 
 1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
-1. Klicka på  **[!UICONTROL ...]** > **[!UICONTROL Manage Advertisers]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Manage Advertisers]** i avtalsraden.
 
 1. Markera kryssrutan bredvid varje annonsör som ska ha tillgång till erbjudandet i avtalsinställningarna och avmarkera kryssrutan bredvid varje annonsör som inte ska ha tillgång till erbjudandet.
 
-1. Klicka **[!UICONTROL Save]** för att spara avtalsinställningarna.
+1. Klicka på **[!UICONTROL Save]** om du vill spara avtalsinställningarna.
 
 >[!MORELIKETHIS]
 >* [Om privat lager](private-inventory-about.md)
 >* [Redigera konton med åtkomst till ett avtal-ID](/help/dsp/inventory/deal-id-share.md)
->* [Manuella inställningar för avtal-ID](deal-id-settings.md)
-
+>* [Inställningar för manuellt avtal-ID](deal-id-settings.md)

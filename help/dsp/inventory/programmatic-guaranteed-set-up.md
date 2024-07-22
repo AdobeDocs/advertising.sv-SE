@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Ställ in en programgaranterad affär
 
-*[Endast plattformar som stöds av leverantörer](programmatic-guaranteed-about.md)*
+*[Stöd endast för plattformar på utbudssidan](programmatic-guaranteed-about.md)*
 
-När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds kan du konfigurera avtalet i DSP med [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
+När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds, kan du konfigurera avtalet inom DSP antingen genom att använda [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
 
 >[!NOTE]
 >
 > För PG-avtal hanterar utgivaren allt budgetutrymme, budgetbegränsning och målinriktning. Alla SSP:er som tillåter PG via DSP bekräftar att utgivaren kan ställa in budgetbegränsning.
 >
-> Konfigurera programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] kräver extra behörigheter och steg. Se &quot;[Översikt över hur man ställer in garantierbjudanden för programmatiska inköp i [!DNL FreeWheel]](freewheel-overview.md)&quot; för mer information.
+> Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] krävs extra behörigheter och steg. Mer information finns i [Översikt över hur du konfigurerar garantierbjudanden för programmatiska erbjudanden i  [!DNL FreeWheel]](freewheel-overview.md).
 
 ## Konfigurera en programmatisk garanterad affär med [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
-Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buyers]och [!DNL Magnite DV+].
+Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buyers] och [!DNL Magnite DV+].
 
 1. [Acceptera erbjudandet](deal-id-inbox-accept.md).
 
@@ -34,11 +34,11 @@ Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buy
 
    * Om du bara tecknar ett enstaka erbjudande omdirigeras du automatiskt till arbetsflödet för att skapa standardplaceringar i PG.
 
-     Alla [!DNL FreeWheel] Erbjudandena föreslås som ett enda avtal.
+     Alla [!DNL FreeWheel]-erbjudanden föreslås som ett enda avtal.
 
    * Om du godkänner ett förslag med flera PDF-avtal-ID:n ska du identifiera varje PG-standardplacering som du måste skapa. När du har skapat alla obligatoriska placeringar aktiveras knappen Fortsätt.
 
-1. (Valfritt) Rikta in dig på PG-erbjudandet genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Valfritt) Aktivera PG-erbjudandet för fler PG-placeringar eller andra placeringar genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (t.ex. ansluten TV, dator och ljud).
 
@@ -46,22 +46,22 @@ Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buy
 
 Använd den här metoden för alla andra SSP:er.
 
-1. [Ställ in detaljer för erbjudande-ID manuellt](deal-id-create.md).
+1. [Konfigurera information om erbjudande-ID manuellt](deal-id-create.md).
 
 1. När du har sparat erbjudandet väljer du annonserna (eller 1x1-spårningspixlar för publicerarhanterade annonser) som ska användas för erbjudandet och skapar en standardplacering för PG-annonser enligt uppmaningen.
 
    Det är obligatoriskt att skapa en PG-standardplacering för erbjudandet för att få 100 % av köpet. Den här typen av placering har ingen inriktning så DSP kan returnera ett bud till alla anbudsförfrågningar från utgivaren.
 
-1. (Valfritt) Rikta in dig på PG-erbjudandet genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
+1. (Valfritt) Aktivera PG-erbjudandet för fler PG-placeringar eller andra placeringar genom att klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL Attach new placement]**.
 
    Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (t.ex. ansluten TV, dator och ljud).
 
 >[!MORELIKETHIS]
 >
->* [Om programmatiska erbjudanden](programmatic-guaranteed-about.md)
->* [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Skicka in en annons för en programmatisk garanterad affär med [!DNL FreeWheel]](freewheel-submit.md)
+>* [Om programmatiska garanterade erbjudanden](programmatic-guaranteed-about.md)
+>* [Tips för att förhandla om ett program- eller garantiavtal](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Skicka in en annons för en programmatisk garanterad transaktion med [!DNL FreeWheel]](freewheel-submit.md)
 >* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
 >* [Skapa information om avtal-ID manuellt](deal-id-create.md)
 >* [SSP-partners](ssp-partners.md)
->* [Översikt över inventeringsfunktioner](inventory-overview.md)
+>* [Översikt över lagerfunktioner](inventory-overview.md)

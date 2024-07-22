@@ -1,9 +1,9 @@
 ---
-title: '''[!DNL Yandex] och gruppinställningar'
-description: Referera inställningarna för [!DNL Yandex] annonsgrupper.
-exl-id: 8b313502-4101-46a0-a0c9-692eb754cc3d
+title: '[!DNL Yandex] och gruppinställningar'
+description: Referera inställningarna för  [!DNL Yandex] annonsgrupper.
+exl-id: f580382a-ada8-4de3-91c4-d0c84e43234c
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Ett annonsgruppsnamn som är unikt i kampanjen.
 
-**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardinställningen för nya annonsgrupper är *Aktiv*.
+**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardvärdet för nya annonsgrupper är *Aktiv*.
 
 >[!MORELIKETHIS]
 >

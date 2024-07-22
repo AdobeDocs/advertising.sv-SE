@@ -1,6 +1,6 @@
 ---
-title: Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar
-description: Lär dig varför och hur du lägger till [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] annonstaggar
+title: Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking] Lägg till taggar
+description: Lär dig varför och hur du lägger till  [!DNL Analytics for Advertising] makron i dina  [!DNL Flashtalking] ad-taggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
 source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Flashtalking] Annonstaggar
+# Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking]-märkord
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
-*Gäller endast DSP*
+*Gäller endast Advertising DSP*
 
-Om du använder annonstaggar från [!DNL Flashtalking] för era annonser DSP annonser, lägga till parametrar för annonsering i era URL:er för landningssidor. Parameterposten för AMO-ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
+Om du använder annonstaggar från [!DNL Flashtalking] för dina Advertising DSP-annonser lägger du till Advertising-parametrar i URL:er för landningssidan. Parametrarna innehåller parametrarna AMO ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
 
-Använd makron för [!DNL Flashtalking] webbannonser och videoannonser för följande typer av [!DNL Analytics for Advertising] implementeringar:
+Använd makron för [!DNL Flashtalking]-visning och videoannonser för följande typer av [!DNL Analytics for Advertising]-implementeringar:
 
-* **Annonsörer med [!DNL Adobe] [!DNL Analytics for Advertising] JavaScript-kod som implementeras på deras webbplatser**: JavaScript-koden registrerar redan AMO-ID:t (`s_kwcid`) och `ef_id` frågesträngparametrar. Om du använder makron utökas dock spårningen så att den omfattar klickbaserade konverteringar när cookies från tredje part inte stöds. Det bästa sättet är att lägga till makron i följande avsnitt i dina annonstaggar för att hämta ytterligare klickdata som inte fångas in via JavaScript-koden.
+* **Annonsörer med JavaScript-koden [!DNL Adobe] [!DNL Analytics for Advertising] implementerad på deras webbplatser**: JavaScript-koden registrerar redan parametrarna för AMO-ID (`s_kwcid`) och `ef_id` frågesträngar. Om du använder makron utökas dock spårningen så att den omfattar klickbaserade konverteringar när cookies från tredje part inte stöds. Det bästa sättet är att lägga till makron i följande avsnitt i dina annonstaggar för att hämta ytterligare klickdata som inte fångas in via JavaScript-koden.
 
 >[!NOTE]
 >
 >JavaScript-koden är bara en lösning för klickspårning medan cookies fortfarande är tillgängliga. När cookies har upphört måste följande makron implementeras.
 
-* **Annonsörer vars webbplatser inte använder [!DNL Analytics for Advertising] JavaScript-kod och förlita dig istället på [!DNL Analytics] vidarebefordran på serversidan endast för klickbara data** (utan genomskinliga data): Följande makron krävs för att rapportera klickningsaktiviteter på plats som är kopplade till annonser som du köper via Adobe Advertising.
+* **Annonsörer vars webbplatser inte använder JavaScript-koden [!DNL Analytics for Advertising] och i stället förlitar sig på vidarebefordran på [!DNL Analytics] endast för klickbara data** (utan genomskinliga data): Följande makron krävs för att rapportera klickaktivitet på webbplatsen från annonser som du köper via Adobe Advertising.
 
 ## Visa annonstaggar
 
-I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i `Clicktag` fält:
+Lägg till följande makro i slutet av klicknings-URL:en i fältet `Clicktag` i inställningarna för annonstaggen [!DNL Flashtalking]:
 
 ```
 [ftqs:[AdobeAMO]]
 ```
 
-Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
 
 Exempel:
 
@@ -46,13 +46,13 @@ Exempel:
 
 ## Video Ad-taggar
 
-I [!DNL Flashtalking] lägg till följande makro i slutet av klicknings-URL:en i `Clicktag` fält:
+Lägg till följande makro i slutet av klicknings-URL:en i fältet `Clicktag` i inställningarna för annonstaggen [!DNL Flashtalking]:
 
 ```
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
 ```
 
-Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med en `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
+Om det är den första eller enda frågesträngen efter bas-URL:en separerar du den från bas-URL:en med `?`. Om bas-URL:en innehåller flera frågesträngar börjar du den första strängen med en `?` och varje efterföljande sträng med en `&`.
 
 Exempel:
 
@@ -62,7 +62,7 @@ Exempel:
 
 >[!MORELIKETHIS]
 >
->* [Översikt [!DNL Analytics for Advertising]](overview.md)
->* [Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Lägg till [!DNL Analytics for Advertising] Makron till [!DNL Google Campaign Manager 360] Annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md)
+>* [Översikt över [!DNL Analytics for Advertising]](overview.md)
+>* [Adobe Advertising-ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Hjälp-rapporter
 description: Läs om rapporter som ger insikter om konverteringsvägar.
-exl-id: b402727e-a639-48f9-96c9-33fa1edafc6b
+exl-id: 0962c8b1-0116-480a-8253-4e8488fec77c
 feature: Search Reports, Search Assist Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
 # Hjälp-rapporter
 
-*Annonsörer med klickspårning i sökmotorkampanjer, sociala kampanjer och handelsklickningar och konverteringsspårning från Adobe Advertising, Adobe Analytics (med en [!DNL Analytics] integrering), eller tillhandahålls i feeds med en token (`ef_id`) only*
+*Annonsörer med klickspårning i Sök, Socialt och Commerce och med konverteringsspårning från Adobe Advertising, Adobe Analytics (med integrering av [!DNL Analytics]) eller som tillhandahålls i feeds med en token (`ef_id`) endast*
 
-Assistentrapporter ger insikter om konverteringsmöjligheterna för alla annonsörernas nyckelord och annonser. Assistentrapporter använder data som samlats in via tjänsten för spårning av konvertering i Adobe Advertising, Adobe Analytics-konverteringsspårning och feedfiler som innehåller tokens (`ef_id`) och kan endast genereras för annonsörer med dessa tjänster.
+Assistentrapporter ger insikter om konverteringsmöjligheterna för alla annonsörernas nyckelord och annonser. Assistentrapporter använder data som samlats in via tjänsten för spårning av konvertering i Adobe Advertising, Adobe Analytics-konvertering och feed-filer som innehåller tokens (`ef_id`), och kan bara genereras för annonsörer med dessa tjänster.
 
 >[!NOTE]
 >
@@ -23,17 +23,17 @@ Assistentrapporter ger insikter om konverteringsmöjligheterna för alla annons�
 
 ## Olika typer av assistentrapporter
 
-* [The [!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
+* [[!UICONTROL Campaign Assist Report]](/help/search-social-commerce/reports/management/assist/campaign-assist-report.md)
 
-* [The [!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
+* [[!UICONTROL Channel Assist Report]](/help/search-social-commerce/reports/management/assist/channel-assist-report.md)
 
-* [The [!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
+* [[!UICONTROL Keyword Assist Report]](/help/search-social-commerce/reports/management/assist/keyword-assist-report.md)
 
 >[!MORELIKETHIS]
 >
 >* [The [!UICONTROL Campaign Assist Report]](campaign-assist-report.md)
 >* [The [!UICONTROL Channel Assist Report]](channel-assist-report.md)
 >* [The [!UICONTROL Keyword Assist Report]](keyword-assist-report.md)
->* [Inställningar för assistentrapporter](assist-report-settings.md)
->* [Generera en assistentrapport](assist-report-generate.md)
->* [Rapporter](/help/search-social-commerce/reports/report-about.md)
+>* [Inställningar för assistentrapport](assist-report-settings.md)
+>* [Generera en hjälprapport](assist-report-generate.md)
+>* [Om rapporter](/help/search-social-commerce/reports/report-about.md)

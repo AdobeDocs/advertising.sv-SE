@@ -1,30 +1,30 @@
 ---
-title: Adobe Advertising Acceptable Health Segments
+title: Godtagbara hälsosegment för Adobe Advertising
 description: Se riktlinjer för godtagbara hälsorelaterade målgruppssegment och taktik att använda som alternativ till att inrikta sig på hälsorelaterade målgruppssegment.
 feature: Policies
 exl-id: 121129e3-3d4b-4478-9cfd-cb16c1eb67de
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
 
-# Riktlinjer för godtagbar hälsosegmentering för Adobe
+# Riktlinjer för accepterbara hälsosegment för Adobe Advertising
 
 *För Adobe Advertising DSP och[!DNL Adobe Advertising Search, Social, & Commerce]*
 
 I följande riktlinjer beskrivs oacceptabla och godtagbara hälsorelaterade målgruppssegment. De rekommenderar också taktik att använda som alternativ till att inrikta sig på hälsorelaterade målgruppssegment.
 
-Dessa riktlinjer sammanfattas i [!DNL Network Advertising Alliance (NAI)].
+Dessa riktlinjer sammanfattas från [!DNL Network Advertising Alliance (NAI)].
 
-Se även [Krav för annonsering på Adobe](/help/policies/ad-requirements-policy.md) för att avgöra om ett hälsorelaterat målgruppssegment är användbart enligt Adobe:s målinriktningspolicy för annonsering.
+Se även [Adobe Advertising Ads Requirements Policy](/help/policies/ad-requirements-policy.md) för att avgöra om ett hälsorelaterat målgruppssegment kan användas enligt målinriktningspolicyn för Adobe Advertising.
 
 ## Hälsosegment som inte ska användas
 
 * Segment som bygger på skyddad hälsoinformation (PHI)\*, patientjournaler, läkemedelsrecept eller liknande hälsokällor eller medicinska källor som ger faktiska kunskaper om användarens tillstånd eller behandling.
 
-   \* Adobe Advertising is not a [!DNL HIPAA]-klar lösning.
+  \* Adobe Advertising är inte en [!DNL HIPAA]-klar lösning.
 
 * Segment som avser hälsotillstånd (eller relaterade behandlingar), t.ex. någon form av cancer, psykisk hälsa, drogmissbruk, sexuellt överförbara sjukdomar, sjukdomar som främst drabbar barn eller andra känsliga hälsotillstånd som inte kan behandlas med läkemedel som är under kontroll (t.ex. diabetes, psoriasis, reumatoid artrit eller sjukdomar som fibromyalgi).
 
@@ -50,5 +50,4 @@ Alla följande måste vara true:
 
 >[!MORELIKETHIS]
 >
->* [Krav för annonser](/help/policies/ad-requirements-policy.md)
-
+>* [Princip för annonskrav](/help/policies/ad-requirements-policy.md)

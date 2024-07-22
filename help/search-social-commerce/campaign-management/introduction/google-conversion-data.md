@@ -1,26 +1,26 @@
 ---
-title: '''[!DNL Google Ads] konverteringsdata'
-description: Läs mer om olika typer av [!DNL Google Ads]-spårade konverteringsdata finns i Sök, Socialt och Commerce.
-exl-id: a7ee8e72-aa7d-4e90-b765-b7b01308762d
+title: '[!DNL Google Ads] konverteringsdata'
+description: Lär dig mer om de  [!DNL Google Ads] spårade konverteringsdata som finns i Sök, Socialt och Commerce.
+exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: dc5dc6c5770dd75c77c537c69e53a3b169a71efb
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] konverteringsdata i sökning, sociala medier och handel
+# [!DNL Google Ads] konverteringsdata i sökningar, sociala medier och Commerce
 
-Sök, sociala medier och handel synkroniseras automatiskt [!DNL Google Ads]-spårade konverteringsdata för alla era kampanjer på [!DNL Google Ads] söknings- och shoppingnätverk i söknings-, sociala och handelsmässiga nätverk för rapportering och optimering.
+Search, Social och Commerce synkroniserar automatiskt [!DNL Google Ads]-spårade konverteringsdata för alla dina kampanjer i söknings- och shoppingnätverket i [!DNL Google Ads] till Search, Social och Commerce för rapportering och optimering.
 
 Alla mätvärden är automatiskt tillgängliga i era kampanjhanteringsvyer och grundläggande rapporter, och är också tillgängliga för användning i portföljmål för optimering.
 
 ## Tillgängliga konverteringsdata
 
-Sök, Socialt och e-handel synkroniserar data för konverteringar som[!DNL Include in 'Conversions']&quot; är aktiverat, de senaste 35 dagarna hämtas data och data ändras dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
+Sök, Socialt och Commerce synkroniserar data för konverteringar där alternativet [!DNL Include in 'Conversions'] har aktiverats, hämtar data för de senaste 35 dagarna och drar sedan ändringar av data dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
 
-Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](https://support.google.com/google-ads/answer/4677036) (som du konfigurerar i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce med hjälp av de konverteringsnamn som konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
+Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering ](https://support.google.com/google-ads/answer/4677036) (som du har konfigurerat i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce, med hjälp av konverteringsnamnen som har konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
 
 <!--
 
@@ -32,29 +32,29 @@ Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering](htt
 
 -->
 
-* `GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med &quot;GGL&quot;-prefixet (till exempel GL Purchase).
+* `GGL*` — (När du spårar det) Konverteringsvärdet för nyckelordet, med början med GL-prefixet (till exempel GL Purchase).
 
-* `GGL_CT*` — Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).
+* `GGL_CT*` - Antal konverteringar (antal), med början med prefixet &quot;GGL_CT&quot; (till exempel GGL_CT_Purchase).
 
-* `GGL_XD_CT*` — (När det är tillgängligt för konverteringstypen, när du spårar dem) Antal (antal) konverteringar mellan enheter, enligt Google, med början med prefixet &quot;GGL_XD_CT_&quot; (till exempel GGL_XD_CT_Purchase).
+* `GGL_XD_CT*` — (När det är tillgängligt för konverteringstypen, när du spårar dem) Antalet (antalet) konverteringar mellan enheter, enligt Google, med början med prefixet &quot;GGL_XD_CT_&quot; (till exempel GGL_XD_CT_Purchase).
 
-[!DNL Google Ads] registrerar varje konvertering med [budenhet](/help/search-social-commerce/glossary.md#a-b), enhet och klicka på datumet (inte konverteringsdatumet). Attribution is based on default attribution setting for each metric in [!DNL Google Ads]; Adobe Advertising-attribuering är inte indelad eftersom klickdata inte är tillgängliga.
+[!DNL Google Ads] registrerar varje konvertering med [budenhet](/help/search-social-commerce/glossary.md#a-b), enhet och klickningsdatum (inte konverteringsdatum). Attribution baseras på standardattribueringsinställningen för varje mätvärde i [!DNL Google Ads]. Adobe Advertising-attribuering beaktas inte eftersom klickhändelsenivådata inte är tillgängliga.
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar, [ändra visningsnamnet](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade mätvärdena i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
->* Data på anbudsenhetsnivå matchar data i [!DNL Google Ads] på samma nivå. Men [!DNL Google Ads]&#39; egna konverteringsdata för högre nivåer kan innehålla ytterligare konverteringar som inte är kopplade till de underordnade budenheterna. Data i Sök, Socialt, &amp; Commerce samlas alltid in från anbudsenhetsnivån, så en kampanjnivårapport kanske inte har samma summor som en kampanjnivårapport i Google Ads.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar [ändrar du visningsnamnet ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade måtten i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Data på anbudsenhetsnivå matchar data i [!DNL Google Ads] på samma nivå. [!DNL Google Ads] egna konverteringsdata för högre nivåer kan dock innehålla ytterligare konverteringar som inte har tilldelats de underordnade budenheterna. Data i Sök, Social och Commerce samlas alltid in från anbudsenhetsnivån, så till exempel har en kampanjnivårapport kanske inte samma summor som en kampanjnivårapport i Google Ads.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
->* Konverteringsdata är inte tillgängliga för [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App]och [!DNL YouTube] annonser. Filtrera ut de här annonstyperna när du jämför data i [!DNL Google Ads] med data i sökningar, sociala medier och handel.
->* Data för [!DNL Google Ads] konverteringar är inte tillgängliga på målgrupps- eller geografisk platsnivå och används därför inte för automatisk optimering av RLSA och platsbudsjusteringar.
+>* Konverteringsdata är inte tillgängliga för [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] och [!DNL YouTube] annonser. Filtrera ut de här annonstyperna när du jämför data i [!DNL Google Ads] med data i Sök, Socialt och Commerce.
+>* Data för [!DNL Google Ads]-konverteringar är inte tillgängliga på målgrupps- eller geografisk platsnivå och används därför inte för automatisk optimering av RLSA och platsbudsjusteringar.
 
-## Hur man jämför konverteringsdata i [!DNL Google Ads] med data i sökningar, sociala medier och handel
+## Hur du jämför konverteringsdata i [!DNL Google Ads] med data i Sök, Socialt och Commerce
 
-Om du jämför data i sökning, sociala medier och handel med data i [!DNL Google Ads]använder du alternativet view eller report för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
+Om du jämför data i Sök, Socialt och Commerce med data i [!DNL Google Ads] kan du använda vy- eller rapportalternativet för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
 
 Använd följande rapportinställningar för att validera jämförbara data.
 
-### Rapportinställningar att använda i [!DNL Google Ads]
+### Rapportinställningar som ska användas i [!DNL Google Ads]
 
 Generera rapporten för de valda konverteringsåtgärderna per dag och inkludera data för alla annonsstatusar.
 
@@ -78,31 +78,31 @@ Generera rapporten för de valda konverteringsåtgärderna per dag och inkludera
 
 -->
 
-### Rapportinställningar som ska användas i sökning, sociala medier och handel
+### Rapportinställningar som ska användas i sökningar, sociala medier och Commerce
 
-I Sök, Socialt, &amp; Commerce använder du alternativet view eller report för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
+I Sök, Socialt och Commerce kan du använda vy- eller rapportalternativet för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Create Report]** håller du markören över **[!UICONTROL Basic Reports]** och klicka sedan på **[!UICONTROL Search Engine Account Report]**.
+1. Klicka på **[!UICONTROL Create Report]** i verktygsfältet ovanför datatabellen, håll markören över **[!UICONTROL Basic Reports]** och klicka sedan på **[!UICONTROL Search Engine Account Report]**.
 
-1. I [!UICONTROL Report Settings] anger du följande rapportinställningar:
+1. I fönstret [!UICONTROL Report Settings] anger du följande rapportinställningar:
 
-   1. I **[!UICONTROL Conversions Based]** väljer du **[!UICONTROL Click date]**.
+   1. I avsnittet **[!UICONTROL Conversions Based]** på väljer du **[!UICONTROL Click date]**.
 
-   1. Ange samma datumintervall som du använde för [!DNL Google Ads] rapport.
+   1. Ange samma datumintervall som du använde för rapporten [!DNL Google Ads].
 
-   1. I **[!UICONTROL Search/Content]** avsnitt, markera **[!UICONTROL Search Only]**.
+   1. Välj **[!UICONTROL Search Only]** i avsnittet **[!UICONTROL Search/Content]**.
 
-   1. I **[!UICONTROL Search Engine Hierarchy]** -avsnittet expanderar du [!UICONTROL Google Adwords] och välj kontot.
+   1. Expandera avsnittet [!UICONTROL Google Adwords] i avsnittet **[!UICONTROL Search Engine Hierarchy]** och markera kontot.
 
-   1. Öppna [!UICONTROL Columns] och lägga till [!DNL Google Ads] mätvärden (med början från &quot;GGL&quot;) som du vill jämföra.
+   1. Öppna fliken [!UICONTROL Columns] och lägg till de [!DNL Google Ads]-mått (som börjar med GGL) som du vill jämföra.
 
 1. Klicka på **[!UICONTROL Create]**.
 
 >[!MORELIKETHIS]
 >
->* [Översikt över att implementera annonsnätverkskonton och -kampanjer](campaign-implemention-overview.md)
->* [Övervaka och hantera resultatet för era annonsnätverkskampanjer](monitor-performance-campaigns.md)
+>* [Översikt över implementering av annonsnätverkskonton och kampanjer](campaign-implemention-overview.md)
+>* [Övervaka och hantera prestandan för annonsnätverkskampanjer](monitor-performance-campaigns.md)
 >* [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [Skapa en konverteringstagg för [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)

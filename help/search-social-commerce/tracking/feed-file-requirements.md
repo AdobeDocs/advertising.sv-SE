@@ -39,4 +39,4 @@ Skicka filen via SFTP-överföringsprotokollet med port 22. Du måste ange din o
 >[!MORELIKETHIS]
 >
 >* [Datakrav för dataflöden som använder EF-ID:n](/help/search-social-commerce/tracking/feed-ef-id-data-requirements.md)
->* [Datakrav för dataflöden som använder ett transaktions-ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)
+>* [Datakrav för dataflöden med ett transaktions-ID](/help/search-social-commerce/tracking/feed-transaction-id-data-requirements.md)

@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Text ad template - Ad Group-level Language
 
-**[!UICONTROL Language]:** Målspråket för annonser i annonsgruppen: *Engelska*, *Franska*, *Finska*, *Tyska*, *Norska*, *Spanska*, eller *Svenska*. Standardinställningen för nya kampanjer är *Engelska*.
+**[!UICONTROL Language]:** Målspråket för annonser i annonsgruppen: *Engelska*, *franska*, *finska*, *tyska*, *norska*, *spanska* eller *svenska*. Standardvärdet för nya kampanjer är *English*.
 
 Den här inställningen avgör i vilka länder och regioner annonsen kan visas. Välj ett språk som är kompatibelt med kampanjens platsmål.

@@ -5,15 +5,15 @@ source-wordcount: '176'
 ht-degree: 0%
 
 ---
-# Fältet Spårningsmall för Microsoft Advertising entities
+# Fältet Spårningsmall för enheter i Microsoft Advertising
 
 <!-- Search CRUD and bulk edit of Microsoft entity settings -->
 
-**[!UICONTROL Tracking Template]:** (Valfritt, inte tillgängligt för alla enheter) Spårningsmallen eller spårnings-URL, som anger alla omdirigeringar och spårningsparametrar utanför landningsdomänen och även bäddar in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` för att inkludera en omdirigering.
+**[!UICONTROL Tracking Template]:** (Valfritt, inte tillgängligt för alla entiteter) Spårningsmallen eller spårnings-URL, som anger alla omdirigerings- och spårningsparametrar utanför landningsdomänen och även bäddar in URL:en för sista sidan/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` som ska inkludera en omdirigering.
 
-För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; Sökning, sociala medier och handel prefixar automatiskt sin egen omdirigerings- och spårningskod när du sparar posten.
+För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefix automatiskt för Sökning, Socialt och Commerce för sin egen omdirigerings- och spårningskod när du sparar posten.
 
-* Information om vilka parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Microsoft Advertising] dokumentation om parametrar för att ange den slutliga URL:en](https://help.ads.microsoft.com/#apex/3/en/56799).
+* Information om parametrar som stöds för att bädda in den slutliga URL:en finns i [[!DNL Microsoft Advertising] dokumentationen om parametrar för att ange den slutliga URL:en](https://help.ads.microsoft.com/#apex/3/en/56799).
 
 * Du kan också inkludera URL-parametrar och anpassade parametrar som definierats för kampanjen, avgränsade med et-tecken (&amp;), till exempel {lpurl}?matchtype={matchtype}&amp;device={device}.
 

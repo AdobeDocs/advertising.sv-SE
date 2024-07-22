@@ -1,25 +1,25 @@
 ---
-title: Om Campaign Management i DSP
+title: Om Campaign Management i Advertising DSP
 description: Läs om kampanjhantering.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Om Campaign Management i DSP
+# Om Campaign Management i Advertising DSP
 
 Kampanjer är det övergripande ramverket för flyginställningar. Alla inställningar på kampanjnivå gäller automatiskt för varje paket och placering i kampanjen. Varje kampanj är kopplad till en viss annonsörer.
 
 Du kan skapa kampanjer manuellt eller genom att duplicera befintliga kampanjer. Ni kan också redigera befintliga kampanjer.
 
-## The [!UICONTROL Campaigns] Kontrollpanel
+## Kontrollpanelen [!UICONTROL Campaigns]
 
 <!-- standardize on "dashboard" or "view" -->
-The [!UICONTROL Campaigns] Instrumentpanelen centraliserar resultatet och den ekonomiska rapporteringen för alla era kampanjer, vilket ger en snabb ögonblicksbild av hur era kampanjer har genomförts under ett visst datumintervall.
+Kontrollpanelen [!UICONTROL Campaigns] centraliserar prestanda och ekonomisk rapportering för alla era kampanjer, vilket ger en snabb ögonblicksbild av hur era kampanjer har utförts under ett visst datumintervall.
 
 ![Kontrollpanel för kampanjer](/help/dsp/assets/campaign-dashboard.png)
 
@@ -27,7 +27,7 @@ Som standard visas pacing- och leveransmått per kampanj på kontrollpanelen. Du
 
 >[!NOTE]
 >
->Ni kan anpassa innehållet i och leveransen av kampanjrapporter ytterligare via [anpassade rapporter](/help/dsp/reports/report-about.md).
+>Du kan anpassa innehållet i och leveransen av kampanjrapporter ytterligare via [anpassade rapporter](/help/dsp/reports/report-about.md).
 
 Klicka på kampanjnamnet om du vill se alla paket, placeringar och annonser i en kampanj.
 
@@ -35,5 +35,4 @@ Klicka på kampanjnamnet om du vill se alla paket, placeringar och annonser i en
 >
 >* [Skapa en kampanj](campaign-create.md)
 >* [Kampanjinställningar](campaign-settings.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
-
+>* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

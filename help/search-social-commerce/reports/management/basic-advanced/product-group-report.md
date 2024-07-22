@@ -1,26 +1,26 @@
 ---
 title: '[!UICONTROL Product Group Report]'
 description: Läs mer om [!UICONTROL Product Group Report].
-exl-id: cda775bb-3b86-4315-9b46-bf5f488a9fe8
+exl-id: 4e310d06-11fe-4c5a-b9a3-59ee099aeaef
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Product Group Report]
 
-The [!UICONTROL Product Group Report] innehåller kostnads-, klick- och (valfritt) konverteringsdata per produktgrupp, aggregerade över konton, kampanjer eller annonsgrupper. Du kan också filtrera data efter etikett. Som standard innehåller data en rad för varje tillämpligt produktmål för produktlistor som visar visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten och sedan efter produktmålet som standard.
+[!UICONTROL Product Group Report] innehåller kostnads-, klick- och (valfritt) konverteringsdata per produktgrupp, aggregerade över konton, kampanjer eller annonsgrupper. Du kan också filtrera data efter etikett. Som standard innehåller data en rad för varje tillämpligt produktmål för produktlistor som visar visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten och sedan efter produktmålet som standard.
 
 Du kan även inkludera annonsörspecifika etikettklassificeringar.
 
-Du kan visa klickdata för de senaste två månaderna och postklicksdata för alla annonsnätverk från Sök-, Social-, &amp; Commerce- och Adobe Analytics-integreringar för de senaste 18 månaderna.
+Du kan visa klickdata för de senaste två månaderna och postklicksdata för alla annonsnätverk från integreringar med Search, Social, Commerce och Adobe Analytics för de senaste 18 månaderna.
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).
 
 * [!UICONTROL Product Groupings]
 * [!UICONTROL Parent Product Groupings]
@@ -40,6 +40,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
->* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
+>* [Om grundläggande och avancerade rapporter](basic-advanced-report-about.md)
+>* [Generera en enkel eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)

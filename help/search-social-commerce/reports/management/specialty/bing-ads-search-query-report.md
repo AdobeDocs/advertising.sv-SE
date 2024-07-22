@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # [!UICONTROL Bing Ads Search Query Report]
 
-*[!DNL Microsoft Advertising]endast konton*
+Endast *[!DNL Microsoft Advertising]konton*
 
-The [!UICONTROL Bing Ads Search Query Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata för söktermer för användare för en eller flera annonsgrupper. Som standard innehåller data en rad för varje sökterm som resulterade i avtryck eller klick för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som sökord. Rapporten innehåller inte nyckelordet som söktermen matchades mot, och inte heller några konverteringsdata som spåras av [!DNL Adobe].
+[!UICONTROL Bing Ads Search Query Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata för användarsökningsfrågetermer för en eller flera annonsgrupper. Som standard innehåller data en rad för varje sökterm som resulterade i avtryck eller klick för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning efter annonsgruppens namn och sedan som sökord. Rapporten innehåller inte nyckelordet som söktermen matchades mot och inte heller några konverteringsdata som spårats av [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ The [!UICONTROL Bing Ads Search Query Report] innehåller kostnads-, klicknings-
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -41,6 +41,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Specialrapporter](specialty-report-about.md)
+>* [Om specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)

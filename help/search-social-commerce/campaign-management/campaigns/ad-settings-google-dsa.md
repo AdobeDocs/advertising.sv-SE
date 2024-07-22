@@ -1,18 +1,18 @@
 ---
-title: '''[!DNL Google Ads] expanderade dynamiska sökannonsinställningar'
-description: Referera inställningarna för [!DNL Google Ads] expanderade dynamiska sökannonser.
-exl-id: e7b3a4c2-1cdb-45d7-bf87-ca26947dd1a4
+title: '[!DNL Google Ads] utökade inställningar för dynamisk sökning och annonser'
+description: Referera inställningarna för  [!DNL Google Ads] utökade dynamiska sökannonser.
+exl-id: 62142e37-c7c6-42d8-883b-f288a2903f44
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] expanderade dynamiska sökannonsinställningar
+# [!DNL Google Ads] utökade inställningar för dynamisk sökning och annonser
 
-Annonser för dynamisk sökning (DSA) är bara tillgängliga för [!DNL Google Ads] söka efter dynamiska annonsgrupper i sökkampanjer. Annonsnätverket genererar rubriken dynamiskt och väljer landningssida och webbadress för en dynamisk sökannons. Sedan genereras den slutliga webbadressen automatiskt.
+Dynamiska sökannonser (DSA) är bara tillgängliga för [!DNL Google Ads] dynamiska sökgrupper i sökkampanjer. Annonsnätverket genererar rubriken dynamiskt och väljer landningssida och webbadress för en dynamisk sökannons. Sedan genereras den slutliga webbadressen automatiskt.
 
 Se hjälpen för Google Ads för [annonsbegränsningar per konto](https://support.google.com/google-ads/answer/6372658?hl=en).
 
@@ -38,5 +38,5 @@ Se hjälpen för Google Ads för [annonsbegränsningar per konto](https://suppor
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
->* [[!DNL Google Ads] annonsinställningar som bara kan anropas](ad-settings-google-call.md)
->* [[!DNL Google Ads] inställningar för responsiv sökning och](ad-settings-google-rsa.md)
+>* [[!DNL Google Ads] annonsinställningar för endast samtal](ad-settings-google-call.md)
+>* [[!DNL Google Ads] Inställningar för responsiv sökannonsering](ad-settings-google-rsa.md)

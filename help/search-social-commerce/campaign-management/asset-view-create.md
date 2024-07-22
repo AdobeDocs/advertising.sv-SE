@@ -1,6 +1,6 @@
 ---
-title: Visa och skapa annonsresurser från [!UICONTROL Asset Library]
-description: Lär dig hur du visar och skapar återanvändbara bild-, video- och textresurser för dina [!DNL Google Ads] och [!DNL Microsoft Advertising] resursbibliotek på kontonivå.
+title: Visa och skapa annonsresurser från din [!UICONTROL Asset Library]
+description: Lär dig hur du visar och skapar återanvändbara bild-, video- och textresurser för dina  [!DNL Google Ads] och [!DNL Microsoft Advertising] resursbibliotek på kontonivå.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
 source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 ---
 
-# Visa och skapa annonsresurser från [!UICONTROL Asset Library]
+# Visa och skapa annonsresurser från din [!UICONTROL Asset Library]
 
-*För [!DNL Google Ads] och [!DNL Microsoft Advertising] endast konton*
+*Endast för [!DNL Google Ads] och [!DNL Microsoft Advertising] konton*
 
-I [!UICONTROL Campaigns] > [!UICONTROL Asset Library]kan du visa alla återanvändbara bilder, videoklipp och [!DNL Google Ads] endast) textresurser i [!DNL Google Ads] och [!DNL Microsoft Advertising] resursbibliotek på kontonivå. Du kan också skapa nya resurser för ett annonsnätverkskonto och överföra dem till annonsnätverket.
+I [!UICONTROL Campaigns] > [!UICONTROL Asset Library] kan du visa alla återanvändbara bild-, video- och (endast för [!DNL Google Ads]) textresurser i dina [!DNL Google Ads]- och [!DNL Microsoft Advertising]-resursbibliotek på kontonivå. Du kan också skapa nya resurser för ett annonsnätverkskonto och överföra dem till annonsnätverket.
 
 Ni kan använda vilket som helst av mediefilerna för era maximala prestandakampanjer.
 
 ## Skapa och överföra resurser
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]** på huvudmenyn.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 
-1. Klicka på i verktygsfältet ovanför datatabellen ![Överför](/help/search-social-commerce/assets/add.png "Överför").
+1. Klicka på ![Överför](/help/search-social-commerce/assets/add.png "Överför") i verktygsfältet ovanför datatabellen.
 
 1. Ange varje resurstyp:
 
@@ -34,13 +34,13 @@ Ni kan använda vilket som helst av mediefilerna för era maximala prestandakamp
 
       * För bildresurser:
 
-         1. Klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+         1. Klicka på **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
             Varje bild kan vara högst 10 MB stor. Du kan överföra högst 200 MB bilder i taget.
 
          1. För varje bild:
 
-            1. Klicka ![Beskär](/help/search-social-commerce/assets/crop.png "Beskär").
+            1. Klicka på ![Beskär](/help/search-social-commerce/assets/crop.png "Beskär").
 
             1. Välj proportioner.
 
@@ -52,11 +52,11 @@ Ni kan använda vilket som helst av mediefilerna för era maximala prestandakamp
 
             1. Klicka på **[!UICONTROL Proceed]**.
 
-      * Ange URL:en för ett videomaterial för [!DNL YouTube] video som är minst 10 sekunder lång. Om du vill lägga till ytterligare en videoresurs klickar du på **+ Lägg till** och ange en annan URL.
+      * Ange URL:en för en [!DNL YouTube]-video som är minst 10 sekunder lång för videomaterialet. Om du vill lägga till ytterligare en videoresurs klickar du på **+ Lägg till** och anger en annan URL.
 
         Du kan publicera upp till 10 video-URL:er åt gången.
 
-      * ([!DNL Google Ads] endast konton) Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och ange en annan textsträng.
+      * ([!DNL Google Ads] endast konton) Ange textsträngen för textresurser. Om du vill lägga till ytterligare en textresurs klickar du på **+ Lägg till** och anger en annan textsträng.
 
         Varje textresurs kan innehålla högst 1 000 tecken. Du kan överföra högst 10 textresurser åt gången.
 

@@ -24,28 +24,28 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna de fullständiga placeringsinställningarna.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Redigera alla tillgängliga [placeringsinställningar](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]** bredvid placeringsnamnet.
+1. Redigera någon av de tillgängliga [placeringsinställningarna](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
 1. Klicka på **[!UICONTROL Apply]**.
 
 ## Redigera en enstaka placering
 
 >[!TIP]
 >
-> Om du bara vill redigera placeringsnamn, status, högsta bud och budget läser du &quot;[Redigera inställningar för tangentmontering snabbt](#placement-quick-edit).&quot;
+> Om du bara vill redigera placeringsnamn, status, högsta bud och budget ska du läsa &quot;[Redigera nyckelplaceringsinställningar snabbt](#placement-quick-edit)&quot;.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Placements]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
 
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid placeringsnamnet.
 
-1. Redigera [placeringsinställningar](placement-settings.md).
+1. Redigera [placeringsinställningarna](placement-settings.md).
 
 1. Klicka på **[!UICONTROL Update placement]**.
 
@@ -53,15 +53,15 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 Använd bara det här alternativet om du vill använda samma ändringar på alla markerade placeringar.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Placements]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
 
 1. Markera kryssrutan bredvid varje placering som du vill redigera.
 
-1. Klicka på **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Edit]** på menyraden för gruppåtgärder.
 
 1. För varje inställning som du vill ändra:
 
@@ -71,32 +71,32 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 
       Alternativen varierar beroende på inställningen, men kan innehålla:
 
-      * **Lägg till** (för att behålla befintliga värden och lägga till nya värden)
+      * **Lägg till** (om du vill behålla de befintliga värdena och lägga till nya värden)
 
-      * **Rensa** (för att ta bort alla befintliga värden)
+      * **Rensa** (om du vill ta bort alla befintliga värden)
 
-      * **Minska** (för att minska ett befintligt värde med ett angivet belopp)
+      * **Minska** (om du vill minska ett befintligt värde med en angiven mängd)
 
-      * **Öka** (för att öka ett befintligt värde med ett angivet belopp)
+      * **Öka** (om du vill öka ett befintligt värde med en angiven mängd)
 
-      * **Skriv över** (om du vill ändra det befintliga värdet till ett nytt värde)
+      * **Skriv över** (om du vill ändra det befintliga värdet till ett nytt)
 
       * **Pausa** (för att pausa annonser)
 
       * **Ta bort** (för att ta bort angivna värden)
 
-   1. Redigera [placeringsinställning](placement-settings.md).
+   1. Redigera [placeringsinställningen](placement-settings.md).
 
 1. Klicka på **[!UICONTROL Submit]**.
 
 >[!MORELIKETHIS]
 >
->* [Om Platshantering](placement-about.md)
+>* [Om placeringshantering](placement-about.md)
 >* [Granska och redigera placeringsinställningar med kalkylblad](placement-qa.md)
 >* [Skapa en placering](placement-create.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
->* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
+>* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)

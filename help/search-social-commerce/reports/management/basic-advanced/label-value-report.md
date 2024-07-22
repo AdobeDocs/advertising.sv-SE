@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Label Value Report]'
 description: Läs mer om [!UICONTROL Label Value Report].
-exl-id: 6fc7efca-9189-48f9-a2db-dc324b73bef6
+exl-id: 6d279267-f7ee-475b-b4c3-72af6256330d
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Label Value Report]
 
-The [!UICONTROL Label Value Report] innehåller kostnads-, klick- och (valfritt) konverteringsdata per etikettklassificeringsvärde som aggregeras mellan portföljer, annonsnätverk, konton, kampanjer eller annonsgrupper. Som standard innehåller data en rad för varje tillämpligt värde för nyckelord, annonser och placeringar som tagit emot visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten, sedan som kostnad och sedan som etikettvärde, som standard. Du kan också visa antalet för varje entitetstyp som etikettvärdet är tilldelat.
+[!UICONTROL Label Value Report] innehåller kostnads-, klick- och (valfritt) konverteringsdata per etikettklassificeringsvärde som aggregerats mellan portföljer, annonsnätverk, konton, kampanjer eller annonsgrupper. Som standard innehåller data en rad för varje tillämpligt värde för nyckelord, annonser och placeringar som tagit emot visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten, sedan som kostnad och sedan som etikettvärde, som standard. Du kan också visa antalet för varje entitetstyp som etikettvärdet är tilldelat.
 
 Du kan visa data för de senaste 36 månaderna.
 
@@ -22,7 +22,7 @@ Du kan visa data för de senaste 36 månaderna.
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).
 
 * [!UICONTROL Label Value]
 * [!UICONTROL Label Classification]
@@ -38,6 +38,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
->* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
+>* [Om grundläggande och avancerade rapporter](basic-advanced-report-about.md)
+>* [Generera en enkel eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)

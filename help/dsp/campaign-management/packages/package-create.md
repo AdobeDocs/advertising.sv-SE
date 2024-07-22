@@ -5,7 +5,7 @@ feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ ht-degree: 0%
 >
 >Det bästa sättet är att separera era era paket baserat på målinriktningsstrategier, annonstyper och prestationsmål.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på namnet på kampanjen där du vill skapa paketet.
-1. På fliken Paket klickar du på **[!UICONTROL Create]** > **[!UICONTROL Package]**.
-1. Ange [paketinställningar](package-settings.md).
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Package]** på fliken Paket.
+1. Ange [paketinställningarna](package-settings.md).
 1. Klicka på **[!UICONTROL Save and Close]**.
 
 När du har skapat ett paket kan du tilldela det placeringar.
@@ -33,4 +33,3 @@ När du har skapat ett paket kan du tilldela det placeringar.
 >* [Pausa eller aktivera ett paket](package-pause-activate.md)
 >* [Paketinställningar](package-settings.md)
 >* [Video: Så här skapar du ett paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
-

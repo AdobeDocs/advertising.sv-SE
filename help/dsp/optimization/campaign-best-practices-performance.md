@@ -18,15 +18,15 @@ DSP kan optimera era prestandainriktade kampanjer. Se följande metodtips för p
 * Steg 2 - Definiera er strategi
 * Steg 3 - Skapa paket
 * Steg 4 - Skapa placeringsstruktur
-* Steg 5 - Använd rätt kreativa resurser
+* Steg 5 - Använd rätt kreativa Assets
 
 ## Steg 1 - Definiera ditt mål
 
-Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmål](/help/dsp/optimization/optimization-goals.md) &quot;[!UICONTROL Highest Return on Ad Spend (ROAS)"] eller &quot;[!UICONTROL Lowest Cost per Acquisition (CPA)].&quot; Ange optimeringsmålet för varje paket i kampanjen utifrån detta.
+Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta möjliga avkastning på investerat kapital eller lägsta möjliga CPA. Prestandakampanjer har [optimeringsmålen](/help/dsp/optimization/optimization-goals.md) [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)]. Ange optimeringsmålet för varje paket i kampanjen utifrån detta.
 
 ![optimeringsmål](/help/dsp/assets/optimization-goals.png)
 
-Du måste också identifiera de framgångshändelser som leder till det övergripande målet och skapa anpassade mål utifrån detta. För varje paket anger du ett anpassat mål som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål, inklusive metodtips, finns i [Anpassade mål](custom-goal.md).
+Du måste också identifiera de framgångshändelser som leder till det övergripande målet och skapa anpassade mål utifrån detta. Ange ett anpassat mål för varje paket som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål, inklusive bästa praxis, finns i [Anpassade mål](custom-goal.md).
 
 ## Steg 2 - Definiera er strategi
 
@@ -43,7 +43,7 @@ Paket med huvudtratt omfattar praktik med mycket bred målinriktning för att n�
    * Sammanhangsbaserad målinriktning.
    * Målinriktning för webbplats/kategori.
 
-* Använd RON-målinriktning (Run of Network): Det är viktigt att inkludera en mängd nätverksplaceringar utan målgruppsinriktning och med bred målinriktning för inventering. Detta gör att [!DNL Adobe Sensei] algoritm för att hitta värdefulla användare som kan ha nyare cookies som ännu inte har kategoriserats till en målgrupp.
+* Använd RON-målinriktning (Run of Network): Det är viktigt att inkludera en mängd nätverksplaceringar utan målgruppsinriktning och med bred målinriktning för inventering. Detta gör att algoritmen [!DNL Adobe Sensei] kan hitta värdefulla användare som kan ha nyare cookies som ännu inte har kategoriserats till en målgrupp.
 
 ### Återmarknadsföringsstrategier
 
@@ -65,31 +65,31 @@ Använd även följande inställningar.
 
 ### Mål och budget
 
-* **Pacing &amp; Capping:** Om du vill välja ett mål för CPA- eller ROAS-optimering måste paketnivåpaketeringen användas. Detta garanterar att alla placeringar i paketet optimeras för att distribuera utgifter baserat på prestanda och skalas efter de valda målen.
+* **Pacing &amp; Capping:** Om du vill välja ett mål för CPA- eller ROAS-optimering måste pacing på paketnivå användas. Detta garanterar att alla placeringar i paketet optimeras för att distribuera utgifter baserat på prestanda och skalas efter de valda målen.
 
-* **Flygdatum:** (Prospecting packages) När kampanjen pågår längre än 25 dagar använder du [!UICONTROL Activate Custom Flighting] -funktion. Först ställer du in en anpassad flygresa för de första 10 dagarna på ungefär 75 % av den nödvändiga dagliga budgeten för att minska utgifterna under *inlärningsfas*. Ange sedan en andra anpassad flygning för resten av budgeten.
+* **Flight Dates:** (Prospecting packages) Använd funktionen [!UICONTROL Activate Custom Flighting] när kampanjen pågår längre än 25 dagar. Först ställer du in en anpassad flygning för de första 10 dagarna på ungefär 75 % av den nödvändiga dagliga budgeten för att minska utgifterna under *inlärningsfasen*. Ange sedan en andra anpassad flygning för resten av budgeten.
 
   Om du till exempel har 100 000 USD att spendera på 30 dagar anger du budgeten för Flight 1 (Dagar 1-10) till 25 000 USD (75 % x $100 000/30 dagar = $2 500 per dag). Använd den återstående budgeten på 75 000 USD för Flight 2 (Dagarna 11-30).
 
-* **Budget:** DSP försöker alltid fördela 100 % av paketbudgeten jämnt mellan alla placeringar i ett paket. Om en placering har låga utgifter eller inga utgifter rekommenderar vi att placeringen begränsas så att mer av budgeten kan allokeras till utplaceringar i stor skala. Tillåt 24-48 timmar för budgetändringar att kalibrera.
+* **Budget:** DSP försöker alltid allokera 100 % av paketbudgeten jämnt mellan alla placeringar i ett paket. Om en placering har låga utgifter eller inga utgifter rekommenderar vi att placeringen begränsas så att mer av budgeten kan allokeras till utplaceringar i stor skala. Tillåt 24-48 timmar för budgetändringar att kalibrera.
 
-* **Optimeringsmål:** Använd ett av de två målen för prestandaoptimering, *[!UICONTROL Highest Return on Ad Spend]* eller *[!UICONTROL Lowest Cost per Acquisition]*, beroende på paketets mål. Dessa mål optimerar paketet automatiskt mot den högsta ROAS- respektive den lägsta CPA-placeringen.
+* **Optimeringsmål:** Använd ett av de två prestationsoptimeringsmålen, *[!UICONTROL Highest Return on Ad Spend]* eller *[!UICONTROL Lowest Cost per Acquisition]*, beroende på paketets mål. Dessa mål optimerar paketet automatiskt mot den högsta ROAS- respektive den lägsta CPA-placeringen.
 
 * **Anpassade mål:**
    * Om ett nytt paket har samma mål som ett befintligt paket kan du länka det befintliga paketet så att algoritmen kan använda befintliga maskininlärningsdata.
    * Ange lämplig [!UICONTROL Target CPA] eller [!UICONTROL Target ROAS].
 
-* **Flight Pacing och Intraday Pacing:** Välj för båda typerna av mellanrum *[!UICONTROL Even]* för att maximera era era prestationsmål genom att paketera enhetligt under alla dagar och under hela flygningen.
+* **Flight Pacing och Intraday Pacing:** För båda typerna av pacing väljer du *[!UICONTROL Even]* för att maximera dina prestandamål genom att paketera enhetligt under varje dag och under hela flygningen.
 
   >[!CAUTION]
   >
-  >Använd *[!UICONTROL FrontLoad]* och *[!UICONTROL Aggressive Front Load]* för flygpaketering och *[!UICONTROL ASAP]* pacing for intraday pacing only when you are fully priority of delivery and cost over performance optimization because those Strategy can impact your önskad performance KPIs.
+  >Använd bara *[!UICONTROL FrontLoad]* och *[!UICONTROL Aggressive Front Load]* för flightpacing och *[!UICONTROL ASAP]* pacing för intraday-pacing när du helt prioriterar leverans och utgifter framför prestandaoptimering eftersom dessa strategier kan påverka dina önskade nyckeltal för prestanda negativt.
 
 ## Steg 4 - Skapa placeringsstruktur
 
 Mindre är mer. Om du kan ställa in färre än sex placeringar per paket kan den tillgängliga budgeten dynamiskt flyttas till de mest effektiva placeringarna.
 
-Se även till att lägga till varje placering i ett paket med måltypen paket *[!UICONTROL Prospecting]* eller *[!UICONTROL Retargeting]*, beroende på vad som är lämpligt.
+Se även till att du lägger till varje placering i ett paket med måltypen *[!UICONTROL Prospecting]* eller *[!UICONTROL Retargeting]* för ett paket.
 
 Nedan följer de rekommenderade placeringsinställningarna för prestandakampanjer.
 
@@ -101,21 +101,21 @@ Du måste konfigurera CPA- eller ROAS-optimering på paketnivå (se Steg 3 - Ska
    * Använd ett lågt maximalt bud ($5) för prospekteringsplaceringar.
    * Använd ett högt maximalt bud ($12) för återmarknadsföring.
 
-* **Föranbudsfilter:** Minimera, eller helst undvik, att ställa in aggressiva förbudsfilter, som förhindrar att placeringen når skala. De bästa sätten är följande:
+* **Förbudsfilter:** Minimera, eller helst undvik, genom att ange aggressiva förbudsfilter, vilket förhindrar att placeringen når skalan. De bästa sätten är följande:
 
    * Använd ett (1) förbudsfilter per placering. Om du använder flera förbudsfilter måste båda vara uppfyllda, vilket minskar skalan.
 
    * Överväg att ställa in mindre strikta förbudsfilter om ytterligare målgruppsanpassning (som målgruppsanpassning, geolokalisering och webbplatsanpassning) tillämpas.
 
-Se beskrivningar av när varje pre-bid-filter ska användas på [Pre-Bid-filter på placeringsnivå och Så här använder du dem](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Se beskrivningar av när varje pre-bid-filter ska användas på [Placement-level Pre-Bid Filters och How to Use Them](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Lager
 
-Om du vill maximera skalan använder du [!UICONTROL Public] (Open Exchange) och [!UICONTROL On Demand] lager.
+Använd [!UICONTROL Public] (Open Exchange) och [!UICONTROL On Demand] lager om du vill maximera skalan.
 
 ### Webbplatsmål
 
-* **[!UICONTROL Traffic Type]**: [!UICONTROL Websites] endast
+* **[!UICONTROL Traffic Type]**: endast [!UICONTROL Websites]
 * **[!UICONTROL Site Tier]**: [!UICONTROL All sites]
 
 ### Målgruppsanpassning
@@ -139,25 +139,25 @@ Om du vill maximera skalan använder du [!UICONTROL Public] (Open Exchange) och 
    * För retargetingplaceringar ställer du in det primära placeringshöljet på 6-10 visningar per dag och det sekundära locket på ett intryck per timme.
 
 * **[!UICONTROL Device Targeting]**:
-   * Inkludera [!UICONTROL Computer], [!UICONTROL Mobile]och [!UICONTROL Tablet].
-   * Rikta inte [!UICONTROL Firefox] och [!UICONTROL Safari] på grund av begränsningar i målinriktning och mätning. Kontakta kontoteamet på Adobe för mer information om [!DNL Adobe] stöd för [!DNL Safari ITP].
-   * Inaktivera alla webbläsare utom [!UICONTROL Chrome] och [!UICONTROL Edge].
+   * Inkludera [!UICONTROL Computer], [!UICONTROL Mobile] och [!UICONTROL Tablet].
+   * Använd inte [!UICONTROL Firefox] och [!UICONTROL Safari] som mål på grund av begränsningar för målinriktning och mätning. Kontakta kontoteamet på Adobe för mer information om [!DNL Adobe]-stöd för [!DNL Safari ITP].
+   * Om du har en mobil webbtrafik som mål inaktiverar du alla webbläsare utom [!UICONTROL Chrome] och [!UICONTROL Edge].
 
 ### Varumärkessäkerhet och mediakvalitet
 
-Använda kontextuell filtrering, blockering av bedrägeri före bud och/eller [!UICONTROL Ads.txt] filtreringen begränsar storleken på placeringarna, men använder dem vid behov.
+Genom att använda kontextuell filtrering, blockering av bedrägeri före bud och/eller [!UICONTROL Ads.txt]-filtrering begränsas skalan för dina placeringar, men de används vid behov.
 
-## Steg 5 - Använd rätt kreativa resurser
+## Steg 5 - Använd rätt kreativa Assets
 
 * Det bästa sättet är att inkludera så många unika annonsstorlekar som möjligt för att maximera räckvidden. Med den universella visningsmallen kan du överföra alla standardstorlekar för visning och visning.
-* Kontrollera att alla placeringar innehåller *minst* alla de primära bildskärmsannonserna (300 × 250, 728 × 90, 160 × 600, 300 × 600, 320 × 50 och 300 × 50).
+* Kontrollera att alla placeringar innehåller *minst* alla primära bildskärmar och storlekar (300x250, 728x90, 160x600, 300x600, 320x50 och 300x50).
 * Uppdatera kreatörerna ofta för att förhindra kreativ trötthet.
 
 >[!MORELIKETHIS]
 >
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Hur DSP optimerar era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
+> * [Så här optimerar DSP era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
 >* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
 >* [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)

@@ -18,13 +18,13 @@ Adobe Advertising spårar konverteringar som skapats genom klickningar på annon
 >
 >Om användaren inte har en giltig cookie rapporterar inte Adobe Advertising konverteringen.
 
-För varje uppsättning konverteringsmått som du vill spåra måste du skapa en separat konverteringstagg. Ge annonsören eller reklambyrån taggarna med en lista över webbsidor där varje sida ska infogas. Du kan generera någon av följande typer av konverteringstaggar. Se &quot;[Generera en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)&quot; för instruktioner.
+För varje uppsättning konverteringsmått som du vill spåra måste du skapa en separat konverteringstagg. Ge annonsören eller reklambyrån taggarna med en lista över webbsidor där varje sida ska infogas. Du kan generera någon av följande typer av konverteringstaggar. Mer information finns i [Skapa en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md).
 
 * (Rekommenderas) JavaScript-taggar (version 3 eller version 2) som inte visas på webbsidorna.
 
-* HTML-bildtaggar om du vill visa genomskinliga bilder (pixlar) på 1 pixel x 1 pixel, som är osynliga för slutanvändarna, på webbsidorna. Använd bara bildtaggar när företaget har en policy för att använda JavaScript-taggar.
+* HTML-bildtaggar om du vill visa genomskinliga bilder (pixlar) på 1 pixel x 1 pixel, som är osynliga för slutanvändarna, på webbsidorna. Använd bara bildtaggar när företaget har en policy för att inte använda JavaScript-taggar.
 
-Mer information om skillnaderna mellan taggtyperna finns i &quot;[Frågor och svar om Advertising Cloud taggar för konverteringsspårning](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot;
+Mer information om skillnaderna mellan taggtyperna finns i [Vanliga frågor om Advertising Cloud-taggar för konverteringsspårning](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
 
 >[!NOTE]
 >
@@ -55,8 +55,8 @@ Med pixeln för konverteringsspårning kan Adobe Advertising göra följande:
 >
 >* [Alternativ för konverteringsspårning](conversion-tracking-about.md)
 >* [Generera en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
->* [Format för spårningstaggar för JavaScript-konvertering, version 3](format-conversion-tag-jsv3.md)
->* [Format för spårningstaggar för JavaScript-konvertering version 2](format-conversion-tag-jsv2.md)
+>* [Format för JavaScript-konverteringstaggar, version 3](format-conversion-tag-jsv3.md)
+>* [Format för JavaScript-konverteringstaggar, version 2](format-conversion-tag-jsv2.md)
 >* [Format för spårningstaggar för bildkonvertering](format-conversion-tag-image.md)
->* [Vanliga frågor om konvertering och spårningstaggar för sidvy](faqs-conversion-page-view-tracking-tags.md)
->* [Konverteringstaggen för JavaScript-konvertering i Adobe Advertising](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)
+>* [Frågor och svar om spårningstaggar för konvertering och sidvisning](faqs-conversion-page-view-tracking-tags.md)
+>* [Konverteringsmappningstaggen för Adobe Advertising JavaScript](/help/search-social-commerce/tracking/itp-conversion-mapping-tag.md)

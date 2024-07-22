@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # [!UICONTROL Keyword Daily Impression Share Report]
 
-*[!DNL Google Ads]och [!DNL Microsoft Advertising] endast konton*
+Endast *[!DNL Google Ads]och [!DNL Microsoft Advertising] konton*
 
-The [!UICONTROL Keyword Daily Impression Share Report] innehåller dagliga mått för visningsdelning för varje nyckelord, motsvarande matchningstyp och motsvarande enhetstyp för en eller flera annonsgrupper eller -kampanjer. Som standard innehåller data en rad för varje nyckelord, matchningstyp och enhet som fick minst ett intryck eller klickar för varje tillämplig annonsgrupp för varje dag i det angivna datumintervallet. Raderna är i stigande ordning efter datum som standard. Rapporten kan även innehålla data som spåras av [!DNL Adobe] och härledda mätvärden.
+[!UICONTROL Keyword Daily Impression Share Report] innehåller dagliga mått för visningsdelning för varje nyckelord, motsvarande matchningstyp och motsvarande enhetstyp för en eller flera annonsgrupper eller kampanjer. Som standard innehåller data en rad för varje nyckelord, matchningstyp och enhet som fick minst ett intryck eller klickar för varje tillämplig annonsgrupp för varje dag i det angivna datumintervallet. Raderna är i stigande ordning efter datum som standard. Rapporten kan även innehålla data som spåras av [!DNL Adobe] och härledda värden.
 
 Mätvärden för Impression Share finns tillgängliga kl. 13:00 i annonsörens tidszon för föregående dag. Du kan visa data för de senaste två månaderna.
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -48,6 +48,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Specialrapporter](specialty-report-about.md)
+>* [Om specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)

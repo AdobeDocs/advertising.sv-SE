@@ -20,23 +20,23 @@ Du kan när som helst avarkivera en placering för att återställa dess tidigar
 
 ## Arkivera en placering
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Klicka på **[!UICONTROL Archive]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Archive]** bredvid placeringsnamnet.
+1. Klicka på **[!UICONTROL Archive]** i bekräftelsemeddelandet.
 
 >[!NOTE]
 >
->Om du vill visa arkiverade placeringar filtrerar du [!UICONTROL Placements] visa: klicka ![Filterknapp](/help/dsp/assets/filter.png), klicka **[!UICONTROL Placement status]** och markera **[!UICONTROL Archived]** och klicka sedan på **[!UICONTROL Apply].**
+>Om du vill visa arkiverade placeringar filtrerar du [!UICONTROL Placements]-vyn: klicka på ![Filtrera knapp](/help/dsp/assets/filter.png), klicka på **[!UICONTROL Placement status]** och markera **[!UICONTROL Archived]** och sedan på **[!UICONTROL Apply].**
 
 ## Avarkivera en placering
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Klicka på **[!UICONTROL Unarchive]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Unarchive]** bredvid placeringsnamnet.
+1. Klicka på **[!UICONTROL Unarchive]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >

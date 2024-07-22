@@ -29,15 +29,15 @@ Prognosen innehåller följande information:
 
    * **[!UICONTROL Estimated CPM]:** Den uppskattade kostnaden per tusen visningar (eCPM) som målinställningarna kan förvänta sig att nå.
 
-   * **[!UICONTROL Budget]:** Den uppskattade budgeten för målinställningarna.
+   * **[!UICONTROL Budget]:** Den beräknade budgeten för målinställningarna.
 
    * **[!UICONTROL Impression]:** Det uppskattade antalet visningar för målinställningarna.
 
 * **[!UICONTROL Budget Yield Curve]:** Det uppskattade antalet visningar som placeringen kan leverera på olika budgetnivåer om alla andra målinriktningsinställningar är desamma.
 
-* **[!UICONTROL Max Bid Yield Curve]:** Den uppskattade utgiften för placeringen på olika Max. Bid-nivåer, när alla andra målinställningar är desamma.
+* **[!UICONTROL Max Bid Yield Curve]:** Den beräknade utgiften för placeringen på olika Max. Bid-nivåer när alla andra målinställningar är desamma.
 
-* **[!UICONTROL Message]:** Ger information om prognostiserade utdata, inklusive scenarier där prognosen inte kunde genereras. Eventuella målinriktningsinställningar som granskats men inte beaktats i det scenariot på grund av brist på data markeras också.
+* **[!UICONTROL Message]:** Tillhandahåller information om prognostiserade utdata, inklusive scenarier där prognosen inte kunde genereras. Eventuella målinriktningsinställningar som granskats men inte beaktats i det scenariot på grund av brist på data markeras också.
 
 ### Budgetberäkning
 
@@ -67,13 +67,13 @@ Prognosen innehåller följande information:
 
 ## Öppna prognosrapporten för placering
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
-1. Klicka på kampanjens namn och klicka sedan på **[!UICONTROL Placements]**.
+1. Klicka på kampanjens namn och sedan på **[!UICONTROL Placements]**.
 
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid placeringsnamnet.
 
-1. Leta reda på **[!UICONTROL Forecast]** i det övre högra hörnet. Klicka vid behov på ![Prognos](/help/dsp/assets/placement-forecast.png).
+1. Leta reda på avsnittet **[!UICONTROL Forecast]** i det övre högra hörnet. Om det behövs klickar du på ![Prognos](/help/dsp/assets/placement-forecast.png).
 
    >[!NOTE]
    >

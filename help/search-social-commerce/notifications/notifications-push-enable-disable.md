@@ -12,39 +12,39 @@ ht-degree: 0%
 
 # Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]
 
-*Betafunktion*
+*Beta-funktion*
 
-Du kan aktivera meddelanden i Sök, Sociala och Commerce, där de visas i enlighet med webbläsarens meddelandekonventioner. På enheter som använder [!DNL Microsoft Windows]visas meddelanden längst ned till höger på skärmen (systemfältet). På [!DNL Apple Mac] enheter visas meddelanden på den högra menyn.
+Du kan aktivera meddelanden i Sök, Sociala och Commerce, där de visas i enlighet med webbläsarens meddelandekonventioner. På enheter som använder [!DNL Microsoft Windows] visas meddelanden längst ned till höger på skärmen (systemfältet). På [!DNL Apple Mac] enheter visas meddelanden på den högra menyn.
 
 Push-meddelanden är tillgängliga i följande webbläsare:
 
 * [!DNL Google Chrome] 40 eller senare
 
-* [!DNL Microsoft Edge] 17 och senare
+* [!DNL Microsoft Edge] 17 eller senare
 
-* [!DNL Mozilla Firefox] 44 och senare
+* [!DNL Mozilla Firefox] 44 eller senare
 
 Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
 ## Aktivera push-meddelanden
 
-1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]** på huvudmenyn.
 
-2. Klicka längst ned till höger på ![Aktivera push-meddelanden](/help/search-social-commerce/assets/notifications-push.png "Aktivera push-meddelanden").
+2. Klicka på ![Aktivera push-meddelanden](/help/search-social-commerce/assets/notifications-push.png "Aktivera push-meddelanden") längst ned till höger.
 
-3. Klicka på **[!UICONTROL Enable]**.
+3. Klicka på **[!UICONTROL Enable]** i bekräftelsemeddelandet.
 
-4. Konfigurera webbläsaren så att meddelanden från [!UICONTROL Notification Center] på`https://alert-center-ui-na.efrontier.com`.
+4. Konfigurera webbläsaren så att meddelanden från [!UICONTROL Notification Center] kl. `https://alert-center-ui-na.efrontier.com` tillåts.
 
-   Standardinställningarna för meddelanden varierar beroende på webbläsare, och du kan antingen a) visas automatiskt med alternativet att tillåta meddelanden från [!UICONTROL Notification Center] eller b) måste hantera meddelandeinställningarna manuellt. Till exempel i [!DNL Microsoft Edge]kan du tillåta meddelanden från [!UICONTROL Notification Center] i webbläsarens verktygsfält. Se instruktionerna i webbläsarens hjälp.
+   Standardinställningarna för meddelanden varierar beroende på webbläsare, och du kan antingen a) automatiskt få alternativet att tillåta meddelanden från [!UICONTROL Notification Center] eller b) att manuellt hantera meddelandeinställningarna. I [!DNL Microsoft Edge] kan du till exempel tillåta meddelanden från [!UICONTROL Notification Center] från webbläsarens verktygsfält. Se instruktionerna i webbläsarens hjälp.
 
-   ![Hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Hantera meddelandeinställningar i Microsoft Edge")
+   ![Var ska du hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Var ska du hantera meddelandeinställningar i Microsoft Edge")?
 
-5. I [meddelandeinställningar](notification-edit.md), aktivera [!UICONTROL Web] meddelanden om de larmtyper som du vill ska skickas.
+5. Aktivera [!UICONTROL Web]-meddelanden för de aviseringstyper som du vill ska skickas i [meddelandeinställningarna](notification-edit.md).
 
 ## Inaktivera push-meddelanden
 
-Ta bort meddelanden från `https://alert-center-ui-na.efrontier.com` i webbläsarens meddelandehanterare. Till exempel i [!DNL Google Chrome]kan du ta bort eller blockera meddelanden från angivna platser på `chrome://settings/content/notifications`.
+Ta bort meddelanden från `https://alert-center-ui-na.efrontier.com` i webbläsarens meddelandehanterare. I [!DNL Google Chrome] kan du till exempel ta bort eller blockera meddelanden från angivna platser på `chrome://settings/content/notifications`.
 
 Se instruktionerna i webbläsarens hjälp.
 
@@ -54,5 +54,5 @@ Se instruktionerna i webbläsarens hjälp.
 >* [Visa dina meddelanden](notification-view.md)
 >* [Markera ett meddelande som läst eller oläst](notification-mark-read-unread.md)
 >* [Ta bort ett meddelande](notification-delete.md)
->* [Redigera meddelandeinställningarna](notification-edit.md)
->* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)
+>* [Redigera aviseringsinställningarna](notification-edit.md)
+>* [Installera och avinstallera [!UICONTROL Notification Center]-webbprogrammet](notification-app-install-uninstall.md)

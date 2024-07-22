@@ -12,7 +12,7 @@ ht-degree: 0%
 Så här överför du bilder:
 
 1. För varje bild:
-   1. Klicka **[!UICONTROL +]** och välj en bild från din enhet eller ditt nätverk.
+   1. Klicka på **[!UICONTROL +]** och välj en bild från enheten eller nätverket.
    1. Välj proportioner.
-   1. Dra och placera beskärningsrutan efter behov för att markera den synliga delen av bilden och klicka sedan på **[!UICONTROL Proceed]**.
-1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+   1. Dra och placera beskärningsrutan efter behov för att markera den del av bilden som kan visas och klicka sedan på **[!UICONTROL Proceed]**.
+1. När du har angett klart bilder klickar du på **[!UICONTROL Upload]**.

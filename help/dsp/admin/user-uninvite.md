@@ -16,11 +16,11 @@ Administratörsanvändare kan avbjuda en användare med en väntande inbjudan. O
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Users]** på huvudmenyn.
 
-   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account]** och klicka sedan på **[!UICONTROL Edit users]**.
+   * Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account]** på huvudmenyn och klicka sedan på **[!UICONTROL Edit users]**.
 
-1. I **[!UICONTROL Invitations]** avsnitt, klicka **[!UICONTROL X]** bredvid inbjudan.
+1. Klicka på **[!UICONTROL X]** bredvid inbjudan i avsnittet **[!UICONTROL Invitations]**.
 
 >[!MORELIKETHIS]
 >

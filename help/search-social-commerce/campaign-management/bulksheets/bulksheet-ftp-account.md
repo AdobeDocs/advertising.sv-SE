@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan också överföra kalkylbladsfiler för annonsnätverk som stöds till ett angivet FTP-konto för hämtning och automatisk bokföring. Katalogen genomsöks varje timme och nya filer publiceras i den ordning som de tas emot.
 
-Hämtade kalkylbladsfiler, och eventuella felfiler som skapas vid publiceringen, visas i [!DNL Bulksheets] vy.
+Hämtade kalkylbladsfiler, och eventuella felfiler som skapas vid publicering, listas i vyn [!DNL Bulksheets].
 
 >[!NOTE]
 >
@@ -28,5 +28,5 @@ Hämtade kalkylbladsfiler, och eventuella felfiler som skapas vid publiceringen,
 
 >[!MORELIKETHIS]
 >
->* [Hantera kampanjdata med hjälp av kalkylblad](bulksheet-about.md)
+>* [Om att hantera kampanjdata med hjälp av kalkylblad](bulksheet-about.md)
 >* [Överför ett kalkylblad eller en korrigerad felfil](bulksheet-upload.md)

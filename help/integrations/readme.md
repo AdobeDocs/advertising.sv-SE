@@ -5,8 +5,8 @@ source-wordcount: '31'
 ht-degree: 0%
 
 ---
-# Dokumentation för Adobe Advertising Integrations with Adobe Experience Cloud
+# Dokumentation för integrering av Adobe Advertising med Adobe Experience Cloud
 
-Den här mappen är avsedd för dokument om Adobe Advertising-integreringar med andra Adobe-produkter.
+Den här mappen är avsedd för dokument om integrering mellan Adobe Advertising och andra Adobe-produkter.
 
 **Obs! Den här sidan publiceras inte i kunddokumentationen.**

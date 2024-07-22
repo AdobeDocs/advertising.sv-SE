@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe segment
 
-(Valfritt) Alla [!DNL Adobe Real-Time Customer Data Platform], Adobe Analytics eller Adobe Audience Manager som ska ingå i målgruppskonfigurationen.
+(Valfritt) Alla [!DNL Adobe Real-Time Customer Data Platform]-, Adobe Analytics- eller Adobe Audience Manager-segment som ska ingå i målgruppskonfigurationen.
 
 ## Egna segment
 
@@ -34,10 +34,10 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
->* [Skapa en återanvändbar publik](reusable-audience-create.md)
+>* [Om målgruppshantering](audience-about.md)
+>* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera en [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

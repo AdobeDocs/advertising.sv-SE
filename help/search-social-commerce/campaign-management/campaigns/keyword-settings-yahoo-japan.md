@@ -1,29 +1,29 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] nyckelordsinställningar'
-description: Referera inställningarna för [!DNL Yahoo! Japan Ads] nyckelord.
-exl-id: cfb6ad85-1478-44af-a132-6b41278acd32
+title: '[!DNL Yahoo! Japan Ads] nyckelordsinställningar'
+description: Referera inställningarna för  [!DNL Yahoo! Japan Ads] nyckelord.
+exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] nyckelordsinställningar
+# Inställningar för nyckelord för [!DNL Yahoo! Japan Ads]
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Nyckelorden. Maximala längden är 80 tecken, inklusive alla [[!DNL Yahoo! Japan Ads] matcha typsyntax](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) för nyckelord.
+**[!UICONTROL Keywords]:** Nyckelorden. Maxlängden är 80 tecken, inklusive alla [[!DNL Yahoo! Japan Ads] matchningstypssyntax](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) för nyckelord.
 
 Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord med kommatecken eller ange dem på separata rader.
 
 >[!NOTE]
 >
->* Du kan skapa negativa nyckelord från [!UICONTROL Keywords] > [!UICONTROL Negatives] i annonsgruppen och kampanjinställningarna.
+>* Du kan skapa negativa nyckelord från vyn [!UICONTROL Keywords] > [!UICONTROL Negatives] och i annonsgruppen och kampanjinställningarna.
 >* Yahoo! Japanska nyckelord och matchningstyper kan inte ändras, vilket innebär att du kan redigera dem utan att ta bort det befintliga nyckelordet.
 
-**[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Aktiv*.
+**[!UICONTROL Status]:** Visningsstatus för nyckelordet: *Aktiv* eller *Pausad*. Standardvärdet för nya nyckelord är *Active*.
 
 ## [!UICONTROL Bids]
 
@@ -33,9 +33,9 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 
 ## Platshållare
 
-**[!UICONTROL Param1]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param1}` [anpassad parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param1]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param1}` [anpassade parametern ](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Strängen som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller `{param2}` [anpassad parameter](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param2]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param2}` [anpassade parametern ](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-alternativ
 

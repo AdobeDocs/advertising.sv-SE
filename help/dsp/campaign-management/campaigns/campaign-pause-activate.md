@@ -18,8 +18,8 @@ Alla placeringar som pausas innan en kampanj pausas förblir pausade när kampan
 
 ## Pausa en kampanj
 
-1. Klicka på **[!UICONTROL Campaigns]**.
-1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Pause]** bredvid kampanjnamnet.
 
 >[!NOTE]
 >
@@ -27,8 +27,8 @@ Alla placeringar som pausas innan en kampanj pausas förblir pausade när kampan
 
 ## Aktivera en kampanj
 
-1. Klicka på **[!UICONTROL Campaigns]**.
-1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Activate]** bredvid kampanjnamnet.
 
 >[!MORELIKETHIS]
 >

@@ -13,4 +13,3 @@ ht-degree: 0%
 >
 >* Bas-URL:en kan innehålla omdirigeringar inom landningssidans domän eller underdomän, men inga omdirigeringar utanför landningssidans domän. Google Ads extraherar domänen från den här URL:en och lägger till valfria visningssökvägar för annonsen för att skapa URL:en.
 >* Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
-

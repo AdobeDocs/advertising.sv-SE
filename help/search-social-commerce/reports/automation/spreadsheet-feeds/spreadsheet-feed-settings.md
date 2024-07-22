@@ -1,11 +1,11 @@
 ---
 title: Feed-inställningar för kalkylbladsrapport
 description: Lär dig mer om inställningarna för kalkylbladsfeeds.
-exl-id: 9a7e0a21-5db4-4829-a191-cacaa51f6cb6
+exl-id: 88836c15-81fe-4fe7-8321-2c984b4dcb5d
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -15,20 +15,20 @@ ht-degree: 0%
 | Fält | Beskrivning |
 |---|---|
 | [!UICONTROL Feed Name] | Ett namn för kalkylarksfeeden. |
-| [!UICONTROL Report Template] | Rapportmallen som anger vilka rapportdata som krävs. Välj den som du använde för att skapa [!DNL Excel] mall. Alla grundläggande rapportmallar visas.<br><br><b>Obs!</b> Om du ändrar rapportmallen som används för rapporten, eller om du uppdaterar kolumnerna i mallen, måste du skapa och överföra en ny [!DNL Excel] mall. |
-| [!UICONTROL Excel Template] | Specialformaterade [!DNL Excel] -mall som du har skapat i XLSX-format, som används för data som anges i rapportmallen. Ange vilken fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på <b>[!UICONTROL Browse]</b> för att hitta filen på enheten eller i nätverket. |
-| [!UICONTROL Back Fill From] | Startdatum som befintliga data på [!UICONTROL RAW] har uppdaterats, vilket representeras av ett antal dagar tidigare. Ange ett värde på upp till 90 dagar. Standardvärdet är sju (7) dagar.<br><br>Om värdet till exempel är 7 och idag är 7 mars, är befintliga data på [!UICONTROL RAW] fliken som börjar med mars 1 uppdateras (fram till det slutdatum som anges av [!UICONTROL Back Fill Until] parameter). Befintliga datarader för datum före 1 mars tas inte bort, men de uppdateras inte. |
-| [!UICONTROL Back Fill Until] | Slutdatum som befintliga data på [!UICONTROL RAW] har uppdaterats, vilket representeras av ett antal dagar tidigare. Standardvärdet är en (1) dag.<br><br>Om det här värdet till exempel är 1 och idag är 7 mars, är befintliga data på [!UICONTROL RAW] har uppdaterats fram till 6 mars (och börjar med det startdatum som anges av [!UICONTROL Back Fill From] parameter). Om det här värdet är 1 visas [!UICONTROL Back Fill Until] är 7 och idag 7 mars är de befintliga uppgifterna på [!UICONTROL RAW] Fliken uppdateras från 1 mars till 6 mars. I båda exemplen tas inte befintliga datarader för datum efter 6 mars bort, men de uppdateras inte. |
+| [!UICONTROL Report Template] | Rapportmallen som anger vilka rapportdata som krävs. Välj den som du använde för att skapa mallen [!DNL Excel]. Alla grundläggande rapportmallar visas.<br><br><b>Obs!</b> Om du ändrar rapportmallen som används för rapporten eller uppdaterar kolumnerna i mallen måste du skapa och överföra en ny [!DNL Excel]-mall. |
+| [!UICONTROL Excel Template] | Den [!DNL Excel]-mall som du har skapat i XLSX-format, som används för data som anges i rapportmallen. Ange den fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på <b>[!UICONTROL Browse]</b> för att leta reda på filen på enheten eller i nätverket. |
+| [!UICONTROL Back Fill From] | Startdatumet för vilket befintliga data på fliken [!UICONTROL RAW] uppdateras, vilket representeras av ett antal dagar tidigare. Ange ett värde på upp till 90 dagar. Standardvärdet är sju (7) dagar.<br><br>Om värdet till exempel är 7 och idag är 7 mars uppdateras befintliga data på fliken [!UICONTROL RAW] med början från 1 mars (fram till slutdatumet som anges av parametern [!UICONTROL Back Fill Until]). Befintliga datarader för datum före 1 mars tas inte bort, men de uppdateras inte. |
+| [!UICONTROL Back Fill Until] | Slutdatumet för vilket befintliga data på fliken [!UICONTROL RAW] uppdateras, vilket representeras av ett antal dagar tidigare. Standardvärdet är en (1) dag.<br><br>Om det här värdet till exempel är 1, och idag är den 7 mars, uppdateras befintliga data på fliken [!UICONTROL RAW] till den 6 mars (och börjar med det startdatum som anges av parametern [!UICONTROL Back Fill From]). Om värdet är 1 är parametern [!UICONTROL Back Fill Until] 7 och idag är den 7 mars uppdateras befintliga data på fliken [!UICONTROL RAW] från 1 mars till 6. I båda exemplen tas inte befintliga datarader för datum efter 6 mars bort, men de uppdateras inte. |
 | [!UICONTROL Email Recipients] | E-postadresser som du använder för att skicka meddelanden varje gång rapporten uppdateras, eller varje gång rapporten körs när mallen innehåller ett schema. Som standard anges adressen för ditt användarkonto. Om du vill ange flera adresser avgränsar du dem med kommatecken, blanksteg eller nya rader. |
 | [!UICONTROL Schedule Time] | Tidpunkt för uppdatering av kalkylbladsflöden: antingen 08:00 eller någon timme mellan 10:00 och 23:00 i annonsörens tidszon. Standardvärdet för nya kalkylbladsfeeds är 10:00.<br><br><b>Obs!</b> Av prestandaskäl kan du inte uppdatera kalkylbladsfeeds på 09:00 när andra rapporter genereras. |
-| [!UICONTROL Email Notification] | (När e-postmottagare anges) Vad som ska inkluderas i e-postmeddelanden till angivna adresser:<ul><li><i>Koppla feed</i> — Skicka en kopia av den färdiga rapporten i XLSX-format. Om filen är större än 10 MB innehåller meddelandet ingen bifogad fil.</li><li><i>Endast meddelande</i> (standard) - Om du bara vill skicka ett meddelande om att rapporten har slutförts eller misslyckats, med en länk till rapporten.</li></ul> |
+| [!UICONTROL Email Notification] | (När e-postmottagare anges) Vad som ska inkluderas i e-postmeddelanden till angivna adresser:<ul><li><i>Bifoga feed</i> — Skicka en kopia av den färdiga rapporten i XLSX-format. Om filen är större än 10 MB innehåller meddelandet ingen bifogad fil.</li><li><i>Endast meddelande</i> (standard) - Om du bara vill skicka ett meddelande om att rapporten har slutförts eller misslyckats, med en länk till rapporten.</li></ul> |
 
 >[!MORELIKETHIS]
 >
->* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
+>* [Om tabellrapportfeeds](spreadsheet-feed-about.md)
 >* [Skapa ett kalkylbladsrapportflöde](spreadsheet-feed-create.md)
->* [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
->* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
->* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
->* [Ta bort rapportflöden för kalkylblad](spreadsheet-feed-delete.md)
+>* [Skapa en [!DNL Excel] mall för ett kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
+>* [Redigera inställningar för kalkylbladsrapportfeed](spreadsheet-feed-edit.md)
+>* [Visa eller spara en kalkylbladsrapportfeed-fil](spreadsheet-feed-view-or-save.md)
+>* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Ta bort tabellrapportfeeds](spreadsheet-feed-delete.md)

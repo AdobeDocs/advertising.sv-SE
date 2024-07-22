@@ -1,9 +1,9 @@
 ---
 title: Låsa och låsa upp en kolumnkonfiguration
 description: Lär dig hur du låser och låser upp en kolumnkonfiguration i kampanjvyer.
-exl-id: e2a72a99-8122-451c-8818-30f817696256
+exl-id: a4a3c9b1-2577-4789-9501-0664d7b84ff3
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -16,6 +16,6 @@ Om du låser en kolumn &quot;låses&quot; kolumnen och alla andra kolumner till 
 
 Ett lås fungerar bara tills du flyttar bort från enhetsvyn. Du kan inte spara den i standardvyn eller den anpassade vyn.
 
-* (Om du vill låsa en kolumnkonfiguration) Klicka på till höger om kolumnrubriken ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nedåtpil")och sedan markera **[!UICONTROL Lock Column]**.
+* (Om du vill låsa en kolumnkonfiguration) Klicka på ![Nedpil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nedpil") till höger om kolumnrubriken och välj sedan **[!UICONTROL Lock Column]**.
 
-* (Lås upp en kolumnkonfiguration) Klicka på till höger om en kolumnrubrik i den låsta kolumnuppsättningen ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nedåtpil")och sedan markera **[!UICONTROL Unlock Column]**.
+* (Om du vill låsa upp en kolumnkonfiguration) Klicka på ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-dropdown.png "Nedåtpil") till höger om en kolumnrubrik i den låsta kolumnuppsättningen och välj sedan **[!UICONTROL Unlock Column]**.

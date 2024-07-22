@@ -12,9 +12,9 @@ ht-degree: 3%
 
 # Skapa en anpassad rapport
 
-1. Klicka på **[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Reports]** på huvudmenyn.
 1. Klicka på **[!UICONTROL New Custom Report]**.
-1. Ange [rapportinställningar](/help/dsp/reports/report-settings.md).
+1. Ange [rapportinställningarna](/help/dsp/reports/report-settings.md).
 1. Klicka på **[!UICONTROL Create Custom Report]**.
 
 >[!MORELIKETHIS]

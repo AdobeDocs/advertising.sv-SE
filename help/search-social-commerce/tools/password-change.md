@@ -1,9 +1,9 @@
 ---
 title: Ändra ditt lösenord
 description: Lär dig hur du ändrar lösenordet för ditt konto.
-exl-id: 1cc63747-4b80-45ba-a044-4a7b0a237c63
+exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Om du ändrar lösenordet loggas du ut från den aktuella sessionen. Om du vill fortsätta arbeta måste du logga in med det nya lösenordet.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Change Password]** på huvudmenyn.
 
 1. Ange information i fälten och klicka sedan på **[!UICONTROL Submit]**.
 
@@ -22,7 +22,7 @@ Om du ändrar lösenordet loggas du ut från den aktuella sessionen. Om du vill 
 
    **[!UICONTROL Confirm Password]:** Det nya lösenordet.
 
-1. Klicka på **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
    Din aktuella session avslutas och inloggningsmeddelandet visas så att du kan logga in igen med det nya lösenordet.
 

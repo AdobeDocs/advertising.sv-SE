@@ -1,9 +1,9 @@
 ---
 title: Visa dina meddelanden
 description: Lär dig mer om olika sätt att visa meddelanden.
-exl-id: 01226827-661d-4125-ab64-874fe7dcaf3a
+exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,57 +12,57 @@ ht-degree: 0%
 
 # Visa dina meddelanden
 
-*Betafunktion*
+*Beta-funktion*
 
-När du är [prenumerera på meddelanden](notification-edit.md) om kontoautentiseringsfel, anpassade aviseringar som aktiveras och [!UICONTROL Advertising Insights] som genereras kan du visa dina meddelanden i [!UICONTROL Notifications] panel eller [!UICONTROL Notification Center].
+När du [prenumererar på meddelanden](notification-edit.md) om kontoautentiseringsfel, anpassade aviseringar som utlöses och [!UICONTROL Advertising Insights] som genereras kan du visa dina aviseringar på antingen [!UICONTROL Notifications]-panelen eller [!UICONTROL Notification Center].
 
-## Visa meddelanden i [!UICONTROL Notifications] panel
+## Visa meddelanden i panelen [!UICONTROL Notifications]
 
-1. Klicka på i det övre högra hörnet på en sida ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden").
+1. Klicka på ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden") i det övre högra hörnet på en sida.
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill visa information om ett meddelande klickar du på meddelandenamnet.
 
-     I vissa meddelanden visas [!UICONTROL Action Recommended] -avsnittet kan innehålla en länk som öppnar en filtrerad vy över de berörda eller ansvariga enheterna.
+     I vissa meddelanden kan avsnittet [!UICONTROL Action Recommended] innehålla en länk som öppnar en filtrerad vy över de berörda eller ansvariga enheterna.
 
-   * Markera ett meddelande som *read* eller *oläst* håller du markören över varningsnamnet och klickar ![Markera som läst eller oläst](/help/search-social-commerce/assets/notifications-read-unread.png "Markera som läst eller oläst").
+   * Om du vill markera ett meddelande som *läst* eller *oläst* håller du markören över varningsnamnet och klickar på ![Markera som läst eller oläst](/help/search-social-commerce/assets/notifications-read-unread.png "Markera som läst eller oläst").
 
-     Meddelanden markerade som *read* innehåller en ljusare text men är tillgänglig tills du tar bort den.
+     Meddelanden som markerats som *lästa* finns i en ljusare text men är fortfarande tillgängliga tills du tar bort dem.
 
-   ![Läs- och olästa meddelanden](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Läs- och olästa meddelanden")
+   ![Meddelanden för läsning och oläst](/help/search-social-commerce/assets/notifications-read-vs-unread.png "Meddelanden för läsning och oläst")
 
-   * Om du vill ändra dina prenumerationsinställningar för meddelandetypen klickar du på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") bredvid meddelandet ändrar du inställningarna och klickar sedan på **[!UICONTROL Save]**.
+   * Om du vill ändra dina prenumerationsinställningar för meddelandetypen klickar du på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") bredvid meddelandet, ändrar inställningarna och sedan på **[!UICONTROL Save]**.
 
-   * Klicka på om du vill ta bort ett meddelande ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid meddelandet.
+   * Om du vill ta bort ett meddelande klickar du på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid meddelandet.
 
-   * Öppna [!UICONTROL Notification Center], klicka **[!UICONTROL View All]**.
+   * Om du vill öppna [!UICONTROL Notification Center] klickar du på **[!UICONTROL View All]**.
 
 ## Visa meddelanden i [!UICONTROL Notification Center]
 
-1. (I Sök, Socialt och Commerce) I huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (Från Sök, Socialt och Commerce) På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
-1. (Valfritt) Om du vill filtrera meddelanden efter typ klickar du på *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings], eller[!UICONTROL Issues]*.
+1. (Valfritt) Om du vill filtrera meddelanden efter typ klickar du på *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] eller[!UICONTROL Issues]*.
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill visa information om ett meddelande klickar du på meddelandenamnet.
 
-     I vissa meddelanden visas [!UICONTROL Action Recommended] -avsnittet kan innehålla en länk som öppnar en filtrerad vy över de berörda eller ansvariga enheterna.
+     I vissa meddelanden kan avsnittet [!UICONTROL Action Recommended] innehålla en länk som öppnar en filtrerad vy över de berörda eller ansvariga enheterna.
 
-   * Markera ett meddelande som *read* eller *oläst* håller du markören över varningsnamnet och klickar ![Markera som läst eller oläst](/help/search-social-commerce/assets/notifications-read-unread.png "Markera som läst eller oläst").
+   * Om du vill markera ett meddelande som *läst* eller *oläst* håller du markören över varningsnamnet och klickar på ![Markera som läst eller oläst](/help/search-social-commerce/assets/notifications-read-unread.png "Markera som läst eller oläst").
 
-     Meddelanden markerade som *read* innehåller en ljusare text men är tillgänglig tills du tar bort den.
+     Meddelanden som markerats som *lästa* finns i en ljusare text men är fortfarande tillgängliga tills du tar bort dem.
 
-   * Om du vill ändra dina prenumerationsinställningar för meddelandetypen klickar du på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar")  bredvid meddelandet ändrar du inställningarna och klickar sedan på **[!UICONTROL Save]**.
+   * Om du vill ändra dina prenumerationsinställningar för meddelandetypen klickar du på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") bredvid meddelandet, ändrar inställningarna och sedan på **[!UICONTROL Save]**.
 
-   * Klicka på om du vill ta bort ett meddelande ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid meddelandet.
+   * Om du vill ta bort ett meddelande klickar du på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid meddelandet.
 
 >[!MORELIKETHIS]
 >
 >* [Om meddelanden](/help/search-social-commerce/notifications/notification-about.md)
 >* [Markera ett meddelande som läst eller oläst](notification-mark-read-unread.md)
 >* [Ta bort ett meddelande](notification-delete.md)
->* [Redigera meddelandeinställningarna](notification-edit.md)
+>* [Redigera aviseringsinställningarna](notification-edit.md)
 >* [Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification Center]](notifications-push-enable-disable.md)
->* [Installera och avinstallera [!UICONTROL Notification Center] webbprogram](notification-app-install-uninstall.md)
+>* [Installera och avinstallera [!UICONTROL Notification Center]-webbprogrammet](notification-app-install-uninstall.md)

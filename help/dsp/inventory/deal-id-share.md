@@ -18,33 +18,32 @@ Du kan sluta dela ett avtal med konton för att ta bort redigerings- och målgru
 
 >[!NOTE]
 >
-> Du kan också [redigera enskilda annonsörer med tillgång till kontot](deal-id-edit-advertisers.md).
+> Du kan även [redigera enskilda annonsörer med åtkomst till kontot](deal-id-edit-advertisers.md).
 
 ## Dela ett avtal-ID med konton
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]** i avtalsraden.
 
 1. För varje konto som ska delas:
 
-   1. Ange **[!UICONTROL Email Address]** för kontot med tillgång till avtalet.
+   1. Ange **[!UICONTROL Email Address]** för kontot med åtkomst till avtalet.
 
    1. Klicka på **[!UICONTROL Share]**.
 
 ## Sluta dela ett avtal-ID med konton
 
-1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]**.
+1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL Deals]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Share]** i avtalsraden.
 
-1. Intill [!UICONTROL Account Email] värde, klicka **[!UICONTROL Unshare].**
+1. Klicka på **[!UICONTROL Unshare]bredvid värdet [!UICONTROL Account Email].**
 
-1. Klicka **[!UICONTROL Cancel]** för att stänga fönstret.
+1. Klicka på **[!UICONTROL Cancel]** för att stänga fönstret.
 
 >[!MORELIKETHIS]
 >
 >* [Om privat lager](private-inventory-about.md)
->* [Redigera annonsörer med åtkomst till ett avtal-ID](/help/dsp/inventory/deal-id-edit-advertisers.md)
->* [Manuella inställningar för avtal-ID](deal-id-settings.md)
-
+>* [Redigera annonsörer med åtkomst till ett erbjudande-ID](/help/dsp/inventory/deal-id-edit-advertisers.md)
+>* [Inställningar för manuellt avtal-ID](deal-id-settings.md)

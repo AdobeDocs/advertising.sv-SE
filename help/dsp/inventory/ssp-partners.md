@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # SSP-partners
 
-En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som används för att hjälpa digitala medieägare och utgivare att sälja digitala annonser i automatiserade auktioner. Ägare och utgivare av digitala medier använder SSP:er för att samordna, hantera och tjäna pengar på leverans och distribution av sitt annonslager. DSP är integrerad med alla ledande SSP:er, vilket gör det enkelt för annonsörer att få tillgång till högklassigt material för sina annonsbehov.
+En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som används för att hjälpa digitala medieägare och utgivare att sälja digitala annonser i automatiserade auktioner. Ägare och utgivare av digitala medier använder SSP:er för att samordna, hantera och tjäna pengar på leverans och distribution av sitt annonslager. Advertising DSP är integrerat med alla ledande SSP:er, vilket gör att annonsörer enkelt kan få tillgång till högklassigt material för sina annonsbehov.
 
 >[!NOTE]
 >
@@ -20,13 +20,13 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") överst i den vänstra rutan eller ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") överst i den högra rutan.
+>Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan eller ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") högst upp i den högra rutan.
 
 | SSP-lista | Företag | Plats-ID | Programmatiskt garanterat stöd | Län | Valuta som stöds | Video Desktop | Video Mobile | Video CTV | Display Desktop | Visa mobil | Inbyggd visning | Ljuddator och mobil |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | [!DNL AdColony] (tidigare [!DNL Opera]) | [!DNL Digital Turbine] | [!DNL TubeMogul] | Nej | Global | USD | x | x |  | x | x |  |  |
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Ja | Global | US-dollar, EUR, GBP |  |  |  |  |  |  | x |
-| [!DNL AppNexus] | [!DNL Xandr] | ID för videoplats: 9094<br>Visningsplats-ID: 3939 | Nej | Global | USD | x | x | x | x | x |  |  |
+| [!DNL AppNexus] | [!DNL Xandr] | ID för videoplats: 9094<br>ID för visningsplats: 3939 | Nej | Global | USD | x | x | x | x | x |  |  |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] eller Adobe Advertising | Nej | USA och EMEA | USD, EUR | x | x | x | x | x |  |  |
 | [!DNL EMX Digital] | [!DNL Cadent] | Adobe Advertising | Nej | USA/CA | USD | x | x | x | x | x |  |  |
 | [!DNL FreeWheel] (tidigare [!DNL StickyAds]) | [!DNL Comcast] | [!DNL TubeMogul] eller Adobe Advertising | Ja | Global | USD, EUR, AUD, GBP | x | x | x |  |  |  |  |
@@ -53,5 +53,5 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 
 >[!MORELIKETHIS]
 >
->* [Översikt över inventeringsfunktioner](inventory-overview.md)
+>* [Översikt över lagerfunktioner](inventory-overview.md)
 

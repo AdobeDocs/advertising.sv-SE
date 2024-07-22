@@ -1,28 +1,28 @@
 ---
-title: Ta bort en rapport eller ett kalkylbladsdokument från [!UICONTROL Downloads] meny
+title: Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!UICONTROL Downloads]
 description: Lär dig hur du tar bort en rapport- eller kalkylbladsfil som du har hämtat en kampanjhanteringsvy.
-exl-id: bb25c2f1-3ade-44ad-b10a-b5684feffd8f
+exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
 
 ---
 
-# Ta bort en rapport eller ett kalkylbladsdokument från [!UICONTROL Downloads] meny
+# Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!UICONTROL Downloads]
 
 >[!NOTE]
 >
->Om du tar bort en kalkylbladsfil tas den bort från [!UICONTROL Downloads] och även från [!UICONTROL Bulksheets] vy.
+>Om du tar bort en kalkylbladsfil tas den bort från listan [!UICONTROL Downloads] och även från vyn [!UICONTROL Bulksheets].
 
-1. Klicka på [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]och öppna en enhetsvy.
+1. Klicka på [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] på huvudmenyn och öppna en entitetsvy.
 
-1. Klicka på till höger om verktygsfältet ![Ladda ned rapport](/help/search-social-commerce/assets/download.png "Ladda ned rapport") om du vill visa hämtningspanelen.
+1. Klicka på ![Rapportera nedladdning](/help/search-social-commerce/assets/download.png "Rapportera nedladdning") till höger i verktygsfältet för att visa panelen Hämtningar.
 
-1. Klicka på bredvid rapporten eller kalkylbladet ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort").
+1. Klicka på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid rapporten eller kalkylbladet.
 
-1. Klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >

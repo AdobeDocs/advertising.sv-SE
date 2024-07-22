@@ -20,30 +20,30 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 >
 >Rekommendationer hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]** på huvudmenyn.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 
-   För [!DNL Microsoft Advertising] konton, [!UICONTROL Recommendations] för kontot listas som standard.
+   För [!DNL Microsoft Advertising]-konton visas [!UICONTROL Recommendations] för kontot som standard.
 
 1. (Valfritt) Filtrera rekommendationerna efter kategori och typ.
 
-1. I [!UICONTROL Actions] kolumn för rekommendation- eller insiktsraden klickar du på **[!UICONTROL View]**.
+1. Klicka på **[!UICONTROL View]** i kolumnen [!UICONTROL Actions] för rekommendations- eller insight-raden.
 
 1. (Recommendations med underrekommendationer) Klicka **[!UICONTROL View]** bredvid underrekommendationen.
 
 1. (Valfritt) Gör något av följande:
 
-   * Om du vill tillämpa en rekommendation klickar du på **[!UICONTROL Apply]**.
+   * Klicka på **[!UICONTROL Apply]** om du vill tillämpa en rekommendation.
 
      Det kan ta från millisekunder till några sekunder att tillämpa en rekommendation, beroende på rekommendationens storlek.
 
-   * Klicka på **[!UICONTROL Dismiss]**.
+   * Klicka på **[!UICONTROL Dismiss]** om du vill stänga en rekommendation.
 
 >[!MORELIKETHIS]
 >
->* [Om utgivarens rekommendationer och insikter](recommendation-support.md)
->* [Visa utgivarens rekommendationer och prestandainsikter](recommendation-view.md)
+>* [Om utgivarens rekommendationer och insikter ](recommendation-support.md)
+>* [Visa dina utgivarrekommendationer och prestandainsikter](recommendation-view.md)
 >* [Visa loggen för utgivarens rekommendationer för ett konto](recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)
 

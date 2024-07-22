@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Text- och annonsmall - Hantera inställningar för NYA kampanjer
+# Text och mall - Hantera inställningar för nya kampanjer
 
 **[!UICONTROL Manage Settings for NEW Campaigns]:**(Valfritt) Gör att du kan konfigurera inställningar för alla kampanjer som skapas.

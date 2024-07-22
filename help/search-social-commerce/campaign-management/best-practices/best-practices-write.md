@@ -1,11 +1,11 @@
 ---
 title: Skriv gällande text och text
 description: Lär dig mer om de bästa sätten att skriva effektiva annonskopior.
-exl-id: 17feba02-e49a-4550-aca8-d9b06d427a7e
+exl-id: 2c51cd0b-90c5-4093-9a0f-ace5ef1019e7
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Mer information om de bästa metoderna för kampanjer i portföljer finns även i avsnittet Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som finns i Sök, Socialt och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Mer information om de bästa metoderna för kampanjer i portföljer finns även i Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Allmänna krav för alla annonsnätverk
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 * Utropstecken är inte tillåtna i rubriker/titlar, men de är tillåtna i beskrivningsrader. Endast en tillåts i beskrivningen.
 
-* Specialtecken som `@,~,\, ^,>,<` är förbjudna.
+* Specialtecken som `@,~,\, ^,>,<` är inte tillåtna.
 
-* Kortkommandon, eller användning av symboler för att ersätta ord, är inte tillåtna. Du kan till exempel inte använda &quot;U&quot; för att ersätta &quot;du&quot; eller &quot;`@`&quot; som ersätter &quot;at.&quot;
+* Kortkommandon, eller användning av symboler för att ersätta ord, är inte tillåtna. Du kan till exempel inte använda &quot;U&quot; för att ersätta &quot;du&quot; eller &quot;`@`&quot; för att ersätta &quot;at&quot;.
 
 * Tillfälliga fraser, som&quot;Bästa&quot;&quot; eller&quot;#1&quot;, är förbjudna såvida inte skillnaden har verifierats av en tredje part och verifieringen visas tydligt på din webbplats.
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * Ta reda på vad era konkurrenter gör. Titta på de främsta annonserna för ett space (på webbplatser som www.spyfu.com) och försök förstå vilka annonser som fungerar.
 
-[1]: Om du använder nyckelordsinfogning ska du använda rätt skiftläge för infogningskoden:
+[1]: Om du använder nyckelordsinfogning använder du rätt skiftläge för insättningskoden:
 
 `{keyword:default}` = gräsklippare
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 `{KeyWord:default}` = gräsklippare
 
-`{KEYWord:default}` = LAWN Mowers (vilket endast är tillåtet om LAWN är ett varumärke)
+`{KEYWord:default}` = LAWN Mowers (vilket endast är tillåtet om&quot;LAWN&quot; är ett varumärke)
 
-`{KeyWORD:default}` = gräva MOWERS (vilket endast är tillåtet om&quot;MOWERS&quot; är ett varumärke)
+`{KeyWORD:default}` = LAGDA MOWERS (vilket endast är tillåtet om&quot;MOWERS&quot; är ett varumärke)
 
 `{KEYWORD:default}` = LAWN MOWERS (vilket endast är tillåtet om&quot;LAWN MOWERS&quot; är ett varumärke)
 

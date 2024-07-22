@@ -1,9 +1,9 @@
 ---
 title: Optimera webbplatsens landningssidor
 description: Lär dig mer om de bästa sätten att optimera era era landningssidor för webbplatser.
-exl-id: 87379fb1-c737-4ac0-80c1-26c79feb45d8
+exl-id: cd94277c-a340-4161-8630-86a249eb3465
 feature: Search Best Practices
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 0%
@@ -20,7 +20,7 @@ För att förbättra användarupplevelsen och konverteringsgraden är det viktig
 
 >[!TIP]
 >
->Mer information om de bästa metoderna för kampanjer i portföljer finns även i avsnittet Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som finns i Sök, Socialt och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Mer information om de bästa metoderna för kampanjer i portföljer finns även i Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 ## Utforma effektiva landningssidor
 
@@ -34,7 +34,7 @@ Nedan följer några riktlinjer för utformning av landningssidor som ger en pos
 
 * Använd god siddesign; en bra design kan omedelbart skapa förtroende, kännedomen om välbekant och trovärdighet. Anpassa formulärknapparna så att de blir mer iögonfallande. Använd inte den webbläsargenererade standardknappen med ordet&quot;Skicka&quot;. Använd en layout med två kolumner, med det åtgärdbara objektet i huvudkolumnen och stödinformation i den andra kolumnen.
 
-* Tillhandahålla trovärdighets- och säkerhetsindikatorer. Logotyper och förseglingar bidrar till att minska besökarnas oro. Dessa innehåller [!DNL Verisign], [!DNL BBB] logotyp, [!DNL eTrust], [!DNL HackerSafe], nöjesgarantier, pengarna tillbaka-erbjudanden och så vidare. Inkludera en sekretesspolicy när information samlas in. Placera indikatorerna så nära det användbara objektet som möjligt.
+* Tillhandahålla trovärdighets- och säkerhetsindikatorer. Logotyper och förseglingar bidrar till att minska besökarnas oro. Dessa omfattar [!DNL Verisign], [!DNL BBB] logotyp, [!DNL eTrust], [!DNL HackerSafe], nöjesgarantier, pengarna tillbaka-erbjudanden och så vidare. Inkludera en sekretesspolicy när information samlas in. Placera indikatorerna så nära det användbara objektet som möjligt.
 
 * Erbjud ett incitament, t.ex. fri frakt, gåvor, rabatter eller en kostnadsfri rapport eller e-bok. En besökare som besöker en landningssida handlar runt och behöver en anledning att stanna kvar på en sida och slutföra erbjudandet. Stimulansen bör vara en av de mest framträdande punkterna på sidan.
 
@@ -52,9 +52,9 @@ Nedan följer några riktlinjer för utformning av landningssidor som ger en pos
 
 ## Testa landningssidornas inverkan
 
-För att se effekten av att ändra landningssidan (när allt annat är konstant), kör [den [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), som innehåller visnings-URL:en och bas-/slutadressen eller mål-URL:en för varje annons.
+Om du vill se effekten av att ändra landningssidan (när allt annat är konstant) kör du [the [!DNL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md), som innehåller visnings-URL:en och bas-/slutwebbadressen eller mål-URL:en för varje annons.
 
 >[!MORELIKETHIS]
 >
 >* [Analysera rapporter för att förfina nyckelord och kampanjinställningar](best-practices-analyze.md)
->* [Skriv gällande text och text](best-practices-write.md)
+>* [Skriv gällande text och kopia](best-practices-write.md)

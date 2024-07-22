@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Text och mall - Status
 
-**[!UICONTROL Status]:** Mallstatus: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, eller *[!UICONTROL Deleted]*.
+**[!UICONTROL Status]:** Mallstatus: *[!UICONTROL Active]*, *[!UICONTROL Paused]* eller *[!UICONTROL Deleted]*.
 
 Feed-data kan bara spridas automatiskt via aktiva mallar. Du kan emellertid sprida data manuellt via en pausad mall.

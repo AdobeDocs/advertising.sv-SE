@@ -1,11 +1,11 @@
 ---
 title: Ta bort etikettklassificeringar
 description: Lär dig hur du tar bort en etikettklassificering.
-exl-id: 4d00bda7-e3a6-4558-b818-5ccd45d0eb5b
+exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Om du tar bort en klassificering tas alla associationer mellan dess underordnade
 
 >[!NOTE]
 >
->Om du bara vill avassociera ett klassificeringsvärde från en kontokomponent går du till &quot;[Ta bort klassificeringsvärden från kampanjkomponenter](classification-values-remove.md).&quot;
+>Om du bara vill avassociera ett klassificeringsvärde från en kontokomponent läser du &quot;[Ta bort klassificeringsvärden från kampanjkomponenter](classification-values-remove.md)&quot;.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
@@ -26,15 +26,15 @@ Om du tar bort en klassificering tas alla associationer mellan dess underordnade
 
    Du kan ta bort upp till 200 rader i taget.
 
-   Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+   Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-1. Klicka på i verktygsfältet ovanför datatabellen ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort").
+1. Klicka på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") i verktygsfältet ovanför datatabellen.
 
-1. Klicka på **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
->* [Etikettklassificeringar](classification-about.md)
+>* [Om etikettklassificeringar](classification-about.md)
 >* [Skapa en etikettklassificering](classification-create.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter från kampanjhanteringsvyer](classification-values-assign-campaign-management.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad](classification-values-assign-bulksheets.md)

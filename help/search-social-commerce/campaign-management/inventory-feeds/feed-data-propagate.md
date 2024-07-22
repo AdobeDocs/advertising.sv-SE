@@ -12,86 +12,86 @@ ht-degree: 0%
 
 # Sprida lagerflödesdata via mallar
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder) och [!DNL Yandex] enbart konton*
 
-När du har skapat en annonsspecifik feed-mall och associerat en feed-fil eller en [!DNL Google] eller [!DNL Microsoft] säljcenterkonto med det kan du dynamiskt skapa annonser genom att sprida flödesuppgifterna via mallen enligt [inställningar för feed-data](feed-settings-manage.md). Under spridningen ersätts kolumnnamnen i mallen med datavärden i feeden, och de genererade kampanjerna och deras komponenter har standardinställningarna om inte mallen anger något annat. Beroende på mallalternativen skapar Search, Social och Commerce antingen en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappar annonserna till den befintliga kontostrukturen.
+När du har skapat en annonsspecifik feed-mall och associerat en feed-fil eller ett [!DNL Google]- eller [!DNL Microsoft] handlancenter med den, kan du dynamiskt skapa annonser genom att sprida feed-data via mallen enligt [feed-datainställningarna](feed-settings-manage.md). Under spridningen ersätts kolumnnamnen i mallen med datavärden i feeden, och de genererade kampanjerna och deras komponenter har standardinställningarna om inte mallen anger något annat. Beroende på mallalternativen skapar Search, Social och Commerce antingen en ny kontostruktur (kampanjer, annonsgrupper, nyckelord) för annonserna eller mappar annonserna till den befintliga kontostrukturen.
 
-När nya feed-data innehåller nya datavärden för ett objekt, eller mallen har ändrats, tas befintliga annonser bort och nya skapas. Om den enda förändringen är [!DNL Google Ads] Param 1 och Param 2, så uppdateras bara dessa värden. Dubblerade annonser (samma annonskopia och landningssida) skapas aldrig.
+När nya feed-data innehåller nya datavärden för ett objekt, eller mallen har ändrats, tas befintliga annonser bort och nya skapas. Om den enda ändringen är beteckningen [!DNL Google Ads] Param 1 och Param 2 uppdateras endast dessa värden. Dubblerade annonser (samma annonskopia och landningssida) skapas aldrig.
 
 När du sprider data kan du eventuellt förhandsgranska genererade data i en kampanjhierarkivy, generera en kalkylbladsfil för granskning eller generera en kalkylbladsfil för omedelbar publicering i annonsnätverket. När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning till på fliken Spridningar, som anger antalet för varje entitetstyp som skapades, pausades eller skulle tas bort baserat på spridningen. Om du inte skickar data direkt kan du förhandsgranska dem och publicera dem senare.
 
-## Sprid feed-filer från [!UICONTROL Templates] tab
+## Sprid feedsfiler från fliken [!UICONTROL Templates]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Markera kryssrutan bredvid mallarna som ska spridas.
 
-1. Klicka på i verktygsfältet **[!UICONTROL Propagate]** och välj sedan något av följande alternativ:
+1. Klicka på **[!UICONTROL Propagate]** i verktygsfältet och välj sedan något av följande alternativ:
 
-   * **[!UICONTROL Propagate Only]:** Visa spridda data på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar. Du kan fortfarande publicera data för en komponent och dess underkomponenter senare från [!UICONTROL Templates] -fliken.
+   * **[!UICONTROL Propagate Only]:** Om du vill visa spridda data på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads]. Du kan fortfarande publicera data för alla komponenter och dess underkomponenter senare från fliken [!UICONTROL Templates].
 
-   * **[!UICONTROL Propagate and Preview]:** Skapa en kalkylbladsfil (med namnet &quot;`<feed file name>_<template name>`&quot;), som finns i [!UICONTROL Bulksheets] visa för granskning (men inte på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] tabbar). Du kan senare publicera kalkylbladsfilen från [!UICONTROL Bulksheets] vy.
+   * **[!UICONTROL Propagate and Preview]:** Om du vill skapa en kalkylbladsfil (med namnet `<feed file name>_<template name>`) som är tillgänglig i [!UICONTROL Bulksheets]-vyn för granskning (men inte på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads]). Du kan senare publicera kalkylbladsfilen från vyn [!UICONTROL Bulksheets].
 
      När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format. Du behöver inte packa upp filen för att publicera den.
 
-   * **[!UICONTROL Propagate and Post to SE]:** Skapa en kalkylbladsfil (med namnet &quot;`<feed file name>_<template name>`&quot;) som står i kö för publicering i annonsnätverket. Kolumnmallsfilen finns i [!UICONTROL Bulksheets] vyn, men den är inte tillgänglig på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar.
+   * **[!UICONTROL Propagate and Post to SE]:** Om du vill skapa en kalkylbladsfil (med namnet `<feed file name>_<template name>`) som står i kö för publicering i annonsnätverket. Kolumnbladsfilen är tillgänglig i vyn [!UICONTROL Bulksheets], men den är inte tillgänglig på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
      När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format.
 
    &quot;Sista Prop. Status&quot; visas i kolumnen jobbstatus för de tillämpliga mallarna.
 
-   När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning till i [!UICONTROL Propagations] som anger antalet entitetstyper som skapades, pausades eller togs bort baserat på spridningen. Beräkningen inkluderar inte ändringar som gjorts i annonsnätverkets egen annonsredigerare.
+   När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning till på fliken [!UICONTROL Propagations], som anger antalet för varje entitetstyp som skapades, pausades eller skulle tas bort baserat på spridningen. Beräkningen inkluderar inte ändringar som gjorts i annonsnätverkets egen annonsredigerare.
 
-## Sprid feed-filer från [!UICONTROL Feeds] list
+## Sprid feedsfiler från listan [!UICONTROL Feeds]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Feeds]**.
+1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 
 1. Markera kryssrutan intill matningsfilen.
 
-1. Ovanför datatabellen klickar du **[!UICONTROL Propagate/Post Feed Data]** och välj sedan något av följande alternativ:
+1. Ovanför datatabellen klickar du på **[!UICONTROL Propagate/Post Feed Data]** och väljer sedan något av följande alternativ:
 
-   * **[!UICONTROL Propagate Only]:** Visa spridda data på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar. Du kan fortfarande publicera data för en komponent och dess underkomponenter senare från [!UICONTROL Templates] -fliken.
+   * **[!UICONTROL Propagate Only]:** Om du vill visa spridda data på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads]. Du kan fortfarande publicera data för alla komponenter och dess underkomponenter senare från fliken [!UICONTROL Templates].
 
-   * **[!UICONTROL Propagate and Preview]:** Skapa en kalkylbladsfil (med namnet &quot;`<feed file name>_<template name>`&quot;), som finns i [!UICONTROL Bulksheets] visa för granskning (men inte på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] tabbar). Du kan senare publicera kalkylbladsfilen från [!UICONTROL Bulksheets] vy.
+   * **[!UICONTROL Propagate and Preview]:** Om du vill skapa en kalkylbladsfil (med namnet `<feed file name>_<template name>`) som är tillgänglig i [!UICONTROL Bulksheets]-vyn för granskning (men inte på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads]). Du kan senare publicera kalkylbladsfilen från vyn [!UICONTROL Bulksheets].
 
      När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format. Du behöver inte packa upp filen för att publicera den.
 
-   * **[!UICONTROL Propagate and Post to SE]:** Skapa en kalkylbladsfil (med namnet &quot;`<feed file name>_<template name>`&quot;) som står i kö för publicering i annonsnätverket. Kolumnmallsfilen finns i [!UICONTROL Bulksheets] vyn, men den är inte tillgänglig på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar.
+   * **[!UICONTROL Propagate and Post to SE]:** Om du vill skapa en kalkylbladsfil (med namnet `<feed file name>_<template name>`) som står i kö för publicering i annonsnätverket. Kolumnbladsfilen är tillgänglig i vyn [!UICONTROL Bulksheets], men den är inte tillgänglig på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
      När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format.
 
-1. I popup-fönstret markerar du kryssrutan bredvid varje mall som du vill använda för att sprida data från feed-filen. Klicka sedan på **[!UICONTROL Propagate Feed]**.
+1. I popup-fönstret markerar du kryssrutan bredvid varje mall som du vill använda för att sprida data från feed-filen och klickar sedan på **[!UICONTROL Propagate Feed]**.
 
    Alla mallar som är associerade med filen visas.
 
-The [!UICONTROL Templates] öppnas och &quot;[!UICONTROL Last Prop. Status]&quot;kolumn visar jobbstatus för tillämpliga mallar.
+Fliken [!UICONTROL Templates] öppnas och kolumnen [!UICONTROL Last Prop. Status] visar jobbstatusen för de tillämpliga mallarna.
 
-När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning till i [!UICONTROL Propagations] som anger antalet entitetstyper som skapades, pausades eller togs bort baserat på spridningen. Beräkningen inkluderar inte ändringar som gjorts i annonsnätverkets egen annonsredigerare.
+När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning till på fliken [!UICONTROL Propagations], som anger antalet för varje entitetstyp som skapades, pausades eller skulle tas bort baserat på spridningen. Beräkningen inkluderar inte ändringar som gjorts i annonsnätverkets egen annonsredigerare.
 
 ## Visa en spridningssammanfattning
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL Propagations]** -fliken.
+1. Klicka på fliken **[!UICONTROL Propagations]**.
 
-1. Klicka på bredvid mallnamnet ![Ikon för Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Ikon för Visa/redigera inställningar") .
+1. Klicka på ikonen ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar") bredvid mallnamnet.
 
 ## Stoppa ett spridningsjobb
 
 Du kan stoppa ett spridningsjobb för lagerfeeddata medan jobbet fortfarande är i kö.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
-1. I dialogrutan[!UICONTROL Last Prop. Status]kolumnen bredvid mallnamnet klickar du på **[!UICONTROL Cancel]**.
+1. Klicka på **[!UICONTROL Cancel]** i kolumnen [!UICONTROL Last Prop. Status] bredvid mallnamnet.
 
 >[!MORELIKETHIS]
 >
->* [Om lagerflöden](inventory-feeds-about.md)
+>* [Om lagerfeeds](inventory-feeds-about.md)
 >* [Hantera annonsmallar för lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)
->* [Visa data som genererats från feeds](propagated-data-view.md)
+>* [Visa data som har genererats från feeds](propagated-data-view.md)
 >* [Redigera data som genererats från feeds](propagated-data-edit.md)
->* [Posta kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
+>* [Publicera kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
 >* [Stoppa ett bokföringsjobb för lagerfeed-data](stop-job.md)
 >* [Status för data som genererats från feeds](propagated-data-status.md)

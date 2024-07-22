@@ -1,9 +1,9 @@
 ---
 title: Pausa en anpassad aviseringsmall
 description: Lär dig hur du pausar en aktiv aviseringsmall.
-exl-id: a588ac21-7f77-4254-a773-a6f68c9f1090
+exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 Du kan pausa aktiva varningsmallar.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i [!UICONTROL Alert Templates] vy.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
 1. Gör något av följande:
 
-   * (Om du vill pausa en enskild mall) I mallraden klickar du inuti [!UICONTROL Status] kolumn och markera *[!UICONTROL Paused]*.
+   * (Om du vill pausa en mall) Klicka i mallraden i kolumnen [!UICONTROL Status] och välj *[!UICONTROL Paused]*.
 
-   * (Om du vill pausa en eller flera mallar) Markera kryssrutan bredvid varje varningsmall som du vill pausa. Klicka på i verktygsfältet ![Pausa](/help/search-social-commerce/assets/pause.png "Pausa") Klicka på **[!UICONTROL Pause]**.
+   * (Om du vill pausa en eller flera mallar) Markera kryssrutan bredvid varje varningsmall som du vill pausa. Klicka på ![Paus](/help/search-social-commerce/assets/pause.png "Paus") Klicka på **[!UICONTROL Pause]** i dialogrutan.
 
-     Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+     Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
 >[!MORELIKETHIS]
 >
@@ -31,6 +31,6 @@ Du kan pausa aktiva varningsmallar.
 >* [Redigera en anpassad aviseringsmall](alert-template-edit.md)
 >* [Aktivera en anpassad aviseringsmall](alert-template-activate.md)
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
->* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
+>* [Inställningar för anpassad aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)

@@ -16,29 +16,29 @@ ht-degree: 0%
 
 Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Placements]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
 
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Change logs]** bredvid placeringsnamnet.
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill växla mellan att visa data endast i tabellformulär och i både tabell- och diagramformulär klickar du på ![Tabell- och diagramvy](/help/dsp/assets/table-plus-chart-view.png "Tabell- och diagramvy") eller ![Tabellvy](/help/dsp/assets/table-view.png "Tabellvy") i det övre högra verktygsfältet.
 
-   * Om du vill lägga till en anteckning i en post håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan **[!UICONTROL Save]**.
+   * Om du vill lägga till en anteckning till en post håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan på **[!UICONTROL Save]**.
 
-   * Om du vill visa information för en post i ett popup-fönster håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Om du vill visa information för en post i ett popup-fönster håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 
 >[!MORELIKETHIS]
 >
->* [Om Platshantering](placement-about.md)
+>* [Om placeringshantering](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
+>* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Placeringsinställningar](placement-settings.md)

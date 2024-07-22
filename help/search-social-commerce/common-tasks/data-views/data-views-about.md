@@ -14,9 +14,9 @@ ht-degree: 0%
 
 I de flesta kampanjdatavyer kan du anpassa de data som visas i datatabellen. Du kan anpassa data på följande sätt:
 
-* Redigera inställningarna för hela standardvyn för en viss enhetsvy (till exempel [!UICONTROL Campaigns]) för att inkludera en viss kolumnordning, filter, datumintervall, attribueringsregel med mera - och tillämpa inställningarna tillfälligt eller spara dem. Du kan också skapa ytterligare anpassade vyer och använda dina vyer när du vill.
+* Redigera inställningarna för hela standardvyn för en specifik entitetsvy (till exempel [!UICONTROL Campaigns]) för att inkludera en viss kolumnordning, filter, datumintervall, attribueringsregel med mera - och tillämpa inställningarna tillfälligt eller spara dem. Du kan också skapa ytterligare anpassade vyer och använda dina vyer när du vill.
 
-* Ändra kolumnerna och deras sorteringsordning på menyn [!UICONTROL Columns] till höger i verktygsfältet, eller ändra snabbt bara kolumnerna från valfri kolumnrubrik i vyn.
+* Ändra kolumnerna och deras sorteringsordning från ikonen [!UICONTROL Columns] till höger i verktygsfältet, eller ändra snabbt bara kolumnerna från valfri kolumnrubrik i vyn.
 
 * I den vänstra navigeringspanelen kan du:
 
@@ -32,4 +32,4 @@ I de flesta kampanjdatavyer kan du anpassa de data som visas i datatabellen. Du 
 
 * Sortera om data enligt värdena i en viss kolumn.
 
-* Ange om 25 rader, 50 rader, 100 rader, 200 rader ska visas eller inte [!UICONTROL Continuous Scroll] längst ned till höger på en sida.
+* Ange om 25 rader, 50 rader, 100 rader, 200 rader eller [!UICONTROL Continuous Scroll] ska visas längst ned till höger på en sida.

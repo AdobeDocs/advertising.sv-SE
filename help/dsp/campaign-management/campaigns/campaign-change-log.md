@@ -5,7 +5,7 @@ feature: DSP Campaigns
 exl-id: ba96a277-937a-4475-bab6-6e0a4f5ced13
 source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
-1. Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Change logs]** bredvid kampanjnamnet.
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill växla mellan att visa data endast i tabellformulär och i både tabell- och diagramformulär klickar du på ![Tabell- och diagramvy](/help/dsp/assets/table-plus-chart-view.png "Tabell- och diagramvy") eller ![Tabellvy](/help/dsp/assets/table-view.png "Tabellvy") i det övre högra verktygsfältet.
 
-   * Om du vill lägga till en anteckning i en post håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan **[!UICONTROL Save]**.
+   * Om du vill lägga till en anteckning till en post håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan på **[!UICONTROL Save]**.
 
-   * Om du vill visa information för en post i ett popup-fönster håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Om du vill visa information för en post i ett popup-fönster håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
@@ -35,4 +35,3 @@ Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Kampanjinställningar](campaign-settings.md)
 >* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
-

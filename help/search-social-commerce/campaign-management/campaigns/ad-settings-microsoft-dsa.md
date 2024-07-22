@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] expanderade dynamiska sökannonsinställningar'
-description: Referera inställningarna för [!DNL Microsoft Advertising] expanderade dynamiska sökannonser.
+title: '[!DNL Microsoft Advertising] utökade inställningar för dynamisk sökning och annonser'
+description: Referera inställningarna för  [!DNL Microsoft Advertising] utökade dynamiska sökannonser.
 exl-id: 232a57fc-2823-4d82-aa02-3e670430979f
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] expanderade dynamiska sökannonsinställningar
+# [!DNL Microsoft Advertising] utökade inställningar för dynamisk sökning och annonser
 
 Utökade dynamiska sökannonser (eDSA) är bara tillgängliga i dynamiska annonsgrupper i kampanjer i söknätverket. Annonsnätverket genererar rubriken dynamiskt och väljer landningssidan för en dynamisk sökannons och genererar sedan automatiskt den slutliga URL:en.
 
@@ -38,7 +38,7 @@ Utökade dynamiska sökannonser (eDSA) är bara tillgängliga i dynamiska annons
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
->* [[!DNL Microsoft Advertising] multimediaannonsinställningar](ad-settings-microsoft-multimedia.md)
->* [[!DNL Microsoft Advertising] produkt- och annonsinställningar](ad-settings-microsoft-product.md)
->* [[!DNL Microsoft Advertising] inställningar för responsiv (målgrupp) annonsering](ad-settings-microsoft-responsive.md)
->* [[!DNL Microsoft Advertising] inställningar för responsiv sökning och](ad-settings-microsoft-rsa.md)
+>* [[!DNL Microsoft Advertising] inställningar för multimediaannons](ad-settings-microsoft-multimedia.md)
+>* [[!DNL Microsoft Advertising] inställningar för produktannons](ad-settings-microsoft-product.md)
+>* [[!DNL Microsoft Advertising] Reklaminställningar för responsiv (publik)](ad-settings-microsoft-responsive.md)
+>* [[!DNL Microsoft Advertising] Inställningar för responsiv sökannonsering](ad-settings-microsoft-rsa.md)

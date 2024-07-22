@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL Google Ads] kampanjinställningar'
+title: '[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
@@ -10,53 +10,55 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] kampanjinställningar
+# Inställningar för [!DNL Google Ads]-kampanj
 
 ## \[Kampanjskapande skärm\]
 
-**[!UICONTROL Campaign Type]:** (Endast tillgängligt när kampanjer skapas) Var annonser ska placeras och vilka annonstyper kampanjen kan innehålla:
+**[!UICONTROL Campaign Type]:** (Endast tillgängligt när kampanjer skapas) Var annonser ska placeras och vilka annonstyper
+kampanjen får innehålla
 
 * *[!UICONTROL Search Network Only]:* Visar annonser i söknätverket, som innehåller [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser. Du måste ange nyckelord för varje annonsgrupp.
 
-* *[!UICONTROL Search with Display Select]:* Visar annonser i söknätverket (som inkluderar [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser) och eventuellt annonser på webbplatser i visningsnätverk. På visningsnätverket [!DNL Google Ads] visar era annonser selektivt med hjälp av automatiserade budgivning, oavsett kampanjens anbudsstrategi. För sökannonser anger du nyckelord för varje annonsgrupp. För visningsannonser anger du placeringar och kan även ange nyckelord för varje annonsgrupp.
+* *[!UICONTROL Search with Display Select]:* Visar annonser i söknätverket (vilket inkluderar [!DNL Google] sökresultat och, eventuellt, sökpartnerwebbplatser) och kan visa annonser på visningsnätverksplatser. I visningsnätverket visar [!DNL Google Ads] dina annonser selektivt med automatiserad budgivning, oavsett kampanjens anbudsstrategi. För sökannonser anger du nyckelord för varje annonsgrupp. För visningsannonser anger du placeringar och kan även ange nyckelord för varje annonsgrupp.
 
-* *[!UICONTROL Shopping Network]:* Visar produktannonser, som [!DNL Google] genererar automatiskt baserat på dina produkter i [!DNL Google Merchant Center] på [!DNL Google Shopping], området intill [!DNL Google] sökresultat (separerade från textannonser) och (valfritt) sökpartnerwebbplatser. För varje annonsgrupp i kampanjen kan du ange vilka produktgrupper som ska annonseras.
+* *[!UICONTROL Shopping Network]:* Visar produktannonser, som [!DNL Google] genererar automatiskt baserat på dina produkter i [!DNL Google Merchant Center] den [!DNL Google Shopping] , området bredvid [!DNL Google] sökresultat (separat från textannonser) och (valfritt) sökpartnerwebbplatser. För varje annonsgrupp i kampanjen kan du ange vilka produktgrupper som ska annonseras.
 
 * *[!UICONTROL Display Network Only]:* Visar annonser i visningsnätverket. För varje annonsgrupp måste du ange placeringar och om du vill kan du ange nyckelord.
 
-* *[!UICONTROL Performance Max]:* Visar och optimerar konverteringar för era annonser i alla kanaler med [!DNL Google Ads] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria videor och målgruppssignaler. [!DNL Google Ads] kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen (som [!DNL YouTube], [!DNL Gmail], eller [!DNL Search]).
+* *[!UICONTROL Performance Max]:* Visar och optimerar konverteringar för annonser i alla kanaler med hjälp av [!DNL Google Ads] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria videor och målgruppssignaler. [!DNL Google Ads] kombinerar automatiskt resurserna för att hantera annonser baserat på kanalen (till exempel [!DNL YouTube], [!DNL Gmail] eller [!DNL Search]).
 
   **Anteckningar:**
 
-   * Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL Google Ads] redigerare.
+   * Endast nödvändiga inställningar är tillgängliga. Logga in på [!DNL Google Ads]-redigeraren om du vill ha valfria inställningar.
 
-   * Länkar till [!DNL Google Merchant Center] produktflöden stöds inte.
+   * Länkar till [!DNL Google Merchant Center] produktfeeds stöds inte.
 
-   * Stöd för listgrupper är inte tillgängligt. Om du vill hantera och visa data för listgrupper loggar du in på [!DNL Google Ads] redigerare.
+   * Stöd för listgrupper är inte tillgängligt. Om du vill hantera och visa data för listgrupper loggar du in på [!DNL Google Ads]-redigeraren.
 
    * Hybridoptimering stöds. Anbudsstrategiska mål och kampanjbudgetar fastställs på kampanjnivå.
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt inom kontot.
+**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt i kontot.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Audience Target Method]:**(Endast befintliga, skrivskyddade Gmail-kampanjer) Om du vill:
+**[!UICONTROL Audience Target Method]:**(Befintliga, skrivskyddade Gmail-kampanjer endast) Anger om:
 
-* *[!UICONTROL Target and Bid]* Visa endast annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
+* *[!UICONTROL Target and Bid]* Om du bara vill visa annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
 
-* *[!UICONTROL Bid Only]:*  Visa annonser även för personer som inte är kopplade till målgrupper så länge de uppfyller andra mål på annonsgruppsnivå. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
+* *[!UICONTROL Bid Only]:* Så här visar du annonser även för personer som inte är associerade med målgrupper så länge de uppfyller andra annonsgruppsmål. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
 
-**[!UICONTROL Status]:** Visningsstatus för kampanjen: *Aktiv* eller *Pausad*. Standardinställningen för nya annonskampanjer är *Aktiv*.
+**[!UICONTROL Status]:** Visningsstatusen för kampanjen: *Aktiv* eller *Pausad*. Standardvärdet för nya annonskampanjer är *Aktiv*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar annonserna i annonsnätverkets nätverk av sökpartner. Som standard är det här alternativet *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar
+era annonser i annonsnätverkets nätverk av sökpartners. Som standard är det här alternativet *[!UICONTROL Off]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -70,39 +72,40 @@ ht-degree: 0%
 
 **[!UICONTROL Bid strategy]:** Anbudsstrategin för kampanjen:
 
-* *[!UICONTROL Enhanced CPC]:* (Inte tillgängligt för högsta prestanda eller befintlig, skrivskyddad [!DNL Gmail] kampanjer) Använder annonsnätverkets utökade modell för kostnad per klick (eCPC), som gör att annonsnätverket automatiskt kan ändra priset per klick (CPC) för varje auktion i ett försök att maximera konverteringar, med hjälp av konverteringar som anges i annonsnätverket (inte i Search, Social, &amp; Commerce), samtidigt som ni försöker hålla den genomsnittliga CPC:n under den maximala CPC:n.
+* *[!UICONTROL Enhanced CPC]:* (Inte tillgängligt för maximala prestanda eller befintliga, skrivskyddade [!DNL Gmail] kampanjer) Använder annonsnätverkets utökade kostnadsmodell per klick (eCPC), som gör att annonsnätverket automatiskt kan ändra priset per klick (CPC) för varje auktion i ett försök att maximera konverteringar med hjälp av konverteringar som anges i annonsnätverket (inte i Search, Social, &amp; Commerce), samtidigt som försöker ha en genomsnittlig CPC under din maximala CPC.
 
-När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfolio optimerar Search, Social och Commerce basanbuden och - när &quot;[!UICONTROL Auto adjust campaign budget limits]Alternativet &quot; är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning:** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna i annonsnätverket är anpassade efter portföljmålet. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+När du lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfölj optimerar Search, Social och Commerce basanbuden och - när alternativet [!UICONTROL Auto adjust campaign budget limits] är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning!** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna som spåras i annonsnätverket är anpassade efter portföljmålet. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
 
 * *[!UICONTROL Manual CPC]* (standard): (Inte tillgängligt för maximala prestandakampanjer) Använder CPC-modellen (cost-per-click). Du kan också tillåta annonsnätverket att ändra anbud för kampanjen:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Detta är samma sak som att använda &quot;[!UICONTROL Enhanced CPC]&quot;.
+   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Detta är samma sak som att använda alternativet [!UICONTROL Enhanced CPC].
 
-* *[!UICONTROL Maximize Clicks]:* (Sök-, displays- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan även ange **[!UICONTROL Max CPC]** (kostnad per klick) för att säkerställa att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning:** När ni lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
+* *[!UICONTROL Maximize Clicks]:* (sök-, display- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan också ange en **[!UICONTROL Max CPC]** (kostnad per klick) för att se till att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning!** När du lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Sökning, maximalt resultat och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud för att maximera konverteringsvärdet. Du kan även ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
+* *[!UICONTROL Maximize Conversion Value]:* (Sök, prestanda max och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringsvärdet. Du kan också ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) som en procentandel. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer.
 
-* *[!UICONTROL Maximize Conversions]:* (max antal sök-, display- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för maximal konvertering. Du kan även ange **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior men inte i standardportfolior.
+* *[!UICONTROL Maximize Conversions]:* (max antal sök-, display- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringarna. Du kan också ange **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer.
 
-* *[!UICONTROL Target CPA]:* (Visningskampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), vilket är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
-
-  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
-
-  För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversions] strategi med [!UICONTROL Target CPA] värde. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversions] strategi som använder den angivna [!UICONTROL Target CPA] värde.
-
-* *[!UICONTROL Target Impression Share]:* (Sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att uppnå en målvisningsresurs och en annonsposition. Du kan även ange **[!UICONTROL Target Impression Share]** som en procentandel, **[!UICONTROL Target Ad Position]** och en **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i portföljer.
-
-* *[!UICONTROL Target Return on Ad Spend]:*  (Visnings- och shoppingkampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på en viss angiven **[!UICONTROL Target ROAS]** (avkastning på annonsutgift), angett i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportfolior (men inte i standardportfolior) med alla utgiftsstrategier utom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target CPA]:* (Visa kampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), som är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
 
   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
 
-  För nya sökkampanjer [!DNL Google Ads] har ersatt denna anbudsstrategi med [!UICONTROL Maximize Conversion Value] strategi med [!UICONTROL Target Return on Ad Spend value]. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversion Value] strategi som använder den angivna [!UICONTROL Target Return on Ad Spend] värde.
+  För nya sökkampanjer har [!DNL Google Ads] ersatt den här anbudsstrategin med [!UICONTROL Maximize Conversions]-strategin med ett [!UICONTROL Target CPA]-värde. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversions]-strategin med det angivna [!UICONTROL Target CPA]-värdet.
 
-* *[!UICONTROL Viewable CPM]:* (Befintlig, skrivskyddad) [!DNL Gmail] endast kampanjer) Annonsnätverket - inte Search, Social och Commerce - erbjuder endast annonser som kan visas. **Obs!** Optimering för den här strategin stöds inte i någon typ av portfölj.
+* *[!UICONTROL Target Impression Share]:* (sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud för att uppnå en målvisningsresurs och en annonsposition. Du kan också ange **[!UICONTROL Target Impression Share]** som en procentandel, **[!UICONTROL Target Ad Position]** och **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i portföljer.
+
+* *[!UICONTROL Target Return on Ad Spend]:* (Visnings- och shoppingkampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social, &amp; Commerce - optimerar offerterna baserat på en angiven **[!UICONTROL Target ROAS]** (avkastning på annonskostnad), angett i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
+
+  Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
+
+  För nya sökkampanjer har [!DNL Google Ads] ersatt den här anbudsstrategin med [!UICONTROL Maximize Conversion Value]-strategin med en [!UICONTROL Target Return on Ad Spend value]. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversion Value]-strategin med det angivna [!UICONTROL Target Return on Ad Spend]-värdet.
+
+* *[!UICONTROL Viewable CPM]:* (Endast befintliga, skrivskyddade [!DNL Gmail] kampanjer) Annonsnätverket - inte Search, Social och Commerce - erbjuder endast annonser som kan visas. **Obs!** Optimering för den här strategin stöds inte i någon typ av portfölj.
 
 ## [!UICONTROL Shopping Settings]
 
-**[!UICONTROL Sales Country]:** (Endast köpkampanjer; skrivskyddat för befintliga kampanjer) Det land där kampanjens produkter säljs. Eftersom produkter är kopplade till målländer avgör den här inställningen vilka produkter som annonseras i kampanjen.
+**[!UICONTROL Sales Country]:** (endast köpkampanjer, skrivskyddad för befintliga kampanjer) Det land där
+kampanjens produkter säljs. Eftersom produkter är kopplade till målländer avgör den här inställningen vilka produkter som annonseras i kampanjen.
 
 <!-- **[!UICONTROL Campaign Priority]:** -->
 
@@ -112,11 +115,11 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 {{$include /help/_includes/merchant-id.md}}
 
-**[!UICONTROL Local Inventory Ads]:** (Endast köpkampanjer; annonsörer som redan deltar i det lokala shoppingprogrammet med [!DNL Google Merchant Center] butiker i USA, Storbritannien, DE, FR, JP och AU (valfritt) Tillåter [!DNL Google Ads] för att automatiskt lägga till din lokala lagerinformation i dina shoppingannonser på Google.com.
+**[!UICONTROL Local Inventory Ads]:** (Endast köpkampanjer; annonsörer som redan deltar i det lokala shoppingprogrammet med [!DNL Google Merchant Center] butiker i USA, Storbritannien, DE, FR, JP och AU; valfritt) Tillåter [!DNL Google Ads] att automatiskt lägga till din lokala lagerinformation i dina shoppingannonser på Google.com.
 
-**Tips:** Om du använder den här inställningen ska du inte utesluta lokala annonser i [!UICONTROL Inventory Filter] inställning.
+**Tips!** Om du använder den här inställningen ska du inte utesluta lokala annonser i inställningen [!UICONTROL Inventory Filter].
 
-**Obs!** Annonser om lokala lager kräver ytterligare två feeds för [!DNL Google Merchant Center] - en med era lokala produktdata och en annan med ert lokala produktlager. Se [!DNL Google Ads] dokumentation om mer information om [lokala shoppingannonser](https://www.google.com/retail/local-inventory-ads/).
+**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [lokala kundannonser](https://www.google.com/retail/local-inventory-ads/) finns i dokumentationen för [!DNL Google Ads].
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -126,27 +129,27 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 **[!UICONTROL Languages]:** (Endast sök- och visningsnätverk) Ett eller flera målspråk för annonser i kampanjen.
 
-[!DNL Google Ads] bestämmer användarens språk från användarens [!DNL Google] språkinställning för sökfrågans språk, den aktuella sidan eller nyligen visade sidor på sidan [!DNL Google Display Network].
+[!DNL Google Ads] bestämmer en användares språk utifrån användarens [!DNL Google]-språkinställning eller språket för sökfrågan, den aktuella sidan eller nyligen visade sidor på [!DNL Google Display Network].
 
-**[!UICONTROL Location Targets]:** Specifika användargeografiska platser att inkludera eller exkludera som mål. Som standard anges alla platser som mål. Du kan inkludera och exkludera användare i valfri kombination av platser. Undantag åsidosätter alltid inkluderingar.
+**[!UICONTROL Location Targets]:** Specifika geografiska platser för användare som ska inkluderas eller exkluderas som mål. Som standard anges alla platser som mål. Du kan inkludera och exkludera användare i valfri kombination av platser. Undantag åsidosätter alltid inkluderingar.
 
 * Om du vill ange alla platser som mål väljer du inga platser.
 
 * Så här anger du specifika platser som mål eller exkluderar:
 
-   * (Länder, delstater, storstadsområden eller städer) Klicka **[!UICONTROL Location Target]** (![Platsmål](/help/search-social-commerce/assets/location-target.png "Platsmål")) och hitta de platser som ska inkluderas och exkluderas:
+   * (Länder, lägen, storstadsområden eller städer) Klicka på **[!UICONTROL Location Target]** (![Sökvägsmål](/help/search-social-commerce/assets/location-target.png "Sökvägsmål")) och leta reda på de platser som ska inkluderas och exkluderas:
 
-      * Om du vill ta med en plats och dess underordnade platser klickar du en gång på cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas.
+      * Om du vill inkludera en plats och dess underordnade platser klickar du en gång på den intilliggande cirkeln så att en blå bock (![Inkludera](/help/search-social-commerce/assets/include.png "Inkludera")) visas.
 
-      * Om du vill utesluta en plats klickar du två gånger på den intilliggande cirkeln så att en röd bockmarkering (![Exkludera](/help/search-social-commerce/assets/exclude.png "Exkludera")) visas.
+      * Om du vill utesluta en plats klickar du två gånger på den intilliggande cirkeln så att en röd bock (![Uteslut](/help/search-social-commerce/assets/exclude.png "Uteslut")) visas.
 
       * Klicka på platsnamnet om du vill expandera en plats till dess underkomponenter (t.ex. delstater, storstadsområden eller städer i USA).
 
-      * Om du vill söka efter en plats anger eller klistrar du in minst de tre första tecknen på platsen i indatafältet. Klicka på **[!UICONTROL Include]** bredvid en plats att ta med eller **[!UICONTROL Exclude]** bredvid en plats som ska uteslutas.
+      * Om du vill söka efter en plats anger eller klistrar du in minst de tre första tecknen på platsen i indatafältet. I sökresultaten klickar du på **[!UICONTROL Include]** bredvid en plats som ska inkluderas eller **[!UICONTROL Exclude]** bredvid en plats som ska uteslutas.
 
-   * (Platser nära en adress; endast inkluderade mål) Klicka **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Address]**. Ange adressen och radien i engelska mil eller kilometer runt den adress du vill ange som mål och klicka sedan på **[!UICONTROL Add]**.
+   * (Platser nära en adress, endast inkluderade mål) Klicka på **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och klicka sedan på **[!UICONTROL Address]**. Ange adressen och radien i engelska mil eller kilometer runt den adress du vill rikta och klicka sedan på **[!UICONTROL Add]**.
 
-   * (Platser nära geografiska koordinater; endast inkluderade mål) Klicka **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och sedan klicka på **[!UICONTROL Coordinate]**. Ange latitud och longitud samt radien i engelska mil eller kilometer runt den plats du vill rikta, och klicka sedan på **[!UICONTROL Add]**.
+   * (Platser nära geografiska koordinater, endast inkluderade mål) Klicka på **[!UICONTROL Radius Target]** (![Radius Target](/help/search-social-commerce/assets/radius-target.png "Radius Target")) och klicka sedan på **[!UICONTROL Coordinate]**. Ange latitud och longitud samt radien i engelska mil eller kilometer runt den plats som du vill ha som mål och klicka sedan på **[!UICONTROL Add]**.
 
 * (Så här lägger du till en anbudsjustering för en inkluderad målplats) Ange ett värde för anbudsjustering:
 
@@ -156,11 +159,11 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 **Obs!**
 
-* Sökning, Socialt och Commerce erbjuder inte automatiska justeringar av anbudsjusteringar för följande platsmål på grund av begränsningar i de data som [!DNL Google Ads] innehåller funktioner för mappning av surfer-platser till platsmål:
+* I Sök, Socialt och Commerce finns inga automatiskt justerade budjusteringar för följande platsmål på grund av begränsningar i data som [!DNL Google Ads] tillhandahåller för mappning av surfer-platser till platsmål:
 
    * Radie-mål.
 
-   * Vissa platser nedanför delstat/provins/region/län/prefektur för vilka [!DNL Google Ads] skickar inte någon överordnad plats på surfarens URL, inklusive flygplatser och kongressdistrikt i USA.
+   * Vissa platser nedanför den delstat/provins/region/region/prefecture-nivå för vilken [!DNL Google Ads] inte skickar någon överordnad plats på surfarens URL, inklusive flygplatser och kongressdistrikt i USA.
 
 <!-- **[!UICONTROL Devices]:** -->
 
@@ -168,9 +171,10 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 ## [!UICONTROL Advanced Device Options]
 
-**[!UICONTROL Mobile Carriers]:** (Endast displaynätverk) Specifika mobiloperatörer att rikta sig till. Transportörerna sorteras efter land. Om du inte markerar något, anges alla som mål.
+**[!UICONTROL Mobile Carriers]:** (Endast visningsnätverk) Specifika mobiloperatörer att rikta sig till; bärarna sorteras
+efter land. Om du inte markerar något, anges alla som mål.
 
-**[!UICONTROL Mobile Carriers]:** (Endast bildskärmsnätverk) Specifika operativsystem att rikta sig till. Om du inte markerar något, anges alla som mål.
+**[!UICONTROL Mobile Carriers]:** (Endast visningsnätverk) Specifika operativsystem att rikta sig till. Om du inte markerar något, anges alla som mål.
 
 ## [!UICONTROL URL Options]
 
@@ -238,7 +242,7 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 {{$include /help/_includes/tracking-level.md}}
 
-**[!UICONTROL Track Product Group]:** (för [!UICONTROL EF Redirect] endast) Ej implementerat
+**[!UICONTROL Track Product Group]:** (endast för [!UICONTROL EF Redirect]) har inte implementerats
 
 <!-- **[!UICONTROL Append Parameters]:** -->
 
@@ -246,17 +250,17 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 ## [!UICONTROL Asset Groups] (per tillgångsgrupp)
 
-**[!UICONTROL Asset Group Name]:** Namnet på tillgångsgruppen. Länkar till [!DNL Google Merchant Center] produktflöden stöds inte.
+**[!UICONTROL Asset Group Name]:** Namnet på resursgruppen. Länkar till [!DNL Google Merchant Center] produktfeeds stöds inte.
 
-**[!UICONTROL Asset Group Status]:** Tillgångsgruppens status: *[!UICONTROL Active]* eller *[!UICONTROL Paused]*.
+**[!UICONTROL Asset Group Status]:** Resursgruppens status: *[!UICONTROL Active]* eller *[!UICONTROL Paused]*.
 
-**[!UICONTROL Final URL]:** Den slutliga URL:en för alla annonser som skapats från resursgruppen. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
+**[!UICONTROL Final URL]:** Den sista URL:en för alla annonser som har skapats från resursgruppen. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Upp till 15 bilder för annonsen, inklusive följande storlekar: 1) minst tre fyrkantiga bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Images]:** Upp till 15 bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
-   1. På [!UICONTROL Upload from Device] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -270,15 +274,15 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
       1. Klicka på **[!UICONTROL Proceed]**.
 
-   1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+   1. När du har angett klart bilder klickar du på **[!UICONTROL Upload]**.
 
-* Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
+* Om du vill välja bilder från din [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer bilderna.
 
-**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en liggande (4:1) logotyp. Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationer](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan överföra bilder eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en logotyp med liggande (4:1). Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
-   1. På [!UICONTROL Upload from Device] flik, klicka **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
+   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -292,76 +296,76 @@ När ni lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
       1. Klicka på **[!UICONTROL Proceed]**.
 
-   1. När du är klar med att ange bilder klickar du på **[!UICONTROL Upload]**.
+   1. När du har angett klart bilder klickar du på **[!UICONTROL Upload]**.
 
-* Välj bilder från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och markera bilderna.
+* Om du vill välja bilder från din [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer bilderna.
 
-**[!UICONTROL Videos]:** (Valfritt) Minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa. Du kan antingen ange URL:er eller välja dem från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Videos]:** (Valfritt) Minst en och upp till fem, [!DNL YouTube] videor som är minst 10 sekunder långa. Du kan antingen ange URL:er eller välja dem från din [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här anger du URL:er:
 
-   1. På [!UICONTROL Enter Video Url] anger du en URL-adress.
+   1. Ange en URL på fliken [!UICONTROL Enter Video Url].
 
-   1. (Valfritt) Om du vill lägga till en annan URL klickar du på **[!UICONTROL + Add]** och ange webbadressen.
+   1. (Valfritt) Om du vill lägga till en annan URL-adress klickar du på **[!UICONTROL + Add]** och anger URL-adressen.
 
-* Så här väljer du videofilmer från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj videoklipp.
+* Om du vill välja videofilmer från [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer videofilmerna.
 
-**[!UICONTROL Headlines]:** Minst tre och upp till fem korta rubriker med högst 30 tecken vardera. Minst en rubrik får innehålla högst 15 tecken. Om alternativet på kampanjnivå för att aktivera slutlig URL-utökning har angetts i [!DNL Google Ads]sedan [!DNL Google Ads] ersätter det här värdet med en anpassad rubrik baserad på landningssidans innehåll.
+**[!UICONTROL Headlines]:** Minst tre och upp till fem korta rubriker med högst 30 tecken vardera. Minst en rubrik får innehålla högst 15 tecken. Om alternativet på kampanjnivå för att aktivera slutlig URL-utökning är inställt inom [!DNL Google Ads], ersätter [!DNL Google Ads] det här värdet med en anpassad rubrik baserad på innehållet på landningssidan.
 
-Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
-
-* Så här skriver du text:
-
-   1. På [!UICONTROL Enter Text] anger du texten.
-
-   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
-
-* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
-
-**[!UICONTROL Long Headlines]:** Minst en och upp till fem långa rubriker med högst 90 tecken vardera. Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+Du kan antingen ange text eller välja resurser från din [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här skriver du text:
 
-   1. På [!UICONTROL Enter Text] anger du texten.
+   1. Ange texten på fliken [!UICONTROL Enter Text].
 
-   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och anger strängen.
 
-* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
+* Om du vill välja resurser från [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer resurserna.
 
-**[!UICONTROL Descriptions]:** Minst två och upp till fyra beskrivningar med högst 90 tecken vardera. Minst en beskrivning måste innehålla minst 30 tecken. Du kan antingen ange text eller välja resurser från [!UICONTROL Asset Library] — men inte båda i samma åtgärd.
+**[!UICONTROL Long Headlines]:** Minst en och upp till fem långa rubriker med högst 90 tecken vardera. Du kan antingen ange text eller välja resurser från din [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här skriver du text:
 
-   1. På [!UICONTROL Enter Text] anger du texten.
+   1. Ange texten på fliken [!UICONTROL Enter Text].
 
-   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och ange strängen.
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och anger strängen.
 
-* Välj resurser från [!UICONTROL Asset Library], klicka **[!UICONTROL Asset Library]** och välj resurser.
+* Om du vill välja resurser från [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer resurserna.
 
-**[!UICONTROL Call to Action]:** Uppmaningen att ta med i annonsen. Som standard *[!UICONTROL Automated]* är markerat och [!DNL Google Ads] väljer anropet till åtgärd. Du kan välja en annan åtgärd.
+**[!UICONTROL Descriptions]:** Minst två och upp till fyra beskrivningar med högst 90 tecken vardera. Minst en beskrivning måste innehålla minst 30 tecken. Du kan antingen ange text eller välja resurser från din [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
-**[!UICONTROL Business Name]:** Affärsnamnet med högst 25 tecken.
+* Så här skriver du text:
 
-**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Google Ads] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Google Ads] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfarenheter att rikta in sig på och kan även visa annonser för målgrupper som inte är angivna som signaler som hjälper er att uppnå era prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
+   1. Ange texten på fliken [!UICONTROL Enter Text].
+
+   1. (Valfritt) Om du vill lägga till ytterligare en textsträng klickar du på **[!UICONTROL + Add]** och anger strängen.
+
+* Om du vill välja resurser från [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer resurserna.
+
+**[!UICONTROL Call to Action]:** Anropet till åtgärd som ska inkluderas i annonsen. Som standard är *[!UICONTROL Automated]* markerat och [!DNL Google Ads] väljer anropet till åtgärden. Du kan välja en annan åtgärd.
+
+**[!UICONTROL Business Name]:** Företagsnamnet, med högst 25 tecken.
+
+**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Google Ads] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Google Ads] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfningar att rikta sig till och kan även visa annonser till målgrupper som inte har angetts som signaler som hjälper dig att uppnå dina prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
 
 >[!NOTE]
->Målgruppssignaler skiljer sig från [målgrupper på kampanjnivå och annonsnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
+>Målgruppssignaler skiljer sig från [målgruppsmål på kampanjnivå och annonsnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
 **[!UICONTROL Add new asset group]:** Gör att du kan ange en annan resursgrupp.
 
 ## [!UICONTROL Conversion Goals]
 
-**[!UICONTROL Conversion Goal]:** Om *[!UICONTROL Use account conversion goals for this campaign]* (standard) eller *[!UICONTROL Use campaign specific conversion goals]*. Om du väljer att ange konverteringsmål för kampanjen väljer du standardmål och/eller skapar ett anpassat mål för kampanjen.
+**[!UICONTROL Conversion Goal]:** Om *[!UICONTROL Use account conversion goals for this campaign]* (standard) eller *[!UICONTROL Use campaign specific conversion goals]* ska användas. Om du väljer att ange konverteringsmål för kampanjen väljer du standardmål och/eller skapar ett anpassat mål för kampanjen.
 
-Mål synkroniseras dagligen, så befintliga mål som skapats under de senaste 24 timmarna kanske inte visas. Om du vill uppdatera listan [manuellt synkronisera annonsens nätverksdata](/help/search-social-commerce/campaign-management/campaigns/sync-network.md).
+Mål synkroniseras dagligen, så befintliga mål som skapats under de senaste 24 timmarna kanske inte visas. [synkronisera annonsens nätverksdata manuellt](/help/search-social-commerce/campaign-management/campaigns/sync-network.md) om du vill uppdatera listan.
 
-Om du vill skapa ett anpassat konverteringsmål klickar du **[!UICONTROL + Add custom goal]**, ange det anpassade målnamnet och välj [konverteringsåtgärder](https://support.google.com/google-ads/answer/6032150) som ska ingå i det anpassade målet och sedan klicka **[!UICONTROL Save]**. **Obs!** Varje kampanj kan bara ha ett anpassat mål.
+Om du vill skapa ett anpassat konverteringsmål klickar du på **[!UICONTROL + Add custom goal]**, anger det anpassade målnamnet, väljer de [konverteringsåtgärder](https://support.google.com/google-ads/answer/6032150) som ska inkluderas i det anpassade målet och klickar sedan på **[!UICONTROL Save]**. **Obs!** Varje kampanj kan bara ha ett anpassat mål.
 
 >[!TIP]
 >
 >Om kampanjen ingår i en blandad portfölj är det bästa sättet att använda kampanjnivåmål som matchar konverteringsmålen i portföljens mål. Om ytterligare konverteringsmål inkluderas kan portföljens resultat påverkas.
 >
->Men för kampanjer i hybridportfolior som ni [överföra mål till annonsnätverket](/help/search-social-commerce/tools/objective-upload-to-networks.md), gör följande i annonsnätverkets redigerare i stället för här: a) lägg till det överförda söknings-, sociala och Commerce-portföljmålet (som börjar med&quot;O_ACS_OBJ&quot;) som en konverteringsåtgärd för kampanjen, och b) lägg till alla kampanjmål som innehåller [!DNL Google]-spårade konverteringar eftersom annonsnätverkets spårade mätvärden inte överförs till annonsnätverket med målet.
+>För kampanjer i hybridportfolior för vilka du [överför mål till annonsnätverket](/help/search-social-commerce/tools/objective-upload-to-networks.md) gör du följande i annonsnätverkets redigerare i stället för här: a) lägg till det överförda söknings-, sociala och Commerce-portföljsmålet (som börjar med&quot;O_ACS_OBJ&quot;) som en konverteringsåtgärd för kampanjen, och b) lägg till kampanjmål som omfattar [!DNL Google] spårade konverteringar på grund av annonsnätverksportföljen spårade mätvärden överförs inte till annonsnätverket med målet.
 
 >[!MORELIKETHIS]
 >

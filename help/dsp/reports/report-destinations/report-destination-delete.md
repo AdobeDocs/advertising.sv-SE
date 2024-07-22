@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Om du tar bort ett rapportmål påverkas leveransen av alla länkade anpassade rapporter.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]**.
+1. Klicka på **[!UICONTROL Reports]** > **[!UICONTROL Report Destinations]** på huvudmenyn.
 
 1. Håll markören över rapportens målrad och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 
-1. Klicka på **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
@@ -26,4 +26,3 @@ Om du tar bort ett rapportmål påverkas leveransen av alla länkade anpassade r
 >* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-

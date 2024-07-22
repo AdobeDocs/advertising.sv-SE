@@ -1,9 +1,9 @@
 ---
 title: Ta bort rapportflöden för kalkylblad
 description: Lär dig hur du tar bort kalkylbladsfeeds.
-exl-id: fbe8a578-8bcb-4755-96d0-e82aab313e5e
+exl-id: 762e4438-3986-4ae9-92af-335563c23bf7
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -18,20 +18,20 @@ ht-degree: 0%
 >
 >Om rapportmallen som är kopplad till en feed tas bort, tas den automatiskt bort.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid varje feed som du vill ta bort.
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i verktygsfältet ovanför datatabellen.
 
-1. Klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
->* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
+>* [Om tabellrapportfeeds](spreadsheet-feed-about.md)
 >* [Skapa ett kalkylbladsrapportflöde](spreadsheet-feed-create.md)
->* [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
->* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
->* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
->* [Visa eller spara en matningsfil för kalkylbladsrapport](spreadsheet-feed-view-or-save.md)
->* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Skapa en [!DNL Excel] mall för ett kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
+>* [Redigera inställningar för kalkylbladsrapportfeed](spreadsheet-feed-edit.md)
+>* [Inställningar för kalkylbladsrapportfeed](spreadsheet-feed-settings.md)
+>* [Visa eller spara en kalkylbladsrapportfeed-fil](spreadsheet-feed-view-or-save.md)
+>* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)

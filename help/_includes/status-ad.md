@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Statusfält i annonsinställningar
 
-**[!UICONTROL Status]:** Annonsens visningsstatus: *Aktiv* (för att möjliggöra budgivning, standard), *Pausad* (för att inaktivera budgivning), eller *Borttagen* (stryka annonsen, befintliga annonser).
+**[!UICONTROL Status]:** Annonsens visningsstatus: *Aktiv* (för att aktivera budgivning: standard), *Pausad* (för att inaktivera budgivning) eller *Borttagen* (för att ta bort annonsen, endast befintliga annonser).

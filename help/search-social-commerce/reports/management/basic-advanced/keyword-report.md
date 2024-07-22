@@ -1,18 +1,18 @@
 ---
 title: '[!UICONTROL Keyword Report]'
 description: Läs mer om [!UICONTROL Keyword Report].
-exl-id: e274e363-2ac5-4ba6-a2df-7786c3c3423f
+exl-id: eb2c7cb8-3f0d-4ae6-a1e2-127de315e1ce
 feature: Search Reports, Search Basic Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Keyword Report]
 
-The [!UICONTROL Keyword Report] innehåller kostnads-, klicknings- och (valfritt) konverteringsdata för nyckelord som har fått visningar inom en eller flera annonsgrupper. Du kan även filtrera data så att de bara innehåller nyckelord som innehåller en viss textsträng. Som standard innehåller data en rad för varje tillämplig nyckelordskombination och matchningstypkombination som tog emot visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten och sedan som standard som kostnad.
+[!UICONTROL Keyword Report] innehåller kostnads-, klicknings- och (valfritt) konverteringsdata för nyckelord som har fått visningar inom en eller flera annonsgrupper. Du kan även filtrera data så att de bara innehåller nyckelord som innehåller en viss textsträng. Som standard innehåller data en rad för varje tillämplig nyckelordskombination och matchningstypkombination som tog emot visningar för varje tidsenhet i det angivna datumintervallet. Raderna är i stigande ordning först efter startdatumet för tidsenheten och sedan som standard som kostnad.
 
 Du kan även inkludera annonsörspecifika etikettklassificeringar.
 
@@ -20,11 +20,11 @@ Du kan visa data för de senaste 36 månaderna.
 
 >[!NOTE]
 >
->Om rapporten innehåller data från annonsgrupper i innehållsanpassade sökkampanjer kan [!UICONTROL Keyword] i den ifyllda rapporten innehåller tillämpliga annonsgruppsnamn, t.ex. &quot;(adgroup content) Your Ad Group Name.&quot;
+>Om rapporten innehåller data från annonsgrupper i innehållsaktiverade sökkampanjer, innehåller kolumnen [!UICONTROL Keyword] i den slutförda rapporten tillämpliga annonsgruppsnamn, till exempel &quot;(adgroup content) Ditt annonsgruppsnamn.&quot;
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för grundläggande och avancerade rapporter](basic-advanced-report-columns.md).
 
 * [!UICONTROL Keyword]
 * [!UICONTROL Keyword Status]
@@ -47,6 +47,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Grundläggande och avancerade rapporter](basic-advanced-report-about.md)
->* [Generera en grundläggande eller avancerad rapport](basic-advanced-report-generate.md)
+>* [Om grundläggande och avancerade rapporter](basic-advanced-report-about.md)
+>* [Generera en enkel eller avancerad rapport](basic-advanced-report-generate.md)
 >* [Grundläggande och avancerade rapportinställningar](basic-advanced-report-settings.md)

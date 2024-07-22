@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hantera lagerdataflödesfiler
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder) och [!DNL Yandex] enbart konton*
 
 Om du skickar in dina egna feed-data måste du överföra filer som innehåller dina produktdata för att dynamiskt skapa kampanjstruktur, annonser och nyckelord baserat på dina produktdata. Du kan sedan koppla dem till annonsnätverksspecifika annonsmallar och bearbeta data via mallarna, och sedan publicera data i relevanta annonsnätverk. Du kan associera flera mallar med en feed-fil, men varje mall kan bara associeras med en feed-fil.
 
@@ -22,25 +22,25 @@ Om du skickar in dina egna feed-data måste du överföra filer som innehåller 
 
 Du kan överföra och bearbeta dataflödesfiler på något av följande sätt:
 
-* **Använda FTP automatiskt:** Du kan överföra filer direkt till en FTP-katalog. Flödestjänsten söker efter nya filer varannan timme. När du har överfört en fil för första gången kan du koppla den till en annonsspecifik mall. Senare kopplas alla filer som du överför med samma namn automatiskt till samma mall. Beroende på hur du [konfigurera inställningar för feed-data](feed-settings-manage.md), Search, Social, &amp; Commerce kan automatiskt sprida flödesuppgifterna via alla tillämpliga mallar och eventuellt publicera kampanjdata och annonsdata till relevanta annonsnätverk.
+* **Använd FTP automatiskt:** Du kan överföra filer direkt till en FTP-katalog. Feed-tjänsten söker efter nya filer varannan timme. När du har överfört en fil för första gången kan du koppla den till en annonsspecifik mall. Senare kopplas alla filer som du överför med samma namn automatiskt till samma mall. Beroende på hur du [konfigurerar feed-datainställningarna](feed-settings-manage.md) kan Search, Social och Commerce automatiskt sprida feed-data via alla tillämpliga mallar och eventuellt publicera kampanjdata och annonsdata till relevanta annonsnätverk.
 
   Om du vill konfigurera en FTP-katalog för insättning och automatisk bearbetning av datafiler kontaktar du kontogruppen på Adobe.
 
-* **Manuell bearbetning:** Du kan göra manuellt [skicka feed-filer](#feed-file-upload) från [!UICONTROL Advanced] (ACM). När du har associerat en feed-fil med en eller flera annonsspecifika [mallar](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md)kan ni generera kampanjer och annonser med [sprida flödesuppgifter via mallar](feed-data-propagate.md) enligt [inställningar för feed-data](feed-settings-manage.md). Du kan också förhandsgranska genererade data i kampanjhierarkivyer, generera en kalkylbladsfil för granskning eller generera en kalkylbladsfil för omedelbar publicering i annonsnätverket. Om du inte skickar informationen direkt kan du [förhandsgranska den](propagated-data-view.md) och [posta](propagated-data-post.md) senare. Du kan göra det senare [ersätta den befintliga feed-filen med en ny fil](#feed-file-replace) utan att förlora befintliga mallassociationer.
+* **Manuell bearbetning:** Du kan [överföra feed-filer](#feed-file-upload) manuellt från ACM-vyn ([!UICONTROL Advanced]). När du har associerat en matningsfil med en eller flera annonsspecifika [mallar](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) kan du generera kampanj- och annonsdata genom att [sprida matningsdata via mallar](feed-data-propagate.md) enligt [inställningarna för matningsdata](feed-settings-manage.md). Du kan också förhandsgranska genererade data i kampanjhierarkivyer, generera en kalkylbladsfil för granskning eller generera en kalkylbladsfil för omedelbar publicering i annonsnätverket. Om du inte skickar data direkt kan du [förhandsgranska dem](propagated-data-view.md) och [publicera dem](propagated-data-post.md) senare. Du kan senare [ersätta den befintliga feed-filen med en ny fil](#feed-file-replace) utan att förlora befintliga mallassociationer.
 
 ## Krav för flödesfiler
 
 Inga specifika datafält krävs i en enskild fil, men följande krävs för varje fil:
 
-* Den första raden i filen måste innehålla kolumnnamn (kallas även *rubriker*), som motsvarar de dynamiska parametrarna i de associerade mallarna. De återstående raderna måste innehålla data som motsvarar kolumnnamnen. Varje datarad (rad) får bara omfatta en kontokomponent, till exempel en kampanj eller en annons. Värdena på alla rader måste separeras med tabbtecken eller kommatecken. Se [CSV-exempelfil](#example-csv-feed-file) och [TSV-exempelfil](#example-tsv-feed-file) nedan.
+* Den första raden i filen måste innehålla kolumnnamn (kallas även *rubriker*), som motsvarar de dynamiska parametrarna i de associerade mallarna. De återstående raderna måste innehålla data som motsvarar kolumnnamnen. Varje datarad (rad) får bara omfatta en kontokomponent, till exempel en kampanj eller en annons. Värdena på alla rader måste separeras med tabbtecken eller kommatecken. Se exempelfilen [CSV](#example-csv-feed-file) och [TSV-exempelfilen](#example-tsv-feed-file) nedan.
 
-* Filen kan ha vilken storlek som helst men måste ha något av följande filtillägg: `.tsv` (för tabbseparerade värden), `.txt` (for [!DNL Unicode]-kompatibel ASCII-text), `.csv` (för kommaavgränsade värden), eller `.zip` (för en enskild fil i komprimerat ZIP-format som packar upp till en TSV-fil).
+* Filen kan ha vilken storlek som helst men måste ha något av följande filtillägg: `.tsv` (för tabbavgränsade värden), `.txt` (för [!DNL Unicode]-kompatibel ASCII-text), `.csv` (för kommaseparerade värden) eller `.zip` (för en fil i komprimerat ZIP-format som packar upp till en TSV-fil).
 
 * Filnamnet är skiftlägeskänsligt och får inte innehålla följande tecken: `# % & * | \ : " < > . ? /`
 
 * Om du sparar filer i en FTP-katalog måste du använda samma filnamn för varje version av filen.
 
-* ([!DNL Google Ads] endast mallar) Om din mall använder parametern Param2 eller Param2 i textannonser måste motsvarande datafält i matningsfilen innehålla numeriska data, utan några monetära symboler.
+* ([!DNL Google Ads] endast mallar) Om din mall använder annonsparametern Param2 eller Param2 i textannonser, måste motsvarande datafält i matningsfilen innehålla numeriska data, utan några monetära symboler.
 
 * Om du vill uppdatera befintliga kontokomponenter inkluderar du namnet på den befintliga kampanjen (och dess komponenter, om det är relevant). Om den befintliga strukturen inte anges skapas nya komponenter.
 
@@ -82,13 +82,13 @@ shoes<TAB>Clarks<TAB>20
 
 Du kan öppna eller hämta alla feedsfiler som har överförts manuellt eller med FTP.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Leta reda på feed-filen:
 
 1. Leta reda på en mall som använder feed-filen i listan Mallar.
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Feeds]** om du vill öppna en lista med alla feed-filer.
+1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen för att öppna en lista över alla feed-filer.
 
 1. Klicka på feed-filens namn.
 
@@ -101,15 +101,15 @@ Mer information finns i webbläsarens onlinehjälp.
 >[!NOTE]
 > Om du kopplar en mall till en manuellt överförd fil, men sedan överför en annan fil med samma namn, filtillägg och grammatiska skiftläge via FTP, används FTP-filen när du sprider data via mallen. Till exempel ersätter myfile.csv myfile.csv, men det gör inte Myfile.CSV.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Feeds]**.
+1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 
-1. Ovanför datatabellen klickar du **[!UICONTROL Upload]**.
+1. Klicka på **[!UICONTROL Upload]** ovanför datatabellen.
 
-1. Ange vilken fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på **[!UICONTROL Browse]** för att hitta filen på enheten eller i nätverket.
+1. Ange den fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på **[!UICONTROL Browse]** för att leta reda på filen på enheten eller i nätverket.
 
-1. Klicka **[!UICONTROL Upload].
+1. Klicka på **[!UICONTROL Upload].
 
 Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlängder senare förrän du korrigerar värdena. Alla kolumnnamn i filen blir tillgängliga i mallar som dynamiska parametrar.
 
@@ -117,19 +117,19 @@ Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlä
 
 När du ersätter en feed-fil - även om den nya filen har ett annat filnamn eller tillägg - finns det kvar alla befintliga mallassociationer. Den nya filen används när du sprider data via alla mallar som ursprungligen var associerade med den tidigare filen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Gör något av följande:
 
-   * I [!UICONTROL Feed] kolumn för tillämplig mall, klicka på ![Fler alternativ](/help/search-social-commerce/assets/options.png "Fler alternativ") och markera **[!UICONTROL Re-upload]**.
+   * Klicka på ![Fler alternativ](/help/search-social-commerce/assets/options.png "Fler alternativ") i kolumnen [!UICONTROL Feed] för en tillämplig mall och välj **[!UICONTROL Re-upload]**.
 
-   * Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Feeds]**. Markera kryssrutan bredvid det befintliga filnamnet i listan över feedsfiler. Ovanför datatabellen klickar du **[!UICONTROL Upload]**.
+   * Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen. Markera kryssrutan bredvid det befintliga filnamnet i listan över feedsfiler. Klicka på **[!UICONTROL Upload]** ovanför datatabellen.
 
    >[!NOTE]
    >
-   >Feed-filens källa (&quot;[!UICONTROL FTP]&quot; eller &quot;&amp;mdash&quot; för manuellt överförda filer) ingår i [!UICONTROL Source] kolumn.
+   >Källan till matningsfilen (&quot;[!UICONTROL FTP]&quot; eller &quot;&amp;mdash&quot; för manuellt överförda filer) ingår i kolumnen [!UICONTROL Source].
 
-1. Ange vilken fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på **[!UICONTROL Browse]** för att hitta filen på enheten eller i nätverket.
+1. Ange den fil som ska överföras antingen genom att ange den fullständiga sökvägen och filnamnet eller genom att klicka på **[!UICONTROL Browse]** för att leta reda på filen på enheten eller i nätverket.
 
 Även om den nya filen har ett annat filnamn eller filtillägg skrivs den befintliga filen över med den nya filen.
 
@@ -141,22 +141,22 @@ Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlä
 
 Du kan ta bort alla feed-filer som har överförts manuellt eller via FTP. När du tar bort en feed-fil är den inte längre kopplad till några mallar.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
-1. Klicka på i verktygsfältet ovanför datatabellen **[!UICONTROL Feeds]**.
+1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 
 1. Markera kryssrutan bredvid varje fil som du vill ta bort.
 
-1. Ovanför datatabellen klickar du **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** ovanför datatabellen.
 
-1. Klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
->* [Om lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
->* [Sprida feed-data via mallar](feed-data-propagate.md)
->* [Visa data som genererats från feeds](propagated-data-view.md)
+>* [Om lagerfeeds](/help/search-social-commerce/campaign-management/inventory-feeds/inventory-feeds-about.md)
+>* [Sprid feed-data via mallar](feed-data-propagate.md)
+>* [Visa data som har genererats från feeds](propagated-data-view.md)
 >* [Redigera data som genererats från feeds](propagated-data-edit.md)
->* [Posta kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
+>* [Publicera kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
 >* [Stoppa ett bokföringsjobb för lagerfeed-data](stop-job.md)
 >* [Status för data som genererats från feeds](propagated-data-status.md)

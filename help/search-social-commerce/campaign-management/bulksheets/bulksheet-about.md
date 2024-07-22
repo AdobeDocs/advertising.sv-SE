@@ -24,13 +24,13 @@ Alla kalkylblad, valideringsfelfiler för landningssidor och andra felfiler tas 
 
 ## Ad Network-funktionalitet
 
-* **Ladda ned, ladda upp och posta:**  [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising]och [!DNL Yandex] konton
+* **Hämta, överföra och publicera:** [!DNL Baidu], [!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Yandex] konton
 
-* **Endast nedladdning och överföring:** [!DNL Naver] konton
+* **Hämta och överför endast:** [!DNL Naver] konton
 
-  Du kan överföra [!DNL Naver] data som ska användas i Search, Social och Commerce, men som inte kan publiceras i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
+  Du kan överföra [!DNL Naver]-data för användning i Search, Social och Commerce, men du kan inte publicera dem i annonsnätverket. Du kan även hämta befintliga (osynkroniserade) data.
 
-* **Hämta endast data:**  [!DNL Pinterest], [!DNL Yahoo Native]och [!DNL Yahoo! Display Network] konton
+* **Hämta endast data:** [!DNL Pinterest], [!DNL Yahoo Native] och [!DNL Yahoo! Display Network] konton
 
   Du kan hämta befintliga (osynkroniserade) data.
 
@@ -44,15 +44,15 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
 
 1. [Hämta data för ett eller flera konton, kampanjer eller annonsgrupper till en kalkylbladsfil](bulksheet-download.md). Om du vill kan du manuellt fylla i ett annonsspecifikt kalkylblad och överföra filen.
 
-1. [Validera landningssidorna](bulksheet-validate-landing-pages.md) i de grundläggande (slutliga) URL:erna eller mål-URL:erna i filen.
+1. [Validera landningssidorna](bulksheet-validate-landing-pages.md) i bas-URL:erna (slutgiltiga) eller mål-URL:erna i filen.
 
 1. När du behöver lägga till data eller göra korrigeringar:
 
-   1. [Exportera filen](bulksheet-export.md) till datorn och redigera den i [!DNL Microsoft Excel].
+   1. [Exportera filen ](bulksheet-export.md) till skrivbordet och redigera den i [!DNL Microsoft Excel].
 
-   1. [Överför den redigerade filen manuellt](bulksheet-upload.md) till Search, Social, &amp; Commerce, eller [överföra filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
+   1. [Överför den redigerade filen ](bulksheet-upload.md) manuellt till Search, Social och Commerce, eller [överför filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
 
-1. (För filer som överförts manuellt) [Bokför filen](bulksheet-post.md) till annonsnätverket antingen när du överför det eller senare.
+1. (För filer som överförts manuellt) [Lägg upp filen](bulksheet-post.md) i annonsnätverket antingen när du överför den eller senare.
 
 1. (Om det behövs) Hämta eventuella nya felfiler, korrigera raderna och posta om filen.
 
@@ -62,13 +62,13 @@ Search, Social, &amp; Commerce överför och skickar så många datarader som de
 
 När fel uppstår under en bladåtgärd genereras en av följande två typer av felfiler:
 
-* **[!UICONTROL EF Errors]:**  När en fil eller enskilda rader i filen inte kan överföras eller bearbetas, visas en felfil som kallas `<uploaded file name>_ef_errors.<extension used for the bulksheet>` skapas. Om problemet gäller enskilda rader inkluderas dessa rader, med en förklaring av varje fel så att de kan korrigeras.
+* **[!UICONTROL EF Errors]:** När en fil eller enskilda rader i filen inte kan överföras eller bearbetas skapas en felfil med namnet `<uploaded file name>_ef_errors.<extension used for the bulksheet>`. Om problemet gäller enskilda rader inkluderas dessa rader, med en förklaring av varje fel så att de kan korrigeras.
 
-* **[!UICONTROL SE Errors]:**  När en fil har publicerats men annonsnätverket inte accepterar vissa eller alla data, visas en felfil med namnet `<uploaded file name>_se_errors.<extension used for the bulksheet>` skapas. När vissa men inte alla rader accepterades, visar felfilen de rader som inte hade bokförts och en förklaring av varje fel så att de kan korrigeras. Felmeddelandena visas i de tre sista kolumnerna på varje rad.
+* **[!UICONTROL SE Errors]:** När en fil har publicerats men annonsnätverket inte accepterar vissa eller alla data skapas en felfil med namnet `<uploaded file name>_se_errors.<extension used for the bulksheet>`. När vissa men inte alla rader accepterades, visar felfilen de rader som inte hade bokförts och en förklaring av varje fel så att de kan korrigeras. Felmeddelandena visas i de tre sista kolumnerna på varje rad.
 
 >[!NOTE]
 >
->Om du publicerar [!DNL Google Ads] annonser som bryter mot annonsnätverkets annonspolicyer men som kan vara berättigade till undantag, så postas dessa annonser automatiskt om med begäran om undantag. Om begäran om undantag misslyckas inkluderas information om överträdelsen i felfilen.
+>Om du publicerar [!DNL Google Ads] annonser som bryter mot annonsnätverkets annonspolicyer, men som kan vara berättigade till undantag, kommer dessa annonser automatiskt att postas på nytt med begäran om undantag. Om begäran om undantag misslyckas inkluderas information om överträdelsen i felfilen.
 
 Du kan hämta vilken typ av felfil du vill, korrigera direkt i raderna och sedan överföra och publicera filen igen.
 

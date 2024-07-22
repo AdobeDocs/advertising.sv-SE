@@ -16,17 +16,17 @@ Pausa en aktiv placering eller aktivera en pausad placering när den ligger inom
 
 ## Pausa en direktplacering
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Pause]** bredvid placeringsnamnet.
 
 ## Aktivera en pausad placering
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Activate]** bredvid placeringsnamnet.
 
 >[!MORELIKETHIS]
 >

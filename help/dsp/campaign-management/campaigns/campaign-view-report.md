@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Visa en detaljerad rapport för en kampanj
 
-The <!--legacy --> kampanjnivårapport innehåller en översikt och avsnitt om [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability]och [!UICONTROL Audience Performance] data.
+Kampanjnivårapporten <!--legacy --> innehåller en översikt och avsnitt om data för [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability] och [!UICONTROL Audience Performance].
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Gör något av följande:
-   * Klicka **[!UICONTROL ...]** > **[!UICONTROL View report]** i det övre högra verktygsfältet.
-   * Klicka på bredvid kampanjnamnet  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+   * Klicka på **[!UICONTROL ...]** > **[!UICONTROL View report]** i det övre högra verktygsfältet.
+   * Klicka på **[!UICONTROL ...]** > **[!UICONTROL View report]** bredvid kampanjnamnet.
 
 >[!MORELIKETHIS]
 >

@@ -5,14 +5,14 @@ feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
 source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
-# Valutor som stöds i Adobe-reklam
+# Valutor som stöds i Adobe Advertising
 
-Adobe Advertising har stöd för följande valutor.
+Adobe Advertising stöder följande valutor.
 
 
 >[!NOTE]
@@ -30,7 +30,7 @@ Adobe Advertising har stöd för följande valutor.
 | CNY | Kinesiska renminbi |
 | DKK | Danska kronor |
 | EUR | Euro |
-| GBP | Storbritannien |
+| GBP | UK Pound |
 | HKD | Hongkongdollar |
 | INR | Indiska rupier |
 | JPY | Japanska yen |
@@ -38,7 +38,7 @@ Adobe Advertising har stöd för följande valutor.
 | MYR | Malaysiska ringgit |
 | NZD | nyzeeländska dollar |
 | RUB | Ryska rubel |
-| SGD | Singapore-dollar |
+| SGD | Singaporedollar |
 | THB | Thailändska baht |
 | PROVA | Turkiska lira |
 | USD | Amerikanska dollar |
@@ -49,5 +49,5 @@ Adobe Advertising har stöd för följande valutor.
 
 ## [!DNL Adobe Advertising Search, Social, & Commerce]
 
-Alla valutor som stöds av sökmotorer som stöds. Det här är samma sak som [som stöds av [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
+Alla valutor som stöds av sökmotorer. Detta är samma som [de som stöds av  [!DNL Google Ads]](https://developers.google.com/adwords/api/docs/appendix/codes-formats#currency-codes).
 

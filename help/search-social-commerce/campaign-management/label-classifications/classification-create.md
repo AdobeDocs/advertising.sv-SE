@@ -16,17 +16,17 @@ Varje annonsör kan ha upp till 30 etikettklassificeringar.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
-1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
+1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
 1. Ange ett unikt etikettklassificeringsnamn och klicka sedan på **[!UICONTROL Save]**.
 
-   Namnet måste vara unikt för annonserarkontot och bestå av [ASCII-tecken 32-126](https://www.asciitable.com/)och den maximala längden är 27 enkelbyte-tecken. Namnet får inte vara identiskt med namnet på en befintlig rapportkolumn eller en befintlig kalkylbladskolumn. Se namnen på kolumnerna i kalkylbladet [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Visa nätverk](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md)och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
+   Namnet måste vara unikt för annonserarkontot och bestå av [ASCII-tecken 32-126](https://www.asciitable.com/), och den maximala längden är 27 enkelbyte-tecken. Namnet får inte vara identiskt med namnet på en befintlig rapportkolumn eller en befintlig kalkylbladskolumn. Se namnen på kalkylbladskolumner för [Baidu](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md), [Naver](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-naver.md), [Yahoo! Japan Ads](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-japan.md), [Yahoo! Visa nätverket ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yahoo-display-network.md) och [Yandex](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-yandex.md).
 
-När du har skapat en etikettklassificering kan du skapa specifika etikettvärden för klassificeringen och tilldela etikettvärdena till kontoenheter från [kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med glödlampor](classification-values-assign-bulksheets.md).
+När du har skapat en etikettklassificering kan du skapa specifika etikettvärden för klassificeringen och tilldela etikettvärden till kontoentiteter från [kampanjhanteringsvyerna](classification-values-assign-campaign-management.md) eller [med hjälp av kalkylblad](classification-values-assign-bulksheets.md).
 
 >[!MORELIKETHIS]
 >
->* [Etikettklassificeringar](classification-about.md)
+>* [Om etikettklassificeringar](classification-about.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter från kampanjhanteringsvyer](classification-values-assign-campaign-management.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad](classification-values-assign-bulksheets.md)
 >* [Ta bort etikettklassificeringsvärden från kontokomponenter](classification-values-remove.md)

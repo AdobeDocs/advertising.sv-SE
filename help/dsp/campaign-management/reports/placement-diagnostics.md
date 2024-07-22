@@ -18,11 +18,11 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
 ## Information i placeringsdiagnostikrapporter
 
-* **[!UICONTROL Change Log]:** Visar ändringar av inställningar för nyckelplacering, t.ex. namn, status och högsta bud. Varje post innehåller datum och användarnamn för den person som gjorde ändringen.
+* **[!UICONTROL Change Log]:** Visar ändringar i inställningar för nyckelplacering, till exempel namn, status och högsta bud. Varje post innehåller datum och användarnamn för den person som gjorde ändringen.
 
 * **[!UICONTROL Ad Approvals]:** Visar om annonser har godkänts eller avvisats av lagerleverantörerna. Du kan ändra status för en annons (t.ex. pausa en avvisad annons) eller öppna annonsinställningarna.
 
-* **[!UICONTROL Non Bids]:** Visar varför DSP inte lade något bud.
+* **[!UICONTROL Non Bids]:** Visar varför DSP inte lade något bud på placeringen.
 
 ## Öppna diagnostikrapporter för placering
 
@@ -30,13 +30,13 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
    1. Öppna placeringsinställningarna:
 
-      1. Klicka på **[!UICONTROL Campaigns]**.
+      1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
-      1. Klicka på kampanjens namn och klicka sedan på **[!UICONTROL Placements]**.
+      1. Klicka på kampanjens namn och sedan på **[!UICONTROL Placements]**.
 
-      1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Edit]**.
+      1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid placeringsnamnet.
 
-   1. Klicka på uppe till höger ![Placement Diagnostics](/help/dsp/assets/placement-diagnostics.png).
+   1. Klicka på ![Placeringsdiagnostik](/help/dsp/assets/placement-diagnostics.png) i det övre högra hörnet.
 
 1. Gör något av följande:
 
@@ -46,7 +46,7 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
       1. (Valfritt) Filtrera rapportresultaten:
 
-         * Ändra rapportperioden från de senaste 14 dagarna till en annan period på menyn Datum (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* eller *[!UICONTROL Last 1 year]*).
+         * Ändra rapportperioden från de senaste 14 dagarna till en annan punkt på datummenyn (*[!UICONTROL Last 30 days],* *[!UICONTROL Last 60 days],* *[!UICONTROL Last 90 days],* eller *[!UICONTROL Last 1 year]*).
 
          * I den vänstra menyn filtrerar du rapporten med ett specifikt användarnamn.
 
@@ -54,15 +54,15 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
    * Så här visar du status för annonsgodkännanden:
 
-      1. Klicka på uppe till höger **[!UICONTROL Ad Approvals]**.
+      1. Klicka på **[!UICONTROL Ad Approvals]** i det övre högra hörnet.
 
-      1. (Valfritt) Om du vill pausa eller aktivera annonsen klickar du på statusväxeln (![Statusväxling](/help/dsp/assets/status-switch.png)) i kolumnen Ad.
+      1. (Valfritt) Om du vill pausa eller aktivera annonsen klickar du på statusväxeln (![statusväxel](/help/dsp/assets/status-switch.png)) i annonskolumnen).
 
       1. (Valfritt) Om du vill öppna inställningarna för en annons klickar du på **[!UICONTROL View Ad]** bredvid annonsen.
 
    * För att se varför DSP inte lade något bud på utplaceringen:
 
-      1. Klicka på uppe till höger **[!UICONTROL Non Bids]**.
+      1. Klicka på **[!UICONTROL Non Bids]** i det övre högra hörnet.
 
       1. (Valfritt) Om du vill ändra datumintervallet klickar du i datumfältet och väljer ett annat datum eller datumintervall.
 

@@ -1,11 +1,11 @@
 ---
 title: Tilldela klassificeringsvärden till kontokomponenter från kampanjhanteringsvyer
 description: Lär dig hur du tilldelar klassificeringsvärden till kontokomponenter.
-exl-id: 7e55d7d8-5e12-409b-ad5d-c53cbf24c7c9
+exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 >[!NOTE]
 >
->Dina nyckelord och din annonskopia för vissa annonsnätverk och kampanjtyper är [ej ändringsbar](/help/search-social-commerce/campaign-management/faqs-campaigns.md), vilket innebär att om du redigerar dem tas den befintliga enheten bort och en ny skapas. När en befintlig enhet tas bort på det här sättet tilldelas inte etikettklassificeringen till den nya enheten.
+>Dina nyckelord och din annonskopia för vissa annonsnätverk och kampanjtyper är [inte ändringsbara](/help/search-social-commerce/campaign-management/faqs-campaigns.md), vilket innebär att om du redigerar dem tas den befintliga entiteten bort och en ny skapas. När en befintlig enhet tas bort på det här sättet tilldelas inte etikettklassificeringen till den nya enheten.
 
-1. Klicka **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** och välj sedan kontokomponentvyn.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** och välj sedan kontokomponentvyn.
 
 1. Gör något av följande:
 
-   * (Om du vill tilldela värden till en enskild enhet) Håll markören över enhetsnamnet klickar du på ![Menyknapp](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyknapp")och sedan markera **[!UICONTROL Classification]**.
+   * (Om du vill tilldela värden till en enskild enhet) Håll markören över enhetsnamnet, klicka på ![Menyknappen](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyknapp") och välj sedan **[!UICONTROL Classification]**.
 
    * (Så här tilldelar du värden till en eller flera enheter):
 
       * Markera kryssrutan bredvid varje relevant rad.
 
-        Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md).&quot;
+        Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
 
-      * Klicka på i verktygsfältet ovanför datatabellen ![Mer](/help/search-social-commerce/assets/more.png "Mer")och klicka sedan på **[!UICONTROL Classification]**.
+      * Klicka på ![Mer](/help/search-social-commerce/assets/more.png "Mer") i verktygsfältet ovanför datatabellen och klicka sedan på **[!UICONTROL Classification]**.
 
-1. I [!UICONTROL Assignment Details]gör du något av följande:
+1. Gör något av följande i [!UICONTROL Assignment Details]:
 
    * Om du vill ändra befintliga klassificeringsvärden till nya värden väljer du **[!UICONTROL Set To]**.
 
@@ -54,25 +54,25 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 1. Gör följande för varje tillämpligt klassificeringsvärde:
 
-   1. I **[!UICONTROL Classification]** kolumn, ange klassificeringsnamnet:
+   1. I kolumnen **[!UICONTROL Classification]** anger du klassificeringsnamnet:
 
       * Om du vill använda en befintlig klassificering klickar du på klassificeringsnamnet för att expandera den.
 
-      * Om du vill skapa en klassificering klickar du [!UICONTROL +]. Ange klassificeringsnamnet i indatafältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") för att omedelbart spara klassificeringen.
+      * Om du vill skapa en klassificering klickar du på [!UICONTROL +]. Ange klassificeringsnamnet i indatafältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") för att spara klassificeringen omedelbart.
 
-        Namnet måste bestå av [ASCII-tecken 32-126](https://www.asciitable.com/)och den maximala längden är 27 enkelbyte-tecken.
+        Namnet måste bestå av [ASCII-tecken 32-126](https://www.asciitable.com/) och får innehålla högst 27 enkelbyte-tecken.
 
-   1. I **[!UICONTROL Value Name]** -kolumn anger du namnet på värdet:
+   1. Ange värdets namn i kolumnen **[!UICONTROL Value Name]**:
 
       * Om du vill använda ett befintligt värde klickar du på värdenamnet för att markera det.
 
-      * Om du vill skapa ett värde klickar du [!UICONTROL +]. Ange värdet i inmatningsfältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") för att omedelbart spara värdet.
+      * Klicka på [!UICONTROL +] om du vill skapa ett värde. Ange värdet i indatafältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") för att spara värdet direkt.
 
         Maxlängden är 100 tecken och kan innehålla ASCII-tecken och tecken som inte är ASCII-tecken.
 
 1. (Valfritt) Ange ytterligare information:
 
-   1. Nästa till **[!UICONTROL Additional Details]**, klicka ![Öppna](/help/search-social-commerce/assets/chevron-up.png "Öppna") för att utöka detaljerna.
+   1. Klicka på ![Öppna](/help/search-social-commerce/assets/chevron-up.png "Öppna") bredvid **[!UICONTROL Additional Details]** för att utöka informationen.
 
    1. Ange ett valfritt **[!UICONTROL Project Name]** och/eller valfritt **[!UICONTROL Description]**.
 
@@ -80,7 +80,7 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 >[!MORELIKETHIS]
 >
->* [Etikettklassificeringar](classification-about.md)
+>* [Om etikettklassificeringar](classification-about.md)
 >* [Skapa en etikettklassificering](classification-create.md)
 >* [Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalkylblad](classification-values-assign-bulksheets.md)
 >* [Ta bort etikettklassificeringsvärden från kontokomponenter](classification-values-remove.md)

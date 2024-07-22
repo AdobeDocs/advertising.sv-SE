@@ -1,16 +1,16 @@
 ---
-title: '''[!DNL Yahoo! Japan Ads] kampanjinställningar'
+title: '[!DNL Yahoo! Japan Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Yahoo! Japan Ads] kampanjer.
-exl-id: f728a880-27d8-478a-8480-a00b0fcab293
+exl-id: 29acde0f-13f6-422d-b611-23ebb2ee70d9
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# [!DNL Yahoo! Japan Ads] kampanjinställningar
+# Inställningar för [!DNL Yahoo! Japan Ads]-kampanj
 
 ## \[Kampanjskapande skärm\]
 
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
-**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt inom kontot.
+**[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt i kontot.
 
 <!-- **[!UICONTROL Start date]:** -->
 
 {{$include /help/_includes/start-date.md}}
 
-**[!UICONTROL Status]:** Visningsstatus för kampanjen: *Aktiv* eller *Pausad*. Standardinställningen för nya annonskampanjer är *Aktiv*.
+**[!UICONTROL Status]:** Visningsstatusen för kampanjen: *Aktiv* eller *Pausad*. Standardvärdet för nya annonskampanjer är *Aktiv*.
 
 <!-- **[!UICONTROL End date]:** -->
 

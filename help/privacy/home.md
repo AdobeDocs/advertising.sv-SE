@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # Adobe Advertising-support for konsumentintegritet
 
-Adobe Advertising ger säkerhets- och integritetskontroller för att hjälpa annonsörskunder att följa följande sekretesslagstiftning:
+Adobe Advertising tillhandahåller säkerhets- och integritetskontroller för att hjälpa annonsörskunder att följa följande sekretesslagstiftning:
 
 * Den allmänna dataskyddsförordningen (GDPR)
 

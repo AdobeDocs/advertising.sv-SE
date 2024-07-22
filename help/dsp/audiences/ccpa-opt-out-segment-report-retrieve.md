@@ -16,16 +16,15 @@ Du kan hämta månadsrapporter om ID:n som kunder har skickat in för att avanm�
 
 >[!NOTE]
 >
->Du kan även hämta rapporter om avanmälan från försäljning för konsumenter med DSP [!DNL Trafficking API]. Instruktioner finns i dokumentationen för [!DNL Trafficking API]. Om din organisation inte använder [!DNL Trafficking API] men är intresserad av mer information kan du kontakta ditt kontoteam på Adobe.
+>Du kan även hämta rapporter om kunders avanmälan från försäljning med hjälp av DSP [!DNL Trafficking API]. Instruktioner finns i dokumentationen för [!DNL Trafficking API]. Om din organisation inte använder [!DNL Trafficking API] men är intresserad av mer information kan du kontakta ditt Adobe-kontoteam.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
-1. Ovanför segmentlistan klickar du på **[!UICONTROL Access CCPA Reports]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Access CCPA Reports]** ovanför segmentlistan.
 1. Klicka på länken för en eventuell tillgänglig månadsrapport för att hämta en GZIP-fil som du kan extrahera till en tabbseparerad textfil.
 
 >[!MORELIKETHIS]
 >
->* [Adobe Advertising Support for the California Consumer Privacy Act: Stöd för avanmälan från konsumenter](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Om [!UICONTROL CCPA Opt-out-of-Sale] Segment och rapporter](ccpa-opt-out-about.md)
->* [Skapa och implementera en [!UICONTROL CCPA Opt-Out-of-Sale] Segment](ccpa-opt-out-segment-create.md)
->* [Om Audience Management](audience-about.md)
-
+>* [Stöd för Adobe Advertising i Kaliforniens konsumentsekretesslag: Stöd för konsumentavanmälan](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter ](ccpa-opt-out-about.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Om målgruppshantering](audience-about.md)

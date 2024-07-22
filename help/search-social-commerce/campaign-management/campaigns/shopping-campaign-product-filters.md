@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Produktfilter för köpkampanjer
 
-Se även [!DNL Google Ads] help &quot;[Hantera en shoppingkampanj med produktgrupper](https://support.google.com/google-ads/answer/6275317)&quot; och [!DNL Microsoft Advertising] help &quot;[Förstå och använda produktgrupper](https://help.ads.microsoft.com/#apex/bae/en/56782).&quot;
+Se även [!DNL Google Ads]-hjälpen [Hantera en shoppingkampanj med produktgrupper](https://support.google.com/google-ads/answer/6275317) och [!DNL Microsoft Advertising]-hjälpen [Förstå och använda produktgrupper](https://help.ads.microsoft.com/#apex/bae/en/56782).
 
 | Shoppingnätverk | Dimension | Attribut | Anteckningar |
 |----|----|----|----|
@@ -30,10 +30,10 @@ Se även [!DNL Google Ads] help &quot;[Hantera en shoppingkampanj med produktgru
 >* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
 >* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
 >* [Om att handla produktgrupper](product-group-about.md)
->* [Hantera produktgrupper för butik](product-group-manage.md)
+>* [Hantera shoppingproduktgrupper](product-group-manage.md)
 >* [[!DNL Google Ads] produktgruppsinställningar](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)
 >* [[!DNL Microsoft Advertising] produktgruppsinställningar](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-microsoft.md)
 >* [[!DNL Google Ads] inställningar för butiks- och mallinställningar för lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-google-shopping.md)
 >* [[!DNL Microsoft Advertising] inställningar för butiks- och mallinställningar för lagerflöden](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/template-microsoft-shopping.md)
->* [Obligatoriska data för [!DNL Google Ads] glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
->* [Obligatoriska data för [!DNL Microsoft Advertising] glödlampor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)
+>* [Nödvändiga data för [!DNL Google Ads] kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-google.md)
+>* [Nödvändiga data för [!DNL Microsoft Advertising] kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-data-formats/bulksheet-data-microsoft.md)

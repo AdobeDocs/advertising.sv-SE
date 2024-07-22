@@ -12,30 +12,30 @@ ht-degree: 0%
 
 # Redigera data som genererats från feeds
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder) och [!DNL Yandex] enbart konton*
 
-När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket kan du redigera data på något av följande sätt. Du kan välja senare [data](propagated-data-post.md) från båda ställena till de relevanta annonsnätverken:
+När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket kan du redigera data på något av följande sätt. Du kan senare [publicera data](propagated-data-post.md) från båda platserna till de relevanta annonsnätverken om du vill:
 
-* Om du använde alternativet för att &quot;[!UICONTROL Propagate and Preview]kan du redigera den genererade kalkylbladsfilen (med namnet &quot;`<feed file name>_<template name>`&quot;) genom att ladda ned den från [!UICONTROL Bulksheets] visa, redigera filen och överföra den igen. Det finns inga data på [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar.
+* Om du använde alternativet för [!UICONTROL Propagate and Preview] kan du redigera den genererade kalkylbladsfilen (med namnet `<feed file name>_<template name>`) genom att hämta den från vyn [!UICONTROL Bulksheets], redigera filen och överföra den igen. Det finns inga data på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
-* Om du använde alternativet för att &quot;[!UICONTROL Propagate only]&quot; kan du redigera genererade data för komponenter med [[!UICONTROL New] status](propagated-data-status.md) i en kampanjhierarkivy från [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] -tabbar.
+* Om du använde alternativet för [!UICONTROL Propagate only] kan du redigera genererade data för komponenter med [[!UICONTROL New] status ](propagated-data-status.md) i en kampanjhierarkivy från flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
   Vyerna för kampanjhierarkin visar bara data som genererats från feedfilen, inte de befintliga kontokomponenterna. När data för en komponent och alla dess underkomponenter har publicerats i annonsnätverket visas den inte längre i kampanjhierarkin.
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
    1. (Valfritt) Om du bara vill visa kampanjkomponenter som skapats för en viss mall:
 
       1. Klicka på mallnamnet.
 
-      1. I [!UICONTROL Accounts] i den vänstra navigeringsrutan expanderar du annonsnätverkets nod och annonsnätverkets kontonod och markerar sedan kryssrutan bredvid mallnamnet.
+      1. Expandera annonsnätverkets nod och noden för annonsnätverket på menyn [!UICONTROL Accounts] i det vänstra navigeringsfönstret och markera sedan kryssrutan bredvid mallnamnet.
 
-   1. Klicka på **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]**, eller **[!UICONTROL Ads]** , beroende på vilka komponenter du vill visa.
+   1. Klicka på fliken **[!UICONTROL Campaigns]**, **[!UICONTROL Ad Groups]**, **[!UICONTROL Keywords]** eller **[!UICONTROL Ads]**, beroende på vilka komponenter du vill visa.
 
       >[!NOTE]
       >
-      >* Om du inte visar data för en viss mall kan du [!UICONTROL Ad Groups], [!UICONTROL Keywords]och [!UICONTROL Ads] På flikarna visas alla annonsgrupper, nyckelord och annonser som har skapats från alla mallar och feed-filer. Produktgrupper som används för [!DNL Google Ads] shoppingannonser visas på [!UICONTROL Keywords] -fliken.
-      >* Om du bara vill visa underkomponenterna för en viss kampanj börjar du med att visa [!UICONTROL Campaigns] -fliken. Om du bara vill visa underkomponenterna i en viss annonsgrupp börjar du med att visa [!UICONTROL Ad Groups] -fliken.
+      >* Såvida du inte visar data för en viss mall visar flikarna [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads] alla annonsgrupper, nyckelord och annonser som har skapats från alla mallar och feeds. Produktgrupper som används för [!DNL Google Ads] shoppingannonser visas på fliken [!UICONTROL Keywords].
+      >* Om du bara vill visa underkomponenterna för en viss kampanj börjar du med att visa fliken [!UICONTROL Campaigns]. Om du bara vill visa underkomponenterna för en viss annonsgrupp börjar du med att visa fliken [!UICONTROL Ad Groups].
 
    1. (Valfritt; om du bara vill redigera annonsgrupper, nyckelord eller annonser) Filtrera listan så att den endast innehåller underkomponenterna för en viss kampanj eller annonsgrupp:
 
@@ -43,16 +43,16 @@ När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket ka
 
       * Om du vill visa alla nyckelord i en annonsgrupp klickar du på annonsgruppens namn.
 
-      * Om du vill visa alla som i en annonsgrupp klickar du på annonsgruppens namn och sedan på knappen [!UICONTROL Ads] -fliken.
+      * Om du vill visa alla som i en annonsgrupp klickar du på annonsgruppens namn och sedan på fliken [!UICONTROL Ads].
 
-   1. Klicka [Ikon för Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Ikon för Visa/redigera inställningar") bredvid kampanjens namn, annonsgrupp, nyckelord eller annonsnamn.
+   1. Klicka på ikonen [Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Ikon för Visa/redigera inställningar") bredvid kampanjens, annonsgruppens, nyckelordets eller annonsens namn.
 
    1. Redigera inställningarna och klicka sedan på **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]
 >
->* [Om lagerflöden](inventory-feeds-about.md)
->* [Visa data som genererats från feeds](propagated-data-view.md)
->* [Posta kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
+>* [Om lagerfeeds](inventory-feeds-about.md)
+>* [Visa data som har genererats från feeds](propagated-data-view.md)
+>* [Publicera kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
 >* [Stoppa ett bokföringsjobb för lagerfeed-data](stop-job.md)
 >* [Status för data som genererats från feeds](propagated-data-status.md)

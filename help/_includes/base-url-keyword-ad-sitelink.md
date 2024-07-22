@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Bas-URL-fält i de flesta inställningar för nyckelord och sitelink
 
-**[!UICONTROL Base URL]:** Den URL till landningssidan som sökmotoranvändare tas till när de klickar på annonsen. Inkludera eventuella parametrar som bestämmer sidans innehåll. Bas-URL:er på nyckelordsnivå och sitelink-nivå åsidosätter dem på annonsnivå.
+**[!UICONTROL Base URL]:** Den URL till landningssidan som sökmotoranvändare tas till när de klickar på din annons. Inkludera eventuella parametrar som bestämmer sidans innehåll. Bas-URL:er på nyckelordsnivå och sitelink-nivå åsidosätter dem på annonsnivå.
 
 När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar som har konfigurerats för kampanjen eller kontot.

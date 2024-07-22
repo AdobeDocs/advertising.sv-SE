@@ -1,18 +1,18 @@
 ---
-title: Klickningsspårningsformat för [!DNL Google Ads]
-description: Läs mer om klickningsspårningsformaten för [!DNL Google Ads] konton.
-exl-id: 68f6da43-3430-4c0a-9369-937fa52c071a
+title: Klickspårningsformat för  [!DNL Google Ads]
+description: Lär dig mer om knappspårningsformat för  [!DNL Google Ads] konton.
+exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: ceb2fc07eb5116b3a2bb01cf72fd779f78bba1f0
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# Klickningsspårningsformat för [!DNL Google Ads]
+# Klickspårningsformat för [!DNL Google Ads]
 
-Nedan följer basspårningsmallens och landningssidans suffixformat (det sista URL-suffixet) som Sök, Socialt, &amp; Commerce kräver för [!DNL Google Ads].
+Nedan följer basspårningsmallen och landningssidans suffix (det sista URL-suffixet) som krävs för Search, Social och Commerce för [!DNL Google Ads].
 
 ## Spåra mallformat
 
@@ -30,17 +30,17 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
->* The [!DNL ValueTrack] parametrar för att ange slutliga URL:er i spårningsmallar måste vara antingen `{lpurl}` eller `!{unescapedurl}`.
+>* Parametrarna [!DNL ValueTrack] för att ange slutliga URL:er i spårningsmallar måste vara antingen `{lpurl}` eller `!{unescapedurl}`.
 >
->* (Textannonser) Parametern `ev_pl` (för placements) saknar värde. När du lägger ett bud `ev_ln` (för nyckelord) har inget värde. När du lägger ett bud per annonsgrupp eller någon annan dimension, båda `ev_ln` och `ev_pl` har inga värden.
+>* (Textannonser) När du lägger ett bud med nyckelord har parametern `ev_pl` (för placeringar) inget värde. När du lägger ett bud har `ev_ln` (för nyckelord) inget värde. När du lägger ett bud per annonsgrupp eller någon annan dimension har både `ev_ln` och `ev_pl` inga värden.
 >
->* (Dynamiska sökannonser) `{keyword}` anger måluttrycket för den dynamiska sökningen, till exempel `_cat:[VALUE]` eller `_url:[VALUE]`.
+>* (Annonser för dynamiska sökningar) `{keyword}` anger det dynamiska sökmåluttrycket, till exempel `_cat:[VALUE]` eller `_url:[VALUE]`.
 >
->* (Dynamiska sökannonser) [!DNL Google Ads] bestämmer den slutliga URL:en dynamiskt, så du behöver inte ange en.
+>* (Annonser för dynamiska sökningar) [!DNL Google Ads] fastställer den slutliga URL:en dynamiskt, så du behöver inte ange en.
 >
->* (Sitelinks) Du kan se vilka konverteringar som har gjorts genom att klicka på en sitellänk genom att skapa en [!UICONTROL Transaction Report]. The [!UICONTROL Link Type] kolumnvärdet för en sitelink är `sl:<Sitelink text>`, till exempel `sl:See Current Offers`.
+>* (Sitelinks) Du kan se vilka konverteringar som har gjorts genom att klicka på en sitellänk genom att generera en [!UICONTROL Transaction Report]. Kolumnvärdet [!UICONTROL Link Type] för en sitelink är `sl:<Sitelink text>`, till exempel `sl:See Current Offers`.
 
 ### Shoppingnätverk
 
@@ -56,27 +56,27 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
->* The [!DNL ValueTrack] parametrar för att ange slutliga URL:er i spårningsmallar måste vara antingen `{lpurl}` eller `!{unescapedurl}`.
+>* Parametrarna [!DNL ValueTrack] för att ange slutliga URL:er i spårningsmallar måste vara antingen `{lpurl}` eller `!{unescapedurl}`.
 >
->* [!DNL Google Ads] använder URL:er i Google Merchant Center-flödet som de slutliga URL:erna, så du behöver inte ange slutgiltiga URL:er för dina produktdata eller produktgrupper.
+>* [!DNL Google Ads] använder produkt-URL:er i Google Merchant Center-flödet som de slutliga URL:erna, så du behöver inte ange slutliga URL:er för dina produktdata eller produktgrupper.
 >
->* Du kan se vilka konverteringar som har gjorts genom att klicka på en shoppingannons genom att skapa en [!UICONTROL Transaction Report]. The [!UICONTROL Link Type] kolumnvärdet för en produkt och är pla:`<product ID>`, till exempel `pla:8525822`.
+>* Du kan se vilka konverteringar som har gjorts genom att klicka på en shoppingannons genom att generera en [!UICONTROL Transaction Report]. Kolumnvärdet [!UICONTROL Link Type] för en produktannons är pla:`<product ID>`, till exempel `pla:8525822`.
 
 ## Format för landningssidans suffix (sista URL-suffix)
 
-Konton som använder Adobe Advertising-konverteringsspårning måste innehålla annonsnätverkets klickningsidentifierare (`gclid` for [!DNL Google Ads]) i suffixet:
+Konton som använder Adobe Advertising-konverteringsspårning måste inkludera annonsnätverkets klickidentifierare (`gclid` för [!DNL Google Ads]) i suffixet:
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla något av följande:
 
-   * [!DNL Google Ads] konton som använder de senaste [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats) (börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala resultatkampanjer samt utkast och experimentkampanjer:
+   * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](/help/integrations/analytics/ids.md#amo-id-formats) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen &quot;[!UICONTROL Auto Upload]&quot; är aktiverat läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se &quot;[Adobe Advertising-ID som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).&quot;
+     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen [!UICONTROL Auto Upload] är aktiverad, läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).
 
-   * Alla andra [!DNL Google Ads] konton:
+   * Alla andra [!DNL Google Ads]-konton:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
@@ -92,5 +92,5 @@ Konton som använder Adobe Advertising-konverteringsspårning måste innehålla 
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
 >* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)

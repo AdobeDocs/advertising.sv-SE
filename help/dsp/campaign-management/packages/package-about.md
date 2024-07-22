@@ -1,5 +1,5 @@
 ---
-title: Om pakethantering i DSP
+title: Om pakethantering i Advertising DSP
 description: Läs mer om pakethantering.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# Om pakethantering i DSP
+# Om pakethantering i Advertising DSP
 
 Använd paket för att gruppera placeringar för leverans till en fast budget, prestationsmål och anpassad paketeringsstrategi. DSP optimerar paket genom att flytta budgeten till de bästa placeringarna i paketet. Du kan ordna paket efter placeringsformat, lagertyp, dataleverantör, persona eller andra särskiljbara egenskaper. Paket är valfria.
 
 Du kan skapa paket manuellt eller genom att duplicera befintliga paket. Du kan också redigera och bifoga placeringar i alla paket.
 
-## The [!UICONTROL Packages] Kontrollpanel
+## Kontrollpanelen [!UICONTROL Packages]
 
-The [!UICONTROL Packages] Kontrollpanelen centraliserar prestanda och ekonomisk rapportering för alla era paketstrategier och ger snabba ögonblicksbilder av hur paketen har utförts under ett visst datumintervall.
+Kontrollpanelen [!UICONTROL Packages] centraliserar prestanda och ekonomisk rapportering för alla dina paketstrategier och ger dig snabba ögonblicksbilder av hur paketen har utförts under ett visst datumintervall.
 
 ![Kontrollpanel för paket](/help/dsp/assets/package-dashboard.png)
 

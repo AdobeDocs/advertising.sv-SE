@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # Kortkommandon
 
-Använd kortkommandon för att snabbt navigera i placeringsinställningarna<!-- and to create ads and placements -->.
+Använd kortkommandon för att snabbt navigera i <!-- and to create ads and placements --> i placeringsinställningarna.
 
 | Tillämpliga sidor | Genväg | Beskrivning |
 | ---------------| ----------- | ---------------------- |
-| Placeringsinställningar | o | Flyttar dig till [!UICONTROL Goals] inställningar |
-| Placeringsinställningar | g | Flyttar dig till [!UICONTROL Geos] inställningar |
-| Placeringsinställningar | i | Flyttar dig till [!UICONTROL Inventory] inställningar |
-| Placeringsinställningar | s | Flyttar dig till [!UICONTROL Sites] inställningar |
-| Placeringsinställningar | a | Flyttar dig till [!UICONTROL Audience] inställningar |
-| Placeringsinställningar | b | Flyttar dig till [!UICONTROL Brand Safety] inställningar |
-| Placeringsinställningar | t | Flyttar dig till [!UICONTROL Tracking] inställningar |
-| Placeringsinställningar | l | Flyttar dig till [!UICONTROL Adobe Labs] inställningar |
+| Placeringsinställningar | o | Flyttar dig till inställningarna för [!UICONTROL Goals] |
+| Placeringsinställningar | g | Flyttar dig till inställningarna för [!UICONTROL Geos] |
+| Placeringsinställningar | i | Flyttar dig till inställningarna för [!UICONTROL Inventory] |
+| Placeringsinställningar | s | Flyttar dig till inställningarna för [!UICONTROL Sites] |
+| Placeringsinställningar | a | Flyttar dig till inställningarna för [!UICONTROL Audience] |
+| Placeringsinställningar | b | Flyttar dig till inställningarna för [!UICONTROL Brand Safety] |
+| Placeringsinställningar | t | Flyttar dig till inställningarna för [!UICONTROL Tracking] |
+| Placeringsinställningar | l | Flyttar dig till inställningarna för [!UICONTROL Adobe Labs] |
 
 {style="table-layout:auto"}
 

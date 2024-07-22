@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Enhetsoberoende lösningar
 
-Advertising DSP integration med [!DNL LiveRamp] gör att ni kan nå ut till hela målgruppen, inte bara till de enheter som ert varumärke har spårat. Integreringen ger även frekvensbegränsning och attribueringsmätning på alla enheter.
+Tack vare Advertising DSP-integreringen med [!DNL LiveRamp] kan du utöka din publik till alla kända enheter, inte bara de enheter som varumärket har spårat. Integreringen ger även frekvensbegränsning och attribueringsmätning på alla enheter.
 
 När du använder ett personbaserat enhetsdiagram som stöds kan du:
 
@@ -20,7 +20,7 @@ När du använder ett personbaserat enhetsdiagram som stöds kan du:
 * Balansera annonsexponering genom förståelse och frekvens mellan olika individer.
 * Testa strategier som exponerar kontra konverterar målgrupper över olika kanaler eller enheter.
 
-## Fördelar med [!DNL LiveRamp] Enhetsdiagram
+## Fördelar med enhetsdiagrammet [!DNL LiveRamp]
 
 * Tillhandahåller en deterministisk datapool, inklusive kunddata offline
 
@@ -30,7 +30,7 @@ När du använder ett personbaserat enhetsdiagram som stöds kan du:
 
 * Är kostnadsfritt för frekvensbegränsning och attribueringsmätning
 
-* Prissatt till $0,35 CPM för utökade visningar (visningar som levereras enbart med [!DNL LiveRamp] enhetsdiagram i stället för på enheter som hittas inom målgruppssegmenten)
+* Prissatt till $0,35 CPM för utökade visningar (visningar som levereras enbart med enhetsdiagrammet [!DNL LiveRamp] i stället för på enheter som hittas inom målgruppssegmenten)
 
   Kursen visas på ditt kontokort.
 
@@ -40,15 +40,15 @@ Med personbaserad frekvenshantering kan du ange frekvensgränser på personnivå
 
 ### Aktivera personbaserad frekvenshantering
 
-* **Kampanjer:** När du skapar en ny kampanj kan du ange [!UICONTROL Cross-Device Level] inställning. Aktivera &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]och välj ett enhetsdiagram. Det angivna enhetsdiagrammet används både för målinriktning mellan olika enheter på placeringsnivå och för personbaserad frekvenshantering på kampanj-, paket- och placeringsnivå. Frekvensintervallen gäller för alla en persons kända enheter.
+* **Kampanjer:** När du skapar en ny kampanj kan du ange en [!UICONTROL Cross-Device Level]-inställning. Aktivera [!UICONTROL Same Device] -> [!UICONTROL People] och välj ett enhetsdiagram. Det angivna enhetsdiagrammet används både för målinriktning mellan olika enheter på placeringsnivå och för personbaserad frekvenshantering på kampanj-, paket- och placeringsnivå. Frekvensintervallen gäller för alla en persons kända enheter.
 
 Mer information finns i [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-När du väl har sparat en kampanj kan du inte ändra dess [!UICONTROL Cross Device Level] inställning.
+När du har sparat en kampanj kan du inte ändra dess [!UICONTROL Cross Device Level]-inställning.
 
-* **Paket:**  Du kan också ange ytterligare frekvensgränser på paketnivå. DSP respekterar det striktaste frekvenstaket i kampanjhierarkin.
+* **Paket:** Du kan välja att ange ytterligare frekvensgränser på paketnivå. DSP respekterar det striktaste frekvenstaket i kampanjhierarkin.
 
-* **Placeringar:** Du kan också ange ytterligare frekvensändar på placeringsnivån. DSP respekterar det striktaste frekvenstaket i kampanjhierarkin.
+* **Placeringar:** Du kan ange ytterligare frekvensomslag på placeringsnivån om du vill. DSP respekterar det striktaste frekvenstaket i kampanjhierarkin.
 
 ## Målgruppsbaserad anpassning
 
@@ -56,29 +56,29 @@ Med personbaserad målinriktning kan ni hitta kunder på både dator och mobil.
 
 ### Aktivera personbaserad anpassning
 
-* **Kampanjer:** När du skapar en ny kampanj kan du ange [!UICONTROL Cross-Device Level] inställning. Aktivera &quot;[!UICONTROL Same Device]&quot; -> &quot;[!UICONTROL People]och välj ett enhetsdiagram. Det angivna enhetsdiagrammet används både för målinriktning mellan olika enheter på placeringsnivå och för personbaserad frekvenshantering.
+* **Kampanjer:** När du skapar en ny kampanj kan du ange en [!UICONTROL Cross-Device Level]-inställning. Aktivera [!UICONTROL Same Device] -> [!UICONTROL People] och välj ett enhetsdiagram. Det angivna enhetsdiagrammet används både för målinriktning mellan olika enheter på placeringsnivå och för personbaserad frekvenshantering.
 
 Mer information finns i [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md).
 
-* **Placeringar:** När du väljer målgruppsmål för en placering i en kampanj med ett angivet enhetsdiagram, [!UICONTROL Cross-Device Targeting] Med kan ni utöka er målinriktning för alla en persons kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten.
+* **Placeringar:** När du väljer målgruppsmål för en placering i en kampanj med ett angivet enhetsdiagram kan du med ett [!UICONTROL Cross-Device Targeting]-alternativ utöka målgruppsanpassningen för alla en persons kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten.
 
 ### Konfigurera rapportering för personbaserad målgruppsanpassning
 
 Du kan inkludera följande mått i anpassade rapporter:
 
-* **Utökade avbildningar:** (I dialogrutan [!UICONTROL Build Your Report] avsnitt under [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Volymen inkrementella visningar som levereras genom användning av ett enhetsdiagram (och som inte hittas inom de ursprungliga målgruppssegmenten). Det här måttet används också för att beräkna tillämpliga avgifter som är kopplade till användning av ett enhetsdiagram från tredje part.
+* **Utökade avbildningar:** (I avsnittet [!UICONTROL Build Your Report] under [!UICONTROL Metrics] > [!UICONTROL Std. Metrics]) Volymen inkrementella avbildningar som levereras genom att ett enhetsdiagram används (och som inte hittas i de ursprungliga målgruppssegmenten). Det här måttet används också för att beräkna tillämpliga avgifter som är kopplade till användning av ett enhetsdiagram från tredje part.
 
-  Om du vill ta reda på kostnaden för dina utökade avbildningar under en tidsperiod kan du köra en anpassad rapport som innehåller [!UICONTROL Extended Impressions] och multiplicera sedan det totala antalet utökade visningar med 0,00035 USD ($0,35/1000 visningar).
+  Om du vill fastställa kostnaden för dina utökade avbildningar under en tidsperiod, kör du en anpassad rapport som innehåller kolumnen [!UICONTROL Extended Impressions] och multiplicerar sedan det totala antalet utökade avbildningar med 0,00035 USD ($0,35/1000 visningar).
 
-  De aggregerade kostnaderna ingår också i [!UICONTROL Billable Other Net Spend] kolumn (under [!UICONTROL Metrics] > [!UICONTROL Spend]), även om det måttet även inkluderar andra kampanjavgifter som du kan ha lagt till.
+  Den aggregerade kostnaden inkluderas också i kolumnen [!UICONTROL Billable Other Net Spend] (under [!UICONTROL Metrics] > [!UICONTROL Spend]), även om det måttet även inkluderar andra kampanjavgifter som du kan ha lagt till.
 
-* **Enhetsdiagram:** (I dialogrutan [!UICONTROL Build Your Report] avsnitt under [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Det valda enhetsdiagrammet för en viss kampanj, ett visst paket eller en viss placering.
+* **Enhetsdiagram:** (i avsnittet [!UICONTROL Build Your Report] under [!UICONTROL Dimensions] > [!UICONTROL Campaign]) Det valda enhetsdiagrammet för en viss kampanj, ett visst paket eller en viss placering.
 
 ## Personbaserad attribueringsmätning
 
 *Annonsörer med endast konverteringsspårning i Adobe Advertising*
 
-Med personbaserad attribuering kan du attribuera konverteringar som ägde rum på en annan enhet än den enhet som medieexponeringen inträffade på. Personbaserad attribueringsmätning finns tillgänglig i alla DSP, [!DNL Adobe Advertising Creative]och [!DNL Adobe Advertising Search, Social, & Commerce] för annonsörer som har implementerat konverteringspixlar för Adobe Advertising på sina webbplatser.
+Med personbaserad attribuering kan du attribuera konverteringar som ägde rum på en annan enhet än den enhet som medieexponeringen inträffade på. Personbaserad attribueringsmätning är tillgänglig i alla DSP, [!DNL Adobe Advertising Creative] och [!DNL Adobe Advertising Search, Social, & Commerce] för annonsörer som har implementerat Adobe Advertising-konverteringspixlar på sina webbplatser.
 
 ### Aktivera personbaserad attribueringsmätning
 
@@ -88,17 +88,17 @@ Om du vill aktivera attribueringsmätning mellan enheter kontaktar du kontoteame
 
 #### Inställningar för konverteringsrapport
 
-När ett enhetsdiagram är aktiverat för attribueringsmätning [!UICONTROL Conversion] Rapporten innehåller en [!UICONTROL Cross-Device Breakout] med vilken du kan ta med upp till tre separata kolumner för varje konverteringsmått, inklusive:
+När ett enhetsdiagram har aktiverats för attribueringsmätning innehåller [!UICONTROL Conversion]-rapporten en [!UICONTROL Cross-Device Breakout]-inställning som gör att du kan ta med upp till tre separata kolumner för varje konverteringsmått, inklusive:
 
-* &lt;*Konvertering*>[!UICONTROL (tp)]: Inkluderar det totala antalet konverteringar (totalt antal personer), som omfattar både konverteringar mellan enheter och konverteringar mellan enheter (om tillämpligt). I rapporten: &quot;[!UICONTROL (tp)]&quot; läggs till i konverteringsmeternamnet, regeltypen och konverteringstyperna i konverteringssökvägen (till exempel &quot;Responses(le)(tl)(tp))).
+* &lt;*Konvertering*>[!UICONTROL (tp)]: Innehåller det totala antalet konverteringar (totalt antal personer), som omfattar både konverteringar för samma enhet och konverteringar för olika enheter (om tillämpligt). I rapporten bifogas [!UICONTROL (tp)] till konverteringsmåttets namn, regeltyp och konverteringstyper i konverteringssökvägen (till exempel&quot;Responses(le)(tl)(tp))).
 
-* &lt;*Konvertering*>[!UICONTROL (sd)]: (Valfritt) Inkluderar endast konverteringar för vilka endast en enhet spårades i konverteringssökvägen. I rapporten: &quot;[!UICONTROL (sd)]&quot; läggs till i konverteringsmeternamnet, regeltypen och konverteringstyperna i konverteringssökvägen (till exempel &quot;Responses(le)(tl)(sd)).
+* &lt;*Konvertering*>[!UICONTROL (sd)]: (Valfritt) Inkluderar endast konverteringar för vilka endast en enhet spårades i konverteringssökvägen. I rapporten bifogas [!UICONTROL (sd)] till konverteringsmåttets namn, regeltyp och konverteringstyper i konverteringssökvägen (till exempel&quot;Responses(le)(tl)(sd)).
 
-* &lt;*Konvertering*>[!UICONTROL (xd)]: (Valfritt) Inkluderar endast konverteringar för vilka mer än en enhet spårades i konverteringssökvägen. I rapporten: &quot;[!UICONTROL (xd)]&quot; läggs till i konverteringsmeternamnet, regeltypen och konverteringstyperna i konverteringssökvägen (till exempel &quot;Responses(le)(tl)(xd)).
+* &lt;*Konvertering*>[!UICONTROL (xd)]: (Valfritt) Inkluderar endast konverteringar för vilka mer än en enhet spårades i konverteringssökvägen. I rapporten bifogas [!UICONTROL (xd)] till konverteringsmåttets namn, regeltyp och konverteringstyper i konverteringssökvägen (till exempel&quot;Responses(le)(tl)(xd)).
 
 #### Tolka konverteringsrapporten
 
-Sortera procentandelen av det totala antalet konverteringar mellan enheter ([!UICONTROL (xd)]/[!UICONTROL (tl)]) från hög till låg för att förstå vad som genererar konverteringar över genomsnittet för olika enheter. Du kan använda detta för att informera om din kreativa strategi eller målinriktningsstrategi så att meddelanden och kanalinvesteringar matchar användarens beteende.
+Sortera procentandelen av det totala antalet konverteringar mellan enheter ([!UICONTROL (xd)]/[!UICONTROL (tl)]) från hög till låg för att förstå vad som genererar över medelvärdet för konverteringar mellan olika enheter. Du kan använda detta för att informera om din kreativa strategi eller målinriktningsstrategi så att meddelanden och kanalinvesteringar matchar användarens beteende.
 
 * Paket - Se vilka paket som genererar flest konverteringar och vilka som har en hög andel konverteringar mellan olika enheter. Detta kan hjälpa er att förstå var ni ska satsa.
 

@@ -9,4 +9,4 @@ ht-degree: 0%
 
 **[!UICONTROL Merchant ID]:** (Kundkampanjer och målgruppskampanjer som endast är kopplade till en handlarfeed) Kund-ID för det handlarkonto vars produkter används för kampanjen.
 
-För [!DNL Microsoft Advertising] målgruppskampanjer som är länkade till en återförsäljarcenterbutik väljer du [!UICONTROL Merchant ID] från listan över alla butiker som är länkade till sökkontot. När du har länkat kampanjen till en butik och sparat inställningarna kan du inte ändra det här alternativet.
+För [!DNL Microsoft Advertising] målgruppskampanjer som är länkade till en handlarcenterbutik väljer du [!UICONTROL Merchant ID] i listan över alla butiker som är länkade till sökkontot. När du har länkat kampanjen till en butik och sparat inställningarna kan du inte ändra det här alternativet.

@@ -1,9 +1,9 @@
 ---
 title: Ta bort ett anpassat mått
 description: Lär dig hur du tar bort anpassade mått, som beräknas utifrån standardvärden.
-exl-id: 531da1f7-6e20-4124-9e8c-e1816929c4d7
+exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -20,29 +20,29 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 
    * Klicka på namnet på standardvyn eller den anpassade vyn för att öppna visningsinställningarna.
 
-   * Klicka ![Egna kolumner](/help/search-social-commerce/assets/custom-columns.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
+   * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
 
-1. Håll markören över kolumnnamnet. Klicka på bredvid kolumnnamnet ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort").
+1. Håll markören över kolumnnamnet. Klicka på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") bredvid kolumnnamnet.
 
-1. Klicka på **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
 ## Ta bort ett anpassat mått från ett rapportmallsformulär
 
-1. Gå till **[!UICONTROL Columns]** -fliken.
+1. Gå till fliken **[!UICONTROL Columns]** i ett rapport- eller rapportmallsformulär.
 
-1. Klicka på kolumnnamnet i den vänstra kolumnen eller den högra kolumnen och klicka sedan på **[!UICONTROL Delete]** i rätt avsnitt.
+1. Klicka på kolumnnamnet i den vänstra kolumnen eller den högra kolumnen och klicka sedan på **[!UICONTROL Delete]** i den högra delen.
 
-1. Klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
-## Ta bort ett anpassat mått från [!UICONTROL Portfolios] vyer
+## Ta bort ett anpassat mått från [!UICONTROL Portfolios]-vyerna
 
-1. Ovanför datatabellen klickar du ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
+1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
 
-1. Klicka på **[!UICONTROL Columns]** -fliken.
+1. Klicka på fliken **[!UICONTROL Columns]**.
 
-1. Klicka på kolumnnamnet i [!UICONTROL Available Metrics] eller [!UICONTROL Table Columns] och klicka sedan på **[!UICONTROL Delete]** i rätt avsnitt.
+1. Klicka på kolumnnamnet i listan [!UICONTROL Available Metrics] eller [!UICONTROL Table Columns] och klicka sedan på **[!UICONTROL Delete]** i det högra avsnittet.
 
-1. Klicka på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >

@@ -12,33 +12,32 @@ ht-degree: 0%
 
 # Arkivera eller arkivera en annons
 
-Dölj en annons som inte används för att arkivera den. Arkiverade annonser visas inte som standard men är fortfarande tillgängliga för rapportering.
+Dölj en annons som inte används för arkivering. Arkiverade annonser visas inte som standard men är fortfarande tillgängliga för rapportering.
 
 Du kan när som helst avarkivera en annons och återställa dess tidigare status.
 
 ## Arkivera en annons
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Archive]**.
-1. Klicka på **[!UICONTROL Archive]**.
+1. Klicka på **[!UICONTROL Ads]** på undermenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Archive]** bredvid annonsnamnet.
+1. Klicka på **[!UICONTROL Archive]** i bekräftelsemeddelandet.
 
 >[!NOTE]
 >
->Om du vill visa arkiverade annonser filtrerar du [!UICONTROL Ads] vy: klicka ![[!UICONTROL Filter] knapp](/help/dsp/assets/filter.png), klicka **[!UICONTROL Ad status]** och markera **[!UICONTROL Archived]** och klicka sedan på **[!UICONTROL Apply].**
+>Om du vill visa arkiverade annonser filtrerar du [!UICONTROL Ads]-vyn: klicka på ![[!UICONTROL Filter] button](/help/dsp/assets/filter.png), klicka på **[!UICONTROL Ad status]** och välj **[!UICONTROL Archived]** och sedan på **[!UICONTROL Apply].**
 
 ## Avarkivera en annons
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Unarchive]**.
-1. Klicka på **[!UICONTROL Unarchive]**.
+1. Klicka på **[!UICONTROL Ads]** på undermenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Unarchive]** bredvid annonsnamnet.
+1. Klicka på **[!UICONTROL Unarchive]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
 >* [Skapa en annons](ad-create.md)
 >* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
-

@@ -5,6 +5,6 @@ source-wordcount: '14'
 ht-degree: 0%
 
 ---
-# Resurser
+# Assets
 
 Det här är arbetsmappen för alla bild-/filresurser för den här handboken.

@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Fältet DSA-språk i inställningarna för GL- och MS-sökkampanjer
 
-**[!UICONTROL DSA Language]:** (Endast söknätverk; gäller endast för expanderade dynamiska sökannonser) Språket för den angivna webbplatsdomänen.
+**[!UICONTROL DSA Language]:** (Endast söknätverk, endast tillgängligt för expanderade dynamiska sökannonser) Språket för den angivna webbplatsdomänen.
 
 Om domänen innehåller sidor på flera språk och du vill ha alla som mål, skapar du en separat kampanj för varje språk.

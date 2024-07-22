@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Google Ads] och gruppinställningar'
-description: Referera inställningarna för [!DNL Google Ads] annonsgrupper.
-exl-id: 00aaa936-796f-4e22-9bee-4bb5121cd887
+title: '[!DNL Google Ads] och gruppinställningar'
+description: Referera inställningarna för  [!DNL Google Ads] annonsgrupper.
+exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -16,25 +16,25 @@ ht-degree: 0%
 
 **[!UICONTROL Ad Group Name]:** Ett annonsgruppsnamn som är unikt i kampanjen. Maxlängden är 255 dubbelbyte-tecken.
 
-**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardinställningen för nya annonsgrupper är *Aktiv*.
+**[!UICONTROL Status]:** Annonsgruppens visningsstatus: *Aktiv* eller *Pausad*. Standardvärdet för nya annonsgrupper är *Aktiv*.
 
-**[!UICONTROL Ad Group Type]:** (Endast utökade dynamiska sökannonskampanjer) Annonsgrupp:
+**[!UICONTROL Ad Group Type]:** (Endast expanderade dynamiska sökannonskampanjer) Typ av annonsgrupp:
 
 * *[!UICONTROL Search Standard]* (standard): För standardannonser.
 
 * *[!UICONTROL Search Dynamic]:* För dynamiska sökannonser.
 
-**[!UICONTROL Ad Rotation Mode]:** Hur ofta [!DNL Google Ads] levererar era aktiva annonser i relation till varandra inom annonsgruppen:
+**[!UICONTROL Ad Rotation Mode]:** Hur ofta [!DNL Google Ads] skickar dina aktiva annonser i relation till varandra inom annonsgruppen:
 
-* *[!UICONTROL Optimize]:* Google Ads prioriterar annonser som förväntas prestera bättre än andra annonser i annonsgruppen. Dessa annonser kommer in på annonsauktionen oftare, och med tiden prioriteras en enskild annons. Detta kan vara inkonsekvent med era affärs- och optimeringsmål.
+* *[!UICONTROL Optimize]:* Google Ads prioriterar annonser som förväntas utföras bättre än andra annonser i annonsgruppen. Dessa annonser kommer in på annonsauktionen oftare, och med tiden prioriteras en enskild annons. Detta kan vara inkonsekvent med era affärs- och optimeringsmål.
 
-* *[!UICONTROL Rotate forever]:*   Var och en av era annonser går in i annonsauktionen ett jämnare antal gånger, vilket gör det möjligt för Search, Social och Commerce att göra annonser inte bara med klickfrekvens utan även med konverteringar.
+* *[!UICONTROL Rotate forever]:*   Var och en av era annonser går in i annonsauktionen ett jämnare antal gånger, vilket gör att Search, Social och Commerce kan få sina annonser inte bara i klickfrekvens utan även i konverteringar.
 
-* *[!UICONTROL Use campaign setting]*(standardinställningen för nya annonsgrupper): Använder den befintliga inställningen för kampanjnivå och rotation. **Obs!** Inställningen på kampanjnivå visas inte i Sök, Socialt och Handel.
+* *[!UICONTROL Use campaign setting]*(standard för nya annonsgrupper): Använder den befintliga inställningen för kampanjnivå och rotation. **Obs!** Inställningen på kampanjnivå visas inte i Sök, Socialt och Commerce.
 
-Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTROL Target CPA], [!UICONTROL Target ROAS], eller [!UICONTROL Enhanced CPC]), sedan [!DNL Google Ads] anger automatiskt alternativet till[!UICONTROL Optimize].&quot;
+Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTROL Target CPA], [!UICONTROL Target ROAS] eller [!UICONTROL Enhanced CPC]), ställer [!DNL Google Ads] automatiskt in alternativet till [!UICONTROL Optimize].
 
-**[!UICONTROL Custom Bid Level]:** (Kampanjer som endast riktar sig till visningsnätverket) Så här lägger du ett bud: per *[!UICONTROL Ad Group]* (standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intresse &amp; Remarketing in Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (webbplats), *[!UICONTROL Unknown]*, eller *[!UICONTROL Vertical]*.
+**[!UICONTROL Custom Bid Level]:** (Kampanjer som endast riktar sig till visningsnätverket) Så här lägger du till: av *[!UICONTROL Ad Group]* (standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intresse &amp; Remarketing i Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (webbplats), *[!UICONTROL Unknown]* eller *[!UICONTROL Vertical]*.
 
 >[!NOTE]
 >
@@ -48,17 +48,17 @@ Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTR
 
 {{$include /help/_includes/bid-ad-group.md}}
 
-**[!UICONTROL Target CPA]:** (Kampanjer med [!UICONTROL Target CPA] budgivning; frivilligt) Målkostnad per förvärv (CPA) för annonskoncernen. Det här värdet åsidosätter kampanjnivåmålet.
+**[!UICONTROL Target CPA]:** (Kampanjer med [!UICONTROL Target CPA] budgivning; valfritt) Målkostnaden per förvärv (CPA) för annonsgruppen. Det här värdet åsidosätter kampanjnivåmålet.
 
-**[!UICONTROL Target ROAS]:** (Kampanjer med [!UICONTROL Target ROAS] budgivning; valfritt) Målavkastningen på annonskostnaderna (ROAS) för annonsgruppen, i procent. Det här värdet åsidosätter kampanjnivåmålet.
+**[!UICONTROL Target ROAS]:** (Kampanjer med [!UICONTROL Target ROAS] budgivning; valfritt) Målavkastningen på annonskostnaderna (ROAS) för annonsgruppen, som en procentandel. Det här värdet åsidosätter kampanjnivåmålet.
 
 ## [!UICONTROL Ad Group Targeting]
 
-**[!UICONTROL Audience Target Method]:** (Kampanjer endast i söknätverket och befintliga, skrivskyddade [!DNL Gmail] kampanjer i visningsnätverket) Om du vill:
+**[!UICONTROL Audience Target Method]:** (kampanjer endast i söknätverket och befintliga, skrivskyddade [!DNL Gmail]-kampanjer i visningsnätverket) Om du vill:
 
-* *[!UICONTROL Target and Bid]:* Visa endast annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
+* *[!UICONTROL Target and Bid]:* Om du bara vill visa annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
 
-* *[!UICONTROL Bid Only]:* Visa annonser även för personer som inte är kopplade till målgrupper så länge de uppfyller andra mål på annonsgruppsnivå. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
+* *[!UICONTROL Bid Only]:* Så här visar du annonser även för personer som inte är associerade med målgrupper så länge de uppfyller andra annonsgruppsmål. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
 
 <!-- **[!UICONTROL Devices]:** -->
 

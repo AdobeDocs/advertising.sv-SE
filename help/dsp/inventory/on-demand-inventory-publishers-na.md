@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL On Demand] Premium Inventory Publishers i Nordamerika'
-description: Se tillgängliga [!DNL On Demand] Premium-förlag i Nordamerika.
+title: '[!DNL On Demand] Premium Inventory Publishers i Nordamerika'
+description: Se tillgängliga [!DNL On Demand] premiumutgivare i Nordamerika.
 feature: DSP On Demand Inventory
 exl-id: f1805fe0-5687-4e32-809f-c584acee3676
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -177,9 +177,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om [!DNL On Demand] Premiumlager](on-demand-inventory-about.md)
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premiumlager](on-demand-inventory-subscribe.md)
+>* [Om [!DNL On Demand] Premiuminventering](on-demand-inventory-about.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](on-demand-inventory-publishers-apac.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa](on-demand-inventory-publishers-emea.md)
-

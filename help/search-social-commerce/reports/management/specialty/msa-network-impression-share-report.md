@@ -1,5 +1,5 @@
 ---
-title: The [!UICONTROL MSA Network Impression Share Report]
+title: '[!UICONTROL MSA Network Impression Share Report]'
 description: Läs mer om [!UICONTROL MSA Network Impression Share Report].
 feature: Search Reports, Search Specialty Reports
 exl-id: 274f7bac-5eea-4e21-bcdb-ebf6250c4959
@@ -10,15 +10,15 @@ ht-degree: 0%
 
 ---
 
-# The [!UICONTROL MSA Network Impression Share Report]
+# [!UICONTROL MSA Network Impression Share Report]
 
-*[!DNL Microsoft Advertising]endast konton*
+Endast *[!DNL Microsoft Advertising]konton*
 
-Den här rapporten visar statistik om visningsdelning på kampanjnivå och grundläggande trafikstatistik (kostnad, klickningar, visningar) per annonsdistribution (sökning eller målgrupp) och nätverk (som [!DNL Microsoft] webbplatser och välj trafik eller publik) för angivna [!DNL Microsoft Advertising] konton.
+Den här rapporten innehåller statistik om visningsdelning på kampanjnivå och grundläggande trafikstatistik (kostnad, klick, visningar) per annonsdistribution (sökning eller målgrupp) och nätverk (som [!DNL Microsoft] webbplatser och utvalda trafik eller målgrupper) för angivna [!DNL Microsoft Advertising]-konton.
 
 När du kör en rapport med enbart måttkolumner och inga dimensioner innehåller den genererade rapporten två dubblettrader: en med aggregerade data och den andra med alla mätvärden.
 
-Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar data från [!DNL Microsoft Advertising] i realtid, och det kan ta flera minuter att generera rapporter med större datavolym.
+Du kan visa data de senaste 180 dagarna. Search, Social och Commerce hämtar data från [!DNL Microsoft Advertising] i realtid och det kan ta flera minuter att generera rapporter med större datavolym.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Du kan visa data de senaste 180 dagarna. Search, Social, &amp; Commerce hämtar 
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL SE Account Name]
 * [!UICONTROL Campaign Name]
@@ -52,7 +52,7 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
->* [Specialrapporter](specialty-report-about.md)
+>* [Om specialrapporter](specialty-report-about.md)
 >* [Generera en specialrapport](specialty-report-generate.md)
 >* [Inställningar för specialrapport](specialty-report-settings.md)
 >* [Rapportkolumner för specialrapporter](specialty-report-columns.md)

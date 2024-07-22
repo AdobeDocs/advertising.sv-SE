@@ -5,7 +5,7 @@ role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
 source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ## Lägg till en prenumeration
 
-1. På huvudmenyn klickar du på **[!UICONTROL Settings]** > **[!UICONTROL Notifications]**.
+1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Notifications]** på huvudmenyn.
 
-1. Klicka på längst upp i meddelandelistan **[!UICONTROL Add Subscription]**.
+1. Klicka på **[!UICONTROL Add Subscription]** högst upp i meddelandelistan.
 
-1. Ange ett unikt *Prenumerationsnamn** för aviseringar.
+1. Ange ett unikt *prenumerationsnamn** för aviseringarna.
 
-1. I **[!UICONTROL Add Alerts]** avsnitt:
+1. I avsnittet **[!UICONTROL Add Alerts]**:
 
    1. Välj den första larmtypen.
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
       Inställningarna varierar beroende på varningstyp.
 
-   1. (Valfritt) Om du vill köra aviseringen direkt väljer du **[!UICONTROL Alert immediately]**. Varningen körs som standard 08:00 i kontots tidszon.
+   1. (Valfritt) Om du vill köra aviseringen direkt väljer du **[!UICONTROL Alert immediately]**. Som standard körs varningen kl. 08:00 i kontots tidszon.
 
-   1. (Valfritt) Om du vill lägga till ytterligare en varning till prenumerationen klickar du på **[!UICONTROL Add Alert]** och skapa aviseringen.
+   1. (Valfritt) Om du vill lägga till ytterligare en avisering till prenumerationen klickar du på **[!UICONTROL Add Alert]** och skapar aviseringen.
 
-1. I **[!UICONTROL Add Subscriber Email Addresses]** anger du varje e-postadress som ska ta emot varningarna och trycker sedan på **[!UICONTROL Enter]** nyckel.
+1. I fältet **[!UICONTROL Add Subscriber Email Addresses]** anger du varje e-postadress som ska ta emot varningarna och trycker sedan på **[!UICONTROL Enter]**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Hantera aviseringar för en prenumeration
 
 * Så här lägger du till en avisering i en prenumeration:
 
-   1. Till höger om prenumerationsnamnet klickar du på **[!UICONTROL + Add Alert]**.
+   1. Klicka på **[!UICONTROL + Add Alert]** till höger om prenumerationsnamnet.
 
    1. Välj varningstyp.
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * Så här redigerar du en avisering i en prenumeration:
 
-   1. Till höger om prenumerationsnamnet klickar du på ![Redigera](/help/dsp/assets/edit.png).
+   1. Klicka på ![Redigera](/help/dsp/assets/edit.png) till höger om prenumerationsnamnet.
 
    1. Redigera varningsparametrarna.
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    1. Klicka på **[!UICONTROL Save]**.
 
-* Om du vill ta bort en avisering från en prenumeration klickar du på **[!UICONTROL X]** till höger om varningens namn.
+* Om du vill ta bort en avisering från en prenumeration klickar du på **[!UICONTROL X]** till höger om aviseringsnamnet.
 
 ## Hantera prenumeranter på en prenumeration
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
   Avgränsa flera adresser med blanksteg.
 
-* Om du vill ta bort en prenumeration klickar du på **[!UICONTROL X]** bredvid e-postadressen under **[!UICONTROL Subscribers]**.
+* Om du vill ta bort en prenumerant klickar du på **[!UICONTROL X]** bredvid e-postadressen under **[!UICONTROL Subscribers]**.
 
 ## Inaktivera eller aktivera en prenumeration
 
@@ -78,9 +78,9 @@ ht-degree: 0%
 
 ## Ta bort en prenumeration
 
-1. Till höger om prenumerationsnamnet klickar du på **[!UICONTROL X]**.
+1. Klicka på **[!UICONTROL X]** till höger om prenumerationsnamnet.
 
-1. Klicka på **[!UICONTROL yes]**.
+1. Klicka på **[!UICONTROL yes]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >

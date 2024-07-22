@@ -40,10 +40,10 @@ ht-degree: 0%
 
 * Hur förändras paketeringen på den sista dagen av en flygning?
 
-  På flygningens sista dag förkortas dagen från 24 till 23 timmar så att paketbudgeten inte överskrids. Paketets paketeringsfyllningsstrategi ändras automatiskt till[!UICONTROL Frontload],&quot; även om det är inställt på &quot;[!UICONTROL even].&quot; Det innebär att 65 % av den dagliga budgeten ska ha nått klockan 11.30 EST.
+  På flygningens sista dag förkortas dagen från 24 till 23 timmar så att paketbudgeten inte överskrids. Paketets paketeringsfyllningsstrategi ändras automatiskt till [!UICONTROL Frontload], även om den är inställd på [!UICONTROL even]. Det innebär att 65 % av den dagliga budgeten ska ha nått klockan 11.30 EST.
 
 >[!MORELIKETHIS]
 >
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)

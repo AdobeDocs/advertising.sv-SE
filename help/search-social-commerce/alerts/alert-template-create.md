@@ -1,9 +1,9 @@
 ---
 title: Skapa en anpassad aviseringsmall
 description: Lär dig hur du skapar en mall för att generera anpassade aviseringar.
-exl-id: 1acc6224-3e6c-4443-8efe-9ae8545d6da0
+exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Skapa en anpassad aviseringsmall
 
-Du kan skapa en aviseringsmall för portföljer, kampanjer, annonsgrupper, nyckelord eller annonser och aktivera aviseringen enligt ett regelbundet schema. Nya varningsmallar har statusen &quot;[!UICONTROL Active].&quot;
+Du kan skapa en aviseringsmall för portföljer, kampanjer, annonsgrupper, nyckelord eller annonser och aktivera aviseringen enligt ett regelbundet schema. Nya varningsmallar har statusen [!UICONTROL Active].
 
-## Skapa en aviseringsmall från [!UICONTROL Alert Templates] visa
+## Skapa en aviseringsmall från vyn [!UICONTROL Alert Templates]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i [!UICONTROL Alert Templates] vy.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
-1. Klicka på i verktygsfältet ![Skapa](/help/search-social-commerce/assets/add.png "Skapa")och välj sedan den enhetstyp som ska utvärderas ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad], eller [!UICONTROL Product Group]).
+1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet och välj sedan den entitetstyp som ska utvärderas ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] eller [!UICONTROL Product Group]).
 
-1. I [!UICONTROL Create \[Entity\] Alert] fönster, ange [varningsinställningar](alert-template-settings.md) på **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]** -tabbar.
+1. I fönstret [!UICONTROL Create \[Entity\] Alert] anger du [ aviseringsinställningarna ](alert-template-settings.md) på flikarna **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]**.
 
 Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;Filter&quot;) eller genom att klicka på **[!UICONTROL Next]** längst ned till höger.
 
-1. På [!UICONTROL Summary] flik, klicka **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** på fliken [!UICONTROL Summary].
 
 ## Skapa en aviseringsmall från en kampanjhanteringsvy
 
@@ -32,21 +32,21 @@ Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;
 >
 >Det här alternativet är inte tillgängligt för varningsmallar på portföljnivå.
 
-1. I **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** öppnar du kampanjhanteringsdelvyn för entitetstypen som ska utvärderas ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads], eller [!UICONTROL Product Groups]).
+1. I vyn **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** öppnar du kampanjhanteringsdelvyn för entitetstypen som ska utvärderas ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] eller [!UICONTROL Product Groups]).
 
-Om du till exempel vill skapa en varningsmall på nyckelordsnivå går du till [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns]och sedan markera [!UICONTROL Keywords].
+Om du till exempel vill skapa en varningsmall på nyckelordsnivå går du till [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och väljer sedan [!UICONTROL Keywords].
 
-1. Klicka på till höger i verktygsfältet ovanför datatabellen ![Skapa avisering](/help/search-social-commerce/assets/add-alert.png "Skapa avisering").
+1. Klicka på ![Skapa avisering](/help/search-social-commerce/assets/add-alert.png "Skapa avisering") till höger om verktygsfältet ovanför datatabellen.
 
 >[!NOTE]
 >
 >Du behöver inte markera specifika rader.
 
-1. I [!UICONTROL Create \[Entity type\] Alert] fönster, ange [varningsinställningar](alert-template-settings.md) på **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]** -tabbar.
+1. I fönstret [!UICONTROL Create \[Entity type\] Alert] anger du [ aviseringsinställningarna ](alert-template-settings.md) på flikarna **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]**.
 
 Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;Filter&quot;) eller genom att klicka på **[!UICONTROL Next]** längst ned till höger.
 
-1. På [!UICONTROL Summary] flik, klicka **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]** på fliken [!UICONTROL Summary].
 
 >[!MORELIKETHIS]
 >
@@ -55,6 +55,6 @@ Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;
 >* [Pausa en anpassad aviseringsmall](alert-template-pause.md)
 >* [Aktivera en anpassad aviseringsmall](alert-template-activate.md)
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
->* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
+>* [Inställningar för anpassad aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)

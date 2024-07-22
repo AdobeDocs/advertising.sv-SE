@@ -20,13 +20,13 @@ Avancerade rapporter kan hjälpa er att fatta strategiska beslut om nyckelord oc
 
 * Var försiktig när du vill utesluta webbplatser från kampanjer, eftersom innehåll och förändringar på marknaden snabbt kan ändra värdet på en webbplats trafik.
 
-Mer information om hur du justerar nyckelord och kampanjinställningar finns i&quot;Justera portföljstrategier&quot; i avsnittet Portfolio i optimeringshandboken, som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Mer information om hur du justerar nyckelord och kampanjinställningar finns i&quot;Justera portföljstrategier&quot; i avsnittet Portfolio i optimeringsguiden, som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!TIP]
 >
->Mer information om de bästa metoderna för kampanjer i portföljer finns även i Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som finns i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+>Mer information om de bästa metoderna för kampanjer i portföljer finns även i Optimeringsguide > Hantera Portfolio > Bästa metoder för Portfolio, som är tillgänglig i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!MORELIKETHIS]
 >
->* [Skriv gällande text och text](best-practices-write.md)
+>* [Skriv gällande text och kopia](best-practices-write.md)
 >* [Optimera webbplatsens landningssidor](best-practices-optimize.md)

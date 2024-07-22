@@ -1,11 +1,11 @@
 ---
 title: Filformat för kalkylblad som stöds
 description: Se de allmänna filkraven för kalkylblad.
-exl-id: b14aaf11-e2e9-4f7c-b6bc-831f668b93a6
+exl-id: f3daf036-8f0c-4c75-9c76-2734abd850ec
 feature: Search Bulksheets
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ När du skapar/hämtar ett kalkylblad skapas det i det angivna filformatet med a
 
 ## Grundläggande innehåll i ett kalkylblad
 
-Den första posten (raden) i en kalkylbladsfil innehåller en uppsättning specifika kolumnnamn, gemensamt kända som <i>header</i>. Kolumnnamnen i rubriken är i en angiven ordning och motsvarar vart och ett av fälten i efterföljande dataposter. Kolumnnamnen som krävs i rubriken varierar beroende på annonsnätverk.
+Den första posten (raden) i en kalkylbladsfil innehåller en uppsättning specifika kolumnnamn, som tillsammans kallas <i>rubrik</i>. Kolumnnamnen i rubriken är i en angiven ordning och motsvarar vart och ett av fälten i efterföljande dataposter. Kolumnnamnen som krävs i rubriken varierar beroende på annonsnätverk.
 
 Varje efterföljande post (rad) innehåller data, med fält som innehåller värden (eller inga värden) för varje kolumn i rubriken.
 
@@ -35,7 +35,7 @@ Bulkbladsfiler kan vara upp till 2,5 GB, vilket är ungefär 2,5 miljoner rader.
 
 >[!NOTE]
 >
->När du genererar ett kalkylblad för flera kampanjer och de kombinerade data består av över 500 000 rader, delas data upp efter kampanj i två eller flera filer, med namnet `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv`och så vidare.
+>När du genererar ett kalkylblad för flera kampanjer och de kombinerade data består av mer än 500 000 rader, delas data upp efter kampanj i två eller flera filer, med namnen `<bulksheet name>_1.tsv`, `<bulksheet name>_2.tsv` och så vidare.
 
 ## Formateringskrav för olika filtyper
 
@@ -59,9 +59,9 @@ Datafält i CSV-filer och TXT-filer avgränsade med kommatecken måste formatera
 
   Exempel: `Cruises,5000,Caribbean,,,`
 
-* Alla fält kan omslutas av citattecken (`""`).
+* Alla fält kan eventuellt omslutas av citattecken (`""`).
 
-  Exempel:  `"Cruises","5000","Caribbean",`
+  Exempel: `"Cruises","5000","Caribbean",`
 
 * Fält med inbäddade kommatecken måste omslutas av citattecken (`""`).
 
@@ -71,13 +71,13 @@ Datafält i CSV-filer och TXT-filer avgränsade med kommatecken måste formatera
 
   Exempel: `Cruises,5000,Caribbean,"Customers say ""We wish we could stay forever."",`
 
-* Fält med inledande eller avslutande blanksteg måste omslutas av citattecken (`""`).
+* Fält med inledande eller avslutande blanksteg måste omslutas med dubbla citattecken (`""`).
 
   Exempel: `Cruises,5000,Caribbean,"  Come see what we mean.  ",`
 
 >[!MORELIKETHIS]
 >
->* [Hantera kampanjdata med hjälp av kalkylblad](../bulksheet-about.md)
+>* [Om att hantera kampanjdata med hjälp av kalkylblad](../bulksheet-about.md)
 >* [Åtgärder som du kan utföra i kalkylblad](bulksheet-operations.md)
->* [Bilaga - Fel i bulkark](../bulksheet-errors.md)
+>* [Bilaga - fel i bulkark](../bulksheet-errors.md)
 >* [Hämta/skapa en kalkylbladsfil](../bulksheet-download.md)

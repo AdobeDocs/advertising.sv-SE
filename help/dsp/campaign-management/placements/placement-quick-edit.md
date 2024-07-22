@@ -18,23 +18,23 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 >[!TIP]
 >
-> Om du vill redigera en placeringsinställning läser du &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).&quot;
+> Mer information om hur du redigerar placeringsinställningar finns i [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Placements]**.
-1. Klicka på bredvid placeringsnamnet  **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]**.
-1. Redigera alla tillgängliga [placeringsinställningar](placement-settings.md):  **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
+1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]** bredvid placeringsnamnet.
+1. Redigera någon av de tillgängliga [placeringsinställningarna](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
 1. Klicka på **[!UICONTROL Apply]**.
 
 >[!MORELIKETHIS]
 >
->* [Om Platshantering](placement-about.md)
+>* [Om placeringshantering](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Hantera budmultiplikationer för praktik](placement-manage-bid-multipliers.md)
->* [Redigera annonsplanerna för praktik](placement-edit-ad-schedule.md)
+>* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
 >* [Pausa eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)

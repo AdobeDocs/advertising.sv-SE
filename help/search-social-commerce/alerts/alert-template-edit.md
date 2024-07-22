@@ -1,9 +1,9 @@
 ---
 title: Redigera en anpassad aviseringsmall
 description: Lär dig hur du redigerar en mall för att generera anpassade aviseringar.
-exl-id: 14051d02-108c-4b0e-8a52-9ae18a95fe2e
+exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,19 +12,19 @@ ht-degree: 0%
 
 # Redigera en anpassad aviseringsmall
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** som öppnas i [!UICONTROL Alert Templates] vy.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
 1. (Valfritt) Filtrera vyn så att den innehåller rader med specifika namn, dataområde som ska utvärderas eller andra villkor.
 
-   Du kan använda datafilter [från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller [från kolumnrubriker](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   Du kan använda datafilter [ från verktygsfältet ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller [ från kolumnrubriker](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
-1. Klicka på bredvid mallnamnet ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
+1. Klicka på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera") bredvid mallnamnet.
 
-1. I [!UICONTROL Update \[Entity Type\] Alert] fönster, redigera [varningsinställningar](alert-template-settings.md) på **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]** -tabbar.
+1. I fönstret [!UICONTROL Update \[Entity Type\] Alert] redigerar du [ aviseringsinställningarna ](alert-template-settings.md) på flikarna **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]**.
 
    Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;Filter&quot;) eller genom att klicka på **[!UICONTROL Next]** längst ned till höger.
 
-1. På [!UICONTROL Summary] flik, klicka **[!UICONTROL Update]**.
+1. Klicka på **[!UICONTROL Update]** på fliken [!UICONTROL Summary].
 
 >[!MORELIKETHIS]
 >
@@ -33,6 +33,6 @@ ht-degree: 0%
 >* [Pausa en anpassad aviseringsmall](alert-template-pause.md)
 >* [Aktivera en anpassad aviseringsmall](alert-template-activate.md)
 >* [Ta bort en anpassad aviseringsmall](alert-template-delete.md)
->* [Anpassade inställningar för aviseringsmall](alert-template-settings.md)
+>* [Inställningar för anpassad aviseringsmall](alert-template-settings.md)
 >* [Visa anpassade aviseringar](alert-view.md)
 >* [Exportera data för anpassade aviseringar](alert-export-data.md)

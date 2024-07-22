@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # Webbplatsdomänfält i inställningar för GL- och MS-sökkampanjer
 
-**[!UICONTROL Website Domain]:** (Endast söknätverk; endast tillgängligt för expanderade dynamiska sökannonser) Rotdomänen (t.ex. example.com) eller underdomänen (t.ex. shoes.example.com) för webbplatsen vars innehåll annonsnätverket ska använda för att rikta dina dynamiska sökannonser.
+**[!UICONTROL Website Domain]:** (Endast söknätverk, endast tillgängligt för expanderade dynamiska sökannonser) Rotdomänen (till exempel example.com) eller underdomänen (till exempel shoes.example.com) för webbplatsen vars innehåll annonsnätverket ska använda för att rikta dina dynamiska sökannonser.
 
 **Anteckningar:**
 

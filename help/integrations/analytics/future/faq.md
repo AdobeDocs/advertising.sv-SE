@@ -12,13 +12,15 @@ ht-degree: 0%
 
 ## title
 
-https://adobeadcloud.zendesk.com/agent/tickets/14214 Som standard rapporterar Adobe Analytics alla hämtade händelser i alla rapporter. &quot;[!UICONTROL Unspecified]&quot; representerar händelser för formulärslutförande som inte var anslutna till Adobe Advertising. I Ad Platform-rapporten skulle till exempel organiska konverteringar eller konverteringar som styrs av en e-postkampanj falla under&quot;ospecificerade&quot;.
+https://adobeadcloud.zendesk.com/agent/tickets/14214
+Som standard rapporterar Adobe Analytics alla hämtade händelser i alla rapporter. [!UICONTROL Unspecified]-händelser representerar händelser för formulärslutförande som inte var anslutna till Adobe Advertising. I Ad Platform-rapporten skulle till exempel organiska konverteringar eller konverteringar som styrs av en e-postkampanj falla under&quot;ospecificerade&quot;.
 
 Du kan använda filtret för att ta bort ospecificerade händelser från rapporter genom att ta bort markeringen med alternativet &quot;Inkludera ospecificerad (ingen)&quot;. <!-- Not sure if this is in DSP or in Analytics Workspace -->
 
 ## title
 
-https://adobeadcloud.zendesk.com/agent/tickets/24323 Lägg Analytics-händelsetaggar i samma fläckar som Ad Cloud-pixlarna för att säkerställa att XXX matchar.
+https://adobeadcloud.zendesk.com/agent/tickets/24323
+Lägg Analytics-händelsetaggar i samma fläckar som Ad Cloud-pixlarna för att säkerställa att XXX matchar.
 
 ## title
 

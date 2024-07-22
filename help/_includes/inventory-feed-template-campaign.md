@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Text ad template - Campaign
 
-**[!UICONTROL Campaign]:** kampanjnamnet, som kan bestå av valfri kombination av statisk text, kolumner i den angivna filen, och [modifierare](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md). Kolumnnamn och modifierare ersätts med faktiska data när den angivna feed-filen sprids via mallen.
+**[!UICONTROL Campaign]:** Kampanjnamnet, som kan bestå av valfri kombination av statisk text, kolumner i den angivna filen och [modifiers](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md). Kolumnnamn och modifierare ersätts med faktiska data när den angivna feed-filen sprids via mallen.
 
 Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i indatafältet och sedan på ett kolumnnamn i kolumnlistan eller ett modifieringsnamn i listan Modifierare.

@@ -14,13 +14,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Du kan också köra en anpassad rapport när du [skapa](report-create.md) eller [redigera](report-edit.md) den.
+>Du kan också köra en anpassad rapport när du [skapar](report-create.md) eller [redigerar](report-edit.md) den.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Reports]** på huvudmenyn.
 
-1. I [!UICONTROL Options] kolumn för rapportraden klickar du på **[!UICONTROL options]** > **[!UICONTROL Run Now]**.
+1. Klicka på **[!UICONTROL options]** > **[!UICONTROL Run Now]** i kolumnen [!UICONTROL Options] för rapportraden.
 
-1. Klicka på **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
    När rapporten är klar skickas den till alla e-postadresser som anges i rapportinställningarna.
 
@@ -32,4 +32,3 @@ ht-degree: 0%
 >* [Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
-

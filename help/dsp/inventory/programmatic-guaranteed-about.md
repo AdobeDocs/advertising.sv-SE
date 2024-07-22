@@ -39,7 +39,7 @@ PG-avtal kräver en standardplacering och annonser i PG-format (eller en pixel p
 
 >[!MORELIKETHIS]
 >
->* [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Ställ in en programgaranterad affär](programmatic-guaranteed-set-up.md)
+>* [Tips för att förhandla om ett program- eller garantiavtal](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Konfigurera ett garanterat programavtal](programmatic-guaranteed-set-up.md)
 >* [SSP-partners](ssp-partners.md)
->* [Översikt över inventeringsfunktioner](inventory-overview.md)
+>* [Översikt över lagerfunktioner](inventory-overview.md)

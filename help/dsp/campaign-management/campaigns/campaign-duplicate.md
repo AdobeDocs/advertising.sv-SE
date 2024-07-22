@@ -20,11 +20,11 @@ Duplicera en kampanj för att skapa en ny kampanj med liknande inställningar. D
 * Duplicera originalpaketen och -placeringarna om du vill
 * Ändra flygdatum för den nya kampanjen
 
-Se &quot;[Vad som inte är duplicerat](#campaign-not-duplicated)&quot; för en lista med placeringsinställningar som inte är duplicerade.
+Se [Vad som inte är duplicerat](#campaign-not-duplicated) för en lista över placeringsinställningar som inte är duplicerade.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
-1. Klicka på bredvid kampanjnamnet **[!UICONTROL ...]** > **[!UICONTROL Duplicate]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Duplicate]** bredvid kampanjnamnet.
 
 1. Ange de nya kampanjinställningarna:
 
@@ -43,12 +43,12 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 * Experimentera
 * (Om du ändrar flygdatum) Anpassad annonsplanering
 * (Om du inte bifogar annonser) Anpassad annonseringskoefficient och schemaläggning
-* Standardplaceringar för köp av programmatiska annonsköp (PG) för [!UICONTROL Simple Ad Serving] erbjudanden
+* Standardersättningar för köp med programgaranti (PG) för [!UICONTROL Simple Ad Serving]-erbjudanden
 * (Om du kopierar praktik till en annan kampanj):
    * Geografiska mål
    * Händelsepixlar
    * Annonser
-   * Placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] segment (som åsidosätter segment på annonsörnivå)
+   * Segment på placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] (som åsidosätter segmenten på annonsörnivå)
 
 >[!MORELIKETHIS]
 >
@@ -57,4 +57,3 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
 >* [Kampanjinställningar](campaign-settings.md)
-

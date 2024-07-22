@@ -1,9 +1,9 @@
 ---
-title: Klickningsspårningsformat för [!DNL Baidu]
-description: Läs mer om klickningsspårningsformaten för [!DNL Baidu] konton.
-exl-id: a57ff0cf-0bcf-4d55-9a86-7551db8a08e7
+title: Klickspårningsformat för  [!DNL Baidu]
+description: Lär dig mer om knappspårningsformat för  [!DNL Baidu] konton.
+exl-id: 4f4ed518-aa25-4a29-b263-c01f78b69b92
 feature: Search Tracking
-source-git-commit: 05b9a55e19c9f76060eedb35c41cdd2e11753c24
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Exempel:
 >
 >* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
 >
->* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om tokenöverföring är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
+>* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
 >* `<campaignID>` är en variabel för det numeriska kampanj-ID:t.
 >
@@ -32,5 +32,5 @@ Exempel:
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering i Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
+>* [AMO-ID-format](/help/integrations/analytics/ids.md#amo-id-formats)

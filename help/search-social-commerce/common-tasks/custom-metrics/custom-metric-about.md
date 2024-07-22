@@ -1,9 +1,9 @@
 ---
 title: Om anpassade mått
 description: Lär dig mer om anpassade mätvärden, som beräknas utifrån standardvärden.
-exl-id: 6a2df48f-4d6b-4afe-88c0-c52a6de53e33
+exl-id: 2c322ad1-399c-4e94-9a68-44c07da04cbd
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Om anpassade mått
 
-Du kan konfigurera anpassade (härledda) värden, som beräknas utifrån standardtrafikstatistik och befintliga konverteringsvärden som spåras för annonsören. Anpassade mått kan vara så enkla (som `[Cost]/[Registrations]`) eller så komplex du vill.
+Du kan konfigurera anpassade (härledda) värden, som beräknas utifrån standardtrafikstatistik och befintliga konverteringsvärden som spåras för annonsören. Anpassade mått kan vara så enkla (till exempel `[Cost]/[Registrations]`) eller så komplexa som du vill.
 
 Ni kan inkludera anpassade mätvärden som kolumner i vyerna för portfölj- och kampanjhantering och i rapporter.
 

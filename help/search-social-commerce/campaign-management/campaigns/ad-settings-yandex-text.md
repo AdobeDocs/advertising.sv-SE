@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Yandex] text och inställningar'
-description: Referera inställningarna för [!DNL Yandex] textannonser.
-exl-id: 762eca31-58f7-4a4e-bf6a-1c2132c6529f
+title: '[!DNL Yandex] text och inställningar'
+description: Referera inställningarna för  [!DNL Yandex] textannonser.
+exl-id: ed0ae54f-85a3-4475-af2d-f3e693fc48a1
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Ändra annonskopia för en [!DNL Yandex] och tar bort den befintliga annonsen och skapar en ny annons med samma egenskaper.
+>Om du ändrar annonskopian för en [!DNL Yandex]-annons tas den befintliga annonsen bort och en ny annons med samma egenskaper skapas.
 
 **[!UICONTROL Description Line 1]:** Banderollens brödtext (ad). Maxlängden är 75 tecken och ett ord får inte vara längre än 22 tecken.
 
 >[!NOTE]
 >
->Ändra annonskopia för en [!DNL Yandex] och tar bort den befintliga annonsen och skapar en ny annons med samma egenskaper.
+>Om du ändrar annonskopian för en [!DNL Yandex]-annons tas den befintliga annonsen bort och en ny annons med samma egenskaper skapas.
 
 <!-- **[!UICONTROL Status]:** -->
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->URL:en kan även innehålla [`{param1}` och `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html) substitutionsvariabler. När du använder dem ersätts variablerna med `{param1}` och `{param2}` värden som definieras för nyckelordet som används för att visa annonsen.
+>URL:en kan även innehålla ersättningsvariablerna [`{param1}` och `{param2}`](https://yandex.com/support/direct/statistics/url-tags.html). När du använder dem ersätts variablerna med värdena `{param1}` och `{param2}` som definierats för nyckelordet som används för att visa annonsen.
 
 >[!MORELIKETHIS]
 >

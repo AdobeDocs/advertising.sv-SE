@@ -1,7 +1,7 @@
 ---
 source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
@@ -10,6 +10,5 @@ ht-degree: 0%
 >[!NOTE]
 >
 >* Den maximala längden per nyckelord är 100 tecken.
->* Du kan ange negativa nyckelord på kampanj- och annonsgruppsnivå från antingen kampanj- och annonsgruppsinställningarna eller från [!UICONTROL Keywords] > [!UICONTROL Negatives] vy. Negativ på kampanjnivå tillämpas på annonsgruppsnivå.
->* Ändra en [!DNL Microsoft Advertising] nyckelordet tar bort det befintliga nyckelordet och skapar ett nytt med ett nytt nyckelords-ID. Om du ändrar matchningstypen tas dock inte det befintliga nyckelordet bort.
-
+>* Du kan ange negativa nyckelord på kampanj- och annonsgruppsnivå antingen från inställningarna för kampanj och annonsgrupp eller från vyn [!UICONTROL Keywords] > [!UICONTROL Negatives]. Negativ på kampanjnivå tillämpas på annonsgruppsnivå.
+>* Om du ändrar ett [!DNL Microsoft Advertising]-nyckelord tas det befintliga nyckelordet bort och ett nytt skapas med ett nytt nyckelords-ID. Om du ändrar matchningstypen tas dock inte det befintliga nyckelordet bort.

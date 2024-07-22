@@ -7,6 +7,6 @@ ht-degree: 0%
 ---
 # Text och mall - Lägg endast till gruppmappning
 
-**[!UICONTROL Map Only]:** (Alla annonsnätverk utom [!DNL Yandex]; (valfritt) Mappa alla nya nyckelord och annonser till befintliga annonsgrupper i stället för att skapa nya annonsgrupper. Om du aktiverar det här alternativet väljer du mappningsmetod.
+**[!UICONTROL Map Only]:** (Alla annonsnätverk utom [!DNL Yandex]; valfritt) Mappar alla nya nyckelord och annonser till befintliga annonsgrupper, i stället för att skapa nya annonsgrupper. Om du aktiverar det här alternativet väljer du mappningsmetod.
 
-Använda [!UICONTROL Map Only] på annonsgruppsnivå kräver en befintlig kontostruktur som är nära kopplad till produkttaxonomin och som enkelt kan kopplas till dataflödet.
+Om du använder [!UICONTROL Map Only] på annonsgruppsnivå krävs en befintlig kontostruktur som är nära kopplad till produkttaxonomin och som enkelt mappar till dataflödet.

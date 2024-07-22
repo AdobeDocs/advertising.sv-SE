@@ -1,6 +1,6 @@
 ---
 title: Hantera kundmatchande målgrupper med hjälp av kunddatalistor
-description: Lär dig skapa och redigera [!DNL Google Ads] och [!DNL Microsoft Advertising] matchar kunderna målgrupper utifrån era kunddatalistor.
+description: Lär dig hur du skapar och redigerar [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatchningar utifrån era kunddatalistor.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,69 +10,69 @@ ht-degree: 0%
 
 ---
 
-# Hantera [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatcha målgrupper med hjälp av kunddatalistor
+# Hantera [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatchande målgrupper med hjälp av kunddatalistor
 
-Du kan [!DNL Google Ads] och [!DNL Microsoft Advertising] matchar kunderna målgrupper utifrån era kunddatalistor. Du kan även uppdatera [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp.
+Du kan skapa [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatchande målgrupper från dina kunddatalistor. Du kan även uppdatera alla [!DNL Google Ads]- eller [!DNL Microsoft Advertising] kundmatchande målgrupper, förutom [!DNL Google Ads] målgrupper som skapats från en [!DNL Adobe]-målgrupp.
 
 ## Skapa en kundmatchande målgrupp från en kunddatalista
 
-*[!DNL Google Ads]och [!DNL Microsoft Advertising] konton som endast är berättigade till kundmatchning*
+*[!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton som endast är berättigade för kundmatchning*
 
-Du kan skapa [!DNL Google Ads] eller [!DNL Microsoft Advertising] kunddatabaserad lista från en datafil som du genererar från CRM-systemet (customer relationship management).
+Du kan skapa en [!DNL Google Ads]- eller [!DNL Microsoft Advertising] kunddatabaserad lista från en datafil som du genererar från CRM-systemet (customer relationship management).
 
-För [!DNL Microsoft Advertising] kan filen innehålla e-postadresser. För [!DNL Google Ads] kan filen innehålla e-postadresser, e-postadresser eller telefonnummer, användar-ID:n eller mobila enhets-ID:n från CRM.
+För [!DNL Microsoft Advertising]-konton kan filen innehålla e-postadresser. För [!DNL Google Ads]-konton kan filen innehålla e-postadresser, e-postadresser eller telefonnummer, användar-ID:n eller mobila enhets-ID:n från CRM.
 
 >[!NOTE]
 >
->Search, Social, &amp; Commerce lagrar inte kunddata som du överför eller från [!DNL Adobe] segment som används för att skapa eller redigera en [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp.
+>Search, Social och Commerce lagrar inte någon av de kunddata som du överför eller från de [!DNL Adobe] segment som används för att skapa eller redigera en [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp.
 
 1. Generera en fil med kunddata i det format som krävs.
 
-   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft Excel] mall för kontaktinformation.
+   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
-1. Klicka på i verktygsfältet ovanför datatabellen ![Skapa](/help/search-social-commerce/assets/add.png "Skapa").
+1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
-1. Välj annonsnätverket och kontonamnet och klicka sedan på **[!UICONTROL Continue]**.
+1. Markera annonsnätverket och kontonamnet och klicka sedan på **[!UICONTROL Continue]**.
 
 1. Ange målgruppsinformation:
 
-   1. I [!UICONTROL Data Source] meny, välja **[!UICONTROL Customer List]**.
+   1. Välj **[!UICONTROL Customer List]** på menyn [!UICONTROL Data Source].
 
    1. Ange **[!UICONTROL Audience Name]**.
 
    1. Överför filen:
 
-      1. Välj [!UICONTROL Data Upload Type]: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]*, eller *[!UICONTROL Mobile Device IDs]*.
+      1. Välj [!UICONTROL Data Upload Type]: *[!UICONTROL Emails, Phones, and/or Mailing Addresses]*, *[!UICONTROL User IDs]* eller *[!UICONTROL Mobile Device IDs]*.
 
-         Alternativet Användar-ID är bara tillgängligt för [!DNL Google Ads] annonsörer i USA [användar-ID-segment](https://support.google.com/google-ads/answer/9199250)
+         Alternativet för användar-ID är bara tillgängligt för [!DNL Google Ads] annonsörer i USA som har valts in för [användar-ID-segment](https://support.google.com/google-ads/answer/9199250)
 
-      1. (Endast för mobila enhets-ID-listor) Välj **[!UICONTROL OS Type]** (*[!UICONTROL Android™]* eller *[!UICONTROL iOS]*) och anger **[!UICONTROL App ID]**.
+      1. (Endast i listan med mobila enhets-ID) Markera **[!UICONTROL OS Type]** (*[!UICONTROL Android™]* eller *[!UICONTROL iOS]*) och ange **[!UICONTROL App ID]**.
 
          Program-ID är en unik identifierare som mobiloperativsystemet använder för att tillåta att ditt program ansluter till Google Play eller Apple App Store:
 
-         * ([!DNL Android™] appar) [!DNL Android™] paketnamn i [!DNL Google Play], identifieras med &quot;`id=<package_name>`.&quot;
+         * ([!DNL Android™] program) Paketnamnet [!DNL Android™] i [!DNL Google Play], identifieras av `id=<package_name>`.
 
            I https://play.google.com/store/apps/details?id=com.example.game heter paketet till exempel com.example.game.
 
-         * ([!DNL iOS] program) Program-ID:t i [!DNL iTunes App Store], identifieras med &quot;`<idNNNNNNNNN>`&quot; i slutet av URL:en. Det finns också i [!DNL iOS Developer Console].
+         * ([!DNL iOS] appar) Program-ID:t i [!DNL iTunes App Store], som identifieras av `<idNNNNNNNNN>` i slutet av URL:en. Den är också tillgänglig i [!DNL iOS Developer Console].
 
            I https://itunes.apple.com/us/app/id284882215 är till exempel ID id284882215.
 
-         Utvecklingsteamet har tillgång till [!UICONTROL App ID] för den relevanta plattformen.
+         Utvecklingsteamet har åtkomst till [!UICONTROL App ID] för den aktuella plattformen.
 
-      1. I [!UICONTROL Select File] fält, klicka **[!UICONTROL Choose File]** och välj filen i nätverket eller enheten.
+      1. Klicka på **[!UICONTROL Choose File]** i fältet [!UICONTROL Select File] och markera filen i nätverket eller enheten.
 
-      1. Markera kryssrutan för att ange att du godkänner villkoren i [!DNL Adobe] och annonsera sekretesspolicyer för nätverk.
+      1. Markera kryssrutan för att ange att du godkänner villkoren i [!DNL Adobe] och sekretesspolicyer för annonsnätverk.
 
-      1. (Advertisers skapa [!DNL Google Ads] målgrupper som gör affärer i EES (European Economic Area) eller UK (UK); valfritt) Om du har inhämtat samtycke från användare i EES och Storbritannien att överföra sina data för annonsändamål, markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
+      1. (Annonsörer som skapar [!DNL Google Ads] målgrupper som gör affärer i Europeiska ekonomiska samarbetsområdet (EES) eller Storbritannien (UK); valfritt) Om du har inhämtat samtycke från användare i EES och Storbritannien att överföra sina data i annonssyfte markerar du kryssrutan bredvid **[!UICONTROL If you are doing business in EEA and/or UK, check this box to send consent status as GRANTED for the user data sent to [!DNL Google Ads] for advertising purposes. If left unchecked, we will send consent status as UNSPECIFIED for the user data sent to [!DNL Google Ads] for advertising purposes.]**
 
-      [!DNL Google Ads] ignorerar alla data för användare i EES och UK med ospecificerad medgivandestatus. Detta kan leda till diskrepans och prestandaproblem.
+      [!DNL Google Ads] ignorerar alla data för EEA- och UK-användare med ospecificerad medgivandestatus. Detta kan leda till diskrepans och prestandaproblem.
 
       1. Klicka på **[!UICONTROL Upload File]**.
 
-   1. Ange antalet **[!UICONTROL Membership Days]**, vilket är antalet dagar som en användares cookie stannar kvar hos publiken.
+   1. Ange antalet **[!UICONTROL Membership Days]**, vilket är antalet dagar som en användares cookie stannar i målgruppen.
 
    Använd den tid under vilken du förväntar dig att annonsen ska vara relevant för användaren. Kundlistor förfaller inte om du inte anger ett värde.
 
@@ -85,27 +85,27 @@ För [!DNL Microsoft Advertising] kan filen innehålla e-postadresser. För [!DN
 
 ## Redigera en kundmatchande målgrupp med hjälp av en kunddatalista
 
-Du kan uppdatera alla [!DNL Google Ads] eller [!DNL Microsoft Advertising] målgrupp med kundmatchning förutom [!DNL Google Ads] målgrupper skapade från en [!DNL Adobe] målgrupp. Du kan överföra data som ska läggas till, tas bort eller ersätta alla befintliga data för målgruppen.
+Du kan uppdatera alla [!DNL Google Ads]- eller [!DNL Microsoft Advertising] kundmatchande målgrupper, förutom [!DNL Google Ads] målgrupper som skapats från en [!DNL Adobe]-målgrupp. Du kan överföra data som ska läggas till, tas bort eller ersätta alla befintliga data för målgruppen.
 
 Data måste vara av samma typ som den ursprungliga kundlistan (e-postadresser, e-postadresser, telefonnummer, användar-ID:n eller mobilenhets-ID:n för en viss app i ett visst mobiloperativsystem).
 
 1. Generera en fil med kunddata i det format som krävs för den befintliga datatypen.
 
-För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads] dokumentation om[Formateringsriktlinjer för överföring av streckade data](https://support.google.com/google-ads/answer/7476159)&quot; för en lista över tillåtna fält och krav för kontaktinformation. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising] dokumentation om [förbereda kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan ladda ned en [!DNL Microsoft Excel] mall för kontaktinformation.
+För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
 1. Markera kryssrutan bredvid målgruppen som ska redigeras.
 
-1. Klicka på i verktygsfältet ovanför datatabellen ![Redigera](/help/search-social-commerce/assets/edit.png).
+1. Klicka på ![Redigera](/help/search-social-commerce/assets/edit.png) i verktygsfältet ovanför datatabellen.
 
-1. Välj åtgärd: *[!UICONTROL Add]* (för att lägga till överförda data till befintliga data, såvida det inte redan finns) *[!UICONTROL Delete]* (för att ta bort överförda data från befintliga data, om sådana redan finns) eller *[!UICONTROL Replace]* (för att ta bort alla befintliga data och ersätta dem med överförda data).
+1. Välj åtgärden: *[!UICONTROL Add]* (om du vill lägga till överförda data till befintliga data, om det inte redan finns), *[!UICONTROL Delete]* (om du vill ta bort överförda data från befintliga data, om det redan finns) eller *[!UICONTROL Replace]* (om du vill ta bort alla befintliga data och ersätta dem med överförda data).
 
 1. Överför filen:
 
-   1. I [!UICONTROL Select File] fält, klicka **[!UICONTROL Choose File]** och välj filen i nätverket eller enheten.
+   1. Klicka på **[!UICONTROL Choose File]** i fältet [!UICONTROL Select File] och markera filen i nätverket eller enheten.
 
-   1. Markera kryssrutan för att ange att du godkänner villkoren i [!DNL Adobe] och annonsera sekretesspolicyer för nätverk.
+   1. Markera kryssrutan för att ange att du godkänner villkoren i [!DNL Adobe] och sekretesspolicyer för annonsnätverk.
 
    1. Klicka på **[!UICONTROL Upload File]**.
 
@@ -118,6 +118,6 @@ För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-
 >[!MORELIKETHIS]
 >
 >* [Om målgrupper](audience-about.md)
->* [Skapa [!DNL Google Ads] kundmatcha målgrupper från [!DNL Adobe] målgrupper](google-audience-from-adobe-audience.md)
+>* [Skapa [!DNL Google Ads] kundmatchande målgrupper från [!DNL Adobe] målgrupper](google-audience-from-adobe-audience.md)
 >* [Skapa en [!DNL Google Ads] kundmatchande målgrupp från en e-postlista från Adobe Campaign](google-audience-from-campaign-email-list.md)
->* [Hantera målgrupper för dynamisk återmarknadsföring](audience-dynamic-remarketing-manage.md)
+>* [Hantera dynamiska målgrupper för återmarknadsföring](audience-dynamic-remarketing-manage.md)

@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
 1. Klicka på kampanjens namn.
 
-1. På **[!UICONTROL Packages]** bredvid paketnamnet klickar du på  **[!UICONTROL ...]** > **[!UICONTROL Change logs]**.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Change logs]** bredvid paketnamnet på fliken **[!UICONTROL Packages]**.
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill växla mellan att visa data endast i tabellformulär och i både tabell- och diagramformulär klickar du på ![Tabell- och diagramvy](/help/dsp/assets/table-plus-chart-view.png "Tabell- och diagramvy") eller ![Tabellvy](/help/dsp/assets/table-view.png "Tabellvy") i det övre högra verktygsfältet.
 
-   * Om du vill lägga till en anteckning i en post håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan **[!UICONTROL Save]**.
+   * Om du vill lägga till en anteckning till en post håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL Add Notes]**. Ange text i inmatningsfälten och klicka sedan på **[!UICONTROL Save]**.
 
-   * Om du vill visa information för en post i ett popup-fönster håller du markören över [!UICONTROL Notes] kolumn för raden och klicka sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
+   * Om du vill visa information för en post i ett popup-fönster håller du markören över kolumnen [!UICONTROL Notes] för raden och klickar sedan på **[!UICONTROL More]>[!UICONTROL View Details]**.
 
 >[!MORELIKETHIS]
 >
@@ -37,4 +37,3 @@ Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 >* [Redigera ett paket](package-edit.md)
 >* [Koppla en placering till ett paket](package-attach-placement.md)
 >* [Paketinställningar](package-settings.md)
-

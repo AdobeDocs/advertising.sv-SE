@@ -1,20 +1,20 @@
 ---
 title: '[!UICONTROL AdWords Search Query Report]'
 description: Läs mer om [!UICONTROL AdWords Search Query Report].
-exl-id: 085f6a46-ce7e-4b68-b03d-edfbb6834284
+exl-id: cf472731-f9e5-4878-9a83-59f5c022ec69
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 9c4dcb19e386d8e1eea541776f5b92c9d500ae9f
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL AdWords Search Query Report]
 
-*[!DNL Google Ads]endast konton*
+Endast *[!DNL Google Ads]konton*
 
-The [!UICONTROL AdWords Search Query Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata för söktermer för användare för en eller flera annonsgrupper. Som standard innehåller data en rad för varje sökterm som resulterade i avtryck eller klick för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet, och raderna är i stigande ordning efter annonsgruppens namn och sedan efter söktermen. Du kan också inkludera nyckelordet som söktermen matchades mot. Rapporten innehåller inte nyckelordet som söktermen matchades mot, och inte heller några konverteringsdata som spåras av [!DNL Adobe].
+[!UICONTROL AdWords Search Query Report] innehåller kostnads-, klicknings-, intrycks- och (valfritt) härledda mätdata för användarsökningsfrågetermer för en eller flera annonsgrupper. Som standard innehåller data en rad för varje sökterm som resulterade i avtryck eller klick för varje tillämplig annonsgrupp för varje tidsenhet i det angivna datumintervallet, och raderna är i stigande ordning efter annonsgruppens namn och sedan efter söktermen. Du kan också inkludera nyckelordet som söktermen matchades mot. Rapporten innehåller inte nyckelordet som söktermen matchades mot och inte heller några konverteringsdata som spårats av [!DNL Adobe].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ The [!UICONTROL AdWords Search Query Report] innehåller kostnads-, klicknings-,
 
 ## Standardkolumner
 
-Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rapportkolumner för specialrapporter](specialty-report-columns.md).&quot;
+Beskrivningar av alla standardkolumner och anpassade kolumner finns i [Rapportera kolumner för specialrapporter](specialty-report-columns.md).
 
 * [!UICONTROL Account Name]
 * [!UICONTROL Start Date]
@@ -40,6 +40,6 @@ Beskrivningar av alla standardkolumner och anpassade kolumner finns i &quot;[Rap
 
 >[!MORELIKETHIS]
 >
-* [Specialrapporter](specialty-report-about.md)
-* [Generera en specialrapport](specialty-report-generate.md)
-* [Inställningar för specialrapport](specialty-report-settings.md)
+>* [Om specialrapporter](specialty-report-about.md)
+>* [Generera en specialrapport](specialty-report-generate.md)
+>* [Inställningar för specialrapport](specialty-report-settings.md)

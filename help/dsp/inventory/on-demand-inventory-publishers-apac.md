@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet'
-description: Se tillgängliga [!DNL On Demand] Förlag av premiuminventarier i Asien-Stillahavsregionen.
+title: '[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet'
+description: Se tillgängliga [!DNL On Demand] premiumutgivare i Asien-Stillahavsregionen.
 feature: DSP On Demand Inventory
 exl-id: ef23503c-d92b-4809-9082-afeaffe58f8f
 source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
@@ -371,9 +371,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om [!DNL On Demand] Premiumlager](on-demand-inventory-about.md)
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premiumlager](on-demand-inventory-subscribe.md)
+>* [Om [!DNL On Demand] Premiuminventering](on-demand-inventory-about.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
 >* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
 >* [[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa](on-demand-inventory-publishers-emea.md)
 >* [[!DNL On Demand Premium] Inventory Publishers i Nordamerika](on-demand-inventory-publishers-na.md)
-

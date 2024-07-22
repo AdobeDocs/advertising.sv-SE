@@ -5,7 +5,7 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Reklamdokumentation DSP
+# Advertising DSP Documentation
 
 Det här är mappen för DSP hjälpdokumentation.
 

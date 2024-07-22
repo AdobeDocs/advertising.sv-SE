@@ -14,18 +14,18 @@ ht-degree: 0%
 
 *Endast för grundläggande rapporter och modellnoggrannhetsrapporter*
 
-Du kan visa alla genererade kalkylbladsflöden eller spara dem i en fil. Kalkylbladsmatningsfiler finns i[!DNL Microsoft Excel] XLSX-format.
+Du kan visa alla genererade kalkylbladsflöden eller spara dem i en fil. Kalkylbladsmatningsfiler har formatet [!DNL Microsoft Excel] XLSX.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
-1. Klicka **[!UICONTROL XLSX]** intill feeden och öppna eller spara sedan filen i enlighet med webbläsarens normala procedur.
+1. Klicka på **[!UICONTROL XLSX]** bredvid feeden och öppna eller spara sedan filen enligt webbläsarens normala procedur.
 
 >[!MORELIKETHIS]
 >
->* [Om rapportfeeds för kalkylblad](spreadsheet-feed-about.md)
+>* [Om tabellrapportfeeds](spreadsheet-feed-about.md)
 >* [Skapa ett kalkylbladsrapportflöde](spreadsheet-feed-create.md)
->* [Skapa en [!DNL Excel] mall för kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
->* [Redigera inställningar för matning av kalkylbladsrapporter](spreadsheet-feed-edit.md)
->* [Feed-inställningar för kalkylbladsrapport](spreadsheet-feed-settings.md)
->* [Uppdatera tabellrapportfeeds manuellt](spreadsheet-feed-refresh.md)
->* [Ta bort rapportflöden för kalkylblad](spreadsheet-feed-delete.md)
+>* [Skapa en [!DNL Excel] mall för ett kalkylbladsrapportflöde](spreadsheet-feed-create-excel-template.md)
+>* [Redigera inställningar för kalkylbladsrapportfeed](spreadsheet-feed-edit.md)
+>* [Inställningar för kalkylbladsrapportfeed](spreadsheet-feed-settings.md)
+>* [Uppdatera kalkylbladsrapportfeeds manuellt](spreadsheet-feed-refresh.md)
+>* [Ta bort tabellrapportfeeds](spreadsheet-feed-delete.md)

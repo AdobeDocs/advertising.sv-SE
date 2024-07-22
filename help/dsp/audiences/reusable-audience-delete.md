@@ -14,27 +14,27 @@ ht-degree: 0%
 
 Du kan ta bort en publik som inte används på några platser eller i andra återanvändbara målgrupper.
 
-Om en målgrupp används kan du exportera en [!DNL Microsoft Excel] kalkylblad som visar alla placeringar och målgrupper som använder målgruppen.
+Om en målgrupp används för närvarande har du möjlighet att exportera ett [!DNL Microsoft Excel]-kalkylblad med alla placeringar och målgrupper som använder målgruppen.
 
-1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]** på huvudmenyn.
 
-1. Håll markören över målgruppsraden och klicka **[!UICONTROL Delete]**.
+1. Håll markören över målgruppsraden och klicka på **[!UICONTROL Delete]**.
 
-1. (Om målgruppen används på något sätt eller i någon annan återanvändbar målgrupp, valfritt) Klicka på **[!UICONTROL Export XLS]** om du vill hämta en kalkylbladsfil (i XLSX-format) enligt webbläsarens normala procedur.
+1. (Om målgruppen används på något ställe eller i någon annan återanvändbar målgrupp (valfritt) klickar du på **[!UICONTROL Export XLS]** för att hämta en kalkylbladsfil (i XLSX-format) enligt webbläsarens normala procedur.
 
    Filnamnet innehåller publikens namn och datum.
 
-1. (Om målgruppen kan tas bort) Klicka på **[!UICONTROL Continue]**.
+1. (Om målgruppen kan tas bort) Klicka på **[!UICONTROL Continue]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
->* [Skapa en återanvändbar publik](reusable-audience-create.md)
+>* [Om målgruppshantering](audience-about.md)
+>* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
->* [Redigera en återanvändbar publik](reusable-audience-edit.md)
->* [Visa information om en återanvändbar publik](reusable-audience-view-details.md)
+>* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
+>* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
->* [Exportera en återanvändbar publik](reusable-audience-export.md)
+>* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
 >* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)

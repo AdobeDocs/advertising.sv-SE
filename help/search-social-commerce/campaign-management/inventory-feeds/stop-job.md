@@ -12,22 +12,22 @@ ht-degree: 0%
 
 # Stoppa ett bokföringsjobb för lagerfeed-data
 
-*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder), och [!DNL Yandex] endast konton*
+*[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder) och [!DNL Yandex] enbart konton*
 
 Du kan stoppa bokföring av kampanjdata som genererats från en feed på följande sätt.
 
 * Medan data fortfarande sprids stoppar du spridningsjobbet så att inga data är tillgängliga för publicering:
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** som öppnas i [!UICONTROL Templates] -fliken.
+   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
-   1. I dialogrutan[!UICONTROL Last Prop. Status]kolumnen bredvid mallnamnet klickar du på **[!UICONTROL Cancel]**.
+   1. Klicka på **[!UICONTROL Cancel]** i kolumnen [!UICONTROL Last Prop. Status] bredvid mallnamnet.
 
-* Om data redan har spridits [avbryt bokföringsjobbet från [!UICONTROL Bulksheets] visa](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
+* Om data redan har spridits kan du [avbryta bokföringsjobbet från [!UICONTROL Bulksheets]-vyn](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-stop-job.md).
 
 >[!MORELIKETHIS]
 >
->* [Om lagerflöden](inventory-feeds-about.md)
->* [Visa data som genererats från feeds](propagated-data-view.md)
+>* [Om lagerfeeds](inventory-feeds-about.md)
+>* [Visa data som har genererats från feeds](propagated-data-view.md)
 >* [Redigera data som genererats från feeds](propagated-data-edit.md)
->* [Posta kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
+>* [Publicera kampanjdata som genererats från feeds till annonsnätverk](propagated-data-post.md)
 >* [Status för data som genererats från feeds](propagated-data-status.md)

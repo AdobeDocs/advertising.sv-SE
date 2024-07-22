@@ -12,11 +12,11 @@ ht-degree: 1%
 
 # Redigera en anpassad rapport
 
-1. Klicka på **[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Reports]** på huvudmenyn.
 1. Gör något av följande:
    * Klicka på rapportnamnet.
-   * I [!UICONTROL Options] kolumn för rapportraden klickar du på **[!UICONTROL options]** > **[!UICONTROL Edit]**.
-1. Redigera [rapportinställningar](/help/dsp/reports/report-settings.md).
+   * Klicka på **[!UICONTROL options]** > **[!UICONTROL Edit]** i kolumnen [!UICONTROL Options] för rapportraden.
+1. Redigera [rapportinställningarna](/help/dsp/reports/report-settings.md).
 1. Klicka på **[!UICONTROL Edit Custom Report]**.
 
 >[!MORELIKETHIS]

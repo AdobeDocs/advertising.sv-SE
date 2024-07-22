@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerflöden'
-description: Referera inställningarna för [!DNL Microsoft Ads] shoppingannonsmallar för lagerflöden.
+title: '[!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerfeeds'
+description: Referera inställningarna för  [!DNL Microsoft Ads] butiks- och annonsmallar för lagerflöden.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -16,7 +16,7 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 >[!NOTE]
 >
->* Följande tecken är reserverade för att ange kolumnnamn och modifieringsnamn i mallen och är därför inte tillåtna som text i alla attributfält:  `[ ] < > `
+>* Följande tecken är reserverade för att ange kolumnnamn och modifieringsnamn i mallen och är därför inte tillåtna som text i alla attributfält: `[ ] < > `
 
 
 ## \[Ovanför alla flikar\]
@@ -59,11 +59,11 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 **[!UICONTROL Campaign Tracking Template]:** (Valfritt för mallar för klientflödesfiler) Spårningsmallen på kampanjnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningen på kontonivå, men spårningsmallar på mer detaljnivå (med nyckelordet längst granulat) åsidosätter det här värdet.
 
-* För spårning av konvertering till Adobe Advertising, som används när kampanjinställningarna innehåller &quot;[!UICONTROL EF Redirect]och &quot;[!UICONTROL Auto Upload],&quot; gör något av följande&quot;:
+* Gör något av följande för spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload]:
 
-   * (Rekommenderas) Använd [spåra mallformat för Microsoft shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
+   * (Rekommenderas) Använd mallformatet [Spårning för Microsoft-shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
 
-   * Om du i stället tar med ett värde för varje produkt i feeden med hjälp av[!DNL bingads_redirect]&quot; (med [korrekt format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) och ange sedan parametern `{lpurl}`. Du kan lägga till omdirigeringar och spårning från tredje part i `{lpurl}` parameter.
+   * Om du i stället inkluderar ett värde för varje produkt i feeden med kolumnen [!DNL bingads_redirect] (med [korrekt format](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)) anger du parametern `{lpurl}`. Du kan lägga till omdirigeringar och spårning från tredje part till parametern `{lpurl}`.
 
 * Ange ett värde för omdirigeringar och spårning från tredje part.
 
@@ -73,7 +73,8 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 **[!UICONTROL Merchant ID]:** Kund-ID för det handlarkonto vars produkter används för kampanjen.
 
-**[!UICONTROL Sales Country]:** Det land där kampanjens produkter säljs. Eftersom produkter är kopplade till målländer avgör den här inställningen vilka produkter som annonseras i kampanjen.
+**[!UICONTROL Sales Country]:** Det land där kampanjens produkter säljs. Eftersom produkter är associerade
+med målländer avgör den här inställningen vilka produkter som annonseras i kampanjen.
 
 <!-- **[!UICONTROL Stock Level]:** -->
 
@@ -97,7 +98,9 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 {{$include /help/_includes/inventory-feed-template-campaign-initial-budget.md}}
 
-**[!UICONTROL Campaign Priority]:** Prioriteten som kampanjen används med när flera kampanjer annonserar samma produkt: *[!UICONTROL Low]* (standard för nya kampanjer), *[!UICONTROL Medium]*, eller *[!UICONTROL High]*. När samma produkt ingår i mer än en kampanj använder annonsnätverket först kampanjprioriteten för att avgöra vilken kampanj (och tillhörande bud) som är berättigad för annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad.
+**[!UICONTROL Campaign Priority]:** Prioriteten som kampanjen används med när flera kampanjer annonserar
+samma produkt: *[!UICONTROL Low]* (standard för nya kampanjer), *[!UICONTROL Medium]* eller *[!UICONTROL High]* . När samma produkt ingår i mer än en kampanj använder annonsnätverket
+kampanjprioriteten först för att avgöra vilken kampanj (och tillhörande bud) som är berättigad till annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad.
 
 <!-- **[!UICONTROL Locations]:** -->
 
@@ -117,7 +120,7 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 {{$include /help/_includes/inventory-feed-template-ad-group-map-method.md }}
 
-**[!UICONTROL Ad Group Tracking Template]:** (Valfritt) En spårningsmall på annonsgruppsnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljerad nivå åsidosätter det här värdet.
+**[!UICONTROL Ad Group Tracking Template]:** (Valfritt) En spårningsmall på annonsgruppsnivå, som anger alla icke-landningsdomäner omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljerad nivå åsidosätter det här värdet.
 
 Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
 
@@ -139,7 +142,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 ## [!UICONTROL Product Groups]
 
-**[!UICONTROL Tier 1]:** Standardproduktgruppen, inklusive alla, &quot;[!UICONTROL All products].&quot; Du kan inte ta bort den här överordnade produktgruppen, men den tas automatiskt bort när alla lägre nivåer saknas i feeden.
+**[!UICONTROL Tier 1]:** Standardproduktgruppen, [!UICONTROL All products], som innehåller alla komponenter. Du kan inte ta bort den här överordnade produktgruppen, men den tas automatiskt bort när alla lägre nivåer saknas i feeden.
 
 <!-- **[!UICONTROL Tier 2 - Tier 8]:** -->
 
@@ -149,7 +152,8 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 {{$include /help/_includes/inventory-feed-template-row-level-value.md}}
 
-**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper; valfritt) Spårningsmallen för produktgruppen, som anger alla omdirigerings- och spårningsparametrar utanför landningsdomänen och bäddar in den slutliga URL:en i en [!DNL ValueTrack] parameter. Den här mallen åsidosätter mallar på högre nivåer.
+**[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper; valfritt) Spårningsmallen för produkten
+grupp, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en [!DNL ValueTrack] -parameter. Den här mallen åsidosätter mallar på högre nivåer.
 
 Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
 
@@ -171,8 +175,8 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 
 >[!MORELIKETHIS]
 >
->* [Automatisera och hantera lagerflöden](../inventory-feeds-about.md)
+>* [Om automatisering av annonshantering med lagerflöden](../inventory-feeds-about.md)
 >* [Hantera modifierare](../modifiers-manage.md)
 >* [Hantera lagerdataflödesfiler](/help/search-social-commerce/campaign-management/inventory-feeds/feed-files-manage.md)
->* [Sprida feed-data via mallar](../feed-data-propagate.md)
->* [Posta kampanjdata från lagerfeeds till annonsnätverk](../propagated-data-post.md)
+>* [Sprid feed-data via mallar](../feed-data-propagate.md)
+>* [Bokför kampanjdata från lagerfeeds till annonsnätverk](../propagated-data-post.md)

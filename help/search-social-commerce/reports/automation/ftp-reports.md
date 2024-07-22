@@ -24,7 +24,7 @@ FTP-åtkomst till rapporter kräver åtkomst till ett visst FTP-konto, och du m�
 
 ## Ställ in rapportmallar för FTP-leverans
 
-Skapa en [rapportmall](templates/template-create.md) med följande namnkonventioner och scheman.
+Om du vill generera rapporter i den tilldelade FTP-katalogen skapar du en [rapportmall](templates/template-create.md) med följande namnkonventioner och schema.
 
 >[!NOTE]
 >
@@ -36,13 +36,13 @@ Skapa en [rapportmall](templates/template-create.md) med följande namnkonventio
 
    * (Valfritt) Tre systemdatum, med följande skiftlägeskänsliga syntax, inklusive hakparenteser:
 
-      * `[TODAY]` — Inkludera datum, timme och minut då rapporten kördes. Eftersom det här omfattar exakt tid kan samma mall köras flera gånger dagligen utan att den föregående rapporten skrivs över.
+      * `[TODAY]` - Inkludera datum, timme och minut när rapporten kördes. Eftersom det här omfattar exakt tid kan samma mall köras flera gånger dagligen utan att den föregående rapporten skrivs över.
 
-      * `[SDATE]` — Inkludera rapportens startdatum i datumintervallet.
+      * `[SDATE]` - Inkludera startdatumet för rapportdatumintervallet.
 
-      * `[EDATE]` — Inkludera slutdatumet för rapportens datumintervall.
+      * `[EDATE]` - Inkludera slutdatumet för rapportdatumintervallet.
 
-   * (Valfritt) `[CSV]` (med versaler och omslutna av hakparenteser) om du vill skapa filer i CSV-format i stället för som standard-TSV-format.
+   * (Valfritt) `[CSV]` (med versaler och omslutna av hakparenteser) om du vill skapa filer i CSV-format i stället för i standardformatet för TSV.
 
    Exempel: `[TODAY]-Portfolio-FTP-[SDATE]-[EDATE]-[CSV]` skulle skapa en fil som 202305051656-Portfolio-FTP-20230428-20110504.csv.
 
@@ -57,7 +57,7 @@ Skapa en [rapportmall](templates/template-create.md) med följande namnkonventio
 
 ## Få åtkomst till rapporter i en FTP-databas
 
-Anslut till någon av följande FTP-värdar med inloggningen för ditt FTP-konto (`amo<userID>rpt`, t.ex. amo1234rpt) och antingen ett lösenord eller en privat anslutningsnyckel om en sådan har konfigurerats:
+Om du vill få åtkomst till dina rapporter ansluter du till någon av följande FTP-värdar med inloggningen för ditt FTP-konto (`amo<userID>rpt`, till exempel amo1234rpt) och antingen ett lösenord eller en privat anslutningsnyckel om en sådan har konfigurerats:
 
 * Internationella kunder: `ftp3.adobe.net`
 * Kunder i USA: `ftp5.adobe.net`

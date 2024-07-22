@@ -1,24 +1,24 @@
 ---
 title: Konverteringsspårning med en EF ID-feed
 description: Lär dig hur du använder en EF ID-feed för konverteringsspårningsdata.
-exl-id: db722a54-a9bf-4a31-a285-a82e6d79c34a
+exl-id: fd065313-3d27-4bb9-a934-e815e02cf405
 feature: Search Tracking
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
 
 # Konverteringsspårning med en EF ID-feed
 
-I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare klickar på och annonserar och kommer till landningssidan lagrar annonsören `ef_id` med konverteringsdata och skickar dem i en datafeed.
+I den här metoden samlar Advertising Cloud in ett `ef_id`-värde varje gång en användare klickar och annonserar och kommer till landningssidan, och annonsören lagrar `ef_id`-värdet med konverteringsdata och skickar det i en datafeed.
 
 ## Implementeringsöversikt
 
-*Kontorsansvarig [!DNL Adobe] endast kontohanterare och administratörsanvändarroller*
+*Endast kontohanterare, [!DNL Adobe] kontohanterare och administratörsanvändarroller*
 
-1. Använd alternativen för konto- eller kampanjspårning &quot;[!UICONTROL EF Redirect],&quot; omdirigeringstypen för &quot;[!UICONTROL Token],&quot; och &quot;[!UICONTROL Auto Upload]&quot; om du automatiskt vill generera en mål-URL eller en slutlig URL med en Adobe Advertising-token (ef_id) för varje nyckelord (för nyckelordsspårning) eller annons (för annonsnivåspårning) i kontot eller kampanjen.
+1. Använd konto- eller kampanjspårningsalternativen [!UICONTROL EF Redirect], omdirigeringstypen [!UICONTROL Token] och [!UICONTROL Auto Upload] om du automatiskt vill generera en mål-URL eller en slutlig URL med en Adobe Advertising-token (ef_id) för varje nyckelord (för nyckelordsspårning) eller annons (för annonsspårning) i kontot eller kampanjen.
 
    >[!NOTE]
    >* Den här metoden kräver inte att annonsören använder taggar för konvertering till Adobe Advertising.
@@ -36,7 +36,7 @@ I den här metoden samlar Advertising Cloud in `ef_id` varje gång en användare
 
 1. Technical Services tolkar konverteringsdata i de överförda filerna och överför sedan data till Adobe Advertising. Adobe Advertising spårar sedan data mot enskilda nyckelord, annonser och placeringar och skapar intäktsprognoser för varje.
 
-1. Tekniska tjänster validerar bearbetade data mot feed-data och kontrollerar om det finns [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
+1. Tekniska tjänster validerar bearbetade data mot feed-data och söker efter [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p).
 
 >[!MORELIKETHIS]
 >

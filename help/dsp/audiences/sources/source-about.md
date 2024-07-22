@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Om källor för förstagångspubliker
 
-*Betafunktion*
+*Beta-funktion*
 
-DSP kan importera förstahandssegment som består av hash-kodade e-post-ID:n som är byggda i kunddataplattformen (CDP) och konvertera dem till segment som består av universella ID:n. Varje resulterande ID är personbaserat och annonsfrekvenser används på ID-nivå<!-- Move that info. to somewhere else? -->.
+DSP kan importera förstahandssegment som består av hash-kodade e-post-ID:n som är byggda i kunddataplattformen (CDP) och konvertera dem till segment som består av universella ID:n. Varje resulterande ID är personbaserat och annonsfrekvenser används på ID-nivå <!-- Move that info. to somewhere else? -->.
 
 Segmentinformationen omfattar storleken på varje universell ID-typ samt storleken för varje enhetstyp som spåras av cookies eller enhets-ID.
 
@@ -34,17 +34,17 @@ Du kan översätta dina egna segment till segment med autentiserade (determinist
 
    * För återmarknadsföring av inloggade användare.
 
-     [!DNL RampIDs] är tillgängliga för användare i Nordamerika, Australien och Nya Zeeland.
+     [!DNL RampIDs] är tillgängligt för användare i Nordamerika, Australien och Nya Zeeland.
 
      Avgifterna är 0,15 USD per visningar och 0,25 USD per videoredigering.
 
    * För mätning med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-* [[!DNL Unified ID 2.0 (UID2.0)] ID](https://unifiedid.com):
+* [[!DNL Unified ID 2.0 (UID2.0)] ID:n](https://unifiedid.com):
 
    * För återmarknadsföring av inloggade användare.
 
-     [!DNL UID2 IDs] är inte tillgängliga för användare i Europeiska ekonomiska samarbetsområdet och vissa andra länder. Se [förteckning över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+     [!DNL UID2 IDs] är inte tillgängligt för användare i EES och vissa andra länder. Se [listan över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
      Avgifterna är 0,15 USD per visningar och 0,25 USD per videoredigering.
 
@@ -72,35 +72,35 @@ DSP kan även ansluta till ytterligare CDP:er med batchvis, direktuppspelad elle
 
 ### [!DNL Adobe Real-Time Customer Data Platform]
 
-DSP är en integrerad *mål* for [den [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform.
+DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som är en del av Adobe Experience Platform.
 
-I [!DNL Real-Time CDP]är mål anslutningar till externa dataplattformar som möjliggör smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html), inklusive en översikt över produkten, instruktioner för [skapa målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapa målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html)och [aktivera data till mål](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
+I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i [Destinationshandboken](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) för Experience Platform, inklusive en översikt över produkten, instruktioner om hur du [skapar målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapar målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) samt [aktiverar data till destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-DSP kan importera [!DNL Adobe] [!DNL Real-time CDP] förstahandssegment och konvertera dina hashade e-postadresser till universella ID:n, se &quot;[Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
+Se &quot;[Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md) om du vill att DSP ska kunna importera dina [!DNL Adobe] [!DNL Real-time CDP]-segment och konvertera dina hashade e-postadresser till universella ID:n.&quot;
 
 ### [!DNL ActionIQ]
 
-Du kan dela organisationens egna data från [!DNL ActionIQ] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Den här integreringen kräver anpassning. Kontakta kontoteamet på Adobe för mer information.
+Du kan dela din organisations egna data från [!DNL ActionIQ]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Den här integreringen kräver anpassning. Kontakta kontoteamet på Adobe för mer information.
 
 ### [!DNL Amperity]
 
-Du kan dela organisationens egna data från [!DNL Amperity] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md).&quot;
+Du kan dela din organisations egna data från [!DNL Amperity]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md).
 
 ### [!DNL Optimizely]
 
-Du kan dela organisationens egna data från [!DNL Optimizely] kunddataplattform med DSP för att konvertera era hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md).&quot;
+Du kan dela din organisations egna data från [!DNL Optimizely]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md).
 
 ### [!DNL Tealium]
 
-Du kan dela organisationens egna data från [!DNL Tealium] kunddataplattform som använder [!DNL Amazon Web Services]. Mer information om hur du konverterar dina streckade e-postadresser till universella ID:n för riktad annonsering i DSP finns i &quot;[Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md).&quot;
+Du kan dela din organisations egna data från [!DNL Tealium]-kunddataplattformen med hjälp av [!DNL Amazon Web Services]. Mer information om hur du konverterar dina streckade e-postadresser till universella ID:n för riktad annonsering i DSP finns i &quot;[Konvertera användar-ID:n från [!DNL Tealium] till universella ID:n](/help/dsp/audiences/sources/source-tealium.md)&quot;.
 
 >[!MORELIKETHIS]
 >
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
->* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
->* [Konvertera användar-ID:n från [!DNL Amperity] till universella ID](/help/dsp/audiences/sources/source-amperity.md)
->* [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID](/help/dsp/audiences/sources/source-optimizely.md)
->* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID](/help/dsp/audiences/sources/source-tealium.md)
->* [Om Audience Management](/help/dsp/audiences/audience-about.md)
+>* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+>* [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)
+>* [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md)
+>* [Konvertera användar-ID:n från [!DNL Tealium] till universella ID:n](/help/dsp/audiences/sources/source-tealium.md)
+>* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -1,8 +1,9 @@
 ---
 title: Pausa eller aktivera ett paket
-description: Lär dig hur du pausar eller aktiverar ett paket.
+description: Lär dig att pausa eller aktivera ett paket.
 feature: DSP Packages
-source-git-commit: 81f761e44b6f5a0bef9524468b57d97c021ef2b2
+exl-id: c4a6fb08-14db-4c8b-ab7a-0bbc0f201390
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -17,9 +18,9 @@ Alla placeringar som pausas i ett paket innan själva paketet pausas förblir pa
 
 ## Pausa ett paket
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
-1. Klicka på namnet på kampanjen för att öppna [!UICONTROL Packages] vy.
-1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]** > **[!UICONTROL Pause]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på namnet på kampanjen för att öppna vyn [!UICONTROL Packages].
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Pause]** bredvid paketnamnet.
 
 >[!NOTE]
 >
@@ -27,9 +28,9 @@ Alla placeringar som pausas i ett paket innan själva paketet pausas förblir pa
 
 ## Aktivera ett paket
 
-1. På huvudmenyn klickar du på **[!UICONTROL Campaigns]**.
-1. Klicka på namnet på kampanjen för att öppna [!UICONTROL Packages] vy.
-1. Klicka på bredvid paketnamnet  **[!UICONTROL ...]** > **[!UICONTROL Activate]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på namnet på kampanjen för att öppna vyn [!UICONTROL Packages].
+1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Activate]** bredvid paketnamnet.
 
 >[!MORELIKETHIS]
 >

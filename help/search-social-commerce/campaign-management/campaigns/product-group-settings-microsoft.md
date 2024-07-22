@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Microsoft Advertising] produktgruppsinställningar'
-description: Referera inställningarna för [!DNL Microsoft Advertising] shoppingproduktgrupper.
+title: '[!DNL Microsoft Advertising] produktgruppsinställningar'
+description: Referera inställningarna för  [!DNL Microsoft Advertising] shoppingproduktgrupper.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
 source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Advertising] produktgruppsinställningar
+# Inställningar för [!DNL Microsoft Advertising]-produktgrupp
 
 ## Produktgrupper&quot;Alla produkter&quot;
 
-**[!UICONTROL Condition]:** (Skrivskyddat) Alla produkter
+**[!UICONTROL Condition]:** (skrivskyddad) Alla produkter
 
-**[!UICONTROL Bid]:** (Endast inkluderade produktgrupper) Den maximala kostnaden per klick (CPC), som är det högsta beloppet att betala för ett reklamklick. Det här värdet används bara för enheter utan underordnade produktgrupper och används i stället för annonsgruppsnivån.
+**[!UICONTROL Bid]:** (Endast inkluderade produktgrupper) Den maximala kostnaden per klick (CPC), som är det högsta beloppet att betala för ett annonsklick. Det här värdet används bara för enheter utan underordnade produktgrupper och används i stället för annonsgruppsnivån.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -26,15 +26,15 @@ Den här mallen åsidosätter mallar på högre nivåer och används endast för
 
 ## Alla andra produktgrupper
 
-**[!UICONTROL Condition/Value]:** (Skrivskyddat för befintliga produktgrupper) De produktdimensioner som ska anges som mål. För nya produktgrupper anger du den dimension som ska användas som målprodukter och kvalificeringsattributet för den valda informationskategorin (till exempel&quot;Acme&quot; när du riktar dig mot varumärket eller&quot;New&quot; när du riktar dig mot en viss produktgrupp).
+**[!UICONTROL Condition/Value]:** (Skrivskyddad för befintliga produktgrupper) Produktdimensionerna att rikta. För nya produktgrupper anger du den dimension som ska användas som målprodukter och kvalificeringsattributet för den valda informationskategorin (till exempel&quot;Acme&quot; när du riktar dig mot varumärket eller&quot;New&quot; när du riktar dig mot en viss produktgrupp).
 
 När du har skapat en produktgrupp för specifika produktdimensioner (det vill säga inte&quot;Alla produkter&quot;) skapar Search, Social och Commerce automatiskt en produktgrupp för&quot;Allt annat&quot;.
 
-En lista över tillgängliga produktdimensioner finns i &quot;[Produktfilter för köpkampanjer](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md).&quot; Din lista över dimensioner kan begränsas baserat på kampanjens [!UICONTROL Inventory Filter] inställning.
+En lista över tillgängliga produktdimensioner finns i &quot;[Produktfilter för köpkampanj](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;. Din lista över dimensioner kan begränsas baserat på kampanjens [!UICONTROL Inventory Filter]-inställning.
 
-**[!UICONTROL Excluded]:** (Valfritt för nya produktgrupper, skrivskyddat för befintliga produktgrupper) Utesluter annonser för matchande produkter.
+**[!UICONTROL Excluded]:** (Valfritt för nya produktgrupper, skrivskyddat för befintliga produktgrupper) Utesluter bud på annonser för matchande produkter.
 
-**[!UICONTROL Bid]:** (Endast inkluderade produktgrupper) Den maximala kostnaden per klick (CPC), som är det högsta beloppet att betala för ett reklamklick. Det här värdet används bara för enheter utan underordnade produktgrupper och används i stället för annonsgruppsnivån.
+**[!UICONTROL Bid]:** (Endast inkluderade produktgrupper) Den maximala kostnaden per klick (CPC), som är det högsta beloppet att betala för ett annonsklick. Det här värdet används bara för enheter utan underordnade produktgrupper och används i stället för annonsgruppsnivån.
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
@@ -50,6 +50,6 @@ Den här mallen åsidosätter mallar på högre nivåer och används endast för
 >[!MORELIKETHIS]
 >
 >* [Om att handla produktgrupper](product-group-about.md)
->* [Hantera produktgrupper för butik](product-group-manage.md)
->* [Produktfilter för köpkampanjer](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
+>* [Hantera shoppingproduktgrupper](product-group-manage.md)
+>* [Produktfilter för köpkampanj](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
 >* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)

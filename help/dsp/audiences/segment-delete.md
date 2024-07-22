@@ -14,17 +14,16 @@ ht-degree: 0%
 
 Om du tar bort ett anpassat eller CCPA-undantag från försäljningssegmentet tas det bort från alla placeringar och sparade målgrupper som innehåller det, och det blir inte tillgängligt för framtida bruk.
 
-1. På huvudmenyn klickar du på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]**.
+1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** på huvudmenyn.
 
-1. Håll markören över segmentraden och klicka **[!UICONTROL More]** > **[!UICONTROL Delete]**.
+1. Håll markören över segmentraden och klicka på **[!UICONTROL More]** > **[!UICONTROL Delete]**.
 
-1. Klicka på **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.
 
 >[!MORELIKETHIS]
 >
->* [Om Audience Management](audience-about.md)
+>* [Om målgruppshantering](audience-about.md)
 >* [Skapa ett anpassat segment](custom-segment-create.md)
 >* [Redigera segmentinformation](segment-edit.md)
 >* [Visa spårningspixlar för ett segment](segment-view-pixels.md)
->* [Dela eller Sluta dela ett segment](segment-share.md)
-
+>* [Dela eller sluta dela ett segment](segment-share.md)

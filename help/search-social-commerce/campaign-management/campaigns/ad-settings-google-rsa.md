@@ -1,24 +1,24 @@
 ---
-title: '''[!DNL Google Ads] inställningar för responsiv sökning'
-description: Referera inställningarna för [!DNL Google Ads] responsiva sökannonser.
-exl-id: e3c76f22-780d-4631-bcf2-af68d12810e2
+title: '[!DNL Google Ads] inställningar för responsiv sökning och annonsering'
+description: Referera inställningarna för  [!DNL Google Ads] responsiva sökannonser.
+exl-id: ba2a08eb-91fc-4a8c-81c5-a9e28f6abdbf
 feature: Search Campaign Management
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '63'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Ads] inställningar för responsiv sökning och
+# [!DNL Google Ads] inställningar för responsiv sökannonsering
 
-[!DNL Google Ads] dynamiskt sammanfogar [responsiva sökannonser](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) med upp till tre rubriker och två beskrivningar.
+[!DNL Google Ads] sätter dynamiskt ihop [responsiva sökannonser](https://support.google.com/google-ads/answer/7684791?hl=en) (RSA) med upp till tre rubriker och två beskrivningar.
 
 >[!NOTE]
 >
 >Varje annonsgrupp kan innehålla upp till tre aktiverade responsiva sökannonser.
 
-Se [!DNL Google Ads] hjälp för [annonsbegränsningar per konto](https://support.google.com/google-ads/answer/6372658?hl=en).
+Se hjälpen för [!DNL Google Ads] för [annonsbegränsningar per konto](https://support.google.com/google-ads/answer/6372658?hl=en).
 
 ## [!UICONTROL Responsive Search Ad Details]
 
@@ -52,5 +52,5 @@ Se [!DNL Google Ads] hjälp för [annonsbegränsningar per konto](https://suppor
 >
 >* [Om annonser](ad-about.md)
 >* [Hantera annonser](ad-manage.md)
->* [[!DNL Google Ads] annonsinställningar som bara kan anropas](ad-settings-google-call.md)
->* [[!DNL Google Ads] expanderade dynamiska sökannonsinställningar](ad-settings-google-dsa.md)
+>* [[!DNL Google Ads] annonsinställningar för endast samtal](ad-settings-google-call.md)
+>* [[!DNL Google Ads] utökade inställningar för dynamisk sökning och annonser](ad-settings-google-dsa.md)

@@ -1,11 +1,11 @@
 ---
 title: Datakrav för dataflöden som använder ett transaktions-ID
 description: Referera datakraven för dataflöden med ett transaktions-ID.
-exl-id: 67e1cadd-b607-465c-9db6-ca76d8ca84c5
+exl-id: 055b1417-3185-4081-83f0-9f4798058c04
 feature: Search Tracking
-source-git-commit: f21283731d7a1830af585cec43805c54c81c72ff
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---

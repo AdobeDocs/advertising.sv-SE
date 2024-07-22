@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
-*Betafunktion*
+*Beta-funktion*
 
 Planeringsverktyget hjälper dig att förutsäga den unika räckvidden för CTV-placeringar (uppkopplad TV) på hushållsnivå enligt angiven budget och kriterier för målinriktning innan du börjar spendera på lagret. När du har utvärderat flera räckviddsplaner kan du implementera den plan som bäst överensstämmer med det önskade resultatet i dina paket och placeringar.
 
@@ -26,16 +26,16 @@ Varje prognos består av en prognoskurva för räckvidd-budget som visar hur sto
 
 ![Planeringsprognos](/help/dsp/assets/planner-forecast.png "Planeringsprognos")
 
-Prognosresultatet innehåller även en [!UICONTROL Inventory Breakdown] som visar hur olika utgivare bidrar till en unik räckvidd och erbjuder värdefulla identifieringsmöjligheter.
+Prognosresultatet innehåller också ett [!UICONTROL Inventory Breakdown]-avsnitt som visar hur olika utgivare bidrar till en unik räckvidd och erbjuder värdefulla identifieringsmöjligheter.
 
 >[!NOTE]
 >
->* The [!UICONTROL Inventory Breakdown] -avsnittet visar endast data för privata och [!UICONTROL On Demand] lager.
+>* Avsnittet [!UICONTROL Inventory Breakdown] visar endast data för privat och [!UICONTROL On Demand] lager.
 >* Den uppskattade unika räckvidd som visas för två utgivare kan överlappa varandra.
 
 ## Planeringsvyn
 
-I [!UICONTROL Planner] kan du visa dina befintliga CTV-räckviddsplaner och skapa nya.
+I vyn [!UICONTROL Planner] kan du visa dina befintliga CTV-räckviddsplaner och skapa nya.
 
 Du kan också redigera, duplicera, exportera, arkivera eller generera om prognosen för alla planer.
 
@@ -43,13 +43,13 @@ Du kan också redigera, duplicera, exportera, arkivera eller generera om prognos
 
 +++Vilka typer av lager stöder planeringsverktyget?
 
-Planeringsverktyget har stöd för alla typer av lager, inklusive programmatisk garanterad (PG), privat marknadsplats (PMP). [!UICONTROL On Demand]och offentligt. Ta med kontrakt med minst 50 000 visningar de senaste sju dagarna för att generera korrekta prognoser.
+Planeringsverktyget har stöd för alla typer av lager, inklusive programmatisk garanterad (PG), privat marknadsplats (PMP), [!UICONTROL On Demand] och offentlig. Ta med kontrakt med minst 50 000 visningar de senaste sju dagarna för att generera korrekta prognoser.
 
 +++
 
-+++Varför ser jag &quot;[!UICONTROL Unable to generate forecast]?&quot;
++++Varför ser jag [!UICONTROL Unable to generate forecast]?
 
-En av de vanligaste orsakerna till det här felet är en otillräcklig budget eller ett maximalt bud. För bästa resultat bör du använda en minimibudget på 5 000 USD. Om [!UICONTROL Connected TV] medietypen är vald, ange ett maximalt bud på minst 10 USD.
+En av de vanligaste orsakerna till det här felet är en otillräcklig budget eller ett maximalt bud. För bästa resultat bör du använda en minimibudget på 5 000 USD. Om medietypen [!UICONTROL Connected TV] har valts anger du ett maximalt bud på minst 10 USD.
 
 Se även till att de utgivare eller avtal som ingår är aktiva och att de nyligen har tittat på något.
 
@@ -69,15 +69,15 @@ Planeraren genererar prognoser baserat på de senaste observerade data, så prog
 
 +++Kan jag spara planeringens prognosresultat?
 
-Ja, du kan exportera en prognos till en [!DNL Microsoft Excel] kalkylblad genom att klicka **[!UICONTROL ...]** > **[!UICONTROL Export]** i det övre högra hörnet. I kalkylbladet hämtas den information som visas i den maximala budgetkurvan med hjälp av två datakolumner: [!UICONTROL Budget] och [!UICONTROL Reach].
+Ja, du kan exportera en prognos till ett [!DNL Microsoft Excel]-kalkylblad genom att klicka på **[!UICONTROL ...]** > **[!UICONTROL Export]** i det övre högra hörnet. I kalkylbladet hämtas den information som visas i gränskurvan med hjälp av två datakolumner: [!UICONTROL Budget] och [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >
->* [Om DSP](planner-about.md)
->* [Skapa en uppkopplad TV-sändningsplan](planner-create.md)
+>* [Om DSP ](planner-about.md)
+>* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
->* [Exportera ett uppkopplat TV-program](planner-export.md)
->* [Generera om prognosen för en plan för uppkopplad TV](planner-forecast.md)
->* [Arkivera ett uppkopplat program för tv-räckvidd](planner-archive.md)
->* [Inställningar för uppkopplade TV-program](planner-settings.md)
+>* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
+>* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
+>* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
+>* [Inställningar för anslutna TV-program ](planner-settings.md)

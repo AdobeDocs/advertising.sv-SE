@@ -12,12 +12,12 @@ ht-degree: 0%
 
 # Visa en detaljerad rapport för en annons
 
-The <!--legacy --> rapport på annonsnivå innehåller [!UICONTROL Overview], [!UICONTROL Geography]och [!UICONTROL Viewability] data.
+Annonsnivårapporten <!--legacy --> innehåller [!UICONTROL Overview]-, [!UICONTROL Geography]- och [!UICONTROL Viewability]-data.
 
-1. Klicka på **[!UICONTROL Campaigns]**.
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
-1. Klicka på **[!UICONTROL Ads]**.
-1. Klicka på bredvid annonsnamnet  **[!UICONTROL ...]** > **[!UICONTROL View report]**.
+1. Klicka på **[!UICONTROL Ads]** på undermenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL View report]** bredvid annonsnamnet.
 
 >[!MORELIKETHIS]
 >

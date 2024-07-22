@@ -1,9 +1,9 @@
 ---
 title: Redigera inställningar direkt i en rad
 description: Lär dig hur du redigerar data i hanteringsvyer på raden.
-exl-id: 54625fc5-0e7d-4474-9789-61e04ffbb44f
+exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
    * (Alternativ i en lista) Välj ett nytt alternativ i listan.
 
-   * (Datum) Ange ett nytt datum eller klicka på ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [välj ett nytt datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
+   * (Datum) Ange ett nytt datum eller klicka på ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [välja ett nytt datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md).
 
-   * (Frihandsvärden) Ange ett nytt värde och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") eller tryck på **Retur** -tangenten.
+   * (Frihandsvärden) Ange ett nytt värde och klicka sedan på ![Spara](/help/search-social-commerce/assets/select.png "Spara") eller tryck på **Retur** .
 
    >[!MORELIKETHIS]
    >
-   >* [Skapa och redigera kampanjdata gruppvis med Kopiera och Klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)
+   >* [Skapa och redigera kampanjdata i grupp med Kopiera och Klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md)

@@ -1,9 +1,9 @@
 ---
 title: Redigera en rapportmall
 description: Lär dig hur du redigerar inställningarna för dina återanvändbara rapportmallar.
-exl-id: 8e195b60-8c58-460b-bc61-19dd2452d332
+exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: 052574217d7ddafb8895c74094da5997b5ff83db
+source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Du kan ändra inställningarna för alla rapportmallar som du har skapat. De nya inställningarna tillämpas på alla rapporter som använder mallen som genereras i framtiden.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]**.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL Templates]** -fliken.
+1. Klicka på fliken **[!UICONTROL Templates]**.
 
 1. Klicka på mallnamnet.
 
@@ -24,7 +24,7 @@ Du kan ändra inställningarna för alla rapportmallar som du har skapat. De nya
 
    >[!NOTE]
    >
-   > När du redigerar inställningarna behöver du inte markera kryssrutan bredvid[!UICONTROL Save as template]&quot; i [!UICONTROL Scheduling and Delivery] -avsnitt. Om du gör det uppmanas du att skapa en ny mall med ett annat namn.
+   > När du redigerar inställningarna behöver du inte markera kryssrutan bredvid [!UICONTROL Save as template] i avsnittet [!UICONTROL Scheduling and Delivery]. Om du gör det uppmanas du att skapa en ny mall med ett annat namn.
 
 1. Klicka på **[!UICONTROL Update Template]**.
 
