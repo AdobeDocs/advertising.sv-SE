@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 977314f07d1299d9b94680861b046161bb444228
+source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -82,23 +82,19 @@ När du lägger till en kampanj med eCPC i en optimerad Search-, Social- och Com
 
 * *[!UICONTROL Maximize Clicks]:* (sök-, display- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan också ange en **[!UICONTROL Max CPC]** (kostnad per klick) för att se till att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning!** När du lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
 
-* *[!UICONTROL Maximize Conversion Value]:* (Sök, prestanda max och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringsvärdet. Du kan också ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) som en procentandel. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer.
+* *[!UICONTROL Maximize Conversion Value]:* (Sök, prestanda max och smarta shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringsvärdet. Du kan också ange **[!UICONTROL Target Return on Ad Spend]** (ROAS) som en procentandel. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer. I hybridportföljer optimerar Search, Social och Commerce kampanjnivån eller målavkastningen på gruppnivå (om tillgängligt).
 
-* *[!UICONTROL Maximize Conversions]:* (max antal sök-, display- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringarna. Du kan också ange **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer.
+* *[!UICONTROL Maximize Conversions]:* (max antal sök-, display- och prestandakampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera konverteringarna. Du kan också ange **[!UICONTROL Target CPA]** (kostnad per förvärv). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer men inte standardportföljer. I hybridportföljer optimerar Search, Social och Commerce kampanjnivån eller (om tillgängligt) målgruppsmålgruppsmålgruppsanpassningen.
 
-* *[!UICONTROL Target CPA]:* (Visa kampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), som är det 30-dagars genomsnittliga belopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA].
+* *[!UICONTROL Target CPA]:* (Visningskampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på ett valfritt **[!UICONTROL Target CPA]** (kostnad per förvärv), som är det 30-dagars genomsnittsbelopp som du vill betala för ett förvärv (konvertering). **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target CPA]. I hybridportföljer optimerar Search, Social och Commerce kampanjnivån eller (om tillgängligt) målgruppsmålgruppsmålgruppsanpassningen.
 
   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
-
-  För nya sökkampanjer har [!DNL Google Ads] ersatt den här anbudsstrategin med [!UICONTROL Maximize Conversions]-strategin med ett [!UICONTROL Target CPA]-värde. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversions]-strategin med det angivna [!UICONTROL Target CPA]-värdet.
 
 * *[!UICONTROL Target Impression Share]:* (sökkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud för att uppnå en målvisningsresurs och en annonsposition. Du kan också ange **[!UICONTROL Target Impression Share]** som en procentandel, **[!UICONTROL Target Ad Position]** och **[!UICONTROL Max CPC]** (kostnad per klick). **Obs!** Det här alternativet stöds inte i portföljer.
 
-* *[!UICONTROL Target Return on Ad Spend]:* (Visnings- och shoppingkampanjer, befintliga sökkampanjer) Annonsnätverket - inte Search, Social, &amp; Commerce - optimerar offerterna baserat på en angiven **[!UICONTROL Target ROAS]** (avkastning på annonskostnad), angett i procent. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS].
+* *[!UICONTROL Target Return on Ad Spend]:* (Visnings- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar anbud baserat på en angiven **[!UICONTROL Target ROAS]** (avkastning på annonskostnader), angiven som en procentandel. **Obs!** Använd det här alternativet för kampanjer i hybridportföljer (men inte standardportföljer) med någon utgiftsstrategi förutom [!UICONTROL Weekly] eller [!UICONTROL Google Target ROAS]. I hybridportföljer optimerar Search, Social och Commerce kampanjnivån eller målavkastningen på gruppnivå (om tillgängligt).
 
   Genomsnittlig position och CPC-buddata är inte tillgängliga för kampanjer med den här anbudsstrategin.
-
-  För nya sökkampanjer har [!DNL Google Ads] ersatt den här anbudsstrategin med [!UICONTROL Maximize Conversion Value]-strategin med en [!UICONTROL Target Return on Ad Spend value]. För befintliga sökkampanjer med den här strategin kan du bara redigera målvärdet, och om du gör det ändras strategin till [!UICONTROL Maximize Conversion Value]-strategin med det angivna [!UICONTROL Target Return on Ad Spend]-värdet.
 
 * *[!UICONTROL Viewable CPM]:* (Endast befintliga, skrivskyddade [!DNL Gmail] kampanjer) Annonsnätverket - inte Search, Social och Commerce - erbjuder endast annonser som kan visas. **Obs!** Optimering för den här strategin stöds inte i någon typ av portfölj.
 
