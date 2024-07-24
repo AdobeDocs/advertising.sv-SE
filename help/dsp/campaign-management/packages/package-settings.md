@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: ab3118901b7cd88776f7c0ce8038b928118a7555
+source-git-commit: 5ca730f519ab8273cd6aaf910b5b09487ed4d77e
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,13 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 (Paket med paketnivåpaketering) Paketets flygperioder, inklusive eventuella anpassade flygperioder inom paketets övergripande [!UICONTROL Flight Dates]. Du kan bara konfigurera anpassade flygningar när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat i avsnittet [!UICONTROL Goals & Budget].
 
+**[!UICONTROL Automatically rollover remaining flight budget to next flight]:** (Tillgängligt endast när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat) lägger automatiskt till eventuell återstående budget från föregående flygning till den befintliga budgeten för nästa flygning.
+
+I vyn [!UICONTROL Packages] och vyn [!DNL Package Name] > [!UICONTROL Flights] innehåller fältet [!UICONTROL Interval Goal], som visar det aktuella flygmålet, eventuell överrullningsbudget.
+
 **[!DNL Flight N]:** (Endast tillgängligt när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat) För varje flygning anger du startdatum, slutdatum och mål för utgift. Klicka på **[!UICONTROL Add Flight]** om du vill lägga till en annan flight.
 
-För befintliga paket kan du om du vill ange ett värde i kolumnen [!UICONTROL Rollover] för en flygning för att lägga till eventuell oanvänd budget till nästa flygning. Det projicerade värdet i kolumnen [!UICONTROL Adjusted Goal (Goal + Rollover)] ändras i enlighet med detta.<!-- clarify usage -->
+För befintliga paket utan alternativet [!UICONTROL Automatically rollover remaining flight budget to next flight] aktiverat kan du öppna inställningarna på nytt och ange ett värde i kolumnen **[!UICONTROL Rollover]** för alla flygningar för att lägga till eventuell outnyttjad budget till nästa flygning.
 
 >[!MORELIKETHIS]
 >
