@@ -3,9 +3,9 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '2648'
+source-wordcount: '2642'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Ad Extension Number] | ([!UICONTROL MSA Ad Extension] rapporter) Versionsattributet för annonstillägget. |
 | [!UICONTROL Ad Extension Type] | ([!UICONTROL MSA Ad Extension] rapporter) Tilläggstypen. |
 | [!UICONTROL Ad Group] | Annonsgruppen. |
-| [!UICONTROL Ad Group ID] | Det numeriska ID som tilldelas annonsgruppen av Search, Social och Commerce. |
+| [!UICONTROL Ad Group ID] | Det unika ID som identifierar en befintlig annonsgrupp. |
 | [!UICONTROL Ad Group Name] | Annonsgruppen. |
 | [!UICONTROL Ad Group Status] | Annonsgruppens status: *[!UICONTROL Active]*, *[!UICONTROL Paused]* eller *[!UICONTROL Deleted]*. |
 | [!UICONTROL Ad Title] | ([!UICONTROL MSA Ad Extension] rapporter) Annonstiteln. |
@@ -106,7 +106,7 @@ ht-degree: 0%
 | [!UICONTROL Impression Share Percent] | De exponeringar du har fått divideras med det uppskattade antalet visningar som du har rätt att få. |
 | [!UICONTROL Impressions] | Antal annonsvisningar under det angivna datumintervallet. |
 | [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsanpassade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn som &quot;(adgroup content) Ditt annonsgruppsnamn.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
-| [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Search, Social och Commerce. |
+| [!UICONTROL Keyword ID] | Det unika ID som identifierar ett befintligt nyckelord. |
 | [!UICONTROL Keyword Extension ID] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Det numeriska ID som annonsnätverket tilldelar annonstillägget. |
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Versionsattributet för annonstillägget. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Tilläggstypen för annonsen. |

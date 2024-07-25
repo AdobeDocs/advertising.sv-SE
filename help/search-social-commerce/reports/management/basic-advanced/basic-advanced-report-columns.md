@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 | [!UICONTROL Active Campaigns] | Antalet aktiva kampanjer. |
 | [!UICONTROL Active Keywords] | Antalet aktiva nyckelord. |
 | [!UICONTROL Ad Group] | Annonsgruppen. |
-| [!UICONTROL Ad Group ID] | Det numeriska ID som tilldelas annonsgruppen av Search, Social och Commerce. |
+| [!UICONTROL Ad Group ID] | Det unika ID som identifierar en befintlig annonsgrupp. |
 | [!UICONTROL Ad Group Status] | Annonsgruppens status: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i> eller <i>[!UICONTROL Deleted]</i>. |
 | [!UICONTROL Ad Group Type] | Annonsgruppstypen, till exempel <i>[!UICONTROL Audience]</i> (endast för målgruppskampanjer), <i>[!UICONTROL Discovery]</i> (endast för identifieringskampanjer), <i>[!UICONTROL Display]</i> (endast för displaykampanjer), <i>[!UICONTROL Search Dynamic]</i> (endast för dynamiska sökannonser), <i>[!UICONTROL Search Standard]</i> (endast för responsiva sökannonser och befintliga utökade textannonser), <i>[!UICONTROL Shopping Showcase]</i>, <i>[!UICONTROL Shopping Product]</i> (endast för standardshoppingkampanjer) eller <i>[!UICONTROL Shopping Smart]</i> (för smarta shoppingkampanjer). För vissa kampanjtyper kan en enda kampanj innehålla flera annonstyper. |
 | [!UICONTROL Ad Groups] | Antalet annonsgrupper som etikettvärdet tilldelas till. |
@@ -118,7 +118,7 @@ ht-degree: 0%
 | [!UICONTROL Interactions] | (Videoannonser) Antal gånger som folk tittade på din annons. |
 | [!UICONTROL Is_Click_Objectives] | ([!UICONTROL Portfolio Report]) <i>true</i> när portföljen innehåller kampanjer med anbudsstrategin [!UICONTROL Maximize Clicks], i annat fall <i>false</i>. |
 | [!UICONTROL Keyword] | Nyckelordet.<br><br><b>Obs!</b> Om rapporten innehåller data från annonsgrupper i innehållsanpassade sökkampanjer, innehåller den här kolumnen tillämpliga annonsgruppsnamn som &quot;(adgroup content) Ditt annonsgruppsnamn.&quot; Den här kolumnen har inget värde för en webbplatsriktad placering i en sökkampanj. |
-| [!UICONTROL Keyword ID] | Det numeriska ID som tilldelas nyckelordet i Search, Social och Commerce. |
+| [!UICONTROL Keyword ID] | Det unika ID som identifierar ett befintligt nyckelord. |
 | [!UICONTROL Keyword Status] | Status för det nyckelord som söktermen matchades mot: <i>[!UICONTROL Active]</i>, <i>[!UICONTROL Paused]</i>, <i>[!UICONTROL Deleted]</i> eller <i>[!UICONTROL Disapproved]</i>. |
 | [!UICONTROL Label Classification] | ([!UICONTROL Label Classification Report] och [!UICONTROL Label Value Report]) Etikettklassificeringen. |
 | [!UICONTROL Label Value] | ([!UICONTROL Label Classification Report] och [!UICONTROL Label Value Report]) Ett värde för etikettklassificeringen. |
