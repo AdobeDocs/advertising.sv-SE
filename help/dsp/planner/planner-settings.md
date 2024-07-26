@@ -3,9 +3,9 @@ title: Inställningar för uppkopplade TV-program
 description: Se beskrivningar av inställningarna för räckviddsplaner för anslutna tv-apparater.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 37b901093d7eff65d783e558f2e98c5d288a8286
+source-git-commit: 84cf49c9e366938479e9fea2ede55925f1cb3e51
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 | Parameter | Beskrivning | Obligatoriskt? |
 | --- | --- | --- |
-| Namn | Namnet som identifierar din plan. | Ja |
-| Annonsör | Den specifika annonsören i kontot som planen skapas för. | Ja |
-| Medietyp | Den typ av media som ska ingå i planen.<br><br>För närvarande är bara [!UICONTROL Connected TV] tillgängligt. | Ja |
-| Datumintervall | Start- och slutdatum för planen.<br><br>Startdatumet kan inte infalla före det aktuella datumet. Datumintervallet får inte vara längre än 90 dagar. | Ja |
-| Måltyp | Den typ av mål (till exempel [!UICONTROL Budget]) som ska beaktas för planen.<br><br>För närvarande är bara [!UICONTROL Budget] tillgängligt. | Ja |
-| Målvärde | Målvärdet för prognosen. Använd ett värde > 5000 USD om du vill ha mer exakta prognosresultat. | Ja |
-| Max. bud | Det högsta belopp som får betalas för 1 000 visningar. Om medietypen [!UICONTROL Connected TV] är markerad anger du ett värde på minst 10 USD. | Ja |
-| Frekvensgräns | Antal gånger ett unikt hushåll ska betjänas annonser.<br><br>När du implementerar en plan och måste skapa flera placeringar använder du inställningen för frekvensbegränsning på paketnivå, inte placeringsnivå, för att säkerställa korrekt leverans. | Ja |
-| Geografisk inriktning | Platser som ska inkluderas eller exkluderas som mål. Alternativen är länder, städer, delstater, utsedda marknadsområden (DMA) och postnummer (som du antingen kan a) klistra in som kommaseparerade värden för ett visst land eller b) söka efter per land och stad). | Ja |
-| Målinriktning för lager | Lagerkällor som ska inkluderas eller exkluderas som mål. Välj minst en feed eller källa. | Ja |
-| Målgruppsinriktning för webbplats/app | Webbplatser och appar som ska inkluderas eller exkluderas som mål. Ange en URL per rad och klicka sedan på **[!UICONTROL Include All]** eller **[!UICONTROL Exclude All]** nedanför inmatningsfältet. | Nej |
-| Målgruppsanpassning | Målgrupper som ska inkluderas eller exkluderas som mål. | Nej |
-| Annonsens varaktighet | Tidslängden för annonser som ska beaktas för planen. | Nej |
+| [!UICONTROL Name] | Namnet som identifierar din plan. | Ja |
+| [!UICONTROL Advertiser] | Den specifika annonsören i kontot som planen skapas för. | Ja |
+| [!UICONTROL Media Type] | Den typ av media som ska ingå i planen.<br><br>För närvarande är bara [!UICONTROL Connected TV] tillgängligt. | Ja |
+| [!UICONTROL Date Range] | Start- och slutdatum för planen.<br><br>Startdatumet kan inte infalla före det aktuella datumet. Datumintervallet får inte vara längre än 90 dagar. | Ja |
+| [!UICONTROL Goal Type] | Den typ av mål (till exempel [!UICONTROL Budget]) som ska beaktas för planen.<br><br>För närvarande är bara [!UICONTROL Budget] tillgängligt. | Ja |
+| [!UICONTROL Goal Value] | Målvärdet för prognosen. Använd ett värde > 5000 USD om du vill ha mer exakta prognosresultat. | Ja |
+| [!UICONTROL Max Bid] | Det högsta belopp som får betalas för 1 000 visningar. Om medietypen [!UICONTROL Connected TV] är markerad anger du ett värde på minst 10 USD. | Ja |
+| [!UICONTROL Frequency Cap] | Antal gånger ett unikt hushåll ska betjänas annonser.<br><br>När du implementerar en plan och måste skapa flera placeringar använder du inställningen för frekvensbegränsning på paketnivå, inte placeringsnivå, för att säkerställa korrekt leverans. | Ja |
+| [!UICONTROL Geo-Targeting] | Platser som ska inkluderas eller exkluderas som mål. Alternativen är:<ul><li>Länder, städer, lägen: Klicka på fliken **[!UICONTROL Country/State/City]**, välj om området är ett *land*, *delstat* eller *stad*, eller expandera valfri plats för att visa dess underkomponenter och klicka sedan på **[!UICONTROL Include]** eller **[!UICONTROL Exclude]** bredvid platsen.</li><li>Utvalda marknadsområden (DMA:er) i USA: Klicka på fliken **[!UICONTROL DMA]**, eller expandera valfritt läge för att visa DMA:er och klicka sedan på **[!UICONTROL Include]** eller **[!UICONTROL Exclude]** bredvid platsen.</li><li>Postnummer: Du kan antingen:<ul><li>Klicka på fliken **[!UICONTROL Search postal code]**, markera landet, ange det fullständiga stadsnamnet eller bokstäverna i stadsnamnet och tryck sedan på **[Retur]**, klicka på rätt stadsnamn för att visa alla postnummer för staden, klicka på rätt postnummer och klicka sedan på **[!UICONTROL Include]** eller **[!UICONTROL Exclude]**.</li><li>Klicka på fliken **[!UICONTROL Paste postal code]**, markera landet, ange eller klistra in kommaseparerade värden och klicka sedan på **[!UICONTROL Include All]** eller **[!UICONTROL Exclude All]**.</li></ul></li></ul> | Ja |
+| [!UICONTROL Inventory Targeting] | Lagerkällor som ska inkluderas eller exkluderas som mål. Välj minst en feed eller källa. | Ja |
+| [!UICONTROL Site/App Targeting] | Webbplatser och appar som ska inkluderas eller exkluderas som mål. Ange en URL per rad och klicka sedan på **[!UICONTROL Include All]** eller **[!UICONTROL Exclude All]**. | Nej |
+| [!UICONTROL Audience Targeting] | Målgrupper som ska inkluderas eller exkluderas som mål. | Nej |
+| [!UICONTROL Ad duration] | Tidslängden för annonser som ska beaktas för planen. | Nej |
 
 >[!MORELIKETHIS]
 >
