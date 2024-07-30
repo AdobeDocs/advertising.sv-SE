@@ -14,7 +14,7 @@ Cloud conversion pixels.
 
 
 you replace {AMO User ID} with the unique user ID for your Search, Social, & Commerce
-account. If you don't know this value, contact your Adobe Account Manager.
+account. If you don't know this value, contact your Adobe Account Team.
 
 1. Visitor clicks on search link and ef_id is in URL on landing page.
 1. ITP mapper picks up ECID + ef_id and sends this data to Ad Cloud where they are mapped together
