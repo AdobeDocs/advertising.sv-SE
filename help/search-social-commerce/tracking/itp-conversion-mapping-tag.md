@@ -3,7 +3,7 @@ title: Adobe Advertising-konverteringstaggen
 description: Lär dig mer om den JavaScript-baserade konverteringstaggen för ITP 2.2, som gör att Adobe Advertising kan spåra en konverteringshändelse som inträffar på en sida som inte är landningssidan.
 exl-id: cbeaf3cd-f1ab-419d-bba8-58a1c8215352
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 2c755eaa01f5bc7606074bb0fc276901c21ef807
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Så här använder du konverteringsmappningstaggen:
 
       * du ersätter `{AMO User ID}` med det unika användar-ID:t för ditt Search-, Social- och Commerce-konto.
 
-Om du inte känner till värdet på ditt företags-ID eller ditt användar-ID för sökningar, sociala medier och Commerce frågar du din kontoansvarige på Adobe.
+Om du inte känner till värdet på ditt företags-ID eller ditt användar-ID för sökningar, sociala medier och Commerce frågar du ditt kontoteam på Adobe.
 
 ### Exempel
 

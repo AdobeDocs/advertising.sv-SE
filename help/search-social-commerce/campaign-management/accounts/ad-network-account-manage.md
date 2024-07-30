@@ -3,7 +3,7 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -12,7 +12,13 @@ ht-degree: 0%
 
 # Hantera och nätverkskonton
 
+<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
+
 Nedan följer instruktioner om hur du skapar och redigerar information om nätverkskonton, uppdaterar token [!DNL oAuth] för ett konto och inaktiverar konton.
+
+<!-- Move out info about Naver?  Then change to the following:  Following are instructions for creating and editing account details for an ad network account that Search, Social, & Commerce will sync using the ad network's API; refreshing the [!DNL oAuth] token for an account; and disabling accounts. -->
+
+<!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Mer information om vilka funktioner som är tillgängliga för varje annonsnätverk finns i [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md).
 
@@ -243,7 +249,7 @@ Konton som använder klickspårning i Adobe Advertising måste inkludera annonsn
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid-format** - (Befintliga [!DNL Google Ads]-konton för annonsörer med integrering mellan Adobe Advertising och Adobe Analytics och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
+* **S_kwcid-format:** (Befintliga [!DNL Google Ads]-konton för annonsörer med integrering mellan Adobe Advertising och Adobe Analytics och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
 
 Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](/help/integrations/analytics/ids.md#amo-id-formats) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
 
@@ -253,9 +259,9 @@ Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klicka
 
 Fullständiga anvisningar finns i &quot;[Uppdatera spårningskoden för AMO-ID för ett [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;.
 
-**Rapportsvitnamn** - (Endast för EF-omdirigering med token; annonsörer med integrering mellan Adobe Advertising och Adobe Analytics; valfritt) En eller flera rapportsviter för Analytics som Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
+**Rapportsvitnamn:** (Endast för EF-omdirigering med token; annonsörer med integrering mellan Adobe Advertising och Adobe Analytics; valfritt) En eller flera analysrapportsviter dit Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
-För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable tracking for SAINT feeds] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontohanteraren för Adobe om du vill ha mer information.
+För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable tracking for SAINT feeds] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontoteamet på Adobe om du vill ha mer information.
 
 >[!MORELIKETHIS]
 >
