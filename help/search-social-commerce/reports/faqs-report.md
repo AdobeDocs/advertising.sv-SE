@@ -3,7 +3,7 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -124,6 +124,7 @@ Nedan följer några vanliga orsaker till att klickdata saknas.
 |---|---|---|
 | Processen som hämtar klickdata från annonskontot misslyckades. | Det finns inget systematiskt sätt att upptäcka detta problem, men ni kanske märker att en kampanj inte visar någon kostnads- eller klickinformation trots att annonskontot spenderade pengar. | Kontakta kontoteamet på Adobe.<br><br>Om data saknas i mer än 24 timmar ska du utelämna dessa datum från kostnadsprognoserna tills data har hämtats. Kontoteamet på Adobe kan exkludera datum. |
 | Ett faktureringsproblem mellan annonsören och annonsnätverket förhindrar annonskontot från att spendera pengar. | Det finns inget systematiskt sätt att upptäcka detta problem, men du kanske märker att en kampanj inte visar någon kostnads- eller klickinformation. | Om du vet att ett annonskonto inte kunde användas på grund av ett faktureringsproblem, ska du undanta dessa datum från kostnadsprognoserna. Kontoteamet på Adobe kan exkludera datum. |
+
 +++
 
 +++Prestandadata skiljer sig från data i annonsnätverkets redigerare.
@@ -221,7 +222,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 * Search, Social och Commerce ignorerar intäkter när cookien har gått ut eller tagits bort, men annonsören kan anse att den är giltig.
 
-* Trafiken till annonsörens sida kom från ett bokmärke eller en organisk sökning istället för från en annons.
+* Trafiken till annonsörens sida kom från ett bokmärke eller organisk sökning istället för från en annons.
 
 * Taggen för konverteringsspårning implementeras inte korrekt på alla tillämpliga webbsidor eller redigerades.
 
@@ -247,7 +248,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * Search, Social och Commerce ignorerar intäkter när cookien förfaller eller tas bort, men annonsören kan anse att den är giltig.
 
-* Trafiken till annonsörens sida kom från ett bokmärke eller en organisk sökning istället för från en annons.
+* Trafiken till annonsörens sida kom från ett bokmärke eller organisk sökning istället för från en annons.
 
 * En offlinekonvertering rapporterades innan en onlinetransaktion med samma transaktions-ID inträffade. Onlinetransaktionen måste ske först.
 
@@ -267,7 +268,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 
 * Search, Social och Commerce ignorerar intäkter när cookien har gått ut eller tagits bort, men annonsören kan anse att den är giltig.
 
-* Trafiken till annonsörens sida kom från ett bokmärke eller en organisk sökning istället för från en annons.
+* Trafiken till annonsörens sida kom från ett bokmärke eller organisk sökning istället för från en annons.
 
 * Det finns [överblivna transaktioner](/help/search-social-commerce/glossary.md#o-p), så Search, Social och Commerce räknar inte alla intäkter som de ska ha.
 
@@ -311,7 +312,7 @@ Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/d
 +++
 
 +++Ad-nivå-data är inte tillgängliga för [!DNL Google Ads] dynamisk sökannons (DSA), prestandamängd, smart shopping och [!DNL YouTube] kampanjer.
-Annonsnätverken tillhandahåller inte den identifierare som krävs för att tilldela intäkter till en enskild annons för dessa kampanjer. Följaktligen är annonsnivådata inte tillgängliga för de kampanjtyperna i vyn [!UICONTROL Ads] eller i vyn [!UICONTROL Ad Variation Report]. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
+Annonsnätverken tillhandahåller inte den identifierare som krävs för att tilldela intäkter till en enskild annons för dessa kampanjer. Följaktligen är inte annonsnivådata tillgängliga för de kampanjtyperna i vyn [!UICONTROL Ads] eller i vyn [!UICONTROL Ad Variation Report]. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
 +++
 
 +++I [!UICONTROL Transaction Report], hur vet jag vilken konverteringsmetod som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
