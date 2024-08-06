@@ -3,9 +3,9 @@ title: Lager som stöds
 description: Referera till annonsnätverk som stöds, kampanjtyper och annonstyper.
 exl-id: af88e63b-b64f-4772-bb43-ffd3b0ee1589
 feature: Search Introduction
-source-git-commit: a27e5bf805f198a9f3896da4970e922bb629953b
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2720'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/search-social-commerce/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan eller ![Dölj den högra rutan](/help/search-social-commerce/assets/hide-right-pane.png "Dölj den högra rutan") högst upp i den högra rutan.
+>Följande tabell är bred. Om du vill utöka visningsområdet kan du tillfälligt dölja innehållsförteckningen och den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan och ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") längst upp i den högra rutan. Du kan också använda rullningslisten längst ned i tabellen för att visa hela innehållet.
 
 | Source | Nätverk | Kampanjtyp | Annonstyp | Synkronisera och visa | Skapa/redigera | Spår [^1] | Optimera | Rapport [^2] | Adobe Analytics Support[^3] |
 |----|----|----|----|----|----|----|----|----|----|

@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Yandex] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Yandex] konton.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: e15cc54f09f905ee4d3b448d7e766c1513f12afb
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1940'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/search-social-commerce/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan eller ![Dölj den högra rutan](/help/search-social-commerce/assets/hide-right-pane.png "Dölj den högra rutan") högst upp i den högra rutan.
+>Följande tabell är bred. Om du vill utöka visningsområdet kan du tillfälligt dölja innehållsförteckningen och den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan och ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") längst upp i den högra rutan. Du kan också använda rullningslisten längst ned i tabellen för att visa hela innehållet.
 
 | Fält | Campaign | Annonsgrupp | Nyckelord | Text Ad | Webblänk | Beskrivning |
 |----|----|-----|-----|----|----|----|

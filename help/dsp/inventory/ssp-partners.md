@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 3bb03e0896fca0e7d58d4726939d18577f458e2c
+source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 
 >[!TIP]
 >
->Följande tabell är bred. Använd vid behov rullningslisten längst ned i tabellen för att visa hela innehållet. Du kan också tillfälligt dölja innehållsförteckningen eller den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan eller ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") högst upp i den högra rutan.
+>Följande tabell är bred. Om du vill utöka visningsområdet kan du tillfälligt dölja innehållsförteckningen och den högra rutan genom att klicka på ![Dölj den vänstra rutan](/help/dsp/assets/hide-left-pane.png "Dölj den vänstra rutan") högst upp i den vänstra rutan och ![Dölj den högra rutan](/help/dsp/assets/hide-right-pane.png "Dölj den högra rutan") längst upp i den högra rutan. Du kan också använda rullningslisten längst ned i tabellen för att visa hela innehållet.
 
 | SSP-lista | Företag | Plats-ID | Programmatiskt garanterat stöd | Län | Valuta som stöds | Video Desktop | Video Mobile | Video CTV | Display Desktop | Visa mobil | Inbyggd visning | Ljuddator och mobil |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |--- |
