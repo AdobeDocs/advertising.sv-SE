@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 07ecb613c49e27e1a1e82d7082b1715040b82610
+source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3921'
 ht-degree: 0%
 
 ---
@@ -365,7 +365,7 @@ Så här anger du målinriktning:
 >
 >* Ställ in negativ målinriktning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]).
 
-**[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Så här anger du målinriktning:
+**[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Typerna varierar beroende på placeringstyp. Så här anger du målinriktning:
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange den enhetsinformation som ska inkluderas och exkluderas:
