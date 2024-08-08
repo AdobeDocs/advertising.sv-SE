@@ -3,7 +3,7 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 96a8080a134bc3bdff597d8a26bfbc4cd40bc545
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -47,7 +47,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] eller Adobe Advertising | Nej | Global | USD | x | x | x | x | x |  |  |
 | [!DNL Triton] |  | Adobe Advertising | Ja | Global | USD |  |  |  |  |  |  | x |
 | [!DNL Unruly] | [!DNL Nexxen] | Adobe Advertising | Nej | USA och EMEA | USD | x | x | x |  |  |  |  |
-| [!DNL Yahoo] | [!DNL TubeMogul] eller Adobe Advertising | Nej | Global | USD | x | x | x | x | x |  |  |
+| [!DNL Yahoo] |  | [!DNL TubeMogul] eller Adobe Advertising | Nej | Global | USD | x | x | x | x | x |  |  |
 
 {style="table-layout:auto"}
 
