@@ -3,9 +3,9 @@ title: Krav för Adobe Advertising-annons
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 703031baac908e2024d877f031ff164370528383
+source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2190'
 ht-degree: 0%
 
 ---
@@ -72,11 +72,11 @@ Annonser som innehåller innehåll i nedanstående kategorier tillåts med särs
 
 * **alkohol**. Annonser som marknadsför eller marknadsför alkoholhaltiga drycker och alkoholföretag är endast tillåtna om de uppfyller tillämpliga lagar och självreglerande regler. Alkoholannonser är till exempel inte avsedda för minderåriga och kan bara köras i länder som tillåter annonser för alkohol. Inga annonser får dock glamorera eller avbilda för hög alkoholkonsumtion.
 
-* **Kanabis**. Annonser som annonserar eller marknadsför kanabisföretag av typen&quot;state-legal canabis&quot; i de Tillåtna kanadensiska provinserna är endast tillåtna om de uppfyller tillämpliga delstatliga respektive kanadensiska lagar, under förutsättning att (a) tidigare har trätt i den tillämpliga [!DNL Adobe Rider], (b) uppfyller [!DNL Adobe] kraven på tillbörlig aktsamhet och (c) är tillåtna av medieleverantörer och tillämpliga lagar. Annonser för kanabis som omfattas av delstatsrätten får inte erbjuda eller främja särskilda produkter som ska säljas, utan måste vara inriktade på lämpliga delstater. Alla tillåtna annonsannonser för annonsblad får inte (1) tilltala minderåriga eller (2) glamorera eller avbilda kanabiskonsumtion. tillåtna kanadensiska provinser: provinserna Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Nunavut, Ontario, Prince Edward Island, Quebec, Saskatchewan och Yukon.
+* **Kanabis**. Annonser som annonserar eller marknadsför kanabisföretag av typen&quot;state-legal canabis&quot; i de Tillåtna kanadensiska provinserna är endast tillåtna om de uppfyller tillämpliga delstatliga respektive kanadensiska lagar, under förutsättning att a) tidigare har trätt i den tillämpliga [!DNL Adobe Rider], b) uppfyller [!DNL Adobe] kraven på kundkännedom och \(c\) i enlighet med vad som tillåts av medieleverantörer och tillämpliga lagar. Annonser för kanabis som omfattas av delstatsrätten får inte erbjuda eller främja särskilda produkter som ska säljas, utan måste vara inriktade på lämpliga delstater. Alla tillåtna annonsannonser för annonsblad får inte (1) tilltala minderåriga eller (2) glamorera eller avbilda kanabiskonsumtion. tillåtna kanadensiska provinser: provinserna Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Nova Scotia, Nunavut, Ontario, Prince Edward Island, Quebec, Saskatchewan och Yukon.
 
 * **Spel**. Annonser som innehåller spelrelaterat innehåll, bland annat genom att främja kasinon, lotterier och andra spel med chans (online eller offline), får endast främjas i enlighet med gällande lagar. Inga annonser får dock glamorera eller skildra överdrivet spelbeteende eller ge en missbild av oddsen eller riskerna med spel.
 
-* **Hem**. Annonser för hampprodukter och hampprodukter måste uppfylla alla tillämpliga statliga och federala lagar, under förutsättning att (a) tidigare har trätt i den tillämpliga [!DNL Adobe Rider], (b) uppfylla [!DNL Adobe] kraven på tillbörlig aktsamhet, och (c) enligt vad som tillåts av medieleverantörer och tillämpliga lagar. Annonser för hampa och hampprodukter får inte (1) göra hälsorelaterade anspråk, (2) rikta sig till utsatta populationer, inklusive minderåriga, eller (3) glamorera eller avbilda rökning, eller (4) antyda att sådana produkter har liknande förgiftningseffekter som canabis.
+* **Hem**. Annonser för hampprodukter och hampprodukter måste uppfylla alla tillämpliga statliga och federala lagar, under förutsättning att (a) tidigare har trätt i den tillämpliga [!DNL Adobe Rider], (b) uppfylla [!DNL Adobe] kraven på tillbörlig aktsamhet och \(c\) enligt vad som tillåts av medieleverantörer och tillämpliga lagar. Annonser för hampa och hampprodukter får inte (1) göra hälsorelaterade anspråk, (2) rikta sig till utsatta populationer, inklusive minderåriga, eller (3) glamorera eller avbilda rökning, eller (4) antyda att sådana produkter har liknande förgiftningseffekter som canabis.
 
 * **Läkemedelsannonser**. Annonser som främjar förskrivning och receptbelagda läkemedel måste följa gällande federala och lokala lagar, förordningar och riktlinjer.
 
