@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 5a967894f2aa9e26dde981c771dce10b5d9e84f7
+source-git-commit: 20c2001ff66a75c64364450c0f0841cb8403d326
 workflow-type: tm+mt
-source-wordcount: '3822'
+source-wordcount: '3849'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 14 augusti 2024 | [!UICONTROL Placements] | DSP uppdaterar inte längre antalet segment för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att sluta i slutet av september, och alla antal minskar gradvis till noll (0). | — |
 | 30 juli 2024 | [!UICONTROL Placements] | Från och med den 14 augusti slutar DSP att uppdatera segmentantalet för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att solas i slutet av september, och alla antal minskar gradvis till noll (0). | — |
 | | [!UICONTROL Packages] | Paketinställningarna innehåller nu ett alternativ till [!UICONTROL Automatically rollover remaining flight budget to next flight] när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat. När alternativet är aktiverat läggs eventuell återstående budget från den föregående flygningen automatiskt till den befintliga budgeten för nästa flygning. Du kan inte redigera kolumnen [!UICONTROL Rollover] manuellt när alternativet för automatisk överrullning är markerat.<br><br>I vyn [!UICONTROL Packages] och i vyn [Paketnamn] > [!UICONTROL Flights] ingår rolloverbudgeten i kolumnen [!UICONTROL Interval Goal], som visar det aktuella flygmålet. | Se [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md). |
 | 12 juli 2024 | [!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] | I vyerna [!UICONTROL Campaigns], [!UICONTROL Packages] och [!UICONTROL Placements] har en del mätvärden bytt namn baserat på feedback:<ul><li>I trenddiagram döptes&quot;Obligatorisk utgift&quot; om till&quot;Utgift riktmärke&quot; och&quot;Målutgift&quot; om till&quot;Utgiftsmål&quot;.</li><li>I datatabeller:<ul><li>&quot;Gårdagens nödvändiga utgifter&quot; och&quot;Dagens nödvändiga utgifter&quot; döptes om till&quot;Gårdagens utgiftsriktmärke&quot; och&quot;Dagens utgiftsriktmärke&quot;.</li><li>Verktygstipsen&quot;Gårdagens pacing % och&quot;Dagens pacing %&quot; ändrades till&quot;Gårdagens bruttoinvestering som % av gårdagens utgiftsriktmärke&quot; och&quot;Dagens bruttoinvestering som % av gårdagens utgiftsriktmärke&quot;.</li><li>&quot;Gårdagens målutgifter&quot; och &quot;Dagens målutgifter&quot; döptes om till &quot;Gårdagens utgiftsmål&quot; och &quot;Dagens utgiftsmål&quot;.&quot;</li></ul></li><ul> | Se [Skapa en anpassad kolumnvy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-create) och [Redigera en anpassad kolumnvy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md#column-view-edit). |
