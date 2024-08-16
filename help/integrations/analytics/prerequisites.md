@@ -3,9 +3,9 @@ title: Krav och nyckelinformation för implementering av  [!DNL Analytics for Ad
 description: Krav och nyckelinformation för implementering av  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 7c477900-ebb0-4c0e-811a-ab8bc6069599
-source-git-commit: 8481227a8ccb1f1e6e715e34e14732967110c168
+source-git-commit: 1559c2cb83e32d90f4b2fe959d07c4e588d9becf
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Kontakta kontoteamet på Adobe för att få de senaste annonsmiljöerna som stö
 
 * Konverteringsspårning för [!DNL Analytics for Advertising] i Adobe Analytics använder ett konfigurerbart uppföljningsfönster (60 dagar som standard). Adobe Advertising-rapporter återspeglar webbplatskonverteringar och engagemang i slutet av detta uppföljningsfönster.
 
-* Alla annonstyper stöds. Alla annonsmiljöer stöds dock inte.
+* Alla annonstyper stöds. <!--Clarify what this might include. It used to include CTV, but not anymore: However, not all ad environments are supported. -->
 
 * [!DNL Analytics] konverteringar spåras för närvarande och tilldelas bara till en besökare på samma enhet.
 
