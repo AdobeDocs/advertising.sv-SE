@@ -3,7 +3,7 @@ title: Redigera en anpassad rapport
 description: Lär dig hur du redigerar anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 42208276-d766-41c8-a764-c79a20e302e6
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%
