@@ -3,9 +3,9 @@ title: Skapa en konverteringstagg för  [!DNL Google Ads]
 description: Lär dig hur du skapar en  [!DNL Google Ads] konverteringstagg.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ När du har lagt till taggarna på webbplatsen och börjar bränna dem konverter
 
 **[!UICONTROL View Through Conversion Window]:** Det maximala antalet dagar efter att en användare visar dina annonser för vilka genomsiktskonverteringar registreras. För sök-, display- och shoppingkampanjer kan fönstret vara mellan 1 och 90 dagar. Välj ett tal eller välj **[!UICONTROL Custom]** och ange ett tal.
 
-**[!UICONTROL Attribution Model]:** [Hur mycket kredit varje annonsinteraktion får](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]*, *[!UICONTROL Last click]*, *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* eller *[!UICONTROL Position based]*.
+**[!UICONTROL Attribution Model]:** [Hur mycket kredit varje annonsinteraktion får](https://support.google.com/google-ads/answer/6259715?sjid=8211249329930775138): *[!UICONTROL Data driven]* eller *[!UICONTROL Last click]*. **Obs!** Konverteringsåtgärder som tidigare använt *[!UICONTROL First click]*, *[!UICONTROL Linear]*, *[!UICONTROL Time decay]* eller *[!UICONTROL Position based]* modeller som inte stöds används nu i modellen *[!UICONTROL Data driven]*.
 
 >[!MORELIKETHIS]
 >
