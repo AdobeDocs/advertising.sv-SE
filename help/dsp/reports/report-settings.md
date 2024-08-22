@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 9313b20b4bcdb001138f30d8fa82d2b22be19831
+source-git-commit: 4fb843e66edddd4585d4a9b142eb9a7750152d27
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Anpassade rapportinställningar
 
-**[!UICONTROL Name]** Rapportnamnet. Maximala längden är 180 tecken.
+**[!UICONTROL Name]:** Rapportnamnet. Maximala längden är 180 tecken.
 
-**[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* eller *[!UICONTROL Household Conversions]*.
+**[!UICONTROL Report Type]:** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* eller *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Report range] avsnitt
+## [!UICONTROL Report Range] avsnitt
 
 Det här avsnittet avgör vilka data som tas med i rapporten. Information om hur du ställer in datum för rapportschemat finns i avsnittet [!UICONTROL Report run schedule].
 
@@ -32,7 +32,7 @@ Det här avsnittet avgör vilka data som tas med i rapporten. Information om hur
 
 * **[!UICONTROL Custom Range]:** Inkluderar data mellan specifika start- och slutdatum. Om du vill rapportera data genom föregående dag väljer du **[!UICONTROL Present]**.
 
-## [!UICONTROL Report run schedule] avsnitt
+## [!UICONTROL Report Run schedule] avsnitt
 
 I det här avsnittet anges de datum då rapporten körs. Information om hur du ställer in datum för vilka rapportdata ska inkluderas finns i avsnittet [!UICONTROL Report range].
 
