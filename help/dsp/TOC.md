@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
+source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '924'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 3%
    + [Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)
    + [Ta bort en anpassad rapport](/help/dsp/reports/report-delete.md)
    + [Kör en anpassad rapport](/help/dsp/reports/report-run-now.md)
+   + [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
    + [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
    + [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
    + [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)

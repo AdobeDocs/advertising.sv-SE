@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
+source-git-commit: 14e3499c78bc45f86bbd61e6b081af8c26ecbea3
 workflow-type: tm+mt
-source-wordcount: '3906'
+source-wordcount: '4089'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 22 augusti 2024 | [!UICONTROL Custom Reports] | Följande anpassade rapportfunktioner och förbättringar har släppts:<ul><li>Vyn [!UICONTROL Reports] > [!UICONTROL Custom Reports] har gjorts om:<ul><li>Kolumnerna innehåller nu [!UICONTROL Status], [!UICONTROL Report Run] (som visar datum då rapporten startades från och med den 22 augusti 2024), [!UICONTROL Recurrence], [!UICONTROL Created By] och [!UICONTROL Download Report] (med en [!UICONTROL Download]-knapp) så att du omedelbart kan hämta alla rapportinstanser från de senaste fyra månaderna).</li><li>Du kan filtrera listan efter status, om rapporten är återkommande eller en gång, rapporttyp, måltyp och rapportskapare. Som standard visas alla oarkiverade rapporter som skapas av användaren, med den senaste överst.</li><li>Snabbåtgärdsknapparna för varje rapport (till exempel [!UICONTROL Copy] och [!UICONTROL Delete]) är nu tillgängliga genom att klicka på **[!UICONTROL …]** bredvid rapportnamnet.</li></ul><li>Alternativ för rapportplanering är nu tillgängliga på rapportnivå, inte på individuell målnivå. I rapportinställningarna är schemainställningarna nu tillgängliga i den övre delen av avsnittet [!UICONTROL Report run schedule]. Om du redigerar en äldre rapport som har olika befintliga scheman för enskilda destinationer uppmanas du att ange schemat och meddela att schemat ersätter det befintliga schemat för alla befintliga destinationer.</li></ul> | Se [Om rapporter](/help/dsp/reports/report-about.md) och [Rapportinställningar](/help/dsp/reports/report-settings.md). |
 | 22 augusti 2024 | [!UICONTROL Packages] | Du kan nu hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation. Du kan sedan ändra de flesta fält på båda flikarna och överföra dem tillbaka till DSP alla samtidigt. | Se &quot;[Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
 | 14 augusti 2024 | [!UICONTROL Placements] | DSP uppdaterar inte längre antalet segment för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att sluta i slutet av september, och alla antal minskar gradvis till noll (0). | — |
 | 30 juli 2024 | [!UICONTROL Placements] | Från och med den 14 augusti slutar DSP att uppdatera segmentantalet för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att solas i slutet av september, och alla antal minskar gradvis till noll (0). | — |

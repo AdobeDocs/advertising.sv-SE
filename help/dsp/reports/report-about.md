@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: 44f7f9b31afbe6b863acd389df641057b1e6dea1
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,15 @@ ht-degree: 0%
 Med anpassade rapporter kan ni anpassa innehållet i och leveransen av rapportdata med kampanjdimensionerna (som annonsören, placeringen, webbplatser eller geos) och de mätvärden som är viktiga för er. Du kan antingen:
 
 * Konfigurera kampanjresultatrapporter helt och hållet på detaljnivå.
+
 * Välj bland förkonfigurerade rapportmallar och anpassa dem ytterligare.
 
-Du kan generera rapporter en gång eller schemalägga att de ska genereras varje dag, vecka eller månad klockan 03:00 i den angivna tidszonen. När en rapport har skapats levereras den till varje angiven e-postmottagare eller till länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
+Du kan generera rapporter en gång eller schemalägga att de ska genereras varje dag, vecka eller månad klockan 03:00 i den angivna tidszonen enligt angivna villkor (t.ex. var 15:e dag eller den 1:e varje månad). När en rapport har skapats kan du hämta den från [!UICONTROL Reports] > [!UICONTROL Custom Reports] eller från länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
+* FTP SSL <!-- (in beta) -->
 * SFTP
-* FTP SSL (i betaversion)
 
 >[!NOTE]
 >
@@ -84,9 +85,30 @@ När funktionen har aktiverats för din organisation kan du [filtrera](report-se
 
 Kontoinställningarna på [!UICONTROL Settings] > [!UICONTROL Account] anger a) de andra konton vars data är tillgängliga för ditt konto och b) de andra konton som kan komma åt dina kontodata.
 
+## Vyn [!UICONTROL Custom Reports]
+
+[!UICONTROL Reports] > [!UICONTROL Custom Reports] visar dina befintliga rapporter, inklusive rapporter som har genererats, rapporter som är schemalagda för framtida generering och rapporter som har misslyckats. Kolumnen [!UICONTROL Report Run] visar datum då rapporten startades med början den 22 augusti 2024. Som standard visas alla oarkiverade rapporter som skapas av användaren, med den senaste överst. Du kan filtrera listan ytterligare efter status, oavsett om rapporten är återkommande eller en gång, rapporttyp, måltyp och rapportskapare.
+
+Du kan skapa nya anpassade rapporter, redigera befintliga rapporter eller duplicera dem för att skapa nya rapporter, köra rapporter direkt, ladda ned alla rapportinstanser från de senaste fyra månaderna och ta bort rapporter.
+
+## Rapportstatus {#custom-report-status}
+
+* **[!UICONTROL Yet to start]:** Rapporten har aldrig körts.
+
+* **[!UICONTROL Report generating]:** Rapporten skapas.
+
+* **[!UICONTROL Ready to download]:** (Endast återkommande rapporter) En eller flera instanser av rapporten är tillgängliga för hämtning och fler rapportinstanser är schemalagda.
+
+* **[!UICONTROL Failed]:** Rapportjobbet misslyckades. Om du vill se varför enskilda rapportinstanser misslyckades för en rapportruta klickar du på ![nedpilen](/help/dsp/assets/chevron-down.png "nedpilen") bredvid [!UICONTROL Download]. Misslyckade rapportjobb anges med en felikon (![felindikator](/help/dsp/assets/indicator-critical.png "felindikator")). Håll markören över felikonen om du vill se en beskrivning av felet.
+
+* **[!UICONTROL Completed]:** Rapporten har slutförts för icke-återkommande rapporter. För återkommande rapporter slutförs alla rapportinstanser. Du kan hämta alla rapporter som har slutförts de senaste fyra månaderna.
+
+* **[!UICONTROL Archived]:** Rapporten är arkiverad och kan inte köras. Den här statusen anges när rapportgenereringen misslyckas flera gånger för en rapport. För närvarande kan du inte ange den här statusen från användargränssnittet.
+
 >[!MORELIKETHIS]
 >
 >* [Skapa en anpassad rapport](/help/dsp/reports/report-create.md)
+>* [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)
 >* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)

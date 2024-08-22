@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 81c9590d134214e1ed860c2f8116ff66882000be
+source-git-commit: a4ab8bdeea2d15f14a7ef84c1055888ecc77014b
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -16,19 +16,51 @@ ht-degree: 0%
 
 **[!UICONTROL Report Type]** Typ av rapport: *[!UICONTROL Custom]* (som innehåller de mest tillgängliga alternativen), *[!UICONTROL Billing]*, *[!UICONTROL Conversion]*, *[!UICONTROL Device]*, *[!UICONTROL Frequency (by Impression)]*, *[!UICONTROL Frequency (by App/Site)]*, *[!UICONTROL Geo]*, *[!UICONTROL Margin]*, *[!UICONTROL Media Performance]*, *[!UICONTROL Segment]*, *[!UICONTROL Site]*, *[!UICONTROL Household Reach & Frequency]* eller *[!UICONTROL Household Conversions]*.
 
-## [!UICONTROL Apply Filters] avsnitt
+## [!UICONTROL Report range] avsnitt
+
+Det här avsnittet avgör vilka data som tas med i rapporten. Information om hur du ställer in datum för rapportschemat finns i avsnittet [!UICONTROL Report run schedule].
 
 **[!UICONTROL Timezone]:** Tidszonen för rapportering.
 
 **[!UICONTROL Observe Daylight Savings Time]:** anser att sommartid kan användas under de rapporterade tiderna.
 
-**\[Datumintervall\]:** Datumintervallet som data ska genereras för. Antalet tillgängliga dagar varierar beroende på rapport och valda dimensioner. Välj ett alternativ:
+**Intervall:** Datumintervallet som data ska genereras för. Antalet tillgängliga dagar varierar beroende på rapport och valda dimensioner. Välj ett alternativ:
 
-* **[!UICONTROL Previous N days]:** Inkluderar data för ett visst antal dagar före idag.
-
-* **[!UICONTROL Custom]:** Inkluderar data mellan specifika start- och slutdatum. Om du vill rapportera data genom föregående dag väljer du **[!UICONTROL Present]**.
+* **[!UICONTROL Last Calendar Week]:** Inkluderar data för föregående kalendervecka.
 
 * **[!UICONTROL Last Calendar Month]:** Inkluderar data för föregående kalendermånad.
+
+* **[!UICONTROL Custom Range]:** Inkluderar data mellan specifika start- och slutdatum. Om du vill rapportera data genom föregående dag väljer du **[!UICONTROL Present]**.
+
+## [!UICONTROL Report run schedule] avsnitt
+
+I det här avsnittet anges de datum då rapporten körs. Information om hur du ställer in datum för vilka rapportdata ska inkluderas finns i avsnittet [!UICONTROL Report range].
+
+**\[Schema\]:** När rapporten ska genereras:
+
+* *[!UICONTROL Immediately]*: Lägger omedelbart till rapporten i rapportkön.
+
+  >[!NOTE]
+  >
+  >Du kan också [köra en anpassad rapport när som helst](report-run-now.md) från vyn [!UICONTROL Reports].
+
+* *[!UICONTROL On]\&lt;Date\>:* Kör rapporten på ett angivet datum för slutförande senast 09:00 i kontots tidszon.
+
+* *[!UICONTROL Recurring]:* Kör rapporten enligt ett schema under en angiven tidsperiod.
+
+   * **\[Schedule\]:** Hur ofta rapporten ska köras:
+
+      * *Dagligen* om du vill köra rapporten var N:e dag. Om du till exempel vill köra rapporten varannan vecka (14 dagar) markerar du det här alternativet och anger **14**.
+
+      * *Veckovis* om du vill köra rapporten på angivna veckodagar. Om du till exempel vill köra rapporten varje måndag och fredag markerar du det här alternativet och markerar kryssrutorna intill **måndag** och **fredag**.
+
+      * *Månadsvis* om du vill köra rapporten på en viss numerisk dag i månaden, från 1 till 30. Kör till exempel rapporten den första dagen i varje månad, markera det här alternativet och ange **1**.
+
+   * **Från**: Det första datum då rapporten kan köras. Beroende på angivet schema kan den första rapportinstansen inträffa efter detta datum.
+
+   * **Till**: Rapportens förfallodatum, som kan vara upp till fyra kalendermånader bort. Innan en rapport förfaller får alla angivna e-postmål en e-postavisering sju dagar och en dag före förfallodatumet. Ändra det här datumet om du vill behålla rapporten längre.
+
+## [!UICONTROL Apply Filters] avsnitt
 
 **[!UICONTROL Add Filters]:** (Valfritt) Ytterligare dimensioner som data kan filtreras med, oavsett om dimensionerna inkluderas som kolumner i rapporten eller inte. De tillgängliga filtren varierar beroende på rapporttyp och kan omfatta: *[!UICONTROL Account]*\*, *[!UICONTROL Ad Type]*, *[!UICONTROL Ads]*, *[!UICONTROL Advertiser]*, *[!UICONTROL Campaign]*, *[!UICONTROL Country]*, * *[!UICONTROL Package]*, *[!UICONTROL Placement]*, *[!UICONTROL Video]* och *[!UICONTROL Video Duration]*.
 
@@ -120,17 +152,23 @@ Se [Tillgängliga rapportkolumner](report-columns.md) för beskrivningar av alla
 
 ## [!UICONTROL Add Report Destinations] avsnitt
 
-**[!UICONTROL Destination Type]:** Välj en av följande måltyper:
-
-* *[!UICONTROL S3]:* Om du vill skicka den slutförda rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) platser, som du måste ange i fältet **[!UICONTROL Destination Name]**.
-* *[!UICONTROL sFTP]:* Om du vill skicka den slutförda rapporten till en eller flera SFTP-platser, som du måste ange i fältet **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste ange i fältet **[!UICONTROL Destination Name]**.
-* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste ange i fältet **[!UICONTROL Destination Name]**.
-* *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
+**[!UICONTROL Destination Type]:** Var de slutförda rapporterna och felmeddelandena ska levereras. Du kan inte ändra måltypen när du har sparat rapporten.
 
 >[!NOTE]
 >
-> Du kan inte ändra måltypen när du har sparat rapporten.
+>Du kan alltid hämta slutförda rapporter från vyn [!UICONTROL Reports] > [!UICONTROL Custom Reports].
+
+* *[!UICONTROL None]:* Att inte leverera några rapporter eller meddelanden.
+
+* *[!UICONTROL S3]:* Om du vill skicka den slutförda rapporten till en eller flera [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL sFTP]:* Om du vill skicka den slutförda rapporten till en eller flera SFTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+
+* *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
 **[!UICONTROL Email]:** (Endast måltyp för e-post) Ange adressen för varje adress och klicka på **+**.
 
@@ -148,26 +186,13 @@ Se [Tillgängliga rapportkolumner](report-columns.md) för beskrivningar av alla
 
       Det nya målet är nu tillgängligt i listan över befintliga mål och du kan lägga till det i rapporten om du vill.
 
-**[!UICONTROL Frequency]:** (För varje [!UICONTROL Destination Name]) Hur ofta ska rapporten skickas till målet: *[!UICONTROL Once]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]* eller *[!UICONTROL Monthly]*.
-
-**[!UICONTROL Start Day]:** (För varje [!UICONTROL Destination Name] med [!UICONTROL Frequency] av *[!UICONTROL Weekly]* eller *[!UICONTROL Monthly]*) Vilken dag rapporten ska genereras. För veckorapporter väljer du veckodag. För månadsrapporter väljer du den numeriska dagen i månaden.
-
-## [!UICONTROL Save Report] avsnitt
-
-**[!UICONTROL When to Generate]:** När rapporten ska genereras: *[!UICONTROL On Schedule]* eller *[!UICONTROL Run Now]*. Schemalagda rapporter levereras senast 09:00 i kontots tidszon.
-
-**[!UICONTROL End Date]:** Rapportens förfallodatum, som kan vara upp till fyra månader bort. Innan en rapport förfaller får alla angivna e-postmottagare ett e-postmeddelande sju dagar och en dag före förfallodatumet. Om du vill behålla rapporten längre ändrar du förfallodatumet i rapportinställningarna.
-
->[!NOTE]
->
->Du kan [köra en anpassad rapport när som helst](report-run-now.md) från vyn [!UICONTROL Reports].
-
 >[!MORELIKETHIS]
 >
 >* [Om anpassade rapporter](/help/dsp/reports/report-about.md)
 >* [Skapa en anpassad rapport](/help/dsp/reports/report-create.md)
 >* [Duplicera en anpassad rapport](/help/dsp/reports/report-copy.md)
 >* [Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)
+>* [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
 >* [Kör en anpassad rapport](/help/dsp/reports/report-run-now.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Om rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md)
