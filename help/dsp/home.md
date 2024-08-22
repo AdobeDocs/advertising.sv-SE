@@ -5,7 +5,7 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ec9bf9bb6e12255548d4d8c869b87a78226bbf1e
+source-git-commit: 6264132ebeacc960548e818d023dc232a293abc1
 workflow-type: tm+mt
 source-wordcount: '3906'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 22 augusti 2024 | [!UICONTROL Packages] | Du kan nu hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation. Du kan sedan ändra fälten på båda flikarna och överföra dem till DSP alla samtidigt. | Se &quot;[Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
+| 22 augusti 2024 | [!UICONTROL Packages] | Du kan nu hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation. Du kan sedan ändra de flesta fält på båda flikarna och överföra dem tillbaka till DSP alla samtidigt. | Se &quot;[Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
 | 14 augusti 2024 | [!UICONTROL Placements] | DSP uppdaterar inte längre antalet segment för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att sluta i slutet av september, och alla antal minskar gradvis till noll (0). | — |
 | 30 juli 2024 | [!UICONTROL Placements] | Från och med den 14 augusti slutar DSP att uppdatera segmentantalet för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att solas i slutet av september, och alla antal minskar gradvis till noll (0). | — |
 | | [!UICONTROL Packages] | Paketinställningarna innehåller nu ett alternativ till [!UICONTROL Automatically rollover remaining flight budget to next flight] när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat. När alternativet är aktiverat läggs eventuell återstående budget från den föregående flygningen automatiskt till den befintliga budgeten för nästa flygning. Du kan inte redigera kolumnen [!UICONTROL Rollover] manuellt när alternativet för automatisk överrullning är markerat.<br><br>I vyn [!UICONTROL Packages] och i vyn [Paketnamn] > [!UICONTROL Flights] ingår rolloverbudgeten i kolumnen [!UICONTROL Interval Goal], som visar det aktuella flygmålet. | Se [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md). |
