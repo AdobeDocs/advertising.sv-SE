@@ -3,16 +3,16 @@ title: Granska och redigera placeringsinställningar med kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelplacering med hjälp av kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Granska och redigera placeringsinställningar med kalkylblad
 
-Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
+Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
 
 * Vilka målgrupper kampanjen riktar sig till.
 * När placeringarna börjar leverera, och när de slutar.
@@ -42,7 +42,7 @@ Du kan sedan göra ändringar i markerade fält och överföra dem tillbaka till
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-   Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
+   Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
 
 ## Hämta inställningar för en eller flera placeringar
 
@@ -56,7 +56,7 @@ Du kan sedan göra ändringar i markerade fält och överföra dem tillbaka till
 
 1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]** i verktygsfältet för gruppåtgärder.
 
-Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolumner som ingår finns i [Kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
+Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
 
 ## Överför inställningar för alla placeringar i en kampanj
 

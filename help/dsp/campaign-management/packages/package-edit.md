@@ -3,14 +3,18 @@ title: Redigera ett paket
 description: Lär dig redigera ett paket.
 feature: DSP Packages
 exl-id: 88fbbb46-0150-4ff7-838f-ea00aead529e
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 90f9d250a777e04280d4864320719e91861a9ca0
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 1%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
 # Redigera ett paket
+
+>[!NOTE]
+>
+>Du kan också hämta inställningarna för ett eller flera paket i XLSX-format (Excel-kalkylblad), göra ändringar i de flesta fält och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och redigera paketinställningar med kalkylblad](package-qa.md).&quot;
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på namnet på kampanjen för att öppna vyn [!UICONTROL Packages].
@@ -21,6 +25,7 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >* [Om pakethantering](package-about.md)
+>* [Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Skapa ett paket](package-create.md)
 >* [Duplicera ett paket](package-duplicate.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)

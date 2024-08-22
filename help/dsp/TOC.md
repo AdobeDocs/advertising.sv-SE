@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: b89da28d56cb80d105fd8bebd9c734dd5230c4c3
+source-git-commit: ad95e76ff5f2418a76ffad04b7d2bd176ceea726
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 3%
    + Paket {#packages}
       + [Om pakethantering](/help/dsp/campaign-management/packages/package-about.md)
       + [Skapa ett paket](/help/dsp/campaign-management/packages/package-create.md)
+      + [Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
       + [Redigera ett paket](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicera ett paket](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Koppla en placering till ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
