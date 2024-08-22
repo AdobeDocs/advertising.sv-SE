@@ -2,9 +2,9 @@
 title: Granska och redigera paketinställningar med kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelpaket med hjälp av kalkylblad.
 feature: DSP Packages
-source-git-commit: 230a169611aa3094365a877476f2e5e1c6b3cb9b
+source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolum
 | [!UICONTROL Goals & Budget] | [!UICONTROL Optimization Target] | Målvärdet för målet. | Ja |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Custom Goal Name] | (Endast paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Ett [anpassat mål](/help/dsp/optimization/custom-goal.md) som innehåller de intäkt- eller konverteringshändelser som används för att beräkna CPA- eller ROAS-måttet. | Ja |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Conversion Metric Name] | (Valfritt; paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Den slutliga konverteringshändelsen eller intäktshändelsen/försäljningsbeloppet som ska användas för att beräkna avkastningen på annonskostnaderna eller kostnaden per förvärv. | Ja |
-| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Paket med enbart anpassade optimeringsmål) Paketets syfte, som hjälper till att avgöra hur paketet ska optimeras: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* eller *[!UICONTROL Other]*. | — |
+| [!UICONTROL Goals & Budget] | [!UICONTROL Package Goal Type] | (Paket med enbart anpassade optimeringsmål) Paketets syfte, som hjälper till att avgöra hur paketet ska optimeras: *[!UICONTROL Prospecting]*, *[!UICONTROL Retargeting]* eller *[!UICONTROL Other]*. | Ja |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package id for learning carryover] | (Endast paket med anpassade optimeringsmål) Paket-ID:t för ett annat paket vars tidigare data används som indata för optimering av paketet. | Ja |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Linked Package Name for learning carryover] | (Endast paket med anpassade optimeringsmål) Ett annat paket vars tidigare data används som indata för optimering av paketet. | — |
 | [!UICONTROL Goals & Budget] | [!UICONTROL Pace on] | Anger om paketet ska paketeras mot *[!UICONTROL budget]* eller *[!UICONTROL primary_goal]* (för visningar). | — |
@@ -102,10 +102,10 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolum
 |---------|--------|-------------|-----------|
 | [!UICONTROL Flight Details] | [!UICONTROL Package ID] | Paketets numeriska ID. | — |
 | [!UICONTROL Flight details] | [!UICONTROL Flight ID] | Det numeriska ID:t för flygningen. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | Flygningens första datum. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | Slutdatum för flygningen. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | Målet för flygresan. | — |
-| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Befintliga paket utan alternativet [!UICONTROL Automatically rollover remaining flight budget to next flight] aktiverat) Ett belopp med eventuellt oanvänd budget att lägga till i nästa flight. | — |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Start Date] | Flygningens första datum. | Ja |
+| [!UICONTROL Flight details] | [!UICONTROL Flight End Date] | Slutdatum för flygningen. | Ja |
+| [!UICONTROL Flight details] | [!UICONTROL Flight Budget] | Målet för flygresan. | Ja |
+| [!UICONTROL Flight details] | [!UICONTROL Rollover] | (Befintliga paket utan alternativet [!UICONTROL Automatically rollover remaining flight budget to next flight] aktiverat) Ett belopp med eventuellt oanvänd budget att lägga till i nästa flight. | Ja |
 
 >[!MORELIKETHIS]
 >
