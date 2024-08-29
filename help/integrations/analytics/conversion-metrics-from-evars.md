@@ -3,9 +3,9 @@ title: Skapa konverteringsvärden från Adobe Analytics [!DNL eVars] och proffs
 description: Konfigurera anpassade händelsemått för lyckade åtgärder med data på  [!DNL eVar]- och [!DNL prop]-nivå.
 feature: Integration with Adobe Analytics, Conversions
 exl-id: 7717d10c-76ca-4ba9-9fbb-e34ad006619c
-source-git-commit: a0d5bc1791f5d05e2cbdeab58e1943f4d494b53f
+source-git-commit: db815958b039508b005f4be60561ddc4656da86e
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ni kan använda framgångsstatistik för att optimera DSP och sök-, sociala och
 
 De flesta av följande åtgärder måste utföras av en [!DNL Analytics]-administratör eller annan användare. Om du behöver hjälp kan du kontakta (DSP användare) det DSP tekniska supportteamet på `adcloud_support@adobe.com` eller (användare av Search, Social och Commerce) ditt kontoteam på Adobe.
 
-1. I [!DNL Analytics] [skapar du en platshållarhändelse ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-events/success-event.html?lang=en).
+1. I [!DNL Analytics] [skapar du en platshållarhändelse ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Använd följande ytterligare parametrar:
 
@@ -60,7 +60,7 @@ De flesta av följande åtgärder måste utföras av en [!DNL Analytics]-adminis
 
 När mätvärdena är tillgängliga kan du använda dem för att skapa ett mål, som du sedan kan tilldela till en Search-, Social- och Commerce-portfölj eller använda som ett [anpassat mål](/help/dsp/optimization/custom-goal.md) för ett DSP.
 
-Mer information om hur du skapar mål finns i kapitlet om optimeringsguiden,&quot;Mål&quot;, som du når från Search, Social och Commerce.
+se kapitlet om optimeringsguiden för&quot;mål&quot;, som finns i Search, Social och Commerce
 
 >[!MORELIKETHIS]
 >
