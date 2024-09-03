@@ -3,7 +3,7 @@ title: Om att handla produktgrupper
 description: Läs mer om att handla produktgrupper i shoppingkampanjer.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du konfigurerar produktgrupper på annonsgruppsnivå för att avgöra vilka prod
 
 När samma produkt ingår i mer än en kampanj använder annonsnätverket först kampanjprioriteten för att avgöra vilken kampanj (och tillhörande bud) som är berättigad för annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad.
 
-Mer information om [!DNL Google] shoppingkampanjer och annonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md) och i [dokumentationen för Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Mer information om [!DNL Microsoft] shoppingkampanjer finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+Mer information om [!DNL Google] shoppingkampanjer och annonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) och i [dokumentationen för Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Mer information om [!DNL Microsoft] shoppingkampanjer finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -58,6 +58,6 @@ Du kan visa data om produktgrupper i [den [!UICONTROL Product Group Report]](/he
 >
 >* [Hantera shoppingproduktgrupper](product-group-manage.md)
 >* [[!DNL Google Ads] produktgruppsinställningar](product-group-settings-google.md)
->* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
+>* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
 >* [[!DNL Microsoft Advertising] produktgruppsinställningar](product-group-settings-microsoft.md)
->* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

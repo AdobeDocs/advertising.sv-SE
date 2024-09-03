@@ -3,7 +3,7 @@ title: Översikt över att implementera annonsnätverkskonton och -kampanjer
 description: Lär dig mer om de uppgifter som krävs för att konfigurera, synkronisera och hantera era annonsnätverkskonton.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. (Om det behövs) Skapa användarkonton för annonsören för att visa och hantera kampanjdata och för att generera rapporter.
 
-1. (Vissa annonsnätverk) Få behörighet för Search, Social och Commerce för att komma åt varje konto med annonsnätverkets API och användargränssnittet Search, Social och Commerce.
+1. (Vissa annonsnätverk) Få behörighet för Search, Social och Commerce att komma åt varje konto via annonsnätverkets API och användargränssnittet i Search, Social och Commerce.
 
 1. För varje annonsnätverkskonto:
 
@@ -46,7 +46,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
       * (Baidu, Google Ads, Microsoft Advertising, Yahoo! Japan Ads och Yandex (endast konton) Ange data för enskilda komponenter direkt i gränssnittet. För de flesta kampanj- och annonstyper kan ni skapa data på kampanjnivå, annonsgruppnivå och individuella nyckelord, placeringar och annonsnivåer.
 
-      Vissa kampanjer och annonstyper kräver dock unika arbetsflöden. Se instruktionerna för att konfigurera [[!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md), [[!DNL Google Ads] maximala prestandakampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md) och [[!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md).
+      Vissa kampanjer och annonstyper kräver dock unika arbetsflöden. Se instruktionerna för att konfigurera [[!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md), [[!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md), [[!DNL Google Ads] maximala prestandakampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md) och [[!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md).
 
    1. ([!DNL Naver] endast för spårning av konton) Överför [kalkylbladsfiler](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) med data för att replikera befintliga kampanjer, annonsgrupper och nyckelord i Sök, Social och Commerce utan att publicera dem på [!DNL Naver].
 
@@ -64,9 +64,9 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. Validera de data som spåras.
 
-   Mer information om hur du konfigurerar spårning finns i kapitlet &quot;Spårning&quot;.
+   Mer information om hur du ställer in spårning finns i kapitlet om spårning.
 
-1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
+1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
 
 1. (Om du vill tillåta sökningar, sociala medier och Commerce att optimera bud och/eller kampanjbudgetar, [endast kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

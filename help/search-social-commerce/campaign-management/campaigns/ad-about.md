@@ -3,7 +3,7 @@ title: Hantera annonser
 description: Läs mer om annonser i Search, Social och Commerce, inklusive tillgängliga annonstyper.
 exl-id: 01bd211d-fe6b-4329-90e1-0e54d626c125
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Du kan skapa och hantera annonstyper som stöds för annonsgrupper i ett synkron
 
   Du kan styra vilka produkter som visas med dina [!DNL Microsoft Advertising]-shoppingannonser genom att ställa in separata produktgrupper för annonsgruppen i vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
-  Mer information om arbetsflödet för produkt-/shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md).  Mer information om produktannonser finns i [dokumentationen för Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
+  Mer information om arbetsflödet för produkt-/shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md).  Mer information om produktannonser finns i [dokumentationen för Microsoft Advertising](https://help.ads.microsoft.com/#apex/3/en/51082).
 
 * Responsiva sökannonser för [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer i söknätverket. Annonsnätverket sätter dynamiskt ihop textbaserade responsiva sökannonser från en uppsättning annonsrubriker och beskrivningar, vilket gynnar kombinationer som fungerar bra ihop. Annonsen innehåller upp till tre rubriker, två beskrivningar och en anpassningsbar URL från bas-URL:en och valfria sökvägsfält1 och sökvägsfält2. Du kan även fästa annonsrubriker och beskrivningar på specifika positioner.
 

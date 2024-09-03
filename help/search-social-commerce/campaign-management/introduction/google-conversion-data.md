@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] konverteringsdata'
 description: Lär dig mer om de  [!DNL Google Ads] spårade konverteringsdata som finns i Sök, Socialt och Commerce.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -106,3 +106,4 @@ I Sök, Socialt och Commerce kan du använda vy- eller rapportalternativet för 
 >* [Övervaka och hantera prestandan för annonsnätverkskampanjer](monitor-performance-campaigns.md)
 >* [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
 >* [Skapa en konverteringstagg för [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+>* [Överför offlinekonverteringsdata för utökade konverteringar](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)

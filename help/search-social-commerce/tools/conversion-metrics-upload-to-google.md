@@ -1,18 +1,18 @@
 ---
-title: Överför konverteringsmått till  [!DNL Google Ads]
+title: Överför konverteringsstatistik för sökning, sociala medier och Commerce till  [!DNL Google Ads]
 description: Lär dig hur du överför konverteringsstatistik för sökning, sociala medier och Commerce till  [!DNL Google Ads].
 exl-id: 976792ae-135c-4790-82cf-9503edb93fb1
 feature: Search Tools
-source-git-commit: e8eabf7e4aa7c9201cd8198aae32d325b2858f2b
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
-# Överför konverteringsmått till [!DNL Google Ads]
+# Överför konverteringsstatistik för sökning, sociala medier och Commerce till [!DNL Google Ads]
 
-*Annonsörer med [!DNL Google Ads] Endast konton*
+*Annonsörer med endast [!DNL Google Ads] konton och Adobe Advertising-konverteringsspårning*
 
 Search, Social, &amp; Commerce kan överföra alla konverteringsmått som spåras till [!DNL Google Ads] för [!DNL Google Ads]-kampanjer som använder Adobe Advertising-konverteringstjänsten. Det här alternativet gör inte konverteringarna tillgängliga för hybridoptimering. Om du vill använda dina Adobe-konverteringar för hybridoptimering läser du i &quot;[Aktivera överföring av mål till annonsnätverk](objective-upload-to-networks.md)&quot;.
 

@@ -3,7 +3,7 @@ title: Produktfilter för köpkampanjer
 description: Referera till de produktfilter som finns för att handla produktgrupper.
 exl-id: 91695fa8-6e5e-42a7-a84a-0b46b9f4dfcc
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -27,8 +27,8 @@ Se även [!DNL Google Ads]-hjälpen [Hantera en shoppingkampanj med produktgrupp
 
 >[!MORELIKETHIS]
 >
->* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
->* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+>* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
 >* [Om att handla produktgrupper](product-group-about.md)
 >* [Hantera shoppingproduktgrupper](product-group-manage.md)
 >* [[!DNL Google Ads] produktgruppsinställningar](/help/search-social-commerce/campaign-management/campaigns/product-group-settings-google.md)

@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Microsoft Advertising] konton.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -230,7 +230,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 
 ### Produktfält (shoppingfält)
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-campaign-types/microsoft-shopping-campaigns.html).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 

@@ -3,9 +3,9 @@ title: Hantera autentiseringsuppgifter för annonsnätverkshanterarkonton
 description: Lär dig hur du anger autentiseringsuppgifter för dina  [!DNL Google Ads] hanterarkonton.
 exl-id: 95866a2e-4695-4b1d-ac23-844d3b9a0a74
 feature: Search Admin
-source-git-commit: 4cf04fc7ea22e50b5f56cd278ad9a1aac724edf7
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -59,5 +59,5 @@ När du lägger till autentiseringsuppgifter för ett hanterarkonto visas det as
 >[!MORELIKETHIS]
 >
 >* [Aktivera överföring av mål till annonsnätverk](/help/search-social-commerce/tools/objective-upload-to-networks.md)
->* [Överför konverteringsmått till  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+>* [Överför konverteringsstatistik för sökning, sociala medier och Commerce till  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
 >* [Redigera aviseringsinställningarna](/help/search-social-commerce/notifications/notification-edit.md)

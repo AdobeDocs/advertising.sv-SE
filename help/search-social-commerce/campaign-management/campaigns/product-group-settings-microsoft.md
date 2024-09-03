@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] produktgruppsinställningar'
 description: Referera inställningarna för  [!DNL Microsoft Advertising] shoppingproduktgrupper.
 exl-id: ea3a4137-1396-430f-9d6c-8e1e1f1f52c2
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -52,4 +52,4 @@ Den här mallen åsidosätter mallar på högre nivåer och används endast för
 >* [Om att handla produktgrupper](product-group-about.md)
 >* [Hantera shoppingproduktgrupper](product-group-manage.md)
 >* [Produktfilter för köpkampanj](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)
->* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+>* [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)

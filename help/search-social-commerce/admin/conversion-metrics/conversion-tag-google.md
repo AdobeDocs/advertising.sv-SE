@@ -3,9 +3,9 @@ title: Skapa en konverteringstagg för  [!DNL Google Ads]
 description: Lär dig hur du skapar en  [!DNL Google Ads] konverteringstagg.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 04330e26dbad6efe76dfcbe4662b062511ae14f6
+source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Du kan skapa konverteringstaggar för nya konverteringar som ska spåras för en
 
 Om du vill generera konverteringstaggar för befintliga konverteringar använder du annonsnätverkets redigerare.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Summary]**.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -42,7 +42,7 @@ När du har lagt till taggarna på webbplatsen och börjar bränna dem konverter
 
 **[!UICONTROL Select an Account]:** Det tillämpliga Google Ads-kontot.
 
-**[!UICONTROL Type of Conversion]:** Den typ av konvertering som ska spåras: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* eller *[!UICONTROL Clicks to your number on your mobile website]*.
+**[!UICONTROL Type of Conversion]:** Den typ av konvertering som ska spåras: *[!UICONTROL Click on a webpage element]*, *[!UICONTROL Calls to a phone number on your website]* eller *[!UICONTROL Clicks to your number on your mobile website]*. **Obs!** *[!UICONTROL Import conversion]* används i ett annat syfte. Se &quot;[Skapa en konverteringsåtgärd för en [!DNL Google Ads] förbättrad konvertering för leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md).&quot;
 
 **[!UICONTROL Conversion Name]:** Ett unikt namn för konverteringsmåttet.
 
@@ -68,4 +68,5 @@ När du har lagt till taggarna på webbplatsen och börjar bränna dem konverter
 
 >[!MORELIKETHIS]
 >
+>* [Överför offlinekonverteringsdata för utökade konverteringar](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 >* [[!DNL Google Ads] konverteringsdata i sökningar, sociala medier och Commerce](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md)
