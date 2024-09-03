@@ -3,9 +3,9 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c681e3da172244cf08114f1ae7e9ecdfb1a5dd25
+source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
 workflow-type: tm+mt
-source-wordcount: '2639'
+source-wordcount: '2852'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] rapporter) Konverteringsgraden i procent. |
 | [!UICONTROL All Conversions] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
-| [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Kostnaden per konvertering. &lt;!— Hur skiljer sig detta — och de andra fälten — från vanliga mätvärden, som t.ex.&quot;Kostnad per konvertering&quot; —> |
+| [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Kostnaden per konvertering. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala intäkten dividerat med utgiften, uttryckt i procent. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Intäkterna per konvertering. |
 | [!UICONTROL Asset] | ([!UICONTROL RSA Asset Report]) Resursen. |
@@ -68,9 +68,11 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Antalet visningar som du har fått för annonser på skärmen/målgruppsnätverket dividerat med det beräknade antalet visningar som du var berättigad att ta emot. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Den uppskattade procentandel av visningar som dina annonser i nätverket för visning/målgrupper inte fick eftersom din dagliga eller månadsvisa budget var för låg. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Uppskattad procentandel av visningar som dina annonser i nätverket för visning/målgrupper inte visas på grund av dålig annonsrankning. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) Summan av kostnaden per klick (CPC) och kostnaden per tusen visningar (CPM) under den angivna perioden. |
 | [!UICONTROL Conversion Rate] | Antalet konverteringar delat med det totala antalet klick. |
 | [!UICONTROL Conversion Type] | Den användardefinierade konverteringstyp som spårades på annonsörens webbplats. |
-| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] rapporter) Klickningar som resulterade i en försäljning eller ett annat mått på framgång. |
+| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] och [!UICONTROL Google Asset Group Performance] rapporter) Värdet för konverteringar för den angivna perioden. För [!UICONTROL MSA Ad Extension] är detta antalet klick som resulterade i en försäljning eller ett annat mått på framgång. |
+| [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report]) Antalet konverteringar från annonsinteraktioner dividerat med antalet annonsinteraktioner. Det här värdet hanterar bara konverteringsåtgärder för vilka attributet `include_in_conversions_metric` är inställt på `true`. |
 | [!UICONTROL Conversions Qualified] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
 | [!UICONTROL Cost] | Den totala kostnaden för annonser under det angivna datumintervallet. |
 | [!UICONTROL Cost Per Assist] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala kostnaden per assistans. |
@@ -95,6 +97,8 @@ ht-degree: 0%
 | [!UICONTROL End Date] | Den sista dagen som rapporterades. |
 | [!UICONTROL Extension Property Value] | ([!UICONTROL MSA Ad Extension] rapporter) [tilläggets visningsnamn](https://help.ads.microsoft.com/#apex/ads/en/51001). |
 | [!UICONTROL Extension Type ID] | ([!UICONTROL MSA Ad Extension] rapporter) ID:t för typen av annonstillägg. |
+| [!UICONTROL Final URLs] | ([!UICONTROL Google Asset Group Performance Report]) En lista över slutliga URL:er efter alla korsdomänsomdirigeringar. URL:erna kan utökas om URL-utökning är aktiverat för kampanjen. |
+| [!UICONTROL Final Mobile URLs] | ([!UICONTROL Google Asset Group Performance Report]) En lista över slutliga URL:er för mobila enheter efter alla domänöverskridande omdirigeringar. URL:erna kan utökas om URL-utökning är aktiverat för kampanjen. |
 | [!UICONTROL Goal] | ([!UICONTROL MSA Ad ExtensionReport] rapporter, [!UICONTROL MSA Network Performance Report]) Namnet på konverteringsmålet. |
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] rapporter, [!UICONTROL MSA Network Performance Report]) Typ av konverteringsmål. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Antalet onlinekonverteringar som spåras av [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
@@ -119,13 +123,19 @@ ht-degree: 0%
 | [!UICONTROL Network] | ([!UICONTROL MSA Ad Extension] rapporter) Marknadsplatsen för annonsnätverket. |
 | [!UICONTROL Network Account ID] | Konto-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Ad Group ID] | Annonsgrupps-ID som tilldelats av nätverket. |
+| [!UICONTROL Network Asset Group ID] | Resursgrupps-ID som tilldelats av nätverket. |
+| [!UICONTROL Network Asset Group Name] | Resursgruppens namn. |
 | [!UICONTROL Network Campaign ID] | Kampanj-ID som tilldelats av nätverket. |
 | [!UICONTROL Network Type] | Det nätverk där annonsen visades:<ul><li>*[!UICONTROL google_search]*: [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*: [!DNL Google Display Network]</li></ul> |
+| [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report]) Den första uppsättningen text som kan läggas till i annonsens URL. |
+| [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report]) Den andra uppsättningen text som kan läggas till i visnings-URL:en i annonsen. Det här fältet är bara tillgängligt när ett Path1-värde har angetts. |
 | [!UICONTROL Portfolio Group Name] | Namnet på den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL Portfolio Name] | Portföljen. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio-rapport) Utgiftsstrategin för portföljen: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* eller *[!UICONTROL Google Target ROAS]*. |
 | [!UICONTROL Portfolio Status] | Portföljens status:<ul><li>*[!UICONTROL Optimize]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer, modellerar data för att optimera anbud och optimerar bud och/eller kampanjbudgetar (beroende på optimeringstyp och kampanjstrategier).</li><li>*[!UICONTROL Active]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer och modellerar data, men optimerar inte offerter eller kampanjbudgetar.</li><li>*[!UICONTROL Inactive]*: Optimeringsfunktionen samlar in klickdata för relevanta kampanjer i rapporteringssyfte, men den modellerar inte data och optimerar inte offerter eller kampanjbudgetar.</li></ul> |
+| [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Varför resursgruppen har full kapacitet eller inte fungerar. Den tar hänsyn till tillgångsgruppens status samt andra signaler, såsom policy- och kvalitetsgodkännanden. Värdena kan vara *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNKNOWN,* eller *UNSPECIFICED.* |
+| [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Ytterligare information om resursgruppens primära status. Värdena kan vara *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_Under_REVIEW,* *ASSET CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *OKÄND,* ELLER *OSPECIFICERAD.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Produkt-ID för produkten som visas med annonsen. <b>Obs!</b> ID:t registreras bara när produktlistan innehåller spårningsparametern `ev_plx=<GMC product ID>` som du måste lägga till i [!DNL Google Merchant Center]. |
 | [!UICONTROL Product Type] ([!UICONTROL 1st level] - [!UICONTROL 5th level]) | ([!UICONTROL AdWords Shopping Performance Report]) Produkttyper på första nivån till och med på femte nivån (dina självdefinierade attribut för produktgruppen). |
 | [!UICONTROL Query Match Type] | (Frågerapport för sökning av ord) Nyckelordsmatchningstypen för sökfrågan. |
@@ -136,7 +146,7 @@ ht-degree: 0%
 | [!UICONTROL Revenue per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala intäkten per konvertering. |
 | [!UICONTROL SE Account Name] | Kontonamnet i annonsnätverket. |
 | [!UICONTROL SE Creative ID] | Det annons-ID som tilldelats av nätverket. |
-| [!UICONTROL SE_TERM_ID] | (Frågerapport för sökning i AdWords) Sökterm-ID som tilldelats av annonsnätverket.<!--??? what is this? --> |
+| [!UICONTROL SE_TERM_ID] | (Frågerapport för sökning i AdWords) Det sökterm-ID som har tilldelats av annonsnätverket. |
 | [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) De avbildningar du har fått på den absoluta översta platsen (första och ovanför resultaten av organiska sökningar) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. Procenttal under 10 % anges som `<10%` eller `0.0999`. |
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) De avbildningar du har fått på de översta platserna (ovanför resultaten av den organiska sökningen) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på de översta platserna. Procenttal under 10 % anges som `<10%` eller `0.0999`. |
 | [!UICONTROL Search Engine] | Annonsnätverket. |
@@ -156,6 +166,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost top IS (rank)] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]) Den procentandel av tiden som dina annonser inte visades ovanför de organiska sökresultaten på grund av dålig annonsrankning. För [!DNL Google Ads] kampanjer anges procentsatser över 90 % som `>90%` eller `0.9001`. |
 | [!UICONTROL Search Term] | (Frågerapport för sökning i AdWords och Frågerapport för sökning i Bing Ads) Ett sökord för användare som klickningarna härstammar från. |
 | [!UICONTROL Start Date] | Första dagen som rapporterades. |
+| [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) Resursgruppsstatus. |
 | [!UICONTROL Store ID] | Annonsnätverkets ID för handlarcenterbutiken. |
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den första raden i annonsen som länkar till webbplatsen. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den andra raden i annonsen som länkar till webbplatsen. |

@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: 2c85ae5ff14349603ea38b2d478e4ab723800bea
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1729'
 ht-degree: 2%
 
 ---
@@ -233,11 +233,12 @@ ht-degree: 2%
             + [Posta kampanjdata som genererats från feeds till annonsnätverk](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-post.md)
             + [Stoppa ett bokföringsjobb för lagerfeed-data](/help/search-social-commerce/campaign-management/inventory-feeds/stop-job.md)
             + [Status för data som genererats från feeds](/help/search-social-commerce/campaign-management/inventory-feeds/propagated-data-status.md)
-      + Implementera kampanjer och annonser med unika arbetsflöden {#special-campaign-types}
-         + [Implementera  [!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-campaign-types/google-dynamic-search-ads.md)
-         + [Implementera  [!DNL Google Ads] maximala prestandakampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-performance-max-campaigns.md)
-         + [Implementera  [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/google-shopping-campaigns.md)
-         + [Implementera  [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-campaign-types/microsoft-shopping-campaigns.md)
+      + Implementera kampanjer, annonser och konverteringar med unika arbetsflöden {#special-workflows}
+         + [Implementera [!DNL Google Ads] utökade konverteringar för leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
+         + [Implementera  [!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
+         + [Implementera  [!DNL Google Ads] maximala prestandakampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
+         + [Implementera  [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementera  [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Synkronisera annonsdata manuellt](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Tilldela kampanjer till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
    + [Ta bort kampanjer från en portfölj](/help/search-social-commerce/campaign-management/campaign-remove-from-portfolio.md)
@@ -309,6 +310,7 @@ ht-degree: 2%
                + [[!UICONTROL Bing Ads Geo Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-geo-report.md)
                + [[!UICONTROL Bing Ads Search Query Report]](/help/search-social-commerce/reports/management/specialty/bing-ads-search-query-report.md)
                + [[!UICONTROL Campaign Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/campaign-daily-impression-share-report.md)
+               + [[!UICONTROL Google Asset Group Performance Report]](/help/search-social-commerce/reports/management/specialty/google-asset-group-performance-report.md)
                + [[!UICONTROL Keyword Daily Impression Share Report]](/help/search-social-commerce/reports/management/specialty/keyword-daily-impression-share-report.md)
                + [[!UICONTROL RSA Asset Report]](/help/search-social-commerce/reports/management/specialty/rsa-asset-report.md)
                + [[!UICONTROL MSA Ad Extension by Ad Report]](/help/search-social-commerce/reports/management/specialty/msa-ad-extension-detail-report.md)
@@ -383,7 +385,7 @@ ht-degree: 2%
       + [Avkoda en klickspårnings-URL](/help/search-social-commerce/tools/click-tracking-url-decode.md)
       + [Generera en konverteringstagg för Adobe Advertising](/help/search-social-commerce/tools/conversion-tag-generate.md)
    + Överför konverteringsdata till annonsnätverk {#upload-ad-networks}
-      + [Överför konverteringsmått till  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
+      + [Överför konverteringsstatistik för sökning, sociala medier och Commerce till  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)
       + [Aktivera överföring av mål till annonsnätverk](/help/search-social-commerce/tools/objective-upload-to-networks.md)
    + Överför mått för [!DNL Naver]-konton med endast spårning {#generic-tracking}
       + [Överför trafik- och konverteringsmått för  [!DNL Naver] konton med endast spårning](/help/search-social-commerce/tools/metrics-upload-tracking-campaigns/naver-tracking-campaigns-upload-metrics.md)
@@ -408,7 +410,10 @@ ht-degree: 2%
       + [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Ändra konverteringsstatistik som är tillgänglig i ledningslägen och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Ändra visningsnamnet för ett konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Hantera konverteringstaggar {#conversion-tags}
+      + Hantera och nätverksspecifika konverteringstaggar och konverteringsåtgärder {#network-conversions}
          + [Skapa en konverteringstagg för  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
+         + Hantera konverteringsåtgärder {#conversion-actions}
+            + [Skapa en konverteringsåtgärd för en  [!DNL Google Ads] förbättrad konvertering för leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+            + [Ladda upp offlinekonverteringsdata för förbättrad konvertering](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Få hjälp](get-help.md)
 + [Ordlista](glossary.md)

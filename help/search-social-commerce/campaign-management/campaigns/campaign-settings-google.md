@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 760d46182a61588748cfd5031168266ba53c9dcc
+source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2503'
 ht-degree: 0%
 
 ---
@@ -347,7 +347,9 @@ Du kan antingen ange text eller välja resurser från din [!UICONTROL Asset Libr
 >[!NOTE]
 >Målgruppssignaler skiljer sig från [målgruppsmål på kampanjnivå och annonsnivå](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).
 
-**[!UICONTROL Add new asset group]:** Gör att du kan ange en annan resursgrupp.
+**[!UICONTROL Primary Status]:** (skrivskyddat fält för befintliga resursgrupper i maximala prestandakampanjer) Varför resursgruppen har eller inte har full kapacitet. Den tar hänsyn till tillgångsgruppens status samt andra signaler, såsom policy- och kvalitetsgodkännanden. Värdena kan vara *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNKNOWN,* eller *UNSPECIFICED.*<!-- GGL also has a Primary Status field for campaigns; if we ever sync that, then we'll need to distinguish between them. -->
+
+**[!UICONTROL Primary Status Reason]:** (skrivskyddat fält för befintliga resursgrupper i maximala prestandakampanjer) Ytterligare information om resursgruppens primära status. Värdena kan vara *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_Under_REVIEW,* *ASSET CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *OKÄND,* ELLER *OSPECIFICERAD.*
 
 ## [!UICONTROL Conversion Goals]
 

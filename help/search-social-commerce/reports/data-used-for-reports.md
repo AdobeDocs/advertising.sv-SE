@@ -3,9 +3,9 @@ title: Data som används för rapporter
 description: Lär dig mer om olika typer av data som finns i datavyer och anpassade rapporter.
 exl-id: ba808b21-4421-4de5-9293-a20ec67cc81c
 feature: Search Reports
-source-git-commit: 840c7f6295b73a784725c301a78ae89c827fd45e
+source-git-commit: f357d9a9ec0f8b38fbc43726265521e6fd77c7d0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,15 +45,16 @@ När du genererar rapporter kan du välja hur konverteringsdata ska tilldelas i 
 Beroende på vilken attribueringsregel du anger för rapporten är data för varje rapporttyp tillgängliga för följande datum.
 
 | Rapportgrupp | Rapport | Datum för vilka data är tillgängliga |
-|---|---|---|
+| --- | --- | --- |
 | [!UICONTROL Basic Reports] | [!UICONTROL Campaign Hourly Report] | Från och med den 15 maj 2021.<br><br><b>Undantag:</b> Prominence metrics data is available from 8 September 2022. |
 | | Alla andra [!UICONTROL Basic Reports] | De senaste 36 månaderna.<br><br><b>Undantag:</b> Prominence metrics data is available from 8 September 2022. |
 | [!UICONTROL Advanced Reports] | [!UICONTROL Transaction Report] | De senaste 45 dagarna. |
 | | [!UICONTROL Domain Referral Report], [!UICONTROL Geo Distribution Report] | De föregående två (2) månaderna plus den aktuella månaden. |
 | [!UICONTROL Assist Reports] | Alla | De senaste 18 månaderna. |
 | [!UICONTROL Specialty Reports] | [!UICONTROL AdWords Audience Target Report] | Föregående år. |
-| | [!UICONTROL RSA Assets Report] | Från och med den 10 augusti 2022. |
+| | [!UICONTROL Google Asset Group Performance Report] | Inga begränsningar |
 | | [!UICONTROL MSA Ad Extension by Ad Report], [!UICONTROL MSA Ad Extension by Keyword Report], [!UICONTROL MSA Ad Extension Detail Report], [!UICONTROL MSA Network Impression Share Report], [!UICONTROL MSA Network Performance Report] | De senaste 180 dagarna. |
+| | [!UICONTROL RSA Assets Report] | Från och med den 10 augusti 2022. |
 | | Alla andra [!UICONTROL Specialty Reports] | De föregående två (2) månaderna. |
 | [!UICONTROL Model Accuracy Reports] | [!UICONTROL Forecast Accuracy Report] | De senaste 18 månaderna. |
 | [!UICONTROL Change History Report] | — | De senaste 31 dagarna. |
