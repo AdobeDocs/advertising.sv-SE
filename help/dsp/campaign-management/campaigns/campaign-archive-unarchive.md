@@ -3,16 +3,16 @@ title: Arkivera eller arkivera en kampanj
 description: Lär dig hur du arkiverar eller avarkiverar en kampanj.
 feature: DSP Campaigns
 exl-id: 3b1fac7b-1c3e-417e-b6f6-142aa48b1135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: f3ff78b4c383fd9af89e95f5572e4b88b6a293a6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
 # Arkivera eller arkivera en kampanj
 
-Dölj en kampanj som inte används för att arkivera den. Den enda åtgärd du kan utföra på en arkiverad kampanj är att avarkivera den. Arkiverade kampanjer visas inte som standard men är fortfarande tillgängliga för rapportering.
+Arkivera en kampanj som inte används för att pausa alla utgifter och arkivera alla associerade enheter. Den enda åtgärd du kan utföra på en arkiverad kampanj är att avarkivera den. Arkiverade kampanjer visas inte som standard men är fortfarande tillgängliga för rapportering.
 
 Du kan när som helst avarkivera en kampanj för att återställa dess tidigare status.
 
