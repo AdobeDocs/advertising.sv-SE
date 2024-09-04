@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: eec7bdce1a91094fe78a839084253a3dbb8a72a2
+source-git-commit: d880ad2416b2c14f6e7e5f72f46201cd4d702e9e
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4182'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 4 september 2024 | [!UICONTROL Packages] och [!UICONTROL Placements] | Följande förbättringar är tillgängliga för paket och placeringar med optimeringsmålen &quot;Alltid maximalt bud och maximera spridning&quot; och &quot;Lägsta kostnad per intervall&quot;:<ul><li>Unika data för räckvidd som aggregerats på paketnivå, inte på den enskilda placeringsnivån, används nu för att öka maximal inkrementell räckvidd med budoptimering och budgetallokering.</li><li>Du kan inkludera data om hushållens räckvidd från alla programmatiska, garanterade (PG) placeringar i kampanjen för att optimera för inkrementell räckvidd med den nya paketinställningen&quot;Länka PG-placeringar för inkrementell optimering&quot;.</li></ul> | Se [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md). |
 | 22 augusti 2024 | [!UICONTROL Custom Reports] | Följande anpassade rapportfunktioner och förbättringar har släppts:<ul><li>Vyn [!UICONTROL Reports] > [!UICONTROL Custom Reports] har gjorts om:<ul><li>Kolumnerna innehåller nu [!UICONTROL Status], [!UICONTROL Report Run] (som visar datum då rapporten startades från och med den 22 augusti 2024), [!UICONTROL Recurrence], [!UICONTROL Created By] och [!UICONTROL Download Report] (med en [!UICONTROL Download]-knapp) så att du omedelbart kan hämta alla rapportinstanser från de senaste fyra månaderna).</li><li>Du kan filtrera listan efter status, om rapporten är återkommande eller en gång, rapporttyp, måltyp och rapportskapare. Som standard visas alla oarkiverade rapporter som skapas av användaren, med den senaste överst.</li><li>Snabbåtgärdsknapparna för varje rapport (till exempel [!UICONTROL Copy] och [!UICONTROL Delete]) är nu tillgängliga genom att klicka på **[!UICONTROL …]** bredvid rapportnamnet.</li></ul><li>Alternativ för rapportplanering är nu tillgängliga på rapportnivå, inte på individuell målnivå. I rapportinställningarna är schemainställningarna nu tillgängliga i den övre delen av avsnittet [!UICONTROL Report run schedule]. Om du redigerar en äldre rapport som har olika befintliga scheman för enskilda destinationer uppmanas du att ange schemat och meddela att schemat ersätter det befintliga schemat för alla befintliga destinationer.</li></ul> | Se [Om rapporter](/help/dsp/reports/report-about.md), [Hämta en anpassad rapport](/help/dsp/reports/report-download.md) och [Rapportinställningar](/help/dsp/reports/report-settings.md). |
 | 22 augusti 2024 | [!UICONTROL Packages] | Du kan nu hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation. Du kan sedan ändra de flesta fält på båda flikarna och överföra dem tillbaka till DSP alla samtidigt. | Se &quot;[Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md).&quot; |
 | 14 augusti 2024 | [!UICONTROL Placements] | DSP uppdaterar inte längre antalet segment för [!DNL Audiences by Oracle (BlueKai)] segment, som kommer att sluta i slutet av september, och alla antal minskar gradvis till noll (0). | — |
