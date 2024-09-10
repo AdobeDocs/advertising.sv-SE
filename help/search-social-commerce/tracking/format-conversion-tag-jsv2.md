@@ -3,7 +3,7 @@ title: Format för JavaScript konverteringsspårningstaggar, version 2
 description: Referera formatet för JavaScript-konverteringstaggar, version 2.
 exl-id: 75e96f97-a3f0-4f5b-8bbb-4b1e8986f01a
 feature: Search Tracking
-source-git-commit: f73e91c54fb58cbd165ddf4ca652033435fbbede
+source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Följande format gäller för webbplatser som använder HTTPS. För webbplatser 
 ```
 <script language="javascript" src="https://www.everestjs.net/static/st.v2.js"></script>
 <script language="javascript">
-window.id5PartnerId=<Your_ID5_PartnerID>
+window.id5PartnerId=<ID5_PartnerID>
 var ef_event_type="transaction";
 var ef_transaction_properties = "ev_property name=<property name>&ev_transid=<transid>";
 /*
@@ -42,7 +42,7 @@ där:
 
 * `<ef-userid>` är ett unikt, numeriskt användar-ID som tilldelas annonsören av Search, Social och Commerce.
 
-* `<Your_ID5_PartnerID>` är organisationens ID5-partner-ID, som organisationen får efter att ha signerat ett avtal med [!DNL ID5]. Inkludera endast den här variabeln när organisationen använder DSP och har [anpassade segment som spårar användare som är kopplade till universella ID:n för ID5](/help/dsp/audiences/universal-ids.md).
+* `<ID5_PartnerID>` är organisationens ID5-partner-ID, som organisationen får efter att ha signerat ett avtal med [!DNL ID5]. Inkludera endast den här variabeln när organisationen använder DSP och har [anpassade segment som spårar användare som är kopplade till universella ID:n för ID5](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` är konverteringen som ska spåras. Om du till exempel spårar en konvertering som kallas registrering, kommer taggen att innehålla parametern `ev_registration=<registration>` och du måste skicka den faktiska intäkten för varje transaktion (till exempel `ev_registration=1`). När flera egenskaper spåras förenas de med ett et-tecken (`&`), till exempel `ev_registration=<registration>&ev_sale=<sale>` (till exempel `ev_registration=1&ev_sale=12.99`). **Obs!** Egenskapsnamnet får inte innehålla specialtecken.
 
