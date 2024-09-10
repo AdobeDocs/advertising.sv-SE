@@ -3,9 +3,9 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 2fe54fbcd9711e714246f074ede086910b538b80
+source-git-commit: 3774da55139fd9f70162c931dd7708e8e258ad83
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,8 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
                  AdCloudEvent('IMS ORG Id','rsid');
       </script>
       ```
+
+      Mer information om det fullständiga taggformatet finns i [Format för JavaScript-konverteringsspårningstaggar, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md) och [Format för JavaScript-konverteringsspårningstaggar, version 2](/help/search-social-commerce/tracking/format-conversion-tag-jsv2.md).
 
    1. Använd valfritt felsökningsverktyg för webbläsare för att verifiera att varje anrop initieras till domänen `lasteventf-tm.everesttech.net` och innehåller parametern `_les_id5` med ett krypterat ID5-ID som värde.
 

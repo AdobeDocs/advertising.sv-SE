@@ -3,9 +3,9 @@ title: Format för JavaScript-konverteringstaggar, version 3
 description: Referera formatet för JavaScript-konverteringstaggar, version 3.
 exl-id: 9fc6bb15-d880-4353-a8c5-260b7932ab34
 feature: Search Tracking
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 8bed8f22c112abcff67727456ef4aad3b38d0ca6
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Följande format gäller för webbplatser som använder HTTPS. För webbplatser 
                         , allow3rdPartyPixels: 1});
               EF.main();
         };
+        window.id5PartnerId=<Your_ID5_PartnerID>
         window.EF = window.EF || {};
         if (window.EF.main) {
             f();
@@ -54,6 +55,8 @@ Följande format gäller för webbplatser som använder HTTPS. För webbplatser 
 där:
 
 * `<ef-userid>` är ett unikt, numeriskt användar-ID som tilldelas annonsören av Search, Social och Commerce.
+
+* `<Your_ID5_PartnerID>` är organisationens ID5-partner-ID, som organisationen får efter att ha signerat ett avtal med [!DNL ID5]. Inkludera endast den här variabeln när organisationen använder DSP och har [anpassade segment som spårar användare som är kopplade till universella ID:n för ID5](/help/dsp/audiences/universal-ids.md).
 
 * `<propertyname>` är konverteringen som ska spåras. Om du till exempel spårar en konvertering som kallas registrering, kommer taggen att innehålla parametern `ev_registration=<registration>` och du måste skicka den faktiska intäkten för varje transaktion (till exempel `ev_registration=1`). När flera egenskaper spåras förenas de med ett et-tecken (`&`), till exempel `ev_registration=<registration>&ev_sale=<sale>` (till exempel `ev_registration=1&ev_sale=12.99`). **Obs!** Egenskapsnamnet får inte innehålla specialtecken.
 
