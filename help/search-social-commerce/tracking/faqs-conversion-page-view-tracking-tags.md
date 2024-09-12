@@ -3,9 +3,9 @@ title: Frågor och svar om spårningstaggar för Adobe Advertising och sidvisnin
 description: Se en jämförelse av spårningstaggar för sidkonvertering och sidvisning i Adobe Advertising.
 exl-id: 2e5ef792-e0f5-4409-bd37-87d9fab1265f
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: e9d55ba2f4b3ce8b1ac19c06fe8759a2f862c480
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Följande gäller spårningstaggar för konvertering av Adobe Advertising och sp
 | ---- | ---- | ---- | ---- | ---- |
 | Kan användas på samma webbsida som en annan JS-version | — | — | — | n/a |
 | Tillåter användning av flera taggar med samma annonsörs-ID på samma webbsida | Ja | Ja | Ja | — |
-| Tillåter användning av flera taggar med olika användar-ID för annonsörer på samma webbsida | Ja | Ja | Nej | Nej |
+| Tillåter användning av flera taggar med olika användar-ID för annonsörer på samma webbsida | Ja | Ja | — | — |
 | Används av tillägget Adobe Advertising för Adobe Experience Platform och är kompatibelt med andra taggar som genererats med Experience Platform | Ja | Ja | — | — |
 | Tillåter att alla konverteringar som kommer från [!DNL Apple Safari] och [!DNL Mozilla Firefox] spåras när de används med konverteringstaggen för Adobe Advertising JavaScript | Ja | Ja | Ja | — |
 
