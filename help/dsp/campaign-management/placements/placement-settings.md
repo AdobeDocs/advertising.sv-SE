@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cc98c8fa5d1e0309b5b2716f58e6193d029e3f96
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '3921'
+source-wordcount: '3887'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
 
    * *[!UICONTROL RampID]*: Målgrupper [!DNL LiveRamp] [!DNL RampIDs] för användare som har loggat in på webbplatsen med sina e-postadresser.<!-- Verify --> [!DNL RampIDs] är tillgängligt för användare i Nordamerika, Australien och Nya Zeeland.
 
-   * *[!UICONTROL Unified ID2.0]*: Mål-ID [!DNL Unified ID2.0] (UID2) för användare som har loggat in på webbplatsen med hjälp av deras e-postadresser.<!-- Verify -->[!DNL UID2 IDs] är inte tillgängligt för användare i EES och vissa andra länder. Se [listan över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
+   * *[!UICONTROL Unified ID2.0]*: Mål-ID [!DNL Unified ID2.0] (UID2) för användare som är inloggade på webbplatsen med sina e-postadresser.<!-- Verify -->[!DNL UID2 IDs] är inte tillgängligt för användare i EES och vissa andra länder. Se [listan över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
   **[!UICONTROL Terms of service]**: Villkoren i serviceavtalet för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan konvertera data till en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
@@ -346,15 +346,13 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
    * Om du vill markera ett intervall manuellt klickar du inuti en cell och väljer intervallet genom att dra.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Valfritt, tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] och [!DNL Oracle Data Cloud] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] och [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]) som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
-
-**Obs!** [!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]).
+**[!UICONTROL Topic Targeting]:** (Valfritt, tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
 
 Så här anger du målinriktning:
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange de segment som ska målas:
-   1. Markera partnern (*[!UICONTROL Comscore]* eller *[!UICONTROL Grapeshot]*) i den vänstra kolumnen.
+   1. I den vänstra kolumnen väljer du partner: (*[!UICONTROL Comscore]*).
    1. Ange segmentnamnen eller segmentens ID:n i indatafältet.
 1. (Valfritt) Klicka på **[!UICONTROL Export]** om du vill hämta en CSV-fil med ämnesinformationen till hämtningsplatsen för din webbläsare.
 1. Klicka på **[!UICONTROL Save]**.
@@ -363,7 +361,7 @@ Så här anger du målinriktning:
 >
 >* Ämnesinriktningen begränsar det lager där placeringen kan offereras, så använd Ämnesanpassning för endast en liten andel av hela köpet.
 >
->* Ställ in negativ målinriktning inom segmentet på [!DNL Proximic by Comscore] eller [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]).
+>* Ställ in negativ målinriktning inom segmentet på [!DNL Proximic by Comscore].
 
 **[!UICONTROL Device Targeting]:** (Valfritt) Specifik enhetsinformation, inklusive enhetstyper, tillverkare, operativsystem, webbläsare och anslutningstyper, som ska inkluderas och exkluderas som mål. Typerna varierar beroende på placeringstyp. Så här anger du målinriktning:
 
@@ -431,11 +429,7 @@ Så här anger du målinriktning:
 
 **[!UICONTROL Pre-bid viewability]:**
 
-Vilka visningsfilter före bud som ska användas av [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) och [!DNL Integral Ad Science] för placeringen. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna. Ytterligare avgifter kan tillkomma.
-
->[!NOTE]
->
->[!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL MOAT].
+Vilka visningsfilter före bud som ska användas av [!DNL DoubleVerify] och [!DNL Integral Ad Science] för placeringen. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna. Ytterligare avgifter kan tillkomma.
 
 **[!UICONTROL Ads.txt filtering]:**
 

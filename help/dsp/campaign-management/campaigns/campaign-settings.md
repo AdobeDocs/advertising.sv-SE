@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 0fbdc7e38026d71483c2de1406a4110066690130
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -117,8 +117,6 @@ Så här beräknar du källskatt:
 * **[!UICONTROL IAS Account ID (AnID)]:** (Annonsörer med egna [!DNL IAS]-konton; valfritt) Organisationens [!DNL IAS] konto-ID, som [!DNL IAS] debiterar direkt för användning.
 
 * **[!UICONTROL IAS Team ID]:** (Advertisers with their own [!DNL IAS] accounts; optional) The team ID for the organization&#39;s [!DNL IAS] account, which [!DNL IAS] will Bill directly for usage. <!-- verify -->
-
-**[!UICONTROL MOAT]:** (Valfritt) Aktiverar [!DNL MOAT] mätning och rapportering av visningsbarhet, bedrägeri, varumärkessäkerhet och målgruppsverifiering. Ytterligare avgifter tillkommer. **Obs!** [!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL MOAT].
 
 #### Målgruppsverifiering
 

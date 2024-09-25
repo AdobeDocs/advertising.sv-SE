@@ -3,9 +3,9 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: a927c073fd27e0b2c84bd1929eb4d6d233a29cb5
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising DSP har en uppsättning funktioner för varumärkesskydd som säkers
 
 Vårt team för bedrägeriövervakning samarbetar nära med branschledande partner, som [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] och [!DNL WhiteOps], för att noggrant strukturera inventeringen på vår plattform. Genom en proaktiv hantering av vårt utbud säkerställer DSP att alla annonsörer på plattformen skyddas från icke-mänsklig trafik (botar, crawler, datacentralstrafik och bedrägeri) och endast levererar i varumärkessäkra sammanhang.
 
-Förutom att tillhandahålla central kvalitetsstyrning anser vi att annonsörerna ska kunna utforma de kontroller som är anpassade till deras varumärke. DSP erbjuder integreringar med [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], [!DNL Oracle Data Cloud] och [!DNL Peer39], vilket säkerställer att varje annonsör kan välja önskad nivå på bedrägeriskydd, kontextfiltrering och målgruppsanpassning för nyckelord.
+Förutom att tillhandahålla central kvalitetsstyrning anser vi att annonsörerna ska kunna utforma de kontroller som är anpassade till deras varumärke. DSP erbjuder integreringar med [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39], vilket säkerställer att varje annonsör kan välja önskad nivå på bedrägeriskydd, kontextuell filtrering och nyckelordsmål.
 
 ## Kvalitetsinitiativ
 
@@ -110,15 +110,11 @@ Om du vill ha mer information om funktionalitet kontaktar du din föredragna lev
 
 ### Visning före köp {#pre-bid-viewability}
 
-Visningsfilter före bud som drivs av våra branschledande partners [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) och [!DNL Integral Ad Science] gör att annonsörer kan se till att deras kampanjer uppfyller de önskade visningsprestandamålen för video och displayannonser.
-
->[!NOTE]
->
->[!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL MOAT].
+Profilerade visningsfilter som bygger på våra branschledande partners [!DNL DoubleVerify] och [!DNL Integral Ad Science] gör det möjligt för annonsörer att se till att deras kampanjer uppfyller de önskade prestandamålen för visning i alla video- och visningsannonser.
 
 Du kan ange standardfilter för visning för varje annonsörer<!-- [default pre-viewability filters for each advertiser](/help/dsp/admin/advertiser-settings.md) --> och sedan [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md) om du vill. Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
-![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Oracle Advertising-logotyp](/help/dsp/assets/oracle-advertising-logo.png) ![Integral Ad Science-logotyp](/help/dsp/assets/ias-logo.png)
+![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science-logotyp](/help/dsp/assets/ias-logo.png)
 
 ### Målinriktning och mätning
 
@@ -132,17 +128,13 @@ Ytterligare avgifter tillkommer för varje separat funktion.
 
 ### Ämnesanpassning
 
-DSP kan du rikta in dig på eller blockera nyckelordslistor genom att utnyttja våra branschledande sammanhangsberoende partner [!DNL Comscore] och [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]). Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
-
->[!NOTE]
->
->[!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL Oracle Data Cloud] (tidigare [!DNL Grapeshot]).
+Med DSP riktad inriktning på ämnen kan du målinrikta eller blockera nyckelordslistor genom att utnyttja vår branschledande sammanhangsbaserade partner [!DNL Comscore]. Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
 
 För målinriktning efter ämne måste du skapa anpassade ämnessegment direkt med partnerplattformen. När segmenten har skapats kan du [ange ett mål eller utesluta ett segment-ID i avsnittet [!UICONTROL Audience Targeting] för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma för den här funktionen.
 
 Om du vill skapa ett [!DNL Comscore]-konto och skapa anpassade ämnessegment kan du begära inloggning för [!DNL Activation Segment Manager] på [https://agents.comscore.com](https://agents.comscore.com). Mer information om hur du konfigurerar anpassade segment finns i [[!DNL Comscore] hjälpcentret](https://comscoreactivation.zendesk.com/hc/). Avgifter för anpassade segment visas i [!DNL Segment Manager] när du skapar dem.
 
-![Comscore-logotyp](/help/dsp/assets/comscore-logo.png) ![Grapeshot-logotyp](/help/dsp/assets/oracle-grapeshot-logo.png)
+![Comscore, logotyp](/help/dsp/assets/comscore-logo.png)
 
 ### [!DNL DoubleVerify Authentic Brand Safety]
 

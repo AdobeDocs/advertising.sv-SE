@@ -2,9 +2,9 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: 55190d02a2cdf74c39968ccd91abfecc2ce5539d
+source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -122,11 +122,7 @@ Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstä
 
 #### [!UICONTROL Pre-Bid Viewability]
 
-Valfria visningsfilter före bud av [!DNL DoubleVerify], [!DNL Oracle Advertising] ([!DNL Moat]) och [!DNL Integral Ad Science] som ska användas på placeringar. Standardvärdena på annonsörnivå väljs för nya placeringar. Du kan åsidosätta inställningarna på annonsörnivå på [placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
-
->[!NOTE]
->
->[!DNL Oracle] kommer att upphöra med sin annonsverksamhet senast den 30 september 2024, inklusive alla tjänster från [!DNL MOAT].
+Valfria visningsfilter före bud av [!DNL DoubleVerify] och [!DNL Integral Ad Science] som ska användas på placeringar. Standardvärdena på annonsörnivå väljs för nya placeringar. Du kan åsidosätta inställningarna på annonsörnivå på [placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
 
 ##### [!UICONTROL DoubleVerify] {#doubleverify-viewability}
 
@@ -155,10 +151,6 @@ Valfria visningsfilter före bud av [!DNL DoubleVerify], [!DNL Oracle Advertisin
 ##### [!UICONTROL Integral Ad Science] {#ias-viewability}
 
 Ett valfritt **[!UICONTROL Video Viewability Targets]**-filter och ett valfritt **[!UICONTROL Display Viewability Targets]**-filter. Ytterligare avgifter kan tillkomma.
-
-##### [!UICONTROL Moat] {#moat-viewability}
-
-Ett valfritt **[!UICONTROL Video Viewability Standard]**-filter och ett valfritt **[!UICONTROL Display Viewability Standard]**-filter. Ytterligare avgifter kan tillkomma.
 
 #### [!UICONTROL Ads.text]
 

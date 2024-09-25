@@ -3,9 +3,9 @@ title: Optimeringsmål och Så här använder du dem
 description: Referera till tillgängliga optimeringsmål och se när de ska användas.
 feature: DSP Optimization
 exl-id: ad684c99-7ae5-48eb-abfe-d48fd3d34cd0
-source-git-commit: b40f016a02d99a3753358c9911e40ac63e83fd54
+source-git-commit: 6c8782b2f4ebe3dbd06ecb1e8cdfb3670ebc7c7f
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ ht-degree: 0%
 | [!UICONTROL Lowest vCPM (Adobe - GroupM)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. målen uppfylls, DSP försöker sedan att balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att få bästa möjliga vCPM.<br><br>Om du vill garantera en maximal CPM-effekt använder du den som maximalt Bid för placeringen. |
 | [!UICONTROL Lowest vCPM (Adobe - MRC)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. målen uppfylls, DSP försöker sedan att balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att få bästa möjliga vCPM.<br><br>Om du vill garantera en maximal CPM-effekt använder du den som maximalt Bid för placeringen. |
 | [!UICONTROL Lowest vCPM (IAS - MRC)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. målen uppfylls, DSP försöker sedan att balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att få bästa möjliga vCPM.<br><br>Om du vill garantera en maximal CPM-effekt använder du den som maximalt Bid för placeringen.<br><br>Den här inställningen fungerar bäst när tredjepartsdata från IAS informerar algoritmen. Använd bara det här målet när du har aktiverat IAS-integreringen för kampanjen. |
-| [!UICONTROL Lowest vCPM (Moat - GroupM)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. målen uppfylls, DSP försöker sedan att balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att få bästa möjliga vCPM.<br><br>Om du vill garantera en maximal CPM-effekt använder du den som maximalt Bid för placeringen.<br><br>Den här inställningen fungerar bäst när tredjepartsdata från [!DNL Moat] informerar algoritmen. Använd bara det här målet när du har aktiverat integreringen [!DNL Moat] för kampanjen. |
-| [!UICONTROL Lowest vCPM (Moat - MRC)] | Med optimering på paketnivå prioriterar budgetallokering placeringar med de lägsta vCPM:erna.<br><br>Auktionsutvärderingar prioriterar vCPM. målen uppfylls, DSP försöker sedan att balansera minskningen av CPM:er med ökad synlighet. | Kampanjtyp: Varumärke<br><br>Benchmark: Effektiv CPM och högsta vCPM<br><br>Annonstyper: Pre-roll, Display<br><br><b>Obs!</b> Använd det här målet för att få bästa möjliga vCPM.<br><br>Om du vill garantera en maximal CPM-effekt använder du den som maximalt Bid för placeringen.<br><br>Den här inställningen fungerar bäst när tredjepartsdata från [!DNL Moat] informerar algoritmen. Använd bara det här målet när du har aktiverat integreringen [!DNL Moat] för kampanjen. |
 
 {style="table-layout:auto"}
 
