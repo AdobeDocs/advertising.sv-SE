@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om de  [!DNL Microsoft Advertising] spårade konverteringsdata som finns i Sök, Socialt och Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft Advertising] konverteringsdata i sökningar, sociala medier och Commerce
 
-Sök, socialt och Commerce synkroniserar automatiskt alla konverteringar som spåras av dina [[!DNL Microsoft Advertising] UET-taggar](https://about.ads.microsoft.com/solutions/tools/universal-event-tracking) för att hitta webbplatskonverteringar, inklusive genomskinliga konverteringar, för rapportering och optimering.
+Sök, socialt och Commerce synkroniserar automatiskt alla konverteringar som spåras av dina [[!DNL Microsoft Advertising] UET-taggar](https://help.ads.microsoft.com/#apex/ads/en/53056) för att hitta webbplatskonverteringar, inklusive genomskinliga konverteringar, för rapportering och optimering.
 
 Alla mätvärden är automatiskt tillgängliga i kampanjhanteringsvyer och grundläggande rapporter, och är också tillgängliga för användning i portföljmål för optimering av [!DNL Microsoft Advertising]-kampanjer.
 

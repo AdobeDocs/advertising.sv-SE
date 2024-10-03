@@ -3,9 +3,9 @@ title: Typer av prestandarapporter i Campaign Management-vyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 4e82caa995286635b4a181f186d6a1fabb09847d
+source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ Klicka på kampanjnamnet om du vill visa en mer detaljerad kampanj.
 
 #### Varningsindikatorer
 
-*Beta-funktion*
-
 En [!UICONTROL Alerts]-kolumn anger när en kampanj, eller någon underordnad entitet under den, har ett problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger också om det finns några varningar tillgängliga för de enheter som visas. Mer information finns i [Visa aviseringar](campaign-alerts.md).
 
 ## Single Campaign Reporting {#single-campaign-reporting}
@@ -61,8 +59,6 @@ Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kam
 På varje enhetsflik innehåller varje rad som standard plats- och leveransmått, men du kan [ändra kolumnvyn](campaign-data-views-manage.md#column-view-change) eller till och med [skapa en anpassad kolumnvy](campaign-data-views-manage.md#column-view-create) som ska användas på alla underflikar för kampanjen. Du kan ytterligare [anpassa datatabellerna](campaign-data-views-manage.md#data-tables-manage) på andra sätt. Varje datatabell innehåller en [!UICONTROL Subtotals]-rad, som visar antingen summan eller det genomsnittliga värdet för varje mätvärde över alla synliga rader.
 
 #### Varningsindikatorer
-
-*Beta-funktion*
 
 En [!UICONTROL Alerts]-kolumn anger när ett paket, en placering eller en annons - eller någon underordnad enhet under ett paket eller en placering - har problem. En [!UICONTROL Alerts]-kolumn anger när en kampanj, eller någon underordnad entitet under den, har ett problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger också om det finns några varningar tillgängliga för de enheter som visas. Mer information finns i [Visa aviseringar](campaign-alerts.md).
 

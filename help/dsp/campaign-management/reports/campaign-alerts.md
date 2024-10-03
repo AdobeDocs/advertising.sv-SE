@@ -3,16 +3,14 @@ title: Visa aviseringar
 description: Lär dig hur du visar aviseringar och rekommenderade lösningar för kampanjer och kampanjkomponenter.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Visa aviseringar
-
-*Beta-funktion*
 
 DSP hjälper er att identifiera när någon av era kampanjer eller kampanjkomponenter har problem. För varje problem skapar DSP en varning med en tidsstämpel och den rekommenderade åtgärden för att lösa problemet. Orsaker till varningar är konfigurationsproblem (t.ex. när inga annonser är kopplade till en placering eller när ett avtal har ställts in på fel sätt), annonsrefusering och kampanjhälsoproblem (t.ex. dålig annonsleverans eller prestanda). Aviseringar finns på kampanj-, paket-, annons- och avtalsnivå.
 

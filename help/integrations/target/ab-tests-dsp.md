@@ -2,7 +2,7 @@
 title: Konfigurera A/B-tester för Adobe Advertising DSP annonser i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 7ffa5d3e9f1aae0f9d66d87c74807e491e818daa
+source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 *Annonsörer med endast Advertising DSP*
 
-Adobe Advertising och Adobe Target gör det ännu enklare för marknadsförare att leverera en personlig och uppkopplad upplevelse för betalmedier och meddelanden på plats. Genom att dela signaler mellan produkterna kan du:
+Adobe Advertising och Adobe Target gör det ännu enklare för marknadsförare att leverera en personaliserad och uppkopplad upplevelse i betalda medier och på-plats-meddelanden. Genom att dela signaler mellan produkterna kan du
 
-* Minska andelen webbplatser som ramlar igenom genom att länka kundernas annonseringsexponering från DSP-kampanjer till deras upplevelser på plats.
+* Minska antalet fall på webbplatsen genom att länka kundernas exponering från DSP till deras upplevelser på plats.
 
 * Upprätta A/B-tester genom att spegla webbplatsupplevelser med annonseringsmeddelanden med hjälp av Adobe Audience Manager exponeringsdata och klicka-för-feed [!DNL Target]-målgrupper.
 
 * Mät effekten av enhetliga meddelanden på en mållyft på plats med enkla visualiseringar i Adobe Analytics för [!DNL Target].
 
-I följande avsnitt finns information om förutsättningar och instruktioner för hur du konfigurerar genomklicknings- och genomsökningsspårning, implementerar signaldelning mellan DSP och [!DNL Target] och konfigurerar en A/B-testaktivitet och konfigurerar [!DNL Analytics] Analysis Workspace för att visa testdata.
+I följande avsnitt finns information om krav och instruktioner för att ställa in klicknings- och genomskinlighetsspårning, implementera signaldelning mellan DSP och [!DNL Target] och konfigurera en A/B-testaktivitet, och konfigurera [!DNL Analytics] Analysis Workspace för att visa testdata.
 
 Kontakta adcloud_support@adobe.com om du har ytterligare frågor.
 
 ## Förutsättningar
 
-Detta användningsfall kräver följande produkter och integreringar:
+Det här användningsexemplet kräver följande produkter och integreringar:
 
 * [!DNL Target]
 
-* [[!DNL Analytics] för annonsering](/help/integrations/analytics/overview.md)-integrering<!-- necessary for testing view-throughs, which most advertisers want to do -->
+* [[!DNL Analytics] för Advertising](/help/integrations/analytics/overview.md)-integrering<!-- necessary for testing view-throughs, which most advertisers want to do -->
 
-* [[!DNL Analytics] för [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)-integrering
+* Integrering av [[!DNL Analytics] för [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 
 * Audience Manager (krävs endast för genomsiktstestning)
 
@@ -109,7 +109,7 @@ I följande anvisningar markeras information om DSP.
 
       >[!NOTE]
       >
-      >Du kan använda flera URL:er för att testa en genomskinlig webbplatspost. Mer information finns i [Flersidig aktivitet](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html). Du kan enkelt identifiera de viktigaste posterna via sid-URL genom att skapa en [platspostrapport](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/ad-cloud/create-advertising-cloud-site-entry-reports.html) i Analytics (Analyser).
+      >Du kan använda flera URL:er för att testa en genomskinlig webbplatspost. Mer information finns i [Flersidig aktivitet](https://experienceleague.adobe.com/docs/target/using/experiences/vec/multipage-activity.html). Du kan enkelt identifiera de viktigaste posterna via sid-URL genom att skapa en [platspostrapport](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/adobe-advertising-dsp/create-advertising-cloud-site-entry-reports) i Analytics (Analyser).
 
    1. Ange framgångsmåttet för testet i fältet **[!UICONTROL Goal]**.
 
@@ -135,9 +135,9 @@ I följande anvisningar markeras information om DSP.
 
    1. Spara aktiviteten.
 
-1. Använd [Target Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) för att göra designändringar i mallen för A/B-testsidan.
+1. Använd [Visual Experience Composer som mål](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) om du vill göra designändringar i A/B-testsidmallen.
 
-   * Upplevelse A: Redigera inte eftersom det är standard-/kontrolllandningssidan utan anpassning.
+   * Upplevelse A: Redigera inte eftersom det är standardupplevelsen/styrningen av landningssidan utan personalisering.
 
    * Upplevelse B: Använd användargränssnittet [!DNL Target] för att anpassa landningssidmallen baserat på de resurser som ingår i testet (t.ex. rubriker, kopiering, knappplacering och kreatörer).
 
@@ -149,13 +149,13 @@ I följande anvisningar markeras information om DSP.
 
 <!-- [If separate page, add "Adobe" before first-use of product names.] -->
 
-[!DNL Analytics for Target] (A4T) är en integrering mellan lösningar där annonsörer kan skapa [!DNL Target]-aktiviteter baserade på [!DNL Analytics] konverteringsmått och målgruppssegment och sedan mäta resultaten med [!DNL Analytics] som rapporteringskälla. All rapportering och segmentering för den aktiviteten baseras på [!DNL Analytics]-datainsamling.
+[!DNL Analytics for Target] (A4T) är en integrering med flera lösningar som gör att annonsörer kan skapa [!DNL Target]-aktiviteter baserat på konverteringsstatistik för [!DNL Analytics] och målgruppssegment och sedan mäta resultatet med [!DNL Analytics] som rapportkälla. All rapportering och segmentering för den aktiviteten baseras på datainsamling [!DNL Analytics].
 
 Mer information om [!DNL Analytics for Target], inklusive en länk till implementeringsanvisningar, finns i [Adobe Analytics som rapportkälla för Adobe Target (A4T)](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
 ### Konfigurera panelen [!DNL Analytics for Target]
 
-Konfigurera [!DNL Analytics for Target panel] i Analysis Workspace för att analysera dina [!DNL Target] aktiviteter och upplevelser. Tänk på följande viktiga markörer och information om dina rapporter.
+Konfigurera [!DNL Analytics for Target panel] i Analysis Workspace för att analysera dina [!DNL Target]-aktiviteter och -upplevelser. Tänk på följande viktiga pekare och information om dina rapporter.
 
 #### Mått
 
@@ -179,13 +179,13 @@ Följande dimensioner gäller [!DNL Analytics for Target]:
 
 Om du inom Analysis Workspace märker att data om aktivitet och upplevelser är minimala eller inte är ifyllda gör du så här:
 
-* Kontrollera att samma [!UICONTROL Supplemental Data ID] (SDID) används för både [!DNL Target] och [!DNL Analytics]. Du kan verifiera SDID-värdena med hjälp av [Adobe Experience Cloud-felsökaren](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) på landningssidan som kampanjen leder användare till.
+* Kontrollera att samma [!UICONTROL Supplemental Data ID] (SDID) används för både [!DNL Target] och [!DNL Analytics]. Du kan verifiera SDID-värdena med hjälp av [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/target-learn/tutorials/troubleshooting/troubleshoot-with-the-experience-cloud-debugger.html) på landningssidan som kampanjen driver användare till.
 
-[SDID-värden (Supplemental Data ID) i Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
+[SDID-värden (Additional Data ID) i Adobe Debugger](/help/integrations/assets/target-troubleshooting-sdid.png)
 
-* På samma startsida kontrollerar du att a) [!UICONTROL Hostname] som visas i Adobe Debugger under [!UICONTROL Solutions] > [!UICONTROL Target] matchar b) [!UICONTROL Tracking Server] som visas i [!DNL Target] för aktiviteten (under [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
+* På samma landningssida kontrollerar du att a) [!UICONTROL Hostname] som visas i Adobe Debugger under [!UICONTROL Solutions] > [!UICONTROL Target] matchar b) [!UICONTROL Tracking Server] som visas i [!DNL Target] för aktiviteten (under [!UICONTROL Goals & Settings] > [!UICONTROL Reporting Settings]).
 
-  [!DNL Analytics For Target] kräver att en [!DNL Analytics]-spårningsserver skickas i anrop från [!DNL Target] till [!DNL Modstats]-datainsamlingsservern för Analytics.<!-- just "to Analytics?"-->
+  [!DNL Analytics For Target] kräver att en [!DNL Analytics]-spårningsserver skickas i anrop från [!DNL Target] till datainsamlingsservern [!DNL Modstats] för Analytics.<!-- just "to Analytics?"-->
 
 [Värdnamnsvärde i Adobe Debugger](/help/integrations/assets/target-troubleshooting-hostname.png)
 
