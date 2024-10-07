@@ -3,16 +3,16 @@ title: Skicka om en väntande användarinbjudan
 description: Lär dig skicka om en väntande användarinbjudan.
 role: Admin
 exl-id: 15d17a03-526b-4dc2-883a-131d750fca24
-source-git-commit: bddc57155a5ccf64f6b864159f82f2da9b0a0d8c
+source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
 
 # Skicka om en väntande användarinbjudan
 
-Administratörsanvändare kan skicka om en inbjudan till en användare med en väntande inbjudan till organisationskontot.
+Administratörsanvändare kan skicka om en inbjudan till en användare med en väntande inbjudan till organisationskontot. Inbjudningslänken går ut om 24 timmar.
 
 1. Gör något av följande:
 
