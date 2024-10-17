@@ -3,16 +3,16 @@ title: Ta bort kampanjer från en portfölj
 description: Lär dig ta bort kampanjer från en portfölj.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Ta bort kampanjer från en portfölj
 
-När du tar bort en kampanj från en portfölj kan inte Search, Social och Commerce optimera bud och budgetar för nyckelorden och annonserna i den kampanjen.
+När ni tar bort en kampanj från en portfölj kan inte Search, Social och Commerce optimera anbud, kampanjbudgetar och anbudsstrategier för den kampanjen.
 
 Åtgärden loggas i portföljens ändringshistorik.
 

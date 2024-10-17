@@ -3,7 +3,7 @@ title: Översikt över hur man implementerar Search, Social och Commerce
 description: Läs
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Här följer det allmänna arbetsflödet för implementering och användning av 
 
       >[!NOTE]
       >
-      >Search, Social och Commerce spårar och rapporterar fortfarande data för kampanjer som inte är tilldelade till portföljer, men det optimerar inte anbuden för dem.
+      >Search, Social, &amp; Commerce spårar och rapporterar fortfarande data för kampanjer som inte är tilldelade till portföljer, men det erbjuder ingen optimering för dem.
 
    1. När det finns tillräckligt med data för att skapa en baslinje kan teamet lansera portföljen, så att Search, Social och Commerce kan optimera anbud och/eller budgetar för portföljen, baserat på optimeringstyp.
 

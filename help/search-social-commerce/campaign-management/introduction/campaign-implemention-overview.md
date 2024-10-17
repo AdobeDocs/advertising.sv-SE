@@ -3,9 +3,9 @@ title: Översikt över att implementera annonsnätverkskonton och -kampanjer
 description: Lär dig mer om de uppgifter som krävs för att konfigurera, synkronisera och hantera era annonsnätverkskonton.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
 1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
 
-1. (Om du vill tillåta sökningar, sociala medier och Commerce att optimera bud och/eller kampanjbudgetar, [endast kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
+1. (Om du vill att Search, Social och Commerce ska kunna optimera anbud, kampanjbudgetar och/eller strategiska mål för kampanjanbudsstrategier, endast [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
    Om portföljen inte redan har startats (optimera anbud och/eller budgetar) kan optimeringsfunktionen samla in tillräckligt med data för att kunna skapa kostnads- och intäktsmodeller så att du kan fastställa portföljens baslinjeprestanda innan du startar den.
 

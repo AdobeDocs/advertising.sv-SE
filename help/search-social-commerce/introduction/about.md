@@ -3,9 +3,9 @@ title: Om Adobe Advertising Search, Social och Commerce
 description: Läs mer om Search, Social och Commerce.
 exl-id: a28c49ba-f669-4d15-813b-b30673431d01
 feature: Search Introduction
-source-git-commit: 3c1f534ef13b040f450d21753e91a14efd20bfaf
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Advertising Search, Social och Commerce ingår i Adobe Advertising och kombinera
 
 ## AI-baserad teknik för annonsoptimering
 
-Search, Social, &amp; Commerce automatiserar och optimerar köp- och budhanteringen för annonskampanjer i annonsnätverk inom gränserna för annonsörens affärsmål, mätvärden, budget och andra affärsbegränsningar. Här följer klicknings-, kostnads- och konverteringshistoriken för varje annonsörs nyckelord och annonser samt information om budskapet i varje marknadsföringskanal. Med hjälp av en portföljteori-strategi jämför optimeringsfunktionen alla möjliga allokeringar av budgeten för en hel kampanjportfölj för att avgöra vilka anbud och kampanjbudgetar som ger högsta möjliga avkastning på annonskostnaderna, och budskapen och budgetarna utförs därefter. Optimeringsfunktionen övervakar ständigt annonsörens nyckelord och annonser och justerar dynamiskt bud och budget allt eftersom marknaden förändras.
+Search, Social, &amp; Commerce automatiserar och optimerar köp- och budhanteringen för annonskampanjer i annonsnätverk inom gränserna för annonsörens affärsmål, mätvärden, budget och andra affärsbegränsningar. Här följer klicknings-, kostnads- och konverteringshistoriken för varje annonsörs nyckelord och annonser samt information om budskapet i varje marknadsföringskanal. Med hjälp av en portföljteori-strategi jämför optimeringsfunktionen alla möjliga allokeringar av er budget för en hel kampanjportfölj för att avgöra vilka anbud och kampanjbudgetar som ger högsta möjliga avkastning på annonskostnaderna, och budgivnings-, budget- och anbudsstrategimålen i enlighet med detta. Optimeringsfunktionen övervakar ständigt annonsörens nyckelord och annonser och justerar dynamiskt anbud, budget och mål allt eftersom marknaden förändras.
 
 Det finns flera typer av optimering som ger sökningar, sociala medier och Commerce och annonsnätverket olika grad av kontroll över anbudsoptimeringen. Beroende på optimeringstypen kan du optimera dina portföljer med konverteringar som spåras av Adobe Advertising, Adobe Analytics, [!DNL Google Ads], [!DNL Google Analytics] eller andra företagsflöden från första part.
 

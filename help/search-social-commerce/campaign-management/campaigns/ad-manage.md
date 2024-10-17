@@ -3,9 +3,9 @@ title: Hantera annonser
 description: Lär dig hur du skapar och hanterar annonser.
 exl-id: 5ec410cd-9dff-41e6-9ecc-d6ceee84755e
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du kan skapa, redigera och ändra status för annonser i vyn [!UICONTROL Campaig
 >[!NOTE]
 >
 >* Följande annonstyper är *mutable*, vilket betyder att du kan ändra annonskopian eller bilden och behålla samma annons-ID: alla [!DNL Google Ads] annonstyper förutom dynamiska sökannonser och [!DNL Microsoft Advertising] expanderade textannonser.
->* Alla andra annonser som stöds är *inte ändringsbara*, vilket innebär att om du ändrar annonskopian eller bilden tas den befintliga annonsen bort och en ny skapas. Prestanda för den nya annonsen kan vara instabila i några veckor medan Search, Social och Commerce samlar in tillräckligt med data för att optimera anbuden.
+>* Alla andra annonser som stöds är *inte ändringsbara*, vilket innebär att om du ändrar annonskopian eller bilden tas den befintliga annonsen bort och en ny skapas. Prestanda för den nya annonsen kan vara instabila i några veckor medan Search, Social och Commerce samlar in tillräckligt med data för optimering.
 >* Du kan inte redigera innehållet i en produktannons, förutom kampanjraden för [!DNL Microsoft Advertising] produktannonser. Du kan dock pausa eller ta bort en annons.
 
 >[!TIP]

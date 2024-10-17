@@ -3,9 +3,9 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: 3b120ec2ec54f4ad909be8ff2ee8f1e92d205315
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '3743'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio Group Name] | Namnet på den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL Portfolio Spend Strategy] | ([!UICONTROL Portfolio Report]) Utgiftsstrategin för portföljen: <i>[!UICONTROL Daily]</i>, <i>[!UICONTROL Weekly]</i>, <i>[!UICONTROL Monthly]</i>, <i>[!UICONTROL ROI]</i>, <i>[!UICONTROL Day of week]</i>, <i>[!UICONTROL Day of month]</i>, <i>[!UICONTROL CPT]</i>, <i>[!UICONTROL Marginal CPT]</i>, <i>[!UICONTROL Google Target CPA]</i> eller <i>[!UICONTROL Google Target ROAS]</i>. |
-| [!UICONTROL Portfolio Status] | Portföljens status:<ul><li><i>[!UICONTROL Optimize]:</i> Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer, modellerar data för att optimera anbud och optimerar bud och/eller kampanjbudgetar (beroende på optimeringstyp och kampanjstrategier).</li><li><i>[!UICONTROL Active]:</i> Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer och modellerar data, men optimerar inte offerter eller kampanjbudgetar.</li><li><i>[!UICONTROL Inactive]:</i> Optimeringsfunktionen samlar in klickdata för relevanta kampanjer i rapporteringssyfte, men den modellerar inte data och optimerar inte offerter eller kampanjbudgetar.</li></ul> |
+| [!UICONTROL Portfolio Status] | Portföljens status:<ul><li><i>[!UICONTROL Optimize]:</i> Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer, modellerar data som används för optimering och optimerar bud, kampanjbudgetar och strategiska mål för kampanjbud (beroende på optimeringstyp och anbudsstrategier).</li><li><i>[!UICONTROL Active]:</i> Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer och modellerar data, men optimerar inte offerter eller kampanjbudgetar.</li><li><i>[!UICONTROL Inactive]:</i> Optimeringsfunktionen samlar in klickdata för relevanta kampanjer i rapporteringssyfte, men den modellerar inte data och optimerar inte offerter eller kampanjbudgetar.</li></ul> |
 | [!UICONTROL Portfolio Target] | ([!UICONTROL Portfolio Report]) Det dagliga målet för portföljens utgiftsstrategi. För varje dag/månad och dag i vecka/månad visas den aktuella dagens mål. |
 | [!UICONTROL Preferred Devices] | ([!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] kampanjer) Om annonsinställningarna ger företräde åt <i>[!UICONTROL Mobile ads]</i> eller <i>[!UICONTROL All ads]</i>. |
 | [!UICONTROL Product Group ID] | Det numeriska ID som annonsnätverket tilldelar produktgruppen. |

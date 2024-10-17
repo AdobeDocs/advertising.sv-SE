@@ -3,9 +3,9 @@ title: Rapporter
 description: Lär dig mer om resultatrapporter, inklusive de olika rapporttyper som finns tillgängliga och hur du automatiserar rapporter.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Följande rapportkategorier är tillgängliga från vyn [!UICONTROL Reports]. Du
 | [!UICONTROL Advanced Reports] | [Avancerade rapporter](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) ger ytterligare insikter i annonskonfigurationen, vilket hjälper dig att identifiera var du skulle kunna dra nytta av genom att ändra din geografiska målinriktning eller nätverksinställningar. De kan också hjälpa er att validera konverteringsdata i kampanjer, portföljhanteringsvyer och rapporter mot annonsörens interna konverteringsspårningsdata. |
 | [!UICONTROL Assist Reports] | [Assistentrapporter](/help/search-social-commerce/reports/management/assist/assist-report-about.md) ger insikter om konverteringssökvägarna för alla en annonsörs nyckelord och annonser. De använder data som samlats in via tjänsten för spårning av konvertering till Adobe Advertising och kan bara genereras för annonsörer som har tjänsten. |
 | [!UICONTROL Specialty Reports] | [Specialrapporter](/help/search-social-commerce/reports/management/specialty/specialty-report-about.md) består av data som samlats in av annonsnätverken (i stället för av Adobe Advertising-spårning). |
-| [!UICONTROL Model Accuracy Reports] | [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger noggrannheten för de kostnads- och intäktsmodeller som används för att optimera anbud. |
+| [!UICONTROL Model Accuracy Reports] | [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indikerar noggrannheten för de kostnads- och intäktsmodeller som används för att optimera anbud, kampanjbudgetar och anbudsstrategimål för en portfölj. |
 
 ## Automatisering av rapporter
 

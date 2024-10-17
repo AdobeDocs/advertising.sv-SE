@@ -3,9 +3,9 @@ title: Om och nätverkskonton
 description: Läs om annonsnätverkskonton i Search, Social och Commerce.
 exl-id: cb3e650d-721f-48ec-ada3-50bdd7c0375b
 feature: Search Campaign Management
-source-git-commit: b2d578d0e15e647a57353dbfbde666b5e72d79f2
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Search, Social och Commerce kan spåra alla annonsörer i annonsnätverk som st�
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising] (tidigare [!DNL Bing Ads]), [!DNL Yahoo! Display Network], [!DNL Yahoo! Japan Ads], [!DNL Yandex] och befintliga [!DNL Baidu]-konton*
 
-Sökning, socialt arbete och Commerce synkroniserar (*synkroniserar*) med annonsnätverkskonton som stöds så att du kan spåra, rapportera om och visualisera prestanda för annonserna. För alla annonsnätverk utom [!DNL Yahoo! Display Network] kan du hantera kampanjer för ditt konto i Sök, Socialt och Commerce. [!DNL Yahoo! Display Network], kampanjer är skrivskyddade. För alla annonsnätverk kan ni tillåta optimeringsmöjligheterna att optimera annonser i hanterade konton genom att lägga till dem i portföljer.
+Sökning, socialt arbete och Commerce synkroniserar (*synkroniserar*) med annonsnätverkskonton som stöds så att du kan spåra, rapportera om och visualisera prestanda för annonserna. För alla annonsnätverk utom [!DNL Yahoo! Display Network] kan du hantera kampanjer för ditt konto i Sök, Socialt och Commerce. [!DNL Yahoo! Display Network], kampanjer är skrivskyddade. För alla annonsnätverk kan ni tillåta optimeringsmöjligheterna att optimera anbud, kampanjbudgetar och kampanjanbudsstrategier för kampanjer i hanterade konton genom att lägga till kampanjer i portföljer.
 
 Om du vill aktivera synkronisering av ett konto måste kontoposten innehålla autentiseringsuppgifter för kontoåtkomst och vara aktiverad (aktiv).
 

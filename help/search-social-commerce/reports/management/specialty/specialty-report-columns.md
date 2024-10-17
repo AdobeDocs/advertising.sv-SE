@@ -3,9 +3,9 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: a31e380b0cdaaf426895397a3829f41145d82a6d
+source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 | [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL Portfolio Name] | Portföljen. |
 | [!UICONTROL Portfolio Spend Strategy] | (Portfolio-rapport) Utgiftsstrategin för portföljen: *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*, *[!UICONTROL ROI]*, *[!UICONTROL Day of week]*, *[!UICONTROL Day of month]*, *[!UICONTROL CPT]*, *[!UICONTROL Marginal CPT]*, *[!UICONTROL Google Target CPA]* eller *[!UICONTROL Google Target ROAS]*. |
-| [!UICONTROL Portfolio Status] | Portföljens status:<ul><li>*[!UICONTROL Optimize]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer, modellerar data för att optimera anbud och optimerar bud och/eller kampanjbudgetar (beroende på optimeringstyp och kampanjstrategier).</li><li>*[!UICONTROL Active]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer och modellerar data, men optimerar inte offerter eller kampanjbudgetar.</li><li>*[!UICONTROL Inactive]*: Optimeringsfunktionen samlar in klickdata för relevanta kampanjer i rapporteringssyfte, men den modellerar inte data och optimerar inte offerter eller kampanjbudgetar.</li></ul> |
+| [!UICONTROL Portfolio Status] | Portföljens status:<ul><li>*[!UICONTROL Optimize]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer, modellerar data som används för optimering och optimerar bud, kampanjbudgetar och strategiska mål för kampanjbud (beroende på optimeringstyp och anbudsstrategier).</li><li>*[!UICONTROL Active]*: Optimeringsfunktionen samlar in klicknings- och intäktsdata för relevanta kampanjer och modellerar data, men optimerar inte offerter eller kampanjbudgetar.</li><li>*[!UICONTROL Inactive]*: Optimeringsfunktionen samlar in klickdata för relevanta kampanjer i rapporteringssyfte, men den modellerar inte data och optimerar inte offerter eller kampanjbudgetar.</li></ul> |
 | [!UICONTROL Primary Status] | ([!UICONTROL Google Asset Group Performance Report]) Varför resursgruppen har full kapacitet eller inte fungerar. Den tar hänsyn till tillgångsgruppens status samt andra signaler, såsom policy- och kvalitetsgodkännanden. Värdena kan vara *ELIGIBLE,* *LIMITED,* *NOT_ELIGIBLE,* *PAUSED,* *PENDING,* *REMOVED,* *UNKNOWN,* eller *UNSPECIFICED.* |
 | [!UICONTROL Primary Status Reason] | ([!UICONTROL Google Asset Group Performance Report]) Ytterligare information om resursgruppens primära status. Värdena kan vara *ASSET_GROUP_DISAPPROVED,* *ASSET_GROUP_LIMITED,* *ASSET_GROUP_PAUSED,* *ASSET_GROUP_REMOVED,* *ASSET_GROUP_Under_REVIEW,* *ASSET CAMPAIGN_ENDED,* *CAMPAIGN_PAUSED,* *CAMPAIGN_PENDING,* *CAMPAIGN_REMOVED,* *OKÄND,* ELLER *OSPECIFICERAD.* |
 | [!UICONTROL Product ID] | ([!UICONTROL AdWords Shopping Performance Report]) Produkt-ID för produkten som visas med annonsen. <b>Obs!</b> ID:t registreras bara när produktlistan innehåller spårningsparametern `ev_plx=<GMC product ID>` som du måste lägga till i [!DNL Google Merchant Center]. |
