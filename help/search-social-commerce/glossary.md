@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 3500e22944223997dc56dc94c24639a57e8c54f4
+source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
 workflow-type: tm+mt
-source-wordcount: '2081'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **konverteringsspårning:** Konverteringsspårning använder cookies för att spåra a) klickningar på en annonsörs annonser i annonsnätverket och b) de resulterande transaktionerna på annonsörens webbplats.
 
-**kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna.
+**kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna. [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger noggrannheten för de kostnadsmodeller som används för optimering.
 
 **kostnadsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
@@ -90,6 +90,9 @@ ht-degree: 0%
 
 ## G-H {#g-h}
 
+**halveringstid:** Den tid som krävs för en kvantitet att minska till hälften av det ursprungliga värdet. För varje portfölj kan du ange halveringstider för att ange hur lång information som är relevant för kostnadsmodeller och intäktsmodeller.
+Se&quot;kostnadsmodellens halveringstid&quot; och&quot;intäktsmodellens halveringstid&quot;.
+
 ## I-J {#i-j}
 
 **intryck:** En enskild annonsvisning på en webbsida, i en mobilapp eller i ett annat leveransmedium. Användaren behöver inte visa eller klicka på annonsen för att den ska räknas som ett intryck.
@@ -120,13 +123,15 @@ ht-degree: 0%
 
 **minsta bud:** 1) Det minsta belopp som ska betalas per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
 
+**modellprecision:** (annonsörer med portföljer) Procentandelen noggrannhet för de kostnadsmodeller och intäktsmodeller som används för att optimera bud, budgetar och mål för en portfölj. Se&quot;kostnadsmodell&quot;,&quot;kostnadsnoggrannhet&quot;,&quot;intäktsmodell&quot; och&quot;intäktsnoggrannhet&quot;.  [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger att kostnads- och intäktsmodellerna är korrekta.
+
 ## O-P {#o-p}
 
-**mål:** (annonsörer med portföljer) Ett mål som en kund ställer in för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppfylla ett visst försäljningsmål. Ett mål består av de konverteringsmått som ska spåras och optimeras för portföljen samt de relativa vikterna för dessa mätvärden.
+**mål:** (annonsörer med portföljer) Ett mål som en kund ställer in för att uppfylla sitt affärsmål för en viss portfölj eller en annonskampanj, till exempel för att maximera vinsten eller för att uppfylla ett visst försäljningsmål. Ett mål består av de konverteringsmått som ska spåras och optimeras för portföljen samt de relativa vikterna för dessa mätvärden. De totala viktade konverteringarna för portföljen beräknas som &quot;objektivt värde&quot;.
 
 **objektivt värde:** (annonsörer med portföljer) Den totala viktade konverteringen enligt portföljens aktuella mål, inklusive:
 
-* alla konverteringar, med beaktande av a) de vikter som tilldelats varje konvertering i portföljens objektiva funktion och, i tillämpliga fall, b) genomsynvikten för hela visningen.
+* alla konverteringar, med beaktande av a) de vikter som tilldelats varje konvertering i portföljens mål och, i tillämpliga fall, b) genomsynvikten för hela visningen.
 
 * alla klick, som optimeringsfunktionen anser vara en enda konvertering och viktas enligt klickvärdet för målet.
 
@@ -158,7 +163,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **avkastning på investering:** (ROI) Intäkter minus kostnader.
 
-**intäktsnoggrannhet:** (Annonsörer med portföljer) Den faktiska intäkten för en portfölj dividerat med den prognostiserade intäkten.
+**intäktsnoggrannhet:** (Annonsörer med portföljer) Den faktiska intäkten för en portfölj dividerat med den prognostiserade intäkten. [Modellens noggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger noggrannheten för intäktsmodellerna som används för optimering.
 
 **intäktsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala medier) eller visningsdata (displaydata) och annonsörens konverteringsdata.
 
@@ -195,6 +200,8 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 **genomsynlig vikt:** (endast för visnings- och sociala kampanjer) En inställning på annonsörnivå som anger vikten som ska tilldelas en genomsynskonvertering i förhållande till den vikt som tilldelats en klickbaserad konvertering, i procent.
 
 ## B-X {#w-x}
+
+**viktat mål:** Se &quot;mål&quot;.
 
 **viktad intäkt:** Se &quot;objektivt värde&quot;.
 
