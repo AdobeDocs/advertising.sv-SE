@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 56eaa534c1ee61f399b1ab2cd53d9e10ac9b5386
+source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **konverteringsspårning:** Konverteringsspårning använder cookies för att spåra a) klickningar på en annonsörs annonser i annonsnätverket och b) de resulterande transaktionerna på annonsörens webbplats.
 
-**kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna. [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger noggrannheten för de kostnadsmodeller som används för optimering.
+**kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna. [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indikerar noggrannheten för de kostnadsmodeller som används för optimering, och [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) innehåller mer information förutom rekommendationer för att förbättra modellnoggrannheten.
 
 **kostnadsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
@@ -123,7 +123,7 @@ Se&quot;kostnadsmodellens halveringstid&quot; och&quot;intäktsmodellens halveri
 
 **minsta bud:** 1) Det minsta belopp som ska betalas per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
 
-**modellprecision:** (annonsörer med portföljer) Procentandelen noggrannhet för de kostnadsmodeller och intäktsmodeller som används för att optimera bud, budgetar och mål för en portfölj. Se&quot;kostnadsmodell&quot;,&quot;kostnadsnoggrannhet&quot;,&quot;intäktsmodell&quot; och&quot;intäktsnoggrannhet&quot;.  [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger att kostnads- och intäktsmodellerna är korrekta.
+**modellprecision:** (annonsörer med portföljer) Procentandelen noggrannhet för de kostnadsmodeller och intäktsmodeller som används för att optimera anbud, kampanjbudgetar och anbudsstrategimål för en portfölj. Se&quot;kostnadsmodell&quot;,&quot;kostnadsnoggrannhet&quot;,&quot;intäktsmodell&quot; och&quot;intäktsnoggrannhet&quot;.  [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger att kostnads- och intäktsmodellerna är korrekta.
 
 ## O-P {#o-p}
 
