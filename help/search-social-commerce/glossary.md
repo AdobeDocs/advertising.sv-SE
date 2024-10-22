@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 625bb9a466684993ac55d6358880b1ff3052d592
+source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Se&quot;kostnadsmodellens halveringstid&quot; och&quot;intäktsmodellens halveri
 
 **minsta bud:** 1) Det minsta belopp som ska betalas per intryck eller per 1 000 visningar. 2) För söknyckelord, det minsta bud som krävs för ett visst nyckelord baserat på dess kvalitetspoäng. Det lägsta anbudet är vanligtvis det minsta belopp som du kan betala per klick för att visa annonser för nyckelordet.
 
-**modellprecision:** (annonsörer med portföljer) Procentandelen noggrannhet för de kostnadsmodeller och intäktsmodeller som används för att optimera anbud, kampanjbudgetar och anbudsstrategimål för en portfölj. Se&quot;kostnadsmodell&quot;,&quot;kostnadsnoggrannhet&quot;,&quot;intäktsmodell&quot; och&quot;intäktsnoggrannhet&quot;.  [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger att kostnads- och intäktsmodellerna är korrekta.
+**modellprecision:** (annonsörer med portföljer) Procentandelen noggrannhet för de kostnadsmodeller och intäktsmodeller som används för att optimera anbud, kampanjbudgetar och anbudsstrategimål för en portfölj. Se&quot;kostnadsmodell&quot;,&quot;kostnadsnoggrannhet&quot;,&quot;intäktsmodell&quot; och&quot;intäktsnoggrannhet&quot;.
 
 ## O-P {#o-p}
 
@@ -163,7 +163,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **avkastning på investering:** (ROI) Intäkter minus kostnader.
 
-**intäktsnoggrannhet:** (Annonsörer med portföljer) Den faktiska intäkten för en portfölj dividerat med den prognostiserade intäkten. [Modellens noggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) anger noggrannheten för intäktsmodellerna som används för optimering.
+**intäktsnoggrannhet:** (Annonsörer med portföljer) Den faktiska intäkten för en portfölj dividerat med den prognostiserade intäkten. [Rapporter om modellprecision](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indikerar exaktheten hos intäktsmodellerna som används för optimering, och [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) innehåller mer information förutom rekommendationer för att förbättra modellens exakthet.
 
 **intäktsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som beräknar konverteringsgraden och den beräknade avkastningen för varje budenhet, baserat på klickdata (sökdata och sociala medier) eller visningsdata (displaydata) och annonsörens konverteringsdata.
 
