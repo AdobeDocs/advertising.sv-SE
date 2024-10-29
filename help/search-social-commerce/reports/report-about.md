@@ -3,7 +3,7 @@ title: Rapporter
 description: Lär dig mer om resultatrapporter, inklusive de olika rapporttyper som finns tillgängliga och hur du automatiserar rapporter.
 exl-id: 173d1bad-e3aa-4417-a9b1-4b5d06c304d2
 feature: Search Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%

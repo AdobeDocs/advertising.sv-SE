@@ -1,42 +1,37 @@
 ---
-title: Granska och redigera placeringsinställningar med hjälp av flera kalkylblad
-description: Lär dig hur du granskar och redigerar nyckelplaceringsinställningar i grupp med kalkylblad.
+title: Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad
+description: Lär dig hur du granskar och redigerar viktiga paket-, placerings- och annonsinställningar i grupp med kalkylblad.
 feature: DSP Placements
-exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
 source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera placeringsinställningar med hjälp av flera kalkylblad
+# Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad
 
-Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
+<!-- Update headers as needed once the original download become editable and we call everything bulksheets. -->
 
-* Vilka målgrupper kampanjen riktar sig till.
-* När placeringarna börjar leverera, och när de slutar.
-* Vilka annonser som är kopplade till placeringarna.
+Du kan hämta inställningarna för paket, placeringar och annonser i en enda kampanj i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Som standard innehåller den hämtade filen separata flikar för paketinställningar, paketflyginformation, placeringsinställningar och monteringsscheman. Du kan också exkludera inställningarna för vissa kampanjkomponenttyper.
 
-Om du vill uppdatera flera inställningar samtidigt kan du göra något av följande:
+Om du vill uppdatera flera inställningar samtidigt överför du en giltig kalkylbladsfil med ändringarna. Om du vill skapa kalkylbladet kan du hämta en tom mall med flikar för varje typ av kampanjkomponent, ange eller klistra in nya eller uppdaterade inställningar i mallfilen och sedan spara filen för att överföra den. Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara.
 
-* Gör ändringar i markerade fält, spara filen och överför den redigerade kalkylbladsfilen tillbaka till DSP.
-
-* Om du vill ändra ytterligare placeringar och inställningarna för ett paket hämtar du en tom mall med flikar för varje typ av kampanjkomponent, anger eller klistrar in nya eller uppdaterade inställningar i mallfilen och överför sedan filen för att göra ändringarna. Instruktioner finns i &quot;[Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
-
-Redigerbara fält innehåller placeringsnamn, status, bud, budgetar, paketeringsstrategier och frekvensomfång.
-
->[!TIP]
+>[!NOTE]
 >
->Om du snabbt vill redigera fler fält för en eller flera placeringar ska du läsa &quot;[Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)&quot;.
+>Du kan även hämta och redigera inställningarna för enbart specifika paket och specifika placeringar. Se &quot;[Granska och redigera paketinställningar med hjälp av bulkblad](/help/dsp/campaign-management/packages/package-qa.md)&quot; och &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
-## Hämta inställningar för alla placeringar i en kampanj
+## Hämta inställningar för paket, placeringar och annonser i en kampanj
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Setup Excel]** i det övre högra hörnet.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]** i det övre högra hörnet.
 
-   Ett meddelande visas när filen är tillgänglig för hämtning.
+1. Avmarkera de kampanjkomponenter vars inställningar du vill utesluta från den hämtade filen i dialogrutan [!UICONTROL QA Sheet Download] och klicka sedan på **[!UICONTROL Download]**.
+
+Som standard väljs inställningar för alla kampanjkomponenter.
+
+Ett meddelande visas när filen är tillgänglig för hämtning.
 
 1. Gör något av följande om du vill hämta filen:
 
@@ -44,48 +39,31 @@ Redigerbara fält innehåller placeringsnamn, status, bud, budgetar, paketerings
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-   Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
+     Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
 
-## Hämta inställningar för en eller flera placeringar
+>[!NOTE]
+>
+>Du kan inte redigera och överföra QA-filer på kampanjnivå igen. Om du vill ändra inställningarna för kampanjkomponenten i de här filerna [hämtar du en separat inställningsmallfil (konfigurationsfil)](#download-template), anger eller klistrar in rader från QA-filen i mallen och sparar filen. Sedan [överför du den ifyllda mallfilen](#upload-bulksheet-campaign-components).
 
-1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+## Ladda ned en gruppmallsmall för en kampanj {#download-template}
+
+Hämta en tom mall med flikar för varje typ av kampanjkomponent. Du kan lägga till rader senare på valfri flik i mallen och [överföra den redigerade filen](##upload-bulksheet-campaign-components) för att göra ändringar i kampanjkomponenterna.
 
 1. Klicka på kampanjens namn.
 
-1. Klicka på **[!UICONTROL Placements]** på undermenyn.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]** i det övre högra hörnet.
 
-1. Markera kryssrutan bredvid varje placering vars inställningar du vill hämta.
-
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]** i verktygsfältet för gruppåtgärder.
-
-   Ett meddelande visas när kalkylbladsfilen är tillgänglig för hämtning.
-
-1. Gör något av följande om du vill hämta kalkylbladet:
-
-   * Klicka på **[!UICONTROL Download]i meddelandet.**
-
-   * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
+1. Klicka på **[!UICONTROL Bulksheet Template]i dialogrutan [!UICONTROL Upload Bulksheet].**
 
    Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
 
+## Ladda upp ett bulkblad med paket, placering och annonsinställningar för en kampanj{#upload-bulksheet-campaign-components}
 
-<!-- I don't think I need this here
+Överför inställningar för paket, praktik och annonser i en enda kampanj i ett ifyllt kalkylblad.
 
-## Download a Bulksheet Template {#download-template}
+1. [Hämta en kalkylbladsmall](#download-template) om det behövs, ange eller klistra in paket, placering och/eller annonsinställningar på de relevanta flikarna i en kalkylbladsmall och spara sedan filen på enheten eller i nätverket.
 
-Download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
-
-1. Click the name of the campaign.
-
-1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
-
-   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
-
--->
-
-## Överför ett bulkark med placeringsinställningar {#upload-bulksheet-placement}
-
-Du kan överföra inställningar för dina placeringar och för annonser och paket som är kopplade till placeringarna i en kalkylbladsfil.
+   Se de tillgängliga inställningarna nedan.
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -176,28 +154,7 @@ Du kan överföra inställningar för dina placeringar och för annonser och pak
 | [!UICONTROL Ads] | [!UICONTROL Ad Names] | Namnen på alla annonser som är kopplade till placeringen, eller *[!UICONTROL None]*. | — |
 | [!UICONTROL Ads] | [!UICONTROL Attached Ad ID] | Unika DSP-genererade ID:n för annonser som är kopplade till placeringen, avgränsade med semikolon. Om du vill hämta en lista med annonsnamn och associerade ID:n från vyn [!UICONTROL Ads] skapar du en anpassad vy som innehåller måttet [!UICONTROL Ad ID] och [exporterar sedan data](/help/dsp/campaign-management/reports/campaign-export-data.md). | Ja |
 
-### Bulksheets på placeringsnivå
-
-| Kolumn | Beskrivning | Redigerbar? |
-|--------|-------------|-----------|
-| [!UICONTROL Placement ID] | Placeringens numeriska ID. | — |
-| [!UICONTROL Placement Name] | Placeringens namn. | Ja |
-| [!UICONTROL Package Name] | Namnet på det överordnade paketet, om tillämpligt. | — |
-| [!UICONTROL Start Date] | Placeringens startdatum. | — |
-| [!UICONTROL End Date] | Placeringens slutdatum. | — |
-| [!UICONTROL Status] | Placeringsstatus: *[!UICONTROL active]* eller *[!UICONTROL inactive]*. | — |
-| [!UICONTROL Max Bid] | Det högsta anbudet för placeringen. | Ja |
-| [!UICONTROL Budget] | Placeringsbudgeten, om det finns en sådan. | Ja |
-| [!UICONTROL Budget Interval] | Budgetintervallet: &lt;i[!UICONTROL >Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]* eller *[!UICONTROL All Time]*. | Ja |
-| [!UICONTROL Primary Frequency Cap] | Det primära frekvensskyddet för placeringen under den angivna [!UICONTROL Primary Frequency Cap Interval]. | Ja |
-| [!UICONTROL Primary Frequency Cap Interval] | Intervallet för den primära frekvensbegränsningen: *[!UICONTROL Day]*, *[!UICONTROL Week]* eller *[!UICONTROL Month]*. | Ja |
-| [!UICONTROL Secondary Frequency Cap] | Det sekundära frekvensskyddet för placeringen under angiven [!UICONTROL Secondary Frequency Cap Interval] | Ja |
-| [!UICONTROL Secondary Frequency Cap Interval] | Intervalltypen för den sekundära frekvensbegränsningen: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* eller *[!UICONTROL Minute]*. Det tillämpliga antalet veckor, dagar, timmar eller minuter anges av [!UICONTROL Secondary Frequency Cap Interval Value]. | Ja |
-| [!UICONTROL Secondary Frequency Cap Interval Value] | Antalet veckor, dagar, timmar eller minuter som [!UICONTROL Secondary Frequency Cap] gäller. Om det sekundära gränsvärdet till exempel är tre avtryck per sex timmar blir värdet här `6`. | Ja |
-| [!UICONTROL Attached Ad ID] | Unika DSP-genererade ID:n för annonser som är kopplade till placeringen, avgränsade med semikolon. Om du vill hämta en lista med annonsnamn och associerade ID:n från vyn [!UICONTROL Ads] skapar du en anpassad vy som innehåller måttet [!UICONTROL Ad ID] och [exporterar sedan data](/help/dsp/campaign-management/reports/campaign-export-data.md). | Ja |
-
 >[!MORELIKETHIS]
 >
->* [Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
->* [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
->* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
+>* [Granska och redigera paketinställningar med hjälp av flera blad](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Granska och redigera placeringsinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)

@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 2729e7575f9950eb59b181d542dea7cb3b34cfa7
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 2%
@@ -61,7 +61,7 @@ ht-degree: 2%
       + [Ange ett datum med hjälp av kalendern](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md)
       + [Visa och dölja ett trenddiagram](/help/search-social-commerce/common-tasks/navigation-editing-selection/trend-chard-show-hide.md)
       + [Uppdatera data i hanteringsvyer](/help/search-social-commerce/common-tasks/navigation-editing-selection/refresh.md)
-      + Hämtar data i hanteringsvyer {#download-data-views}
+      + Hämta data i hanteringsvyer {#download-data-views}
          + [Hämta data från en kampanjhanteringsvy](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
          + [Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!UICONTROL Downloads]](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
 + Spårning {#tracking}

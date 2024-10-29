@@ -1,37 +1,62 @@
 ---
-title: Granska och redigera paketinställningar med kalkylblad
-description: Lär dig hur du granskar och redigerar inställningar för nyckelpaket med hjälp av kalkylblad.
+title: Granska och redigera paketinställningar med hjälp av flera kalkylblad
+description: Lär dig hur du granskar och redigerar inställningar för nyckelpaket i grupp med kalkylblad.
 feature: DSP Packages
-source-git-commit: ad00092c4ef5d44c364ab0593826220054f715c3
+exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera paketinställningar med kalkylblad
+# Granska och redigera paketinställningar med hjälp av flera kalkylblad
 
-Du kan hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation. Du kan sedan ändra fälten på båda flikarna och överföra data till DSP alla samtidigt. Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara.
+Du kan hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Kalkylbladet innehåller en separat flik med flyginformation.
+
+Om du vill uppdatera flera inställningar samtidigt kan du göra något av följande:
+
+* Gör ändringar i markerade fält, spara filen och överför den redigerade kalkylbladsfilen tillbaka till DSP.
+
+* Om du vill göra ändringar i ytterligare paket, och i inställningarna för en placering eller annons, hämtar du en tom mall som innehåller flikar för varje typ av kampanjkomponent, anger eller klistrar in nya eller uppdaterade inställningar i mallfilen och överför sedan filen för att göra ändringarna. Instruktioner finns i &quot;[Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+
+Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara.
 
 >[!TIP]
 >
->Mer information om hur du redigerar fler fält för ett eller flera paket finns i [Redigera paket](/help/dsp/campaign-management/packages/package-edit.md).
+>Mer information om hur du snabbt redigerar fler fält för ett eller flera paket finns i [Redigera paket](/help/dsp/campaign-management/packages/package-edit.md).
+
+## Hämta inställningar för alla paket i en kampanj
+
+När du hämtar inställningar för alla paket i en kampanj innehåller kalkylbladet separata flikar för paketinställningarna och för flyginformationen. Du kan även inkludera inställningar för de placeringar och annonser som är kopplade till paketen. Ytterligare flikar inkluderas för placerings- och annonsinställningar.
+
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+
+1. Klicka på kampanjens namn.
+
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download QA sheet]** i det övre högra hörnet.
+
+1. Avmarkera de kampanjkomponenter vars inställningar du vill utesluta från den hämtade filen i dialogrutan [!UICONTROL QA Sheet Download] och klicka sedan på **[!UICONTROL Download]**.
+
+Som standard väljs inställningar för alla placeringar och annonser som är kopplade till paketen.
+
+Ett meddelande visas när filen är tillgänglig för hämtning.
+
+1. Gör något av följande om du vill hämta filen:
+
+   * Klicka på **[!UICONTROL Download]i meddelandet.**
+
+   * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
+
+     Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
+
+>[!NOTE]
+>
+>Du kan inte redigera och överföra QA-blad på kampanjnivå igen. Om du vill ändra inställningarna för kampanjkomponenten i de här filerna hämtar du en separat mall för kalkylblad, anger eller klistrar in rader från QA-bladet i mallen för kalkylblad, sparar filen och överför sedan det ifyllda kalkylbladet. Instruktioner finns i &quot;[Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 ## Hämta inställningar för ett eller flera paket
 
-1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
-
-1. Klicka på kampanjens namn.
-
-1. Klicka på **[!UICONTROL Packages]** på undermenyn.
-
-1. Markera kryssrutan bredvid varje paket vars inställningar du vill hämta.
-
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Edit in Excel Sheet]** i verktygsfältet för gruppåtgärder.
-
-Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolumner som ingår finns i [Paketera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns-packages).
-
-## Överför inställningar för ett eller flera paket
+När du hämtar inställningar för specifika paket innehåller kalkylbladsfilen separata flikar för paketinställningarna och för flyginformationen, och filen kan redigeras.
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -39,11 +64,43 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolum
 
 1. Klicka på **[!UICONTROL Packages]** på undermenyn.
 
-1. Markera kryssrutan bredvid varje paket vars inställningar du vill överföra.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]** i verktygsfältet för gruppåtgärder.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Upload Edit in Excel Sheet]** i verktygsfältet för gruppåtgärder.
+   Ett meddelande visas när kalkylbladsfilen är tillgänglig för hämtning.
 
-1. I dialogrutan [!UICONTROL Edit in Excel]:
+1. Gör något av följande om du vill hämta kalkylbladet:
+
+   * Klicka på **[!UICONTROL Download]i meddelandet.**
+
+   * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
+
+     Filen sparas i mappen Downloads i webbläsaren. En lista över de kolumner som ingår finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
+
+<!-- I don't think I need this here
+
+## Download a Bulksheet Template {#download-template}
+
+You can optionally download a blank bulksheet template that includes tabs for each type of campaign component. You can later add rows to any tab on the template and [upload the edited file](##upload-bulksheet-package) to make changes. 
+
+1. Click the name of the campaign.
+
+1.  In the upper right, click **[!UICONTROL ...]** > **[!UICONTROL Download Bulksheet]**.
+
+   The file is saved to the browser's Downloads folder. See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns.
+
+-->
+
+## Överför ett kalkylblad med paketinställningar {#upload-bulksheet-package}
+
+Du kan överföra inställningar för dina paket, inklusive de placeringar och annonser som är kopplade till paketen, i en kalkylbladsfil.
+
+1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
+
+1. Klicka på kampanjens namn.
+
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Upload Bulksheet]** i det övre högra hörnet.
+
+1. I dialogrutan [!UICONTROL Upload Bulksheet]:
 
    1. Dra och släpp en fil i rutan eller klicka i rutan för att välja en fil från enheten eller nätverket.
 
@@ -96,7 +153,7 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolum
 | [!UICONTROL Custom Flights] | [!UICONTROL Automatic Budget Rollover] | (Endast tillgängligt när alternativet [!UICONTROL Activate Custom Flighting] är aktiverat) Om du vill lägga till återstående budget automatiskt från föregående flygning till den befintliga budgeten för nästa flygning eller inte: *T* (true) eller *F* (false). | Ja |
 | [!UICONTROL Error] | [!UICONTROL Error] | Alla relevanta fel. | — |
 
-### Fliken [!UICONTROL Package_Flights]
+### Fliken [!UICONTROL Package_Flights] {#qa-sheet-columns-package-flights}
 
 | Avsnitt | Kolumn | Beskrivning | Redigerbar? |
 |---------|--------|-------------|-----------|
@@ -109,5 +166,6 @@ Filen sparas automatiskt i webbläsarens hämtningsmapp. En lista över de kolum
 
 >[!MORELIKETHIS]
 >
+>* [Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Redigera paket](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)

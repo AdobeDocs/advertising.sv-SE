@@ -3,7 +3,7 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 5d07300ab49b96daf392cb51f8936fa4c0cd20ce
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 >[!NOTE]
 >
->Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i en begränsad delmängd av nyckelfälten och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med kalkylblad](placement-qa.md).&quot;
+>Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i en begränsad delmängd av nyckelfälten och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](placement-qa.md).&quot;
 
 ## Redigera inställningar för tangentmontering snabbt {#placement-quick-edit}
 
@@ -92,7 +92,7 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >[!MORELIKETHIS]
 >
 >* [Om placeringshantering](placement-about.md)
->* [Granska och redigera placeringsinställningar med kalkylblad](placement-qa.md)
+>* [Granska och redigera placeringsinställningar med hjälp av kalkylblad](placement-qa.md)
 >* [Skapa en placering](placement-create.md)
 >* [Duplicera en placering](placement-duplicate.md)
 >* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)

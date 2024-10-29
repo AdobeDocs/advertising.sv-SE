@@ -3,9 +3,9 @@ title: Visa diagnostikrapporter för placering
 description: Lär dig hur du diagnostiserar problem med placeringskonfiguration och placering.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: 1f8fd9d267aba0858b18c0b5a9b4a693e2b62468
+source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
    * För att se varför DSP inte lade något bud på utplaceringen:
 
       1. Klicka på **[!UICONTROL Non Bids]** i det övre högra hörnet.
+
+      1. (Valfritt) Om du vill filtrera placeringen efter ett specifikt privat avtalsmål väljer du avtalet. <!-- Admin users only: Optionally filter the deal by one or more regions ([!UICONTROL US-EAST], [!UICONTROL US-WEST]) [!UICONTROL EU-WEST], [!UICONTROL HKG]) by selecting the regions. -->
 
       1. (Valfritt) Om du vill ändra datumintervallet klickar du i datumfältet och väljer ett annat datum eller datumintervall.
 
