@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 42d4c7e34766b9f75d0f278520f162671684c2db
+source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Med anpassade rapporter kan ni anpassa innehållet i och leveransen av rapportda
 
 * Välj bland förkonfigurerade rapportmallar och anpassa dem ytterligare.
 
-Du kan generera rapporter en gång eller schemalägga att de ska genereras varje dag, vecka eller månad klockan 03:00 i den angivna tidszonen enligt angivna villkor (t.ex. var 15:e dag eller den 1:e varje månad). När en rapport har skapats kan du hämta den från [!UICONTROL Reports] > [!UICONTROL Custom Reports] eller från länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
+Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis eller månadsvis kl. 03:00 i den angivna tidszonen enligt angivna villkor (t.ex. var 15:e dag eller den 1:e varje månad). När en rapport har skapats kan du hämta den från [!UICONTROL Reports] > [!UICONTROL Custom Reports] eller från länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -49,15 +49,15 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
      >[!NOTE]
      >
-     >* Data är tillgängliga efter den 1 mars 2019.
+     >* Data finns tillgängliga efter den 1 mars 2019.
      >* Frekvensen beräknas utifrån ett urval data.
      >* För en del lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning. Den här rapporten innehåller bara avtryck som det fanns en enhetsidentifierare för.
 
-   * **[!UICONTROL Frequency (by App/Site)]:** Använd den här rapporten för att förstå hur många unika användare som har nåtts per app eller per webbplats. Du kan också se hur många unika användare som har nåtts via en viss app eller webbplats (&quot;distinkta unika användare&quot;).
+   * **[!UICONTROL Frequency (by App/Site)]:** Använd den här rapporten för att förstå hur många unika användare dina annonser har nått per app eller per webbplats. Du kan också se hur många unika användare era annonser har nått fram till via en viss app eller webbplats (&quot;distinkta unika användare&quot;).
 
      >[!NOTE]
      >
-     >* Data är tillgängliga efter 15 november 2018.
+     >* Data är tillgängliga efter den 15 november 2018.
      >* För vissa privata lager skickas ingen enhets-ID, vilket förhindrar frekvensspårning.
 
    * **[!UICONTROL Geo]**: Använd den här förifyllda mallen för att se nyckelvärden efter geografiska dimensioner.
@@ -69,7 +69,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
      >[!NOTE]
      >
      >* Den här rapporten ska visa hur olika målsegment fungerar. Den använder data om segmentmedlemskap. När ett intryck skickas till en person eller enhet som tillhör två eller flera målsegment innehåller rapporten en rad för varje segment. Av den anledningen kanske inte summorna i den här rapporten matchar den faktiska leveransen.
-     >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter 2 augusti 2019. Alla andra data för segment är tillgängliga från och med den 1 juni 2018.
+     >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter den 2 augusti 2019. Alla andra uppgifter för segment är tillgängliga från och med den 1 juni 2018.
 
    * **[!UICONTROL Site]:** Inkluderar som standard standardvärden, totala medienettoutgifter och totala fakturerbara nettoutgifter per webbplats.
 
@@ -77,7 +77,7 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
    * **[!UICONTROL Household Conversions]:** Använd den här rapporten om du vill visa genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-household-report.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
 
-   * **[!UICONTROL Path to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att se sekvensen av interaktionspunkter i samma hushåll som leder till var och en av de valda konverteringsmåtten i det angivna dataintervallet, med en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Rapporten kan innehålla en dimension:
+   * **[!UICONTROL Path to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att identifiera hur ni kan optimera budgeten och personalisera annonser baserat på högpresterande annonsinteraktionssekvenser. Rapporten visar sekvensen av interaktionspunkter i samma hushåll som leder till var och en av de valda konverteringsmåtten i det angivna dataintervallet. Rapporten använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering och kan innehålla en dimension:
 
       * [!UICONTROL Channel Assist Type]: Visar hur följande marknadsföringskanaler har hjälpt till med konverteringsprocessen: [!UICONTROL Audio Impression], [!UICONTROL CTV Impression], [!UICONTROL Display Click], [!UICONTROL Display Impression], [!UICONTROL Native Click], [!UICONTROL Native Impression], [!UICONTROL Search Click], [!UICONTROL Video Click] eller [!UICONTROL Video Impression].
 
@@ -91,11 +91,11 @@ Du kan generera rapporter en gång eller schemalägga att de ska genereras varje
 
      Upp till de 10 senaste interaktionspunkterna ingår. Banraderna ordnas efter antalet konverteringar.
 
-   * **[!UICONTROL Path Length Beta]:** (Beta-funktion) Använd den här rapporten om du vill se antalet konverteringar efter sökvägslängd (interaktionspunkter), t.ex. hur många konverteringar som har gjorts efter att användare bara har haft en annonsinteraktion, två annonsinteraktioner o.s.v. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Path Length], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare.
+   * **[!UICONTROL Path Length Beta]:** (Beta-funktion) Använd den här rapporten om du vill hantera annonsfrekvensen baserat på antalet användarinteraktionspunkter som krävs för konverteringar. Rapporten visar antalet konverteringar efter sökvägslängd (interaktionspunkter), t.ex. hur många konverteringar som har gjorts efter att användarna bara har haft en annonsinteraktion, två annonseringsinteraktioner och så vidare. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Path Length], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare.
 
      Data visas för varje banlängd på upp till 10. Data för banlängder större än 10 grupperas tillsammans.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (Beta-funktion) Använd den här rapporten om du vill se antalet konverteringar utifrån hur lång tid i dagar det tog från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
+   * **[!UICONTROL Time to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att fastställa det optimala attributsökningsfönstret och identifiera nya möjligheter för återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
 
 ## Kontorapportering {#cross-account-reporting}
 
