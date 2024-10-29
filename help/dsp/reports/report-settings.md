@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
+source-git-commit: 0e91fa93e8de53edda81dd5321eeca4682ad0c13
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Så här använder du ett eller flera filter:
 
 \* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [korskontorapportering](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe om du vill ha mer information om kontorapportering.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Endast rapporter om sökväg till konvertering, sökvägslängd och tid till konvertering) Innehåller data för klickningar på sökannonser från Advertising Search, Social och Commerce. När du väljer det här alternativet väljer du de sök-, sociala och Commerce-kampanjer som ska inkluderas.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (Endast rapporter om sökväg till konvertering, sökvägslängd och tid till konvertering) Inkluderar data för klickningar på sökannonser från angivna Advertising Search-, Social- och Commerce-kampanjer. När du väljer det här alternativet väljer du kontot Sök, Socialt och Commerce med hjälp av filtret **Filtrera efter[!UICONTROL SSC Account]**. Välj sedan kampanjer med filtret **Filtrera efter[!UICONTROL SSC Campaign]**. Om du vill välja flera kampanjer klickar du på **[!UICONTROL Add Criteria]** för den andra och efterföljande kampanjer.
 
 ## [!UICONTROL Build Your Report] avsnitt
 
