@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] kampanjinställningar'
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: c4fa1ffa1dd21b2889ea18cb6a1a7cdec477bcfe
+source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2576'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,7 @@ ht-degree: 0%
 
 ## \[Kampanjskapande skärm\]
 
-**[!UICONTROL Campaign Type]:** (Endast tillgängligt när kampanjer skapas) Var annonser ska placeras och vilka annonstyper
-kampanjen får innehålla
+**[!UICONTROL Campaign Type]:** (Endast tillgängligt när kampanjer skapas) Var annonser ska placeras och vilka annonstyper kampanjen kan innehålla:
 
 * *[!UICONTROL Search Network Only]:* Visar annonser i söknätverket, som innehåller [!DNL Google] sökresultat och, om så önskas, sökpartnerwebbplatser. Du måste ange nyckelord för varje annonsgrupp.
 
@@ -196,6 +195,18 @@ efter land. Om du inte markerar något, anges alla som mål.
 
 {{$include /help/_includes/dsa-language.md}}
 
+## [!UICONTROL Customer Acquisition Goals]
+
+**[!UICONTROL Customer Acquisition]:** (Max. prestanda och endast sökkampanjer) Så här tilldelar du anbud till nya kunder och befintliga kunder:
+
+* *[!UICONTROL Bid equally for new and existing customers]*
+
+* *[!UICONTROL Bid higher for new customers than for existing customers]*
+
+  **Obs!** Om du vill använda den här inställningen måste du först aktivera det nya kundvärvningsmålet för [!DNL Google Ads]-kontot eller, om tillämpligt, för chefskontot. Målet definierar de giltiga befintliga kundlistorna och det extra konverteringsvärdet för nya kunder i konverteringsinställningarna. Se steg 1-2 i [!DNL Google Ads]-hjälpen [Aktivera det nya kundförvärvsmålet](https://support.google.com/google-ads/answer/14007601).
+
+* *[!UICONTROL Only bid for new customers]*
+
 ## [!UICONTROL Negative Keywords]
 
 <!-- **[!UICONTROL Negative Keywords]:** -->
@@ -368,4 +379,3 @@ Om du vill skapa ett anpassat konverteringsmål klickar du på **[!UICONTROL + A
 >[!MORELIKETHIS]
 >
 >* [Hantera kampanjer](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md)
-
