@@ -3,9 +3,9 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: be229b54dcdaa3386c7c3c658dd8f2434b51e5e8
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Så här använder du ett eller flera filter:
 
 \* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [korskontorapportering](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe om du vill ha mer information om kontorapportering.
 
-**[!UICONTROL Include data from Adobe Advertising SSC]:** (Endast rapporter om sökväg till konvertering, sökvägslängd och tid till konvertering) Innehåller data för klickningar på sökannonser från Advertising Search, Social och Commerce.
+**[!UICONTROL Include data from Adobe Advertising SSC]:** (Endast rapporter om sökväg till konvertering, sökvägslängd och tid till konvertering) Innehåller data för klickningar på sökannonser från Advertising Search, Social och Commerce. När du väljer det här alternativet väljer du de sök-, sociala och Commerce-kampanjer som ska inkluderas.
 
 ## [!UICONTROL Build Your Report] avsnitt
 
@@ -137,7 +137,11 @@ Se [Tillgängliga rapportkolumner](report-columns.md) för beskrivningar av alla
 
 Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).
 
-* **Återuppspelning:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner och [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] enbart med [!UICONTROL Conversion Metrics] kolumner. Endast annonsörer med endast spårning av Adobe Advertising-konvertering) I rapporten är det högsta antalet dagar efter en intryckshändelse <!-- VERIFY THIS:  or click event for [!UICONTROL Path to Conversion], [!UICONTROL Path Length], or [!UICONTROL Time to Conversion] reports --> som en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]* och det högsta antalet är 92 dagar.
+* **Uppslag:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner och [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] enbart med [!UICONTROL Conversion Metrics] kolumner; endast annonsörer med Adobe Advertising-konverteringsspårning) I rapporten är det högsta antalet dagar efter en inställningshändelse eller en klickningshändelse (för [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] rapporter) i vilket en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]* och det högsta antalet är 92 dagar.
+
+  >[!TIP]
+  >
+  >Om du använder [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) ska du använda samma uppslagsfönster som du använder i [!DNL Analytics].
 
 **[!UICONTROL Paths as Columns]:** (Alla [!UICONTROL Custom], [!UICONTROL Conversion], [!UICONTROL Device], [!UICONTROL Geo], [!UICONTROL Segment] och [!UICONTROL Site] rapporterar med [!UICONTROL Conversion Metrics]- eller [!UICONTROL Custom Goals]-kolumner) Vilka typer av konverteringar som ska rapporteras när tidigare händelser inträffar på samma enhet. Du kan inkludera upp till tre typer. För varje vald typ inkluderas en separat kolumn för varje konverteringsmått och den läggs till med det angivna suffixet ([!UICONTROL (tl)], [!UICONTROL (ct)] eller [!UICONTROL (vt)]):
 
