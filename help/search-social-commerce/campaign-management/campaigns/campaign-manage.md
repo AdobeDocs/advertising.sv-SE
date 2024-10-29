@@ -3,7 +3,7 @@ title: Hantera kampanjer
 description: Lär dig hur du skapar och hanterar annonskampanjer.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 813b2a100df7381bdcea1c44a37f86e65ee5794f
+source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -35,7 +35,7 @@ När du har [gjort ett annonsnätverkskonto tillgängligt](/help/search-social-c
 
 1. Ange [Baidu](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-baidu.md), [Google Ads](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md), [Microsoft Advertising](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-microsoft.md), [Yahoo! Inställningar för japanska annonser ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yahoo-japan.md) eller [Yandex](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-yandex.md)-kampanjer.
 
-   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] och [!UICONTROL (Google) DSA Options]. Om du vill konfigurera ytterligare inställningar, när de är tillgängliga, för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] eller [!UICONTROL Campaign Goals] klickar du på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** eller **[!UICONTROL Set Campaign Goals]**.
+   Beroende på annonsnätverket kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], ([!DNL Google Ads]) [!UICONTROL DSA Options] och ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Om du vill konfigurera ytterligare inställningar, när de är tillgängliga, för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] eller [!UICONTROL Campaign Goals] klickar du på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** eller **[!UICONTROL Set Campaign Goals]**.
 
 1. Klicka på **[!UICONTROL Post]**.
 
@@ -67,7 +67,7 @@ Du kan redigera inställningar för enskilda kampanjer. Du kan också redigera v
 
    För flera kampanjer kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options] och [!UICONTROL URL Options], beroende på annonsnätverk. Du kan bara redigera fält som är gemensamma för alla valda kampanjer, och dina ändringar tillämpas på alla valda kampanjer. För vissa alfanumeriska fält har du möjlighet att ändra befintliga värden till ett angivet värde, ersätta en befintlig sträng med en angiven sträng, lägga till ett angivet prefix i början av varje värde eller lägga till ett suffix i slutet av varje värde. För vissa monetära fält har du möjlighet att ändra befintliga värden till ett angivet värde eller att antingen öka eller minska beloppet med en angiven procentandel eller ett penningbelopp, med en gräns.
 
-   För enstaka kampanjer kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options] och [!UICONTROL (Google) DSA Options]. Om du vill konfigurera ytterligare inställningar, när de är tillgängliga, för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] eller [!UICONTROL Campaign Goals] klickar du på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** eller **[!UICONTROL Set Campaign Goals]**.
+   För enstaka kampanjer kan inställningarna grupperas i [!UICONTROL Campaign Details], [!UICONTROL Budget Options], [!UICONTROL Shopping Settings], [!UICONTROL Campaign Targeting], [!UICONTROL Conversion Goals], [!UICONTROL Advanced Device Options], [!UICONTROL URL Options], [!UICONTROL (Google) DSA Options] och ([!DNL Google Ads]) [!UICONTROL Customer Acquisition Goals]. Om du vill konfigurera ytterligare inställningar, när de är tillgängliga, för [!UICONTROL Negative Keywords], [!UICONTROL Negative Websites], [!UICONTROL Campaign Tracking], [!UICONTROL Asset Groups] eller [!UICONTROL Campaign Goals] klickar du på **[!UICONTROL Add Negative Keywords]**, **[!UICONTROL Add Negative Websites]**, **[!UICONTROL Set Campaign Tracking]**, **[!UICONTROL Manage Asset Groups]** eller **[!UICONTROL Set Campaign Goals]**.
 
 1. Spara data:
 
