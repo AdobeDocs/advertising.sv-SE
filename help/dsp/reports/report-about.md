@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 691c0097a81ee5066448fc411dc3de8f853e9bbd
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 0%
@@ -73,9 +73,9 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
    * **[!UICONTROL Site]:** Inkluderar som standard standardvärden, totala medienettoutgifter och totala fakturerbara nettoutgifter per webbplats.
 
-   * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill visa visningar, räckvidd och frekvens för en enda dimension i alla annonsformat på en hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-household-report.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
+   * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill visa visningar, räckvidd och frekvens för en enda dimension i alla annonsformat på en hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-reports.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
 
-   * **[!UICONTROL Household Conversions]:** Använd den här rapporten om du vill visa genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-household-report.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
+   * **[!UICONTROL Household Conversions]:** Använd den här rapporten om du vill visa genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-reports.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
 
    * **[!UICONTROL Path to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att identifiera hur ni kan optimera budgeten och personalisera annonser baserat på högpresterande annonsinteraktionssekvenser. Rapporten visar sekvensen av interaktionspunkter i samma hushåll som leder till var och en av de valda konverteringsmåtten i det angivna dataintervallet. Rapporten använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering och kan innehålla en dimension:
 
@@ -130,7 +130,7 @@ Du kan skapa nya anpassade rapporter, redigera befintliga rapporter eller duplic
 >* [Skapa en anpassad rapport](/help/dsp/reports/report-create.md)
 >* [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
->* [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)
+>* [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-reports.md)
 >* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 281ab6a76b34b718281e5e656e4b29ecaf608bd3
+source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '932'
 ht-degree: 3%
 
 ---
@@ -46,11 +46,12 @@ ht-degree: 3%
       + [Arkivera eller arkivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
+      + [Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Paket {#packages}
       + [Om pakethantering](/help/dsp/campaign-management/packages/package-about.md)
       + [Skapa ett paket](/help/dsp/campaign-management/packages/package-create.md)
-      + [Granska och redigera paketinställningar med kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
+      + [Granska och redigera paketinställningar med hjälp av flera kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
       + [Redigera ett paket](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicera ett paket](/help/dsp/campaign-management/packages/package-duplicate.md)
       + [Koppla en placering till ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
@@ -61,7 +62,7 @@ ht-degree: 3%
    + Placeringar {#placements}
       + [Om Platshantering](/help/dsp/campaign-management/placements/placement-about.md)
       + [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Granska och redigera placeringsinställningar med kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Granska och redigera placeringsinställningar med hjälp av flera kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicera en placering](/help/dsp/campaign-management/placements/placement-duplicate.md)
       + [Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
@@ -203,7 +204,7 @@ ht-degree: 3%
    + [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
    + [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
    + [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
-   + [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-household-report.md)
+   + [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-reports.md)
    + Rapportdestinationer {#report-destinations}
       + [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
