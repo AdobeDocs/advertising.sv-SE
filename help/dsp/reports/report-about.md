@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1498'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,13 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
      Upp till de 10 senaste interaktionspunkterna ingår. Banraderna ordnas efter antalet konverteringar.
 
-   * **[!UICONTROL Path Length Beta]:** (Beta-funktion) Använd den här rapporten om du vill hantera annonsfrekvensen baserat på antalet användarinteraktionspunkter som krävs för konverteringar. Rapporten visar antalet konverteringar efter sökvägslängd (interaktionspunkter), t.ex. hur många konverteringar som har gjorts efter att användarna bara har haft en annonsinteraktion, två annonseringsinteraktioner och så vidare. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Path Length], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare.
+     En jämförelse av den här rapporten med rapporter som skapats av [!DNL Advanced Measurement Services] och Adobe Analytics finns i [Vanliga frågor om anpassade rapporter](/help/dsp/reports/faq-reports.md).
+
+   * **[!UICONTROL Path Length Beta]:** (Beta-funktion) Använd den här rapporten för att      Spåra antalet användarinteraktionspunkter som krävs för konverteringar över tid så att du kan välja den optimala annonsfrekvensen. Rapporten visar antalet konverteringar efter sökvägslängd (interaktionspunkter), t.ex. hur många konverteringar som har gjorts efter att användarna bara har haft en annonsinteraktion, två annonseringsinteraktioner och så vidare. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Path Length], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare.
 
      Data visas för varje banlängd på upp till 10. Data för banlängder större än 10 grupperas tillsammans.
 
-   * **[!UICONTROL Time to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att fastställa det optimala attributsökningsfönstret och identifiera nya möjligheter för återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
+   * **[!UICONTROL Time to Conversion Beta]:** (Beta-funktion) Använd den här rapporten för att fastställa det optimala attribueringssökningsfönstret och för att identifiera kampanjer med längre konverteringstider, vilket kan ha nytta av återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
 
 ## Kontorapportering {#cross-account-reporting}
 
