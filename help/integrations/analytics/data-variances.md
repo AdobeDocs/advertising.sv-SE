@@ -3,7 +3,7 @@ title: Förväntade datavarianser mellan  [!DNL Analytics]  och Adobe Advertisin
 description: Förväntade datavarianser mellan  [!DNL Analytics]  och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: e1c1d43c7fe5f44e34ada7dee09afd77f1b3f305
+source-git-commit: 6470ed471c60477bf19cf9b125f0250136f31511
 workflow-type: tm+mt
 source-wordcount: '3358'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Ta hänsyn till de här skillnaderna när du jämför vykonverteringar mellan Ad
 >
 >För att undvika missförstånd gör [!DNL Analytics] historiska data otillgängliga i rapporteringsgränssnittet. Du kan visa historiska data om du ändrar [!DNL eVar] tillbaka till den ursprungliga allokeringsinställningen, men du bör inte ändra [!DNL eVar] allokeringsinställningarna bara för att få tillgång till historiska data. Adobe rekommenderar att du använder en ny [!DNL eVar] när du vill använda en ny allokeringsinställning för data som redan spelas in, i stället för att ändra allokeringsinställningarna för en [!DNL eVar] som redan har en stor mängd historiska data.
 
-En lista med [!DNL Analytics]-attribueringsmodeller och deras definitioner finns på [https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/attribution/models.html).
+En lista med [!DNL Analytics]-attribueringsmodeller och deras definitioner finns på [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Om du är inloggad på [!DNL Search, Social, & Commerce] kan du hitta en lista
 
