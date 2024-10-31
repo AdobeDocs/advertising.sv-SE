@@ -2,9 +2,9 @@
 title: Vanliga frågor om anpassade rapporter
 description: Läs mer om anpassade rapporter, inklusive hushållsrapporter och rapporter om konverteringsmetoder.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,9 @@ Det bästa användningsexemplet är att använda både [!UICONTROL Household]-ra
 
 ## Analysrapporter för konverteringssökväg
 
-### Hur skiljer sig rapporten Sökväg till konvertering från rapporter som skapats av [!DNL Advanced Measurement Services] och Adobe Analytics?
+### Hur fungerar rapporten Sökväg till konvertering jämfört med rapporter som skapats av [!DNL Advanced Measurement Services] och Adobe Analytics Analysis Workspace?
 
-| | Sökväg till konverteringsrapport | Haloeffekt för Advanced Measurement Services i sökrapporter | Adobe Analytics Workspace-rapporter |
+| | Sökväg till konverteringsrapport | Haloeffekt för Advanced Measurement Services i sökrapporter | Rapporter i Analysis Workspace |
 | --- | --- | --- |---|
 | Kundvärde | Generera en självbetjäningsrapport för att förstå vilka vägar i annonsen som ledde till fler konverteringar för att öka optimeringen | Förstå hur uppkopplad TV-taktik påverkar sökklickningar | Förstå effekten av er helhetsinvestering i Adobe Advertising, tillsammans med andra marknadsföringskanaler, på sökklick |
 | Hushållsnivå | Ja | Ja | Nej |
