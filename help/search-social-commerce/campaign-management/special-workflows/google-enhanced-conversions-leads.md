@@ -2,9 +2,10 @@
 title: Implementera [!DNL Google Ads] utökade konverteringar för leads
 description: Lär dig mer om arbetsflödet för att konfigurera  [!DNL Google Ads] förbättrade konverteringar för leads.
 feature: Search Campaign Management, Conversions
-source-git-commit: 60a67c8668df13afc08e14b0a495a37ded24bc0c
+exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
+source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -15,7 +16,17 @@ Endast *[!DNL Google Ads]konton*
 
 Med [[!DNL Google Ads] förbättrade konverteringar för leads](https://support.google.com/google-ads/answer/9888656) kan du mappa användare till offlinekonverteringar med hjälp av dina egna konverteringsdata. Använd förbättrade konverteringar för leads i miljöer där klicknings-ID inte är tillgängliga, till exempel för att spåra telefonförsäljning eller e-postförsäljning som är ett resultat av webbleads.
 
-Inom Search, Social och Commerce kan ni inkludera era förbättrade konverteringar för leads som mätvärden i rapporter och som viktade mätvärden inom mål för optimering. Search, Social, &amp; Commerce synkroniserar dina befintliga förbättrade konverteringar för leads varje dag kl. 05:00 i annonsörens tidszon.
+I Search, Social och Commerce kan du
+
+* Visa dina befintliga förbättrade konverteringar för leads.
+
+  Search, Social, &amp; Commerce synkroniserar dina befintliga förbättrade konverteringar för leads varje dag kl. 05:00 i annonsörens tidszon.
+
+* Skapa bättre konverteringar för leads.
+
+* Ladda upp konverteringsdata från första part, offline för att mappa till era förbättrade konverteringar för leads.
+
+* Inkludera era förbättrade konverteringar för leads som mätvärden i rapporter och som viktade mätvärden inom mål för optimering.
 
 Utför följande steg om du vill använda den här funktionen. Stegen för att skapa konverteringsspårningstaggar och för att skapa konverteringsåtgärder kan också ångras.
 
