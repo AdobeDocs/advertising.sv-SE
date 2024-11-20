@@ -3,7 +3,7 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 0%
@@ -215,11 +215,11 @@ Så här anger du målinriktning för lager:
 
 Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönster eller instoppat i innehåll (i den ursprungliga upplevelsen), i stället för som vanliga videoannonser i en videospelare.
 
-## [!UICONTROL Site Targeting]
+## [!UICONTROL Site and App Targeting]
 
 **[!UICONTROL Traffic type]:** Typer av trafik som ska mål. Alternativen är **[!UICONTROL Websites]** och **[!UICONTROL Apps]**.
 
-**[!UICONTROL Site tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på de webbplatser som ska målas. Nivåerna 1-3 är alla varumärkessäkra och har godkänts av DSP.
+**[!UICONTROL Tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på trafiken till målet. Nivåerna 1-3 är alla varumärkessäkra och har godkänts av DSP.
 
 * *[!UICONTROL Tier 1]:* Premium-webbplatser och -program som är nationellt identifierbara.
 
@@ -227,7 +227,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 
 * *[!UICONTROL Tier 3]:* Målgrupper för Tiers 1-2 plus legitima och varumärkessäkra webbplatser och program som passar en nischmålgrupp. Använd nivå 3 för målgruppsköp för räckvidd eller data.
 
-* *[!UICONTROL All Sites]:* Målenheterna 1-3 och nytt lager som inte har säkerhetskontrollerats eller kategoriserats, som du kan använda för att nå.
+* *[!UICONTROL All Sites or Apps]:* Målenheterna 1-3 och nytt lager som inte har säkerhetskontrollerats eller kategoriserats, som du kan använda för att nå.
 
 >[!NOTE]
 >
@@ -237,7 +237,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 >
 >För prestandakampanjer är det bästa sättet att välja *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site Categories]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatskategorier i de valda webbplatsnivåerna som antingen ska inkluderas eller exkluderas (men inte båda) som mål. Välj från lodräta listor med webbplatser som DSP har mappat utifrån ämne:
+**[!UICONTROL Site or App Categories]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatskategorier i de valda webbplatsnivåerna som antingen ska inkluderas eller exkluderas (men inte båda) som mål. Välj från lodräta listor med webbplatser som DSP har mappat utifrån ämne:
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange de webbplatskategorier som ska inkluderas eller exkluderas:
@@ -250,7 +250,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 1. (Valfritt) Om du vill hämta en CSV-fil med målinformationen till hämtningsplatsen för din webbläsare klickar du på **[!UICONTROL Export]**.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatser som ska exkluderas. Du kan antingen söka efter och välja platser eller ange eller klistra in domännamn:
+**[!UICONTROL Exclude Sites or Apps]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatser som ska exkluderas. Du kan antingen söka efter och välja platser eller ange eller klistra in domännamn:
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange platserna:
@@ -273,7 +273,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 
 **[!UICONTROL Language]:** (Valfritt) Ett enda språk att rikta sig till.
 
-**[!UICONTROL Site List Preview]:** (skrivskyddat) Alla målwebbplatser och blockerade webbplatser för placeringen.
+**[!UICONTROL Site or App List Preview]:** (skrivskyddat) Alla målwebbplatser och blockerade webbplatser för placeringen.
 
 Du kan också exportera listan med målwebbplatser och blockerade webbplatser som en kommaavgränsad värdefil (CSV). Om du vill exportera listan klickar du på **[!UICONTROL Export full site list]** och öppnar eller sparar sedan filen enligt webbläsarens normala procedur.
 
@@ -389,7 +389,7 @@ Så här anger du målinriktning:
 1. (Valfritt) Klicka på **[!UICONTROL Export]** om du vill hämta en CSV-fil med målinformation från Internet-leverantören till nedladdningsplatsen för din webbläsare.
 1. Klicka på **[!UICONTROL Save]**.
 
-## [!UICONTROL Brand Safety and Media Targeting]
+## [!UICONTROL Brand Safety and Media Quality]
 
 **[!UICONTROL Contextual filtering]:** Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
 

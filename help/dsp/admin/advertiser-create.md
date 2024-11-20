@@ -2,7 +2,7 @@
 title: Skapa ett Advertiser-konto
 description: Lär dig hur du skapar ett annonsörskonto.
 role: User, Admin
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 # Skapa ett Advertiser-konto
 
 *Inte tillgängligt för skrivskyddade användare*
+
+<!-- Not published -->
 
 Annonsörer är tillgängliga för alla användare i organisationskontot.
 
