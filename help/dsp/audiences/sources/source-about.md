@@ -3,7 +3,7 @@ title: Om källor för förstagångspubliker
 description: Lär dig hur du konverterar andra användaridentifierare i dina förstapartssegment till universella ID:n för cookiefri målinriktning.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 78ee6ddbfb87915475bcf84bd7cd405a58eccf14
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -70,9 +70,9 @@ DSP har upprättat kopplingar till följande CDP:er för att snabbt importera er
 
 DSP kan även ansluta till ytterligare CDP:er med batchvis, direktuppspelad eller API-baserad datadelning. Om du vill integrera med en ny CDP kontaktar du kontoteamet på Adobe.
 
-### [!DNL Adobe Real-Time Customer Data Platform]
+### [!DNL Adobe Real-Time CDP]
 
-DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som är en del av Adobe Experience Platform.
+DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som är en del av Adobe Experience Platform.
 
 I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i [Destinationshandboken](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) för Experience Platform, inklusive en översikt över produkten, instruktioner om hur du [skapar målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapar målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) samt [aktiverar data till destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 

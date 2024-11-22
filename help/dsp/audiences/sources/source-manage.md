@@ -3,7 +3,7 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 02ed538a48a4ba0323f9b75938ee6b007c6e0fd7
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -34,7 +34,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Välj din [kunddataplattform](source-about.md) på menyn [!UICONTROL Select a Type]:
 
-   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time Customer Data Platform].
+   * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
 
    * *[!UICONTROL ActionIQ]*: [!DNL ActionIQ]-kunddataplattformen.
 

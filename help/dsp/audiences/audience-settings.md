@@ -3,7 +3,7 @@ title: Målgruppsinställningar
 description: Se beskrivningar av tillgängliga målgruppsinställningar.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 53b52066eda55b3338a8a11773fdb8924211bddc
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Adobe segment
 
-(Valfritt) Alla [!DNL Adobe Real-Time Customer Data Platform]-, Adobe Analytics- eller Adobe Audience Manager-segment som ska ingå i målgruppskonfigurationen.
+(Valfritt) Alla [!DNL Adobe Real-Time CDP]-, Adobe Analytics- eller Adobe Audience Manager-segment som ska ingå i målgruppskonfigurationen.
 
 ## Egna segment
 

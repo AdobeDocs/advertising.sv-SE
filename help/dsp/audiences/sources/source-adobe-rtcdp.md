@@ -3,7 +3,7 @@ title: Använda DSP integrering med  [!DNL Adobe] [!DNL Real-time CDP]
 description: Lär dig hur du aktiverar DSP att importera dina  [!DNL Adobe] [!DNL Real-time CDP] förstapartssegment.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd DSP integrering med [the [!DNL Adobe Real-Time Customer Data Platform (CDP)]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform, för att konvertera dina hashade e-postadresser till universella ID:n för riktad reklam.
+Använd DSP integrering med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform, för att konvertera dina hashade e-postadresser till universella ID:n för riktad reklam.
 
 1. (Så här konverterar du e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Ställ in spårning för [!DNL Analytics]-mätning:
 
