@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av  [!DNL Analytics]
 description: Adobe Advertising-ID som används av  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 0f55d98a5abfa75b4ef5dc18ad2cfb22b9e24e78
+source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -221,27 +221,26 @@ where:
 
 ##### [!DNL Microsoft Advertising]
 
-* Sökkampanjer:
+* Alla kampanjtyper:
 
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* Högsta prestanda-kampanjer
-
-  `s_kwcid=AL!%(userid)d!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
-
-* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
-
-* Målgruppskampanjer:
-
-  `s_kwcid=AL!{userid}!{sid}!{AdId}`
+  `s_kwcid=AL!{userid}!{sid}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 där:
 
 * `{AdId}` är annonsnätverkets unika numeriska ID för den kreativa.
 * `{OrderItemId}` är annonsnätverkets numeriska ID för nyckelordet.
-* `{CriterionId}` är annonsnätverkets numeriska ID för produktgruppen som används med produktannonser.
+* `{CampaignId}` är annonsnätverkets unika numeriska ID för kampanjen.
+* `{AdGroupId}` är annonsnätverkets unika numeriska ID för annonsgruppen.
+
+>[!NOTE]
+>
+>Alla konton med prestandakampanjer migrerades till ovanstående format. För konton med andra kampanjtyper migreras dina landningssidessuffix till det nya s_kwcid-formatet i början av 2025. Under tiden fungerar de äldre formaten enligt följande:
+>* Sökkampanjer:
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+>* Målgruppskampanjer:
+>  `s_kwcid=AL!{userid}!{sid}!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
