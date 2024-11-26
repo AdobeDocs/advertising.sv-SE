@@ -3,9 +3,9 @@ title: Adobe Advertising-ID som används av  [!DNL Analytics]
 description: Adobe Advertising-ID som används av  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 33a27faa14cbd1fa3248364cc7a3bf9c0cd94c76
+source-git-commit: 7d10ab34b804f96d621c351d9f8049c924019ba1
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 0%
 
 ---
@@ -234,7 +234,7 @@ där:
 
 >[!NOTE]
 >
->Alla konton med prestandakampanjer migrerades till ovanstående format. För konton med andra kampanjtyper migreras dina landningssidessuffix till det nya s_kwcid-formatet i början av 2025. Under tiden fungerar de äldre formaten enligt följande:
+>Alla konton med maximala prestandakampanjer migrerades till ovanstående format. För konton med andra kampanjtyper migreras dina landningssidessuffix till det nya s_kwcid-formatet i början av 2025. Under tiden fungerar de äldre formaten enligt följande:
 >* Sökkampanjer:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
