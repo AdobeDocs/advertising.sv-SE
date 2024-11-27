@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 0ecceaf30ce135dd0083e34dd5c8c5bafb5a3c16
+source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 3%
@@ -233,5 +233,5 @@ ht-degree: 3%
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
 + [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ [Kundsupport](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)
++ [Kundsupport](https://experienceleague.adobe.com/home?support-tab=home#support)
 + [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
