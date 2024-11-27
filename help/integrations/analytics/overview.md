@@ -3,9 +3,9 @@ title: Översikt över  [!DNL Analytics for Advertising]
 description: Översikt över  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 2575b737926cfd681fd744401d5f4555402fbee2
+source-git-commit: 8911f6ea16878bede96151f004e6de2717484140
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,8 @@ Utan att ytterligare pixlar behövs kan [!DNL Analytics for Advertising] optimer
 ### Webbplatskonverteringsmått som budsignaler
 
 Du kan använda standardhändelser och anpassade händelser från [!DNL Analytics] för att skapa viktade mål i Adobe Advertising. Mål är grunden för beslut om anbudsgivning för dina [!DNL DSP]-paket samt för Search-, Social- och Commerce-portföljer.
+
+För [!DNL Google Ads]- och [!DNL Google Microsoft Advertising]-kampanjer i hybridportföljerna Search, Social och Commerce kan du överföra målen - inklusive eventuella [!DNL Analytics] -händelser i målen - direkt till annonsnätverken, där de blir tillgängliga som konverteringsåtgärder för anpassade konverteringsmål på kontonivå och kampanjnivå.
 
 >[!NOTE]
 >
