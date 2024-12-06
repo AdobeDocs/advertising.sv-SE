@@ -3,9 +3,9 @@ title: Implementera [!DNL Google Ads] utökade konverteringar för leads
 description: Lär dig mer om arbetsflödet för att konfigurera  [!DNL Google Ads] förbättrade konverteringar för leads.
 feature: Search Campaign Management, Conversions
 exl-id: b708c9f2-2962-45d9-8780-4e96ef2ae8f7
-source-git-commit: 56161ece4ba9c01cddb86e16796150c391f1a811
+source-git-commit: e0b1a65e3eddc41bed73817dabb6e38b1ef881b5
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -38,14 +38,13 @@ Utför följande steg om du vill använda den här funktionen. Stegen för att s
 
    1. Välj om du vill använda en [!DNL Google]-tagg eller [!DNL Google Tag Manager] för att skapa konverteringstaggen.
 
-
-1. Konfigurera och implementera en [!DNL Google]-tagg för konverteringsåtgärden.
+1. Konfigurera och implementera en tagg för att spåra konverteringsåtgärden.
 
    Instruktioner finns i hjälpen för [!DNL Google Ads] om hur du skapar taggar för förbättrad konvertering av leads [med en [!DNL Google] tagg](https://support.google.com/google-ads/answer/11021502) eller [med  [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11347292).
 
 1. Skapa en konverteringsåtgärd för den förbättrade konverteringen av leads i antingen [Sök, Social och Commerce](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md) eller [Google Ads](https://support.google.com/google-ads/answer/12216226).
 
-   För **Typ av konvertering** väljer du *Importera konvertering* eller *Importera.*
+   Om du skapar konverteringsåtgärden i Sök, Socialt och Commerce anger du **typen av konvertering** som *Importera konvertering* eller *Importera.*
 
 1. Ladda upp egna data, inklusive hash-kodade e-postadresser eller telefonnummer, och tilldela konverteringen för ett visst konto så ofta det behövs. Du kan slutföra det här steget från antingen [Sök, Socialt och Commerce](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md) eller med [!DNL Google Data Manager].
 

@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 4fe931a07246920eeef8ce08e3a38c5fd6534bd4
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1738'
 ht-degree: 2%
 
 ---
@@ -238,6 +238,7 @@ ht-degree: 2%
          + [Implementera  [!DNL Google Ads] dynamiska sökannonser](/help/search-social-commerce/campaign-management/special-workflows/google-dynamic-search-ads.md)
          + [Implementera  [!DNL Google Ads] maximala prestandakampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-performance-max-campaigns.md)
          + [Implementera  [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md)
+         + [Implementera [!DNL Microsoft Advertising] utökade konverteringar för offlinekonverteringar](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
          + [Implementera  [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md)
       + [Synkronisera annonsdata manuellt](/help/search-social-commerce/campaign-management/campaigns/sync-network.md)
    + [Tilldela kampanjer till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md)
@@ -410,9 +411,9 @@ ht-degree: 2%
       + [Visa konverteringsstatistik som spårats för en annonsörer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-view-tracked.md)
       + [Ändra konverteringsstatistik som är tillgänglig i ledningslägen och rapporter](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md)
       + [Ändra visningsnamnet för ett konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md)
-      + Hantera och nätverksspecifika konverteringstaggar och konverteringsåtgärder {#network-conversions}
+      + Hantera och nätverksspecifika konverteringstaggar och konverteringsåtgärder/mål {#network-conversions}
          + [Skapa en konverteringstagg för  [!DNL Google Ads]](/help/search-social-commerce/admin/conversion-metrics/conversion-tag-google.md)
-         + Hantera konverteringsåtgärder {#conversion-actions}
+         + Hantera konverteringsåtgärder och mål {#conversion-actions}
             + [Skapa en konverteringsåtgärd för en  [!DNL Google Ads] förbättrad konvertering för leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
             + [Ladda upp offlinekonverteringsdata för förbättrad konvertering](/help/search-social-commerce/admin/conversion-metrics/upload-data-offline-conversions.md)
 + [Få hjälp](get-help.md)
