@@ -2,7 +2,7 @@
 title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Du kan öppna direkthjälpen från vilken sida som helst i användargränssnitte
 
 ## Fråga Adobe Advertising-communityn
 
-Leta efter svar på dina frågor i [Adobe Advertising användarforum](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising-cloud/ct-p/adobe-advertising-cloud-community).
+Leta efter svar på dina frågor i [Adobe Advertising användarforum](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 
 ## Kontakt [!DNL Adobe]
 

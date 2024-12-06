@@ -3,7 +3,7 @@ title: Konverteringsspårning för Adobe Analytics
 description: Läs om hur du använder Adobe Analytics konverteringsspårning för kampanjer i Adobe Advertising.
 exl-id: c72cc988-5b51-4e1a-8cb6-6c3ca2a0226b
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 8deabf2c98901d706acdd035221e8c24e4a1d20d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 För annonsörer med integrering mellan Adobe Advertising och Adobe Analytics kan Advertising Cloud koppla samman dina annonsklickningar och visningar med de mått för webbplatsengagemang och konvertering som spåras av [!DNL Analytics] när du använder en omdirigering med en token (`ef_id` parameter) i dina klickspårnings-URL:er för dina [budenheter](/help/search-social-commerce/glossary.md#a-b). [!DNL Analytics]-data skickas automatiskt till Advertising Cloud via en daglig feed-fil.
 
-Mer information om integrationen finns i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/integrations/analytics/overview.html){target="_blank"}.
+Mer information om integrationen finns i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/dsp/integrations/analytics/overview.html){target="_blank"}.
 
 >[!PREREQUISITES]
 >
