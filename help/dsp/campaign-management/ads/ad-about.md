@@ -3,9 +3,9 @@ title: Om annonshantering i Advertising DSP
 description: Läs mer om annonshantering.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ DSP har stöd för annonsleverans via tredjepartstaggar för annonsvisning (som 
 <!-- The bulk upload feature requires you to either a) upload DoubleClick and Flashtalking tag sheets or b) download a template, input your tags into the template, and then re-upload the template. -->
 <!-- need a list of all supported third-party ad servers; see file in future-tbd folder -->
 
-När era annonser har konfigurerats kan ni bifoga varje annons till en placering, som innehåller målgruppsparametrar (som geo, målgrupp, enhet och målinriktning mot lager) som styr hur kampanjen levererar. Du kan bifoga en annons till en eller flera placeringar.
+När era annonser har konfigurerats kan ni bifoga varje annons till en eller flera annonser, som innehåller målinriktningsparametrar (som geo, målgrupp, enhet och målinriktning mot lager) som styr hur kampanjen levererar. Du måste bifoga en annons till en plats för att kunna börja köra annonsen.
 
 ## Tillgängliga annonstyper {#ad-types}
 
