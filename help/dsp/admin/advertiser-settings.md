@@ -2,9 +2,9 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: a7751041b75f4258ce8e57629262c4cb30eccc95
+source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -170,11 +170,9 @@ Du kan åsidosätta inställningen på annonsörnivå på [placeringsnivå](/hel
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] endast kunder; valfritt) Det varumärkessäkerhetssegment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] enbart kunder; valfritt) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas som standard för alla ersättningar. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
 
-**[!UICONTROL Enable Authentic Brand Suitability]:** (Valfritt) Aktiverar som standard [!DNL DoubleVerify Authentic Brand Safety], vilket blockerar visningar efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
-
-Du kan åsidosätta inställningen på annonsörnivå på placeringsnivån.
+ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Du kan ändra eller ta bort annonsörnivå-ID på placeringsnivå.
 
 >[!MORELIKETHIS]
 >

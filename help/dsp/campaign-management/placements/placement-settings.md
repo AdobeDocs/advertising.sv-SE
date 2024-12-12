@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 06bf098bbda30db6a9fa6f21e9e08db74258f578
+source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
 workflow-type: tm+mt
-source-wordcount: '3887'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,15 @@ Så här anger du målinriktning:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Valfritt; endast [!DNL DoubleVerify] kunder; endast tillgängligt för pre-roll-dator, standard- och click-to-play-visning och inbyggda visnings- och videopresentationer; stöds inte för [standardplaceringar för programmatiska erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas för placeringen. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
+
+ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard anges ett segment-ID i inställningarna för annonserarkontot, men du kan ändra ID:t så att det använder ett annat segment eller ta bort ID:t för att inaktivera funktionen.
+
 **[!UICONTROL Contextual filtering]:** Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
+
+<!-- Looks like we didn't rename this:
+**[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
+-->
 
 * [!UICONTROL DoubleVerify]:
 
@@ -441,8 +449,6 @@ Vilken nivå av förfiltrering av [Ads.txt](https://iabtechlab.com/ads-txt-about
 * *[!UICONTROL Ads.txt sellers only]*: Om du bara vill köpa lager från en domäns auktoriserade direktförsäljare.
 
 **[!UICONTROL Attention Targeting]:** (Bildskärmar, video, mobiler och vanliga anslutna TV-enheter) Mål [!DNL Adelaide] för segment med en viss prioritetsnivå (hög, medel eller låg) baserat på den angivna platsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Om du använder [!DNL Adelaide] segment för målinriktning debiteras en CPM-avgift för varje intryck som levereras med [!DNL Adelaide] uppmärksamhet riktad mot. Den här avgiften är separat från avgifterna för [uppmärksamhet-mätning](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
-
-**[!UICONTROL DoubleVerify Authentic Brand Safety]:** (Annonsörer konfigurerade med alternativet [!UICONTROL DoubleVerify Authentic Brand Safety]) Aktiverar [!DNL DoubleVerify Authentic Brand Safety] som blockerar visningar efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av det segment-ID som anges i annonserarens inställningar.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 

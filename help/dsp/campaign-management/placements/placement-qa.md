@@ -3,7 +3,7 @@ title: Granska och redigera placeringsinställningar med hjälp av flera kalkylb
 description: Lär dig hur du granskar och redigerar nyckelplaceringsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 8f4e694885919a8dcf7895c2f8d8aeb11249e03c
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 0%
@@ -109,6 +109,10 @@ Du kan överföra inställningar för dina placeringar och för annonser och pak
 
 ### Kampanjnivåkalkylblad
 
+<!-- 
+Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
+-->
+
 | Avsnitt | Kolumn | Beskrivning | Redigerbar? |
 |---------|--------|-------------|-----------|
 | [!UICONTROL Basic] | [!UICONTROL Placement ID] | Placeringens numeriska ID. | — |
@@ -195,6 +199,25 @@ Du kan överföra inställningar för dina placeringar och för annonser och pak
 | [!UICONTROL Secondary Frequency Cap Interval] | Intervalltypen för den sekundära frekvensbegränsningen: *[!UICONTROL Week]*, *[!UICONTROL Day]*, *[!UICONTROL Hour]* eller *[!UICONTROL Minute]*. Det tillämpliga antalet veckor, dagar, timmar eller minuter anges av [!UICONTROL Secondary Frequency Cap Interval Value]. | Ja |
 | [!UICONTROL Secondary Frequency Cap Interval Value] | Antalet veckor, dagar, timmar eller minuter som [!UICONTROL Secondary Frequency Cap] gäller. Om det sekundära gränsvärdet till exempel är tre avtryck per sex timmar blir värdet här `6`. | Ja |
 | [!UICONTROL Attached Ad ID] | Unika DSP-genererade ID:n för annonser som är kopplade till placeringen, avgränsade med semikolon. Om du vill hämta en lista med annonsnamn och associerade ID:n från vyn [!UICONTROL Ads] skapar du en anpassad vy som innehåller måttet [!UICONTROL Ad ID] och [exporterar sedan data](/help/dsp/campaign-management/reports/campaign-export-data.md). | Ja |
+
+
+<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+
+Brand Safety - Contextual Filtering #								"		
+
+| Brand Safety | Brand Safety - Contextual Filtering # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |
+| Brand Safety | Brand Safety - Pre-Bid Viewability # |  |  |
+| Brand Safety | Site Safety Block |  |  |
+| Tracking | Tracking Pixels # |  |  |
+| Tracking | Conversion Pixels # |  |  |
+| Tracking | 3rd-party fees |  |  |
+| # of Ads Attached |  |  |
+| Ads |  Ad Names |  |  |
+| Ads | Attached Ad ID |  |  |
+| Environment | Environment |  |  |
+-->
+
 
 >[!MORELIKETHIS]
 >
