@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Yahoo! Japan Ads] nyckelordsinställningar'
+title: Inställningar för nyckelord för [!DNL Yahoo! Japan Ads]
 description: Referera inställningarna för  [!DNL Yahoo! Japan Ads] nyckelord.
 exl-id: c2a34b3e-fb88-44e8-8bf8-7854639bd8cd
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cfb7cf030d91ed6b2b31832fd8ab8c97135477f3
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Nyckelorden. Maxlängden är 80 tecken, inklusive alla [[!DNL Yahoo! Japan Ads] matchningstypssyntax](https://ads-help.yahoo.co.jp/yahooads/ss/articledetail?lan=en&amp;aid=27) för nyckelord.
+**[!UICONTROL Keywords]:** Nyckelorden. Maxlängden är 80 tecken, inklusive alla [[!DNL Yahoo! Japan Ads] matchningstypssyntax](https://ads-help.yahoo-net.jp/s/article/H000044997) för nyckelord.
 
 Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord med kommatecken eller ange dem på separata rader.
 
