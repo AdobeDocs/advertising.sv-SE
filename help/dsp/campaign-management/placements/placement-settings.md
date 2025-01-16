@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: cbefed8dcf59038d57e145d511f2491dd928a788
+source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '3966'
 ht-degree: 0%
 
 ---
@@ -448,7 +448,7 @@ Vilken nivå av förfiltrering av [Ads.txt](https://iabtechlab.com/ads-txt-about
 * *[!UICONTROL Ads.txt sellers only]*: Om du bara vill köpa lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Om du bara vill köpa lager från en domäns auktoriserade direktförsäljare.
 
-**[!UICONTROL Attention Targeting]:** (Bildskärmar, video, mobiler och vanliga anslutna TV-enheter) Mål [!DNL Adelaide] för segment med en viss prioritetsnivå (hög, medel eller låg) baserat på den angivna platsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Om du använder [!DNL Adelaide] segment för målinriktning debiteras en CPM-avgift för varje intryck som levereras med [!DNL Adelaide] uppmärksamhet riktad mot. Den här avgiften är separat från avgifterna för [uppmärksamhet-mätning](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
+**[!UICONTROL Attention Targeting]:** (Bildskärm, video och vanliga anslutna TV-enheter) Målar [!DNL Adelaide] för segment före bud med en viss prioritetsnivå (hög, medel eller låg) baserat på den angivna platsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Om du använder [!DNL Adelaide] segment för målinriktning debiteras en CPM-avgift för varje intryck som skickas med [!DNL Adelaide] uppmärksamhet riktad mot. Den här avgiften är separat från avgifterna för [målinriktningen](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
