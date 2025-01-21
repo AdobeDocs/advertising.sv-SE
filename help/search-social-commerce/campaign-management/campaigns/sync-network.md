@@ -3,7 +3,7 @@ title: Synkronisera annonsdata manuellt
 description: Lär dig hur du manuellt aktiverar synkronisering av din kampanjstruktur och kampanjentiteter för annonsnätverk som stöds.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -32,7 +32,7 @@ För kampanjer med alternativet [!UICONTROL Auto Upload] genererar synkroniserin
 
 1. Markera kryssrutan bredvid varje konto eller kampanj som du vill synkronisera. Ni kan synkronisera upp till 50 kampanjer i taget. Om du synkroniserar fler än fem konton åt gången delas jobbet upp i grupper om upp till fem konton.
 
-1. Klicka på **![Mer](/help/search-social-commerce/assets/more.png "Mer")** i verktygsfältet och välj sedan **[!UICONTROL Sync]**.
+1. Klicka på ![**Mer**](/help/search-social-commerce/assets/more.png " Mer") i verktygsfältet och välj sedan **[!UICONTROL Sync]**.
 
 Du kan följa statusen för synkroniseringsjobbet i vyn [!UICONTROL Workspace]. Jobbet kan ta
 en timme eller mer att visa.
