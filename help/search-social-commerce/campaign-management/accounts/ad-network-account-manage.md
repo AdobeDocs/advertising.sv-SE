@@ -3,7 +3,7 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 68efad8ad3bc2985ac75a0f9437a2eafb194e4b6
+source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -261,7 +261,7 @@ Fullständiga anvisningar finns i &quot;[Uppdatera spårningskoden för AMO-ID f
 
 **Rapportsvitnamn:** (Endast för EF-omdirigering med token; annonsörer med integrering mellan Adobe Advertising och Adobe Analytics; valfritt) En eller flera analysrapportsviter dit Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
-För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable tracking for SAINT feeds] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontoteamet på Adobe om du vill ha mer information.
+För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable Advertising reporting in Analytics] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontoteamet på Adobe om du vill ha mer information.
 
 >[!MORELIKETHIS]
 >

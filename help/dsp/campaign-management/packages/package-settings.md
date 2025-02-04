@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: c1967636a762379f1daafb52cfe57dd0122b0748
+source-git-commit: 26c9c553dbd4086aa114b97dabdf4d9be10cdebe
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Endast paket med paketnivåpacering och med optimeringsmålen [!UICONTROL Always Max Bid & Maximize Reach] och [!UICONTROL Lowest Cost per Reach]) Använder hushållets måldata från alla programmatiska garanterade placeringar i kampanjen för att optimera för inkrementell räckvidd.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Endast paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Ett [anpassat mål](/help/dsp/optimization/custom-goal.md) som innehåller de intäkt- eller konverteringshändelser som används för att beräkna CPA- eller ROAS-måttet. Det anpassade målet kan även omfatta ytterligare viktade övre tratthändelser (t.ex. sidbesök och kundvagnstillägg) som ska användas utöver CPA- eller ROAS-mätvärdena för paketoptimering. Mer information om anpassade mål, inklusive de bästa sätten att skapa för anpassade mål och kampanjer som använder dem, finns i [Anpassade mål](/help/dsp/optimization/custom-goal.md) och [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
+**[!UICONTROL Custom Goal for Model Learning]:** (Endast paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Ett [anpassat mål](/help/dsp/optimization/custom-goal.md) som innehåller de intäkt- eller konverteringshändelser som används för att beräkna CPA- eller ROAS-måttet. Det anpassade målet måste omfatta ytterligare viktade övre trattaktiviteter (t.ex. sidbesök och kundvagnstillägg) som ska användas utöver CPA- eller ROAS-mätvärdena för paketoptimering. Mer information om anpassade mål, inklusive de bästa sätten att skapa för anpassade mål och kampanjer som använder dem, finns i [Anpassade mål](/help/dsp/optimization/custom-goal.md) och [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Valfritt; paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Anger att optimeringsmodellen endast ska lära sig av klickbaserade konverteringar. I annat fall lär sig optimeringsmodellen av både klicknings- och inställningsbaserade konverteringar.
 
-**[!UICONTROL Conversion Metric]:** (Valfritt; paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Den slutliga konverteringshändelsen (till exempel registreringar) eller intäktshändelsen/försäljningsbeloppet (till exempel köp- och inköpsvärden) som ska användas för att beräkna avkastningen på annonskostnaderna eller kostnaden per förvärv. Välj i en lista över alla primära händelser (&quot;målmått&quot;) mappade till det valda anpassade målet. Om listan är tom redigerar du det anpassade målet så att minst en av de underliggande händelserna inkluderas som målmått.
+**[!UICONTROL Conversion Metric]:** (Paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Den slutliga konverteringshändelsen (till exempel registreringar) eller intäktshändelsen/försäljningsbeloppet (till exempel köp- och inköpsvärden) som ska användas för att beräkna avkastningen på annonskostnaderna eller kostnaden per förvärv. Välj i en lista över alla primära händelser (&quot;målmått&quot;) mappade till det valda anpassade målet. Om listan är tom redigerar du det anpassade målet så att minst en av de underliggande händelserna inkluderas som målmått.
 
 **[!UICONTROL Package Goal Type]:** (Endast paket med anpassade optimeringsmål) Paketets syfte. Med den här inställningen kan du avgöra hur paketet ska optimeras:
 

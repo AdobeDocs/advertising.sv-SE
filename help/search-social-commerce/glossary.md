@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 128446e8fad1e2c973a62042933cc52bb556a71d
+source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 0%
 
 **kostnadseffektivitet:** (annonsörer med portföljer) Den faktiska utgiften för en portfölj dividerat med de prognostiserade utgifterna. [Modellnoggrannhetsrapporter](/help/search-social-commerce/reports/management/model-accuracy/model-accuracy-report-about.md) indikerar noggrannheten för de kostnadsmodeller som används för optimering, och [[!UICONTROL Model Accuracy]insight](/help/search-social-commerce/advertising-insights/insight-about.md) innehåller mer information förutom rekommendationer för att förbättra modellnoggrannheten.
 
-**kostnadsmodell:** (annonsörer med portföljer) Search-, Social- och Commerce-teknik som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
+**kostnadsmodell:** (Advertisers with portfolios) Search-, Social- och Commerce-teknik som förutser kostnadsvolym, vilket bud som krävs för att vinna varje position eller placering samt CPC (sökning) eller CPM (visning) för varje budenhet med hjälp av historiska data och matematiska prognostekniker.
 
 **täckningsgrad för kostnadsmodell:** (annonsörer med portföljer) Antal och/eller procentandel av anbudsenheter i CPC- eller eCPC-kampanjer som har fått minst ett intryck de senaste sju dagarna så att optimeringsfunktionen kan skapa kostnadsmodeller. Inte alla budenheter har kostnadsmodeller; budenheterna med kostnadsmodeller räknas in i kostnadsmodellens täckning.
 
 **halveringstid för kostnadsmodell:** (annonsörer med portföljer) Antal dagar före det aktuella datumet för vilket kostnadsdata anses vara nyare och därför mer relevanta för kostnadsmodeller.
 
-**kostnad per 1 000 visningar:** (CPM) Kostnaden för en annons för varje tusen visningar. Annonsörer som använder en CPM-prismodell betalar med visningar i stället för med klick.
+**kostnad per 1 000 visningar:** (CPM) Kostnaden för en annons för varje tusen visningar. Annonsörer som använder en prismodell från CPM betalar med intryck snarare än med klick.
 
 **kostnad per förvärv:** (CPA) Kostnaden för en annons dividerat med antalet konverteringar. Kallas också kostnad per transaktion (CPT) eller kostnad per order (CPO).
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 ## E-F {#e-f}
 
-**eCPM:** Den effektiva CPM-modulen, eller den genomsnittliga kostnad som betalas per 1 000 visningar under ett angivet datumintervall. eCPM-värden kan beräknas för CPM- eller CPC-kampanjer.
+**eCPM:** Den gällande CPM, eller den genomsnittliga kostnaden per 1 000 visningar under ett visst datumintervall. eCPM-värden kan beräknas för antingen CPM- eller CPC-kampanjer.
 
 ## G-H {#g-h}
 
@@ -180,6 +180,8 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 **utgiftsstrategi:** (annonsörer med portföljer) Den strategi som valts för att optimera budgivning via nyckelord/annonser för en portfölj.
 
 **`s_kwcid`:** Se &quot;AMO ID&quot;.
+
+**spårningsmall:** (Endast konton med slutliga URL:er) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga/avancerade URL:en i en parameter. För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefix automatiskt för Sökning, Socialt och Commerce för sin egen omdirigerings- och spårningskod när du sparar posten.
 
 **spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar på annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
 
