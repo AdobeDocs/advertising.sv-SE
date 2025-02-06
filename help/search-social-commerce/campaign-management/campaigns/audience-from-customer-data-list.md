@@ -3,9 +3,9 @@ title: Hantera kundmatchande målgrupper med hjälp av kunddatalistor
 description: Lär dig hur du skapar och redigerar [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatchningar utifrån era kunddatalistor.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ För [!DNL Microsoft Advertising]-konton kan filen innehålla e-postadresser. F�
 
 1. Generera en fil med kunddata i det format som krävs.
 
-   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
+   För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921). Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
@@ -54,11 +54,11 @@ För [!DNL Microsoft Advertising]-konton kan filen innehålla e-postadresser. F�
 
          * ([!DNL Android™] program) Paketnamnet [!DNL Android™] i [!DNL Google Play], identifieras av `id=<package_name>`.
 
-           I https://play.google.com/store/apps/details?id=com.example.game heter paketet till exempel com.example.game.
+           I `https://play.google.com/store/apps/details?id=com.example.game` är till exempel paketnamnet com.example.game.
 
          * ([!DNL iOS] appar) Program-ID:t i [!DNL iTunes App Store], som identifieras av `<idNNNNNNNNN>` i slutet av URL:en. Den är också tillgänglig i [!DNL iOS Developer Console].
 
-           I https://itunes.apple.com/us/app/id284882215 är till exempel ID id284882215.
+           I `https://itunes.apple.com/us/app/id284882215` är till exempel ID id284882215.
 
          Utvecklingsteamet har åtkomst till [!UICONTROL App ID] för den aktuella plattformen.
 
