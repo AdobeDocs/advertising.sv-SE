@@ -1,0 +1,63 @@
+---
+title: Manage dynamic ads
+description: Learn about xxxx.
+feature: Creative Dynamic Creatives
+---
+# Manage dynamic ads
+
+*Closed beta*
+
+<!-- Look at m.s's account for examples-->
+
+You can create a catalog of dynamic ads using an existing ad template (created from a different submenu) and specified files that contain dynamic text (such as product names and prices). <!-- More?  Also add appropriate links. -->
+
+<!-- Should I write this all out yet, or just say "Your Adobe Account Team will do this for you" or such for now, if this is available only via managed services? But I should probably put the feed file requirements (headers and valid field values, etc.) in help anyway since the client might still want to see it, and it will also be available for ACS to use.  -->
+
+## Manually (?) create a dynamic ad
+
+<!-- Is this technically or strategically different than setting up feeds and templates? Clarify automated processes vs. manual processes. -->
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. On the **[!UICONTROL Creatives]** tab, click the **[!UICONTROL Dynamic Ads]** subtab.
+
+1. Click **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Dynamic Ad]**.
+
+1. Specify the [dynamic ad settings](#creative-dynamic-ad-settings):
+
+
+Ad settings are the same as in the ad template, but the metadata is in a different order. You select an existing template based on the ad type and ad size you've selected, and then you select the catalogs to use. (The catalogs associated with the template aren't populated by default. So that workflow of associating catalogs to the template settings is awkward -- the way we do it in ACM makes more sense if you're going to reuse that template for other things. ) You have to enter attributes -- the ones in the template don't seem to be populated by default.
+
+
+## Edit dynamic ads
+
+1. 
+
+1. 
+
+1. 
+
+## NO PREVIEW YET
+
+ALTHOUGH, from program page:  "In the case of Dynamic Ads + Decision tree show a random Dynamic Ad from Feed " -- does this mean within an experience? But no preview of any kind in Creative Libraries > Dynamic Ads or > Bundles?
+
+
+## Dynamic ad settings
+
+### Dynamic HTML ad settings
+
+**Advertiser:** (Read-only)
+**Library:** (Read-only)
+**Dynamic Ad Name:** The unique ad name.
+**Ad Template Size:** (Read-only)
+**Ad Template Type:** (Read-only)
+**Ad Template:** The template to use for generating dynamic ads. Only templates for the specified ad size and ad type are available.
+**Catalogs:** The data catalogs to use for generating dynamic ads.
+
+### Advanced Details
+
+**Content Selection:** The types of XXX that can be used XXXX: *[!UICONTROL Profile]*, *[!UICONTROL Geography]*, *[!UICONTROL Segment]*, and/or *[!UICONTROL Datapass]*.<!-- ????? -->
+
+**Number of offers (Max 50):** The number of XXXXX that can be created for each ad.<!-- Clarify this -- is this the frequency cap (max number of times an ad may be served)? -->
+
+

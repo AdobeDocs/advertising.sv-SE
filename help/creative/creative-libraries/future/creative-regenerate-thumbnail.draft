@@ -1,0 +1,23 @@
+---
+title: Regenerate the thumbnail for a creative
+description: Learn how to refresh the thumbnail for a flexible HTML or third-party creative.
+feature: 
+---
+# Regenerate the thumbnail for a creative
+
+Regenerate a thumbnail for a flexible HTML5 or third-party creative when you change any of the visible elements of the creative.
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Click the library name.
+
+1. On the **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** or **[!UICONTROL Dynamic Ads]** tab, select the creative:
+
+   * * In card view, click **[!UICONTROL ...]** next to the creative name, and then click **[!UICONTROL Regenerate Thumbnail]**.
+   
+   * In table view, hold the cursor over the row and click **[!UICONTROL Regenerate Thumbnail]**.<!-- Or "Refresh" as it was on legacy site -->
+
+>[!MORELIKETHIS]
+>
+>* [Add standard creatives to a creative library](creative-add-standard.md)
+>* [Preview a creative](creative-preview.md)

@@ -1,0 +1,43 @@
+---
+title: 
+description: 
+feature: Creative Introduction
+---
+#  What's different in the new [!DNL Creative]?
+
+*Closed beta*
+
+<!-- Add this to Overview or UI page? This is one of the first things they should see since they need to take some actions (assuming these haven't all happened prior to Feb release). -->
+
+<!-- Need to also incorporate new features -->
+
+<!-- The experiences part probably may have already happened prior to the release? -->
+| Feature | Description | Action for Self-Service Customers | Action for Managed Service Customers |
+| --- | --- | --- | --- |
+| Creative Libraries | Previously, you had one creative library. Now, you can create multiple libraries. | &mdash; | &mdash; |
+| Creative Libraries > Creatives | The [!UICONTROL Creatives] view includes tabs for [!UICONTROL Standard Ads] and [!UICONTROL Dynamic Ads]. The [!UICONTROL Standard Ads] tab allows you to upload and manage image, HTML5, flexible HTML5, and third-party creatives. The [!UICONTROL Dynamic Ads] tab allows you to manage dynamically-generated ads that are created from uploaded feed files using defined ad templates; dynamic ad generation was previously was done within [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)]. Currently, you can preview, duplicate, and delete dynamic ads, and attach dynamic ads to bundles for targeted ad experiences or to ad tags for non-targeted experiences. Only administrator users can create dynamically-generated ads. | &mdash; | &mdash; |
+| Creative Libraries > Bundles | You can now group your creatives into creative *bundles*. You can create standard ad bundles and attach standard creatives to them. Similarly, you can create dynamic ad bundles and attach dynamic creatives to them. | &mdash; | &mdash; |
+| Experiences | In the ad experience settings, you now specify whether or not the experience will use decision tree targeting. The workflows for experiences with decision tree targeting and experiences without it are different. |  |  |
+| Experiences | Previously, you paired creatives with user targets (such as location or an audience segment) in an experience, in which each node in a decision tree included one or more creatives and a target. Now, you can create targeted experiences only with creative bundles, not individual creatives. You can still attach individual creatives to non-targeted experiences without decision tree targeting.<br><br>As a result, your legacy experiences will be deprecated<!-- when? -->. | Rebuild your experiences in the new user interface. | Your Adobe Account Team will rebuild your experiences in the new user interface. |
+| DCO/Dynamic creatives and experiences | --- | --- | --- |
+| DCO experiences | Legacy DCO experiences will be deprecated<!-- when? -->. | n/a | Your Adobe Account Team will rebuild your DCO experiences as dynamic ads in [!DNL Creative], except that DCO experiences with additional targeting will be rebuilt as [!DNL Creative] experiences.<!-- clarify the diff --> |
+| Ad tags | The ad server endpoint will be changed to the Advertising DSP ad server.<br><br>The ad tag will include additional parameters to pass universal IDs (in addition to cookie IDs). | Replace the ad tags in your existing campaigns. | Your Adobe Account Team will replace the ad tags in your existing campaigns. |
+| Retargeting pixels | The retargeting pixel endpoint will be changed to the Adobe Advertising UDB<!-- ?? --> service.<br><br>The new pixel will include additional parameters to pass universal IDs (in addition to cookie IDs). | Add the new retargeting pixels to your webpages. | Your Adobe Account Team will create and share new retargeting pixels if applicable; add the new pixels to your webpages. |
+| Conversion pixels | The legacy DCO pixels will be deprecated<!-- when? -->, and [!DNL Adobe] conversion pixels will be required. | Customers with [!DNL Analytics for Advertising] must replace DCO conversion pixels with the [!DNL Analytics for Advertising] [!DNL Last Event Service] pixels and the Adobe Analytics pixels. Everyone else must replace DCO conversion pixels with Adobe Advertising conversion pixels. | Your Adobe Account Team will create and share all applicable Adobe Advertising conversion pixels; replace your DCO conversion pixels with Adobe Advertising conversion pixels. |
+
+##  New features in [!DNL Creative]
+
+| Feature | Description | More Information |
+| --- | --- | --- |
+| Creative bundles | Group multiple creatives into a bundle to easily add them to an experience. | See "[Manage Creative Bundles](/help/creative/creative-libraries/bundle-manage.md)." |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
+>[!MORELIKETHIS]
+>
+>* [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
+>* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
+>* [How the user interface is organized](/help/creative/introduction/ui.md)

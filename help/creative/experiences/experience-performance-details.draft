@@ -1,0 +1,51 @@
+---
+title: Performance details for experiences
+description: Learn about the performance details available for each ad experience.
+feature: Creative Experiences
+---
+# Performance details for experiences
+
+*Closed beta*
+
+## Available Performance Details for an Experience
+
+
+You can view performance details for an experience from the card view. Details include:
+
+
+Overview tab   A performance overview for the entire experience, including:
+
+
+Performance   The total impressions, clicks, click-through rate (CTR); and view-through conversions and click-through conversions for a single conversion metric. You can optionally combine two metrics at a time into a single chart.
+
+
+Default Rate   The number of impressions resulting from targeted creatives, generic creatives without a target or targeted to "Everyone Else", and the default creative for the experience.
+
+
+By Devices   Individual metrics by device, operating system, and browser.
+
+
+By Geo   Individual metrics by geographical location.
+
+
+Creative Performance tab   The performance of individual creatives in the experience, including the total number of impressions, clicks, and click-through rate (CTR). You can also optionally view the number of click-through conversions, view-through conversions, and total conversions for specified conversion metrics. Your conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search. [No breakdown yet for the individual ad elements and/or the served ads.]
+
+
+Targeting & Creative Performance tab   The performance by target for each creative, including the total number of impressions, clicks, and click-through rate (CTR). You can also optionally view the number of click-through conversions, view-through conversions, and total conversions for specified conversion metrics. Your conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search.
+
+
+ 
+
+
+The available conversion columns include the transaction properties available in Advertising Cloud Search. This can include conversion and site engagement metrics synced from Adobe Analytics. [Analytics calculated metrics and advanced calculated metrics aren't available.] For more information about including collected transaction properties in reports, see the Search Channel/AMO Display/AMO Social Help topic “About Managing an Advertiser's Transaction Properties."
+
+
+  
+
+
+## xx
+
+
+
+## xx
+

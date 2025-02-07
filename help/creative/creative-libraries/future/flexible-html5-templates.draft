@@ -1,0 +1,27 @@
+---
+title: Available flexible HTML5 creative templates
+description: Reference the ad sizes and attributes for the flexible HTML5 creative templates provided.
+feature: Creative Standard Creatives
+---
+# Available flexible HTML5 creative templates {#flexible-creative-templates-available}
+
+<!-- How are all of the Animation2* and Animation3* templates different?-->
+
+| Ad size | Template | Description and Attributes |
+|---------|----------|----------------------------|
+| 160x600 (WideSkyscraper) | Animation1_160x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, LOGOSTOCK, OFFER<br><br>Includes two clicktags: one for the CTA (call to action) button, and one for the rest of the ad |
+| | Animation2_160x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Animation3_160x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Carousel_160x600_zip | Includes ad elements for three separate creatives/ads in a carousel, all using the same call to action and logo<br><br>Flexible attributes include: BACKGROUNDIMAGE1, BACKGROUNDIMAGE2, BACKGROUNDIMAGE3, BRANDIMAGE1, BRANDIMAGE2, BRANDIMAGE3, CTATEXT, HEADLINE1, HEADLINE2, HEADLINE3, LOGOIMAGE, SUBHEADLINE1, SUBHEADLINE2, SUBHEADLINE3<br><br>Includes three clicktags &mdash;one for each of the creatives in the carousel |
+| 300x250 (MediumRectangle) | Animation1_300x250_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, LOGOSTOCK, OFFER<br><br>Includes two click tags: one for the OFFER button and one for the rest of the ad. |
+| | Animation2_300x250_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Animation3_300x250_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Carousel_300x250_zip | Includes ad elements for three separate creatives/ads in a carousel, all using the same call to action and logo.<br><br>Flexible attributes include: BACKGROUNDIMAGE1, BACKGROUNDIMAGE2, BACKGROUNDIMAGE3, BRANDIMAGE1, BRANDIMAGE2, BRANDIMAGE3, CTATEXT, HEADLINE1, HEADLINE2, HEADLINE3, LOGOIMAGE, SUBHEADLINE1, SUBHEADLINE2, SUBHEADLINE3<br><br>Includes three clicktags &mdash;one for each of the creatives in the carousel |
+| 300x600 (HalfPage) | Animation1_300x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, LOGOSTOCK, OFFER<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Animation2_300x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Animation3_300x600_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Carousel_300x600_zip | Includes ad elements for three separate creatives/ads in a carousel, all using the same call to action and logo.<br><br>Flexible attributes include: BACKGROUNDIMAGE1, BACKGROUNDIMAGE2, BACKGROUNDIMAGE3, BRANDIMAGE1, BRANDIMAGE2, BRANDIMAGE3, CTATEXT, HEADLINE1, HEADLINE2, HEADLINE3, LOGOIMAGE, SUBHEADLINE1, SUBHEADLINE2, SUBHEADLINE3<br><br>Includes three clicktags &mdash;one for each of the creatives in the carousel |
+| 728x90 (Leaderboard) | Animation1_728x90_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, LOGOSTOCK, OFFER<br><br>Includes two click tags: one for the OFFER button and one for the rest of the ad |
+| | Animation2_728x90_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Animation3_728x90_zip | Flexible attributes include: BGIMAGE, CTATEXT, HEADLINE1, HEADLINE2, LOGOIMAGE, SUBHEADLINE<br><br>Includes two click tags: one for the CTA (call to action) button and one for the rest of the ad |
+| | Carousel_728x90_zip | Includes ad elements for three separate creatives/ads in a carousel, all using the same call to action and logo.<br><br>Flexible attributes include: BACKGROUNDIMAGE1, BACKGROUNDIMAGE2, BACKGROUNDIMAGE3, BRANDIMAGE1, BRANDIMAGE2, BRANDIMAGE3, CTATEXT, HEADLINE1, HEADLINE2, HEADLINE3, LOGOIMAGE, SUBHEADLINE1, SUBHEADLINE2, SUBHEADLINE3<br><br>Includes three clicktags &mdash;one for each of the creatives in the carousel |

@@ -1,0 +1,47 @@
+---
+title: Add or remove labels for creatives
+description: Learn how to add labels and remove labels for any of your creatives.
+feature: Creative Standard Creatives, Creative Dynamic Creatives
+---
+# Add or remove labels for creatives
+
+<!-- Dupe this topic for experience-level labels -->
+
+You can add labels and remove labels for any of your creatives. You can filter on specific labels in your Standard Ads and Dynamic Ads views.
+
+>[!NOTE]
+>
+>You can also add and remove labels in the individual standard creative settings and dynamic creative settings and for an entire experience.<!-- Add links -->
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+
+1. Click the library name.
+
+1. On the **[!UICONTROL Creatives]** > **[!UICONTROL Standard Ads]** or **[!UICONTROL Dynamic Ads]** tab, select the creative:
+
+   * To edit labels for a single creative:
+   
+     * In card view, click **[!UICONTROL ...]** next to the creative name, and then click **[!UICONTROL Edit the Labels]**.
+     
+     * In table view, hold the cursor over the row and click **[!UICONTROL Edit the Labels]**.
+
+   * To edit labels for one or more creatives, select the check box for each creative you want to edit. In the bulk actions toolbar, click **[!UICONTROL Edit the Labels]**.
+   
+     To select all rows, select the global check box in the upper left.
+
+1. Select labels to add or remove:
+
+   * To search for a text string within the label name, begin entering the name in the input field.
+   
+   * To select existing labels, click ![Down](/help/creative/assets/chevron-down.png "Down"), and select the check box next to each label to apply.
+   
+   * To create a new label to apply to the creatives, open the list, click **+ Add Label**, enter a new label name in the [!UICONTROL Label] field, and then click **Create**.
+   
+   * To remove a label, deselect the check box next to the label name.
+
+1. Click **[!UICONTROL Save]**.
+
+>[!MORELIKETHIS]
+>
+>* [Edit standard creatives in a creative library](creative-edit-standard.md)
+>* [Standard creative settings](creative-settings-standard.md)

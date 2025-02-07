@@ -1,0 +1,98 @@
+---
+title: 
+description: 
+feature: 
+---
+#  Manage conversion pixels
+
+*Closed beta*
+
+<!-- NOT IMPLEMENTED YET -- check on this. 
+
+We don't have a place to list/edit/delete conversion pixels in SSC UI, so I don't think we'll have anything here. Do we maybe need a placeholder page with links to SSC help and Analytics help, since users should be able to use either for tracking conversions? -->
+
+
+<!--
+Example conversion pixel (counter pixel: No): 
+
+`<IMG src='https://ats.everesttech.net/ats/ats?cmd=ACTION&MerchantID=MICROSOFTSTORE&ActionID=50106&ActionName=MSFT_Office_ConsPurchase&Revenue=<INSERT_ORDER_AMOUNT>&Units=<INSERT_NO_UNITS>&TransactionID=<INSERT_ORDER_ID>&Currency=USD&custom1=$$SOME_CP_MACRO$$&cachebuster=<INSERT_RANDOM_NUMBER>' height='1' width='1' />`
+-->
+
+<!-- Maybe not possible here -- instead point them to SSC help and Analytics help since both options are possible? -->
+
+##  Create an Adobe Advertising conversion pixel
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Pixels]**.
+
+1. Above the data table, click **[!UICONTROL Creative]**, and then select > **[!UICONTROL Conversion Pixel]**.
+
+1. Specify the [conversion pixel settings](#conversion-pixel-settings).
+
+1. Click **[!UICONTROL Save]**.
+
+1. [Generate the conversion pixel tag](#conversion-pixel-generate) to provide to the advertiser or website contact.
+
+   The advertiser's IT department or other group may need to schedule, or be informed about, the tag deployment.
+
+##  Edit a conversion pixel
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Pixels]**.
+
+1. Hold the cursor over the conversion pixel name and click **[!UICONTROL Edit]**.
+
+1. Edit the [conversion pixel settings](#retargeting-pixel-settings).
+
+1. Click **[!UICONTROL Save]**.
+
+1. [Generate the conversion pixel tag](#conversion-pixel-generate) to provide to the advertiser or website contact so that they can replace the original tag.
+
+   The advertiser's IT department or other group may need to schedule, or be informed about, the tag deployment.
+
+##  Generate a tag for a conversion pixel {#conversion-pixel-generate}
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Pixels]**.
+
+1. Hold the cursor over the conversion pixel name and click **[!UICONTROL Generate Tag]**.
+
+1. Click **[!UICONTROL Copy to Clipboard]** to copy the tag to your computer's clipboard, from which you can paste the text into a file to save.
+
+1. Specify a value for each attribute in the conversion pixel tag(s) by replacing each "Insert <attribute> here" with a value.
+
+   <!-- Need new example here:
+   
+   For example, if you included the attributes "color" and "size," then the pixel tag will include the following parameters: `&ut1=--Insert color here--&ut2=--Insert size here`. To target users who select red and size 10, for example, you would change the parameters to `&ut1=--red--&ut2=--10`.
+
+   For example, if you include the a
+
+   &Revenue=<INSERT_ORDER_AMOUNT>&Units=<INSERT_NO_UNITS>&TransactionID=<INSERT_ORDER_ID>&Currency=USD
+
+   -->
+
+1. Provide the completed conversion pixel tag to the advertiser or website contact, together with a list of the relevant landing pages in which to insert it.
+
+   The advertiser's IT department or other group may need to schedule, or be informed about, the tag deployment.
+
+##  Delete a conversion pixel
+
+1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Pixels]**.
+
+1. Hold the cursor over the conversion pixel name and click **[!UICONTROL Delete]**.
+
+<!-- Not there as of 12/3/24, but it should be added:
+1. In the confirmation message, click **[!UICONTROL Delete]**.
+-->
+
+##  Conversion pixel settings {#conversion-pixel-settings}
+
+**[!UICONTROL Pixel Name]:** The name of the pixel.
+
+**[!UICONTROL Advertiser]:** (Read-only for existing pixels) The advertiser for which the pixel is tracked.
+
+**[!UICONTROL Use counter pixel?]:**  <!-- ??? --> By default, this option is disabled. To enable the option, move the slider to the right.
+
+<!-- sic -->**[!UICONTROL View through look back window]:** The number of days after a view-through occurs in which the view-through can be attributed to a conversion.
+
+<!-- sic -->**[!UICONTROL Click through look back window]:** The number of days after a paid click in an event series occurs in which the click can be attributed to a conversion.
+
+<!-- sic -->**[!UICONTROL Engagement through look back window]:** The number of days after an ad engagement occurs in which the engagement can be attributed to a conversion.
+
