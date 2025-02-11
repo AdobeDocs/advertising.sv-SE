@@ -2,9 +2,10 @@
 title: Kreativa inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -83,11 +84,11 @@ Ersätta den befintliga annonsmallen:
 
    Se de [flexibla annonsspecifikationerna](#flexible-ad-spec).
 
-1. Redigera de nya [flexibla HTML-annonsinställningarna](#flexible-ad-settings) efter behov.
+1. Redigera de nya [flexibla annonsinställningarna för HTML](#flexible-ad-settings) efter behov.
 
 1. Klicka på **[!UICONTROL Edit]**
 
-## HTML5 kreativa inställningar {#creative-settings-html5}
+## HTML5 - kreativa inställningar {#creative-settings-html5}
 
 ## Fliken Detaljer
 
@@ -99,13 +100,13 @@ För nya kreatörer finns följande inställningar inte på en namngiven flik.
 
 **Kreativ storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
 
-**[!UICONTROL Click Tags]:** (Endast statiska HTML5-kreatörer) Variablerna som tillåter klickspårning omdirigeras från de inkluderade bannerannonserna. Variabelnamnen och motsvarande URL:er för landningssidan fylls i från den överförda kreativa enheten, men du kan ändra standardwebbadresserna. För flera kreatörer kan du redigera de enskilda klicktaggarna.
+**[!UICONTROL Click Tags]:** (Endast statiska HTML5-användare) Variabler som tillåter klickspårning omdirigeras från de inkluderade bannerannonserna. Variabelnamnen och motsvarande URL:er för landningssidan fylls i från den överförda kreativa enheten, men du kan ändra standardwebbadresserna. För flera kreatörer kan du redigera de enskilda klicktaggarna.
 
 >[!NOTE]
 >
 >När du inkluderar den kreativa delen i en upplevelse kan du ersätta standardvärdet för någon av click-taggarna med en anpassad URL för landningssidan för att generera en härledning av den kreativa grundbilden.
 
-**URL för landningssida:** (enkel HTML 5-användare med endast en landningssida) URL:en för standardlandningssidan för varje annons som du associerar med kreatörerna. Det måste vara en giltig URL som börjar med http:// eller https://. Den kan innehålla spårningsparametrar från tredje part eller [[!DNL Creative] makron](/help/creative/creative-macros.md) för egen användning.
+**URL för landningssida:** (Enkla HTML5-användare med endast en landningssida) URL:en för standardlandningssidan för varje annons som du associerar med kreatörerna. Det måste vara en giltig URL som börjar med http:// eller https://. Den kan innehålla spårningsparametrar från tredje part eller [[!DNL Creative] makron](/help/creative/creative-macros.md) för egen användning.
 
 När du inkluderar en kreatör i ett paket och tilldelar paketet till en upplevelse kan du ändra landningssidans URL-adress och lägga till URL-adresser för bild- och klickspårning samt JavaScript för varje kreatör i paketet. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
@@ -123,7 +124,7 @@ När du inkluderar en kreatör i ett paket och tilldelar paketet till en uppleve
 
 *Endast befintliga statiska HTML5-kreatörer*
 
-HTML5-mallfilen för kreatören.
+HTML5-mallfilen för kreatörer.
 
 Du kan också ersätta den befintliga mallen med en ny mall som har en annan layout men samma uppsättning attributnamn som den ursprungliga mallen. Den nya mallen måste vara i ZIP-format med högst 2 MB. När den kreativa delen finns i ett paket kommer alla upplevelser som använder paketet att använda layouten från den nya mallen.
 
@@ -141,7 +142,7 @@ Ersätta den befintliga annonsmallen:
 
    * Klicka på **[!UICONTROL select a file]** för att leta upp filen på enheten eller i nätverket.
 
-   Se specifikationerna för [HTML-annonsen](html5-creative-specification.md).
+   Se [annonsspecifikationerna för HTML](html5-creative-specification.md).
 
 1. Redigera de nya [HTML5-annonsinställningarna](#creative-settings-html5) efter behov.
 
@@ -173,9 +174,9 @@ När du inkluderar en kreatör i ett paket och tilldelar paketet till en uppleve
 
 **JavaScriptCode:** En JavaScript-tagg (och eventuellt en alternativ tagg för webbläsare som inte stöder JavaScript) som pekar på den kreativa personen på annonsservern från tredje part. Skriptet varierar beroende på annonsserver. När du redigerar flera kreatörer tillämpas samma värde på alla valda kreatörer.
 
-Alla tillgängliga makron och de data som ersätter dem visas under indatafältet. Om du vill infoga ett av makrona i taggen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in bilden där du vill ha den i taggen.
+Alla [tillgängliga makron](/help/creative/creative-macros.md) och de data som de ersätts med listas under indatafältet. Om du vill infoga ett av makrona i taggen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in bilden där du vill ha den i taggen.
 
-När du inkluderar den här kreativiteten i en upplevelse som du implementerar som en annons från en DSP, använder DSP informationen i den här taggen för att visa annonsen och spåra visningar och klickningar på den, och sedan överför taggen till annonsutbytet. När annonsen visas och klickas kommer annonsservern, DSP och [!DNL Creative] att spåra händelserna.
+När du inkluderar denna kreativitet i en upplevelse som du implementerar som en annons från en DSP, använder DSP informationen i den här taggen för att visa annonsen och spåra visningar och klickningar på den, och sedan överför taggen till annonsutbytet. När annonsen visas och klickas kommer annonsservern, DSP och [!DNL Creative] att spåra händelserna.
 
 **[!UICONTROL Advertiser]:** (skrivskyddat) Annonsören som biblioteket är tillgängligt för.
 
@@ -201,3 +202,4 @@ u
 >
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Redigera standardkreatörer](/help/creative/creative-libraries/creative-edit-standard.md)
+>* [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)

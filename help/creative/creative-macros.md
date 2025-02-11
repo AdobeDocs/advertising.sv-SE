@@ -3,9 +3,9 @@ title: Tillgängliga makron för att spåra URL:er
 description: Referera till de makron som du kan lägga till i URL:er för spårning av landningssidor och andra kreatörer.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -54,5 +54,6 @@ Vissa av de tillgängliga makrona, eller deras motsvarigheter, inkluderas automa
 
 >[!MORELIKETHIS]
 >
->* 
+>* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
+>* [Standardinställningar för kreativitet](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* 

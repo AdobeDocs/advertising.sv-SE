@@ -2,9 +2,10 @@
 title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: aeeca035-8ae2-4173-827a-b8690d228549
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -47,9 +48,9 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 ## [!UICONTROL Advanced] avsnitt
 
-**Dataisolering:** (endast upplevelser med dynamiska annonser; valfritt) Om du vill rikta användare baserat på specifika nyckelvärdepar som DSP, utgivare eller partner skickar i realtid vid intrycket. Du kan ange upp till fem databassnycklar (parametrar).<!-- May move this to just within the decision tree. -->
+**Dataisolering:** (endast upplevelser med dynamiska annonser; valfritt) Om du vill rikta in användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid intrycket. Du kan ange upp till fem databassnycklar (parametrar).<!-- May move this to just within the decision tree. -->
 
-När du senare skapar en tagg för annonsupplevelse för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Du måste ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i DSP.
+När du senare skapar en tagg för annonsupplevelse för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Du måste ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i din DSP.
 
 **Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En användarradie att rikta in sig på. Välj en radie från 0 miles till 200 miles.<!-- Does this end up in the ad tag parameters? -->
 
@@ -67,7 +68,7 @@ När du senare skapar en tagg för annonsupplevelse för en viss kreativ storlek
 
 **[!UICONTROL Impression Tracking URL]:** (Valfritt) En URL för visningsspårning från tredje part som ska läggas till på landningssidans URL för alla annonser som skapats från upplevelsen. Du kan inkludera upp till fem URL-adresser. Om du vill lägga till ytterligare en URL-adress klickar du på ![ikonen](/help/creative/assets/create.png) **[!UICONTROL Add More] och anger URL-adressen.
 
-När du anger en URL listas alla tillgängliga makron och de data som de ersätts med längre ned på sidan. Om du vill infoga något av makrona i URL-adressen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in makrot där du vill ha det i URL-fältet.
+När du anger en URL listas alla [tillgängliga makron](/help/creative/creative-macros.md) och de data som de ersätts med längre ned på sidan. Om du vill infoga något av makrona i URL-adressen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in makrot där du vill ha det i URL-fältet.
 
 >[!NOTE]
 >
@@ -77,7 +78,7 @@ När du anger en URL listas alla tillgängliga makron och de data som de ersätt
 
 **[!UICONTROL Click Tracking URL]:** (Valfritt) (Valfritt) En URL för klickspårning från tredje part som ska läggas till på landningssidans URL. Du kan inkludera upp till fem URL-adresser. Om du vill lägga till ytterligare en URL-adress klickar du på ![ikonen](/help/creative/assets/create.png) **[!UICONTROL Add More]** och anger URL-adressen.
 
-När du anger en URL listas alla tillgängliga makron och de data som de ersätts med längre ned på sidan. Om du vill infoga något av makrona i URL-adressen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in makrot där du vill ha det i URL-fältet.
+När du anger en URL listas alla [tillgängliga makron](/help/creative/creative-macros.md) och de data som de ersätts med längre ned på sidan. Om du vill infoga något av makrona i URL-adressen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in makrot där du vill ha det i URL-fältet.
 
 >[!NOTE]
 >
@@ -94,6 +95,7 @@ När du anger en URL listas alla tillgängliga makron och de data som de ersätt
 >
 >* [Skapa en upplevelse utan mål för beslutsträd](experience-create-no-targeting.md)
 >* [Redigera en upplevelse utan mål för beslutsträd](experience-edit-no-targeting.md)
+>* [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md)
 >* [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](experience-tag-assign-creatives.md)
 >* [Anpassa spårnings-URL:er för en upplevelse utan att ange mål](experience-tracking-urls-no-targeting.md)

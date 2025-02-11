@@ -2,9 +2,10 @@
 title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
+source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -32,7 +33,7 @@ You can do either of the following:
 
 -->
 
-Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha ZIP-format och kan vara upp till 2 MB. Information om filkrav finns i den [HTML5-kreativa specifikationen](html5-creative-specification.md).
+Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha ZIP-format och kan vara upp till 2 MB. Information om filkrav finns i [HTML5 Creative-specifikationen](html5-creative-specification.md).
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -58,7 +59,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
    * Om du vill ta bort en fil avmarkerar du kryssrutan bredvid den.
 
-1. Ange [flexibla HTML5-annonsinställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
+1. Ange [flexibla annonsinställningar för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Som standard markeras alla som du just överförde. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
 
@@ -111,7 +112,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 >[!NOTE]
 >
->Du kan också [lägga till flexibla HTML5-kreatörer](#flexible-creative-add), som är HTML5-kreatörer med alla sina attribut som standardtaggar för HTML som du kan redigera direkt i [!DNL Creative].
+>Du kan också [lägga till flexibla HTML5-kreatörer](#flexible-creative-add), som är HTML5-kreatörer med alla sina attribut som HTML-standardtaggar som du kan redigera direkt i [!DNL Creative].
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -139,7 +140,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    Se [HTML5-annonsspecifikationen](/help/creative/creative-libraries/html5-creative-specification.md).
 
-1. Ange annonsinställningarna [HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
+1. Ange [annonsinställningarna för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
 Som standard markeras alla som du just överförde. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
 
@@ -147,7 +148,7 @@ Som standard markeras alla som du just överförde. Alla inställningar som bara
 
 ## Lägga till en bild som är kreativ i ett kreativt bibliotek
 
-Bildkreatörer kan ha formaten GIF, JPEG, JPG, eller PNG. Den maximala filstorleken är två (2) MB. Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
+De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maximala filstorleken är två (2) MB. Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -175,7 +176,7 @@ Bildkreatörer kan ha formaten GIF, JPEG, JPG, eller PNG. Den maximala filstorle
 
 1. Klicka på **[!UICONTROL Create]**
 
-## Lägg till en tredjepartsskapare i ett kreativt bibliotek
+## Lägg till en tredjepartsskapare i ett kreativt bibliotek {#creative-add-third-party}
 
 [!DNL Creative] har stöd för JavaScript-spårningstaggar för kreatörer som finns på de flesta annonsservrar från tredje part.
 
@@ -187,9 +188,9 @@ Bildkreatörer kan ha formaten GIF, JPEG, JPG, eller PNG. Den maximala filstorle
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
-1. Ange JavaScript-taggen och andra inställningar för den kreativa i de [kreativa inställningarna från tredje part].
+1. Ange JavaScript-taggen och andra inställningar för den kreativa i de [kreativa inställningarna från tredje part](#creative-settings-third-party).
 
-   Du kan kopiera och klistra in alla tillgängliga makron i JavaScript-taggen.
+   Du kan kopiera och klistra in alla [tillgängliga makron](/help/creative/creative-macros.md) i JavaScript-taggen.
 
 1. Klicka på **[!UICONTROL Create]**
 
@@ -197,6 +198,7 @@ Bildkreatörer kan ha formaten GIF, JPEG, JPG, eller PNG. Den maximala filstorle
 >
 >* [Redigera standardkreatörer](/help/creative/creative-libraries/creative-edit-standard.md)
 >* [Standardinställningar för kreativitet](/help/creative/creative-libraries/creative-settings-standard.md)
+>* [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 >* [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
 >* [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
 >* [Bifoga och koppla loss kreatörer från paket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
