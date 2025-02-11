@@ -2,7 +2,8 @@
 title: Tillgängliga makron för att spåra URL:er
 description: Referera till de makron som du kan lägga till i URL:er för spårning av landningssidor och andra kreatörer.
 feature: Creative Experiences, Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
+source-git-commit: 926d2a0db933a19f5ebef056eca2089f2de6ca64
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -38,15 +39,15 @@ Vissa av de tillgängliga makrona, eller deras motsvarigheter, inkluderas automa
 -->
 
 | Makro | Beskrivning | Vill du att upplevelsetaggar för Advertising DSP ska infogas automatiskt? |
-| --- | --- | --- | --- |
-| `${TM_CAMPAIGN_ID_NUM}` | Spårar och rapporterar kampanj-ID från DSP | Ja |
-| `${TM_SITE_ID_NUM}` | Spårar och rapporterar plats-ID från DSP | Ja |
-| `${TM_PLACEMENT_ID_NUM}` | Spårar och rapporterar placerings-ID från DSP | Ja |
+| --- | --- | --- |
+| `${TM_CAMPAIGN_ID_NUM}` | Spårar och rapporterar kampanj-ID:t från DSP | Ja |
+| `${TM_SITE_ID_NUM}` | Spårar och rapporterar webbplats-ID:t från DSP | Ja |
+| `${TM_PLACEMENT_ID_NUM}` | Spårar och rapporterar placering-ID:t från DSP | Ja |
 | `${TM_AD_ID_NUM}` | Spårar och rapporterar annons-ID från DSP | Ja |
 | `${TM_CREATIVE_ID_NUM}` | Spårar och rapporterar det kreativa ID:t från DSP | Ej tillämpligt |
-| `${TM_SESSION_ID}` | Spårar och rapporterar intrycks-ID från DSP. Om ett värde inte returneras genererar Advertising Creative ett. | Ja |
-| `${TM_ACC_EXPERIENCE_ID}` | Spårar och rapporterar Advertising Creative upplevelse-ID | — |
-| `${TM_ACC_CREATIVE_ID}` | Spårar och rapporterar Advertising Creative creative-ID | — |
+| `${TM_SESSION_ID}` | Spårar och rapporterar intrycks-ID från DSP. Om ett värde inte returneras genereras ett. | Ja |
+| `${TM_ACC_EXPERIENCE_ID}` | Spåra och rapportera Advertising Creative upplevelse-ID | — |
+| `${TM_ACC_CREATIVE_ID}` | Spårar och rapporterar Advertising Creative Creative ID | — |
 | `${TM_RANDOM}` | Ett slumpmässigt tal mellan 1 och 100000 | — |
 | `${TM_TIMESTAMP}` | Unix-tidsstämpeln (i sekunder) | — |
 | `${TM_CLICK_URL_URLENC}` | (För annonser från tredje part från leverantörer som kräver URL-kodning) Den kodade klickomdirigerings-URL:en, som gör att annonsservrar kan spåra och räkna annonsklickningar. När annonsen visas och användaren klickar på den aktiveras makrot och klickningen registreras och räknas i rapporteringssyfte. | Ja |

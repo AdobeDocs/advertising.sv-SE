@@ -2,9 +2,10 @@
 title: Hantera återmarknadsföring av pixlar
 description: Lär dig hur du skapar och implementerar återannonseringspixlar som ska användas som mål för annonsupplevelser.
 feature: Creative Pixels
-source-git-commit: 91edc406401cbdae44932a2c70f7daf12d8d7b4e
+exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
+source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ Exempel på pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] stöder för närvarande bara universella ID:n för Advertising DSP. En framtida release kommer att ha stöd för universella ID:n för DSP från tredje part.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] stöder för närvarande bara universella ID:n för Advertising DSP. En framtida release kommer att ha stöd för universella ID:n för DSP:er från tredje part.<!-- Clarify this and reword as needed -->
 >* Du kan också använda dina egna målgrupper från Adobe Audience Manager och Adobe Analytics som [kreativa mål för dina upplevelser](/help/creative/experiences/experience-settings-targeting.md).
 >* När du använder en upplevelse som en annons på en Advertising DSP-plats kan du rikta placeringen mot alla målgrupper som är tillgängliga för dig i DSP. Du kan också [skapa anpassade målgruppssegmenttaggar](/help/dsp/audiences/custom-segment-create.md) för att spåra alla besökare till specifika landningssidor och sedan använda dessa segment som kreativa mål för en placering.
 >* Besökare på webbplatser som har valt att sluta spåra annonser för målinriktning får inte annonser med personaliserat kreativt innehåll baserat på målgruppssegment eller profiler för ny målinriktning.
@@ -78,7 +79,7 @@ Exempel på pixel:
 
    Om du lägger till ytterligare attribut manuellt måste du inkludera URL-kodning.
 
-   Om du till exempel har inkluderat attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, kommer pixeltaggen att innehålla följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du till exempel vill ange användare som väljer röda sandaler i storlek 10, ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=--sandals--&ut2=--red--&ut3=--10--` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=--0123456789--`.&lt;!— Verifiera den slutgiltiga syntaxen — om den är: &amp;ut1=sandaler&amp;ut2=10&amp;ut2=röd? —>
+   Om du till exempel har inkluderat attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, kommer pixeltaggen att innehålla följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du till exempel vill ange användare som väljer röda sandaler i storlek 10, ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=sandals&ut2=red&ut3=10` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -116,7 +117,7 @@ När ni riktar in annonsupplevelser mot användare som exponeras för pixeln ang
 
 * *[!UICONTROL Ramp ID]:* Pixeltaggen spårar [!DNL Ramp IDs]. Inga avgifter tas ut för visningar som skickas till universella ID:n.
 
-Om du vill använda den här funktionen måste du eller någon annan användare på DSP acceptera villkoren i serviceavtalet för att använda universella ID en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Klicka på **[!UICONTROL Terms of Service]** om du vill läsa villkoren. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
+Om du eller en annan användare på DSP-kontot ska kunna använda den här funktionen måste du acceptera villkoren i serviceavtalet för att kunna använda universella ID en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren för din organisations räkning. Klicka på **[!UICONTROL Terms of Service]** om du vill läsa villkoren. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
 >[!MORELIKETHIS]
 >
