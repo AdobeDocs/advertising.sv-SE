@@ -3,20 +3,20 @@ title: Advertising DSP Macros
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Advertising DSP Macros
 
-Ett makro är ett kort kommando eller en kortskrift för en instruktion och följer vanligtvis formatet `${MACRO_NAME}`. Makron som ingår i den kreativa koden eller klickbara URL:er utökas till en längre kodsträng som annonsservern kan förstå. DSP och server kör makron när annonsen hanteras eller klickas.
+Ett makro är ett kort kommando eller en kortskrift för en instruktion och följer vanligtvis formatet `${MACRO_NAME}`. Makron som ingår i den kreativa koden eller klickbara URL:er utökas till en längre kodsträng som annonsservern kan förstå. DSP annonsserver kör makron när annonsen skickas eller klickas.
 
 Ad-servermakron är användbara när du vill skicka viktig information till DSP eller till annonsservrar från tredje part. Makron används oftast vid handel med kod eller metadata från tredje part (t.ex. pixlar från tredje part).
 
-Du kan infoga ett makro manuellt var som helst, t.ex. i en VAST-tagg, i en URL eller i en DSP eller en händelsepixel från tredje part. Varje DSP klient och partner har dock olika annonstaggformat och makrona bör infogas på olika ställen i taggen. Varje gång du arbetar med en ny kund eller partner måste du be dem om dokumentation om var makrona i deras annonstaggar som DSP trafik ska infogas.
+Du kan infoga ett makro manuellt var som helst, t.ex. i en VAST-tagg, i en URL eller i en händelsepixel från DSP eller tredje part. Alla DSP-klienter och -partners har dock olika annonstaggformat och makrona bör infogas på olika ställen i taggen. Varje gång du arbetar med en ny kund eller partner måste du be dem om dokumentation om var makrona i deras annonstaggar som DSP hanterar ska infogas.
 
 ## Spårningsmakron
 
@@ -69,7 +69,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 
 ## Klicka på Makron för visningsannonser från tredje part
 
-För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar måste DSP ha ett musklick. Endast en version av makrot krävs. Det relevanta makrot beror på taggens typ.
+För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar krävs ett visningsklicksmakro i DSP. Endast en version av makrot krävs. Det relevanta makrot beror på taggens typ.
 
 | Makro | Ersättningsbeskrivning | Typ |
 | ----- | ----------------------- | ---- |
@@ -78,12 +78,12 @@ För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar måst
 
 {style="table-layout:auto"}
 
-DSP infogar automatiskt klickmakron i en tredjeparts visningstagg när du:
+DSP infogar automatiskt klickmakron i en tredjepartstagg när du:
 
 * Exportera annonstaggar från en annonsserverpartner <!-- [Needs PM confirmation.] -->
-* Massöverföring av [!DNL Flashtalking] eller [!DNL Google DoubleClick for Advertisers] annonstaggar direkt i DSP
+* Ladda upp [!DNL Flashtalking] eller [!DNL Google DoubleClick for Advertisers] annonstaggar satsvis direkt i DSP
 
-Om ett klickande makro saknas när du skapar en visningsannons visas ett varningsmeddelande, som uppmanar dig att manuellt infoga rätt visningsklicksmakro i rätt område i taggen.
+Om ett klickmakro saknas när du skapar en visningsannons visas ett varningsmeddelande i DSP, som uppmanar dig att manuellt infoga rätt visningsklicksmakro i rätt område i taggen.
 
 ## [!DNL Analytics for Advertising] makron
 

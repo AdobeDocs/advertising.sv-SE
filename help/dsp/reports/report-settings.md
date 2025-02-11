@@ -3,7 +3,7 @@ title: Anpassade rapportinställningar
 description: Se beskrivningar av anpassade rapportinställningar.
 feature: DSP Custom Reports
 exl-id: 0e9e4332-3c10-44b0-b315-691b22dfb3c7
-source-git-commit: 73641f1a3cd1729ccb978739e9888cf2ff58d16f
+source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -26,9 +26,9 @@ Det här avsnittet avgör vilka data som tas med i rapporten. Information om hur
 
 **Intervall:** Datumintervallet som data ska genereras för. Antalet tillgängliga dagar varierar beroende på rapport och valda dimensioner. Välj ett alternativ:
 
-* **[!UICONTROL Last Calendar Week]:** Inkluderar data för föregående kalendervecka.
+* **[!UICONTROL Previous Calendar Week]:** Inkluderar data för föregående kalendervecka.
 
-* **[!UICONTROL Last Calendar Month]:** Inkluderar data för föregående kalendermånad.
+* **[!UICONTROL Previous Calendar Month]:** Inkluderar data för föregående kalendermånad.
 
 * **[!UICONTROL Custom Range]:** Inkluderar data mellan specifika start- och slutdatum. Om du vill rapportera data genom föregående dag väljer du **[!UICONTROL Present]**.
 
@@ -70,7 +70,7 @@ Så här använder du ett eller flera filter:
 * (Valfritt) Lägg till ytterligare villkor till filtret.
 * (Valfritt) Lägg till ytterligare filter, där vart och ett har ett eller flera villkor.
 
-\* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [korskontorapportering](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] och [!UICONTROL Conversion]. Kontakta kontoteamet på Adobe om du vill ha mer information om kontorapportering.
+\* *[!UICONTROL Account]* är bara tillgängligt för följande rapporttyper när din organisation har konfigurerats för [korskontorapportering](report-about.md#cross-account-reporting): [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] och [!UICONTROL Conversion]. Kontakta Adobe Account Team om du vill ha mer information om kontorapportering.
 
 **[!UICONTROL Include data from Adobe Advertising SSC]:** (Endast rapporter om sökväg till konvertering, sökvägslängd och tid till konvertering) Inkluderar data för klickningar på sökannonser från angivna Advertising Search-, Social- och Commerce-kampanjer. När du väljer det här alternativet:
 
@@ -113,7 +113,7 @@ Se [Tillgängliga rapportkolumner](report-columns.md) för beskrivningar av alla
 
 **[!UICONTROL Attribution Rule Settings]:** Inställningarna varierar beroende på rapporttyp:
 
-* **\[Attribution Type\]:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics]- eller [!UICONTROL Custom Goals]-kolumner; annonsörer med endast Adobe Advertising-konverteringsspårning) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering:
+* **\[Attributtyp\]:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics]- eller [!UICONTROL Custom Goals]-kolumner; annonsörer med endast Adobe Advertising-konverteringsspårning) I rapporten, hur du attributerar konverteringsdata i en serie händelser som leder till en konvertering:
 
    * *[!UICONTROL Unique]:* (Standard) Räknar antalet gånger som ett dimensionsvärde (till exempel en enhet eller placering) fanns på sökvägen till konverteringen.
 
@@ -137,13 +137,13 @@ Se [Tillgängliga rapportkolumner](report-columns.md) för beskrivningar av alla
 
    * *[!UICONTROL U-shaped]:* Attributerar konverteringen till alla händelser i konverteringssökvägen men ger den största vikten till den första och den sista händelsen, med successivt mindre vikt till händelserna mitt i konverteringssökvägen.
 
-   * *[!UICONTROL Display Only]:* Attribut konverteras till den sista DSP klickningen eller intrycket i konverteringssökvägen. Detta inkluderar videoklipp och anslutna TV-annonser och utesluter klick på [!DNL Advertising Search, Social, & Commerce] annonser.
+   * *[!UICONTROL Display Only]:* Attribut konverteras till den sista klickningen eller det sista intrycket i konverteringssökvägen i DSP. Detta inkluderar videoklipp och anslutna TV-annonser och utesluter klick på [!DNL Advertising Search, Social, & Commerce] annonser.
 
    * *[!UICONTROL Social Only]:* Föråldrad
 
 Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search-social-commerce/reports/attribution-rules.md).
 
-* **Uppslag:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner och [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] enbart med [!UICONTROL Conversion Metrics] kolumner; endast annonsörer med Adobe Advertising-konverteringsspårning) I rapporten är det högsta antalet dagar efter en inställningshändelse eller en klickningshändelse (för [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] rapporter) i vilket en konverteringshändelse kan tilldelas till den. Standardvärdet är *[!UICONTROL 30 days]* och det högsta antalet är 92 dagar.
+* **Uppslag:** ([!UICONTROL Household Conversion] rapporterar med [!UICONTROL Conversion Metrics] eller [!UICONTROL Custom Goals] kolumner och [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] enbart med [!UICONTROL Conversion Metrics] kolumner; endast annonsörer med Adobe Advertising-konverteringsspårning) I rapporten är det högsta antalet dagar efter en intryckshändelse eller en klickhändelse (för [!UICONTROL Path to Conversion], [!UICONTROL Path Length] eller [!UICONTROL Time to Conversion] rapporter) i vilket en konverteringshändelse kan tilldelas den. Standardvärdet är *[!UICONTROL 30 days]* och det högsta antalet är 92 dagar.
 
   >[!TIP]
   >

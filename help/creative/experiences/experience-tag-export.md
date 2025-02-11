@@ -2,9 +2,10 @@
 title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
-source-git-commit: fc2cd07944026badc0722c1449aa9aaf2c94bfd7
+exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Stängd beta*
 
-När en annonstagg för en viss kreativ storlek är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript- och iframe-format för implementering i Advertising DSP eller andra DSP. Taggen för DSP innehåller alla makron som krävs för DSP.
+När en annonstagg för en viss kreativ storlek är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript- och iframe-format för implementering i Advertising DSP eller andra DSP. Taggarna för DSP innehåller alla makron som krävs för DSP.
 
 Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som reklam.
 
@@ -22,8 +23,6 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 >* När du skapar en upplevelse med mål för beslutsträd skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek.
 >* När du skapar en upplevelse utan mål för beslutsträd måste du [manuellt skapa en annonstagg](experience-tag-create-manually.md) för varje tillämplig kreativ storlek.
 >* Upplevelsetaggar är dynamiska. Du behöver inte uppdatera taggarna om du redigerar en upplevelse.
-
-## Exportera en annonstagg för en upplevelse med målgruppsanpassning i beslutsträd
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
@@ -51,7 +50,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * *Adobe Advertising:* För annonser som du skapar i Advertising DSP.
 
-   * *Allmänt:* För annonser som du skapar i andra DSP. **Obs!** Du kan behöva ta med ytterligare makron manuellt om det behövs.
+   * *Allmänt:* För annonser som du skapar i andra DSP:er. **Obs!** Du kan behöva ta med ytterligare makron manuellt om det behövs.
 
 1. Klicka på **[!UICONTROL Generate tags]**.
 
@@ -63,9 +62,9 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    Du kan öppna filen i en textredigerare och kopiera varje tagg. För JavaScript-taggar omges taggen av `<script></script>`- och `<noscript></noscript>`-taggar. För iframe-taggar omges taggen av `<iframe></iframe>` taggar.
 
-1. Implementera taggarna för de relevanta DSP:
+1. Implementera taggarna för relevanta DSP:
 
-   * För andra DSP än Advertising DSP anger du de taggar som ska användas för att skapa annonserna i DSP.
+   * För andra DSP:er än Advertising DSP ska du ange de taggar som ska användas för att skapa annonserna i DSP.
 
    * För Advertising DSP:
 
@@ -75,7 +74,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
       1. Klicka på **[!UICONTROL Assign Tags]**.
 
-         DSP öppnas till vyn [!UICONTROL Ads] för den valda kampanjen.
+         DSP öppnar vyn [!UICONTROL Ads] för den valda kampanjen.
 
       1. Granska annonstaggarna i vyn [!UICONTROL Create ads], markera varje tagg som du vill skapa en annons för och klicka sedan på **[!UICONTROL Create]**.
 

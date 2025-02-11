@@ -2,7 +2,8 @@
 title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
-source-git-commit: fbf663b38282f48facab57efaf5533892642a252
+exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
+source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -23,7 +24,7 @@ ht-degree: 0%
 
   Du kan till exempel ange samma paket för personer i Chicago och New York City som befinner sig i ett visst Adobe Analytics-målgruppssegment, men skicka personer i Chicago som befinner sig i samma segment till andra landningssidor än New Yorkers. Du kan också ange ett annat paket för personer i segmentet som bor var som helst, förutom Chicago och New York, och ett tredje paket för andra personer som inte är med i segmentet.
 
-  Bland målgruppsalternativen finns tittare i era egna målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising Cloud DSP, tittare i specifika geografiska områden, inklusive länder, delstater, DMA:er i USA, städer och postnummer, visningsprogram för vilka specifika nyckelvärdepar (datpass-mål) skickas från DSP, utgivare eller partner, visningsprogram med [!DNL Creative] omdirigerade pixlar och angivna attributvärden samt visningsprogram med specifika enhetstyper , operativsystem och webbläsare.
+  Bland målgruppsalternativen finns tittare i era egna målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising Cloud DSP, tittare i specifika geografiska områden, inklusive länder, delstater, DMA:er i USA, städer och zip-koder, visningsprogram för vilka specifika nyckelvärdepar (datapass-mål) skickas från DSP, utgivare eller partner, visningsprogram med [!DNL Creative] återmarknadsföringspixlar och angivna attributvärden. och visningsprogram med specifika enhetstyper, operativsystem och webbläsare.
 
   Du kan tilldela kreativa paket till varje upplevelse, alternativt anpassa optimering och schemaläggning för de kreativa paketen och ändra standardstartsidorna och spårnings-URL:er <!-- and any flexible attributes --> för enskilda kreatörer i varje paket.
 
@@ -36,7 +37,7 @@ ht-degree: 0%
 
 ## Implementera och hantera upplevelser
 
-När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md), som du kan överföra som en annons till en kampanj i Adobe Advertising DSP eller implementera som en annons i en DSP från tredje part. [!DNL Creative] visar annonser för upplevelsen baserat på målgrupps- och annonsrotationsalternativen samt tillgängligt annonsmaterial.
+När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md), som du kan överföra som en annons till en kampanj i Adobe Advertising DSP eller implementera som en annons i en tredjepartsannons från DSP. [!DNL Creative] visar annonser för upplevelsen baserat på målgrupps- och annonsrotationsalternativen samt tillgängligt annonsmaterial.
 
 ## Prestandadata för era upplevelser
 
@@ -51,7 +52,7 @@ När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Experience
 Du kan visa detaljerade prestandadata för alla upplevelser från vyn [!UICONTROL Creative] > [!UICONTROL Experiences]. Om du vill övervaka prestanda för alla dina upplevelser skapar du en [!UICONTROL Custom Creative Report].
 
 <!--
-You can [view detailed performance data for any experience](experience-view-report.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
+You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
 -->
 
 ## Upplevelsestatus {#experience-statuses}
@@ -70,13 +71,13 @@ Status för en upplevelse anges automatiskt, förutom för *removed* som du ange
 
 >[!NOTE]
 >
->Du kan ändra status för en annons i en DSP utan att påverka upplevelsestatusen i [!DNL Creative].
+>Du kan ändra status för en annons inom en DSP utan att påverka upplevelsestatusen i [!DNL Creative].
 
 ## Vyn [!UICONTROL Experiences]
 
 Vyn [!UICONTROL Experiences] visar alla dina målinriktade och icke-målinriktade upplevelser. Du kan se upplevelsenamn, status, start- och slutdatum, antal och dimensioner för de tilldelade kreativa eller kreativa paketen samt om upplevelsen omfattar dynamiska annonser. När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Experiences] visar varje upplevelsekort eller rad antalet visningar och klick som upplevelsen har fått.
 
-Ni kan skapa och hantera era upplevelser, inklusive optimering och tilldela kreativa upplevelser och kreativa paket till era upplevelser. Du kan också skapa och byta namn på märkord och exportera märkorden i JavaScript- och iframe-format för implementering i DSP. Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som reklam.
+Ni kan skapa och hantera era upplevelser, inklusive optimering och tilldela kreativa upplevelser och kreativa paket till era upplevelser. Du kan också skapa och byta namn på märkord och exportera märkorden i JavaScript- och iframe-format för implementering i DSP:er. Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som reklam.
 
 <!--
 ### Available actions
