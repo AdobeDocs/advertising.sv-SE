@@ -2,9 +2,10 @@
 title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
+source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -30,11 +31,11 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
 1. Välj den kreativa rotationstypen:
 
-   * ** *Viktad* ** - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla paket måste vara upp till 100.
+   * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla paket måste vara upp till 100.
 
-   * ** *Algoritmisk* ** - Roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
+   * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
 
-   * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+      * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -56,11 +57,11 @@ När du använder schemaläggning måste du schemalägga paket under hela upplev
 
    1. Välj den kreativa rotationstypen:
 
-      * ** *Viktad* ** - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara 100.
+      * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara 100.
 
-      * ** *Algoritmisk* ** - Roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
+      * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
 
-      * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+         * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
 1. För varje ytterligare schema:
 
@@ -72,11 +73,11 @@ När du använder schemaläggning måste du schemalägga paket under hela upplev
 
    1. Välj den kreativa rotationstypen:
 
-      * ** *Viktad* ** - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara 100.
+      * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara 100.
 
-      * ** *Algoritmisk* ** - Roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
+      * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
 
-      * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+         * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
 1. Klicka på **[!UICONTROL Save]**.
 
