@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 4d0f4b2a46a65c7fa1afec0a4ef419e58b8f8f59
+source-git-commit: f6da629fdb81af4393bac9a81050111aded3ee3a
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -35,9 +35,9 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
 1. Välj den kreativa rotationstypen:
 
-   * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
+   * *[!UICONTROL Weighted]:* Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
 
-   * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
+   * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 
       * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
@@ -69,9 +69,9 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    1. Välj den kreativa rotationstypen:
 
-      * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
+      * *[!UICONTROL Weighted]:* Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
 
-      * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
+      * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 
          * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
@@ -85,9 +85,9 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    1. Välj den kreativa rotationstypen:
 
-      * &amp;ast;&amp;ast; *Viktad* &amp;ast;&amp;ast; - Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
+      * *[!UICONTROL Weighted]:* Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
 
-      * &amp;ast;&amp;ast; *Algoritmisk* &amp;ast;&amp;ast; - roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
+      * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 
          * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
