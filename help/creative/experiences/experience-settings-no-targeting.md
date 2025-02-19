@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 4d362e7321433cb3c4ef34790f8ae26f817cd9d9
+source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 När du senare skapar en tagg för annonsupplevelse för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Du måste ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i din DSP.
 
-**Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110.
+**Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110 (bestäms av användarens IP-adress).
 
 **RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du ta med en nivå med målnoder för RT-pixlar och ange vilken pixel som ska användas som mål för varje nod samt de värden som krävs för pixelns attribut som måste finnas för att visa de som skapar i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.&lt;!— Från R:&quot;RT Pixel ska vara via innehållsvalet i Dynamic ad ad setup&quot; - klargör. Jag kan se&quot;Datapass&quot; (ett ord) i de dynamiska annonsinställningarna, men jag vet inte hur den inställningen och den här upplevelsenivån fungerar tillsammans. —>
 
