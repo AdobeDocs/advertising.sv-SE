@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ I rapportvyn finns följande data:
 
    * (Valfritt) Om du vill ändra de konverteringar som rapporteras klickar du på ![Inställningar](/help/creative/assets/settings.png) och väljer konverteringsnamnen på **[!UICONTROL Conversions]** -menyn.&lt;!— Bara en eller flera? Kontrollera hur de visas - jag behöver en annonsör med flera konverteringar redan installerade —>
 
-     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Detta kan inkludera konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics. <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
+     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Detta kan inkludera konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics när annonsören har [en [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
 
 1. (På fliken [!UICONTROL Overview]):
 

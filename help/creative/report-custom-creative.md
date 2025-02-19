@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Lär dig hur du genererar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: c5ce127f9a9573962939539c6c449b83715d2e4c
+source-git-commit: 7e355e7574a9fb6f3fdd4073ad7a4eae3f0cf0d1
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1915'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Den totala intäkten för serverade annonser för en produkt. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | De totala intäkterna för serverade annonser. |
 | [!UICONTROL Conversion Metrics] | [Grupperad av annonsören i rapportinställningarna] | [Annonsspecifik konvertering] | Summan för en angiven annonsörspecifik konverteringsmetod eller Adobe Analytics-händelse. |
-| [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | Den viktade summan av alla konverteringar som ingår i det angivna [anpassade målet](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | Den viktade summan av alla konverteringar som ingår i det angivna [anpassade Advertising DSP-målet](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
