@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative Guide
 user-guide-description: Läs om de viktigaste funktionerna, arbetsmomenten, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Creative Guide
 hide: true
-source-git-commit: f13f2b3e9bed34acbe1c3c07adbca2b7a61ac76c
+source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
       + [Beslutsträdets layout](/help/creative/experiences/experience-decision-tree.md)
       + [Skapa en upplevelse med målinriktning](/help/creative/experiences/experience-create-targeting.md)
       + [Redigera en upplevelse med målinriktning](/help/creative/experiences/experience-edit-targeting.md)
+      + [Inställningar för riktade upplevelser](/help/creative/experiences/experience-settings-targeting.md)
       + Underaktiviteter för att skapa och redigera upplevelser {#subtasks}
          + Målnoder {#nodes}
             + [Lägg till en målnod på den sista nivån](/help/creative/experiences/experience-target-node-add-final.md)
@@ -53,12 +54,11 @@ ht-degree: 0%
             + [Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Anpassa URL:er för spårning för kreatörer](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Anpassa den kreativa optimeringen och planeringen](/help/creative/experiences/experience-optimization-scheduling-targeting.md)
-      + [Inställningar för riktade upplevelser](/help/creative/experiences/experience-settings-targeting.md)
    + Upplevelser utan mål {#experience-nontargeted}
       + [Skapa en upplevelse utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md)
       + [Redigera en upplevelse utan målinriktning](/help/creative/experiences/experience-edit-no-targeting.md)
       + [Inställningar för icke-målinriktad upplevelse](/help/creative/experiences/experience-settings-no-targeting.md)
-      + Kreatörer{#non-targeted-creatives}
+      + Lägg till taggar och kreatörer {#non-targeted-creatives}
          + [Skapa en annonstagg manuellt för en lämplig kreativ storlek](/help/creative/experiences/experience-tag-create-manually.md)
          + [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](/help/creative/experiences/experience-tag-assign-creatives.md)
          + [Anpassa spårnings-URL:er för en upplevelse utan att målinrikta](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
