@@ -3,7 +3,7 @@ title: Om [!UICONTROL Deal ID Inbox]
 description: Lär dig mer om funktionen [!UICONTROL Deal ID inbox] som gör att du kan acceptera privata avtal som du redan har förhandlat med utgivare  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (tidigare kallad  [!DNL AdX]), and [!DNL Magnite DV+] (tidigare  [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 394a281c9b9d7eeab939f4c58508ec1f34eba67c
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 0%
@@ -33,15 +33,16 @@ For each deal, you can select one publisher and one media type (Desktop Video, M
 DSP uppdaterar automatiskt alla avtalsdetaljer varje dag kl. 04.30 EST. Den uppdaterar även alla [!DNL FreeWheel] avtal och uppdaterar befintliga avtal från [!DNL Google] och [!DNL Magnite DV+] timmar. Du kan även uppdatera avtalsinformationen manuellt för att fylla i nya avtal när som helst.
 
 <!-- MC: I'm not sure where I got the following. Is this currently true? -->
+
 >[!NOTE]
 >
 >För programmatiska garanterade avtal genom [!DNL Google Authorized Buyers] måste du leverera minst 90 % av din budget, annars förlorar ditt konto åtkomsten till [!DNL Google] avtal i [!UICONTROL Deal ID inbox].
 
 ## Implementera [!UICONTROL Deal ID Inbox]
 
-Om du vill få dina erbjudanden i [!UICONTROL Deal ID inbox] måste SSP-kontona mappa din organisations DSP till ditt SSP-konto. DSP kan dela organisationens kontonamn med relevanta SSP:er. Kontakta kontoteamet på Adobe för instruktioner.
+Om du vill få erbjudanden i [!UICONTROL Deal ID inbox] måste dina SSP-konton mappa din organisations DSP-konto till ditt SSP-konto. DSP kan dela organisationens kontonamn med berörda SSP:er. Kontakta kontoteamet på Adobe för instruktioner.
 
-Under avtalsförhandlingar ska du be utgivaren att skicka avtalet till din köpare i stället för till det överordnade DSP kontot. Avtalsidentifieraren kan vara ett namn eller ett ID, beroende på SSP.
+Under avtalsförhandlingar ska du be utgivaren att skicka avtalet till din köpare i stället för till det överordnade DSP-kontot. Avtalsidentifieraren kan vara ett namn eller ett ID, beroende på SSP.
 
 ## Åtgärder ni kan vidta
 
