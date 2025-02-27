@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Lär dig hur du genererar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 2062e2ce4f92070b209422c3184e9c0b14229bb5
+source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
 workflow-type: tm+mt
-source-wordcount: '1910'
+source-wordcount: '1913'
 ht-degree: 0%
 
 ---
@@ -244,13 +244,13 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | Summan av alla klick på annonser för en produkt. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | Summan av alla konverteringar på annonser för en produkt. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | Procentandelen annonser för en produkt som resulterade i konverteringar. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | Procentandel annonser för en produkt som resulterade i konverteringar. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | Klickfrekvensen för annonser för en produkt, vilket är procentandelen klickningar dividerat med annonsvisningar. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | Det totala antalet visningar för en produkt. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Den totala intäkten för serverade annonser för en produkt. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | De totala intäkterna för serverade annonser. |
 | [!UICONTROL Conversion Metrics] | [Grupperad av annonsören i rapportinställningarna] | [Annonsspecifik konvertering] | Summan för en angiven annonsörspecifik konverteringsmetod eller Adobe Analytics-händelse. |
-| [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | Den viktade summan av alla konverteringar som ingår i det angivna [anpassade Advertising DSP-målet](/help/dsp/optimization/custom-goal.md). |
+| [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | (Annonsörer med Advertising DSP) Den viktade summan av alla konverteringar som ingår i det angivna [anpassade Advertising DSP-målet](/help/dsp/optimization/custom-goal.md). |
 
 {style="table-layout:auto"}
 
