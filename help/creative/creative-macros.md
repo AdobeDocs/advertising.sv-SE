@@ -1,11 +1,11 @@
 ---
 title: Tillgängliga makron för att spåra URL:er
-description: Referera till de makron som du kan lägga till i URL:er för spårning av landningssidor och andra kreatörer.
+description: Referera till makron som du kan lägga till i dina URL-adresser för landningssidor, spårnings-URL:er och tredjepartsskapare.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,12 @@ Vissa av de tillgängliga makrona, eller deras motsvarigheter, inkluderas automa
 | `${TM_ACC_EXPERIENCE_ID}` | Spåra och rapportera Advertising Creative upplevelse-ID | — |
 | `${TM_ACC_CREATIVE_ID}` | Spårar och rapporterar Advertising Creative Creative ID | — |
 | `${TM_RANDOM}` | Ett slumpmässigt tal mellan 1 och 100000 | — |
-| `${TM_TIMESTAMP}` | Unix-tidsstämpeln (i sekunder) | — |
-| `${TM_CLICK_URL_URLENC}` | (För annonser från tredje part från leverantörer som kräver URL-kodning) Den kodade klickomdirigerings-URL:en, som gör att annonsservrar kan spåra och räkna annonsklickningar. När annonsen visas och användaren klickar på den aktiveras makrot och klickningen registreras och räknas i rapporteringssyfte. | Ja |
+| `${TM_TIMESTAMP}` | UNIX®-tidsstämpeln (i sekunder) | — |
+| `${TM_CLICK_URL_URLENC}` | (För annonser från tredje part från leverantörer som kräver URL-kodning) Den kodade klickomdirigerings-URL:en, som gör att annonsservrar kan spåra och räkna annonsklickningar. När användaren klickar på annonsen aktiveras makrot och klickningen registreras och räknas i rapporteringssyfte. | Ja |
 
 >[!MORELIKETHIS]
 >
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Standardinställningar för kreativitet](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
->* 
+>* [Inställningar för anpassad upplevelse](/help/creative/experiences/experience-settings-targeting.md)
+>*[Inställningar för icke-målinriktad upplevelse](/help/creative/experiences/experience-settings-no-targeting.md)

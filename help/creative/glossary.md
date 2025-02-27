@@ -2,9 +2,9 @@
 title: Ordlista
 description: Se definitioner av nyckeltermer.
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 4e61ce32862411a7a83c66773e41d032770ad861
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,17 @@ ht-degree: 0%
 
 **klickfrekvens:** Ett annonsklick som resulterar i en konvertering.
 
-**datapassmål:** Med datapassmål kan annonselement väljas baserat på data som tillhandahålls i realtid av DSP, utgivare eller partner. Detta kan inkludera data från tredje part.
+**datapassmål:** Med datapassmål kan annonselement väljas baserat på data som tillhandahålls i realtid av DSP, utgivaren eller partnern. Detta kan inkludera data från tredje part.
 
-<!-- verify this -->I en annonsupplevelse kan varje datapassmål innehålla upp till fem nyckelvärdepar. Du anger nycklarna och minst ett värde i den första målnoden på den nivån, och samma nycklar är tillgängliga för målnoder på samma nivå. Alla nyckelvärdepar läggs till som ett makro till annonstaggen för den här upplevelsen. Vid tidpunkten för annonsintrycket ansvarar DSP, utgivare eller partner för att ersätta värdena med data som är specifika för det intrycket. Informationen skickas tillbaka till [!DNL Creative] så att den kan visa en lämplig annonsupplevelse baserat på de regler som definierats i upplevelsen.
+<!-- verify this -->I en annonsupplevelse kan varje datapassmål innehålla upp till fem nyckelvärdepar. Du anger nycklarna och minst ett värde i den första målnoden på den nivån, och samma nycklar är tillgängliga för målnoder på samma nivå. Alla nyckelvärdepar läggs till som ett makro till annonstaggen för den här upplevelsen. När annonsen visas är DSP, utgivaren eller partnern ansvarig för att ersätta värdena med data som är specifika för det intrycket. Informationen skickas tillbaka till [!DNL Creative] så att den kan visa en lämplig annonsupplevelse baserat på de regler som definierats i upplevelsen.
 
-Om du till exempel vill rikta en eller flera möjliga användare till tittare som är kvinnliga och som är i segment 1234, konfigurerar du datapassmålen `gender=female` och `segment=1234` för målnoden. Den DSP som ger intryck fyller taggen med information om kön och segment, och besökare som uppfyller de angivna kraven visas som en av de associerade kreatörerna.
+Om du till exempel vill rikta en eller flera möjliga användare till tittare som är kvinnliga och som är i segment 1234, konfigurerar du datapassmålen `gender=female` och `segment=1234` för målnoden. Den DSP som visar hur taggen ser ut fyller i den med information om kön och segment, och besökare som uppfyller de angivna kraven visas som en av de associerade kreatörerna.
 
-**Engagemang:** Ett annonsengagemang (som att titta på en video eller utöka en annons) som resulterar i en konvertering.
+**Engagemang:** Ett annonsengagemang (som att bläddra igenom en karusell annons eller utöka en annons) som resulterar i en konvertering. Denna typ av händelse är skild från att klicka på annonsen för att nå en landningssida eller en händelse på landningssidan.
 
-<!-- or flexible html5 creative variation? -->
-**variant av en flexibel kreativ HTML5-resurs:** En härledning av en flexibel kreativ HTML5-resurs i din [!UICONTROL Creative Libraries] som genereras när du tilldelar den kreativa upplevelsen en upplevelse och ändrar något av standardattributen i upplevelsen.
+<!-- or flexible html5 creative variation? Not sure we need to mention this since there's no place to view the different variations per se:
 
-<!-- Not sure if this will be implemented, and how:
-You can view all derived creatives, including not only the base creatives you've added but also each child creative derivation, in the card view in [!UICONTROL Creative] > [!UICONTROL Libraries]. In the toolbar, click __?__ , and then select Derived Creatives. [Clarify how to tell which have variations. I can't find any now.]
+**variation of a flexible HTML5 creative:** A derivation of a flexible HTML5 creative asset in your [!UICONTROL Creative Libraries], which is generated when you assign the creative to an experience and change any of the default attributes within the experience.
 -->
 
 **visa-igenom:** Ett annonsintryck, eller en sträng med visningar, som resulterar i en konvertering utan att användaren klickar på en annons.
