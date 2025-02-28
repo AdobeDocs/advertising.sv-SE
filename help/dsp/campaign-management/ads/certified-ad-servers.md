@@ -3,9 +3,9 @@ title: Certifierade annonserande partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 8ae5e4fc84ace4dc4e8b637545e95f5e0cff912c
+source-git-commit: dcaa41b3fba971bdf95f4e884861f318db18f146
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 | [!DNL ADventori] | | X | | | |
 | [!DNL Artsai] | | X | | X | |
 | [!DNL Atlas] | | | | X | |
-| [!DNL Big Ads] | | | X | | Kub (skrivbord), kub (mobil), kort (skrivbord), Big Reveal (skrivbord), kub (skrivbord), kinematik (skrivbord). Ställ in alla dessa annonstyper i DSP till 300x250. Certifierad endast via [!DNL Magnite DV+]. |
+| [!DNL Big Ads] | | | X | | Kub (skrivbord), kub (mobil), kort (skrivbord), Big Reveal (skrivbord), kub (skrivbord), kinematik (skrivbord). Ställ in alla dessa annonstyper i DSP som 300x250. Certifierad endast via [!DNL Magnite DV+]. |
 | [!DNL Bonzai] | | | X | | |
 | [!DNL Contobox] | | | X | | |
 | [!DNL Conversant] | | X | | | |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Slagskal med hög effekt (inklusive Cavai-annonser) måste hanteras av ett 180 × 150-ID för visningsavtal i Inskin-nätverket. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway och Sidekick; 300x250 Outstream, HighRise; standardskärm för skrivbord (specifika plugin-ID:n för annonser krävs inte); Video Anchor (endast VAST); CTV via [!DNL Pubmatic]</br></br>Kontakta ditt kontoteam på Adobe för hjälp med att konfigurera annonsenheter. |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway och Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display (specifika plugin-ID:n för annonser krävs inte); Video Anchor (endast VAST); CTV via [!DNL Pubmatic]</br></br>Kontakta ditt Adobe-kontoteam för hjälp med att konfigurera annonsenheter . |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |
@@ -53,6 +53,7 @@ ht-degree: 0%
 | [!DNL Pubmatic] | | | | X | Endast VAST |
 | [!DNL RevJet] | | | | X | Endast VAST |
 | [!DNL Seedtag] | | X | X | | |
+| [!DNL SeenThis] | | X | | | Skärmcertifieringen innehåller videotaggar i bannern |
 | [!DNL Sharethrough] | | | | | Endast CTV, Native och Outstream |
 | [!DNL Sizmek] | X | X | | X | OLV och CTV</br></br>Om du vill att taggarna ska återges i användargränssnittet kapslar du in taggen med `<a>` -taggar (i början och i slutet). Se exempeltagg nedan:</br></br>`<a><script src="https://bs.serving-sys.com/Serving/adServer.bs?c=28&cn=display&pli=1074570064&w=900&h=550&ord=[timestamp]&ifrm=-1&z=0"></script> <noscript> <a href="https://bs.serving-sys.com/Serving/adServer.bs?cn=brd&pli=1074570064&Page=&Pos=-602368150" target="_blank"> <img src="https://bs.serving-sys.com/Serving/adServer.bs?c=8&cn=display&pli=1074570064&Page=&Pos=-602368150" border=0 width=900 height=550></a> </noscript><a>` |
 | [!DNL Spaceback] | | X | | | |
@@ -61,7 +62,7 @@ ht-degree: 0%
 | [!DNL SundaySky] | | | | X | |
 | [!DNL Teads] | | X | | | Det finns inget stöd för VPAID i Outstream-lagret. |
 | [!DNL Trueffect] | | X | | | |
-| [!DNL Undertone] | | | X | | Annonsenhet för anpassad sidutväxling överförd som 180x150 i DSP</br></br>När indexExchange skickar en 180x150-auktion och DSP bud på auktionen och ger ett intryck, utökas den kreativa sidan till en helsidesannons.</br></br>Inledningsvis certifierad för annonsenheterna Page Grabber, Expanderbar friktion och Skärmförskjutning. Detta måste certifieras på nytt, med steg markerade för processer. |
+| [!DNL Undertone] | | | X | | En anpassad annonsenhet för Page Grabber har överförts som 180x150 i DSP</br></br>När Index Exchange skickar en 180x150-auktion och DSP offerter på auktionen och ger ett intryck utvidgas den kreativa sidan till en helsidesannons.</br></br>Inledningsvis certifierad för annonsenheterna Page Grabber, Expanderbar friktion och Skärmförskjutning. Detta måste certifieras på nytt, med steg markerade för processer. |
 | [!DNL Vox] | | | X | | [!DNL Athena] annonsenheter |
 | [!DNL Wunderkind] | | X | | | |
 
