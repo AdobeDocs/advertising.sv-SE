@@ -3,9 +3,9 @@ title: Samla in historiska data för AMO ID:n och EF ID:n för användning i Ado
 description: Lär dig hur du samlar in historiska data för dina reserverade variabler i Adobe Analytics för framtida bruk i Adobe Customer Journey Analytics
 feature: Integration with Adobe Analytics
 exl-id: 1f8fa139-f146-426b-b0c4-079f8e2de56c
-source-git-commit: fa3065d12d5c8828eaaeaca52deeadfec7b0e318
+source-git-commit: 6bf9647910aa7b1f74cf2bd726f8de27a8641b38
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -48,16 +48,16 @@ Det här steget är manuellt och måste slutföras för varje rapportserie som s
       * För `AMO ID`:
 
          1. Välj **Skriv över värdet för**.
-         1. Välj *\&lt;den nya/oanvända eVar\>*
+         1. Välj *\&lt;den nya/oanvända eVar\>*.
          1. Välj **Fråga efter strängparameter**.
          1. Ange `s_kwcid`.
 
-        Exempel: Skriv över värdet för `rVar10` med frågesträngsparameter `s_kwcid`
+        Exempel: &quot;Skriv över värdet för `rVar10` med frågesträngsparameter`s_kwcid&quot;
 
       * För `EF ID`:
 
          1. Välj **Skriv över värdet för**.
-         1. Välj *\&lt;den nya/oanvända eVar\>*
+         1. Välj *\&lt;den nya/oanvända eVar\>*.
          1. Välj **Fråga efter strängparameter**.
          1. Ange `ef_id`.
 
