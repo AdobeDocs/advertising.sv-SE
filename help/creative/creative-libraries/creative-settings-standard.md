@@ -3,9 +3,9 @@ title: Kreativa inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1806'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ När du redigerar flera kreatörer samtidigt:
 
 ### Fliken Detaljer
 
-**Creative-namn:** Den kreativa personens namn. Mallnamnet eller namnet på den överförda filen används som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. Mallnamnet eller namnet på den överförda filen används som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
@@ -94,7 +94,7 @@ Ersätta den befintliga annonsmallen:
 
 För nya kreatörer finns följande inställningar inte på en namngiven flik.
 
-**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
@@ -150,7 +150,7 @@ Ersätta den befintliga annonsmallen:
 
 ## Inställningar för bildkreativitet {#creative-settings-image}
 
-**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera bilder kan du redigera de enskilda kreativa namnen. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera bilder kan du redigera de enskilda kreativa namnen. **Tips!** Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. Samma värde gäller för alla markerade bilder. När du tar med kreatörerna i en upplevelse kan du välja att anpassa språkinställningarna för upplevelsen.
 
@@ -180,7 +180,7 @@ När du inkluderar denna kreativitet i en upplevelse som du implementerar som en
 
 **[!UICONTROL Advertiser]:** (skrivskyddat) Annonsören som biblioteket är tillgängligt för.
 
-**Creative-namn:** Den kreativa personens namn. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. **Tips!** Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
 
 **Creative-storlek:** (skrivskyddat för befintliga annonser) Den kreativa personens dimensioner. För nya kreatörer väljer du bland en lista med standardannonsstorlekar.
 u

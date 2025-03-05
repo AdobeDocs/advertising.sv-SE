@@ -3,7 +3,7 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%

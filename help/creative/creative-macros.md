@@ -3,7 +3,7 @@ title: Tillgängliga makron för att spåra URL:er
 description: Referera till makron som du kan lägga till i dina URL-adresser för landningssidor, spårnings-URL:er och tredjepartsskapare.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: fe3e991f1fba2944e7a3f8e4930c48c7dbd28770
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Stängd beta*
 
-<!-- More feature metadata??? -->
+<!-- More feature metadata???  -->
 
 Du kan inkludera följande makron i dina tredjepartsskapare, i spårnings-URL:er från tredje part för dina upplevelser och i landningssidans URL:er för eget bruk.
 

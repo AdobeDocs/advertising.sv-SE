@@ -2,7 +2,8 @@
 title: Duplicera kreatörer
 description: Lär dig duplicera kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%

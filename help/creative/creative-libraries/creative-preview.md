@@ -2,7 +2,8 @@
 title: Förhandsgranska en kreativ
 description: Lär dig hur du öppnar en förhandsgranskning av en kreatör.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Endast standardkreatörer*
 *Stängd beta*
 
-Du kan förhandsgranska en kreativ bild som tittarna ser den, med hyperlänkar.
+Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlänkar.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 

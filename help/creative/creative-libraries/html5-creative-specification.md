@@ -3,7 +3,7 @@ title: HTML5 - kreativ specifikation
 description: Referera till den kreativa HTML5-specifikationen för Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # HTML5 creative specification for Advertising Creative
 
-I det här dokumentet beskrivs kraven och API-stödet för HTML5-användare inom [!DNL Creative]. API:t gör det möjligt att utveckla HTML5-kreatörer vars attribut kan konfigureras när de distribueras.
+I det här dokumentet beskrivs kraven och API-stödet för HTML5-användare inom [!DNL Creative]. API:t stöder utvecklingen av HTML5-kreatörer vars attribut kan konfigureras samtidigt som det skapas.
 
 ## Omfång
 

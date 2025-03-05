@@ -3,7 +3,7 @@ title: Redigera standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du ändrar inställningarna för vanliga (icke-dynamiska) kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%

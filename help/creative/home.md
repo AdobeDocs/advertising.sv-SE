@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: d9dee4daf396c2aa84ba6b0635e8a819fe9932be
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,12 @@ ht-degree: 0%
 
 *Stängd beta*
 
-<!-- The following features are new or recently changed. -->
+<!-- The following features are new or recently changed.  -->
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
 | 10 februari 2025 | [!UICONTROL Creative Libraries] | Tidigare hade du ett kreativt bibliotek. Nu kan du skapa flera bibliotek för varje annonsör. | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
-| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | Vyn [!UICONTROL Creatives] innehåller flikar för [!UICONTROL Standard Ads] och [!UICONTROL Dynamic Ads].<ul><li>På fliken **[!UICONTROL Standard Ads]** kan du överföra och hantera bilder, HTML5, flexibla HTML5 och andra kreatörer.</li><li>På fliken **[!UICONTROL Dynamic Ads]** kan du hantera dynamiskt genererade annonser som skapas från överförda feedsfiler med hjälp av definierade annonsmallar. Tidigare genererades dynamiska annonser i [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> För närvarande kan du förhandsgranska, duplicera och ta bort dynamiska annonser. Ni kan även bifoga dynamiska annonser till kreativa paket för riktade annonsupplevelser eller till annonstaggar för upplevelser som inte är målinriktade. Endast administratörsanvändare kan skapa dynamiskt genererade annonser.</li></ul> | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
+| | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | Vyn [!UICONTROL Creatives] innehåller flikar för [!UICONTROL Standard Ads] och [!UICONTROL Dynamic Ads].<ul><li>På fliken **[!UICONTROL Standard Ads]** kan du överföra och hantera bilder, HTML5, flexibla HTML5 och andra kreatörer.</li><li>På fliken **[!UICONTROL Dynamic Ads]** kan du hantera dynamiskt genererade annonser som skapas från överförda feedsfiler med hjälp av definierade annonsmallar. Tidigare genererades dynamiska annonser i [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> För närvarande kan du förhandsgranska, duplicera och ta bort dynamiska annonser. Ni kan även bifoga dynamiska annonser till kreativa paket för riktade annonsupplevelser eller till annonstaggar för upplevelser som inte är målinriktade. Endast administratörsanvändare kan dynamiskt generera annonser.</li></ul> | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Bundles] | Gruppera flera kreatörer i ett *paket* för att enkelt lägga till dem i en upplevelse. Ni kan skapa standardannonspaket och koppla standardkreativa verktyg till dem. På samma sätt kan ni skapa dynamiska annonspaket och koppla dynamiska kreatörer till dem. | Se [Hantera Creative Bundles](/help/creative/creative-libraries/bundle-manage.md). |
 | | [!UICONTROL Experiences] | I nya inställningar för annonsupplevelser anger du nu om upplevelsen använder beslutsträdsanpassning eller inte, och du kan inte ändra inställningen när du har sparat upplevelsen. Arbetsflödena för upplevelser med målgruppsanpassning i beslutsträd och upplevelser utan målgruppsanpassning i beslutsträd skiljer sig åt. | Se [Skapa en upplevelse med målinriktning](/help/creative/experiences/experience-create-targeting.md) och [Skapa en upplevelse utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md). |
 | | [!UICONTROL Experiences] | Nu kan ni skapa riktade upplevelser endast med kreativa paket från ett enda kreativt bibliotek, inte med enskilda kreatörer. Ni kan fortfarande koppla enskilda kreatörer från ett enda bibliotek till icke-målinriktade upplevelser utan målgruppsanpassning för beslutsträd.<br><br>På grund av de strukturella förändringarna kommer dina äldre upplevelser att bli inaktuella senare i år. | Självbetjäningskunder: Återskapa era upplevelser i det nya användargränssnittet. Se [Skapa en upplevelse med målinriktning](/help/creative/experiences/experience-create-targeting.md).<br><br>Hanterade tjänstkunder: Ditt Adobe-kontoteam återskapar dina upplevelser i det nya användargränssnittet. |

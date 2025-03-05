@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Stängd beta*
 
-<!-- Revisit Description metadata -->
+<!-- Revisit Description metadata  -->
 
 <!-- MORE -->
 
@@ -22,13 +22,23 @@ ht-degree: 0%
 
 * **Erfarenheter med målgruppsanpassning i beslutsträd:** [!DNL Creative] gör att du kan konfigurera personaliserade annonsupplevelser under hela kundresan med hjälp av en beslutsträdsmodell. Ni kan anpassa alla annonselement - bilder, rubriker, erbjudanden och landningssidor - baserat på målgruppen.
 
-  Du kan till exempel ange samma paket för personer i Chicago och New York City som befinner sig i ett visst Adobe Analytics-målgruppssegment, men skicka personer i Chicago som befinner sig i samma segment till andra landningssidor än New Yorkers. Du kan också ange ett annat paket för personer i segmentet som bor var som helst, förutom Chicago och New York, och ett tredje paket för andra personer som inte är med i segmentet.
+  Du kan till exempel ange samma paket för personer i Chicago och New York City som befinner sig i ett visst Adobe Analytics-målgruppssegment, men skickar personer i Chicago till andra landningssidor än New Yorkers. Du kan också ange ett annat paket för personer i segmentet som bor var som helst, förutom Chicago och New York, och ett tredje paket för andra personer som inte är med i segmentet.
 
-  Bland målgruppsalternativen finns tittare i era egna målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising Cloud DSP, tittare i specifika geografiska områden, inklusive länder, delstater, DMA:er i USA, städer och zip-koder, visningsprogram för vilka specifika nyckelvärdepar (datapass-mål) skickas från DSP, utgivare eller partner, visningsprogram med [!DNL Creative] återmarknadsföringspixlar och angivna attributvärden. och visningsprogram med specifika enhetstyper, operativsystem och webbläsare.
+  Målalternativen är:
 
-  Du kan tilldela kreativa paket till varje upplevelse, alternativt anpassa optimering och schemaläggning för de kreativa paketen och ändra standardstartsidorna och spårnings-URL:er <!-- and any flexible attributes --> för enskilda kreatörer i varje paket.
+   * Era första målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising Cloud DSP
 
-* **Upplevelser utan mål för beslutsträd:** [!DNL Creative] optimerar annonselementen för annonsupplevelsen utan att begränsa målgruppen.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> Du anger start- och slutdatum och vissa standardinställningar för varje upplevelse, men mycket av arbetsflödet är inte direkt inom upplevelsen. I stället för att lägga till kreatörer direkt i upplevelsen skapar du en annonstagg för varje annonsstorlek för upplevelsen och lägger sedan till kreatörer i den, konfigurerar kreativ optimering och schemaläggning samt anpassar landningssidor och spårnings-URL:er från [!UICONTROL Tag Manager].
+   * Specifika geografiska platser, inklusive länder, delstater, DMA:er i USA, städer och postnummer
+
+   * Visare som specifika nyckelvärdepar (mål för dataöverföring) skickas från DSP, utgivaren eller partnern
+
+   * [!DNL Creative] omdirigerade pixlar och angivna attributvärden
+
+   * Specifika enhetstyper, operativsystem och webbläsare
+
+  Ni kan tilldela kreativa paket till varje upplevelse. För varje upplevelse kan du anpassa optimering och schemaläggning för de kreativa paketen och ändra standardstartsidorna och spårnings-URL:er <!-- and any flexible attributes --> för enskilda kreatörer i varje paket.
+
+* **Upplevelser utan mål för beslutsträd:** [!DNL Creative] optimerar annonselementen för annonsupplevelsen utan att begränsa målgruppen.<!-- For first-party creatives, [!DNL Creative] serves the ads. --> För varje upplevelse anger du start- och slutdatum och vissa standardinställningar, men mycket av arbetsflödet är inte direkt inom upplevelsen. I stället för att lägga till kreatörer direkt i upplevelsen använder du [!UICONTROL Tag Manager] för att skapa en annonstagg för varje annonsstorlek för upplevelsen och sedan lägga till kreatörer i den, konfigurera kreativ optimering och schemaläggning samt anpassa landningssidorna och spårnings-URL:er.
 
 ## Annonsoptimering
 
@@ -37,7 +47,7 @@ ht-degree: 0%
 
 ## Implementera och hantera upplevelser
 
-När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md), som du kan överföra som en annons till en kampanj i Adobe Advertising DSP eller implementera som en annons i en tredjepartsannons från DSP. [!DNL Creative] visar annonser för upplevelsen baserat på målgrupps- och annonsrotationsalternativen samt tillgängligt annonsmaterial.
+När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md). Du kan överföra upplevelsetaggen som en annons till en kampanj i Adobe Advertising DSP eller implementera den som en annons i en DSP från tredje part. [!DNL Creative] visar annonser för upplevelsen baserat på målgrupps- och annonsrotationsalternativen samt tillgängligt annonsmaterial.
 
 ## Prestandadata för era upplevelser
 
@@ -61,11 +71,11 @@ You can [view detailed performance data for any experience](experience-performan
 
 Status för en upplevelse anges automatiskt, förutom för *removed* som du anger manuellt.
 
-*Live:* Upplevelsen innehåller alla nödvändiga element, så du kan generera en upplevelsetagg som ska implementeras som en annons i en DSP. <!-- A live experience may be scheduled to start in the future -->
+*Live:* Upplevelsen innehåller alla nödvändiga element, så att du kan generera en upplevelsetagg som ska implementeras som en annons i en DSP. <!-- A live experience may be scheduled to start in the future -->
 
 *Utkast:* Alla grenar av upplevelsen har inte tilldelats några kreativa funktioner, så upplevelsen är ofullständig och du kan inte generera någon upplevelsetagg.
 
-*Bearbetning:* En tidigare aktiv upplevelse har redigerats, men är nu ofullständig. Du kan inte generera en upplevelsetagg för den. **Obs!** Om du redan har implementerat en upplevelsetagg för upplevelsen kommer den tidigare versionen fortfarande att hanteras. Om du senare slutför upplevelsen - så att den blir offentlig igen - kommer den nya versionen att hanteras med den befintliga taggimplementeringen.
+*Bearbetning:* En tidigare aktiv upplevelse har redigerats, men är nu ofullständig. Du kan inte generera en upplevelsetagg för den. **Obs!** Om du redan har implementerat en upplevelsetagg för upplevelsen kan den tidigare versionen fortfarande hanteras. Om du senare slutför upplevelsen - så att den blir offentlig igen - kan den nya versionen hanteras med den befintliga taggimplementeringen.
 
 *Borttagen:* Upplevelsen har tagits bort från [!DNL Creative] och är inte längre synlig i [!UICONTROL Experiences]-vyerna.
 

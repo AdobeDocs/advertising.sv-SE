@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%

@@ -4,7 +4,7 @@ description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligator
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%

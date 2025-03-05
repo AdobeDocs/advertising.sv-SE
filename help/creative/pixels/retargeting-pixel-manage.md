@@ -3,7 +3,7 @@ title: Hantera återmarknadsföring av pixlar
 description: Lär dig hur du skapar och implementerar återannonseringspixlar som ska användas som mål för annonsupplevelser.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Exempel på pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] stöder för närvarande bara universella ID:n för Advertising DSP. En framtida release kommer att ha stöd för universella ID:n för DSP:er från tredje part.<!-- Clarify this and reword as needed -->
+> * [!DNL Creative] stöder för närvarande bara universella ID:n för Advertising DSP. En framtida release kommer att ha stöd för universella ID:n för DSP:er från tredje part.<!-- Clarify this and reword as needed  -->
 >* Du kan också använda dina egna målgrupper från Adobe Audience Manager och Adobe Analytics som [kreativa mål för dina upplevelser](/help/creative/experiences/experience-settings-targeting.md).
 >* När du använder en upplevelse som en annons på en Advertising DSP-plats kan du rikta placeringen mot alla målgrupper som är tillgängliga för dig i DSP. Du kan också [skapa anpassade målgruppssegmenttaggar](/help/dsp/audiences/custom-segment-create.md) för att spåra alla besökare till specifika landningssidor och sedan använda dessa segment som kreativa mål för en placering.
 >* Besökare på webbplatser som har valt att sluta spåra annonser för målinriktning får inte annonser med personaliserat kreativt innehåll baserat på målgruppssegment eller profiler för ny målinriktning.

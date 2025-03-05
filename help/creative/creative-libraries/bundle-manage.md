@@ -3,7 +3,7 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 0%
@@ -160,7 +160,7 @@ Att frigöra en kreatör från paketet innebär inte att den kreativa personen t
 
 ## Förhandsgranska en kreatör i ett paket
 
-Du kan förhandsgranska en kreativ bild som tittarna ser den, med hyperlänkar.
+Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlänkar.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
