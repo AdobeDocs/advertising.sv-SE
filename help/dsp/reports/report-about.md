@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: 5ddfcba2e1ceac6a98dc0b865a09f535e6621fa0
+source-git-commit: 49e254ca954389b1ea13ac571de55f404ed7ba7c
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 0%
@@ -41,7 +41,11 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
      >
      >Den här rapporten innehåller data om faktureringssegmentet. Om en användare eller enhet får ett intryck som tillhör flera segment, krediteras endast ett fakturerbart segment med intrycket.
 
-   * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med Adobe Advertising-konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
+   * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med Adobe Advertising konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
+
+  <!--
+    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    -->
 
    * **[!UICONTROL Device]:** Använd den här förifyllda mallen för att visa nyckelmått efter enhetsrelaterade dimensioner.
 
@@ -83,7 +87,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
       * [!UICONTROL Campaign ID] eller [!UICONTROL Campaign Name]: Visar vilka kampanjer som har hjälpt till med konverteringsprocessen.
 
-      * [!UICONTROL Ad ID] eller [!UICONTROL Ad Name] visar vilka DSP annonser som har resulterat i konverteringar.
+      * [!UICONTROL Ad ID] eller [!UICONTROL Ad Name] visar vilka DSP-annonser som har resulterat i konverteringar.
 
       * [!UICONTROL Ad ID & Paid Keyword (SSC)] eller [!UICONTROL Ad Name & Paid Keyword (SSC)] visar vilka sökord, sociala nyckelord och Commerce som har resulterat i konverteringar.
 
@@ -101,7 +105,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
 ## Kontorapportering {#cross-account-reporting}
 
-Alla organisationer som har flera DSP-konton kan välja att aktivera kontoöverskridande data i anpassade rapporter, beroende på organisationens behov. Du kan till exempel ge konto A åtkomst till data för konto B och ge konto B åtkomst till data för konto C (men inte konto A). Kontakta ditt Adobe-kontoteam om du vill aktivera och konfigurera den här funktionen.
+Alla organisationer med flera DSP-konton kan välja att aktivera kontoöverskridande data i anpassade rapporter, beroende på organisationens behov. Du kan till exempel ge konto A åtkomst till data för konto B och ge konto B åtkomst till data för konto C (men inte konto A). Kontakta ditt Adobe-kontoteam om du vill aktivera och konfigurera den här funktionen.
 
 När funktionen har aktiverats för din organisation kan du [filtrera](report-settings.md) någon av följande rapporttyper efter konto: [!UICONTROL Custom], [!UICONTROL Site], [!UICONTROL Segment], [!UICONTROL Geo], [!UICONTROL Device], [!UICONTROL Frequency (by Impression)] och [!UICONTROL Conversion].
 
@@ -133,6 +137,6 @@ Du kan skapa nya anpassade rapporter, redigera befintliga rapporter eller duplic
 >* [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
 >* [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
 >* [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-reports.md)
->* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)

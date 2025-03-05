@@ -3,7 +3,7 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -51,7 +51,7 @@ När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan d
 
 ## Prestandadata för era upplevelser
 
-När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Experiences] visar varje upplevelsekort eller rad antalet visningar och klick som upplevelsen har fått.
+När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Creative] > [!UICONTROL Experiences] visar varje upplevelsekort eller rad antalet visningar och klick som upplevelsen har fått.
 
 ![Metrisk, alternativ](/help/creative/assets/metrics-option.png "Metrisk, alternativ")
 
@@ -59,11 +59,9 @@ När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Experience
 
 <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
-Du kan visa detaljerade prestandadata för alla upplevelser från vyn [!UICONTROL Creative] > [!UICONTROL Experiences]. Om du vill övervaka prestanda för alla dina upplevelser skapar du en [!UICONTROL Custom Creative Report].
+Du kan [visa detaljerade prestandadata för alla upplevelser](experience-performance-details.md) från vyn [!UICONTROL Experiences].
 
-<!--
-You can [view detailed performance data for any experience](experience-performance-details.md) from the Creative > Experiences view. To monitor performance across your experiences, [create custom reports](/help/dsp/reports/report-create.md).
--->
+Om du vill övervaka prestanda för alla dina upplevelser skapar du en [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md).
 
 ## Upplevelsestatus {#experience-statuses}
 
