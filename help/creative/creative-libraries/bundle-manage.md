@@ -2,9 +2,10 @@
 title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en enhet. När du har skapat en paketbehållare kan du koppla kreatörer till paketet. Standardpaket kan bara innehålla standardannonser, och dynamiska paket kan bara innehålla dynamiska annonser. Du kan åsidosätta landningssidor, visningsspårningstaggar och klickspårningstaggar för alla kreatörer i ett paket som tilldelats en upplevelse inifrån upplevelsebeslutsträdet utan att påverka de grundläggande kreatörerna.
+Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en enhet. När du har skapat en paketbehållare kan du koppla kreatörer till paketet. Standardpaket kan bara innehålla standardannonser, och dynamiska paket kan bara innehålla dynamiska annonser. Du kan åsidosätta landningssidor, visningsspårningstaggar och klickspårningstaggar för alla kreatörer i ett paket som är tilldelat en upplevelse inifrån upplevelsebeslutsträdet, utan att det påverkar grundskaparna.
 
 [!DNL Creative] roterar genom de kreativa i paketet enligt inställningarna för varje upplevelse som paketet är tilldelat till. Du kan också tillåta att [!DNL Creative] optimerar annonselementen för alla upplevelser baserat på prestanda med algoritmisk annonrotation, som drivs av Adobe Sensei.
 
@@ -103,11 +104,13 @@ Du kan bifoga ett kreativt program till flera paket.
 
 ## Koppla samman kreatörer i ett paket
 
-Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/creative-libraries-about.md) till ett standardpaket och koppla befintliga dynamiska kreatörer <!-- [existing dynamic creatives](creative-dynamic-manage.md) --> till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[creative size + language\].
+Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/creative-libraries-about.md) till ett standardpaket och koppla befintliga dynamiska kreatörer<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[creative size + language\].
 
+<!--
 >[!NOTE]
 >
->Du kan även [bifoga kreatörer till paket från vyerna Standard Ads och Dynamic Ads](creative-attach-detach-bundles.md).
+>You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
+-->
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -218,7 +221,7 @@ The custom URL and tags are applied to a creative when the bundle is assigned to
 
 ## Ta bort paket
 
-Du kan ta bort paket som inte är tilldelade till en direktupplevelse.<!-- Add an x-ref?  --> Om ett paket har tilldelats en direktupplevelse tar du bort paketet från beslutsträdet för upplevelsen <!-- add x-ref --> innan du fortsätter.
+Du kan ta bort paket som inte har tilldelats en [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses)-upplevelse. Om ett paket har tilldelats en direktsänd upplevelse [tar du bort paketet från beslutsträdet](/help/creative/experiences/experience-target-node-delete.md) för upplevelsen innan du fortsätter.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -250,5 +253,6 @@ Du kan ta bort paket som inte är tilldelade till en direktupplevelse.<!-- Add a
 >[!MORELIKETHIS]
 >
 >* [Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i en upplevelse](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Hantera kreativa bibliotek](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)

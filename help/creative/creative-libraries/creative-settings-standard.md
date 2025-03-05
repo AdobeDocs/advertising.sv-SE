@@ -3,9 +3,9 @@ title: Kreativa inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Inställningarna varierar beroende på kreativ typ.
 
 När du redigerar flera kreatörer samtidigt:
 
-* Du kan redigera inställningarna för varje kreatör samtidigt eller individuellt. Som standard markeras alla alternativ som du väljer, och alla inställningar som du anger gäller för alla valda kreatörer. Om du vill redigera inställningar för specifika kreatörer avmarkerar du alla ej tillämpliga kreativa innan du redigerar fälten. Upprepa för ytterligare kreatörer om det behövs.
+* Du kan redigera inställningarna för varje kreatör samtidigt eller individuellt. Som standard markeras alla kreatörer som du väljer, och alla inställningar du anger gäller för alla valda kreatörer. Om du vill redigera inställningar för specifika kreatörer avmarkerar du alla ej tillämpliga kreativa innan du redigerar fälten. Upprepa för ytterligare kreatörer om det behövs.
 
 * Vissa inställningar används för alla valda kreatörer.
 
@@ -26,7 +26,7 @@ När du redigerar flera kreatörer samtidigt:
 
 ### Fliken Detaljer
 
-**Kreativt namn:** Namnet på den kreativa. Mallnamnet eller namnet på den överförda filen används som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. Mallnamnet eller namnet på den överförda filen används som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
@@ -66,7 +66,7 @@ Mer information om tillgängliga attribut i fördefinierade mallar finns i [Till
 
 Den flexibla HTML5-mallfilen för kreatörer.
 
-Du kan också ersätta den befintliga mallen med en ny mall som har en annan layout men samma uppsättning attributnamn som den ursprungliga mallen. Den nya mallen måste vara i ZIP-format med högst 2 MB. När den kreativa delen finns i ett paket kommer alla upplevelser som använder paketet att använda layouten från den nya mallen.
+Du kan också ersätta den befintliga mallen med en ny mall som har en annan layout men samma uppsättning attributnamn som den ursprungliga mallen. Den nya mallen måste vara i ZIP-format med högst 2 MB. När den kreativa delen finns i ett paket används sedan layouten från den nya mallen för alla upplevelser som använder paketet.
 
 När du uppdaterar mallen för en överordnad kreatör med underordnade varianter uppdateras variationerna med ändringar i mallayouten, men attributvärdena för variationen ändras inte.
 
@@ -94,7 +94,7 @@ Ersätta den befintliga annonsmallen:
 
 För nya kreatörer finns följande inställningar inte på en namngiven flik.
 
-**Kreativt namn:** Namnet på den kreativa. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera kreatörer kan du redigera de enskilda namnen. **Tips!** Inkludera annonsstorleken i det kreativa namnet och använd ett namn som är enkelt att hitta när du tar med den kreativa delen i en upplevelse.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
@@ -126,7 +126,7 @@ När du inkluderar en kreatör i ett paket och tilldelar paketet till en uppleve
 
 HTML5-mallfilen för kreatörer.
 
-Du kan också ersätta den befintliga mallen med en ny mall som har en annan layout men samma uppsättning attributnamn som den ursprungliga mallen. Den nya mallen måste vara i ZIP-format med högst 2 MB. När den kreativa delen finns i ett paket kommer alla upplevelser som använder paketet att använda layouten från den nya mallen.
+Du kan också ersätta den befintliga mallen med en ny mall som har en annan layout men samma uppsättning attributnamn som den ursprungliga mallen. Den nya mallen måste vara i ZIP-format med högst 2 MB. När den kreativa delen finns i ett paket används sedan layouten från den nya mallen för alla upplevelser som använder paketet.
 
 När du uppdaterar mallen för en överordnad kreatör med underordnade varianter uppdateras variationerna med ändringar i mallayouten, men attributvärdena för variationen ändras inte.
 
@@ -150,15 +150,15 @@ Ersätta den befintliga annonsmallen:
 
 ## Inställningar för bildkreativitet {#creative-settings-image}
 
-**Kreativt namn:** Namnet på den kreativa. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera bilder kan du redigera de enskilda kreativa namnen. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera bilder kan du redigera de enskilda kreativa namnen. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
 
-**Språk:** Standardspråket för varje annons som du associerar med kreatörerna. Samma värde gäller för alla markerade bilder. &lt;!— KONTROLLERA OM NÅGOT KAN HÄNDA PÅ BUNDLE-NIVÅ, och om upplevelseinställningarna endast finns på upplevelsenivå: När du tar med kreatörerna i en upplevelse kan du välja att anpassa språkinställningarna för upplevelsen.
+**Språk:** Standardspråket för varje annons som du associerar med kreatörerna. Samma värde gäller för alla markerade bilder. När du tar med kreatörerna i en upplevelse kan du välja att anpassa språkinställningarna för upplevelsen.
 
 **Kreativ storlek:** (skrivskyddat) Dimensionerna för de överförda bilderna.
 
 **URL för landningssida:** URL-adressen till standardlandningssidan för varje annons som du associerar med kreatörerna. Landningssidans URL måste vara en giltig URL som börjar med http:// eller https://. Den kan innehålla spårningsparametrar från tredje part eller [[!DNL Creative] makron](/help/creative/creative-macros.md) för egen användning. Samma värde gäller för alla markerade bilder.
 
-När du inkluderar en kreatör i ett paket och tilldelar paketet till en upplevelse kan du ändra landningssidans URL-adress och lägga till URL-adresser för bild- och klickspårning samt JavaScript för varje kreatör i paketet. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
+När du inkluderar en kreatör i ett paket och sedan tilldelar paketet till en upplevelse kan du ändra landningssidans URL-adress och lägga till URL-adresser för bild- och klickspårning samt JavaScript för varje kreatör i paketet. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer i [!DNL Creative].
 
@@ -172,21 +172,21 @@ När du inkluderar en kreatör i ett paket och tilldelar paketet till en uppleve
 
 ## Inställningar för tredjepartsprogram {#creative-settings-third-party}
 
-**JavaScriptCode:** En JavaScript-tagg (och eventuellt en alternativ tagg för webbläsare som inte stöder JavaScript) som pekar på den kreativa personen på annonsservern från tredje part. Skriptet varierar beroende på annonsserver. När du redigerar flera kreatörer tillämpas samma värde på alla valda kreatörer.
+**JavaScriptCode:** En JavaScript-tagg (och eventuellt en alternativ tagg för webbläsare som inte stöder JavaScript) som pekar på den kreativa personen på annonsservern från tredje part. Skriptet kan variera mellan olika annonsservrar. När du redigerar flera kreatörer tillämpas samma värde på alla valda kreatörer.
 
 Alla [tillgängliga makron](/help/creative/creative-macros.md) och de data som de ersätts med listas under indatafältet. Om du vill infoga ett av makrona i taggen håller du markören över makrobeskrivningen och klickar på ![Kopiera till Urklipp](/help/creative/assets/copy-to-clipboard.png "Kopiera till Urklipp"). Klistra sedan in bilden där du vill ha den i taggen.
 
-När du inkluderar denna kreativitet i en upplevelse som du implementerar som en annons från en DSP, använder DSP informationen i den här taggen för att visa annonsen och spåra visningar och klickningar på den, och sedan överför taggen till annonsutbytet. När annonsen visas och klickas kommer annonsservern, DSP och [!DNL Creative] att spåra händelserna.
+När du inkluderar denna kreativitet i en upplevelse som du implementerar som en annons från en DSP, använder DSP informationen i den här taggen för att visa annonsen och spåra visningar och klickningar på den. DSP skickar sedan taggen till annonsbörsen. När annonsen visas och klickas spårar annonsservern, DSP och [!DNL Creative] händelserna.
 
 **[!UICONTROL Advertiser]:** (skrivskyddat) Annonsören som biblioteket är tillgängligt för.
 
-**Kreativt namn:** Namnet på den kreativa. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
+**Creative-namn:** Den kreativa personens namn. **Tips!** Använd ett namn som är enkelt att hitta när du inkluderar den kreativa delen i en upplevelse.
 
-**Kreativ storlek:** (skrivskyddat för befintliga annonser) Den kreativa personens dimensioner. För nya kreatörer väljer du bland en lista med standardannonsstorlekar.
+**Creative-storlek:** (skrivskyddat för befintliga annonser) Den kreativa personens dimensioner. För nya kreatörer väljer du bland en lista med standardannonsstorlekar.
 u
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna.
 
-**URL för landningssida:** Den URL för landningssida som används för att validera varje annons som du associerar med kreatörerna. Den faktiska landningssidan för varje annons bestäms av annonsservern från tredje part.
+**URL för landningssida:** Den URL för landningssida som används för att validera varje annons som du associerar med kreatörerna. Annonsservern från tredje part bestämmer den faktiska startsidan för varje annons.
 
 **Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer i [!DNL Creative].
 

@@ -3,9 +3,9 @@ title: Hantera återmarknadsföring av pixlar
 description: Lär dig hur du skapar och implementerar återannonseringspixlar som ska användas som mål för annonsupplevelser.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 147f47fcdc504fba67a6894edaa9249662131e05
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Exempel på pixel:
 
    Om du lägger till ytterligare attribut manuellt måste du inkludera URL-kodning.
 
-   Om du till exempel har inkluderat attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, kommer pixeltaggen att innehålla följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du till exempel vill ange användare som väljer röda sandaler i storlek 10, ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=sandals&ut2=red&ut3=10` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=0123456789`.
+   Om du till exempel inkluderade attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, innehåller pixeltaggen följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du till exempel vill ange användare som väljer röda sandaler i storlek 10 som mål, ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=sandals&ut2=red&ut3=10` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 
@@ -99,7 +99,7 @@ Exempel på pixel:
 
 ## Återmarknadsföring av pixelinställningar {#retargeting-pixel-settings}
 
-**[!UICONTROL Pixel Name]:** Namnet på pixeln. **Obs!** Pixeltaggen kommer att innehålla pixel-ID:t (`pxId=<ID>`), inte pixelnamnet.
+**[!UICONTROL Pixel Name]:** Namnet på pixeln. **Obs!** Pixeltaggen innehåller pixel-ID:t (`pxId=<ID>`), inte pixelnamnet.
 
 **[!UICONTROL Advertiser]:** (skrivskyddat för befintliga pixlar) Annonsören som pixeln spåras för.
 

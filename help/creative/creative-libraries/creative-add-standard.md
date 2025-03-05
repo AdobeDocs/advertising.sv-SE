@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 40a8afc7ec8d880137493118efb122778704eb8c
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 1. Ange [flexibla annonsinställningar för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
-   Som standard markeras alla som du just överförde. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
+   Som standard markeras alla användare som du just överfört. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
 
 1. Klicka på **[!UICONTROL Create]**
 
@@ -104,7 +104,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 ## Lägg till en HTML5-kreatör i ett kreativt bibliotek
 
-<!-- verify -->Du kan lägga till flera HTML5-kreatörer av samma typ (enkla eller statiska) i taget.
+Du kan lägga till flera HTML5-kreatörer av samma typ (enkla eller statiska) i taget.
 
 <!-- Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
@@ -122,7 +122,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
-<!-- Doesn't seem to be an option as of 11/27/24:
+<!-- Not an option as of 3/4:
 
 1. (Optional) To download a sample HTML5 creative as a ZIP file, click **Sample HTML5 Creatives**.
 
@@ -142,7 +142,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Ange [annonsinställningarna för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5).
 
-Som standard markeras alla som du just överförde. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
+Som standard markeras alla användare som du just överfört. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
 
 1. Klicka på **[!UICONTROL Create]**
 
@@ -172,7 +172,7 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 
 1. Ange de [kreativa bildinställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   Som standard markeras alla som du just överförde och alla inställningar du anger gäller för alla valda kreatörer. Alla inställningar med endast ett värde gäller för alla valda kreatörer. Om du vill ange inställningar för specifika kreatörer avmarkerar du de ej tillämpliga kreativa.
+   Som standard markeras alla användare som du just överfört och alla inställningar du anger gäller alla valda användare. Alla inställningar med endast ett värde gäller för alla valda kreatörer. Om du vill ange inställningar för specifika kreatörer avmarkerar du de ej tillämpliga kreativa.
 
 1. Klicka på **[!UICONTROL Create]**
 
@@ -202,8 +202,5 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 >* [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
 >* [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
 >* [Bifoga och koppla loss kreatörer från paket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
->* [Duplicera kreatörer](/help/creative/creative-libraries/creative-duplicate.md)
->* [Hämta kreatörer](/help/creative/creative-libraries/creative-download.md)
->* [Ta bort kreatörer](/help/creative/creative-libraries/creative-delete.md)
 >* [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
 >* [Hantera kreativa bibliotek](/help/creative/creative-libraries/creative-library-manage.md)

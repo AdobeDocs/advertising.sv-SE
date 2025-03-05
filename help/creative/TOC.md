@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative Guide
 user-guide-description: Läs om de viktigaste funktionerna, arbetsmomenten, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Creative Guide
 hide: true
-source-git-commit: 7000d0d68ac8ad904383bf62e614ff2fd1c3415a
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
    + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-+ Kreativa bibliotek {#creative-libraries}
++ Creative-bibliotek {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
    + [Hantera kreativa bibliotek](/help/creative/creative-libraries/creative-library-manage.md)
@@ -30,7 +30,7 @@ ht-degree: 0%
          + [Kreativa standardinställningar](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 - kreativ specifikation](/help/creative/creative-libraries/html5-creative-specification.md)
       + [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
-      + [Bifoga och frigöra kreatörer från programpaket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
+      + [Bifoga kreatörer i programpaket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicera kreatörer](/help/creative/creative-libraries/creative-duplicate.md)
       + [Ladda ned kreatörer](/help/creative/creative-libraries/creative-download.md)
       + [Ta bort kreatörer](/help/creative/creative-libraries/creative-delete.md)
@@ -50,7 +50,7 @@ ht-degree: 0%
             + [Lägg till en målnod på samma nivå](/help/creative/experiences/experience-target-node-add-sibling.md)
             + [Kopiera underordnade noder till en annan nod på samma nivå](/help/creative/experiences/experience-target-node-copy.md)
             + [Ta bort en målnod eller en kreativ lövnod](/help/creative/experiences/experience-target-node-delete.md)
-         + Creative bundles and creatives {#bundles}
+         + Creative-paket och -kreatörer {#bundles}
             + [Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod](/help/creative/experiences/experience-assign-creative-bundles.md)
             + [Anpassa URL:er för spårning för kreatörer](/help/creative/experiences/experience-tracking-urls-targeting.md)
             + [Anpassa den kreativa optimeringen och planeringen](/help/creative/experiences/experience-optimization-scheduling-targeting.md)

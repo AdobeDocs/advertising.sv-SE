@@ -3,7 +3,7 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f4d83da98f89313624e038fd1d8f0fedcf802cc4
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 **\[Standardalternativ har angetts\]:** Standardbildskapare som ska användas när en webbläsare inte kan visa användare som är tilldelade upplevelsen, till exempel när webbläsaren inte är JavaScript-aktiverad eller annonsservern inte kan anpassa annonsen på grund av förseningar. Inkludera en kreativ bild per annonsstorlek som upplevelsen gäller för. Dina val avgör vilka kreativa storlekar som kan användas för upplevelsen. <!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. -->
 
-För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatörerna med kreatörer i samma storlek inom [!UICONTROL Tag Manager].<!-- verify -->
+För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatörerna med kreatörer i samma storlek inom [!UICONTROL Tag Manager].
 
 * Om du vill lägga till en standardkreativ med olika dimensioner klickar du på **[!UICONTROL + Add Sizes]**, markerar kryssrutan bredvid varje kreativ som du vill lägga till i den högra rutan och klickar sedan på **[!UICONTROL Add Creatives]**.
 

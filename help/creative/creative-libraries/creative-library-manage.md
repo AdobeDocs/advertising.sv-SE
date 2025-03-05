@@ -2,9 +2,10 @@
 title: Hantera dina kreativa bibliotek
 description: Lär dig hur du skapar, byter namn på och tar bort dina kreativa bibliotek.
 feature: Creative Libraries
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 *Stängd beta*
 
-Du kan skapa flera kreativa bibliotek för varje annonsör. Du kan senare fylla i varje bibliotek med [standardkreatörer](creative-add-standard.md) <!-- , dynamic creatives, --> och [kreativa paket](bundle-manage.md). Kontoteamet på Adobe kan också lägga till dynamiska kreatörer i dina bibliotek.
+Du kan skapa flera kreativa bibliotek för varje annonsör. Du kan senare fylla i varje bibliotek med [standardkreatörer](creative-add-standard.md)<!-- , dynamic creatives, --> och [kreativa paket](bundle-manage.md). Kontoteamet på Adobe kan också lägga till dynamiska kreatörer i dina bibliotek.
 
 ## Skapa ett kreativt bibliotek
 
@@ -51,7 +52,7 @@ Du kan skapa flera kreativa bibliotek för varje annonsör. Du kan senare fylla 
 
 ## Ta bort kreativa bibliotek
 
-Du kan ta bort bibliotek med kreatörer och paket som inte är tilldelade en direktupplevelse.<!-- Add an x-ref?  --> Ta bort alla kreatörer eller paket som har tilldelats en direktupplevelse från beslutsträdet för upplevelsen <!-- add x-ref --> innan du fortsätter.
+Du kan ta bort bibliotek med kreatörer och paket som inte har tilldelats en [live](/help/creative/experiences/experience-about.md#experience-statuses-experience-statuses) -upplevelse. [Ta bort eventuella kreatörer eller paket från beslutsträdet](/help/creative/experiences/experience-target-node-delete.md) för upplevelsen innan du fortsätter om du vill få en aktiv målupplevelse.<!-- Not an option as of 3/4: > For an untargeted live experience, [remove any assigned creatives from the associated ad tag](/help/creative/experiences/experience-tag-assign-creatives.md) before you continue. -->
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -65,7 +66,7 @@ Du kan ta bort bibliotek med kreatörer och paket som inte är tilldelade en dir
 
       * Håll markören över raden i tabellvyn och klicka på **[!UICONTROL Delete]**.
 
-   * Om du vill ta bort ett eller flera bibliotek markerar du kryssrutan för varje bibliotek som du vill ta bort. Klicka på **[!UICONTROL Delete] i verktygsfältet för gruppåtgärder.
+   * Om du vill ta bort ett eller flera bibliotek markerar du kryssrutan för varje bibliotek som du vill ta bort. Klicka på **[!UICONTROL Delete]** i verktygsfältet för gruppåtgärder.
 
      Om du vill markera alla rader markerar du den globala kryssrutan i det övre vänstra hörnet.
 

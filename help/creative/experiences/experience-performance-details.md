@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 137f334eec778499f263e26c125e97ffe37d6112
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ I rapportvyn finns följande data:
 
    Fliken [!UICONTROL Overview] öppnas.
 
-1. (Valfritt) I det övre högra verktygsfältet anger du datumintervall, konverteringsattribueringsregel och konverteringar som rapporterats i alla resultatrapporter:
+1. (Valfritt) I det övre högra verktygsfältet anger du datumintervall, konverteringsattribueringsregel och konverteringar som rapporterats i alla prestandarapporter:
 
    * (Valfritt) Om du vill ändra datumintervallet för prestandadata väljer du ett alternativ på datummenyn:
 
@@ -162,4 +162,4 @@ I rapportvyn finns följande data:
 
 >[!MORELIKETHIS]
 >
->* [Anpassad kreativ rapport](/help/creative/report-custom-creative.md)
+>* [Anpassad Creative-rapport](/help/creative/report-custom-creative.md)

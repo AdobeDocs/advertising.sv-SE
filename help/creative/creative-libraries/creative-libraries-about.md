@@ -1,10 +1,11 @@
 ---
 title: Om dina kreativa bibliotek
-description: Lär dig hur du hanterar de kreatörer du kommer att använda i era annonsupplevelser.
+description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Avslutade betafunktioner*
 
-Med era kreativa bibliotek kan ni hantera alla kreativa funktioner ni kan använda i era annonsupplevelser. Du kan skapa flera bibliotek, där var och en har en uppsättning kreativa funktioner och *kreativa paket*, som är grupper med kreativa alternativ som du kan lägga till i en upplevelse som en enhet.
+Med era kreativa bibliotek kan ni hantera de kreativa verktyg ni kommer att använda i era annonsupplevelser. Du kan skapa flera bibliotek, där var och en har en uppsättning kreativa funktioner och *kreativa paket*, som är grupper med kreativa alternativ som du kan lägga till i en upplevelse som en enhet.
 
 Biblioteken kan innehålla:
 
@@ -21,7 +22,7 @@ Biblioteken kan innehålla:
 
    * **Standardkreatörer:** Du kan överföra och hantera kreatörer i [olika format](#creative-creative-formats). För varje kreatör anger du standardspråket för varje annons som du associerar den kreativa, standardstartsidan som öppnas när en användare klickar på en annons som innehåller den kreativa samt valfria etiketter som ska användas som filter i olika vyer i [!DNL Creative].
 
-   * **Dynamiska kreatörer:** (endast befintliga Adobe Advertising-DCO-kunder) Administratörsanvändare kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
+   * **Dynamiska kreatörer:** (endast befintliga Adobe Advertising DCO-kunder) Administratörsanvändare kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
 * **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardpaket* som består av standardannonser och *dynamiska paket* som består av dynamiskt genererade annonser.
 
@@ -33,17 +34,17 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 >[!IMPORTANT]
 >
->Även om du tänker använda HTML5, Flexible HTML5 eller andra kreatörer för annonsupplevelserna måste du också lägga till bildkreatörer för varje kreativ storlek du kommer att använda.
+>Även om ni tänker använda HTML5, Flexible HTML5 eller andra kreatörer för era annonsupplevelser måste ni också lägga till bildkreatörer för varje kreativ storlek ni använder.
 >
 >För varje upplevelse krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen. Standardbildskaparna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
 
 #### Flexibel HTML5
 
-Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som standardtaggar för HTML, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). De som skapar flexibla HTML5 använder IAB-standarden (Interactive Advertising Bureau) Technology Laboratory för en [annonsportfölj](https://flexibleads.iabtechlab.com/), för vilken annonsformaten är flexibla (och inte fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonserna behåller sin upplösning på olika enheter och utgivarplatser.
+Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). Flexibla HTML5-kreatörer använder IAB-standarden (Interactive Advertising Bureau) Technology Laboratory för en [annonsportfölj](https://flexibleads.iabtechlab.com/), för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonser behåller sin upplösning på olika enheter och utgivarplatser.
 
-Du kan <!-- either --> överföra flexibla HTML5-användare som ZIP-filer <!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
+Du kan<!-- either --> överföra flexibla HTML5-användare som ZIP-filer<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
 
-<!-- Will flattening the view be possible in the MVP?
+<!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
 
 
@@ -55,13 +56,13 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 
 Du kan också ändra standardvärdena för attributen som anges i en flexibel HTML5-kreatör. Senare kan du ange anpassade värden för attributen i en viss upplevelse, vilket skapar en variation av den överordnade kreativiteten.
 
-#### HTML5-kreatörer
+#### HTML5 kreatörer
 
 Du kan överföra enkla eller statiska HTML5-kreatörer med alla attribut och bilder angivna som ZIP-filer. Du kan inte redigera några attribut eller lägga till bilder. Överför i stället en ny ZIP-fil för att lägga till en ny kreatör. Se [specifikationerna för enkla och statiska HTML5-kreatörer](html5-creative-specification.md).
 
 #### Bildkreatörer
 
-Du kan inkludera bildkreatörer i GIF, JPEG, JPG eller PNG-format. Du kan överföra <!--LATER:   images from your Adobe Experience Manager accounts or --> bilder från din enhet eller ditt nätverk.
+Du kan inkludera bildkreatörer i GIF-, JPEG-, JPG- eller PNG-format. Du kan överföra <!--LATER:   images from your Adobe Experience Manager accounts or --> bilder från din enhet eller ditt nätverk.
 
 För varje annonsvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen.
 
@@ -75,7 +76,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 ### Format för dynamiska annonser
 
-Administratörsanvändare kan skapa dynamiskt genererade kreatörer i statiskt HTML5- och dynamiskt HTML 5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Detta kan omfatta kreatörer från dina gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
+Administratörsanvändare kan dynamiskt generera kreatörer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
 
 ## [!UICONTROL Creative Libraries]-vyerna
 
@@ -83,7 +84,7 @@ Mer information om hur du anpassar vyn finns i [Anpassa datavyer](/help/creative
 
 ### Huvudvyn [!UICONTROL Creative Libraries]
 
-Huvudvyerna i [!UICONTROL Creative Libraries] visar alla dina kreativa bibliotek. Data för varje bibliotek omfattar antalet upplevelser som biblioteket tilldelas till, antalet paket, antalet kreatörer, antalet kreativa storlekar, antalet standardspråkmål, skapandedatum och det senaste ändringsdatumet för något element i biblioteket. Tabelläget innehåller även en kolumn för annonsören.
+I huvudvyn i [!UICONTROL Creative Libraries] visas alla dina kreativa bibliotek. Data för varje bibliotek omfattar antalet upplevelser som biblioteket tilldelas till, antalet paket, antalet kreatörer, antalet kreativa storlekar, antalet standardspråkmål, skapandedatum och det senaste ändringsdatumet för något element i biblioteket. Tabelläget innehåller även en kolumn för annonsören.
 
 #### Tillgängliga åtgärder
 
@@ -127,7 +128,7 @@ add or remove labels, regenerate thumbnails for your creatives. When a creative 
 
 #### [!UICONTROL Dynamic Ads]
 
-Fliken [!UICONTROL Dynamic Ads] visar alla dynamiska kreatörer som har skapats dynamiskt för dina kreativa kataloger, förutom alla dynamiska kreatörer som du [tagit bort manuellt](creative-delete.md) från fliken [!UICONTROL Dynamic Ads]. Om du [manuellt duplicerade](creative-duplicate.md) alla dynamiska kreatörer sedan en katalog senast bearbetades, kommer listan med användare för den katalogen även att innehålla dubblettkreatörer.
+Fliken [!UICONTROL Dynamic Ads] visar alla dynamiska kreatörer som har skapats dynamiskt för dina kreativa kataloger, förutom alla dynamiska kreatörer som du [tagit bort manuellt](creative-delete.md) från fliken [!UICONTROL Dynamic Ads]. Om du [manuellt duplicerade](creative-duplicate.md) alla dynamiska kreatörer sedan en katalog senast bearbetades, innehåller listan med användare för den katalogen även dubblettkreatörerna.
 
 Data för varje kreatör omfattar den kreativa typen, den kreativa storleken, antalet kataloger som den kreativa delen tillhör samt skapandedatumet. Tabelläget innehåller även kolumner för mallen som den kreativa personen genererades genom och antalet erbjudanden.
 

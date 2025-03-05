@@ -2,7 +2,8 @@
 title: Anpassa datavyer
 description: Lär dig hur du anpassar data i var och en av de tillgängliga vyerna.
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5255e0e4-a7f8-41d2-9b38-0e276dc1f3f0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%

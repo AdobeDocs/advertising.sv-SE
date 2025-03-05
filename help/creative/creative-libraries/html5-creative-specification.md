@@ -1,17 +1,18 @@
 ---
 title: HTML5 - kreativ specifikation
-description: Se den kreativa specifikationen för HTML5 för Advertising Creative.
+description: Referera till den kreativa HTML5-specifikationen för Advertising Creative.
 feature: Creative Standard Creatives
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
 
 # HTML5 creative specification for Advertising Creative
 
-Det här dokumentet innehåller en översikt över kraven och API-stödet för HTML5-användare inom [!DNL Creative]. API:t gör det möjligt att utveckla HTML5-kreatörer vars attribut kan konfigureras när de distribueras.
+I det här dokumentet beskrivs kraven och API-stödet för HTML5-användare inom [!DNL Creative]. API:t gör det möjligt att utveckla HTML5-kreatörer vars attribut kan konfigureras när de distribueras.
 
 ## Omfång
 
@@ -25,9 +26,9 @@ Det här dokumentet innehåller en översikt över kraven och API-stödet för H
 
 -->
 
-* **HTML5:** Stöder upp till 5 URL:er för landningssidor som kan konfigureras när du skapar eller arbetar med innehåll.
+* **HTML5:** Stöder upp till 5 URL:er för landningssidor som kan konfigureras när du skapar kreativt material och använder människohandel.
 
-* **Flexibel HTML5:** Har stöd för upp till 5 URL:er för landningssidor som kan konfigureras när du skapar eller arbetar med innehåll, och tillåter även att kreativa attribut ändras när du skapar eller arbetar med innehåll.
+* **Flexibel HTML5:** Har stöd för upp till 5 URL:er för landningssidor som kan konfigureras när du skapar kreativt material och använder människohandel. Dessutom kan kreativa attribut ändras när du skapar eller arbetar med det.
 
 ## Krav
 
@@ -35,17 +36,17 @@ Det här dokumentet innehåller en översikt över kraven och API-stödet för H
 
 * Den kreativa delen måste paketeras i en ZIP-fil (.ZIP-format). Kapslade ZIP-filer stöds inte, så ta inte med en komprimerad mapp i den yttre komprimerade mappen.
 
-* ZIP-filen måste innehålla minst en HTML-fil - huvudvisningsfilen för HTML - som innehåller en referens till JavaScript-biblioteket [!DNL Creative]. Huvudfilen för HTML kan finnas antingen i rotmappen eller i en undermapp.
+* ZIP-filen måste innehålla minst en HTML-fil - den huvudsakliga HTML-visningsfilen - som innehåller en referens till JavaScript-biblioteket [!DNL Creative]. HTML-huvudfilen kan finnas antingen i rotmappen eller i en undermapp.
 
-* Huvudfilen för HTML kan heta vad som helst, förutsatt att den inte innehåller specialtecken, även om `index.html` rekommenderas.
+* HTML-huvudfilen kan namnges vad som helst, förutsatt att den inte innehåller specialtecken, även om `index.html` rekommenderas.
 
-* Alla resurser som stöds och som behövs för att återge den slutliga kreativa delen måste antingen finnas i samma mapp som visningsfilen för HTML eller i undermappar i huvudmappen.
+* Alla resurser som stöds och som behövs för att återge den slutliga kreativa delen måste antingen finnas i samma mapp som HTML visningsfil eller i undermappar i huvudmappen.
 
-* Ta inte med filer i den kreativa delen som inte refereras till den kreativa delen.
+* Ta inte med filer i den kreativa delen som den kreativa inte refererar till.
 
 ### Inkludering av Advertising Creative JavaScript-filen
 
-Huvudfilen HTML - och inga andra filer - måste innehålla en referens till JavaScript-filen `AMOLibrary.js`. Anropa filen på den första raden i avsnittet `<head>` med följande adress:
+HTML-huvudfilen - och inga andra filer - måste innehålla en referens till JavaScript-filen `AMOLibrary.js`. Anropa filen på den första raden i avsnittet `<head>` med följande adress:
 
 `https://ads.everesttech.net/ads/static/local/AMOLibrary.js`
 
@@ -81,11 +82,11 @@ var clickTag = “http://www.example.com”;
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registrerar klicknings-URL:er och den associerade parametern som används för att referera till varje URL (kallas `clickTag`). Detta informerar annonsservern [!DNL Creative] om var klickspårning ska läggas till. Du kan använda det här API:t för att registrera upp till fem klickvariabler, var och en med en motsvarande landningssidas URL.
+Registrerar klicknings-URL:er och den associerade parametern som används för att referera till varje URL (kallas `clickTag`). Detta API informerar annonsservern [!DNL Creative] om var klickspårning ska läggas till. Du kan använda det här API:t för att registrera upp till fem klickvariabler, var och en med en motsvarande landningssidas URL.
 
 >[!NOTE]
 >
->De statiska URL:er som du inkluderar i HTML5-projekt används endast i lokala testningssyften och skrivs över. När du överför en HTML5-creative definierar du standardlandningssidan för varje `clickTag`-variabel. När du tilldelar en uppladdad HTML5-creative till en annonsupplevelse kan du eventuellt åsidosätta standardlandningssidan för varje `clickTag`-variabel och [!DNL Creative] lägger till klickspårning i URL:erna när du sparar upplevelsen.
+>De statiska URL:er som du inkluderar i HTML5-programmen används endast i testsyfte lokalt och skrivs över. När du överför en HTML5-creative definierar du standardstartsidan för varje `clickTag`-variabel. När du tilldelar en uppladdad HTML5-creative till en annonsupplevelse kan du eventuellt åsidosätta standardlandningssidan för varje `clickTag`-variabel och [!DNL Creative] lägger till klickspårning i URL:erna när du sparar upplevelsen.
 
 ###### Parametrar
 
@@ -121,15 +122,15 @@ Anropa `amo.onAdClick()` i avsnittet `<body>` i HTML-huvudfilen.
 
 ### Flexibla kreativa krav för HTML5
 
-#### Stöd för klickbara URL:er i flexibel HTML5
+#### Stöd för klickbara URL:er i flexibla HTML5
 
 ##### `amo.registerClick(clkVar, clkUrl)`
 
-Registrerar klicknings-URL:er och den associerade parametern som används för att referera till varje URL (kallas `clickTag`). Detta informerar annonsservern [!DNL Creative] om var klickspårning ska läggas till. Du kan använda det här API:t för att registrera upp till fem klickvariabler, var och en med en motsvarande landningssidas URL.
+Registrerar klicknings-URL:er och den associerade parametern som används för att referera till varje URL (kallas `clickTag`). Detta API informerar annonsservern [!DNL Creative] om var klickspårning ska läggas till. Du kan använda det här API:t för att registrera upp till fem klickvariabler, var och en med en motsvarande landningssidas URL.
 
 >[!NOTE]
 >
->De statiska URL:er som du inkluderar i HTML5-projekt används endast i lokala testningssyften och skrivs över. När du överför en HTML5-creative definierar du standardlandningssidan för varje `clickTag`-variabel. När du tilldelar en uppladdad HTML5-creative till en annonsupplevelse kan du eventuellt åsidosätta standardlandningssidan för varje `clickTag`-variabel och [!DNL Creative] lägger till klickspårning i URL:erna när du sparar upplevelsen.
+>De statiska URL:er som du inkluderar i HTML5-programmen används endast i testsyfte lokalt och skrivs över. När du överför en HTML5-creative definierar du standardstartsidan för varje `clickTag`-variabel. När du tilldelar en uppladdad HTML5-creative till en annonsupplevelse kan du eventuellt åsidosätta standardlandningssidan för varje `clickTag`-variabel och [!DNL Creative] lägger till klickspårning i URL:erna när du sparar upplevelsen.
 
 ###### Parametrar
 
@@ -187,11 +188,11 @@ Anropa `amo.registerAttribute()` för att registrera ett kreativt attribut, typ 
 
 ##### `amo.attributes`
 
-Ett JSON-objekt som frågar efter variabelnamnen och värdena för det kreativa attributet. Objektnycklarna blir attributnamnen och värdena blir värdena för dessa attribut.
+Ett JSON-objekt som frågar efter variabelnamnen och värdena för det kreativa attributet. Objektnycklarna är attributnamnen och värdena är värdena för dessa attribut.
 
 I det lokala testläget är nyckelvärdepar de par som registrerats av API:t `amo.registerAttribute`. För produktion måste variabelnamnen och värdena för det kreativa attributet konfigureras samtidigt som kreativa projekt skapas och säljs.
 
-### Krav på kreativt innehåll
+### Creative Content Requirements
 
 De flesta bildskärmsutbyten som är tillgängliga i Advertising DSP har följande kreativa krav:
 
@@ -201,7 +202,7 @@ De flesta bildskärmsutbyten som är tillgängliga i Advertising DSP har följan
 
 * Landningssidan måste öppnas i ett nytt fönster.
 
-* Domänen för landningssidan och dess underdomäner får inte vara längre än 35 tecken. **Obs!** De slutliga URL-adresserna för landningssidan definieras i DSP och inte i själva HTML5-resurserna.
+* Domänen för landningssidan och dess underdomäner får inte vara längre än 35 tecken. **Obs!** De slutliga URL-adresserna för landningssidor definieras i DSP och inte i själva HTML5-resurserna.
 
 * Alla friskrivningar till ett annonserbjudande måste ingå i själva annonsen och inte bara på landningssidan.
 
@@ -252,9 +253,9 @@ De flesta bildskärmsutbyten som är tillgängliga i Advertising DSP har följan
 
 * /assets (mapp)
 
-   * bg.jpg (JPG, PNG, SVG eller GIF)
+   * bg.jpg (JPG-, PNG-, SVG- eller GIF-bilder)
 
-### Exempel på HTML-fil (index.html) för enkla HTML 5-kreatörer
+### Exempel på HTML-fil (index.html) för enkla HTML5-användare
 
 ```
 <!DOCTYPE html>
@@ -273,7 +274,7 @@ De flesta bildskärmsutbyten som är tillgängliga i Advertising DSP har följan
 </html>
 ```
 
-### Exempel på HTML-fil (index.html) för HTML 5-kreatörer
+### Exempel på HTML-fil (index.html) för statiska HTML5-användare
 
 ```
 <!DOCTYPE html>

@@ -2,9 +2,9 @@
 title: Om Adobe Advertising Creative
 description: Läs mer om  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Som en del av Adobe Advertising är Advertising Creative en självbetjäningsplattform för automatisering av personaliserade annonsupplevelser i realtid och optimering av annonser på kreativ elementnivå.
+Som en del av Adobe Advertising är Advertising Creative en självbetjäningsplattform för automatisering av personaliserade annonsupplevelser i realtid och optimering av annonser på elementnivå för det kreativa.
 
 ## Egna kreativa bibliotek med återanvändbara kreatörer
 
-Med dina Creative Libraries kan du hantera alla kreativa verktyg du kan använda i dina annonsupplevelser. Du kan skapa flera bibliotek där var och en innehåller enskilda kreatörer och kreativa grupper (kallas *paket*). Ni kommer att lägga till kreativa paket till era annonsupplevelser.
+Med Creative Libraries kan ni hantera de kreativa verktyg ni kommer att använda i era annonsupplevelser. Du kan skapa flera bibliotek där var och en innehåller enskilda kreatörer och kreativa grupper (kallas *paket*). Ni kommer att lägga till kreativa paket till era annonsupplevelser.
 
 ## Regelbaserade upplevelser
 
@@ -40,7 +40,7 @@ Du kan också tillåta att [!DNL Creative] optimerar annonselementen för alla u
 
 ## Återmarknadsföring av pixlar
 
-Du kan skapa omdirigerade pixlar som ska användas som mål för kreatörer i en annonsupplevelse, så att du bara visar annonser för användare med angivna attribut som tidigare besökt specifika webbsidor.
+Du kan skapa återmarknadsföringspixlar som ska användas som mål för kreatörer i en annonsupplevelse. Målen visar endast annonser för användare med angivna attribut som tidigare besökt specifika webbsidor.
 
 ## Imponera, klicka och konvertera
 
@@ -57,7 +57,7 @@ to the DSP.
 
 Du kan visa detaljerade resultatrapporter på erfarenhetsnivå i Creative > Experiences.
 
-Du kan också skapa anpassade Creative-rapporter på Rapporter > Anpassade rapporter för att övervaka upplevelsenivån i alla dina upplevelser. Om du använder dina [!DNL Creative]-upplevelser som annonser i DSP kampanjer finns det resultatdata för dessa annonser i ytterligare anpassade rapporter, precis som data för dina andra DSP annonser. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Du kan också skapa anpassade Creative-rapporter på Rapporter > Anpassade rapporter för att övervaka prestandan på upplevelsenivå i alla dina upplevelser. Om du använder dina [!DNL Creative]-upplevelser som annonser inom DSP-kampanjer finns det resultatdata för dessa annonser i ytterligare anpassade rapporter, precis som data för dina andra DSP-annonser. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
 
 Du kan också leverera dina anpassade rapporter till angivna [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md).
 
