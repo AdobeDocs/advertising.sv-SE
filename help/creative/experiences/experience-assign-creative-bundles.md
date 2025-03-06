@@ -2,9 +2,10 @@
 title: Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i en upplevelse
 description: Lär dig hur ni tilldelar kreatörer till varje mål i era annonsupplevelser.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -20,9 +21,7 @@ För standardannonsupplevelser kan ni bara tilldela standardpaket. För dynamisk
 
 >[!NOTE]
 >
->Om du inte tilldelar minst ett kreativt paket till varje slutnod kan du välja att använda standardalternativen för varje otilldelad nod när du [sparar upplevelsen](experience-create-targeting.md). För att publiceras måste upplevelsen tilldelas antingen paket eller använda standardkreatörerna för alla annonser som skapas från det.
-
-<!-- The optimization and ad scheduling features and tracking URLs customization are in a different place now -- include here or in separate procedures? -->
+>Om du inte tilldelar minst ett kreativt paket till varje slutnod kan du välja att använda standardalternativen för varje otilldelad nod när du [sparar upplevelsen](experience-create-targeting.md). Om du vill publicera en upplevelse måste du antingen tilldela paket eller använda standardkreatörerna för varje slutlig nod.
 
 <!-- 1. [ways to get to the decision tree] -->
 

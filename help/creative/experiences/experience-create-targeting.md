@@ -2,9 +2,10 @@
 title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
+source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -43,11 +44,11 @@ ht-degree: 0%
 
          * [Kopiera underordnade noder och kreatörer till en annan nod på samma nivå](experience-target-node-copy.md).
 
-      * Creative bundles:
+      * Creative-paket:
 
          * [Tilldela och ta bort tilldelning av kreatörer till en slutlig nod](experience-assign-creative-bundles.md).
 
-           Om du inte tilldelar minst ett paket till varje slutnod kan du välja att använda standardalternativen för varje otilldelad nod när du sparar upplevelsen. För att publiceras måste upplevelsen tilldelas antingen paket eller använda standardkreatörerna för alla annonser som skapas från det.
+           Om du inte tilldelar minst ett paket till varje slutnod kan du välja att använda standardalternativen för varje otilldelad nod när du sparar upplevelsen. Om du vill publicera en upplevelse måste du antingen tilldela paket eller använda standardkreatörerna för varje slutlig nod.
 
          * [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
 

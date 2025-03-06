@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: e2b88275f2ebbc69f769cf905a0d20859bf0af3b
+source-git-commit: 0a6cd8e32ae87c7fda9ed0e1b50f9b54cd337192
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Creative] 
 
 Du kan [visa detaljerade prestandadata för alla upplevelser](experience-performance-details.md) från vyn [!UICONTROL Experiences].
 
-Om du vill övervaka prestanda för alla dina upplevelser skapar du en [!UICONTROL Custom Creative Report](/help/creative/report-custom-creative.md).
+Skapa en [anpassad Creative-rapport](/help/creative/report-custom-creative.md) om du vill övervaka prestanda för alla dina upplevelser.
 
 ## Upplevelsestatus {#experience-statuses}
 
