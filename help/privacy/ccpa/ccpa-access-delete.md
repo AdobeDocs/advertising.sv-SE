@@ -4,9 +4,9 @@ description: Lär dig mer om vilka dataförfrågningstyper som stöds, obligator
 feature: CCPA
 role: User, Developer
 exl-id: e7808411-7dc3-499c-bda1-1f5882f651b2
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: a3e39ca4fa89f84ddc2669662c34bccb4425a2bb
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -94,11 +94,11 @@ användare:
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (vilket anger cookie-utrymmet [!DNL adCloud])
+   * `"namespace": **411**` (vilket anger [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*den faktiska kundens cookie-ID som hämtats från`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (som är den [!DNL Adobe] produkten som gäller för begäran)
+* `"include": **adCloud**` (som är den [[!DNL Adobe] produkt](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) som gäller för begäran)
 
 * `"regulation": **ccpa**` (som är den sekretessregel som gäller för begäran)
 

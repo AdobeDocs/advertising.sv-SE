@@ -4,9 +4,9 @@ description: Läs mer om stöd för att hämta in förfrågningar om att avanmä
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 724b4ff772fa7d6dc0640d35a968d664707ceae6
+source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,15 @@ California Consumer Privacy Act (CCPA) är Kaliforniens nya integritetslag, som 
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör ger Adobe Advertising stöd till ert företag så att det kan uppfylla de skyldigheter enligt CCPA som gäller för användning av Adobe Advertising produkter och tjänster, inklusive hantering av konsumentförfrågningar om tillgång till och radering av personuppgifter och hantering av konsumentförfrågningar om att avanmäla försäljning av personuppgifter.
+Som tjänsteleverantör tillhandahåller Adobe Advertising support så att ditt företag kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av Adobe Advertising produkter och tjänster, inklusive hantering av kundförfrågningar om åtkomst och radering av personuppgifter och hantering av konsumentförfrågningar om att avanmäla försäljning av personuppgifter.
 
-I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur du kan förmedla begäran om avanmälan till Adobe Advertising och hur du hämtar rapporter om din organisations begäran om avanmälan från försäljning.
+I det här dokumentet beskrivs hur Adobe Advertising Demand Side Platform (DSP), som tjänsteleverantör, stöder konsumentens rätt att välja bort&quot;försäljning&quot; av&quot;personuppgifter&quot;, eftersom varje term definieras av CCPA. Det innehåller information om hur man skickar avanmälningsförfrågningar till Adobe Advertising och hur man hämtar rapporter om organisationens avanmälningsförfrågningar.
 
-Mer information om hur [!DNL Advertising Search, Social, & Commerce]; Advertising Creative; och [!DNL Advertising DCO] stöder konsumenternas behörigheter för åtkomst och borttagning av personuppgifter finns i [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Data Access and Delete Support](/help/privacy/ccpa/ccpa-access-delete.md).
+Mer information om hur [!DNL Advertising Search, Social, & Commerce], Advertising Creative och [!DNL Advertising DCO] ger stöd åt konsumenternas behörigheter för åtkomst och borttagning av personuppgifter finns i [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Data Access and Delete Support](/help/privacy/ccpa/ccpa-access-delete.md).
 
-Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+Mer information om Adobe sekretesstjänster för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Kommunicera förfrågningar om konsumentavanmälan utanför försäljning till Adobe Advertising
+## Kommunicera förfrågningar om avanmälan till Adobe Advertising
 
 Du kan förmedla önskemål om avanmälan från försäljning till konsumenter genom att antingen:
 
@@ -59,13 +59,13 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 
    Du bör distribuera biblioteket på webbsidan där dina kunder kan skicka in begäranden om att avanmäla dig, till exempel företagets integritetsportal. Biblioteket hjälper dig att hämta Adobe-cookies (namnområdes-ID: `gsurferID`) så att du kan skicka dessa identiteter som en del av begäran om att avanmäla dig via Adobe Experience Platform Privacy Service API.
 
-1. Identifiera ditt organisations-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
+1. Identifiera ditt företags-ID för Experience Cloud och se till att det är länkat till dina Adobe Advertising-konton.
 
-   Ett Experience Cloud-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med &quot;@AdobeOrg&quot;. De flesta Experience Cloud-kunder har tilldelats ett organisations-ID. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till ditt företags-ID eller inte vet om det har etablerats kontaktar du ditt kontoteam i Adobe. Du behöver organisations-ID:t för att kunna skicka begäranden till sekretess-API:t med namnområdet `imsOrgID`.
+   Ett företags-ID från Experience Cloud är en 24-tecken lång alfanumerisk sträng som läggs till med &quot;@AdobeOrg&quot;. De flesta Experience Cloud-kunder har tilldelats ett företags-ID. Om marknadsföringsteamet eller den interna systemadministratören i Adobe inte känner till ditt företags-ID eller inte vet om det har etablerats kontaktar du ditt Adobe-kontoteam. Du behöver organisations-ID:t för att kunna skicka begäranden till sekretess-API:t med namnområdet `imsOrgID`.
 
    >[!IMPORTANT]
    >
-   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla din organisations Adobe Advertising-konton - inklusive [!DNL DSP]-konton eller -annonsörer, [!DNL Search, Social, & Commerce]-konton och [!DNL Creative]- eller [!DNL DCO]-konton - är kopplade till ditt Experience Cloud-organisations-ID.
+   >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla din organisations Adobe Advertising-konton - inklusive [!DNL DSP]-konton eller annonsörer, [!DNL Search, Social, & Commerce]-konton och [!DNL Creative]- eller [!DNL DCO]-konton - är kopplade till ditt Experience Cloud organisations-ID.
 
 1. Använd Adobe Experience Platform Privacy Service-API:t för att [skicka begäran om avanmälan](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga begäranden.
 
@@ -73,13 +73,13 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 
    >[!NOTE]
    >
-   >Om ditt företag har flera Experience Cloud-organisations-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] och [!DNL DCO]), med ett konto per underlösning.
+   >Om ditt företag har flera Experience Cloud organisation-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] och [!DNL DCO]), med ett konto per underlösning.
 
-Alla dessa steg är nödvändiga för att få stöd från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Alla dessa steg är nödvändiga för att få support från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Hämtar rapporter om konsumenter som har lämnat in begäran om avanmälan vid försäljning
 
-Adobe Advertising genererar månadsrapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segment för avanmälan från försäljning som skapats i Advertising DSP och alla överföringar som gjorts via Privacy Service-API:t. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
+Adobe Advertising genererar månatliga rapporter om ID:n som kunder har skickat in för att avanmäla sig från försäljning för kontot. Varje rapport är tillgänglig som en tabbseparerad textfil komprimerad till GZIP-format. Data konsoliderar begäranden som samlats in med CCPA-segmentet för avanmälan som skapats i Advertising DSP och alla inlämningar som gjorts via Privacy Service API. Användar-ID:n som används i CCPA-segment för avanmälan identifieras av segment och annonsörer. Rapporterna skapas den första i varje månad för föregående månad. Till exempel är användarlistan för juni tillgänglig den 1 juli.
 
 Du kan hämta länkar till de månadsrapporter som har skapats under de senaste tre månaderna, antingen från Advertising DSP eller via Advertising DSP [!DNL Trafficking API]. Varje länk gäller i sju dagar, men uppdateras varje gång en kund försöker hämta en länk.
 
@@ -94,7 +94,7 @@ Den här funktionen är tillgänglig för organisationer som använder [!DNL Tra
 
 Om din organisation inte använder [!DNL Trafficking API] men är intresserad av mer information kan du kontakta ditt Adobe-kontoteam.
 
-## Bilaga: Exempel på [!UICONTROL CCPA Opt-Out-of-Sale]-begäran för Privacy Service-API-användare
+## Bilaga: Exempel på [!UICONTROL CCPA Opt-Out-of-Sale]-begäran för Privacy Service API-användare
 
 ```
 curl -X POST \
@@ -121,7 +121,7 @@ curl -X POST \
             "type": "standard"
           },
           {
-            "namespace": "adCloud",
+            "namespace": "AdCloud",
             "type": "standard",
             "value":  "Wqersioejr-wdg",
           }
@@ -131,7 +131,7 @@ curl -X POST \
 }'
 ```
 
-där:
+var, enligt [API-specifikationerna för Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
-* `"namespace": "adCloud"` anger cookie-utrymmet `adCloud` och det motsvarande värdet är kundens cookie-ID som hämtats från `AdobePrivacy.js`
-* `"include": ["adCloud"]` anger att begäran gäller Adobe Advertising
+* `"namespace": "AdCloud"` anger cookie-utrymmet `AdCloud` och det motsvarande värdet är kundens cookie-ID som hämtats från `AdobePrivacy.js`
+* `"include": ["adCloud"]` anger att begäran gäller för produkten Adobe Advertising
