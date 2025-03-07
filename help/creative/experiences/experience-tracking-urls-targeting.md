@@ -2,9 +2,10 @@
 title: Anpassa spårnings-URL:er för en upplevelse
 description: Lär dig hur du anpassar URL:er för spårning för varje kreatör i en upplevelse med målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,13 @@ ht-degree: 0%
 *Endast målnoder med befintliga kreatörer*
 *Stängd beta*
 
-För upplevelser med mål för beslutsträd kan du skapa upp till fem anpassade URL:er för visningsspårning, fem anpassade URL:er för klickspårning och en anpassad URL för landningssida för varje enskild kreatör som används för upplevelsen inifrån beslutsträdet.
+För upplevelser med målgruppsanpassning i beslutsträd kan du skapa upp till fem anpassade URL:er för visningsspårning, fem anpassade URL:er för klickspårning och en anpassad URL för landningssida för varje enskild kreatör som används för upplevelsen. Du kan anpassa spårnings-URL:erna inifrån beslutsträdet.
 
 Anpassade URL:er används bara för annonser som skapats från upplevelsen och sparas inte i de grundläggande kreativa inställningarna i [!UICONTROL Creative Libraries].
 
 1. Håll markören över det kreativa programpaketets löv/mapp under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Tracking URLs]**.
 
-   Flikarna [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] och [!UICONTROL Landing URLs] visar namnen på alla kreatörer i de tillämpliga storlekarna i de tilldelade paketen. De tillämpliga storlekarna bestäms av standardbildskaparnas storlekar för upplevelsen.<!-- There's no distinct "Creative Sizes" setting. -->
+   Flikarna [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] och [!UICONTROL Landing URLs] visar namnen på alla kreatörer i de tillämpliga storlekarna i de tilldelade paketen. Storleken på standardbildskaparna för upplevelsen avgör vilka storlekar som är tillgängliga.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Gör följande för varje kreatör på flikarna **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** och **[!UICONTROL Landing URLs]** efter behov:
 

@@ -3,9 +3,9 @@ title: Skapa en annonstagg manuellt för en lämplig kreativ storlek
 description: Lär dig hur du skapar en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du kan skapa en eller flera annonstaggar för varje kreativ storlek som används
 
 1. Ange en unik **[!UICONTROL Tag name]** och välj **[!UICONTROL Tag size]**.
 
-   De tillgängliga kreativa storlekarna bestäms av standardbildens storlek för upplevelsen.
+   Storleken på standardbildskaparna för upplevelsen avgör vilka kreativa storlekar som är tillgängliga.
 
    Du kan skapa flera taggar för samma kreativa storlek.<!-- What are the implications? -->
 

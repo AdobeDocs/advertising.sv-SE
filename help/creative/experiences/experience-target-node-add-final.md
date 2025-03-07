@@ -2,9 +2,10 @@
 title: Lägg till en målnod till den sista nivån i en upplevelse
 description: Lär dig hur du lägger till en målnod på den slutliga målnivån i en annonsupplevelse.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Upplevelser med endast mål för beslutsträd*
 *Stängd beta*
 
-När du lägger till en målnod på den understa nivån i upplevelsen, oavsett om det är rotnoden&quot;Alla&quot;, en målspecifik nod eller en&quot;Allt annat&quot;-nod, definierar du målet direkt utan att du behöver skapa en jämställd nod. Detta skapar målnoden och en extra&quot;Allt annat&quot;-nod på samma nivå.
+När du lägger till en målnod på den understa nivån i upplevelsen, oavsett om det är rotnoden&quot;Alla&quot;, en målspecifik nod eller en&quot;Allt annat&quot;-nod, definierar du målet direkt och behöver inte skapa en jämställd nod. Om du lägger till en nod på den nedersta nivån skapas målnoden och en annan&quot;Allt annat&quot;-nod på samma nivå.
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
 1. Ange mål:
 
-   * För målgrupper i Adobe väljer du **[!UICONTROL Adobe Audience]** och gör sedan följande:
+   * För Adobe Audience-mål väljer du **[!UICONTROL Adobe Audience]** och gör sedan följande:
 
       1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ, öppna fliken **[!UICONTROL Adobe Segments]**, ange en eller flera av annonsörens [!DNL Adobe] målgrupper och klicka sedan på **[!UICONTROL Create]**.
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera målgrupper har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Detta skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper.
 
       1. Klicka på **[!UICONTROL Apply]**.
 
@@ -44,7 +45,7 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Detta skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
 
       1. Klicka på **[!UICONTROL Apply]**.
 
@@ -52,7 +53,7 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
    Nyckeln för nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md).
 
-   * Om du vill återanvända ett pixelmål väljer du **[!UICONTROL RT Pixel]**, markerar en enda återmarknadsföringspixel och de värden som krävs för någon av pixelattributen som måste finnas för att visa de kreativa och klickar sedan på **[!UICONTROL Apply]**.
+   * Om du vill återanvända ett pixelmål väljer du **[!UICONTROL RT Pixel]**, markerar en enda återmarknadsföringspixel och värdena för någon av pixelattributen som krävs för att visa de kreativa och klickar sedan på **[!UICONTROL Apply]**.
 
      Attributen för återmarknadsföringspixeln konfigureras i [inställningarna för återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -62,7 +63,7 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Detta skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
 
       1. Klicka på **[!UICONTROL Apply]**.
 

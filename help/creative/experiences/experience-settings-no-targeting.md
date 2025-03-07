@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Skrivskyddad för befintliga upplevelser) Annonsören som ska lägga bud på de kreatörer som ingår i upplevelsen. När du väl har sparat upplevelsen kan du inte ändra annonsören.
 
-**[!UICONTROL Experience Name]:** Ett unikt namn för upplevelsen. **Tips!** Använd ett namn som är enkelt att hitta när du använder upplevelsen som en annons i Advertising DSP eller andra DSP.
+**[!UICONTROL Experience Name]:** Ett unikt namn för upplevelsen. **Tips!** Använd ett namn som du enkelt hittar när du använder upplevelsen som en annons i Advertising DSP eller andra DSP.
 
 **[!UICONTROL Creative Library]:** (skrivskyddat för befintliga upplevelser) Ett enskilt kreativt bibliotek att använda för upplevelsen. När du har sparat upplevelsen kan du inte ändra biblioteket.
 
@@ -38,7 +38,7 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 ## [!UICONTROL Targeting] avsnitt
 
-**[!UICONTROL Targeting]:** (Skrivskyddat för befintliga upplevelser) Inte tillämpligt om du inte vill aktivera mål med ett beslutsträd. Behåll det här alternativet inaktiverat.
+**[!UICONTROL Targeting]:** (Skrivskyddad för befintliga upplevelser) Gäller inte om du inte aktiverar mål med ett beslutsträd. Behåll det här alternativet inaktiverat.
 
 **[!UICONTROL Dynamic ads]:** (Skrivskyddad för befintliga upplevelser) Anger att upplevelsen innehåller dynamiska annonser. **Obs!** En upplevelse kan innehålla antingen alla standardannonser eller alla dynamiska annonser.
 
@@ -50,13 +50,13 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 **Dataisolering:** (endast upplevelser med dynamiska annonser; valfritt) Om du vill rikta in användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid intrycket. Du kan ange upp till fem databassnycklar (parametrar).<!-- May move this to just within the decision tree. -->
 
-När du senare skapar en tagg för annonsupplevelse för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Du måste ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i din DSP.
+När du skapar en tagg för annonsupplevelser för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i din DSP.
 
 **Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110 (bestäms av användarens IP-adress).
 
-**RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du ta med en nivå med målnoder för RT-pixlar och ange vilken pixel som ska användas som mål för varje nod samt de värden som krävs för pixelns attribut som måste finnas för att visa de som skapar i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.&lt;!— Från R:&quot;RT Pixel ska vara via innehållsvalet i Dynamic ad ad setup&quot; - klargör. Jag kan se&quot;Datapass&quot; (ett ord) i de dynamiska annonsinställningarna, men jag vet inte hur den inställningen och den här upplevelsenivån fungerar tillsammans. —>
+**RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.&lt;!— Från R:&quot;RT Pixel ska vara via innehållsvalet i Dynamic ad ad setup&quot; - klargör. Jag kan se&quot;Datapass&quot; (ett ord) i de dynamiska annonsinställningarna, men jag vet inte hur den inställningen och den här upplevelsenivån fungerar tillsammans. —>
 
-**[!UICONTROL Label]:** <!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
 
 * Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
 
@@ -89,7 +89,7 @@ När du anger en URL listas alla [tillgängliga makron](/help/creative/creative-
 
 * (När annonsören använder en OBA-kompatibel leverantör för annonserna) JavaScript-kod som pekar på annonsövertäckningen som gör att användarna kan välja bort onlinebeteendeanpassning (OBA).
 
-* Eventuell tredjepartskod för JavaScript-visningsspårning som läggs till på landningssidan. **Obs!** Du kan också ange en URL för visningsspårning från tredje part i fältet [!UICONTROL Impression Tracking URL].
+* Eventuell tredjepartskod för JavaScript-visningsspårning som läggs till på landningssidan. **Obs!** Du kan även ange en URL för visningsspårning från tredje part i fältet [!UICONTROL Impression Tracking URL].
 
 >[!MORELIKETHIS]
 >

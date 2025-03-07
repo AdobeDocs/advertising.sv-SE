@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I rapportvyn finns följande data:
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller som är riktade till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
+   * **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller mål till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
 
      <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
@@ -116,9 +116,11 @@ I rapportvyn finns följande data:
 
    * (Valfritt) Om du vill ändra regeln som används för att attributera konverteringsdata i en serie händelser som leder till en konvertering klickar du på ![Inställningar](/help/creative/assets/settings.png) och ändrar **[!UICONTROL Attribution Rule]**.
 
-   * (Valfritt) Om du vill ändra de konverteringar som rapporteras klickar du på ![Inställningar](/help/creative/assets/settings.png) och väljer konverteringsnamnen på **[!UICONTROL Conversions]** -menyn.&lt;!— Bara en eller flera? Kontrollera hur de visas - jag behöver en annonsör med flera konverteringar redan installerade —>
+     Mer information om attribueringsregler finns i [Hur attribueringsregler beräknas](/help/search-social-commerce/reports/attribution-rules.md).
 
-     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Detta kan inkludera konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics när annonsören har [en [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
+   * (Valfritt) Om du vill ändra de konverteringar som rapporteras klickar du på ![Inställningar](/help/creative/assets/settings.png) och väljer konverteringsnamnen på **[!UICONTROL Conversions]** -menyn.&lt;!— Bara en eller flera? Kontrollera hur de visas - jag behöver se en annonsör med flera konverteringar som redan har konfigurerats. Från och med den 6 mars visas bara&quot;Markera alla&quot;. —>
+
+     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Listan kan innehålla konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics när annonsören har [en [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
 
 1. (På fliken [!UICONTROL Overview]):
 
@@ -148,7 +150,7 @@ I rapportvyn finns följande data:
 
       * (Erfarenheter med enbart mål för beslutsträd; valfritt) Aktivera **[!UICONTROL Split targeting]** om du vill dela upp resultatet för varje tillämpat annonseringsmål.
 
-1. Klicka på underfliken **[!UICONTROL Bundles]** om du vill visa data per paket (upplevelser med målgruppsanpassning för beslutsträd) eller annonstagg (upplevelser utan målgruppsanpassning för beslutsträd). Du kan göra något av följande:
+1. Klicka på underfliken **[!UICONTROL Bundles]** om du vill visa data per paket (upplevelser med mål för beslutsträd) eller annonstagg (upplevelser utan mål för beslutsträd). Du kan göra något av följande:
 
    * (Valfritt) Om du vill växla mellan diagramvyn och stödrastervyn klickar du på ![Diagram](/help/creative/assets/chart-view-button.png "Diagram") respektive ![Stödraster](/help/creative/assets/table-view-button.png "Stödraster").
 
@@ -163,3 +165,5 @@ I rapportvyn finns följande data:
 >[!MORELIKETHIS]
 >
 >* [Anpassad Creative-rapport](/help/creative/report-custom-creative.md)
+>* [Hämta alla upplevelser i vyn](/help/creative/experiences/experience-download-view.md)
+>* [Om upplevelser i Advertising Creative](/help/creative/experiences/experience-about.md)

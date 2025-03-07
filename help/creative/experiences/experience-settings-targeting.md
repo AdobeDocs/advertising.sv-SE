@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f339fafa90f93632778e15dddcfb5f889ad77395
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser]:** (Skrivskyddat för befintliga upplevelser) Annonsören som lägger bud på de kreativa kombinationer och målkombinationer som ingår i upplevelsen. När du väl har sparat upplevelsen kan du inte ändra annonsören.
 
-**[!UICONTROL Experience Name]:** Ett unikt namn för upplevelsen. **Tips!** Använd ett namn som är enkelt att hitta när du använder upplevelsen som en annons i Advertising DSP eller andra DSP.
+**[!UICONTROL Experience Name]:** Ett unikt namn för upplevelsen. **Tips!** Använd ett namn som du enkelt hittar när du använder upplevelsen som en annons i Advertising DSP eller andra DSP.
 
 **[!UICONTROL Creative Library]:** (skrivskyddat för befintliga upplevelser) Ett enskilt kreativt bibliotek att använda för upplevelsen. När du har sparat upplevelsen kan du inte ändra biblioteket.
 
@@ -57,9 +57,9 @@ som du kan generera för att implementera som en annons i din DSP.
 
 **Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110 (bestäms av användarens IP-adress).
 
-**RT-pixel:** (skrivskyddat för befintliga upplevelser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du ta med en nivå med målnoder för RT-pixlar och ange vilken pixel som ska användas som mål för varje nod samt de värden som krävs för pixelns attribut som måste finnas för att visa de som skapar i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet när du skapar upplevelsen kan du ändå ange en i beslutsträdet.<!-- May move this to just within the decision tree. -->
+**RT-pixel:** (skrivskyddat för befintliga upplevelser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet när du skapar upplevelsen kan du ändå ange en i beslutsträdet.<!-- May move this to just within the decision tree. -->
 
-**Etikett:** <!-- should be "Labels" --> (valfritt) [!DNL Creative]-specifika etiketter som ska användas i upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
+**Etikett:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
 
 * Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
 
@@ -92,7 +92,7 @@ När du anger en URL listas alla [tillgängliga makron](/help/creative/creative-
 
 * (När annonsören använder en OBA-kompatibel leverantör för annonserna) JavaScript-kod som pekar på annonsövertäckningen som gör att användarna kan välja bort onlinebeteendeanpassning (OBA).
 
-* Eventuell tredjepartskod för JavaScript-visningsspårning som läggs till på landningssidan. **Obs!** Du kan också ange en URL för visningsspårning från tredje part i fältet [!UICONTROL Impression Tracking URL].
+* Eventuell tredjepartskod för JavaScript-visningsspårning som läggs till på landningssidan. **Obs!** Du kan även ange en URL för visningsspårning från tredje part i fältet [!UICONTROL Impression Tracking URL].
 
 >[!MORELIKETHIS]
 >

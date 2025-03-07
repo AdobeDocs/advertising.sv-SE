@@ -2,9 +2,10 @@
 title: Förhandsgranska en upplevelse
 description: Lär dig förhandsgranska kreatörerna i en annonsupplevelse.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -21,9 +22,9 @@ Du kan förhandsgranska de som skapar en viss annonsstorlek och se resultatet f�
 
    * För algoritmisk annonsrotation väljs det kreativa alternativet baserat på optimeringsmålet.
 
-   * För viktad annonsrotation väljs den kreativa personen baserat på den angivna vikten (t.ex. en 80-procentig chans att Creative A visas och en 20-procentig chans att Creative B visas) varje gång.
+   * För viktad annonsrotation väljs den kreativa delen baserat på den angivna vikten (t.ex. en 80-procentig chans att Creative A visas och en 20-procentig chans att Creative B visas) varje gång.
 
-   * För schemalagd annonsrotation ser du till att börja med det första kreativa i schemat och du kan fortsätta uppdatera förhandsvisningen för att fortsätta genom sekvensen.<!-- Refresh isn't there as of 2/3 -->
+   * För schemalagd annonsrotation visas den första kreativiteten i schemat. Du kan fortsätta att uppdatera förhandsgranskningen om du vill fortsätta genom sekvensen.<!-- Refresh isn't there as of 2/3 -->
 
 ## Förgranska kreatörer i en upplevelse med målgruppsanpassning i beslutsträd
 

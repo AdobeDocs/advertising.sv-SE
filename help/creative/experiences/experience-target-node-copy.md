@@ -2,9 +2,10 @@
 title: Kopiera underordnade noder till en annan målnod på samma nivå
 description: Lär dig hur du kopierar alla underordnade noder till en överordnad målnod till en annan målnod på samma nivå
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Upplevelser med endast mål för beslutsträd*
 *Stängd beta*
 
-Du kan kopiera alla underordnade noder till en överordnad målnod (inklusive alla underordnade mål och de kreativa paket som tilldelats dem) till en annan målnod på samma nivå, antingen genom att lägga till de kopierade noderna i det befintliga ramverket eller genom att helt ersätta det befintliga ramverket. <!-- Give the main use case or an example to explain. -->
+Du kan kopiera alla underordnade noder till en överordnad målnod (inklusive alla underordnade mål och de kreativa paket som tilldelats dem) till en annan målnod på samma nivå. Du kan kopiera noderna antingen genom att a) lägga till de kopierade noderna i det befintliga ramverket eller genom att b) helt ersätta det befintliga ramverket. <!-- Give the main use case or an example to explain. -->
 
 Den här funktionen påverkar inte det mål som angetts för den överordnade noden, utan påverkar bara de underordnade noderna.
 

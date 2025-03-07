@@ -3,7 +3,7 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 8f81cf8ffaec7ca30ee3bbfd45d3577e75d77faf
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
       1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet eller klicka på **[!UICONTROL DSP link]** i den vänstra menyn.
 
-      1. Välj kampanjen som annonstaggen blir tillgänglig för.
+      1. Välj den kampanj som du vill överföra annonstaggen till.
 
       1. Klicka på **[!UICONTROL Assign Tags]**.
 

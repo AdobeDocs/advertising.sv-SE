@@ -2,9 +2,10 @@
 title: Dela en demo-URL för en upplevelse
 description: Lär dig dela en demo-URL för en upplevelse.
 feature: Creative Experiences
-source-git-commit: 14d972044d485ead5101f1c383d2726bb6fd9d25
+exl-id: 0d523270-e6b2-4d7b-a39c-749f3cc94561
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,7 @@ Du kan tillåta andra personer som inte har loggat in på [!DNL Creative] att f�
 1. Klicka på ![Dela](/help/creative/assets/share.png "Dela") i det övre högra hörnet av förhandsgranskningen.
 
 1. I dialogrutan [!UICONTROL Share Demo URL] klickar du på **[!UICONTROL Copy]** för att kopiera URL:en till Urklipp så att du kan dela den med någon annan.
+
+>[!MORELIKETHIS]
+>
+>* [Förhandsgranska en upplevelse](/help/creative/experiences/experience-preview.md)

@@ -2,9 +2,10 @@
 title: Lägga till en målnod mellan noder i en upplevelse
 description: Lär dig hur du lägger till en målnod mellan målböcker i en annonsupplevelse.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
+source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 *Upplevelser med endast mål för beslutsträd*
 *Stängd beta*
 
-När du infogar en målnod mellan befintliga nivåer, behåller den nya målnoden alla befintliga underordnade mål och kreatörer, och den nya noden kallas inledningsvis&quot;Alla&quot;. Du kan också behålla den nya noden utan att lägga till mer specifika mål.
+När du infogar en målnod mellan befintliga nivåer, behåller den nya målnoden alla befintliga underordnade mål och kreatörer och den nya noden kallas inledningsvis&quot;Alla&quot;. Du kan också behålla den nya noden utan att lägga till mer specifika mål.
 
-Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod på samma nivå, anger det nya målet och tilldelar sedan kreatörer till just det målet. Detta skapar den nya målnoden och flyttar alla underordnade mål och kreativa objekt som tidigare tilldelats till&quot;Alla&quot; till en ny&quot;Allt annat&quot;-nod på samma nivå. På så sätt påverkas inte de befintliga underordnade grenarna av det nya målet, eftersom bara den nya noden på samma nivå innehåller den nya målinformationen.
+Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod på samma nivå, anger det nya målet och tilldelar sedan kreatörer till just det målet. Om du lägger till en målnod på samma nivå skapas den nya målnoden och alla underordnade mål och kreatörer som tidigare tilldelats till All flyttas till en ny&quot;Allt annat&quot;-nod på samma nivå. På så sätt påverkar inte tillägget av det nya målet de befintliga underordnade grenarna eftersom det bara är den nya noden på samma nivå som inkluderar den nya målinformationen.
 
 >[!NOTE]
 >
@@ -32,7 +33,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
       1. Markera måltypen och klicka sedan på **[!UICONTROL Apply]**:
 
-         * Välj **[!UICONTROL Adobe Audience]** för målgrupper i Adobe.
+         * För Adobe målgrupper väljer du **[!UICONTROL Adobe Audience]**.
 
          * För geografiska mål väljer du en enda geografisk kategori (till exempel [!UICONTROL Geo: Country]).
 
@@ -44,13 +45,13 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
    * Om det redan finns noder på samma nivå gör du följande:
 
-      * Gör följande för målgrupper i Adobe:
+      * Gör följande för Adobe Audience-mål:
 
          1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ, öppna fliken **[!UICONTROL Adobe Segments]**, ange en eller flera av annonsörens [!DNL Adobe] målgrupper och klicka sedan på **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
 
          1. (Valfritt) Om du vill skapa flera målnoder när flera målgrupper har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-            Detta skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper.
+            Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper.
 
          1. Klicka på **[!UICONTROL Apply]**.
 
@@ -62,7 +63,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
          1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-            Detta skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+            Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
 
          1. Klicka på **[!UICONTROL Apply]**.
 
@@ -70,7 +71,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
         Nyckeln för nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md).
 
-      * Om du vill återanvända ett pixelmål väljer du en enda återmarknadsföringspixel och de värden som krävs för något av pixelattributen som måste finnas för att visa de kreativa. Klicka sedan på **[!UICONTROL Apply]**.
+      * Om du vill återanvända ett pixelmål väljer du en enda återmarknadsföringspixel och värdena för något av pixelattributen som krävs för att visa de kreativa. Klicka sedan på **[!UICONTROL Apply]**.
 
         Attributen för återmarknadsföringspixeln konfigureras i [inställningarna för återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md).
 
@@ -80,7 +81,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
          1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-            Detta skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+            Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
 
          1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
@@ -90,7 +91,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
    * (Valfritt) [Tilldela kreatörer](experience-assign-creative-bundles.md) till den nya målnoden och till noden&quot;Allt annat&quot;.
 
-   * (Valfritt) [Lägg till en målnod på samma nivå ](experience-target-node-add-sibling.md) som ska innehålla ett mål av den angivna typen.
+   * (Valfritt) [Lägg till en målnod på samma nivå](experience-target-node-add-sibling.md) med den angivna måltypen.
 
    * (Valfritt) Så här sparar du upplevelsen:
 
