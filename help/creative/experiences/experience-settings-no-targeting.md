@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ När du skapar en tagg för annonsupplevelser för en viss kreativ storlek lägg
 
 **Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110 (bestäms av användarens IP-adress).
 
-**RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.&lt;!— Från R:&quot;RT Pixel ska vara via innehållsvalet i Dynamic ad ad setup&quot; - klargör. Jag kan se&quot;Datapass&quot; (ett ord) i de dynamiska annonsinställningarna, men jag vet inte hur den inställningen och den här upplevelsenivån fungerar tillsammans. —>
+**RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
 **[!UICONTROL Label]:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
 
