@@ -1,0 +1,45 @@
+---
+title: How the user interface is organized
+description: Learn where to access different functionality.
+feature: Creative Introduction
+---
+# How the user interface is organized
+
+*Closed beta*
+
+<!-- necessary to include this? -->
+ 
+The following main menu options are applicable to Adobe Advertising Creative. If you also have Adobe Advertising DSP <!-- full xxxx -->, then you'll have additional menu options.
+
+<!-- Show screen shot of UI for Creative-only clients? -->
+
+<!-- Update DSP Guide to include Creative menu  in UI overview, plus I'll need to add x-refs in various places, including probably in the Intro/Key Features section. -->
+
+Creative:
+* [!UICONTROL Creative Libraries]: Add and manage creatives and creative bundles<!-- add x-ref to glossary term --> from raw creative assets.
+* [!UICONTROL Experiences]: Create and manage personalized ad experiences using creatives from your creative libraries.
+* Feeds: (Administrator users only) Manage the XXXXXXXXXXX.
+* Ad Templates: (Administrator users only) Manage the flexible creative templates that are available to end users.
+
+Reports:
+* Custom Reports: Create and run reports and XXX     including data for your xxxx <!-- Will we have specific reports or reporting fct within other reports by creative library, creative, bundle, or experience? -->. This features is also available to all DSP users.
+* Report Destinations: XXXX. This features is also available to all DSP users.
+
+Resources
+* Container Pixels (AMO or DCO?) -- <!-- (Administrator users) --> XXXXX. A legacy Adobe Advertising Dynamic Creative Optimization (DCO) container pixel (?) is a container consisting of different types of pixels, combined into a single pixel. The container pixel can fire all of the contained pixels, based on configuration and input attributes/values. 
+
+* Conversion Pixels (AMO or DCO?) -- Reproducing DCO tracking functionality? Is there any reason to use DCO-tracked conversions (via fct from DCO's pixel server) rather than AMO-tracked conversions (I assume this means Adobe Advertising conversion)?
+
+* Retargeting Pixels (CMP) -- Create and generate tags for retargeting
+pixels
+
+* Pixel QA:  XXXXXXXXXXX.
+
+<!-- XXX: Configure access to an Adobe Experience Manager account. -->
+
+
+
+>[!MORELIKETHIS]
+>
+>* [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
+>* [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
