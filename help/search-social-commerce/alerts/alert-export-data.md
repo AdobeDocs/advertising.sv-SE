@@ -3,7 +3,7 @@ title: Exportera data för anpassade aviseringar
 description: Lär dig hur du exporterar data för en utlöst varning till en fil.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 03475909ca942010e4380456079519f0c18adca3
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -22,11 +22,11 @@ Du kan exportera data för en utlöst avisering eller data för den senast utlö
 
 1. I kolumnen [!UICONTROL Export] bredvid mallen eller rapportnamnet klickar du på ett formatnamn och öppnar eller sparar sedan filen enligt webbläsarens normala procedur:
 
-   * **[!UICONTROL XLS]** - För en [!DNL Excel]-arbetsbok med ett enda kalkylblad (XLS). Rapporten innehåller ett kalkylblad, som är märkt överst med parametrarna, med en rad för varje ingående komponent när data för komponenten är tillgängliga. Rader utan data utelämnas. Grundläggande rapporter innehåller en summa för varje numerisk kolumn.
+   * **[!UICONTROL XLS]:** För en [!DNL Excel]-arbetsbok med ett enda kalkylblad (XLS). Rapporten innehåller ett kalkylblad, som är märkt överst med parametrarna, med en rad för varje ingående komponent när data för komponenten är tillgängliga. Rader utan data utelämnas. Grundläggande rapporter innehåller en summa för varje numerisk kolumn.
 
-   * **[!UICONTROL TSV]** - För en TSV-fil. Rapporten innehåller parametrarna och en rad för varje inkluderad komponent.
+   * **[!UICONTROL TSV]:** För en TSV-fil. Rapporten innehåller parametrarna och en rad för varje inkluderad komponent.
 
-   * **[!UICONTROL CSV]** - För en CSV-fil. Rapporten innehåller parametrarna och en rad för varje inkluderad komponent.
+   * **[!UICONTROL CSV]:** För en CSV-fil. Rapporten innehåller parametrarna och en rad för varje inkluderad komponent.
 
 >[!MORELIKETHIS]
 >
