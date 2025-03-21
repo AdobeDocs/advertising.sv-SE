@@ -1,26 +1,26 @@
 ---
-title: Adobe Advertising-ID som används av  [!DNL Analytics]
-description: Adobe Advertising-ID som används av  [!DNL Analytics]
+title: Adobe Advertising ID som används av  [!DNL Analytics]
+description: Adobe Advertising ID som används av  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: dc99c7b6d1383fdc4a3b7fb59bfded0cec6b917a
+source-git-commit: 6afd0b726cde0770d4d063c2c55bb632956aaf51
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1776'
 ht-degree: 0%
 
 ---
 
-# Adobe Advertising-ID som används av [!DNL Analytics]
+# Adobe Advertising ID som används av [!DNL Analytics]
 
-*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
+*Annonsörer med endast Adobe Advertising-Adobe Analytics-integrering*
 
 *Gäller för Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
 
 Adobe Advertising använder två ID:n för prestandaspårning på plats: *EF ID* och *AMO ID*.
 
-När ett annonsintryck inträffar skapar Adobe Advertising värdena för AMO ID och EF ID och lagrar dem. När en besökare som har sett en annons komma in på webbplatsen utan att klicka på en annons, anropar [!DNL Analytics] dessa värden från Adobe Advertising via JavaScript-koden [!DNL Analytics for Advertising]. För genomsynstrafik genererar [!DNL Analytics] ett extra ID (`SDID`) som används för att sammanfoga EF-ID och AMO-ID till [!DNL Analytics]. För genomklickningstrafik inkluderas dessa ID:n i landningssidans URL med hjälp av frågesträngsparametrarna `ef_id` och `s_kwcid` (för AMO ID).
+När ett annonsintryck inträffar skapar Adobe Advertising värdena för AMO-ID och EF-ID och lagrar dem. När en besökare som har sett en annons komma in på webbplatsen utan att klicka på en annons, anropar [!DNL Analytics] dessa värden från Adobe Advertising via JavaScript-koden [!DNL Analytics for Advertising]. För genomsynstrafik genererar [!DNL Analytics] ett extra ID (`SDID`) som används för att sammanfoga EF-ID och AMO-ID till [!DNL Analytics]. För genomklickningstrafik inkluderas dessa ID:n i landningssidans URL med hjälp av frågesträngsparametrarna `ef_id` och `s_kwcid` (för AMO ID).
 
-Adobe Advertising skiljer mellan klicknings- och vyposter på webbplatsen enligt följande kriterier:
+Adobe Advertising skiljer mellan klickbara eller genomskinliga poster på webbplatsen enligt följande kriterier:
 
 * En genomsiktspost hämtas när en användare besöker webbplatsen efter att ha visat en annons, men inte klickat på den. [!DNL Analytics] spelar in en genomgång om två villkor uppfylls:
 
@@ -30,27 +30,27 @@ Adobe Advertising skiljer mellan klicknings- och vyposter på webbplatsen enligt
 
 * En klickbar post hämtas när en besökare klickar på en annons innan han/hon kommer in på webbplatsen. [!DNL Analytics] hämtar en klickfrekvens när något av följande inträffar:
 
-   * URL:en innehåller ett EF-ID och AMO-ID som Adobe Advertising har lagt till i landningssidans URL.
+   * URL:en innehåller ett EF-ID och AMO-ID som har lagts till i Adobe Advertising-URL:en för landningssidan.
 
    * URL:en innehåller inga spårningskoder, men Adobe Advertising JavaScript-koden hittar ett klick under de senaste två minuterna.
 
-![Adobe Advertising-vybaserad [!DNL Analytics] integration](/help/integrations/assets/a4adc-view-through-process.png)
+![Adobe Advertising vybaserad [!DNL Analytics] integration](/help/integrations/assets/a4adc-view-through-process.png)
 
-*Figur 1: Visningsbaserad [!DNL Analytics] integrering* i Adobe Advertising
+*Figur 1: Adobe Advertising vybaserad [!DNL Analytics] integrering*
 
-![Adobe Advertising-klicka på URL-baserad [!DNL Analytics] integration](/help/integrations/assets/a4adc-click-through-process.png)
+![Adobe Advertising klickar på URL-baserad [!DNL Analytics] integration](/help/integrations/assets/a4adc-click-through-process.png)
 
-*Figur 2: Adobe Advertising-klicka på URL-baserad [!DNL Analytics] integration*
+*Figur 2: Adobe Advertising klickar på URL-baserad [!DNL Analytics] integrering*
 
-## ADOBE ADVERTISING EF ID
+## Adobe Advertising EF ID:n
 
-EF ID är en unik variabel som Adobe Advertising använder för att koppla aktiviteter till en onlineklickning eller annonsexponering. EF-id:t lagras i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-ID) och spårar varje annons och klickning eller exponering på den enskilda webbläsaren eller enhetsnivån. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
+EF ID är en unik variabel som Adobe Advertising använder för att koppla aktiviteter till en onlineklickning eller annonsexponering. EF-id:t lagras i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-id) och spårar varje annons som klickas eller exponeras på den enskilda webbläsaren eller enheten. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
 
 ### EF ID-format
 
 >[!NOTE]
 >
->EF ID:n är skiftlägeskänsliga. Om en [!DNL Analytics]-implementering tvingar URL-spårning till gemener, känner Adobe Advertising inte igen EF-ID:t. Detta påverkar budgivning och rapportering från Adobe Advertising, men påverkar inte rapportering från Adobe Advertising inom [!DNL Analytics].
+>EF ID:n är skiftlägeskänsliga. Om en [!DNL Analytics]-implementering tvingar URL-spårning till gemener, känner Adobe Advertising inte igen EF-ID:t. Detta påverkar Adobe Advertising budgivning och rapportering men påverkar inte Adobe Advertising-rapportering inom [!DNL Analytics].
 
 #### [!DNL Google Ads] sökannonser
 
@@ -88,21 +88,21 @@ där:
 
 * &lt;*kanaltyp*> är den kanaltyp som ansvarar för klickningen eller exponeringen:
 
-   * `d` för en klickning på en DSP (visa klickfrekvens)
-   * `i` om du vill se en annons för DSP (visningsvisning)
+   * `d` för en klickning på en DSP-displayannons (visa klickfrekvens)
+   * `i` om du vill se en visningsannons från DSP (visa-genomgång)
    * `s` om du vill ha en klickning på en sökannons (sökklickning).
 
 Exempel `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
 
-### EF ID-Dimensionen i [!DNL Analytics]
+### EF ID Dimension i [!DNL Analytics]
 
 I [!DNL Analytics]-rapporter kan du hitta EF ID-data genom att söka efter dimensionen [!UICONTROL EF ID] och använda måttet [!UICONTROL EF ID Instance].
 
 EF ID:n omfattas av den unika identifierargränsen på 500 kB i Analysis Workspace. När 500 kB-värdet har nåtts rapporteras alla nya spårningskoder under rubriken [!UICONTROL Low Traffic] för radartikel. Eftersom det är möjligt att rapportens följsamhet saknas klassificeras inte dessa ID:n, och du bör inte använda dem för segment eller rapportering i [!DNL Analytics].
 
-## Adobe Advertising AMO-ID {#amo-id}
+## ADOBE ADVERTISING AMO ID {#amo-id}
 
-AMO-ID spårar varje unik annonskombination på en mindre detaljerad nivå och används för [!DNL Analytics]-dataklassificering och förtäring av reklamstatistik (t.ex. visningar, klick och kostnader) från Adobe Advertising. AMO-ID:t lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)- eller rVar-dimension (AMO-ID) och används exklusivt för rapportering i [!DNL Analytics].
+AMO-ID spårar varje unik annonskombination på en mindre detaljerad nivå och används för [!DNL Analytics]-dataklassificering och förtäring av reklamstatistik (t.ex. visningar, klick och kostnader) från Adobe Advertising. AMO-ID:t lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) - eller rVar-dimension (AMO-ID) och används exklusivt för rapportering i [!DNL Analytics].
 
 AMO-ID:t kallas även `s_kwcid`, som ibland uttalas som [!DNL squid].
 
@@ -112,17 +112,17 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
 * (Rekommenderas) När infogningsfunktionen på serversidan implementeras.
 
-   * DSP: Pixelservern lägger automatiskt till parametern s_kwcid i landningssidans suffix när en användare tittar på en displayannons med pixeln Adobe Advertising.
+   * DSP-kunder: Pixelservern lägger automatiskt till parametern s_kwcid i landningssidans suffix när en användare tittar på en displayannons med Adobe Advertising pixel.
 
    * Sök-, sociala och Commerce-kunder:
 
-      * För [!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton med inställningen [!UICONTROL Auto Upload] aktiverad för kontot eller kampanjen, lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med pixeln Adobe Advertising.
+      * För [!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton med inställningen [!UICONTROL Auto Upload] aktiverad för kontot eller kampanjen, lägger pixelservern automatiskt till parametern s_kwcid i landningssidans suffix när en slutanvändare klickar på en annons med Adobe Advertising pixel.
 
       * För andra annonsnätverk, eller för [!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton med inställningen [!UICONTROL Auto Upload] inaktiverad, lägger du manuellt till parametern i [på kontonivå-tilläggsparametrarna](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den till dina bas-URL:er.
 
 * När infogningsfunktionen på serversidan inte är implementerad:
 
-   * DSP: I [JavaScript-koden](javascript.md) registreras klickningar och genomgångar automatiskt. När en webbläsare inte stöder cookies från tredje part kan du fortfarande spåra klickbaserade konverteringar för följande annonstyper:
+   * DSP-kunder: I [JavaScript-koden](javascript.md) registreras klickningar och genomgångar automatiskt. När en webbläsare inte stöder cookies från tredje part kan du fortfarande spåra klickbaserade konverteringar för följande annonstyper:
 
       * För [!DNL Flashtalking]-annonstaggar infogar du ytterligare makron manuellt per &quot;[Lägg till [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md)&quot;.
 
@@ -134,7 +134,7 @@ Parametern läggs till i dina spårnings-URL:er på något av följande sätt:
 
       * För annonser i alla andra annonsnätverk lägger du till AMO ID-parametern manuellt i [tilläggsparametrarna på kontonivå](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md){target="_blank"}, som lägger till den i dina bas-URL:er.
 
-Om du vill implementera infogningsfunktionen på serversidan eller fastställa det bästa alternativet för din verksamhet kan du tala med ditt Adobe-kontoteam.
+Om du vill implementera infogningsfunktionen på serversidan, eller fastställa det bästa alternativet för ditt företag, pratar du med ditt Adobe-kontoteam.
 
 ### AMO ID-format {#amo-id-formats}
 
@@ -146,7 +146,7 @@ där:
 
 * `AC` anger visningskanalen.
 
-* `{TM_AD_ID}` är den alfanumeriska annonstangenten som genererats av Adobe Advertising. Den används som en unik identifierare för en annons och fungerar som en nyckel för översättning av Adobe Advertising-entitetsmetadata till läsbara [!DNL Analytics]-dimensioner.
+* `{TM_AD_ID}` är den Adobe Advertising-genererade alfanumeriska annonstangenten. Den används som en unik identifierare för en annons och fungerar som en nyckel för översättning av Adobe Advertising-entitetsmetadata till läsbara [!DNL Analytics]-dimensioner.
 
 * `{TM_PLACEMENT_ID}` är den Adobe Advertising-genererade alfanumeriska placeringsnyckeln. Den används som en unik identifierare för en placering och fungerar som en nyckel för översättning av Adobe Advertising-entitetsmetadata till läsbara [!DNL Analytics]-dimensioner.
 
@@ -234,7 +234,9 @@ där:
 
 >[!NOTE]
 >
->Alla konton med maximala prestandakampanjer migrerades till ovanstående format. För konton med andra kampanjtyper migreras dina landningssidessuffix till det nya s_kwcid-formatet i början av 2025. Under tiden fungerar de äldre formaten enligt följande:
+>För alla konton med maximalt antal prestandakampanjer och alternativet för [!UICONTROL Auto Upload]-spårning migrerades landningssidans suffix till ovanstående format. För andra kampanjtyper med spårningsalternativet [!UICONTROL Auto Upload] migreras dina landningssidessuffix till att använda ovanstående s_kwcid-format i början av 2025.
+> För konton med kampanjer utan alternativet [!UICONTROL Auto Upload] för spårning som inte redan har migrerats till det nya formatet måste du manuellt uppdatera varje landningssidesuffix så att det innehåller ovanstående format.
+>Under tiden fungerar de äldre formaten enligt följande:
 >* Sökkampanjer:
 >  `s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
@@ -263,7 +265,7 @@ där:
 * `{source_type}` är den typ av webbplats där annonsen har visats: *b* för sökning, *c* för kontext (innehåll) eller *ct* för kategori.
 * `{phrase_id}` är annonsnätverkets numeriska ID för nyckelordet.
 
-### AMO ID-Dimension i [!DNL Analytics]
+### AMO ID Dimension i [!DNL Analytics]
 
 I analysrapporter kan du hitta AMO ID-data genom att söka efter dimensionen [!UICONTROL AMO ID] och använda måttet [!UICONTROL AMO ID Instances]. Dimensionen [!UICONTROL AMO ID] lagrar alla infångade AMO ID-värden, medan måttet [!UICONTROL AMO ID Instances] anger hur ofta ett AMO ID-värde hämtades av webbplatsen. Om till exempel samma sökannons klickades fyra gånger men Analytics spårade sju webbplatsposter, skulle [!UICONTROL AMO ID Instances] vara sju (7) och [!UICONTROL Clicks] skulle vara fyra (4).
 
@@ -271,7 +273,7 @@ För alla rapporter och granskningar inom [!DNL Analytics] är det bästa sätte
 
 ## Om analysklassificeringar
 
-I [!DNL Analytics] är en [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar rådata i Adobe Advertising med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising-rapportering i [!DNL Analytics] och kan användas med AMO-mått, till exempel [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] och [!UICONTROL AMO Clicks], samt med anpassade händelser och standardhändelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] och [!UICONTROL Revenue].
+I [!DNL Analytics] är en [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar Adobe Advertising-rådata med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising-rapportering i [!DNL Analytics] och kan användas med AMO-mått, som [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] och [!UICONTROL AMO Clicks], samt med anpassade och standardbaserade händelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] och [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
