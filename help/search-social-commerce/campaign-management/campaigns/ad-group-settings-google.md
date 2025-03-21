@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] och gruppinställningar'
 description: Referera inställningarna för  [!DNL Google Ads] annonsgrupper.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * *[!UICONTROL Use campaign setting]*(standard för nya annonsgrupper): Använder den befintliga inställningen för kampanjnivå och rotation. **Obs!** Inställningen på kampanjnivå visas inte i Sök, Socialt och Commerce.
 
-Om kampanjen använder en strategi för smart budgivning (till exempel [!UICONTROL Target CPA], [!UICONTROL Target ROAS] eller [!UICONTROL Enhanced CPC]), ställer [!DNL Google Ads] automatiskt in alternativet till [!UICONTROL Optimize].
+Om kampanjen använder en strategi för Smart Bidding-bud (till exempel [!UICONTROL Target CPA], [!UICONTROL Target ROAS]) anger [!DNL Google Ads] automatiskt alternativet till [!UICONTROL Optimize].
 
 **[!UICONTROL Custom Bid Level]:** (Kampanjer som endast riktar sig till visningsnätverket) Så här lägger du till: av *[!UICONTROL Ad Group]* (standard), *[!UICONTROL Age]*, *[!UICONTROL Gender]*, *[!UICONTROL Interest and List]* (Intresse &amp; Remarketing i Google Ads), *[!UICONTROL Keyword]*, *[!UICONTROL Placement]* (webbplats), *[!UICONTROL Unknown]* eller *[!UICONTROL Vertical]*.
 

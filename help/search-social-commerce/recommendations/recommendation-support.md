@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 73cc45da72a48b844b4baa426331822b4e857245
+source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 * Se i korthet alla rekommendationer som stöds och som inte har använts för ett konto. Informationen för varje post omfattar rekommendationstypen, [!DNL Adobe]-rekommendationen, de mått som påverkas, den enhet som påverkas och en länk till mer information. Förutsagda ökningar av mätvärden markeras med grönt.
 
-  ![Recommendations UI](/help/search-social-commerce/assets/recommendations-ui.png "Recommendations UI")
+  ![Rekommendationer, användargränssnitt](/help/search-social-commerce/assets/recommendations-ui.png "Rekommendationer, användargränssnitt")
 
   Informationen är tillgänglig i realtid när du öppnar vyn. Om du vill uppdatera data klickar du på ![Uppdatera](/help/search-social-commerce/assets/refresh.png "Uppdatera") längst ned till vänster på sidan.
 
@@ -38,7 +38,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 
 >[!NOTE]
 >
->Annonsnätverksrekommendationer och resultatinsikter hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du implementerar några rekommendationer eller insikter.
+>Annonsnätverksrekommendationer och resultatinsikter hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer eller insikter.
 
 ## Rekommendationstyper som stöds för [!DNL Google Ads]
 
@@ -60,7 +60,6 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Upgrade local campaign to performance max] | Uppgradera en äldre lokal kampanj till en maximal resultatkampanj |
 | | [!UICONTROL Upgrade smart shopping campaign to performance max] | Uppgradera en äldre smart shoppingkampanj till en maximalt resultatanpassad kampanj |
 | [!UICONTROL Bidding and budget] | [!UICONTROL Campaign budget] | Rekommenderad budget för en kampanj som för närvarande är begränsad av budgeten |
-| | [!UICONTROL Enhanced CPC opt in] | Ansök med [!UICONTROL Enhanced CPC] |
 | | [!UICONTROL Forecasting campaign budget] | Rekommenderad budget för en kampanj som förväntas begränsas av budgeten i framtiden |
 | | [!UICONTROL Forecasting set Target CPA] | Ange ett mål-CPA för kampanjer utan en före en säsongshändelse som beräknas öka trafiken |
 | | [!UICONTROL Forecasting set Target ROAS] | Öka budgeten före en säsongshändelse som beräknas öka trafiken och ändra budgivningsstrategin från [!UICONTROL Maximize Conversion Value] till [!UICONTROL Target ROAS] |
