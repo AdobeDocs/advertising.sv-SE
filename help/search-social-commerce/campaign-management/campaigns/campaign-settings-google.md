@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Google Ads] kampanjinställningar'
+title: Inställningar för [!DNL Google Ads]-kampanj
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: ae98579b6b2edb54de5753e84891987a88184515
+source-git-commit: f5e453975f693777e5717924d471b9de9f1f651b
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,11 @@ era annonser i annonsnätverkets nätverk av sökpartners. Som standard är det 
 
 **[!UICONTROL Bid strategy]:** Anbudsstrategin för kampanjen:
 
-* *[!UICONTROL Enhanced CPC]:* (Inte tillgängligt för maximala prestanda eller befintliga, skrivskyddade [!DNL Gmail] kampanjer) Använder annonsnätverkets utökade kostnadsmodell per klick (eCPC), som gör att annonsnätverket automatiskt kan ändra priset per klick (CPC) för varje auktion i ett försök att maximera konverteringar med hjälp av konverteringar som anges i annonsnätverket (inte i Search, Social, &amp; Commerce), samtidigt som försöker ha en genomsnittlig CPC under din maximala CPC.
-
-När du lägger till en kampanj med eCPC i en optimerad Search-, Social- och Commerce-portfölj optimerar Search, Social och Commerce basanbuden och - när alternativet [!UICONTROL Auto adjust campaign budget limits] är aktiverat - kampanjbudgeten. Annonsnätverket optimerar alla offertjusteringar och kan ändra de söknings-, sociala och Commerce-genererade anbuden vid tidpunkten för användarfrågan baserat på egna data och insikter. **Varning!** Använd eCPC-kampanjer i portföljer endast när de totala konverteringarna som spåras i annonsnätverket är anpassade efter portföljmålet. <!-- Note to self: Within the ad network UI, you specify conversion goals either a) all conversion actions you've set to be included in "Conversions" at the account level or b) one or more individual conversions to use for optimization -->
+* *[!UICONTROL Enhanced CPC]:* har tagits bort. [!DNL Google Ads] började automatiskt ändra befintliga [utökade CPC-anbudsstrategier](https://support.google.com/google-ads/answer/2464964) till manuell CPC den 15 mars 2025.
 
 * *[!UICONTROL Manual CPC]* (standard): (Inte tillgängligt för maximala prestandakampanjer) Använder CPC-modellen (cost-per-click). Du kan också tillåta annonsnätverket att ändra anbud för kampanjen:
 
-   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Detta är samma sak som att använda alternativet [!UICONTROL Enhanced CPC].
+   * **[!UICONTROL Enable Enhanced CPC]** (inaktiverat som standard): Detta är samma sak som att använda alternativet [!UICONTROL Enhanced CPC], som är inaktuellt. [!DNL Google Ads] började automatiskt ändra befintliga [utökade CPC-anbudsstrategier](https://support.google.com/google-ads/answer/2464964) till manuell CPC den 15 mars 2025.
 
 * *[!UICONTROL Maximize Clicks]:* (sök-, display- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan också ange en **[!UICONTROL Max CPC]** (kostnad per klick) för att se till att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning!** När du lägger till en kampanj med den här strategin i en portfölj styrs budgivningen av klickvikt, inte av portföljmålet.
 
