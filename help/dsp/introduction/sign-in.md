@@ -2,9 +2,9 @@
 title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
-source-git-commit: 0c33657eca7d3332a770fc1eaba179e5ae8eafb8
+source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din
 
 ### Felsökning
 
-Allmänna inloggningsproblem finns i [Lös inloggningsproblem för Adobe-konton]https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
+Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
 
 #### Finns det några krav för att aktivera en ny IMS-inloggning för [!DNL Adobe]?
 
