@@ -3,7 +3,7 @@ title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 4bc35abb18db857d12ff8620b18d60d1198b569a
+source-git-commit: c8d33069eb2a97af76a32360348a7e44bce02f09
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Kontrollera med IMS-organisationens administratör att e-postmeddelandet som du 
 
 Under tiden kan du fortsätta att använda dina tidigare DSP-inloggningsuppgifter.
 
-#### Jag loggade in med en felaktig e-postadress, som loggade in mig på [!DNL Adobe] men som inte ger åtkomst till DSP.
+#### Jag loggade in med en felaktig e-postadress som loggade in mig på [!DNL Adobe] men som inte ger DSP åtkomst.
 
 1. Gå till [experience.adobe.com](https://experience.adobe.com) och logga ut.
 
