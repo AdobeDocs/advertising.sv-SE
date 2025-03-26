@@ -2,9 +2,9 @@
 title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
-source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
+source-git-commit: b3393c6b0cf3df707793a91aa6a3e8c844f75fb2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Om du vill lägga till ett nytt inloggningskonto delar du e-postadressen med dit
 
 Under tiden kan användaren fortsätta att använda sina tidigare DSP-inloggningsuppgifter.
 
-#### När jag har loggat in med ett Adobe IMS-konto omdirigeras jag inte tillbaka till adobe.advertising.com.
+#### När jag har loggat in med ett Adobe IMS-konto omdirigeras jag tillbaka till inloggningssidan adobe.advertising.com.
 
 Kontrollera med IMS-organisationens administratör att e-postmeddelandet som du använder har lagts till i IMS-organisationen. Om administratören bekräftar att du har lagts till i IMS-organisationen ber du ditt Adobe-kontoteam att etablera ditt konto för att använda DSP.
 
