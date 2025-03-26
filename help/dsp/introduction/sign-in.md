@@ -2,7 +2,7 @@
 title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
-source-git-commit: 0eac4e77b0341ad190c1e1d622950e99be8de4f0
+source-git-commit: d90270666dfc587097088e94a2ee4f0c353c9c70
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 0%
@@ -59,9 +59,7 @@ Under tiden kan användaren fortsätta att använda sina tidigare DSP-inloggning
 
 #### När jag har loggat in med ett Adobe IMS-konto omdirigeras jag inte tillbaka till adobe.advertising.com.
 
-Kontrollera med IMS-organisationens administratör att e-postmeddelandet som du använder har lagts till i IMS-organisationen.
-
-Om administratören bekräftar att du har lagts till i IMS-organisationen ber du ditt Adobe-kontoteam att etablera ditt konto för att använda DSP.
+Kontrollera med IMS-organisationens administratör att e-postmeddelandet som du använder har lagts till i IMS-organisationen. Om administratören bekräftar att du har lagts till i IMS-organisationen ber du ditt Adobe-kontoteam att etablera ditt konto för att använda DSP.
 
 Under tiden kan du fortsätta att använda dina tidigare DSP-inloggningsuppgifter.
 
@@ -69,7 +67,7 @@ Under tiden kan du fortsätta att använda dina tidigare DSP-inloggningsuppgifte
 
 1. Gå till [experience.adobe.com](https://experience.adobe.com) och logga ut.
 
-Gå till [advertising.adobe.com](https://advertising.adobe.com) och logga in med rätt e-post-ID.
+1. Gå till [advertising.adobe.com](https://advertising.adobe.com) och logga in med rätt e-post-ID.
 
 #### Mitt [!DNL Adobe] IMS-konto och DSP-konto är registrerade med olika e-postmeddelanden. Hur loggar jag in med mitt [!DNL Adobe] IMS-konto?
 
