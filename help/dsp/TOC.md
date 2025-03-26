@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 5a667f353d436870e6d22422f64ae16f886d7bc8
+source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '938'
 ht-degree: 3%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 3%
 -->
 
 + [Nyheter](/help/dsp/home.md)
++ [Logga in på Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introduktion {#introduction}
    + [Introduktion till Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
    + Nyckelfunktioner {#features}
@@ -34,10 +35,10 @@ ht-degree: 3%
    + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
-+ Campaign Management {#campaign-management}
-   + [Översikt över Campaign Management Structure](/help/dsp/campaign-management/campaign-management-overview.md)
++ Kampanjhantering {#campaign-management}
+   + [Översikt över Campaign Management-strukturen](/help/dsp/campaign-management/campaign-management-overview.md)
    + Kampanjer {#campaigns}
-      + [Om Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Om kampanjhantering](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Skapa en kampanj](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [Redigera en kampanj](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicera en kampanj](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -96,17 +97,17 @@ ht-degree: 3%
          + [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Prestandarapporter i Campaign Management-vyer {#campaign-reports}
-      + [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
-      + [Exportera data från en Campaign Management-vy](/help/dsp/campaign-management/reports/campaign-export-data.md)
+   + Prestandarapporter i kampanjhanteringsvyer {#campaign-reports}
+      + [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+      + [Exportera data från en kampanjhanteringsvy](/help/dsp/campaign-management/reports/campaign-export-data.md)
       + [Visa Sites, Ads, Frequency och Inventory Details för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
       + [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
       + [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Visa aviseringar](/help/dsp/campaign-management/reports/campaign-alerts.md)
       + [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [DSP makron](/help/dsp/campaign-management/macros.md)
+   + [DSP Macros](/help/dsp/campaign-management/macros.md)
    + [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
    + [ [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -212,7 +213,7 @@ ht-degree: 3%
       + [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
       + [Inställningar för [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Planering {#planner}
-   + [Om DSP](/help/dsp/planner/planner-about.md)
+   + [Om DSP-verktyget Planering](/help/dsp/planner/planner-about.md)
    + [Skapa en uppkopplad TV-sändningsplan](/help/dsp/planner/planner-create.md)
    + [Duplicera en ansluten TV-sändningsplan](/help/dsp/planner/planner-duplicate.md)
    + [Redigera en plan för ansluten TV-räckvidd](/help/dsp/planner/planner-edit.md)
