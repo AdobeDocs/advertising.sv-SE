@@ -3,7 +3,7 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 >[!NOTE]
 >
->Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i en begränsad delmängd av nyckelfälten och överföra dem tillbaka till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](placement-qa.md).&quot;
+>Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i de flesta fält och överföra dem till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](placement-qa.md).&quot;
 
 ## Redigera inställningar för tangentmontering snabbt {#placement-quick-edit}
 
@@ -49,7 +49,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 1. Klicka på **[!UICONTROL Update placement]**.
 
-## Redigera flera placeringar {#edit-multiple-placements}
+## Gör samma ändringar på flera placeringar {#edit-multiple-placements}
 
 Använd bara det här alternativet om du vill använda samma ändringar på alla markerade placeringar.
 
