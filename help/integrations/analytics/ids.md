@@ -3,7 +3,7 @@ title: Adobe Advertising ID som används av  [!DNL Analytics]
 description: Adobe Advertising ID som används av  [!DNL Analytics]
 feature: Integration with Adobe Analytics
 exl-id: ff20b97e-27fe-420e-bd55-8277dc791081
-source-git-commit: 19d96e6016c2d170c2a08091249c024ee92e5e64
+source-git-commit: 8128a29a044623d5161e4893fbc52cca626b8fe4
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 0%
@@ -164,7 +164,7 @@ Parametrarna varierar beroende på annonsnätverk, men följande parametrar är 
 
 ##### [!DNL Baidu]
 
-`s_kwcid=AL!{userid}!{88}!{creative}!{placement}!{keywordid}`
+`s_kwcid=AL!{userid}!88!{creative}!{placement}!{keywordid}`
 
 där:
 
@@ -178,11 +178,11 @@ Detta inkluderar shoppingkampanjer som använder [!DNL Google Merchant Center].
 
 * Konton som använder det senaste AMO ID-formatet, som har stöd för kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
 
-  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
 * Alla andra konton:
 
-  `s_kwcid=AL!{userid}!{3}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+  `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 där:
 
@@ -207,7 +207,7 @@ där:
 
 ##### [!DNL Meta]
 
-`s_kwcid=AL!{userid}!{45}!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
+`s_kwcid=AL!{userid}!45!{{ad.id}}!{{campaign.id}}!{{adset.id}}`
 
 where:
 
@@ -223,7 +223,7 @@ where:
 
 * Alla kampanjtyper:
 
-  `s_kwcid=AL!{userid}!{10}!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+  `s_kwcid=AL!{userid}!10!{AdId}!!!!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 
 där:
 
@@ -237,15 +237,15 @@ där:
 > För konton med kampanjer utan alternativet [!UICONTROL Auto Upload] för spårning som inte redan har migrerats till det nya formatet måste du manuellt uppdatera varje landningssidesuffix så att det innehåller ovanstående format.
 >Under tiden fungerar de äldre formaten enligt följande:
 >* Sökkampanjer:
->  `s_kwcid=AL!{userid}!{10}!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
->  `s_kwcid=AL!{userid}!{10}!{AdId}!{CriterionId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Målgruppskampanjer:
->  `s_kwcid=AL!{userid}!{10}!{AdId}`
+>  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
-`s_kwcid=AL!{userid}!{94}!{creative}!{matchtype}!{network}!{keyword}`
+`s_kwcid=AL!{userid}!94!{creative}!{matchtype}!{network}!{keyword}`
 
 där:
 
@@ -256,7 +256,7 @@ där:
 
 ##### [!DNL Yandex]
 
-`s_kwcid=AL!{userid}!{90}!{ad_id}!{source_type}!!!{phrase_id}`
+`s_kwcid=AL!{userid}!90!{ad_id}!{source_type}!!!{phrase_id}`
 
 där:
 
