@@ -3,7 +3,7 @@ title: Klickspårningsformat för  [!DNL Microsoft Advertising]
 description: Lär dig mer om knappspårningsformat för  [!DNL Microsoft Advertising] konton.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -44,7 +44,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -66,7 +66,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -86,7 +86,7 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla följande:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{OrderItemId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}`
 
 * När annonsören inte har någon Adobe Analytics-integrering måste suffixet innehålla följande:
 
@@ -98,7 +98,7 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla följande:
 
-  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!{sid}!{AdId}!{CriterionId}`
+  `ef_id={msclkid}:G:s&s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 
 * När annonsören inte har någon Adobe Analytics-integrering måste suffixet innehålla följande:
 
@@ -106,5 +106,5 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
 >* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)

@@ -3,7 +3,7 @@ title: Klickspårningsformat för  [!DNL Google Ads]
 description: Lär dig mer om knappspårningsformat för  [!DNL Google Ads] konton.
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -54,7 +54,7 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
@@ -72,13 +72,13 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
    * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](/help/integrations/analytics/ids.md#amo-id-formats) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen [!UICONTROL Auto Upload] är aktiverad, läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement).
+     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen [!UICONTROL Auto Upload] är aktiverad, läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se &quot;[Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
 
    * Alla andra [!DNL Google Ads]-konton:
 
-     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!{sid}!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
+     `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}`
 
 * När annonsören inte har någon Adobe Analytics-integrering måste suffixet innehålla följande:
 
@@ -88,9 +88,9 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 >
 >* Landing page suffix at lower levels override the account-level suffix. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du annonsnätverkets redigerare.
 >
->* (Dynamiska sökannonser, annonsörer med Adobe Analytics och utan spårning på serversidan) När du vill inkludera spårning för omvänd feed från Adobe Advertising till Analytics, lägger du sedan till spårningskoden för AMO ID i slutet av landningssidans suffix på kontonivå.
+>* (Dynamiska sökannonser, annonsörer med Adobe Analytics och utan spårning på serversidan) När du vill inkludera spårning för omvänd feed från Adobe Advertising till Analytics lägger du till spårningskoden för AMO ID i slutet av landningssidans suffix på kontonivå.
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
+>* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
 >* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
