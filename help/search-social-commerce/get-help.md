@@ -2,7 +2,7 @@
 title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: 8a6755041218ab795c0aaa8b875a34d85b3582b8
+source-git-commit: a900c0ef919c36810ce115b51dc432c0008f3419
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Du kan öppna direkthjälpen från vilken sida som helst i användargränssnitte
 
    * ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **Optimeringsguide för sökning, sociala medier och Commerce**.
 
-## Fråga Adobe Advertising-communityn
+## Fråga Adobe Advertising community
 
 Leta efter svar på dina frågor i [Adobe Advertising användarforum](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
 
@@ -35,7 +35,7 @@ Gör något av följande för frågor som rör sökning, sociala medier och Comm
 
 * Kontakta kontoteamet på Adobe.
 
-* Klicka på ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **[!UICONTROL Provide Feedback]** på den översta menyn, skriv ditt meddelande och klicka sedan på **[!UICONTROL Send Feedback]**. |
+* Klicka på ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **[!UICONTROL Provide Feedback]** på den översta menyn, skriv ditt meddelande och klicka sedan på **[!UICONTROL Send Feedback]**.
 
 Ange detaljerade steg för att återskapa problemet, relevanta data och information om den preliminära felsökningen som du har utfört. Om du rapporterar problemet till ditt Adobe-kontoteam ska du även inkludera webbläsarens namn och version.
 
