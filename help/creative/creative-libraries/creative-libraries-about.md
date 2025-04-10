@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 #### Flexibel HTML5
 
-Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). Flexibla HTML5-kreatörer använder IAB-standarden (Interactive Advertising Bureau) Technology Laboratory för en [annonsportfölj](https://flexibleads.iabtechlab.com/), för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonser behåller sin upplösning på olika enheter och utgivarplatser.
+Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). Flexibla HTML5-kreatörer använder IAB (Interactive Advertising Bureau) Technology Laboratory som standard för en [annonsportfölj](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonserna behåller sin upplösning på olika enheter och utgivarplatser.
 
 Du kan<!-- either --> överföra flexibla HTML5-användare som ZIP-filer<!-- or use one of the [provided templates](flexible-html5-templates.md) as a starting point -->. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
 
