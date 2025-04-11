@@ -1,10 +1,10 @@
 ---
-title: Konfigurera A/B-tester för Adobe Advertising DSP annonser i Adobe Target
-description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP annonser.
+title: Konfigurera A/B-tester för Adobe Advertising DSP Ads i Adobe Target
+description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP-annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 964246bb2c8bfa442f2d4f981c9e02de35c69ed5
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Adobe Advertising och Adobe Target gör det ännu enklare för marknadsförare att leverera en personaliserad och uppkopplad upplevelse i betalda medier och på-plats-meddelanden. Genom att dela signaler mellan produkterna kan du
 
-* Minska antalet fall på webbplatsen genom att länka kundernas exponering från DSP till deras upplevelser på plats.
+* Minska antalet genomströmningar genom att länka kundernas exponering från DSP-kampanjer till deras webbplatsupplevelser.
 
 * Upprätta A/B-tester genom att spegla webbplatsupplevelser med annonseringsmeddelanden med hjälp av Adobe Audience Manager exponeringsdata och klicka-för-feed [!DNL Target]-målgrupper.
 
 * Mät effekten av enhetliga meddelanden på en mållyft på plats med enkla visualiseringar i Adobe Analytics för [!DNL Target].
 
-I följande avsnitt finns information om krav och instruktioner för att ställa in klicknings- och genomskinlighetsspårning, implementera signaldelning mellan DSP och [!DNL Target] och konfigurera en A/B-testaktivitet, och konfigurera [!DNL Analytics] Analysis Workspace för att visa testdata.
+I följande avsnitt finns information om krav och instruktioner för att ställa in klicknings- och genomskinlighetsspårning, implementera signaldelning mellan DSP och [!DNL Target] och ställa in en A/B-testaktivitet samt konfigurera [!DNL Analytics] Analysis Workspace för att visa testdata.
 
 Kontakta adcloud_support@adobe.com om du har ytterligare frågor.
 
@@ -35,53 +35,53 @@ Det här användningsexemplet kräver följande produkter och integreringar:
 
 * Integrering av [[!DNL Analytics] för [!DNL Target]](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html)
 
-* Audience Manager (krävs endast för genomsiktstestning)
+* Audience Manager (krävs endast för genomskinlighetstestning)
 
 ## Steg 1: Konfigurera Click-through Framework {#click-through-framework}
 
 ![Genomklickningsramverk](/help/integrations/assets/target-ct-framework.png)
 
-När du lägger till DSP makron i en klicknings-URL (den URL som visas när en användare klickar på en annons och når landningssidan), DSP automatiskt placeringsnyckeln genom att inkludera `${TM_PLACEMENT_ID}` i klicknings-URL:en. Det här makrot hämtar den alfanumeriska placeringsnyckeln och inte det numeriska placerings-ID:t.
+När du lägger till DSP-makron i en klicknings-URL (den URL som visas när en användare klickar på en annons och når landningssidan), hämtar DSP automatiskt placeringsnyckeln genom att inkludera `${TM_PLACEMENT_ID}` i klicknings-URL:en. Det här makrot hämtar den alfanumeriska placeringsnyckeln och inte det numeriska placerings-ID:t.
 
 ![Genomklicknings-URL tillagd till landningssidans URL](/help/integrations/assets/target-ct-url.jpg)
 
-### (Endast DSP) Lägg till DSP makron till klicknings-URL:er
+### (Endast DSP) Lägg till DSP-makron i Klicka-genom-URL:er
 
 <!-- If we ever write instructions for ads on other ad servers (such as Sizmek ads in DCO), then work that into the following section. -->
 
-Uppdatera klicknings-URL:en för varje annons manuellt i Google Campaign Manager 360, så att den innehåller de makron som krävs för att hämta AMO ID-variabler. AMO ID-variablerna används för att skicka klickdata till Adobe Analytics och för att dela placeringsnycklar för A/B-testning. Instruktioner finns på följande sidor:
+I Flash-samtal eller Google Campaign Manager 360 uppdaterar du klicknings-URL:en manuellt för varje annons för att inkludera de makron som krävs för att hämta AMO ID-variabler. AMO ID-variablerna används för att skicka klickdata till Adobe Analytics och för att dela placeringsnycklar för A/B-testning. Instruktioner finns på följande sidor:
 
-* [Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md)
+* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md). **Obs!** Den här proceduren är inte nödvändig om din organisation har ett direkt samarbete med [!DNL Flashtalking] och du använder datappassmakron för att samla in klickdata enligt [!DNL Flashtalking] supportdokumentationen på `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 
-Kontakta kontoteamet på Adobe och Advertising Solutions Group (aac-advertising-solutions-group@adobe.com) för att hämta den placeringsnyckel som krävs och slutföra konfigurationen, och för att se till att varje klicknings-URL är ifylld med placeringsnyckeln.
+Kontakta Adobe Account Team och Advertising Solutions Group (aac-advertising-solutions-group@adobe.com) om du vill hämta den placeringsnyckel som krävs och slutföra konfigurationen, och se till att varje klicknings-URL är ifylld med placeringsnyckeln.
 
-## Steg 2: Konfigurera visningsramverket med Audience Manager {#view-through-framework}
+## Steg 2: Konfigurera View-through Framework med Audience Manager {#view-through-framework}
 
 ![Genomskinligt ramverk](/help/integrations/assets/targetr-vt-framework.png)
 
-Genom att lägga till en händelsepixel för Audience Manager-intrycket i dina annonstaggar och placeringsinställningar kan du skapa ett testsegment för ytterligare visningsmöjligheter.
+Genom att lägga till en händelsepixel för Audience Manager-intryck i dina annonstaggar och placeringsinställningar kan du skapa ett testsegment för ytterligare möjligheter till genomskinliga tester.
 
-1. Implementera en händelsepixel för Audience Manager-intryckning i dina annonstaggar och inställningar för DSP.
+1. Implementera en händelsepixel för Audience Manager-intrycket i era annonstaggar och DSP placeringsinställningar.
 
    Instruktioner finns i &quot;[Samla in medieexponeringsdata från Advertising DSP Campaigns](/help/integrations/audience-manager/media-data-integration/collect.md)&quot;.
 
-   Se till att du lägger till [DSP makron](/help/dsp/campaign-management/macros.md) för att samla in alla data som du vill att visningshändelsepixeln ska skicka tillbaka, inklusive `${TM_PLACEMENT_ID_NUM}` för det numeriska placerings-ID:t.
+   Se till att du lägger till [DSP-makron](/help/dsp/campaign-management/macros.md) för att samla in alla data som du vill att visningshändelsepixeln ska skicka tillbaka, inklusive `${TM_PLACEMENT_ID_NUM}` för det numeriska placerings-ID:t.
 
    >[!NOTE]
    >
    >Klickspårnings-URL:er innehåller makrot `${TM_PLACEMENT_ID}` för den alfanumeriska placeringsnyckeln i stället för `${TM_PLACEMENT_ID_NUM}` för det numeriska placerings-ID:t.
 
-1. Konfigurera ett Audience Manager-segment utifrån DSP:
+1. Konfigurera ett Audience Manager-segment från DSP-visningsdata:
 
    1. Kontrollera att segmentdata är tillgängliga:
 
       1. [Sök efter signalen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html) för [nyckel/värde-paret](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html) som avgör på vilken nivå segmentanvändarna grupperas.
 
-         Använd en [stödd ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)-nyckel med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-visningshändelsepixeln.
+         Använd en [stödd ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html)-nyckel med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-inställningshändelsens pixel.
 
-         Om du till exempel vill gruppera användare för en viss placering använder du tangenten `d_placement`. Använd ett numeriskt placerings-ID för värdet (till exempel 2501853) som fångas av det DSP makrot `${TM_PLACEMENT_ID_NUM}`. <!-- Explain where to find the placement ID, other than in a custom report. -->
+         Om du till exempel vill gruppera användare för en viss placering använder du tangenten `d_placement`. Använd ett numeriskt placerings-ID (till exempel 2501853) som hämtas av DSP-makrot `${TM_PLACEMENT_ID_NUM}` för värdet. <!-- Explain where to find the placement ID, other than in a custom report. -->
 
          Om sökresultaten visar att användaren räknar nyckelvärdepar, vilket anger att pixeln placerades korrekt och att data flödar, fortsätter du till nästa steg.
 
@@ -95,11 +95,11 @@ Genom att lägga till en händelsepixel för Audience Manager-intrycket i dina a
 
    1. [Konfigurera ett testsegment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder.html) för den nya egenskapen i Audience Manager och välj `Ad Cloud` som **[!UICONTROL Data Source]**.
 
-      Audience Manager delar automatiskt upp segmentet i en kontrollgrupp som tar emot standardupplevelsen på landningssidan och en testgrupp som fått en personaliserad upplevelse på plats.
+      Audience Manager delar automatiskt upp segmentet i en kontrollgrupp som får standardupplevelsen på landningssidan och en testgrupp som fått en personaliserad upplevelse på plats.
 
 ## Steg 3: Konfigurera en A/B-testaktivitet i [!DNL Target] för DSP
 
-I följande anvisningar markeras information om DSP.
+I följande anvisningar finns information om DSP användning.
 
 1. [Logga in på Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/target-access-from-mac.html).
 
@@ -119,7 +119,7 @@ I följande anvisningar markeras information om DSP.
 
    1. Ange **[!UICONTROL Priority]** till `High` eller `999` för att förhindra konflikter när användare i testsegmentet får en felaktig upplevelse på plats.
 
-   1. I **[!UICONTROL Reporting Settings]** väljer du **[!UICONTROL Company Name]** och **[!UICONTROL Report Suite]** som är anslutna till ditt DSP.
+   1. I **[!UICONTROL Reporting Settings]** väljer du **[!UICONTROL Company Name]** och **[!UICONTROL Report Suite]** som är anslutna till ditt DSP-konto.
 
       Fler tips om rapportering finns i [Rapportera bästa praxis och felsökning](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/report-troubleshooting.html).
 
@@ -129,7 +129,7 @@ I följande anvisningar markeras information om DSP.
 
       1. Välj det [segment som du tidigare skapade i Audience Manager för att testa genomskinliga målgrupper](#view-through-framework).
 
-      1. Välj **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** och ange DSP placeringsnyckel i fältet **[!UICONTROL Value]** för att använda Target-frågesträngsparametrarna för klickbara målgrupper.
+      1. Välj **[!UICONTROL Site Pages]** > **[!UICONTROL Landing Page]** > **[!UICONTROL Query]** och ange DSP-placeringsnyckeln i fältet **[!UICONTROL Value]** för att använda Target-frågesträngsparametrarna för klickbara målgrupper.
 
    1. För **[!UICONTROL Traffic Allocation Method]** väljer du **[!UICONTROL Manual (Default)]** och delar målgruppen 50/50.
 
@@ -143,7 +143,7 @@ I följande anvisningar markeras information om DSP.
 
    >[!NOTE]
    >
-   >Exempel på användningsfall för kreativa tester kan du kontakta ditt Adobe-kontoteam.
+   >Exempel på användningsfall för kreativa tester kan du kontakta Adobe Account Team.
 
 ## Steg 4: Konfigurera din [!DNL Analytics for Target] Analysis Workspace i [!DNL Analytics]
 
@@ -159,7 +159,7 @@ Konfigurera [!DNL Analytics for Target panel] i Analysis Workspace för att anal
 
 #### Mått
 
-* Skapa en panel på arbetsytan som är specifik för den kampanj, det paket eller den placering som testet kördes för. Använd sammanfattningsvisualiseringar för att visa Adobe Advertising-mått i samma rapport som testprestandan [!DNL Target].
+* Skapa en panel på arbetsytan som är specifik för den Adobe Advertising-kampanj, det paket eller den placering som testet kördes för. Använd sammanfattningsvisualiseringar för att visa Adobe Advertising-mått i samma rapport som testprestandan [!DNL Target].
 
 * Prioritera med hjälp av statistik på plats (t.ex. besök och konverteringar) för att mäta prestanda.
 
@@ -194,9 +194,9 @@ Om du inom Analysis Workspace märker att data om aktivitet och upplevelser är 
 ## Ytterligare läsning
 
 * [Integrera mål med analys](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/3.2-target-analytics.html) - Beskriver hur du konfigurerar [!DNL Target]-rapportering i Analysis Workspace.
-* [A/B-testöversikt](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beskriver A/B-testaktiviteter som du kan använda med DSP annonser.
-* [Upplevelser och erbjudanden](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Beskriver [!DNL Target] verktyg för att avgöra vilket innehåll på webbplatsen som DSP testanvändare exponeras för.
-* [Signaler, egenskaper och segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Definierar några av Audience Manager-verktygen som kan användas DSP genomsiktstestning.
+* [A/B-testöversikt](https://experienceleague.adobe.com/docs/target/using/activities/abtest/test-ab.html) - Beskriver A/B-testaktiviteter som du kan använda med DSP-annonser.
+* [Erfarenheter och erbjudanden](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html) - Beskriver [!DNL Target] verktyg för att fastställa vilket innehåll på webbplatsen som DSP testanvändare exponeras för.
+* [Signaler, egenskaper och segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html) - Definierar några av Audience Manager-verktygen som kan användas vid DSP-genomskinlighetstestning.
 * [Översikt över Analytics för Advertising](/help/integrations/analytics/overview.md) - Här presenteras Analytics för Advertising, som gör att du kan spåra klicknings- och genomskinlighetsinteraktioner på din Analytics-instans.
 
 >[!MORELIKETHIS]

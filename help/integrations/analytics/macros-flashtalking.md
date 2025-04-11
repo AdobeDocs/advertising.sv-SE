@@ -3,9 +3,9 @@ title: Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking
 description: Lär dig varför och hur du lägger till  [!DNL Analytics for Advertising] makron i dina  [!DNL Flashtalking] ad-taggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: c4db5727def6125b65fb2146666b988ae3b0db27
+source-git-commit: e8c8316418acf4a8c62beabcae2c1b7388dbc297
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om du använder annonstaggar från [!DNL Flashtalking] för dina Advertising DSP
 
 >[!NOTE]
 >
->Om din organisation har ett direktsamarbete med [!DNL Flashtalking] är den här proceduren inte nödvändig för dig. Logga i stället in på ditt [!DNL Flashtalking]-konto och följ [!DNL Flashtalking] supportdokumentationen för att få åtkomst till datapassmakron på `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+>Om din organisation har ett direktsamarbete med [!DNL Flashtalking] är den här proceduren inte nödvändig för dig. Logga i stället in på ditt [!DNL Flashtalking]-konto och följ [!DNL Flashtalking]-supportdokumentationen för att samla in klickdata med hjälp av datappassmakron på `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 Använd makron för [!DNL Flashtalking]-visning och videoannonser för följande typer av [!DNL Analytics for Advertising]-implementeringar:
 
