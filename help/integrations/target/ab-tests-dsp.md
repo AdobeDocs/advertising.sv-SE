@@ -2,7 +2,7 @@
 title: Konfigurera A/B-tester för Adobe Advertising DSP Ads i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP-annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 34ada7c1f299f76988ee3ba533c47b76ade7d9ec
+source-git-commit: 35632a9ceab61de83a1d0e68f3b5ea9e3d35ae37
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 0%
@@ -51,7 +51,7 @@ När du lägger till DSP-makron i en klicknings-URL (den URL som visas när en a
 
 Uppdatera klicknings-URL:en för varje annons manuellt i [!DNL Flashtalking] eller Google Campaign Manager 360 för att inkludera de makron som krävs för att hämta AMO ID-variabler. AMO ID-variablerna används för att skicka klickdata till Adobe Analytics och för att dela placeringsnycklar för A/B-testning. Instruktioner finns på följande sidor:
 
-* [Bifoga [!DNL Analytics for Advertising] makron i [[!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md). **Obs!** Den här proceduren är inte nödvändig om din organisation har ett direkt samarbete med [!DNL Flashtalking] och du använder datappassmakron för att samla in klickdata enligt [!DNL Flashtalking] supportdokumentationen på `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
+* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md). **Obs!** Den här proceduren är inte nödvändig om din organisation har ett direkt samarbete med [!DNL Flashtalking] och du använder datappassmakron för att samla in klickdata enligt [!DNL Flashtalking] supportdokumentationen på `https://support.flashtalking.com%2Fhc%2Fen-us%2Farticles%2F4409808166419-Accessing-Data-Pass-Macros`.
 
 * [Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 
