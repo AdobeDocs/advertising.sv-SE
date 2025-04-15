@@ -2,9 +2,9 @@
 title: Konfigurera A/B-tester för Adobe Advertising DSP Ads i Adobe Target
 description: Lär dig hur du ställer in ett A/B-test i [!DNL Target] för dina DSP-annonser.
 exl-id: 5092e06b-eef0-43f3-ba81-6dbe7164158c
-source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ När du lägger till DSP-makron i en klicknings-URL (den URL som visas när en a
 
 Uppdatera klicknings-URL:en för varje annons manuellt i [!DNL Flashtalking] eller Google Campaign Manager 360 för att inkludera de makron som krävs för att hämta AMO ID-variabler. AMO ID-variablerna används för att skicka klickdata till Adobe Analytics och för att dela placeringsnycklar för A/B-testning. Instruktioner finns på följande sidor:
 
-* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md). **Obs!** Den här proceduren är inte nödvändig om din organisation har ett direkt samarbete med [!DNL Flashtalking] och du använder datappassmakron för att spåra parametrarna `s_kwcid` och `ef_id` enligt [!DNL Flashtalking] supportdokumentationen på `https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros`.
+* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md). **Obs!** Den här proceduren är inte nödvändig om din organisation har ett direkt samarbete med [!DNL Flashtalking] och du använder datappassmakron för att spåra parametrarna `s_kwcid` och `ef_id` enligt [!DNL Flashtalking] supportdokumentationen på [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) .
 
 * [Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 

@@ -3,9 +3,9 @@ title: Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking
 description: Lär dig varför och hur du lägger till  [!DNL Analytics for Advertising] makron i dina  [!DNL Flashtalking] ad-taggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 8d9bd2aeed8fa7c6d34be9dbb813b35205ba72b4
+source-git-commit: a69bef9d249514f5c494cff8d706b9df792eaf23
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Om du använder annonstaggar från [!DNL Flashtalking] för dina Advertising DSP
 
 >[!NOTE]
 >
->Om din organisation har ett direktsamarbete med [!DNL Flashtalking] är den här proceduren inte nödvändig för dig. Logga i stället in på ditt [!DNL Flashtalking]-konto och följ [!DNL Flashtalking] supportdokumentationen på `https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros` för att använda datapassmakron för att spåra parametrarna `s_kwcid` och `ef_id`.
+>Om din organisation har ett direktsamarbete med [!DNL Flashtalking] är den här proceduren inte nödvändig för dig. Logga i stället in på ditt [!DNL Flashtalking]-konto och följ [!DNL Flashtalking] supportdokumentationen på [https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros](https://support.flashtalking.com/hc/en-us/articles/4409808166419-Accessing-Data-Pass-Macros) för att använda datappassmakron för att spåra parametrarna `s_kwcid` och `ef_id`.
 
 Använd makron för [!DNL Flashtalking]-visning och videoannonser för följande typer av [!DNL Analytics for Advertising]-implementeringar:
 
