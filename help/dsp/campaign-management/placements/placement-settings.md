@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 17d2f802e77709636ef9654ad154e14c5d53c477
+source-git-commit: 6c4e5c3b114684dc360c1c2a35c90f07a8df11bc
 workflow-type: tm+mt
-source-wordcount: '3966'
+source-wordcount: '4039'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 
 **[!UICONTROL Traffic type]:** Typer av trafik som ska mål. Alternativen är **[!UICONTROL Websites]** och **[!UICONTROL Apps]**.
 
-**[!UICONTROL Tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på trafiken till målet. Nivåerna 1-3 är alla varumärkessäkra och har godkänts av DSP.
+**[!UICONTROL Tier]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Kvaliteten på trafiken till målet. Nivåerna 1-3 är alla varumärkesskyddade och har godkänts av DSP kartteam.
 
 * *[!UICONTROL Tier 1]:* Premium-webbplatser och -program som är nationellt identifierbara.
 
@@ -237,7 +237,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 >
 >För prestandakampanjer är det bästa sättet att välja *[!UICONTROL All Sites]*.
 
-**[!UICONTROL Site or App Categories]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatskategorier i de valda webbplatsnivåerna som antingen ska inkluderas eller exkluderas (men inte båda) som mål. Välj från lodräta listor med webbplatser som DSP har mappat utifrån ämne:
+**[!UICONTROL Site or App Categories]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatskategorier i de valda webbplatsnivåerna som antingen ska inkluderas eller exkluderas (men inte båda) som mål. Välj från lodräta listor över webbplatser som DSP har mappat baserat på ämne:
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange de webbplatskategorier som ska inkluderas eller exkluderas:
@@ -268,7 +268,7 @@ Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönst
 
 >[!NOTE]
 >
->* Listor med blockerade webbplatser på kontonivå och annonsörnivå används också, förutom den DSP [globalt blockerade webbplatslistan](/help/dsp/introduction/features/brand-safety-media-quality.md), som innehåller webbplatser som inte betraktas som säkra för annonser.
+>* Listor med blockerade webbplatser på kontonivå och annonsörnivå används också, utöver DSP [globalt blockerade webbplatslista](/help/dsp/introduction/features/brand-safety-media-quality.md), som innehåller webbplatser som inte betraktas som säkra för annonser.
 >* Blockerade webbplatslistor åsidosätter alltid målwebbplatslistor. Om en placering båda utesluter och innehåller samma mål för en annons, utesluts målet.
 
 **[!UICONTROL Language]:** (Valfritt) Ett enda språk att rikta sig till.
@@ -305,7 +305,7 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 * Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer sedan **[!UICONTROL + Create Audience]**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md) med början från steg 3.
 * Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md). Klicka på **Spara** när du är klar.
 
-**[!UICONTROL Excluded Audiences]:** Alla målgrupper som ska exkluderas för placeringen, inklusive målgrupper med [tredjepartssegment, förstapartssegment, Adobe-segment, anpassade segment och sparade målgrupper](/help/dsp/audiences/audience-settings.md). Den totala och aktiva borttagna dubblettstorleken för alla uteslutna målgrupper visas också. Du kan välja en befintlig målgrupp eller skapa en ny som du kan återanvända senare:
+**[!UICONTROL Excluded Audiences]:** Alla målgrupper som ska uteslutas för placeringen, inklusive målgrupper med [tredjepartssegment, förstapartssegment, Adobe-segment, anpassade segment och sparade målgrupper](/help/dsp/audiences/audience-settings.md). Den totala och aktiva borttagna dubblettstorleken för alla uteslutna målgrupper visas också. Du kan välja en befintlig målgrupp eller skapa en ny som du kan återanvända senare:
 
 * Om du vill välja en befintlig målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Excluded Audiences] och väljer målgrupp.
 
@@ -325,7 +325,7 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
 
    * *[!UICONTROL Unified ID2.0]*: Mål-ID [!DNL Unified ID2.0] (UID2) för användare som är inloggade på webbplatsen med sina e-postadresser.<!-- Verify -->[!DNL UID2 IDs] är inte tillgängligt för användare i EES och vissa andra länder. Se [listan över förbjudna länder](/help/policies/universal-id-policy.md#prohibited-countries-uid2).
 
-  **[!UICONTROL Terms of service]**: Villkoren i serviceavtalet för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan konvertera data till en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
+  **[!UICONTROL Terms of service]**: Villkoren i serviceavtalet för användning av universella ID:n. Du eller en annan användare på DSP-kontot måste acceptera villkoren en gång innan du kan konvertera data till en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren för din organisations räkning. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
 **[!UICONTROL Cross Device Targeting]:** (Tillgängligt när kampanjen [är konfigurerad för personbaserad målinriktning mellan enheter](/help/dsp/campaign-management/campaigns/campaign-settings.md), du anger endast äldre ID:n (inte universella ID:n) som mål och du väljer minst ett segment eller en målgrupp. Gör att du kan utöka målanpassningen för alla kända enheter (enligt enhetsdiagrammet som anges i kampanjinställningarna), även enheter som inte finns i de angivna segmenten. Avgifterna kan tillkomma beroende på vilket diagram som har angetts för kampanjen. Enhetsdiagramdata är bara tillgängliga i Nordamerika.
 
@@ -346,7 +346,7 @@ När du väljer både äldre ID:n och universella ID:n ges budgivningsinställni
    * Om du vill markera ett intervall manuellt klickar du inuti en cell och väljer intervallet genom att dra.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Topic Targeting]:** (Valfritt, tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du kontoteamet på Adobe.
+**[!UICONTROL Topic Targeting]:** (Valfritt, tillgängligt för annonsörer som konfigurerats med [!DNL Proximic by Comscore] segment) Specifika segmentnamn eller ID:n från [!DNL Proximic by Comscore] som ska inkluderas som mål. Ytterligare avgifter kan tillkomma för den här funktionen. Om du vill aktivera den här funktionen och konfigurera ämnessegment kontaktar du ditt Adobe-kontoteam.
 
 Så här anger du målinriktning:
 
@@ -391,11 +391,11 @@ Så här anger du målinriktning:
 
 ## [!UICONTROL Brand Safety and Media Quality]
 
-**[!UICONTROL DoubleVerify ABS segment ID]:** (Valfritt; endast [!DNL DoubleVerify] kunder; endast tillgängligt för pre-roll-dator, standard- och click-to-play-visning och inbyggda visnings- och videopresentationer; stöds inte för [standardplaceringar för programmatiska erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas för placeringen. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
+**[!UICONTROL DoubleVerify ABS segment ID]:** (Valfritt; endast [!DNL DoubleVerify] kunder; endast tillgängligt för pre-roll-dator, standard- och click-to-play-visning och inbyggda visnings- och videopresentationer; stöds inte för [standardplaceringar för programmatiska erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas för placeringen. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP debiterar ditt konto för användning av segment-ID.
 
 ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard anges ett segment-ID i inställningarna för annonserarkontot, men du kan ändra ID:t så att det använder ett annat segment eller ta bort ID:t för att inaktivera funktionen.
 
-**[!UICONTROL Contextual filtering]:** Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
+**[!UICONTROL Contextual filtering]:** (Gäller för webbreklam för datorer och mobila enheter, inbyggda annonser och videoannonser) Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
 
 <!-- Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
@@ -421,34 +421,30 @@ ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard 
 
 **[!UICONTROL Pre-bid fraud blocking]:** Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstänkta aktiviteter som mäts via [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39]. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
 
-* [!UICONTROL DoubleVerify]:
+* [!UICONTROL DoubleVerify]: (Gäller för webb- och mobilskärmar, inbyggda annonser och videoannonser)
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Som standard blockerar all 100 % ogiltig trafik, inklusive trafik på kapade enheter, för nya platser. Ytterligare avgifter kan tillkomma.
 
    * **[!UICONTROL Also block sites with]:** (Valfritt) En extra nivå av bedrägeri och ogiltig trafik som gör att DSP blockerar annonser som standard: *[!UICONTROL None]* (standard, som inte blockerar ytterligare trafik), *[!UICONTROL >2% Average Fraud/IVT levels (lowest reach)]*, *[!UICONTROL >4% Average Fraud/IVT levels]*, *[!UICONTROL >6% Average Fraud/IVT levels]*, *[!UICONTROL >10% Average Fraud/IVT levels]* eller *[!UICONTROL >25% Average Fraud/IVT levels]*. Ytterligare avgifter kan tillkomma.
 
-* [!UICONTROL Peer 39]:
+* [!UICONTROL Peer 39]: (Gäller för webb- och mobilskärmar, inbyggda annonser och videoannonser)
 
    * **[!UICONTROL Block sites that are]:** (Valfritt) En eller flera typer av bedrägeri som gör att DSP blockerar annonser som standard: *[!UICONTROL Fraud]* (som blockerar alla webbplatser med bedrägeri), *[!UICONTROL Fraud: Bot Sites_Non-Human traffic]* och/eller *[!UICONTROL Fraud: Zero Ads]*. Ytterligare avgifter kan tillkomma.
 
-* [!UICONTROL Integral Ad Science]:
+* [!UICONTROL Integral Ad Science]: (Gäller för webb- och mobilskärmar, inbyggda annonser och videoannonser)
 
-   * **[!UICONTROL Block sites that are]:** (Valfritt) En typ av misstänkt webbplats- eller appaktivitet som gör att DSP blockerar annonser som standard: *[!UICONTROL None]* (standard, som inte blockerar annonser baserade på misstänkt aktivitet), *[!UICONTROL Suspicious Activity - High Risk]* eller *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Ytterligare avgifter kan tillkomma.
+   * **[!UICONTROL Block sites that are]:** (Valfritt) En typ av misstänkt webbplats- eller appaktivitet som gör att DSP blockerar annonser som standard: *[!UICONTROL None]* (standard, som inte blockerar annonser baserat på misstänkt aktivitet), *[!UICONTROL Suspicious Activity - High Risk]* eller *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Ytterligare avgifter kan tillkomma.
 
-**[!UICONTROL Pre-bid viewability]:**
+**[!UICONTROL Pre-bid viewability]:** (Gäller för webb-, webb-, webb- och videoannonser på datorer och mobila enheter) Vilka visningsfilter före bud som ska användas av [!DNL DoubleVerify] och [!DNL Integral Ad Science] för placeringen. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna. Ytterligare avgifter kan tillkomma.
 
-Vilka visningsfilter före bud som ska användas av [!DNL DoubleVerify] och [!DNL Integral Ad Science] för placeringen. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna. Ytterligare avgifter kan tillkomma.
-
-**[!UICONTROL Ads.txt filtering]:**
-
-Vilken nivå av förfiltrering av [Ads.txt](https://iabtechlab.com/ads-txt-about/) som ska användas genom att tillämpa varje utgivares lista över auktoriserade digitala säljare. Standardvärdet på annonsörnivå är valt för nya placeringar, men du kan ändra inställningarna:
+**[!UICONTROL Ads.txt filtering]:** (Gäller för webb-, webb-, video- och ljudannonser på datorer och mobila enheter) Vilken nivå av förfiltrering av [Ads.txt](https://iabtechlab.com/ads-txt-about/) som ska användas genom att tillämpa varje utgivares lista över auktoriserade digitala säljare. Standardvärdet på annonsörnivå är valt för nya placeringar, men du kan ändra inställningarna:
 
 * *[!UICONTROL Opt out of ads.txt (default)]*: Om du vill köpa lager från alla säljare.
 * *[!UICONTROL Ads.txt sellers + sites without ads.txt]*: För att prioritera inköp av lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Om du bara vill köpa lager från en domäns auktoriserade direktförsäljare och återförsäljare.
 * *[!UICONTROL Ads.txt sellers only]*: Om du bara vill köpa lager från en domäns auktoriserade direktförsäljare.
 
-**[!UICONTROL Attention Targeting]:** (Bildskärm, video och vanliga anslutna TV-enheter) Målar [!DNL Adelaide] för segment före bud med en viss prioritetsnivå (hög, medel eller låg) baserat på den angivna platsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Om du använder [!DNL Adelaide] segment för målinriktning debiteras en CPM-avgift för varje intryck som skickas med [!DNL Adelaide] uppmärksamhet riktad mot. Den här avgiften är separat från avgifterna för [målinriktningen](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
+**[!UICONTROL Attention Targeting]:** (Gäller för webb- och mobilskärmar, video och vanliga anslutna TV-annonser) [!DNL Adelaide] Målgrupper med en specifik prioritetsnivå (hög, medel eller låg) baserat på den angivna webbplatsen, formatet och annonsstorleken. Segmenten uppdateras varje vecka. **Obs!** Om du använder [!DNL Adelaide] segment för målinriktning debiteras en CPM-avgift för varje intryck som skickas med [!DNL Adelaide] uppmärksamhet riktad mot. Den här avgiften är separat från avgifterna för [målinriktningen](/help/dsp/campaign-management/campaigns/campaign-settings.md). För interaktiva före-rollplaceringar debiteras du endast för VAST-visningar.
 
 ## [!UICONTROL Tracking] {#placement-tracking}
 
@@ -507,4 +503,4 @@ Vilken nivå av förfiltrering av [Ads.txt](https://iabtechlab.com/ads-txt-about
 >* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Frågor och svar om Campaign Management](/help/dsp/campaign-management/faq-campaign-management.md)
+>* [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
