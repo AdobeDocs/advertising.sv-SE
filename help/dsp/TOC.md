@@ -4,9 +4,9 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: edb62b97e6b03efbabc051c8ec2d7326b291e085
+source-git-commit: 148917239a2179b651b04418e53038d29856c649
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '944'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 3%
 + [Logga in på Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
 + Introduktion {#introduction}
    + [Introduktion till Adobe Advertising DSP](/help/dsp/introduction/dsp-about.md)
-   + Nyckelfunktioner {#features}
+   + Viktiga funktioner {#features}
       + [Optimering](/help/dsp/introduction/features/optimization.md)
       + [Varumärkessäkerhet och mediakvalitet](/help/dsp/introduction/features/brand-safety-media-quality.md)
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
@@ -74,7 +74,7 @@ ht-degree: 3%
       + [Pausa eller aktivera en placering](/help/dsp/campaign-management/placements/placement-pause-activate.md)
       + [Arkivera eller arkivera en placering](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-   + Ads {#ads}
+   + Annonser {#ads}
       + [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
       + [Certifierade annonserande partners](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md)
@@ -97,6 +97,8 @@ ht-degree: 3%
          + [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
++ Prestandainsikter för flera kampanjer {#insights}
+   + [Om Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
    + Prestandarapporter i kampanjhanteringsvyer {#campaign-reports}
       + [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportera data från en kampanjhanteringsvy](/help/dsp/campaign-management/reports/campaign-export-data.md)
@@ -170,14 +172,14 @@ ht-degree: 3%
          + [!UICONTROL Deal ID Inbox] {#inbox}
             + [Om [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
-         + Manuellt angivna avtal-ID {#manual}
+         + Manuellt angivna avtal-ID:n {#manual}
             + [Skapa information för [!UICONTROL Deal ID] manuellt](/help/dsp/inventory/deal-id-create.md)
             + [Manuella [!UICONTROL Deal ID]-inställningar](/help/dsp/inventory/deal-id-settings.md)
          + Programmatiska garanterade erbjudanden {#programmatic-guaranteed-deal}
             + [Översikt över programmatiska garanterade erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)
             + [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
             + [Ställ in en programgaranterad affär](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
-            + [!DNL FreeWheel] Programmatiska garanterade erbjudanden {#freewheel}
+            + [!DNL FreeWheel] programmatiska garanterade erbjudanden {#freewheel}
                + [Översikt över inställning av programmatiska garanterade erbjudanden i  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
                + [Skicka en annons för en programmatisk garanterad affär till  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
                + [Kontrollera status för annonser för [!DNL FreeWheel] Programmatiska erbjudanden](/help/dsp/inventory/freewheel-check-status.md)
