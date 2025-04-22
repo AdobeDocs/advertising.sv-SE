@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 148917239a2179b651b04418e53038d29856c649
+source-git-commit: 2d8785ed0f9be576d7c5437ac5793a46d787b954
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 3%
@@ -97,8 +97,8 @@ ht-degree: 3%
          + [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
-+ Prestandainsikter för flera kampanjer {#insights}
-   + [Om Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
+   + Prestandainsikter för flera kampanjer {#insights}
+      + [Om Performance Insights](/help/dsp/campaign-management/insights/insights-about.md)
    + Prestandarapporter i kampanjhanteringsvyer {#campaign-reports}
       + [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportera data från en kampanjhanteringsvy](/help/dsp/campaign-management/reports/campaign-export-data.md)

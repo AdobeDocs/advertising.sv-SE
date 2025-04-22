@@ -2,9 +2,9 @@
 title: Om Performance Insights
 description: Lär dig mer om resultatinsikter för era kampanjer.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
+source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Prestandainsikter på hög nivå med visualiseringar ger er den information ni b
 
 Du kan ladda ned en rapport utan visualiseringar i Microsoft Excel-kalkylbladsformat (XLSX).
 
-## Fliken [!UICONTROL Home]
+## Typer av insikter
+
+### Fliken [!UICONTROL Home]
 
 Fliken [!UICONTROL Home] innehåller viktiga värden för standard, prestanda och visningsbarhet för alla en annonsörs kampanjer <!-- active only? -->. Som standard visas data för olika kampanjer. Du kan också konfigurera filter så att de visar data för en annan annonsörer eller data för endast specifika kampanjer <!-- active only? -->, paket <!-- active only? -->, anpassade mål och placeringar<!-- active only? -->. Några av insikterna:
 
@@ -27,7 +29,7 @@ Fliken [!UICONTROL Home] innehåller viktiga värden för standard, prestanda oc
 
 * En uppdelning av data för specifika mått efter tre kundspecificerade mått, t.ex. efter kampanj, utgivare och medietyp. För varje flerdimensionell uppdelning kan du välja ett annat mått.
 
-## Fliken [!UICONTROL Household Reach]
+### Fliken [!UICONTROL Household Reach]
 
 Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för alla annonserarens kampanjer <!-- active only? -->. Som standard visas data för olika kampanjer. Du kan också konfigurera filter så att data visas för en annan annonsörer eller data för endast specifika kampanjer <!-- active only? -->. Några av insikterna:
 
