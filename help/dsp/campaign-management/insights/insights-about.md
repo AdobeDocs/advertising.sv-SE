@@ -2,9 +2,10 @@
 title: Om Performance Insights
 description: Lär dig mer om resultatinsikter för era kampanjer.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: b1e9d022894c638dae6c48482d98059d9540e1c4
+exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
+source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -15,9 +16,19 @@ ht-degree: 0%
 
 <!-- Edit title and metadata as necessary -->
 
-Prestandainsikter på hög nivå med visualiseringar ger er den information ni behöver för att optimera era era kampanjer och upptäcka nya möjligheter att skala upp resultatet.
+Prestandainsikter på hög nivå med visualiseringar ger er den information ni behöver för att optimera era era kampanjer och upptäcka nya möjligheter att skala upp resultatet. Ni kan visa data över kampanjer eller gå ned på en lägre nivå.
 
-Du kan ladda ned en rapport utan visualiseringar i Microsoft Excel-kalkylbladsformat (XLSX).
+Använd resultatinsikter för att
+
+* Spåra långsiktiga trender för strategisk planering och välgrundat beslutsfattande.
+
+* Identifiera möjligheter för att uppnå bättre resultat.
+
+* Förbättra effektiviteten genom att minska tiden mellan att hämta rådata och få åtgärdbara insikter.
+
+Du kan exportera alla visualiseringar för en flik till en PDF-fil eller hämta data för en viss insikt utan visualiseringar i Microsoft Excel-kalkylbladsformat (XLSX).
+
+Du kan också [konfigurera vyn och spara den som en anpassad vy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), precis som du kan för kampanjhanteringsvyer.
 
 ## Typer av insikter
 
@@ -35,13 +46,15 @@ Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för 
 
 * Ett trenddiagram per dag eller vecka för tre kundspecificerade mätvärden (som standard [!UICONTROL Net Spend], [!UICONTROL Unique Reach] och [!UICONTROL Net CPM]).
 
-* Ett cirkeldiagram över det inkrementella hushållets räckvidd med [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type]. Inkrementell räckvidd definieras som ett hushåll som nås enbart via ett enda medium, en enhet eller en enda lagertyp.
+* Ett donutdiagram som visar den inkrementella hushållsräckvidden av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type]. Inkrementell räckvidd definieras som ett hushåll som nås enbart via ett enda medium, en enhet eller en enda lagertyp.
 
-* Ett stapeldiagram som visar [!UICONTROL Unique Reach] av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type]. **Obs!** Ett hushåll som nås av flera medier, enheter eller lagertyper betraktas som överlappande.
+* Den inkrementella unika hushållsräckvidden jämfört med överlappande hushållsräckvidd av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type].
 
-* En lista över de mest prisvärda kampanjerna, placeringarna, paketen, utgivare, webbplatser/appar, medietyper, lagertyper eller enhetstyper. Mätvärdena är [!UICONTROL Unique Reach], [!UICONTROL Net Spend] och [!UICONTROL Cost per Reach].
+  Inkrementell räckvidd definieras som ett hushåll som nås enbart via ett enda medium, en enhet eller en enda lagertyp. Ett hushåll som nås av flera medier, enheter eller lagertyper betraktas som överlappande.
 
-* Ett <!-- ???? -->-diagram över [!UICONTROL Cost per Reach] och [!UICONTROL Net Spend] per paket, utgivare eller webbplats/app.
+* De mest effektiva kampanjerna, placeringarna, paketen, utgivare, webbplatser/appar, medietyper, lagertyper eller enhetstyper efter [!UICONTROL Unique Reach], [!UICONTROL Net Spend] och [!UICONTROL Cost per Reach].
+
+* [!UICONTROL Cost per Reach] och [!UICONTROL Net Spend] efter paket, utgivare eller webbplats/app. Använd den här insikten för att se vilka paket, utgivare eller webbplatser/appar som visar på potentialen för ökad räckvidd.
 
 ## Open Performance Insights
 
@@ -72,7 +85,13 @@ klicka på ![Filterknappen](/help/dsp/assets/filter.png).
 
 1. Markera mätvärdena och klicka sedan på **[!UICONTROL Apply]**.
 
-## Ladda ned en insight
+## Exportera alla visualiseringar för en flik till en PDF-fil
+
+* Ovanför fliken klickar du på **[!UICONTROL ...]** > **[!UICONTROL Export]**.
+
+  Filen sparas i webbläsarens standardmapp för nedladdningar.
+
+## Hämta en specifik insikt till en XLSX-fil
 
 * Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") i det övre högra hörnet av insikten.
 
