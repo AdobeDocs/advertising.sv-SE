@@ -2,9 +2,9 @@
 title: Om Performance Insights
 description: Lär dig mer om resultatinsikter för era kampanjer.
 feature: DSP Packages, DSP Placements, DSP Ads
-source-git-commit: f76b0aad77b896bb84a898779e457a0893913024
+source-git-commit: f821f7cec4ad2a9921337940a11ba62a122dbc23
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -41,24 +41,40 @@ Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för 
 
 * Ett <!-- ???? -->-diagram över [!UICONTROL Cost per Reach] och [!UICONTROL Net Spend] per paket, utgivare eller webbplats/app.
 
+## Open Performance Insights
+
+* (Om du vill öppna insikter för alla kampanjer) Klicka på **[Insights BETA]** på huvudmenyn.
+
+* (Om du vill öppna insikter för en viss kampanj, ett visst paket eller en viss placering) Klicka **[!UICONTROL ...]** > **[!UICONTROL Insights]** bredvid enhetsnamnet i vyn [!UICONTROL Campaigns], [!UICONTROL Packages] eller [!UICONTROL Placements].
+
+## Använda filter på en tabb
+
+1. I verktygsfältet högst upp på fliken
+klicka på ![Filterknappen](/help/dsp/assets/filter.png).
+
+1. I den vänstra kolumnen väljer du en dimension och sedan ett eller flera värden i den högra kolumnen, beroende på vad som är tillämpligt.
+
+   Du kan bara välja en annonsörer åt gången.
+
+1. Klicka på **[!UICONTROL Apply]**.
+
+1. (Valfritt) Om du vill begränsa data ytterligare väljer du enhetstypen i verktygsfältet och väljer sedan ett specifikt enhetsvärde (en kampanj, ett paket eller en placering).
+
+## Ändra den rapporterade Dimension-versionen för en insight
+
+* Välj dimension i listrutan till det övre vänstra hörnet av insikten.
+
+## Ändra rapporterade värden för en insight
+
+1. Klicka på ![Målinställningar](/help/dsp/assets/metric-settings.png "Målinställningar") i det övre högra hörnet av insikten.
+
+1. Markera mätvärdena och klicka sedan på **[!UICONTROL Apply]**.
+
 ## Ladda ned en insight
 
-* Ovanför insikten klickar du på ![Hämta](/help/creative/assets/download.png "Hämta").
+* Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") i det övre högra hörnet av insikten.
 
   Filen sparas i webbläsarens standardmapp för nedladdningar.
-
-<!--
-## Apply Filters
-
-to whole tab, I think
-
-Filter icon + drop-down menu
--->
-
-<!--
-## Change the Metrics and Dimensions for an Insight
-
--->
 
 >[!MORELIKETHIS]
 >
