@@ -3,9 +3,9 @@ title: Om Performance Insights
 description: Lär dig mer om resultatinsikter för era kampanjer.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: be84bea53ec6c5378102aa510b9d58b1d0004b4b
+source-git-commit: 7b5b28f0b1892d92527ab6b4c7d4ee595d791aac
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Använd resultatinsikter för att
 
 Du kan exportera alla visualiseringar för en flik till en PDF-fil eller hämta data för en viss insikt utan visualiseringar i Microsoft Excel-kalkylbladsformat (XLSX).
 
-Du kan också [konfigurera vyn och spara den som en anpassad vy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), precis som du kan för kampanjhanteringsvyer.
+Du kan också [ändra datumintervallet, konfigurera vyn och spara en anpassad vy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md), precis som du kan för kampanjhanteringsvyer.
 
 ## Typer av insikter
 
@@ -102,3 +102,4 @@ klicka på ![Filterknappen](/help/dsp/assets/filter.png).
 >* [Om anpassade rapporter](/help/dsp/reports/report-about.md)
 >* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
+>* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

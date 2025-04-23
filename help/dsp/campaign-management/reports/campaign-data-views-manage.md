@@ -3,7 +3,7 @@ title: Hantera era kampanjdatavyer
 description: Lär dig hur du kan anpassa datavyer för kampanjer, paket, ersättningar och annonser.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 5b07096e5f07c60a3efcbf4213b3bc2f061f36a4
+source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -56,7 +56,7 @@ DSP sparar den senaste vyn som standardvy så att du alltid ser de mätvärden s
 
    1. I listan med tillgängliga mätvärden markerar du kryssrutan bredvid varje mätvärde som ska inkluderas.
 
-      Alla mätvärden är alfabetiska efter kategori: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (standardmått som DSP spår), [!UICONTROL Viewability] och [!UICONTROL Conversions]. Mätvärden som har lagts till med &quot;([!UICONTROL Lifetime])&quot; returnerar värden från kampanjens början, oavsett vilket datumintervall som har valts på sidan.
+      Alla mätvärden är alfabetiska efter kategori: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (standardmått som spåras i DSP), [!UICONTROL Viewability] och [!UICONTROL Conversions]. Mätvärden som har lagts till med &quot;([!UICONTROL Lifetime])&quot; returnerar värden från kampanjens början, oavsett vilket datumintervall som har valts på sidan.
 
    1. Redigera kolumnordningen efter behov genom att klicka på kolumnnamnen på den högra panelen och dra dem till önskade positioner.
 
@@ -82,7 +82,7 @@ DSP sparar den senaste vyn som standardvy så att du alltid ser de mätvärden s
 
    1. I listan med tillgängliga mått markerar du kryssrutan intill varje mätvärde som ska inkluderas och avmarkerar kryssrutan intill varje mätvärde som ska uteslutas.
 
-      Alla mätvärden är alfabetiska efter kategori: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (standardmått som DSP spår), [!UICONTROL Viewability] och [!UICONTROL Conversions]. Mätvärden som har lagts till med &quot;([!UICONTROL Lifetime])&quot; returnerar värden från kampanjens början, oavsett vilket datumintervall som har valts på sidan.
+      Alla mätvärden är alfabetiska efter kategori: [!UICONTROL Settings], [!UICONTROL Spend], [!UICONTROL Pacing], [!UICONTROL Reporting] (standardmått som spåras i DSP), [!UICONTROL Viewability] och [!UICONTROL Conversions]. Mätvärden som har lagts till med &quot;([!UICONTROL Lifetime])&quot; returnerar värden från kampanjens början, oavsett vilket datumintervall som har valts på sidan.
 
    1. Redigera kolumnordningen efter behov genom att klicka på kolumnnamnen på den högra panelen och dra dem till önskade positioner.
 
@@ -142,7 +142,6 @@ Följande filter är tillgängliga för vyerna [!UICONTROL Campaigns], [!UICONTR
    * [!UICONTROL Ad type]
    * [!UICONTROL Creation date]
 
-
 ### Ändra datumintervall
 
 Ändra datumintervallet som används i alla standardvyer och anpassade vyer med datumintervallväljaren ovanför en datatabell.
@@ -172,9 +171,9 @@ Välj *[!UICONTROL 25]*, *[!UICONTROL 50]* eller *[!UICONTROL 100]* längst ned 
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
 >* [Visa platser, annonser och frekvensinformation för en placering](placement-details-view.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visa diagnostikrapporter för placering](placement-diagnostics.md)
->* [Exportera data från en Campaign Management-vy](campaign-export-data.md)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
