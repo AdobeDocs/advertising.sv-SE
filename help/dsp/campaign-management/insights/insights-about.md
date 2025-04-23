@@ -3,9 +3,9 @@ title: Om Performance Insights
 description: Läs om prestandainsikter med visualiseringar.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: e0e44a0be283f27d2dd1c1ae0c5f0c00c08edddc
+source-git-commit: ca531db43b9e07dc767da3d0e866bfc85add7ee9
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för 
 
 * Ett trenddiagram per dag eller vecka för tre kundspecificerade mätvärden (som standard [!UICONTROL Net Spend], [!UICONTROL Unique Reach] och [!UICONTROL Net CPM]).
 
-* Ett donutdiagram som visar den inkrementella hushållsräckvidden av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type]. Inkrementell räckvidd definieras som ett hushåll som nås enbart via ett enda medium, en enhet eller en enda lagertyp.
+* Ett donutdiagram som visar den inkrementella hushållsräckvidden av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type]. *Inkrementell hushållsräckvidd* definieras som ett hushåll som nås exklusivt via en enda medie-, enhets- eller lagertyp.
 
 * Den inkrementella unika hushållsräckvidden jämfört med överlappande hushållsräckvidd av [!UICONTROL Media Type], [!UICONTROL Device Type] eller [!UICONTROL Inventory Type].
 
-  Inkrementell räckvidd definieras som ett hushåll som nås enbart via ett enda medium, en enhet eller en enda lagertyp. Ett hushåll som nås av flera medier, enheter eller lagertyper betraktas som överlappande.
+  *Inkrementell hushållsräckvidd* definieras som ett hushåll som nås exklusivt via en enda medie-, enhets- eller lagertyp. *Överlappande hushållsräckvidd* definieras som ett hushåll som nås av flera medie-, enhets- eller lagertyper.
 
 * De mest effektiva kampanjerna, placeringarna, paketen, utgivare, webbplatser/appar, medietyper, lagertyper eller enhetstyper efter [!UICONTROL Unique Reach], [!UICONTROL Net Spend] och [!UICONTROL Cost per Reach].
 
@@ -64,8 +64,7 @@ Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för 
 
 ## Använda filter på en tabb
 
-1. I verktygsfältet högst upp på fliken
-klicka på ![Filterknappen](/help/dsp/assets/filter.png).
+1. Klicka på knappen ![Filter](/help/dsp/assets/filter.png) i verktygsfältet högst upp på fliken.
 
 1. I den vänstra kolumnen väljer du en dimension och sedan ett eller flera värden i den högra kolumnen, beroende på vad som är tillämpligt.
 
