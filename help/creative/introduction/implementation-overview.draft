@@ -47,7 +47,7 @@ The implementation team and/or your agency will work with you do the following:
 
      For more information, talk to your Adobe Account Team.
      
-     <!-- LATER, in a later phase: (Advertisers with Adobe Experience Manager; optional) Configure access to image assets in the Experience Manager account. -->
+     <!-- LATER, in a later phase: (Advertisers with Adobe Experience Manager; optional) Configure access to image assets in the Experience Manager account. --><!-- I think this will be automatic based on their IMS organization. But I'm not sure if they need to be logged in via SSO using their Adobe login or if it will also work using their legacy DSP login. -->
 
    * **Manual workflow:** Manually set up ad experiences:
    
