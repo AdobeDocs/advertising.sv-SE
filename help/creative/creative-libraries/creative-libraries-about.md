@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 731728964eef89aa1299c02fd90c805e13a0b163
+source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Du kan överföra enkla eller statiska HTML5-kreatörer med alla attribut och bi
 
 #### Bildkreatörer
 
-Du kan inkludera bildkreatörer i GIF-, JPEG-, JPG- eller PNG-format. Du kan överföra <!--LATER:   images from your Adobe Experience Manager accounts or --> bilder från din enhet eller ditt nätverk.
+Du kan inkludera bildkreatörer i GIF-, JPEG-, JPG- eller PNG-format. Du kan överföra bilder från dina Adobe Experience Manager-konton eller bilder från din enhet eller ditt nätverk.
 
 För varje annonsvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen.
 
