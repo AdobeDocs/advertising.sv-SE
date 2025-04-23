@@ -3,9 +3,9 @@ title: Om Performance Insights
 description: Läs om prestandainsikter med visualiseringar.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: c146a49e7ebef567707b67365114fc23ee5d0884
+source-git-commit: 04858fdbe884c30ebec3e1dff0d9c4d2622a16a1
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Använd resultatinsikter för att
 
 Du kan exportera alla visualiseringar för en flik till en PDF-fil eller hämta data för en viss insikt utan visualiseringar i Microsoft Excel-kalkylbladsformat (XLSX).
 
-Du kan också [ändra datumintervallet, konfigurera vyn och spara en anpassad vy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md) på samma sätt som du kan för kampanjhanteringsvyer.
+Du kan också [ändra datumintervallet, konfigurera vyn och spara en anpassad vy](/help/dsp/campaign-management/reports/campaign-data-views-manage.md){target="_blank"} på samma sätt som du kan för kampanjhanteringsvyer.
 
 ## Typer av insikter
 
@@ -58,7 +58,7 @@ Fliken [!UICONTROL Household Reach] tillhandahåller hushållens räckvidd för 
 
 ## Open Performance Insights
 
-* (Om du vill öppna insikter för alla kampanjer) Klicka på **[Insights BETA]** på huvudmenyn.
+* (Om du vill öppna insikter för alla kampanjer) Klicka på **[UICONTROL Insights BETA]** på huvudmenyn.
 
 * (Om du vill öppna insikter för en viss kampanj, ett visst paket eller en viss placering) Klicka **[!UICONTROL ...]** > **[!UICONTROL Insights]** bredvid enhetsnamnet i vyn [!UICONTROL Campaigns], [!UICONTROL Packages] eller [!UICONTROL Placements].
 
