@@ -3,7 +3,7 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 3224adf97a1b32ee7b7abcbb1c6e7792bfed5c49
+source-git-commit: eaa25ce24bf00fb5ff7ea1e4a3364d4439f49b00
 workflow-type: tm+mt
 source-wordcount: '4039'
 ht-degree: 0%
@@ -421,7 +421,7 @@ ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard 
 
 **[!UICONTROL Pre-bid fraud blocking]:** Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstänkta aktiviteter som mäts via [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39]. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
 
-* [!UICONTROL DoubleVerify]: (Gäller för webb- och mobilskärmar, inbyggda annonser och videoannonser) <!-- native, video, and standard connected TV ads -->
+* [!UICONTROL DoubleVerify]: (Gäller för webb- och mobilskärmar, inbyggda annonser och videoannonser) <!-- Applicable for desktop and mobile web display, native, video, and standard connected TV ads -->
 
    * **[!UICONTROL Block Fraud Sites (100% Invalid traffic) and User-Based Fraud and IVT Devices]:** Som standard blockerar all 100 % ogiltig trafik, inklusive trafik på kapade enheter, för nya platser. Ytterligare avgifter kan tillkomma.
 
