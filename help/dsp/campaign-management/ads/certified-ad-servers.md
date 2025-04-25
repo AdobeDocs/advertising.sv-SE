@@ -3,9 +3,9 @@ title: Certifierade annonserande partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 0%
 | [!DNL Spirable] | | X | | | |
 | [!DNL SUBLIME] | | | X | | |
 | [!DNL SundaySky] | | | | X | |
-| [!DNL Teads] | | X | | | Det finns inget stöd för VPAID i Outstream-lagret. |
+| [!DNL Teads] | | X | | | Inkluderar inbyggd visning. Det finns inget stöd för VPAID i Outstream-lagret. |
 | [!DNL Trueffect] | | X | | | |
 | [!DNL Undertone] | | | X | | En anpassad annonsenhet för Page Grabber har överförts som 180x150 i DSP</br></br>När Index Exchange skickar en 180x150-auktion och DSP offerter på auktionen och ger ett intryck utvidgas den kreativa sidan till en helsidesannons.</br></br>Inledningsvis certifierad för annonsenheterna Page Grabber, Expanderbar friktion och Skärmförskjutning. Detta måste certifieras på nytt, med steg markerade för processer. |
 | [!DNL Vox] | | | X | | [!DNL Athena] annonsenheter |
