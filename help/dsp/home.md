@@ -5,9 +5,9 @@ cloud: Experience Cloud
 product: advertising cloud
 index: true
 exl-id: 680f8597-1700-4a9c-8214-9d9b4d753d19
-source-git-commit: ccdc71ccef37650d6f2cc830e96ab3882a7d52b4
+source-git-commit: b103a2ac8834fa559428e7b3cd1947a0cd3ed33b
 workflow-type: tm+mt
-source-wordcount: '5225'
+source-wordcount: '5277'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 25 april 2025 | [!UICONTROL Placements], varumärkessäkerhet och mediakvalitet | DSP tillhandahåller nu [!DNL DoubleVerify] support före köp av bedrägeri som blockerar stöd för vanliga anslutna TV-utplaceringar. Nya placeringar ärver automatiskt inställningarna för spärrning av bedrägeri på annonsnivå. Om du vill exkludera en ärvd inställning tar du bort den manuellt.<br><br>Stöd för universella videomaterial kommer att finnas i en framtida version. | Se [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md#prebid-fraud-blocking). |
 | 24 april 2025 | Prestanda [!UICONTROL Insights] | (Beta-funktion) Högnivåinsikt om prestanda med visualiseringar ger er den information ni behöver för att optimera era era kampanjer och upptäcka nya möjligheter att skala upp resultatet. Ni kan visa data över kampanjer eller gå ned på en lägre nivå. | Se [Om prestandainsikter](/help/dsp/campaign-management/insights/insights-about.md). |
 | 26 mars 2025 | Inloggning | DSP går över till Adobe Identity Management Service (IMS) för inloggningsautentisering. IMS ger enkel inloggning (SSO) för alla [!DNL Adobe]-produkter som stöder IMS, inklusive Real-Time Customer Data Platform, Customer Journey Analytics, Target och Analytics. Du kan nu använda en [!DNL Adobe ID] för att logga in på [!DNL Adobe]-produkter från antingen inloggningssidan för Experience Cloud eller den äldre inloggningssidan för DSP. Dina nuvarande DSP-inloggningsuppgifter är aktiva i 90 dagar så att du kan förbereda dig för ändringen. | Se [Logga in på Adobe Advertising DSP](/help/dsp/introduction/sign-in.md).<br><br>Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;. |
 | | [!UICONTROL Packages], [!UICONTROL Placements], [!UICONTROL Ads] | Följande gruppredigeringsfunktioner är nu tillgängliga:<ul><li>Ni kan redigera och överföra kalkylblad på kampanjnivå som innehåller inställningar för kampanjens paket, placeringar och annonser direkt. Tidigare var du tvungen att hämta en mallfil och manuellt ange de ändringar som skulle överföras.</li><li>Filerna kallas nu *kalkylblad* i [!UICONTROL Campaigns]-vyerna i stället för&quot;QA-blad&quot;, och du väljer alternativ för [!UICONTROL Download Bulksheet] och [!UICONTROL Upload Bulksheet].</li><li>De flesta placeringsinställningarna är nu tillgängliga i kalkylblad.</li></ul> | Se &quot;[Granska och redigera inställningar för Campaign-komponenter med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md).&quot;<br><br>Se även &quot;[Granska och redigera paketinställningar med hjälp av bulkblad](/help/dsp/campaign-management/packages/package-qa.md)&quot; och &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](/help/dsp/campaign-management/placements/placement-qa.md)&quot;. |
