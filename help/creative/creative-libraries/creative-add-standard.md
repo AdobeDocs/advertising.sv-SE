@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -158,15 +158,21 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
 
-1. Ange filerna på något av följande sätt:
+1. Ange bilderna:
 
-   * Dra och släpp filer på enheten eller nätverket i lådan.
+   * Gör något av följande för lokala bildresurser:
 
-   * Klicka på **[!UICONTROL select a file]** för att leta upp filen på enheten eller i nätverket.
-<!--  Verify wording and workflow and add when available:
+      * Dra och släpp filer på enheten eller nätverket i lådan.
 
-   * Click **[!UICONTROL AEM Asset Library]** to locate a file in your Adobe Experience Manager library.
--->
+      * Klicka på **[!UICONTROL select a file]** om du vill söka efter filer på enheten eller i nätverket.
+
+   * Gör följande för bilder i ditt Adobe Experience Manager-bibliotek:
+
+      1. Klicka på **[!UICONTROL AEM Asset Library]**.
+
+      1. Logga in på ditt Experience Manager-konto.
+
+      1. Leta reda på och markera filerna i [!UICONTROL Assets]- eller [!UICONTROL Collections]-vyerna och klicka sedan på **[!UICONTROL Select]** i det övre högra hörnet.
 
 1. Lägg till eller ta bort bilder:
 
