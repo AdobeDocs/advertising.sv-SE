@@ -35,7 +35,7 @@ När aktiviteten startar ändras status och schemalagt postdatum för raden i vy
 >
 >* Det tar längre tid att publicera stora mängder data. Du kan följa förloppet för filen i kolumnen [!UICONTROL Progress] i vyn [!UICONTROL Bulksheets].
 >* Alla bokförda data är underställda nätverkets redaktionella process.
-* Du kan avbryta bokföringen innan kalkylbladsfilen har bokförts.
+>* Du kan avbryta bokföringen innan kalkylbladsfilen har bokförts.
 
 ## Bokför inställningar för kalkylblad och korrigerade felfiler {#bulksheet-post-settings}
 

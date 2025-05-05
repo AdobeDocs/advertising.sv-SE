@@ -160,7 +160,7 @@ Parametrarna varierar beroende på annonsnätverk, men följande parametrar är 
 
 * `{userid}` är ett unikt användar-ID som tilldelats annonsören.
 
-* `{sid}` ersätts med det numeriska ID:t för annonserarens annonsnätverkskonto: ** för [!DNL Google Ads], ***för [!DNL Microsoft Advertising],* 45 *för [!DNL Meta], 86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (utgått) eller *106*  för [!DNL Pinterest] (borttagen).
+* `{sid}` ersätts med det numeriska ID:t för annonserarens annonsnätverkskonto: **&#x200B; för [!DNL Google Ads], &#x200B;***för [!DNL Microsoft Advertising],* 45 *för [!DNL Meta], 86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (utgått) eller *106*  för [!DNL Pinterest] (borttagen).
 
 ##### [!DNL Baidu]
 

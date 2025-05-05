@@ -26,7 +26,7 @@ Exempel:
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
-* `<the landing page>` är en variabel som representerar URL:en på din webbplats som slutanvändarna dirigeras till.
+>* `<the landing page>` är en variabel som representerar URL:en på din webbplats som slutanvändarna dirigeras till.
 
 >[!MORELIKETHIS]
 >

@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du parametern `amo` före hash-symbolen.
+>&#x200B;>* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du parametern `amo` före hash-symbolen.
 >* Om inga andra parametrar inkluderas efter parametern `amo` lägger du till en parameter (till exempel &amp;a=b) efter den. Exempel: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Konfigurera URL-suffixet för marknadsföringsnivålandningssida

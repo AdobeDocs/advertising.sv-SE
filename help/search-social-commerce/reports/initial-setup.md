@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Nya användare bör utföra följande initiala konfigurationsuppgifter:
 
-* Gör konverteringsmåtten som Adobe Advertising spårar för annonsören [tillgängliga för rapporter och andra vyer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md), och [ändra eventuellt namn på konverteringsmåtten](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md som visas i kolumnrubriker för läsbarhet.
+* Gör konverteringsmåtten som Adobe Advertising spårar för annonsören [tillgängliga för rapporter och andra vyer](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-available.md), och [ändra eventuellt namn på konverteringsmåtten] (/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md som visas i kolumnrubriker för läsbarhet.
 
   Transaktionsegenskaper är inte tillgängliga för rapporter om du inte uttryckligen gör dem tillgängliga.
 

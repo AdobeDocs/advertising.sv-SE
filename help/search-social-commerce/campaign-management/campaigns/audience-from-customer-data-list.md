@@ -91,7 +91,7 @@ Data måste vara av samma typ som den ursprungliga kundlistan (e-postadresser, e
 
 1. Generera en fil med kunddata i det format som krävs för den befintliga datatypen.
 
-För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
+För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor] (https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 

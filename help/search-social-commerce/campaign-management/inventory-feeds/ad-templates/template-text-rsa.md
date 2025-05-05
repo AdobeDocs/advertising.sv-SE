@@ -70,7 +70,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).](https://help.ads.microsoft.com/#apex/3/en/56799/2)
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799/2) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{unescapedurl}` för att ange landningssidans URL.
 
@@ -206,7 +206,7 @@ Om du använder en [!DNL Google Merchant Center]-feed och inkluderar det här v�
 
 * Ange landningssidans URL:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).](https://help.ads.microsoft.com/#apex/3/en/56799)
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` för att ange landningssidans URL.
 
@@ -238,7 +238,7 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om titeln, texten, URL:en eller den slutliga URL:en innehåller den dynamiska ersättningssträngen `{Param3}`. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 

@@ -24,8 +24,8 @@ I rapporter, standardvyer och anpassade vyer för Advertising Search, Social, &a
 >
 >* Attributregler gäller för klick på betalda annonser i alla kanaler och för visningar på displayannonser och sociala annonser. De gäller inte för visningar av betalda sökannonser, som inte kan spåras på eventnivå.
 >* Adobe Advertising lagrar alltid följande händelser för varje webbsurfer före en konvertering: a) det första betalda klicket, b) upp till 10 klick för varje kanal (sökning, sociala medier eller visning), inklusive det första klicket, och c) upp till 10 visningar. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
-* I Advertising DSP och Advertising Creative beaktas endast händelserapporten från den valda attribueringsregeln för definitioner mellan enheter.<!-- cross-device attribution via LiveRamp only -->
-* I rapporter och hanteringsvyer beror antalet decimaler som visas för ett värde på valutan, men Adobe Advertising lagrar mer exakta värden.
+>* I Advertising DSP och Advertising Creative beaktas endast händelserapporten från den valda attribueringsregeln för definitioner mellan enheter.<!-- cross-device attribution via LiveRamp only -->
+>* I rapporter och hanteringsvyer beror antalet decimaler som visas för ett värde på valutan, men Adobe Advertising lagrar mer exakta värden.
 
 ## Senaste händelse (standard)
 

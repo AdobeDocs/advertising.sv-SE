@@ -14,7 +14,7 @@ ht-degree: 0%
 
 1. Klicka på **[!UICONTROL Planner]** på huvudmenyn.
 
-1. 
+1. &#x200B;
    1. Håll markören över planraden och klicka på **[!UICONTROL More]** > **[!UICONTROL Duplicate]**.
 
 1. (Valfritt) Redigera planens namn och [planinställningarna](planner-settings.md).
@@ -25,7 +25,7 @@ ht-degree: 0%
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

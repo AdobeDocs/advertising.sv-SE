@@ -28,7 +28,7 @@ där:
 
    * `c?` eller `r` betecknar att överföring av token är inaktiverat.
 
-* `<ad network ID>` är en variabel för det numeriska ID:t för det angivna annonsnätverket, till exempel ** för [!DNL Google Ads], *10* för [!DNL Microsoft Advertising], *45* för [!DNL Meta], *86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *16}88* för [!DNL Baidu], *90* för [!DNL Yandex], *94* för [!DNL Yahoo! Japan Ads], *105* för [!DNL Yahoo Native] (borttagen) eller *106* för [!DNL Pinterest] (borttagen).
+* `<ad network ID>` är en variabel för det numeriska ID:t för det angivna annonsnätverket, till exempel ** för [!DNL Google Ads], *10* för [!DNL Microsoft Advertising], *45* för [!DNL Meta], *86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *16&rbrace;88* för [!DNL Baidu], *90* för [!DNL Yandex], *94* för [!DNL Yahoo! Japan Ads], *105* för [!DNL Yahoo Native] (borttagen) eller *106* för [!DNL Pinterest] (borttagen).
 
 * `<tracking ID>` är en variabel för en systemgenererad spårnings-ID-sträng som identifierar ett nyckelord, en annons eller en placering som är unik i kontot. Strängen varierar beroende på annonsnätverk.
 

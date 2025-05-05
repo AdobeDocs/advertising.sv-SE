@@ -20,7 +20,7 @@ Du kan visa data för de senaste 36 månaderna.
 >
 >* Det går inte att rapportera etikettklassificeringar på ad-nivå för [!DNL Microsoft Advertising] dynamiska sökannonskampanjer (DSA).
 >* Mer än en etikettklassificering kan gälla för samma enhet, så summan för varje mätvärde kan vara högre än den faktiska summan för enheten. Exempel: ett nyckelord &quot;suede skor&quot; har två etikettvärden, &quot;suede&quot; och &quot;skodon&quot;, och nyckelordet fick 100 klick. Kolumnen Click skulle visa &quot;100&quot; för vart och ett av dessa etikettvärden, så summan för båda raderna skulle vara &quot;200&quot;.
-* Alla ändringar du gör av etiketteringsindelningar och underordnade etikettvärden för en enhet visas på ungefär en timme.
+>* Alla ändringar du gör av etiketteringsindelningar och underordnade etikettvärden för en enhet visas på ungefär en timme.
 
 ## Standardkolumner
 

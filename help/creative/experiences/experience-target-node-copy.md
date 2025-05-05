@@ -27,7 +27,7 @@ Den här funktionen påverkar inte det mål som angetts för den överordnade no
 
    * Om du vill ersätta alla underordnade noder och kreatörer för en nod klickar du på noden som du vill klistra in den kopierade informationen på, klickar på **..** och sedan på en\) väljer du **[!UICONTROL Replace ctrl+shift+v]** eller b\) anger **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) eller **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) på tangentbordet.
 
-   * (Noder med flera underordnade mål, inga Alla-noder och inga endast kreativa) Om du vill lägga till alla underordnade noder och kreatörer i en nod utan att ta bort de befintliga klickar du på den nod som du vill klistra in den kopierade informationen i, klickar på **..** och antingen a\) väljer **[!UICONTROL Add ctrl+v]** ** eller b\) anger **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) eller **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) på tangentbordet.
+   * (Noder med flera underordnade mål, inga Alla-noder och inga endast kreativa) Om du vill lägga till alla underordnade noder och kreatörer i en nod utan att ta bort de befintliga klickar du på den nod som du vill klistra in den kopierade informationen i, klickar på **..** och antingen a\) väljer **[!UICONTROL Add ctrl+v]** **&#x200B; eller b\) anger &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) eller &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) på tangentbordet.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

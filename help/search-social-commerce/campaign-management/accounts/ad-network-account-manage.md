@@ -195,7 +195,7 @@ Konton som använder klickspårning i Adobe Advertising måste inkludera annonsn
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).](https://help.ads.microsoft.com/#apex/3/en/56799)
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` för att ange landningssidans URL.
 

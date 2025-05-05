@@ -24,7 +24,7 @@ Du kan skapa och redigera placeringar för annonsgrupper i [kampanjtyper som st�
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** på undermenyerna.
 
-1. 
+1. &#x200B;
    1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
 1. Välj annonsnätverket, kontot, kampanjen och annonsgruppen och klicka sedan på **[!UICONTROL Continue]**.
