@@ -56,4 +56,4 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 >* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)

@@ -34,7 +34,7 @@ Varje ny [!DNL Google]-målgrupp har samma namn som den ursprungliga [!DNL Adobe
 
    1. (Om du vill skapa målgrupper med återmarknadsföringslistor för användar-ID) En [!DNL Adobe]-administratör eller kontohanterare måste välja inställningen på annonsörnivå för att aktivera kundmatchning.
 
-   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 eller senare.
+   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE) version 2.0 eller senare.
 
    1. Distribuera följande tagg så högt som möjligt på annonsörens webbsidor som målgruppen ska spåras från
 

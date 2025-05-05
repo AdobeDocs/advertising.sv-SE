@@ -35,4 +35,4 @@ Klicka på kampanjnamnet om du vill se alla paket, placeringar och annonser i en
 >
 >* [Skapa en kampanj](campaign-create.md)
 >* [Kampanjinställningar](campaign-settings.md)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)

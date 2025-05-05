@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
 
-Om din organisation använder det äldre Adobe Analytics `visitorAPI.js`-biblioteket för datainsamling kan du växla till att använda [ Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)-biblioteket (`alloy.js`), som gör att du kan interagera med de olika Experience Cloud-tjänsterna via [!DNL Edge Network].
+Om din organisation använder det äldre Adobe Analytics `visitorAPI.js`-biblioteket för datainsamling kan du växla till att använda [ Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE)-biblioteket (`alloy.js`), som gör att du kan interagera med de olika Experience Cloud-tjänsterna via [!DNL Edge Network].
 
 JavaScript-biblioteket [!DNL Analytics for Advertising] [!DNL Last Event Service], i befintligt skick, registrerar händelserna view-through och click-through och sammanfogar dem till de associerade konverteringarna med ett extra ID (`SDID`). Biblioteket [!DNL Web SDK] har dock inte något [!DNL stitch ID]. Om du vill använda [!DNL Web SDK] för [!DNL Analytics for Advertising] måste du ändra 1) taggen [!DNL Last Event Service] som du använder på dina webbsidor och 2) dina [!DNL Web SDK] `sendEvent` -kommandon därefter.
 

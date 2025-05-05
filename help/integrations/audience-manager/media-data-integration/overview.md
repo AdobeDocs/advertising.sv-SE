@@ -40,15 +40,15 @@ Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade
 
 ### Impression-Tracking Pixels
 
-Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager, och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
+Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=sv-SE), som är en äldre domän för Audience Manager, och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
 
 ### Click-Tracking Pixels
 
-Audience Manager spårar klickningar på liknande sätt som visningar, förutom att den inte läser in den genomskinliga händelsepixeln varje gång annonsen visas. Klickdata spåras i stället i annonsens klicknings-URL. Annonsen pekar på en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager, för bearbetning av datainsamlingsservrarna i Audience Manager. Servern dirigerar sedan om användaren till den avsedda landningssidan. URL:en innehåller parametrar som nyckelvärdepar.
+Audience Manager spårar klickningar på liknande sätt som visningar, förutom att den inte läser in den genomskinliga händelsepixeln varje gång annonsen visas. Klickdata spåras i stället i annonsens klicknings-URL. Annonsen pekar på en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=sv-SE), som är en äldre domän för Audience Manager, för bearbetning av datainsamlingsservrarna i Audience Manager. Servern dirigerar sedan om användaren till den avsedda landningssidan. URL:en innehåller parametrar som nyckelvärdepar.
 
 >[!NOTE]
 >
->Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=sv-SE).
 
 >[!MORELIKETHIS]
 >

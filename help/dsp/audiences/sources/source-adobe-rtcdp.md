@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd DSP integrering med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform, för att konvertera dina hashade e-postadresser till universella ID:n för riktad reklam.
+Använd DSP integrering med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE), som ingår i Adobe Experience Platform, för att konvertera dina hashade e-postadresser till universella ID:n för riktad reklam.
 
 1. (Så här konverterar du e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Ställ in spårning för [!DNL Analytics]-mätning:
 
@@ -30,7 +30,7 @@ Använd DSP integrering med [the [!DNL Adobe Real-Time CDP]](https://experiencel
 
 1. I Adobe Experience Platform konfigurerar du en Advertising DSP-målanslutning med hjälp av [!UICONTROL Source Key] som genererades i DSP källinställningar.
 
-   Instruktioner om hur du aktiverar DSP målanslutning, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Instruktioner om hur du aktiverar DSP målanslutning, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)&quot;.
 
    Källans e-postadresser måste hashas med hjälp av SHA-256-algoritmen.
 
@@ -50,7 +50,7 @@ Om du vill felsöka problem med konverteringsproceduren kontaktar du kontogruppe
 >
 >* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Anslutning till Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Anslutning till Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)
+>* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=sv-SE)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)

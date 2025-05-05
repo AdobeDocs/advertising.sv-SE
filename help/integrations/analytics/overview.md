@@ -34,7 +34,7 @@ Fördelar:
 
 >[!TIP]
 >
-> Se en [videopresentation till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
+> Se en [videopresentation till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=sv-SE#analytics).
 
 ## Använda analyser för betald medierapportering
 
@@ -86,17 +86,17 @@ I [Analysstatistik i Adobe Advertising](analytics-data-in-advertising.md) finns 
 
 Adobe Advertising kan importera [!DNL Analytics] segment för återmarknadsföring för Advertising DSP och [!DNL Search, Social, & Commerce] annonser med hjälp av integreringen mellan [!DNL Analytics] och Experience Cloud.
 
-Om du vill komma åt [!DNL Analytics]-segmenten måste ett annonserarkonto aktivera [Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html). När ID-tjänsten är aktiverad blir alla segment i Experience Cloud (inklusive segment som skapats i [!DNL Analytics] och publicerats i Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service] samt segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) tillgängliga i Adobe Advertising så snart de bearbetas.
+Om du vill komma åt [!DNL Analytics]-segmenten måste ett annonserarkonto aktivera [Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE). När ID-tjänsten är aktiverad blir alla segment i Experience Cloud (inklusive segment som skapats i [!DNL Analytics] och publicerats i Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service] samt segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) tillgängliga i Adobe Advertising så snart de bearbetas.
 
 [!DNL Analytics] segment är tillgängliga inom 24 timmar och uppdateras dagligen.
 
-Mer information om tjänsten Experience Cloud Publiker finns i [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
+Mer information om tjänsten Experience Cloud Publiker finns i [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE).
 
 ## Exempel på hur du använder integreringen {#integration-examples}
 
 ### Använda data från Adobe Advertising i Analysis Workspace
 
-Om du vill veta hur du kan använda dina Adobe Advertising-data för att skapa visuella rapporter i Analysis Workspace ska du titta på videon &quot;[Introduktion till Workspace och rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;.
+Om du vill veta hur du kan använda dina Adobe Advertising-data för att skapa visuella rapporter i Analysis Workspace ska du titta på videon &quot;[Introduktion till Workspace och rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=sv-SE)&quot;.
 
 #### Använda Conversions i rapporter för direktansluten TV-visning
 
@@ -132,11 +132,11 @@ Använda vyn Marknadsföringskanal:
 
 ### Skapa instrumentpaneler för Adobe Advertising
 
-Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa instrumentpaneler för Adobe Advertising med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html)&quot;.
+Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa instrumentpaneler för Adobe Advertising med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=sv-SE)&quot;.
 
 ### Använda Adobe Advertising-ID för analys av webbplatspost
 
-Se videon [Skapa rapporter om webbplatsposter för Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html) om du vill se hur du kan skapa en Adobe Advertising-platspost för att övervaka veckodag, veckotid, webbläsare och geografisk påverkan.
+Se videon [Skapa rapporter om webbplatsposter för Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=sv-SE) om du vill se hur du kan skapa en Adobe Advertising-platspost för att övervaka veckodag, veckotid, webbläsare och geografisk påverkan.
 
 ## Initiera en [!DNL Analytics for Advertising]-implementering
 
@@ -144,7 +144,7 @@ Kontakta kontoteamet på Adobe som kommer att slutföra den initiala konfigurati
 
 >[!MORELIKETHIS]
 >
->* [Video: Introduktion till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
+>* [Video: Introduktion till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=sv-SE)
 >* [Krav och nyckelinformation för implementering [!DNL Analytics for Advertising]](prerequisites.md)
 >* [Adobe Advertising-ID:n som används av analyser](ids.md)
 >* [JavaScript Code for Analytics for Advertising](/help/integrations/analytics/javascript.md)

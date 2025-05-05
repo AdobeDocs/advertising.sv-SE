@@ -55,5 +55,5 @@ Du kan förbättra analysen ytterligare genom att använda ett Staplingsdiagram 
 >* [Grundprinciper för [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Använda Adobe Advertising-ID:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
->* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

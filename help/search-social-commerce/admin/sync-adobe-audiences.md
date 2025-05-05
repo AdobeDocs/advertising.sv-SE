@@ -24,7 +24,7 @@ Du kan tillåta att Search, Social och Commerce hämtar in metadata, hierarkidat
 
 * Segment som har skapats med Adobe Experience Cloud [!DNL Audience Library]
 
-För att vara berättigad måste annonsören eller reklambyrån implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) och ange sitt organisations-ID (kallades tidigare [!DNL IMS Org ID]).
+För att vara berättigad måste annonsören eller reklambyrån implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE) och ange sitt organisations-ID (kallades tidigare [!DNL IMS Org ID]).
 
 Den första synkroniseringen tar ca 24 timmar. Efter det synkroniseras data i realtid med en fördröjning på en till två sekunder.
 

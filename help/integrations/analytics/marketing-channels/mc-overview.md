@@ -14,7 +14,7 @@ ht-degree: 0%
 
 På den här sidan förklaras viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare måste förstå.
 
-Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).
+Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=sv-SE).
 
 ## Översikt över [!DNL Marketing Channels]
 
@@ -43,5 +43,5 @@ Mer information om hur Adobe Advertising kan bidra till de signaler som behövs 
 >* [Använda Adobe Advertising-ID:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

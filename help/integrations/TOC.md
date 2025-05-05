@@ -49,4 +49,4 @@ ht-degree: 10%
 + Integrering med Adobe Target {#target}
    + [Konfigurera A/B-tester i Adobe Target för DSP annonser](/help/integrations/target/ab-tests-dsp.md)
    + [Konfigurera A/B-tester i Adobe Target för sök-, sociala och Commerce-annonser](/help/integrations/target/ab-tests-search.md)
-+ [Tutorials Videor om integrering med Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Tutorials Videor om integrering med Adobe Advertising](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=sv-SE)<!-- rename if the tutorials TOC structure changes -->

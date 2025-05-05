@@ -17,8 +17,8 @@ ht-degree: 0%
 + [Nyheter](/help/creative/home.md)
 + Introduktion {#introduction}
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative-bibliotek {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
@@ -75,5 +75,5 @@ ht-degree: 0%
    + [Anpassad kreativ rapport](/help/creative/report-custom-creative.md)
 + [Återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
-+ [Kundsupport](https://experienceleague.adobe.com/home?support-tab=home#support){target="_blank"}
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}
++ [Kundsupport](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support){target="_blank"}
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target="_blank"}

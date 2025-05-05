@@ -41,7 +41,7 @@ Ge Adobe Advertising implementeringsteamet följande:
 * [!DNL Analytics]-rapportsvitens-ID som ska användas för rapportering av betalmediaaktivitet och för matning av webbplatsaktivitet för optimering och rapportering i Adobe Advertising
 * Företagets organisations-ID (Org-ID) för Experience Cloud.
 
-Du hittar båda dessa ID:n på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+Du hittar båda dessa ID:n på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=sv-SE).
 
 ![Sammanfattningsskärm för Experience Cloud Debugger](/help/integrations/assets/a4adc-debugger-summary.png)
 
@@ -68,7 +68,7 @@ JavaScript [!DNL Analytics for Advertising] använder de här inställningarna f
 
 >[!NOTE]
 >
->Om du vill segmentera data för en annan tidsram kan du [konfigurera anpassade segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) med olika uppslagsfönster i Analysis Workspace.
+>Om du vill segmentera data för en annan tidsram kan du [konfigurera anpassade segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=sv-SE) med olika uppslagsfönster i Analysis Workspace.
 
 ## Annonsmiljöer som stöds
 
@@ -111,7 +111,7 @@ Exempel: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`
 
 För korrekt dataintegrering måste alla Adobe Advertising-anrop som används av en [!DNL Analytics for Advertising]-aktivitet för att leverera innehåll eller registrera målmåttet ha en motsvarande [!DNL Analytics]-träff som delar samma extra ID.
 
-När du felsöker i [!DNL Analytics] måste du kontrollera att det extra ID:t finns för [!DNL Analytics] träffar. I [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html) kan du se detta ID på fliken Adobe Advertising som `sdid` -parameter.
+När du felsöker i [!DNL Analytics] måste du kontrollera att det extra ID:t finns för [!DNL Analytics] träffar. I [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=sv-SE) kan du se detta ID på fliken Adobe Advertising som `sdid` -parameter.
 
 >[!NOTE]
 >

@@ -28,5 +28,5 @@ Adobe Advertising DSP (DSP) lyfter fram annonsörernas mediestrategier genom ava
 
 >[!MORELIKETHIS]
 >
->* [Video: Introduktion till Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: Introduktion till Advertising DSP](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/intro.html?lang=sv-SE)
+>* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)

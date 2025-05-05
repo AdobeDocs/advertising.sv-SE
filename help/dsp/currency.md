@@ -17,7 +17,7 @@ Adobe Advertising stöder följande valutor.
 
 >[!NOTE]
 >
->Adobe Analytics stöder [en större uppsättning valutor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
+>Adobe Analytics stöder [en större uppsättning valutor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=sv-SE).
 
 ## DSP och kreativ
 

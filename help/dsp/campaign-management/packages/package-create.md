@@ -32,4 +32,4 @@ När du har skapat ett paket kan du tilldela det placeringar.
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
 >* [Pausa eller aktivera ett paket](package-pause-activate.md)
 >* [Paketinställningar](package-settings.md)
->* [Video: Så här skapar du ett paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)
+>* [Video: Så här skapar du ett paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=sv-SE)

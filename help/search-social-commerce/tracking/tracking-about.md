@@ -30,7 +30,7 @@ Spårningsparametrarna gör det möjligt för Adobe Advertising att spåra klick
 
 * I alla andra fall skickar annonsnätverket klickljudet direkt till Adobe Advertising-pixelservrarna. Pixelservern placerar en cookie på användarens dator (om det inte finns någon) och dirigerar sedan om användaren till den relevanta URL:en på webbplatsen. Den övergripande upplevelsen för slutanvändaren är densamma som den skulle vara utan en omdirigering.
 
-Cookien anges i domänen [!DNL Adobe] (`everesttech.net`) som en cookie från första part. Efter en omdirigering finns användaren i annonsörens domän, och cookien behandlas sedan som en cookie från tredje part. Mer information om Adobe Advertising-cookies finns i &quot;[Adobe Advertising cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html)&quot;.
+Cookien anges i domänen [!DNL Adobe] (`everesttech.net`) som en cookie från första part. Efter en omdirigering finns användaren i annonsörens domän, och cookien behandlas sedan som en cookie från tredje part. Mer information om Adobe Advertising-cookies finns i &quot;[Adobe Advertising cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=sv-SE)&quot;.
 
 ## Konverteringsdata
 

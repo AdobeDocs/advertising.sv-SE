@@ -60,13 +60,13 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att konverteringsspårningstaggar läggs till på annonsörens webbsidor och/eller att en daglig feed-släppning ställs in för konverteringsdata som annonsören har samlat in separat.
 
-      Om du använder tjänsten för spårning av konvertering i Adobe Advertising kan du generera konverteringsspårningstaggar [i Search, Social och Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) eller [med Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html).
+      Om du använder tjänsten för spårning av konvertering i Adobe Advertising kan du generera konverteringsspårningstaggar [i Search, Social och Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) eller [med Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=sv-SE).
 
    1. Validera de data som spåras.
 
    Mer information om hur du ställer in spårning finns i kapitlet om spårning.
 
-1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
+1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE) så att de kan utbyta data.
 
 1. (Om du vill att Search, Social och Commerce ska kunna optimera anbud, kampanjbudgetar och/eller strategiska mål för kampanjanbudsstrategier, endast [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 

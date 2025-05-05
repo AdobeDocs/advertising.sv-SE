@@ -294,7 +294,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 +++
 
 +++Intäktsdata skiljer sig från data i Adobe Analytics
-Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
+Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=sv-SE](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=sv-SE).<!-- change link URL to relative link -->
 +++
 
 ## Särskilda rapporter

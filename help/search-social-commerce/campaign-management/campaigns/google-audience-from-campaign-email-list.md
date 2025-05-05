@@ -22,7 +22,7 @@ För att kunna göra det måste du ha tillgång till din [!DNL Campaign]-instans
 
 1. I [!DNL Campaign] anger du leverans av e-postlistan till Advertising Search, Social och Commerce:
 
-   1. Skapa ett [externt konto](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html) för att länka ditt SFTP-konto som tillhandahålls av Search, Social och Commerce:
+   1. Skapa ett [externt konto](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/external-accounts.html?lang=sv-SE) för att länka ditt SFTP-konto som tillhandahålls av Search, Social och Commerce:
 
       1. Gå till **\[Adobe Campaign v6\] > [!UICONTROL Platform] >[!UICONTROL External Accounts]** på den vänstra menyn.
 

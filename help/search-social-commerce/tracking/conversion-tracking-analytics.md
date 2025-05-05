@@ -16,7 +16,7 @@ ht-degree: 0%
 
 För annonsörer med integrering mellan Adobe Advertising och Adobe Analytics kan Advertising Cloud koppla samman dina annonsklickningar och visningar med de mått för webbplatsengagemang och konvertering som spåras av [!DNL Analytics] när du använder en omdirigering med en token (`ef_id` parameter) i dina klickspårnings-URL:er för dina [budenheter](/help/search-social-commerce/glossary.md#a-b). [!DNL Analytics]-data skickas automatiskt till Advertising Cloud via en daglig feed-fil.
 
-Mer information om integrationen finns i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview){target="_blank"}.
+Mer information om integrationen finns i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/sv/docs/advertising/integrations/analytics/overview){target="_blank"}.
 
 >[!PREREQUISITES]
 >

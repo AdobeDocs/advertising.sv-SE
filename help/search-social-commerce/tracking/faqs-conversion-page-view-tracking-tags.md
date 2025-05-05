@@ -27,7 +27,7 @@ Följande gäller spårningstaggar för konvertering av Adobe Advertising och sp
 >[!NOTE]
 >
 >* Alla nya implementeringar använder JavaScript version 3.
->* JavaScript-taggen med ECID använder [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) samt den äldre ef_id och gsurferid för att mäta konverteringar. Den senaste taggen skapar [cookies från första part från Experience Cloud s_ecid](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) och ger bättre integrering med andra Experience Cloud-produkter.
+>* JavaScript-taggen med ECID använder [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=sv-SE) samt den äldre ef_id och gsurferid för att mäta konverteringar. Den senaste taggen skapar [cookies från första part från Experience Cloud s_ecid](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html?lang=sv-SE) och ger bättre integrering med andra Experience Cloud-produkter.
 >* Använd JavaScript version 2-taggar endast när de redan är implementerade taggar på annonsörens webbsidor.
 >* Det bästa sättet är att använda JavaScript-taggar i stället för bildtaggar, såvida inte webbplatsen har en policy som förhindrar att de används.
 >* JavaScript-taggar krävs för annonsörer som vill rikta sig till målgrupper som skapats i Adobe Experience Cloud, skapats i Adobe Audience Manager eller publicerats i Adobe Experience Cloud från Audience Manager eller Adobe Analytics.

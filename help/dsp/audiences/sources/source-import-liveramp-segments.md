@@ -44,5 +44,5 @@ Segmentmappningen och överföringen för varje importjobb kan ta upp till sju d
 >
 >* [Om förstapartsmålskällor](source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Anslutning till Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Anslutning till Adobe Advertising DSP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)
