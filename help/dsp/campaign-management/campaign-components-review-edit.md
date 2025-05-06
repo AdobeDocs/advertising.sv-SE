@@ -3,9 +3,9 @@ title: Granska och redigera inställningar för Campaign-komponenten med hjälp 
 description: Lär dig hur du granskar och redigerar viktiga paket-, placerings- och annonsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: c1039c59c0a1f8d2bbe08b4522b28f2f883a3dea
+source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan hämta inställningarna för paket, placeringar och annonser i en enda kampanj i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för att granska och redigera inställningarna. Som standard innehåller den hämtade filen, som kallas *bulkblad,* separata flikar för paketinställningar, paketflyginformation, placeringsinställningar och monterings- och tidsplaner. Du kan också exkludera inställningarna för vissa kampanjkomponenttyper.
 
-Om du vill uppdatera flera inställningar samtidigt överför du en giltig kalkylbladsfil med ändringarna. Om du vill skapa kalkylbladet redigerar du ett nedladdat kalkylblad med de befintliga inställningarna. Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara.
+Om du vill uppdatera flera inställningar samtidigt överför du en giltig kalkylbladsfil med ändringarna. Om du vill skapa kalkylbladet redigerar du ett nedladdat kalkylblad med de befintliga inställningarna. Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara. Fält för inställningar som inte används innehåller tomma värden.
 
 >[!NOTE]
 >
