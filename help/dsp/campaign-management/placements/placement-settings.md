@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 28ec89de0bd1a90578c6dd53a8249abbe4facbda
+source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
 workflow-type: tm+mt
-source-wordcount: '4042'
+source-wordcount: '4255'
 ht-degree: 0%
 
 ---
@@ -211,9 +211,15 @@ Så här anger du målinriktning för lager:
 >
 >Om du prenumererade på [!UICONTROL On Demand]-lager men inte kan hitta de utgivare eller avtal som du vill rikta in dig på, kontrollerar du status för erbjudandena. Mer information om status finns i [Om [!DNL On Demand] Premiuminventering](/help/dsp/inventory/on-demand-inventory-about.md).
 
-**[!UICONTROL Exclude out-stream]:** (endast videoplaceringar) Exkluderar trafik utanför strömmen.
+**[!UICONTROL Video targeting]:** Mållager (men inte exkludera) efter lagerattribut. När du anger flera värden som mål för samma videoattribut kan alla markerade attribut anges som mål (till exempel \[Player size = large OR Player size = HD\]). När du har flera attribut som mål måste alla angivna attribut finnas (till exempel \[Varaktighet = 30-60 min] AND \[Spelarstorlek = stor ELLER Spelarstorlek = HD\]).
 
-Annonser utanför webben visas vanligtvis över innehållet som ett popup-fönster eller instoppat i innehåll (i den ursprungliga upplevelsen), i stället för som vanliga videoannonser i en videospelare.
+* **[!UICONTROL Player size]:** Mållager (men inte exkluderat) per spelarstorlek. Inställningen gäller för förhandsplaceringar, mobilstandardersättningar och universella videoutplaceringar för dator- och mobilmiljöer. Som standard anges alla storlekar som mål. Om du vill begränsa målen väljer du specifika målstorlekar och/eller *Okänd*.
+
+* **[!UICONTROL Playback mode]:** Mållager (men inte exkluderat) utifrån hur uppspelningen initieras. Inställningen gäller för förhandsplaceringar, mobilstandardersättningar och universella videoutplaceringar för dator- och mobilmiljöer. Som standard anges alla lägen som mål. Om du vill begränsa målen väljer du specifika mållägen och/eller *Okänd*.
+
+* **[!UICONTROL Skippability]:** Mållager (men inte exkluderat) beroende på om det går att hoppa över eller inte. Inställningen gäller för alla VAST-/VPAID-placeringar, inklusive pre-roll, mobilstandardsurfning, ansluten TV och universalvideomaterial. Som standard anges alla alternativ som mål. Om du vill begränsa målen väljer du specifika mål och/eller *Okänd*.
+
+**[!UICONTROL Position targeting]:** Mållager (men inte exkluderat) per annonsposition. Inställningen gäller för alla VAST-/VPAID-placeringar, inklusive pre-roll, mobilstandardsurfning, ansluten TV och universalvideomaterial. Som standard anges alla positioner som mål. Om du vill begränsa målen väljer du specifika målpositioner och/eller *Okänd*.
 
 ## [!UICONTROL Site and App Targeting]
 

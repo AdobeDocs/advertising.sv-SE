@@ -3,9 +3,9 @@ title: Granska och redigera inställningar för Campaign-komponenten med hjälp 
 description: Lär dig hur du granskar och redigerar viktiga paket-, placerings- och annonsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 7af6788f2aae3a2fb9e2048676dbe1955c2e56d9
+source-git-commit: e4df27ec0e4864d5604920f3e8ebe427152187d9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
      Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Om du vill redigera någon av inställningarna redigerar du filen direkt och överför sedan ändringarna. Alla redigerbara kolumner markeras med blått. Om du vill använda rätt format för ett fält markerar och kopierar du värdet från den relevanta paketinställningen eller placeringsinställningen. För vissa målinställningar, t.ex. dagdelning, anpassade mål och konverteringsmått, finns det ett kopieringsalternativ i inställningen.
+
+     >[!NOTE]
+     >
+     >För vissa målinställningar är alla alternativ som standard angivna, såvida du inte begränsar urvalet till specifika mål. När du inte har minskat antalet mål är fältet tomt, vilket innebär att alla alternativ är angivna.
 
 ## Ladda upp ett bulkblad med paket, placering och annonsinställningar för en kampanj{#upload-bulksheet-campaign-components}
 
@@ -116,7 +120,6 @@ När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylb
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Included #] | The number of targeted [!UICONTROL On-Demand Inventory] deals, if any are specified, *[!UICONTROL All]*, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Inventory] | [!UICONTROL On Demand Inventory - Excluded #] | The number of excluded On-Demand Inventory deals, if any are specified, or *[!UICONTROL None]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Traffic Type] | The targeted type of traffic: *[!UICONTROL Website]* and/or *[!UICONTROL Apps]* | &mdash; |
-| [!UICONTROL Sites] | [!UICONTROL Exclude out-stream] | Whether the Inventory Targeting option to exclude outstream traffic is <i[!UICONTROL >ON]* or *[!UICONTROL OFF]*.<br>Outstream ads usually appear over the content as a pop-up or stuffed into content (in the native experience), rather than as regular video ads in a video player. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Site Tier] | The quality of the sites to target: *[!UICONTROL Tier 1]*, *[!UICONTROL Tier 2]*, *[!UICONTROL Tier 3]*, or *[!UICONTROL All Sites]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Included #] | The number of targeted site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |
 | [!UICONTROL Sites] | [!UICONTROL Categories - Excluded #] | The number of excluded site categories, if any are specified, or *[!UICONTROL All]*. | &mdash; |

@@ -2,7 +2,7 @@
 title: Kontoinställningar för Advertiser
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: 20f69d2e8d5d289015c911f153609c0805307f0a
+source-git-commit: 1f8a76e060612cdcc8ee3709bdf49654faf31b57
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -27,23 +27,23 @@ ht-degree: 0%
 
 **[!UICONTROL Advertiser URL]:** Annonsörens hemsida eller webbplats-URL (med början `http://` eller `https://`).
 
-**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Endast nya annonskonton) Gör alla privata utbytesfeeds som har konfigurerats för organisationens DSP tillgängliga för annonsören.
+**[!UICONTROL Share all private exchange feeds into this advertiser]:** (Endast nya annonskonton) Gör alla privata utbytesfeeds som konfigurerats för organisationens DSP-konto tillgängliga för annonseraren.
 
 ### [!UICONTROL Adobe IMS IDs]
 
 Annonsörer med andra Adobe Experience Cloud-produkter kan dela data mellan vissa produkter med hjälp av organisationens unika ID för Experience Cloud. Du kan konfigurera specifika produktintegreringar i avsnittet [!UICONTROL Integrations].
 
-**[!UICONTROL Account IMS org and ID]:** (Annonsörer med ytterligare Experience Cloud-produkter som licensieras via ett Experience Cloud-konto hos flera annonsörer; valfritt) Annonsörens Experience Cloud organisation-ID.
+**[!UICONTROL Account IMS org and ID]:** (Advertisers with additional Experience Cloud products that are licensed through through an Experience Cloud account with multiple publishers; optional) The publish&#39;s Experience Cloud Organization ID.
 
-**[!UICONTROL Advertiser IMS org and ID]:** (Annonsörer med direktlicenser för ytterligare Experience Cloud-produkter; valfritt) Annonsörens organisation-ID för Experience Cloud.
+**[!UICONTROL Advertiser IMS org and ID]:** (Annonsörer med direktlicenser för ytterligare Experience Cloud-produkter; valfritt) Annonsörens Experience Cloud organisations-ID.
 
 ### [!UICONTROL Integrations]
 
-(Valfritt) Ytterligare Experience Cloud-produkter som är kopplade till DSP konto. Produkterna måste associeras med samma Experience Cloud-organisations-ID som anges i avsnittet [!UICONTROL Adobe IMS IDs].
+(Valfritt) Ytterligare Experience Cloud-produkter som är kopplade till DSP-kontot. Produkterna måste vara associerade med samma Experience Cloud-organisations-ID som anges i avsnittet [!UICONTROL Adobe IMS IDs].
 
-**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder Adobe Advertising-konverteringspixlar) Ett [!DNL Search, Social, & Commerce]-konto som DSP utbyter attributdata med.
+**[!UICONTROL Attribution services]** > **[!UICONTROL Adobe Media Optimizer]:** (annonsörer med [!DNL Advertising Search, Social, & Commerce] eller som använder Adobe Advertising-konverteringspixlar) Ett [!DNL Search, Social, & Commerce]-konto som DSP använder för att utbyta attributdata.
 
-**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; optional; applicable only to data collect using Adobe Advertising conversion tracking tags that include an [!DNL EF Redirect] and token only) One or more [!DNL Analytics] report suites to which DSP sending data it collects from publishers and delivery-side partners. Analytics skickar också de data som samlas in från kundens webbplats till DSP.
+**[!UICONTROL Report suites]** > **[!UICONTROL Adobe Analytics]:** (Advertisers with Adobe Analytics; optional; applicable only to data collect using using Adobe Advertising conversion tracking tags that include an [!DNL EF Redirect] and token only) One or more [!DNL Analytics] report suites to which DSP send data it collection from publishers and delivery-side partners. Analytics skickar också de data som samlas in från kundens webbplats till DSP.
 
 För att data ska kunna visas i rapportsviterna måste rätt inställning på [!DNL Search, Social, & Commerce] annonsnivå aktiveras. Dessutom måste annonserarens [!DNL Analytics]-konto vara konfigurerat för att ta emot data från Adobe Advertising.
 
@@ -53,7 +53,7 @@ För att data ska kunna visas i rapportsviterna måste rätt inställning på [!
 
 Mer information om integrationen med [!DNL Analytics] finns i [Översikt över  [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md).
 
-**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (annonsörer med Adobe Audience Manager eller Adobe Analytics; valfritt) Ett Audience Manager- eller [!DNL Analytics]-konto från vilket DSP hämtar segmentmetadata, hierarkidata och unika målgruppsdata för alla annonsörers Adobe-målgrupper. Detta inkluderar data för:
+**[!UICONTROL Audiences]** > **[!UICONTROL Adobe Analytics Cloud]:** (annonsörer med Adobe Audience Manager eller Adobe Analytics; valfritt) Ett Audience Manager- eller [!DNL Analytics]-konto som DSP hämtar in segmentmetadata, hierarkidata och unika målgruppsdata från för alla annonsörernas Adobe-målgrupper. Detta inkluderar data för:
 
 * Audience Manager segment
 * [!DNL Analytics] segment som publiceras till Adobe Experience Cloud
@@ -82,6 +82,8 @@ Du kan också konfigurera standardmål för annonserarens nya placeringar. Anvä
 
 ### [!UICONTROL Media Quality]
 
+<!-- See placement settings for specs on applicable ad/device types -->
+
 #### [!UICONTROL Contextual Filtering]
 
 Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Du kan åsidosätta inställningarna på annonsörnivå på [placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
@@ -104,7 +106,7 @@ Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!
 
 **[!UICONTROL Alcohol Content]:** (Valfritt) Den grad av alkoholinnehåll som annonser ska blockeras för som standard: *[!UICONTROL Do Not Block]* (standard), *[!UICONTROL Standard]* eller *[!UICONTROL Strict]*. Ytterligare avgifter kan tillkomma.
 
-#### [!UICONTROL Pre-Bid Fraud Blocking]
+#### [!UICONTROL Pre-Bid Fraud Blocking] {#prebid-fraud-blocking}
 
 Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstänkta aktiviteter som mäts via [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39]. Du kan åsidosätta inställningarna på annonsörnivå på [placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
 
@@ -120,7 +122,7 @@ Typer av webbplatser som ska blockeras baserat på bedräglig trafik och misstä
 
 ##### [!UICONTROL Integral Ad Science] {#ias-fraud}
 
-**[!UICONTROL Block sites that are]:** (Valfritt) En typ av misstänkt webbplats- eller appaktivitet som gör att DSP blockerar annonser som standard: *[!UICONTROL None]* (standard, som inte blockerar annonser baserade på misstänkt aktivitet), *[!UICONTROL Suspicious Activity - High Risk]* eller *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Ytterligare avgifter kan tillkomma.
+**[!UICONTROL Block sites that are]:** (Valfritt) En typ av misstänkt webbplats- eller appaktivitet som gör att DSP blockerar annonser som standard: *[!UICONTROL None]* (standard, som inte blockerar annonser baserat på misstänkt aktivitet), *[!UICONTROL Suspicious Activity - High Risk]* eller *[!UICONTROL Suspicious Activity - High or Moderate Risk]*. Ytterligare avgifter kan tillkomma.
 
 #### [!UICONTROL Pre-Bid Viewability]
 
@@ -130,19 +132,19 @@ Valfria visningsfilter före bud av [!DNL DoubleVerify] och [!DNL Integral Ad Sc
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visa
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -170,7 +172,7 @@ Du kan åsidosätta inställningen på annonsörnivå på [placeringsnivå](/hel
 
 #### [!UICONTROL DoubleVerify Authentic Brand Suitability]
 
-**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] enbart kunder; valfritt) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas som standard för alla ersättningar. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP fakturerar ditt konto för användning av segment-ID.
+**[!UICONTROL DoubleVerify Account]:** ([!DNL DoubleVerify] enbart kunder; valfritt) Ett [!DNL DoubleVerify Authentic Brand Safety] segment-ID som är associerat med organisationens [!DNL DoubleVerify]-konto som ska användas som standard för alla ersättningar. Om du anger ett ID-block hämtas efter bud med hjälp av anpassade varumärkessäkerhetsregler som konfigurerats för det angivna segment-ID:t. DSP debiterar ditt konto för användning av segment-ID.
 
 ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Du kan ändra eller ta bort annonsörnivå-ID på placeringsnivå.
 
