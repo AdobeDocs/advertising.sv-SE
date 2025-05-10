@@ -28,7 +28,7 @@ Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Expe
 >
 >Ditt företag måste etableras i Adobe Experience Cloud och du måste ha [kopplat ditt Experience Cloud-konto till ett Search-, Social- och Commerce-konto](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Logga in på Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
+1. [Logga in på Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=sv-SE#signin).
 
 1. Välj ![Lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "Lösningsväljare") på den översta menyn.
 
