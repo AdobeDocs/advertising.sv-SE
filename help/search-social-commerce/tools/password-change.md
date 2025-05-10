@@ -3,7 +3,7 @@ title: Ändra ditt lösenord
 description: Lär dig hur du ändrar lösenordet för ditt konto.
 exl-id: 62a4710d-aff7-4635-9fce-6d14f890728f
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -28,5 +28,5 @@ Om du ändrar lösenordet loggas du ut från den aktuella sessionen. Om du vill 
 
 >[!MORELIKETHIS]
 >
->* [Logga in](/help/search-social-commerce/getting-started/log-in.md)
->* [Logga ut](/help/search-social-commerce/getting-started/log-out.md)
+>* [Logga in](/help/search-social-commerce/getting-started/sign-in.md)
+>* [Logga ut](/help/search-social-commerce/getting-started/sign-out.md)

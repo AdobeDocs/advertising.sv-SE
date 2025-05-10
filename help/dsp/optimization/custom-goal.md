@@ -3,7 +3,7 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 290eea50fe3c52a534ad6ab4fcf6d857b13230aa
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -19,17 +19,17 @@ Anpassade mål definierar vilka framgångshändelser en annonsörer behöver fö
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
 
-Varje anpassat mål (mål) består av en eller flera konverteringsvärden och de relativa vikterna för dessa värden. De tillgängliga konverteringsmåtten inkluderar alla mätvärden som spåras med konverteringspixeln Adobe Advertising och via Adobe Analytics. Endast icke-mobilvikter beaktas för DSP anpassade mål, men de används för alla annonstyper.
+Varje anpassat mål (mål) består av en eller flera konverteringsvärden och de relativa vikterna för dessa värden. De tillgängliga konverteringsmåtten inkluderar alla mätvärden som spåras med Adobe Advertising konverteringspixel och Adobe Analytics. Det är bara icke-mobilvikter som räknas som anpassade mål för DSP, men de används för alla annonstyper.
 
-Anta till exempel att tre konverteringsvärden är relevanta för ett specifikt paket i en av era kampanjer:&quot;Hämta PDF&quot;, som värderas till 20 USD,&quot;Registrera via e-post&quot; som värderas till 30 USD och&quot;Bekräfta beställning&quot; som värderas till 40 USD. Om ni vill lägga vikt efter det engångs-monetära värdet av kundens åtgärd blir de relativa vikterna för måtten 1, 1,5 och 2.
+Anta till exempel att tre konverteringsvärden är relevanta för ett specifikt paket i en av era kampanjer:&quot;PDF Download&quot;, som är 20 USD,&quot;Email Registrup&quot; som är 30 USD och&quot;Order Confirmation&quot; som är ett värde på 40 USD. Om ni vill lägga vikt efter det engångs-monetära värdet av kundens åtgärd blir de relativa vikterna för måtten 1, 1,5 och 2.
 
 När du har [skapat ett anpassat mål](#custom-goal-create) kan du [tilldela det till ett paket](/help/dsp/campaign-management/packages/package-settings.md) för rapportering och algoritmisk optimering med Adobe Sensei.
 
-Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt inom DSP inom två dagar. Mer information om viktrekommendationer finns i kapitlet om optimeringsguiden för nya mål (Beta), som du hittar i avsnitten om sökning, sociala medier och Commerce.
+Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktförändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt i DSP inom två dagar. Mer information om viktrekommendationer finns i kapitlet om optimeringsguiden för nya mål (Beta), som du hittar i avsnitten om sökning, sociala medier och Commerce.
 
 ## Skapa ett anpassat mål {#custom-goal-create}
 
-Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Search, Social, & Commerce]-konto med samma Adobe Experience Cloud organisations-ID, inifrån klientinställningarna för [!DNL Search, Social, & Commerce]. Om ditt DSP inte är länkat till ett [!DNL Search, Social, & Commerce]-konto kontaktar du ditt kontoteam på Adobe.
+Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Search, Social, & Commerce]-konto med samma Adobe Experience Cloud organisations-ID, inifrån klientinställningarna för [!DNL Search, Social, & Commerce]. Om ditt DSP-konto inte är länkat till ett [!DNL Search, Social, & Commerce]-konto kontaktar du ditt Adobe-kontoteam.
 
 1. Logga in på [!DNL Advertising Search, Social, & Commerce] (användare i Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (alla andra användare) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
 
@@ -55,7 +55,7 @@ Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Sear
 
       * För mål som används för Advertising DSP-paket måste målnamnet föregås av&quot;ADSP_&quot;, t.ex.&quot;ADSP_Registrations&quot;. Prefixet är inte skiftlägeskänsligt.
 
-      * Inkludera endast mätvärden som är kopplade till DSP. Alla mätvärden som kan tillskrivas Search, Social och Commerce eller något annat annonsnätverk ignoreras.
+      * Inkludera endast mätvärden som härrör från DSP. Alla mätvärden som kan tillskrivas Search, Social och Commerce eller något annat annonsnätverk ignoreras.
 
       * Minst ett mått måste ha måtttypen *[!UICONTROL Goal]*.
 
@@ -70,7 +70,7 @@ Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Sear
       >
       >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Mer information finns i [Bästa metoder för att skapa ett anpassat mål](#custom-goal-best-practices).
 
-I DSP paketinställningar för paket som använder optimeringsmålet [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)] ingår nu målnamnet i listan [!UICONTROL Custom Goals]. När du väljer målet som anpassat mål för ett paket innehåller listan [!UICONTROL Conversion Metric] alla målvärden för målet.
+I DSP-paketinställningarna för paket som använder optimeringsmålet [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)] ingår nu målnamnet i listan [!UICONTROL Custom Goals]. När du väljer målet som anpassat mål för ett paket innehåller listan [!UICONTROL Conversion Metric] alla målvärden för målet.
 
 ## Bästa metoder för att skapa ett anpassat mål {#custom-goal-best-practices}
 
@@ -104,7 +104,7 @@ Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräve
 
 >[!NOTE]
 >
-> En icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje konvertering som spåras för visningsannonser på alla enheter. Om till exempel 10 programsändningskonverteringar spåras rapporteras 10 programsändningskonverteringar. Om konverteringsmåttet har tilldelats en icke-mobil vikt på 0,5, rapporteras dock de 10 konverteringarna som fem (5) i Adobe Advertising (10 konverteringar * 0,5 [!UICONTROL Non-mobile Weight] = 5).
+> En icke-mobil vikt på 1 (1) motsvarar värdet 1 (1) för varje konvertering som spåras för visningsannonser på alla enheter. Om till exempel 10 programsändningskonverteringar spåras rapporteras 10 programsändningskonverteringar. Om konverteringsmåttet har tilldelats en icke-mobil vikt på 0,5 rapporteras däremot de 10 konverteringarna som fem (5) i Adobe Advertising (10 Conversions * 0,5 [!UICONTROL Non-mobile Weight] = 5).
 
 ### Anpassade mål med flera mätvärden
 

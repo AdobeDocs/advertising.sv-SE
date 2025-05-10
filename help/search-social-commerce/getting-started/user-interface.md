@@ -3,7 +3,7 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Vilka altern
 
 * ![Varningsmeddelanden](/help/search-social-commerce/assets/notifications-panel.png "Varningsmeddelanden") En panel med dina aviseringar om sökning, sociala medier och Commerce.
 
-  När du är [inloggad via Adobe Experience Cloud](log-in.md) visas dina meddelanden från Experience Cloud på den här panelen.
+  När du är [inloggad via Adobe Experience Cloud](sign-in.md) visas dina meddelanden från Experience Cloud på den här panelen.
 
 * ![Hjälpmenyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälpmenyn") En hjälpmeny som innehåller länkar till dokumentation och annan information.
 
@@ -50,9 +50,9 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Vilka altern
 
 * ![Användarprofil](/help/search-social-commerce/assets/user-profile.png "Användarprofil") En länk till din profil som du kan logga ut från.
 
-  När du är [inloggad via Adobe Experience Cloud](log-in.md) kan du även redigera din Experience Cloud-profil, inklusive ditt Experience Cloud-lösenord och meddelandeinställningar.
+  När du är [inloggad via Adobe Experience Cloud](sign-in.md) kan du även redigera din Experience Cloud-profil, inklusive Experience Cloud lösenord och meddelandeinställningar.
 
 >[!MORELIKETHIS]
 >
->* [Logga in](log-in.md)
->* [Logga ut](log-out.md)
+>* [Logga in](sign-in.md)
+>* [Logga ut](sign-out.md)

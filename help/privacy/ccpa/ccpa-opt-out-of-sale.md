@@ -4,7 +4,7 @@ description: Läs mer om stöd för att hämta in förfrågningar om att avanmä
 feature: CCPA
 role: User, Developer
 exl-id: df2b8679-8a1c-4cd7-b867-cd2f53c76c8f
-source-git-commit: 788b4ddb9b690a3f0bac93ec9b5145fc7a324719
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -45,6 +45,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
 >Användarna stannar kvar i segmenten för avanmälan av CCPA på obestämd tid.
 
 1. Logga in på annonsörens konto i Advertising DSP på [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Skapa ett CCPA-segment för avanmälan från försäljning och implementera segmentpixeln för att hämta avanmälningsbegäranden](/help/dsp/audiences/ccpa-opt-out-segment-create.md).
 
 ### Metod 2: Kommunicera CCPA-förfrågningar om att avanmäla sig från försäljning med hjälp av Adobe Experience Platform Privacy Service API
@@ -67,7 +68,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
    >
    >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla din organisations Adobe Advertising-konton - inklusive [!DNL DSP]-konton eller annonsörer, [!DNL Search, Social, & Commerce]-konton och [!DNL Creative]- eller [!DNL DCO]-konton - är kopplade till ditt Experience Cloud organisations-ID.
 
-1. Använd Adobe Experience Platform Privacy Service-API:t för att [skicka begäran om avanmälan](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html?lang=sv-SE) till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga begäranden.
+1. Använd Adobe Experience Platform Privacy Service-API:t för att [skicka begäran om avanmälan](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/consent.html) till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga begäranden.
 
    Se bilagan nedan för ett exempel på en begäran om avanmälan från försäljning.
 
@@ -75,7 +76,7 @@ Du kan förmedla önskemål om avanmälan från försäljning till konsumenter g
    >
    >Om ditt företag har flera Experience Cloud organisation-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] och [!DNL DCO]), med ett konto per underlösning.
 
-Alla dessa steg är nödvändiga för att få support från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE).
+Alla dessa steg är nödvändiga för att få support från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
 
 ## Hämtar rapporter om konsumenter som har lämnat in begäran om avanmälan vid försäljning
 
@@ -86,6 +87,7 @@ Du kan hämta länkar till de månadsrapporter som har skapats under de senaste 
 ### Metod 1: Hämta rapporter om konsumentens avanmälan från försäljning inom Advertising DSP
 
 1. Logga in på annonsörens konto i Advertising DSP på [https://advertising.adobe.com/](https://advertising.adobe.com/).
+
 1. [Hämta rapporterna](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md).
 
 ### Metod 2: Hämta rapporter om konsumentavanmälan från försäljning med Advertising DSP [!DNL Trafficking API]
@@ -131,7 +133,7 @@ curl -X POST \
 }'
 ```
 
-var, enligt [API-specifikationerna för Privacy Service](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/appendix):
+var, enligt [API-specifikationerna för Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix):
 
 * `"namespace": "AdCloud"` anger cookie-utrymmet `AdCloud` och det motsvarande värdet är kundens cookie-ID som hämtats från `AdobePrivacy.js`
 * `"include": ["adCloud"]` anger att begäran gäller för produkten Adobe Advertising

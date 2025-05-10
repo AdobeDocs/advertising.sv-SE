@@ -3,7 +3,7 @@ title: Inställningar för rapportmål
 description: Se informationen som krävs för rapportdestinationer, per måltyp.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Username]:** Användarnamnet som ska loggas in på servern.
 
-**[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
+**[!UICONTROL Password]:** Lösenordet för att logga in på servern.
 
 **[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 
@@ -52,7 +52,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Username]:** Användarnamnet som ska loggas in på servern.
 
-**[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
+**[!UICONTROL Password]:** Lösenordet för att logga in på servern.
 
 **[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 
@@ -66,7 +66,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 **[!UICONTROL Username]:** Användarnamnet som ska loggas in på servern.
 
-**[!UICONTROL Password]:** Lösenordet som ska loggas in på servern.
+**[!UICONTROL Password]:** Lösenordet för att logga in på servern.
 
 **[!UICONTROL Path (Optional)]:** Serversökvägen som filerna överförs till.
 

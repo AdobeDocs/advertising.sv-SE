@@ -4,7 +4,7 @@ description: Lär dig hur du autentiserar en  [!DNL Google Analytics] datakälla
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Återautentisera en [!DNL Google Analytics]-datakälla
 
-*Endast kontoansvariga, kontoansvariga för Adobe, kontoansvariga och administratörer*
+*Endast kontoansvariga, kontoansvariga för kontoansvariga, kontoansvariga för Adobe och administratörer*
 
 Om du ändrar lösenordet för e-postkontot som används för en datakälla, eller om [!DNL OAuth]-certifikatet för kontot upphör att gälla, stängs alla öppna anslutningar till e-postkontot och du måste autentisera igen för att kunna återuppta synkroniseringen av data.
 
@@ -31,7 +31,7 @@ Om du ändrar lösenordet för e-postkontot som används för en datakälla, ell
 
          >[!TIP]
          >
-         >Om du vill vara säker på att endast specifika [!DNL Google Analytics] egenskaper och vyer är tillgängliga i Sök, Socialt och Commerce loggar du in med en e-postadress som bara har åtkomst till dessa egenskaper och vyer.
+         >Om du vill vara säker på att endast specifika [!DNL Google Analytics] egenskaper och vyer är tillgängliga i Sök, Socialt och Commerce loggar du in med en e-postadress som bara har tillgång till dessa egenskaper och vyer.
 
    1. Markera kryssrutan om du vill tillåta sökningar, sociala medier och Commerce att få åtkomst till kontots statistik.
 

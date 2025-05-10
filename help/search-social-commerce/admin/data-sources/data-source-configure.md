@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar en datakälla från en [!DNL Google An
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Konfigurera en [!DNL Google Analytics]-vy som datakälla
 
-*Endast kontoansvariga, kontoansvariga för Adobe, kontoansvariga och administratörer*
+*Endast kontoansvariga, kontoansvariga för kontoansvariga, kontoansvariga för Adobe och administratörer*
 
 Du kan skapa en datakälla per kombination av konto, egenskap och vy för [!DNL Google Analytics].
 
@@ -27,7 +27,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
 1. I dialogrutan [!UICONTROL Deployment Prerequisites] markerar du kryssrutan för att bekräfta att den nödvändiga anpassade dimensionen &quot;ef_id&quot; har implementerats i [!DNL Google Analytics]-kontot och klickar sedan på **[!UICONTROL Continue]**.
 
-   Vissa förutsättningar kan ha uppfyllts av andra roller i organisationen. Om du har frågor om förutsättningarna kan du prata med ditt Adobe-kontoteam.
+   Vissa förutsättningar kan ha uppfyllts av andra roller i organisationen. Om du har frågor om förutsättningarna kan du kontakta ditt Adobe-kontoteam.
 
 1. Ange inställningarna för [datakälla](data-source-settings.md):
 
@@ -39,13 +39,13 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
          >[!TIP]
          >
-         >Om du vill vara säker på att endast specifika [!DNL Google Analytics] egenskaper och vyer är tillgängliga i Adobe Advertising loggar du in med en e-postadress som bara har åtkomst till dessa egenskaper och vyer.
+         >Om du vill vara säker på att endast vissa [!DNL Google Analytics] egenskaper och vyer är tillgängliga i Adobe Advertising loggar du in med en e-postadress som bara har åtkomst till dessa egenskaper och vyer.
 
          >[!NOTE]
          >
          >Om du senare ändrar lösenordet för det här e-postkontot stängs alla öppna anslutningar till e-postkontot. Om du vill återuppta synkroniseringen av data går du tillbaka till den här sidan och [återautentiserar](data-source-reauthenticate.md).
 
-      1. Markera kryssrutan om du vill att Adobe Advertising ska få åtkomst till kontots statistik.
+      1. Markera kryssrutan för att godkänna att Adobe Advertising får åtkomst till kontots statistik.
 
       1. Klicka på **[!UICONTROL Authenticate]**.
 
