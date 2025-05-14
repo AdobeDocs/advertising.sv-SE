@@ -3,9 +3,9 @@ title: Duplicera en kampanj
 description: Lär dig hur du duplicerar en kampanj.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 * Pausa den nya kampanjen tills du är redo att aktivera den.
 
-* Tänk på följande och redigera de nya kampanjinställningarna efter behov:
+* Tänk på följande och redigera den nya kampanjen efter behov:
 
    * Har kontot tillräcklig finansiering för att passa den nya kampanjbudgeten?
 

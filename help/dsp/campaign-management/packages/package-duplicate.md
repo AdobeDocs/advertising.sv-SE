@@ -3,9 +3,9 @@ title: Duplicera ett paket
 description: Lär dig duplicera ett paket.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
+source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 * Pausa det nya paketet tills du är redo att aktivera det.
 
-* Tänk på följande och redigera de nya paketinställningarna efter behov:
+* Tänk på följande och redigera det nya paketet efter behov:
 
    * Har kontot tillräcklig finansiering för att passa den nya paketbudgeten?
 
