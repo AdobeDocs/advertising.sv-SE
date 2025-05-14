@@ -3,9 +3,9 @@ title: Duplicera placeringar
 description: Lär dig duplicera en eller flera placeringar.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
    1. (Enstaka placeringar) Ange det nya placeringsnamnet.
 
-   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn &#x200B;** [!UICONTROL Choose Package (Required)]**.
+   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn **[!UICONTROL Choose Package (Required)]**.
 
    1. (Valfritt) Ändra standardinställningarna.
 
@@ -60,6 +60,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 * Experimentera
+* Minimibudgetar på placeringsnivå
 * (Om du ändrar flygdatum) Anpassad annonsplanering
 * (Om du inte bifogar annonser) Anpassad annonseringskoefficient och schemaläggning
 * Standardersättningar för köp med programgaranti (PG) för [!UICONTROL Simple Ad Serving]-erbjudanden
@@ -82,7 +83,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
    * Har kontot tillräcklig finansiering för att passa de nya placeringsbudgetarna?
 
-   * Behöver de nya placeringarna andra budgetar än de tidigare?
+   * Behöver de nya placeringarna andra budgetar än de tidigare? Behövs minimibudgetar?
 
    * Ladda upp kreatörer, inklusive eventuell nödvändig anpassad annonsvåg och schemaläggning, och bifoga dem till placeringarna.
 

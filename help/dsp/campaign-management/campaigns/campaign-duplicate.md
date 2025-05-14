@@ -3,9 +3,9 @@ title: Duplicera en kampanj
 description: Lär dig hur du duplicerar en kampanj.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Se [Vad som inte är duplicerat](#campaign-not-duplicated) för en lista över p
 Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 * Experimentera
+* Minimibudgetar på placeringsnivå
 * (Om du ändrar flygdatum) Anpassad annonsplanering
 * (Om du inte bifogar annonser) Anpassad annonseringskoefficient och schemaläggning
 * Standardersättningar för köp med programgaranti (PG) för [!UICONTROL Simple Ad Serving]-erbjudanden
@@ -66,6 +67,8 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Har kontot tillräcklig finansiering för att passa den nya kampanjbudgeten?
 
    * Behöver den nya kampanjen en annan budget än den föregående?
+
+   * Är minimibudgetar nödvändiga för någon av placeringarna?
 
    * Ladda upp kreatörer, inklusive eventuell nödvändig anpassad annonsvåg och schemaläggning, och bifoga dem till placeringarna.
 

@@ -3,9 +3,9 @@ title: Duplicera ett paket
 description: Lär dig duplicera ett paket.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: 1fe0d3c026cac52104d54b571fd9c2202cc2384b
+source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ Se [Vad som inte är duplicerat](#package-not-duplicated) för en lista över pl
 Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 * Experimentera
+* Minimibudgetar på placeringsnivå
 * (Om du ändrar flygdatum) Anpassad annonsplanering
 * (Om du inte bifogar annonser) Anpassad annonseringskoefficient och schemaläggning
 * Standardersättningar för köp med programgaranti (PG) för [!UICONTROL Simple Ad Serving]-erbjudanden
@@ -76,6 +77,8 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Har kontot tillräcklig finansiering för att passa den nya paketbudgeten?
 
    * Behöver det nya paketet en annan budget än det tidigare paketet?
+
+   * Är minimibudgetar nödvändiga för någon av placeringarna?
 
    * Ladda upp kreatörer, inklusive eventuell nödvändig anpassad annonsvåg och schemaläggning, och bifoga dem till placeringarna.
 
