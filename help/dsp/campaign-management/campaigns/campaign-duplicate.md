@@ -3,9 +3,9 @@ title: Duplicera en kampanj
 description: Lär dig hur du duplicerar en kampanj.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 4085c1b21c0fe84653978e449321868921841367
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,9 @@ ht-degree: 0%
 Duplicera en kampanj för att skapa en ny kampanj med liknande inställningar. Du kan:
 
 * Duplicera kampanjen för den ursprungliga annonsören eller för en annan
+
 * Duplicera originalpaketen och -placeringarna om du vill
+
 * Ändra flygdatum för den nya kampanjen
 
 Se [Vad som inte är duplicerat](#campaign-not-duplicated) för en lista över placeringsinställningar som inte är duplicerade.
@@ -50,9 +52,36 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Annonser
    * Segment på placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] (som åsidosätter segmenten på annonsörnivå)
 
+## Bästa metoder för att konfigurera den nya kampanjen
+
+>[!TIP]
+>
+>* Använd kalkylblad för att [göra ändringar i flera kampanjkomponenter samtidigt](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pausa den nya kampanjen tills du är redo att aktivera den.
+
+* Tänk på följande och redigera de nya kampanjinställningarna efter behov:
+
+   * Har kontot tillräcklig finansiering för att passa den nya kampanjbudgeten?
+
+   * Behöver den nya kampanjen en annan budget än den föregående?
+
+   * Ladda upp kreatörer, inklusive eventuell nödvändig anpassad annonsvåg och schemaläggning, och bifoga dem till placeringarna.
+
+   * Koppla händelsepixlar efter behov till placeringar och annonser.
+
+   * Inkludera geografiska mål och [!DNL DoubleVerify Authentic Brand Safety]-segment på placeringsnivå efter behov för placeringar.
+
+   * För programmatiska garanterade erbjudanden använder du nya avtal-ID:n och skapar standardplaceringar.
+
+   * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
+
+* För prestandakampanjer (det vill säga kampanjer med paket som använder anpassade optimeringsmål) använder du [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen ](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den föregående kampanjens historiska data som indata för optimering av paketet.
+
 >[!MORELIKETHIS]
 >
->* [Om Campaign Management](campaign-about.md)
+>* [Om kampanjhantering](campaign-about.md)
 >* [Skapa en kampanj](campaign-create.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)

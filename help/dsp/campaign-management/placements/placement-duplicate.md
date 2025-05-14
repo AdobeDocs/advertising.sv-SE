@@ -3,9 +3,9 @@ title: Duplicera placeringar
 description: Lär dig duplicera en eller flera placeringar.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 051658d822253e5d0cac56e3d59e99386c68fb71
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
    1. (Enstaka placeringar) Ange det nya placeringsnamnet.
 
-   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn &#x200B;** [!UICONTROL Choose Package (Required)]**.
+   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn **[!UICONTROL Choose Package (Required)]**.
 
    1. (Valfritt) Ändra standardinställningarna.
 
@@ -68,6 +68,31 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Händelsepixlar
    * Annonser
    * Segment på placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] (som åsidosätter segmenten på annonsörnivå)
+
+## Bästa metoder för att konfigurera nya placeringar
+
+>[!TIP]
+>
+>* Använd kalkylblad för att [göra ändringar i flera kampanjkomponenter samtidigt](/help/dsp/campaign-management/campaign-components-review-edit.md).
+* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+
+* Pausa de nya placeringarna tills du är redo att aktivera dem.
+
+* Tänk på följande och redigera de nya placeringsinställningarna efter behov:
+
+   * Har kontot tillräcklig finansiering för att passa de nya placeringsbudgetarna?
+
+   * Behöver de nya placeringarna andra budgetar än de tidigare?
+
+   * Ladda upp kreatörer, inklusive eventuell nödvändig anpassad annonsvåg och schemaläggning, och bifoga dem till placeringarna.
+
+   * Koppla händelsepixlar efter behov till placeringar och annonser.
+
+   * Inkludera geografiska mål och [!DNL DoubleVerify Authentic Brand Safety]-segment på placeringsnivå efter behov för placeringarna.
+
+   * För programmatiska garanterade erbjudanden använder du nya avtal-ID:n och skapar standardplaceringar.
+
+   * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
 
 >[!MORELIKETHIS]
 >
