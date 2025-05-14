@@ -43,7 +43,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
    1. (Enstaka placeringar) Ange det nya placeringsnamnet.
 
-   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn **[!UICONTROL Choose Package (Required)]**.
+   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn &#x200B;** [!UICONTROL Choose Package (Required)]**.
 
    1. (Valfritt) Ändra standardinställningarna.
 
