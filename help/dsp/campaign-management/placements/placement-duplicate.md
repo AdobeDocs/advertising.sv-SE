@@ -43,7 +43,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
    1. (Enstaka placeringar) Ange det nya placeringsnamnet.
 
-   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn **[!UICONTROL Choose Package (Required)]**.
+   1. Välj antingen det överordnade paketet eller **[!UICONTROL No package]* på menyn &#x200B;** [!UICONTROL Choose Package (Required)]**.
 
    1. (Valfritt) Ändra standardinställningarna.
 
@@ -74,7 +74,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 >[!TIP]
 >
 >* Använd kalkylblad för att [göra ändringar i flera kampanjkomponenter samtidigt](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Pausa de nya placeringarna tills du är redo att aktivera dem.
 

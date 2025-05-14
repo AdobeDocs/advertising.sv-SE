@@ -57,7 +57,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 >[!TIP]
 >
 >* Använd kalkylblad för att [göra ändringar i flera kampanjkomponenter samtidigt](/help/dsp/campaign-management/campaign-components-review-edit.md).
-* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
+>* Använd märkordsblad för att [överföra flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
 * Pausa den nya kampanjen tills du är redo att aktivera den.
 
