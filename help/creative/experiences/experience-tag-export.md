@@ -3,9 +3,9 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: c05c5d22f4763cd6c1425b5ab3b0bf11b78b0aee
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -44,13 +44,15 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet eller klicka på **[!UICONTROL Generate ad tags]** i den vänstra menyn.
 
-1. Välj taggtyp: ** *JavaScript<!-- sic -->* **&#x200B; eller &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Välj taggtyp: ** *JavaScript<!-- sic -->* ** eller ** *IFRAME* ** <!-- sic -->.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 
+   * *Allmänt:* För annonser som du skapar i andra DSP:er. **Obs!** Du kan behöva inkludera [ytterligare makron](/help/creative/creative-macros.md) manuellt om det behövs.
+
    * *Adobe Advertising:* För annonser som du skapar i Advertising DSP.
 
-   * *Allmänt:* För annonser som du skapar i andra DSP:er. **Obs!** Du kan behöva ta med ytterligare makron manuellt om det behövs.
+   * *Google DCM:* För annonser som du skapar i [!DNL Google Campaign Manager 360]. **Obs!** Du kan behöva inkludera [ytterligare makron](/help/creative/creative-macros.md) manuellt om det behövs.
 
 1. Klicka på **[!UICONTROL Generate tags]**.
 

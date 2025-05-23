@@ -3,14 +3,14 @@ title: Bifoga ett kreativt innehåll till kreativa programpaket
 description: Lär dig hur du kopplar en kreatör till ett kreativt programpaket.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: add8f3507ca9b79cea862d097fb603c68eb09e3c
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
 
-# Bifoga <!-- and detach -->-kreatörer till kreativa paket
+# Bifoga kreatörer i kreativa paket
 
 *Stängd beta*
 
@@ -26,7 +26,7 @@ You can also detach a creative from a bundle to remove the association between t
 >
 >Du kan<!-- also --> [bifoga kreatörer till paket och frigör kreatörer från paket från paketvyn](/help/creative/creative-libraries/bundle-manage.md).
 
-<!-- Hide header until second procedure is available:
+<!-- Hide header until second procedure is available (if we add that):
 
 ## Attach creatives to creative bundles
 
@@ -45,6 +45,8 @@ You can also detach a creative from a bundle to remove the association between t
    * Håll markören över raden i tabellvyn och klicka på **[!UICONTROL Attach to Bundles]**.
 
    Varje paket som ger rätt till den kreativa typen listas i rätt ram. Paket som kreativiteten redan är kopplad till visas men kan inte markeras.
+
+1. (Valfritt) Växla mellan standardtabellvyn och en kortvy över tillgängliga paket genom att klicka på ![kortvyn](/help/creative/assets/card-view-button.png "kortvyn") för att öppna kortvyn eller ![Tabell-/listvy](/help/creative/assets/table-view-button.png "Tabellvy") för att återgå till tabellvyn.
 
 1. Markera kryssrutan bredvid varje paket som du vill bifoga den kreativa posten till i den högra ramen och klicka sedan på **[!UICONTROL Attach Creative to Bundle]**.
 

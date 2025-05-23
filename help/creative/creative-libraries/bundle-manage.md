@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
+source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1359'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,9 @@ Du kan bifoga ett kreativt program till flera paket.
 
 Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/creative-libraries-about.md) till ett standardpaket och koppla befintliga dynamiska kreatörer<!-- [existing dynamic creatives](creative-dynamic-manage.md) --> till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[creative size + language\].
 
-<!--
 >[!NOTE]
 >
->You can also [attach creatives to bundles from the Standard Ads and Dynamic Ads views](creative-attach-detach-bundles.md).
--->
+>Du kan även [bifoga kreatörer till paket från vyerna Standard Ads och Dynamic Ads](creative-attach-detach-bundles.md).
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -127,6 +125,8 @@ Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/
    * Håll markören över raden i tabellvyn och klicka på **[!UICONTROL Attach Creatives]**.
 
    Alla kreatörer som är berättigade till programpaketet visas i rätt ram. Creative-program som redan är kopplade till paketet listas men kan inte markeras.
+
+1. (Valfritt) Växla mellan standardtabellvyn och en kortvy över tillgängliga paket genom att klicka på ![kortvyn](/help/creative/assets/card-view-button.png "kortvyn") för att öppna kortvyn eller ![Tabell-/listvy](/help/creative/assets/table-view-button.png "Tabellvy") för att återgå till tabellvyn.
 
 1. Markera kryssrutan bredvid varje kreatör som ska kopplas till paketet i den högra bildrutan och klicka sedan på **[!UICONTROL Attach Creative to Bundle]**.
 
@@ -182,6 +182,10 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
 <!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
 
+1. (Valfritt) Klicka på den kreativa sidan för att öppna landningssidan för den kreativa.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+
 1. (Valfritt) Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") om du vill hämta den kreativa versionen.
 
    Filen laddas ned enligt webbläsarens normala procedur.
@@ -205,6 +209,10 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 1. (Valfritt) Om du vill filtrera de kreativa efter storlek väljer du ett alternativ i listan **[!UICONTROL Size]** och klickar sedan på **[!UICONTROL Preview]** i det övre högra hörnet av förhandsvisningen.
 
 1. (Valfritt) Om du vill ändra storlek på bilderna på skärmen väljer du ett alternativ i listan **[!UICONTROL Zoom]**, från 10 % till 100 % av bildstorleken.
+
+1. (Valfritt) Klicka på den kreativa sidan för att öppna landningssidan för en kreatör.
+
+   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Valfritt) Om du vill dela en demo-URL så att andra personer som inte har loggat in på [!DNL Creative] kan förhandsgranska de som skapar:
 
