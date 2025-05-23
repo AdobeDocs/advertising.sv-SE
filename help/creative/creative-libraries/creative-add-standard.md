@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: d68c8c31a047c4615224e9ab19654e56b5e8c8f9
+source-git-commit: 38ba8473eae3df204f618eac1f20e605e57ece5a
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -22,16 +22,13 @@ Lägg till kreatörer i dina [kreativa bibliotek](creative-library-manage.md) so
 
 ## Lägg till flexibla HTML-annonser i ett kreativt bibliotek {#flexible-creative-add}
 
-<!-- Later:
-You can do either of the following: 
+Du kan göra något av följande:
 
-* Upload your own flexible creatives in ZIP files.
+* Ladda upp egna flexibla kreatörer i ZIP-filer.
 
-* Use any of the predefined flexible creative templates as a starting point for your own flexible creative.
+* Använd någon av de fördefinierade flexibla kreativa mallarna som du har överfört till ditt konto som startpunkt för din egen flexibla kreativitet.
 
-### Upload your own flexible creatives {#flexible-creative-upload}
-
--->
+### Ladda upp egna flexibla kreatörer {#flexible-creative-upload}
 
 Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha ZIP-format och kan vara upp till 2 MB. Information om filkrav finns i [HTML5 Creative-specifikationen](html5-creative-specification.md).
 
@@ -65,42 +62,48 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 1. Klicka på **[!UICONTROL Create]**
 
-<!-- In a later phase:
+### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-### Add flexible creatives using a template {#flexible-creative-use-template}
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil](flexible-creative-upload).>
 
-You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads. Once you select a template to use, you'll edit the click tags and attributes.<!-- Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).>
+<!-- Not currently an option:
+You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
+-->
 
-1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
+1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
-1. Click the library name.
+1. Klicka på biblioteksnamnet.
 
-1. On the **[!UICONTROL Creatives]** tab, click the **[!UICONTROL Standard Ads]** subtab.
+1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
 
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
 
-1. Click **[!UICONTROL Browse System Flexible Templates]**.
+1. Klicka på **[!UICONTROL Browse System Flexible Templates]**.
 
-
-
-[The following are old instructions; see how this works in the new UI]
-
+<!-- Not options as of 5/22/25:
 
 1. In the left panel, select the creative size to see all available templates for that size.
 
-1. Under the template name, click **[!UICONTROL Use This Creative]**.
+1. Select the template:
 
-1. Edit the [flexible HTML5 creative settings](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) to include your own click tags, images, and other attributes.
-
-   The maximum file size of the creative, once it's zipped, is 2 MB.[Will saving the creative zip it??]
-
-1. (Optional) Once you've made your changes, click []()[add image] to preview the new creative. 
-
-1. Click **[!UICONTROL Save]**.
-
+   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
+     
+   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
 -->
+
+1. (Valfritt) Om du vill förhandsgranska mallen klickar du på **[!UICONTROL ...]** bredvid mallnamnet och sedan på **[!UICONTROL Preview]**.
+
+   Du kan även hämta mallen
+
+1. Klicka på **[!UICONTROL ...]** och sedan **[!UICONTROL Use Selected]** bredvid mallnamnet.
+
+1. Redigera de [flexibla kreativa HTML5-inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) för att ange språk och inkludera egna klicktaggar, bilder och andra attribut.
+
+   Den maximala filstorleken för den kreativa delen är 2 MB när den har zippats.<!-- Still true? -->
+
+1. Klicka på **[!UICONTROL Create]**.
 
 ## Lägg till en HTML5-kreatör i ett kreativt bibliotek
 

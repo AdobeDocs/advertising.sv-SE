@@ -3,9 +3,9 @@ title: Förhandsgranska en kreativ
 description: Lär dig hur du öppnar en förhandsgranskning av en kreatör.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 845ab0192a1cf429a282fbf934be10e1307d2034
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
 1. (Valfritt) Om du vill ändra storlek på bilden på skärmen väljer du ett alternativ i listan **[!UICONTROL Zoom]**, från 10 % till 100 % av bildstorleken.
 
-<!-- Not there as of 1/22/24:  1. (Flexible HTML5 creatives; optional) To show all frames for the creative, select **Show frames**. -->
+1. (Flexibla HTML5-kreatörer; valfritt) Om du vill bläddra mellan bildrutorna för den kreativa sidan klickar du på **\&lt;** och **\>**.
 
 1. (Valfritt) Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") om du vill hämta den kreativa versionen.
 
