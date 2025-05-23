@@ -3,7 +3,7 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 0098a35334f7604784b826da9a4a50a31edbd267
+source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 0%
@@ -184,7 +184,7 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
 1. (Valfritt) Klicka på den kreativa sidan för att öppna landningssidan för den kreativa.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Valfritt) Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") om du vill hämta den kreativa versionen.
 
@@ -212,7 +212,7 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
 1. (Valfritt) Klicka på den kreativa sidan för att öppna landningssidan för en kreatör.
 
-   <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
+<!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
 1. (Valfritt) Om du vill dela en demo-URL så att andra personer som inte har loggat in på [!DNL Creative] kan förhandsgranska de som skapar:
 
