@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 97e0f562153983202a2f3641e17dd682ff3d00ea
+source-git-commit: ac26d6dbcfc154820ca9f5dadc182d51d627642a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Att frigöra en kreatör från paketet innebär inte att den kreativa personen t
 
      Om du vill markera alla rader markerar du den globala kryssrutan i det övre vänstra hörnet.
 
-## Förhandsgranska en kreatör i ett paket
+## Förhandsgranska en enskild kreatör i ett paket
 
 Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlänkar.
 
@@ -186,6 +186,31 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
    Filen laddas ned enligt webbläsarens normala procedur.
 
+## Förgranska alla kreatörer i ett paket
+
+1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
+
+1. Klicka på biblioteksnamnet.
+
+1. Klicka på fliken **[!UICONTROL Bundles]**.
+
+1. Välj paketet:
+
+   * I kortvyn klickar du på **[!UICONTROL ...]** bredvid paketnamnet och sedan på **[!UICONTROL Preview]**.
+
+   * Håll markören över raden i tabellvyn och klicka på **[!UICONTROL Preview]**.
+
+1. (Valfritt) Om du vill filtrera kreatörerna efter språk väljer du ett alternativ i listan **[!UICONTROL Language]** och klickar sedan på **[!UICONTROL Preview]** i det övre högra hörnet av förhandsvisningen.
+
+1. (Valfritt) Om du vill filtrera de kreativa efter storlek väljer du ett alternativ i listan **[!UICONTROL Size]** och klickar sedan på **[!UICONTROL Preview]** i det övre högra hörnet av förhandsvisningen.
+
+1. (Valfritt) Om du vill ändra storlek på bilderna på skärmen väljer du ett alternativ i listan **[!UICONTROL Zoom]**, från 10 % till 100 % av bildstorleken.
+
+1. (Valfritt) Om du vill dela en demo-URL så att andra personer som inte har loggat in på [!DNL Creative] kan förhandsgranska de som skapar:
+
+   1. Klicka på ![Dela](/help/creative/assets/share.png "Dela") i det övre högra hörnet av förhandsgranskningen.
+
+   1. I dialogrutan [!UICONTROL Share Demo URL] klickar du på **[!UICONTROL Copy]** för att kopiera URL:en till Urklipp så att du kan dela den med någon annan.
 
 <!-- Not there as of 1/22/25:
 
@@ -253,6 +278,7 @@ Du kan ta bort paket som inte har tilldelats en [live](/help/creative/experience
 >[!MORELIKETHIS]
 >
 >* [Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i en upplevelse](/help/creative/experiences/experience-assign-creative-bundles.md)
+>* [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md)
 >* [Hantera kreativa bibliotek](/help/creative/creative-libraries/creative-library-manage.md)
 >* [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
