@@ -37,10 +37,11 @@ Ad settings are the same as in the ad template, but the metadata is in a differe
 
 1. 
 
-## NO PREVIEW YET
+## Preview dynamic ads
 
-ALTHOUGH, from program page:  "In the case of Dynamic Ads + Decision tree show a random Dynamic Ad from Feed " -- does this mean within an experience? But no preview of any kind in Creative Libraries > Dynamic Ads or > Bundles?
+From program page:  "In the case of Dynamic Ads + Decision tree show a random Dynamic Ad from Feed " -- does this mean within an experience? But no preview of any kind in Creative Libraries > Dynamic Ads or > Bundles?
 
+See https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier&title=%5BPRD%5D+Ad+Preview, including 4.0 Dynamic Bundle Ad Preview, which has more filters than for std ads. (That will need to be added to the "Preview bundle" procedures)
 
 ## Dynamic ad settings
 
