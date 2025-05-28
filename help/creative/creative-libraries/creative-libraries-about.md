@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: c69b01e12801947f156120e50615225eb3dad261
+source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -40,9 +40,9 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 #### Flexibel HTML5
 
-Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). Flexibla HTML5-kreatörer använder IAB (Interactive Advertising Bureau) Technology Laboratory som standard för en [annonsportfölj](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonserna behåller sin upplösning på olika enheter och utgivarplatser.
+Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). De flexibla HTML5-kreatörerna använder IAB (Interactive Advertising Bureau) Technology Laboratory som standard för en [annonsportfölj](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonserna behåller sin upplösning på olika enheter och utgivarplatser.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
 
-Du kan antingen överföra flexibla HTML5-användare som ZIP-filer eller använda någon av de mallar som är tillgängliga för ditt konto som utgångspunkt —>. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
+Du kan antingen överföra flexibla HTML5-användare som ZIP-filer eller använda någon av de mallar som är tillgängliga för ditt konto som utgångspunkt. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
 
 <!-- Will flattening the view be possible later?
 The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
