@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,12 @@ ht-degree: 0%
          * [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
 
          * [Anpassa den kreativa optimeringen och schemaläggningen](experience-optimization-scheduling-targeting.md) för de tilldelade paketen.
+
+1. (Valfritt) Växla mellan beslutsträdet och de allmänna inställningarna:
+
+   * Klicka **[!UICONTROL Experience Form]** i det övre högra hörnet för att öppna de allmänna inställningarna från beslutsträdet.
+
+   * Om du vill öppna beslutsträdet från de allmänna inställningarna klickar du på **[!UICONTROL Decision Tree]** i det övre högra hörnet.
 
 1. Klicka på **[!UICONTROL Save]** och gör sedan följande.
 

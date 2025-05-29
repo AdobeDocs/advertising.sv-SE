@@ -3,9 +3,9 @@ title: Redigera en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig hur du redigerar inställningarna för en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: 47a230347059a26c6c1c2db7c73306a376062478
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,15 @@ ht-degree: 0%
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Edit]**.
 
-1. Redigera de [allmänna upplevelseinställningarna](experience-settings-targeting.md).
+   Beslutsträdet öppnas som standard.
 
-1. (Valfritt) Om du vill redigera beslutsträdet klickar du på **[!UICONTROL Decision Tree]** i det övre högra hörnet och gör sedan något av följande:
+1. (Valfritt) Växla mellan beslutsträdet och de allmänna inställningarna efter behov:
+
+   * Klicka **[!UICONTROL Experience Form]** i det övre högra hörnet för att öppna de allmänna inställningarna från beslutsträdet.
+
+   * Om du vill öppna beslutsträdet från de allmänna inställningarna klickar du på **[!UICONTROL Decision Tree]** i det övre högra hörnet.
+
+1. (Valfritt) Gör något av följande om du vill redigera beslutsträdet:
 
    * ([Bearbetar](experience-about.md#experience-statuses)-upplevelser) Gör något av följande:
 
@@ -65,6 +71,8 @@ ht-degree: 0%
          * [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
 
          * [Anpassa den kreativa optimeringen och schemaläggningen](experience-optimization-scheduling-targeting.md) för de tilldelade paketen.
+
+1. (Valfritt) Redigera de [allmänna upplevelseinställningarna](experience-settings-targeting.md).
 
 1. Klicka på **[!UICONTROL Save]** och gör sedan följande.
 
