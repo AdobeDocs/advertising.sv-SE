@@ -3,7 +3,7 @@ title: Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification C
 description: Lär dig hur du aktiverar och inaktiverar push-meddelanden från [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
 3. Klicka på **[!UICONTROL Enable]** i bekräftelsemeddelandet.
 
-4. Konfigurera webbläsaren så att meddelanden från [!UICONTROL Notification Center] kl. `https://alert-center-ui-na.efrontier.com` tillåts.
+4. Konfigurera webbläsaren så att meddelanden från [!UICONTROL Notification Center] tillåts `https://alert-center-ui-na.efrontier.com`.
 
    Standardinställningarna för meddelanden varierar beroende på webbläsare, och du kan antingen a) automatiskt få alternativet att tillåta meddelanden från [!UICONTROL Notification Center] eller b) att manuellt hantera meddelandeinställningarna. I [!DNL Microsoft Edge] kan du till exempel tillåta meddelanden från [!UICONTROL Notification Center] från webbläsarens verktygsfält. Se instruktionerna i webbläsarens hjälp.
 
