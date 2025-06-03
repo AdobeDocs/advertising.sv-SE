@@ -3,14 +3,16 @@ title: Bjud in en ny användare till ditt organisationskonto
 description: Lär dig hur du bjuder in en ny användare att gå med i kontot.
 role: Admin
 exl-id: 5aba8db8-a27b-44a0-88f3-ea49311f4d76
-source-git-commit: a8ee699137d683986264e841b03bc292ce7b7843
+source-git-commit: 3ce910a553aa86836e04bd6e5d2a951db78070e1
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Bjud in en ny användare till ditt organisationskonto
+
+*Endast administratörsanvändare*
 
 Administratörsanvändare kan bjuda in en ny användare för kontot. När användaren har accepterat inbjudan har han/hon åtkomst till alla annonsörer för kontot. Nya användare har som standard skrivskyddad åtkomst.
 
