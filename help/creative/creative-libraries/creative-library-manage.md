@@ -3,7 +3,7 @@ title: Hantera dina kreativa bibliotek
 description: Lär dig hur du skapar, byter namn på och tar bort dina kreativa bibliotek.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: 8d88a46e82a17ce5d2debf93ea0652f35a734d7a
+source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Du kan ta bort bibliotek med kreatörer och paket som inte har tilldelats en [li
 
      Om du vill markera alla rader markerar du den globala kryssrutan i det övre vänstra hörnet.
 
-1. Klicka på **[!UICONTROL Delete]i bekräftelsemeddelandet.** <!--Verify wording -->
+1. Klicka på **[!UICONTROL Delete]i bekräftelsemeddelandet.**
 
 >[!MORELIKETHIS]
 >
