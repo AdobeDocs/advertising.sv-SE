@@ -15,7 +15,7 @@ Du kan öppna direkthjälpen från vilken sida som helst i användargränssnitte
 
 ## Öppna onlinehjälpen
 
-Om du vill öppna en komplett hjälpuppsättning som förklarar hur du använder alla funktioner klickar du på **[!UICONTROL Help]** på huvudmenyn och öppnar kapitlet [DNL Creative].
+Om du vill öppna en komplett hjälpuppsättning som förklarar hur du använder alla funktioner klickar du på **[!UICONTROL Help]** på huvudmenyn och öppnar kapitlet [!DNL Creative].
 
 <!--
 ## Ask the Adobe Advertising community
