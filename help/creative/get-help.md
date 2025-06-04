@@ -2,7 +2,7 @@
 title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
 feature: Creative Introduction
-source-git-commit: 8e09fd00597203bd837957fad663e6648655be43
+source-git-commit: b610a0b8db410759cae79a6193c38abc573c28ba
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -10,6 +10,8 @@ ht-degree: 0%
 ---
 
 # Få hjälp
+
+<!-- Can remove this page when we move this into DSP help -->
 
 Du kan öppna direkthjälpen från vilken sida som helst i användargränssnittet. Om direkthjälpen inte svarar på dina frågor kan du kontakta oss.
 
