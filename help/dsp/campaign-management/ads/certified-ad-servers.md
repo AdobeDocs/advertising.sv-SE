@@ -3,9 +3,9 @@ title: Certifierade annonserande partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 75d4efbf5028b0d3ceeee247d1ee3616ae49d683
+source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ ht-degree: 0%
 | [!DNL Medialets] | | X | | | |
 | [!DNL Minute Media] | | X | | | Skrivbordsskal (970x250) |
 | [!DNL Moat] | X | X | | X | |
+| [!DNL Nova] | | X | | | |
 | [!DNL PLAYGROUND XYZ] | | | X | | |
 | [!DNL Pubmatic] | | | | X | Endast VAST |
 | [!DNL RevJet] | | | | X | Endast VAST |
