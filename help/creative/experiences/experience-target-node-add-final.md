@@ -3,9 +3,9 @@ title: Lägg till en målnod till den sista nivån i en upplevelse
 description: Lär dig hur du lägger till en målnod på den slutliga målnivån i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 9f93990bcd6b3c8f7d6fb29186da620ac6d4ecf5
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
       1. Klicka på **[!UICONTROL Apply]**.
 
-   * För ett datapassmål väljer du **[!UICONTROL Data Pass]**, anger ett enda datapassvärde och klickar sedan på **[!UICONTROL Apply]**.
+   * För ett datapassmål väljer du **[!UICONTROL Data Pass]**, alternativt anpassar du datapassnyckeln, anger ett enda datapassvärde och klickar sedan på **[!UICONTROL Apply]**.
 
-   Nyckeln för nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md).
+   Ett standardvärde för nyckeln i nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md). Du kan också anpassa tangenten.
 
    * Om du vill återanvända ett pixelmål väljer du **[!UICONTROL RT Pixel]**, markerar en enda återmarknadsföringspixel och värdena för någon av pixelattributen som krävs för att visa de kreativa och klickar sedan på **[!UICONTROL Apply]**.
 
