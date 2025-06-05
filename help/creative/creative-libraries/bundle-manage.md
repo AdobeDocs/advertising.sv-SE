@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: a07af2b3a49d47f5e4ec276ab82520df46d6068a
+source-git-commit: baba02d2537828f1ed0b5c7842d1f987a55f5ef0
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1432'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,8 @@ Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/
 >
 >Du kan även [bifoga kreatörer till paket från vyerna Standard Ads och Dynamic Ads](creative-attach-detach-bundles.md).
 
+### Bifoga kreatörer i ett paket från paketlistan
+
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
 1. (Valfritt) [Anpassa vyn](/help/creative/introduction/customize-data-views.md) så att den innehåller specifika bibliotek.
@@ -129,6 +131,24 @@ Du kan koppla [befintliga standardkreatörer](/help/creative/creative-libraries/
 1. (Valfritt) Växla mellan standardtabellvyn och en kortvy över tillgängliga paket genom att klicka på ![kortvyn](/help/creative/assets/card-view-button.png "kortvyn") för att öppna kortvyn eller ![Tabell-/listvy](/help/creative/assets/table-view-button.png "Tabellvy") för att återgå till tabellvyn.
 
 1. Markera kryssrutan bredvid varje kreatör som ska kopplas till paketet i den högra bildrutan och klicka sedan på **[!UICONTROL Attach Creative to Bundle]**.
+
+### Bifoga kreatörer i ett paket från paketets kreativa lista
+
+1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
+
+1. (Valfritt) [Anpassa vyn](/help/creative/introduction/customize-data-views.md) så att den innehåller specifika bibliotek.
+
+1. Klicka på biblioteksnamnet.
+
+1. Klicka på fliken **[!UICONTROL Bundles]**.
+
+1. Klicka på paketkortet eller raden för att visa alla kreatörer i paketet.
+
+1. Klicka på **[!UICONTROL Attach Creatives]** i det övre högra hörnet.
+
+1. I den högra panelen markerar du kryssrutan för varje kreatör som du vill bifoga.
+
+1. Klicka på **[!UICONTROL Attach Creatives to Bundle]**.
 
 ## Frigör kreatörer från ett paket {#bundle-detach-creatives}
 
