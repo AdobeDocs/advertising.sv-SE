@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ I rapportvyn finns följande data:
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
-* **Fliken Creative Performance***: En prestandaöversikt av creative och bundle- eller ad-tagg, inklusive:
+* **Creative Performance** tab*: En prestandaöversikt av creative och bundle eller ad tag, inklusive:
 
    * **Creative** subtab: The total number of imponsions, clicks, and CTR for each creative in the experience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
@@ -158,9 +158,11 @@ I rapportvyn finns följande data:
 
    * (Erfarenheter med enbart mål för beslutsträd; valfritt) Aktivera **[!UICONTROL Split targeting]** om du vill dela upp resultatet för varje tillämpat annonseringsmål.
 
-1. (Valfritt) Om du vill hämta data i en [!DNL Microsoft Excel]-fil i kalkylbladsformat (XLSX) klickar du på ![Hämta](/help/creative/assets/download.png "Hämta") i verktygsfältet.
+## Ladda ned resultatrapporter för en upplevelse
 
-   Filen laddas ned enligt webbläsarens normala procedur.
+* Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") i verktygsfältet högst upp i resultatrapporterna.
+
+  Filen hämtas i en [!DNL Microsoft Excel]-fil i kalkylbladsformat (XLSX) enligt webbläsarens normala procedur.
 
 >[!MORELIKETHIS]
 >
