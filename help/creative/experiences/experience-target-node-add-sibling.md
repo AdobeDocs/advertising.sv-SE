@@ -2,9 +2,10 @@
 title: Lägga till en målnod på samma nivå mellan noder i en upplevelse
 description: Lär dig hur du lägger till en nod på samma nivå i en nod som har ett mål eller som finns på samma nivå som en nod med ett mål.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -29,7 +30,7 @@ In an existing experience,
 
 1. Ange mål:
 
-   * Gör följande för målgrupper i Adobe:
+   * Gör följande för Adobe Audience-mål:
 
       1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ, öppna fliken **[!UICONTROL Adobe Segments]**, ange en eller flera av annonsörens [!DNL Adobe] målgrupper och klicka sedan på **[!UICONTROL Save]**.
 
@@ -51,9 +52,9 @@ In an existing experience,
 
       1. Klicka på **[!UICONTROL Apply]**.
 
-   * Ange ett enda värde för datapassage för datapassmål och klicka sedan på **[!UICONTROL Apply]**.
+   * Om du vill anpassa nyckeln för dataöverföring anger du ett värde för dataöverföring och klickar sedan på **[!UICONTROL Apply]**.
 
-   Nyckeln för nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md) och du kan inte lägga till fler nycklar.
+     Ett standardvärde för nyckeln i nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md). Du kan också anpassa tangenten.
 
    * Om du vill återanvända pixelmål markerar du den återmarknadsföringspixel som ska användas och de värden som krävs för något av pixelattributen som måste finnas för att visa de kreativa. Klicka sedan på **[!UICONTROL Apply]**.
 

@@ -3,9 +3,9 @@ title: Lägga till en målnod mellan noder i en upplevelse
 description: Lär dig hur du lägger till en målnod mellan målböcker i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
          1. Klicka på **[!UICONTROL Apply]**.
 
-      * Ange ett enda värde för dataöverföring för ett datapassagemål och klicka sedan på **[!UICONTROL Apply]**.
+      * Om du vill anpassa datapassnyckeln för ett datapassemål anger du ett enda datapassvärde och klickar sedan på **[!UICONTROL Apply]**.
 
-        Nyckeln för nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md).
+        Ett standardvärde för nyckeln i nyckelvärdepar har redan angetts i fältet **[!UICONTROL Data Pass]** i avsnittet [!UICONTROL Advanced] i [upplevelseinställningarna](experience-settings-targeting.md). Du kan också anpassa tangenten.
 
       * Om du vill återanvända ett pixelmål väljer du en enda återmarknadsföringspixel och värdena för något av pixelattributen som krävs för att visa de kreativa. Klicka sedan på **[!UICONTROL Apply]**.
 

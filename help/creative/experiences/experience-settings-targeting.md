@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1111'
 ht-degree: 0%
 
 ---
@@ -50,10 +50,9 @@ När du har sparat upplevelsen kan du inte ändra den här inställningen.
 
 ## [!UICONTROL Advanced] avsnitt
 
-**Dataisolering:** (skrivskyddat för befintliga upplevelser; valfritt) Om du vill rikta användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid exponering. Du kan ange upp till fem databassnycklar (parametrar). När du ställer in mål inom beslutsträdet kan du ta med en nivå av målnoder för datapassage och ange vilka värden som ska användas för varje nod. Om du inte anger någon nyckel i det här fältet när du skapar upplevelsen kan du ändå ange en i beslutsträdet.<!-- May move this to just within the decision tree.  -->
+**Dataisolering:** (skrivskyddat för befintliga upplevelser; valfritt) Om du vill rikta användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid exponering. Du kan ange upp till fem standardnycklar (parametrar) för dataöverföring. När du ställer in mål inom beslutsträdet kan du inkludera en nivå av målnoder för datapassage, eventuellt anpassa nycklarna och ange vilka värden som ska användas för varje nod. Om du inte anger några nycklar i det här fältet när du skapar upplevelsen kan du ändå ange dem i beslutsträdet.
 
-Varje nyckel läggs till som ett makro i annonsupplevelsen
-som du kan generera för att implementera som en annons i din DSP.
+Varje nyckel läggs till som ett makro i annonsupplevelsetaggen, som du kan generera för implementering som en annons i din DSP.
 
 **Radie:** (Endast upplevelser med dynamiska annonser; valfritt) En radie från ett amerikanskt postnummer som anges i feed-filen att rikta. Välj en radie från 0 engelska mil till 200 engelska mil. Den feed-fil som används för att skapa dynamiska annonser för upplevelsen måste innehålla en [!UICONTROL ZIP]-kolumn <!-- or a user-named column mapped to a ZIP column --> med ett värde för varje produktrad i filen. För en radie på 10 engelska mil kan till exempel en annons för en produkt som är tillgänglig i 95110 visas för användare inom 10 engelska mil av 95110 (bestäms av användarens IP-adress).
 
