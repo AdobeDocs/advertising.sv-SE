@@ -3,9 +3,9 @@ title: Lägga till en målnod på samma nivå mellan noder i en upplevelse
 description: Lär dig hur du lägger till en nod på samma nivå i en nod som har ett mål eller som finns på samma nivå som en nod med ett mål.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In an existing experience,
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera målgrupper har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper (en [!DNL Boolean] `AND` -sats).
 
       1. Klicka på **[!UICONTROL Apply]**.
 
@@ -48,7 +48,7 @@ In an existing experience,
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser (en [!DNL Boolean] `AND` -sats).
 
       1. Klicka på **[!UICONTROL Apply]**.
 
@@ -66,7 +66,7 @@ In an existing experience,
 
       1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
-         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser.
+         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser (en [!DNL Boolean] `AND` -sats).
 
       1. Klicka på **[!UICONTROL Apply]**.
 
