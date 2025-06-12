@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Lär dig hur du genererar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 3033f26bba5a9e7622d0de51b36035be1005c60f
+source-git-commit: a6e8bd3d9c2f8a373a90460b9ee8780d1c0702c6
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 * *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
@@ -183,8 +183,6 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 ## Tillgängliga rapportkolumner {#report-custom-creative-columns}
 
-<!-- Need to finish these definitions -->
-
 | Mätningstyp | Undertyp | Kolumnnamn | Beskrivning |
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Den publicerade annonsens dimensioner. |
@@ -196,16 +194,12 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative ID] | Det ID som [!UICONTROL Creative] tilldelade den överordnade kreativiteten. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Name] | Namnet på den överordnade kreativiteten. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Parent Creative Type] | Typen av överordnad kreativ (till exempel [!UICONTROL HTML5]). |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | . |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | Klickningstypen. |
-| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Ad Link] | Landningssidans URL. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Click Type] | Den specifika typen av användarinteraktion. |
+| [!UICONTROL Dimension] | [!UICONTROL Click Events] | [!UICONTROL Direction] | Riktningsflödet eller navigeringssökvägen för användarens klickinteraktion i den kreativa upplevelsen. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Browser] | Webbläsaren som annonsen visades i (till exempel [!UICONTROL Chrome] eller [!UICONTROL Firefox]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device OS] | Det operativsystem som annonsen visades på (till exempel [!UICONTROL Windows]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Type] | Den typ av enhet som annonsen visades på (till exempel [!UICONTROL Desktop]). |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Ad ID] | Annonsens ID. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Buy ID] | Köp-ID för annonsplaceringen. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Creative ID] | Den kreativa personens ID. |
-| [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP ID] | ID:t för den DSP som annonserna kördes på. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Name] | Namnet på den DSP som annonserna kördes på. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement ID] | ID för den placering som annonserna kördes för. |
 | [!UICONTROL Dimension] | [!UICONTROL DSP] | [!UICONTROL DSP Placement Name] | Namnet på den placering som annonserna kördes för. |
@@ -216,8 +210,8 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Date/Time] | Datum och tid för händelsen. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience ID] | Det ID som [!UICONTROL Creative] tilldelade upplevelsen. |
 | [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Experience Name] | Namnet på upplevelsen. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | Målet. |
-| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Targeting Branch Value] | Den specifika vägen genom målbeslutsträdet som avgör vilken variant av den kreativa upplevelsen som användaren får. |
+| [!UICONTROL Dimension] | [!UICONTROL Experiences] | [!UICONTROL Trafficking Line] | Namnet på annonstaggen. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL City] | Den stad som de rapporterade uppgifterna härrör från. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL Country Code] | Landskoden för det land som de rapporterade uppgifterna härrör från. |
 | [!UICONTROL Dimension] | [!UICONTROL Geo] | [!UICONTROL DMA] | Det utsedda marknadsområde (DMA) som de rapporterade uppgifterna tillskrivs. |
@@ -232,22 +226,22 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Creative Attribute 5] | (Dynamiska annonser) Det femte kreativa attributet. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product ID] | (Dynamiska annonser) Målprodukt-ID. |
 | [!UICONTROL Dimension] | [!UICONTROL Product] | [!UICONTROL Product Name] | (Dynamiska annonser) Målproduktens namn. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | ID:t för det målgruppssegment som de rapporterade uppgifterna ska tilldelas till. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | Segmentets-ID för ett målgruppssegment som de rapporterade uppgifterna tilldelas till. |
-| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | Namnet på ett målgruppssegment som de rapporterade uppgifterna är kopplade till. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Matched Audience Segment ID] | ID för upp till fem användarsegment som matchade annonstemat. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment ID] | ID:t för en återmarknadsföringspixel som de rapporterade data tilldelas till. |
+| [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Pixel Segment Name] | Namnet på en återmarknadsföringspixel som de rapporterade data är kopplade till. |
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Values] | Attributen för ett målgruppssegment som de rapporterade uppgifterna tilldelas till. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Clicks] | Summan av alla klick på en annons. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL CTR] | Klickfrekvensen, som är procentandelen klickningar dividerat med annonsvisningar. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagement Rate] | Den procentandel av visningar som resulterade i användarengagemang. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Engagements] | Antalet interaktioner för en serverad annons. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Impressions] | Totalt antal annonsvisningar. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | Summan av alla klick på annonser för en produkt. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | Summan av alla konverteringar på annonser för en produkt. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | Procentandel annonser för en produkt som resulterade i konverteringar. |
-| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | Klickfrekvensen för annonser för en produkt, vilket är procentandelen klickningar dividerat med annonsvisningar. |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | Det totala antalet visningar för en produkt. |
-| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | Den totala intäkten för serverade annonser för en produkt. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Media Match Rate] | Procentandelen visningar med en återanvänd cookie. |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Clicks] | (Endast dynamiska annonser) Summan av alla klick på annonser för en produkt. När produkten är null är det här värdet noll (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion] | (Endast dynamiska annonser) Summan av alla konverteringar av annonser för en produkt. När produkten är null är det här värdet noll (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Conversion Rate] | (Endast dynamiska annonser) Procentandelen annonser för en produkt som resulterade i konverteringar. När produkten är null är det här värdet noll (0). |
+| [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL Product CTR] | (Endast dynamiska annonser) Klickfrekvensen för annonser för en produkt, vilket är procentandelen klickningar dividerat med annonsvisningar. När produkten är null är det här värdet noll (0). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Impressions] | (Endast dynamiska annonser) Det totala antalet visningar för en produkt. När produkten är null är det här värdet noll (0). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Product Revenue] | (Endast dynamiska annonser) De totala intäkterna för annonser som hanteras för en produkt. När produkten är null är det här värdet noll (0). |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Revenue] | De totala intäkterna för serverade annonser. |
 | [!UICONTROL Conversion Metrics] | [Grupperad av annonsören i rapportinställningarna] | [Annonsspecifik konvertering] | Summan för en angiven annonsörspecifik konverteringsmetod eller Adobe Analytics-händelse. |
 | [!UICONTROL Custom Goals] | [Grupperad av annonsören i rapportinställningarna] | [Advertiser-specifikt anpassat mål] | (Annonsörer med Advertising DSP) Den viktade summan av alla konverteringar som ingår i det angivna [anpassade Advertising DSP-målet](/help/dsp/optimization/custom-goal.md). |
