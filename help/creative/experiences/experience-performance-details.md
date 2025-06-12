@@ -3,7 +3,7 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
+source-git-commit: 80cb7587d433b672e22fb9d831f491af7ee364fe
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,33 +22,33 @@ I rapportvyn finns följande data:
 
 * Fliken **Översikt**: En prestandaöversikt över alla konverteringsmått för hela upplevelsen, inklusive:
 
-<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+  <!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-* Avsnittet **Övergripande prestanda**:
+   * Avsnittet **Övergripande prestanda**:
 
-* **Övergripande prestanda**: Totalt antal visningar, klickningar, klickfrekvens (CTR) samt genomskinlighetskonverteringar och klickkonverteringar.
+      * **Övergripande prestanda**: Totalt antal visningar, klickningar, klickfrekvens (CTR) samt genomskinlighetskonverteringar och klickkonverteringar.
 
-  <!--
+     <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-* **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller mål till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
+      * **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller mål till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
 
-  <!--
+     <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-* **Avsnittet** för prestandafördelning:
+   * **Avsnittet** för prestandafördelning:
 
-   * **Regional Performance:*: Individuella mätvärden per geografisk plats.
+      * **Regional Performance:*: Individuella mätvärden per geografisk plats.
 
-     <!--   
+        <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-   * **Enhetsprestanda:** Individuella mått per enhetstyp, operativsystem och webbläsare. Du kan också klicka på värdet för en enhetskategori för att visa en lista över de <!-- NN --> främsta kreatörerna som uppfyller det villkoret.
+      * **Enhetsprestanda:** Individuella mått per enhetstyp, operativsystem och webbläsare. Du kan också klicka på värdet för en enhetskategori för att visa en lista över de <!-- NN --> främsta kreatörerna som uppfyller det villkoret.
 
-     <!--    
+        <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
