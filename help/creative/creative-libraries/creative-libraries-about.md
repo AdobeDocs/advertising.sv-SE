@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: d7e2403e13c0f9edf1505ca7c50aea3de34f1f3a
+source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 #### Flexibel HTML5
 
-Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). De flexibla HTML5-kreatörerna använder IAB (Interactive Advertising Bureau) Technology Laboratory som standard för en [annonsportfölj](https://flexibleads.iabtechlab.com/)<!-- Change to https://iabtechlab.com/standards/iab-new-ad-portfolio-guidelines/ if the broken page isn't fixed -->, för vilken annonsformaten är flexibla (i stället för fasta) och baseras på annonsens proportioner och storleksintervall, och för vilka annonserna behåller sin upplösning på olika enheter och utgivarplatser.<!-- Yet our flexible creatives and templates are for a single specific ad size (in pixels), not an aspect ration with size range. Clarify -->
+Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). I DSP är de flexibla HTML 5-programmen avsedda för en viss annonsstorlek (i pixlar). Du kan också ändra standardvärdena för attributen som anges i en flexibel HTML5-kreatör. Senare kan du ange anpassade värden för attributen i en viss upplevelse, vilket skapar en variation av den överordnade kreativiteten.
+
+<!-- Removed:
+
+Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
+
+-->
 
 Du kan antingen överföra flexibla HTML5-användare som ZIP-filer eller använda någon av de mallar som är tillgängliga för ditt konto som utgångspunkt. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
 
@@ -53,8 +59,6 @@ The card view, by default, includes a card for each base flexible HTML5 creative
 [Example card for a flexible creative with one variation]() [add image]
 
  -->
-
-Du kan också ändra standardvärdena för attributen som anges i en flexibel HTML5-kreatör. Senare kan du ange anpassade värden för attributen i en viss upplevelse, vilket skapar en variation av den överordnade kreativiteten.
 
 #### HTML5 kreatörer
 
