@@ -3,9 +3,9 @@ title: Om utgivarens rekommendationer och insikter
 description: Läs om stödet för att visa och hantera utgivarens rekommendationer och insikter.
 exl-id: 8bad85e0-8c01-4177-a881-96dd9c4a5949
 feature: Search Recommendations
-source-git-commit: 457e42152a85e0e357939efdfb821b76a636ba2a
+source-git-commit: 568927a009b2c38d30fc817a9f4aa4e964b4cd9f
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | --- | --- | --- |
 | [!UICONTROL Ads and extensions] (kallas nu [!DNL Ads and assets] i [!DNL Google Ads]) | [!UICONTROL Call extension] | Lägga till samtalstillägg till en kampanj |
 | | [!UICONTROL Callout extension] | Lägga till bildtexttillägg i en kampanj |
+|  | [!UICONTROL Improve demand gen ad strength] | Förslag om att förbättra annonsstyrkan för en efterfrågad generad annons |
 | | [!UICONTROL Optimize ad rotation] | Använd optimerade annonser |
 | | [!UICONTROL Responsive search ad] | Lägg till en ny responsiv sökannons |
 | | [!UICONTROL Responsive search ad asset] | Lägga till responsiva sökannonser i en annons |
@@ -77,6 +78,7 @@ Inom [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher I
 | | [!UICONTROL Target ROAS opt in] | Ändra till [!UICONTROL Target ROAS]-budgivningsstrategin |
 | [!UICONTROL Keywords and targeting] | [!UICONTROL Display expansion opt in] | Utvidga räckvidden genom att uppdatera en kampanj för att använda displayexpansion |
 | | [!UICONTROL Keyword] | Lägg till nya nyckelord |
+|  | [!UICONTROL Refresh customer match list] | Uppdatera era kundmatchningslistor för att visa personaliserade annonser för de senaste kunderna |
 | | [!UICONTROL Search partners opt in] | Utöka räckvidden med [!DNL Google] sökpartners |
 | | [!UICONTROL Use broad match keyword] | Använd bred matchning för konverteringsbaserade kampanjer med fullt automatiserad konverteringsbaserad budgivning |
 

@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: f7e022d8753eb41f5eed8667b9af66085f912bff
+source-git-commit: fc28fe5c4486939718cf6e7bd58555f72fd0c8ed
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -20,41 +20,35 @@ Du kan visa detaljerade prestandadata för alla upplevelser.
 
 I rapportvyn finns följande data:
 
-* Fliken **Översikt**: En prestandaöversikt för hela upplevelsen, inklusive:
+* Fliken **Översikt**: En prestandaöversikt över alla konverteringsmått för hela upplevelsen, inklusive:
 
-   * Avsnittet **Övergripande prestanda**:
+<!-- Currently, the only metric in the settings list at the top of this main tab is "Select All." And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
 
-   * **Övergripande prestanda**: Det totala antalet visningar, klick, klickfrekvens (CTR) samt genomskinlighetskonverteringar och klickkonverteringar för ett enda konverteringsmått. <!-- Just one, or can you select multiple? And I don't see this as of 2/8:  You can optionally combine two metrics at a time into a single chart. -->
+* Avsnittet **Övergripande prestanda**:
 
-     <!--
+* **Övergripande prestanda**: Totalt antal visningar, klickningar, klickfrekvens (CTR) samt genomskinlighetskonverteringar och klickkonverteringar.
+
+  <!--
      ![Overall performance](/help/creative/assets/experience-report-overall-performance.png "Overall performance"){width="100" zoomable="yes"}
           -->
 
-   * **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller mål till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
+* **Standardfrekvens**: (Erfarenheter med endast mål för beslutsträd) Antalet visningar från målgruppsanpassade kreatörer, generiska kreatörer utan mål eller mål till &quot;Alla andra&quot; och det kreativa standardvärdet för upplevelsen.
 
-     <!--
+  <!--
      ![Default rate](/help/creative/assets/experience-report-default-rate.png "Default rate"){width="100" zoomable="yes"} 
      -->
 
-   * **Avsnittet** för prestandafördelning:
+* **Avsnittet** för prestandafördelning:
 
-      * **Regional Performance:*: Individuella mätvärden per geografisk plats.
+   * **Regional Performance:*: Individuella mätvärden per geografisk plats.
 
-        <!-- You can optionally do the following:
-    
-      * Click a metric name (such as [!UICONTROL Impressions]) to view that metric.
-
-      * Select the region in the **[!UICONTROL Region]** menu.
-      
-      -->
-
-        <!--   
+     <!--   
       ![Regional performance](/help/creative/assets/experience-report-regional-performance.png "Regional performance"){width="100" zoomable="yes"}
       -->
 
-      * **Enhetsprestanda:** Individuella mått per enhetstyp, operativsystem och webbläsare. Du kan också klicka på värdet för en enhetskategori för att visa en lista över de <!-- NN --> främsta kreatörerna som uppfyller det villkoret.
+   * **Enhetsprestanda:** Individuella mått per enhetstyp, operativsystem och webbläsare. Du kan också klicka på värdet för en enhetskategori för att visa en lista över de <!-- NN --> främsta kreatörerna som uppfyller det villkoret.
 
-        <!--    
+     <!--    
       ![Device performance](/help/creative/assets/experience-report-device-performance.png "Device performance"){width="100" zoomable="yes"}
       -->
 
@@ -62,35 +56,7 @@ I rapportvyn finns följande data:
 
    * **Creative** subtab: The total number of imponsions, clicks, and CTR for each creative in the experience.<!-- No breakdown yet for the individual ad elements and/or the served ads. -->
 
-     <!--
-
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each creative. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report. [Find out about this:  ..., and total conversions for specified conversion metricsYour conversion metrics are combined into one Conversions column set unless you have made individual metric column sets available within Advertising Cloud Search.]
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each creative. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
-
    * Underfliken **Paket/taggar**: Det totala antalet visningar, klickningar och CTR för enskilda paket (upplevelser med mål för beslutsträd) eller annonstaggar (upplevelser utan mål för beslutsträd) i upplevelsen.
-
-     <!--
-   
-     * *Experiences with decision tree targeting:* The total number of impressions, clicks, and CTR for each bundle. You can optionally do the following:
-     
-       * To break out the performance for each ad target, enable **[!UICONTROL Split targeting]**.
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions  and click-through conversions (using on the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     * *Experiences without decision tree targeting:* The total number of impressions, clicks, and click-through rate (CTR) for each ad tag. You can optionally do the following:
-
-       * To switch between the grid view and a trend chart, which includes the addition of view-through conversions and click-through conversions (using the conversions specified in the top toolbar), click ![Chart](/help/creative/assets/chart-view-button.png "Chart") and ![Grid](/help/creative/assets/table-view-button.png "Grid") above the report.
-
-     -->
 
 ## Visa resultatrapporter för en upplevelse
 
@@ -112,15 +78,15 @@ I rapportvyn finns följande data:
 
       * Om du vill ange en förinställd period väljer du rapporten: (*[!UICONTROL Last Month-to-date],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Last 7 days],* *[!UICONTROL Last 30 days],* *[!UICONTROL Today],* eller *[!UICONTROL Yesterday]*.
 
-      * Om du vill ange ett anpassat datumintervall anger du startdatum och slutdatum <!-- in the format MM/DD/YYYY or M/D/YYYY,--> eller klickar på ![kalenderikon](/help/search-social-commerce/assets/calendar.png) bredvid ett fält och väljer ett datum.
+      * Om du vill ange ett anpassat datumintervall anger du startdatum och slutdatum eller klickar på ![kalenderikon](/help/search-social-commerce/assets/calendar.png) bredvid ett fält och väljer ett datum.
 
    * (Valfritt) Om du vill ändra regeln som används för att attributera konverteringsdata i en serie händelser som leder till en konvertering klickar du på ![Inställningar](/help/creative/assets/settings.png) och ändrar **[!UICONTROL Attribution Rule]**.
 
      Mer information om attribueringsregler finns i [Hur attribueringsregler beräknas](/help/search-social-commerce/reports/attribution-rules.md).
 
-   * (Valfritt) Om du vill ändra de konverteringar som rapporteras klickar du på ![Inställningar](/help/creative/assets/settings.png) och väljer konverteringsnamnen på **[!UICONTROL Conversions]** -menyn.&lt;!— Bara en eller flera? Kontrollera hur de visas - jag behöver se en annonsör med flera konverteringar som redan har konfigurerats. Från och med den 6 mars visas bara&quot;Markera alla&quot;. —>
+   * (Valfritt) Om du vill ändra de konverteringar som rapporteras klickar du på ![Inställningar](/help/creative/assets/settings.png) och väljer konverteringsnamnen på **[!UICONTROL Conversions]** -menyn. För närvarande är det enda tillgängliga måttet&quot;Markera alla&quot; för att inkludera alla konverteringsmått.
 
-     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Listan kan innehålla konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics när annonsören har [en [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md). <!--Analytics calculated metrics and advanced calculated metrics aren't available.--> Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsmått](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
+     De tillgängliga konverteringskolumnerna innehåller konverteringar som är tillgängliga i Advertising Search, Social och Commerce, oavsett om du är kund hos Search, Social eller Commerce eller inte. Listan kan innehålla konverterings- och webbplatsengagemangsmått som synkroniseras från Adobe Analytics när annonsören har [en [!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md). [!DNL Analytics] beräknade värden och avancerade beräknade värden är inte tillgängliga. Mer information om hur du inkluderar insamlade konverteringar i rapporter finns i avsnittet om sök-, sociala och Commerce-handboken [Om att hantera en annonsörs konverteringsstatistik](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-about.md).
 
 1. (På fliken [!UICONTROL Overview]):
 
