@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: d2db928068153c0ce26cc51fa79f45cbb3c61f18
+source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 ## [!UICONTROL Targeting] avsnitt
 
-**[!UICONTROL Targeting]:** (Skrivskyddad för befintliga upplevelser) Gäller inte om du inte aktiverar mål med ett beslutsträd. Behåll det här alternativet inaktiverat.
+**[!UICONTROL Targeting]:** (Skrivskyddad för befintliga upplevelser) Gäller inte om du inte aktiverar mål med ett beslutsträd. Behåll det här alternativet inaktiverat. **Obs!** När du har sparat en upplevelse utan mål kan du inte lägga till målinriktning senare.
 
 **[!UICONTROL Dynamic ads]:** (Skrivskyddad för befintliga upplevelser) Anger att upplevelsen innehåller dynamiska annonser. **Obs!** En upplevelse kan innehålla antingen alla standardannonser eller alla dynamiska annonser.
 

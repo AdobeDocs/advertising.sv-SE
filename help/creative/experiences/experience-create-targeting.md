@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: a631ac2db1f4807a3a55b41d79acfe64c04496c3
+source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,12 @@ ht-degree: 0%
 # Skapa en upplevelse med målgruppsanpassning i beslutsträd
 
 *Stängd beta*
+
+Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje upplevelse används annonser från ett enda kreativt bibliotek.
+
+>[!NOTE]
+>
+> När du väl har skapat en målinriktad upplevelse kan du inte ändra den senare till en upplevelse som inte är målinriktad och som använder ett annat arbetsflöde.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 

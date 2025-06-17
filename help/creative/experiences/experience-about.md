@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 2ddda1e23e3a3413ef93ca0705f0b9688c893f64
+source-git-commit: 1f4c49de75b3a4b19199fc6f2a162b236e21ab49
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Stängd beta*
 
-[!DNL Advertising Creative 2.0] innehåller två olika annonsupplevelsestrukturer för annonserna i ett kreativt bibliotek <!-- can use a single library only -->:
+[!DNL Advertising Creative 2.0] innehåller två olika annonsupplevelsestrukturer för annonserna i ett enda kreativt bibliotek.
 
 * **Erfarenheter med målgruppsanpassning i beslutsträd:** [!DNL Creative] gör att du kan konfigurera personaliserade annonsupplevelser under hela kundresan med hjälp av en beslutsträdsmodell. Ni kan anpassa alla annonselement - bilder, rubriker, erbjudanden och landningssidor - baserat på målgruppen.
 
@@ -34,16 +34,32 @@ ht-degree: 0%
 
   När ni väl har skapat en målgruppsgren i beslutsträdet kan ni koppla målgruppen till potentiella kreatörer genom att tilldela grenen kreativa paket. För varje upplevelse kan du anpassa optimering och schemaläggning för de kreativa paketen och ändra standardstartsidorna och spårnings-URL:er <!-- later: and any flexible attributes --> för enskilda kreatörer i varje paket.
 
-* **Upplevelser utan mål för beslutsträd:** [!DNL Creative] optimerar annonselementen för annonsupplevelsen utan att begränsa målgruppen. För varje upplevelse anger du start- och slutdatum och vissa standardinställningar, men mycket av arbetsflödet ligger inte direkt i upplevelsen. I stället för att lägga till kreatörer direkt i upplevelsen använder du [!UICONTROL Tag Manager] för att skapa en annonstagg för varje annonsstorlek för upplevelsen och sedan lägga till kreatörer i den, konfigurera kreativ optimering och schemaläggning samt anpassa landningssidorna och spårnings-URL:er<!-- later: and any flexible attributes -->.
+* **Upplevelser utan mål för beslutsträd:** [!DNL Creative] optimerar annonselementen för annonsupplevelsen utan att begränsa målgruppen. För varje upplevelse anger du start- och slutdatum och vissa standardinställningar, men mycket av arbetsflödet ligger inte direkt i upplevelsen. I stället för att lägga till kreatörer direkt i upplevelsen kan du använda [!UICONTROL Tag Manager] för att skapa en annonstagg för varje annonsstorlek för upplevelsen och sedan lägga till kreatörer i den, konfigurera kreativ optimering och schemaläggning samt anpassa landningssidorna och spårnings-URL:er<!-- later: and any flexible attributes -->.
 
-## Annonsoptimering
+>[!NOTE]
+>
+> Eftersom de två typerna av upplevelser har olika arbetsflöden kan du inte ändra om du ska använda målgruppsanpassning för beslutsträd när du väl har sparat upplevelsen. Det innebär att du inte kan ändra en icke-målinriktad upplevelse till en målinriktad upplevelse. På samma sätt kan du inte ändra en målinriktad upplevelse till en upplevelse som inte är målinriktad.
+
+## Annonsvisning och optimering
 
 <!-- MORE -->
-[!DNL Creative] optimerar annonselementen för alla upplevelser baserat på prestanda. För upplevelser som riktar sig till specifika målgrupper kan annonserna optimeras baserat på resultatet för de enskilda annonselementen för målgrupperna. För upplevelser utan specifika målgruppsmål optimeras annonselementen enbart utifrån de enskilda annonselementens prestanda.
+<!--When multiple ad variants qualify for an impression-->
+
+[!DNL Creative] visar annonser från första part och utlöser tredjepartsannonser för upplevelsen baserat på den angivna målsättningen (när det är tillämpligt), schemaläggning, annonsrotation och optimeringsmålalternativen samt tillgängligt annonsmaterial.
+
+* **Schemaläggning:** (valfritt) Schemalägg specifika kreatörer som ska köras under angivna sekventiella tidsperioder.
+
+* **Annonsrotation:** Rotera kreatörerna manuellt enligt relativa vikter eller algoritmiskt enligt det angivna optimeringsmålet.
+
+* **Optimeringsmål:** Optimera annonselement för antingen den bästa klickfrekvensen eller ett befintligt [Advertising DSP-anpassat mål](/help/dsp/optimization/custom-goal.md)
+
+  [!DNL Creative] optimerar annonsupplevelserna genom att ge intryck av att dela med de resurser som presterar bäst i upplevelsen. För upplevelser som riktar sig till specifika målgrupper kan annonserna optimeras baserat på resultatet för de enskilda annonselementen för målgrupperna. För upplevelser utan specifika målgruppsmål optimeras annonselementen enbart utifrån de enskilda annonselementens prestanda.
+
+Du kan till exempel schemalägga att Creative 1 ska köras under de första två veckorna för att optimera klickfrekvensen och att Creative 2 ska köras under de följande två veckorna för att optimera för ett visst anpassat mål.
 
 ## Implementera och hantera upplevelser
 
-När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md). Du kan överföra upplevelsetaggen som en annons till en kampanj i Adobe Advertising DSP eller implementera den som en annons i en DSP från tredje part. [!DNL Creative] visar annonser från första part och utlöser tredjepartsannonser för upplevelsen baserat på alternativ för målinriktning och annonsrotation samt tillgängligt annonsmaterial.
+När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md). Du kan överföra upplevelsetaggen som en annons till en kampanj i Adobe Advertising DSP eller implementera den som en annons i en DSP från tredje part.
 
 ## Prestandadata för era upplevelser
 
@@ -69,7 +85,7 @@ Status för en upplevelse anges automatiskt, förutom för *Borttagen* som du an
 | ------ | ----------- |
 | [!UICONTROL Live] | Upplevelsen innehåller alla nödvändiga element, så att du kan generera en upplevelsetagg som ska implementeras som en annons i en DSP. En liveupplevelse kan planeras att starta i framtiden. |
 | [!UICONTROL Draft] | Alla avdelningar i upplevelsen är inte tilldelade till kreatörer, så upplevelsen är ofullständig och du kan inte generera någon upplevelsetagg. |
-| [!UICONTROL Processing] | En tidigare aktiv upplevelse redigerades, men är nu ofullständig. Du kan inte generera en upplevelsetagg för den. **Obs!** Om du redan har implementerat en upplevelsetagg för upplevelsen kan den tidigare versionen fortfarande hanteras. Om du senare slutför upplevelsen - så att den blir offentlig igen - kan den nya versionen hanteras med den befintliga taggimplementeringen. |
+| [!UICONTROL Processing] | En tidigare liveupplevelse redigerades men är nu ofullständig. Du kan inte generera en upplevelsetagg för den. **Obs!** Om du redan har implementerat en upplevelsetagg för upplevelsen kan den tidigare versionen fortfarande hanteras. Om du senare slutför upplevelsen - så att den blir offentlig igen - kan den nya versionen hanteras med den befintliga taggimplementeringen. |
 | [!UICONTROL Deleted] | Upplevelsen togs bort från [!DNL Creative] och är inte längre synlig i [!UICONTROL Experiences]-vyerna. |
 
 >[!NOTE]

@@ -2,9 +2,10 @@
 title: Skapa en upplevelse utan mål för beslutsträd
 description: Lär dig skapa en annonsupplevelse utan målinriktning.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 327b1df5-5663-4513-9238-f481370c8c38
+source-git-commit: a738fed8aea38be2ca0adad08d084a383350d892
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -12,6 +13,12 @@ ht-degree: 1%
 # Skapa en upplevelse utan mål för beslutsträd
 
 *Stängd beta*
+
+Skapa en annonsupplevelse utan målinriktning. Alla upplevelser kan använda annonser från ett enda kreativt bibliotek.
+
+>[!NOTE]
+>
+> När du har skapat en upplevelse som inte är målinriktad kan du inte ändra den senare till en målinriktad upplevelse, som använder ett annat arbetsflöde.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
@@ -25,7 +32,11 @@ ht-degree: 1%
 
    * [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md).
 
+     [!DNL Creative] skapar inte annonstaggar automatiskt för upplevelser som inte är målinriktade.
+
    * [Tilldela kreatörer till en annonstagg](experience-tag-assign-creatives.md).
+
+     Tilldela kreatörer till annonstaggen, inte i upplevelseinställningarna.
 
    * [Anpassa spårnings-URL:er](experience-tracking-urls-no-targeting.md)
 

@@ -2,9 +2,10 @@
 title: Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning
 description: Lär dig hur du tilldelar kreatörer till en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
+source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 *Upplevelser utan mål för beslutsträd endast*
 *Stängd beta*
 
-Du kan tilldela kreatörer i tillämpliga kreativa storlekar till en annonstagg som används för en upplevelse. För standardannonsupplevelser kan ni bara tilldela standardkreatörer. För dynamiska annonsupplevelser kan du bara tilldela dynamiska kreatörer.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
+Du kan tilldela kreatörer i tillämpliga kreativa storlekar till en annonstagg som används för en upplevelse. Du kan använda kreatörer från det kreativa biblioteket som anges i upplevelseinställningarna. För standardannonsupplevelser kan ni bara tilldela standardkreatörer. För dynamiska annonsupplevelser kan du bara tilldela dynamiska kreatörer.<!-- Clarify what this does. It adds the image to the experience, but how does optimization work with multiple ad tags? -->
 
 Du kan senare [anpassa URL:er för spårning](experience-tracking-urls-no-targeting.md) och [Anpassa den kreativa optimeringen och schemaläggningen](experience-optimization-scheduling-no-targeting.md) för de kreatörer som används för annonstaggen.
 
