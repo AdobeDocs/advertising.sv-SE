@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: fd3805096f97ba572afb4a5573ae0e2f5ec17a6f
+source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
 workflow-type: tm+mt
-source-wordcount: '4255'
+source-wordcount: '4477'
 ht-degree: 0%
 
 ---
@@ -177,9 +177,9 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
   Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödets namn, flödesknapp eller en vald egenskapstagg.
 
-* [!UICONTROL Private] | [!UICONTROL Roku Private]: Dina befintliga privata avtal (eller befintliga privata [!DNL Roku] avtal för [!DNL Roku] praktik) med utgivare som du har konfigurerat i DSP. Du kan inkludera, men inte exkludera, offentligt lager.
+* [!UICONTROL Private] | [!UICONTROL Roku Private]: Dina befintliga privata avtal (eller befintliga privata [!DNL Roku] avtal för [!DNL Roku] praktik) med utgivare som du har konfigurerat i DSP, samt dina befintliga [privata avtalslistor](/help/dsp/inventory/lists-deals-manage.md). Du kan inkludera, men inte exkludera, offentligt lager.
 
-  Du kan söka i listan efter nyckelord, nyckel, erbjudande-ID eller egen tagg.
+  På fliken [!UICONTROL Deals] kan du söka i listan efter nyckelord, nyckel, avtal-ID eller anpassad tagg. På fliken [!UICONTROL Deal Lists] kan du söka i listan efter namn på avtalslista eller ID för avtalslista.
 
    * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Valfritt) Åsidosätter budprisalgoritmen för att lägga bud på minst de fasta och lägsta priserna för erbjudanden.
 
@@ -199,12 +199,15 @@ Så här anger du målinriktning för lager:
       1. ([!UICONTROL Public] och [!UICONTROL On Demand] lager) Klicka på **[!UICONTROL View by Source]** eller **[!UICONTROL View by Feed]** om du vill ändra hur källorna visas.
       1. (I tillämpliga fall) Filtrera lagret efter behov.
       1. Ange de källor som ska inkluderas och exkluderas:
-         * Om du vill ta med en [!UICONTROL Public]- eller [!UICONTROL On Demand]-källa klickar du på **[!UICONTROL Include]** bredvid källnamnet.
-         * Inkludera [!UICONTROL Private] källor:
-            * Om du vill inkludera allt lager i ett avtal klickar du på **[!UICONTROL Include all]** bredvid avtalsnamnet.
-            * Om du vill inkludera en enskild lagerkälla expanderar du avtalsnamnet och klickar sedan på kryssrutan bredvid källnamnet.
-         * Om du vill exkludera en [!UICONTROL Public] eller [!UICONTROL On source] klickar du på **[!UICONTROL Exclude]** bredvid källnamnet.
-   1. (Valfritt) Om du vill hämta en CSV-fil med målinformationen till hämtningsplatsen för din webbläsare klickar du på **[!UICONTROL Save & Export]**.
+         * För [!UICONTROL Public] eller [!UICONTROL On Demand] lager:
+            * Om du vill ta med en källa klickar du på **[!UICONTROL Include]** bredvid källnamnet.
+            * Om du vill utesluta en källa klickar du på **[!UICONTROL Exclude]** bredvid källnamnet.
+         * För [!UICONTROL Private]-lager:
+            * På fliken [!UICONTROL Deals]:
+               * Om du vill inkludera allt lager i ett avtal klickar du på **[!UICONTROL Include all]** bredvid avtalsnamnet.
+               * Om du vill inkludera en enskild lagerkälla expanderar du avtalsnamnet och klickar sedan på kryssrutan bredvid källnamnet.
+            * På fliken [!UICONTROL Deal Lists] klickar du på kryssrutan bredvid avtalslistans namn.
+   1. (Valfritt) Om du vill hämta en CSV-fil med målinformationen till hämtningsplatsen för din webbläsare klickar du på **[!UICONTROL Export]**.
    1. Klicka på **[!UICONTROL Save]**.
 
 >[!TIP]
@@ -256,30 +259,34 @@ Så här anger du målinriktning för lager:
 1. (Valfritt) Om du vill hämta en CSV-fil med målinformationen till hämtningsplatsen för din webbläsare klickar du på **[!UICONTROL Export]**.
 1. Klicka på **[!UICONTROL Save]**.
 
-**[!UICONTROL Exclude Sites or Apps]:** (Valfritt, tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatser som ska exkluderas. Du kan antingen söka efter och välja platser eller ange eller klistra in domännamn:
+**[!UICONTROL Exclude Sites or Apps]:** (Valfritt - tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL Off]*) Webbplatser/appar och [URL-listor](/help/dsp/resources/lists-url-manage.md) som ska uteslutas. På fliken [!UICONTROL Paste URL] kan du söka efter och välja webbplatser eller ange eller klistra in domännamn. På fliken [!UICONTROL URL Lists] kan du välja URL-listor.
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange platserna:
-   * Så här söker du efter en plats:
-      1. Klicka på **[!UICONTROL Search]**.
-      1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
-      1. Välj de webbplatser som ska uteslutas i sökresultaten:
-         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid.
-         * (När fler än 50 resultat är tillgängliga) Om du vill utesluta de första 50 resultaten klickar du på **[!UICONTROL Exclude these 50]**. Om du vill utesluta alla sökresultat klickar du på **[!UICONTROL Exclude these \<*N *\>]**.
-   * Så här anger du domännamn:
-      1. Klicka på **[!UICONTROL Paste]**.
-      1. Ange ett eller flera domännamn på separata rader.
-      1. Klicka på **[!UICONTROL Exclude All]**.
+   * Från fliken [!UICONTROL Paste URL]:
+      * Så här söker du efter en plats:
+         1. Klicka på **[!UICONTROL Search]**.
+         1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
+         1. Välj de webbplatser som ska uteslutas i sökresultaten:
+            * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid.
+            * (När fler än 50 resultat är tillgängliga) Om du vill utesluta de första 50 resultaten klickar du på **[!UICONTROL Exclude these 50]**. Om du vill utesluta alla sökresultat klickar du på **[!UICONTROL Exclude these \<*N *\>]**.
+      * Så här anger du domännamn:
+         1. Klicka på **[!UICONTROL Paste]**.
+         1. Ange ett eller flera domännamn på separata rader.
+         1. Klicka på **[!UICONTROL Exclude All]**.
+   * Från fliken [!UICONTROL URL Lists]:
+      1. (Valfritt) Sök efter en URL-lista genom att ange hela eller delar av listnamnet i sökfältet.
+      1. Markera kryssrutan bredvid varje URL-lista som ska uteslutas.
 1. Klicka på **[!UICONTROL Done]** när du är klar.
 
 >[!NOTE]
 >
 >* Listor med blockerade webbplatser på kontonivå och annonsörnivå används också, utöver DSP [globalt blockerade webbplatslista](/help/dsp/introduction/features/brand-safety-media-quality.md), som innehåller webbplatser som inte betraktas som säkra för annonser.
->* Blockerade webbplatslistor åsidosätter alltid målwebbplatslistor. Om en placering båda utesluter och innehåller samma mål för en annons, utesluts målet.
+>* Blockerade webbplatslistor åsidosätter alltid målwebbplatser och webbplatslistor. Om en placering båda utesluter och innehåller samma mål för en annons, utesluts målet.
 
 **[!UICONTROL Language]:** (Valfritt) Ett enda språk att rikta sig till.
 
-**[!UICONTROL Site or App List Preview]:** (skrivskyddat) Alla målwebbplatser och blockerade webbplatser för placeringen.
+**[!UICONTROL Site or app list preview]:** (skrivskyddat) Alla målwebbplatser och blockerade appar för placeringen, inklusive webbplatser/appar på kontonivå, annonsörsnivå och globala blockerade webbplatslistor från DSP.
 
 Du kan också exportera listan med målwebbplatser och blockerade webbplatser som en kommaavgränsad värdefil (CSV). Om du vill exportera listan klickar du på **[!UICONTROL Export full site list]** och öppnar eller sparar sedan filen enligt webbläsarens normala procedur.
 
@@ -287,21 +294,30 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 
 **[!UICONTROL Paste list of targeted sites]:** Gör att du bara kan ange specifika webbplatser som mål. När du aktiverar det här alternativet inaktiveras de andra alternativen för webbplatsanpassning.
 
-**[!UICONTROL Sites]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL On]*) Webbplatser att rikta till. Du kan antingen söka efter och välja platser eller ange eller klistra in domännamn:
+**[!UICONTROL Sites or Apps]:** (Tillgängligt när **[!UICONTROL Paste list of targeted sites]** är *[!UICONTROL On]*) Webbplatser att rikta till. På fliken [!UICONTROL Paste URL] kan du söka efter och välja webbplatser eller ange eller klistra in domännamn. På fliken [!UICONTROL URL Lists] kan du välja URL-listor.
 
 1. Klicka på ![Redigera](/help/dsp/assets/edit.png).
 1. Ange platserna:
-   * Så här söker du efter en plats:
-      1. Klicka på **[!UICONTROL Search]**.
-      1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
-      1. Markera de webbplatser som ska inkluderas i sökresultaten:
-         * Om du vill utesluta en enskild plats markerar du kryssrutan bredvid.
-         * (När fler än 50 resultat är tillgängliga) Om du vill inkludera de första 50 resultaten klickar du på **[!UICONTROL Include these 50]**. Om du vill inkludera alla sökresultat klickar du på **[!UICONTROL Include these \<*N *\>]**.
-   * Så här anger du domännamn:
-      1. klicka på **[!UICONTROL Paste]**.
-      1. Ange ett eller flera domännamn på separata rader.
-      1. Klicka på **[!UICONTROL Include All]**.
-1. Klicka på **[!UICONTROL Done]**.
+   * Från fliken [!UICONTROL Paste URL]:
+      * Så här söker du efter en plats:
+         1. Klicka på **[!UICONTROL Search]**.
+         1. Ange ett nyckelord, välj en webbplatsnivå och/eller välj en platskategori.
+         1. Markera de webbplatser som ska inkluderas i sökresultaten:
+            * Om du vill inkludera en enskild plats markerar du kryssrutan intill.
+            * (När fler än 50 resultat är tillgängliga) Om du vill inkludera de första 50 resultaten klickar du på **[!UICONTROL Include these 50]**. Om du vill inkludera alla sökresultat klickar du på **[!UICONTROL Include these \<*N *\>]**.
+      * Så här anger du domännamn:
+         1. Klicka på **[!UICONTROL Paste]**.
+         1. Ange ett eller flera domännamn på separata rader.
+         1. Klicka på **[!UICONTROL Include All]**.
+   * Från fliken [!UICONTROL URL Lists]:
+      1. (Valfritt) Sök efter en URL-lista genom att ange hela eller delar av listnamnet i sökfältet.
+      1. Markera kryssrutan bredvid varje URL-lista som ska inkluderas.
+1. Klicka på **[!UICONTROL Done]** när du är klar.
+
+>[!NOTE]
+>
+>* Listor med blockerade webbplatser på kontonivå och annonsörnivå används också, utöver DSP [globalt blockerade webbplatslista](/help/dsp/introduction/features/brand-safety-media-quality.md), som innehåller webbplatser som inte betraktas som säkra för annonser.
+>* Blockerade webbplatslistor åsidosätter alltid målwebbplatser och webbplatslistor. Om en placering båda utesluter och innehåller samma mål för en annons, utesluts målet. Du kan antingen söka efter och välja webbplatser eller ange eller klistra in domännamn:
 
 ## [!UICONTROL Audience Targeting]
 

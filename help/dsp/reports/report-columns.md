@@ -3,7 +3,7 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 15ce5490ae12fd0c50e4a178f8cb642078c4e847
+source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 0%
@@ -11,6 +11,12 @@ ht-degree: 0%
 ---
 
 # Tillgängliga rapportkolumner
+
+<!-- Add when added:
+
+|[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
+
+-->
 
 | Mätningstyp | Undertyp | Kolumnnamn | Beskrivning |
 |-----------|-------|-----------|-----------|
@@ -42,7 +48,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Den version av operativsystemet som annonsen visades på (till exempel [!UICONTROL Windows 10] eller [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | Det operativsystem som annonsen visades på (till exempel [!UICONTROL Apple iOS] eller [!UICONTROL Android]). |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Den unika identifierare som tilldelats ett avtal via den externa leveranspartnern. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Det användartilldelade namnet för erbjudandet, enligt DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Det användartilldelade namnet för erbjudandet, som anges i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | Leverantörspartnern som tillhandahåller lagret. Detta är vanligtvis en utgivare, men kan också vara en SSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | Klassificeringen av lagret: *[!UICONTROL Private],* *[!UICONTROL On Demand],* eller *[!UICONTROL Public]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | Den SSP-partner som mediet är hänförligt till. |
@@ -71,11 +77,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | Placeringen. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Paketets slutdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Paketets målbelopp för paketet. Detta belopp utgörs antingen av utgifter eller exponeringar. |
-| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Den unika identifieraren för paketet i DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Unik identifierare för paketet i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Name] | Paketets namn |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Start Date] | Paketets startdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Placement End Date] | Placeringens slutdatum. |
-| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion ID] | (Borttaget) Konverterings-ID som tilldelats av DSP till äldre [!DNL TubeMogul]-konverteringshändelser. |
+| [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion ID] | (Borttaget) Konverterings-ID som tilldelats av DSP till äldre [!DNL TubeMogul] konverteringshändelser. |
 | [!UICONTROL Dimension] | [!UICONTROL Pixel] | [!UICONTROL Conversion Name] | (Föråldrat) Konverteringsnamnet som har tilldelats äldre [!DNL TubeMogul] konverteringshändelser. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement ID] | Unik identifierare för placeringen i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | Namnet på placeringen som tilldelats av användaren. |
@@ -95,7 +101,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Unik identifierare för webbplatsen eller appen i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Platsens namn. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | Videolängden, som bearbetas efter överföringen. |
-| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Den unika identifieraren för den kreativa videon i DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Den unika identifieraren för videokreativiteten i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | Namnet på den kreativa som tilldelats av användaren. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL % Distinct Uniques] | [!UICONTROL App/Site Distinct Uniques] delat med [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL App/Site Distinct Uniques] | Det totala antalet enheter som nåtts endast på den här appen. Ett visningsprogram som visas för en annons över flera utgivare ingår inte i det här värdet. |
@@ -103,9 +109,9 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Cost per Unique] | [!UICONTROL Total Spend] delat med [!UICONTROL App/Site Uniques]. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated % Reached] | Den uppskattade procentandel av målgruppen för hushållsuniversum som fick en exponering. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Average Frequency] | Genomsnittligt antal visningar som visas för unika. För en del lager skickas ingen enhets-ID och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i rapporten [!UICONTROL Frequency (by App/Site)], men det måttet har inte beräknats. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Ingår i rapporten [!UICONTROL Frequency (by Impression)]) De uppskattade intrycken för en viss frekvensbrytning. DSP bygger på ett urval av visningar. För en del lager skickas ingen enhets-ID och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i rapporten [!UICONTROL Frequency (by App/Site)], men det måttet har inte beräknats. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Ingår i rapporten [!UICONTROL Frequency (by Impression)]) Antalet unika webbläsare eller enheter som registrerats för en viss frekvens. DSP bygger på ett urval av visningar. För en del lager ska du inte skicka med en enhetsidentifierare, och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i rapporten [!UICONTROL Frequency (by App/Site)], men det måttet har inte beräknats. |
-| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | Summan av unika hushåll som DSP (auktioner) har noterat inom datumintervallet. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Impressions (Device/Browser)] | (Ingår i rapporten [!UICONTROL Frequency (by Impression)]) De uppskattade intrycken för en viss frekvensbrytning. DSP skattningar bygger på ett urval av visningar. För en del lager skickas ingen enhets-ID och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i rapporten [!UICONTROL Frequency (by App/Site)], men det måttet har inte beräknats. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Uniques (Device/Browser)] | (Ingår i rapporten [!UICONTROL Frequency (by Impression)]) Antalet unika webbläsare eller enheter som registrerats för en viss frekvens. DSP skattningar bygger på ett urval av visningar. För en del lager ska du inte skicka med en enhetsidentifierare, och dessa visningar inkluderas inte i det här värdet. Det finns ett liknande mått i rapporten [!UICONTROL Frequency (by App/Site)], men det måttet har inte beräknats. |
+| [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Estimated Universe] | Summan av unika hushåll som DSP (auktioner) har sett inom datumintervallet. |
 | [!UICONTROL Metric] | [!UICONTROL Frequency] | [!UICONTROL Extended Impressions] | Det totala antalet visningar som fungerade som ett resultat av att ett enhetsdiagram används för personbaserad målinriktning på olika enheter. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency] | Hur ofta visningar ska göras per hushåll. |
 | [!UICONTROL Metric] | [!UICONTROL Household] | [!UICONTROL Frequency Overlap] | Frekvensen för att nå hushåll med endast den rapporterade dimensionen, inklusive skärningar på upp till tre värden för dimensionen. Om du till exempel använder dimensionen [!UICONTROL Placement] kan du se den frekvens som uppnås av enskilda placeringar, frekvenser som nås av en kombination av två placeringar och frekvenser som nås av kombinationer av tre placeringar. |
@@ -137,19 +143,19 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Genomsnittlig nettokostnad per slutförd videovy, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Genomsnittlig nettokostnad per videovy, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet vid maximal CPM. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Antalet distinkta användare för vilka DSP lägger bud på placeringen. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet på Max CPM. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Antalet distinkta användare som DSP erbjuder för placeringen. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Den totala nettokostnaden för fakturerbara medier, inklusive teknikavgiften, som faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | Beräknad skatt på kundsegment och datatjänster från tredje part. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | Uppskattad skatt på media inklusive moms på återfakturering av mediekostnader och teknisk avgift i DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Uppskattad skatt på andra serviceavgifter (inklusive verifieringspartners från tredje part, målgruppsanpassning o.s.v.) som faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | Uppskattad moms på media inklusive moms på återfakturering av mediekostnader och teknisk avgiftsservice i DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Uppskattad moms på andra serviceavgifter (inklusive verifieringspartners från tredje part, målgruppsanpassning o.s.v.) som faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (När marginalhantering är aktiverad) Marginalprocenten, som beräknas av <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | Summan av icke-fakturerbara och fakturerbara mediekostnader utan några tekniska avgifter. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Genomsnittlig nettokostnad per 1 000 visningar som kan visas, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Den totala nettokostnaden för avgifter för målgruppsdata som inte faktureras via DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Den totala nettokostnaden för icke-fakturerbara medier, inklusive teknisk avgift, som inte faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som inte faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Den totala nettokostnaden för icke-fakturerbara medier, inklusive teknikavgiften, som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Summan av [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] och [!UICONTROL Billable Spend (Other)]. |
