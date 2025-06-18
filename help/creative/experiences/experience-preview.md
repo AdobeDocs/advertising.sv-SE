@@ -3,7 +3,7 @@ title: Förhandsgranska en upplevelse
 description: Lär dig förhandsgranska kreatörerna i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: 278104fb09797e781894a6894a0a53db4a8e28f8
+source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Du kan förhandsgranska de som skapar en viss annonsstorlek och se resultatet f�
 
 1. (Valfritt) Om du vill kopiera en demo-URL för upplevelsen som ska delas med andra personer utan inloggning till [!DNL Creative]:
 
-   1. Klicka på ![Dela](/help/creative/assets/share2.png "Dela") i det övre högra hörnet av förhandsgranskningen.
+   1. Klicka på ![Dela](/help/creative/assets/share.png "Dela") i det övre högra hörnet av förhandsgranskningen.
 
    1. I dialogrutan [!UICONTROL Share Demo URL] klickar du på **[!UICONTROL Copy]** för att kopiera URL:en till Urklipp så att du kan dela den med någon annan.
 
