@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 677596e41944de7782c520496f6751f03bf5d9a2
+source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1103'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Biblioteken kan innehålla:
 
 * **Enskilda kreatörer:** Du kan inkludera enskilda kreatörer direkt i annonsupplevelser som inte har definierade användarmål. Du kan också använda dina kreatörer för att skapa paket, som du kan inkludera i riktade [annonsupplevelser](/help/creative/experiences/experience-about.md).
 
-   * **Standardkreatörer:** Du kan överföra och hantera kreatörer i [olika format](#creative-creative-formats). För varje kreatör anger du standardspråket för varje annons som du associerar den kreativa, standardstartsidan som öppnas när en användare klickar på en annons som innehåller den kreativa samt valfria etiketter som ska användas som filter i olika vyer i [!DNL Creative].
+   * **Standardkreatörer:** Du kan överföra och hantera kreatörer i [olika format](#creative-creative-formats). För varje kreatör anger du standardspråket för varje annons som du kopplar till den kreativa sidan och standardstartsidan som öppnas när en användare klickar på en annons som innehåller den kreativa sidan. Du kan också ange etiketter som ska användas som filter i olika vyer inom [!DNL Creative] och som kolumnvärden i [!UICONTROL Custom Creative Report] när du inkluderar med dimensionen [!UICONTROL Creative Label].
 
    * **Dynamiska kreatörer:** (endast befintliga Adobe Advertising DCO-kunder) Administratörsanvändare kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
@@ -90,6 +90,8 @@ Mer information om hur du anpassar vyn finns i [Anpassa datavyer](/help/creative
 
 I huvudvyn i [!UICONTROL Creative Libraries] visas alla dina kreativa bibliotek. Data för varje bibliotek omfattar antalet upplevelser som biblioteket tilldelas till, antalet paket, antalet kreatörer, antalet kreativa storlekar, antalet standardspråkmål, skapandedatum och det senaste ändringsdatumet för något element i biblioteket. Tabelläget innehåller även en kolumn för annonsören.
 
+När du är i kortläge kan du bläddra bland bilderna i ett bibliotek med flera kreatörer med hjälp av knapparna &lt; och >.
+
 #### Tillgängliga åtgärder
 
 * Skapa nya bibliotek
@@ -156,7 +158,7 @@ Möjligheten att skapa och redigera dynamiska kreatörer är för närvarande ba
 
 ### Vyn [!UICONTROL Creative Libraries] > [!UICONTROL Bundles]
 
-I vyn [!UICONTROL Bundles] visas alla standardpaketbehållare och dynamiska paketbehållare. Du kan se kreativa namn, kreativa storlekar och språk för de kreatörer som ingår i varje paket.
+I vyn [!UICONTROL Bundles] visas alla standardpaketbehållare och dynamiska paketbehållare. Du kan se kreativa namn, kreativa storlekar och språk för de kreatörer som ingår i varje paket. När du är i kortläge kan du bläddra bland bilderna i ett paket med flera kreatörer med hjälp av knapparna &lt; och >.
 
 #### Tillgängliga åtgärder
 

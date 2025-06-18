@@ -3,9 +3,9 @@ title: Lägga till en målnod på samma nivå mellan noder i en upplevelse
 description: Lär dig hur du lägger till en nod på samma nivå i en nod som har ett mål eller som finns på samma nivå som en nod med ett mål.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 8961833c854ed41e4cca69787a5dc70dce2f203c
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ In an existing experience,
          Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angivet geografiskt mål. Om du inte delar upp målen måste användaren tillhöra alla angivna platser (en [!DNL Boolean] `AND` -sats).
 
       1. Klicka på **[!UICONTROL Apply]**.
+
+1. (Valfritt) Ange ett eget grennamn för en användardefinierad gren.
+
+   Som standard är användardefinierade grenar märkta med de angivna målen.
+
+   Du kan inte skapa ett anpassat grennamn för en Alla eller Alla andra grenar.
+
+   1. Håll markören över målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Ange **[!UICONTROL Node Name]** och klicka sedan på **[!UICONTROL Save]**.
 
 1. Gör något av följande:
 

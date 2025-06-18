@@ -3,7 +3,7 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 6c75d21daba9a07f17d4f339a0edf4d0bdc06019
+source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 
       * Målgrupper:
 
-        *[Lägg till en målnod på den sista nivån](experience-target-node-add-final.md) i en upplevelse.
+         * [Lägg till en målnod på den sista nivån](experience-target-node-add-final.md) i en upplevelse.
 
          * [Infoga en målnod mellan noder](experience-target-node-add-inner.md).
 

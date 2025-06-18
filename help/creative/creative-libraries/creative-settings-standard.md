@@ -1,16 +1,16 @@
 ---
-title: Kreativa inställningar
+title: Creative-inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1812'
 ht-degree: 0%
 
 ---
 
-# Kreativa inställningar
+# Creative-inställningar
 
 *Stängd beta*
 
@@ -30,7 +30,7 @@ När du redigerar flera kreatörer samtidigt:
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
-**Kreativ storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
+**Creative-storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
 
 **[!UICONTROL Click Tags]:** Variablerna som tillåter klickspårning omdirigeras från de inkluderade bannerannonserna. Variabelnamnen och motsvarande URL:er för landningssidan fylls i från den överförda kreativa enheten, men du kan ändra standardwebbadresserna. För flera kreatörer kan du redigera de enskilda klicktaggarna.
 
@@ -40,7 +40,7 @@ När du redigerar flera kreatörer samtidigt:
 >When you include the creative in an experience, you can replace the default value for any of the click tags with a custom landing page URL to generate a derivation of the base creative.
 -->
 
-**Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer i [!DNL Creative].
+**Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer inom [!DNL Creative] och inkludera dimensionen [!UICONTROL Creative Label] i [!UICONTROL Custom Creative Report].
 
 * Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
 
@@ -98,7 +98,7 @@ För nya kreatörer finns följande inställningar inte på en namngiven flik.
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
-**Kreativ storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
+**Creative-storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
 
 **[!UICONTROL Click Tags]:** (Endast statiska HTML5-användare) Variabler som tillåter klickspårning omdirigeras från de inkluderade bannerannonserna. Variabelnamnen och motsvarande URL:er för landningssidan fylls i från den överförda kreativa enheten, men du kan ändra standardwebbadresserna. För flera kreatörer kan du redigera de enskilda klicktaggarna.
 
@@ -154,7 +154,7 @@ Ersätta den befintliga annonsmallen:
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. Samma värde gäller för alla markerade bilder. När du tar med kreatörerna i en upplevelse kan du välja att anpassa språkinställningarna för upplevelsen.
 
-**Kreativ storlek:** (skrivskyddat) Dimensionerna för de överförda bilderna.
+**Creative-storlek:** (skrivskyddad) De överförda bildernas dimensioner.
 
 **URL för landningssida:** URL-adressen till standardlandningssidan för varje annons som du associerar med kreatörerna. Landningssidans URL måste vara en giltig URL som börjar med http:// eller https://. Den kan innehålla spårningsparametrar från tredje part eller [[!DNL Creative] makron](/help/creative/creative-macros.md) för egen användning. Samma värde gäller för alla markerade bilder.
 

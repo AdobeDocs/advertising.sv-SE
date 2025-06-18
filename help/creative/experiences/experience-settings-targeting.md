@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: dac7252e118e467fbc924cf162756d7ecd69892f
+source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Varje nyckel läggs till som ett makro i annonsupplevelsetaggen, som du kan gene
 
 **RT-pixel:** (skrivskyddat för befintliga upplevelser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet när du skapar upplevelsen kan du ändå ange en i beslutsträdet.<!-- May move this to just within the decision tree. -->
 
-**Etikett:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
+**Etikett:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i upplevelsevyn och inkludera dimensionen [!UICONTROL Experience Label] i [!UICONTROL Custom Creative Report].
 
 * Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
 

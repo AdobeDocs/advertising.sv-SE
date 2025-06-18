@@ -3,9 +3,9 @@ title: Ta bort en målnod eller en kreativ lövnod i en upplevelse
 description: Lär dig hur du tar bort en nod i en upplevelse.
 feature: Creative Experiences
 exl-id: a8973c9e-bd0a-4f62-8668-520495b2525d
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: a98f5dc623e8ac86878171f8742f3bf279343343
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Du kan ta bort en målnod, inklusive alla underordnade mål och de kreativa pake
 
 <!-- 1. [ways to get to the decision tree] -->
 
-1. Håll markören över målnoden eller den kreativa bladnoden och klicka **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
+1. Håll markören över målnoden eller den kreativa bladnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Delete]**.
 
 1. Klicka på **[!UICONTROL Delete Node]** i bekräftelsemeddelandet.
 

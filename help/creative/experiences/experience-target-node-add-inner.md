@@ -3,9 +3,9 @@ title: Lägga till en målnod mellan noder i en upplevelse
 description: Lär dig hur du lägger till en målnod mellan målböcker i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 05bcaa63779856cfea2f9cd3a0ab5d5e9d3d472a
+source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,16 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
          1. (Valfritt) Om du vill skapa flera målnoder när flera geografiska mål har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
 
          1. Klicka på **[!UICONTROL Apply]**.
+
+1. (Valfritt) Ange ett eget grennamn för en användardefinierad gren.
+
+   Som standard är användardefinierade grenar märkta med de angivna målen.
+
+   Du kan inte skapa ett anpassat grennamn för en Alla eller Alla andra grenar.
+
+   1. Håll markören över målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Name]**.
+
+   1. Ange **[!UICONTROL Node Name]** och klicka sedan på **[!UICONTROL Save]**.
 
 1. Gör något av följande:
 

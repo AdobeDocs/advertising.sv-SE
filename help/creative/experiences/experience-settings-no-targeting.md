@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: e070e676b9ae321ddc73acfff0dfc05ea91f9715
+source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ När du skapar en tagg för annonsupplevelser för en viss kreativ storlek lägg
 
 **RT-pixel:** (Upplevelser med enbart dynamiska annonser; valfritt) En [!UICONTROL Creative] återmarknadsföringspixel som kan ha som mål. När du ställer in mål inom beslutsträdet kan du inkludera en nivå med målnoder för RT-pixlar. För varje nod ska du ange vilken pixel som ska användas som mål och vilka värden för pixelns attribut som krävs för att visa kreatörerna i de tilldelade kreativa paketen. Om du inte anger en pixel i det här fältet kan du ändå ange en i beslutsträdet.<!-- From R: "the RT Pixel should be via the content selection in the Dynamic ad setup." Clarify. I do see "Datapass" (oneword) in the dynamic ad settings, but I'm not sure how that setting and this experience-level one work together. -->
 
-**[!UICONTROL Label]:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i vyn Erfarenheter <!-- sic -->.
+**[!UICONTROL Label]:**<!-- should be "Labels" --> (Valfritt) Alla [!DNL Creative]-specifika etiketter som ska användas för upplevelsen. Du kan filtrera upplevelser efter etikett i upplevelsevyn och inkludera dimensionen [!UICONTROL Experience Label] i [!UICONTROL Custom Creative Report].
 
 * Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
 
