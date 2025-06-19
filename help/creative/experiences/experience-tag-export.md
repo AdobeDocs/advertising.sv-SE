@@ -33,7 +33,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +45,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet eller klicka på **[!UICONTROL Generate ad tags]** i den vänstra menyn.
 
-1. Välj taggtyp: ** *JavaScript<!-- sic -->* ** eller ** *IFRAME* ** <!-- sic -->.
+1. Välj taggtyp: ** *JavaScript<!-- sic -->* **&#x200B; eller &#x200B;** *IFRAME* ** <!-- sic -->.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 
