@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: a6d38953fa16a79f63bebe050e28fc14ed9a96f5
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    * Specifika geografiska platser, inklusive länder, delstater, DMA:er i USA, städer och postnummer
 
-   * Visare som specifika nyckelvärdepar (mål för dataöverföring) skickas från DSP, utgivaren eller partnern
+   * Visare som specifika nyckelvärdepar (mål för dataöverföring) skickas från DSP, utgivaren eller partnern (t.ex. SKU=01234567890123 eller Cart=empty)
 
    * [!DNL Creative] omdirigerade pixlar och angivna attributvärden
 
@@ -38,12 +38,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Eftersom de två typerna av upplevelser har olika arbetsflöden kan du inte ändra om du ska använda målgruppsanpassning för beslutsträd när du väl har sparat upplevelsen. Det innebär att du inte kan ändra en icke-målinriktad upplevelse till en målinriktad upplevelse. På samma sätt kan du inte ändra en målinriktad upplevelse till en upplevelse som inte är målinriktad.
+> Eftersom de två typerna av upplevelser har olika arbetsflöden kan ni inte ändra en icke-riktad upplevelse till en målinriktad upplevelse eller en målinriktad upplevelse till en upplevelse som inte är målinriktad.
 
 ## Annonsvisning och optimering
 
 <!-- MORE -->
-<!--When multiple ad variants qualify for an impression-->
+<!-- When multiple ad variants qualify for an impression -->
 
 [!DNL Creative] visar annonser från första part och utlöser tredjepartsannonser för upplevelsen baserat på den angivna målsättningen (när det är tillämpligt), schemaläggning, annonsrotation och optimeringsmålalternativen samt tillgängligt annonsmaterial.
 
@@ -61,6 +61,10 @@ Du kan till exempel schemalägga att Creative 1 ska köras under de första två
 
 När du har skapat en liveupplevelse (med alla nödvändiga annonselement) kan du [generera en JavaScript- eller iframe-tagg för hela upplevelsen](experience-tag-export.md). Du kan överföra upplevelsetaggen som en annons till en kampanj i Adobe Advertising DSP eller implementera den som en annons i en DSP från tredje part.
 
+>[!NOTE]
+>
+>Hierarkisk målinriktning kan variera beroende på DSP. Advertising DSP lägger in målgruppsanpassning på annonsnivå ovanpå målinriktning på placeringsnivå.
+
 ## Prestandadata för era upplevelser
 
 Följande prestandadata är tillgängliga:
@@ -68,10 +72,6 @@ Följande prestandadata är tillgängliga:
 * När du aktiverar alternativet [!UICONTROL Metrics] i vyn [!UICONTROL Creative] > [!UICONTROL Experiences] visar varje upplevelsekort eller rad antalet visningar och klick som upplevelsen har fått.
 
   ![Metrisk, alternativ](/help/creative/assets/metrics-option.png "Metrisk, alternativ")
-
-  <!-- insert screen shot of Metrics option?  If not, then add instructions elsewhere -->
-
-  <!-- I don't see this as of 1/9; why only in the table view?   You can also add conversion columns in the table view. -->
 
 * Du kan [visa detaljerade prestandadata för alla upplevelser](experience-performance-details.md) från vyn [!UICONTROL Experiences].
 

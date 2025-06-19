@@ -3,9 +3,9 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: bd72dccf0c24c2408b4e6349842dae4b3ba93956
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ För upplevelser utan mål för beslutsträd kan du åsidosätta standardkreatö
 
 ## [!UICONTROL Advanced] avsnitt
 
-**Dataisolering:** (endast upplevelser med dynamiska annonser; valfritt) Om du vill rikta in användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid intrycket. Du kan ange upp till fem databassnycklar (parametrar).<!-- May move this to just within the decision tree. -->
+**Dataisolering:** (Endast upplevelser med dynamiska annonser; valfritt) Om du vill rikta in användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid intrycket (till exempel SKU=01234567890123 eller Cart=empty). Du kan ange upp till fem databassnycklar (parametrar).<!-- May move this to just within the decision tree. -->
 
 När du skapar en tagg för annonsupplevelser för en viss kreativ storlek läggs varje nyckel som anges i det här fältet till som ett makro i taggen. Ange värdet för varje nyckelvärdepar i taggen innan du implementerar taggen som en annons i din DSP.
 

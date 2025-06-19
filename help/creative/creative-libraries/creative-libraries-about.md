@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 86bd3384a44cc526428dd8ea5e97fdd684331086
+source-git-commit: 915fd9e2aebf300a37a5b6fdac6aa3526bd09f50
 workflow-type: tm+mt
 source-wordcount: '1103'
 ht-degree: 0%
@@ -42,23 +42,7 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra attribut som HTML-standardtaggar, som du kan redigera direkt i [!DNL Creative], antingen i ett kreativt bibliotek eller i en enskild upplevelse (vilket skapar en variation av originalet). I DSP är de flexibla HTML 5-programmen avsedda för en viss annonsstorlek (i pixlar). Du kan också ändra standardvärdena för attributen som anges i en flexibel HTML5-kreatör. Senare kan du ange anpassade värden för attributen i en viss upplevelse, vilket skapar en variation av den överordnade kreativiteten.
 
-<!-- Removed:
-
-Flexible HTML5 creatives are HTML5 creatives with all of their images and other attributes as standard HTML tags, which you can edit directly within [!DNL Creative], either within a creative library or within an individual experience (which creates a variation of the original creative). Flexible HTML5 creatives use the Interactive Advertising Bureau (IAB) Technology Laboratory's standard for an [ad portfolio](https://flexibleads.iabtechlab.com/), for which ad format sizes are flexible (rather than fixed) and are based on the ad’s aspect ratio and size range, and for which ads maintain their resolution across devices and publisher sites. You can optionally change the default values of the attributes specified in a flexible HTML5 creative. Later, you can specify custom values for the attributes within a specific experience, which creates a variation of the parent creative.
-
--->
-
 Du kan antingen överföra flexibla HTML5-användare som ZIP-filer eller använda någon av de mallar som är tillgängliga för ditt konto som utgångspunkt. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
-
-<!-- Will flattening the view be possible later?
-The card view, by default, includes a card for each base flexible HTML5 creative you've uploaded, with the number of creative variations [Delete old description? : an indicator of how many variations of the creative exist]. You can optionally flatten the card view to include separate cards for each base creative and each derivation. The table view is always flattened.
-
-
-[Example default card view for a flexible creative with variations]()[]add image]
-  
-[Example card for a flexible creative with one variation]() [add image]
-
- -->
 
 #### HTML5 kreatörer
 
@@ -94,15 +78,15 @@ När du är i kortläge kan du bläddra bland bilderna i ett bibliotek med flera
 
 #### Tillgängliga åtgärder
 
-* Skapa nya bibliotek
+* [Skapa ett nytt bibliotek](/help/creative/creative-libraries/creative-library-manage.md#create-a-creative-library)
 
 * För varje kreativt bibliotek:
 
-   * Redigera biblioteksnamnet
+   * [Redigera ett bibliotek](/help/creative/creative-libraries/creative-library-manage.md#edit-the-name-of-a-creative-library)
 
-   * Öppna biblioteket för att visa de kreatörer och paket som har tilldelats biblioteket
+   * [Öppna ett bibliotek för att visa de kreatörer och paket som har tilldelats biblioteket](/help/creative/creative-libraries/creative-library-manage.md#open-a-creative-library)
 
-   * Ta bort biblioteket
+   * [Ta bort bibliotek](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
 ### Vyerna [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
@@ -125,12 +109,6 @@ På fliken [!UICONTROL Standard Ads] visas alla standardalternativ som du har sk
 * [Hämta standardkreatörer](creative-download.md)
 
 * [Ta bort standardkreatörer](creative-delete.md)
-
-<!-- Add in as separate actions?
-
-add or remove labels, regenerate thumbnails for your creatives. When a creative has child creative variations, you can view the variations within the Card view.
-
--->
 
 #### [!UICONTROL Dynamic Ads]
 

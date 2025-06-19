@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: a7b5a4e55c2ea66a4ca74a517ea3d90336021e30
+source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ När du har sparat upplevelsen kan du inte ändra den här inställningen.
 
 ## [!UICONTROL Advanced] avsnitt
 
-**Dataisolering:** (skrivskyddat för befintliga upplevelser; valfritt) Om du vill rikta användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid exponering. Du kan ange upp till fem standardnycklar (parametrar) för dataöverföring. När du ställer in mål inom beslutsträdet kan du inkludera en nivå av målnoder för datapassage, eventuellt anpassa nycklarna och ange vilka värden som ska användas för varje nod. Om du inte anger några nycklar i det här fältet när du skapar upplevelsen kan du ändå ange dem i beslutsträdet.
+**Datapass:** (skrivskyddat för befintliga upplevelser; valfritt) Om du vill rikta användare baserat på specifika nyckelvärdepar som DSP, utgivaren eller partnern skickar i realtid vid intrycket (till exempel SKU=01234567890123 eller Cart=empty). Du kan ange upp till fem standardnycklar (parametrar) för dataöverföring. När du ställer in mål inom beslutsträdet kan du inkludera en nivå av målnoder för datapassage, eventuellt anpassa nycklarna och ange vilka värden som ska användas för varje nod. Om du inte anger några nycklar i det här fältet när du skapar upplevelsen kan du ändå ange dem i beslutsträdet.
 
 Varje nyckel läggs till som ett makro i annonsupplevelsetaggen, som du kan generera för implementering som en annons i din DSP.
 
