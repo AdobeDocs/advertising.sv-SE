@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 39e2d6afa357f2cbe4037371a1441ddc2ffa9ef2
+source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 
       * Målgrupper:
 
-         * [Lägg till en målnod på den sista nivån](experience-target-node-add-final.md) i en upplevelse.
+         * [Lägg till en målnod på den sista nivån](experience-target-node-add-final.md).
 
          * [Infoga en målnod mellan noder](experience-target-node-add-inner.md).
 
@@ -80,7 +80,7 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 
       * Klicka på **[!UICONTROL Continue Edit]** om du vill fortsätta redigera beslutsträdet.
 
-När upplevelsen är aktiv skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek.
+När upplevelsen är aktiv skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek. Du kan sedan [exportera annonstaggen och implementera den i en DSP](/help/creative/experiences/experience-tag-export.md).
 
 >[!MORELIKETHIS]
 >
