@@ -2,9 +2,9 @@
 title: Om Adobe Advertising Creative
 description: Läs mer om  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 1ab83cfe82bde4a7b1a32cf3773cdce4738af497
+source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -15,38 +15,37 @@ ht-degree: 0%
 
 <!-- verify all and rewrite to include new stuff -->
 
-Som en del av Adobe Advertising är Advertising Creative en självbetjäningsplattform för automatisering av personaliserade annonsupplevelser i realtid och optimering av annonser på elementnivå för det kreativa.
+Som en del av Adobe Advertising är Advertising Creative en självbetjäningsplattform för automatisering av personaliserade annonsupplevelser i realtid och optimering av annonser på elementnivå för det kreativa.<!-- Verify --> Du kan implementera annonsupplevelserna som annonser i alla DSP, inklusive Adobe Advertising DSP.
 
 ## Egna kreativa bibliotek med återanvändbara kreatörer
 
-Med Creative Libraries kan ni hantera de kreativa verktyg ni kommer att använda i era annonsupplevelser. Du kan skapa flera bibliotek där var och en innehåller enskilda kreatörer och kreativa grupper (kallas *paket*). Ni kommer att lägga till kreativa paket till era annonsupplevelser.
+Med Creative Libraries kan ni hantera de kreativa verktyg ni kommer att använda i era annonsupplevelser. Du kan skapa flera bibliotek, där var och en innehåller enskilda kreatörer och kreativa grupper (kallas *paket* som du kopplar till upplevelser).
 
-## Regelbaserade upplevelser
+### [!DNL Adobe] resursintegreringar
 
-Med [!DNL Creative] kan du skapa artiklar med hjälp av en regelbaserad beslutsträdsmodell, som visar en koreografisk sträng med annonser som har anpassats i realtid baserat på vad du vet om din publik, och som följer dina kunder även när de går över till olika webbplatser<!-- verify if that's true without Adobe CDP -->. Berättelserna kan till exempel ändras utifrån kundbeteende, geografi, demografiska förhållanden, återmarknadsföring, position i kundresan och mycket annat.
+[!DNL Creative] är direkt integrerat med Adobe Experience Manager, vilket gör att du enkelt kan överföra de [!DNL Adobe]-bildresurser som ditt designteam skapar och godkänner och sedan använda dem för storyboarding i realtid och redigering av annonsupplevelser.
 
-<!-- Add when available:
+## Både regelbaserade och icke-målinriktade upplevelser
 
-## [!DNL Adobe] content and data integrations
+* **Riktade regelbaserade upplevelser:** Bygg upp artiklar med en regelbaserad beslutsträdsmodell - och ta fram en koreografisk sträng med annonser som har anpassats i realtid baserat på vad du vet om målgruppen. Berättelserna kan till exempel ändras utifrån kundbeteende, geografi, demografiska förhållanden, återmarknadsföring, position i kundresan och mycket annat.
 
-[!DNL Creative] has direct integrations with Adobe Experience Manager, allowing you to easily upload the [!DNL Adobe] assets that your design team creates and use them for real-time storyboarding and editing of ad experiences.
+* **Icke-målinriktade upplevelser:** Schemalägg och optimera annonselement utan att begränsa målgruppen.
 
-You also can use your first-party audience segments from Adobe Audience Manager and Adobe Analytics &mdash; as well as audience segments you create in Advertising Cloud DSP
-or retargeting pixels you create using [!DNL Creative] &mdash; as targets for specific creatives in an ad experience.
--->
+### [!DNL Adobe] dataintegreringar
+
+Du kan använda era egna målgruppssegment från Adobe Audience Manager och Adobe Analytics - samt målgruppssegment som du skapar i Advertising Cloud DSP och återannonsera pixlar som du skapar med [!DNL Creative] - som mål för specifika kreatörer i en annonsupplevelse. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementering av upplevelser som annonser
 
-När du har skapat en upplevelse kan du skapa en JavaScript- eller iframe-tagg för upplevelsen och implementera taggen som en tredjepartsannons i Advertising DSP eller någon annan DSP.<!-- Add any more info about integration with DSP? -->
-
-<!-- Maybe add a subsection "Audience targeting options" with info about types of creative-level Retargeting and placement-level targeting within your DSP.  Need to clarify if any placement-level targeting might contradict/override creative-level targeting, or if they're completely different.
-
-Advertiser should be able to target all segments which are available in DSP for targeting
--->
+När du har skapat en upplevelse kan du generera en JavaScript- eller iframe-tagg för upplevelsen och implementera taggen som en tredjepartsstandarddisplayannons i en Advertising DSP-kampanj eller i någon annan DSP.<!-- Will add video and other ad formats; not sure if they'll be available for both standard and dynamic ads. -->
 
 ### Optimering av annonselement
 
 Du kan också tillåta att [!DNL Creative] optimerar annonselementen för alla upplevelser baserat på prestanda - oavsett om du definierar specifika målgruppsmål eller inte - med optimerad, viktad annonrotation, som drivs av Adobe Sensei.
+
+<!--
+[!DNL Creative] serves first-party ads and triggers third-party ads for the experience based on the specified targeting (when applicable), scheduling, ad rotation, and optimization goal options 
+-->
 
 ## Återmarknadsföring av pixlar
 
@@ -67,7 +66,7 @@ to the DSP.
 
 Du kan visa detaljerade resultatrapporter på erfarenhetsnivå i Creative > Experiences.
 
-Du kan också skapa anpassade Creative-rapporter på Rapporter > Anpassade rapporter för att övervaka prestandan på upplevelsenivå i alla dina upplevelser. Om du använder dina [!DNL Creative]-upplevelser som annonser inom DSP-kampanjer finns det resultatdata för dessa annonser i ytterligare anpassade rapporter, precis som data för dina andra DSP-annonser. <!-- Verify that [!DNL Creative] users have access to ALL other reports, and if I can completely duplicate the report help for both help sets. -->
+Du kan också skapa anpassade Creative-rapporter på Rapporter > Anpassade rapporter för att övervaka prestandan på upplevelsenivå i alla dina upplevelser. Om du använder dina [!DNL Creative]-upplevelser som annonser inom DSP-kampanjer finns det resultatdata för dessa annonser i ytterligare anpassade rapporter, precis som data för dina andra DSP-annonser. <!-- Verify that [!DNL Creative] users have access to ALL other reports. -->
 
 Du kan också leverera dina anpassade rapporter till angivna [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md).
 

@@ -3,9 +3,9 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: f2bf245c13244cbcb76cead8b37f149b9b9bc24f
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 När en annonstagg för en viss kreativ storlek är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript- och iframe-format för implementering i Advertising DSP eller andra DSP. Taggarna för DSP innehåller alla makron som krävs för DSP.
 
-Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som reklam.
+Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som annonser med annonstypen&quot;standard display&quot;.
 
 >[!NOTE]
 >
 >* När du skapar en upplevelse med mål för beslutsträd skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek.
 >* När du skapar en upplevelse utan mål för beslutsträd måste du [manuellt skapa en annonstagg](experience-tag-create-manually.md) för varje tillämplig kreativ storlek.
 >* Upplevelsetaggar är dynamiska. Du behöver inte uppdatera taggarna om du redigerar en upplevelse.
->* Se till att de kampanjer ni använder för att implementera en annonsupplevelse omfattar målgruppsanpassning som är kompatibel med upplevelsen. Hierarkisk målinriktning kan variera beroende på DSP. I Advertising DSP tillämpas målgruppsanpassning på annonsnivå efter målinriktning på placeringsnivå och ersätter inte målinriktning på placeringsnivå. Om en Advertising DSP-placering till exempel riktar sig till användare i Australien och en annons riktar sig till användare i Japan, kommer annonsen att rikta sig till grenen&quot;Alla andra&quot;.
+>* Se till att de kampanjer ni använder för att implementera en annonsupplevelse omfattar målgruppsanpassning som är kompatibel med upplevelsen. Hierarkisk målinriktning kan variera beroende på DSP. I Advertising DSP tillämpas målgruppsanpassning på annonsnivå ovanpå (inte i stället för) målgruppsanpassning på placeringsnivå.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
@@ -33,7 +33,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -45,7 +45,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet eller klicka på **[!UICONTROL Generate ad tags]** i den vänstra menyn.
 
-1. Välj taggtyp: ** *JavaScript<!-- sic -->* **&#x200B; eller &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Välj taggtyp: ** *JavaScript<!-- sic -->* ** eller ** *IFRAME* ** <!-- sic -->.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 
@@ -81,7 +81,6 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
       1. Granska annonstaggarna i vyn [!UICONTROL Create ads], markera varje tagg som du vill skapa en annons för och klicka sedan på **[!UICONTROL Create]**.
 
-         Vyn [!UICONTROL Ads] innehåller nu nya annonser som har samma namn som annonstaggarna i [!DNL Creative]. Du kan [bifoga annonserna till valfri placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) i kampanjen.
 
 <!-- no way to get back to the Creative Tag Manager -- you have to click back through the main menu -->
 
