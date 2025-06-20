@@ -2,7 +2,7 @@
 title: Om Adobe Advertising Creative
 description: Läs mer om  [!DNL Creative].
 feature: Creative Introduction
-source-git-commit: 46f5665642e5e03dbf1c0a7d29032baab70943cb
+source-git-commit: 72a6c3de183aa47cecc2ec4d0fab30ff91d4bb05
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Med Creative Libraries kan ni hantera de kreativa verktyg ni kommer att använda
 
 ### [!DNL Adobe] dataintegreringar
 
-Du kan använda era egna målgruppssegment från Adobe Audience Manager och Adobe Analytics - samt målgruppssegment som du skapar i Advertising Cloud DSP och återannonsera pixlar som du skapar med [!DNL Creative] - som mål för specifika kreatörer i en annonsupplevelse. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
+Du kan använda era egna målgruppssegment från Adobe Audience Manager och Adobe Analytics - samt anpassade målgruppssegment som du skapar i Advertising DSP och återmarknadsföringspixlar som du skapar med [!DNL Creative] - som mål för specifika kreatörer i en annonsupplevelse. <!-- Advertiser should be able to target all segments that are available in DSP for targeting -->
 
 ### Implementering av upplevelser som annonser
 
