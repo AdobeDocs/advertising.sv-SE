@@ -13,19 +13,19 @@ The [!DNL Creative] operations team works with each advertiser to set up its cre
 
 On an on-going basis, the Adobe Account Team, the agency team, or the advertiser (depending on the terms of the service level agreement) need to monitor each experience and to edit it as necessary to meet the advertiser's goals.
 
-## Initial Setup Tasks for [!DNL Creative] Campaigns <!-- Experiences? "Campaigns" may be confusing now. -->
+## Initial Setup Tasks for [!DNL Creative] Experiences
 
 The implementation team and/or your agency will work with you do the following:
 
-1. Define your personalization goals (such as whether you'll personalize ads for prospecting or retargeting); all first-, second-, and third-party data that's available, including creative assets, audience segments, and CRM data <!-- used how/where? -->; and your strategy for achieving your goals.
+1. Define your personalization goals (such as whether you'll personalize ads for prospecting or retargeting); all first-, second-, and third-party data that's available, including creative assets and audience segments; and your strategy for achieving your goals.<!-- and CRM data? used how/where? -->
 
 1. (New advertiser accounts) Set up administrative accounts:
 
-   1. Set up the advertiser's account for [!DNL Creative]<!-- and/or DSP? -->, and also create an account in Advertising Search.
+   1. Set up the advertiser's account for [!DNL Creative], and also create an account in Advertising Search, Social, & Commerce.
    
-      The [!DNL Creative] account setup is within Advertising  DSP, even if the advertiser isn't a DSP customer.
+      The [!DNL Creative] account setup is within Advertising DSP, even if the advertiser doesn't use the rest of DSP.
       
-      Similarly, even if the advertiser isn't a [!DNL Search] customer, the [!DNL Search] account is used to create conversion tracking tags and set up conversion columns in [!DNL Creative].
+      Similarly, even if the advertiser isn't a [!DNL Search, Social, & Commerce] customer, the [!DNL Search, Social, & Commerce] account is used to create conversion tracking tags and set up conversion columns in [!DNL Creative].
 
    1. (If necessary) Create user accounts for the advertiser to view and manage its creatives and ad experiences and to generate reports.
 
@@ -39,7 +39,11 @@ The implementation team and/or your agency will work with you do the following:
    
    The advertiser's IT department or other group may need to schedule, or be informed about, the tag deployment.
    
-   **Note:** You can also use your first-party audiences from Adobe Audience Manager and Adobe Analytics as creative targets. Once a visitor qualifies for an audience shared from [!DNL Analytics], the information is actionable in [!DNL Creative] in about 24-48 hours. <!--Still true? And what about AAM and DSP? -->
+   **Note:** You can also use your first-party audiences from Adobe Audience Manager and Adobe Analytics as creative targets. Once a visitor qualifies for an audience shared from [!DNL Analytics], the information is actionable in [!DNL Creative] in about 24-48 hours. <!--Are times still true? -->
+
+1. Set up campaign hierarchy within the DSPs in which you'll implement your ad experiences. Use targeting that's compatible with the targeting in the ad experiences that you'll implement within the campaigns.
+
+   Hierarchical targeting behavior may vary by DSP. Advertising DSP applies ad-level targeting on top of (not instead of) placement-level targeting. For example, if a placement targets users in Australia and an ad targets users in Japan, then the ad will target the "Everyone Else" branch for the experience. Make sure that you think through the entire campaign structure.
 
 1. Set up ad experiences based on your advertising goals:
 
@@ -51,17 +55,35 @@ The implementation team and/or your agency will work with you do the following:
 
    * **Manual workflow:** Manually set up ad experiences:
    
-     1. Set up creatives to use in your experiences:
+     1. [Set up standard creatives to use in your experiences](/help/creative/creative-libraries/creative-add-standard.md):
      
-        * For creatives that [!DNL Creative] will host, upload them.<!-- Add x-ref and reword if necessary to cover all cases -->
+        * For creatives that [!DNL Creative] will host, upload them. This can include image assets in an Adobe Experience Manager account.
         
-        * For creatives hosted on a supported third-party ad server, [point to the creative files](/help/creative/creative-libraries/creative-third-party-manage.md).
+        * For creatives hosted on a supported third-party ad server, point to the creative files.
 
-     1. (Optional) [Group creatives into bundles](/help/creative/creative-libraries/bundle-manage.md) that you can attach to experiences in one step.
+     1. (Optional) [Group creatives into bundles](/help/creative/creative-libraries/bundle-manage.md) that you can attach to targeted experiences in one step.
    
-     1. Sequence creatives and optional ad targets as [ad experiences](/help/creative/experiences/experience-about.md).<!-- maybe change x-ref once that chapter is done -->
+     1. Set up [ad experiences](/help/creative/experiences/experience-about.md):
      
-       Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe Experience Cloud (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).<!-- I don't see audience segments available, and I see radius targets (which doesn't work) but not other geo targets -- verify all these. -->
+        * For [targeted ad experiences](/help/creative/experiences/experience-create-targeting.md), sequence creatives and optional ad targets.
+        
+          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe Experience Cloud (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
+
+        * For [non-targeted ad experiences](/help/creative/experiences/experience-create-no-targeting.md), create general experience settings.
+        
+          Ad targets can include retargeting pixels that you create in [!DNL Creative]; your audience segments in Adobe Experience Cloud (including in DSP, Audience Manager, or [!DNL Analytics]); geographic targets; or specific data triggers on the web page (such as SKU=01234567890123 or Cart=empty).
+
+
+
+
+
+
+
+
+
+
+
+
 
 1. Set up conversion tracking for your ad experiences:
 
@@ -71,8 +93,7 @@ conversion tracking tags to the advertiser's web pages and/or setting up a daily
 feed drop for conversion data that the advertiser has collected separately.
 
 
-You can generate Advertising Cloud conversion tracking tags within Advertising Cloud
-Search or within Adobe Dynamic Tag Manager (formerly called Dynamic Tag Manager).
+You can generate Adobe Advertising conversion tracking tags within Advertising Search, Social, & Commerce or within Adobe Dynamic Tag Manager (formerly called Dynamic Tag Manager).
 Note: You must use JavaScript conversion tags, not image tags.
 
 
@@ -80,11 +101,11 @@ The advertiser's IT department or other group may need to schedule, or be inform
 about, the tag deployment.
 
 
-(Optional) Within Advertising Cloud Search, make each conversion (transaction property)
+(Optional) Within Search, Social, & Commerce, make each conversion (transaction property)
 available as an individual column set in data views and reports.
 
 
-A conversion (transaction property) is listed in Advertising Cloud Search after at
+A conversion (transaction property) is listed in Search, Social, & Commerce after at
 least one conversion event has been tracked.
 
 
@@ -101,7 +122,7 @@ Validate the data that is tracked.
 For instructions, see the help chapter on "Reports."
 
 
-Set up ad campaigns on Advertising Cloud DSP or another DSP, and provide JavaScript
+Set up ad campaigns on Advertising DSP or another DSP, and provide JavaScript
 or iframe tags for the ad experiences to the advertiser, who can implement them as
 third-party ads in the DSP.
 
