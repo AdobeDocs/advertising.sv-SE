@@ -5,7 +5,6 @@
 
 + [What's new](/help/creative/home.md)
 + Introduction {#creative-introduction}
-  + [About Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
   + [Overview of implementing Adobe Advertising Creative](/help/creative/introduction/implementation-overview.md)
   + [How the user interface is organized](/help/creative/introduction/ui.md)
 
@@ -23,3 +22,5 @@
   + [Manage conversion pixels](/help/creative/pixels/conversion-pixel-manage.md)
 
 -->
+
+<!-- "Manage conversion pixels" would explain how to create them outside Creative -->
