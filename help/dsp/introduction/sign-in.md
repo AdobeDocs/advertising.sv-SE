@@ -42,7 +42,7 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att
 
 1. Välj organisation:
 
-   * Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto** om du uppmanas till det.
+   * Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto** om du uppmanas till det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
