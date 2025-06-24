@@ -2,7 +2,7 @@
 title: Avancerade mätningslösningar
 description: Se en lista över tillgängliga lösningar för avancerad mätning.
 exl-id: b179488f-d008-4744-8aa2-640d0b6db5ae
-source-git-commit: da020e3f1740b79fceba8d45d75e2965ec6f41ef
+source-git-commit: 0c33bb9d2258b8b17808469d2a31032ce84a66a9
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Avancerade mätningslösningar
 
-Annonsörer kämpar ofta för att förstå hur deras olika mediekanaler fungerar tillsammans, var deras nästa mediekurs ska användas bäst eller hur de ska kvantifiera effekten av sina onlineannonser mot de centrala affärsmålen.
+Annonsörer kämpar ofta för att förstå hur deras olika mediekanaler fungerar tillsammans, var deras nästa mediekurs kan användas bäst eller hur de ska kvantifiera effekten av sina onlineannonser mot de centrala affärsmålen.
 
 I ett datadrivet medielandskap ger attribueringsmätning en lösning på denna utmaning. AMS-teamet (Advanced Measurement &amp; Strategy) hjälper varumärkes- och myndighetspartners att mäta hur delar av deras Adobe Advertising köper, i samband med sina [!DNL Adobe]-integreringar, ger resultat. Med stabila attribueringsmätningserbjudanden kan AMS driftsätta välstrukturerade målinriktningsstrategier med hjälp av avancerade mätramverk, vilket gör det enkelt för varumärken att koppla sina mediedollar till verkliga resultat som driver deras verksamhet. Teamet kan hjälpa er att
 
