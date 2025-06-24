@@ -3,9 +3,9 @@ title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: a7e28cb2e37e1c9b6951f844b5f542ae2c8ac1a0
+source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Adobe Advertising DSP går över till Adobe Identity Management Service (IMS) f�
 
 * Du kan vara inloggad i 24 timmar i stället för att logga in varje timme.
 
-Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 26 juni 2025 så att du kan förbereda dig för ändringen.
+Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att du kan förbereda dig för ändringen.
 
 ## Använd en äldre DSP-inloggning för autentisering
 
@@ -42,15 +42,15 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 26 juni 2025 så att
 
 1. Välj organisation:
 
-   * Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto** om du uppmanas till det.
+   * Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto** om du uppmanas till det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Felsökning
 
-Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/se/manage-account/kb/account-password-sign-help.linkfree.html).
+Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
 
 #### Finns det några krav för att aktivera en ny IMS-inloggning för [!DNL Adobe]?
 
