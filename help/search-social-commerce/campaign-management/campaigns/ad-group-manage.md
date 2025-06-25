@@ -3,7 +3,7 @@ title: Hantera annonsgrupper
 description: Lär dig hur du skapar och hanterar annonsgrupper.
 exl-id: 66900a1f-f915-497d-9053-9d393845af08
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Du kan skapa annonsgrupper inifrån Search, Social och Commerce för en [kampanj
 >
 >Om du vill lägga till stora mängder annonsgruppsdata samtidigt använder du [funktionen för att kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjkalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -46,7 +46,7 @@ Du kan redigera inställningar för enskilda annonsgrupper. Du kan också redige
 >
 >Om du vill redigera stora mängder data samtidigt använder du funktionen [kopiera och klistra in](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
 
 1. Gör något av följande:
 
@@ -78,7 +78,7 @@ Du kan pausa en aktiv sökning och grupp för att inaktivera budgivning. Du kan 
 
 Du kan också ta bort alla aktiva eller pausade sök- och annonsgrupper. Borttagna annonsgrupper tas bort från annonsnätverket. De är fortfarande synliga, men du kan inte ändra dem.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Ad Groups]** på undermenyerna.
 
 1. (Valfritt) Filtrera listan så att den innehåller särskilda annonsgrupper.
 

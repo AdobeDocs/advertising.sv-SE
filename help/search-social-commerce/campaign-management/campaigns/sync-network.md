@@ -3,7 +3,7 @@ title: Synkronisera annonsdata manuellt
 description: Lär dig hur du manuellt aktiverar synkronisering av din kampanjstruktur och kampanjentiteter för annonsnätverk som stöds.
 exl-id: 185c6a01-c2e8-4bbb-a9dd-0a8200eb4792
 feature: Search Campaign Management
-source-git-commit: c4600e6ef41193f09722052ef9b16fe5d07bdaaf
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -26,7 +26,7 @@ För kampanjer med alternativet [!UICONTROL Auto Upload] genererar synkroniserin
 >
 >När du [skapar ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) kan du synkronisera med annonsnätverket innan kalkylbladet skapas.
 
-1. Klicka på **[!UICONTROL Search]>[!UICONTROL Campaigns]** på huvudmenyn. På undermenyn väljer du antingen **[!UICONTROL Accounts]** för att synkronisera alla kampanjer i specifika konton eller **[!UICONTROL Campaigns]** för att synkronisera specifika kampanjer.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]>[!UICONTROL Campaigns]** på huvudmenyn. På undermenyn väljer du antingen **[!UICONTROL Accounts]** för att synkronisera alla kampanjer i specifika konton eller **[!UICONTROL Campaigns]** för att synkronisera specifika kampanjer.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika konton eller kampanjer.
 

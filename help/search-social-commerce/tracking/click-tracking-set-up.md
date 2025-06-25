@@ -3,7 +3,7 @@ title: Konfigurera cookie-baserad klickspårning
 description: Lär dig hur du konfigurerar och validerar klickspårningstaggar.
 exl-id: 3f2b09bc-9794-41d1-89fc-0d239bad2fb1
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -28,7 +28,7 @@ För att det ska gå att spåra klickningar i Search, Social och Commerce måste
 
 1. Gör följande för varje annonsnätverkskonto:
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Accounts]** på undermenyerna.
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Accounts]** på undermenyerna.
 
    1. Håll markören över kontonamnet, klicka på ![menyikonen](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikonen") och välj sedan **[!UICONTROL Edit]**.
 
@@ -42,7 +42,7 @@ För att det ska gå att spåra klickningar i Search, Social och Commerce måste
 
 1. Gör följande för varje kampanj:
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
    1. Håll markören över kampanjnamnet, klicka på ![menyikonen](/help/search-social-commerce/assets/arrow-dropdown-menu.png "Menyikonen") och välj sedan **[!UICONTROL Edit]**.
 

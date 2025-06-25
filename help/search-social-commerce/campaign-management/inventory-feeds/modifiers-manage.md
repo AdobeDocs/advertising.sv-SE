@@ -3,7 +3,7 @@ title: Hantera modifierare
 description: Lär dig hur du konfigurerar och hanterar modifierare för dina annonsmallar för lagerdataflöden.
 exl-id: 74c9a7c7-0979-4f78-9225-43bc6c94acd7
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 
 ## Skapa en modifieringsgrupp
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Modifiers]** i verktygsfältet ovanför datatabellen.
 
@@ -36,7 +36,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 
 ## Redigera en ändringsgrupp
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Modifiers]** i verktygsfältet ovanför datatabellen.
 
@@ -56,7 +56,7 @@ Varje modifieringsgrupp kan innehålla så många modifierare du vill. Varje mal
 >
 >När du tar bort en modifieringsgrupp tar du bort alla variabler för den modifieringsgruppen (som anges som `<modifier_group_name>`) från fälten för befintliga mallar. Om du försöker sprida data via en mall med variabler för modifierare som inte finns, misslyckas jobbet1.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Modifiers]** i verktygsfältet ovanför datatabellen.
 

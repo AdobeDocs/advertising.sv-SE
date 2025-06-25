@@ -3,7 +3,7 @@ title: Hantera kampanjer
 description: Lär dig hur du skapar och hanterar annonskampanjer.
 exl-id: 7654a01c-39de-4df4-a7ea-963cfc8b05f2
 feature: Search Campaign Management
-source-git-commit: 3af579ad61dd05f0d2b1e565c5b1532cebaeebe1
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 0%
@@ -25,7 +25,7 @@ När du har [gjort ett annonsnätverkskonto tillgängligt](/help/search-social-c
 >* Innan du skapar en kampanj ska [implementera konverteringsspårningstaggar](/help/search-social-commerce/tracking/conversion-tracking-about.md) på annonsörens webbsidor.
 >* Om du vill skapa ett stort antal kampanjer samtidigt använder du [kopiera och klistra in-funktionen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjkalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -49,7 +49,7 @@ Du kan redigera inställningar för enskilda kampanjer. Du kan också redigera v
 >
 >Du kan också redigera data i grupp med kopierings- och inklistringsfunktionen eller kampanjkalkylblad.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
 1. Gör något av följande:
 
@@ -83,7 +83,7 @@ Du kan pausa en aktiv sökkampanj i ett annonsnätverk som stöds för att inakt
 
 Du kan också ta bort alla aktiva eller pausade sökkampanjer. Borttagna kampanjer tas bort från annonsnätverket. De visas fortfarande när du inkluderar dem i datafiltret, men du kan inte ändra dem.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika kampanjer.
 

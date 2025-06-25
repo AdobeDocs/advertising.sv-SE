@@ -3,7 +3,7 @@ title: Skapa en rapportmall
 description: Lär dig hur du skapar en återanvändbar rapportmall.
 exl-id: 322d0c15-bd93-4372-be1e-80d2d7c7fe8d
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan spara flera rapportmallar för alla typer av resultatrapporter. Du kan sk
 
    * Från fliken [!UICONTROL Templates]:
 
-      * Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+      * Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
       * Klicka på fliken **[!UICONTROL Templates]**.
 
@@ -32,7 +32,7 @@ Du kan spara flera rapportmallar för alla typer av resultatrapporter. Du kan sk
 
 * Så här skapar du en mall baserad på en befintlig mall:
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
    1. Klicka på fliken **[!UICONTROL Templates]**.
 

@@ -3,7 +3,7 @@ title: Aktivera ytterligare lagersynkronisering
 description: Lär dig synkronisera [!DNL YouTube] kampanjer och [!DNL Google Ads] och [!DNL Microsoft Advertising] smarta shoppingkampanjer.
 exl-id: 3e8cc7b1-e38f-43f3-ba67-f2adaec6129d
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Du kan aktivera och inaktivera synkronisering av [!DNL Google Ads] [!DNL YouTube
 >
 >Enkel synkronisering av [!DNL Microsoft Advertising] smarta shoppingkampanjer är en betaversion för självbetjäningsannonsörer.
 
-Dessa kampanjtyper faktureras på samma sätt som andra typer av kampanjer. Kontakta kontoteamet på Adobe om du vill ha mer information.
+Dessa kampanjtyper faktureras på samma sätt som andra typer av kampanjer. Kontakta Adobe Account Team för mer information.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Inventory Selection]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid ett alternativ för att aktivera synkronisering, eller avmarkera en kryssruta för att inaktivera synkronisering.
 

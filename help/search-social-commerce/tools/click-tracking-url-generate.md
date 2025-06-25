@@ -3,7 +3,7 @@ title: Generera en URL för klickspårning
 description: Lär dig hur du manuellt skapar en klicknings-URL för sökning, sociala medier och Commerce.
 exl-id: 43a36869-146a-4c5f-b4f2-eddfb856480b
 feature: Search Tools, Search Tracking
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Mer information om när du måste generera och implementera en klickspårnings-U
 >
 >Den här funktionen implementerar inte spårningsmallen eller mål-URL:en i det relevanta annonskontot.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Tracking URL]** på huvudmenyn.
 
 1. Välj annonsnätverkskontot i listan.
 

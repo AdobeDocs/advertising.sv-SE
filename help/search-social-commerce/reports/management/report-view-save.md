@@ -3,7 +3,7 @@ title: Visa eller spara en rapport
 description: Lär dig hur du visar en genererad rapport eller sparar en rapport som en fil.
 exl-id: 11333266-d1af-4064-9816-c70b53b0a8bd
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan visa en rapport i webbläsaren eller öppna eller spara rapportdata som e
 >
 >Medlemmar i Adobe Account Team och administratörsanvändare kan visa rapporter som skapats av klient- och agentroller.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Latest Reports]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Latest Reports]**.
 
 1. Gör något av följande:
 

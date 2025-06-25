@@ -3,7 +3,7 @@ title: '[!DNL Microsoft Advertising] konverteringsdata'
 description: Läs mer om de  [!DNL Microsoft Advertising] spårade konverteringsdata som finns i Sök, Socialt och Commerce.
 feature: Search Campaign Management, Conversions
 exl-id: 0ebc70a0-1fb7-48db-b45d-7409e8bb6f64
-source-git-commit: b8a34f3d85947536eb92ee481966f84694250f29
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Generera rapporten för de valda konverteringsåtgärderna per dag och inkludera
 
 I Sök, Socialt och Commerce kan du använda vy- eller rapportalternativet för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Create Report]** i verktygsfältet ovanför datatabellen, håll markören över **[!UICONTROL Basic Reports]** och klicka sedan på **[!UICONTROL Search Engine Account Report]**.
 

@@ -3,7 +3,7 @@ title: '[!DNL Google Ads] konverteringsdata'
 description: Lär dig mer om de  [!DNL Google Ads] spårade konverteringsdata som finns i Sök, Socialt och Commerce.
 exl-id: a4634410-446b-4e2e-a52f-22a494f731f9
 feature: Search Campaign Management, Conversions
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Generera rapporten för de valda konverteringsåtgärderna per dag och inkludera
 
 I Sök, Socialt och Commerce kan du använda vy- eller rapportalternativet för att visa konverteringar baserat på klickdatumet (inte transaktionsdatumet).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Create Report]** i verktygsfältet ovanför datatabellen, håll markören över **[!UICONTROL Basic Reports]** och klicka sedan på **[!UICONTROL Search Engine Account Report]**.
 

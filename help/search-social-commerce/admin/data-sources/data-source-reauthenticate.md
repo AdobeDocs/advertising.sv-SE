@@ -4,7 +4,7 @@ description: Lär dig hur du autentiserar en  [!DNL Google Analytics] datakälla
 role: User, Admin
 exl-id: 624f0f0e-3f2f-45b1-b3dc-c1b107b4736f
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Om du ändrar lösenordet för e-postkontot som används för en datakälla, eller om [!DNL OAuth]-certifikatet för kontot upphör att gälla, stängs alla öppna anslutningar till e-postkontot och du måste autentisera igen för att kunna återuppta synkroniseringen av data.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid datakällan som du vill återautentisera.
 

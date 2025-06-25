@@ -3,7 +3,7 @@ title: Validera landningssidor i kalkylbladsfiler
 description: Lär dig hur du validerar mål-URL:er i en enda kontolktsfil.
 exl-id: 191cb1bc-54a9-4c6c-a29c-f3cbae08e0d8
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Du kan hämta filen senare, korrigera felen och överföra den korrigerade filen
 >* Den här funktionen validerar inte värden i kolumnen Bas-URL/Slutlig URL.
 >* Du kan publicera kalkylbladsfiler medan de valideras, eller även om fel hittas.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid varje fil som ska valideras.
 

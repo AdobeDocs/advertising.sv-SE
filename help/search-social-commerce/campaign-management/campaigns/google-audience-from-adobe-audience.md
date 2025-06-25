@@ -3,7 +3,7 @@ title: Skapa [!DNL Google Ads] kundmatchande målgrupper från [!DNL Adobe] mål
 description: Lär dig skapa [!DNL Google Ads] kundmatchande målgrupper från era befintliga Adobe Analytics- och Audience Manager-målgrupper.
 exl-id: 7de95ebb-24b0-459f-83c0-7b85b0c0576d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *[!DNL Google Ads]konton som är berättigade till kundmatchning är bara*
 
-*Annonsörer med endast integrering mellan Adobe Advertising, Adobe Audience Manager och Adobe Advertising och Adobe Analytics*
+*Endast annonsörer med integrering mellan Adobe Advertising, Adobe Audience Manager eller Adobe Advertising och Adobe Analytics*
 
-Valfria annonsörer kan skapa [!DNL Google Ads] kundmatchande målgrupper med användar-ID:n från a) [!DNL Analytics] segment som delas med Adobe Experience Cloud och b) Audience Manager segment som har Search, Social och Commerce som mål, inklusive [!DNL Analytics] segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud Audience Library. Search, Social och Commerce skickar automatiskt en [!DNL Google]-spårnings-URL tillbaka till varje [!DNL Analytics] - eller Audience Manager-segment så att [!DNL Google] kan spåra målgruppen.
+Valfria annonsörer kan skapa [!DNL Google Ads] kundmatchande målgrupper med användar-ID:n från a) [!DNL Analytics] segment som delas med Adobe Experience Cloud och b) Audience Manager-segment som har Search, Social och Commerce som mål, inklusive [!DNL Analytics] segment som publiceras till Adobe Experience Cloud och segment som skapas med Adobe Experience Cloud Audience Library. Search, Social och Commerce skickar automatiskt en [!DNL Google]-spårnings-URL tillbaka till varje [!DNL Analytics] - eller Audience Manager-segment så att [!DNL Google] kan spåra målgruppen.
 
 Varje [!DNL Adobe]-målgrupp kan bara användas för en [!DNL Google]-målgrupp.
 
@@ -24,7 +24,7 @@ Varje ny [!DNL Google]-målgrupp har samma namn som den ursprungliga [!DNL Adobe
 
 >[!TIP]
 >
->Använd målgrupper som skapats i Audience Manager för segmentering i realtid. Segment som har skapats i [!DNL Analytics] och synkroniserats med Adobe Experience Cloud kan ha mindre populationer eftersom de bara synkroniseras dagligen. En surfer som kvalificerar sig för ett segment kanske inte inkluderas i segmentet förrän nästa dag. Segment från [!DNL Analytics] har en datakälla av &quot;report suite - .&quot;
+>Använd målgrupper som skapats av Audience Manager för segmentering i realtid. Segment som har skapats i [!DNL Analytics] och synkroniserats med Adobe Experience Cloud kan ha mindre populationer eftersom de bara synkroniseras dagligen. En surfer som kvalificerar sig för ett segment kanske inte inkluderas i segmentet förrän nästa dag. Segment från [!DNL Analytics] har en datakälla av &quot;report suite - .&quot;
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Varje ny [!DNL Google]-målgrupp har samma namn som den ursprungliga [!DNL Adobe
 
    1. (Om du vill skapa målgrupper med återmarknadsföringslistor för användar-ID) En [!DNL Adobe]-administratör eller kontohanterare måste välja inställningen på annonsörnivå för att aktivera kundmatchning.
 
-   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE) version 2.0 eller senare.
+   1. Implementera [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) version 2.0 eller senare.
 
    1. Distribuera följande tagg så högt som möjligt på annonsörens webbsidor som målgruppen ska spåras från
 
@@ -46,7 +46,7 @@ Varje ny [!DNL Google]-målgrupp har samma namn som den ursprungliga [!DNL Adobe
 
    1. (Om det inte redan är klart) En behörig användare måste konfigurera annonsörens konto så att det [synkroniseras med annonsörens organisationskonto i Adobe Experience Cloud](/help/search-social-commerce/admin/sync-adobe-audiences.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 

@@ -3,7 +3,7 @@ title: Generera en [!DNL Advertising Insight]
 description: Lär dig hur du skapar en  [!DNL Advertising Insight].
 exl-id: e6b692be-189e-4c6c-a536-e6c78801853d
 feature: Search Advertising Insights
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Generera en [!DNL Advertising Insight]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Advertising Insights]** på huvudmenyn.
 
 2. Klicka på insikten som du vill generera.
 

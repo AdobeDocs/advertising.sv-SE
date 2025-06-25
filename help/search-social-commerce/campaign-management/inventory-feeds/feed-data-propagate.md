@@ -3,7 +3,7 @@ title: Sprida lagerflödesdata via mallar
 description: Lär dig mer om att sprida data från era inventeringsflöden via annonsmallar för att hantera kontostrukturen och leverera dynamiska annonser.
 exl-id: 9660af19-a517-4593-9a99-da600a0285a5
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -22,7 +22,7 @@ När du sprider data kan du eventuellt förhandsgranska genererade data i en kam
 
 ## Sprid feedsfiler från fliken [!UICONTROL Templates]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Markera kryssrutan bredvid mallarna som ska spridas.
 
@@ -44,7 +44,7 @@ När du sprider data kan du eventuellt förhandsgranska genererade data i en kam
 
 ## Sprid feedsfiler från listan [!UICONTROL Feeds]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 
@@ -72,7 +72,7 @@ När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning 
 
 ## Visa en spridningssammanfattning
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på fliken **[!UICONTROL Propagations]**.
 
@@ -82,7 +82,7 @@ När varje spridningsåtgärd har slutförts läggs en spridningssammanfattning 
 
 Du kan stoppa ett spridningsjobb för lagerfeeddata medan jobbet fortfarande är i kö.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Klicka på **[!UICONTROL Cancel]** i kolumnen [!UICONTROL Last Prop. Status] bredvid mallnamnet.
 

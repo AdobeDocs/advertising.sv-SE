@@ -3,7 +3,7 @@ title: Visa anpassad varning
 description: Lär dig hur du listar dina varningsinstanser.
 exl-id: 0a5260f6-8651-451e-841c-600be371cc3f
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Om du vill redigera de kampanjer eller kampanjentiteter som identifieras i en av
 
 ## Visa aviseringar i vyn [!UICONTROL Triggered Alerts]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Triggered Alerts]** på undermenyn.
 

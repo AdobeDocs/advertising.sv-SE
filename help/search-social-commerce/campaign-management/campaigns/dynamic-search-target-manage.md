@@ -3,7 +3,7 @@ title: Hantera  [!DNL Google Ads] dynamiska sökmål
 description: Lär dig hur du skapar och hanterar  [!DNL Google Ads] dynamiska sökmål.
 exl-id: 5ea68cab-677f-4c7e-8776-24d6546f0b15
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Du kan ange alla villkor eller upp till tre enskilda villkor som mål.
 >
 >Om du vill skapa flera kontokomponenter samtidigt använder du [kampanjmallar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -52,7 +52,7 @@ Du kan redigera status eller maximalt bud för ett [!DNL Google Ads] dynamiskt s
 >
 >Om du vill redigera stora mängder data samtidigt använder du [kampanjmallar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
 
 1. Markera kryssrutan bredvid varje rad som ska redigeras.
 
@@ -76,7 +76,7 @@ Du kan pausa alla aktiva dynamiska sökmål i en kampanjtyp som stöds om du int
 
 Du kan också ta bort alla dynamiska mål.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Auto Targets]** på undermenyerna.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika dynamiska mål.
 
@@ -122,7 +122,7 @@ Du kan också ta bort alla dynamiska mål.
 
 ### [!UICONTROL Bids]
 
-**[!UICONTROL Bid]:** Den maximala kostnaden per klick (CPC) för en annons eller kostnad per 1 000 visningar (CPM) för en annons, beroende på modell för annonsnätverk och kampanjpriser. Det här värdet åsidosätter annonsgruppens värde.
+**[!UICONTROL Bid]:** Den högsta kostnaden per klick (CPC) för en annons eller kostnad per 1 000 visningar (CPM) för en annons, beroende på modell för annonsnätverk och kampanjpriser. Det här värdet åsidosätter annonsgruppens värde.
 
 >[!NOTE]
 >

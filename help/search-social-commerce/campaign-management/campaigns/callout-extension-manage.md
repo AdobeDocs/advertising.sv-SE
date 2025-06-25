@@ -3,7 +3,7 @@ title: Hantera [!DNL Google Ads] bildtexttillägg
 description: Lär dig hur du skapar och hanterar  [!DNL Google Ads] bildtexttillägg.
 exl-id: b1be553e-49a1-47b8-8dd2-84db56fa249e
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Skapa och hantera delade bildtexttillägg på kontonivå för alla [synkronisera
 
 ## Skapa en [!DNL Google Ads] delad bildtext
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -34,7 +34,7 @@ När du har skapat en sitellänk kan du [tilldela den till ett konto, en kampanj
 
 Du kan redigera en delad pratbubbla i taget.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
 
 1. Markera kryssrutan bredvid den bildtext som ska redigeras.
 
@@ -46,7 +46,7 @@ Du kan redigera en delad pratbubbla i taget.
 
 ## Ta bort [!DNL Google Ads] delade bildtexter
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Callout]** på undermenyerna.
 
 1. Markera kryssrutan bredvid varje delad bildtext som du vill ta bort.
 

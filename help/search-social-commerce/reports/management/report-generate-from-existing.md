@@ -3,7 +3,7 @@ title: Generera en rapport från en befintlig rapport
 description: Lär dig hur du skapar en rapport med en tidigare genererad rapport.
 exl-id: f094c767-629a-4e3c-91f6-12761927fe89
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Generera en rapport från en befintlig rapport
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Latest Reports]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Latest Reports]**.
 
 1. Klicka på knappen ![Skapa liknande](/help/search-social-commerce/assets/create-similar.png "Skapa liknande ") bredvid den befintliga rapporten.
 

@@ -3,7 +3,7 @@ title: Hantera kundmatchande målgrupper med hjälp av kunddatalistor
 description: Lär dig hur du skapar och redigerar [!DNL Google Ads] och [!DNL Microsoft Advertising] kundmatchningar utifrån era kunddatalistor.
 exl-id: 594a7ee0-4ac9-4970-b53e-d4624fd7b70c
 feature: Search Campaign Management
-source-git-commit: 46d736c3e14bf407c513c5cb6a153a578aa65121
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -30,7 +30,7 @@ För [!DNL Microsoft Advertising]-konton kan filen innehålla e-postadresser. F�
 
    För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor](https://help.ads.microsoft.com/#apex/ads/en/56921). Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -91,9 +91,9 @@ Data måste vara av samma typ som den ursprungliga kundlistan (e-postadresser, e
 
 1. Generera en fil med kunddata i det format som krävs för den befintliga datatypen.
 
-För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor] (https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
+För- och efternamn, e-postadresser och telefonnummer måste hashas med SHA-256-algoritmen. <!-- Our UI says all, but GGL docs say don't hash user IDs and device IDs. --> För [!DNL Google Ads] målgrupper, se [!DNL Google Ads]-dokumentationen om [Formateringsriktlinjer för överföring av hash-kodade data](https://support.google.com/google-ads/answer/7476159) för en lista över tillåtna kontaktinformationsfält och krav. För [!DNL Microsoft Advertising] målgrupper, se [!DNL Microsoft Advertising]-dokumentationen om hur du [förbereder kundmatchningslistor]&#x200B;(https://help.ads.microsoft.com/#apex/ads/en/56921. Du kan även hämta en [!DNL Microsoft Excel]-mall för kontaktinformation.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Library]** på undermenyerna.
 
 1. Markera kryssrutan bredvid målgruppen som ska redigeras.
 

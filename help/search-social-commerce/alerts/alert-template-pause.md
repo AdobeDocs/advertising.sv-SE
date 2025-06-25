@@ -3,7 +3,7 @@ title: Pausa en anpassad aviseringsmall
 description: Lär dig hur du pausar en aktiv aviseringsmall.
 exl-id: c0ce222d-5478-467b-abe2-bb0fc4906160
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan pausa aktiva varningsmallar.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
 1. Gör något av följande:
 

@@ -3,7 +3,7 @@ title: Implementera [!DNL Naver] konton med endast spårning
 description: Lär dig hur du ställer in spårningskampanjer för dina [!DNL Naver] konton så att du kan spåra, rapportera om och visualisera prestanda för annonser som du köper direkt från annonsnätverket.
 exl-id: acbaf4f0-eb55-4788-bc84-c3181d635f1d
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -64,11 +64,11 @@ Ni kan spåra resultatvärden för alla era kampanjer och för alla enskilda kam
 
    Inkludera den fullständiga kontohierarkin och alla mått som du vill inkludera. Search, Social och Commerce matchar överförda data med data i befintliga kampanjer.
 
-1. (Valfritt) Om du använder servicemärken för spårning av konvertering i Adobe Advertising på dina webbsidor för att spåra konverteringar som inte spåras i annonsnätverket skickar du flödesfiler med daglig aggregerad konverteringsinformation som läggs till i dina spårningskampanjer.
+1. (Valfritt) Om du använder taggar för Adobe Advertising-tjänsten för konverteringsspårning på dina webbsidor för att spåra konverteringar som inte spåras i annonsnätverket skickar du feedsfiler med daglig aggregerad konverteringsinformation som läggs till i dina spårningskampanjer.
 
-   Kontakta kontoteamet på Adobe om du vill ha mer information.
+   Kontakta Adobe Account Team om du vill ha mer information.
 
-Alla överförda spårningsdata är tillgängliga från [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] i vyerna [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] och [!UICONTROL Keywords]. Den är även tillgänglig för rapporter i vyn [!UICONTROL Insights & Reports].
+Alla överförda spårningsdata är tillgängliga från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] i vyerna [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups] och [!UICONTROL Keywords]. Den är även tillgänglig för rapporter i vyn [!UICONTROL Insights & Reports].
 
 >[!MORELIKETHIS]
 >

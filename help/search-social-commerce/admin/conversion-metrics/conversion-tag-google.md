@@ -3,7 +3,7 @@ title: Skapa en konverteringstagg för  [!DNL Google Ads]
 description: Lär dig hur du skapar en  [!DNL Google Ads] konverteringstagg.
 feature: Conversions
 exl-id: 214611f0-bd38-499e-a7de-3a5878995fb5
-source-git-commit: 2c20d2138ee797b6ed2f27d9baa9eda7d413da8d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Du kan skapa konverteringstaggar för nya konverteringar som ska spåras för en
 
 Om du vill generera konverteringstaggar för befintliga konverteringar använder du annonsnätverkets redigerare.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Summary]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn, som öppnas på fliken **[!UICONTROL Summary]**.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 

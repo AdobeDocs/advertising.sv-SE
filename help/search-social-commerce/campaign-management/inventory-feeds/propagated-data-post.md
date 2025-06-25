@@ -3,7 +3,7 @@ title: Posta kampanjdata som genererats från feeds till annonsnätverk
 description: Lär dig hur du bokför data som genererats från lagerdataflöden till annonsnätverk.
 exl-id: 7d66c52b-f761-4be2-a1d9-2c63887d7cb7
 feature: Search Inventory Feeds
-source-git-commit: 2cf15dbab3dc00ec88a41e4f7d8b5b3646b843e8
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 0%
@@ -32,7 +32,7 @@ För en framgångsrik bokföring måste alla annonsgrupper tilldelas till kampan
   >
   >Om du inte validerade dina landningssidor tidigare och vill göra det [sprider du data och förhandsgranskar dem](feed-data-propagate.md) från [!UICONTROL Bulksheets]-vyn i stället för att publicera dem i annonsnätverket. Du kan sedan [validera URL:erna](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) innan du manuellt skickar filen till annonsnätverket.
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
    1. Markera kryssrutan bredvid mallen.
 
@@ -54,7 +54,7 @@ För en framgångsrik bokföring måste alla annonsgrupper tilldelas till kampan
 
               Om du vill ange ett datum använder du formatet DD/MM/ÅÅÅÅ eller D/M/ÅÅÅÅ eller klickar på ![Kalender](/help/search-social-commerce/assets/calendar.png "Kalender") för att öppna kalendern och [väljer ett datum](/help/search-social-commerce/common-tasks/navigation-editing-selection/calendar.md). Om du vill ändra en tid anger du tiden i 24-timmarsformat, HH/MM eller H/M, eller väljer en tid (i 30-minutersintervall) i listan.
 
-         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Skapar en bulkbladsfil som är tillgänglig från vyn [!UICONTROL Search] > [!UICONTROL Bulksheets]. Du kan också publicera filen därifrån.
+         * **[!UICONTROL Preview in Bulksheet Management Area only, post later]:** Skapar en bulkbladsfil som är tillgänglig från vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets]. Du kan också publicera filen därifrån.
 
            När den resulterande kalkylbladsfilen är större än 2 MB är filen i ZIP-format. Du behöver inte packa upp filen för att publicera den.
 

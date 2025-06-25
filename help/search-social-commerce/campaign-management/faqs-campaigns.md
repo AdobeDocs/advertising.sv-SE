@@ -3,7 +3,7 @@ title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Dessutom hämtas [!DNL Google Ads] resultatmått på kampanjnivå i söknätverk
 >
 >(Annonsörer med portföljer) Förvänta dig att prestanda för kombinationer av nya nyckelord och matchningstyper ska bli instabila när Search, Social och Commerce samlar in data för att skapa modeller för dem.
 
-**Åtgärder i vyerna [!UICONTROL Search] > [!UICONTROL Campaigns], i publiceringsprocessen för kalkylbladet och i annonsnätverkets egen redigerare:**
+**Åtgärder i vyerna [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], i publiceringsprocessen för kalkylbladet och i annonsnätverkets egen redigerare:**
 
 Det befintliga nyckelordet eller annonsen tas bort och ett annat skapas när:
 
@@ -99,7 +99,7 @@ I båda fallen inkluderar bas-URL:erna med sök-, sociala och Commerce-spårning
 
 [!DNL Google Ads] resultatmått på kampanjnivå i söknätverket för den aktuella dagen hämtas kl. 08.00 och kl. 16.00 i annonsörens tidszon.
 
-På fliken [!UICONTROL Campaigns] i både vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och vyn [!UICONTROL Optimization] > [!UICONTROL Portfolios], inkluderar data de senast synkroniserade data när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen.
+På fliken [!UICONTROL Campaigns] i både vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och vyn [!UICONTROL Optimization] > [!UICONTROL Portfolios], inkluderar data de senast synkroniserade data när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen.
 
 >[!NOTE]
 >

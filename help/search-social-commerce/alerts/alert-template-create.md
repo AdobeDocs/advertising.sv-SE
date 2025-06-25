@@ -3,7 +3,7 @@ title: Skapa en anpassad aviseringsmall
 description: Lär dig hur du skapar en mall för att generera anpassade aviseringar.
 exl-id: 95fdc91d-837c-46af-9dd7-212cb4b5a8ac
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Du kan skapa en aviseringsmall för portföljer, kampanjer, annonsgrupper, nycke
 
 ## Skapa en aviseringsmall från vyn [!UICONTROL Alert Templates]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet och välj sedan den entitetstyp som ska utvärderas ([!UICONTROL Portfolio], [!UICONTROL Account], [!UICONTROL Campaign], [!UICONTROL Ad Group], [!UICONTROL Keyword], [!UICONTROL Ad] eller [!UICONTROL Product Group]).
 
@@ -32,9 +32,9 @@ Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;
 >
 >Det här alternativet är inte tillgängligt för varningsmallar på portföljnivå.
 
-1. I vyn **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** öppnar du kampanjhanteringsdelvyn för entitetstypen som ska utvärderas ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] eller [!UICONTROL Product Groups]).
+1. I vyn **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** öppnar du kampanjhanteringsdelvyn för entitetstypen som ska utvärderas ([!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] eller [!UICONTROL Product Groups]).
 
-Om du till exempel vill skapa en varningsmall på nyckelordsnivå går du till [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och väljer sedan [!UICONTROL Keywords].
+Om du till exempel vill skapa en varningsmall på nyckelordsnivå går du till [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och väljer sedan [!UICONTROL Keywords].
 
 1. Klicka på ![Skapa avisering](/help/search-social-commerce/assets/add-alert.png "Skapa avisering") till höger om verktygsfältet ovanför datatabellen.
 

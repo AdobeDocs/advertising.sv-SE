@@ -3,7 +3,7 @@ title: Visa och skapa annonsresurser från din [!UICONTROL Asset Library]
 description: Lär dig hur du visar och skapar återanvändbara bild-, video- och textresurser för dina  [!DNL Google Ads] och [!DNL Microsoft Advertising] resursbibliotek på kontonivå.
 feature: Search Campaign Management
 exl-id: dd6fc5bf-3e3e-4e8f-b20b-37b9311fcf9f
-source-git-commit: bf7db19ab3ec8ea749e48b6a96c25a3c5cca5a71
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ni kan använda vilket som helst av mediefilerna för era maximala prestandakamp
 
 ## Skapa och överföra resurser
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Asset Library]** på huvudmenyn.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 

@@ -3,7 +3,7 @@ title: Redigera data som genererats från feeds
 description: Lär dig hur du redigerar data som genereras från lagerdataflöden.
 exl-id: d43b593d-758d-4561-9cda-33b235099cc6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -22,7 +22,7 @@ När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket ka
 
   Vyerna för kampanjhierarkin visar bara data som genererats från feedfilen, inte de befintliga kontokomponenterna. När data för en komponent och alla dess underkomponenter har publicerats i annonsnätverket visas den inte längre i kampanjhierarkin.
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
    1. (Valfritt) Om du bara vill visa kampanjkomponenter som skapats för en viss mall:
 

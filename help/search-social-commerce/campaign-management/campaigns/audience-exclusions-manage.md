@@ -3,7 +3,7 @@ title: Hantera publikundantag för kampanjer och annonsgrupper
 description: Lär dig hur du konfigurerar och hanterar målgruppsundantag för  [!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer och annonsgrupper.
 exl-id: 8bebc1fe-aad8-40f2-9dca-e4065a0c4990
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Du kan också ta bort publikundantag.
 
 ## Konfigurera målgruppsundantag
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -56,7 +56,7 @@ Du kan också ta bort publikundantag.
 
 ## Ta bort målgruppsundantag
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Audiences] >[!UICONTROL Exclusions]** på undermenyerna.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika målgruppsundantag.
 

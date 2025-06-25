@@ -3,7 +3,7 @@ title: Ta bort skickade kalkylblad och felfiler
 description: Lär dig hur du tar bort dina kalkylbladsfiler och felfiler.
 exl-id: a4cdceb4-6013-46b6-95bc-5536e45e34d2
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan ta bort kalkylbladsfiler, valideringsfelfiler för landningssidor och and
 >
 >Om du har lagt upp ett kalkylblad men fått fel tar du inte bort felfilen förrän alla fel har lösts.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid varje fil som ska tas bort.
 

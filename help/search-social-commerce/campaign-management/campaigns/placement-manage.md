@@ -3,7 +3,7 @@ title: Hantera [!DNL Google Ads] placeringar
 description: Lär dig hur du skapar och hanterar anbudsgrundande placeringar för  [!DNL Google Ads] annonsgrupper.
 exl-id: 80cb6fc6-e778-4b19-9e52-e0b57bde0d73
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Du kan skapa och redigera placeringar för annonsgrupper i [kampanjtyper som st�
 >
 >Om du vill skapa flera placeringar samtidigt använder du [kampanjkalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Placements]** på undermenyerna.
 
-1. &#x200B;
+1. 
    1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
 1. Välj annonsnätverket, kontot, kampanjen och annonsgruppen och klicka sedan på **[!UICONTROL Continue]**.
@@ -39,7 +39,7 @@ Du kan skapa och redigera placeringar för annonsgrupper i [kampanjtyper som st�
 >
 >Använd [kampanjkalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md) om du vill redigera många placeringar samtidigt.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
 
 1. Markera kryssrutan bredvid varje rad som ska redigeras.
 

@@ -3,7 +3,7 @@ title: Skapa en  [!DNL Excel] mall för en kalkylbladsrapportfeed
 description: Lär dig hur du skapar specialformaterade kalkylbladsmallar.
 exl-id: 74bf3cdf-7d56-431a-8aff-11ed3840a7cd
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Om du vill skapa kalkylbladsfeeds måste du först skapa särskilt formaterade [!DNL Microsoft Excel] kalkylbladsmallar med hjälp av vanliga rapportmallar. Du kan också anpassa kalkylbladet [!DNL Excel] så att det innehåller ytterligare kolumner och diagram.
 
-1. Generera önskad rapporttyp i **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** med en [!UICONTROL Date Aggregation] enhet av [!UICONTROL Daily] och med alla andra dataparametrar som du vill ha, och spara rapporten som en mall.
+1. Generera önskad rapporttyp i **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** med en [!UICONTROL Date Aggregation] enhet av [!UICONTROL Daily] och med alla andra dataparametrar som du vill ha, och spara rapporten som en mall.
 
    >[!NOTE]
    >
    > * Du kan skapa kalkylbladsfeeds för [!UICONTROL Portfolio]-, [!UICONTROL Search Engine]-, [!UICONTROL Search Engine Account]-, [!UICONTROL Campaign]-, [!UICONTROL Ad Group]-, [!UICONTROL Ad Variation]-, [!UICONTROL Keyword]- och [!UICONTROL Forecast Accuracy]-rapporter. Om du använder [!UICONTROL Ad Group Report] bör du begränsa antalet annonsgrupper som ingår för att få snabbare resultat.
    > * Enheten [!UICONTROL Date Range] som definierats i mallen används inte. Du definierar datumen som data ska uppdateras för när du konfigurerar kalkylbladsflödet senare.
 
-1. När rapporten har skapats går du till **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** och exporterar en TSV- eller XLS-version av rapportutdata till en fil.
+1. När rapporten har skapats går du till **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** och exporterar en TSV- eller XLS-version av rapportutdata till en fil.
 
 1. Skapa en anpassad mall för rapporten i [!DNL Excel]:
 

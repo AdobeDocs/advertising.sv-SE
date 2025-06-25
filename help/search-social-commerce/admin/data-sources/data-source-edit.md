@@ -4,7 +4,7 @@ description: Lär dig hur du redigerar konfigurationen för en  [!DNL Google Ana
 role: User, Admin
 exl-id: d3c6c8d6-d427-4a2d-8260-850e61d3cd4d
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 *Endast kontoadministratörer (grundroll), kontoansvariga för Adobe och administratörer*
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid den datakälla som du vill redigera.
 

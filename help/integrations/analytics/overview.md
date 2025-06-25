@@ -3,7 +3,7 @@ title: Översikt över  [!DNL Analytics for Advertising]
 description: Översikt över  [!DNL Analytics for Advertising]
 feature: Integration with Adobe Analytics
 exl-id: 94558478-ffa6-4b83-bc79-c7589fe0f14c
-source-git-commit: 8911f6ea16878bede96151f004e6de2717484140
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -28,32 +28,32 @@ Fördelar:
 * Använd anpassade [!DNL Analytics]- och standardhändelser som konverteringssignaler för optimering av betalmediereklam.
 * Dra nytta av [!DNL Analytics] Analysis Workspace för att bättre förstå webbplatsens startpunkter och besöksbeteenden.
 * Bättre samarbete mellan webbanalytiker och betalteam.
-* Använd beständig Adobe Advertising-vy och klicknings-ID:n i [!DNL Analytics] för att förstå webbplatsengagemanget.
-* Förbättra traditionella betalda medierapporter i Analysis Workspace med anpassade mätvärden, anpassade dimensioner och webbplatsaktivitet som inte är möjliga när data eller pixlar exporteras till annonsservrar eller andra DSP.
-* Dra nytta av den [!DNL Analytics]-kod som redan finns på webbplatsen för att spåra och optimera den i Adobe Advertising.
+* Använd beständiga Adobe Advertising-ID:n för genomgång och klickning i [!DNL Analytics] för att förstå webbplatsengagemanget.
+* Förbättra traditionella betalda medierapporter i Analysis Workspace med anpassade mått, anpassade dimensioner och webbplatsaktivitet som inte är möjliga när du exporterar data eller pixlar till annonsservrar eller andra DSP:er.
+* Dra nytta av den [!DNL Analytics]-kod som redan finns på webbplatsen för att spåra och optimera inom Adobe Advertising.
 
 >[!TIP]
 >
-> Se en [videopresentation till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=sv-SE#analytics).
+> Se en [videopresentation till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html#analytics).
 
 ## Använda analyser för betald medierapportering
 
 [!DNL Analytics for Advertising] förbättrar rapporteringen och inblicken om hur annonseringen påverkar webbplatsens beteende genom att du kan:
 
-* Använd beständig Adobe Advertising-vy och klicknings-ID:n i [!DNL Analytics] för att förstå webbplatsengagemanget.
-* Utnyttja Analysis Workspace för att bättre förstå webbplatsens startpunkter och besöksbeteenden. Ni har tillgång till dimensionella data och händelsedata för betalda media, som innehåller kampanjenhetsnamn i Adobe Advertising (inte bara för utplaceringar och annonser) och tillhörande mått, t.ex. klick, visningar och kostnader.
+* Använd beständiga Adobe Advertising-ID:n för genomgång och klickning i [!DNL Analytics] för att förstå webbplatsengagemanget.
+* Utnyttja Analysis Workspace för att bättre förstå webbplatsens startpunkter och besöksbeteenden. Ni har tillgång till dimensionella data och händelsedata för betalda medier, som innehåller namn på Adobe Advertising kampanjentiteter (inte bara för utplaceringar och annonser) och tillhörande värden, som klick, visningar och kostnader.
 
-Om du vill använda [!DNL Analytics] som ditt betalda medierapporteringsverktyg behöver din organisation en Experience Cloud-inloggning med åtkomst till Analysis Workspace. Adobe Advertising-teamet kommer att hjälpa er att mappa data från Adobe Advertising till enskilda rapporteringsprogram i Analysis Workspace. Du kan skicka data från Adobe Advertising till alla rapportsviter, men du bör vara medveten om de rapportsviter som har mappats till Adobe Advertising och de som inte har det. Beroende på rapportsviten kan detta ändra rapporterade data.
+Om du vill använda [!DNL Analytics] som ditt betalda medierapporteringsverktyg behöver din organisation en Experience Cloud-inloggning med åtkomst till Analysis Workspace. Adobe Advertising-teamet hjälper dig att kartlägga dina Adobe Advertising-data till enskilda rapporteringsprogram i Analysis Workspace. Du kan skicka Adobe Advertising-data till alla rapporteringsprogram, men du bör vara medveten om vilka rapportsviter som har mappats till Adobe Advertising och vilka som inte har det. Beroende på rapportsviten kan detta ändra rapporterade data.
 
-[Adobe Advertising-ID:n i [!DNL Analytics]](ids.md) fungerar som andra [!DNL eVars], med en anpassad, beständig förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med ditt kontoteam på Adobe.
+[Adobe Advertising-ID:n i [!DNL Analytics]](ids.md) fungerar som andra [!DNL eVars] med en anpassad, beständig förfallotid. Som standard är attributsökningsfönstret inställt på 60 dagar under Adobe Advertising-implementeringen. Om du vill ändra den här inställningen arbetar du med ditt Adobe-kontoteam.
 
-Adobe Advertising-dimensioner läggs till med suffixet&quot;(AMO ID)&quot; (t.ex.&quot;Ad Type (AMO ID)&quot;). En lista med tillgängliga dimensioner finns i [Adobe Advertising-mått i Analysis Workspace](advertising-metrics-in-analytics.md).
+Adobe Advertising-dimensioner läggs till med suffixet&quot;(AMO ID)&quot; (t.ex.&quot;Ad Type (AMO ID)&quot;). En lista med tillgängliga dimensioner finns i [Adobe Advertising Metrics in Analysis Workspace](advertising-metrics-in-analytics.md).
 
 >[!NOTE]
 >
-> När du visar Adobe Advertising-data (eller en datauppsättning) inom [!DNL Analytics], ska du vara medveten om att mått och rapporter baseras på reglerna som anges i [!DNL Analytics]. Data kan skilja sig från vad du ser i andra rapporteringssystem, till exempel annonsserverrapporter, [!DNL DSP]-rapporter eller sökmotorrapporter. För att förstå dataskillnaderna i [!DNL Analytics] måste du veta när [!DNL eVar]-data förfaller, vad som definierar ett besök, vad som betraktas som senaste beröringsattribuering jämfört med total bestående attribuering och andra faktorer. Mer information finns i [Förväntade datavariationer mellan  [!DNL Analytics]  och Adobe Advertising](data-variances.md).
+> När du visar Adobe Advertising-data (eller en datauppsättning) inom [!DNL Analytics], ska du vara medveten om att mått och rapporter baseras på reglerna som anges i [!DNL Analytics]. Data kan skilja sig från vad du ser i andra rapporteringssystem, till exempel annonsserverrapporter, [!DNL DSP]-rapporter eller sökmotorrapporter. För att förstå dataskillnaderna i [!DNL Analytics] måste du veta när [!DNL eVar]-data förfaller, vad som definierar ett besök, vad som betraktas som senaste beröringsattribuering jämfört med total bestående attribuering och andra faktorer. Mer information finns i [Förväntade datavariationer mellan [!DNL Analytics] och Adobe Advertising](data-variances.md).
 
-## Använda analyser för att driva Adobe Advertising-kampanjer och Portfolio
+## Använda analyser för att driva Adobe Advertising kampanjer och portfolior
 
 Utan att ytterligare pixlar behövs kan [!DNL Analytics for Advertising] optimera och segmentera målgrupper bättre genom att skicka två huvudsignaler till Adobe Advertising:
 
@@ -62,11 +62,11 @@ Utan att ytterligare pixlar behövs kan [!DNL Analytics for Advertising] optimer
    * mått för webbplatsengagemang, t.ex. sidvisning och besök.
    * anpassade intäktsmått.
    * reserverade intäktsmått.
-* Segment som har skapats i [!DNL Analytics] och publicerats i Experience Cloud.
+* Segment skapade i [!DNL Analytics] och publicerade till Experience Cloud.
 
   Du kan använda [!DNL Analytics] segment för återmarknadsföring av förstahandswebbplatser i [!DNL DSP] och betalda sökannonser.
 
-  ([!DNL Search, Social, & Commerce] endast) Annonsörer med [!DNL Analytics], men inte Audience Manager, kan också skapa taggremsbaserade målgrupper (ommarknadsföringslistor) för Google webbplats och kundmatchande målgrupper (kundlistor) från [!DNL Analytics] segment som delas med Experience Cloud.
+  ([!DNL Search, Social, & Commerce] endast) Annonsörer med [!DNL Analytics], men inte Audience Manager, kan också skapa taggbaserade målgrupper (ommarknadsföringslistor) för Google webbplats och kundmatchande målgrupper (kundlistor) från [!DNL Analytics] segment som delas med Experience Cloud.
 
 ### Webbplatskonverteringsmått som budsignaler
 
@@ -78,25 +78,25 @@ För [!DNL Google Ads]- och [!DNL Google Microsoft Advertising]-kampanjer i hybr
 >
 > Du kan inte mappa beräknade värden från [!DNL Analytics] till Adobe Advertising.
 
-Ditt Adobe Advertising-team hjälper dig att identifiera och mappa händelser som gäller för betalmedieprestanda till Adobe Advertising, där de listas i [!UICONTROL Search] > [!UICONTROL Admin] > [!UICONTROL Conversions].
+Adobe Advertising-teamet hjälper dig att identifiera och mappa de händelser som gäller för betalmedieprestanda till Adobe Advertising, där de listas i [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Admin] > [!UICONTROL Conversions].
 
 I [Analysstatistik i Adobe Advertising](analytics-data-in-advertising.md) finns en lista med tillgängliga mätvärden.
 
 ### Analyssegment för återmarknadsföring av webbplatser
 
-Adobe Advertising kan importera [!DNL Analytics] segment för återmarknadsföring för Advertising DSP och [!DNL Search, Social, & Commerce] annonser med hjälp av integreringen mellan [!DNL Analytics] och Experience Cloud.
+Adobe Advertising kan importera [!DNL Analytics] segment för återmarknadsföring för Advertising DSP och [!DNL Search, Social, & Commerce] annonser med Experience Cloud Publiker-integreringen mellan [!DNL Analytics] och Experience Cloud.
 
-Om du vill komma åt [!DNL Analytics]-segmenten måste ett annonserarkonto aktivera [Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE). När ID-tjänsten är aktiverad blir alla segment i Experience Cloud (inklusive segment som skapats i [!DNL Analytics] och publicerats i Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service] samt segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) tillgängliga i Adobe Advertising så snart de bearbetas.
+Om du vill komma åt [!DNL Analytics]-segmenten måste ett annonserarkonto aktivera [Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html). När ID-tjänsten är aktiverad blir alla Experience Cloud-segment (inklusive segment som skapats i [!DNL Analytics] och publicerats till Experience Cloud, segment som skapats i Adobe Audience Manager, segment som skapats i Experience Cloud med [!DNL People core service] samt segment som skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager) tillgängliga i Adobe Advertising så fort de bearbetas.
 
 [!DNL Analytics] segment är tillgängliga inom 24 timmar och uppdateras dagligen.
 
-Mer information om tjänsten Experience Cloud Publiker finns i [Experience Cloud Publiker](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=sv-SE).
+Mer information om tjänsten Experience Cloud Audiences finns i [Experience Cloud Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html).
 
 ## Exempel på hur du använder integreringen {#integration-examples}
 
-### Använda data från Adobe Advertising i Analysis Workspace
+### Använda Adobe Advertising-data i Analysis Workspace
 
-Om du vill veta hur du kan använda dina Adobe Advertising-data för att skapa visuella rapporter i Analysis Workspace ska du titta på videon &quot;[Introduktion till Workspace och rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=sv-SE)&quot;.
+Om du vill veta hur du kan använda dina Adobe Advertising-data för att skapa visuella rapporter i Analysis Workspace kan du titta i videon &quot;[Introduktion till Workspace och rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html)&quot;.
 
 #### Använda Conversions i rapporter för direktansluten TV-visning
 
@@ -130,24 +130,24 @@ Använda vyn Marknadsföringskanal:
 
    Landningssida: `View-Through (CTV)`
 
-### Skapa instrumentpaneler för Adobe Advertising
+### Skapa Adobe Advertising Dashboards
 
-Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i Analysis Workspace kan du titta på videon &quot;[Skapa instrumentpaneler för Adobe Advertising med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=sv-SE)&quot;.
+Om du vill veta hur du kan spåra dina Adobe Advertising-data mot dina mål i Analysis Workspace kan du titta på videon [Skapa Adobe Advertising Dashboards med Adobe Analytics](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-dashboards-a4adc.html).
 
-### Använda Adobe Advertising-ID för analys av webbplatspost
+### Använda Adobe Advertising-id:t för analys av webbplatsposter
 
-Se videon [Skapa rapporter om webbplatsposter för Adobe Advertising ](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=sv-SE) om du vill se hur du kan skapa en Adobe Advertising-platspost för att övervaka veckodag, veckotid, webbläsare och geografisk påverkan.
+Om du vill se hur du kan skapa en anmälningsrapport för Adobe Advertising-webbplatser som övervakar veckodag, tidpunkt, webbläsare och geografisk påverkan kan du titta på videon [Skapa anmälningsrapporter för Adobe Advertising-webbplatser](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-site-entry-a4adc.html).
 
 ## Initiera en [!DNL Analytics for Advertising]-implementering
 
-Kontakta kontoteamet på Adobe som kommer att slutföra den initiala konfiguration som krävs för att börja och hjälpa dig att planera implementeringen och dataanvändningen baserat på organisationens behov.
+Kontakta Adobe Account Team, som kommer att slutföra den initiala konfiguration som krävs för att börja och hjälpa dig att planera implementeringen och dataanvändningen baserat på organisationens behov.
 
 >[!MORELIKETHIS]
 >
->* [Video: Introduktion till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html?lang=sv-SE)
+>* [Video: Introduktion till  [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/intro-a4adc.html)
 >* [Krav och nyckelinformation för implementering [!DNL Analytics for Advertising]](prerequisites.md)
->* [Adobe Advertising-ID:n som används av analyser](ids.md)
+>* [Adobe Advertising ID:n som används av Analytics](ids.md)
 >* [JavaScript Code for Analytics for Advertising](/help/integrations/analytics/javascript.md)
 >* [Förväntade datavarianser mellan [!DNL Analytics] och Adobe Advertising](data-variances.md)
->* [Adobe Advertising-mått i Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
+>* [Adobe Advertising Metrics in Analysis Workspace](/help/integrations/analytics/advertising-metrics-in-analytics.md)
 >* [[!DNL Analytics] Data i Adobe Advertising](/help/integrations/analytics/analytics-data-in-advertising.md)

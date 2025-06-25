@@ -3,7 +3,7 @@ title: Ta bort etikettklassificeringar
 description: Lär dig hur du tar bort en etikettklassificering.
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Om du tar bort en klassificering tas alla associationer mellan dess underordnade
 >
 >Om du bara vill avassociera ett klassificeringsvärde från en kontokomponent läser du &quot;[Ta bort klassificeringsvärden från kampanjkomponenter](classification-values-remove.md)&quot;.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika etikettklassificeringar.
 

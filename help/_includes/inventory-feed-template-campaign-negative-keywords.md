@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -21,7 +21,7 @@ För varje sträng klickar du på **[!UICONTROL Add (Up to 3)]** och anger följ
    * Negativ frasmatchning: `"keyword"`
    * Negativ exakt matchning: `[keyword]`
 
-Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
 **[!UICONTROL All other campaigns: Apply these negatives]:** (Alla annonsnätverk förutom [!DNL Yandex]; valfritt) Alla statiska nyckelord på kampanjnivå som ska läggas till för kampanjer vars namn inte matchar en angiven sträng. Om du vill ange flera nyckelord eller flera matchningstyper för samma nyckelord anger du dem på separata rader. Använd följande syntax utan ett minustecken:
 
@@ -29,4 +29,4 @@ Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylb
 * Negativ frasmatchning: `"keyword"`
 * Negativ exakt matchning: `[keyword]`
 
-Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].

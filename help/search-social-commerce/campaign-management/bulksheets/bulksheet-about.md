@@ -3,7 +3,7 @@ title: Hantera kampanjdata med hjälp av kalkylblad
 description: Lär dig mer om vilka funktioner som är tillgängliga i annonsnätverk, arbetsflödet för kalkylblad och felhanteringen.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Felfiler tas automatiskt bort efter 30 dagar om du inte tar bort dem tidigare.
 
 ## Information om varje fil
 
-Alla hämtade datafiler, överförda filer och felfiler är tillgängliga från [!UICONTROL Search] > [!UICONTROL Bulksheets].
+Alla hämtade datafiler, överförda filer och felfiler är tillgängliga från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Bulksheets].
 
 Informationen för varje fil innehåller aktivitetsstatus och procent av uppgiften som är slutförd, det datum då den skapades (när det är tillämpligt) det datum då den var eller kommer att bokföras i det angivna annonsnätverket, det schemalagda raderingsdatumet och inloggningsnamnet för användaren som initierade uppgiften.
 

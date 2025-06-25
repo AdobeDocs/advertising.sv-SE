@@ -3,7 +3,7 @@ title: Överför trafik- och konverteringsmått för  [!DNL Naver] konton med en
 description: Lär dig hur du överför trafik- och konverteringsstatistik för spårning och rapportering endast för  [!DNL Naver] konton.
 exl-id: 2e4c26fa-16a8-4f36-bc17-b3a38a18120b
 feature: Search Tools
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan överföra en TSV-, CSV- eller TXT-fil med dagliga aggregerade trafikvär
 
 Search, Social, &amp; Commerce synkroniserar inte data med annonsnätverket och lägger inte ut bud för kontot.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Generic Tracking]** på huvudmenyn.
 
 1. Välj annonsnätverket.
 

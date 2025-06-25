@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,4 +15,4 @@ ht-degree: 0%
 * Negativ frasmatchning: `"keyword"`
 * Negativ exakt matchning: `[keyword]`
 
-Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+Den vanliga syntaxen för fras och exakta matchningstyper används i det kalkylblad som genereras när du sprider flödesdata via mallen. **Obs!** Du kan inte se de negativa nyckelorden på fliken [!UICONTROL Keywords] eller i vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns].

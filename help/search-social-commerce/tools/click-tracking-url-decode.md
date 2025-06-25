@@ -3,7 +3,7 @@ title: Avkoda en klickspårnings-URL
 description: Lär dig hur du tar bort kod för klickspårning i Sök, Socialt och Commerce från en bas-URL.
 exl-id: 2f40f6a9-afc9-4e9d-9233-40e29a7f50d8
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Du kan se var en mål-URL skickar en användare genom att ta bort koden för sö
 >
 >* Du kan avkoda så många URL:er åt gången som du vill, men hur bra det är beror på vilken webbläsare du använder.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Decode Tracking URLs]** på huvudmenyn.
 
 1. I inmatningsfältet anger du varje URL som innehåller kod för sökning, sociala medier och Commerce-spårning.
 

@@ -3,7 +3,7 @@ title: Exportera en genererad eller överförd kalkylbladsfil
 description: Lär dig hur du hämtar en kalkylbladsfil, inklusive felfiler och valideringsfiler för landningssidor.
 exl-id: 25868c67-5e6e-4570-9d8f-1a56b9bb88ac
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan ladda ned alla genererade eller överförda kalkylbladsfiler, inklusive felfiler och valideringsfiler för landningssidor, i 30 dagar. Filerna tas automatiskt bort 30 dagar efter att de har överförts eller genererats.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Bulksheets]** på huvudmenyn.
 
 1. (Valfritt) Ovanför kalkylbladslistan [lägger du till filter](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md) för att begränsa vilka filer som visas.
 

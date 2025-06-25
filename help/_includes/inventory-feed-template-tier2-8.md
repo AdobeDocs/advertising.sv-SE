@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -14,5 +14,5 @@ Du kan inkludera upp till åtta nivåer (nivåer) av produktgrupper, inklusive [
 >[!NOTE]
 >
 >* ([!DNL Google Ads] endast) Möjliga värden för [!UICONTROL Channel] är [!UICONTROL Local] eller [!UICONTROL Online], och möjliga värden för [!UICONTROL ChannelExclusivity] är [!UICONTROL SingleChannel] och [!UICONTROL MultiChannel].
->* När du skapar en andra produktgrupp (underordnad) för en annonsgrupp på fliken [!UICONTROL Product Groups] i vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] skapas en annan produktgrupp, som kallas [!UICONTROL Everything Else], automatiskt med standardanbudet för annonsgruppen. Lagerflödesmallar används, men [!UICONTROL Everything Else] produktgrupper exkluderas.
+>* När du skapar en andra produktgrupp (underordnad) för en annonsgrupp på fliken [!UICONTROL Product Groups] i vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] skapas en annan produktgrupp, som kallas [!UICONTROL Everything Else], automatiskt med standardanbudet för annonsgruppen. Lagerflödesmallar används, men [!UICONTROL Everything Else] produktgrupper exkluderas.
 >* När du inkluderar flera lager och inget värde är tillgängligt för den sista (högst numrerade) nivån används den näst högsta nivån som produktgrupp som kan köpas. Om du t.ex. inkluderar fem lager och inget värde är tillgängligt för nivå 5, används nivå 4 som en prisvärd produktgrupp (enhet). Om inget värde är tillgängligt för ett mellanskikt ignoreras raden. Om du t.ex. inkluderar fem lager och nivå 5 har ett värde men nivå 4 inte har det, ignoreras rad 4.

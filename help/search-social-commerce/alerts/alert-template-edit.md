@@ -3,7 +3,7 @@ title: Redigera en anpassad aviseringsmall
 description: Lär dig hur du redigerar en mall för att generera anpassade aviseringar.
 exl-id: 37dfaaa2-ecd2-42cf-a3a6-9d82a8610355
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Redigera en anpassad aviseringsmall
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn [!UICONTROL Alert Templates].
 
 1. (Valfritt) Filtrera vyn så att den innehåller rader med specifika namn, dataområde som ska utvärderas eller andra villkor.
 

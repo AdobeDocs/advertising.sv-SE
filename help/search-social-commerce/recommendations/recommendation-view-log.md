@@ -3,7 +3,7 @@ title: Visa loggen för utgivarens rekommendationer för ett konto
 description: Lär dig hur du visar en logg över varje rekommendation som har tillämpats för ett [!DNL Google Ads] eller [!DNL Microsoft Advertising] konto.
 exl-id: a963c1cd-e785-470d-8f16-8d770baf2aa7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan visa en logg över varje rekommendation som har tillämpats för ett [!DN
 
 Avvisade rekommendationer är inte tillgängliga från annonsnätverket.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]** på huvudmenyn.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 

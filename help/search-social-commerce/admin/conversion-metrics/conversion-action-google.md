@@ -2,7 +2,8 @@
 title: Skapa en konverteringsåtgärd för en  [!DNL Google Ads] förbättrad konvertering för leads
 description: Lär dig hur du skapar en  [!DNL Google Ads] konverteringsåtgärd för en förbättrad konvertering av leads.
 feature: Conversions
-source-git-commit: 5eb6ed5b42e74f424fc8499f6df0dbe3f2430ab2
+exl-id: faf4a6de-e82f-4afd-bda5-2602fb45aee5
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +16,7 @@ Endast *[!DNL Google Ads]konton*
 
 Du kan skapa konverteringsåtgärder för [!DNL Google Ads] förbättrade konverteringar för leads som ska spåras för enskilda [!DNL Google Ads]-konton, inte konverteringar som spåras på en chefskontonivå.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn, som öppnar fliken **[!UICONTROL Summary]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn, som öppnar fliken **[!UICONTROL Summary]**.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 

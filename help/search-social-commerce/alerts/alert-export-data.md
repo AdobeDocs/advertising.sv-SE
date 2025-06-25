@@ -3,7 +3,7 @@ title: Exportera data för anpassade aviseringar
 description: Lär dig hur du exporterar data för en utlöst varning till en fil.
 exl-id: e3467b39-21ed-431e-b5f4-c3dc2dd5266d
 feature: Search Alerts
-source-git-commit: 03475909ca942010e4380456079519f0c18adca3
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Du kan exportera data för en utlöst avisering eller data för den senast utlö
 
 1. Gör något av följande:
 
-   * (Om du vill exportera data för den senast utlösta aviseringen för en aviseringsmall) klickar du på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn Varningsmallar.
+   * (Om du vill exportera data för den senast utlösta aviseringen för en aviseringsmall) klickar du på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn Varningsmallar.
 
-   * (Om du vill exportera data för en viss utlöst varning) Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn. Klicka på **[!UICONTROL Triggered Alerts]** på undermenyn.
+   * (Om du vill exportera data för en viss utlöst varning) Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn. Klicka på **[!UICONTROL Triggered Alerts]** på undermenyn.
 
 1. I kolumnen [!UICONTROL Export] bredvid mallen eller rapportnamnet klickar du på ett formatnamn och öppnar eller sparar sedan filen enligt webbläsarens normala procedur:
 

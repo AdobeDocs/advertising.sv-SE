@@ -3,7 +3,7 @@ title: Redigera en rapportmall
 description: Lär dig hur du redigerar inställningarna för dina återanvändbara rapportmallar.
 exl-id: f986bc75-e42c-4388-8cb1-305100678b1b
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan ändra inställningarna för alla rapportmallar som du har skapat. De nya inställningarna tillämpas på alla rapporter som använder mallen som genereras i framtiden.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
 1. Klicka på fliken **[!UICONTROL Templates]**.
 

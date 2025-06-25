@@ -3,7 +3,7 @@ title: Etikettklassificeringar
 description: Lär dig hur du använder etikettklassificeringar för att gruppera dina kontokomponenter.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Varje godkänd enhet kan ha etikettvärden för flera klassificeringar, men bara
 
 ## Vyn Etikettklassificeringar
 
-Vyn [!UICONTROL Labels Classifications] på menyn [!UICONTROL Search] > [!UICONTROL Campaigns] innehåller [!UICONTROL Classifications] och [!UICONTROL Label Values] undervyer. Du kan visa data för dina etikettklassificeringar, [skapa](classification-create.md)- och [ta bort](classification-delete.md)-etikettklassificeringar och visa data för dina etikettklassificeringsvärden. Som standard visas data för etikettklassificeringar och -värden på nyckelordsnivå, men du kan även visa data för dina klassificeringar och -värden på ad-nivå.
+Vyn [!UICONTROL Labels Classifications] på menyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] innehåller [!UICONTROL Classifications] och [!UICONTROL Label Values] undervyer. Du kan visa data för dina etikettklassificeringar, [skapa](classification-create.md)- och [ta bort](classification-delete.md)-etikettklassificeringar och visa data för dina etikettklassificeringsvärden. Som standard visas data för etikettklassificeringar och -värden på nyckelordsnivå, men du kan även visa data för dina klassificeringar och -värden på ad-nivå.
 
 >[!MORELIKETHIS]
 >

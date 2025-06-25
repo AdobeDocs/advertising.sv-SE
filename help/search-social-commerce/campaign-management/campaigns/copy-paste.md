@@ -3,7 +3,7 @@ title: Skapa och redigera kampanjdata i grupp med kopiera och klistra in
 description: Lär dig hur du hanterar kampanjdata gruppvis med kopierings- och inklistringsfunktionen.
 exl-id: 2ae1b02f-46ac-4ea8-aa9f-9e26ccaf63d0
 feature: Search Campaign Management
-source-git-commit: c2a1ce841a9dc99c57239f817dbd2065b91cdfb9
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 
 ## Kopiera datarader
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| på undermenyerna [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| på undermenyerna [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**.
 
 1. Markera kryssrutan bredvid varje rad som du vill kopiera.
 
@@ -58,7 +58,7 @@ Du kan använda den här funktionen för att redigera befintliga kampanjobjekt (
 
 1. Kopiera de relevanta tabbavgränsade raderna i [!DNL Excel] eller en annan redigerare.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn Sök, socialt och Commerce. Öppna vyn som data ska klistras in i (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn Sök, socialt och Commerce. Öppna vyn som data ska klistras in i (**[!UICONTROL Live]> \[[!UICONTROL Campaigns] \| [!UICONTROL Ad Groups] \| [!UICONTROL Keywords] \| [!UICONTROL Ads]\]**).
 
 1. Klicka på ![Mer](/help/search-social-commerce/assets/more.png "Mer") i verktygsfältet ovanför datatabellen och klicka sedan på **[!UICONTROL Paste]**.
 

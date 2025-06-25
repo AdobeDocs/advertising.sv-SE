@@ -3,7 +3,7 @@ title: Konfigurera inställningar för feed-data
 description: Lär dig hur du konfigurerar inställningar som styr hur feed-data bearbetas.
 exl-id: 7eaac751-ecdf-4e73-9eae-a961bd9b7360
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan konfigurera hur annonsgrupper, nyckelord och annonser ska hanteras i feed-datafiler och hur data i FTP-filer ska bearbetas specifikt via feed-inställningarna.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Settings]** i verktygsfältet ovanför datatabellen.
 
@@ -104,7 +104,7 @@ Det här alternativet är inaktiverat som standard. Om du vill aktivera det här
 
 * *[!UICONTROL Immediately]* (standard): Skickar satsbladsfilerna till relevanta annonsnätverk efter att data har spridits via mallarna. Kolumnmallsfilerna är fortfarande tillgängliga i vyn [!UICONTROL Bulksheets] i 30 dagar.
 
-* *[!UICONTROL Preview in Bulksheet Management area only, post later]:**&#x200B; Bokför inte kalkylbladsfilerna i relevanta annonsnätverk, men visar dem i vyn [!UICONTROL Bulksheets], som du kan publicera dem från senare. Kolumnmallsfilerna är fortfarande tillgängliga i vyn [!UICONTROL Bulksheets] i 30 dagar. När kalkylbladsfilen är större än 10 MB men mindre än 2 GB är filen i ZIP-format. Du behöver inte packa upp filen för att kunna publicera den. &#x200B;** Tips!** Om du inte tidigare har validerat dina landningssidor kan du använda det här alternativet för att validera dem från [!UICONTROL Bulksheets]-vyn innan du publicerar data i annonsnätverket.
+* *[!UICONTROL Preview in Bulksheet Management area only, post later]:** Bokför inte kalkylbladsfilerna i relevanta annonsnätverk, men visar dem i vyn [!UICONTROL Bulksheets], som du kan publicera dem från senare. Kolumnmallsfilerna är fortfarande tillgängliga i vyn [!UICONTROL Bulksheets] i 30 dagar. När kalkylbladsfilen är större än 10 MB men mindre än 2 GB är filen i ZIP-format. Du behöver inte packa upp filen för att kunna publicera den. **Tips!** Om du inte tidigare har validerat dina landningssidor kan du använda det här alternativet för att validera dem från [!UICONTROL Bulksheets]-vyn innan du publicerar data i annonsnätverket.
 
 **[!UICONTROL Exclude keywords from posting when keyword length is greater than]:** Inkluderar publicering av nyckelordsfraser med fler än ett angivet antal ord till annonsnätverket. När det här alternativet är markerat sprids och visas nyckelordsfraser med fler än det maximala antalet ord på fliken [!UICONTROL Keywords], men de registreras inte när du försöker publicera data.
 

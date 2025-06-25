@@ -3,7 +3,7 @@ title: Tillämpa eller avvisa en utgivarrekommendation
 description: Lär dig hur du visar, tillämpar eller inaktiverar en utgivarrekommendation.
 exl-id: 794df5d5-fc7c-45f7-8a26-460b0a8f56b7
 feature: Search Recommendations
-source-git-commit: d56df1f1bb36021ebeebaad0779f07461a85ccdd
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 >
 >Rekommendationer hjälper er att förbättra kampanjresultaten, men vissa kanske inte passar in i era övergripande mål. Därför är det bäst att rådfråga ditt Adobe-kontoteam innan du genomför några rekommendationer.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Recommendations & Publisher Insights]** på huvudmenyn.
 
 1. I det övre högra hörnet väljer du annonsnätverket och kontot.
 
@@ -30,7 +30,7 @@ Visa de rekommenderade åtgärderna och en förklaring till varför åtgärderna
 
 1. Klicka på **[!UICONTROL View]** i kolumnen [!UICONTROL Actions] för rekommendations- eller insight-raden.
 
-1. (Recommendations med underrekommendationer) Klicka **[!UICONTROL View]** bredvid underrekommendationen.
+1. (Rekommendationer med underrekommendationer) Klicka på **[!UICONTROL View]** bredvid underrekommendationen.
 
 1. (Valfritt) Gör något av följande:
 

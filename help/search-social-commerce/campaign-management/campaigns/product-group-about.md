@@ -3,7 +3,7 @@ title: Om att handla produktgrupper
 description: Läs mer om att handla produktgrupper i shoppingkampanjer.
 exl-id: ae270935-1464-4393-8b8c-745fee077522
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du konfigurerar produktgrupper på annonsgruppsnivå för att avgöra vilka prod
 
 När samma produkt ingår i mer än en kampanj använder annonsnätverket först kampanjprioriteten för att avgöra vilken kampanj (och tillhörande bud) som är berättigad för annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad.
 
-Mer information om [!DNL Google] shoppingkampanjer och annonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) och i [dokumentationen för Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&amp;rd=1). Mer information om [!DNL Microsoft] shoppingkampanjer finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
+Mer information om [!DNL Google] shoppingkampanjer och annonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/google-shopping-campaigns.md) och i [dokumentationen för Google Ads](https://support.google.com/google-ads/answer/3455481?visit_id=638205553638977410-2592024034&rd=1). Mer information om [!DNL Microsoft] shoppingkampanjer finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](/help/search-social-commerce/campaign-management/special-workflows/microsoft-shopping-campaigns.md) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.bingads.microsoft.com/#apex/3/en/50903/1-500).
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Inom en annonsgrupp kan du skapa upp till sju nivåer av produktgrupper (exklusi
 
 ## Vyn [!UICONTROL Product Groups]
 
-Du kan skapa och redigera produktgrupper och ta bort produktgrupper och deras underordnade produktgrupper i vyn [!UICONTROL Search] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
+Du kan skapa och redigera produktgrupper och ta bort produktgrupper och deras underordnade produktgrupper i vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] > [!UICONTROL Product Groups].
 
 ## Spårnings- och prestandadata för kundproduktgrupper
 

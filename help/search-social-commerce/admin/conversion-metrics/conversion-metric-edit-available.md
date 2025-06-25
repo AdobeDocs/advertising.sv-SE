@@ -3,7 +3,7 @@ title: Ändra konverteringsstatistik som är tillgänglig i ledningslägen och r
 description: Lär dig hur du gör konverteringsstatistik tillgänglig i dina ledningslägen och rapporter.
 feature: Conversions
 exl-id: de3d288a-5fec-4479-92cf-7754390e21bb
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -18,7 +18,7 @@ På samma sätt kan du dölja ett konverteringsmått för portföljmål, rapport
 
 I den lista över konverteringsmått som är tillgängliga kan varje användare med tillgång till annonsörens data anpassa de mätvärden de ser för vyer och rapporter, inklusive eller utelämna specifika mätvärden när de väljer.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
 
    Alla konverteringsvärden som har samlats in för annonsören och alla andra namn som har angetts för visning visas.
 

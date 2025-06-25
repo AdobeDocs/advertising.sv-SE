@@ -3,7 +3,7 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportföljer till  [!DNL Google Ads] och [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -32,7 +32,7 @@ där `<network_ID>` är det numeriska ID som Search, Social och Commerce använd
 >
 >Konverteringar som spåras av Google Ads och Microsoft Advertising UET-taggen (Universal Event tracking) överförs inte till annonsnätverken igen. Om ni inkluderar dem i ett mål måste ni lägga till dem i kampanjmålen i annonsnätverkets redaktör.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Upload Setup]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid **[!UICONTROL Enable Objective Upload]**.
 
@@ -40,7 +40,7 @@ där `<network_ID>` är det numeriska ID som Search, Social och Commerce använd
 
 1. Klicka på **[!UICONTROL Save]**.
 
-1. (Om dina konverteringar spåras på en hanterarkontonivå) [Lägg till autentiseringsuppgifter för ditt hanterarkonto](/help/search-social-commerce/admin/manager-accounts.md) på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
+1. (Om dina konverteringar spåras på en hanterarkontonivå) [Lägg till autentiseringsuppgifter för ditt hanterarkonto](/help/search-social-commerce/admin/manager-accounts.md) på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**.
 
 1. Kontrollera att varje mål - med namnet `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_ID>` - visas inom två dagar i annonsnätverket.
 
@@ -67,7 +67,7 @@ GGL_Lead tas inte med i beräkningen/överföringen eftersom det är ett Google 
 
 >[!TIP]
 >
->Du kan visa data för Adobe Advertising-viktade intäkter i annonsnätverkets rapporter. Det bästa sättet är att jämföra de viktade intäkterna med [!DNL Google Ads] &quot;All conv. (efter konv. time) eller måttet [!DNL Microsoft Advertising], All conv. intäkter,&quot; segmenterad till O_ACS_OBJ*-mätvärdet.<!--clarify -->
+>Du kan visa data för Adobe Advertising viktade intäkter i annonsnätverkets rapporter. Det bästa sättet är att jämföra de viktade intäkterna med [!DNL Google Ads] &quot;All conv. (efter konv. time) eller måttet [!DNL Microsoft Advertising], All conv. intäkter,&quot; segmenterad till O_ACS_OBJ*-mätvärdet.<!--clarify -->
 
 ## Felsöka saknade mål
 
@@ -75,7 +75,7 @@ Om målet - med namnet `O_ACS_OBJ_<network_ID>_<objective_ID>_<network_account_I
 
 * ([!DNL Google Ads]) Kontrollera om konverteringarna ska överföras till konto- eller hanterarnivå. Om de ska överföras på ledningsnivå:
 
-   * Kontrollera om autentiseringsuppgifterna för hanterarkontot [!DNL Google Ads] anges på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Om det behövs [lägger du till autentiseringsuppgifterna för hanterarkontot](/help/search-social-commerce/admin/manager-accounts.md).
+   * Kontrollera om autentiseringsuppgifterna för hanterarkontot [!DNL Google Ads] anges på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Manager Accounts]**. Om det behövs [lägger du till autentiseringsuppgifterna för hanterarkontot](/help/search-social-commerce/admin/manager-accounts.md).
 
    * Kontrollera om annonsnätverkskontot redan innehåller samma måttnamn. Om den gör det byter du namn på måttet så att du kan skapa rätt egenskap på hanterarnivå.
 

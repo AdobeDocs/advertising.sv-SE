@@ -3,7 +3,7 @@ title: Generera en Adobe Advertising-tagg för konverteringsspårning
 description: Lär dig hur du skapar en konverteringstagg för Adobe Advertising för att spåra konverteringshändelser.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 >
 >Den här funktionen lägger inte till bildtaggar eller [!DNL JavaScript]-taggar på annonsörens webbsidor. Taggarna måste läggas till enligt annonsörens normala procedur för uppdatering av webbsidor.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]** på huvudmenyn.
 
 1. Ange [konverteringstagginställningarna](#conversion-tag-settings).
 
@@ -36,7 +36,7 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 >
 >Varje mätvärde i den nya konverteringstaggen listas automatiskt i [!UICONTROL Admin] > [!UICONTROL Conversions], även om det inte implementeras eller webbsidorna som den är på inte har fått några klick. Det här beteendet skiljer sig från beteendet för mätvärden i taggar som skapats manuellt eller någon annanstans, som inte listas i [!UICONTROL Admin] > [!UICONTROL Conversions] förrän någon av de webbsidor som den är aktiverad har fått ett klick. I samtliga fall undantas dock varje mätvärde från början från portföljmål, rapporter och vyer tills du uttryckligen gör dem tillgängliga. Innan du lägger till mätvärden i portföljmål bör du dock överväga att först göra mätvärdena tillgängliga och lägga till dem i rapporter för att kontrollera när de får klickningar.
 
-## Inställningar för konverteringstaggar i Adobe Advertising {#conversion-tag-settings}
+## Inställningar för Adobe Advertising-konverteringstaggar {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** Den typ av tagg som ska skapas:
 
@@ -44,7 +44,7 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 
 * *[!UICONTROL JavaScript]:* Så här skapar du en JavaScript-tagg.
 
-Mer information om skillnaderna mellan taggtyperna finns i &quot;[Vanliga frågor om konvertering av Adobe Advertising och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)&quot;.
+Mer information om skillnaderna mellan taggtyperna finns i [Vanliga frågor om Adobe Advertising-konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).
 
 **[!UICONTROL Tag Properties]:** En eller flera konverteringsmått som ska spåras när en slutanvändare visar en sida som innehåller konverteringstaggen. Om du vill lägga till ett mått i listan anger du måttnamnet i fältet [!UICONTROL Add new property] och klickar på **[!UICONTROL Add]**.
 
@@ -52,11 +52,11 @@ När flera mätvärden spåras förenas de med ett et-tecken (`&`) i taggen, til
 
 >[!NOTE]
 >
->Mätvärden som läggs till i den här listan sparas inte någonstans eller är integrerade med klientens [!UICONTROL Conversions]-lista på fliken [!UICONTROL Admin]. Mått läggs dock till i klientens [!UICONTROL Conversions]-lista automatiskt när Adobe Advertising faktiskt samlar in data för ett mått, vilket inträffar när konverteringstaggen implementeras på en sida och en slutanvändare slutför en transaktion som öppnar den sidan.
+>Mätvärden som läggs till i den här listan sparas inte någonstans eller är integrerade med klientens [!UICONTROL Conversions]-lista på fliken [!UICONTROL Admin]. Mått läggs dock till i klientens [!UICONTROL Conversions]-lista automatiskt när Adobe Advertising samlar in data för ett mått, vilket inträffar när konverteringstaggen implementeras på en sida och en slutanvändare slutför en transaktion som öppnar sidan.
 
 **[!UICONTROL Include unique transaction IDs]:** (Valfritt) Innehåller en transaktions-ID-egenskap (`ev_transid=<transid>`) i taggen. Alternativet är markerat som standard.
 
-När du väljer det här alternativet måste annonsören generera ett unikt värde för `<transid>` (till exempel ett faktiskt order-ID) när transaktionen är slutförd och skicka tillbaka den till Adobe Advertising, till exempel `ev_transid=0123`. Adobe Advertising använder transaktions-ID för att ta bort dubbletttransaktioner med samma transaktions-ID och egenskapsvärde. Transaktions-ID:t får inte innehålla et-tecken (`&`) som är reserverade som parameteravgränsare. Transaktions-ID:t ingår i [den [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) som du kan använda för att validera data i Search, Social och Commerce med annonsörens data.
+När du väljer det här alternativet måste annonsören generera ett unikt värde för `<transid>` (till exempel ett faktiskt order-ID) när transaktionen är slutförd och skicka tillbaka den till Adobe Advertising, till exempel `ev_transid=0123`. Adobe Advertising använder transaktions-ID:t för att eliminera dubbletttransaktioner med samma transaktions-ID och egenskapsvärde. Transaktions-ID:t får inte innehålla et-tecken (`&`) som är reserverade som parameteravgränsare. Transaktions-ID:t ingår i [den [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) som du kan använda för att validera data i Search, Social och Commerce med annonsörens data.
 
 Om data inte innehåller ett unikt ID per transaktion genererar Adobe Advertising fortfarande ett baserat på transaktionstid.
 
@@ -70,11 +70,11 @@ Om data inte innehåller ett unikt ID per transaktion genererar Adobe Advertisin
 
 **[!UICONTROL JS Version]:** ([!DNL JavaScript] endast taggar) Vilken version av [!DNL JavaScript]-taggen som ska skapas: *[!UICONTROL v2]* (standard) eller *[!UICONTROL v3]*.
 
-Se &quot;[Vanliga frågor om konvertering av Adobe Advertising och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; för mer information om skillnaderna.
+Se &quot;[Vanliga frågor om Adobe Advertising-konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; för mer information om skillnaderna.
 
 >[!MORELIKETHIS]
 >
->* [Om Adobe Advertising-taggar för konvertering/spårning](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
+>* [Om Adobe Advertising-konverteringstaggar](/help/search-social-commerce/tracking/conversion-tracking-advertising.md)
 >* [Om verktygen för att skapa och avkoda spårningstaggar](tracking-tools-about.md)
 >* [Frågor och svar om spårningstaggar för konvertering och sidvisning](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md)
 >* [Format för JavaScript-konverteringstaggar, version 3](/help/search-social-commerce/tracking/format-conversion-tag-jsv3.md)

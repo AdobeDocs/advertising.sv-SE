@@ -3,7 +3,7 @@ title: Hantera lagerdataflödesfiler
 description: Lär dig hur du konfigurerar inställningar som styr hur feed-data bearbetas.
 exl-id: 7d19ecc0-c939-4996-b22b-970ce8644b09
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Du kan överföra och bearbeta dataflödesfiler på något av följande sätt:
 
 * **Använd FTP automatiskt:** Du kan överföra filer direkt till en FTP-katalog. Feed-tjänsten söker efter nya filer varannan timme. När du har överfört en fil för första gången kan du koppla den till en annonsspecifik mall. Senare kopplas alla filer som du överför med samma namn automatiskt till samma mall. Beroende på hur du [konfigurerar feed-datainställningarna](feed-settings-manage.md) kan Search, Social och Commerce automatiskt sprida feed-data via alla tillämpliga mallar och eventuellt publicera kampanjdata och annonsdata till relevanta annonsnätverk.
 
-  Om du vill konfigurera en FTP-katalog för insättning och automatisk bearbetning av datafiler kontaktar du kontogruppen på Adobe.
+  Om du vill konfigurera en FTP-katalog för insättning och automatisk bearbetning av datafiler kontaktar du Adobe Account Team.
 
 * **Manuell bearbetning:** Du kan [överföra feed-filer](#feed-file-upload) manuellt från ACM-vyn ([!UICONTROL Advanced]). När du har associerat en matningsfil med en eller flera annonsspecifika [mallar](/help/search-social-commerce/campaign-management/inventory-feeds/ad-templates/ad-template-manage.md) kan du generera kampanj- och annonsdata genom att [sprida matningsdata via mallar](feed-data-propagate.md) enligt [inställningarna för matningsdata](feed-settings-manage.md). Du kan också förhandsgranska genererade data i kampanjhierarkivyer, generera en kalkylbladsfil för granskning eller generera en kalkylbladsfil för omedelbar publicering i annonsnätverket. Om du inte skickar data direkt kan du [förhandsgranska dem](propagated-data-view.md) och [publicera dem](propagated-data-post.md) senare. Du kan senare [ersätta den befintliga feed-filen med en ny fil](#feed-file-replace) utan att förlora befintliga mallassociationer.
 
@@ -82,7 +82,7 @@ shoes<TAB>Clarks<TAB>20
 
 Du kan öppna eller hämta alla feedsfiler som har överförts manuellt eller med FTP.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Leta reda på feed-filen:
 
@@ -101,7 +101,7 @@ Mer information finns i webbläsarens onlinehjälp.
 >[!NOTE]
 > Om du kopplar en mall till en manuellt överförd fil, men sedan överför en annan fil med samma namn, filtillägg och grammatiska skiftläge via FTP, används FTP-filen när du sprider data via mallen. Till exempel ersätter myfile.csv myfile.csv, men det gör inte Myfile.CSV.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 
@@ -117,7 +117,7 @@ Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlä
 
 När du ersätter en feed-fil - även om den nya filen har ett annat filnamn eller tillägg - finns det kvar alla befintliga mallassociationer. Den nya filen används när du sprider data via alla mallar som ursprungligen var associerade med den tidigare filen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Gör något av följande:
 
@@ -141,7 +141,7 @@ Alla fält i filen valideras. Du kan inte publicera objekt med ogiltiga fältlä
 
 Du kan ta bort alla feed-filer som har överförts manuellt eller via FTP. När du tar bort en feed-fil är den inte längre kopplad till några mallar.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Advanced (ACM)]** på huvudmenyn, som öppnas på fliken [!UICONTROL Templates].
 
 1. Klicka på **[!UICONTROL Feeds]** i verktygsfältet ovanför datatabellen.
 

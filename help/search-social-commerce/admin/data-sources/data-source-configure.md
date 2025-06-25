@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar en datakälla från en [!DNL Google An
 role: User, Admin
 exl-id: 9e299e42-4971-49ea-a515-54a97eb13e0d
 feature: Search Admin, Search Data Sources
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Om du vill integrera mätvärden för flera egenskaper eller för flera vyer fö
 
 1. [Utför alla nödvändiga komponenter för att integrera  [!DNL Google Analytics] kontot](data-source-prerequisites.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Data Source Setup]** på huvudmenyn.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 

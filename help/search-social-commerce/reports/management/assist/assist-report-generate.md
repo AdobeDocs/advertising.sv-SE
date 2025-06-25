@@ -3,7 +3,7 @@ title: Generera en assistentrapport
 description: Lär dig hur du genererar hjälprapporter.
 exl-id: ac3e3619-c300-4d2f-84bc-c4977c1712f3
 feature: Search Reports, Search Assist Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Annonsörer med klickspårning i Sök, Socialt och Commerce och med konverteringsspårning från Adobe Advertising, Adobe Analytics (med integrering av [!DNL Analytics]) eller som tillhandahålls i feeds med en token (`ef_id`) endast*
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Reports]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL Create Report]** i verktygsfältet ovanför datatabellen, håll markören över **[!UICONTROL Assist Reports]** och klicka sedan på rapporttypen.
 

@@ -3,7 +3,7 @@ title: Hantera anbudsnyckelord
 description: Lär dig hur du skapar och hanterar anbudssökbara nyckelord för sökannonseringsgrupper.
 exl-id: 79ae5347-8625-4d31-a9fe-f476c041a063
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Du kan skapa och redigera nyckelord för sökannonseringsgrupper i [kampanjtyper
 >
 >Om du vill skapa flera nyckelord samtidigt använder du [kopiera och klistra in-funktionen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjkalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -50,7 +50,7 @@ Det befintliga nyckelordet tas bort och ett annat skapas när:
 >
 >Om du vill redigera större mängder nyckelordsdata samtidigt, inklusive nyckelord i olika annonsnätverk, använder du [kopiera och klistra in-funktionen](/help/search-social-commerce/campaign-management/campaigns/copy-paste.md) eller [kampanjbulksheets](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Keywords] >[!UICONTROL Keywords]** på undermenyerna.
 
 1. Markera kryssrutan bredvid varje rad som ska redigeras.
 

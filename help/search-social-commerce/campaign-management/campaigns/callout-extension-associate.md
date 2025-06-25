@@ -3,7 +3,7 @@ title: Associera  [!DNL Google Ads] delade bildtexttillägg med kampanjer eller 
 description: Lär dig hur du tilldelar  [!DNL Google Ads] delade bildtexttillägg till kampanjer eller annonsgrupper.
 exl-id: 9b3b8454-da14-4506-a92c-6796dd5fe903
 feature: Search Campaign Management
-source-git-commit: 0a858fb9437439d2755f1a9679b0849c614293b7
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan skapa och tilldela bildtexttillägg till alla [stödda [!DNL Google Ads] 
 
 Tilldela minst två pratbubblor per kampanj eller annonsgrupp så att dina annonser kan visas med bildtexter.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen och välj sedan **[!UICONTROL Callout]**.
 

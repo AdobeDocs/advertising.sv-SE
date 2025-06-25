@@ -3,7 +3,7 @@ title: Redigera inställningar för matning av kalkylbladsrapporter
 description: Lär dig hur du redigerar inställningarna för kalkylbladsfeeds.
 exl-id: 8ca36006-4038-404b-aaf9-66dc3e9ddcf6
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan ändra vilken rapportmall, [!DNL Microsoft Excel]-mall och andra parametr
 >
 > Om du redigerar kolumnerna i rapportmallen eller använder en ny eller uppdaterad rapportmall måste du uppdatera [!DNL Excel]-mallen och överföra den igen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
 1. (Valfritt) Om du vill uppdatera rapportmallen eller mallen [!DNL Excel] som används för kalkylarksfeeden:
 

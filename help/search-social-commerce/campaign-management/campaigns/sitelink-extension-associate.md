@@ -3,7 +3,7 @@ title: Associera delade sitelinks med konton, kampanjer och annonsgrupper
 description: Lär dig hur du tilldelar delade tillägg för sitelink till konton, kampanjer och annonsgrupper.
 exl-id: 5baa66a9-aac7-4ddd-a322-6578a571166b
 feature: Search Campaign Management
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan skapa annonstillägg genom att tilldela sitelinks från ditt [!DNL Siteli
 
 Du måste ha minst sex aktiva sitelinks för både dator och mobil för att dina sitelinks ska kunna visas med annonser. Du kan tilldela upp till 20 sitelinks per konto, kampanj eller annonsgrupp.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Associations]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen och välj sedan **[!UICONTROL Sitelink]**.
 

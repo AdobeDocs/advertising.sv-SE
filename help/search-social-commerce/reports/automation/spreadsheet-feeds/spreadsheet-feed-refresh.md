@@ -3,7 +3,7 @@ title: Uppdatera tabellrapportfeeds manuellt
 description: Lär dig hur du uppdaterar data i kalkylbladsflöden manuellt.
 exl-id: 7d91d6ce-e2fe-4ad7-b015-99aeae872d86
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Kalkylbladsflöden uppdateras automatiskt kl. 08.00 varje dag i den lokala tidszonen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid varje feed som du vill uppdatera.
 

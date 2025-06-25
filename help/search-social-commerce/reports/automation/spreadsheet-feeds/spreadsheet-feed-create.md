@@ -3,7 +3,7 @@ title: Skapa ett kalkylbladsrapportflöde
 description: Lär dig hur du ställer in kalkylbladsfeeds.
 exl-id: a6a9ce46-51b4-4b06-b004-89fce06d1da6
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Konfigurera kalkylbladsfeeds med hjälp av särskilt formaterade [!DNL Excel]-ka
 
 2. Skapa kalkylbladsfeed:
 
-   1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
    1. Klicka på **[!UICONTROL Create]** i verktygsfältet ovanför datatabellen.
 

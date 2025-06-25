@@ -3,7 +3,7 @@ title: Ta bort en anpassad aviseringsmall
 description: Lär dig hur du tar bort aviseringsmallar.
 exl-id: be77f74f-f293-46f1-a5dc-317e828682b4
 feature: Search Alerts
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Du kan bara ta bort de varningsmallar som du har skapat.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn Varningsmallar.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Custom Alerts]** på huvudmenyn, som öppnas i vyn Varningsmallar.
 
 1. Markera kryssrutan bredvid varje varningsmall som du vill ta bort.
 

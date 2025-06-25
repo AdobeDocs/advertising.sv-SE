@@ -3,7 +3,7 @@ title: Ändra visningsnamnet för ett konverteringsmått
 description: Lär dig hur du ändrar namnet på konverteringsmåttet som visas i kolumnrubriker i hanteringsvyer och rapporter.
 feature: Conversions
 exl-id: 5c3c1eaf-6754-42f1-acf1-f75d01e2d216
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Du kan inte ta bort ett befintligt visningsnamn.
 
 >[!NOTE]
 >
->För [mått från Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) skrivs eventuella manuella ändringar av visningsnamnet över om du uppdaterar eller autentiserar om integreringen. Alla namnändringar i Google Analytics ignoreras på samma sätt om du inte [uppdaterar](/help/search-social-commerce/admin/data-sources/data-source-edit.md) eller [autentiserar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) integreringen igen.
+>För [mått från Google Analytics](/help/search-social-commerce/admin/data-sources/data-source-about.md) skrivs eventuella manuella ändringar av visningsnamnet över om du uppdaterar eller autentiserar integreringen igen. På samma sätt ignoreras alla namnändringar i Google Analytics såvida du inte [uppdaterar](/help/search-social-commerce/admin/data-sources/data-source-edit.md) eller [autentiserar](/help/search-social-commerce/admin/data-sources/data-source-reauthenticate.md) integreringen igen.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
 
 1. Klicka i cellen i kolumnen **[!UICONTROL Display Name]** för måttet.
 

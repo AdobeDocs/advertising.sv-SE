@@ -3,7 +3,7 @@ title: Skapa en etikettklassificering
 description: Lär dig hur du skapar en etikettklassificering för att gruppera dina kontokomponenter.
 exl-id: 227f44d7-c422-4baa-94ff-6deafcddf920
 feature: Search Label Classifications
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Varje annonsör kan ha upp till 30 etikettklassificeringar.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 

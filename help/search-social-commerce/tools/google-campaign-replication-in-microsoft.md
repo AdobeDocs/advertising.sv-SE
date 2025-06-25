@@ -3,7 +3,7 @@ title: Replikera [!DNL Google Ads] kampanjer i [!DNL Microsoft Advertising]
 description: Lär dig hur du exporterar dina synkroniserade kampanjer i ett [!DNL Google Ads] konto direkt till ett synkroniserat [!DNL Microsoft Advertising] konto.
 exl-id: e7714d3d-4a8e-44ef-a3a7-e5198c091660
 feature: Search Tools
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -36,7 +36,7 @@ All kampanjinformation har inte replikerats och du kan behöva lägga till viss 
 
 Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn Sök, socialt och Commerce.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn Sök, socialt och Commerce.
 
 1. Klicka på **[!UICONTROL +Import]**.
 
@@ -64,7 +64,7 @@ Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.micro
 
 Se [vad som importeras från [!DNL Google Ads] kampanjer](https://help.ads.microsoft.com/#apex/ads/en/50851/0-500).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid importjobbet och klicka sedan på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera").
 
@@ -78,7 +78,7 @@ Du kan visa alla importjobb, inklusive källkontot [!DNL Google Ads], målkontot
 
 * Gör något av följande:
 
-   * Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
+   * Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
 
      Vyn öppnas som standard på fliken [!UICONTROL List of Import Jobs].
 
@@ -86,7 +86,7 @@ Du kan visa alla importjobb, inklusive källkontot [!DNL Google Ads], målkontot
 
 ## Kör ett kampanjimportjobb
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
 
 1. Markera kryssrutan bredvid importjobbet.
 
@@ -96,7 +96,7 @@ Du kan visa alla importjobb, inklusive källkontot [!DNL Google Ads], målkontot
 
 Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttid, källkontot [!DNL Google Ads], målkontot [!DNL Microsoft Advertising], användaren som skapade jobbet, antalet slutförda och misslyckade åtgärder samt e-postadresser som tagit emot meddelanden för varje jobb. Du kan visa mer information om ändringarna av målkontot [!DNL Microsoft Advertising] som inträffade för varje jobb, inklusive antalet objekt som lagts till, synkroniserats, tagits bort och som genererade fel för varje entitetsnivå (till exempel kampanj eller nyckelord) i kontot.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Import Campaigns]** på huvudmenyn.
 
 1. Klicka på fliken **[!UICONTROL Import Logs]**.
 
@@ -110,7 +110,7 @@ Du kan visa alla slutförda eller misslyckade importjobb, inklusive starttid, k�
 
 **[!UICONTROL Credential ID]:** Ett ID som [!DNL Microsoft Advertising] använder för att representera dina [!DNL Google Ads]-autentiseringsuppgifter.
 
-Automatisk generering av [!DNL Microsoft Advertising]-autentiseringsuppgifter för import är inte tillgänglig på grund av [!DNL Microsoft Advertising]-begränsningar. Kontakta kontoteamet på Adobe så genererar de autentiseringsuppgifterna och ger dig ID:t.
+Automatisk generering av [!DNL Microsoft Advertising]-autentiseringsuppgifter för import är inte tillgänglig på grund av [!DNL Microsoft Advertising]-begränsningar. Kontakta Adobe Account Team så genererar de autentiseringsuppgifterna och ger dig ID:t.
 
 **[!UICONTROL Target Microsoft Ads account]:** Det synkroniserade [!DNL Microsoft Advertising]-kontot som kampanjdata importeras till.
 

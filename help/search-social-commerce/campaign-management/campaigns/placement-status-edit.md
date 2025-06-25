@@ -3,7 +3,7 @@ title: Ändra status för placeringar och negativa placeringar
 description: Lär dig hur du ändrar status för ersättningar och negativa ersättningar för  [!DNL Google Ads].
 exl-id: 3c54a80e-6f4c-4936-97b1-67ac8de24830
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Du kan pausa en aktiv, budbar placering för att inaktivera budgivning på den. 
 
 Du kan också ta bort en aktiv eller pausad placering eller en negativ placering. Borttagna placeringar/negativa placeringar tas bort från annonsnätverket. De är fortfarande synliga, men du kan inte ändra dem.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| på undermenyerna [!UICONTROL Negatives]\]**.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] > \[[!UICONTROL Placements] \| på undermenyerna [!UICONTROL Negatives]\]**.
 
 1. (Valfritt) Filtrera listan så att den innehåller specifika placeringar eller negativa placeringar.
 

@@ -3,7 +3,7 @@ title: Skapa negativa placeringar
 description: Lär dig hur du skapar negativa placeringar för  [!DNL Google Ads] kampanjer och annonsgrupper.
 exl-id: 9cc2dd8d-5563-4e02-af8f-6181165494d8
 feature: Search Campaign Management
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Du kan skapa negativa placeringar för en [!DNL Google Ads]-annonsgrupp i en kam
 >[!TIP]
 >Om du vill skapa många negativa placeringar samtidigt använder du [kampanjmallar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Placements] >[!UICONTROL Negatives]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen och klicka sedan på **[!UICONTROL Campaign]** för att skapa negativa placeringar på kampanjnivå eller **[!UICONTROL Ad Group]** för att skapa negativa placeringar på annonsgruppsnivå.
 

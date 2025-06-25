@@ -3,7 +3,7 @@ title: Visa eller spara en matningsfil för kalkylbladsrapport
 description: Lär dig hur du visar en kalkylbladsfeed och sparar den i en fil.
 exl-id: b229ab9e-a48a-4487-8434-0fdcf7139d8f
 feature: Search Reports
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan visa alla genererade kalkylbladsflöden eller spara dem i en fil. Kalkylbladsmatningsfiler har formatet [!DNL Microsoft Excel] XLSX.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Insights & Reports] >[!UICONTROL Spreadsheet Feeds]** på huvudmenyn.
 
 1. Klicka på **[!UICONTROL XLSX]** bredvid feeden och öppna eller spara sedan filen enligt webbläsarens normala procedur.
 

@@ -3,7 +3,7 @@ title: Hantera delade sitelinks
 description: Lär dig hur du skapar och hanterar delade tillägg för sitelink.
 exl-id: e510f53b-f48c-4129-887c-351a840b8398
 feature: Search Campaign Management
-source-git-commit: c3b8e387cfc38d195e77761791e689fd094d8f39
+source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Skapa och hantera delade webbplatslänkar på kontonivå för alla synkroniserad
 
 ## Skapa en delad platshållare
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -34,7 +34,7 @@ När du har skapat en sitellänk kan du [tilldela den till ett konto, en kampanj
 
 Du kan redigera en delad platshållare åt gången.
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
 
 1. Markera kryssrutan bredvid den platslänk som ska redigeras.
 
@@ -46,7 +46,7 @@ Du kan redigera en delad platshållare åt gången.
 
 ## Ta bort delade länkar
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]> [!UICONTROL Extensions] >[!UICONTROL Sitelinks]** på undermenyerna.
 
 1. Markera kryssrutan bredvid varje delad platslänk som du vill ta bort.
 
@@ -92,11 +92,11 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 >
 >* (Konton med slutliga URL:er) Bas-URL:en kan innehålla omdirigeringar inom landningssidans domän eller underdomän, men inga omdirigeringar utanför landningssidans domän. Annonsnätverket extraherar domänen från den här URL:en och lägger till valfria visningssökvägar för annonsen för att skapa annonsens URL.
 >* ([!DNL Google Ads]) Varje sitelink i en kampanj eller annonsgrupp måste ha en unik landningssida, och innehållet för varje sitelink-landningssida måste ha ungefär 80 % unikt innehåll. Du kan t.ex. inte ha länkar till flera ankarpunkter på samma sida.
->* ([!DNL Google Ads]) Använd inte makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
+>* ([!DNL Google Ads]) Använd inte makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör Adobe Account Team arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
 **[!UICONTROL Tracking Template]:** (Valfritt) Spårningsmallen eller spårnings-URL:en, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar även in URL:en för slut-/landningssidan i en parameter. Exempel: `{lpurl}?source={network}&id=5` eller `http://www.trackingservice.example.com/?url={lpurl}?source={network}&id=5` som ska inkludera en omdirigering.
 
-* För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och Automatisk överföring, Prefix automatiskt i Sök, Socialt och Commerce för sin egen klickspårningskod när du sparar posten.
+* För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och Automatisk överföring, Prefix automatiskt i Sök, Socialt och Commerce för sin egen klickspårningskod när du sparar posten.
 
 * Information om parametrar som stöds för att bädda in den slutliga URL:en finns i parametrarna ([!DNL Microsoft Advertising] endast) [[!DNL Microsoft Advertising] documentation](https://help.ads.microsoft.com/#apex/3/en/56799) eller ([!DNL Google Ads] endast) för &quot;Tracking template only&quot; i avsnittet &quot;Available [!DNL ValueTrack] Parameters&quot; i [[!DNL Google Ads] documentation](https://support.google.com/google-ads/answer/6305348) .
 
@@ -110,7 +110,7 @@ När du har sparat posten innehåller bas-URL:en eventuella tilläggsparametrar 
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* ([!DNL Google Ads]) Om du uppdaterar en spårningsmall på sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
 >* ([!DNL Microsoft Advertising]) Du kan uppdatera dina spårningsmallar på vilken nivå som helst utan att skicka om dina annonser för godkännande.
->* Undvik att använda makron för [!DNL Google Ads], som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
+>* Undvik att använda makron för [!DNL Google Ads], som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör Adobe kontoteam arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
 >[!MORELIKETHIS]
 >
