@@ -3,9 +3,9 @@ title: Tilldela kampanjer till en portfölj
 description: Lär dig hur du inkluderar kampanjer i portfolior för optimering.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,39 @@ ht-degree: 0%
 
 Genom att tilldela en kampanj till en optimerad portfölj kan Search, Social och Commerce optimera anbud, kampanjbudgetar och budstrategier för nyckelord och annonser i kampanjen. Du kan tilldela kampanjer till en portfölj från vyn [!UICONTROL Campaigns], när du skapar portföljen eller genom att redigera inställningarna för en portfölj.
 
-Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom optimeringsstödet för varje kampanjanbudsstrategi genom att läsa i avsnittet&quot;Godtagbara Portfolio-typer per kampanjbudstrategi&quot; i optimeringsguiden för Portfolio, som finns i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom optimeringsstödet för varje kampanjanbudsstrategi genom att läsa&quot;Godtagbara Portfolio-typer per Campaign Bid-strategi&quot; i kapitlet i optimeringsguiden för&quot;Portfolios&quot;, som finns i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
 
 >[!NOTE]
 >
 >Varje kampanj kan bara tilldelas en portfölj. Om du tilldelar en kampanj som redan är associerad med en annan portfölj till en ny portfölj tas den bort från den ursprungliga portföljen.
 
-## Tilldela kampanjer till en portfölj från vyn [!UICONTROL Campaigns]
+## (Nytt användargränssnitt) Tilldela kampanjer till en befintlig portfölj från vyn [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Campaigns]** på huvudmenyn.
+
+1. Markera kryssrutan bredvid varje kampanj som ska tilldelas en enskild portfölj.
+
+1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** i verktygsfältet.
+
+1. Välj portföljen.
+
+1. Klicka på **[!UICONTROL Assign Now]**.
+
+## (Nytt användargränssnitt) Tilldela kampanjer till en ny portfölj från vyn [!UICONTROL Manage] > [!UICONTROL Campaigns]
+
+1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Campaigns]** på huvudmenyn.
+
+1. Markera kryssrutan bredvid varje kampanj som du vill skapa den nya portföljen för.
+
+1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]** i verktygsfältet.
+
+1. Ange [portföljinställningarna](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md) på skärmen [!UICONTROL Create Portfolio].
+
+   Kampanjerna du valde tidigare har redan tilldelats kampanjen. Du kan också redigera kampanjlistan för portföljen.
+
+1. Klicka på **[!UICONTROL Review and Save]**.
+
+## (Äldre användargränssnitt) Tilldela kampanjer till en portfölj från vyn [!UICONTROL Campaigns]
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
@@ -58,7 +84,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Ändra kampanjer i en portfölj från vyn [!UICONTROL Portfolios]
+## (Äldre användargränssnitt) Ändra kampanjer i en portfölj från vyn [!UICONTROL Portfolios]
 
 1. Klicka på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
 
