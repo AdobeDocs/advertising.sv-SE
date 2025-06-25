@@ -3,18 +3,24 @@ title: Logga in
 description: Lär dig hur du loggar in.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 1bf1c26b56c2d57437d288ae5ac9d2ba1ff1db77
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # Logga in
 
-Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Experience Cloud.
+<!-- update with new info -->
 
-## Logga in direkt
+<!--
+
+You can sign in to Search, Social, & Commerce directly or from within Adobe Experience Cloud.
+
+## Sign in directly
+
+ -->
 
 * Logga in på någon av följande URL:er:
 
@@ -22,20 +28,25 @@ Du kan logga in på Search, Social och Commerce direkt eller inifrån Adobe Expe
 
    * Användare i alla andra områden: [https://enterprise-intl.efrontier.com](https://enterprise-intl.efrontier.com)
 
-## Logga in från Adobe Experience Cloud
+<!--
+
+## Sign in from Adobe Experience Cloud
 
 >[!NOTE]
 >
->Ditt företag måste etableras i Adobe Experience Cloud och du måste ha [kopplat ditt Experience Cloud-konto till ett Search-, Social- och Commerce-konto](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
+>Your company must be provisioned in Adobe Experience Cloud, and you must have [linked your Experience Cloud account to a Search, Social, & Commerce account](https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
-1. [Logga in på Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=sv-SE#signin).
+1. [Sign in to Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#signin).
 
-1. Välj ![Lösningsväljare](/help/search-social-commerce/assets/menu-icon.png "Lösningsväljare") på den översta menyn.
+1. In the top menu, select ![Solution selector](/help/search-social-commerce/assets/menu-icon.png "Solution selector").
 
-1. Välj **[!UICONTROL Advertising Cloud]** på undermenyn.
+1. In the submenu, select **[!UICONTROL Advertising Cloud]**.
+
+-->
 
 >[!MORELIKETHIS]
 >
+>* [Växla mellan det nya och gamla användargränssnittet](ui-switch.md)
 >* [Logga ut](sign-out.md)
 >* [Ändra ditt lösenord](/help/search-social-commerce/tools/password-change.md)
 >* [Hur användargränssnittet är organiserat](user-interface.md)
