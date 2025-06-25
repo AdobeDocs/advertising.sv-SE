@@ -3,7 +3,7 @@ title: Ta bort kampanjer från en portfölj
 description: Lär dig ta bort kampanjer från en portfölj.
 exl-id: 5f2e7a01-f55b-4f49-a217-462cd2e365c7
 feature: Search Campaign Management
-source-git-commit: c721215003a769f2a4a25951f524588bdb5594f2
+source-git-commit: a71f2daded3b7c32b8c30a4631eba8c2dbda3a17
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mer information om optimering finns i Optimeringshandboken, som finns i Sök, So
 
 1. Klicka på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera") **[!UICONTROL Edit]** i verktygsfältet ovanför datatabellen.
 
-1. Gå till avsnittet [!UICONTROL Assign Campaigns] i [portföljinställningarna](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md) och ändra kampanjtilldelningarna.
+1. Gå till avsnittet [!UICONTROL Assign Campaigns] i portföljinställningarna <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> och ändra kampanjtilldelningarna.
 
 1. Klicka på **[!UICONTROL Review and Save]**.
 
@@ -32,7 +32,7 @@ Mer information om optimering finns i Optimeringshandboken, som finns i Sök, So
 
 ## (Äldre användargränssnitt) Ta bort kampanjer från en portfölj från vyn [!UICONTROL Portfolios]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
 
    Du kan filtrera portföljlistan från menyn [!UICONTROL Portfolios] på den vänstra panelen genom att välja en portföljgrupp eller noden [!UICONTROL Ungrouped Portfolios].
 

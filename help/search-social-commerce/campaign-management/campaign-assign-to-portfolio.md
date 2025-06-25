@@ -3,7 +3,7 @@ title: Tilldela kampanjer till en portfölj
 description: Lär dig hur du inkluderar kampanjer i portfolior för optimering.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 0b5b7baaa4044af9bd86291385a5311cfc7410ee
+source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]** i verktygsfältet.
 
-1. Ange [portföljinställningarna](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md) på skärmen [!UICONTROL Create Portfolio].
+1. Ange portföljinställningarna <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> på skärmen [!UICONTROL Create Portfolio].
 
    Kampanjerna du valde tidigare har redan tilldelats kampanjen. Du kan också redigera kampanjlistan för portföljen.
 
@@ -48,7 +48,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 ## (Äldre användargränssnitt) Tilldela kampanjer till en portfölj från vyn [!UICONTROL Campaigns]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]>[!UICONTROL Campaigns]** på undermenyerna.
 
 1. Gör något av följande:
 
@@ -86,7 +86,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 ## (Äldre användargränssnitt) Ändra kampanjer i en portfölj från vyn [!UICONTROL Portfolios]
 
-1. Klicka på **[!UICONTROL Search]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Optimization] >[!UICONTROL Portfolios]** på huvudmenyn och leta sedan reda på portföljen.
 
    Du kan filtrera portföljlistan från menyn [!UICONTROL Portfolios] på den vänstra panelen genom att välja en portföljgrupp eller noden [!UICONTROL Ungrouped Portfolios].
 
