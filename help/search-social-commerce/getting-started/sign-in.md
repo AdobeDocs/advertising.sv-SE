@@ -50,7 +50,7 @@ Det nya användargränssnittet öppnas som standard.
 
 1. Välj organisation:
 
-   * Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+   * Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
