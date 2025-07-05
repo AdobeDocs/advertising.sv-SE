@@ -40,7 +40,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+1. Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
    Det nya användargränssnittet öppnas som standard.
 
@@ -54,7 +54,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+1. Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 
