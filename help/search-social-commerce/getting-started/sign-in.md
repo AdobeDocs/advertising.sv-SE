@@ -3,9 +3,9 @@ title: Logga in
 description: Lär dig hur du loggar in.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f28b2ba916778b110e19b6c3a1583312417a34e
+source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Search, Social, &amp; Commerce går över till Adobe Identity Management Service
 
 Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce är aktiva till den 15 juli 2025 så att du kan förbereda dig för ändringen.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Logga in från den äldre inloggningssidan för Sök, Social och Commerce
 
@@ -30,15 +30,21 @@ Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din
 
 Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
-* Gå till [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) eller [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) och logga in med dina tidigare autentiseringsuppgifter för sökning, sociala medier och Commerce.
+* Gå till [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) eller [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) och logga in med ditt äldre användarnamn och lösenord för sökning, sociala medier och Commerce.
 
   Det äldre användargränssnittet öppnas som standard.
 
 ## Använd en [!DNL Adobe ID] för autentisering
 
-1. Gå till [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) eller [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) och logga in med ditt [!DNL Adobe]-ID.
+1. Gå till [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) eller [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) och klicka på **[!UICONTROL Sign in with SSO]**.
 
-Det nya användargränssnittet öppnas som standard.
+1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
+
+1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+
+   Det nya användargränssnittet öppnas som standard.
+
+1. Om du har tillgång till flera IMS-organisationer väljer du rätt organisation i sidans övre högra hörn.
 
 ## Logga in från Adobe Experience Cloud med en [!DNL Adobe ID]
 
@@ -46,19 +52,17 @@ Det nya användargränssnittet öppnas som standard.
 
 1. Gå till [experience.adobe.com](https://experience.adobe.com).
 
-1. Ange autentiseringsuppgifterna för ditt [!DNL Adobe]-ID.
+1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj organisation:
-
-   * Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
-
-   * Om du har tillgång till flera IMS-organisationer väljer du rätt.
+1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 
 ![Advertising Search, Social, &amp; Commerce)](/help/search-social-commerce/assets/search-social-commerce-logo.png "Advertising Search, Social, &amp; Commerce)")
 
 Det nya användargränssnittet öppnas som standard.
+
+1. Om du har tillgång till flera IMS-organisationer väljer du rätt organisation i sidans övre högra hörn.
 
 >[!MORELIKETHIS]
 >
