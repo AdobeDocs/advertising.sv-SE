@@ -2,9 +2,9 @@
 title: Vanliga frågor om anpassade rapporter
 description: Läs mer om anpassade rapporter, inklusive hushållsrapporter och rapporter om konverteringsmetoder.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: cb3eed4629c66283e0de18f7287169ec6e501aaa
+source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1178'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,15 @@ Två typer av attribueringsmetoder stöds:
 
 #### Hur skiljer sig rapporteringen om hushållskonvertering från rapporter om CTV-visning i Adobe Analytics?
 
-CTV-visningsdata i [!DNL Analytics] har [!DNL Analytics]-spårning och hushållskonverteringsdata använder data som samlats in med Adobe Advertising-konverteringsspårning. Dessutom använder DSP attribueringslogik i [!DNL Analytics] bara den senaste händelsen, men hushållskonverteringsrapportering stöder två olika attribueringsmetoder: Unik och MTA.
+* I [!DNL Analytics] visar [!DNL CTV View-Through Conversion]-rapporten antalet konverteringar för vilka ett CTV-intryck var den sista kontaktytan före konverteringen. DSP [!UICONTROL Household Conversions]-rapporten visar däremot antalet unika hushåll som exponerats för en CTV-bild vid någon tidpunkt inom det definierade uppslagsfönstret före konverteringen.
 
-#### Kan jag visa CTV-vydata i både [!DNL Analytics for Advertising] och i anpassade rapporter?
+* I [!DNL Analytics] tilldelar attribueringslogiken konverteringar exklusivt till den sista kontaktytan från Adobe Advertising. DSP [!UICONTROL Household Conversions]-rapporten har däremot stöd för ytterligare attribueringsmodeller, *[!UICONTROL Unique]* och *[!UICONTROL Multi-Touch Attribution (MTA)]*.
 
-Annonsörer utan [!DNL Analytics for Advertising] kan bara använda Household Conversion Report för rapportering av hushållskonvertering.
-
-Om din organisation har [!DNL Analytics for Advertising] använder du båda typerna av rapportering tillsammans. Visningsrapportering för CTV passar bra för breda kanalanalyser, webbplatsbeteenden och så vidare, men anpassade rapporter ger en detaljerad bild (med data uppdelade efter medietyp, utgivare och så vidare) för att ange de faktorer som driver konverteringsgraden.
+* [!DNL Analytics]-rapportdata är särskilt värdefulla för att analysera via marknadsföringskanaler, interaktionsstatistik för webbplatser och så vidare. DSP [!UICONTROL Household Conversions]-rapporten ger mer detaljerade insikter genom att tillåta att konverteringsdata delas upp efter olika dimensioner, till exempel medietyp och utgivare.
 
 ### [!UICONTROL Household Reach & Frequency] och [!UICONTROL Household Conversions] Rapporter jämfört med data från [!DNL Advanced Measurement Services]
 
-För avancerade rapporter om hushållsbaserad räckvidd och frekvens eller konverteringar kan [[!DNL Strategic Advertising Consulting] teamet](/help/dsp/introduction/advanced-measurement-services.md) tillhandahålla anpassningsbara rapporter tillsammans med övergripande strategiska rekommendationer. Mer information om [!DNL Advanced Measurement Services] får du om du kontaktar ditt Adobe-kontoteam.
+För avancerade rapporter om hushållsbaserad räckvidd och frekvens eller konverteringar kan [[!DNL Strategic Advertising Consulting] teamet](/help/dsp/introduction/advanced-measurement-services.md) tillhandahålla anpassningsbara rapporter tillsammans med övergripande strategiska rekommendationer. Mer information om [!DNL Advanced Measurement Services] får du av ditt Adobe-kontoteam.
 
 #### Om jag redan använder [!DNL Advanced Measurement Services], varför ska jag använda [!UICONTROL Household Reach & Frequency]- och [!UICONTROL Household Conversions]-rapporterna?
 
@@ -109,15 +107,15 @@ Det bästa användningsexemplet är att använda både [!UICONTROL Household]-ra
 
 | | Sökväg till konverteringsrapport | Haloeffekt för Advanced Measurement Services i sökrapporter | Rapporter i Analysis Workspace |
 | --- | --- | --- |---|
-| Kundvärde | Generera en självbetjäningsrapport för att förstå vilka vägar i annonsen som ledde till fler konverteringar för att öka optimeringen | Förstå hur uppkopplad TV-taktik påverkar sökklickningar | Förstå effekten av er helhetsinvestering i Adobe Advertising, tillsammans med andra marknadsföringskanaler, på sökklick |
+| Kundvärde | Generera en självbetjäningsrapport för att förstå vilka vägar i annonsen som ledde till fler konverteringar för att öka optimeringen | Förstå hur uppkopplad TV-taktik påverkar sökklickningar | Förstå effekten av er helhetsbaserade investering i Adobe Advertising, tillsammans med andra marknadsföringskanaler, på sökklick |
 | Hushållsnivå | Ja | Ja | Nej |
 | Stöds CTV? | Ja | Ja | Ja |
 | Attributionsmetod | Den sista pekhändelsen (intrycket eller klickningen) måste finnas i sökboksfönstret. | Uniques | Senaste beröring |
 | | Interaktionspunkter mer än 30 dagar innan senaste beröringshändelsen beaktas för konverteringsbanan. | (CTV får kredit, oavsett var CTV-exponeringen sker i användarens väg-till-klick) | (CTV får kredit om intrycket är den sista händelsen i uppslagsfönstret OCH det inte finns någon betald klickning från andra format, varken före eller efter CTV-exponering) |
 | Rapporteringsnivå | Granulat | Granulat | Bred |
-| | (kanaltyp, Creative/Ad, Nyckelord, Banor, Längd, Tid för konvertering) | (CTV Tactic, CTV App/Publisher) | (Adobe Advertising och andra marknadsföringskanaler) |
-| Marknadsföringskanaler | DSP + Sök (från Search, Social och Commerce) | DSP + Sök (från Search, Social och Commerce) | Marknadsföringskanaler som inte spåras av Adobe Advertising klickbara EF-ID (som Organic Search, Organic Social, Email och Affiliate) |
-| Konverteringsmått som stöds | Mätvärden som spåras med händelsepixeln Adobe Advertising (AMO ID) och Adobe Analytics-spårning | Klicka (inga konverteringar) | Mätvärden som spåras med hjälp av Adobe Analytics tracking |
+| | (Kanaltyp, Creative/Ad, Nyckelord, Banor, Längd, Tid för konvertering) | (CTV Tactic, CTV App/Publisher) | (Adobe Advertising och andra marknadsföringskanaler) |
+| Marknadsföringskanaler | DSP + Search (från Search, Social och Commerce) | DSP + Search (från Search, Social och Commerce) | Marknadsföringskanaler som inte spåras av Adobe Advertising klickbara EF-ID (som Organic Search, Organic Social, Email och Affiliate) |
+| Konverteringsmått som stöds | Mätvärden som spåras med hjälp av Adobe Advertising händelsepixel (AMO ID) och Adobe Analytics tracking | Klicka (inga konverteringar) | Mätvärden som spåras med hjälp av Adobe Analytics tracking |
 
 Mer information om haloeffekten för Advanced Measurement Services i sökrapporter finns i [Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).
 
