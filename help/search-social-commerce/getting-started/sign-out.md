@@ -3,7 +3,7 @@ title: Logga ut
 description: Lär dig var du loggar ut.
 exl-id: b19b19ea-ca74-4605-b2a3-0515659b58f5
 feature: Search Getting Started
-source-git-commit: b7d035eb816ca5ef1b758b13f463f476d75b98cb
+source-git-commit: d7149168afd315a2f54a0f46c8a8aea7422c774b
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 0%
