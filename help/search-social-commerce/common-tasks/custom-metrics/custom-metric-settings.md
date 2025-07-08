@@ -3,9 +3,9 @@ title: Anpassade måttinställningar
 description: Referera inställningarna för anpassade mått, som beräknas utifrån standardvärden.
 exl-id: b9e8434d-5ea2-47cd-9d63-705a6337c34c
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Anpassade måttinställningar är något annorlunda i olika delar av gränssnittet.
 
-## Anpassade måttinställningar i kampanjhanteringsvyer
+## Anpassade måttinställningar i de flesta hanteringsvyer
 
 | Parameter/avsnitt | Beskrivning |
 |----|----|
@@ -22,7 +22,7 @@ Anpassade måttinställningar är något annorlunda i olika delar av gränssnitt
 | Infoga mått | Den matematiska formel som används för att beräkna det nya måttet (till exempel [Kostnad]/[Registreringar]):<ul><li>Om du vill infoga ett mätvärde från listan med trafik- och intäktsmått placerar du markören där du vill infoga mätvärdet och sedan väljer du mätvärdet i listan eller anger det manuellt och omsluts av hakparenteser (till exempel `[CPC]`).</li><li>Om du vill infoga en operator placerar du markören där du vill infoga operatorn och klickar sedan på knappen eller anger symbolen manuellt. De tillgängliga matematiska operatorerna: `+ - * / ( ) ()`</li></ul><b>Obs!</b> Komplexa anpassade mätvärden tar längre tid att beräkna, och rapporter och vyer som innehåller dem - särskilt när de innehåller separata kolumner för klicknings- och genomskinlighetskonverteringar - tar längre tid att generera. |
 | Format | Så här presenterar du data för det här måttet: *[!UICONTROL Currency]* (ett monetärt värde), *[!UICONTROL Number to 2 Decimal Points]*, *[!UICONTROL Number to 3 Decimal Points]*, *[!UICONTROL Number w/out Decimal Points]* eller *[!UICONTROL Percentage]* (en procentandel med två decimalpunkter).<br><br><b>Varning!</b> Om du skapar ett härlett mätvärde med formatet [!UICONTROL Number w/out Decimal Points] (som visar data som heltal) och inkluderar det i en vy eller en rapport som använder en viktad konverteringsattribueringsregel ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] eller [!UICONTROL Even Distribution]) visas utdata i heltal, inte i decimaler. Därför kan enskilda datafält vara felaktiga, även om summorna är korrekta. Om en ordning till exempel fördelas jämnt mellan tre händelser, fördelas en ordning (i stället för 0,33) på var och en av de tre händelserna. Använd måttformatet [!UICONTROL Number to 2 Decimal Points] för att förhindra problemet. |
 
-## Anpassade måttinställningar i rapporter och rapportmallar och i [!UICONTROL Portfolios]-vyer
+## Anpassade måttinställningar i rapporter och rapportmallar och i de gamla [!UICONTROL Portfolios] vyerna
 
 | Parameter/avsnitt | Beskrivning |
 |----|----|

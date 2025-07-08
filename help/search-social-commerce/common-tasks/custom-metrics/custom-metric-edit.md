@@ -3,9 +3,9 @@ title: Redigera ett anpassat mått
 description: Lär dig hur du redigerar anpassade mått, som beräknas utifrån standardvärden.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,23 @@ Om du redigerar ett anpassat mätresultat som ingår som en kolumn i någon av s
 >
 >Komplexa anpassade mätvärden tar längre tid att beräkna, och rapporter och vyer som innehåller dem - särskilt när de innehåller separata kolumner för klicknings- och genomskinlighetskonverteringar - tar längre tid att generera.
 
-## Redigera ett anpassat mått från en kampanjhanteringsvy
+## (Nytt användargränssnitt) Redigera ett anpassat mått från en hanteringsvy
+
+*Tillgängligt i vyerna [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] och [!UICONTROL Ad Groups]*
+
+1. Gör något av följande ovanför datatabellen:
+
+   * Klicka på ![Vyväljaren](/help/search-social-commerce/assets/view.png "Vyväljaren") \[namnet på standardvyn eller den anpassade vyn\] för att öppna visningsinställningarna. Exempel: ![Exempelvy](/help/search-social-commerce/assets/view-selector-example.png "Exempelvy")
+
+   * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
+
+1. Håll markören över kolumnnamnet och klicka på ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera") bredvid kolumnnamnet.
+
+1. Ange de [anpassade måttinställningarna](custom-metric-settings.md).
+
+1. Klicka på **[!UICONTROL Save]**.
+
+## (Äldre användargränssnitt) Redigera ett anpassat mått från en kampanjhanteringsvy
 
 1. Gör något av följande ovanför datatabellen:
 
@@ -32,7 +48,7 @@ Om du redigerar ett anpassat mätresultat som ingår som en kolumn i någon av s
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Redigera ett anpassat mått från ett rapportmallsformulär
+## (Äldre användargränssnitt) Redigera ett anpassat mått från ett formulär för en rapport- eller rapportmall
 
 1. Gå till fliken **[!UICONTROL Columns]** i ett rapport- eller rapportmallsformulär.
 
@@ -42,7 +58,7 @@ Om du redigerar ett anpassat mätresultat som ingår som en kolumn i någon av s
 
 1. Klicka på **[!UICONTROL Submit]**.
 
-## Redigera ett anpassat mått från [!UICONTROL Portfolios]-vyerna
+## (Äldre användargränssnitt) Redigera ett anpassat mått från [!UICONTROL Portfolios]-vyerna
 
 1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
 

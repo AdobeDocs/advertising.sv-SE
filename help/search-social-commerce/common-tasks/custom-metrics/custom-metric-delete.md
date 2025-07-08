@@ -3,9 +3,9 @@ title: Ta bort ett anpassat mått
 description: Lär dig hur du tar bort anpassade mått, som beräknas utifrån standardvärden.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,21 @@ ht-degree: 0%
 
 Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort omedelbart när du tar bort en kolumn. Om den ingår i en annan standardvy eller anpassad vy, eller i en rapportmall, visas kolumnändringen nästa gång du uppdaterar vyn eller visar mallen.
 
-## Ta bort ett anpassat mått från en kampanjhanteringsvy
+## (Nytt användargränssnitt) Ta bort ett anpassat mått från en hanteringsvy
+
+*Tillgängligt i vyerna [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] och [!UICONTROL Ad Groups]*
+
+1. Gör något av följande ovanför datatabellen:
+
+   * Klicka på ![Vyväljaren](/help/search-social-commerce/assets/view.png "Vyväljaren") \[namnet på standardvyn eller den anpassade vyn\] för att öppna visningsinställningarna. Exempel: ![Exempelvy](/help/search-social-commerce/assets/view-selector-example.png "Exempelvy")
+
+   * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
+
+1. Håll markören över kolumnnamnet och klicka på ![Ta bort](/help/search-social-commerce/assets/delete-new.png "Ta bort") bredvid kolumnnamnet.
+
+1. Klicka på **[!UICONTROL Cpnfirm]** i bekräftelsemeddelandet.
+
+## (Äldre användargränssnitt) Ta bort ett anpassat mått från en kampanjhanteringsvy
 
 1. Gör något av följande ovanför datatabellen:
 
@@ -26,7 +40,7 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 
 1. Klicka på **[!UICONTROL OK]** i bekräftelsemeddelandet.
 
-## Ta bort ett anpassat mått från ett rapportmallsformulär
+## (Äldre användargränssnitt) Ta bort ett anpassat mått från ett formulär för rapport- eller rapportmallar
 
 1. Gå till fliken **[!UICONTROL Columns]** i ett rapport- eller rapportmallsformulär.
 
@@ -34,7 +48,7 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 
 1. Klicka på **[!UICONTROL Yes]** i bekräftelsemeddelandet.
 
-## Ta bort ett anpassat mått från [!UICONTROL Portfolios]-vyerna
+## (Äldre användargränssnitt) Ta bort ett anpassat mått från [!UICONTROL Portfolios]-vyerna
 
 1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
 

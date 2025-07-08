@@ -3,9 +3,9 @@ title: Ta bort ett kolumnfilter
 description: Lär dig hur du tar bort ett kolumnfilter.
 exl-id: e68f0087-85a0-4090-aa58-c84703e6d1a1
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '59'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 >
 >Du kan också ta bort flera filter i en filteruppsättning genom att [redigera filteruppsättningen](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md).
 
-1. (Om det behövs) Utöka filteruppsättningen genom att klicka på ![Mer](/help/search-social-commerce/assets/more-filters.png "Mer") i filteruppsättningen ovanför datatabellen.
+* (När det är tillgängligt) Ovanför datatabellen klickar du på **[!UICONTROL X]** i filterdefinitionen.
 
-1. Ovanför datatabellen klickar du på **[!UICONTROL X]** i filterdefinitionen.
+>[!MORELIKETHIS]
+>
+>* [Använd ett datafilter från en kolumnrubrikmeny](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md)
+>* [Använd datafilter från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md)
+>* [Redigera kolumnfilter](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-edit.md)

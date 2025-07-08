@@ -3,16 +3,32 @@ title: Skapa ett anpassat mått
 description: Lär dig hur du konfigurerar anpassade mått, som beräknas utifrån standardvärden.
 exl-id: a9ce503a-67ee-477e-8f79-31b4a9c6e51a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
 
 # Skapa ett anpassat mått
 
-## Skapa ett anpassat mått från en kampanjhanteringsvy
+## (Nytt användargränssnitt) Skapa ett anpassat mått från en hanteringsvy
+
+*Tillgängligt i vyerna [!UICONTROL Simulations], [!UICONTROL Portfolios], [!UICONTROL Campaigns] och [!UICONTROL Ad Groups]*
+
+1. Gör något av följande ovanför datatabellen:
+
+   * Klicka på ![Vyväljaren](/help/search-social-commerce/assets/view.png "Vyväljaren") \[namnet på standardvyn eller den anpassade vyn\] för att öppna visningsinställningarna. Exempel: ![Exempelvy](/help/search-social-commerce/assets/view-selector-example.png "Exempelvy")
+
+   * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
+
+1. Klicka på ![Skapa anpassat mått](/help/search-social-commerce/assets/add.png "Skapa anpassat mått") **[!UICONTROL Create Custom Metric]** nedanför den kolumnlista som öppnas.
+
+1. Ange de [anpassade måttinställningarna](custom-metric-settings.md).
+
+1. Klicka på **[!UICONTROL Create]**.
+
+## (Äldre användargränssnitt) Skapa ett anpassat mått från en kampanjhanteringsvy
 
 1. Gör något av följande ovanför datatabellen:
 
@@ -20,13 +36,13 @@ ht-degree: 1%
 
    * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
 
-1. Klicka på ![Skapa nytt anpassat mått](/help/search-social-commerce/assets/add.png) **[!UICONTROL Create New Custom Metric]** nedanför den kolumnlista som öppnas.
+1. Under kolumnlistan som öppnas klickar du på ![Skapa nytt anpassat mått](/help/search-social-commerce/assets/add.png "Skapa nytt anpassat mått") **[!UICONTROL Create New Custom Metric]**.
 
 1. Ange de [anpassade måttinställningarna](custom-metric-settings.md).
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Skapa ett anpassat mått från ett rapportmallsformulär
+## (Äldre användargränssnitt) Skapa ett anpassat mått från ett formulär för en rapport- eller rapportmall
 
 1. Gå till fliken **[!UICONTROL Columns]** i ett rapport- eller rapportmallsformulär.
 
@@ -36,7 +52,7 @@ ht-degree: 1%
 
 1. Klicka på **[!UICONTROL Submit]**.
 
-## Skapa ett anpassat mått från [!UICONTROL Portfolios]-vyerna
+## (Äldre användargränssnitt) Skapa ett anpassat mått från [!UICONTROL Portfolios]-vyerna
 
 1. Ovanför datatabellen klickar du på ![Redigera markerad vy](/help/search-social-commerce/assets/view-settings.png "Redigera markerad vy").
 
