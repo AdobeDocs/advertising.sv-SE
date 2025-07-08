@@ -3,14 +3,16 @@ title: Markera flera rader
 description: Lär dig hur du markerar flera rader så att du kan utföra samma åtgärd på alla.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
+source-git-commit: 347d223d226ce3372e29e80c00a11df605318c9f
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
-# Markera flera raderiDu kan välja flera rader i det nya användargränssnittet från hanteringsvyerna och i det äldre användargränssnittet från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints]:
+# Markera flera rader
+
+Du kan välja flera rader i det nya användargränssnittet från hanteringsvyerna och i det äldre användargränssnittet från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Kortkommandon:
 
