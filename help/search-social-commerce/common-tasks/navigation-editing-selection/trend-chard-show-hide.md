@@ -3,16 +3,18 @@ title: Visa och dölja ett trenddiagram
 description: Lär dig hur du visar och döljer ett trenddiagram för data i vissa vyer för kampanjhantering.
 exl-id: fa58b123-648f-4a95-86f0-3c38fa89cb28
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
 # Visa och dölja ett trenddiagram
 
-Du kan visa ett trenddiagram för data i vyerna [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords]-[!UICONTROL Keywords], [!UICONTROL Ads] och [!UICONTROL Product Groups].
+*Endast äldre användargränssnitt*
+
+Du kan visa ett trenddiagram för data i vyerna [!UICONTROL Accounts], [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords], [!UICONTROL Ads] och [!UICONTROL Product Groups].
 
 Som standard visar diagrammet antalet klick mot kostnad under det valda datumintervallet för konton som använder en angiven valuta. Du kan ändra måtten för att jämföra och - när du har konton med flera valutor - ändra valutan som data ska inkluderas för.
 

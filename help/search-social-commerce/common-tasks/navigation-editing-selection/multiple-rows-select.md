@@ -3,16 +3,16 @@ title: Markera flera rader
 description: Lär dig hur du markerar flera rader så att du kan utföra samma åtgärd på alla.
 exl-id: 35490f9f-adde-4538-9013-4cb37b7abfbd
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
 # Markera flera rader
-
-Du kan markera flera rader i vyerna [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints] på följande sätt:
+i
+Du kan välja flera rader i det nya användargränssnittet från hanteringsvyerna och i det äldre användargränssnittet från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Kortkommandon:
 
@@ -22,11 +22,11 @@ Du kan markera flera rader i vyerna [!UICONTROL Search, Social, & Commerce] > [!
 
 * Global kryssruta (![kryssruta](/help/search-social-commerce/assets/check-box.png) &quot;kryssruta&quot;) i kolumnrubriken uppe till vänster:
 
-   * Markera den globala kryssrutan om du vill markera alla rader på den aktuella sidan, som kan innehålla några eller alla rader som är tillgängliga med de använda filtren, baserat på om du visar 25 rader, 50 rader, 100 rader, 200 rader eller [!UICONTROL Continuous Scroll].
+   * Markera den globala kryssrutan om du vill markera alla rader på den aktuella sidan, som kan innehålla några eller alla rader som är tillgängliga med de använda filtren, baserat på om du visar 25 rader, 50 rader, 100 rader, 200 rader eller (endast äldre kampanjhanteringsvyer) [!UICONTROL Continuous Scroll].
 
      När du markerar alla rader på sidan kan du avmarkera enskilda rader.
 
-   * Om du vill markera alla rader som är tillgängliga med de använda filtren markerar du den globala kryssrutan och klickar sedan på **[!DNL Select all N records?]**, där *N* är antalet tillgängliga poster.
+   * (Endast äldre kampanjhanteringsvyer) Om du vill markera alla rader som är tillgängliga med de använda filtren markerar du den globala kryssrutan och klickar sedan på **[!DNL Select all N records?]**, där *N* är antalet tillgängliga poster.
 
      När du markerar alla tillgängliga rader kan du inte avmarkera enskilda rader.
 

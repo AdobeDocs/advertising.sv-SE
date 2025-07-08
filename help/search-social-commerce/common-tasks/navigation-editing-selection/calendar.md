@@ -3,9 +3,9 @@ title: Ange ett datum med hjälp av kalendern
 description: Lär dig hur du väljer datum i kalendern.
 exl-id: afb2b5be-ca6a-4c2b-9a5a-c40ee7caa7ea
 feature: Search Common Tasks
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,10 @@ ht-degree: 0%
 
    * Klicka på datumet.
 
-   * (Om du vill gå framåt eller bakåt en månad) Klicka på **`<`** respektive **`>`**.
+   * (De flesta vyer) Om du vill gå framåt eller bakåt en månad eller ett år klickar du på **`<`** respektive **`>`**.
 
-   * (Om du vill välja en annan månad eller ett annat år) Klicka på namnet på månaden eller året och klicka sedan på månaden eller året.
+   * (Äldre vy [!UICONTROL Portfolios]) Om du vill välja en annan månad eller ett annat år klickar du på namnet på månaden eller året och klickar sedan på månaden eller året.
 
-   (För att markera aktuellt datum) Klicka på **[!UICONTROL Today]**.
+   * Klicka på **[!UICONTROL Today]** om du vill markera aktuellt datum.
+
+1. Klicka på **[!UICONTROL Apply]**.

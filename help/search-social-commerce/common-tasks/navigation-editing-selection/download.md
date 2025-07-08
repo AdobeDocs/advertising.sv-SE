@@ -3,7 +3,7 @@ title: Hämta data från en kampanjhanteringsvy
 description: Lär dig hur du hämtar data från de flesta vyer för kampanjhantering.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 17dfff36a3f3b62be0d8c24d24b222d43cd97d4a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # Hämta data från en kampanjhanteringsvy
+
+<!-- Add info about new UI -->
 
 Du kan hämta data från vyerna [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] förutom vyerna [!UICONTROL Keywords] - [!UICONTROL Keyword Negatives], [!UICONTROL Placements] - [!UICONTROL Placement Negatives], [!UICONTROL Audiences] och [!UICONTROL Extensions]. Du kan hämta antingen:
 
