@@ -70,4 +70,4 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >
 >* [Hantera annonskonton](ad-network-account-manage.md)
 >* [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE){target="_blank"}
