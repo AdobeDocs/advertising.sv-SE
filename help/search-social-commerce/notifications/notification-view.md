@@ -3,7 +3,7 @@ title: Visa dina meddelanden
 description: Lär dig mer om olika sätt att visa meddelanden.
 exl-id: d449937a-02cf-4f4c-8171-da89c914c119
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -40,7 +40,7 @@ När du [prenumererar på meddelanden](notification-edit.md) om kontoautentiseri
 
 ## Visa meddelanden i [!UICONTROL Notification Center]
 
-1. (Från Sök, Socialt och Commerce) På huvudmenyn klickar du på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
+1. (Från Sök, Socialt och Commerce) På huvudmenyn klickar du på **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]**.
 
 1. (Valfritt) Om du vill filtrera meddelanden efter typ klickar du på *[!UICONTROL Notices], [!UICONTROL Recommendations], [!UICONTROL Warnings] eller[!UICONTROL Issues]*.
 

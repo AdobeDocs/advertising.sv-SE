@@ -3,7 +3,7 @@ title: Aktivera och inaktivera push-meddelanden från [!UICONTROL Notification C
 description: Lär dig hur du aktiverar och inaktiverar push-meddelanden från [!UICONTROL Notification Center].
 exl-id: f0e91e76-eb1e-4ff0-9a52-e9bc587552a2
 feature: Search Notifications
-source-git-commit: 7c6b98ab1c8813fea251c48956ffe78ef7bb3bf7
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
 ## Aktivera push-meddelanden
 
-1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]** på huvudmenyn.
 
 2. Klicka på ![Aktivera push-meddelanden](/help/search-social-commerce/assets/notifications-push.png "Aktivera push-meddelanden") längst ned till höger.
 
@@ -40,7 +40,7 @@ Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
    ![Var ska du hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Var ska du hantera meddelandeinställningar i Microsoft Edge")?
 
-5. Aktivera [!UICONTROL Web]-meddelanden för de aviseringstyper som du vill ska skickas i [meddelandeinställningarna](notification-edit.md).
+5. Aktivera [-meddelanden för de aviseringstyper som du vill ska skickas i ](notification-edit.md)meddelandeinställningarna[!UICONTROL Web].
 
 ## Inaktivera push-meddelanden
 

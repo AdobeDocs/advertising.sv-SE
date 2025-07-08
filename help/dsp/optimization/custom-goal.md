@@ -3,7 +3,7 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Sear
 
 1. Skapa det anpassade målet som ett *mål*:
 
-   1. Klicka på **[!UICONTROL Search]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]** på huvudmenyn.
+   1. Klicka på **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]** på huvudmenyn.
 
    1. Klicka på ![Skapa](/help/dsp/assets/create-search-ui.png "Skapa") i verktygsfältet.
 

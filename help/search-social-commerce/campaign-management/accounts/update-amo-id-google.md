@@ -3,7 +3,7 @@ title: Uppdatera spårningskoden för AMO-ID (s_kwcid) för ett [!DNL Google Ads
 description: Lär dig hur du byter till den senaste spårningskoden för AMO ID för ett [!DNL Google Ads] konto.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: edb46265c6977a1e2c1b352f41fedcfc3a9e3bbf
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >
 >När du har migrerat ett konto rapporteras alla klicknings-, kostnads- och visningsdata korrekt efter ändringen, men alla klickningar som inträffade före migreringen tillskrivs fortfarande konverteringsdata baserat på det gamla AMO-ID-formatet.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
 1. Håll markören över kontonamnet, klicka på ![pil-listruteikonen](/help/search-social-commerce/assets/arrow-dropdown-menu.png) och välj sedan **[!UICONTROL Edit]**.
 
@@ -42,7 +42,7 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 
 1. Starta migreringen:
 
-   1. Klicka på **[!UICONTROL LEGACY S_KWCID FORMAT]** bredvid **[!UICONTROL S_KWCID FORMAT]** i inställningarna för [!UICONTROL Account Tracking].
+   1. Klicka på **[!UICONTROL S_KWCID FORMAT]** bredvid [!UICONTROL Account Tracking] i inställningarna för **[!UICONTROL LEGACY S_KWCID FORMAT]**.
 
    1. Klicka på **[!UICONTROL Migrate to new s_kwcid format]**.
 
@@ -69,5 +69,5 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >[!MORELIKETHIS]
 >
 >* [Hantera annonskonton](ad-network-account-manage.md)
->* [Adobe Advertising-ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE){target="_blank"}
+>* [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

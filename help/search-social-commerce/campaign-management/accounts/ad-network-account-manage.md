@@ -3,7 +3,7 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 5a9c2eabc3fe03da0868aefb79c4f71d6029c384
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '2079'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mer information om vilka funktioner som är tillgängliga för varje annonsnätv
 
 ## Skapa information om annonsnätverkskonton {#create-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa en motsvarande kontopost som innehåller kontoinloggningsuppgifterna och spårningsalternativen och med statusen *aktiv*.
 
@@ -33,7 +33,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 >* Det finns ingen support för nya [!DNL Baidu]-konton.
 >* Om du vill skapa ett verkligt konto i annonsnätverket går du till annonsnätverkets webbplats.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
 1. Klicka på ![Skapa](/help/search-social-commerce/assets/add.png "Skapa") i verktygsfältet ovanför datatabellen.
 
@@ -47,7 +47,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
       1. Ange värdet **[!UICONTROL Login]** för kontot, ange lösenordet om du vill och klicka sedan på **[!UICONTROL Authenticate]**.
 
-         Det bästa sättet är att använda inloggningen för API-åtkomst till kontot. Ange lösenordet när du vill kryptera och spara det, så att kontogruppen på Adobe kan uppdatera token efter behov.
+         Det bästa sättet är att använda inloggningen för API-åtkomst till kontot. Ange lösenordet när du vill kryptera och spara det, så att Adobe Account Team kan uppdatera tokens efter behov.
 
       1. (Om du inte är inloggad på annonsörens konto) Logga in på annonsörens annonskonto. Det bästa sättet är att använda inloggningsuppgifterna för API-åtkomst till kontot.
 
@@ -65,7 +65,7 @@ Om du vill aktivera synkronisering eller spårning av ett konto måste du skapa 
 
 ## Redigera information om nätverkskonton {#edit-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametrarna för ett konto, eller så vill du aktivera eller inaktivera aktiviteten för ett konto och sedan redigera kontoinformationen.
 
@@ -73,7 +73,7 @@ Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametr
 >
 >Om du vill redigera ett faktiskt konto i annonsnätverket går du till annonsnätverkets webbplats.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
 1. Håll markören över kontonamnet, klicka på ![Mer](/help/search-social-commerce/assets/more-filters.png "Mer") och välj sedan **[!UICONTROL Edit]**.
 
@@ -91,7 +91,7 @@ Om kontoinloggningsuppgifterna ändras vill du ändra standardspårningsparametr
 
 ## Uppdatera åtkomsttoken för autentisering för sökkonton {#refresh-oauth-tokens}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Om Search, Social och Commerce använder kontot med hjälp av [OAuth-auktoriseringsprotokollet](https://oauth.net/2/) och kontoinloggningsuppgifterna ändras, eller om ytterligare åtkomst krävs för att ge stöd för nya funktioner i Search, Social och Commerce, måste du skaffa en ny åtkomsttoken för kontot.
 
@@ -99,7 +99,7 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 1. (Om du är inloggad på ett annat konto för samma annonsnätverk i samma webbläsarprogram) Logga ut från något annat konto än annonsörens.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
 1. Håll markören över kontonamnet, klicka på ![Mer](/help/search-social-commerce/assets/more-filters.png "Mer") och välj sedan **[!UICONTROL Edit]**.
 
@@ -117,11 +117,11 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 ## Aktivera eller inaktivera annonskonton {#enable-disable-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto stoppar Search, Social och Commerce all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
 1. Gör något av följande:
 
@@ -153,7 +153,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 >[!NOTE]
 >
->Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot kontaktar du ditt kontoteam på Adobe så att de kan uppdatera mappningen.
+>Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot kontaktar du Adobe Account Team så att de kan uppdatera mappningen.
 
 **[!UICONTROL Login Details]: \[Inloggningstyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras för kontot med:
 
@@ -177,7 +177,7 @@ För [!DNL Microsoft Advertising]-konton kan bara [!DNL oAuth]-auktoriserade inl
 
 Exempel: `param1=value1&param2=value2`
 
-Konton som använder klickspårning i Adobe Advertising måste inkludera annonsnätverkets klickidentifierare (`msclkid` för [!DNL Microsoft Advertising]; `gclid` för Google) i suffixet. Konton med en Adobe Analytics-integrering måste använda parametern AMO ID (med början från `s_kwcid`). Om kontot har en AMO ID-implementering på serversidan läggs parametern till automatiskt när en användare klickar på en annons. I annat fall måste du lägga till den manuellt här. Se de [suffixformat som krävs för  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
+Konton som använder Adobe Advertising klickspårning måste inkludera annonsnätverkets klickidentifierare (`msclkid` för [!DNL Microsoft Advertising]; `gclid` för Google) i suffixet. Konton med en Adobe Analytics-integrering måste använda parametern AMO ID (med början från `s_kwcid`). Om kontot har en AMO ID-implementering på serversidan läggs parametern till automatiskt när en användare klickar på en annons. I annat fall måste du lägga till den manuellt här. Se de [suffixformat som krävs för  [!DNL Google Ads]](/help/search-social-commerce/tracking/formats-click-tracking-google.md) och [obligatoriska suffixformat för  [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md).
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ Konton som använder klickspårning i Adobe Advertising måste inkludera annonsn
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller (](https://help.ads.microsoft.com/#apex/3/en/56799) endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL Google Ads]-parametrar i [!DNL ValueTrack]dokumentationen[[!DNL Google Ads] .](https://support.google.com/google-ads/answer/6305348)
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` för att ange landningssidans URL.
 
@@ -207,7 +207,7 @@ Konton som använder klickspårning i Adobe Advertising måste inkludera annonsn
 
 >[!NOTE]
 >
->* Undvik att använda makron för [!DNL Google Ads], som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
+>* Undvik att använda makron för [!DNL Google Ads], som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör Adobe kontoteam arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 >* Spårningsmallen på den mest detaljerade nivån åsidosätter värdena på alla högre nivåer. Om till exempel både kontoinställningarna och nyckelordsinställningarna innehåller ett värde används nyckelordsvärdet.
 >* Om du uppdaterar en spårningsmall på annons-, sitelink- eller nyckelordsnivå skickas relevanta annonser om för granskning. Du kan uppdatera dina spårningsmallar på konto-, kampanj- eller annonsgruppsnivå utan att skicka in dina annonser på nytt för godkännande.
 
@@ -249,7 +249,7 @@ Konton som använder klickspårning i Adobe Advertising måste inkludera annonsn
 
 {{$include /help/_includes/append-parameters.md}}
 
-* **S_kwcid-format:** (Befintliga [!DNL Google Ads]-konton för annonsörer med integrering mellan Adobe Advertising och Adobe Analytics och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
+* **S_kwcid-format:** (Befintliga [!DNL Google Ads] konton för annonsörer med en Adobe Advertising-Adobe Analytics-integrering och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
 
 Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](/help/integrations/analytics/ids.md#amo-id-formats) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
 
@@ -259,9 +259,9 @@ Om det här kontot behöver rapportera på kampanj- och annonsgruppsnivå klicka
 
 Fullständiga anvisningar finns i &quot;[Uppdatera spårningskoden för AMO-ID för ett [!DNL Google Ads] konto](/help/search-social-commerce/campaign-management/accounts/update-amo-id-google.md)&quot;.
 
-**Rapportsvitnamn:** (Endast för EF-omdirigering med token; annonsörer med integrering mellan Adobe Advertising och Adobe Analytics; valfritt) En eller flera analysrapportsviter dit Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
+**Rapportsvitnamn:** (Endast för EF-omdirigering med token; annonsörer med Adobe Advertising-Adobe Analytics-integrering; valfritt) En eller flera analysrapportsviter dit Search, Social och Commerce skickar data som samlas in från annonsnätverket, inklusive entitetsklassificeringar och klickdata för kontot. Den här funktionen är bara tillgänglig för annonsnätverk som stöds.
 
-För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable Advertising reporting in Analytics] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta kontoteamet på Adobe om du vill ha mer information.
+För att data ska visas i rapportsviterna måste antingen (a) funktionen för AMO ID på serversidan konfigureras för kontot eller (b) inställningen [!UICONTROL Enable Advertising reporting in Analytics] på annonsörnivå måste aktiveras. Dessutom måste annonsörens Analytics-konto vara konfigurerat för att ta emot data från Search, Social och Commerce. Kontakta Adobe Account Team om du vill ha mer information.
 
 >[!MORELIKETHIS]
 >

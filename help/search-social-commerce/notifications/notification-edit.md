@@ -3,7 +3,7 @@ title: Redigera meddelandeinställningarna
 description: Lär dig hur du redigerar inställningarna för dina meddelanden.
 exl-id: b60d3abe-10ec-4fc0-8c91-6b329a3e9ecc
 feature: Search Notifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan också prenumerera på, eller avbryta prenumerationen på, e-post- och we
 
    * Klicka på ![Meddelanden](/help/search-social-commerce/assets/notifications-panel.png "Meddelanden") i det övre högra hörnet på en sida för att öppna panelen [!UICONTROL Notifications]. Klicka på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") i det övre högra hörnet.
 
-   * Klicka på **[!UICONTROL Search]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]** på huvudmenyn. Klicka på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") på den vänstra menyn.
+   * Klicka på **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Insights & Reports]** > **[!UICONTROL Notification Center Beta]** på huvudmenyn. Klicka på ![Inställningar](/help/search-social-commerce/assets/settings-nc.png "Inställningar") på den vänstra menyn.
 
 1. Ändra dina inställningar för någon av [meddelandekategorierna](notification-about.md):
 

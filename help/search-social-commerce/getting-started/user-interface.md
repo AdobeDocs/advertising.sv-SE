@@ -3,7 +3,7 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Huvudmenyn
 
-* **[!UICONTROL Search]** - Om du vill hantera dina annonsnätverkskonton i Search, Social och Commerce, inklusive de för vilka Search, Social och Commerce spårar men inte lägger bud.
+* **[!UICONTROL Search, Social, & Commerce]** \> - Om du vill hantera dina annonsnätverkskonton i Search, Social och Commerce, inklusive de som söks, Social och Commerce spårar men inte lägger bud på.
 
 ## [!UICONTROL Search] menyer
 

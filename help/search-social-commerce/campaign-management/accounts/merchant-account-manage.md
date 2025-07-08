@@ -3,7 +3,7 @@ title: Hantera handlarkonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett handlarcenterkonto.
 exl-id: 7d940e45-ea49-470b-98d0-0196593228cb
 feature: Search Campaign Management
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Hantera handlarkonton
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Search, Social, &amp; Commerce kan ladda ned och visa produktdata varje dag för alla annonsörer som har konton på Google Merchant Center eller Microsoft Merchant Center. Dessutom kan sökningar, sociala medier och Commerce automatisera annonsinställningarna baserat på innehållet i handelskontot.Om du vill arbeta direkt med produktdata i sökningar, sociala medier och Commerce måste du skapa en motsvarande kontopost som innehåller inloggningsuppgifterna för kontoåtkomst och med åtkomsten *aktiverad*.
 
@@ -22,7 +22,7 @@ Search, Social, &amp; Commerce kan ladda ned och visa produktdata varje dag för
 
 ## Skapa information om handelskonto {#create-merchant-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto, och skapa annonser baserade på dessa data, måste du skapa en motsvarande kontopost som innehåller inloggningsuppgifterna för kontot och med åtkomst till kontot *enabled*.
 
@@ -30,7 +30,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
 >
 >Gå till nätverkets webbplats om du vill skapa ett verkligt konto på handlarnätverket.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** på huvudmenyn, som öppnas på fliken [!UICONTROL Accounts].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** på huvudmenyn, som öppnas på fliken [!UICONTROL Accounts].
 
 1. Klicka på **[!UICONTROL Create Account]** i verktygsfältet ovanför datatabellen.
 
@@ -66,7 +66,7 @@ Om du vill visa produktdata och generera spårningsmallar för ett handlarkonto,
 
 ## Redigera information om handelskonto {#edit-merchant-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 Om kontoinloggningsuppgifterna ändras eller du inte längre vill hämta och använda data för ett handlarkonto redigerar du kontoinformationen.
 
@@ -88,11 +88,11 @@ Om kontoinloggningsuppgifterna ändras eller du inte längre vill hämta och anv
 
 ## Inaktivera åtkomst till ett handlarkonto {#disable-merchant-account}
 
-*Endast kontohanterare, kontohanterare för Adobe och administratörsanvändarroller*
+*Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
 När du inaktiverar ett handlarkonto loggar inte Search, Social och Commerce in på kontot och hämtar därför inte uppdaterade produktdata. Data som samlats in medan kontot aktiverades lagras fortfarande, och befintliga annonser som skapats med produktdata uppdateras, pausas eller tas bort inte enligt inställningarna för matningsmall och matningsdata.
 
-1. Klicka på **[!UICONTROL Search]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** på huvudmenyn, som öppnas på fliken [!UICONTROL Accounts].
+1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Products]** på huvudmenyn, som öppnas på fliken [!UICONTROL Accounts].
 
 1. Klicka på ![Visa/redigera inställningar](/help/search-social-commerce/assets/settings.png "Visa/redigera inställningar") bredvid kontonamnet.
 
