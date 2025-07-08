@@ -3,9 +3,9 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: d38c71f1260b9656bb4362c56f4d9c76f4f3e442
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -56,3 +56,4 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Vilka altern
 >
 >* [Logga in](sign-in.md)
 >* [Logga ut](sign-out.md)
+>* [Växla mellan det nya gränssnittet och det gamla ](ui-switch.md)
