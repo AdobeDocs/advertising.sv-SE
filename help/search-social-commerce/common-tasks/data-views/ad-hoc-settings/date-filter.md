@@ -3,16 +3,18 @@ title: Filtrera data efter datumintervall
 description: Lär dig använda det globala datumintervallfiltret.
 exl-id: 35c0f63f-84ae-4e8e-8a48-acae7ff24498
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Filtrera data efter datumintervall
 
-Samma globala datumintervallfilter tillämpas på de flesta av era kampanjdatavyer, för alla era annonsörer, förutom för standardvyer och anpassade vyer för vilka ni har sparat specifika datumintervall. Systemets standarddatumintervall för kampanjhanteringsvyer är&quot;I går&quot;.
+<!-- The same in new UI and legacy CM views -->
+
+Samma globala datumintervallfilter tillämpas på de flesta av dina datavyer, för alla dina annonsörer, förutom för standardvyer och anpassade vyer som du har sparat specifika datumintervall för. Systemets standarddatumintervall för kampanjhanteringsvyer är&quot;I går&quot;.
 
 Inställningarna för datumintervall sparas i en webbläsarspecifik cookie, så alla ändringar i datumintervallfiltret används för alla dina annonsörer varje gång du loggar in med samma webbläsarprogram tills du ändrar filtret eller tar bort cookien. Varje webbläsarprogram som du använder lagrar inställningar för datumintervallfilter i en annan cookie.
 
@@ -38,7 +40,7 @@ När du sparar ett visst datumintervall för en standardvy eller anpassad vy anv
 
 1. (Valfritt) Jämför data för det angivna datumintervallet med data för ett andra datumintervall:
 
-   1. Flytta reglaget **[!UICONTROL Comparison]** till *[!UICONTROL On]*.
+   1. Flytta skjutreglaget **[!UICONTROL Comparison]** till&quot;på&quot;-positionen.
 
       När du väljer det här alternativet läggs ytterligare två kolumner till för varje vanlig datakolumn. I stället för att bara inkludera en kolumn för [!UICONTROL Impressions], innehåller tabellen kolumner för [!UICONTROL Impressions R1], [!UICONTROL Impressions R2] och [!UICONTROL Impressions Diff].  Om du exporterar data stavas samma kolumner ut som [!UICONTROL Impressions Range 1], [!UICONTROL Impressions Range 2] och [!UICONTROL Impressions Difference].
 

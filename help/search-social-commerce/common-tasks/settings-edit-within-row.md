@@ -3,16 +3,16 @@ title: Redigera inställningar direkt i en rad
 description: Lär dig hur du redigerar data i hanteringsvyer på raden.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
 # Redigera inställningar direkt i en rad
 
-*Äldre användargränssnitt*
+*Endast äldre användargränssnitt*
 
 >[!NOTE]
 >

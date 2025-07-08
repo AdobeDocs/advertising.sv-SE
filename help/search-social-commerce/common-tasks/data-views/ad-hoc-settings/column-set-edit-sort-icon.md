@@ -3,16 +3,20 @@ title: Redigera och sortera kolumnuppsättningen från ikonen [!UICONTROL Custom
 description: Lär dig hur du ändrar synliga kolumner med hjälp av kolumnanpassaren.
 exl-id: bc03b53f-179a-426f-bc31-20be25915506
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
 # Redigera och sortera kolumnuppsättningen från ikonen [!UICONTROL Custom Columns]
 
-Du kan ändra de synliga kolumnerna i alla vyer från det högra verktygsfältet. Ändringarna tillämpas bara tills du lämnar kampanjhanteringsvyerna eller visar data för en annan annonsörer.
+<!-- The same in new UI and legacy CM views except for icon -->
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+Du kan ändra de synliga kolumnerna i alla vyer från det högra verktygsfältet. Ändringarna tillämpas endast tills du lämnar de tillämpliga vyerna eller visar data för en annan annonsörer.
 
 >[!NOTE]
 >
@@ -20,9 +24,9 @@ Du kan ändra de synliga kolumnerna i alla vyer från det högra verktygsfältet
 >
 >Du kan spara ändringar i kolumnerna som ingår för en viss annonsörer genom att redigera standardvyn eller [skapa en anpassad vy](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
-1. Klicka på ![Kolumner](/help/search-social-commerce/assets/custom-columns.png "Kolumner") till höger i verktygsfältet.
+1. Klicka på ![Egna kolumner](/help/search-social-commerce/assets/custom-columns.png "Anpassade kolumner") eller ![Egna kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") till höger om verktygsfältet.
 
-1. (Valfritt) [Skapa ett anpassat (härlett) mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som ska inkluderas som en kolumn.
+1. (Valfritt) [Skapa ett anpassat mått ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som ska inkluderas som en kolumn.
 
 1. Ange vilka kolumner som ska inkluderas i vyn:
 
@@ -40,6 +44,10 @@ Du kan ändra de synliga kolumnerna i alla vyer från det högra verktygsfältet
 
    * Ange den kolumn som raderna ska sorteras efter.
 
-   * (Valfritt) Flytta reglaget för att sortera värdena i den markerade kolumnen i **[!UICONTROL Ascending]**- eller **[!UICONTROL Descending]**-ordning.
+   * (Valfritt) Ange sorteringsordningen för värdena i den markerade kolumnen:
+
+      * (Nytt användargränssnitt) Välj **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]**.
+
+      * (Äldre användargränssnitt) Flytta skjutreglaget till **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]**.
 
 1. Klicka på **[!UICONTROL Apply]**.

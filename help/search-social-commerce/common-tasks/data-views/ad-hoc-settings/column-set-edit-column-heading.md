@@ -3,14 +3,18 @@ title: Redigera kolumnuppsättningen på kolumnrubrikmenyn
 description: Lär dig hur du visar och döljer kolumnerna från kolumnrubriken.
 exl-id: ebcf5759-f3a0-4816-8095-5679a642f862
 feature: Search Common Tasks, Search Custom Data Views
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: a438e0c24f9ff83941710f890c55c94b74d4d0f3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Redigera kolumnuppsättningen på kolumnrubrikmenyn
+
+<!-- Doesn't include instructions for legacy Portfolios views; not available for Reports -->
+
+*Endast äldre användargränssnitt*
 
 Du kan tillfälligt visa och dölja kolumnerna som ingår i vyerna från valfri kolumnrubrik i vyn. Ändringarna tillämpas endast tills du lämnar vyn eller visar data för en annan annonsörer.
 
