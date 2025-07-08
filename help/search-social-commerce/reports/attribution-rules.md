@@ -1,9 +1,9 @@
 ---
 title: Hur attribueringsregler beräknas
-description: Lär dig hur Adobe Advertising beräknar varje typ av attribueringsregel.
+description: Läs om hur Adobe Advertising beräknar varje typ av attribueringsregel.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
 feature: Search Reports
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
 workflow-type: tm+mt
 source-wordcount: '2716'
 ht-degree: 0%
@@ -23,8 +23,8 @@ I rapporter, standardvyer och anpassade vyer för Advertising Search, Social, &a
 >[!NOTE]
 >
 >* Attributregler gäller för klick på betalda annonser i alla kanaler och för visningar på displayannonser och sociala annonser. De gäller inte för visningar av betalda sökannonser, som inte kan spåras på eventnivå.
->* Adobe Advertising lagrar alltid följande händelser för varje webbsurfer före en konvertering: a) det första betalda klicket, b) upp till 10 klick för varje kanal (sökning, sociala medier eller visning), inklusive det första klicket, och c) upp till 10 visningar. <!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
->* I Advertising DSP och Advertising Creative beaktas endast händelserapporten från den valda attribueringsregeln för definitioner mellan enheter.<!-- cross-device attribution via LiveRamp only -->
+>* Adobe Advertising lagrar alltid följande händelser för varje webbsurfer före en konvertering: a) det första betalda klicket, b) upp till 10 klick för varje kanal (sökning, sociala medier eller visning), inklusive det första klicket, och c) upp till 10 visningar.<!-- But it can continue to attribute conversions to clicks and impressions for longer. -->
+>* I Advertising DSP och Advertising Creative beaktas bara händelserapporten från den valda attribueringsregeln i definitioner för olika enheter.<!-- cross-device attribution via LiveRamp only -->
 >* I rapporter och hanteringsvyer beror antalet decimaler som visas för ett värde på valutan, men Adobe Advertising lagrar mer exakta värden.
 
 ## Senaste händelse (standard)
@@ -328,7 +328,7 @@ Eftersom händelseserien innehöll både visningar och klickningar, gäller intr
 
 Attribution: Impression 1 = 6 USD, Click 1 = 54 USD, Impression 2 = 6 USD, Click 2 = 54 USD (totalt 120 USD)
 
-#### Använder (endast DSP) inget intryck åsidosätter vikt eller (endast sökning, sociala medier och Commerce) en&quot;inledande åsidosättningsvikt&quot; på 0 %
+#### Använda (endast DSP) inget intryck åsidosätter vikt eller (endast sökning, sociala medier och Commerce) en inledande åsidosättningsvikt på 0 %
 
 Eftersom eventserien innehöll både visningar och klickningar ignoreras dessa.
 
