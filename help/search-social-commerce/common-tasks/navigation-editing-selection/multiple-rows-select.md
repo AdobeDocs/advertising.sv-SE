@@ -10,9 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Markera flera rader
-i
-Du kan välja flera rader i det nya användargränssnittet från hanteringsvyerna och i det äldre användargränssnittet från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints]:
+# Markera flera raderiDu kan välja flera rader i det nya användargränssnittet från hanteringsvyerna och i det äldre användargränssnittet från [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns], [!UICONTROL Search > Label Classifications] och [!UICONTROL Optimization] > [!UICONTROL Constraints]:
 
 * Kortkommandon:
 
