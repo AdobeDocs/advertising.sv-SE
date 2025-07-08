@@ -3,19 +3,13 @@ title: Visa data för en annan annonsör
 description: Lär dig hur du visar data för en annan annonsör.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
 feature: Search Common Tasks
-source-git-commit: 1b1b449798d8e1eb610012378228aaf539a77dc7
+source-git-commit: 6487410267dcb17ee02320eed62c7744adbce1fb
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
 
-&#x200B;---
-titel: Visa data för en annan annonsör
-description: Lär dig hur du visar data för en annan annonsörer.
-exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
-funktion: Sök i vanliga uppgifter
----
 # Visa data för en annan annonsör
 
 *Användare som bara hanterar flera annonseringskonton*
