@@ -3,9 +3,9 @@ title: Redigera ett anpassat mått
 description: Lär dig hur du redigerar anpassade mått, som beräknas utifrån standardvärden.
 exl-id: 89271cd6-0a9d-49b7-9fd3-8c9b77e55e5a
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ Om du redigerar ett anpassat mätresultat som ingår som en kolumn i någon av s
 
 1. Gör något av följande ovanför datatabellen:
 
-   * Klicka på ![Vyväljaren](/help/search-social-commerce/assets/view.png "Vyväljaren") \[namnet på standardvyn eller den anpassade vyn\] för att öppna visningsinställningarna. Exempel: ![Exempelvy](/help/search-social-commerce/assets/view-selector-example.png "Exempelvy")
+   * Klicka på namnet på den vy som används för tillfället (![Visa](/help/search-social-commerce/assets/view.png "Visa")). Håll markören över namnet på en redigerbar vy och klicka på ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera") för att öppna visningsinställningarna.
+
+     Ändringarna visas i alla vyer.
 
    * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
 

@@ -3,9 +3,9 @@ title: Ta bort ett anpassat mått
 description: Lär dig hur du tar bort anpassade mått, som beräknas utifrån standardvärden.
 exl-id: 8956afa3-d165-4a5b-b68b-99d519cf6ab6
 feature: Search Common Tasks, Search Custom Metrics
-source-git-commit: a89a6513dfe468b98513b2d47c086a3107e63d47
+source-git-commit: f176238d1ce0852f2db401441828be6832ec49f7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,15 @@ Om det anpassade måttet ingår som en kolumn i den aktuella vyn tas den bort om
 
 1. Gör något av följande ovanför datatabellen:
 
-   * Klicka på ![Vyväljaren](/help/search-social-commerce/assets/view.png "Vyväljaren") \[namnet på standardvyn eller den anpassade vyn\] för att öppna visningsinställningarna. Exempel: ![Exempelvy](/help/search-social-commerce/assets/view-selector-example.png "Exempelvy")
+   * Klicka på namnet på den vy som används för tillfället (![Visa](/help/search-social-commerce/assets/view.png "Visa")). Håll markören över namnet på en redigerbar vy och klicka på ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera") för att öppna visningsinställningarna.
+
+     Det anpassade måttet tas bort från alla vyer.
 
    * Klicka på ![Anpassade kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") för att öppna kolumnkonfigurationsinställningarna.
 
 1. Håll markören över kolumnnamnet och klicka på ![Ta bort](/help/search-social-commerce/assets/delete-new.png "Ta bort") bredvid kolumnnamnet.
 
-1. Klicka på **[!UICONTROL Cpnfirm]** i bekräftelsemeddelandet.
+1. Klicka på **[!UICONTROL Confirm]** i bekräftelsemeddelandet.
 
 ## (Äldre användargränssnitt) Ta bort ett anpassat mått från en kampanjhanteringsvy
 
