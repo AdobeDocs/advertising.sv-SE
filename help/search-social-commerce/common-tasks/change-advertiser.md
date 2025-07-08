@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
----
+&#x200B;---
 titel: Visa data för en annan annonsör
 description: Lär dig hur du visar data för en annan annonsörer.
 exl-id: 31c5db71-9ef1-4088-8fdc-ff091e0eaef8
