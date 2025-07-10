@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 9782471837db19d14839027ea7a576484863bb69
+source-git-commit: ad51a42c1aa7e713b1a4a90261c635b574068d29
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Biblioteken kan innehålla:
 
    * **Dynamiska kreatörer:** (endast befintliga Adobe Advertising DCO-kunder) Administratörsanvändare kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
-* **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardpaket* som består av standardannonser och *dynamiska paket* som består av dynamiskt genererade annonser.
+* **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser och *dynamiska visningspaket* som består av dynamiskt genererade displayannonser.
 
 ## Creative-format som stöds {#creative-creative-formats}
 
@@ -34,9 +34,9 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 
 >[!IMPORTANT]
 >
->Även om ni tänker använda HTML5, Flexible HTML5 eller andra kreatörer för era annonsupplevelser måste ni också lägga till bildkreatörer för varje kreativ storlek ni använder.
->
->För varje upplevelse krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen. Standardbildskaparna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
+>* Även om du tänker använda HTML5, Flexible HTML5 eller andra kreatörer för att skapa standardannonsupplevelser måste du också lägga till bildkreatörer för varje kreativ storlek du använder.
+>* För varje standardvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen. Standardbildskaparna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
+>* För varje standardvideoupplevelse krävs en standardvideokreativ för varje kreativ storlek som tilldelats upplevelsen.<!-- when is it used? -->
 
 #### Flexibel HTML5
 
@@ -52,7 +52,7 @@ Du kan överföra enkla eller statiska HTML5-kreatörer med alla attribut och bi
 
 Du kan inkludera bildkreatörer i GIF-, JPEG-, JPG- eller PNG-format. Du kan överföra godkända bilder från dina Adobe Experience Manager-konton eller bilder från din enhet eller ditt nätverk.
 
-För varje annonsvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen.
+För varje standard-visning och -upplevelse krävs en standardbild som är kreativ för varje kreativ storlek som upplevelsen tilldelas.
 
 #### Tredjepartskreatörer
 
@@ -61,6 +61,38 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 ```
 <SCRIPT language='JavaScript1.1' SRC="https://ad.doubleclick.net/ddm/adj/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"></SCRIPT> <NOSCRIPT> <A HREF="https://ad.doubleclick.net/ddm/jump/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp]?"><IMG SRC="https://ad.doubleclick.net/ddm/ad/A123456.12345GDN.COM/B1234567.123456789;sz=300x250;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A></NOSCRIPT>
 ```
+
+#### Videoredigerare {#creative-video-specs}
+
+Du kan överföra videoprojekt från din enhet eller ditt nätverk. För varje standard video- och videoupplevelse krävs en standardvideokreativ för varje kreativ storlek som tilldelats upplevelsen. Alla videokreatörer omkodas automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda utgivarspecifik omkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla taggar för videoannonsupplevelser.
+
+Se följande krav för videoredigering.
+
+**Filtyp:** .mov, .mp4, .webm
+
+**Filstorlek:** Maximalt 512 MB
+
+**Videoproportioner:** 16:9, 4:3
+
+**Videoupplösning:** 640x360 för 360p, 1 280 x 720 för 720p, 1 920 x 1 080 för 1080p
+
+**Videolängd:** Maximalt 90 sekunder
+
+**Bithastighet:** 600-1200 kbit/s för 360p, 1 500-2 500 kbit/s för 720p, 3 000-5 000 kbit/s för 1 080p
+
+**Videobildrutefrekvens:** 23,98 FPS. Ytterligare bildrutefrekvenser kan accepteras baserat på regionala krav eller krav från förlag
+
+**Videokodek:** H.264 (branschstandard), AV1, H.265
+
+**Ljudformat:** ACC (branschstandard/MP4), Opus (WebM/AV1)
+
+**Ljudbithastighet:** 16-512 kbit/s
+
+**Samplingsfrekvens för ljud:** 44100-48000 Hz
+
+**Ljudhastighet:** 44,1 kHz eller 48 kHz
+
+**Annan ljudfil:** Den överförda filen får inte vara sammanflätad, blandad och innehålla ett ljudspår. Det kanske inte finns något ljud, men ett ljudspår måste inkluderas i videofilen.
 
 ### Format för dynamiska annonser
 
@@ -102,7 +134,9 @@ På fliken [!UICONTROL Standard Ads] visas alla standardalternativ som du har sk
 
 * [Förgranska en vanlig kreativ](creative-preview.md)
 
-* [Lägg till standardkreatörer i standardpaket och ta bort standardkreatörer från standardpaket](creative-attach-detach-bundles.md)
+* [Lägg till standardkreatörer i standardpaket för visning och ta bort standardkreatörer från ett standardpaket för visning](creative-attach-detach-bundles.md)
+
+* [Lägg in videokreatörer i standardvideopaket och ta bort videokreatörer från standardvideopaket](creative-attach-detach-bundles.md)
 
 * [Duplicera standardkreatörer](creative-duplicate.md)
 
@@ -126,7 +160,7 @@ Möjligheten att skapa och redigera dynamiska kreatörer är för närvarande ba
 
 * [Förgranska dynamiska kreatörer](creative-preview.md)
 
-* [Lägg till dynamiska kreatörer i dynamiska paket och ta bort dynamiska kreatörer från ett dynamiskt paket](creative-attach-detach-bundles.md)
+* [Lägg till dynamiska kreatörer i dynamiska displaypaket och ta bort dynamiska kreatörer från ett dynamiskt displaypaket](creative-attach-detach-bundles.md)
 
 * [Duplicera dynamiska kreatörer](creative-duplicate.md)
 
@@ -140,13 +174,15 @@ I vyn [!UICONTROL Bundles] visas alla standardpaketbehållare och dynamiska pake
 
 #### Tillgängliga åtgärder
 
-* Lägga till standardpaket och dynamiska paket i ett bibliotek
+* Lägga till standardskärmar, standardvideo och dynamiska bildskärmspaket i ett bibliotek
 
 * Visa en lista över de kreativa i ett paket
 
 * Redigera ett paketnamn
 
-* Lägg till standardkreatörer i standardpaket och ta bort standardkreatörer från standardpaket
+* Lägg in standardskärmar i standardpaket och ta bort standardskärmar från standardpaket
+
+* Lägg in standardvideoklipp i standardvideopaket och ta bort standardvideoklipp från standardvideopaket
 
 * Duplicera paket
 

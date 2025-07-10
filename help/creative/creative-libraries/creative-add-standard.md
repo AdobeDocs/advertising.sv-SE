@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: bfb2dccf08ae79ca8f338a0423176f1d3309d4fc
+source-git-commit: bc3309523572656362cebebab9b735530003a81c
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 1. Klicka på biblioteksnamnet.
 
-1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
 
@@ -46,7 +46,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
    * Dra och släpp filer på enheten eller nätverket i lådan.
 
-   * Klicka på **[!UICONTROL select a file]** för att leta upp filerna på enheten eller i nätverket.
+   * Klicka på **[!UICONTROL Select a file]** för att leta upp filerna på enheten eller i nätverket.
 
    Se de [flexibla annonsspecifikationerna](#flexible-ad-spec).
 
@@ -64,7 +64,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 ### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil] (flexible-creative-upload).>
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -76,7 +76,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. Klicka på biblioteksnamnet.
 
-1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Flexible]**.
 
@@ -121,7 +121,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Klicka på biblioteksnamnet.
 
-1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL HTML5]**.
 
@@ -139,7 +139,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
    * Dra och släpp filer på enheten eller nätverket i lådan.
 
-   * Klicka på **[!UICONTROL select a file]** för att leta upp filen på enheten eller i nätverket.
+   * Klicka på **[!UICONTROL Select a file]** för att leta upp filen på enheten eller i nätverket.
 
    Se [HTML5-annonsspecifikationen](/help/creative/creative-libraries/html5-creative-specification.md).
 
@@ -157,7 +157,7 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 
 1. Klicka på biblioteksnamnet.
 
-1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Image]**.
 
@@ -167,7 +167,7 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 
       * Dra och släpp filer på enheten eller nätverket i lådan.
 
-      * Klicka på **[!UICONTROL select a file]** om du vill söka efter filer på enheten eller i nätverket.
+      * Klicka på **[!UICONTROL Select a file]** om du vill söka efter filer på enheten eller i nätverket.
 
    * Gör följande för godkända bilder i ett [Adobe Experience Manager-bibliotek som är anslutet till ditt DSP-konto](/help/creative/creative-libraries/aem-assets-configure.md):
 
@@ -199,13 +199,37 @@ De som skapar bilderna kan vara i GIF-, JPEG-, JPG- eller PNG-format. Den maxima
 
 1. Klicka på biblioteksnamnet.
 
-1. Klicka på underfliken **[!UICONTROL Standard Ads]** på fliken **[!UICONTROL Creatives]**.
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL 3rd Party]**.
 
 1. Ange JavaScript-taggen och andra inställningar för den kreativa i de [kreativa inställningarna från tredje part](#creative-settings-third-party).
 
    Du kan kopiera och klistra in alla [tillgängliga makron](/help/creative/creative-macros.md) i JavaScript-taggen.
+
+1. Klicka på **[!UICONTROL Create]**
+
+## Lägga till en videoredigerare i ett kreativt bibliotek
+
+Se de [videokreativa specifikationerna](/help/creative/creative-libraries/creative-libraries-about.md#creative-video-specs) och de [kreativa storlekar](/help/creative/creative-libraries/creative-sizes.md) som stöds.
+
+1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
+
+1. Klicka på biblioteksnamnet.
+
+1. Klicka på underfliken **[!UICONTROL Creatives]** på fliken **[!UICONTROL Standard Ads]**.
+
+1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Creative]** > **[!UICONTROL Video]**.
+
+1. Ange videofilerna på något av följande sätt:
+
+   * Dra och släpp filer på enheten eller nätverket i lådan.
+
+   * Klicka på **[!UICONTROL Select a file]** om du vill söka efter filer på enheten eller i nätverket.
+
+1. Ange de [kreativa inställningarna för video](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-video).
+
+   Som standard markeras den kreativitet som du just överförde och alla inställningar som du anger gäller för den valda kreativiteten.<!-- By default, all creatives you just uploaded are selected, and any settings you specify apply to all selected creatives. Any settings with only one value apply to all selected creatives. To enter settings for specific creatives, deselect each inapplicable creative. -->
 
 1. Klicka på **[!UICONTROL Create]**
 

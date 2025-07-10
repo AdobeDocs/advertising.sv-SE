@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 75d774a53521f1035c9f3a4f17b523ed1b68fec8
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] avsnitt
 
+**[!UICONTROL Ad Type]:** (Skrivskyddad för befintliga upplevelser) Den typ av annonser som ingår i upplevelsen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* eller *[!UICONTROL Video]*. När du väl har sparat upplevelsen kan du inte ändra annonstypen.
+
 **[!UICONTROL Advertiser]:** (Skrivskyddat för befintliga upplevelser) Annonsören som lägger bud på de kreativa kombinationer och målkombinationer som ingår i upplevelsen. När du väl har sparat upplevelsen kan du inte ändra annonsören.
 
 **[!UICONTROL Experience Name]:** Ett unikt namn för upplevelsen. **Tips!** Använd ett namn som du enkelt hittar när du använder upplevelsen som en annons i Advertising DSP eller andra DSP.
@@ -24,7 +26,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Default creatives] avsnitt
 
-**\[Standardalternativ har angetts\]:** Standardbildskapare som ska användas när en webbläsare inte kan visa användare som är tilldelade upplevelsen, till exempel när webbläsaren inte är JavaScript-aktiverad eller annonsservern inte kan anpassa annonsen på grund av förseningar. Inkludera en kreativ bild per annonsstorlek som upplevelsen gäller för. Dina val avgör vilka kreativa storlekar som kan användas för upplevelsen.<!-- In the legacy product, you selected the ad sizes for the experience, and then selected default images for each of those ad sizes. This feels a little wonky in that there isn't a distinct/obvious "Creative Sizes" setting to reference. -->
+**\[Standardalternativ har angetts\]:** Standardalternativen som används när en webbläsare inte kan visa användare som är tilldelade upplevelsen, till exempel när webbläsaren inte är JavaScript-aktiverad eller annonsservern inte kan anpassa annonsen på grund av förseningar. För vanliga skärmupplevelser inkluderar du en bild kreativ per annonsstorlek som upplevelsen gäller för. För standardvideoupplevelser inkluderar du en videoredigerare per annonsstorlek som upplevelsen gäller för. Dina val avgör vilka kreativa storlekar som kan användas för upplevelsen.
 
 För upplevelser med mål för beslutsträd kan du åsidosätta standardkreatörerna med kreativa paket som innehåller kreativa alternativ av samma storlek inifrån beslutsträdet.<!-- verify -->
 
@@ -39,8 +41,6 @@ För upplevelser med mål för beslutsträd kan du åsidosätta standardkreatör
 ## [!UICONTROL Targeting] avsnitt
 
 **[!UICONTROL Targeting]:** (skrivskyddat för befintliga upplevelser) Aktiverar kreativ målgruppsanpassning med hjälp av ett beslutsträd och automatiskt skapande av taggar. När du har sparat upplevelsen kan du inte ändra den här inställningen.
-
-**[!UICONTROL Dynamic ads]:** (Skrivskyddad för befintliga upplevelser) Anger att upplevelsen innehåller dynamiska annonser. **Obs!** En upplevelse kan innehålla antingen alla standardannonser eller alla dynamiska annonser. När du har sparat upplevelsen kan du inte ändra den här inställningen.
 
 **[!UICONTROL Language Targeting]:** (Endast upplevelser med standardannonser, valfritt, skrivskyddat för befintliga upplevelser) Kontrollerar användarens språkinställningar i webbläsaren och visar ett kreativt språk på det angivna språket när det finns en kreativ på det språket. När det inte finns någon tillgänglig kreatör i det webbläsarangivna språket används inställningen [!UICONTROL Preferred language] i stället.
 

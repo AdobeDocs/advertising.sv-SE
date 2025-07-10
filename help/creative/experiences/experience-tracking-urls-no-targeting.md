@@ -3,9 +3,9 @@ title: Anpassa spårnings-URL:er för en upplevelse utan att målinrikta
 description: Lär dig hur du anpassar URL:er för spårning för varje kreatör i en upplevelse utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Anpassade URL:er används bara för annonser som har skapats från annonsuppleve
 
    * I kortvyn klickar du på **[!UICONTROL ...]** bredvid upplevelsenamnet och sedan på **[!UICONTROL Tag Manager]**.
 
-   * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**
+   * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
 1. (Om det inte finns någon tagg för annonsstorleken) Skapa en tagg för den aktuella kreativa storleken.
 
@@ -34,13 +34,13 @@ Anpassade URL:er används bara för annonser som har skapats från annonsuppleve
 
    1. Ange en unik **[!UICONTROL Tag name]** och välj **[!UICONTROL Tag size]**.
 
-      Storleken på standardbildskaparna för upplevelsen avgör vilka storlekar som är tillgängliga.
+      Storleken på standardkreatörerna för upplevelsen avgör vilka storlekar som är tillgängliga.
 
    1. Klicka på **[!UICONTROL Create]**.
 
 1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera spårnings-URL:er](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
-   Flikarna [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] och [!UICONTROL Landing URLs] visar namnen på alla kreatörer i de tillämpliga storlekarna i de tilldelade paketen. Storleken på standardbildskaparna för upplevelsen avgör vilka storlekar som är tillgängliga.<!-- There's no distinct "Creative Sizes" setting. -->
+   Flikarna [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] och [!UICONTROL Landing URLs] visar namnen på alla kreatörer i de tillämpliga storlekarna i de tilldelade paketen. Storleken på standardkreatörerna för upplevelsen avgör vilka storlekar som är tillgängliga.<!-- There's no distinct "Creative Sizes" setting. -->
 
 1. Gör följande för varje kreatör på flikarna **[!UICONTROL Click Tracking URLs]**, **[!UICONTROL Impression Tracking URLs]** och **[!UICONTROL Landing URLs]** efter behov:
 

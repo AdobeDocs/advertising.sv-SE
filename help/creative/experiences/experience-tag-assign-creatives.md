@@ -3,9 +3,9 @@ title: Tilldela kreatörer till en annonstagg för upplevelser utan målinriktni
 description: Lär dig hur du tilldelar kreatörer till en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
 exl-id: 864f10ef-75ca-4081-93d9-8540476b17f0
-source-git-commit: 3027235ca7c8db278880a710cb8048216d0a599a
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan senare [anpassa URL:er för spårning](experience-tracking-urls-no-target
 
    * I kortvyn klickar du på **[!UICONTROL ...]** bredvid upplevelsenamnet och sedan på **[!UICONTROL Tag Manager]**.
 
-   * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**
+   * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
 1. Håll markören över raden för den tillämpliga annonstaggen och klicka på **[!UICONTROL + Add Creatives]**. <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -47,4 +47,5 @@ Du kan senare [anpassa URL:er för spårning](experience-tracking-urls-no-target
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md)
 >* [Anpassa URL:er för spårning för kreatörerna](experience-tracking-urls-no-targeting.md).
 >* [Anpassa kreativ optimering och schemaläggning för kreatörerna](experience-optimization-scheduling-no-targeting.md)
+>* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](experience-tag-export.md)

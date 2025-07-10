@@ -4,9 +4,9 @@ user-guide-title: Advertising Creative Guide
 user-guide-description: Läs om de viktigaste funktionerna, arbetsmomenten, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Creative Guide
 hide: true
-source-git-commit: 78865ed65255aa3c5f9167703877234595e8d1e7
+source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 0%
 + Introduktion {#introduction}
    + [Om Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative Libraries {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
@@ -67,6 +67,7 @@ ht-degree: 0%
          + [Anpassa den kreativa optimeringen och planeringen för en upplevelse utan att målinrikta](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
    + [Klona en upplevelse](/help/creative/experiences/experience-clone.md)
    + [Förhandsgranska en upplevelse](/help/creative/experiences/experience-preview.md)
+   + [Anpassa omkodningsalternativ för en video- och upplevelsetagg](/help/creative/experiences/experience-tag-video-transcoding.md)
    + [Exportera och implementera en tagg för annonsupplevelser](/help/creative/experiences/experience-tag-export.md)
    + [Dela en demo-URL för en upplevelse](/help/creative/experiences/experience-share-demo-url.md)
    + [Hämta data från vyn [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
@@ -78,4 +79,4 @@ ht-degree: 0%
 + [Återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 + [Få hjälp](/help/creative/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target="_blank"}
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

@@ -3,9 +3,9 @@ title: Annonsspecifikationer
 description: Referera till allmänna och utgivarspecifika annonsspecifikationer.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Annonserna levereras som standard på datorer, mobiler och anslutna tv-enheter. 
 
 Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Krav för HD Video Assets (obligatoriskt)
+### Krav för HD-video i Assets
 
 **Typ av videotagg:** VPAID 2.0 JavaScript eller VAST (CTV). Alla VPAID-annonsenheter måste följa specifikationen [VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) som definieras av IAB (Interactive Advertising Bureau).
 
@@ -84,7 +84,7 @@ Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassni
 
 **HTML5:** Bildfiltyper: GIF, JPG/JPEG, PNG, SVG
 
-### Krav för Image Assets (Required)
+### Krav för Image Assets
 
 Universell visning stöds.
 
@@ -102,7 +102,7 @@ Stationär dator, mobil, surfplatta, smarta högtalare och ansluten TV
 
 Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Krav för ljud-Assets (obligatoriskt)
+### Krav för Audio Assets
 
 **Filtyp:** MP3, OGG, AAC
 
@@ -154,9 +154,9 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 #### Ytterligare krav för Publisher
 
 * **[!DNL iHeartRadio]:**
-   * Filtyp: JPEG, JPG, PNG, GIF, SWF, HTML,
+   * Filtyp: JPEG, JPG, PNG, GIF, SWF, HTML
    * Största filstorlek: 2,2 MB
-   * Dimensioner: 300x250
+   * Mått: 300 × 250
 
 * **[!DNL Pandora]:**
    * Filtyp: JPEG, GIF
@@ -164,23 +164,23 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
    * Dimensioner: 300x250 (mobil eller stationär) eller 500x500 (stationär)
 
 * **[!DNL SoundCloud]:**
-   * Filtyp: Static JPG, PNG
+   * Filtyp: Statisk JPG, PNG
    * Största filstorlek: Under 400 kB
-   * Dimensioner: 1024x1024
+   * Mått: 1 024 × 1 024
 
 * **[!DNL Spotify]:**
-   * Filtyp: Static JPG, PNG
+   * Filtyp: Statisk JPG, PNG
    * Maximal filstorlek: 200 kB
-   * Dimensioner: 300x250
+   * Mått: 300 × 250
 
 * **[!DNL TuneIn]:**
    * Filtyp: JPEG, JPG, PNG, GIF, HTML
    * Största filstorlek: 2 MB
-   * Dimensioner: 300x250
+   * Mått: 300 × 250
 
 ## Inbyggda visningsannonser
 
-Varje annons kan innehålla antingen en stillbild eller ett rörligt GIF (cinemparagraph).
+Varje annons kan innehålla antingen en stillbild eller en rörlig GIF (cinemparagraph).
 
 ### Screens som stöds
 
@@ -192,7 +192,7 @@ Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassni
 
 **Upplösning:** Minst 600x600px; Rekommenderat minimum: 1 200x627px
 
-**Filtyp:** JPEG (bild- eller video- och omslagsbild), GIF (filmfotografi)
+**Filtyp:** JPEG (bild- eller video- och omslagsbild), GIF (filmdiagram)
 
 **Filstorlek:** Mindre än 1 MB (bilden ska vara fri från text.)
 
@@ -216,7 +216,7 @@ Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassni
 
 **Sponsras av:** Högst 200 tecken; 30 tecken rekommenderas
 
-**Call to Action (endast MoPub):** Högst 15 tecken
+**Call to action (endast MoPub):** Högst 15 tecken
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ Krav för klickningsspårare:
 
 * Klickspårande pixlar från tredje part: Måste dirigera om till startsidan som är inbäddad i URL:en (HTTP 302-omdirigering)
 
-* Datahanteringsplattform (DMP), klickningsspårare med 200 eller fler svar stöds inte.
+* Datahanteringsplattform (DMP) klickningsspårare med 200 eller fler svar stöds inte.
 
 >[!MORELIKETHIS]
 >

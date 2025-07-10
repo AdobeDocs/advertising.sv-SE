@@ -3,9 +3,9 @@ title: Creative-inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: b3ae58583020a907a41e72967b8c2a331c2d3257
+source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '2102'
 ht-degree: 0%
 
 ---
@@ -183,10 +183,32 @@ När du inkluderar denna kreativitet i en upplevelse som du implementerar som en
 **Creative-namn:** Den kreativa personens namn. **Tips!** Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
 
 **Creative-storlek:** (skrivskyddat för befintliga annonser) Den kreativa personens dimensioner. För nya kreatörer väljer du bland en lista med standardannonsstorlekar.
-u
+
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna.
 
 **URL för landningssida:** Den URL för landningssida som används för att validera varje annons som du associerar med kreatörerna. Annonsservern från tredje part bestämmer den faktiska startsidan för varje annons.
+
+**Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer i [!DNL Creative].
+
+* Om du vill välja befintliga etiketter klickar du på ![Ned](/help/creative/assets/chevron-down.png "Ned") och markerar kryssrutan bredvid varje etikett som ska användas.
+
+* Om du vill söka efter befintliga etiketter börjar du med att ange en textsträng i etikettnamnet.
+
+* Om du vill skapa en ny etikett som ska användas för kreatörerna öppnar du listan, klickar på **+ Lägg till etikett**, anger ett nytt etikettnamn i fältet [!UICONTROL Label] och klickar sedan på **Skapa**.
+
+* Om du vill ta bort en etikett avmarkerar du kryssrutan bredvid etikettnamnet.
+
+## Inställningar för videoproduktion {#creative-settings-video}
+
+**Creative-resursnamn:** Den kreativa personens namn. För en ny kreatör används filnamnet som standard, men du kan ändra namnet. För flera bilder kan du redigera de enskilda kreativa namnen. **Tips!** Använd ett namn som du enkelt hittar när du tar med den kreativa delen i en upplevelse.
+
+**Varaktighet:** (Skrivskyddad) Videons längd, som fylls i automatiskt.
+
+**Språk:** Standardspråket för varje annons som du associerar med kreatörerna. Samma värde gäller för alla markerade bilder. När du tar med kreatörerna i en upplevelse kan du välja att anpassa språkinställningarna för upplevelsen.
+
+**URL för landningssida:** URL-adressen till standardlandningssidan för varje annons som du associerar med kreatörerna. Landningssidans URL måste vara en giltig URL som börjar med http:// eller https://. Den kan innehålla spårningsparametrar från tredje part eller [[!DNL Creative] makron](/help/creative/creative-macros.md) för egen användning. Samma värde gäller för alla markerade bilder.
+
+När du inkluderar en kreatör i ett paket och sedan tilldelar paketet till en upplevelse kan du ändra landningssidans URL-adress och lägga till URL-adresser för bild- och klickspårning samt JavaScript för varje kreatör i paketet. <!-- NOT SURE APPLICABLE ANYMORE: to generate a variation of the base creative. -->
 
 **Etikett:** (Valfritt) Etiketter som ska användas för alla valda kreatörer. Du kan filtrera kreatörer efter etikett i olika vyer i [!DNL Creative].
 
