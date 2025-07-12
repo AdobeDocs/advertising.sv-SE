@@ -3,9 +3,9 @@ title: Bifoga ett kreativt innehåll till kreativa programpaket
 description: Lär dig hur du kopplar en kreatör till ett kreativt programpaket.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 
-Du kan koppla standardwebbdesigners till standardpaket för visning, standardvideoklipp till standardvideopaket och designers av dynamiska bildskärmar till dynamiska bildskärmspaket så att du kan lägga till dem i [annonsupplevelser](/help/creative/experiences/experience-about.md). Varje paket kan bara innehålla en av varje kombination av \[creative size + language\].
+Du kan koppla standardwebbdesigners till standardpaket för visning, standardvideoklipp till standardvideopaket och designers av dynamiska bildskärmar till dynamiska bildskärmspaket så att du kan lägga till dem i [annonsupplevelser](/help/creative/experiences/experience-about.md). Varje paket kan bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\].
 
 <!--
 You can also detach a creative from a bundle to remove the association between the two, so that the creative is no longer used for experiences that target the bundle. Detaching a creative from the bundle doesn't delete the creative from the Creatives tab in your creative library.

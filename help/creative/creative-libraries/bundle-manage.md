@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1466'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en en
 
 [!DNL Creative] roterar genom de kreativa i paketet enligt inställningarna för varje upplevelse som paketet är tilldelat till. Du kan också tillåta att [!DNL Creative] optimerar annonselementen för alla upplevelser baserat på prestanda med algoritmisk annonrotation, som drivs av Adobe Sensei.
 
-För att optimera annonselement för olika paket i en annonsupplevelse kan varje paket bara innehålla en av varje kombination av \[kreativ storlek + språk\]. Om ett paket t.ex. innehåller en 250 × 250-creative med standardspråket &quot;French&quot;, kan du inte lägga till ytterligare en 250 × 250-creative med standardspråket &quot;French&quot;. Om du har flera kreatörer av samma storlek på samma språk kan du lägga till dem separat i upplevelsen.
+För att optimera annonselement för olika paket i en annonsupplevelse kan varje paket bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\]. Om ett paket t.ex. innehåller en 250 × 250-creative med standardspråket &quot;French&quot;, kan du inte lägga till ytterligare en 250 × 250-creative med standardspråket &quot;French&quot;. Om du har flera kreatörer av samma storlek på samma språk kan du lägga till dem separat i upplevelsen.
 
 Kreatörer som är knutna till programpaket är fortfarande tillgängliga som enskilda kreatörer. Du kan lägga till en enda kreatör i flera paket. Om du redigerar några inställningar för en kreatör som är kopplad till ett paket, sprids ändringarna till paketet. Alla anpassade landningssidor, taggar för visningsspårning och klickspårningstaggar som är konfigurerade för den kreativa delen av en upplevelse används alltid för upplevelsen.
 
@@ -104,7 +104,7 @@ Du kan bifoga ett kreativt program till flera paket.
 
 ## Koppla samman kreatörer i ett paket
 
-Du kan koppla befintliga designers av standardskärmar till ett standardpaket för visning, standardvideoklipp till standardvideopaket och designers av dynamiska skärmar till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[creative size + language\].
+Du kan koppla befintliga designers av standardskärmar till ett standardpaket för visning, standardvideoklipp till standardvideopaket och designers av dynamiska skärmar till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\].
 
 >[!NOTE]
 >

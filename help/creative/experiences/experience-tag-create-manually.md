@@ -3,9 +3,9 @@ title: Skapa en annonstagg manuellt för en lämplig kreativ storlek
 description: Lär dig hur du skapar en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 *Upplevelser utan mål för beslutsträd endast*
 *Stängd beta*
 
-Du kan skapa en eller flera annonstaggar för varje kreativ storlek som används för en upplevelse. Du kan senare [tilldela kreatörer till annonstaggen](experience-tag-assign-creatives.md).
+Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek eller videouppspelning som används för en upplevelse. Du kan senare [tilldela kreatörer till annonstaggen](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
->För upplevelser med mål för beslutsträd skapar [!DNL Creative] automatiskt en tagg för varje tillämplig kreativ storlek.
+>För upplevelser med mål för beslutsträd skapar [!DNL Creative] automatiskt en tagg per språk för varje tillämplig kreativ storlek eller videouppspelning.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
@@ -31,11 +31,11 @@ Du kan skapa en eller flera annonstaggar för varje kreativ storlek som används
 
 1. Klicka på **[!UICONTROL Create Tag]** i det övre högra hörnet.
 
-1. Ange en unik **[!UICONTROL Tag name]** och välj **[!UICONTROL Tag size]**.
+1. Ange en unik **[!UICONTROL Tag name]** och välj antingen (standarddisplayannonser) **[!UICONTROL Tag size]** eller (standardvideoannonser) **[!UICONTROL Duration]**.
 
-   Storleken på standardkreatörerna för upplevelsen avgör vilka kreativa storlekar som är tillgängliga.
+   Storleken på eller längden på standardkreatörerna för upplevelsen avgör vilka kreativa storlekar och videotider som är tillgängliga.
 
-   Du kan skapa flera taggar för samma kreativa storlek.<!-- What are the implications? -->
+   Du kan skapa flera taggar för samma kreativa storlek eller varaktighet.<!-- What are the implications? -->
 
 1. Klicka på **[!UICONTROL Create]**.
 

@@ -3,9 +3,9 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 När en annonstagg för en viss kreativ storlek är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript- och iframe-format för implementering i Advertising DSP eller andra DSP. Taggarna för DSP innehåller alla makron som krävs för DSP.
 
-Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som annonser med annonstypen&quot;standard display&quot;.
+Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som annonser med annonstypen&quot;standardvisning&quot; eller&quot;universell video&quot;.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Klicka på **[!UICONTROL Next]** i det övre högra hörnet eller klicka på **[!UICONTROL Generate ad tags]** i den vänstra menyn.
 
-1. Välj taggtyp: ** *JavaScript<!-- sic -->* **&#x200B; eller &#x200B;** *IFRAME* ** <!-- sic -->.
+1. Välj taggtyp: ** *JavaScript<!-- sic -->* ** eller ** *IFRAME* ** <!-- sic -->.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 

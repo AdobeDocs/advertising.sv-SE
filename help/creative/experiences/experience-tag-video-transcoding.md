@@ -2,9 +2,10 @@
 title: Anpassa omkodningsalternativ för en video- och upplevelsetagg
 description: Lär dig hur du anpassar omkodningsalternativen för en videoannonstagg.
 feature: Creative Experiences
-source-git-commit: b67bb63fd5f87e6bd900aa5d957973d11355280c
+exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
+source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 *Stängd beta*
 
-Du kan anpassa omkodningsalternativen för en videoannons.
+Du kan anpassa omkodningsalternativen för en videoannons för att säkerställa snabb uppspelning och kvalitetskontroll över alla utgivare.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
@@ -28,4 +29,3 @@ Du kan anpassa omkodningsalternativen för en videoannons.
 1. Välj typ av omkodning i listan **[!UICONTROL Publisher specific transcodes]**.
 
 1. Klicka på **[!UICONTROL Save Settings]**.
-
