@@ -3,7 +3,7 @@ title: Vanliga frågor om anpassade rapporter
 description: Lär dig svar på vanliga frågor om prestandarapporter, inklusive felsökning av dataproblem.
 exl-id: 1232efce-25eb-48d8-a3fb-f57711fa14e5
 feature: Search Reports
-source-git-commit: c0f8f8c2886ea821dd7705446a727054b66ad3bc
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '3922'
 ht-degree: 0%
@@ -54,9 +54,9 @@ När raden innehåller data för innehållsaktiverade sökkampanjer, webbannonsk
 +++
 
 +++På grund av säsongsförändringar eller förändringar på marknaden visar mina rapporter atypiska data. Påverkar detta anbud när villkoren ändras?
-Optimeringsfunktionen bygger sina intäktsmodeller för varje budenhet dagligen för att säkerställa att den identifierar och omedelbart reagerar på trender, och modellerna bygger på långsiktiga historiska data för att hjälpa till att förutsäga säsongsrelaterade resultat. Portföljens halveringstid för intäktsmodellen <!-- add link to glossary? --> avgör också hur kraftigt senaste intäktsdata viktas. Det bästa sättet är att minska halveringstiden under en period med atypiska resultat men öka den efter att intäktsmodellen har justerats. Om du har några frågor om huruvida det är nödvändigt att justera halveringstiden kontaktar du ditt Adobe-kontoteam.
+Optimeringsfunktionen bygger sina intäktsmodeller för varje budenhet dagligen för att säkerställa att den identifierar och omedelbart reagerar på trender, och modellerna bygger på långsiktiga historiska data för att hjälpa till att förutsäga säsongsrelaterade resultat. Portföljens halveringstid för intäktsmodellen <!-- add link to glossary? --> avgör också hur kraftigt senaste intäktsdata viktas. Det bästa sättet är att minska halveringstiden under en period med atypiska resultat men öka den efter att intäktsmodellen har justerats. Om du har några frågor om huruvida det är nödvändigt att justera halveringstiden kontaktar du Adobe Account Team.
 
-Om du inte vill att data för perioden ska påverka framtida bud alls kan du välja att exkludera dessa datum från modellen. Kontakta kontoteamet på Adobe för att exkludera datum.
+Om du inte vill att data för perioden ska påverka framtida bud alls kan du välja att exkludera dessa datum från modellen. Kontakta Adobe Account Team för att exkludera datum.
 +++
 
 +++Kan jag skapa en rapport för ett specifikt kontoegenskapsmått, till exempel [!UICONTROL Device] eller [!UICONTROL Objective Name]?
@@ -81,7 +81,7 @@ Om du genererar en rapport flera gånger med samma rapportparametrar men med oli
 
 * Portföljfiltervalet utesluter vissa händelser som leder till konverteringen.
 
-  Om du rapporterar om en delmängd av portföljer kanske du inte inkluderar kampanjer som innehöll händelsen som konverteringen tilldelades enligt någon av attribueringsreglerna. Anta att en användare klickar på Nyckelord_1 från Portfolio_1, klickar på Nyckelord_2 från Portfolio_2 och sedan konverterar. Om attribueringsregeln [!UICONTROL First Event] används i rapporten måste Portfolio_1 inkluderas för att konverteringen ska inkluderas i rapporten. Om attribueringsregeln &quot;Last Event&quot; används i rapporten måste Portfolio_2 inkluderas.
+  Om du rapporterar om en delmängd av portföljer kanske du inte inkluderar kampanjer som innehöll händelsen som konverteringen tilldelades enligt någon av attribueringsreglerna. Anta att en användare klickar på Nyckelord_1 från Portfolio_1, klickar på Nyckelord_2 från Portfolio_2 och sedan konverterar. Om attribueringsregeln [!UICONTROL First Event] används i rapporten måste Portfolio_1 inkluderas för att konverteringen ska inkluderas i rapporten. Om attribueringsregeln &quot;Last Event&quot; används i rapporten måste dock Portfolio_2 inkluderas.
 
 >[!TIP]
 >
@@ -98,9 +98,9 @@ Detta kan inträffa när heltal används i mätformaten:
 +++
 
 +++Hur förhindrar jag att klicknings- eller intäktsdata påverkar framtida anbud?
-Klicka på dataproblem när sökningen, sociala medier och Commerce inte är synkroniserade med annonsnätverket. Kontakta kontoteamet på Adobe om du vill synkronisera kontot manuellt. Om klickdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från kostnadsmodellerna.
+Klicka på dataproblem när sökningen, sociala medier och Commerce inte är synkroniserade med annonsnätverket. Kontakta Adobe Account Team om du vill synkronisera kontot manuellt. Om klickdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från kostnadsmodellerna.
 
-Intäktsdataproblem kan uppstå på grund av ett problem med spårning eller feed-fil. Kontakta kontoteamet på Adobe för att undersöka problemet. Om intäktsdata saknas för en hel dag ber du ditt Adobe-kontoteam att exkludera den dagen från intäktsmodellerna.
+Intäktsdataproblem kan uppstå på grund av ett problem med spårning eller feed-fil. Kontakta Adobe Account Team för att undersöka problemet. Om intäktsdata saknas för en hel dag ber du Adobe Account Team att exkludera den dagen från intäktsmodellerna.
 +++
 
 +++monetära data visas i fel format.
@@ -112,7 +112,7 @@ Du kan se decimalvärden i följande fall:
 
 * Om du har kört rapporten med någon annan parameter för konverteringsattribueringsregel än [!UICONTROL Last Event] eller [!UICONTROL First Event] kan intäkterna delas mellan flera händelser i konverteringssökvägen.
 
-* Om flera [budenheter](/help/search-social-commerce/glossary.md#a-b) med olika matchningstyper i [!UICONTROL Transaction Report] har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
+* Om flera [!UICONTROL Transaction Report]budenheter[ med olika matchningstyper i ](/help/search-social-commerce/glossary.md#a-b) har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
 +++
 
 ## Standardprestanda, mått
@@ -155,7 +155,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 +++Intäkter saknas i rapporter.
 
-**Annonsörer som använder konverteringstaggar för Adobe Advertising**
+**Annonsörer som använder Adobe Advertising konverteringstaggar**
 
 *Möjliga orsaker:*
 
@@ -173,7 +173,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 1. Kontrollera att rätt konverteringsspårningstaggar implementeras på alla tillämpliga webbsidor. Om det behövs kan du be ditt Adobe-kontoteam att skapa en testtransaktion för varje tillämplig konverteringsspårningstagg och att hämta information om transaktionen, som `transactionid` och information från cookien (som `trackingid`, `clickid` och så vidare).
 
-1. Om alternativet [!UICONTROL Auto Upload] är inaktiverat för kampanjen och du har lagt till nyckelord eller annonser, kontrollerar du att du har genererat en spårningsmall eller mål-URL som innehåller sök-, sociala och Commerce-klickspårning för varje. Kontoteamet på Adobe kan köra en intern rapport för att se om det finns klickspårnings-URL:er (spårningsmallar eller mål-URL:er) som saknas eller är felaktiga.
+1. Om alternativet [!UICONTROL Auto Upload] är inaktiverat för kampanjen och du har lagt till nyckelord eller annonser, kontrollerar du att du har genererat en spårningsmall eller mål-URL som innehåller sök-, sociala och Commerce-klickspårning för varje. Adobe-kontogruppen kan köra en intern rapport för att se om det finns klickspårnings-URL:er (spårningsmallar eller mål-URL:er) som saknas eller är felaktiga.
 
    Generera vid behov spårning genom att skapa en kalkylbladsfil med rätt URL:er och posta filen till rätt konto med alternativet **Skapa spårnings-URL:er** .
 
@@ -211,12 +211,12 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 +++
 
 +++Vissa avancerade rapporter innehåller inte konverteringsdata från en annonsörmatning.
-[!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använder data som hämtats via tjänsten för spårning av konvertering till Adobe Advertising och kan bara genereras för annonsörer som har tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising-konverteringsspårningssystemet.
+[!UICONTROL Geo Distribution Report] och [!UICONTROL Domain Referral Report] använder data som hämtats via Adobe Advertising-tjänsten för konverteringsspårning och kan bara genereras för annonsörer som använder tjänsten. Rapporterna innehåller inte konverteringsdata som spåras utanför Adobe Advertising konverteringsspårningssystem.
 +++
 
 +++Intäktsdata skiljer sig från annonsörens egna intäktsdata.
 
-**Annonsörer som använder konverteringstaggar för Adobe Advertising**
+**Annonsörer som använder Adobe Advertising konverteringstaggar**
 
 *Möjliga orsaker:*
 
@@ -230,7 +230,7 @@ Rapporten får inte innehålla konverteringsvärden för vilka konverteringar ha
 
 1. Gå till **[!UICONTROL Insights & Reports]>[!UICONTROL Reports]** och generera en [!UICONTROL Transaction Report]. Jämför de transaktioner som Search, Social och Commerce har tagit emot med annonsörens data.
 
-1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att den relevanta spårningstaggen för konvertering har implementerats på alla tillämpliga webbsidor och inte har redigerats om inte kontoteamet på Adobe har sagt att du ska göra det. En tagg kan saknas eller ändras om webbplatsen nyligen uppdaterades.
+1. Om vissa transaktioner är felaktiga eller saknas kontrollerar du att den relevanta spårningstaggen för konvertering är implementerad på alla tillämpliga webbsidor och inte har redigerats om inte Adobe-kontoteamet har sagt till dig att göra det. En tagg kan saknas eller ändras om webbplatsen nyligen uppdaterades.
 
    För Sök, Socialt och Commerce förväntas URL:er med rätt format (med parametrar i namnvärdespar) i variabeln `ef_transaction_properties` och i elementet `src` i taggen `img`.
 
@@ -294,7 +294,7 @@ Se möjliga orsaker och lösningar för pixelimplementeringar ovan.
 +++
 
 +++Intäktsdata skiljer sig från data i Adobe Analytics
-Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=sv-SE](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html?lang=sv-SE).<!-- change link URL to relative link -->
+Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/data/data-variances.html).<!-- change link URL to relative link -->
 +++
 
 ## Särskilda rapporter
@@ -315,8 +315,8 @@ Se [https://experienceleague.adobe.com/docs/advertising/integrations/analytics/d
 Annonsnätverken tillhandahåller inte den identifierare som krävs för att tilldela intäkter till en enskild annons för dessa kampanjer. Följaktligen är inte annonsnivådata tillgängliga för de kampanjtyperna i vyn [!UICONTROL Ads] eller i vyn [!UICONTROL Ad Variation Report]. Förvänta diskrepanser mellan den totala annonsnivån för en kampanj och kampanjens totala data.
 +++
 
-+++I [!UICONTROL Transaction Report], hur vet jag vilken konverteringsmetod som kommer från en datafeed eller som spåras av Adobe Advertising-spårningspixeln?
-I en transaktionsrapport kan du se om ett inkluderat konverteringsmått spårades av spårningspixeln för Adobe Advertising om du inkluderar den anpassade kolumnen [!UICONTROL Tracking URL]. Spårnings-URL:er med spårningspixeln för Adobe Advertising börjar med `http://pixel.everesttech.net`.
++++I [!UICONTROL Transaction Report], hur vet jag vilken konverteringsmetod som kommer från en datafeed eller som spåras av Adobe Advertising spårningspixel?
+I en transaktionsrapport kan du se om ett inkluderat konverteringsmått har spårats av Adobe Advertising-spårningspixel om du inkluderar den anpassade kolumnen [!UICONTROL Tracking URL]. Spårnings-URL:er med spårningspixeln i Adobe Advertising börjar med `http://pixel.everesttech.net`.
 +++
 
 +++Data i min [!UICONTROL Transaction Report] matchar inte data i min [!UICONTROL Keyword Report].

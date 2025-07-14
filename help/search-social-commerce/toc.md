@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: 9d92118fceb26d71a5909f66ae6e382616a5e098
+source-git-commit: 01fe9264fee43ed29f6cee022dadeb29fbd26f45
 workflow-type: tm+mt
 source-wordcount: '1746'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integrering med Adobe Experience Cloud {#integrations}
       + [Integrering med Adobe Experience Cloud lösningar och tjänster](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE){target="_blank"}
-      + [Integrering med Adobe Audience Manager (länk)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=sv-SE){target="_blank"}
-   + [Stöd för konsumentsekretess (länk)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
-   + [Profiler och riktlinjer (länk)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=sv-SE){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integrering med Adobe Audience Manager (länk)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Stöd för konsumentsekretess (länk)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Profiler och riktlinjer (länk)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Komma igång {#getting-started}
    + [Implementeringsöversikt](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemkrav](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -81,7 +81,7 @@ ht-degree: 2%
             + [Klickspårningsformat för  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klickspårningsformat för  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Valfria spårningsparametrar för klickspårnings-URL:er](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-cookies (länk)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=sv-SE){target="_blank"}
+      + [Adobe Advertising-cookies (länk)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Spårningsparametern för AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
