@@ -3,14 +3,14 @@ title: Hämta data från en kampanjhanteringsvy
 description: Lär dig hur du hämtar data från de flesta vyer för kampanjhantering.
 exl-id: f549f03c-ed0b-4d7d-8d7e-91192c17e77e
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
-# Hämta data från en kampanjhanteringsvy
+# (Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy
 
 *Äldre användargränssnitt*
 
@@ -23,6 +23,10 @@ Du kan hämta data från vyerna [!UICONTROL Search, Social, & Commerce] > [!UICO
   Om du genererar data för flera kampanjer och de kombinerade data består av över 500 000 rader, delas data ytterligare upp efter kampanj i två eller flera filer, om det behövs, med namnen `<bulksheet name>_1.txt`, `<bulksheet name>_2.txt` och så vidare.
 
   Alla kalkylbladsfiler på panelen [!UICONTROL Downloads] visas också i vyn [!UICONTROL Bulksheets]. När filen skapas får du ett e-postmeddelande med en länk från vilken du kan hämta filen. Beroende på mängden data som kompileras kan meddelandet ta flera minuter eller mer. Om det däremot inte går att generera filen visas en felfil i vyn Bulksheets och du får ett e-postmeddelande med en länk till felfilen. Om du tar bort en kalkylbladsfil från panelen [!UICONTROL Download] eller fliken [!UICONTROL Bulksheets] tas den bort från båda platserna.
+
+>[!NOTE]
+>
+>Se även hjälpen om hur du hämtar data i det nya användargränssnittet från [[!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), [[!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) och [[!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Valfritt) Markera enskilda rader som ska inkluderas i filen.
 
@@ -42,4 +46,7 @@ Du kan hämta data från vyerna [!UICONTROL Search, Social, & Commerce] > [!UICO
 
 >[!MORELIKETHIS]
 >
->[Ta bort en rapport eller ett kalkylbladsdokument för prestanda från [!UICONTROL Downloads] menyn ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från [!UICONTROL Downloads]-menyn ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

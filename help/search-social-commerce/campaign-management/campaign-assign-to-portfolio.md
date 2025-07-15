@@ -3,9 +3,9 @@ title: Tilldela kampanjer till en portfölj
 description: Lär dig hur du inkluderar kampanjer i portfolior för optimering.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: f1ad7c7535a7edece4eeecf7b2aac8b59f8eb6b9
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Genom att tilldela en kampanj till en optimerad portfölj kan Search, Social och Commerce optimera anbud, kampanjbudgetar och budstrategier för nyckelord och annonser i kampanjen. Du kan tilldela kampanjer till en portfölj från vyn [!UICONTROL Campaigns], när du skapar portföljen eller genom att redigera inställningarna för en portfölj.
 
-Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom optimeringsstödet för varje kampanjanbudsstrategi genom att läsa&quot;Godtagbara Portfolio-typer per Campaign Bid-strategi&quot; i kapitlet i optimeringsguiden för&quot;Portfolios&quot;, som finns i Search, Social och Commerce.<!-- verify convention for referencing Optimization Guide here -->
+Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se en lista över [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md) som du kan inkludera i en portfölj. Verifiera dessutom [optimeringsstödet för varje kampanjanbudsstrategi](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
 >[!NOTE]
 >
@@ -40,9 +40,11 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]** i verktygsfältet.
 
-1. Ange portföljinställningarna <!--[portfolio settings](/help/search-social-commerce/beta-ui/manage/portfolios/portfolio-settings.md)--> på skärmen [!UICONTROL Create Portfolio].
+1. Ange portföljinställningarna på skärmen [!UICONTROL Create Portfolio].
 
    Kampanjerna du valde tidigare har redan tilldelats kampanjen. Du kan också redigera kampanjlistan för portföljen.
+
+   Mer information om portföljinställningarna finns i Optimeringsguiden som du når via Sök, Socialt och Commerce.
 
 1. Klicka på **[!UICONTROL Review and Save]**.
 

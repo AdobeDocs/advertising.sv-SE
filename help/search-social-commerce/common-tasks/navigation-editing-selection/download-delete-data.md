@@ -3,20 +3,21 @@ title: Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!U
 description: Lär dig hur du tar bort en rapport- eller kalkylbladsfil som du har hämtat en kampanjhanteringsvy.
 exl-id: cd1244da-ddb8-4ee1-8ebb-2df4e9924952
 feature: Search Common Tasks
-source-git-commit: 399974645b5083e735ff7aa94eba0a1115b4ddeb
+source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-# Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!UICONTROL Downloads]
+# (Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från menyn [!UICONTROL Downloads]
 
 *Äldre användargränssnitt*
 
 >[!NOTE]
 >
->Om du tar bort en kalkylbladsfil tas den bort från listan [!UICONTROL Downloads] och även från vyn [!UICONTROL Bulksheets].
+>*Om du tar bort en kalkylbladsfil tas den bort från listan [!UICONTROL Downloads] och även från vyn [!UICONTROL Bulksheets].
+>* Se även hjälpen om hur du hämtar data i det nya användargränssnittet från [[!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), [[!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) och [[!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. Klicka på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] på huvudmenyn och öppna en entitetsvy.
 
@@ -28,4 +29,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[Hämta data från en kampanjhanteringsvy](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [(Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
