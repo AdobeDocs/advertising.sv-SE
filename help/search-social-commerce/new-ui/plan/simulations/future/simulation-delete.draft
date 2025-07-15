@@ -1,0 +1,27 @@
+---
+title: Delete simulations
+description: Learn how to delete simulations.
+feature: 
+---
+# Delete custom <!-- verify if this will still be only for custom ones, and edit title/desc as necessary -->simulations
+
+<!-- Not available as of 3/19/2025 -->
+
+*Beta feature*
+
+Note: Custom (and weekly) simulation files are automatically deleted when 30 more
+recent simulations have been generated.<!-- Verify, and if this applies only to custom simulations -->
+
+1. In the main menu, click **[!UICONTROL Plan] > [!UICONTROL Simulations]**.
+
+1. Select the check boxes next to the simulations you want to delete.
+
+1. In the toolbar above the data table, click ![Delete](/help/search-social-commerce/assets/delete.png "Delete") **[!UICONTROL Delete]**.<!-- Verify name and icon image -->
+
+1. In the confirmation message, click <!-- whatever -->.
+
+>[!MORELIKETHIS]
+>
+>* [About simulations](simulation-about.md)
+>* [Create a custom simulation](simulation-create.md)
+>* [Download simulations](simulation-download.md)
