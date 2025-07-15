@@ -3,7 +3,7 @@ title: Logga in
 description: Lär dig hur du loggar in.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 16bc95001d815f22ade46390d07e40fcc29e2fdb
+source-git-commit: 34da93ceb0004804a6c0106e31f6ce6c64ee1dec
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -20,9 +20,9 @@ Search, Social, &amp; Commerce går över till Adobe Identity Management Service
 
 * Du kan vara inloggad i 24 timmar.
 
-Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce är aktiva till den 15 juli 2025 så att du kan förbereda dig för ändringen.
+Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce är aktiva till den 21 juli 2025 så att du kan förbereda dig för ändringen.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Logga in från den äldre inloggningssidan för Sök, Social och Commerce
 
@@ -40,7 +40,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
    Det nya användargränssnittet öppnas som standard.
 
@@ -54,7 +54,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
+1. Välj antingen **Personligt konto&quot; eller **Företag eller Skolkonto**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas till det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 
