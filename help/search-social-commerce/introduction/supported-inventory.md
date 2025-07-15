@@ -64,6 +64,6 @@ Nedan följer vilka annonsnätverk som stöds, kampanjtyper och annonstyper samt
 
 [^2]: Läs mer på [Optimeringsstöd via anbudsstrategi](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md#optimization-by-bid-strategy).
 
-[^3]: Kräver integrering med Adobe Analytics. Se [Översikt över Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html).
+[^3]: Kräver integrering med Adobe Analytics. Se [Översikt över Analytics for Adobe Advertising](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE).
 
 [^4]: [!DNL Analytics] data skickas till Search, Social och Commerce med den uppgraderade spårningsparametern för AMO ID (med början från `s_kwcid`), oavsett vilket AMO ID-format du vanligtvis använder för kontot. Om du vanligtvis använder den äldre versionen av AMO ID rekommenderar vi att du uppgraderar till det nya AMO ID-formatet för att få en så bra upplevelse som möjligt. Men även om era klicknings-/kostnadsdata och intäktsdata spåras med olika AMO-ID:n, klassificeras båda datauppsättningarna fullständigt och slås samman under samma kampanj och konto.
