@@ -3,7 +3,8 @@ title: (Nytt användargränssnitt) Visa din prestandakonsol
 description: Lär dig mer om tillgängliga data på din prestandakonsol.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
+source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 # (Nytt användargränssnitt) Visa din prestandakonsol
 
 *Beta-funktion*
-
-<!-- See wiki pageId=3404513731 for more things that may be added -->
 
 Med den anpassningsbara [!UICONTROL Dashboard] kan du övervaka prestandan för alla dina portföljer <!-- May later include other entity-level data --> så att du kan identifiera potentiella prestandaproblem att undersöka och lösa. Du kan visa data varje dag, vecka eller månad under de senaste 90 dagarna.
 
@@ -57,4 +56,3 @@ Med den anpassningsbara [!UICONTROL Dashboard] kan du övervaka prestandan för 
    * Ändra det rapporterade måttet ([!UICONTROL Cost] \[valt som standard\], [!UICONTROL Clicks] eller [!UICONTROL Objective Value]).
 
    * Om du vill öppna vyn [!UICONTROL Portfolios] klickar du på **[!UICONTROL View More]** längst ned till höger i diagrammet. <!-- This currently lists all portfolios, not a filtered view of the portfolios in the report -->
-
