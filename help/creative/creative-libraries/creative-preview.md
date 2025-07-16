@@ -3,9 +3,9 @@ title: Förhandsgranska en kreativ
 description: Lär dig hur du öppnar en förhandsgranskning av en kreatör.
 feature: Creative Standard Creatives
 exl-id: 0d92ab29-0aa0-4d5f-abf5-a520f49ea60e
-source-git-commit: 5d1b39f2a0602d4492d468520a946d86ceae16ed
+source-git-commit: e70ea2b9fb0e8338d5a9e4680d79e9f3e436eef6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,21 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
    * Håll markören över raden i tabellvyn och klicka på **[!UICONTROL Preview]**.
 
-1. (Valfritt) Om du vill ändra storlek på bilden på skärmen väljer du ett alternativ i listan **[!UICONTROL Zoom]**, från 10 % till 100 % av bildstorleken.
+1. (Valfritt när det är tillgängligt) Om du vill ändra storlek på bilden på skärmen väljer du ett alternativ i listan **[!UICONTROL Zoom]**, från 10 % till 100 % av bildstorleken.
 
 1. (Flexibla HTML5-kreatörer; valfritt) Om du vill bläddra mellan bildrutorna för den kreativa sidan klickar du på **\&lt;** och **\>**.
 
-1. (Valfritt) Klicka på den kreativa sidan för att öppna landningssidan för den kreativa.
+1. (Videoredigering, valfritt) Gör något av följande med kontrollerna under den kreativa delen:
+
+   * Spela upp eller stoppa videon.
+
+   * Stäng av eller slå på ljudet.
+
+   * Öppna videon i helskärmsläge och avsluta helskärmsläget.
+
+   * Hämta videon från [!UICONTROL More Options], ändra uppspelningshastighet eller ändra till bild-i-bild.
+
+1. (Valfritt, icke-videokreatörer) Klicka på den kreativa sidan för att öppna landningssidan för den kreativa.
 
    <!-- Verify:  Will the creative click be tracked like a regular ad click but not linked to a publisher and placement? Explain effect/consequences. -->
 
