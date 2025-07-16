@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: 85f89ef480ee938c7dbac0f3a1d5b9a5db0bef8f
 workflow-type: tm+mt
 source-wordcount: '1388'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar
 >
 >* Även om du tänker använda HTML5, Flexible HTML5 eller andra kreatörer för att skapa standardannonsupplevelser måste du också lägga till bildkreatörer för varje kreativ storlek du använder.
 >* För varje standardvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen. Standardbildskaparna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
->* För varje standardvideoupplevelse krävs en standardvideokreativ för varje kreativ storlek som tilldelats upplevelsen.<!-- when is it used? -->
+>* För varje standardvideoupplevelse krävs en standardvideokreativ för varje kreativ längd som tilldelats upplevelsen.<!-- when is it used? -->
 
 #### Flexibel HTML5
 
@@ -64,7 +64,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 #### Videoredigerare {#creative-video-specs}
 
-Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standard video- och videoupplevelse krävs en standardvideokreativ för varje kreativ storlek som tilldelats upplevelsen. Alla videokreatörer omkodas automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda utgivarspecifik omkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla taggar för videoannonsupplevelser.
+Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. Alla videokreatörer omkodas automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda utgivarspecifik omkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla taggar för videoannonsupplevelser.
 
 Se följande krav för videoredigering.
 
