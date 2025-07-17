@@ -3,9 +3,9 @@ title: Skapa en annonstagg manuellt för en lämplig kreativ storlek
 description: Lär dig hur du skapar en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 *Upplevelser utan mål för beslutsträd endast*
 *Stängd beta*
 
-Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek eller videouppspelning som används för en upplevelse. Du kan senare [tilldela kreatörer till annonstaggen](experience-tag-assign-creatives.md).
+Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek (icke-videoredigerare) eller videovaraktighet som används för en upplevelse. Du kan senare [tilldela kreatörer till annonstaggen](experience-tag-assign-creatives.md).
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek e
 
    Du kan expandera taggraden för att se de medföljande kreativa.
 
-   För videoreklamupplevelser omkodas videokreatörer automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. Du kan också [använda utgivarspecifik omkodning](experience-tag-video-transcoding.md).
+   För videoreklamupplevelser transkodas videokreatörerna automatiskt med Adobe Advertising DSP-kodning som VAST 2.0-taggar så att du kan förhandsgranska dem. Du kan också [använda omkodning för en annan DSP](experience-tag-video-transcoding.md).
 
 >[!MORELIKETHIS]
 >

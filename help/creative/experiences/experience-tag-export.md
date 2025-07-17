@@ -3,9 +3,9 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 2b98f148a46213ab9dac20e14ba5a2db4e447b3a
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 *Stängd beta*
 
-När en annonstagg för en viss kreativ storlek är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript-, iframe- och videoformat för implementering i Advertising DSP eller andra DSP. Taggarna för DSP innehåller alla makron som krävs för DSP.
+När en annonstagg för en viss kreativ storlek eller videouppspelning är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript-, iframe- och videoformat för implementering i Advertising DSP eller andra DSP:er. Taggarna för DSP innehåller alla makron som krävs för DSP.
 
 Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising DSP-kampanj som annonser med annonstypen&quot;standardvisning&quot; eller&quot;universell video&quot;.
 
 >[!NOTE]
 >
->* När du skapar en upplevelse med mål för beslutsträd skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek.
->* När du skapar en upplevelse utan mål för beslutsträd måste du [manuellt skapa en annonstagg](experience-tag-create-manually.md) för varje tillämplig kreativ storlek.
+>* När du skapar en upplevelse med mål för beslutsträd skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek (icke-videoredigerare) eller videouppspelning (videokreatörer).
+>* När du skapar en upplevelse utan mål för beslutsträd måste du [manuellt skapa en annonstagg](experience-tag-create-manually.md) för varje tillämplig kreativ storlek (andra än videokreatörer) eller videouppspelning (videokreatörer).
 >* Upplevelsetaggar är dynamiska. Du behöver inte uppdatera taggarna om du redigerar en upplevelse.
 >* Se till att de kampanjer ni använder för att implementera en annonsupplevelse omfattar målgruppsanpassning som är kompatibel med upplevelsen. Hierarkisk målinriktning kan variera beroende på DSP. I Advertising DSP tillämpas målgruppsanpassning på annonsnivå ovanpå (inte i stället för) målgruppsanpassning på placeringsnivå.
 
@@ -33,11 +33,11 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
->Om det gäller standardvideoreklamupplevelser väntar du tills kolumnen [!UICONTROL Tag Status] visar [!UICONTROL Ready], vilket anger att alla videoklipp i upplevelsen har konverterats. Alla videokreatörer omkodas automatiskt av DSP, men du kan också [använda utgivarspecifik omkodning](experience-tag-video-transcoding.md) för alla taggar för videoannonsupplevelser.
+>Om det gäller standardvideoreklamupplevelser väntar du tills kolumnen [!UICONTROL Tag Status] visar [!UICONTROL Ready], vilket anger att alla videoklipp i upplevelsen har konverterats. Alla videokreatörer omkodas automatiskt av DSP, men du kan också [använda omkodning för en annan DSP](experience-tag-video-transcoding.md) för alla taggar för videoannonsupplevelser.
 
 <!-- Tag Manager has only a list view, but no card view, as of 2/2. -->
 
@@ -51,9 +51,9 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Välj taggtyp:
 
-   * (Inte videoupplevelser) ** *JavaScript<!-- sic -->* **&#x200B; eller &#x200B;** *IFRAME* ** <!-- sic -->.
+   * (Inte videoupplevelser) ** *JavaScript<!-- sic -->* ** eller ** *IFRAME* ** <!-- sic -->.
 
-   * (Videoupplevelser) **&#x200B; *Video* &#x200B;**.
+   * (Videoupplevelser) ** *Video* **.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 
@@ -67,7 +67,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Kopiera eller hämta taggarna:
 
-   * Om du vill kopiera en tagg för en enda annonsstorlek expanderar du taggraden, håller markören över raden och klickar sedan på ![Kopiera](/help/creative/assets/copy.png "Kopiera") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
+   * Om du vill kopiera en tagg för en annonsstorlek (annonser som inte är videoannonser) eller varaktighet (videoannonser) expanderar du taggraden, håller markören över raden och klickar sedan på ![Kopiera](/help/creative/assets/copy.png "Kopiera") **[!UICONTROL Copy]**.<!-- why diff than "Copy to clipboard icon used to copy macros for creatives? -->
 
    * Om du vill hämta alla genererade taggar som en fil till webbläsarens standardhämtningsplats klickar du på ![Hämta taggar](/help/creative/assets/download.png "Hämta taggar").
 

@@ -3,9 +3,9 @@ title: Anpassa omkodningsalternativ för en video- och upplevelsetagg
 description: Lär dig hur du anpassar omkodningsalternativen för en videoannonstagg.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: b5d3a2d88eb49d975823dc7c4fe71cfa9ea3f231
+source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Du kan anpassa omkodningsalternativen för en videoannons för att säkerställa
 
 1. Håll markören över raden för den tillämpliga annonstaggen, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Video Settings]**.
 
-1. Välj typ av omkodning i listan **[!UICONTROL Publisher specific transcodes]**.
+1. I listan med **[!UICONTROL Publisher-specific transcodes]** väljer du den DSP vars omkodning du vill använda.
 
 1. Klicka på **[!UICONTROL Save Settings]**.
 

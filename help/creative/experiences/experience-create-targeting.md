@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: e79becc860143b749ec96134e7b224649686c672
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 
 När upplevelsen är aktiv skapar [!DNL Creative] automatiskt en annonstagg för varje tillämplig kreativ storlek eller videons längd. Du kan sedan [exportera en annonstagg och implementera den i en DSP](/help/creative/experiences/experience-tag-export.md).
 
-För videoreklamupplevelser omkodas videokreatörer automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. Du kan [använda utgivarspecifik transkodning](experience-tag-video-transcoding.md) på valfri tagg för videoannonsupplevelser.
+För videoreklamupplevelser omkodas videokreatörer automatiskt av Adobe Advertising DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. Du kan [använda omkodning för en annan DSP](experience-tag-video-transcoding.md) för alla taggar för videoannonser.
 
 >[!MORELIKETHIS]
 >
