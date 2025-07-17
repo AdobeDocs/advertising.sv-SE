@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: ec551eb840ef1d35091426842458cde17b23863e
+source-git-commit: 9f537200eb66b5e7e0b6f98d6f4eb0ba3d316b09
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 10 juli 2025 | Videoredigerare | Nu finns stöd för förstahandsvideoutvecklare och för videospecifika paket och upplevelser:<ul><li>Nu kan du ladda upp videokreatörer från första part och lägga till dem i videospecifika paket. I paketinställningarna inkluderar nu alternativen [!UICONTROL Bundle Type] [!UICONTROL Standard Display], [!UICONTROL Dynamic Display] och [!UICONTROL Standard Video].</li><li>Ni kan skapa videospecifika annonsupplevelser med videopaket. Inställningarna för annonsupplevelsen innehåller nu inställningen [!UICONTROL Ad Type] med alternativen [!UICONTROL Standard Display], [!UICONTROL Dynamic Display] och [!UICONTROL Video]. Ni kan optimera videoannonser utifrån klickfrekvens, slutförandegrad eller ett anpassat mål.</li><li>Taggar för taggar för video- och upplevelseupplevelser definieras av videons längd och bithastighet i stället för av annonsstorleken.</li><li>Videoannonser omkodas automatiskt till Adobe Advertising DSP-kodning så att du kan förhandsgranska dem. Du kan också använda DSP-specifik omkodning för alla annonsupplevelsetaggar i [!UICONTROL Tag Manager].</li></ul> | Se [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md), [Hantera kreativa paket](/help/creative/creative-libraries/bundle-manage.md), [Inställningar för riktade upplevelser](/help/creative/experiences/experience-settings-targeting.md), [Inställningar för icke-riktade upplevelser](/help/creative/experiences/experience-settings-no-targeting.md) och [Anpassa omkodningsalternativ för en video- och upplevelsetagg](/help/creative/experiences/experience-tag-video-transcoding.md).&quot; |
 | 21 maj 2025 | [!UICONTROL Creative Libraries] | Nu kan du lägga till bilder från ditt Adobe Experience Manager-resursbibliotek i din [!UICONTROL Creative Libraries] så att du kan använda dem i annonsupplevelser. | Se &quot;[Konfigurera åtkomst till Adobe Experience Manager-bildresurser](/help/creative/creative-libraries/aem-assets-configure.md)&quot; och &quot;[Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md).&quot; |
 | 10 februari 2025 | [!UICONTROL Creative Libraries] | Tidigare hade du ett kreativt bibliotek. Nu kan du skapa flera bibliotek för varje annonsör. | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
 | | [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] | Vyn [!UICONTROL Creatives] innehåller flikar för [!UICONTROL Standard Ads] och [!UICONTROL Dynamic Ads].<ul><li>På fliken **[!UICONTROL Standard Ads]** kan du överföra och hantera bilder, HTML5, flexibla HTML5 och andra kreatörer.</li><li>På fliken **[!UICONTROL Dynamic Ads]** kan du hantera dynamiskt genererade annonser som skapas från överförda feedsfiler med hjälp av definierade annonsmallar. Tidigare genererades dynamiska annonser i [!DNL Adobe Advertising Dynamic Creative Optimization (DCO)].<br><br> För närvarande kan du förhandsgranska, duplicera och ta bort dynamiska annonser. Ni kan även bifoga dynamiska annonser till kreativa paket för riktade annonsupplevelser eller till annonstaggar för upplevelser som inte är målinriktade. Endast administratörsanvändare kan dynamiskt generera annonser.</li></ul> | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md).&quot; |
