@@ -3,9 +3,9 @@ title: Om den här guiden
 description: Läs vad som beskrivs i respektive kapitel i den här handboken.
 exl-id: 45fe7952-42c3-4479-b25f-6ab5fd218c45
 feature: Search Introduction
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 21d642ce63740c983d767e4829367673d68c69c9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 * I&quot;Vanliga uppgifter&quot; beskrivs hur du konfigurerar de olika prestandadatavyer baserat på dina informationsbehov och -inställningar, hur du hanterar anpassade mätvärden, hur du hanterar etikettklassificeringar och anbudsbegränsningar samt hur du utför andra vanliga uppgifter.
 
+* &quot;Nytt användargränssnitt&quot; förklarar uppgifter du kan utföra i det nya användargränssnittet: hantera mål, köra simuleringar, hantera portföljer, tilldela och ta bort kampanjer från portföljer samt tilldela eller ta bort begränsningar till kampanjer och annonsgrupper. Se&quot;Anteckning&quot; nedan.
+
 * &quot;Tracking&quot; förklarar hur man ställer in klicknings- och konverteringsspårning för annonser och nyckelord.
 
 * &quot;Kampanjhantering&quot; förklarar hur ni konfigurerar och hanterar kampanjkomponenter för era annonsnätverkskonton.
@@ -32,4 +34,4 @@ Information om särskilda grupper av uppgifter och annan information finns i fö
 
 >[!NOTE]
 >
->Hjälp om optimering, inklusive användning av portföljer för budgivning, finns på menyn [!UICONTROL Help] (![Hjälp-menyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälp-menyn")) i det övre högra hörnet på en sida i Sök, Socialt och Commerce.
+>Mer hjälp om optimering, inklusive användning av portföljer för offerter i det äldre användargränssnittet, finns på [!UICONTROL Help]-menyn (![Hjälp-menyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälp-menyn")) i det övre högra hörnet på en sida i Sök, Socialt och Commerce.
