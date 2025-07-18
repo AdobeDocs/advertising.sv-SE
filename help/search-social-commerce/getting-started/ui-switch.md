@@ -3,9 +3,9 @@ title: Växla mellan det nya och gamla användargränssnittet
 description: Lär dig hur du växlar mellan de nya och gamla användargränssnitten.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 9a466a57f4c3ab61be6f5d98edf951ac7c766e81
+source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Du kan växla mellan det nya användargränssnittet, som innehåller det <!-- de
 
  -->
 
-<!--
 >[!MORELIKETHIS]
 >
->* [How the user interface is organized](user-interface.md)
--->
+>* [Hur användargränssnittet är organiserat](user-interface.md)
