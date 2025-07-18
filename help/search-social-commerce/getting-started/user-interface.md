@@ -3,7 +3,7 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
+source-git-commit: 2d218c960cd74fdfa9c981540951d7305b7740c7
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-![Användargränssnitt](/help/search-social-commerce/assets/new-ui.png "Användargränssnitt")
+![Användargränssnitt](/help/search-social-commerce/assets/ui-new.png "Användargränssnitt")
 
 Varje sida innehåller huvudmenyn och andra uppgiftsbaserade menyer.
 
@@ -34,7 +34,7 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
    * **[!UICONTROL Objectives]** Öppnar en ny [!UICONTROL Objectives]-vy, där du kan visa alla dina befintliga mål och skapa, redigera och ta bort mål. Målinställningarna är samma som inställningarna i det äldre användargränssnittet vid [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
 
-   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
 * **[!UICONTROL Manage]** undermeny:
 
