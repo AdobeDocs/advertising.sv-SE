@@ -3,14 +3,114 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: a9425f4ccf79778b6b113de9ab925f2bdcee81c9
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
 
 # Hur användargränssnittet är organiserat
+
+## Nytt användargränssnitt
+
+*Beta-funktion*
+
+![Användargränssnitt](/help/search-social-commerce/assets/new-ui.png "Användargränssnitt")
+
+Varje sida innehåller huvudmenyn och andra uppgiftsbaserade menyer.
+
+## Huvudmenyn
+
+Det nya användargränssnittet har en ny huvudmeny till vänster som organiserar uppgifter efter arbetsfas (Planera, Hantera, Granska, Konfigurera). Ytterligare undermenyer och alternativ från det gamla användargränssnittet kommer att läggas till senare.
+
+### Alternativ på huvudmenyn
+
+Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when available -->
+
+* **[!UICONTROL Dashboard]** Öppnar en konfigurerbar [!UICONTROL Dashboard]-vy med prestandavisualiseringar för alla dina portföljer.
+
+* **[!UICONTROL Plan]** undermeny:
+
+   * **[!UICONTROL Objectives]** Öppnar en ny [!UICONTROL Objectives]-vy, där du kan visa alla dina befintliga mål och skapa, redigera och ta bort mål. Målinställningarna är samma som inställningarna i det äldre användargränssnittet vid [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
+
+   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/optimization/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+* **[!UICONTROL Manage]** undermeny:
+
+   * **[!UICONTROL Portfolio Groups]:** Avslutar den nya gränssnittsplatsen och öppnar den gamla [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios]-vyn > fliken [!UICONTROL Portfolio Groups].
+
+   * **[!UICONTROL Portfolios]:** Öppnar en ny [!UICONTROL Portfolios]-vy som visar alla portföljer för annonsören. Du kan hantera dina portföljer från den här vyn. Du kan öppna en lista med tilldelade begränsningar och visa prestanda och dispositionsinformation för alla portföljer.
+
+     Portföljinställningarna innehåller flikar för att tilldela mål och kampanjer, hantera utgifter, hantera begränsningar och kontrollera optimering. Endast användare med rollen Expertoptimering eller högre kan redigera inställningarna på fliken [!UICONTROL Control Optimization].
+
+   * **[!UICONTROL Campaigns]:** Öppnar en ny [!UICONTROL Campaigns]-vy, som visar alla kampanjer för annonseraren. Ni kan tilldela kampanjer till portföljer och hantera begränsningstilldelningar för valda kampanjer. Du kan även hämta en rapport över datatabellens innehåll. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
+
+     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+
+* **[!UICONTROL Ad Groups]:** Öppnar en ny [!UICONTROL Ad Groups]-vy, som visar alla annonsgrupper för annonseraren. Du kan hantera begränsningstilldelningar för valda annonsgrupper. Du kan även hämta en rapport över datatabellens innehåll.
+
+  Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+
+* **[!UICONTROL Review]** undermeny:
+
+   * **[!UICONTROL Insights]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
+
+   * **[!UICONTROL Reports]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
+
+   * **[!UICONTROL Recommendations]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+
+   * **[!UICONTROL Spreadsheet Feeds]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
+
+   * **[!UICONTROL History Logs]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
+
+* **[!UICONTROL Set Up]** undermeny:
+
+   * **[!UICONTROL Accounts]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Audiences]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+
+### Dölj huvudmenyn
+
+Komprimera huvudmenyn när du vill ha mer utrymme för att visa data.
+
+* Ovanför huvudmenyn till vänster klickar du på ![Komprimera/expandera](/help/search-social-commerce/assets/collapse-expand.png "Komprimera/expandera").
+
+### Sök efter alternativ för huvudmeny
+
+Använd sökfältet ovanför huvudmenyn för att söka efter särskilda menyalternativ, som&quot;Portföljer&quot; eller&quot;Rapporter&quot;.
+
+## Andra uppgifts- och informationsbaserade menyer i det övre högra hörnet
+
+### Övre raden: Experience Cloud-menyn
+
+* En valbar lista över Experience Cloud-organisationer som du har tillgång till.
+
+* ![Help center](/help/search-social-commerce/assets/help-main-menu.png "Help center") En hjälpmeny som innehåller länkar till dokumentation och annan information.
+
+* ![Meddelanden](/help/search-social-commerce/assets/notifications-aec.png "Meddelanden") En panel med begäranden, meddelanden och meddelanden från Experience Cloud.
+
+* ![Appar](/help/search-social-commerce/assets/apps.png "Appar") En lista över Adobe Experience Cloud lösningar och tjänster som du kan växla till.
+
+* ![Konto](/help/search-social-commerce/assets/account.png "Konto") Information om din Experience Cloud-kontoprofil, från vilken du kan redigera dina inställningar och logga ut.
+
+### Andra raden: Ytterligare menyn Sök, socialt och Commerce
+
+**Obs!** Vissa skärmar har ytterligare alternativ.
+
+* (I tillämpliga fall) En valbar lista över annonsörer som du hanterar.
+
+* Det konfigurerbara datumintervallet för den aktuella vyn
+
+* ![Ta en gränssnittsrundtur](/help/search-social-commerce/assets/take-ui-tour.png "Ta en gränssnittsrundtur") En länk till en genomgång av det nya användargränssnittet.
+
+* ![Växla till gammalt användargränssnitt](/help/search-social-commerce/assets/switch-to-old-ui.png "Växla till gammalt användargränssnitt") Öppnar det gamla användargränssnittet på en ny flik eller i ett nytt fönster.
+
+* ![Global synkroniseringsstatus](/help/search-social-commerce/assets/global-sync-status.png "Global synkroniseringsstatus") Öppnar en lista över <!--what kind --> massåtgärdsjobb.
+
+* ![Meddelanden](/help/search-social-commerce/assets/notifications.png "Meddelanden") Öppnar en panel med dina meddelanden från Sök, Sociala och Commerce.
+
+## Äldre användargränssnitt
 
 ![Användargränssnitt](/help/search-social-commerce/assets/ui.png "Användargränssnitt")
 
@@ -18,11 +118,11 @@ ht-degree: 0%
 
 ## Huvudmenyn
 
-* **[!UICONTROL Search, Social, & Commerce]** \> - Om du vill hantera dina annonsnätverkskonton i Search, Social och Commerce, inklusive de som söks, Social och Commerce spårar men inte lägger bud på.
+* **[!UICONTROL Search, Social, & Commerce]** \> - Om du vill hantera annonsnätverkskonton i Search, Social och Commerce, inklusive konton för vilka Search, Social och Commerce spårar men inte lägger bud.
 
 ## [!UICONTROL Search] menyer
 
-Alternativet [!UICONTROL Search] innehåller följande undermenyer. Vilka alternativ som är tillgängliga beror på din roll:
+Alternativet [!UICONTROL Search] innehåller följande undermenyer. Din roll avgör vilka alternativ som är tillgängliga:
 
 * **[!UICONTROL Campaigns]** - Den här menyn innehåller alternativ för att visa och hantera information om annonskonton och kampanjer som du hanterar eller spårar. Beroende på annonsnätverket och din roll kan du behöva skapa och redigera konton och kampanjer samt deras komponenter. Du kan också hantera etikettklassificeringar, som du kan tilldela till olika kontokomponenter.
 
