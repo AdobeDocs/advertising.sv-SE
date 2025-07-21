@@ -3,7 +3,7 @@ title: Växla mellan det nya och gamla användargränssnittet
 description: Lär dig hur du växlar mellan de nya och gamla användargränssnitten.
 feature: Search Introduction
 exl-id: 4dbdbaa1-6b06-42a2-86da-feb0183f3c9a
-source-git-commit: 70c4b5633aaec148c68d7da0ac8fe926706eb660
+source-git-commit: 30c47defdd82e759f0e9025bf111faf0ee7dd707
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -20,13 +20,7 @@ Du kan växla mellan det nya användargränssnittet, som innehåller det <!-- de
 
 ## Växla från det gamla användargränssnittet till det nya
 
-* Klicka på **[!UICONTROL Try the new UI Beta]** överst på en sida.
-
-<!-- CHANGING ICON/location/wording WITH GA :
-
-* In the upper right of any page, click **[!UICONTROL Switch to New UI]**.
-
- -->
+* Klicka på **[!UICONTROL Switch to New UI]** överst på en sida.
 
 >[!MORELIKETHIS]
 >
