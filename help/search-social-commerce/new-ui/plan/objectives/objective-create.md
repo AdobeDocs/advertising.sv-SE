@@ -3,9 +3,10 @@ title: (Nytt användargränssnitt) Skapa ett mål
 description: Lär dig hur du skapar ett mål.
 feature: Search Objectives, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 21516197-d005-4703-8735-c789107dc3c4
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. Klicka på **[!UICONTROL Plan]>[!UICONTROL Objectives]** på huvudmenyn.
 
-1. Klicka på ![Lägg till](/help/search-social-commerce/assets/add-new.png "Lägg till") överst till höger.
+1. Klicka på **[!UICONTROL Create Objective]** eller ![Lägg till](/help/search-social-commerce/assets/add-new.png "Lägg till") i det övre högra hörnet.
+
+   Vilken knapp som visas beror på webbläsarens bredd.
 
 1. Ange målinställningarna.
 

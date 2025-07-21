@@ -3,9 +3,10 @@ title: (Nytt användargränssnitt) Skapa en portfölj
 description: Lär dig skapa en portfölj.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: f7fe6138-8335-407a-88fd-f0ace27c93ee
+source-git-commit: 51bfb0b54af6e770df809ccd799ef47b9b4669b9
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,9 @@ ht-degree: 0%
 
 1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Portfolios]** på huvudmenyn.
 
-1. Klicka på ![Lägg till](/help/search-social-commerce/assets/add-new.png "Lägg till") i verktygsfältet ovanför datatabellen.
+1. Klicka på **[!UICONTROL Create Portfolio]** eller ![Lägg till](/help/search-social-commerce/assets/add-new.png "Lägg till") i verktygsfältet ovanför datatabellen.
+
+   Vilken knapp som visas beror på webbläsarens bredd.
 
 1. Ange portföljinställningarna.
 
