@@ -46,11 +46,11 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Felsökning
 
-Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
+Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/se/manage-account/kb/account-password-sign-help.linkfree.html).
 
 #### Finns det några krav för att aktivera en ny IMS-inloggning för [!DNL Adobe]?
 
