@@ -42,7 +42,7 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att
 
 1. Välj organisation:
 
-   * Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]** om du uppmanas att göra det.
+   * Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]** om du uppmanas att göra det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
