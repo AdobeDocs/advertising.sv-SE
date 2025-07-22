@@ -3,9 +3,9 @@ title: Logga in
 description: Lär dig hur du loggar in.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 5f1e8009620277884664d0cb88265b317de93393
+source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Search, Social, &amp; Commerce går över till Adobe Identity Management Service
 
 Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce är aktiva till den 21 juli 2025 så att du kan förbereda dig för ändringen.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Logga in från den äldre inloggningssidan för Sök, Social och Commerce
 
 ### Använd en äldre inloggning för sökning, sociala medier och Commerce för autentisering
 
-Detta alternativ är tillgängligt till och med den 15 juli 2025.
+Det här alternativet är tillgängligt för en kort tid så att du kan förbereda dig för ändringen.
 
 * Gå till [enterprise-na.efrontier.com/](https://enterprise-na.efrontier.com/) eller [enterprise-intl.efrontier.com/](https://enterprise-intl.efrontier.com/) och logga in med ditt äldre användarnamn och lösenord för sökning, sociala medier och Commerce.
 
@@ -40,7 +40,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
    Det nya användargränssnittet öppnas som standard.
 
@@ -54,7 +54,7 @@ Detta alternativ är tillgängligt till och med den 15 juli 2025.
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 
