@@ -40,7 +40,7 @@ Det här alternativet är tillgängligt för en kort tid så att du kan förbere
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
    Det nya användargränssnittet öppnas som standard.
 
@@ -54,7 +54,7 @@ Det här alternativet är tillgängligt för en kort tid så att du kan förbere
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 
