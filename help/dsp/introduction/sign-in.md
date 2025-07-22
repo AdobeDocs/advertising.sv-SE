@@ -3,9 +3,9 @@ title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 143c7bfc38baca48abde323cbca7f582de234bc1
+source-git-commit: f81a6d9b9df17540e27681218483acc30b5724a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att
 
 1. Öppna någon av följande inloggningsskärmar:
 
-   * Gå till [advertising.adobe.com](https://advertising.adobe.com). Klicka på **[!UICONTROL Continue]** under [!UICONTROL Sign in with the Adobe Experience Cloud account].
+   * Gå till [advertising.adobe.com](https://advertising.adobe.com). Klicka på [!UICONTROL Sign in with the Adobe Experience Cloud account] under **[!UICONTROL Continue]**.
 
    * Gå till [experience.adobe.com](https://experience.adobe.com).
 
@@ -42,15 +42,15 @@ Dina nuvarande DSP-inloggningsuppgifter är aktiva till den 15 juli 2025 så att
 
 1. Välj organisation:
 
-   * Välj antingen **Personligt konto&quot; eller &#x200B;** Företag eller Skolkonto** om du uppmanas till det.
+   * Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]** om du uppmanas att göra det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Felsökning
 
-Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/se/manage-account/kb/account-password-sign-help.linkfree.html).
+Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
 
 #### Finns det några krav för att aktivera en ny IMS-inloggning för [!DNL Adobe]?
 
