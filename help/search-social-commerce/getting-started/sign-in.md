@@ -22,7 +22,7 @@ Search, Social, &amp; Commerce går över till Adobe Identity Management Service
 
 Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce förblir aktiva under en kort tid så att du kan förbereda dig för ändringen.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Logga in från den äldre inloggningssidan för Sök, Social och Commerce
 
