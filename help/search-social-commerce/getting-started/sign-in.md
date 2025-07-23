@@ -3,16 +3,16 @@ title: Logga in
 description: Lär dig hur du loggar in.
 exl-id: 9631a285-41f6-4fae-966b-e702d87b7f1c
 feature: Search Getting Started
-source-git-commit: 93c72a165a38639acbe24f2db04144dbdbc9a0d5
+source-git-commit: 450c66bf798ae98accc75d0233db061348e19a57
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
 # Logga in
 
-Search, Social, &amp; Commerce går över till Adobe Identity Management Service (IMS) för inloggningsautentisering. IMS ger enkel inloggning (SSO) för alla [!DNL Adobe]-produkter som stöder IMS, inklusive Real-Time Customer Data Platform, Customer Journey Analytics, Target och Analytics. Med ändringen:
+Search, Social, &amp; Commerce går över till Adobe Identity Management Service (IMS) för inloggningsautentisering. IMS ger åtkomst till enkel inloggning (SSO) med federerade ID:n för alla [!DNL Adobe]-produkter som stöder IMS, inklusive Real-Time Customer Data Platform, Customer Journey Analytics, Target och Analytics. Med ändringen:
 
 * Du kan använda en/ett [!DNL Adobe ID] för att logga in på [!DNL Adobe]-produkter från antingen Experience Cloud inloggningssida eller den äldre inloggningssidan för sökning, sociala funktioner och Commerce. [!DNL Adobe ID] ger dig möjlighet att hantera användarprofiler och växla till en annan [!DNL Adobe]-produkt från den översta menyn. I en framtida version kan du ändra konto för sökning, sociala medier och Commerce samt IMS-organisationskonto på den översta menyn.
 
@@ -20,9 +20,9 @@ Search, Social, &amp; Commerce går över till Adobe Identity Management Service
 
 * Du kan vara inloggad i 24 timmar.
 
-Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce är aktiva till den 21 juli 2025 så att du kan förbereda dig för ändringen.
+Dina nuvarande inloggningsuppgifter för sökning, sociala medier och Commerce förblir aktiva under en kort tid så att du kan förbereda dig för ändringen.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ## Logga in från den äldre inloggningssidan för Sök, Social och Commerce
 
@@ -40,7 +40,7 @@ Det här alternativet är tillgängligt för en kort tid så att du kan förbere
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
    Det nya användargränssnittet öppnas som standard.
 
@@ -54,7 +54,7 @@ Det här alternativet är tillgängligt för en kort tid så att du kan förbere
 
 1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
+1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" --> om du uppmanas att göra det.
 
 1. Klicka på [!UICONTROL Quick Access] i avsnittet **[!UICONTROL Advertising Search, Social, & Commerce]** på startsidan.
 

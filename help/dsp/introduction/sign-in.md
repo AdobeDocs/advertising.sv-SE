@@ -3,16 +3,16 @@ title: Logga in på DSP
 description: Lär dig hur du loggar in på DSP.
 feature: DSP Introduction
 exl-id: 1704cd75-81f8-4715-a177-69a03093ba1d
-source-git-commit: 414bc93bc4a550f918742bd55d1078d36440063d
+source-git-commit: 62430015c5252cdd1418000d05e49a1c7869e09e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
 
 # Logga in på Adobe Advertising DSP
 
-Adobe Advertising DSP går över till Adobe Identity Management Service (IMS) för inloggningsautentisering. IMS ger enkel inloggning (SSO) för alla [!DNL Adobe]-produkter som stöder IMS, inklusive Real-Time Customer Data Platform, Customer Journey Analytics, Target och Analytics. Med ändringen:
+Adobe Advertising DSP går över till Adobe Identity Management Service (IMS) för inloggningsautentisering. IMS ger åtkomst till enkel inloggning (SSO) med federerade ID:n för alla [!DNL Adobe]-produkter som stöder IMS, inklusive Real-Time Customer Data Platform, Customer Journey Analytics, Target och Analytics. Med ändringen:
 
 * Du kan använda en [!DNL Adobe ID] för att logga in på [!DNL Adobe]-produkter från antingen inloggningssidan för Experience Cloud eller den äldre inloggningssidan för DSP. [!DNL Adobe ID] tillhandahåller hantering av användarprofiler. I en framtida version kan du ändra DSP-kontot, IMS-organisationskontot och [!DNL Adobe]-produkten på den översta menyn.
 
@@ -42,15 +42,15 @@ Dina nuvarande DSP-inloggningsuppgifter förblir aktiva under en kort tid så at
 
 1. Välj organisation:
 
-   * Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]** om du uppmanas att göra det.
+   * Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]** om du uppmanas att göra det.
 
    * Om du har tillgång till flera IMS-organisationer väljer du rätt.
 
-Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud)&quot;.
+Mer information om Experience Cloud-gränssnittet, inklusive hur du hanterar din användarprofil, finns i &quot;[Experience Cloud-gränssnitt och -administration](https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud)&quot;.
 
 ### Felsökning
 
-Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/se/manage-account/kb/account-password-sign-help.linkfree.html).
+Allmänna inloggningsproblem finns även i [Lös inloggningsproblem för Adobe-konton](https://helpx.adobe.com/manage-account/kb/account-password-sign-help.linkfree.html).
 
 #### Finns det några krav för att aktivera en ny IMS-inloggning för [!DNL Adobe]?
 
