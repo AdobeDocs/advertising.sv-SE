@@ -113,7 +113,7 @@ Det nya användargränssnittet för sökning, sociala medier och handel har föl
 
 1. [Logga in på Adobe Admin Console och öppna den för sökning, sociala medier och Commerce](#open-admin-console).
 
-1. Delegera produkt- och användarhantering genom att [lägga till produktadministratörer](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
+1. Delegera produkt- och användarhantering genom att [lägga till produktadministratörer](https://helpx.adobe.com/se/enterprise/using/admin-roles.html#enterprise).
 
 <!-- what else? -->
 
@@ -121,9 +121,9 @@ Det nya användargränssnittet för sökning, sociala medier och handel har föl
 
 1. [Logga in på Adobe Admin Console och öppna den för sökning, sociala medier och Commerce](#open-admin-console).
 
-1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller [ gruppvis](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) efter behov.
+1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller [ gruppvis](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) efter behov.
 
-1. (Valfritt) Skapa [användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) för varje produktinstans och tilldela användare till varje användargrupp.
+1. (Valfritt) Skapa [användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) för varje produktinstans och tilldela användare till varje användargrupp.
 
    Om instansen har många användare skapar du användargrupper som ser till att användarna tilldelas rätt profiler utifrån deras kunskapsnivå. (Se steg 4 för att tilldela användargrupper till produktprofiler.) Du kan skapa användargrupper baserat på verksamhetsområde, behov av användaråtkomst, datum för användaruthyrning eller andra kriterier.
 
@@ -131,16 +131,16 @@ Det nya användargränssnittet för sökning, sociala medier och handel har föl
    >
    >Användargruppsnamn ska tydligt informera om vilka rättigheter gruppen med användare ska tilldelas. Om du till exempel vill skapa en användargrupp med behörigheten&quot;Skrivskyddad&quot; inkluderar du&quot;Skrivskyddad&quot; i användargruppens namn, till exempel&quot;Acme_Uk_ReadOnly&quot; eller&quot;Acme_ReadOnly&quot;.
 
-1. (Valfritt) [Skapa anpassade produktprofiler](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) med definierade behörighetsgrupper.
+1. (Valfritt) [Skapa anpassade produktprofiler](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) med definierade behörighetsgrupper.
 
    Anpassade profiler är utöver de fyra standardproduktprofiler som redan är tillgängliga.
 
    Varje produktprofil för en organisation måste ha ett unikt namn. Om din organisation använder flera instanser av Search, Social och Commerce (till exempel Acme_US och Acme_JP) kan du inte duplicera ett produktprofilnamn i flera instanser. **Bästa praxis:** Använd namnkonventionen&lt;Name>_&lt;Instance>, till exempel&quot;Simulations_Only_JP.&quot;
 
-1. [Tilldela varje användare eller användargrupp till den relevanta produktprofilen](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuellt eller gruppvis.
+1. [Tilldela varje användare eller användargrupp till den relevanta produktprofilen](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) manuellt eller gruppvis.
 
 ## Komplett handbok för användaradministration och ytterligare länkar
 
-* Mer information om användaradministration med Adobe Admin Console finns i [Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html), inklusive [Admin Console overview](https://helpx.adobe.com/se/enterprise/using/admin-console.html)
+* Mer information om användaradministration med Adobe Admin Console finns i [Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/se/enterprise/admin-guide.html), inklusive [Admin Console overview](https://helpx.adobe.com/se/enterprise/using/admin-console.html)
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
