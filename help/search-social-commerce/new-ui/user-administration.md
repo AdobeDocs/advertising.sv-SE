@@ -101,7 +101,7 @@ Det nya användargränssnittet för sökning, sociala medier och handel har föl
 
    1. Ange ditt [!DNL Adobe]-ID och klicka på **[!UICONTROL Continue]**.
 
-   1. Välj antingen **[!UICONTROL Personal Account] eller **[!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
+   1. Välj antingen **[!UICONTROL Personal Account] eller &#x200B;** [!UICONTROL Company or School Account]**.<!-- Will it necessarily be "Company or School Account?" -->
 
    1. Välj lämplig Experience Cloud-organisation.
 
@@ -135,7 +135,7 @@ Det nya användargränssnittet för sökning, sociala medier och handel har föl
 
    Anpassade profiler är utöver de fyra standardproduktprofiler som redan är tillgängliga.
 
-   Varje produktprofil för en organisation måste ha ett unikt namn. Om din organisation använder flera instanser av Search, Social och Commerce (till exempel Acme_US och Acme_JP) kan du inte duplicera ett produktprofilnamn i flera instanser. **Bästa praxis:** Använd namnkonventionen<Name>_<Instance>, till exempel&quot;Simulations_Only_JP.&quot;
+   Varje produktprofil för en organisation måste ha ett unikt namn. Om din organisation använder flera instanser av Search, Social och Commerce (till exempel Acme_US och Acme_JP) kan du inte duplicera ett produktprofilnamn i flera instanser. **Bästa praxis:** Använd namnkonventionen&lt;Name>_&lt;Instance>, till exempel&quot;Simulations_Only_JP.&quot;
 
 1. [Tilldela varje användare eller användargrupp till den relevanta produktprofilen](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuellt eller gruppvis.
 
