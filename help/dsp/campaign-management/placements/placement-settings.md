@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1478e61ebd7dac59cac7566b86e5b1ea97838508
+source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
 workflow-type: tm+mt
-source-wordcount: '4477'
+source-wordcount: '4560'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Datumen för paketet (om tillämpligt) eller kampanjen fylls i automatiskt som s
    * *[!UICONTROL Minimum Budget]*: Den minsta budgeten som en procentandel av paketbudgeten. När en intervallgräns anges beräknas alltid det minsta budgetvärdet som en procentandel av intervallgränsen. I annat fall beräknas den som en procentandel av paketbudgeten.
 
 **[!UICONTROL Max Bid]:** Det högsta beloppet som kan betalas för 1 000 visningar.
+
+**[!UICONTROL Min Bid]:** (Endast för privata erbjudanden och [!DNL On-Demand] erbjudanden) Minimianbudet baserat på lagertyp. Välj ett alternativ:
+
+* *[!UICONTROL None]*: Inget minsta bud för någon lagertyp. Om det beräknade anbudet är lägre än det fasta priset/golvpriset för de riktade kontrakten så lägger DSP inte något bud. Detta kan påverka skalan.
+
+* *[!UICONTROL Fixed/floor price for Private deals only]*: DSP erbjuder minst det fasta priset/golvpriset för de privata måltransaktionerna, även om det algoritmiskt beräknade anbudet är mindre. Detta kan påverka prestandan.
+
+* *[!UICONTROL Fixed/floor price for On-demand deals only]*: DSP erbjuder minst det fasta priset/golvpriset för [!DNL On-Demand]-erbjudandena, även om det algoritmiskt beräknade anbudet är mindre. Detta kan påverka prestandan.
+
+* *[!UICONTROL Fixed/floor price for both Private and On-demand deals]*: DSP erbjuder minst det fasta priset/golvpriset för privata målerbjudanden och [!DNL On-Demand] erbjudanden, även om det algoritmiskt beräknade anbudet är lägre. Detta kan påverka prestandan.
 
 **[!UICONTROL Placement Pre-bid Filters]:** Upp till fem KPI-trösklar (till exempel ett minsta visningsvärde eller klickfrekvens) som måste uppfyllas för att budgivning ska ske. Ni kan använda filter före bud som optimeringsstrategier, men förstå att varje regel kan begränsa de möjligheter som den här placeringen kan erbjuda. Så här lägger du till eller redigerar filter:
 
@@ -181,13 +191,9 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
   På fliken [!UICONTROL Deals] kan du söka i listan efter nyckelord, nyckel, avtal-ID eller anpassad tagg. På fliken [!UICONTROL Deal Lists] kan du söka i listan efter namn på avtalslista eller ID för avtalslista.
 
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Valfritt) Åsidosätter budprisalgoritmen för att lägga bud på minst de fasta och lägsta priserna för erbjudanden.
-
 * [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [ premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager ](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
 
   Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödesnamn, flödesknapp eller en vald utgivarregion, kategoritagg eller karakteristisk tagg.
-
-   * *[!UICONTROL Ensure Fixed or Floor Price for the bid]*: (Valfritt) Åsidosätter budprisalgoritmen för att lägga bud på minst de fasta och lägsta priserna för erbjudanden.
 
 Så här anger du målinriktning för lager:
 
