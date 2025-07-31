@@ -111,9 +111,9 @@ Följ det här arbetsflödet för varje klientinstans av Search, Social och Comm
 
 1. [Logga in på Adobe Admin Console och öppna den för sökning, sociala medier och Commerce](#open-admin-console).
 
-1. (Valfritt) [Lägg till en annan systemadministratör](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) som säkerhetskopia.
+1. (Valfritt) [Lägg till en annan systemadministratör](https://helpx.adobe.com/se/enterprise/using/admin-roles.html#enterprise) som säkerhetskopia.
 
-1. Delegera produkt- och användarhantering genom att [lägga till produktadministratörer](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise).
+1. Delegera produkt- och användarhantering genom att [lägga till produktadministratörer](https://helpx.adobe.com/se/enterprise/using/admin-roles.html#enterprise).
 
 ### Arbetsflöde för produktadministratörer
 
@@ -121,9 +121,9 @@ Följ det här arbetsflödet för varje klientinstans av Search, Social och Comm
 
 1. [Logga in på Adobe Admin Console och öppna den för sökning, sociala medier och Commerce](#open-admin-console).
 
-1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller [ gruppvis](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) efter behov.
+1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller [ gruppvis](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) efter behov.
 
-1. (Valfritt) Skapa [användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) för instansen och tilldela användare till varje användargrupp.
+1. (Valfritt) Skapa [användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) för instansen och tilldela användare till varje användargrupp.
 
    Om instansen har många användare skapar du användargrupper som ser till att användarna tilldelas rätt profiler utifrån deras kunskapsnivå. (Se steg 4 för att tilldela användargrupper till produktprofiler.) Du kan skapa användargrupper baserat på verksamhetsområde, behov av användaråtkomst, datum för användaruthyrning eller andra kriterier.
 
@@ -131,7 +131,7 @@ Följ det här arbetsflödet för varje klientinstans av Search, Social och Comm
    >
    >Användargruppsnamn ska tydligt informera om vilka rättigheter gruppen med användare ska tilldelas. Om du till exempel vill skapa en användargrupp med behörigheten&quot;Skrivskyddad&quot; inkluderar du&quot;Skrivskyddad&quot; i användargruppens namn, till exempel&quot;Acme_Uk_ReadOnly&quot; eller&quot;Acme_ReadOnly&quot;.
 
-1. (Valfritt) [Skapa anpassade produktprofiler](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) med definierade behörighetsgrupper.
+1. (Valfritt) [Skapa anpassade produktprofiler](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) med definierade behörighetsgrupper.
 
    Anpassade profiler är utöver de fyra standardproduktprofiler som redan är tillgängliga.
 
@@ -139,10 +139,10 @@ Följ det här arbetsflödet för varje klientinstans av Search, Social och Comm
 
    **Varning!** Produktbehörigheter är mycket detaljerade. Var försiktig när du konfigurerar anpassade produktprofiler, annars kanske du utelämnar funktioner som du vill inkludera.
 
-1. [Tilldela varje användare eller användargrupp till den relevanta produktprofilen](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) manuellt eller gruppvis.
+1. [Tilldela varje användare eller användargrupp till den relevanta produktprofilen](https://helpx.adobe.com/se/enterprise/using/manage-product-profiles.html) manuellt eller gruppvis.
 
 ## Komplett handbok för användaradministration och ytterligare länkar
 
-* Mer information om användaradministration med Adobe Admin Console finns i [Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/enterprise/admin-guide.html), inklusive [Admin Console overview](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+* Mer information om användaradministration med Adobe Admin Console finns i [Adobe Enterprise &amp; Teams Administration Guide](https://helpx.adobe.com/se/enterprise/admin-guide.html), inklusive [Admin Console overview](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 * Admin Console: [https://adminconsole.adobe.com](https://adminconsole.adobe.com)
