@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här funktionen gäller endast för ditt äldre konto för sökning, sociala medier och Commerce. De flesta användare använder nu ett [!DNL Adobe]-ID i stället.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/en/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
+>Den här funktionen gäller endast för ditt äldre konto för sökning, sociala medier och Commerce. De flesta användare använder nu ett [!DNL Adobe]-ID i stället.<!-- Replace this with a new topic with the new info. pointing to ?where? [Not the correct place!!! https://experienceleague.adobe.com/sv/docs/core-services/interface/experience-cloud#manage-your-user-profile] -->
 
 Om du ändrar lösenordet loggas du ut från den aktuella sessionen. Om du vill fortsätta arbeta måste du logga in med det nya lösenordet.
 
