@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här funktionen gäller endast för dina inloggningsuppgifter för sökning, sociala medier och Commerce. De flesta användare använder nu ett [!DNL Adobe]-ID för autentisering i stället. Information om hur du ändrar lösenordet för ditt [!DNL Adobe]-ID finns i &quot;[Återställ eller ändra ditt Adobe-lösenord](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)&quot;.
+>Den här funktionen gäller endast för dina inloggningsuppgifter för sökning, sociala medier och Commerce. De flesta användare använder nu ett [!DNL Adobe]-ID för autentisering i stället. Information om hur du ändrar lösenordet för ditt [!DNL Adobe]-ID finns i &quot;[Återställ eller ändra ditt Adobe-lösenord](https://helpx.adobe.com/se/manage-account/using/change-or-reset-password.html)&quot;.
 
 Om du ändrar lösenordet loggas du ut från den aktuella sessionen. Om du vill fortsätta arbeta måste du logga in med det nya lösenordet.
 
