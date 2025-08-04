@@ -3,9 +3,9 @@ title: Lägga till en målnod på samma nivå mellan noder i en upplevelse
 description: Lär dig hur du lägger till en nod på samma nivå i en nod som har ett mål eller som finns på samma nivå som en nod med ett mål.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
+source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,31 @@ In an existing experience,
 
    * Gör följande för målgrupper:
 
-      1. Klicka på **[!UICONTROL Click to Browse]** om du vill öppna dina [!UICONTROL Audience Targeting]-alternativ och ange en eller flera av annonsörens målgrupper.
+      1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ och gör sedan följande:
 
-      1. I den högra kolumnen väljer du om du vill *[!UICONTROL Include any]* (standardvärdet) eller *[!UICONTROL Include all]* av de angivna målen för noden.
+         * Om du vill lägga till det första segmentet letar du reda på segmentet i den vänstra panelen och markerar kryssrutan bredvid segmentnamnet.
 
-     Det här alternativet avgör om användaren måste tillhöra minst en av de angivna målgrupperna (en [!DNL Boolean] `OR` -programsats) eller alla angivna målgrupper (en [!DNL Boolean] `AND` -programsats) för att få ett intryck.
+         * Lägga till ett segment i en befintlig segmentgrupp:
+
+            1. Klicka på segmentgruppen på den högra panelen.
+
+            1. (Valfritt) Ändra grupplogiken till *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* eller *[!UICONTROL Exclude All]* efter behov.
+
+               *[!UICONTROL Exclude All]* är inte tillgänglig för den första segmentgruppen. För en målgrupp som endast innehåller undantag kan du skapa den här målgruppen som *[!UICONTROL Include Any]* och sedan exkludera den målgruppen när du lägger till den på en plats i din DSP.
+
+            1. Leta reda på det nya segmentet i den vänstra panelen och markera kryssrutan bredvid segmentnamnet.
+
+               Segmentgruppen uppdateras automatiskt med det nya segmentet.
+
+         * Så här lägger du till en ny segmentgrupp:
+
+         1. Klicka på **[!UICONTROL + New Group]** i den högra panelen.
+
+         1. (Valfritt) Ändra logiken mellan den föregående gruppen och den nya gruppen till *[!UICONTROL And]* eller *[!UICONTROL Or]* efter behov.
+
+         1. Leta reda på segmenten för den nya gruppen i den vänstra panelen och markera kryssrutorna bredvid segmentnamnen.
+
+         1. (Valfritt) Ändra grupplogiken till *[!UICONTROL Include Any]*, *[!UICONTROL Include All]* eller *[!UICONTROL Exclude All]* efter behov.
 
       1. Klicka på **[!UICONTROL Create]**.
 
