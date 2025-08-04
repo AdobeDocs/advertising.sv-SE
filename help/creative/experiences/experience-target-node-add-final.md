@@ -3,9 +3,9 @@ title: Lägg till en målnod till den sista nivån i en upplevelse
 description: Lär dig hur du lägger till en målnod på den slutliga målnivån i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: 3ff657d5-bad1-47f4-a3ec-9ea678fd3c9d
-source-git-commit: 7e345130f43fc2d8c2ada287a2dc61b1515e2d25
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,15 @@ När du lägger till en målnod på den understa nivån i upplevelsen, oavsett o
 
 1. Ange mål:
 
-   * För Adobe Audience-mål väljer du **[!UICONTROL Adobe Audience]** och gör sedan följande:
+   * Välj **[!UICONTROL Audience]** för målgruppsmål och gör sedan följande:
 
-      1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ, öppna fliken **[!UICONTROL Adobe Segments]**, ange en eller flera av annonsörens [!DNL Adobe] målgrupper och klicka sedan på **[!UICONTROL Create]**.
+      1. Klicka på **[!UICONTROL Click to Browse]** om du vill öppna dina [!UICONTROL Audience Targeting]-alternativ och ange en eller flera av annonsörens målgrupper.
 
-      1. (Valfritt) Om du vill skapa flera målnoder när flera målgrupper har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
+      1. I den högra kolumnen väljer du om du vill *[!UICONTROL Include any]* (standardvärdet) eller *[!UICONTROL Include all]* av de angivna målen för noden.
 
-         Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper (en [!DNL Boolean] `AND` -sats).
+     Det här alternativet avgör om användaren måste tillhöra minst en av de angivna målgrupperna (en [!DNL Boolean] `OR` -programsats) eller alla angivna målgrupper (en [!DNL Boolean] `AND` -programsats) för att få ett intryck.
+
+      1. Klicka på **[!UICONTROL Create]**.
 
       1. Klicka på **[!UICONTROL Apply]**.
 

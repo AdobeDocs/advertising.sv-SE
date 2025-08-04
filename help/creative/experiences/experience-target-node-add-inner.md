@@ -3,9 +3,9 @@ title: Lägga till en målnod mellan noder i en upplevelse
 description: Lär dig hur du lägger till en målnod mellan målböcker i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: 81cbb3cdac21f4b4899b0c07d1eb0686b7b3c7d4
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
       1. Markera måltypen och klicka sedan på **[!UICONTROL Apply]**:
 
-         * För Adobe målgrupper väljer du **[!UICONTROL Adobe Audience]**.
+         * Välj **[!UICONTROL Audience]** för målgruppsmål.
 
          * För geografiska mål väljer du en enda geografisk kategori (till exempel [!UICONTROL Geo: Country]).
 
@@ -45,13 +45,15 @@ Om du vill definiera ett specifikt mål lägger du till ytterligare en målnod p
 
    * Om det redan finns noder på samma nivå gör du följande:
 
-      * Gör följande för Adobe Audience-mål:
+      * Gör följande för målgrupper:
 
-         1. Klicka på **[!UICONTROL Click to Browse]** för att öppna dina [!UICONTROL Audience Targeting]-alternativ, öppna fliken **[!UICONTROL Adobe Segments]**, ange en eller flera av annonsörens [!DNL Adobe] målgrupper och klicka sedan på **[!UICONTROL Create]**<!-- Why not "Save" like for the other node types/use cases? -->.
+         1. Klicka på **[!UICONTROL Click to Browse]** om du vill öppna dina [!UICONTROL Audience Targeting]-alternativ och ange en eller flera av annonsörens målgrupper.
 
-         1. (Valfritt) Om du vill skapa flera målnoder när flera målgrupper har angetts väljer du **[!UICONTROL Split targets to create nodes]**.
+         1. I den högra kolumnen väljer du om du vill *[!UICONTROL Include any]* (standardvärdet) eller *[!UICONTROL Include all]* av de angivna målen för noden.
 
-            Den här funktionen skapar en separat målnod (med separata kreativa paket) för varje angiven målgrupp. Om du inte delar upp målen måste användaren tillhöra alla angivna målgrupper (en [!DNL Boolean] `AND` -sats).
+        Det här alternativet avgör om användaren måste tillhöra minst en av de angivna målgrupperna (en [!DNL Boolean] `OR` -programsats) eller alla angivna målgrupper (en [!DNL Boolean] `AND` -programsats) för att få ett intryck.
+
+         1. Klicka på **[!UICONTROL Create]**.
 
          1. Klicka på **[!UICONTROL Apply]**.
 

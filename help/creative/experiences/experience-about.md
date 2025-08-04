@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 780c84aa8dadb52b55d5ca2bee6974b56972793b
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Varje annonsupplevelse kan innehålla en annonstyp (standardskärm, standardvide
 
   Målalternativen är:
 
-   * Era egna målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising DSP, era egna segment från Advertising DSP och tredjepartssegment från Advertising DSP
+   * Era målgruppssegment från Adobe Audience Manager, Adobe Analytics och Advertising DSP, alla andra kundsegment som importerats för kontot, era egna segment från Advertising DSP, tredjepartssegment från Advertising DSP samt alla befintliga Advertising DSP-målgrupper som skapats i Audience Library
 
    * Specifika geografiska platser, inklusive länder, delstater, DMA:er i USA, städer och postnummer
 
