@@ -3,9 +3,9 @@ title: Om insikter
 description: Läs om prestandainsikter med visualiseringar.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 99b9c110de5efbf646e35979eee6baac1d34f6ed
+source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ Fliken [!UICONTROL Household Conversion] innehåller hushållskonverteringsvärd
 * Välj dimension i listrutan till det övre vänstra hörnet av insikten.
 
 ## Ändra rapporterade värden för en insight
+
+För konverteringsstatistik finns stöd för både Adobe Advertising-spårade och Adobe Analytics-spårade konverteringar.
 
 1. Klicka på ![Målinställningar](/help/dsp/assets/metric-settings.png "Målinställningar") i det övre högra hörnet av insikten.
 
