@@ -5,12 +5,9 @@ feature:
 ---
 #  Manage conversion pixels
 
-*Closed beta*
-
 <!-- NOT IMPLEMENTED YET -- check on this. 
 
 We don't have a place to list/edit/delete conversion pixels in SSC UI, so I don't think we'll have anything here. Do we maybe need a placeholder page with links to SSC help and Analytics help, since users should be able to use either for tracking conversions? -->
-
 
 <!--
 Example conversion pixel (counter pixel: No): 

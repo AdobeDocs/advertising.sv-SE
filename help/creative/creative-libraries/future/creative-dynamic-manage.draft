@@ -5,8 +5,6 @@ feature: Creative Dynamic Creatives
 ---
 # Manage dynamic ads
 
-*Closed beta*
-
 <!-- Look at m.s's account for examples-->
 
 You can create a catalog of dynamic ads using an existing ad template (created from a different submenu) and specified files that contain dynamic text (such as product names and prices). <!-- More?  Also add appropriate links. -->
@@ -25,9 +23,7 @@ You can create a catalog of dynamic ads using an existing ad template (created f
 
 1. Specify the [dynamic ad settings](#creative-dynamic-ad-settings):
 
-
 Ad settings are the same as in the ad template, but the metadata is in a different order. You select an existing template based on the ad type and ad size you've selected, and then you select the catalogs to use. (The catalogs associated with the template aren't populated by default. So that workflow of associating catalogs to the template settings is awkward -- the way we do it in ACM makes more sense if you're going to reuse that template for other things. ) You have to enter attributes -- the ones in the template don't seem to be populated by default.
-
 
 ## Edit dynamic ads
 
@@ -62,5 +58,4 @@ See https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier
 **Content Selection:** The types of XXX that can be used XXXX: *[!UICONTROL Profile]*, *[!UICONTROL Geography]*, *[!UICONTROL Segment]*, and/or *[!UICONTROL Datapass]*.<!-- ????? -->
 
 **Number of offers (Max 50):** The number of XXXXX that can be created for each ad.<!-- Clarify this -- is this the frequency cap (max number of times an ad may be served)? -->
-
 

@@ -5,8 +5,6 @@ feature: Creative Introduction
 ---
 # How the user interface is organized
 
-*Closed beta*
-
 <!-- necessary to include this? -->
  
 The following main menu options are applicable to Adobe Advertising Creative. If you also have Adobe Advertising DSP <!-- full xxxx -->, then you'll have additional menu options.
@@ -36,7 +34,6 @@ pixels
 * Pixel QA:  XXXXXXXXXXX.
 
 <!-- XXX: Configure access to an Adobe Experience Manager account. --><!-- I think this will be automatic based on their IMS organization. But I'm not sure if they need to be logged in via SSO using their Adobe login or if it will also work using their legacy DSP login. -->
-
 
 
 >[!MORELIKETHIS]

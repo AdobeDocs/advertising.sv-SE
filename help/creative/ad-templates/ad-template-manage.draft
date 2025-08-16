@@ -14,7 +14,6 @@ feature: Creative Templates
 1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]**.
 
 
-
 opens list
 
 1. **[!UICONTROL Create Ad Template]**
@@ -26,7 +25,6 @@ opens list
    1. Enter the basic ad details, and then click **[!UICONTROL Process]**.
 
    1. Enter the dynamic attributes for the ad, and then click **[!UICONTROL Save]**.
-
 
 The ad<!-- should usually be multiple, right? --> is generated from template-and-feed file combination and is listed in Creative Libraries > Creatives > Dynamic Ads tab. <!-- huh???? I thought that the generated ads appear as "Catalogs"? -->
 
@@ -45,8 +43,6 @@ The ad<!-- should usually be multiple, right? --> is generated from template-and
 **[!UICONTROL Description]**: A description of the ad template. <!-- Use a name that makes it xxx easy to find xxxx ?  -->
 
 **[!UICONTROL Ad template zip]**: The ad template file. Drag and drop a file into the box, and then click **[!UICONTROL Upload]**.<!-- I guess there's no option to browse for a file on your device or network. --> 
-
-
 
 
 
@@ -90,15 +86,12 @@ Identify the names of the columns in the specified catalogs <!-- feed files? -->
 
 **[!UICONTROL clickUrl]**: The variable that allows click-tracking redirects from the generated<!-- ?? --> ads.<!-- Or is this the default landing page for all ads? --> The default landing page URLs are populated from the uploaded feed file creative unit, but you can change the default URLs.
 
-
 Note: When you include the creative in an experience, you can replace the default
 value for any of the click URLs with a custom landing page URL to generate a derivation
 of the base creative.
 
-
 Note: A click tag allows [!DNL Creative] to assign a tracking code to the ad and report
 the click-through data.
-
 
 
 
@@ -107,5 +100,4 @@ the click-through data.
 <!-- rename bookmark? -->
 
 **[!UICONTROL Advertiser]**:  The advertiser for which ads will be generated.
-
 
