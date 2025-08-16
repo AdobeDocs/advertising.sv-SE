@@ -3,16 +3,14 @@ title: Creative-inställningar
 description: Läs mer om xxxx.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
 
 # Creative-inställningar
-
-*Stängd beta*
 
 Inställningarna varierar beroende på kreativ typ.
 

@@ -2,9 +2,10 @@
 title: Klona en upplevelse
 description: Lär dig skapa en upplevelse genom att klona en befintlig upplevelse.
 feature: Creative Experiences
-source-git-commit: fd925c641bef7953aea50813725252c3913757fa
+exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -12,8 +13,6 @@ ht-degree: 0%
 # Klona en upplevelse
 
 <!-- "Duplicate" like for creatives and bundles? If we change this, change text throughout -->
-
-*Stängd beta*
 
 Skapa en upplevelse genom att klona en befintlig upplevelse. Den nya upplevelsen heter `<original name> (copy) # 1` (eller nästa nummer i sekvensen). Om du till exempel gör två kloner av &quot;Testupplevelse&quot; får klonerna namnen &quot;Testupplevelse (kopia) # 1&quot; och &quot;Testupplevelse (kopia) # 2&quot;.
 

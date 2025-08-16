@@ -3,9 +3,9 @@ title: Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i 
 description: Lär dig hur ni tilldelar kreatörer till varje mål i era annonsupplevelser.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i en upplevelse
 
 *Upplevelser med endast mål för beslutsträd*
-*Stängd beta*
 
 Du kan tilldela kreativa paket till en målnod längst ned i ett upplevelsebeslutsträd. För upplevelser som du inte har konfigurerat mål för ligger den understa nivån under&quot;Alla&quot;.
 

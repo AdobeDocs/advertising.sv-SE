@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 7fee6e0f6e8ad6dbf0329d707af7303ac7229dc9
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Anpassa den kreativa optimeringen och planeringen för en upplevelse utan målgruppsanpassning för beslutsträd
 
 *Endast upplevelser med befintliga kreatörer*
-*Stängd beta*
 
 Som standard bestäms den kreativa rotationen för en annonsupplevelsetagg algoritmiskt för att optimera den övergripande klickfrekvensen, och inställningarna för den kreativa optimeringen gäller för alla tilldelade kreatörer. Du kan anpassa den kreativa rotationen för att manuellt köra de kreativa objekten enligt relativa vikter eller för att algoritmiskt optimera för ett specifikt Advertising DSP-mål. Du kan också schemalägga att specifika kreatörer ska köras under angivna, sekventiella tidsperioder och använda anpassade inställningar för kreativ rotation för varje schema.
 

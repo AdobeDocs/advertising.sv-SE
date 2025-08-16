@@ -3,18 +3,16 @@ title: Redigera standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du ändrar inställningarna för vanliga (icke-dynamiska) kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
 # Redigera standardkreatörer i ett kreativt bibliotek
 
-*Stängd beta*
-
-Du kan redigera vissa inställningar för varje typ av standardprogram. Du kan endast redigera flera användare av samma typ (HTML5 med endast en landningssida, statisk HTML5 med flera landningssidor, flexibel HTML5, bild eller tredje part <!-- , or dynamic -->).<!-- or creative variations -->
+Du kan redigera vissa inställningar för varje typ av standardprogram. Du kan endast redigera flera användare av samma typ (HTML5 med endast en landningssida, statisk HTML5 med flera landningssidor, flexibel HTML5, bild eller tredje part <!-- or creative variations -->).<!-- , or dynamic -->
 
 För flexibla kreatörer av HTML5 och statiska HTML5 kan du överföra en ny mallfil med en annan layout, men med samma uppsättning attributnamn. För enkla HTML5-användare kan du redigera alla attribut eller lägga till bilder genom att ladda upp en ny mall med de nya attributen eller bilderna. I samtliga fall måste mallen vara en lokal fil i ZIP-format med högst 2 MB.
 

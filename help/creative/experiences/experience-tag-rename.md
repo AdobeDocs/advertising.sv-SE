@@ -3,16 +3,14 @@ title: Byta namn på en annonstagg
 description: Lär dig hur du byter namn på en annonstagg för en upplevelse.
 feature: Creative Experiences
 exl-id: 8c2fda31-2e4c-49ea-bcf2-f1bf564068b8
-source-git-commit: 45b2dad83aa626ea30e7553df7caaf5e7f53b3e1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
 
 # Byta namn på en annonstagg för en upplevelse
-
-*Stängd beta*
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 

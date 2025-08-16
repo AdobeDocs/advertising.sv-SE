@@ -3,16 +3,14 @@ title: Beslutsträdets layout
 description: Läs om beslutsträdets layout för upplevelser med målinriktning.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Beslutsträdeslayouten för [!DNL Creative] upplevelser
-
-*Stängd beta*
 
 När du aktiverar alternativet [!UICONTROL Targeting] för en upplevelse konfigurerar du upplevelsen med ett beslutsträd.
 
@@ -26,7 +24,7 @@ Inledningsvis börjar varje beslutsträd med rotnivån &quot;Alla&quot;. Du kan 
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->—>
+—>
 
 ## Villkor
 

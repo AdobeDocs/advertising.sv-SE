@@ -3,9 +3,9 @@ title: Skapa en annonstagg manuellt för en lämplig kreativ storlek
 description: Lär dig hur du skapar en annonstagg för en viss kreativ storlek.
 feature: Creative Experiences
 exl-id: 77dedfa2-33de-4a92-a58b-1a2b91842f0a
-source-git-commit: e79becc860143b749ec96134e7b224649686c672
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # (Erfarenheter utan målinriktning) Skapa en annonstagg manuellt för en tillämplig kreativ storlek
 
 *Upplevelser utan mål för beslutsträd endast*
-*Stängd beta*
 
 Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek (icke-videoredigerare) eller videovaraktighet som används för en upplevelse. Du kan senare [tilldela kreatörer till annonstaggen](experience-tag-assign-creatives.md).
 

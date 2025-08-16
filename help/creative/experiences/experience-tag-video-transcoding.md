@@ -3,16 +3,14 @@ title: Anpassa omkodningsalternativ för en video- och upplevelsetagg
 description: Lär dig hur du anpassar omkodningsalternativen för en videoannonstagg.
 feature: Creative Experiences
 exl-id: 6100213c-2e7d-4e98-a3ab-045ca10e5174
-source-git-commit: 8f5740d1a90e505a16f69d566de13aefc1edf421
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Anpassa omkodningsalternativ för en video- och upplevelsetagg
-
-*Stängd beta*
 
 Du kan anpassa omkodningsalternativen för en videoannons för att säkerställa snabb uppspelning och kvalitetskontroll över alla utgivare.
 

@@ -3,16 +3,14 @@ title: Bifoga ett kreativt innehåll till kreativa programpaket
 description: Lär dig hur du kopplar en kreatör till ett kreativt programpaket.
 feature: Creative Standard Creatives, Creative Dynamic Creatives, Creative Bundles
 exl-id: 833c4102-8577-4ba1-be07-7e032cec94ca
-source-git-commit: 95e17af996cb3171667ef3cd5ac662f08112691b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
 # Bifoga kreatörer i kreativa paket
-
-*Stängd beta*
 
 <!-- Edit all, including the metadata and title, plus the links within TOC and bundle-manage.md, once this feature is available.  -->
 

@@ -3,9 +3,9 @@ title: Lägga till en målnod på samma nivå mellan noder i en upplevelse
 description: Lär dig hur du lägger till en nod på samma nivå i en nod som har ett mål eller som finns på samma nivå som en nod med ett mål.
 feature: Creative Experiences
 exl-id: 915fd399-1c55-49af-94ed-cf49a4154a53
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -13,15 +13,12 @@ ht-degree: 0%
 # Lägga till en målnod på samma nivå mellan noder i en upplevelse
 
 *Upplevelser med endast mål för beslutsträd*
-*Stängd beta*
 
 Du kan lägga till en nod på samma nivå i alla noder som har ett mål eller som är på samma nivå som en nod med ett mål.
 
 <!-- 1. Open the decision tree:
 
-
 In a new experience
-
 
 In an existing experience,
  -->

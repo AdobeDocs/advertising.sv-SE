@@ -3,16 +3,14 @@ title: Skapa en upplevelse utan mål för beslutsträd
 description: Lär dig skapa en annonsupplevelse utan målinriktning.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 9807b2e78376eb3a078d680583c3b2f6fae7a1d1
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
 
 # Skapa en upplevelse utan mål för beslutsträd
-
-*Stängd beta*
 
 Skapa en annonsupplevelse utan målinriktning. Alla upplevelser kan använda annonser från ett enda kreativt bibliotek.
 

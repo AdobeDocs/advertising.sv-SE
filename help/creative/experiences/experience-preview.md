@@ -3,16 +3,14 @@ title: Förhandsgranska en upplevelse
 description: Lär dig förhandsgranska kreatörerna i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: 2ac8f580-7d3d-4de6-ba14-5d72b30188d7
-source-git-commit: ae226015d1a8a3da4ea2a0db0db31858e750b9a7
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Förhandsgranska en upplevelse
-
-*Stängd beta*
 
 Du kan förhandsgranska de som skapar en viss annonsstorlek och se resultatet för dem, inklusive alla hyperlänkar. För upplevelser med målgruppsanpassning i beslutsträd kan du förhandsgranska en enskild kreatör, kreatörerna för en viss gren (måltyp) eller alla kreatörer i upplevelsen. För upplevelser som saknar beslutsträdsanpassning kan ni förhandsgranska en enda kreativ. <!-- verify -->
 

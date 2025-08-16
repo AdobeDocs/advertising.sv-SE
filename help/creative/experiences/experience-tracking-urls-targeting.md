@@ -3,9 +3,9 @@ title: Anpassa spårnings-URL:er för en upplevelse
 description: Lär dig hur du anpassar URL:er för spårning för varje kreatör i en upplevelse med målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: ba3b15b4-116e-4caa-8ce1-4d2e488a6362
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Anpassa URL:er för spårning för kreatörer i en upplevelse av målgruppsanpassning för beslutsträd
 
 *Endast målnoder med befintliga kreatörer*
-*Stängd beta*
 
 För upplevelser med målgruppsanpassning i beslutsträd kan du skapa upp till fem anpassade URL:er för visningsspårning, fem anpassade URL:er för klickspårning och en anpassad URL för landningssida för varje enskild kreatör som används för upplevelsen. Du kan anpassa spårnings-URL:erna inifrån beslutsträdet.
 

@@ -3,9 +3,9 @@ title: Lägga till en målnod mellan noder i en upplevelse
 description: Lär dig hur du lägger till en målnod mellan målböcker i en annonsupplevelse.
 feature: Creative Experiences
 exl-id: ac9211e5-c6ed-4185-bf9c-c2689f1b2775
-source-git-commit: f71747a4973ec3f3e2c3a8a5913d27311849883c
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Lägga till en målnod mellan noder i en upplevelse
 
 *Upplevelser med endast mål för beslutsträd*
-*Stängd beta*
 
 När du infogar en målnod mellan befintliga nivåer, behåller den nya målnoden alla befintliga underordnade mål och kreatörer och den nya noden kallas inledningsvis&quot;Alla&quot;. Du kan också behålla den nya noden utan att lägga till mer specifika mål.
 

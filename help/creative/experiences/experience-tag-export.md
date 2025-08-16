@@ -3,16 +3,14 @@ title: Exportera och implementera en tagg för annonsupplevelser
 description: Lär dig hur du exporterar en annonsupplevelsetagg och överför den till en Advertising DSP-kampanj.
 feature: Creative Experiences
 exl-id: 4ae05142-8319-4329-96d7-f87d77f02745
-source-git-commit: 1ce04f4bfa0707d9bcc1f6601dadbdab682ad95d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
 
 # Exportera och implementera en tagg för annonsupplevelser
-
-*Stängd beta*
 
 När en annonstagg för en viss kreativ storlek eller videouppspelning är tillgänglig för en [live](experience-about.md#experience-statuses) -upplevelse, kan du generera och kopiera taggen i JavaScript-, iframe- och videoformat för implementering i Advertising DSP eller andra DSP:er. Taggarna för DSP innehåller alla makron som krävs för DSP.
 
@@ -33,7 +31,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -51,9 +49,9 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Välj taggtyp:
 
-   * (Inte videoupplevelser) **&#x200B; *JavaScript* &#x200B;** eller **&#x200B; *Iframe* &#x200B;**.
+   * (Inte videoupplevelser) ** *JavaScript* ** eller ** *Iframe* **.
 
-   * (Videoupplevelser) **&#x200B; *Video* &#x200B;**.
+   * (Videoupplevelser) ** *Video* **.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 

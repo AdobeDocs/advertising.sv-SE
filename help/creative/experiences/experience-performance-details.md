@@ -3,16 +3,14 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 1718a7f5a7e3bbfeed336b195a2575275c8fd753
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
 
 # Resultatrapporter på erfarenhetsnivå
-
-*Stängd beta*
 
 Du kan visa detaljerade prestandadata för alla upplevelser.
 

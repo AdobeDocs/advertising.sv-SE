@@ -3,16 +3,14 @@ title: Hämta data från vyn [!UICONTROL Experiences]
 description: Lär dig hur
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: 115b769c2880936c422747b44f43b4be7281916d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
 
 # Hämta data från vyn [!UICONTROL Experiences]
-
-*Stängd beta*
 
 Du kan exportera metadata om upplevelserna i den aktuella, filtrerade [!UICONTROL Experiences]-vyn till en fil i Microsoft Excel-kalkylbladsformat (XLSX).
 

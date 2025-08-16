@@ -3,16 +3,14 @@ title: Anpassa spårnings-URL:er för en upplevelse utan att målinrikta
 description: Lär dig hur du anpassar URL:er för spårning för varje kreatör i en upplevelse utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Anpassa spårnings-URL:er för en upplevelse utan mål för beslutsträd
-
-*Stängd beta*
 
 För upplevelser utan mål för beslutsträd kan du skapa upp till fem anpassade URL:er för visningsspårning, fem anpassade URL:er för klickspårning och en anpassad URL för landningssida för varje enskild kreatör som används för taggen för annonsupplevelsen. Du kan anpassa spårnings-URL:er från [!UICONTROL Tag Manager].
 

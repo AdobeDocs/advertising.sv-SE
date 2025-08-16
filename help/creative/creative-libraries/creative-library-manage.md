@@ -3,16 +3,14 @@ title: Hantera dina kreativa bibliotek
 description: Lär dig hur du skapar, byter namn på och tar bort dina kreativa bibliotek.
 feature: Creative Libraries
 exl-id: d8b802c7-a6e9-4135-a4de-fb482c72d044
-source-git-commit: b41dfbb570db025a5eba3ceff8d28529f9a8058e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '276'
 ht-degree: 1%
 
 ---
 
 # Hantera dina kreativa bibliotek
-
-*Stängd beta*
 
 Du kan skapa flera kreativa bibliotek för varje annonsör. Du kan senare fylla i varje bibliotek med [standardkreatörer](creative-add-standard.md)<!-- , dynamic creatives, --> och [kreativa paket](bundle-manage.md). Kontoteamet på Adobe kan också lägga till dynamiska kreatörer i dina bibliotek.
 

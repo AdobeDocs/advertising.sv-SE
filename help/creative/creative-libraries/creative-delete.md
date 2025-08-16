@@ -3,16 +3,14 @@ title: Ta bort kreatörer
 description: Lär dig hur du tar bort kreatörer i ett kreativt bibliotek.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 5dc197dc-c4bb-489a-8395-b7c8efa47ea1
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Ta bort kreatörer från ett kreativt bibliotek
-
-*Stängd beta*
 
 Du kan ta bort:
 

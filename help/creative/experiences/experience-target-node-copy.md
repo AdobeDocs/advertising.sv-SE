@@ -3,9 +3,9 @@ title: Kopiera underordnade noder till en annan målnod på samma nivå
 description: Lär dig hur du kopierar alla underordnade noder till en överordnad målnod till en annan målnod på samma nivå
 feature: Creative Experiences
 exl-id: b3705689-57b6-41ce-9e00-2358bd195c93
-source-git-commit: 5d8b511708008c77e817ccdb00ae02c158dfe63e
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Kopiera underordnade noder till en annan målnod på samma nivå
 
 *Upplevelser med endast mål för beslutsträd*
-*Stängd beta*
 
 Du kan kopiera alla underordnade noder till en överordnad målnod (inklusive alla underordnade mål och de kreativa paket som tilldelats dem) till en annan målnod på samma nivå. Du kan kopiera noderna antingen genom att a) lägga till de kopierade noderna i det befintliga ramverket eller genom att b) helt ersätta det befintliga ramverket. <!-- Give the main use case or an example to explain. -->
 
@@ -27,7 +26,7 @@ Den här funktionen påverkar inte det mål som angetts för den överordnade no
 
    * Om du vill ersätta alla underordnade noder och kreatörer för en nod klickar du på noden som du vill klistra in den kopierade informationen på, klickar på **..** och sedan på en\) väljer du **[!UICONTROL Replace ctrl+shift+v]** eller b\) anger **[!UICONTROL Ctrl+Shift+V]** ([!DNL Microsoft Windows]) eller **[!UICONTROL Command-Shift-V]** ([!DNL Apple Macintosh]) på tangentbordet.
 
-   * (Noder med flera underordnade mål, inga Alla-noder och inga endast kreativa) Om du vill lägga till alla underordnade noder och kreatörer i en nod utan att ta bort de befintliga klickar du på den nod som du vill klistra in den kopierade informationen i, klickar på **..** och antingen a\) väljer **[!UICONTROL Add ctrl+v]** **&#x200B; eller b\) anger &#x200B;** [!UICONTROL Ctrl+V] **&#x200B; ([!DNL Microsoft Windows]) eller &#x200B;** [!UICONTROL Command-V]** ([!DNL Apple Macintosh]) på tangentbordet.
+   * (Noder med flera underordnade mål, inga Alla-noder och inga endast kreativa) Om du vill lägga till alla underordnade noder och kreatörer i en nod utan att ta bort de befintliga klickar du på den nod som du vill klistra in den kopierade informationen i, klickar på **..** och antingen a\) väljer **[!UICONTROL Add ctrl+v]** ** eller b\) anger **[!UICONTROL Ctrl+V]** ([!DNL Microsoft Windows]) eller **[!UICONTROL Command-V]** ([!DNL Apple Macintosh]) på tangentbordet.
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

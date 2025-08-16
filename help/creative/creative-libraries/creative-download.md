@@ -3,9 +3,9 @@ title: Ladda ned kreatörer
 description: Lär dig hur du hämtar en kreatör som en ZIP-fil.
 feature: Creative Standard Creatives
 exl-id: 6507d472-be25-4f20-a32e-ad73250d78d4
-source-git-commit: 076dd97944b5cb74f24bee85602e3743bba16f7b
+source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Ladda ned kreatörer
 
 *Endast standardkreatörer*
-*Stängd beta*
 
 Hämta alla valda kreatörer till en fil i ZIP-format enligt webbläsarens normala procedur.
 
