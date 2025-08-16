@@ -3,16 +3,14 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 2d794d0c4e6ce708412742f6ba6178b61116b41d
+source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
 # Om dina kreativa bibliotek
-
-*Avslutade betafunktioner*
 
 Med era kreativa bibliotek kan ni hantera de kreativa verktyg ni kommer att använda i era annonsupplevelser. Du kan skapa flera bibliotek, där var och en har en uppsättning kreativa funktioner och *kreativa paket*, som är grupper med kreativa alternativ som du kan lägga till i en upplevelse som en enhet.
 
@@ -66,7 +64,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. Alla videokreatörer omkodas automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 

@@ -3,16 +3,14 @@ title: Hantera återmarknadsföring av pixlar
 description: Lär dig hur du skapar och implementerar återannonseringspixlar som ska användas som mål för annonsupplevelser.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Hantera återmarknadsföring av pixlar
-
-*Stängd beta*
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
@@ -111,7 +109,7 @@ När ni riktar in annonsupplevelser mot användare som exponeras för pixeln ang
 
 När ni riktar in annonsupplevelser mot användare som exponeras för pixeln anger målinställningarna de attributvärden som måste finnas för att visa de kreativa.
 
-**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Beta-funktion; endast nya pixlar; valfritt) Typer av universella ID:n för den pixeltagg som ska spåras:
+**[!UICONTROL Advanced]** > **[!UICONTROL Universal IDs]:** (Endast nya pixlar; valfritt) Typer av universella ID:n för den pixeltagg som ska spåras:
 
 * *[!UICONTROL ID5]:* Pixeltaggen spårar [!DNL ID5] ID:n. Inga avgifter tas ut för visningar som skickas till universella ID:n.
 

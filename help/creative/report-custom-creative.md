@@ -3,7 +3,7 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Lär dig hur du genererar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: 4b780760e5a7a0c3d370054fce8b1c15fbc6802d
+source-git-commit: 03d3f3c43bfe58f2dcab998e1d95f1e512f54b20
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # [!UICONTROL Custom Creative Report]
 
-*Stängd beta*
+*Beta-funktion*
 
 Med [!UICONTROL Custom Creative Report] kan du anpassa innehållet och leveransen av rapportdata för alla era annonsupplevelser.
 
-Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis eller månadsvis kl. 03:00 i den angivna tidszonen enligt angivna villkor (t.ex. var 15:e dag eller den 1:e varje månad). När en rapport har skapats kan du hämta den från [!UICONTROL Reports] > [!UICONTROL Custom Reports] eller från länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
+Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis eller månadsvis på 03:00 i den angivna tidszonen enligt angivna villkor (t.ex. var 15:e dag eller den 1:e varje månad). När en rapport har skapats kan du hämta den från [!UICONTROL Reports] > [!UICONTROL Custom Reports] eller från länkade [rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md) av följande typer:
 
 * [!DNL Amazon Simple Storage Service] ([!DNL S3])
 * FTP
@@ -161,7 +161,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 * *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
