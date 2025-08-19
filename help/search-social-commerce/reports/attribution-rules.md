@@ -2,10 +2,10 @@
 title: Hur attribueringsregler beräknas
 description: Läs om hur Adobe Advertising beräknar varje typ av attribueringsregel.
 exl-id: 15beeadd-bb65-4efe-8c4f-34c4a48cc775
-feature: Search Reports
-source-git-commit: b24673e05f95bac404301d71ad9c0d1d0593aafb
+feature: Search Reports, DSP Custom Reports
+source-git-commit: 513d81cf835ccbffa16581799f0dc8306681e3ad
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2711'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,19 @@ ht-degree: 0%
 
 Attributregeln på annonsörnivå används för att attribuera konverteringsdata - eventuellt i flera annonskanaler - i en serie händelser som leder till en konvertering.
 
-I rapporter, standardvyer och anpassade vyer för Advertising Search, Social, &amp; Commerce (Search, Social, &amp; Commerce) och (vissa användarroller) simuleringar på portföljnivå för Search, Social och Commerce, används den valda regeln endast för vydata, rapporter och simuleringsdata. De olika attribueringsreglerna tillämpas enligt följande.
+Du kan också välja en attribueringsregel på följande platser om du bara vill tillämpa regeln på de data som skapas:
+
+* DSP
+
+   * Anpassade rapporter med multitouch-attribuering
+
+* Search, Social, &amp; Commerce
+
+   * Anpassade rapporter
+
+   * Standardvyer och anpassade vyer
+
+   * (Vissa användarroller) Portfolio-simuleringar.
 
 >[!NOTE]
 >
