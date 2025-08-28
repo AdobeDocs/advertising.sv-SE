@@ -28,7 +28,7 @@ Läs följande information innan du integrerar Adobe Advertising med Adobe Custo
 
    * Adobe Experience Platform Web SDK-bibliotek: `alloy.js`
 
-     [!DNL Org ID] som används för Web SDK och för Adobe Advertising annonserarkonto måste vara samma. Du hittar detta ID på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
+     [!DNL Org ID] som används för Web SDK och för Adobe Advertising annonserarkonto måste vara samma. Du hittar detta ID på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=sv-SE).
 
      ![Sammanfattningsskärm för Experience Cloud-felsökning](/help/integrations/assets/a4adc-debugger-summary.png)
 
