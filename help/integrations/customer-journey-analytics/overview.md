@@ -3,9 +3,9 @@ title: Översikt över integrationen mellan Adobe Advertising och Adobe Customer
 description: Läs om hur du kan integrera Adobe Advertising med Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: 37c0485189c9bf084d4051fec501a1b2128687ec
+source-git-commit: b60834569c795013d989fca81c3799165250094b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Adobe Advertising är integrerat med Adobe Customer Journey Analytics för dubbe
 
   I det här fallet behöver du inte utföra några extra steg förutom att [samla in historiska data för AMO ID:n och EF ID:n som kan användas i Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 
-* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta följande data mellan Adobe Advertising och Customer Journey Analytics genom att spåra klicknings- och genomsiktshändelser med Adobe Experience Platform Web SDK (`alloy.js`). Data finns på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå.
+* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta data mellan Adobe Advertising och Customer Journey Analytics med hjälp av [ Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)-biblioteket (`alloy.js`). Du kan spåra webbplatshändelser med hjälp av cookies, hashade IP-adresser och universella ID:n ([!DNL LiveRamp RampIDs] och ID5-ID:n) och attribuera webbplatshändelser till betald mediaaktivitet. Följande data är tillgängliga på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå:
 
    * Kampanjresultatdata från Adobe Advertising i Customer Journey Analytics
 
@@ -40,7 +40,7 @@ Adobe Advertising är integrerat med Adobe Customer Journey Analytics för dubbe
 
    * Attribueringsdata från Customer Journey Analytics i Adobe Advertising, där de kan användas för optimering och rapportering
 
-  **Obs!** Inga organiska data är tillgängliga än.<!-- Does that belong somewhere up above? -->
+  **Obs!** Inga organiska data är tillgängliga än.
 
   I det här fallet använder du Web SDK för att spåra webbplatshändelser (med cookies, hashed IP-adresser eller universella ID:n) och för att tilldela webbplatshändelser till betald medieaktivitet i [!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Meta] samt Adobe DSP. Du kommer också att använda Adobe Experience Platform för datainsamling.
 
