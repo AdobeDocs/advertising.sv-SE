@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Adobe Advertising EF ID:n
 
-EF ID är en unik variabel som Adobe Advertising använder för att koppla aktiviteter till en onlineklickning eller annonsexponering. EF-id:t lagras i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-id) och spårar varje annons som klickas eller exponeras på den enskilda webbläsaren eller enheten. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
+EF ID är en unik variabel som Adobe Advertising använder för att koppla aktiviteter till en onlineklickning eller annonsexponering. EF-id:t lagras i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=sv-SE) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-id) och spårar varje annons som klickas eller exponeras på den enskilda webbläsaren eller enheten. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
 
 ### EF ID-format {#ef-id-formats}
 
