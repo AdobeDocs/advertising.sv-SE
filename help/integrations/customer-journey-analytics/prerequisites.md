@@ -3,9 +3,9 @@ title: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 description: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: ba23ab97c916f829cf9d640669423dd8e72949c0
+source-git-commit: 194675147b64af37de6373116f246f1e61388a23
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Krav för att integrera Adobe Advertising med Customer Journey Analytics
 
 *Annonsörer med Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
-
-Läs följande information innan du integrerar Adobe Advertising med Adobe Customer Journey Analytics.
-
-## Krav för rapportering av Adobe Advertising-data i Customer Journey Analytics
 
 * Annonsörer med både [!DNL Analytics for Advertising] och Customer Journey Analytics:
 
@@ -28,7 +24,7 @@ Läs följande information innan du integrerar Adobe Advertising med Adobe Custo
 
    * Adobe Experience Platform Web SDK-bibliotek: `alloy.js`
 
-     [!DNL Org ID] som används för Web SDK och för Adobe Advertising annonserarkonto måste vara samma. Du hittar detta ID på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=sv-SE).
+     [!DNL Org ID] som används för Web SDK och för Adobe Advertising annonserarkonto måste vara samma. Du hittar detta ID på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html).
 
      ![Sammanfattningsskärm för Experience Cloud-felsökning](/help/integrations/assets/a4adc-debugger-summary.png)
 
