@@ -2,7 +2,8 @@
 title: Adobe Advertising ID:n som används av Customer Journey Analytics
 description: Adobe Advertising ID:n som används av Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 8c36de7ffe73f86a4e78f11e38cd84fa59134833
+exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
+source-git-commit: 576c196abb22b3e8728aee6bfca31115bd061167
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
