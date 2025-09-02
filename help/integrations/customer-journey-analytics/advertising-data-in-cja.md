@@ -2,9 +2,9 @@
 title: Adobe Advertising-statistik och -dimensioner i Customer Journey Analytics
 description: Referera till de Adobe Advertising-mått och -mått som finns i Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 4b02ee2b334401884e3d15159851e8447d74fe96
+source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,11 @@ Adobe Advertising skickar trafikstatistik och dimensioner till [!DNL Customer Jo
 
 <!-- Verify column names -->
 
->[!NOTE]
->
->* &quot;XDM-fältnamn&quot; är fältnamnet i Adobe Experience Platform.
->* &quot;Visningsnamn för XDM-fält&quot; anger visningsnamnet i Customer Journey Analytics.
+I följande tabell:
+
+* &quot;XDM-fältnamn&quot; är fältnamnet i Adobe Experience Platform.
+
+* &quot;Visningsnamn för XDM-fält&quot; anger visningsnamnet i Customer Journey Analytics.
 
 | Adobe Advertising fältnamn | XDM-fältnamn | Visningsnamn för XDM-fält | Source |
 |------------------------------|----------------|------------------------|--------|
@@ -59,10 +60,11 @@ Adobe Advertising skickar trafikstatistik och dimensioner till [!DNL Customer Jo
 
 ## Adobe Advertising dimensioner
 
->[!NOTE]
->
->* &quot;XDM Field&quot; är fältnamnet i Adobe Experience Platform.
->* &quot;Visningsnamn för XDM-fält&quot; anger visningsnamnet i Customer Journey Analytics.
+I följande tabell:
+
+* &quot;XDM-fältnamn&quot; är fältnamnet i Adobe Experience Platform.
+
+* &quot;Visningsnamn för XDM-fält&quot; anger visningsnamnet i Customer Journey Analytics.
 
 | Adobe Advertising fältnamn | XDM-fältnamn | Visningsnamn för XDM-fält | Source |
 |------------------------------|----------------|------------------------|--------|
