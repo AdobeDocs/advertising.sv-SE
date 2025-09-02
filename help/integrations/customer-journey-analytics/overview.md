@@ -3,9 +3,9 @@ title: Översikt över integrationen mellan Adobe Advertising och Adobe Customer
 description: Läs om hur du kan integrera Adobe Advertising med Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: ca039c91a976d79ed732ad7e0435566d58f3f843
+source-git-commit: 14f2bd22c44237a817443d48e798457e6c78312e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Advertising är integrerat med Adobe Customer Journey Analytics för dubbe
   In this use case, you don't need to perform any extra steps except to optionally [collect historical data for AMO IDs and EF IDs for use in Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 -->
 
-* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta data mellan Adobe Advertising och Customer Journey Analytics med [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE). Du kan spåra webbplatshändelser med hjälp av cookies, hashade IP-adresser och universella ID:n ([!DNL LiveRamp RampIDs] och ID5-ID:n) och attribuera webbplatshändelser till betald mediaaktivitet. Följande data är tillgängliga på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå:
+* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta data mellan Adobe Advertising och Customer Journey Analytics med [Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html). Du kan spåra webbplatshändelser med hjälp av cookies, hashade IP-adresser och universella ID:n ([!DNL LiveRamp RampIDs] och ID5-ID:n) och attribuera webbplatshändelser till betald mediaaktivitet. Följande data är tillgängliga på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå:
 
    * Kampanjresultatdata från Adobe Advertising i Customer Journey Analytics
 
@@ -53,4 +53,6 @@ Kontakta Adobe Account Team, som kommer att slutföra den initiala konfiguration
 >[!MORELIKETHIS]
 >
 >* [Förutsättningar](prerequisites.md)
+>* [Adobe Advertising ID:n som används av [!DNL Customer Journey Analytics]](ids.md)
+>* [Adobe Advertising-mått och mått i Customer Journey Analytics](advertising-data-in-cja.md)
 >* (Adobe Analytics-användare) [Samla in historiska data för AMO ID:n och EF ID:n för användning i Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
