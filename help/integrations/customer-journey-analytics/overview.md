@@ -3,9 +3,9 @@ title: Översikt över integrationen mellan Adobe Advertising och Adobe Customer
 description: Läs om hur du kan integrera Adobe Advertising med Adobe Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 57636259-f91a-404f-b972-994af67098b1
-source-git-commit: b60834569c795013d989fca81c3799165250094b
+source-git-commit: 545dcedda0a593ebd3424cda33e5c85a7fb7a28d
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -24,23 +24,21 @@ Adobe Advertising är integrerat med Adobe Customer Journey Analytics för dubbe
 
    * Kampanjresultatdata från Adobe Advertising i Customer Journey Analytics
 
-   * Webbplatsaktivitet och konverteringar som spåras av [!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Meta] i Customer Journey Analytics
+   * Webbplatsaktivitet och konverteringar som spåras av [!DNL Google Ads] och [!DNL Microsoft Advertising] i Customer Journey Analytics, uppdateras dagligen
 
    * Attributionsdata från [!DNL Analytics] i Adobe Advertising, där de kan användas för optimering och rapportering
 
   I det här fallet behöver du inte utföra några extra steg förutom att [samla in historiska data för AMO ID:n och EF ID:n som kan användas i Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
 
-* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta data mellan Adobe Advertising och Customer Journey Analytics med hjälp av [ Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=sv-SE)-biblioteket (`alloy.js`). Du kan spåra webbplatshändelser med hjälp av cookies, hashade IP-adresser och universella ID:n ([!DNL LiveRamp RampIDs] och ID5-ID:n) och attribuera webbplatshändelser till betald mediaaktivitet. Följande data är tillgängliga på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå:
+* (Kommande betafunktion) Annonsörer med Customer Journey Analytics, men inte [!DNL Analytics for Advertising], kan utbyta data mellan Adobe Advertising och Customer Journey Analytics med hjälp av [ Adobe Experience Platform [!DNL Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)-biblioteket (`alloy.js`). Du kan spåra webbplatshändelser med hjälp av cookies, hashade IP-adresser och universella ID:n ([!DNL LiveRamp RampIDs] och ID5-ID:n) och attribuera webbplatshändelser till betald mediaaktivitet. Följande data är tillgängliga på kampanj-, annonsgrupp-, paket-, placering- och nyckelordsnivå:
 
    * Kampanjresultatdata från Adobe Advertising i Customer Journey Analytics
 
      **Obs!** Data från [!DNL Apple] och [!DNL Tiktok] är inte tillgängliga.
 
-   * Webbplatsaktivitet och konverteringar som spåras av [!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Meta] i Customer Journey Analytics
+   * Webbplatsaktivitet och konverteringar som spåras av [!DNL Google Ads] och [!DNL Microsoft Advertising] i Customer Journey Analytics
 
    * Attribueringsdata från Customer Journey Analytics i Adobe Advertising, där de kan användas för optimering och rapportering
-
-  **Obs!** Inga organiska data är tillgängliga än.
 
   I det här fallet använder du Web SDK för att spåra webbplatshändelser (med cookies, hashed IP-adresser eller universella ID:n) och för att tilldela webbplatshändelser till betald medieaktivitet i [!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Meta] samt Adobe DSP. Du kommer också att använda Adobe Experience Platform för datainsamling.
 
