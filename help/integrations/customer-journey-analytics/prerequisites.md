@@ -3,40 +3,26 @@ title: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 description: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: 9e89f91f31c756e21db3f5b2b7c87991166e4859
+source-git-commit: 277b2ccb4d1daad7b5f94a94b283226881c90ab4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
 
 # Krav för att integrera Adobe Advertising med Customer Journey Analytics
 
+*Beta-funktion*
+
 *Annonsörer med Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
 
-* Annonsörer med både [!DNL Analytics for Advertising] och Customer Journey Analytics:
+* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
+  Dessa tekniker kräver stöd från din Experience Platform webbplatsadministratör.
 
-   * [Alla andra krav för  [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md).
+* Adobe Customer Journey Analytics med tillgång till datahanteringsverktyg
 
-* (Beta) Annonsörer med Customer Journey Analytics men inte [!DNL Analytics for Advertising]:
-
-   * Adobe Experience Platform Web SDK-bibliotek: `alloy.js`
-
-     [!DNL Org ID] som används för Web SDK och för Adobe Advertising annonserarkonto måste vara samma. Du hittar detta ID på fliken [Sammanfattning i Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using-v2/summary.html?lang=sv-SE).
-
-     ![Sammanfattningsskärm för Experience Cloud-felsökning](/help/integrations/assets/a4adc-debugger-summary.png)
-
-     Du behöver support från din webbplatsadministratör för Experience Platform för att skapa ett Experience Platform datastream- och XDM-schema.
-
-   * Adobe Customer Journey Analytics<!-- any specific version? -->
-
-     Du behöver stöd från din interna webbanalytiker för att konfigurera en anslutning till datauppsättningen och konfigurera rapportering.
-
->[!TIP]
->
->Använd den senaste versionen av varje bibliotek för att förbättra datakvaliteten.
+  Du behöver stöd från din interna webbanalytiker för att konfigurera en anslutning till datauppsättningen och konfigurera rapportering.
 
 >[!MORELIKETHIS]
 >
