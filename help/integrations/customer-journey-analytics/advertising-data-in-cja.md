@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->* 
+>* &#x200B;
 >* &quot;XDM-fältnamn&quot; är fältnamnet i Adobe Experience Platform.
 >* &quot;Visningsnamn för XDM-fält&quot; anger visningsnamnet i Customer Journey Analytics.
 
