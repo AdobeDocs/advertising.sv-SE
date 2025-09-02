@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Annonsörer med Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
 
-* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home))
 
   Dessa tekniker kräver stöd från din Experience Platform webbplatsadministratör.
 

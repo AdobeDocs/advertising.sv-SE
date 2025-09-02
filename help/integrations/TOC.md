@@ -54,4 +54,4 @@ ht-degree: 9%
    + [Förutsättningar](/help/integrations/customer-journey-analytics/prerequisites.md)
    + [Adobe Advertising ID:n som används av Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
    + [Adobe Advertising-statistik och -dimensioner i Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Videokurser om Adobe Advertising-integreringar](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
++ [Videokurser om Adobe Advertising-integreringar](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=sv-SE)<!-- rename if the tutorials TOC structure changes -->
