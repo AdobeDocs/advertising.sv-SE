@@ -4,9 +4,9 @@ user-guide-description: Lär dig mer om integreringar för Advertising DSP och A
 breadcrumb-title: Integreringar med Experience Cloud
 role: User, Developer
 index: true
-source-git-commit: 6ba15a874cef5748088897edc9ef3f4a27e8ce52
+source-git-commit: d8bef70c4d8525fc4fecd114f8bcfef45ad1af01
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '265'
 ht-degree: 9%
 
 ---
@@ -53,5 +53,6 @@ ht-degree: 9%
    + [Ökning](/help/integrations/customer-journey-analytics/overview.md)
    + [Förutsättningar](/help/integrations/customer-journey-analytics/prerequisites.md)
    + [Adobe Advertising ID:n som används av Customer Journey Analytics](/help/integrations/customer-journey-analytics/ids.md)
+   + [Ställa in datainsamling, dataöverföring och rapportering](/help/integrations/customer-journey-analytics/set-up.md)
    + [Adobe Advertising-statistik och -dimensioner i Customer Journey Analytics](/help/integrations/customer-journey-analytics/advertising-data-in-cja.md)
-+ [Videokurser om Adobe Advertising-integreringar](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html?lang=sv-SE)<!-- rename if the tutorials TOC structure changes -->
++ [Videokurser om Adobe Advertising-integreringar](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/overview.html)<!-- rename if the tutorials TOC structure changes -->
