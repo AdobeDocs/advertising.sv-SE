@@ -3,9 +3,9 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 9b3d6893e004b16714bf50f1334424d50fac7c91
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,11 @@ ht-degree: 0%
 
          För [!DNL Roku]-placeringar kan du utnyttja [DSP unika målgruppsmatchning med  [!DNL Roku]](/help/dsp/inventory/roku-inventory.md) genom att ta med ett eller flera målgruppssegment som kan matchas mot den [!DNL Roku] (valfria) deterministiska datamängden.
 
+         RampID-segment från första part som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
+
       1. (För kampanjer med enhetsövergripande målgruppsanpassning på personnivå, valfritt) När placeringen riktar sig till en eller flera specifika målgrupper kan du aktivera personbaserad målinriktning på olika enheter för placeringen.
 
-         Personbaserad målinriktning mellan olika enheter tillhandahålls av [!DNL LiveRamp] endast med data från USA. Tjänsten är tillgänglig för alla annonsörer på $0,35 CPM för visningar som levereras med enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas i målgruppssegmenten).
+         Personbaserad målinriktning mellan olika enheter tillhandahålls av [!DNL LiveRamp] endast med data från USA. Tjänsten är tillgänglig för alla annonsörer på $0,35 CPM för visningar som levereras med enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas inom målgruppssegmenten).
 
    1. (Valfritt) Använd varumärkessäkerhetsbegränsningar för dina placeringar i avsnittet [!DNL Brand Safety and Media Targeting].
 

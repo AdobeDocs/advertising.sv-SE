@@ -3,9 +3,9 @@ title: Skapa en återanvändbar publik
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 <!-- "Saved audience" is used in UI (where?), but "saved" is a state, not a type. "Reusable audience" sounds better in a description. "Audience template" isn't right, either, since it implies you can edit it on the fly to create a new, different audience. Some other term? -->
 
 Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgruppssegment och till och med andra sparade målgrupper, som ni kan använda som mål eller exkluderingar för flera platser.
+
+>[!NOTE]
+>
+>(Annonsörer för vilka DSP konverterar hashade e-post-ID:n till LiveRamp-rampID-segment) Första parts-RampID-segment som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]** på huvudmenyn.
 

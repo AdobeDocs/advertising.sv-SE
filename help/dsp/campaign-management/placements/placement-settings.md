@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 902eae60008934b910b536d764f3bf424a802c4b
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '4560'
+source-wordcount: '4586'
 ht-degree: 0%
 
 ---
@@ -332,6 +332,10 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 * Om du vill välja en befintlig målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer målgrupp.
 * Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer sedan **[!UICONTROL + Create Audience]**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md) med början från steg 3.
 * Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md). Klicka på **Spara** när du är klar.
+
+>[!NOTE]
+>
+>RampID-segment från första part som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
 
 **[!UICONTROL Excluded Audiences]:** Alla målgrupper som ska uteslutas för placeringen, inklusive målgrupper med [tredjepartssegment, förstapartssegment, Adobe-segment, anpassade segment och sparade målgrupper](/help/dsp/audiences/audience-settings.md). Den totala och aktiva borttagna dubblettstorleken för alla uteslutna målgrupper visas också. Du kan välja en befintlig målgrupp eller skapa en ny som du kan återanvända senare:
 

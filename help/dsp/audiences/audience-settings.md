@@ -3,9 +3,9 @@ title: Målgruppsinställningar
 description: Se beskrivningar av tillgängliga målgruppsinställningar.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 3a641db6b145e67e6e1f1daca271dd524973e075
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,23 @@ ht-degree: 0%
 
 ## Tredjepartssegment
 
-(Valfritt) Alla standardsegment som är tillgängliga via datataxonomin från tredje part i Adobe Advertising, och som ska ingå i målgruppskonfigurationen.
+(Valfritt) Alla standardsegment som är tillgängliga via Adobe Advertising tredjeparts datataxonomi och som ska ingå i målgruppskonfigurationen.
 
 ## Segment från första part
 
 (Valfritt) Alla segment från första part som importerats och/eller anpassats för kontot och som ska ingå i målgruppskonfigurationen.
 
-## Adobe segment
+>[!NOTE]
+>
+>(Annonsörer för vilka DSP konverterar hashade e-post-ID:n till LiveRamp-rampID-segment) Första parts-RampID-segment som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas nu. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
+
+## Adobe Segments
 
 (Valfritt) Alla [!DNL Adobe Real-Time CDP]-, Adobe Analytics- eller Adobe Audience Manager-segment som ska ingå i målgruppskonfigurationen.
 
 ## Egna segment
 
-(Valfritt) Alla användarskapade segment, som hämtas med anpassade DSP segmentpixlar, som ska ingå i målgruppskonfigurationen. Detta kan omfatta anpassade standardsegment och CCPA-segment för avanmälan från försäljning.
+(Valfritt) Alla användarskapade segment, som hämtas med anpassade DSP-segmentpixlar, som ska ingå i målgruppskonfigurationen. Detta kan omfatta anpassade standardsegment och CCPA-segment för avanmälan från försäljning.
 
 ## Sparade målgrupper
 

@@ -3,9 +3,9 @@ title: Redigera en återanvändbar publik
 description: Lär dig hur du redigerar en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 0%
 # Redigera en återanvändbar publik
 
 När du redigerar en målgrupp som används i någon placering eller annan återanvändbar målgrupp tillämpas ändringarna omedelbart på dessa placeringar och målgrupper.<!-- verify -->
+
+>[!NOTE]
+>
+>(Annonsörer för vilka DSP konverterar hashade e-post-ID:n till LiveRamp-rampID-segment) Första parts-RampID-segment som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]** på huvudmenyn.
 
