@@ -2,14 +2,16 @@
 title: Ställa in datainsamling, dataöverföring och rapportering
 description: Lär dig hur du ställer in datainsamling, dataöverföring och rapportering.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: cbfdc1ca3334debe984c1a86249cc65d3567ff5b
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
 
 # Ställa in datainsamling, dataöverföring och rapportering
+
+*Beta-funktion*
 
 Följande åtgärder krävs för att visa Advertising Cloud-data i Customer Journey Analytics.
 
@@ -36,5 +38,5 @@ The following procedures explain the steps required to view Advertising Cloud da
 >* [Adobe Advertising ID:n som används av [!DNL Customer Journey Analytics]](ids.md)
 >* [Adobe Advertising-mått och mått i Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Samla in historiska data för AMO ID:n och EF ID:n för användning i Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* [Customer Journey Analytics Guide](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Användarhandbok för Adobe Analytics-användare](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics Guide](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Användarhandbok för Adobe Analytics-användare](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)

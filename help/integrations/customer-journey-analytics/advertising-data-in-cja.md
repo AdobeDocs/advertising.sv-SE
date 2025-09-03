@@ -2,9 +2,9 @@
 title: Adobe Advertising-statistik och -dimensioner i Customer Journey Analytics
 description: Referera till de Adobe Advertising-mått och -mått som finns i Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: 6e22ead8f91d87cce3f104635e95a2dcab03bc3a
+source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -94,3 +94,4 @@ I följande tabell:
 >* [Översikt](overview.md)
 >* [Förutsättningar](prerequisites.md)
 >* [Adobe Advertising ID:n som används av [!DNL Customer Journey Analytics]](ids.md)
+>* [Konfigurera datainsamling, dataöverföring och rapportering](set-up.md)
