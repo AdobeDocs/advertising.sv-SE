@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Endast målnoder med befintliga kreatörer*
 
-Som standard bestäms den kreativa rotationen för en upplevelse algoritmiskt för att optimera den övergripande klickfrekvensen, och inställningarna för den kreativa optimeringen gäller för alla tilldelade paket. Du kan anpassa den kreativa rotationen för att manuellt köra kreatörerna i varje paket utifrån relativa vikter eller för att algoritmiskt optimera för ett specifikt Advertising DSP-mål. Du kan också schemalägga att specifika kreativa programpaket ska köras under angivna, sekventiella tidsperioder och tillämpa anpassade inställningar för kreativ rotation för varje schema.
+Som standard bestäms den kreativa rotationen för en upplevelse algoritmiskt för att optimera den övergripande klickfrekvensen, och inställningarna för den kreativa optimeringen gäller för alla tilldelade paket. Du kan anpassa den kreativa rotationen för att manuellt köra kreatörerna i varje paket för att algoritmiskt optimera för ett specifikt Advertising DSP-mål, enligt en angiven paketsekvens, med ett angivet antal visningar för varje paketsekvens eller enligt relativa vikter. Du kan också schemalägga att specifika kreativa programpaket ska köras under angivna, sekventiella tidsperioder och tillämpa anpassade inställningar för kreativ rotation för varje schema.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Som standard bestäms den kreativa rotationen för en upplevelse algoritmiskt f�
 
 När den kreativa planeringen är inaktiverad gäller inställningarna för den kreativa optimeringen för alla tilldelade kreatörer.
 
-1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Inaktivera **[!UICONTROL Schedule]**.
 
@@ -36,6 +36,16 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
       * För **[!UICONTROL Optimization Goal]** väljer du *[!UICONTROL Click Through Rate]*, (standardvideoreklam) *[!UICONTROL Completion Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).
 
+   * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning (där Paket 1 har opererats först, Paket 2 har sedermera), med ett angivet totalt antal visningar för varje paketsekvens. Annonsstorlekarna som hanteras bestäms av det tillgängliga lagret. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt (standard) eller b\) som en slinga tillbaka till det första paketet. Du kan t.ex. visa någon av de kreativa i paket 1 för tre (3) visningar, sedan visa valfri kreativ i paket 2 för ett (1) intryck, sedan visa någon av de kreativa i paket 3 för två (2) visningar och sedan börja om från början. När de som skapat paketet 3 visas kan du i stället fortsätta att visa de som skapat paketet i oändlighet 3 i stället för att skapa en slinga. När du aktiverar sekvensering:
+
+      1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+     Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+      1. Ange antalet visningar för varje sekvens.
+
+      1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
+
 1. Klicka på **[!UICONTROL Save]**.
 
 ## Konfigurera kreativ optimering med kreativ planering
@@ -44,7 +54,7 @@ Du kan också schemalägga att specifika kreativa programpaket ska köras under 
 
 När du använder schemaläggning måste du schemalägga paket under hela upplevelsen.
 
-1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Schedules]**.
+1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
 
 1. Aktivera **[!UICONTROL Schedule]**.
 
@@ -62,6 +72,16 @@ När du använder schemaläggning måste du schemalägga paket under hela upplev
 
          * För **[!UICONTROL Optimization Goal]** väljer du *[!UICONTROL Click Through Rate]*, (standardvideoreklam) *[!UICONTROL Completion Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).
 
+      * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning (där Paket 1 har opererats först, Paket 2 har sedermera), med ett angivet totalt antal visningar för varje paketsekvens. Annonsstorlekarna som hanteras bestäms av det tillgängliga lagret. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt (standard) eller b\) som en slinga tillbaka till det första paketet. Du kan t.ex. visa någon av de kreativa i paket 1 för tre (3) visningar, sedan visa valfri kreativ i paket 2 för ett (1) intryck, sedan visa någon av de kreativa i paket 3 för två (2) visningar och sedan börja om från början. När de som skapat paketet 3 visas kan du i stället fortsätta att visa de som skapat paketet i oändlighet 3 i stället för att skapa en slinga. När du aktiverar sekvensering:
+
+         1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+            Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+         1. Ange antalet visningar för varje sekvens.
+
+         1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
+
 1. För varje ytterligare schema:
 
    1. Klicka på **[!UICONTROL + Add Schedule]**.
@@ -77,6 +97,16 @@ När du använder schemaläggning måste du schemalägga paket under hela upplev
       * *[!UICONTROL Algorithmic]:* Roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
 
          * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).
+
+      * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning, med ett angivet totalt antal visningar för varje paketsekvens. När du aktiverar sekvensering:
+
+         1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+            Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+         1. Ange antalet visningar för varje sekvens.
+
+         1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
 
 1. Klicka på **[!UICONTROL Save]**.
 

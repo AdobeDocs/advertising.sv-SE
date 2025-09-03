@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Varje annonsupplevelse kan innehålla en annonstyp (standardskärm, standardvide
 
 * **Schemaläggning:** (valfritt) Schemalägg specifika kreatörer som ska köras under angivna sekventiella tidsperioder.
 
-* **Annonsrotation:** Rotera kreatörerna manuellt enligt relativa vikter eller algoritmiskt enligt det angivna optimeringsmålet.
+* **Annonsrotation:** Rotera kreatörerna algoritmiskt enligt det angivna optimeringsmålet, enligt en angiven paketsekvens eller enligt relativa vikter.
 
 * **Optimeringsmål:** Optimera annonselement för antingen den bästa klickfrekvensen eller ett befintligt [Advertising DSP-anpassat mål](/help/dsp/optimization/custom-goal.md)
 

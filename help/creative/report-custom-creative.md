@@ -3,9 +3,9 @@ title: '[!UICONTROL Custom Creative Report]'
 description: Lär dig hur du genererar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: 13687d9d-6283-40ac-86a2-bb88b9fdfcc3
-source-git-commit: bf969c1b3cc57e2ef83087952a9bac530b276916
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 * *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
@@ -187,7 +187,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 |-----------|-------|-----------|-----------|
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Ad Size] | Den publicerade annonsens dimensioner. |
 | [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Is Default] | Om den serverade annonsen var en standardannons för bilder eller video för upplevelsen. |
-| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Anger om annonserna har roterats enligt relativa vikter (*Viktad*) eller algoritmiskt (*Algoritmisk*). |
+| [!UICONTROL Dimension] | [!UICONTROL Ad] | [!UICONTROL Rotation Type] | Anger om annonser har roterats algoritmiskt (*Algoritmisk*), i en angiven sekvens (*Sekvensbaserad*) eller enligt relativa vikter (*Viktad*). |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative ID] | Det ID som [!UICONTROL Creative] tilldelade den kreativa. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Name] | Den kreativa personens namn. |
 | [!UICONTROL Dimension] | [!UICONTROL Creative] | [!UICONTROL Creative Type] | Typen av kreativ (till exempel [!UICONTROL HTML5]). |

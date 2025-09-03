@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: a271589a2cb51ec50c37a52254fd8d1b535f279a
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Creative Optimization]**.&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
 1. Inaktivera **[!UICONTROL Schedule]**.
 
@@ -39,6 +39,16 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
    * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 
       * För **[!UICONTROL Optimization Goal]** väljer du *[!UICONTROL Click Through Rate]*, (standardvideoreklam) *[!UICONTROL Completion Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+
+   * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning (där Paket 1 har opererats först, Paket 2 har sedermera), med ett angivet totalt antal visningar för varje paketsekvens. Annonsstorlekarna som hanteras bestäms av det tillgängliga lagret. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt (standard) eller b\) som en slinga tillbaka till det första paketet. Du kan t.ex. visa någon av de kreativa i paket 1 för tre (3) visningar, sedan visa valfri kreativ i paket 2 för ett (1) intryck, sedan visa någon av de kreativa i paket 3 för två (2) visningar och sedan börja om från början. När de som skapat paketet 3 visas kan du i stället fortsätta att visa de som skapat paketet i oändlighet 3 i stället för att skapa en slinga. När du aktiverar sekvensering:
+
+      1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+     Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+      1. Ange antalet visningar för varje sekvens.
+
+      1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -56,7 +66,7 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Ad Schedule]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
 1. Aktivera **[!UICONTROL Schedule]**.
 
@@ -74,6 +84,16 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
          * För **[!UICONTROL Optimization Goal]** väljer du *[!UICONTROL Click Through Rate]*, (standardvideoreklam) *[!UICONTROL Completion Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
 
+      * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning (där Paket 1 har opererats först, Paket 2 har sedermera), med ett angivet totalt antal visningar för varje paketsekvens. Annonsstorlekarna som hanteras bestäms av det tillgängliga lagret. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt (standard) eller b\) som en slinga tillbaka till det första paketet. Du kan t.ex. visa någon av de kreativa i paket 1 för tre (3) visningar, sedan visa valfri kreativ i paket 2 för ett (1) intryck, sedan visa någon av de kreativa i paket 3 för två (2) visningar och sedan börja om från början. När de som skapat paketet 3 visas kan du i stället fortsätta att visa de som skapat paketet i oändlighet 3 i stället för att skapa en slinga. När du aktiverar sekvensering:
+
+         1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+            Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+         1. Ange antalet visningar för varje sekvens.
+
+         1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
+
 1. För varje ytterligare schema:
 
    1. Klicka på **[!UICONTROL + Add Schedule]**.
@@ -89,6 +109,16 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
       * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 
          * För **[!UICONTROL Optimization Goal]** väljer du antingen *[!UICONTROL Click Through Rate]* eller *[!UICONTROL Custom Objective]*.  Om du väljer *[!UICONTROL Custom Objective]* väljer du ett befintligt anpassat [Advertising DSP-mål](/help/dsp/optimization/custom-goal.md).<!-- Verify -->
+
+      * *[!UICONTROL Sequencing]:* Roterar de associerade kreativa paketen i en angiven ordning, med ett angivet totalt antal visningar för varje paketsekvens. När du aktiverar sekvensering:
+
+         1. Dra och släpp de tilldelade paketen i önskad ordning.
+
+            Som standard ordnas de tilldelade paketen i den ordning som de lades till i upplevelsen.
+
+         1. Ange antalet visningar för varje sekvens.
+
+         1. För den sista sekvensen ändrar du om du vill visa det slutliga paketet i sekvensen i oändlig (*[!UICONTROL Infinite]* (standard) eller b\)-slinga tillbaka till det första paketet efter att det sista paketet visas (*[!UICONTROL Keep in Loop]*).
 
 1. Klicka på **[!UICONTROL Save]**.
 
