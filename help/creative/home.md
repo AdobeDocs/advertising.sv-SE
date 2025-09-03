@@ -6,14 +6,14 @@ product: advertising cloud
 solution: Advertising
 index: false
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: e716d1c5fd3c9700ca2bca25c79b4edbbf395929
+source-git-commit: 72d58ba602a8e34d94a94f2f4370d60d3f9860dc
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
 
 ---
 
-# Nyheter i [!DNL Creative] 2.0?
+# Nyheter i [!DNL Creative] 2.0
 
 Följande funktioner är nya eller nyligen ändrade.
 
