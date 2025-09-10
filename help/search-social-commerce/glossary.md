@@ -3,9 +3,9 @@ title: Ordlista
 description: Se definitioner av nyckeltermer.
 exl-id: 87ce61b5-8340-4a6b-bd98-89ef73b2a9d8
 feature: Search Introduction
-source-git-commit: 58fab7afdca3468bf2bcca0f3120b3863af6eae2
+source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2308'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **annonsvariation:** Alla annonser inom en annonsgrupp eller annonsstrategi.
 
-**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics. Det börjar med `s_kwcid=`.
+**[AMO ID](/help/integrations/analytics/ids.md#amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics och Adobe Customer Journey Analytics. Det börjar med `s_kwcid=`.
 
 **anbudsenhet:** En söknings-, social- och Commerce-term för en enhet där bud placeras.
 
@@ -141,7 +141,7 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 **Överbliven transaktion:** En transaktionshändelse som inte kan associeras med ett visst nyckelord eller en viss annons.
 
-**pixel:** En genomskinlig bild med en pixel i taget som är inbäddad på en webbsida för spårningsändamål. Taggar för spårning av konvertering mellan Adobe Advertising omfattar antingen en bildpixel i HTML eller JavaScript för att spåra klick och deras resulterande transaktioner.
+**pixel:** En genomskinlig bild med en pixel i taget som är inbäddad på en webbsida för spårningsändamål. Adobe Advertising taggar för konverteringsspårning inkluderar antingen en HTML-bildpixel eller JavaScript för att spåra klick och deras resulterande transaktioner.
 
 **placering:** En plats i ett visningsnätverk där dina annonser kan visas. Det kan vara en hel webbplats, en delmängd av en webbplats eller en annonsposition på en viss sida.
 
@@ -175,13 +175,13 @@ Detta har samma värde som den äldre kolumnen&quot;Viktad intäkt&quot;.
 
 ## S-T {#s-t}
 
-**simulering:** (annonsörer med portföljer) Portfolio-modellering som uppskattar antalet klick och konverteringar som en portfölj kan förvänta sig för olika utgiftsnivåer och motsvarande dagliga budgetar, med hjälp av historiska data.
+**simulering:** (annonsörer med portföljer) Portfolio-modellering som beräknar antalet klick och konverteringar som en portfölj kan förvänta sig för olika utgiftsnivåer och motsvarande dagliga budgetar, med hjälp av historiska data.
 
 **utgiftsstrategi:** (annonsörer med portföljer) Den strategi som valts för att optimera budgivning via nyckelord/annonser för en portfölj.
 
 **`s_kwcid`:** Se &quot;AMO ID&quot;.
 
-**spårningsmall:** (Endast konton med slutliga URL:er) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga/avancerade URL:en i en parameter. För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefix automatiskt för Sökning, Socialt och Commerce för sin egen omdirigerings- och spårningskod när du sparar posten.
+**spårningsmall:** (Endast konton med slutliga URL:er) Spårningsmallen eller spårnings-URL, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga/avancerade URL:en i en parameter. För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], prefixeras automatiskt en egen omdirigerings- och spårningskod när du sparar posten.
 
 **spårnings-URL:** En spårningsmall eller en mål-URL med extra parametrar tillagda för att spåra information om klickningar på annonsen. Den kan innehålla en omdirigerings-URL för att först skicka användare till en spårningsserver innan de dirigeras om till annonsörens landningssida.
 
