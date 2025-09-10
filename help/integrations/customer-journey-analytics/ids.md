@@ -3,7 +3,7 @@ title: Adobe Advertising ID:n som används av Customer Journey Analytics
 description: Adobe Advertising ID:n som används av Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: af60dcb4-4d1a-4097-ac30-688bd8b9f644
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+source-git-commit: 60d31e8eb8b82fcb266109f5523b91de577d4aeb
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 0%
@@ -55,6 +55,10 @@ Adobe Advertising distinguishes between a click-through or view-through entry to
 <!-- ## Adobe Advertising AMO IDs {#amo-id} -->
 
 {{$include /help/_includes/amo-id.md}}
+
+<!-- ### AMO ID formats {#amo-id-formats} -->
+
+{{$include /help/_includes/amo-id-formats.md}}
 
 <!-- rewrite for CJA:
 
