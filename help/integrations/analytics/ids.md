@@ -46,7 +46,7 @@ Adobe Advertising skiljer mellan klickbara eller genomskinliga poster på webbpl
 
 EF ID är en unik variabel som Adobe Advertising använder för att koppla aktivitet till en onlineklickning eller annonsexponering på den enskilda webbläsaren eller enheten. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data och Customer Journey Analytics-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
 
-För [!DNL Analytics] lagras EF-ID:t i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-ID).
+För [!DNL Analytics] lagras EF-ID:t i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=sv-SE) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-ID).
 
 För Customer Journey Analytics lagras EF-ID:t i egenskapen `trackingIdentities` för objektet `conversionDetails`, som är en del av [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension].
 
@@ -146,7 +146,7 @@ För alla rapporter och granskningar inom [!DNL Analytics] är det bästa sätte
 
 ## Om analysklassificeringar
 
-I [!DNL Analytics] är en [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar Adobe Advertising-rådata med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising-rapportering i [!DNL Analytics] och kan användas med AMO-mått, som [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] och [!UICONTROL AMO Clicks], samt med anpassade och standardbaserade händelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] och [!UICONTROL Revenue].
+I [!DNL Analytics] är en [klassificering](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=sv-SE) en del metadata för en viss spårningskod, till exempel Konto, Kampanj eller Annons. Adobe Advertising kategoriserar Adobe Advertising-rådata med hjälp av klassificeringar så att du kan visa data på olika sätt (t.ex. efter annonstyp eller Campaign) när du genererar rapporter. Klassificeringar utgör grunden för Adobe Advertising-rapportering i [!DNL Analytics] och kan användas med AMO-mått, som [!UICONTROL Adobe Advertising Cost], [!UICONTROL Adobe Advertising Impressions] och [!UICONTROL AMO Clicks], samt med anpassade och standardbaserade händelser på plats som [!UICONTROL Visits], [!UICONTROL Leads], [!UICONTROL Orders] och [!UICONTROL Revenue].
 
 >[!MORELIKETHIS]
 >
