@@ -1,11 +1,11 @@
 ---
-source-git-commit: d1e2e92532b1f930420436c66c687676a2b7de6a
+source-git-commit: 56c27461cf0e1d7111de9d35d9e38fa980af4c52
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
-# Adobe Advertising EF ID:n
+# EF ID-format
 
 >[!NOTE]
 >
