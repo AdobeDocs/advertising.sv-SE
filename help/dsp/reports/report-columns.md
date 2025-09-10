@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: e07713ed7b3b700560577f8020066540e34d8952
+source-git-commit: 4b09e4c09bd2d028365c820c24ac041fb5e5283c
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,15 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign ID] | Unik identifierare för kampanjen i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Name] | Namnet på kampanjen som tilldelats av användaren. |
 | [!UICONTROL Dimension] | [!UICONTROL Campaign] | [!UICONTROL Campaign Start Date] | Det första datumet för kampanjen. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | Innehållstiteln. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | Innehållsserien. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | Innehållsgenren. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Produktionskvaliteten, enligt definition i [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Unknown`, `Professionally Produced`, `Prosumer` eller `User Generated`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Innehållstypen som definieras av [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Video,` `Game`, `Music`, `Application`, `Text`, `Other` eller `Unknown`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | Innehållsklassificering, till exempel PG eller R. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Anger om annonsen fanns i en djurbesättning: `Not Live` eller `Live`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | Innehållets längd i sekunder, som vanligtvis används för video eller ljud. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Language (as per ISO 639)] | Innehållets språk med ISO-639-1-alpha-2. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Day (YYYY-MM-DD)] | År, månad och dag. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | Dag [!UICONTROL of Week] | Den angivna dagen, till exempel [!UICONTROL Monday] eller [!UICONTROL Tuesday]. |
 | [!UICONTROL Dimension] | [!UICONTROL Date/Time] | [!UICONTROL Hour (YYYY-MM-DD HH)] | År, månad, dag och timme. |
