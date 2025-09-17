@@ -3,7 +3,7 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: 553d0c90160cb12b8b32d3540c58797e6fac2abb
+source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 0%
@@ -38,15 +38,13 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
 * **[!UICONTROL Manage]** undermeny:
 
-<!--  * **[!UICONTROL Portfolio Groups]:** Exits the new UI site and opens the legacy [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Portfolios] view > [!UICONTROL Portfolio Groups] tab. -->
+   * **[!UICONTROL Portfolios]:** Öppnar en ny [!UICONTROL Portfolios]-vy som visar alla portföljer för annonsören. Du kan hantera dina portföljer från den här vyn. Du kan öppna en lista med tilldelade begränsningar och visa prestanda och dispositionsinformation för alla portföljer.
 
-* **[!UICONTROL Portfolios]:** Öppnar en ny [!UICONTROL Portfolios]-vy som visar alla portföljer för annonsören. Du kan hantera dina portföljer från den här vyn. Du kan öppna en lista med tilldelade begränsningar och visa prestanda och dispositionsinformation för alla portföljer.
+     Portföljinställningarna innehåller flikar för att tilldela mål och kampanjer, hantera utgifter, hantera begränsningar och kontrollera optimering. Endast användare med rollen Expertoptimering eller högre kan redigera inställningarna på fliken [!UICONTROL Control Optimization].
 
-  Portföljinställningarna innehåller flikar för att tilldela mål och kampanjer, hantera utgifter, hantera begränsningar och kontrollera optimering. Endast användare med rollen Expertoptimering eller högre kan redigera inställningarna på fliken [!UICONTROL Control Optimization].
+   * **[!UICONTROL Campaigns]:** Öppnar en ny [!UICONTROL Campaigns]-vy, som visar alla kampanjer för annonseraren. Ni kan tilldela kampanjer till portföljer och hantera begränsningstilldelningar för valda kampanjer. Du kan även hämta en rapport över datatabellens innehåll. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-* **[!UICONTROL Campaigns]:** Öppnar en ny [!UICONTROL Campaigns]-vy, som visar alla kampanjer för annonseraren. Ni kan tilldela kampanjer till portföljer och hantera begränsningstilldelningar för valda kampanjer. Du kan även hämta en rapport över datatabellens innehåll. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
-
-  Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Ad Groups]:** Öppnar en ny [!UICONTROL Ad Groups]-vy, som visar alla annonsgrupper för annonseraren. Du kan hantera begränsningstilldelningar för valda annonsgrupper. Du kan även hämta en rapport över datatabellens innehåll.
 
