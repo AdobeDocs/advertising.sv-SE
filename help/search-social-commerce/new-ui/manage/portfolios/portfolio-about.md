@@ -3,9 +3,10 @@ title: (Nytt användargränssnitt) Om portföljer
 description: Läs om portfolior.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
+source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Ni kan hantera era annonskampanjer tillsammans med portföljer (liknande investe
 
 Vissa användarroller kan skapa och konfigurera portföljer. Beroende på portföljtyp kan portföljinställningarna omfatta portföljmålet, de tilldelade kampanjerna, utgiftsstrategin, eventuella anbudsbegränsningar på portföljnivå samt modellerings- och optimeringsparametrarna. När du är redo för sökningar, sociala medier och Commerce för att börja optimera en portfölj ändrar du statusen till&quot;optimerad&quot;.
 
-Du kan också gruppera portföljer i portföljgrupper så att du kan visa sammansatta klicknings- och intäktsdata för hela gruppen. Skapa portföljgrupper från det [gamla användargränssnittet](/help/search-social-commerce/getting-started/ui-switch.md).
+Du kan också gruppera portföljer i [portföljgrupper](portfolio-group-manage.md) så att du kan visa sammansatta data för hela gruppen.
 
 Beroende på din roll kan du kanske generera prestandamuleringar, som använder prediktiv modellering för att identifiera den optimala utgiftspunkten och detaljerade prognosnoggrannhetsrapporter.<!-- Mention this now? In addition, all users can use the Spend Recommendation Tool to identify the optimal budget distribution across portfolios. -->
 
