@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising Search, Social och Commerce
 user-guide-description: Den här användarboken förklarar de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att hantera, spåra och rapportera om dina annonskampanjer för Search, Social och Commerce.
 breadcrumb-title: Användarhandbok om Advertising Search, Social och Commerce
 index: true
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: aba643fb2d1d005a90ecec4f067714e9ec830627
 workflow-type: tm+mt
 source-wordcount: '1877'
 ht-degree: 2%
@@ -22,10 +22,10 @@ ht-degree: 2%
    + [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md)
    + Integrering med Adobe Experience Cloud {#integrations}
       + [Integrering med Adobe Experience Cloud lösningar och tjänster](/help/search-social-commerce/introduction/integrations.md)
-      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE){target="_blank"}
-      + [Integrering med Adobe Audience Manager (länk)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html?lang=sv-SE){target="_blank"}
-   + [Stöd för konsumentsekretess (länk)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
-   + [Profiler och riktlinjer (länk)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html?lang=sv-SE){target="_blank"}
+      + [Adobe [!DNL Analytics for Advertising] (link)](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}
+      + [Integrering med Adobe Audience Manager (länk)](https://experienceleague.adobe.com/docs/advertising/integrations/audience-manager/overview.html){target="_blank"}
+   + [Stöd för konsumentsekretess (länk)](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Profiler och riktlinjer (länk)](https://experienceleague.adobe.com/docs/advertising/policies/ad-requirements-policy.html){target="_blank"}
 + Komma igång {#getting-started}
    + [Implementeringsöversikt](/help/search-social-commerce/getting-started/implemention-overview.md)
    + [Systemkrav](/help/search-social-commerce/getting-started/system-requirements.md)
@@ -84,6 +84,7 @@ ht-degree: 2%
    + Hantera {#manage}
       + Portföljer {#portfolios}
          + [Om portföljer](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)
+         + [Hantera portföljgrupper](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)
          + [Skapa en portfölj](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-create.md)
          + [Duplicera en portfölj](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-duplicate.md)
          + [Redigera portföljinformation](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-edit.md)
@@ -91,11 +92,10 @@ ht-degree: 2%
          + [Portfolio-inställningar](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-settings.md)
          + [Visa information om portföljresultat](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-details.md)
          + [Hantera datavyrapporter från vyn [!UICONTROL Portfolios]](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
-         + [Hantera portföljgrupper](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-group-manage.md)
       + Kampanjer {#campaigns}
          + [Om vyn [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-about.md)
-         + [Tilldela kampanjer till en portfölj](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
-         + [Ta bort kampanjer från en portfölj](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+         + [Tilldela kampanjer till en portfölj](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+         + [Ta bort kampanjer från en portfölj](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
          + [Hantera begränsningstilldelningar för kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
          + [Hantera datavyrapporter från vyn [!UICONTROL Campaigns]](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
       + Annonsgrupper {#ad-groups}
@@ -119,7 +119,7 @@ ht-degree: 2%
             + [Klickspårningsformat för  [!DNL Yahoo! Japan Ads]](/help/search-social-commerce/tracking/formats-click-tracking-yahoo-japan.md)
             + [Klickspårningsformat för  [!DNL Yandex]](/help/search-social-commerce/tracking/formats-click-tracking-yandex.md)
          + [Valfria spårningsparametrar för klickspårnings-URL:er](/help/search-social-commerce/tracking/click-tracking-urls-optional-parameters.md)
-      + [Adobe Advertising-cookies (länk)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html?lang=sv-SE){target="_blank"}
+      + [Adobe Advertising-cookies (länk)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-advertising-cloud.html){target="_blank"}
       + [Spårningsparametern för AMO-ID (s_kwcid)](/help/search-social-commerce/tracking/amo-id-tracking-parameter.md)
    + Konverteringsspårning {#conversion-tracking}
       + [Alternativ för konverteringsspårning](/help/search-social-commerce/tracking/conversion-tracking-about.md)
