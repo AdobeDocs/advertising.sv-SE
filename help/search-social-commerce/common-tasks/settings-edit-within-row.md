@@ -3,9 +3,9 @@ title: Redigera inställningar direkt i en rad
 description: Lär dig hur du redigerar data i hanteringsvyer på raden.
 exl-id: 0b22a2ec-50c2-457d-8cea-a40943ee2a41
 feature: Search Common Tasks
-source-git-commit: 533484b8e2e462891d7d34091991047b2d9b62c7
+source-git-commit: dac4989bf58f823fee5ea1adf5f8d71348001a11
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 ## (Nytt användargränssnitt) Redigera inställningar i en rad
 
-1. Klicka inuti cellen för att aktivera den eller håll markören över värdet.
+1. Håll markören över raden och markera värdet. Beroende på kolumnen kan du behöva klicka på ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera") eller **[!UICONTROL ...]** > ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera") bredvid värdet. Om du vill byta namn på en entitet klickar du på namnet och väljer **[!UICONTROL Rename]**.
 
 1. Ändra värdet:
 
    * (Alternativ i en lista) Välj ett nytt alternativ i listan.
 
-   * (Frihandsvärden) Klicka på ![Redigera](/help/search-social-commerce/assets/edit-new.png "Redigera"), ändra värdet och klicka sedan på **Använd**.
+   * (Frihandsvärden) Ändra värdena och klicka sedan på **Använd**.
 
 
 ## (Äldre användargränssnitt) Redigera inställningar i en rad
