@@ -4,9 +4,9 @@ description: Läs om de senaste uppdateringarna och nya funktioner i Adobe Adver
 cloud: Experience Cloud
 product: advertising cloud
 solution: Advertising
-index: false
+index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 72d58ba602a8e34d94a94f2f4370d60d3f9860dc
+source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
 workflow-type: tm+mt
 source-wordcount: '1087'
 ht-degree: 0%
