@@ -3,7 +3,7 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 0%
@@ -94,45 +94,45 @@ ht-degree: 0%
 
       * Så här bifogar du befintliga annonser i kampanjen:
 
-      1. Klicka på **[!UICONTROL Select an Ad]**.
-
-      1. Gör något av följande:
-
-         * Så här lägger du till en annons i taget:
-
-            1. Klicka på **[!UICONTROL Select]bredvid annonsnamnet.**
-
-            1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och upprepar sedan processen.
-
-         * Så här lägger du till upp till 20 annonser i taget:
-
-            1. Markera kryssrutan ovanför annonslistan.
-
-            1. Markera kryssrutan bredvid varje annons som ska läggas till.
-
-            1. Klicka på **[!UICONTROL Attach]**.
-
-            1. Klicka på **[!UICONTROL Select]** bredvid annonsnamnet.
-
-      1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
-
-         1. Klicka på **[!UICONTROL Custom Schedule Ads]**.
+         1. Klicka på **[!UICONTROL Select an Ad]**.
 
          1. Gör något av följande:
 
-            * Om du vill lägga till en flygning klickar du på **[!UICONTROL Add Flight]** och anger sedan startdatum och slutdatum.
+            * Så här lägger du till en annons i taget:
 
-            * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
+               1. Klicka på **[!UICONTROL Select]bredvid annonsnamnet.**
 
-            * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
+               1. (Valfritt) För varje ytterligare annons som du vill bifoga klickar du på **[!UICONTROL Attach Another Ad]** och upprepar sedan processen.
 
-            * (När flera annonser har samma flygning) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och anger sedan den relativa vikt som varje annons ska roteras med, i procent.
+            * Så här lägger du till upp till 20 annonser i taget:
 
-              Den totala vikten måste vara lika med 100.
+               1. Markera kryssrutan ovanför annonslistan.
 
-         1. Klicka på **[!UICONTROL Continue]** i det övre högra hörnet.
+               1. Markera kryssrutan bredvid varje annons som ska läggas till.
 
-         1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
+               1. Klicka på **[!UICONTROL Attach]**.
+
+               1. Klicka på **[!UICONTROL Select]** bredvid annonsnamnet.
+
+         1. (Valfritt) Om du vill åsidosätta standardflygperioden och annonsrotationen för specifika annonser i placeringen:
+
+            1. Klicka på **[!UICONTROL Custom Schedule Ads]**.
+
+            1. Gör något av följande:
+
+               * Om du vill lägga till en flygning klickar du på **[!UICONTROL Add Flight]** och anger sedan startdatum och slutdatum.
+
+               * Om du vill lägga till en befintlig flygning i en annons klickar du på **[!UICONTROL +]** i annonsraden för flygkolumnen.
+
+               * Om du vill ta bort en befintlig flygning från en annons klickar du på **[!UICONTROL x]** i annonsraden för flygkolumnen.
+
+               * (När flera annonser har samma flygning) Om du vill rotera annonserna ojämnt klickar du på **[!UICONTROL Even Rotation]** i flyginformationen och anger sedan den relativa vikt som varje annons ska roteras med, i procent.
+
+                 Den totala vikten måste vara lika med 100.
+
+            1. Klicka på **[!UICONTROL Continue]** i det övre högra hörnet.
+
+            1. Granska flyginformationen och klicka sedan på **[!UICONTROL Save & Finish]**.
 
 >[!MORELIKETHIS]
 >
@@ -140,7 +140,7 @@ ht-degree: 0%
 >* [Redigera placeringar](placement-edit.md)
 >* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
->* [Pausa eller aktivera en placering](placement-pause-activate.md)
+>* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)

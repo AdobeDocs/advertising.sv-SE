@@ -3,9 +3,9 @@ title: Annonsinställningar för inbyggd bildskärm
 description: Se beskrivningar av tillgängliga annonsinställningar för inbyggda displayannonser.
 feature: DSP Ads
 exl-id: 64ce1946-072d-4ca9-b3a8-348987580403
-source-git-commit: 152ba89baa17264a74a1a2498e0140972a0470eb
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 **[!UICONTROL Call to Action]:** (Valfritt) Det steg som du vill att tittarna ska ta när annonsen har visats.
 
-**[!UICONTROL Advertiser Logo]:** (Valfritt) En 1:1-logotyp som ska inkluderas med annonsen för mer varumärkesigenkänning. Klicka på **[!UICONTROL Browse]**, leta upp filen på enheten eller i nätverket och klicka sedan på **[!UICONTROL Upload]**.
+**[!UICONTROL Advertiser Logo]:** (Valfritt) En logotyp med 1:1-proportioner som ska inkluderas med annonsen för mer varumärkesigenkänning. Klicka på **[!UICONTROL Browse]**, leta upp filen på enheten eller i nätverket och klicka sedan på **[!UICONTROL Upload]**.
 
 ### [!UICONTROL Pixel]
 
-Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
@@ -62,4 +62,4 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Skapa en annons](ad-create.md)
 >* [Visa en lista över placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
->* [DSP makron](/help/dsp/campaign-management/macros.md)
+>* [DSP-makron](/help/dsp/campaign-management/macros.md)

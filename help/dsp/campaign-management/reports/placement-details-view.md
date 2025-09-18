@@ -3,9 +3,9 @@ title: Visa Sites, Ads, Frequency och Inventory Details för en placering
 description: Lär dig hur du visar målwebbplatser, annonser, frekvens och inventeringsdata för en placering.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
 * **[!UICONTROL Ads]:** Alla annonser i placeringen.
 
-  Fliken [!UICONTROL Ads] innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan samt snabbåtgärdsknappar i varje rad, till exempel [!UICONTROL Pause] (så att du snabbt kan pausa en annons).
+  Fliken [!UICONTROL Ads] innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan samt snabbåtgärdsknappar i varje rad, till exempel [!UICONTROL View Ad Approvals].
 
 * **[!UICONTROL Frequency]:** Data för varje annonsfrekvensnivå för placeringen, inklusive:
    * annonsfrekvensen (t.ex. &quot;1&quot; för alla tillfällen då användaren såg en annons en gång)
@@ -36,7 +36,7 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
   Fliken [!UICONTROL Inventory] gör det möjligt att snabbt felsöka genom att visa prestandastatistik, som [!UICONTROL Auctions], [!UICONTROL Bids] och [!UICONTROL Win Rate]. Fliken innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan, och snabbåtgärdsknappar i varje rad, inklusive [!UICONTROL Edit], [!UICONTROL View Report] och [[!UICONTROL Auction Insights] för ytterligare felsökning](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Öppna [!UICONTROL Placement Inspector]
+## Öppna [!UICONTROL Placement Inspector] {#inspector-open}
 
 1. Öppna placeringsvyn för den överordnade kampanjen eller det överordnade paketet:
 
@@ -58,21 +58,21 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
       1. Klicka på det överordnade paketets namn.
 
-1. Håll markören över placeringsraden, klicka på **[!UICONTROL More]** och klicka sedan på ett alternativ:
-
-   * Klicka på **[!UICONTROL Sites]** om du vill visa alla platser som placeringsmålen gäller.
-
-   * Om du vill visa alla annonser på platsen klickar du på **[!UICONTROL Ads]**.
-
-   * Om du vill visa frekvensdata för placeringen klickar du på **[!UICONTROL Frequency]**.
-
-   * Om du vill visa alla avtal som placeringsmålen gäller klickar du på **[!UICONTROL Inventory]**.
+1. Håll markören över placeringsraden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Analyze]** > **[!UICONTROL Inspector]**.
 
 1. (Valfritt) [Ändra kolumnvyn](campaign-data-views-manage.md#column-view-change) om det behövs för att visa de mått som krävs.
 
 1. (Valfritt) Om du vill exportera data på en flik klickar du på ![Mer](/help/search-social-commerce/assets/more.png "Mer") i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
 
    Informationen sparas i webbläsarens standardmapp för hämtning som en rapport i XLSM-format.
+
+## Ta bort en annons från en placering från [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+
+1. [Öppna [!UICONTROL Placement Inspector]](#inspector-open).
+
+1. Klicka på fliken **[!UICONTROL Ads]**.
+
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Detach]** bredvid annonsnamnet.
 
 ## Felsökning av lager
 
@@ -90,5 +90,5 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](campaign-data-views-manage.md)

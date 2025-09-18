@@ -3,7 +3,7 @@ title: Visa annonsinställningar
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Följande inställningar gäller för vanliga displayannonser.
 
 ### [!UICONTROL Pixel]
 
-Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
@@ -68,4 +68,4 @@ Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 >* [Skapa en annons](ad-create.md)
 >* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
->* [DSP makron](/help/dsp/campaign-management/macros.md)
+>* [DSP-makron](/help/dsp/campaign-management/macros.md)

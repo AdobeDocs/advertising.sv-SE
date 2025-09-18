@@ -3,7 +3,7 @@ title: Arkivera eller arkivera en placering
 description: Lär dig hur du arkiverar eller avarkiverar en placering.
 feature: DSP Placements
 exl-id: 4304452d-4573-46b3-892e-299950a75d4f
-source-git-commit: ae1a58bd0aed430cd2914146dfb2850bc8125025
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -40,6 +40,6 @@ Du kan när som helst avarkivera en placering för att återställa dess tidigar
 
 >[!MORELIKETHIS]
 >
->* [Pausa eller aktivera en placering](placement-pause-activate.md)
+>* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)

@@ -3,7 +3,7 @@ title: Inställningar för mobilannonsering
 description: Se beskrivningar av tillgängliga annonsinställningar för mobilannonser.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Detta är samma som fältet **[!UICONTROL Height]**.
 
 ### [!UICONTROL Pixel]
 
-Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-attach-to-placement.md#attach-pixels-ads)&quot;.
+Alla befintliga pixlar för händelsespårning för placeringen bifogas automatiskt. Du kan frigöra befintliga pixlar och skapa nya vid behov, baserat på din spårningsbehov för den enskilda annonsen. **Tips!** Om du vill redigera tredjepartspixlar för spårning av annonser för flera annonser på en plats samtidigt i vyn [!UICONTROL Ad Tools] ska du läsa &quot;[Koppla tredjepartsspårning av pixlar till annonser i en placering](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md#attach-pixels-ads)&quot;.
 
 Följande inställningar gäller för varje pixel som du skapar eller redigerar.
 
@@ -106,4 +106,4 @@ Föråldrat
 >* [Skapa en annons](ad-create.md)
 >* [Visa en lista över placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
->* [DSP makron](/help/dsp/campaign-management/macros.md)
+>* [DSP-makron](/help/dsp/campaign-management/macros.md)

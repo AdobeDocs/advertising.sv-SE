@@ -3,7 +3,7 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 19be64303a0a86e916edacde439a852aac0a89f5
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Placements]** på undermenyn.
-1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Quick Edit]** bredvid placeringsnamnet.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Quick Edit]** bredvid placeringsnamnet.
 1. Redigera någon av de tillgängliga [placeringsinställningarna](placement-settings.md): **[!UICONTROL Placement Name]**, **[!UICONTROL Status]**, **[!UICONTROL Max Bid]** och **[!UICONTROL Budget]**.
 1. Klicka på **[!UICONTROL Apply]**.
 
@@ -43,7 +43,7 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 1. Klicka på **[!UICONTROL Placements]** på undermenyn.
 
-1. Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit]** bredvid placeringsnamnet.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit]** **[!UICONTROL Full Edit]** > bredvid placeringsnamnet.
 
 1. Redigera [placeringsinställningarna](placement-settings.md).
 
@@ -97,9 +97,9 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Duplicera en placering](placement-duplicate.md)
 >* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
 >* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
->* [Pausa eller aktivera en placering](placement-pause-activate.md)
+>* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)
+>* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

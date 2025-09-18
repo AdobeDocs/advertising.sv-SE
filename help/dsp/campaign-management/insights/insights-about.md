@@ -3,9 +3,9 @@ title: Om insikter
 description: Läs om prestandainsikter med visualiseringar.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: a098e99f26a4e7d472d4a391d2cd465fc8d4255b
+source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Fliken [!UICONTROL Household Conversion] innehåller hushållskonverteringsvärd
 * (Om du vill öppna insikter för alla kampanjer) Klicka på **[!UICONTROL Insights BETA]** på huvudmenyn.
 
 * (Om du vill öppna insikter för en viss kampanj, ett visst paket eller en viss placering) Klicka [!UICONTROL Campaigns] > [!UICONTROL Packages] bredvid enhetsnamnet i vyn [!UICONTROL Placements], **[!UICONTROL ...]** eller **[!UICONTROL Insights]**.
+
+* (Om du vill öppna insikter för en viss placering) Klicka på [!UICONTROL Campaigns] > [!UICONTROL Packages] > [!UICONTROL Placements] bredvid enhetsnamnet i vyn **[!UICONTROL ...]**, **[!UICONTROL Analyze]** eller **[!UICONTROL Insights]** .
 
 ## Använda filter på en tabb
 

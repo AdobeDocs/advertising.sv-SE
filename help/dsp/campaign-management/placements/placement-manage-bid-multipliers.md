@@ -1,18 +1,18 @@
 ---
-title: Hantera budmultiplikatorer för placeringar
-description: Lär dig skapa och redigera budmultiplikatorer för dina placeringsmål.
+title: Hantera budmultiplikationer för praktik
+description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 28f1b799daaa4e511abab1102a639e72b3a32d18
+source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Hantera budmultiplikatorer för placeringar
+# Hantera budmultiplikationer för praktik
 
-Du kan skapa och hantera budmultiplikatorer, som multiplicerar ett algoritmiskt beräknat bud för att öka eller minska budet, för dina befintliga placeringsmål på [kvalificerade måltyper](#bid-multiplier-by-target). Du kan antingen redigera budmultiplikatorvärden för en placering manuellt eller överföra ett kalkylblad med värden för en eller flera placeringar.
+Du kan skapa och hantera budmultiplikatorer, genom vilka ett algoritmiskt beräknat bud multipliceras för att öka eller minska anbudet, för dina befintliga placeringsmål på [godtagbara måltyper](#bid-multiplier-by-target). Du kan antingen manuellt redigera anbudsmultiplikatorvärden för en placering eller överföra ett kalkylblad med värden för en eller flera placeringar.
 
 Som standard är budmultiplikatorn för ett mål 1,00, vilket innebär att anbudet inte justeras för det målet. Värdena kan ligga mellan 0,10 och 10,00. En budmultiplikator på 0,5 minskar till exempel ett USD 6-bud till USD 3 (0,5 x 6). När en auktion kvalificerar sig för flera budmodifierare multipliceras alla tillämpliga budmultiplikatorer. Om Kalifornien till exempel har en budmultiplikator på 2 och San Francisco har en budmultiplikator på 3, är den sista budmultiplikatorn för annonser som körs i San Francisco 6.
 
@@ -34,7 +34,7 @@ Du kan antingen redigera värden manuellt eller överföra ett kalkylblad för e
 
 1. Klicka på **[!UICONTROL Placements]** på undermenyn.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Bid Multiplier]** bredvid placeringsnamnet.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit]** > **[!UICONTROL Bid Multiplier]** bredvid placeringsnamnet.
 
 1. Justera budmultiplikaterna för giltiga mål:
 
@@ -46,13 +46,13 @@ Du kan antingen redigera värden manuellt eller överföra ett kalkylblad för e
 
       1. Klicka på **[!UICONTROL CSV File Edit]** uppe till höger.
 
-      1. Antingen a) klickar du på **[!UICONTROL Download Template]** och redigerar filen eller så redigerar du en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+      1. Du kan antingen a) klicka på **[!UICONTROL Download Template]** och redigera filen eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
 
-         Hämtade kalkylblad innehåller ett ark för varje måltyp (t.ex. Land, Källa och Webbplatskategori). Endast befintliga budmultiplikatorer med värden &lt; 1,0 eller > 1,0 inkluderas.
+         Nedladdade kalkylblad innehåller ett ark för varje måltyp (t.ex. Land, Källor och Platskategori). Endast befintliga budmultiplikatorer med värden &lt; 1.0 eller > 1.0 inkluderas.
 
          * Om du vill lägga till en budmultiplikator för ett befintligt mål anger du målet med samma syntax som visas i användargränssnittet och motsvarande budmultiplikatorvärde.
 
-         * Om du vill ta bort en budmodifierare ställer du in värdet för budmultiplikatorn till 1,0 eller tar bort all information för raden.
+         * Om du vill ta bort en budmodifierare anger du multiplikatorvärdet 1.0 eller tar bort all information för raden.
 
          ![Exempelrad i en fil med flera offertkalkylblad](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exempelrad i en fil med flera anbud")
 
@@ -76,7 +76,7 @@ Ladda upp ett kalkylblad om du vill använda samma värden på alla markerade pl
 
 1. Överför en CSV-fil med budmultiplikatorvärden om du vill skriva över alla befintliga värden för alla valda placeringar.
 
-   1. Antingen a) klickar du på **[!UICONTROL Download Template]** och redigerar filen eller så redigerar du en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
+   1. Du kan antingen a) klicka på **[!UICONTROL Download Template]** och redigera filen eller b) redigera en mall som hämtats tidigare. Spara den redigerade filen på enheten eller i nätverket.
 
       Nedladdade kalkylblad innehåller ett ark för varje måltyp (t.ex. Land, Källor och Platskategori). Endast befintliga budmultiplikatorer med värden &lt; 1.0 eller > 1.0 inkluderas.
 
@@ -86,15 +86,15 @@ Ladda upp ett kalkylblad om du vill använda samma värden på alla markerade pl
 
       ![Exempelrad i en fil med flera offertkalkylblad](/help/dsp/assets/bid-multiplier-spreadsheet.png "Exempelrad i en fil med flera anbud")
 
-   1. Klicka på **[!UICONTROL Next]** för att gå till avsnittet [!UICONTROL Upload File] och antingen a) dra och släpp den redigerade filen i rutan eller b) klicka i rutan för att välja filen från enheten eller nätverket.
+   1. Klicka på **[!UICONTROL Next]** om du vill gå till avsnittet [!UICONTROL Upload File] och antingen a) dra och släppa den redigerade filen i rutan eller b) klicka inuti rutan för att välja filen från enheten eller nätverket.
 
    1. Verifiera överförda data i avsnittet [!UICONTROL Review & Submit] och klicka sedan på **[!UICONTROL Save]**.
 
-## Måltyper som är berättigade till budmultiplikatorer {#bid-multiplier-by-target}
+## Måltyper som är berättigade för budmultiplikatorer {#bid-multiplier-by-target}
 
-Du kan endast konfigurera budmodifierare för inkluderade mål, inte exkluderade mål.
+Du kan bara konfigurera budmodifierare för inkluderade mål, inte exkluderade mål.
 
-* **Geomål**: geografi (länder, stater och städer), postnummer och DMA:er
+* **Geografiska mål**: geografi (länder, stater och städer), postnummer och DMA-nummer
 
 * **Lagermål**: källor och flöden för offentligt lager och [!UICONTROL On Demand] lager
 
@@ -106,19 +106,19 @@ Du kan endast konfigurera budmodifierare för inkluderade mål, inte exkluderade
 
 ## Maximalt antal buddelsemultiplikatorer per måltyp {#bid-multiplier-limits-by-target}
 
-Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett begränsat antal mål. Du kan till exempel ange anbudsmultiplikatorer för upp till 20 landsmål. Det högsta antalet mål för varje måltyp som kan ha budmultiplikatorer anges nedan.
+Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett begränsat antal mål. Du kan t.ex. ange budmultiplikatorer för upp till 20 landsmål. Det högsta antalet mål för varje måltyp som kan ha budmultiplikatorer anges nedan.
 
 | Kategori | Parameter | Högsta antal |
 | -------- | --------- | ----- |
 | Geo | Land | 20 |
-| Geo | Tillstånd | 100 |
+| Geo | Läge | 100 |
 | Geo | Ort | 100 |
 | Geo | Metro | 100 |
 | Geo | Postnummer | 100 |
 | Lager | Källor | 100 |
 | Lager | Feeds | 100 |
 | Webbplatser | Platskategori | 100 |
-| Sites | Webbplatser/appar | 100 |
+| Webbplatser | Webbplatser/appar | 100 |
 | Målgrupp | Segment | 500 |
 | Målgrupp | Ämnen | 100 |
 | Säker varumärkesexponering | Ads.txt | Ej tillämpligt |
@@ -128,4 +128,4 @@ Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett begränsat 
 >* [Om placeringshantering](placement-about.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
->* [Monteringsinställningar](placement-settings.md)
+>* [Placeringsinställningar](placement-settings.md)
