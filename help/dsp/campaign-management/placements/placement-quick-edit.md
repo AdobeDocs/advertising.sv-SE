@@ -38,4 +38,4 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 >* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)
