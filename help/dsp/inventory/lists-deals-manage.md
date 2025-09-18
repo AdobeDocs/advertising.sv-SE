@@ -1,26 +1,21 @@
 ---
 title: Hantera avtalslistor
 description: Lär dig hur du skapar och hanterar avtalslistor för målinriktning mot placeringar.
-feature: DSP Private Inventory, DSP Deal IDs, DSP Placements
-source-git-commit: 60c808fe1b78443a55d900a1a424442bd388e872
+feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
+exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
+source-git-commit: 166117045e52a92d9c1fda4eeca9320c9e0bf3f1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
 
 # Hantera avtalslistor
 
-<!-- Will later add fct for On-Demand deals, too, so keep title generic. Later add "DSP On Demand Inventory to feature metadata -->
+Du kan skapa och hantera listor med privata erbjudanden och [!DNL On Demand] erbjudanden för placering. Använd eller exkludera specifika privata avtalslistor i placeringsinställningarna.
 
-Ni kan skapa och hantera listor med privata erbjudanden för riktad marknadsföring. Använd eller exkludera specifika privata avtalslistor i placeringsinställningarna.
-
-I anpassade rapporter kan du a) filtrera data efter avtalslistor och b) inkludera [!UICONTROL Feed]-dimensionen [!UICONTROL Deal list] i [!UICONTROL Build Your Report]-avsnittet.
-
-<!--
-What's New:  
-
-In custom reports, you can now a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section.
+<!-- Later:
+In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
 ## Visa en avtalslista
@@ -35,9 +30,15 @@ In custom reports, you can now a) filter data by deal lists and deals and b) inc
 
 1. Klicka på **[!UICONTROL Create]i det övre högra hörnet.**
 
+1. Ange **[!UICONTROL List name]** och välj **[!UICONTROL Inventory Type]** (*[!UICONTROL Private]* eller *[!UICONTROL On Demand]*).
+
 1. Klicka på **[!UICONTROL Add Deals].**
 
-1. (Alternativ) Filtrera listan efter utgivaren, SSP eller transaktionstyp (*[!UICONTROL Guaranteed]* eller *[!UICONTROL Non-Guaranteed]*) eller sök i listan efter avtalsnamn eller erbjudande-ID.
+1. (Valfritt) Filtrera eller sök efter erbjudanden:
+
+   * För privata avtal filtrerar du listan efter utgivare, SSP eller typ av avtal (*[!UICONTROL Guaranteed]* eller *[!UICONTROL Non-Guaranteed]*), eller söker i listan efter namn på avtal eller avtal-ID.
+
+   * Filtrera listan efter utgivaren, regionen eller medietypen för [!UICONTROL On Demand] erbjudanden eller sök i listan efter transaktionsnamn.
 
 1. Markera kryssrutan bredvid varje erbjudande som ska ingå i listan.
 
