@@ -3,9 +3,10 @@ title: Hantera begränsningstilldelningar för kampanjer
 description: Lär dig hur du tilldelar begränsningar till kampanjer.
 feature: Search Optimization, Search Campaign Management
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 
 1. Markera kryssrutan bredvid varje kampanj som du ska tilldela en enskild begränsning.
 
-1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL Constraint]** i verktygsfältet.
+1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
 1. Markera begränsningen.
 
@@ -65,7 +66,7 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 
 1. Markera kryssrutan bredvid varje kampanj som du vill ta bort tilldelningar av begränsningar från.
 
-1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/unassign.png "Ta bort tilldelning") **[!UICONTROL Unassign]** > **[!UICONTROL Constraint]** i verktygsfältet.
+1. Klicka på **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
 1. Klicka på **[!UICONTROL Confirm]**.
 
@@ -88,4 +89,3 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 >[!MORELIKETHIS]
 >
 >* [Hantera begränsningstilldelningar för annonsgrupper](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-

@@ -3,9 +3,9 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a180f99dc28fb1ed9abbd7654914fdd75e642c37
+source-git-commit: de1b498963abd5670dee3dbc326206fa0708a7fa
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,37 @@ Varje sida innehåller huvudmenyn och andra uppgiftsbaserade menyer.
 
 ## Huvudmenyn
 
-Det nya användargränssnittet har en ny huvudmeny till vänster som organiserar uppgifter efter arbetsfas (Planera, Hantera, Granska, Konfigurera). Ytterligare undermenyer och alternativ från det gamla användargränssnittet kommer att läggas till senare.
+Det nya användargränssnittet har en ny huvudmeny till vänster som organiserar uppgifter efter arbetsfas. Ytterligare undermenyer och alternativ från det gamla användargränssnittet kommer att läggas till senare.
 
 ### Alternativ på huvudmenyn
 
 Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when available -->
 
-* **[!UICONTROL Dashboard]** Öppnar en konfigurerbar [!UICONTROL Dashboard]-vy med prestandavisualiseringar för alla dina portföljer.
+* **[!UICONTROL Dashboard]** undermeny:
+
+   * **[!UICONTROL Overview]** Öppnar en konfigurerbar [!UICONTROL Dashboard]-vy med prestandavisualiseringar för alla dina portföljer.
+
+   * **[!UICONTROL Recommendations]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+
+* **[!UICONTROL Alerts & Notifications]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Custom Alerts].
+
+* **[!UICONTROL Goals]** undermeny:
+
+   * **[!UICONTROL Objectives]** Öppnar en ny [!UICONTROL Objectives]-vy, där du kan visa alla dina befintliga mål och skapa, redigera och ta bort mål.
+
+   * **[!UICONTROL Conversions]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Admin] > [!UICONTROL Conversions].
+
+   * **[!UICONTROL Conversion Value Rules]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Conversion Value Rules].
+
+   * **[!UICONTROL Constraints]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Constraints].
 
 * **[!UICONTROL Plan]** undermeny:
 
-   * **[!UICONTROL Objectives]** Öppnar en ny [!UICONTROL Objectives]-vy, där du kan visa alla dina befintliga mål och skapa, redigera och ta bort mål. Målinställningarna är samma som inställningarna i det äldre användargränssnittet vid [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL New Objectives Beta].
-
    * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Spend Planner]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+
+   * **[!UICONTROL Label Classification]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Label Classifications].
 
 * **[!UICONTROL Manage]** undermeny:
 
@@ -46,27 +64,59 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
      Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Ad Groups]:** Öppnar en ny [!UICONTROL Ad Groups]-vy, som visar alla annonsgrupper för annonseraren. Du kan hantera begränsningstilldelningar för valda annonsgrupper. Du kan även hämta en rapport över datatabellens innehåll.
+   * **[!UICONTROL Ad Groups]:** Öppnar en ny [!UICONTROL Ad Groups]-vy, som visar alla annonsgrupper för annonseraren. Du kan hantera begränsningstilldelningar för valda annonsgrupper. Du kan även hämta en rapport över datatabellens innehåll.
 
-  Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
 
-* **[!UICONTROL Review]** undermeny:
+   * **[!UICONTROL Ads]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* **[!UICONTROL Reports]** undermeny:
 
    * **[!UICONTROL Insights]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Insights].
 
-   * **[!UICONTROL Reports]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
-
-   * **[!UICONTROL Recommendations]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Recommendations & Publisher Insights].
+   * **[!UICONTROL Scheduled Reports]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Reports].
 
    * **[!UICONTROL Spreadsheet Feeds]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Spreadsheets].
 
    * **[!UICONTROL History Logs]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Insights & Reports] > [!UICONTROL Change History].
 
+* **[!UICONTROL Target]** undermeny:
+
+   * **[!UICONTROL Audience]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+
+   * **[!UICONTROL Keywords]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Placements]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+* **[!UICONTROL Assets]** undermeny:
+
+   * **[!UICONTROL Auto Targets]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Creatives]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Extensions]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+
+   * **[!UICONTROL Shopping]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].<!-- Should this go to Campaigns > Products? -->
+
 * **[!UICONTROL Set Up]** undermeny:
 
    * **[!UICONTROL Accounts]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
-   * **[!UICONTROL Audiences]**: Avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Audiences].
+<!-- What's happenening to these?
+
+Campaigns > ACM
+Campaigns > Bulksheets
+Campaigns > Asset Library
+
+Insights > Notification Center (doesn't open from Dashboard > Alerts & Notifications)
+
+Tools > Conversion Upload Setup
+Tools > Generic Tracking
+Tools > Inventory Selection
+Import Campaigns
+
+Tools > Admin > Data Source Setup
+-->
 
 ### Dölj huvudmenyn
 

@@ -4,9 +4,9 @@ description: Lär dig mer om tillgängliga data på din prestandakonsol.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: 7065a4051449dc5834e5bca950f9c4aca36b9000
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Med den anpassningsbara [!UICONTROL Dashboard] kan du övervaka prestandan för 
 * **Största flyttal - \[valt mätvärde\]:** De 10 portföljer som har den största förändringen till ett angivet mätvärde jämfört med föregående tidsperiod.
 
 * **Utgiftsdistribution:** Utgiftsdistribution per annonsnätverk.
+
+## Visa din prestandapanel
+
+* Klicka på **[!UICONTROL Dashboard]>[!UICONTROL Overview]** på huvudmenyn.
 
 ## Anpassa din prestandapanel
 

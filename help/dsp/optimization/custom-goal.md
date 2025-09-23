@@ -3,9 +3,9 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ Anta till exempel att tre konverteringsvärden är relevanta för ett specifikt 
 
 När du har [skapat ett anpassat mål](#custom-goal-create) kan du [tilldela det till ett paket](/help/dsp/campaign-management/packages/package-settings.md) för rapportering och algoritmisk optimering med Adobe Sensei.
 
-Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktförändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt i DSP inom två dagar. Mer information om viktrekommendationer finns i kapitlet om optimeringsguiden för nya mål (Beta), som du hittar i avsnitten om sökning, sociala medier och Commerce.
+Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktförändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt i DSP inom två dagar. Mer information om viktrekommendationer finns i Optimization Guide-kapitlet om mål, som finns i Search, Social och Commerce.
 
 ## Skapa ett anpassat mål {#custom-goal-create}
 
 Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Search, Social, & Commerce]-konto med samma Adobe Experience Cloud organisations-ID, inifrån klientinställningarna för [!DNL Search, Social, & Commerce]. Om ditt DSP-konto inte är länkat till ett [!DNL Search, Social, & Commerce]-konto kontaktar du ditt Adobe-kontoteam.
 
-1. Logga in på [!DNL Advertising Search, Social, & Commerce] (användare i Nordamerika) [`https://enterprise-na.efrontier.com`](https://enterprise-na.efrontier.com) eller (alla andra användare) [`https://enterprise-intl.efrontier.com`](https://enterprise-intl.efrontier.com).
+1. [Logga in på Advertising Search, Social och Commerce](/help/search-social-commerce/getting-started/sign-in.md){target="_blank"}.
 
 1. Kontrollera att mätvärdena du vill inkludera i ditt mål har spårats, att de är tillgängliga i produkten och att de innehåller ett visningsnamn:
 
-   1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Admin] >[!UICONTROL Conversions]** på huvudmenyn.
+   1. Klicka på **[!UICONTROL Goals]** > **[!UICONTROL Conversions]** på huvudmenyn.
+
+      Vyn Konverteringar öppnas i en ny webbläsare eller på en ny flik i webbläsaren.
 
    1. Leta reda på måttet och se till att **[!UICONTROL Show in UI and Reports]** är aktiverat för måttet.
 
@@ -45,30 +47,24 @@ Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Sear
 
    1. Om måttet inte har något värde i kolumnen **[!UICONTROL Display Name]** klickar du i cellen, anger visningsnamnet och klickar på **[!UICONTROL Apply].**
 
-1. Skapa det anpassade målet som ett *mål*:
+1. [Skapa det anpassade målet som ett *mål*](/help/search-social-commerce/new-ui/goals/objectives/objective-create.md){target="_blank"}. Tänk på följande:
 
-   1. Klicka på **[!UICONTROL Search, Social, & Commerce]** > **[!UICONTROL Optimization]>[!UICONTROL New Objectives Beta]** på huvudmenyn.
+   * För mål som används för Advertising DSP-paket måste målnamnet föregås av&quot;ADSP_&quot;, t.ex.&quot;ADSP_Registrations&quot;. Prefixet är inte skiftlägeskänsligt.
 
-   1. Klicka på ![Skapa](/help/dsp/assets/create-search-ui.png "Skapa") i verktygsfältet.
+   * Inkludera endast mätvärden som härrör från DSP. Alla mätvärden som kan tillskrivas Search, Social och Commerce eller något annat annonsnätverk ignoreras.
 
-   1. Ange målinställningarna, inklusive tillhörande mått och deras relativa numeriska vikter för icke-mobila enheter, och spara sedan målet. Tänk på följande:
+   * Minst ett mått måste ha måtttypen *[!UICONTROL Goal]*.
 
-      * För mål som används för Advertising DSP-paket måste målnamnet föregås av&quot;ADSP_&quot;, t.ex.&quot;ADSP_Registrations&quot;. Prefixet är inte skiftlägeskänsligt.
+   * DSP använder icke-mobila vikter för alla annonser. Alla angivna mobilvikter ignoreras.
 
-      * Inkludera endast mätvärden som härrör från DSP. Alla mätvärden som kan tillskrivas Search, Social och Commerce eller något annat annonsnätverk ignoreras.
+   >[!NOTE]
+   >
+   >* [!DNL Analytics] anpassade händelser följer den här namnkonventionen: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exempel: `custom_event_16_examplersid`
+   >* [!DNL Analytics] dimensioner och segment är inte tillgängliga för Adobe Advertising-optimering.
 
-      * Minst ett mått måste ha måtttypen *[!UICONTROL Goal]*.
-
-      * DSP använder icke-mobila vikter för alla annonser. Alla angivna mobilvikter ignoreras.
-
-      >[!NOTE]
-      >
-      >* [!DNL Analytics] anpassade händelser följer den här namnkonventionen: `custom_event_[*event #*]_[*Analytics report suite ID*]`. Exempel: `custom_event_16_examplersid`
-      >* [!DNL Analytics] dimensioner och segment är inte tillgängliga för Adobe Advertising-optimering.
-
-      >[!TIP]
-      >
-      >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Mer information finns i [Bästa metoder för att skapa ett anpassat mål](#custom-goal-best-practices).
+   >[!TIP]
+   >
+   >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Mer information finns i [Bästa metoder för att skapa ett anpassat mål](#custom-goal-best-practices).
 
 I DSP-paketinställningarna för paket som använder optimeringsmålet [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)] ingår nu målnamnet i listan [!UICONTROL Custom Goals]. När du väljer målet som anpassat mål för ett paket innehåller listan [!UICONTROL Conversion Metric] alla målvärden för målet.
 

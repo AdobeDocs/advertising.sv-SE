@@ -3,9 +3,9 @@ title: Tilldela kampanjer till en portfölj
 description: Lär dig hur du inkluderar kampanjer i portfolior för optimering.
 exl-id: 62876260-dadd-4f4b-a5b9-1e04914e3a89
 feature: Search Campaign Management
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 1. Markera kryssrutan bredvid varje kampanj som ska tilldelas en enskild portfölj.
 
-1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** i verktygsfältet.
+1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL Existing Portfolio]** i verktygsfältet för gruppåtgärder.
 
 1. Välj portföljen.
 
@@ -38,7 +38,7 @@ Alla kampanjtyper och annonsnätverk är inte berättigade till optimering. Se e
 
 1. Markera kryssrutan bredvid varje kampanj som du vill skapa den nya portföljen för.
 
-1. Klicka på ![Fler åtgärder](/help/search-social-commerce/assets/more-actions.png "Fler åtgärder") **[!UICONTROL More Actions]** > ![Tilldela](/help/search-social-commerce/assets/assign.png "Tilldela") **[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]** i verktygsfältet.
+1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL New Portfolio]** i verktygsfältet för gruppåtgärder.
 
 1. Ange portföljinställningarna på skärmen [!UICONTROL Create Portfolio].
 

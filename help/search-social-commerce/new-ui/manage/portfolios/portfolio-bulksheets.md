@@ -3,9 +3,10 @@ title: Redigera portföljinställningar gruppvis med hjälp av kalkylbladsfiler
 description: Lär dig hur du redigerar inställningarna för flera portföljer med hjälp av en kalkylbladsfil.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
+source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Ett portföljblad är en fil som innehåller portföljinställningar i ett visst
 
 * Ett skrivskyddat [!UICONTROL Instructions]-kalkylblad med information om hur du redigerar fälten.
 
-* En [!UICONTROL Portfolio Settings Edit]-flik med en rad per inkluderad portfölj. Du kan redigera fälten efter behov, spara filen lokalt och sedan [överföra den redigerade filen](#portfolio-bulksheet-upload) till Sök, Socialt och Commerce.
+* En [!UICONTROL Portfolio Settings Edit]-flik med en rad per inkluderad portfölj. Du kan redigera fälten efter behov, spara filen lokalt och sedan [överföra den redigerade filen](#portfolio-bulksheet-upload) till Sök, Socialt och Commerce. De redigerbara fälten markeras i färg.
 
 ## Hämta en kalkylbladsfil med portföljinställningar
 
