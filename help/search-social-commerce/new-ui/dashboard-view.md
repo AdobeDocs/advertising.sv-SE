@@ -4,7 +4,7 @@ description: Lär dig mer om tillgängliga data på din prestandakonsol.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: ef79f52b-cc97-4f36-8a44-50ffd3377c8b
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 6fe42303c8499dbff6d5964d4074e98a2f2486ba
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Med den anpassningsbara [!UICONTROL Dashboard] kan du övervaka prestandan för alla dina portföljer <!-- May later include other entity-level data --> så att du kan identifiera potentiella prestandaproblem att undersöka och lösa. Du kan visa data varje dag, vecka eller månad under de senaste 90 dagarna.
+Med den anpassningsbara [!UICONTROL Dashboard] > [!UICONTROL Overview] kan du övervaka prestandan för alla dina portföljer <!-- May later include other entity-level data --> så att du kan identifiera potentiella prestandaproblem att undersöka och lösa. Du kan visa data varje dag, vecka eller månad under de senaste 90 dagarna.
 
 [!UICONTROL Dashboard] innehåller följande visuella rapporter:
 
