@@ -1,7 +1,7 @@
 ---
-source-git-commit: 2b719e00418010b1f8e21b8956ad55b2ffc7dee1
+source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 AMO-ID spårar varje unik annonskombination på en mindre detaljerad nivå och används för dataklassificering av [!DNL Analytics] och Customer Journey Analytics samt för inmatning av reklamstatistik (som visningar, klick och kostnader) från Adobe Advertising.
 
-För [!DNL Analytics] lagras AMO-ID:t i en [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=sv-SE) - eller rVar-dimension (AMO-ID).
+För [!DNL Analytics] lagras AMO-ID:t i en [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) - eller rVar-dimension (AMO-ID).
 
-För Customer Journey Analytics lagras AMO-ID:t i egenskapen `trackingCode` för objektet `conversionDetails`, som är en del av [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension].
+För Customer Journey Analytics lagras AMO-ID:t i egenskapen `trackingCode` för objektet `conversionDetails`, som är en del av [the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 AMO-ID:t kallas även `s_kwcid`, som ibland uttalas som [!DNL squid].
 
@@ -41,7 +41,7 @@ Parametrarna varierar beroende på annonsnätverk, men följande parametrar är 
 
 * `{userid}` är ett unikt användar-ID som tilldelats annonsören.
 
-* `{sid}` ersätts med det numeriska ID:t för annonserarens annonsnätverkskonto: **&#x200B; för [!DNL Google Ads], &#x200B;** [!DNL Microsoft Advertising] för *,* 45[!DNL Meta] för *, 86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (utgått) eller *106*  för [!DNL Pinterest] (borttagen).
+* `{sid}` ersätts med det numeriska ID:t för annonserarens annonsnätverkskonto: ** för [!DNL Google Ads], **[!DNL Microsoft Advertising] för *,* 45[!DNL Meta] för *, 86* för [!DNL Yahoo! Display Network], *87* för [!DNL Naver], *88* for [!DNL Baidu], *90* for [!DNL Yandex], *94* for [!DNL Yahoo! Japan Ads], *105* for [!DNL Yahoo Native] (utgått) eller *106*  för [!DNL Pinterest] (borttagen).
 
 ##### [!DNL Baidu]
 
@@ -115,14 +115,14 @@ där:
 
 >[!NOTE]
 >
-> För konton med kampanjer utan alternativet [!UICONTROL Auto Upload] för spårning som inte redan har migrerats till det nya formatet måste du manuellt uppdatera varje landningssidesuffix så att det innehåller ovanstående format.
-> &#x200B;>Under tiden fungerar de äldre formaten enligt följande:
+> För konton med kampanjer utan alternativet [!UICONTROL Auto Upload] för spårning som inte redan har migrerats till det nya formatet måste du uppdatera varje suffix för landningssidan manuellt så att det innehåller det ovanstående formatet.
+> >Under tiden fungerar de äldre formaten enligt följande:
 >* Sökkampanjer:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{OrderItemId}!!{CampaignId}!{AdGroupId}`
 >* Shoppingkampanjer (med [!DNL Microsoft Merchant Center]):
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}!{CriterionId}`
 >* Målgruppskampanjer:
->  &#x200B;>  `s_kwcid=AL!{userid}!10!{AdId}`
+>  >  `s_kwcid=AL!{userid}!10!{AdId}`
 
 ##### [!DNL Yahoo! Japan Ads]
 
