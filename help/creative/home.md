@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: d8030203f7bfce3baf18d50369067157f7cb0991
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 24 september 2025 | Dynamiska kreatörer | Ett självbetjäningsarbetsflöde finns nu tillgängligt för att generera dynamiska annonser med data från en feed-fil som skickas via en annonsmall. | Se [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md), som innehåller länkar till alla steg. |
 | 3 september 2025 | Creative-optimering och schemaläggning för [!DNL experiences] | Menyalternativet eller knappen för att konfigurera kreativ optimering och schemaläggning kallas nu [!UICONTROL Creative Optimization] i stället för [!UICONTROL Edit Schedules] eller [!UICONTROL Add Schedules]. | Se &quot;[Anpassa kreativ optimering och schemaläggning för en riktad upplevelse](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; och &quot;[Anpassa kreativ optimering och schemaläggning för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
 |  | Annonsrotation och planering för [!DNL experiences] | En ny kreativ rotationstyp, [!UICONTROL Sequencing], roterar de associerade kreativa paketen i en angiven ordning (med paket 1 i tur och ordning, paket 2 i sekunden osv.), med ett angivet totalt antal visningar för varje paketsekvens. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt eller b\) som en slinga tillbaka till det första paketet. | Se &quot;[Anpassa kreativ optimering och schemaläggning för en riktad upplevelse](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; och &quot;[Anpassa kreativ optimering och schemaläggning för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
 | 4 augusti 2025 | Målgrupper för annonsen [!DNL experiences] | Mer komplex logik för att inkludera och utesluta målgrupper - samma logik som finns i Advertising DSP - finns i målgruppsinställningarna. När du konfigurerar målgruppsmål för en annonsupplevelse kan du nu konfigurera flera segmentgrupper och ange om användare ska inkluderas eller exkluderas baserat på logiken.<br><br>Du kan se det totala antalet målgruppsmedlemmar för varje segment samt antalet aktiva och totala målgruppsmedlemmar för varje segmentgrupp.<br><br>Med det här alternativet är det befintliga alternativet för [!UICONTROL Split targets to create nodes] inte längre tillgängligt.<br><br>Om du har haft befintliga upplevelser med målgruppsnoder som har flera segment som mål, används nu målgrupper med alternativet [!UICONTROL Include Any], och användaren måste tillhöra endast ett av segmenten för att kunna göra ett intryck. Tidigare var användaren tvungen att tillhöra alla segment. | Se [Lägg till en målnod på den sista nivån](/help/creative/experiences/experience-target-node-add-final.md), [Infoga en målnod mellan noder](/help/creative/experiences/experience-target-node-add-inner.md) och [Lägg till en målnod på samma nivå](/help/creative/experiences/experience-target-node-add-sibling.md). |
