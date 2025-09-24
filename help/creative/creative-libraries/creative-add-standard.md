@@ -60,7 +60,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 ### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil](flexible-creative-upload).>
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil] (flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
