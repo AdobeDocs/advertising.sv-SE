@@ -3,9 +3,9 @@ role: User
 user-guide-title: Advertising Creative Guide
 user-guide-description: Läs om de viktigaste funktionerna, arbetsmomenten, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Creative Guide
-source-git-commit: 53e565307b55be2aabd847643b05a701dd1f2b93
+source-git-commit: 3ec3bcf1b3be7acffef4cf0ec8dd170b32987d33
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,9 @@ ht-degree: 0%
 + Introduktion {#introduction}
    + [Om Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}<!-- This is a duplicate link to this file, so using an absolute link here instead of a relative link. Github doesn't allow duplicate links via relative links. -->
 + Creative Libraries {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
@@ -30,6 +31,10 @@ ht-degree: 0%
          + [Redigera standardkreatörer](/help/creative/creative-libraries/creative-edit-standard.md)
          + [Kreativa standardinställningar](/help/creative/creative-libraries/creative-settings-standard.md)
          + [HTML5 - kreativ specifikation](/help/creative/creative-libraries/html5-creative-specification.md)
+      + Dynamiska kreatörer {#dynamic-creatives}
+         + [Lägg till dynamiska kreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md)
+         + [Redigera dynamiska kreatörer](/help/creative/creative-libraries/creative-edit-dynamic.md)
+         + [Dynamiska kreativa inställningar](/help/creative/creative-libraries/creative-settings-dynamic.md)
       + [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
       + [Bifoga kreatörer i programpaket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicera kreatörer](/help/creative/creative-libraries/creative-duplicate.md)
@@ -72,10 +77,16 @@ ht-degree: 0%
    + [Hämta data från vyn [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Byta namn på en annonstagg](/help/creative/experiences/experience-tag-rename.md)
    + [Ta bort en upplevelse](/help/creative/experiences/experience-delete.md)
++ Feeds {#feeds}
+   + [Hantera resursfiler](/help/creative/feeds/asset-manage.md)
+   + [Hantera flödesmallar](/help/creative/feeds/feed-template-manage.md)
+   + [Hantera kataloger](/help/creative/feeds/catalog-manage.md)
+   + [Spåra status för katalogbearbetningsjobb](/help/creative/feeds/job-status-track.md)
++ [Hantera dynamiska annonsmallar](/help/creative/ad-templates/ad-template-manage.md)
 + Resultatrapporter {#reports}
    + [Resultatrapporter på erfarenhetsnivå](/help/creative/experiences/experience-performance-details.md)
    + [Anpassad Creative-rapport](/help/creative/report-custom-creative.md)
 + [Återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 + [Få hjälp](/help/creative/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target="_blank"}
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 3c4fcd4cf63003cf10775ebec23ae3f68d3bbd07
+source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Biblioteken kan innehålla:
 
    * **Standardkreatörer:** Du kan överföra och hantera kreatörer i [olika format](#creative-creative-formats). För varje kreatör anger du standardspråket för varje annons som du kopplar till den kreativa sidan och standardstartsidan som öppnas när en användare klickar på en annons som innehåller den kreativa sidan. Du kan också ange etiketter som ska användas som filter i olika vyer inom [!DNL Creative] och som kolumnvärden i [!UICONTROL Custom Creative Report] när du inkluderar med dimensionen [!UICONTROL Creative Label].
 
-   * **Dynamiska kreatörer:** (endast befintliga Adobe Advertising DCO-kunder) Administratörsanvändare kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
+   * **Dynamiska kreatörer:** Du kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
 * **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser och *dynamiska visningspaket* som består av dynamiskt genererade displayannonser.
 
@@ -64,7 +64,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. Alla videokreatörer omkodas automatiskt av DSP som VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
@@ -94,7 +94,7 @@ Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupple
 
 ### Format för dynamiska annonser
 
-Administratörsanvändare kan dynamiskt generera kreatörer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
+Du kan dynamiskt generera kreatörer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer som har migrerat från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
 
 ## [!UICONTROL Creative Libraries]-vyerna
 
@@ -144,17 +144,19 @@ På fliken [!UICONTROL Standard Ads] visas alla standardalternativ som du har sk
 
 #### [!UICONTROL Dynamic Ads]
 
-Fliken [!UICONTROL Dynamic Ads] visar alla dynamiska kreatörer som har skapats dynamiskt för dina kreativa kataloger, förutom alla dynamiska kreatörer som du [tagit bort manuellt](creative-delete.md) från fliken [!UICONTROL Dynamic Ads]. Om du [manuellt duplicerade](creative-duplicate.md) alla dynamiska kreatörer sedan en katalog senast bearbetades, innehåller listan med användare för den katalogen även dubblettkreatörerna.
+Fliken [!UICONTROL Dynamic Ads] visar alla dynamiska kreatörer som har skapats dynamiskt för dina kreativa kataloger, förutom alla dynamiska kreatörer som du [tagit bort manuellt](creative-delete.md) från fliken [!UICONTROL Dynamic Ads]. Om du [manuellt duplicerade](creative-duplicate.md) alla dynamiska kreatörer<!-- I don't think existing ads are deletd via feeds, so this probably isn't true: since a catalog was last processed --> innehåller listan med användare för den katalogen även dubblettkreatörerna.
 
-Data för varje kreatör omfattar den kreativa typen, den kreativa storleken, antalet kataloger som den kreativa delen tillhör samt skapandedatumet. Tabelläget innehåller även kolumner för mallen som den kreativa personen genererades genom och antalet erbjudanden.
+Data för varje kreatör omfattar den kreativa typen, den kreativa storleken, antalet kataloger som den kreativa delen tillhör samt skapandedatumet. Tabelläget innehåller även kolumner för annonsmallen som den kreativa delen genererades genom och antalet erbjudanden.
 
 >[!NOTE]
 >
->Varje gång en katalog bearbetas uppdateras data för de befintliga dynamiska kreatörerna för den katalogen.
+>Varje gång en katalog bearbetas uppdateras data för de befintliga dynamiska kreatörerna för den katalogen.<!-- Verify this!!! And is there anything more to say w/regard to  -->
 
 ##### Tillgängliga åtgärder
 
-Möjligheten att skapa och redigera dynamiska kreatörer är för närvarande bara tillgängligt för Adobe Account Team. Alla användare kan dock:
+* [Lägga till dynamiska kreatörer i ett bibliotek](creative-add-dynamic.md)
+
+* [Redigera en dynamisk kreativ](creative-edit-dynamic.md)
 
 * [Förgranska dynamiska kreatörer](creative-preview.md)
 
