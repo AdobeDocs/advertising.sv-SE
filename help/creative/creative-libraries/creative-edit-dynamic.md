@@ -2,9 +2,9 @@
 title: Redigera en dynamisk kreatör i ett kreativt bibliotek
 description: Lär dig hur du redigerar en dynamisk kreativ i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
       1. Markera paketen och klicka sedan på **[!UICONTROL Attach Creative to Bundles]**.
 
-   * Om du bara vill spara annonserna klickar du på **[!UICONTROL Save]** och sedan på **[!UICONTROL Save]** igen.
+   * Om du vill spara annonserna och avsluta konfigurationen klickar du på **[!UICONTROL Save]** och sedan på **[!UICONTROL Save]** igen.
 
 >[!MORELIKETHIS]
 >

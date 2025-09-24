@@ -2,7 +2,7 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -16,7 +16,6 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
 >[!NOTE]
 >
 > Du kan bara använda varje feed-fil för en katalog.
-
 
 ## Filkrav
 

@@ -2,9 +2,9 @@
 title: Arbetsflöde för dynamiska annonser
 description: Läs mer om arbetsflödet för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. [Skapa dynamiska annonspaket](/help/creative/creative-libraries/bundle-manage.md) som du kan koppla alla samtidigt till en annonsupplevelse.
 
-1. Skapa dynamiska annonsupplevelser med [med målinriktning](/help/creative/experiences/experience-create-targeting.md) eller [utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md) och [tilldela dem till era dynamiska annonsupplevelser](/help/creative/experiences/experience-assign-creative-bundles.md).
+1. Skapa dynamiska annonsupplevelser [med målinriktning](/help/creative/experiences/experience-create-targeting.md) eller [utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md) och [tilldela de kreativa paketen till upplevelserna](/help/creative/experiences/experience-assign-creative-bundles.md).
 
 1. [Generera och implementera taggar för annonsupplevelser](/help/creative/experiences/experience-tag-export.md) för att köra dem som annonser i din DSP.
 

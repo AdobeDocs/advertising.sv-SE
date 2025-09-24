@@ -2,9 +2,9 @@
 title: Hantera flödesmallar
 description: Lär dig hur du hanterar flödesmallar.
 feature: Creative Dynamic Creatives
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Du kan använda en feed-mall med flera annonsmallar.
 
 1. Håll markören över mallraden och klicka på **[!UICONTROL Duplicate]**.
 
-1. På skärmen [!UICONTROL Duplicate Template] anger du en unik **[!UICONTROL Template Name]**. Om du duplicerar en mall som har skapats av någon annan väljer du **[!UICONTROL Advertiser]**. Om du vill kan du redigera andra inställningar för [feed-mallen](#feed-template-settings) efter behov.
+1. Ange en unik [!UICONTROL Duplicate Template] på skärmen **[!UICONTROL Template Name]**. Om du duplicerar en mall som har skapats av någon annan väljer du **[!UICONTROL Advertiser]**. Om du vill kan du redigera andra inställningar för [feed-mallen](#feed-template-settings) efter behov.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -89,7 +89,7 @@ Hämtade feedmallar är i zippat Microsoft Excel-kalkylbladsformat (XLSX).
 
 ### Inställningar för [!UICONTROL Field Mapping]
 
-Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdelen.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Du måste inkludera minst ett fält för feed-fil som har markerats som [!UICONTROL Is Unique]. Klicka på **[!UICONTROL +]** om du vill lägga till en fältmappning. Klicka på **[!UICONTROL +]** om du vill ta bort den senaste fältmappningen.
+Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdelen.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Minst ett feed-filfält måste markeras som [!UICONTROL Is Unique]. Klicka på **[!UICONTROL +]** om du vill lägga till en fältmappning. Klicka på **[!UICONTROL +]** om du vill ta bort den senaste fältmappningen.
 
 **[!UICONTROL Field Name]:** Fältet i feed-filen.
 
