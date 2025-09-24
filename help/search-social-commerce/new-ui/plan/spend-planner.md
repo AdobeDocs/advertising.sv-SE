@@ -2,9 +2,10 @@
 title: Använda [!UICONTROL Spend Planner]
 description: Lär dig hur du använder [!UICONTROL Spend Planner] för att identifiera den optimala utgiftsfördelningen mellan portföljer.
 feature: Search Optimization, Search Portfolios, Search Simulations
-source-git-commit: 723d50d11cd76471ac41d3bb007af4f5d1bfa32f
+exl-id: 966b8968-68b6-4385-9efb-e639a6729362
+source-git-commit: ff4deeb1cfbcd863e5b0ef2ac9b2f7124906c3dd
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -29,13 +30,13 @@ Rapporten om utgiftsrekommendationer innehåller följande data:
 
 * Ett stapeldiagram för var och en av portföljerna som visar den rekommenderade dagliga utgiftsfördelningen (kostnad) och den förväntade intäktsfördelningen eller klickfördelningen när du behåller det aktuella totala dagliga utgiftsmålet för alla valda portföljer, eller för ett föreslaget totalt utgiftsmål. Du kan också använda de rekommenderade utgiftsmålen för de valda portföljerna, vilket påverkar budgivning under nästa budkörningscykel.
 
-## (Nytt användargränssnitt) Generera en [!UICONTROL Spend Planner]-rapport från vyn [!UICONTROL Manage] > [!UICONTROL Simulations]
+## (Nytt användargränssnitt) Generera en [!UICONTROL Spend Planner]-rapport
 
-<!-- The path will probably change, so then update the heading and instructions -->
+1. Gör något av följande:
 
-1. Klicka på **[!UICONTROL Plan]>[!UICONTROL Simulations]** på huvudmenyn.
+   * Klicka på **[!UICONTROL Plan]>[!UICONTROL Spend Planner]** på huvudmenyn.
 
-1. I verktygsfältet ovanför datatabellen klickar du på ![Spend Planner](/help/search-social-commerce/assets/spend-planner-icon.png "Spend Planner").
+   * Klicka på **[!UICONTROL Plan]>[!UICONTROL Simulations]** på huvudmenyn. I verktygsfältet ovanför datatabellen klickar du på ![Spend Planner](/help/search-social-commerce/assets/spend-planner-icon.png "Spend Planner").
 
    Verktyget [!UICONTROL Spend Recommendation] öppnas i det äldre användargränssnittet.
 
