@@ -2,9 +2,9 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: 85fea6483ccf5db27d5730b5ebb2fb2b0957302d
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Annonsmall
 
-**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från.&lt;!— även ett alternativ för att ladda upp en egen annonsmall — måste du lägga till specifikationerna för det —>
+**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från.<!-- also an option to upload your own ad template. Need to add the specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Antalet erbjudanden som kan skapas för varje annons.&lt;!— Klargör detta - är detta frekvensbegränsningen (max antal gånger en annons kan användas)? —>
+**[!UICONTROL Number of offers (Max 50)]:** Antalet erbjudanden som kan skapas för varje annons.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Kataloger
 
-**[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.&lt;!— även ett alternativ för att överföra en egen feed-mall — måste du lägga till specifikationerna för det —>
+**[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
 
-**\[Kataloger\]**: En eller flera av de angivna annonserarnas kataloger som annonser ska genereras från.&lt;!— även ett alternativ för att överföra din egen katalog (Kan du inte hitta den katalog du behöver? Ladda ned en mall, skapa en egen och ladda upp den från din enhet.) — need to add the specfor that —>
+**\[Kataloger\]**: En eller flera av de angivna annonserarens kataloger som annonser ska genereras från.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
