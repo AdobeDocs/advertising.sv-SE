@@ -13,7 +13,7 @@ You can create a catalog of dynamic ads using an existing ad template (created f
 
 ## Manually (?) create a dynamic ad
 
-<!-- Is this technically or strategically different than setting up feeds and templates? Clarify automated processes vs. manual processes. -->
+<!-- This is different than setting up feeds and templates. -->
 
 1. In the main menu, click **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]**.
 
@@ -59,3 +59,22 @@ See https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=EfficientFrontier
 
 **Number of offers (Max 50):** The number of XXXXX that can be created for each ad.<!-- Clarify this -- is this the frequency cap (max number of times an ad may be served)? -->
 
+
+
+
+**[!UICONTROL backgroundimage]**: The column in the feed file that represents the `backgroundimage` variable. For dynamic values, use the XXX format <!-- ??? --><!-- Demo shows her using `!{background_image}` -- not sure if the actual column name includes the symbols or if it's just `background_image` but the formatting indicates that we're plugging in cell data to create the ads? --> For a static background image that will be used for all ads created, enter <!-- what? How would you indicate this?-->
+
+<!-- I think we'll be listing the column names from the specified feed file, and we'll accept only specific column names for this attribute, so the user will get a small drop-down list to choose from. -->
+
+**[!UICONTROL description]**: The <!-- default? --> ad description.<!-- used how? -->
+
+**[!UICONTROL ctaText]**: <!-- default? --> The text for the ad's call to action<!-- necessarily a call to action button? -->.
+
+**[!UICONTROL clickUrl]**: The variable that allows click-tracking redirects from the generated<!-- ?? --> ads.<!-- Or is this the default landing page for all ads? --> The default landing page URLs are populated from the uploaded feed file creative unit, but you can change the default URLs.
+
+Note: When you include the creative in an experience, you can replace the default
+value for any of the click URLs with a custom landing page URL to generate a derivation
+of the base creative.
+
+Note: A click tag allows [!DNL Creative] to assign a tracking code to the ad and report
+the click-through data.
