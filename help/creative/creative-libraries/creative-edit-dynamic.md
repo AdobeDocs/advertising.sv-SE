@@ -2,9 +2,9 @@
 title: Redigera en dynamisk kreatör i ett kreativt bibliotek
 description: Lär dig hur du redigerar en dynamisk kreativ i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,28 @@ ht-degree: 0%
 1. Håll markören över den kreativa raden och klicka på **[!UICONTROL Edit]**.
 
 1. Redigera de [dynamiska annonsinställningarna](creative-settings-dynamic.md).
+
+1. Klicka på **[!UICONTROL Continue]** om du vill förhandsgranska de kreatörer som ska genereras. Du kan göra något av följande i förhandsgranskningen:
+
+   * Använd filtren ovanför förhandsvisningsområdet om du vill filtrera kreatörerna efter katalog, filtervärde <!-- explain more--> och annonsstorlek.
+
+   * Om du vill söka efter en produkt med hjälp av dess unika ID i sökfältet nedanför förhandsvisningsområdet.
+
+   * Om du vill ändra vilka kolumner som visas klickar du på ![Kolumnfilter](/help/creative/assets/custom-columns.png "Kolumnfilter") under förhandsvisningsområdet.
+
+   * Markera kryssrutan för raden om du vill förhandsgranska en viss kreativ.
+
+   * Ändra innehållet:
+
+      * Om du vill redigera värdet för en cell i tabellen klickar du inuti cellen och redigerar värdet. Klicka utanför cellen eller tryck på **[!DNL Enter]** om du vill spara ändringarna.
+
+      * Om du vill markera en enskild produkt som standard <!--Explain what this means. --> håller du pekaren över raden och klickar på **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
+
+      * (När annonsen innehåller mer än ett erbjudande) Om du vill markera flera produkter som standard markerar du raderna (upp till antalet erbjudanden) och klickar på **[!UICONTROL Set as Default]** i verktygsfältet för gruppåtgärder.
+
+      * Om du vill ta bort en produkt från katalogen håller du pekaren över raden och klickar på **[!UICONTROL ...]** > **[!UICONTROL Delete Row]**.
+
+      * (När annonsen innehåller mer än ett erbjudande) Om du vill ta bort flera produkter från katalogen markerar du raderna (upp till antalet erbjudanden) och klickar på **[!UICONTROL Delete Row]** i verktygsfältet för gruppåtgärder.
 
 1. Spara kreatörerna:
 

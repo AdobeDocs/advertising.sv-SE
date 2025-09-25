@@ -2,9 +2,9 @@
 title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: 9aeb35ec5aba1c6c4c7683487ed3c0a0e22accb8
+source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
    1. Välj villkoren för vilka katalograder som ska användas för att skapa annonser.
 
-   1. Mappa varje attribut (dynamiskt annonsfält) i den angivna annonsmallen till en kolumn i den angivna feed-filen (katalogetikett).
+   1. Mappa varje attribut (dynamiskt annonsfält) i den angivna annonsmallen till en kolumn i den angivna feed-filen (katalogetikett) eller ange statiska värden.
 
    1. Klicka på **[!UICONTROL Continue]** om du vill förhandsgranska de kreatörer som ska genereras. Du kan göra något av följande i förhandsgranskningen:
 
@@ -75,7 +75,7 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
       * Om du vill söka efter en produkt med hjälp av dess unika ID i sökfältet nedanför förhandsvisningsområdet.
 
-      * Om du vill ändra vilka kolumner som visas klickar du på ![Kolumnfilter](/help/creative/assets/custom-columns. "Kolumnfilter") under förhandsvisningsområdet.
+      * Om du vill ändra vilka kolumner som visas klickar du på ![Kolumnfilter](/help/creative/assets/custom-columns.png "Kolumnfilter") under förhandsvisningsområdet.
 
       * Markera kryssrutan för raden om du vill förhandsgranska en viss kreativ.
 
