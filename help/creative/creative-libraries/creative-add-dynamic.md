@@ -2,9 +2,9 @@
 title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 1cee56f8bd40f94b1f78536725fb8eab249b9915
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
 >[!PREREQUISITES]
 >
->Innan du kan lägga till dynamiska kreatörer i ett kreativt bibliotek måste du slutföra andra steg - som att skapa annonsmallen, överföra resurser och (dynamiska annonser från HTML5) skapa en flödesmall och en katalog. Se [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md).
+>Innan du kan lägga till dynamiska kreatörer i ett kreativt bibliotek måste du slutföra andra steg - som att skapa annonsmallen, överföra resurser och (dynamiska annonser från HTML5) skapa en flödesmall och en katalog. Se [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md).
 
 <!-- This does't work for me 9/24 -- I still have to select a catalog:
 
@@ -41,11 +41,21 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
 ## Lägg till dynamiska kreatörer med en dynamisk HTML5-annonsmall
 
-1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
+1. Gör något av följande:
 
-1. Klicka på biblioteksnamnet.
+   * Från ett kreativt bibliotek:
 
-1. På fliken **[!UICONTROL Creatives]** klickar du på **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+      1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
+
+      1. Klicka på biblioteksnamnet.
+
+      1. På fliken **[!UICONTROL Creatives]** klickar du på **[!UICONTROL Create]** > **[!UICONTROL Creatives]** > **[!UICONTROL Dynamic Ad]**.
+
+   * Från en annonsmall:
+
+      1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]** på huvudmenyn.
+
+      1. Håll markören över annonsmallsraden och klicka på **[!UICONTROL Create Dynamic Ad]**.
 
 1. Ange [dynamiska annonsinställningar](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
@@ -79,4 +89,4 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 >
 >* [Dynamiska kreativa inställningar](creative-settings-dynamic.md)
 >* [Redigera en dynamisk kreativ i ett kreativt bibliotek](creative-edit-dynamic.md)
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
