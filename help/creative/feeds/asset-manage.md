@@ -2,9 +2,9 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
      Du kan överföra en eller flera bilder i en ZIP-fil.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Överföra en resursfil
+
+>[!NOTE]
+>
+>I stället för att överföra resursfiler kan du överföra en katalog direkt när du [lägger till dynamiska kreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md). Alla kataloger som du skapar där blir tillgängliga i vyn [!UICONTROL Catalogs] för framtida bruk.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Feeds]** på huvudmenyn.
 
@@ -77,7 +81,7 @@ Alla ZIP-filer dekomprimeras automatiskt. När du överför en kalkylbladsfil vi
 
 >[!MORELIKETHIS]
 >
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Hantera flödesmallar](/help/creative/feeds/feed-template-manage.md)
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)
 >* [Hantera dynamiska annonsmallar](/help/creative/ad-templates/ad-template-manage.md)

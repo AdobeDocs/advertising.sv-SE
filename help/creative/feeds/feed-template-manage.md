@@ -2,9 +2,9 @@
 title: Hantera flödesmallar
 description: Lär dig hur du hanterar flödesmallar.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Feed-mallar mappar fält i dina feed-filer med fält på Advertising Creative-serverdel. Dynamiska HTML5-annonser, men inte statiska HTML5-annonser, kräver en matningsmall för att skapa dynamiska annonser.
+Flödesmallar mappar fält i dina matningsfiler/kataloger med fält på Advertising Creative-serverdel. Dynamiska HTML5-annonser, men inte statiska HTML5-annonser, kräver en matningsmall för att skapa dynamiska annonser.
 
 Du kan använda en feed-mall med flera annonsmallar.
 
@@ -101,7 +101,7 @@ Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdel
 
 >[!MORELIKETHIS]
 >
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Hantera resursfiler](/help/creative/feeds/asset-manage.md)
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)
 >* [Spåra status för katalogbearbetningsjobb](/help/creative/feeds/job-status-track.md)

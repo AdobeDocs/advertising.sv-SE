@@ -2,9 +2,9 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 0%
 
 ## Annonsmall
 
-**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från.<!-- also an option to upload your own ad template. Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall.<!-- Need to add the specs for that -->
 
 **[!UICONTROL Number of offers (Max 50)]:** Antalet erbjudanden som kan skapas för varje annons.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
 
 ## Kataloger
 
-**[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.<!-- also an option to upload your own feed template.  Need to add the specs for that -->
+**[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.
 
-**\[Kataloger\]**: En eller flera av de angivna annonserarens kataloger som annonser ska genereras från.<!-- also an option to upload your own catalog (Can't find the Catalog you need? Download a template, create your own, and upload it from your device.). Nneed to add the specs for that -->
+**\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen.<!-- Need to add the specs for that -->
 
 ### [!UICONTROL Attributes Mapping]
 
@@ -75,4 +75,4 @@ Mappa varje attribut (dynamiskt annonsfält) i den angivna annonsmallen till en 
 >
 >* [Lägg till dynamiska kreatörer i ett kreativt bibliotek](creative-add-dynamic.md)
 >* [Redigera dynamiska kreatörer i ett kreativt bibliotek](creative-edit-dynamic.md)
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)

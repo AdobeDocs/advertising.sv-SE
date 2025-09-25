@@ -2,10 +2,10 @@
 title: Hantera dynamiska annonsmallar
 description: Läs mer om xxxx.
 feature: Creative Templates
-source-git-commit: 5828fada55ba9506589df6088ea58b896084700c
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 1%
+source-wordcount: '403'
+ht-degree: 0%
 
 ---
 
@@ -18,6 +18,10 @@ Skapa en separat annonsmall för varje kombination av annonstyp (statisk HTML5 e
 <!-- EXPLAIN MORE:  Is this like repropagating a feed file through a template, or can you just change some things? Is generating an ad template a one-time thing, using the existing feed file, but you might later update the file and re-propagation doesn't happen automatically? Clarify the use cases for each.-->
 
 ## Skapa en dynamisk annonsmall
+
+>[!NOTE]
+>
+>Du kan också överföra en dynamisk annonsmall när du [lägger till dynamiska kreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md). Alla annonsmallar som du skapar där blir tillgängliga i vyn [!UICONTROL Ad Templates] för framtida bruk.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]** på huvudmenyn.
 
@@ -56,6 +60,10 @@ Skapa en separat annonsmall för varje kombination av annonstyp (statisk HTML5 e
 1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.<!-- Confirm -->
 
 ## Skapa dynamiska annonser från en annonsmall
+
+>[!NOTE]
+>
+>Du kan också [lägga till dynamiska kreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md) inifrån ett kreativt bibliotek.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Ad Templates]** på huvudmenyn.
 
@@ -113,7 +121,7 @@ Så här överför du en fil:
 
 >[!MORELIKETHIS]
 >
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Hantera resursfiler](/help/creative/feeds/asset-manage.md)
 >* [Hantera flödesmallar](/help/creative/feeds/feed-template-manage.md)
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)

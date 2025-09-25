@@ -2,7 +2,7 @@
 title: Spåra status för katalogbearbetningsjobb
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: e08a3c841e733840058f85a7ecc67571631314b3
+source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 0%
@@ -40,4 +40,4 @@ By clicking on "View Failure" on the right, you can see further details about th
 >[!MORELIKETHIS]
 >
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)
->* [Arbetsflöde för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
+>* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)

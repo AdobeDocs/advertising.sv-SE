@@ -1,17 +1,43 @@
 ---
-title: Arbetsflöde för dynamiska annonser
-description: Läs mer om arbetsflödet för hantering av dynamiska annonser.
+title: Arbetsflöden för dynamiska annonser
+description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
-# Arbetsflöde för dynamiska annonser
+# Arbetsflöden för dynamiska annonser
 
-1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser
+Du kan konfigurera dynamiska annonser på två sätt:
+
+* Arbetsflöde 1: Ladda upp en annonsmall och en annonsvariationskatalog direkt i de dynamiska annonsinställningarna när du lägger till dynamiska annonser i ett kreativt bibliotek. Du kan hämta en befintlig feed-mall för att skapa katalogen.
+
+  Använd det här arbetsflödet när samma person kan tillhandahålla all information (med undantag för flödesmallen) för att skapa annonserna. De överförda filerna är fortfarande tillgängliga för framtida bruk.
+
+* Arbetsflöde 2: Skapa en annonsmall och annonsvariationskataloger i separata vyer och lägg sedan in dynamiska annonser separat i en kreatör med hjälp av de redan tillgängliga annonsmallarna och katalogerna.
+
+  Använd det här arbetsflödet när olika personer utför olika uppgifter eller när du bara vill slutföra en uppgift åt gången.
+
+## Arbetsflöde 1
+
+1. [Skapa dynamiska kreatörer](/help/creative/creative-libraries/creative-add-dynamic.md) för ett kreativt bibliotek. Ladda upp en annonsmall och kataloger för dynamiska annonser i HTML5.
+
+1. Använd de dynamiska kreatörerna för annonsupplevelser:
+
+   1. [Skapa dynamiska annonspaket](/help/creative/creative-libraries/bundle-manage.md) som du kan koppla alla samtidigt till en annonsupplevelse.
+
+   1. Skapa dynamiska annonsupplevelser [med målinriktning](/help/creative/experiences/experience-create-targeting.md) eller [utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md) och [tilldela de kreativa paketen till upplevelserna](/help/creative/experiences/experience-assign-creative-bundles.md).
+
+   1. [Generera och implementera taggar för annonsupplevelser](/help/creative/experiences/experience-tag-export.md) för att köra dem som annonser i din DSP.
+
+      Om du vill använda en annonsupplevelse som en annons i Adobe Advertising DSP överför du annonsupplevelsetaggen till en Advertising DSP-kampanj. Om du vill använda en annonsupplevelse som en annons i en annan DSP implementerar du taggen för annonsupplevelsen i den DSP-versionen.
+
+## Arbetsflöde 2
+
+1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser.
 
 1. Konfigurera era annonselement:
 
@@ -33,10 +59,12 @@ ht-degree: 0%
 
 1. [Skapa dynamiska kreatörer](/help/creative/creative-libraries/creative-add-dynamic.md) för ett kreativt bibliotek. Använd en angiven annonsmall och angivna kataloger för dynamiska HTML5-annonser.
 
-1. [Skapa dynamiska annonspaket](/help/creative/creative-libraries/bundle-manage.md) som du kan koppla alla samtidigt till en annonsupplevelse.
+1. Använd de dynamiska kreatörerna för annonsupplevelser:
 
-1. Skapa dynamiska annonsupplevelser [med målinriktning](/help/creative/experiences/experience-create-targeting.md) eller [utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md) och [tilldela de kreativa paketen till upplevelserna](/help/creative/experiences/experience-assign-creative-bundles.md).
+   1. [Skapa dynamiska annonspaket](/help/creative/creative-libraries/bundle-manage.md) som du kan koppla alla samtidigt till en annonsupplevelse.
 
-1. [Generera och implementera taggar för annonsupplevelser](/help/creative/experiences/experience-tag-export.md) för att köra dem som annonser i din DSP.
+   1. Skapa dynamiska annonsupplevelser [med målinriktning](/help/creative/experiences/experience-create-targeting.md) eller [utan målinriktning](/help/creative/experiences/experience-create-no-targeting.md) och [tilldela de kreativa paketen till upplevelserna](/help/creative/experiences/experience-assign-creative-bundles.md).
 
-   Om du vill använda en annonsupplevelse som en annons i Adobe Advertising DSP överför du annonsupplevelsetaggen till en Advertising DSP-kampanj. Om du vill använda en annonsupplevelse som en annons i en annan DSP implementerar du taggen för annonsupplevelsen i den DSP-versionen.
+   1. [Generera och implementera taggar för annonsupplevelser](/help/creative/experiences/experience-tag-export.md) för att köra dem som annonser i din DSP.
+
+      Om du vill använda en annonsupplevelse som en annons i Adobe Advertising DSP överför du annonsupplevelsetaggen till en Advertising DSP-kampanj. Om du vill använda en annonsupplevelse som en annons i en annan DSP implementerar du taggen för annonsupplevelsen i den DSP-versionen.
