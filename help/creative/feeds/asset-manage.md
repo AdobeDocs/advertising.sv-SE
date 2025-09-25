@@ -2,9 +2,9 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
 
      Referera bilden med formatet `images/image_name` (till exempel `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM --> för bilder som du ska överföra
 
-   * De associerade bildresurserna i JPEG-, JPG- eller PNG-format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
+   * De associerade bildresurserna i GIF-, JPEG-, JPG- eller PNG-format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 
   Du kan överföra en enskild XLSX-fil, en enda bildfil eller en enskild ZIP-fil som innehåller en kombination av XLSX- och bildfiler.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Statiska HTML5-annonser:
 
-   * En bildresurs per annons i JPG-, JPEG- eller PNG-format.
+   * En bildresurs per annons i GIF-, JPG-, JPEG- eller PNG-format.
 
      Du kan överföra en eller flera bilder i en ZIP-fil.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 

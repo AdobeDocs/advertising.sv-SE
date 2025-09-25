@@ -2,9 +2,9 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,35 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Det kreativa bibliotek där annonserna ska skapas. Om du skapar annonserna inifrån [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] är biblioteksnamnet redan markerat och skrivskyddat.
 
-**[!UICONTROL Ad Template Size]:** Annonsdimensionerna för annonsmallen som annonsen ska skapas från. Om du först väljer en specifik [!UICONTROL Ad Template] markeras värdet automatiskt.
+**[!UICONTROL Ad Template Size]:** [annonsdimensionerna](/help/creative/creative-libraries/creative-sizes.md) för annonsmallen som annonsen ska skapas från. Om du först väljer en specifik [!UICONTROL Ad Template] markeras värdet automatiskt.
 
 ## Annonsmall
 
-**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall.<!-- Need to add the specs for that -->
+**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall och välj malltypen (*Statisk* eller *Dynamisk*). En överförd mall måste vara i ZIP-format och innehålla HTML5-filer och malldefinitionsfil (template.TDF). <!-- Need to add more specs for that -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Antalet erbjudanden som kan skapas för varje annons.<!-- Clarify this: is this the frequency cap (max number of times an ad may be served)? -->
+**[!UICONTROL Number of offers (Max 50)]:** Antalet produkter som ska visas i en karusell.
 
 ## Kataloger
 
 **[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.
 
-**\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen.<!-- Need to add the specs for that -->
+**\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen.
+
+Överförda kataloger måste vara i ZIP-format och innehålla följande:
+
+* En eller flera feed-filer i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX).<!-- Need to add more specs for that -->
+
+* Bildresurser i GIF-, JPEG-, JPG- eller PNG-format
+
+* (Valfritt) Videomaterial i MP4- eller WEBM-format
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: De typer av kolumner i feed-filen som det måste finnas värden för för att skapa annonser: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Obs!** De här inställningarna fungerar oberoende av de avancerade inställningarna för annonsupplevelser.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->De typer av kolumner i feed-filen som det måste finnas värden för för att skapa annonser: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Obs!** De här inställningarna fungerar oberoende av de avancerade inställningarna för annonsupplevelser.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 
-Mappa varje attribut (dynamiskt annonsfält) i den angivna annonsmallen till en kolumn i den angivna feed-filen (katalogetikett).
+Mappa varje attribut (dynamiskt annonsfält) i den angivna annonsmallen till en kolumn i den angivna katalogen (katalogetikett).
 
 >[!MORELIKETHIS]
 >

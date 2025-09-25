@@ -2,14 +2,16 @@
 title: Arbetsflöden för dynamiska annonser
 description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: 02ac4175c1d91f4f6d65bb2d683a7909f06a287c
+source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 # Arbetsflöden för dynamiska annonser
+
+*Användare med behörighet att skapa dynamiska annonser*
 
 Du kan konfigurera dynamiska annonser på två sätt:
 
@@ -22,6 +24,11 @@ Du kan konfigurera dynamiska annonser på två sätt:
   Använd det här arbetsflödet när olika personer utför olika uppgifter eller när du bara vill slutföra en uppgift åt gången.
 
 ## Arbetsflöde 1
+
+>[!PREREQUISITES]
+>
+>* Lägg till mallar i HTML5-format
+>* Produktkataloger i CSV-, TSV- eller Microsoft Excel-format (XLSX)
 
 1. [Skapa dynamiska kreatörer](/help/creative/creative-libraries/creative-add-dynamic.md) för ett kreativt bibliotek. Ladda upp en annonsmall och kataloger för dynamiska annonser i HTML5.
 
