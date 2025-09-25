@@ -6,7 +6,7 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: b8ad4fd6475a22d7d27e98116227f747ddb33720
+source-git-commit: 976a43cf4a7f8b9efb13e56c43c5f68ad8148a07
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 0%
