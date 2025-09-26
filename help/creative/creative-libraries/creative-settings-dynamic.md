@@ -2,7 +2,7 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 0%

@@ -2,9 +2,9 @@
 title: Hantera flödeskataloger
 description: Lär dig hantera flödeskataloger.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Bearbetade flödeskataloger är uppsättningar med potentiella annonsvariationer som skapas från en angiven feedfil och en angiven feedmall. Dynamiska HTML5-annonser, men inte statiska HTML5-annonser, kräver en katalog för att skapa dynamiska annonser.
 
-Innan du kan använda annonsvariationerna för att [lägga till dynamiska annonser i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md) måste du bearbeta katalogen.
+Bearbeta katalogen innan du kan skapa annonsvariationer och [lägga till dynamiska annonser i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md). Du kan uppdatera feed-filen senare och bearbeta om katalogen för att skapa en ny uppsättning annonsvariationer.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
 
 ## Skapa en katalog {#feed-catalog-create}
 
