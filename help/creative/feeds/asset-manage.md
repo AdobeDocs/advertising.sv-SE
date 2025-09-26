@@ -2,7 +2,7 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 40f8fbde0879f2412816a2b08e6e99da67f16219
+source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -12,6 +12,7 @@ ht-degree: 0%
 # Hantera resursfiler
 
 Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Microsoft Excel och de bildresurser som kalkylbladet refererar till (förutom Adobe Experience Manager-resursreferenser). Statiska HTML5-annonser kräver endast en enda bildresurs per annons.
+
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
 
      Referera bilden med formatet `images/image_name` (till exempel `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM --> för bilder som du ska överföra
 
-   * De associerade bildresurserna i GIF-, JPEG-, JPG- eller PNG-format.<!-- NOT GIF still? And is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
+   * De associerade bildresurserna i GIF-, JPEG-, JPG- eller PNG-format.<!-- Is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 
    * (Valfritt) Videomaterial i MP4- eller WEBM-format
 
