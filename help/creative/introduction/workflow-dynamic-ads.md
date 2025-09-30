@@ -2,9 +2,9 @@
 title: Arbetsflöden för dynamiska annonser
 description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: 6f2f6580e8d4fc11f52a97b086ce453e423ab4e6
+source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Du kan konfigurera dynamiska annonser på två sätt:
 
    * (För dynamiska HTML5-annonser) Skapa kataloger av dina annonselement:
 
-      1. Skapa en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX), med en rad för varje annonsvariant. Inkludera ett bildnamn eller en referens till en Adobe Experience Manager på varje rad. Samla in associerade bildresurser separat.
+      1. Skapa en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX), med en rad för varje annonsvariant. Inkludera ett bildnamn i varje rad. Samla in associerade bildresurser separat.
 
       1. [Överför feeden och bildresurserna](/help/creative/feeds/asset-manage.md).
 
