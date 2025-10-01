@@ -3,7 +3,7 @@ title: Frågor och svar om kampanjer
 description: Se svar på frågor om kampanjhantering och kampanjdatavyer.
 exl-id: 999e5aba-f556-4b34-bb92-5931d5e0dd72
 feature: Search Campaign Management
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 88b415fff52d623a5daeb00355bfe00054d5402b
 workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 0%
@@ -21,9 +21,9 @@ Flytta eller kopiera inte en kampanj- eller kampanjkomponent, som har ett unikt 
 
 +++När uppdateras klickdata från annonsnätverken?
 
-Processen med att hämta föregående dags klickdata från sökmotorerna börjar klockan 06:00 i annonsörens tidszon.
+Processen att hämta föregående dags klickdata från sökmotorerna börjar vid 06:00 i annonsörens tidszon.
 
-Dessutom hämtas [!DNL Google Ads] resultatmått på kampanjnivå i söknätverket för den aktuella dagen kl. 08:00 och 16:00 i annonsörens tidszon.
+Dessutom hämtas [!DNL Google Ads] resultatmått på kampanjnivå i söknätverket för den aktuella dagen på 08:00 och 16:00 i annonserarens tidszon.
 +++
 
 +++Vilka åtgärder gör att nyckelord och annonser förlorar sin historik?
@@ -70,7 +70,7 @@ Beroende på [feed-datainställningarna](/help/search-social-commerce/campaign-m
 Om du ändrar visningsnamnen för konverteringsmåtten i Sök, Socialt och Commerce skrivs ändringarna över med de namn som konfigurerats i [!DNL Google Ads]. Gör eventuella namnändringar i [!DNL Google Ads].
 +++
 
-+++ (Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?
++++(Google Ads-kampanjer) Kan jag använda en delad budget för kampanjer i portfolior?
 
 För bästa resultat ska du inte lägga till [!DNL Google Ads] kampanjer i en [!DNL Google Ads] delad budget om de finns i optimerade portföljer som är konfigurerade till [!UICONTROL Auto adjust campaign budget limits]. Om du gör det åsidosätter [!DNL Google Ads] budgeten för sök-, sociala och Commerce-optimerade kampanjer, vilket kan leda till ineffektivitet i budgivning.
 +++
@@ -97,7 +97,7 @@ I båda fallen inkluderar bas-URL:erna med sök-, sociala och Commerce-spårning
 
 +++([!DNL Google Ads] kampanjer i söknätverket) Vilka data visas för i dag?
 
-[!DNL Google Ads] resultatmått på kampanjnivå i söknätverket för den aktuella dagen hämtas kl. 08.00 och kl. 16.00 i annonsörens tidszon.
+[!DNL Google Ads] resultatmått på kampanjnivå i söknätverket för den aktuella dagen hämtas vid 08:00 och 16:00 i annonsörens tidszon.
 
 På fliken [!UICONTROL Campaigns] i både vyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Campaigns] och vyn [!UICONTROL Optimization] > [!UICONTROL Portfolios], inkluderar data de senast synkroniserade data när du rapporterar [!UICONTROL Today] eller ett anpassat datumintervall som inkluderar den aktuella dagen.
 
@@ -115,7 +115,7 @@ Mer information om hur spårningsmallar och suffix för landningssidor läses in
 
 +++
 
-+++([!DNL Google Ads] och [!DNL Microsoft Advertising]) Har Search, Social och Commerce stöd för parallell spårning av annonser i [!DNL Google Ads] eller [!DNL Microsoft Advertising]? {#parallel-tracking}
++++([!DNL Google Ads] och [!DNL Microsoft Advertising]) Stöder sökning, sociala medier och Commerce parallell spårning för annonser i [!DNL Google Ads] eller [!DNL Microsoft Advertising]? {#parallel-tracking}
 
 Parallell spårning skickar kunder direkt från annonsen till den slutliga URL:en, som kan innehålla tillagda parametrar från ett slutligt URL-suffix, eller&quot;landningssidessuffix&quot;. URL:en till spårningsmallen (med ytterligare parametrar för klickmätning) läses in separat i bakgrunden. Detta innebär att landningssidan läses in snabbare.
 
@@ -131,7 +131,7 @@ När du överför annonser med hjälp av en [produktinventeringsfeed](/help/sear
 
 ## Lagerfeeds
 
-+++(Produktinventeringsflöden) Ska jag pausa eller ta bort annonser som är föråldrade eller för en produkt vars lagernivå ligger under ett visst minimivärde?
++++(Produktinventeringsflöden) Ska jag pausa eller ta bort annonser som är föråldrade eller som är avsedda för en produkt vars lagernivå ligger under ett visst minimivärde?
 
 Det beror på annonsörens verksamhetskrav.
 
@@ -145,7 +145,7 @@ När du tar bort annonser och skickar in dem igen skapas nya annonser och histor
 Om nästa feed-fil saknar radobjekt och du inte tidigare har bokfört radobjekten från den nya mallen via en tidigare feed-fil, tolkas inte de saknade radobjekten som&quot;saknade&quot;, så de skapas inte. Du undviker detta genom att sprida den tidigare feeden genom den nya mallen och publicera data innan du sprider och publicerar data från en ny fil.
 +++
 
-+++ (produktinventeringsflöden) Kan jag uppdatera priserna för mina produkter utan att påverka en annons kvalitetspoäng?
++++(Produktinventeringsflöden) Kan jag uppdatera priserna för mina produkter utan att det påverkar en annons kvalitetspoäng?
 
 För [!DNL Google Ads]-kampanjer, ja: Med variablerna [!DNL Google Ads] `{Param 1}` och `{Param 2}` kan du infoga numeriska värden dynamiskt i en annonsvariation utan att ta bort och återskapa annonsen, och därför utan att påverka kvalitetspoängen.
 
@@ -165,6 +165,6 @@ Om [feed-datainställningarna](/help/search-social-commerce/campaign-management/
 
 +++Vissa av mina kampanjer spenderar mer eller mindre än kampanjbudgeten.
 
-* Detta är normalt i en optimerad portfölj som har konfigurerats med alternativet [!UICONTROL Auto-adjust campaign budget limits]. När det här alternativet är aktiverat kan du spendera upp till *N* gånger varje kampanjs budget, där *N* är värdet för inställningen [!UICONTROL Multiple]. Med det här alternativet kan optimeringsmöjligheterna justera utgifterna för enskilda kampanjer efter behov, samtidigt som hela portföljen styrs för att uppnå sitt mål.
+* Detta är normalt i en optimerad portfölj som har konfigurerats med alternativet [!UICONTROL Auto adjust campaign budget limits]. När det här alternativet är aktiverat kan du spendera upp till *N* gånger varje kampanjs budget, där *N* är värdet för inställningen [!UICONTROL Multiple]. Med det här alternativet kan optimeringsmöjligheterna justera utgifterna för enskilda kampanjer efter behov, samtidigt som hela portföljen styrs för att uppnå sitt mål.
 * Om [!DNL Google Ads] kampanjer använder en delad budget justerar [!DNL Google Ads] utgifterna för enskilda kampanjer efter behov för att spendera hela den delade budgeten.
 +++

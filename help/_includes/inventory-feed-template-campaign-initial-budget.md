@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 119280f9a8ceffc1bdbc534b4b80f6fa268ceea3
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -11,4 +11,4 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[Lägg till kampanjen i en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) och aktivera portföljalternativet för [!UICONTROL Auto-adjust campaign budget limits] om du vill att Search, Social och Commerce automatiskt ska justera budgeten för att optimera utgifterna för hela portföljen.
+>[Lägg till kampanjen i en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md) och aktivera portföljalternativet för [!UICONTROL Auto adjust campaign budget limits] om du vill att Search, Social och Commerce automatiskt ska justera budgeten för att optimera utgifterna för hela portföljen.
