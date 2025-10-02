@@ -2,9 +2,9 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -65,11 +65,9 @@ ht-degree: 0%
 
 Överförda kataloger måste vara i ZIP-format och innehålla följande:
 
-* En eller flera feed-filer i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX).<!-- Need to add more specs for that -->
+* En eller flera feed-filer i CSV-, TSV- eller Microsoft Excel-kalkylarksformat (XLSX). Den maximala filstorleken är 512 MB.<!-- Need to add more specs for the feed files -->
 
 * Bildresurser i GIF-, JPEG-, JPG- eller PNG-format
-
-* (Valfritt) Videomaterial i MP4- eller WEBM-format
 
 ### [!UICONTROL Attributes Mapping]
 
