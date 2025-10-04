@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 5bbc8b17b0f88c928b6ab2b8805ecec10bb398fb
+source-git-commit: ecc0f6ac900292825b23b648be40dcc68ae15c64
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -52,6 +52,8 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
    * Om du vill ta bort en fil avmarkerar du kryssrutan bredvid den.
 
+1. (Valfritt) Om du vill förhandsgranska en kreativ bild klickar du på ![Förhandsvisa](/help/creative/assets/preview.png "Förhandsvisa") ovanför bilden.
+
 1. Ange [flexibla annonsinställningar för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5).
 
    Som standard markeras alla användare som du just överfört. Alla inställningar som bara har ett värde gäller för alla valda kreatörer. För vissa inställningar kan du ange enskilda värden. Om du vill ange inställningar för specifika kreatörer avmarkerar du kryssrutan bredvid varje ej tillämpligt kreativt alternativ.
@@ -60,7 +62,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 ### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil] (flexible-creative-upload).>
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -78,7 +80,7 @@ For information about the attributes available in predefined templates, see "[Av
 
 1. (Valfritt) Om du vill förhandsgranska mallen klickar du på **[!UICONTROL ...]** bredvid mallnamnet och sedan på **[!UICONTROL Preview]**.
 
-   Du kan även hämta mallen
+   Du kan även hämta mallen: klicka **[!UICONTROL ...]** bredvid mallnamnet och klicka sedan på **[!UICONTROL Download]**.
 
 1. Klicka på **[!UICONTROL ...]** och sedan **[!UICONTROL Use Selected]** bredvid mallnamnet.
 
@@ -86,18 +88,15 @@ For information about the attributes available in predefined templates, see "[Av
 
    Den maximala filstorleken för den kreativa delen är 2 MB när den har zippats.<!-- Still true? -->
 
+1. Lägg till eller ta bort egna flexibla filer:
+
+   * Om du vill lägga till en fil från enheten eller nätverket klickar du på ![Lägg till](/help/creative/assets/create.png "Lägg till") i det övre vänstra hörnet och letar upp filen. Markera kryssrutan intill den kreativa delen och avmarkera kryssrutan intill de andra kreatörerna. Redigera de [flexibla kreativa inställningarna för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) för att ange språk och inkludera egna klicktaggar, bilder och andra attribut.
+
+   * Om du vill ta bort en fil avmarkerar du kryssrutan bredvid den.
+
+1. (Valfritt) Om du vill förhandsgranska en kreativ bild klickar du på ![Förhandsvisa](/help/creative/assets/preview.png "Förhandsvisa") ovanför bilden.
+
 1. Klicka på **[!UICONTROL Create]**.
-
-<!-- Not options as of 5/22/25:
-
-1. In the left panel, select the creative size to see all available templates for that size.
-
-1. Select the template:
-
-   * In card view, click **[!UICONTROL ...]** next to the template name, and then click **[!UICONTROL Use Selected]**.
-     
-   * In table view, hold the cursor over the row and click **[!UICONTROL Use Selected]**.
--->
 
 ## Lägg till en HTML5-kreatör i ett kreativt bibliotek
 

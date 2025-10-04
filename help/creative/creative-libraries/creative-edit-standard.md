@@ -3,9 +3,9 @@ title: Redigera standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du ändrar inställningarna för vanliga (icke-dynamiska) kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ När du redigerar en <!-- or creative variation -->-kreatör som ingår i ett pa
 
    >[!NOTE]
    >
-   >* (Endast flexibla HTML5-kreatörer) Du kan bara redigera attribut för enskilda användare.<!-- May never be implemented: Also, when you update the template for a parent creative with child variations, the variations are updated with any changes to the template layout, but the attribute values for the variation aren't changed. -->
+   >* (Endast flexibla HTML5-kreatörer) Du kan bara redigera attribut för enskilda användare.
 
-<!-- Not there as of 1/16/25. If we do add it, verify the applicable ad types:   
-1. (Flexible HTML5 [or third-party should be possible, but not so] creatives; optional) Once you've made your changes, click ![]() to preview the new creative. 
--->
+1. (Flexibla HTML5-kreatörer; valfritt) När du har gjort ändringarna klickar du på ![Förhandsvisa](/help/creative/assets/preview.png "Förhandsvisa") ovanför bilden för att förhandsvisa den nya kreativa bilden.
 
 1. Klicka på **Spara**.
 
