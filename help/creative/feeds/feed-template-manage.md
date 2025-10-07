@@ -2,9 +2,9 @@
 title: Hantera flödesmallar
 description: Lär dig hur du hanterar flödesmallar.
 feature: Creative Dynamic Creatives
-source-git-commit: ed0fe4849c1db933f1c68a49fc848acd7c74af5b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,9 @@ Hämtade feedmallar är i zippat Microsoft Excel-kalkylbladsformat (XLSX).
 
 ### Inställningar för [!UICONTROL Field Mapping]
 
-Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdelen.<!-- Check w/product: What is displayed where in the UI/reports and published ads? --> Minst ett feed-filfält måste markeras som [!UICONTROL Is Unique]. Klicka på **[!UICONTROL +]** om du vill lägga till en fältmappning. Klicka på **[!UICONTROL +]** om du vill ta bort den senaste fältmappningen.
+Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdelen. En lista över backend-fält och deras obligatoriska attribut finns i [Tillgängliga fält för dynamiska och feed-filer](/help/creative/appendix-available-feed-fields.md).<!-- Check w/product: What is displayed where in the UI/reports and published ads? -->
+
+Minst ett matningsfilfält måste markeras som [!UICONTROL Is Unique]. Klicka på **[!UICONTROL +]** om du vill lägga till en fältmappning. Klicka på **[!UICONTROL +]** om du vill ta bort den senaste fältmappningen.
 
 **[!UICONTROL Field Name]:** Fältet i feed-filen.
 
@@ -97,7 +99,7 @@ Mappa varje fält i feed-filen till ett fält på Advertising Creative-serverdel
 
 **[!UICONTROL Is Unique]:** Anger att fältet är ett unikt ID (nyckel). Minst ett fält per feed-mall måste vara unikt. Om du vill välja det här alternativet klickar du på knappen för att flytta det åt höger.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Det fält på Advertising Creative-serverdelen som mappar till angiven [!UICONTROL Field Name] i feed-filen.
+**[!UICONTROL Backend Field]:** Fältet [ på Advertising Creative backend](/help/creative/appendix-available-feed-fields.md) som mappar till den angivna [!UICONTROL Field Name] i feed-filen.
 
 >[!MORELIKETHIS]
 >

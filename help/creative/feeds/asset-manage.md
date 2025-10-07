@@ -2,9 +2,9 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 4b3db40b3c0fb68e2b3d84b8d95c5d3fbd549d7b
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
 
 * Dynamiska HTML5-annonser:
 
-   * En flödesfil i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX), med en rubrikrad och en datarad för varje annonsvariant. Inkludera ett bildnamn eller en referens till en Adobe Experience Manager i varje rad.<!-- need spec of available column names that the user-created header names must map to; need to reference it in feed template topic too, so make it a separate file/appendix. -->
+   * En flödesfil i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX), med en rubrikrad och en datarad för varje annonsvariant. Inkludera ett bildnamn i varje rad med formatet `images/image_name` (till exempel `images/300x250_acme_logo.png`).
 
-     Referera bilden med formatet `images/image_name` (till exempel `images/300x250_acme_logo.png`.)<!-- Verify.  Also need to include the spec for how to reference images in AEM --> för bilder som du ska överföra
+     Annonsörsspecifika fältnamn måste mappa till de [tillgängliga fälten för dynamiska annonsflödesfiler](/help/creative/appendix-available-feed-fields.md).
 
    * De associerade bildresurserna i GIF-, JPEG-, JPG- eller PNG-format.<!-- Is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 
@@ -84,6 +84,7 @@ Alla ZIP-filer dekomprimeras automatiskt. När du överför en kalkylbladsfil vi
 
 >[!MORELIKETHIS]
 >
+>* [Tillgängliga fält för dynamiska och feed-filer](/help/creative/appendix-available-feed-fields.md)
 >* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
 >* [Hantera flödesmallar](/help/creative/feeds/feed-template-manage.md)
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)

@@ -2,9 +2,9 @@
 title: Arbetsflöden för dynamiska annonser
 description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: f25b0edea0f264f8ebd7c487112a7cbfca32c9e0
+source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du kan konfigurera dynamiska annonser på två sätt:
 
 ## Arbetsflöde 2
 
-1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser.
+1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser. Annonsmallen innehåller en HTML5-fil med önskat annonsformat och (endast dynamiska HTML5-annonser) en fil med annonsattributen.
 
 1. Konfigurera era annonselement:
 
