@@ -99,7 +99,7 @@ Minst ett matningsfilfält måste markeras som [!UICONTROL Is Unique]. Klicka p�
 
 **[!UICONTROL Is Unique]:** Anger att fältet är ett unikt ID (nyckel). Minst ett fält per feed-mall måste vara unikt. Om du vill välja det här alternativet klickar du på knappen för att flytta det åt höger.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Fältet [ på Advertising Creative backend](/help/creative/appendix-available-feed-fields.md) som mappar till den angivna [!UICONTROL Field Name] i feed-filen.
+**[!UICONTROL Backend Field]:** Fältet [&#x200B; på Advertising Creative backend](/help/creative/appendix-available-feed-fields.md) som mappar till den angivna [!UICONTROL Field Name] i feed-filen.
 
 >[!MORELIKETHIS]
 >
