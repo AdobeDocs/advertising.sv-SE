@@ -2,16 +2,16 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
 # Hantera resursfiler
 
-Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Microsoft Excel och de bildresurser som kalkylbladet refererar till (förutom Adobe Experience Manager-resursreferenser). Statiska HTML5-annonser kräver endast en enda bildresurs per annons.
+Dynamiska annonser i HTML5 kräver både en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX) och de bildresurser som kalkylbladet refererar till. Statiska HTML5-annonser kräver endast en enda bildresurs per annons.
 
 
 >[!NOTE]
@@ -28,9 +28,7 @@ Annonser i dynamiska HTML5 kräver både en feed-fil i kalkylbladet (XLSX) i Mic
 
    * De associerade bildresurserna i GIF-, JPEG-, JPG- eller PNG-format.<!-- Is this true: The maximum file size is two (2) MB. --> Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 
-   * (Valfritt) Videomaterial i MP4- eller WEBM-format
-
-  Du kan överföra en enskild XLSX-fil, en enda bild- eller videofil eller en enskild ZIP-fil som innehåller valfri kombination av XLSX-, bild- och videofiler.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+  Du kan överföra en enskild XLSX-fil, en enda bildfil eller en enskild ZIP-fil som innehåller en kombination av XLSX- och bildfiler.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 * Statiska HTML5-annonser:
 
