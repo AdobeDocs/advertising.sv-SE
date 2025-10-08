@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 0e1f2e62394f2997bde7feba82592ab6fef9e4b6
+source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Visa dator och mobil<br><br>Video för dator och mobil |
 | [!DNL Index] | [!DNL Index] | [!DNL Adobe Display]<br>[!DNL Adobe Video] | — | Global | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL Magnite DV+] | [!DNL Magnite] (tidigare [!DNL Rubicon]) | [!DNL TubeMogul] eller Adobe Advertising | Stöd för PG | Global | USD | Ljuddator och mobil<br><br>Visa dator och mobil<br><br>Video för dator, mobil och CTV |
-| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (tidigare [!DNL Telaria] och [!DNL Tremor]) | [!DNL TubeMogul] eller Adobe Advertising | Stöd för PG | Global | USD | Video Desktop, Mobile och CTV |
+| [!DNL Magnite SpringServe (formerly Magnite Streaming)] | [!DNL Magnite] (tidigare [!DNL Telaria] och [!DNL Tremor]) | [!DNL TubeMogul] eller Adobe Advertising | Stöd för PG | Global | AUD, USD | Video Desktop, Mobile och CTV |
 | [!DNL Microsoft Monetize] | [!DNL Microsoft] (tidigare [!DNL Xandr], [!DNL AppNexus]) | ID för videoplats: 9094<br>ID för visningsplats: 3939 | — | Global | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL Nexxen] | [!DNL Nexxen] (tidigare [!DNL Unruly]) | Adobe Advertising | — | USA och EMEA | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL OpenX] | [!DNL OpenX] | [!DNL TubeMogul] eller Adobe Advertising | Stöd för PG | Global | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
