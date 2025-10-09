@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: 93f2ce3783d80d98a25e5c7a31cfc6ad6c475a94
+source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL AdsWizz] | [!DNL Sirius XM (Pandora)] | Adobe Advertising | Stöd för PG | Global | US-dollar, EUR, GBP | Ljuddator och mobil |
 | [!DNL Cadent] | [!DNL Cadent] (tidigare [!DNL EMX Digital]) | Adobe Advertising | — | USA/CA | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL DailyMotion] |  | [!DNL TubeMogul] eller Adobe Advertising | — | USA och EMEA | USD, EUR | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
+| [!DNL Equativ] | [!DNL Equativ] (tidigare [!DNL Smart AdServer]) | [!DNL TubeMogul] eller Adobe Advertising | — | EMEA | USD, EUR | Visa dator och mobil<br><br>Video för dator och mobil |
 | [!DNL FreeWheel] | [!DNL Comcast] | [!DNL TubeMogul] eller Adobe Advertising | Stöd för PG | Global | USD, EUR, AUD, GBP | Video Desktop, Mobile och CTV |
 | [!DNL Google Authorized Buyers] (tidigare [!DNL Google AdX]) | [!DNL Google] | Adobe NA - 44912714<br>Adobe APAC och EU - 89185975 | Stöd för PG | Global | USD, BRL | Ljuddator och mobil<br><br>Visa dator och mobil<br><br>Video för dator, mobil och CTV |
 | [!DNL GumGum] |  | Adobe Advertising | — | Global | USD | Visa dator och mobil<br><br>Video för dator och mobil |
