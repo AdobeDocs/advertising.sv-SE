@@ -3,9 +3,9 @@ title: Beslutsträdets layout
 description: Läs om beslutsträdets layout för upplevelser med målinriktning.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inledningsvis börjar varje beslutsträd med rotnivån &quot;Alla&quot;. Du kan 
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->—>
+—>
 
 ## Villkor
 
@@ -50,7 +50,7 @@ För alla överordnade noder kan du även kopiera alla underordnade målnoder oc
 
 Tilldela kreativa paket till varje målnod i upplevelsen.
 
-I varje nod med kreativa paket kan du rotera de medföljande kreativa delarna antingen a) enligt angivna vikter eller b) algoritmiskt för att optimera klickfrekvensen eller ett anpassat mål. Du kan också rotera kreatörerna i en viss tidssekvens med samma alternativ.
+I varje nod med kreativa paket kan du rotera de medföljande kreativa (a) algoritmiskt för att optimera klickfrekvensen eller ett anpassat mål, (b) enligt angivna vikter, eller (c) i en viss sekvens. Du kan också rotera kreatörerna i en viss tidssekvens om du vill.
 
 Du kan också anpassa landningssidans URL:er, visningsspårnings-URL:er och klickspårnings-URL:er efter behov för enskilda kreatörer. <!-- Not in the UI as of 1/31: For flexible HTML5 creatives, you can customize any of the flexible attributes. -->
 
