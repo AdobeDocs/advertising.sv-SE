@@ -3,9 +3,9 @@ title: Beslutsträdets layout
 description: Läs om beslutsträdets layout för upplevelser med målinriktning.
 feature: Creative Experiences
 exl-id: 1d997422-8177-4a6b-b56a-e1c742b96ad2
-source-git-commit: 7bcafc7c70333bb6f523873ed08f2bc5123823f7
+source-git-commit: 4057f413b58343580a965f9a419af1e002892ff6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Inledningsvis börjar varje beslutsträd med rotnivån &quot;Alla&quot;. Du kan 
 >[!NOTE]
 >
 >You can optionally assign creative bundles to the root level, without targets. However, the [XXXX workflow](experience-create-no-targeting.md) XXXXX is better XXX.<!-- Explain the diff and why to choose the other option. -->
->—>
+—>
 
 ## Villkor
 
@@ -36,7 +36,9 @@ Inledningsvis börjar varje beslutsträd med rotnivån &quot;Alla&quot;. Du kan 
 
 ## Målgrupper i ett beslutsträd
 
-Varje beslutsträd kan ha upp till fem nivåer med mål. Varje målnivå kan innehålla flera grenar, där var och en har en eller flera noder med samma måltyp (målgruppssegment, geografisk platstyp, värden för angivna databassnycklar, attribut för en angiven återmarknadsföringspixel eller enhetskategori). Du kan tilldela kreativa paket i varje annonsstorlek som du har angett en standardbild som kreativ eller videoredigerad till målnoderna på den lägsta nivån.
+Varje beslutsträd kan ha upp till fem nivåer med mål. Målen på erfarenhetsnivå tillämpas tillsammans med DSP alternativ för målinriktning. Det hierarkiska beteendet för målinriktning kan variera mellan DSP. Se till att era annonsupplevelser omfattar målgruppsanpassning som är kompatibel med de kampanjer ni ska implementera den i.
+
+Varje målnivå kan innehålla flera grenar, där var och en har en eller flera noder med samma måltyp (målgruppssegment, geografisk platstyp, värden för angivna databassnycklar, attribut för en angiven återmarknadsföringspixel eller enhetskategori). Du kan tilldela kreativa paket i varje annonsstorlek som du har angett en standardbild som kreativ eller videoredigerad till målnoderna på den lägsta nivån.
 
 ![Exempel på ett beslutsträd med mål](/help/creative/assets/experience-decision-tree.png "Exempel på ett beslutsträd med mål")
 
