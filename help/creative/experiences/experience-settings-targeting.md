@@ -3,9 +3,9 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ För upplevelser med mål för beslutsträd kan du åsidosätta standardkreatör
 * Om du vill visa eller dölja rutan Creative till höger klickar du på ![Visa/Dölj](/help/creative/assets/hide-show-creatives.png "Visa/Dölj") i det övre högra hörnet av den högra rutan.
 
 ## [!UICONTROL Targeting] avsnitt
+
+Målen på erfarenhetsnivå tillämpas tillsammans med DSP alternativ för målinriktning. Det hierarkiska beteendet för målinriktning kan variera mellan DSP. Adobe Advertising DSP använder till exempel annonsinriktning ovanpå (inte i stället för) målinriktning på placeringsnivå. Se till att era annonsupplevelser innehåller målgruppsanpassning som är kompatibel med de kampanjer ni ska implementera den i.
 
 **[!UICONTROL Targeting]:** (skrivskyddat för befintliga upplevelser) Aktiverar kreativ målgruppsanpassning med hjälp av ett beslutsträd och automatiskt skapande av taggar. När du har sparat upplevelsen kan du inte ändra den här inställningen.
 

@@ -3,9 +3,9 @@ title: Hantera återmarknadsföring av pixlar
 description: Lär dig hur du skapar och implementerar återannonseringspixlar som ska användas som mål för annonsupplevelser.
 feature: Creative Pixels
 exl-id: dcd13c5a-315d-4380-99f9-6dbab3e1e1be
-source-git-commit: 1d0a1640eb2d19b8765150226e7185602bbfd495
+source-git-commit: ed3bf0200d3d3b31ef80c790c4e702914459c521
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 <!-- Note to self: These aren't segments -- we don't create a pool of users. -->
 
-Du kan skapa en omdirigerad pixel för att identifiera besökare på en annonsörs landningssidor eller konverteringssidor med användar-cookies eller universella ID:n och för att fånga upp specifika attribut som sidorna spårar för dessa besökare. Pixeln spårar den senaste händelsen som besökaren utför på sidan. När du har skapat pixeln kan du generera en pixeltagg som infogas på de relevanta webbsidorna för att börja spåra besökare.<!-- Note to self: surfer id=cookie or universal ID -->
+Du kan skapa en omdirigerad pixel för att identifiera besökare på en annonsörs landningssidor eller konverteringssidor med hjälp av användar-cookies eller universella ID:n. Pixeln spårar den senaste händelsen som besökaren utför på en sida och hämtar specifika attribut som sidan spårar för dessa besökare. När du har skapat pixeln skapar du en pixeltagg som ska infogas på de relevanta webbsidorna för att börja spåra besökare.<!-- Note to self: surfer id=cookie or universal ID -->
 
-Du kan sedan använda pixeln som mål för alla kreatörer i en annonsupplevelse för att endast visa annonser för användare med angivna attribut som tidigare besökt de webbsidor som är kopplade till pixeln. Du kan till exempel rikta in dig på besökare som tittar på röda skor i storlek 10 om webbsidorna spårar dessa attributvärden.<!-- better example? Make sure they match attribute examples below -->
+Du kan sedan använda pixeln som mål för alla kreatörer i en annonsupplevelse för att endast visa annonser för användare med angivna attribut som tidigare besökt de webbsidor som är kopplade till pixeln. Du kan till exempel rikta in dig på besökare som tittar på röda skor i storlek 10 om webbsidorna spårar dessa attributvärden.<!-- better example? Make sure they match attribute examples below --> Målen på erfarenhetsnivå används tillsammans med dina DSP-alternativ för målinriktning. Det hierarkiska beteendet för målinriktning kan variera mellan DSP.
 
 Återmarknadsföringsprofiler lagras i 180 dagar.
 
@@ -28,9 +28,9 @@ Exempel på pixel:
 
 >[!NOTE]
 >
-> * [!DNL Creative] stöder för närvarande bara universella ID:n för Advertising DSP. En framtida release kommer att ha stöd för universella ID:n för DSP:er från tredje part.<!-- Clarify this and reword as needed  -->
+> * [!DNL Creative] stöder bara universella ID:n för Advertising DSP.
 >* Du kan också använda dina egna målgrupper från Adobe Audience Manager och Adobe Analytics som [kreativa mål för dina upplevelser](/help/creative/experiences/experience-settings-targeting.md).
->* När du använder en upplevelse som en annons på en Advertising DSP-plats kan du rikta placeringen mot alla målgrupper som är tillgängliga för dig i DSP. Du kan också [skapa anpassade målgruppssegmenttaggar](/help/dsp/audiences/custom-segment-create.md) för att spåra alla besökare till specifika landningssidor och sedan använda dessa segment som kreativa mål för en placering.
+>* När du använder en upplevelse som en annons på en Advertising DSP-plats kan du rikta placeringen mot alla målgrupper som är tillgängliga för dig i DSP. Du kan också [skapa anpassade målgruppssegmenttaggar](/help/dsp/audiences/custom-segment-create.md) för att spåra alla besökare till specifika landningssidor och sedan använda dessa segment som kreativa mål för en placering. Advertising DSP lägger in målgruppsanpassning på annonsnivå ovanpå (inte i stället för) målinriktning på placeringsnivå.
 >* Besökare på webbplatser som har valt att sluta spåra annonser för målinriktning får inte annonser med personaliserat kreativt innehåll baserat på målgruppssegment eller profiler för ny målinriktning.
 
 ## Skapa en återmarknadsföringspixel
@@ -75,9 +75,9 @@ Exempel på pixel:
 
 1. I pixeltaggen anger du ett värde för varje attribut i både `<img src>`- och `<script src>`-avsnitten genom att ersätta varje `Insert <attribute>` med ett värde. Ange ett ID5-partner-ID om taggen hämtar ett universellt ID.
 
-   Om du lägger till ytterligare attribut manuellt måste du inkludera URL-kodning.
+   Om du lägger till ytterligare attribut manuellt inkluderar du URL-kodning.
 
-   Om du till exempel inkluderade attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, innehåller pixeltaggen följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du till exempel vill ange användare som väljer röda sandaler i storlek 10 som mål, ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=sandals&ut2=red&ut3=10` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=0123456789`.
+   Om du till exempel inkluderade attributen &quot;category&quot;, &quot;color&quot;, &quot;size&quot; och &quot;capture ID5 Universal ID:n, innehåller pixeltaggen följande parametrar: `&ut1=--Insert category--&ut2=--Insert color--&ut3=--Insert size--` och `&id5pid=--Insert ID5_PARTNER_ID--`. Om du vill ange målanvändare som väljer röda sandaler i storlek 10 ändrar du parametrarna i både image-taggen och script-taggen till `&ut1=sandals&ut2=red&ut3=10` och anger även ID5-partner-ID:t i script-taggen, till exempel `&id5pid=0123456789`.
 
    `<img src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--" />  <script src="https://creative-assets-uat.efrontier.com/creative/scripts/rt.js?advId=141731&cro=F&id5Consent=T&id5pid=--0123456789--&lrConsent=T&pxId=oGwrDCSZRWu5ZQKSEy8Y&ut1=--sandals--&ut2=--red--&ut3=--10--"></script>`
 

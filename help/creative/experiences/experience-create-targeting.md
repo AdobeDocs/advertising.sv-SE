@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 7031347edb4491a91d622c0357ea2d3fb63f0a8a
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 >[!NOTE]
 >
 >* När du väl har skapat en målinriktad upplevelse kan du inte ändra den senare till en upplevelse som inte är målinriktad och som använder ett annat arbetsflöde.
->* Se till att era annonsupplevelser omfattar målgruppsanpassning som är kompatibel med de kampanjer ni ska implementera den i. Hierarkisk målinriktning kan variera beroende på DSP. När du överför en annonsupplevelsetagg till Advertising DSP och bifogar den till en placering läggs annonsupplevelseanpassning till (inte i stället för) på placeringsnivå. Om en placering till exempel riktar sig till användare i Australien och en annons riktar sig till användare i Japan, kommer annonsen att rikta sig till grenen&quot;Alla andra&quot;.
+>* Se till att era annonsupplevelser innehåller målgruppsanpassning som är kompatibel med de kampanjer ni ska implementera den i. Hierarkisk målinriktning kan variera beroende på DSP. När du överför en annonsupplevelsetagg till Advertising DSP och bifogar den till en placering läggs annonsupplevelseanpassning till (inte i stället för) på placeringsnivå. Om en placering till exempel riktar sig till användare i Australien och en annons riktar sig till användare i Japan, kommer annonsen att rikta sig till grenen&quot;Alla andra&quot;.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Experiences]** på huvudmenyn.
 
