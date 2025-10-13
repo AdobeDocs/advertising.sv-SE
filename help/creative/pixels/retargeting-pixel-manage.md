@@ -43,7 +43,7 @@ Exempel på pixel:
 
 1. Klicka på **[!UICONTROL Save]**.
 
-1. [Generera pixeltaggen ](#retargeting-pixel-generate) som ska skickas till annonsören eller webbplatskontakten.
+1. [Generera pixeltaggen &#x200B;](#retargeting-pixel-generate) som ska skickas till annonsören eller webbplatskontakten.
 
    Den återmarknadsförande pixeltaggen måste vara den sista åtgärden på sidan.<!-- verify here and below -->
 
@@ -59,7 +59,7 @@ Exempel på pixel:
 
 1. Klicka på **[!UICONTROL Save]**.
 
-1. [Generera pixeltaggen ](#retargeting-pixel-generate) som ska tillhandahållas annonsören eller webbplatskontakten så att de kan ersätta den ursprungliga taggen.
+1. [Generera pixeltaggen &#x200B;](#retargeting-pixel-generate) som ska tillhandahållas annonsören eller webbplatskontakten så att de kan ersätta den ursprungliga taggen.
 
    Den återskapande pixeltaggen måste vara den sista åtgärden på landningssidan.
 
