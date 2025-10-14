@@ -34,7 +34,7 @@ De flesta rapporter kan anpassas så att endast den information som du vill se v
 
 * **Konverteringsmått:** Det totala antalet konverteringar för varje annonsörs konverteringsmått, eller transaktionsdata som spårats mot ett konverteringsmått. Detta kan inkludera konverterings- och webbplatsengagemangsmått, men inte beräknade mätvärden och avancerade beräknade mätvärden, som synkroniseras från Adobe Analytics.
 
-  Detta kan även omfatta [[!DNL Google Ads] spårade konverteringar ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) och [[!DNL Google Analytics] spårade konverteringar ](/help/search-social-commerce/admin/data-sources/data-source-about.md) som synkroniseras för annonserarkontot.
+  Detta kan även omfatta [[!DNL Google Ads] spårade konverteringar &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) och [[!DNL Google Analytics] spårade konverteringar &#x200B;](/help/search-social-commerce/admin/data-sources/data-source-about.md) som synkroniseras för annonserarkontot.
 
 * **Anpassade mått:** Dina egna mått, som du härleder genom att skapa formler baserade på befintliga mått (till exempel kostnaden per order).
 

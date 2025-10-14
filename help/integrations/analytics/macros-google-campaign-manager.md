@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Gäller endast Advertising DSP*
 
-Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för dina Advertising DSP-annonser lägger du till [!DNL Analytics for Advertising]-parametrar till dina startsidans URL:er med hjälp av [`%p`-makrot ](https://support.google.com/campaignmanager/table/6096962). Parametrarna innehåller parametrarna AMO ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
+Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för dina Advertising DSP-annonser lägger du till [!DNL Analytics for Advertising]-parametrar till dina startsidans URL:er med hjälp av [`%p`-makrot &#x200B;](https://support.google.com/campaignmanager/table/6096962). Parametrarna innehåller parametrarna AMO ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
 
 Använd makron för [!DNL Campaign Manager 360]-visning och videoannonser för följande typer av [!DNL Analytics for Advertising]-implementeringar:
 

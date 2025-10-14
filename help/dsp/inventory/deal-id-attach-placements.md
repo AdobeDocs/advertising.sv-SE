@@ -20,7 +20,7 @@ Du kan också [bifoga annonser till praktik](/help/dsp/campaign-management/ads/a
 
 ## Ange ett icke-garanterat avtal som ett lagermål för en placering
 
-* [Skapa en placering från [!UICONTROL Placements]-vyn ](/help/dsp/campaign-management/placements/placement-create.md). Välj det privata erbjudandet i inställningarna för [!UICONTROL Inventory Targeting].
+* [Skapa en placering från [!UICONTROL Placements]-vyn &#x200B;](/help/dsp/campaign-management/placements/placement-create.md). Välj det privata erbjudandet i inställningarna för [!UICONTROL Inventory Targeting].
 
 ## Bifoga placeringar och annonser i en PG-affär
 

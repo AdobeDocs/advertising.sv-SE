@@ -26,7 +26,7 @@ Du kan hämta data från vyerna [!UICONTROL Search, Social, & Commerce] > [!UICO
 
 >[!NOTE]
 >
->Se även hjälpen om hur du hämtar data i det nya användargränssnittet från [[!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), [[!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) och [[!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
+>Se även hjälpen om hur du hämtar data i det nya användargränssnittet från [[!UICONTROL Portfolios]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md), [[!UICONTROL Campaigns]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md) och [[!UICONTROL Ad Groups]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md).
 
 1. (Valfritt) Markera enskilda rader som ska inkluderas i filen.
 
@@ -46,7 +46,7 @@ Du kan hämta data från vyerna [!UICONTROL Search, Social, & Commerce] > [!UICO
 
 >[!MORELIKETHIS]
 >
->* [(Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från [!UICONTROL Downloads]-menyn ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
->* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
->* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Campaigns]-vyn ](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
->* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Ad Groups]-vyn ](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)
+>* [(Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från [!UICONTROL Downloads]-menyn &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Campaigns]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/campaigns/campaign-view-report.md)
+>* [(Nytt användargränssnitt) Hantera datavyrapporter från [!UICONTROL Ad Groups]-vyn &#x200B;](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-view-report.md)

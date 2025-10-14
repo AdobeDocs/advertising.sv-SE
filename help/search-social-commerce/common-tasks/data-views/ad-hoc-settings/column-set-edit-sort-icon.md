@@ -20,13 +20,13 @@ Du kan ändra de synliga kolumnerna i alla vyer från det högra verktygsfältet
 
 >[!NOTE]
 >
->Du kan också tillfälligt ändra kolumnerna i en vy utan att ändra sorteringsordningen [ från någon kolumnrubrik](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) i vyn.
+>Du kan också tillfälligt ändra kolumnerna i en vy utan att ändra sorteringsordningen [&#x200B; från någon kolumnrubrik](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-column-heading.md) i vyn.
 >
 >Du kan spara ändringar i kolumnerna som ingår för en viss annonsörer genom att redigera standardvyn eller [skapa en anpassad vy](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
 1. Klicka på ![Egna kolumner](/help/search-social-commerce/assets/custom-columns.png "Anpassade kolumner") eller ![Egna kolumner](/help/search-social-commerce/assets/custom-columns-new.png "Egna kolumner") till höger om verktygsfältet.
 
-1. (Valfritt) [Skapa ett anpassat mått ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som ska inkluderas som en kolumn.
+1. (Valfritt) [Skapa ett anpassat mått &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som ska inkluderas som en kolumn.
 
 1. Ange vilka kolumner som ska inkluderas i vyn:
 

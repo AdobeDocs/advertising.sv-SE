@@ -20,10 +20,10 @@ Om du arkiverar en plan tas den bort från standardvyn [!UICONTROL Planner].<!--
 
 >[!MORELIKETHIS]
 >
->* [Om DSP ](planner-about.md)
+>* [Om DSP &#x200B;](planner-about.md)
 >* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)

@@ -48,7 +48,7 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
 * **[!UICONTROL Plan]** undermeny:
 
-   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -62,11 +62,11 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
    * **[!UICONTROL Campaigns]:** Öppnar en ny [!UICONTROL Campaigns]-vy, som visar alla kampanjer för annonseraren. Ni kan tilldela kampanjer till portföljer och hantera begränsningstilldelningar för valda kampanjer. Du kan även hämta en rapport över datatabellens innehåll. <!-- Was removed: To see the ad groups for a campaign, click the campaign name. -->
 
-     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ad Groups]:** Öppnar en ny [!UICONTROL Ad Groups]-vy, som visar alla annonsgrupper för annonseraren. Du kan hantera begränsningstilldelningar för valda annonsgrupper. Du kan även hämta en rapport över datatabellens innehåll.
 
-     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] ](/help/search-social-commerce/getting-started/ui-switch.md).
+     Om du vill skapa, redigera och ta bort kampanjer går du tillbaka till det äldre användargränssnittet genom att klicka på **[!UICONTROL Set Up]** > **[!UICONTROL Accounts]** på huvudmenyn eller klicka på knappen [[!UICONTROL Switch to Old UI] &#x200B;](/help/search-social-commerce/getting-started/ui-switch.md).
 
    * **[!UICONTROL Ads]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
 
@@ -204,4 +204,4 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Din roll avg
 >
 >* [Logga in](sign-in.md)
 >* [Logga ut](sign-out.md)
->* [Växla mellan det nya gränssnittet och det gamla ](ui-switch.md)
+>* [Växla mellan det nya gränssnittet och det gamla &#x200B;](ui-switch.md)

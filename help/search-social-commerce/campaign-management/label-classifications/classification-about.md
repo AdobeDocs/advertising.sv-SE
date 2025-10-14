@@ -20,7 +20,7 @@ Alla annonsörer kan ha upp till 30 etikettklassificeringar, som är kategorier 
 
 ## Etikettvärden
 
-Varje etikettklassificering kan ha upp till 2 000 värden. När du har skapat specifika etikettvärden för en klassificering kan du tilldela dem till kampanjer, annonsgrupper, nyckelord, annonser, placeringar och produktgrupper [ från kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med hjälp av kalkylblad](classification-values-assign-bulksheets.md).
+Varje etikettklassificering kan ha upp till 2 000 värden. När du har skapat specifika etikettvärden för en klassificering kan du tilldela dem till kampanjer, annonsgrupper, nyckelord, annonser, placeringar och produktgrupper [&#x200B; från kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med hjälp av kalkylblad](classification-values-assign-bulksheets.md).
 
 Varje godkänd enhet kan ha etikettvärden för flera klassificeringar, men bara ett etikettvärde per klassificering. Etikettvärden ärvs av underordnade entiteter men kan åsidosättas. Värdet som tilldelas på den lägsta nivån åsidosätter alltid värden som tilldelas på överordnade nivåer.
 

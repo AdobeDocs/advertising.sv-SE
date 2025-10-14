@@ -20,7 +20,7 @@ Du kan generera en rapport som innehåller dataraderna för en eller flera kampa
 
 Du kan ta bort alla genererade rapporter.
 
-Se även &quot;>* [(Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)&quot; och &quot;[(gammalt användargränssnitt) Ta bort en rapport eller ett kalkylbladsdokument från [!UICONTROL Downloads]-menyn ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).&quot;
+Se även &quot;>* [(Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)&quot; och &quot;[(gammalt användargränssnitt) Ta bort en rapport eller ett kalkylbladsdokument från [!UICONTROL Downloads]-menyn &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md).&quot;
 
 ## Generera en rapport med filtrerade datarader
 
@@ -50,7 +50,7 @@ Se även &quot;>* [(Äldre användargränssnitt) Hämta data från en kampanjhan
 
 1. Klicka på ![Hämta](/help/search-social-commerce/assets/download.png "Hämta") **[!UICONTROL Report]** i verktygsfältet ovanför datatabellen.
 
-1. Klicka på [!UICONTROL Recently Generated]Hämta[!UICONTROL Grid Reports]Hämta![ bredvid filnamnet i listan ](/help/search-social-commerce/assets/download.png " i dialogrutan ").
+1. Klicka på [!UICONTROL Recently Generated]Hämta[!UICONTROL Grid Reports]Hämta![&#x200B; bredvid filnamnet i listan &#x200B;](/help/search-social-commerce/assets/download.png " i dialogrutan ").
 
    Filen laddas ned enligt webbläsarens normala procedur.
 
@@ -60,10 +60,10 @@ Se även &quot;>* [(Äldre användargränssnitt) Hämta data från en kampanjhan
 
 1. Klicka på ![Hämta](/help/search-social-commerce/assets/download.png "Hämta") **[!UICONTROL Report]** i verktygsfältet ovanför datatabellen.
 
-1. Klicka på [!UICONTROL Recently Generated]Ta bort[!UICONTROL Grid Reports]Ta bort![ bredvid filnamnet i listan ](/help/search-social-commerce/assets/delete-new.png " i dialogrutan ").
+1. Klicka på [!UICONTROL Recently Generated]Ta bort[!UICONTROL Grid Reports]Ta bort![&#x200B; bredvid filnamnet i listan &#x200B;](/help/search-social-commerce/assets/delete-new.png " i dialogrutan ").
 
 >[!MORELIKETHIS]
 >
 >* [Om [!UICONTROL Campaigns view]](campaign-view-about.md)
->* [(Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
->* [(Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från [!UICONTROL Downloads]-menyn ](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)
+>* [(Äldre användargränssnitt) Hämta data från en kampanjhanteringsvy &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download.md)
+>* [(Äldre användargränssnitt) Ta bort en rapport eller en kalkylbladsfil för prestanda från [!UICONTROL Downloads]-menyn &#x200B;](/help/search-social-commerce/common-tasks/navigation-editing-selection/download-delete-data.md)

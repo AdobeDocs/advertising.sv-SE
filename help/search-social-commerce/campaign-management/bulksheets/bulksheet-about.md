@@ -48,9 +48,9 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
 
 1. När du behöver lägga till data eller göra korrigeringar:
 
-   1. [Exportera filen ](bulksheet-export.md) till skrivbordet och redigera den i [!DNL Microsoft Excel].
+   1. [Exportera filen &#x200B;](bulksheet-export.md) till skrivbordet och redigera den i [!DNL Microsoft Excel].
 
-   1. [Överför den redigerade filen ](bulksheet-upload.md) manuellt till Search, Social och Commerce, eller [överför filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
+   1. [Överför den redigerade filen &#x200B;](bulksheet-upload.md) manuellt till Search, Social och Commerce, eller [överför filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
 
 1. (För filer som överförts manuellt) [Lägg upp filen](bulksheet-post.md) i annonsnätverket antingen när du överför den eller senare.
 

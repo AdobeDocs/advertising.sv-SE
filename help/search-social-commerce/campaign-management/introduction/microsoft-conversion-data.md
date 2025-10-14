@@ -20,7 +20,7 @@ Alla mätvärden är automatiskt tillgängliga i kampanjhanteringsvyer och grund
 
 Sök, Socialt och Commerce synkroniserar data för konverteringar där alternativet [!DNL Include in 'Conversions'] har aktiverats, hämtar data för de senaste 35 dagarna och drar sedan ändringar av data dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
 
-Två mätvärden för varje [[!DNL Microsoft Advertising]-spårad konvertering ](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (som du har konfigurerat i [!DNL Microsoft Advertising]) är automatiskt tillgängliga i Sök, Socialt och Commerce, med hjälp av konverteringsnamnen som har konfigurerats i [!DNL Microsoft Advertising]. Mätvärdena för varje konvertering är:
+Två mätvärden för varje [[!DNL Microsoft Advertising]-spårad konvertering &#x200B;](https://help.ads.microsoft.com/apex/index/3/en-us/n5012) (som du har konfigurerat i [!DNL Microsoft Advertising]) är automatiskt tillgängliga i Sök, Socialt och Commerce, med hjälp av konverteringsnamnen som har konfigurerats i [!DNL Microsoft Advertising]. Mätvärdena för varje konvertering är:
 
 * `<conversion-name>` - Konverteringsvärdet för nyckelordet (till exempel Köp).
 
@@ -40,7 +40,7 @@ Data är tillgängliga baserat på klickningstiden och baserat på konverterings
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar [ändrar du visningsnamnet ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade måtten i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar [ändrar du visningsnamnet &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade måtten i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
 >* Data på anbudsenhetsnivå matchar data i annonsnätverket på samma nivå. Annonsnätverkets egna konverteringsdata för högre nivåer kan dock innehålla ytterligare konverteringar som inte är kopplade till de underordnade budenheterna. Data i Sök, Socialt och Commerce samlas alltid in från anbudsenhetsnivån, så en kampanjnivårapport kanske inte har samma summor som en kampanjnivårapport i annonsnätverket.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
 >* Data är inte tillgängliga på målgrupps- eller geografisk platsnivå och används därför inte för automatisk optimering av RLSA och platsbudsjusteringar.

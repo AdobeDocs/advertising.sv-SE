@@ -40,7 +40,7 @@ Du kan inaktivera push-meddelanden enligt webbläsarens standardprocedur.
 
    ![Var ska du hantera meddelandeinställningar i Microsoft Edge](/help/search-social-commerce/assets/notifications-blocked-dialog.png "Var ska du hantera meddelandeinställningar i Microsoft Edge")?
 
-5. Aktivera [-meddelanden för de aviseringstyper som du vill ska skickas i ](notification-edit.md)meddelandeinställningarna[!UICONTROL Web].
+5. Aktivera [-meddelanden för de aviseringstyper som du vill ska skickas i &#x200B;](notification-edit.md)meddelandeinställningarna[!UICONTROL Web].
 
 ## Inaktivera push-meddelanden
 

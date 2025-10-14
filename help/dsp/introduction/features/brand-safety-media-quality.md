@@ -122,7 +122,7 @@ Partnerskapet [!DNL Adobe's] med [!DNL Adelaide] ger annonsörer stöd för Adel
 
 [Med riktad uppmärksamhet före bud på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md) kan annonsörer rikta in specifika uppmärksamhetsnivåer för att förbättra kundengagemanget.
 
-Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet ](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
+Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
 
 Ytterligare avgifter tillkommer för varje separat funktion.
 

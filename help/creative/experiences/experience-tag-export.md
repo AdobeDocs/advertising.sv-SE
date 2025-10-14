@@ -104,4 +104,4 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md)
 >* [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](experience-tag-assign-creatives.md)
 >* [Byt namn på en annonstagg](experience-tag-rename.md)
->* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
+>* [Anpassa omkodningsalternativ för en videoannons &#x200B;](experience-tag-video-transcoding.md)

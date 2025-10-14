@@ -35,9 +35,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
->* [(Nytt användargränssnitt) Redigera portföljinställningar gruppvis med hjälp av bulkbladsfiler ](portfolio-bulksheets.md)
->* [(Nytt användargränssnitt) Duplicera en portfölj ](portfolio-duplicate.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera portföljinställningar gruppvis med hjälp av bulkbladsfiler &#x200B;](portfolio-bulksheets.md)
+>* [(Nytt användargränssnitt) Duplicera en portfölj &#x200B;](portfolio-duplicate.md)
 >* [(Nytt användargränssnitt) Visa information om portföljprestanda](portfolio-details.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
->* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
+>* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)

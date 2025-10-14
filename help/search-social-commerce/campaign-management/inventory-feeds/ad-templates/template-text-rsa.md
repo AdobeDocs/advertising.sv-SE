@@ -176,9 +176,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 
 * För [!DNL Yandex]-mallar:
 
-   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
+   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
 
-   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
+   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
 
 >[!NOTE]
 >

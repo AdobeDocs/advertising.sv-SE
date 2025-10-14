@@ -20,7 +20,7 @@ Du kan tillfälligt visa och dölja kolumnerna som ingår i vyerna från valfri 
 
 >[!NOTE]
 >
->* Du kan också tillfälligt ändra kolumnerna i en vy och ändra sorteringsordningen [ från ikonen [!UICONTROL Columns] ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) till höger i verktygsfältet.
+>* Du kan också tillfälligt ändra kolumnerna i en vy och ändra sorteringsordningen [&#x200B; från ikonen [!UICONTROL Columns] &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-set-edit-sort-icon.md) till höger i verktygsfältet.
 >* Du kan ändra kolumnerna som ingår för en viss annonsörer genom att redigera standardvyn eller [skapa en anpassad vy](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md#create-custom-view).
 
 * (Om du vill visa specifika kolumner för alla annonsörer) Klicka på ![Nedåtpil](/help/search-social-commerce/assets/arrow-down-expand.png "Nedåtpil"), markera **[!UICONTROL Select Columns]** till höger om en kolumnrubrik, markera kryssrutan bredvid varje kolumn som ska inkluderas och klicka sedan på **[!UICONTROL Apply]**.

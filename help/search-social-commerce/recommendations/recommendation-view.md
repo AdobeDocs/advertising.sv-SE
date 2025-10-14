@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om utgivarens rekommendationer och insikter ](recommendation-support.md)
+>* [Om utgivarens rekommendationer och insikter &#x200B;](recommendation-support.md)
 >* [Tillämpa eller inaktivera en utgivarrekommendation](recommendation-apply-dismiss.md)
 >* [Visa loggen för utgivarens rekommendationer för ett konto](recommendation-view-log.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)

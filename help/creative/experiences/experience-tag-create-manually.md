@@ -47,6 +47,6 @@ Du kan skapa en eller flera annonstaggar per språk för varje kreativ storlek (
 >* [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](experience-tag-assign-creatives.md)
 >* [Anpassa spårnings-URL:er för en upplevelse utan att ange mål](experience-tracking-urls-no-targeting.md)
 >* [Anpassa den kreativa optimeringen och schemaläggningen för en upplevelse utan målinriktning](experience-optimization-scheduling-no-targeting.md)
->* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
+>* [Anpassa omkodningsalternativ för en videoannons &#x200B;](experience-tag-video-transcoding.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](experience-tag-export.md)
 >* [Byt namn på en annonstagg](experience-tag-rename.md)

@@ -28,6 +28,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [(Erfarenheter utan målinriktning) Skapa en annonstagg manuellt för en tillämplig kreativ storlek ](experience-tag-create-manually.md)
->* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
+>* [(Erfarenheter utan målinriktning) Skapa en annonstagg manuellt för en tillämplig kreativ storlek &#x200B;](experience-tag-create-manually.md)
+>* [Anpassa omkodningsalternativ för en videoannons &#x200B;](experience-tag-video-transcoding.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](experience-tag-export.md)

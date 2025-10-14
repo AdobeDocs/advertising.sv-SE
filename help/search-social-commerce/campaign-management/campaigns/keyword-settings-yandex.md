@@ -18,7 +18,7 @@ Yandex-nyckelord används både för söknings- och visningsnätverk (innehåll)
 
 ## [!UICONTROL Keyword Details]
 
-**[!UICONTROL Keywords]:** Nyckelordsfraser, inklusive all [Yandex-matchningstypssyntax ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelord. Varje nyckelord kan ha högst sju ord, med undantag för stoppord.
+**[!UICONTROL Keywords]:** Nyckelordsfraser, inklusive all [Yandex-matchningstypssyntax &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelord. Varje nyckelord kan ha högst sju ord, med undantag för stoppord.
 
 Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord med kommatecken eller ange dem på separata rader.
 

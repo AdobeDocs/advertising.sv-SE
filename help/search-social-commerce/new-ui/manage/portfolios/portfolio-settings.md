@@ -19,5 +19,5 @@ Mer information om portföljinställningarna finns i Optimeringsguiden som du n�
 >[!MORELIKETHIS]
 >
 >* [Skapa en portfölj](portfolio-create.md)
->* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
 >* [Om portföljer](portfolio-about.md)

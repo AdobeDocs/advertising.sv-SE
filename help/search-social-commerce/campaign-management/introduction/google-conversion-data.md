@@ -20,7 +20,7 @@ Alla mätvärden är automatiskt tillgängliga i era kampanjhanteringsvyer och g
 
 Sök, Socialt och Commerce synkroniserar data för konverteringar där alternativet [!DNL Include in 'Conversions'] har aktiverats, hämtar data för de senaste 35 dagarna och drar sedan ändringar av data dagligen med 09:00-10:00 i annonsörens tidszon. Historiska data kan ändras från dag till dag när nya konverteringar spåras för varje klick.
 
-Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering ](https://support.google.com/google-ads/answer/4677036) (som du har konfigurerat i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce, med hjälp av konverteringsnamnen som har konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
+Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering &#x200B;](https://support.google.com/google-ads/answer/4677036) (som du har konfigurerat i [!DNL Google Ads]) är automatiskt tillgängliga i Sök, Socialt och Commerce, med hjälp av konverteringsnamnen som har konfigurerats i [!DNL Google Ads]. Mätvärdena för varje konvertering är:
 
 <!--
 
@@ -42,7 +42,7 @@ Upp till tre mätvärden för varje [[!DNL Google Ads]-spårad konvertering ](ht
 
 >[!NOTE]
 >
->* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar [ändrar du visningsnamnet ](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade måtten i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
+>* Om du har flera konton med samma konverteringsnamn kan du se duplicerade konverteringsnamn i Adobe Advertising. Om detta inträffar [ändrar du visningsnamnet &#x200B;](/help/search-social-commerce/admin/conversion-metrics/conversion-metric-edit-display-name.md) för en av de dubblerade måtten i [!UICONTROL Admin] > [!UICONTROL Conversions]. Rapporteringen är inte korrekt när två olika mätvärden har samma namn.
 >* Data på anbudsenhetsnivå matchar data i [!DNL Google Ads] på samma nivå. [!DNL Google Ads] egna konverteringsdata för högre nivåer kan dock innehålla ytterligare konverteringar som inte har tilldelats de underordnade budenheterna. Data i Sök, Social och Commerce samlas alltid in från anbudsenhetsnivån, så till exempel har en kampanjnivårapport kanske inte samma summor som en kampanjnivårapport i Google Ads.
 >* Datavariansen är vanligtvis mindre efter morgonsynkroniseringen än den är senare under dagen, när ytterligare konverteringar ännu inte har synkroniserats. Vi rekommenderar att vi validerar data om morgonen.
 >* Konverteringsdata är inte tillgängliga för [!DNL Google Display Network], [!DNL Gmail], [!DNL Mobile App] och [!DNL YouTube] annonser. Filtrera ut de här annonstyperna när du jämför data i [!DNL Google Ads] med data i Sök, Socialt och Commerce.

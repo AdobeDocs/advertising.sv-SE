@@ -22,7 +22,7 @@ Kontoteamet på Adobe, reklambyrån eller annonsören (beroende på villkoren i 
 
 * Visa kontosammanfattning och prestandainformation om de inkluderade kampanjerna.
 
-* Körer [rapporter](/help/search-social-commerce/reports/report-about.md), inklusive [ [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (om tillämpligt), [[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) och ytterligare prestandarapporter när det är tillämpligt. När du använder portföljer måste du jämföra prognostiserade prestanda med faktiska prestanda.
+* Körer [rapporter](/help/search-social-commerce/reports/report-about.md), inklusive [&#x200B; [!UICONTROL Portfolio Report]](/help/search-social-commerce/reports/management/basic-advanced/portfolio-report.md) (om tillämpligt), [[!UICONTROL Keyword Report]](/help/search-social-commerce/reports/management/basic-advanced/keyword-report.md), [[!UICONTROL Ad Variation Report]](/help/search-social-commerce/reports/management/basic-advanced/ad-variation-report.md) och ytterligare prestandarapporter när det är tillämpligt. När du använder portföljer måste du jämföra prognostiserade prestanda med faktiska prestanda.
 
 ## Hantera prestanda och justera kampanj- och portföljstrukturerna
 

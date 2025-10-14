@@ -90,7 +90,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
    * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
 
-* För paket där anpassade optimeringsmål används [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen ](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den tidigare kampanjens historiska data som indata för optimering av paketet.
+* För paket där anpassade optimeringsmål används [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den tidigare kampanjens historiska data som indata för optimering av paketet.
 
 >[!MORELIKETHIS]
 >

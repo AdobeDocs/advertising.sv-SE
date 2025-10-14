@@ -23,7 +23,7 @@ När du sparar ett visst datumintervall för en standardvy eller anpassad vy anv
 >[!NOTE]
 >
 >* Du kan visa data för de senaste 13 månaderna, men befintliga anpassade vyer kan endast innehålla data för upp till de föregående 180 dagarna.
->* Om du vill visa tidigare data går du till [[!UICONTROL Reports]-vyn ](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) och kör en grundläggande rapport.
+>* Om du vill visa tidigare data går du till [[!UICONTROL Reports]-vyn &#x200B;](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-about.md) och kör en grundläggande rapport.
 >* Du kan också spara ett datumintervall för en [standardvy eller anpassad vy](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
 ## Ändra det globala datumfiltret i kampanjvyer

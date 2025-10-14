@@ -43,7 +43,7 @@ Du kan ställa in shoppingkampanjer med hjälp av [lagerflödesmallar](/help/sea
 
 1. (Valfritt) Om du vill spåra klick på annonsen [skapar du en spårnings-URL med verktyget för spårning av URL:er](/help/search-social-commerce/tools/click-tracking-url-generate.md) och lägger sedan till den i inställningarna för konto, kampanj eller produktgrupp.
 
-1. Övervaka prestanda genom att [generera [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) och [ [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
+1. Övervaka prestanda genom att [generera [!UICONTROL AdWords Shopping Performance Report]](/help/search-social-commerce/reports/management/specialty/specialty-report-generate.md) och [&#x200B; [!UICONTROL Product Group Report]](/help/search-social-commerce/reports/management/basic-advanced/basic-advanced-report-generate.md).
 
 1. Vid behov:
 

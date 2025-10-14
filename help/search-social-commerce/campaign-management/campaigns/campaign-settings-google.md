@@ -261,7 +261,7 @@ efter land. Om du inte markerar något, anges alla som mål.
 
 **[!UICONTROL Final URL]:** Den sista URL:en för alla annonser som har skapats från resursgruppen. <!-- For campaigns created within Search, Social, & Commerce, final URL expansion is automatically enabled for the campaign, and Google Ads replaces this value with a more relevant landing page based on the user's search query and intent, and also customizes the headline based on the landing page content. You can disable final URL expansion, or exclude specific URLs from expansion, from within the [!DNL Google Ads] editor. -->
 
-**[!UICONTROL Images]:** Upp till 15 bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
+**[!UICONTROL Images]:** Upp till 15 bilder för annonsen, inklusive följande storlekar: 1) minst tre kvadratiska bilder, 2) minst tre liggande bilder och 3) minst en stående bild. Se [[!DNL Google Ads] bildspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 
@@ -283,7 +283,7 @@ efter land. Om du inte markerar något, anges alla som mål.
 
 * Om du vill välja bilder från din [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer bilderna.
 
-**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en logotyp med liggande (4:1). Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&amp;ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
+**[!UICONTROL Logos]:** Minst en logotyp med fyrkantig (1:1) och en logotyp med liggande (4:1). Du kan inkludera upp till fem av varje storlek. Se [[!DNL Google Ads] logotypspecifikationerna](https://support.google.com/google-ads/answer/10724492?hl=en&ref_topic=10631992#zippy=,audience-signal-inputs,video-specifications,image-specifications). Du kan antingen överföra bilder eller välja dem från [!UICONTROL Asset Library] - men inte båda i samma åtgärd.
 
 * Så här överför du bilder:
 

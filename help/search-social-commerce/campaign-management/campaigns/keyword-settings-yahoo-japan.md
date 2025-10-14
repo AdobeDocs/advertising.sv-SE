@@ -33,9 +33,9 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 
 ## Platshållare
 
-**[!UICONTROL Param1]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param1}` [anpassade parametern ](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param1]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param1}` [anpassade parametern &#x200B;](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
-**[!UICONTROL Param2]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param2}` [anpassade parametern ](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
+**[!UICONTROL Param2]:** Den sträng som ska användas som ersättningsvärde om bas-URL:en eller spårningsmallen innehåller den `{param2}` [anpassade parametern &#x200B;](https://ads-help.yahoo-net.jp/s/article/H000044803?language=en_US).
 
 ## URL-alternativ
 

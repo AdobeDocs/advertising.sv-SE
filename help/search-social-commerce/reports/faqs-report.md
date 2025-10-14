@@ -92,9 +92,9 @@ Om du genererar en rapport flera gånger med samma rapportparametrar men med oli
 +++Enskilda datafält är felaktiga, men summorna är korrekta.
 Detta kan inträffa när heltal används i mätformaten:
 
-* Om du skapar ett [anpassat mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) med formatet *Number w/out Decimal Points* (som visar data som heltal) och inkluderar det i en vy eller i en rapport som använder en viktad konverteringsattribueringsregel ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] eller [!UICONTROL Even Distribution]) visas utdata i heltal, inte i decimaler. I det här fallet kan enskilda datafält vara felaktiga, även om summorna är korrekta. Om en ordning till exempel fördelas jämnt mellan tre händelser, fördelas en ordning (i stället för 0,33) på var och en av de tre händelserna. Du löser problemet genom att [ändra måttformatet ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) till *Nummer till 2 decimalpunkter*.
+* Om du skapar ett [anpassat mått](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-about.md) med formatet *Number w/out Decimal Points* (som visar data som heltal) och inkluderar det i en vy eller i en rapport som använder en viktad konverteringsattribueringsregel ([!UICONTROL Weight First Event More], [!UICONTROL Weight Last Event More] eller [!UICONTROL Even Distribution]) visas utdata i heltal, inte i decimaler. I det här fallet kan enskilda datafält vara felaktiga, även om summorna är korrekta. Om en ordning till exempel fördelas jämnt mellan tre händelser, fördelas en ordning (i stället för 0,33) på var och en av de tre händelserna. Du löser problemet genom att [ändra måttformatet &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-edit.md) till *Nummer till 2 decimalpunkter*.
 
-* Om du har ett intäktsmått som skickas som heltal händer samma sak. (Intäktsformatet styrs av konverteringstaggen som skickar data.) Du löser problemet genom att [skapa ett anpassat mått ](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som består enbart av intäktsmåttet och med formatet *Nummer till 2 decimalpunkter*, och ta med det i vyer och rapporter i stället för i det ursprungliga måttet.
+* Om du har ett intäktsmått som skickas som heltal händer samma sak. (Intäktsformatet styrs av konverteringstaggen som skickar data.) Du löser problemet genom att [skapa ett anpassat mått &#x200B;](/help/search-social-commerce/common-tasks/custom-metrics/custom-metric-create.md) som består enbart av intäktsmåttet och med formatet *Nummer till 2 decimalpunkter*, och ta med det i vyer och rapporter i stället för i det ursprungliga måttet.
 +++
 
 +++Hur förhindrar jag att klicknings- eller intäktsdata påverkar framtida anbud?
@@ -112,7 +112,7 @@ Du kan se decimalvärden i följande fall:
 
 * Om du har kört rapporten med någon annan parameter för konverteringsattribueringsregel än [!UICONTROL Last Event] eller [!UICONTROL First Event] kan intäkterna delas mellan flera händelser i konverteringssökvägen.
 
-* Om flera [!UICONTROL Transaction Report]budenheter[ med olika matchningstyper i ](/help/search-social-commerce/glossary.md#a-b) har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
+* Om flera [!UICONTROL Transaction Report]budenheter[&#x200B; med olika matchningstyper i &#x200B;](/help/search-social-commerce/glossary.md#a-b) har samma transaktions-ID delas intäkten för spårnings-ID upp enligt antalet klick på det angivna klickdatumet.
 +++
 
 ## Standardprestanda, mått

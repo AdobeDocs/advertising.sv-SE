@@ -71,7 +71,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Håll markören över källraden och klicka på **[!UICONTROL Edit]**.
 
-1. Ändra de [ID:n som har valts för källan ](#source-settings).
+1. Ändra de [ID:n som har valts för källan &#x200B;](#source-settings).
 
 1. Klicka på **[!UICONTROL Save]**.
 

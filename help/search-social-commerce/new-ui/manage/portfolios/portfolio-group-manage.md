@@ -92,5 +92,5 @@ Du kan skapa portföljgrupper, lägga till och ta bort portföljer från portfö
 >
 >* [Skapa en portfölj](portfolio-create.md)
 >* [(Nytt användargränssnitt) Visa information om portföljprestanda](portfolio-details.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
 >* [Om portföljer](portfolio-about.md)

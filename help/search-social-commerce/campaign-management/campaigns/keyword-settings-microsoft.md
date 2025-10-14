@@ -35,9 +35,9 @@ Du kan ange eller klistra in upp till 2 000 nyckelord. Avgränsa flera nyckelord
 
 ## Platshållare
 
-**[!UICONTROL Param2]:** Strängen som ska användas som ersättningsvärde om nyckelordets bas-URL eller annonsens rubrik, beskrivning eller bas-URL innehåller [ den `{Param2}` dynamiska ersättningssträngen ](https://help.bingads.microsoft.com/#apex/3/en/53079/0). Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (t.ex. kan kombinationen av Rubrik 1 och Rubrik 2 innehålla högst 76 tecken).
+**[!UICONTROL Param2]:** Strängen som ska användas som ersättningsvärde om nyckelordets bas-URL eller annonsens rubrik, beskrivning eller bas-URL innehåller [&#x200B; den `{Param2}` dynamiska ersättningssträngen &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0). Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (t.ex. kan kombinationen av Rubrik 1 och Rubrik 2 innehålla högst 76 tecken).
 
-**[!UICONTROL Param3]:** Strängen som ska användas som ersättningsvärde om nyckelordets bas-URL eller annonsens rubrik, beskrivning eller bas-URL innehåller [ den `{Param3}` dynamiska ersättningssträngen ](https://help.bingads.microsoft.com/#apex/3/en/53079/0). Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (t.ex. kan kombinationen av Rubrik 1 och Rubrik 2 innehålla högst 76 tecken).
+**[!UICONTROL Param3]:** Strängen som ska användas som ersättningsvärde om nyckelordets bas-URL eller annonsens rubrik, beskrivning eller bas-URL innehåller [&#x200B; den `{Param3}` dynamiska ersättningssträngen &#x200B;](https://help.bingads.microsoft.com/#apex/3/en/53079/0). Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (t.ex. kan kombinationen av Rubrik 1 och Rubrik 2 innehålla högst 76 tecken).
 
 ## URL-alternativ
 

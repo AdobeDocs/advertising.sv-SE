@@ -82,7 +82,7 @@ Du kan visa alla importjobb, inklusive källkontot [!DNL Google Ads], målkontot
 
      Vyn öppnas som standard på fliken [!UICONTROL List of Import Jobs].
 
-   * Klicka på fliken **[!UICONTROL List of Import Jobs]** på fliken [[!UICONTROL Import Logs] ](#campaign-import-log).
+   * Klicka på fliken **[!UICONTROL List of Import Jobs]** på fliken [[!UICONTROL Import Logs] &#x200B;](#campaign-import-log).
 
 ## Kör ett kampanjimportjobb
 

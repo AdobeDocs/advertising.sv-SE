@@ -18,7 +18,7 @@ När du sprider feed-data utan att samtidigt publicera dem i annonsnätverket ka
 
 * Om du använde alternativet för [!UICONTROL Propagate and Preview] kan du redigera den genererade kalkylbladsfilen (med namnet `<feed file name>_<template name>`) genom att hämta den från vyn [!UICONTROL Bulksheets], redigera filen och överföra den igen. Det finns inga data på flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
-* Om du använde alternativet för [!UICONTROL Propagate only] kan du redigera genererade data för komponenter med [[!UICONTROL New] status ](propagated-data-status.md) i en kampanjhierarkivy från flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
+* Om du använde alternativet för [!UICONTROL Propagate only] kan du redigera genererade data för komponenter med [[!UICONTROL New] status &#x200B;](propagated-data-status.md) i en kampanjhierarkivy från flikarna [!UICONTROL Campaigns], [!UICONTROL Ad Groups], [!UICONTROL Keywords] och [!UICONTROL Ads].
 
   Vyerna för kampanjhierarkin visar bara data som genererats från feedfilen, inte de befintliga kontokomponenterna. När data för en komponent och alla dess underkomponenter har publicerats i annonsnätverket visas den inte längre i kampanjhierarkin.
 

@@ -22,9 +22,9 @@ Om du använder spårningstjänsten för konvertering av Adobe Advertising kan d
 
 * Med [[!UICONTROL Tracking URLs]-verktyget](click-tracking-url-generate.md) kan du manuellt generera en klickspårnings-URL, som är en spårningsmall eller mål-URL med Sökning, Socialt och Commerce-spårning för alla nyckelord, annonser, dynamiska sökningar, placeringar, produktgrupper eller sitelink för ett [stödt annonsnätverk](/help/search-social-commerce/introduction/supported-inventory.md).
 
-  Mer information om huruvida klickspårnings-URL:er ska genereras manuellt finns i &quot;[När och hur klickspårnings-URL:er ](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ska genereras.&quot;
+  Mer information om huruvida klickspårnings-URL:er ska genereras manuellt finns i &quot;[När och hur klickspårnings-URL:er &#x200B;](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) ska genereras.&quot;
 
-* (Endast konton med mål-URL:er) Med verktyget [[!UICONTROL Decode Tracking URLs] ](click-tracking-url-decode.md) kan du ta bort koden Sök, Socialt och Commerce från en URL som är aktiverad för spårning för att se vad bas-URL:en är.
+* (Endast konton med mål-URL:er) Med verktyget [[!UICONTROL Decode Tracking URLs] &#x200B;](click-tracking-url-decode.md) kan du ta bort koden Sök, Socialt och Commerce från en URL som är aktiverad för spårning för att se vad bas-URL:en är.
 
 >[!MORELIKETHIS]
 >

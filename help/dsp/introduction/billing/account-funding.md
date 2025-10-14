@@ -25,7 +25,7 @@ Finansieringen för klientkonton uppdateras nästan i realtid i [!DNL DSP]. Om d
 
 ![Användbara medel för ett konto](/help/dsp/assets/account-usable-funds.png)
 
-Adobe förbehåller sig rätten att blockera ditt konto från att spendera på DSP av orsaker som inbegriper överträdelse av DSP [annonskrav ](/help/policies/ad-requirements-policy.md) eller sekretessvillkor. Om Adobe blockerar ditt konto innehåller dina kontoinställningar ett spärrat meddelande. Samarbeta med kontoteamet på Adobe för att ta reda på orsaken till blocket och hur du kan korrigera felet.
+Adobe förbehåller sig rätten att blockera ditt konto från att spendera på DSP av orsaker som inbegriper överträdelse av DSP [annonskrav &#x200B;](/help/policies/ad-requirements-policy.md) eller sekretessvillkor. Om Adobe blockerar ditt konto innehåller dina kontoinställningar ett spärrat meddelande. Samarbeta med kontoteamet på Adobe för att ta reda på orsaken till blocket och hur du kan korrigera felet.
 
 >[!MORELIKETHIS]
 >

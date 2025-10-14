@@ -17,7 +17,7 @@ Endast *[!DNL Google Ads]konton*
 Du kan skapa negativa placeringar för en [!DNL Google Ads]-annonsgrupp i en kampanj som har visningsnätverket som mål. Negativa placeringar är webbplatser i visningsnätverket som inte utlöser annonser.
 
 >[!NOTE]
->Du kan också skapa och redigera negativa placeringar i inställningarna för [annonsgruppen ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) och [kampanjen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+>Du kan också skapa och redigera negativa placeringar i inställningarna för [annonsgruppen &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) och [kampanjen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
 >[!TIP]
 >Om du vill skapa många negativa placeringar samtidigt använder du [kampanjmallar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).

@@ -30,7 +30,7 @@ När du redigerar en målgrupp som används i någon placering eller annan åter
 
    * (Valfritt) Om du vill redigera **[!UICONTROL Audience Name]** klickar du på ![Redigera](/help/dsp/assets/edit.png) bredvid målgruppsnamnet, anger ett unikt målgruppsnamn och klickar sedan på **[!UICONTROL Apply]**.
 
-   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md) gör du följande.
+   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md) gör du följande.
 
       * Lägga till ett segment i en befintlig segmentgrupp:
 

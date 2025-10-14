@@ -17,7 +17,7 @@ ht-degree: 0%
 Du kan skapa negativa nyckelord för en sök- och annonsgrupp eller kampanj som riktar sig till nätverket för sökning eller visning/inbyggt nätverk. Negativa nyckelord utlöser inte annonser.
 
 >[!NOTE]
->Du kan också skapa och redigera negativa nyckelord i inställningarna för [annonsgruppen ](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) och [kampanjen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
+>Du kan också skapa och redigera negativa nyckelord i inställningarna för [annonsgruppen &#x200B;](/help/search-social-commerce/campaign-management/campaigns/ad-group-manage.md) och [kampanjen](/help/search-social-commerce/campaign-management/campaigns/campaign-manage.md).
 
 >[!TIP]
 >Om du vill skapa flera negativa nyckelord samtidigt använder du [kampanjmallar](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-about.md).

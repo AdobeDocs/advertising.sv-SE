@@ -51,11 +51,11 @@ Resten av AMO-ID kan ignoreras.
 
 Bearbetningsregeln [!DNL Marketing Channels] för kanalen [!UICONTROL Paid Search] kan se ut så här:
 
-![Exempel på en [!UICONTROL Paid Search] regel ](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
+![Exempel på en [!UICONTROL Paid Search] regel &#x200B;](/help/integrations/assets/a4adc-mc-rule-paidsearch.png)
 
 Bearbetningsregeln [!DNL Marketing Channels] för kanalen [!UICONTROL YouTube Video Ads] kan se ut så här:
 
-![Exempel på en [!UICONTROL YouTube Video Ads] regel ](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
+![Exempel på en [!UICONTROL YouTube Video Ads] regel &#x200B;](/help/integrations/assets/a4adc-mc-rule-youtube-video.png)
 
 >[!IMPORTANT]
 >

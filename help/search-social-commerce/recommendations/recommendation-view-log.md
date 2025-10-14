@@ -26,7 +26,7 @@ Avvisade rekommendationer är inte tillgängliga från annonsnätverket.
 
 >[!MORELIKETHIS]
 >
->* [Om utgivarens rekommendationer och insikter ](recommendation-support.md)
+>* [Om utgivarens rekommendationer och insikter &#x200B;](recommendation-support.md)
 >* [Visa dina utgivarrekommendationer och prestandainsikter](recommendation-view.md)
 >* [Tillämpa eller inaktivera en utgivarrekommendation](recommendation-apply-dismiss.md)
 >* [Bästa tillvägagångssätt för att använda utgivarrekommendationer med portföljer](recommendation-best-practices.md)

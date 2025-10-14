@@ -147,7 +147,7 @@ De översatta segmenten är tillgängliga för att inkluderas i återanvändbara
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
 >* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)

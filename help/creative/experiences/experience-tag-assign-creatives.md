@@ -46,5 +46,5 @@ Du kan senare [anpassa URL:er för spårning](experience-tracking-urls-no-target
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md)
 >* [Anpassa URL:er för spårning för kreatörerna](experience-tracking-urls-no-targeting.md).
 >* [Anpassa kreativ optimering och schemaläggning för kreatörerna](experience-optimization-scheduling-no-targeting.md)
->* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
+>* [Anpassa omkodningsalternativ för en videoannons &#x200B;](experience-tag-video-transcoding.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](experience-tag-export.md)

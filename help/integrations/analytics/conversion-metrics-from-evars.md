@@ -20,7 +20,7 @@ Ni kan använda framgångsstatistik för att optimera DSP-paket och sök-, socia
 
 De flesta av följande åtgärder måste utföras av en [!DNL Analytics]-administratör eller annan användare. Kontakta Adobe Account Team om du behöver hjälp.
 
-1. I [!DNL Analytics] [skapar du en platshållarhändelse ](https://experienceleague.adobe.com/sv/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
+1. I [!DNL Analytics] [skapar du en platshållarhändelse &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event).
 
    Använd följande ytterligare parametrar:
 

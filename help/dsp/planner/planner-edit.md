@@ -28,10 +28,10 @@ När du redigerar planinställningarna genereras en ny prognos.
 
 >[!MORELIKETHIS]
 >
->* [Om DSP ](planner-about.md)
+>* [Om DSP &#x200B;](planner-about.md)
 >* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
 >* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)

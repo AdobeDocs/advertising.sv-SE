@@ -32,7 +32,7 @@ Om du vill generera konverteringstaggar för befintliga konverteringar använder
 
 1. Kopiera konverteringstaggen och implementera den på de webbplatser du vill spåra konverteringsmåtten från.
 
-   Se &quot;Installera taggen [!DNL Google]&quot; i hjälpen för [!DNL Google Ads] till &quot;[&quot;. Konfigurera din Google-tagg ](https://support.google.com/google-ads/answer/12215519).&quot;
+   Se &quot;Installera taggen [!DNL Google]&quot; i hjälpen för [!DNL Google Ads] till &quot;[&quot;. Konfigurera din Google-tagg &#x200B;](https://support.google.com/google-ads/answer/12215519).&quot;
 
 1. Klicka på **[!UICONTROL Done].**
 
@@ -58,7 +58,7 @@ När du har lagt till taggarna på webbplatsen och börjar bränna dem konverter
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [Hur många konverteringar som ska räknas per klickning eller interaktion ](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* eller *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
+**[!UICONTROL Count]:** [Hur många konverteringar som ska räknas per klickning eller interaktion &#x200B;](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* eller *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
 
 **[!UICONTROL Click Through Conversion Window]:** Det maximala antalet dagar efter en annonsinteraktion som konverteringar registreras för. För sök-, display- och shoppingkampanjer kan fönstret vara mellan 1 och 90 dagar. Välj ett tal eller välj **[!UICONTROL Custom]** och ange ett tal.
 

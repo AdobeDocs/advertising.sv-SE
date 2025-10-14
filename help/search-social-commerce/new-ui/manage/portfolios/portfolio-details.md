@@ -106,6 +106,6 @@ Mer information om portföljinställningarna finns i Optimeringsguiden som du n�
 
 >[!MORELIKETHIS]
 >
->* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
->* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
+>* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)

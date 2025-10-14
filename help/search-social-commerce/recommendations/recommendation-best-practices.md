@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om utgivarens rekommendationer och insikter ](recommendation-support.md)
+>* [Om utgivarens rekommendationer och insikter &#x200B;](recommendation-support.md)
 >* [Visa dina utgivarrekommendationer och prestandainsikter](recommendation-view.md)
 >* [Tillämpa eller inaktivera en utgivarrekommendation](recommendation-apply-dismiss.md)
 >* [Visa loggen för utgivarrekommendationer för ett konto](recommendation-view-log.md)

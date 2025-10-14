@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. Klicka på **[!UICONTROL Create]**.
 
-Om du inte angav ett rapportschema körs rapporten omedelbart, annars körs den enligt angivet schema. Rapportnamnet läggs till i vyn [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Om du sparade rapporten som en mall läggs den också till i [[!UICONTROL Templates]-vyn ](/help/search-social-commerce/reports/report-about.md). När rapporten är klar är filen tillgänglig för att öppnas eller sparas. Mallar är tillgängliga omedelbart.
+Om du inte angav ett rapportschema körs rapporten omedelbart, annars körs den enligt angivet schema. Rapportnamnet läggs till i vyn [[!UICONTROL Latest Reports]](/help/search-social-commerce/reports/report-about.md). Om du sparade rapporten som en mall läggs den också till i [[!UICONTROL Templates]-vyn &#x200B;](/help/search-social-commerce/reports/report-about.md). När rapporten är klar är filen tillgänglig för att öppnas eller sparas. Mallar är tillgängliga omedelbart.
 
 Om du har angett e-postadresser för meddelanden får varje mottagare ett meddelande när rapportjobbet har slutförts eller misslyckats, baserat på användarens [konfigurerade meddelandeinställningar](/help/search-social-commerce/notifications/notification-edit.md) för rapporter.
 

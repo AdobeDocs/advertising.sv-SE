@@ -38,7 +38,7 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
    >
    >När du skapar målgruppen uppdateras detaljerade [data om målgruppens storlek](audience-about.md) i den högra panelen
 
-   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md):
+   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md):
 
       * Om du vill lägga till det första segmentet letar du reda på segmentet i den vänstra panelen och markerar kryssrutan bredvid segmentnamnet.
 
@@ -89,5 +89,5 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

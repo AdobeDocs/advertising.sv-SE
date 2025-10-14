@@ -79,7 +79,7 @@ Genom att lägga till en händelsepixel för Audience Manager-intryck i dina ann
 
       1. [Sök efter signalen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-signals-search.html?lang=sv-SE) för [nyckel/värde-paret](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-explorer/signals-search/data-explorer-search-pairs.html?lang=sv-SE) som avgör på vilken nivå segmentanvändarna grupperas.
 
-         Använd en [stödd ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=sv-SE)-nyckel med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-inställningshändelsens pixel.
+         Använd en [stödd &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=sv-SE)-nyckel med ett värde som motsvarar ett makro som du har lagt till i Audience Manager-inställningshändelsens pixel.
 
          Om du till exempel vill gruppera användare för en viss placering använder du tangenten `d_placement`. Använd ett numeriskt placerings-ID (till exempel 2501853) som hämtas av DSP-makrot `${TM_PLACEMENT_ID_NUM}` för värdet. <!-- Explain where to find the placement ID, other than in a custom report. -->
 

@@ -26,7 +26,7 @@ Från vyn [!UICONTROL Extensions] > [!UICONTROL Associations] kan du tilldela al
 
 ## Prestandadata för sitelinks
 
-Search, Social, &amp; Commerce mappar klickningarna på ett tillägg och den resulterande konverteringen till nyckelordet som är associerat med den annons som tillägget ingår i. Det finns inga kostnadsdata eller klickdata på tilläggsnivån i Search, Social och Commerce. I [ [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) kan du dock se om en transaktion har skapats från en sitelink (i stället för från själva annonsen) när värdet i kolumnen Länktyp anges som `sl:<Sitelink text>`, till exempel sl:See Current Offers.
+Search, Social, &amp; Commerce mappar klickningarna på ett tillägg och den resulterande konverteringen till nyckelordet som är associerat med den annons som tillägget ingår i. Det finns inga kostnadsdata eller klickdata på tilläggsnivån i Search, Social och Commerce. I [&#x200B; [!UICONTROL Transaction Report]](/help/search-social-commerce/reports/management/basic-advanced/transaction-report.md) kan du dock se om en transaktion har skapats från en sitelink (i stället för från själva annonsen) när värdet i kolumnen Länktyp anges som `sl:<Sitelink text>`, till exempel sl:See Current Offers.
 
 I [!DNL Google Ads] och [!DNL Microsoft Advertising] kan du se kostnad och klicka på data på fliken [!DNL Ad Extensions].
 

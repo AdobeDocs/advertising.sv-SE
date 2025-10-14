@@ -82,7 +82,7 @@ Mer information om när du måste generera och implementera en klickspårnings-U
 
 För konton med mål-URL:er anger du värdena i rätt [!UICONTROL Base URL]-fält.
 
-För konton med slutliga URL:er anger du värdet på skärmen i lämpligt [!UICONTROL Tracking Template]-fält. Du måste lägga till en parameter för den sista URL:en efter parametern `&url=` (till exempel `{lpurl}`). Använd parametern `{lpurl}` för [!DNL Yahoo! Japan Ads]-konton. En lista över [!DNL Google Ads]- och [!DNL Microsoft Advertising]-parametrar som anger de slutliga URL:erna i spårningsmallar finns i [[!DNL Google Ads]  dokumentationen ](https://support.google.com/google-ads/answer/6305348) (se parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga [!DNL ValueTrack] parametrar&quot;) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.ads.microsoft.com/#apex/3/en/56799/2).
+För konton med slutliga URL:er anger du värdet på skärmen i lämpligt [!UICONTROL Tracking Template]-fält. Du måste lägga till en parameter för den sista URL:en efter parametern `&url=` (till exempel `{lpurl}`). Använd parametern `{lpurl}` för [!DNL Yahoo! Japan Ads]-konton. En lista över [!DNL Google Ads]- och [!DNL Microsoft Advertising]-parametrar som anger de slutliga URL:erna i spårningsmallar finns i [[!DNL Google Ads]  dokumentationen &#x200B;](https://support.google.com/google-ads/answer/6305348) (se parametrarna &quot;Endast spårningsmall&quot; i avsnittet &quot;Tillgängliga [!DNL ValueTrack] parametrar&quot;) och i [[!DNL Microsoft Advertising] dokumentationen](https://help.ads.microsoft.com/#apex/3/en/56799/2).
 
 >[!MORELIKETHIS]
 >

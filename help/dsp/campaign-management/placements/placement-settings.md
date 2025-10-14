@@ -191,7 +191,7 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
   På fliken [!UICONTROL Deals] kan du söka i listan efter nyckelord, nyckel, avtal-ID eller anpassad tagg. På fliken [!UICONTROL Deal Lists] kan du söka i listan efter namn på avtalslista eller ID för avtalslista.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [ premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager ](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [&#x200B; premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
 
   Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödesnamn, flödesknapp eller en vald utgivarregion, kategoritagg eller karakteristisk tagg.
 

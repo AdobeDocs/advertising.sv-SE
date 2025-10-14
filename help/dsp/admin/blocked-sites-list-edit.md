@@ -41,5 +41,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Om blockerade webbplatser på kontonivå och annonsnivå](/help/dsp/admin/blocked-sites-list-about.md)
-> [Varumärkessäkerhet och mediakvalitet ](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Varumärkessäkerhet och mediakvalitet &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

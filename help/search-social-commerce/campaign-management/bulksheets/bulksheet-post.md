@@ -25,7 +25,7 @@ Bulkbladsfiler och felfiler tas automatiskt bort 30 dagar efter att de har över
 
 1. Klicka på **[!UICONTROL Post]** i verktygsfältet ovanför datatabellen.
 
-1. Ange eller välj information i [[!UICONTROL Post Bulksheet]-inställningarna ](#bulksheet-post-settings) i dialogrutan och klicka sedan på **[!UICONTROL Post]**.
+1. Ange eller välj information i [[!UICONTROL Post Bulksheet]-inställningarna &#x200B;](#bulksheet-post-settings) i dialogrutan och klicka sedan på **[!UICONTROL Post]**.
 
    Samma inställningar gäller för alla filer som du skickar.
 

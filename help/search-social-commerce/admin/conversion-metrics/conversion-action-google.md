@@ -34,7 +34,7 @@ Du kan skapa konverteringsåtgärder för [!DNL Google Ads] förbättrade konver
 
    Skapa konverteringstaggen och implementera den efter behov på de webbplatser som du vill spåra konverteringsmåtten från. Instruktioner finns i följande:
 
-   * Information om hur du använder taggen [!DNL Google] finns i [!DNL Google Ads]-instruktionerna för att konfigurera [!DNL Google]-tagginställningar i [Konfigurera förbättrade konverteringar för leads med taggen  [!DNL Google] ](https://support.google.com/google-ads/answer/11347292).
+   * Information om hur du använder taggen [!DNL Google] finns i [!DNL Google Ads]-instruktionerna för att konfigurera [!DNL Google]-tagginställningar i [Konfigurera förbättrade konverteringar för leads med taggen  [!DNL Google] &#x200B;](https://support.google.com/google-ads/answer/11347292).
 
    * Information om hur du använder [!DNL Google Tag Manager] finns i [!DNL Google Ads]-instruktionerna för att konfigurera [!DNL Google]-tagginställningar och för att verifiera konfigurationen och publicera behållaren i [Konfigurera förbättrade konverteringar för leads med [!DNL Google Tag Manager]](https://support.google.com/google-ads/answer/11021502?#configure).
 
@@ -62,7 +62,7 @@ När du har skapat konverteringsåtgärden och implementerat en konverteringssp�
 
 * *[!UICONTROL Don't use a value for this conversion action (Not recommended)]*
 
-**[!UICONTROL Count]:** [Hur många konverteringar som ska räknas per klickning eller interaktion ](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* eller *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
+**[!UICONTROL Count]:** [Hur många konverteringar som ska räknas per klickning eller interaktion &#x200B;](https://support.google.com/google-ads/answer/3438531): *[!UICONTROL Every (Recommended for every purchases because every purchase is valuable)]* eller *[!UICONTROL One (Recommended for leads, sign-ups and other conversions because only the first interaction is valuable)]*.
 
 **[!UICONTROL Click Through Conversion Window]:** Det maximala antalet dagar efter en annonsinteraktion som konverteringar registreras för. För sök-, display- och shoppingkampanjer kan fönstret vara mellan 1 och 90 dagar. Välj ett tal eller välj **[!UICONTROL Custom]** och ange ett tal.
 

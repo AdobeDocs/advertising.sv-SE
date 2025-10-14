@@ -16,11 +16,11 @@ ht-degree: 0%
 
 1. (Valfritt) Filtrera vyn så att den innehåller rader med specifika namn, dataområde som ska utvärderas eller andra villkor.
 
-   Du kan använda datafilter [ från verktygsfältet ](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller [ från kolumnrubriker](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+   Du kan använda datafilter [&#x200B; från verktygsfältet &#x200B;](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller [&#x200B; från kolumnrubriker](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 1. Klicka på ![Redigera](/help/search-social-commerce/assets/edit.png "Redigera") bredvid mallnamnet.
 
-1. I fönstret [!UICONTROL Update \[Entity Type\] Alert] redigerar du [ aviseringsinställningarna ](alert-template-settings.md) på flikarna **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]**.
+1. I fönstret [!UICONTROL Update \[Entity Type\] Alert] redigerar du [&#x200B; aviseringsinställningarna &#x200B;](alert-template-settings.md) på flikarna **[!UICONTROL Date Range]**, **[!UICONTROL Filters]** och **[!UICONTROL Scheduling and Delivery]**.
 
    Du kan flytta mellan flikar genom att klicka på fliknamnet (till exempel &quot;Filter&quot;) eller genom att klicka på **[!UICONTROL Next]** längst ned till höger.
 

@@ -121,7 +121,7 @@ Följ det här arbetsflödet för varje klientinstans av Search, Social och Comm
 
 1. [Logga in på Adobe Admin Console och öppna den för sökning, sociala medier och Commerce](#open-admin-console).
 
-1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller [ gruppvis](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) efter behov.
+1. Skapa slutanvändare [individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html) eller [&#x200B; gruppvis](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html) efter behov.
 
 1. (Valfritt) Skapa [användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) för instansen och tilldela användare till varje användargrupp.
 

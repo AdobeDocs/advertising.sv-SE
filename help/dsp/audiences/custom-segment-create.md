@@ -107,7 +107,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
          1. Kopiera taggen för visningsspårning, som har etiketten [!UICONTROL Desktop or mobile ads].
 
-         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 När du har implementerat en spårningstagg kan du använda segmentet i målgruppen eller exkluderingarna för alla placeringar.
 
@@ -122,7 +122,7 @@ När du har implementerat en spårningstagg kan du använda segmentet i målgrup
 >* [Ta bort ett segment](segment-delete.md)
 >* [Visa spårningspixlar för ett segment](segment-view-pixels.md)
 >* [Dela eller sluta dela ett segment](segment-share.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

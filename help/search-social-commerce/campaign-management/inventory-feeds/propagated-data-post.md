@@ -22,7 +22,7 @@ För en framgångsrik bokföring måste alla annonsgrupper tilldelas till kampan
 
   Om du inte [validerade dina landningssidor](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-validate-landing-pages.md) tidigare kan du göra det innan du publicerar filen.
 
-* Om du använde alternativet för [!UICONTROL Propagate only] kan du publicera genererade data för komponenter med [[!UICONTROL New] status ](propagated-data-status.md) i en kampanjhierarkivy på fliken [!UICONTROL Templates].
+* Om du använde alternativet för [!UICONTROL Propagate only] kan du publicera genererade data för komponenter med [[!UICONTROL New] status &#x200B;](propagated-data-status.md) i en kampanjhierarkivy på fliken [!UICONTROL Templates].
 
   >[!NOTE]
   >

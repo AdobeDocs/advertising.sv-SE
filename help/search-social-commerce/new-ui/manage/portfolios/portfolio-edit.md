@@ -34,8 +34,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera portföljinställningar gruppvis med hjälp av bulkbladsfiler ](portfolio-bulksheets.md)
+>* [(Nytt användargränssnitt) Redigera portföljinställningar gruppvis med hjälp av bulkbladsfiler &#x200B;](portfolio-bulksheets.md)
 >* [Skapa en portfölj](portfolio-create.md)
 >* [(Nytt användargränssnitt) Visa information om portföljprestanda](portfolio-details.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
 >* [Om portföljer](portfolio-about.md)

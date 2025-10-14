@@ -22,7 +22,7 @@ Händelsepixlarna fångar inte in händelser som inträffar i cookie-fria miljö
 
 ## Steg 1: Konfigurera en Data Source i Audience Manager {#set-up-data-source}
 
-Skapa en [datakälla](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=sv-SE) i Audience Manager för DSP och klicka på data. Inkludera datakällans ID [ i varje händelsetagg ](#implement-dsp-pixels) så att alla spårade händelser tilldelas datakällan.
+Skapa en [datakälla](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=sv-SE) i Audience Manager för DSP och klicka på data. Inkludera datakällans ID [&#x200B; i varje händelsetagg &#x200B;](#implement-dsp-pixels) så att alla spårade händelser tilldelas datakällan.
 
 >[!NOTE]
 > Det är möjligt att samla in alla intryckta data och klickdata för annonskampanjer som körs på flera DSP i en enda datakälla.
@@ -100,9 +100,9 @@ Exempel på en visningshändelsepixel:
 
 Koppla en pixel för händelsespårning för ett intryck till alla annonser i dina [!DNL DSP]-kampanjer. Du kan göra det på följande platser:
 
-* På placeringsnivån, som tillämpar pixeln som standard på alla annonser i placeringen. Lägg till pixeln i fältet [[!UICONTROL Event pixels] ](/help/dsp/campaign-management/placements/placement-settings.md) i avsnittet Spårning i placeringsinställningarna.
+* På placeringsnivån, som tillämpar pixeln som standard på alla annonser i placeringen. Lägg till pixeln i fältet [[!UICONTROL Event pixels] &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md) i avsnittet Spårning i placeringsinställningarna.
 
-* På annonsnivån, som åsidosätter händelsepixlar på placeringsnivå. I annonsinställningarna [skapar du en händelsepixel på fliken [!UICONTROL Pixel] ](/help/dsp/campaign-management/ads/ad-edit.md).
+* På annonsnivån, som åsidosätter händelsepixlar på placeringsnivå. I annonsinställningarna [skapar du en händelsepixel på fliken [!UICONTROL Pixel] &#x200B;](/help/dsp/campaign-management/ads/ad-edit.md).
 
 * (För annonser på en annonsserver från tredje part) På annonsnivån i annonsservern.
 
@@ -120,7 +120,7 @@ När dina data finns på Audience Manager-servrarna måste du skapa en [!DNL Ama
 
 ### Skapa Audience Manager-traits och segment
 
-Dina händelsedata flödar till Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=sv-SE). Skapa [regelbaserade ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=sv-SE) manuellt från inkapslade data och skapa sedan [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=sv-SE) med dessa egenskaper innan du kan använda data i rapporter.
+Dina händelsedata flödar till Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=sv-SE). Skapa [regelbaserade &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=sv-SE) manuellt från inkapslade data och skapa sedan [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=sv-SE) med dessa egenskaper innan du kan använda data i rapporter.
 
 Exempeldiagram som fyller i användarnivådata för användare som exponeras för en viss kreativ i DSP:
 
