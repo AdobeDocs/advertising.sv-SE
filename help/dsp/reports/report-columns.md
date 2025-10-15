@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ae7431218dcb547ded53d4bad1a79b894ee973fe
+source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2313'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,11 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Vendor] | Leverantören av det operativsystem där annonsen visades (till exempel [!UICONTROL Microsoft] eller [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System Version] | Den version av operativsystemet som annonsen visades på (till exempel [!UICONTROL Windows 10] eller [!UICONTROL iOS Mojave]) |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Operating System] | Det operativsystem som annonsen visades på (till exempel [!UICONTROL Apple iOS] eller [!UICONTROL Android]). |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal ID] | Den unika identifierare som tilldelats ett avtal via den externa leveranspartnern. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Name] | Det användartilldelade namnet för erbjudandet, som anges i DSP. |
-| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Feed Source] | Leverantörspartnern som tillhandahåller lagret. Detta är vanligtvis en utgivare, men kan också vara en SSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Name] | Det användartilldelade namnet för erbjudandet, som anges i DSP. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Deal Type] | Om erbjudandet är *[!UICONTROL Guaranteed]* eller *[!UICONTROL Non-Guaranteed]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Inventory Type] | Klassificeringen av lagret: *[!UICONTROL Private],* *[!UICONTROL On Demand],* eller *[!UICONTROL Public]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Private Deal ID] | Den unika identifierare som tilldelats en privat affär via den externa leveranspartnern. |
+| [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL Publisher] | Leverantörspartnern som tillhandahåller lagret. Detta är vanligtvis en utgivare, men kan också vara en SSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Feed] | [!UICONTROL SSP] | Den SSP-partner som mediet är hänförligt till. |
 | [!UICONTROL Dimension] | [!UICONTROL Frequency] | [!UICONTROL Frequency] | Antalet gånger en enhet har fått en annons, baserat på den unika cookien eller enhets-ID:t. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Den stad som de rapporterade uppgifterna härrör från. |
