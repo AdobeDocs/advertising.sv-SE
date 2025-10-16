@@ -3,9 +3,9 @@ title: '[!DNL Google Ads] och gruppinställningar'
 description: Referera inställningarna för  [!DNL Google Ads] annonsgrupper.
 exl-id: def75630-19b9-4676-ad34-5d9041cc3680
 feature: Search Campaign Management
-source-git-commit: fb38bf6afa181b4560742d3649db68c8aef0e619
+source-git-commit: 345c2af5363ca10412f3809700e281af5b06897f
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Om kampanjen använder en strategi för Smart Bidding-bud (till exempel [!UICONT
 >* När du lägger ett bud med nyckelord skapar du spårningsmallar på nyckelordsnivå. På samma sätt kan du skapa spårningsmallar på placeringsnivå när du lägger ett bud per placering. För alla andra dimensioner skapar du spårningsmallar på annonsnivå.
 >* När ni lägger bud per ålder, kön, ränta och lista eller vertikalt för kampanjer i portföljer optimerar inte optimeringsfunktionen budskapen för dimensionen. Dessutom tillämpas all attribuering på annonsgruppen.
 >* I annonser i söknätverket används alltid nyckelordsbud.
+
+**[!UICONTROL AI Max Search Term Matching]:** (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max ](https://support.google.com/google-ads/answer/15910366) och söktermmatchningen på kampanjnivå är aktiverad; skrivskyddad) Anger om söktermmatchning på ad gruppnivå är aktiverad: *[!UICONTROL Disabled]* eller *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

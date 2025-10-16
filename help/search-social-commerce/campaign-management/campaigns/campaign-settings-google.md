@@ -3,9 +3,9 @@ title: Inställningar för [!DNL Google Ads]-kampanj
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: cbe18b75d49ca53460883931ecea21aa6c2d8326
+source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2505'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,11 @@ ht-degree: 0%
 
 {{$include /help/_includes/end-date.md}}
 
-**[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar
-era annonser i annonsnätverkets nätverk av sökpartners. Som standard är det här alternativet *[!UICONTROL Off]*.
+**[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar dina annonser i annonsnätverkets sökpartnernätverk. Som standard är det här alternativet *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
+
+**[!UICONTROL AI Max Bundling]:** (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* eller *[!UICONTROL Unspecified]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -112,7 +115,7 @@ kampanjens produkter säljs. Eftersom produkter är kopplade till målländer av
 
 **Tips!** Om du använder den här inställningen ska du inte utesluta lokala annonser i inställningen [!UICONTROL Inventory Filter].
 
-**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [lokala kundannonser](https://www.google.com/retail/local-inventory-ads/) finns i dokumentationen för [!DNL Google Ads].
+**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[ finns i dokumentationen för ](https://www.google.com/retail/local-inventory-ads/).
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
@@ -265,7 +268,7 @@ efter land. Om du inte markerar något, anges alla som mål.
 
 * Så här överför du bilder:
 
-   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
+   1. Klicka på [!UICONTROL Upload from Device] på fliken **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -287,7 +290,7 @@ efter land. Om du inte markerar något, anges alla som mål.
 
 * Så här överför du bilder:
 
-   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
+   1. Klicka på [!UICONTROL Upload from Device] på fliken **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
