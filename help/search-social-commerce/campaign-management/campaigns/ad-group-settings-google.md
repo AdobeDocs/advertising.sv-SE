@@ -42,7 +42,7 @@ Om kampanjen använder en strategi för Smart Bidding-bud (till exempel [!UICONT
 >* När ni lägger bud per ålder, kön, ränta och lista eller vertikalt för kampanjer i portföljer optimerar inte optimeringsfunktionen budskapen för dimensionen. Dessutom tillämpas all attribuering på annonsgruppen.
 >* I annonser i söknätverket används alltid nyckelordsbud.
 
-**[!UICONTROL AI Max Search Term Matching]:** (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max ](https://support.google.com/google-ads/answer/15910366) och söktermmatchningen på kampanjnivå är aktiverad; skrivskyddad) Anger om söktermmatchning på ad gruppnivå är aktiverad: *[!UICONTROL Disabled]* eller *[!UICONTROL Enabled]*.
+**[!UICONTROL AI Max Search Term Matching]:** (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max &#x200B;](https://support.google.com/google-ads/answer/15910366) och söktermmatchningen på kampanjnivå är aktiverad; skrivskyddad) Anger om söktermmatchning på ad gruppnivå är aktiverad: *[!UICONTROL Disabled]* eller *[!UICONTROL Enabled]*.
 
 ## [!UICONTROL Budget Options]
 

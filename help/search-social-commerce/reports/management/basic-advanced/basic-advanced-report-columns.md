@@ -39,7 +39,7 @@ ht-degree: 0%
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsiva sökannonser) Annonsens effektivitet: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> eller <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] kampanjer) Aktuell mobilbudsjustering på annonsgruppsnivå, som avgör hur buden justeras när annonsen visas på en mobil enhet. |
 | [!UICONTROL AI Max Bundling Required] | (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL NOT_REQUIRED]* eller null. |
-| [!UICONTROL AI Max Enabled] | Om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL false]* eller null. |
+| [!UICONTROL AI Max Enabled] | Om [[!UICONTROL AI Max]-funktionen &#x200B;](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL false]* eller null. |
 | [!UICONTROL AI Max Search Term Matching] | (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max](https://support.google.com/google-ads/answer/15910366) och söktermmatchningsfunktionen på kampanjnivå är aktiverad; skrivskyddad) Om söktermmatchning på annonsnivå är aktiverat: *[!UICONTROL true]* eller null. |
 | [!UICONTROL Advertiser] | Annonsörens namn. |
 | [!UICONTROL Advertiser ID] | Det numeriska ID:t för annonsörens konto Search, Social och Commerce. |
