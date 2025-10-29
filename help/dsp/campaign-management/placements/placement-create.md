@@ -3,9 +3,9 @@ title: Skapa en placering
 description: Lär dig hur du skapar en placering.
 feature: DSP Placements
 exl-id: 28a328b1-0839-442e-a245-f586a7042f41
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: d1be9ab441fd8abdc21491afb57763ec6eb2bec0
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
       För de flesta placeringstyper inkluderas alla lagertyper och alla källor för varje typ som standard. För [!DNL Roku] placeringar måste du ange lagertyp och källor.
 
-   1. (Valfritt) I avsnittet [!UICONTROL Site Targeting] kan du begränsa vilka webbplatser du vill använda som mål och ange vilka webbplatser du vill utesluta.
+   1. (Valfritt) I avsnittet [!UICONTROL Site or app And Keyword Targeting] kan du begränsa vilka webbplatser och appar som du vill använda som mål och exkludera.
 
    1. (Valfritt) I avsnittet [!UICONTROL Audience Targeting]:
 
