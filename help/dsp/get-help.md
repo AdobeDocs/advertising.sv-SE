@@ -28,7 +28,7 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 Gör följande för produkt- eller kontoproblem:
 
-* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home?lang=sv-SE#support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support).
 
   Välj [!UICONTROL Advertising - DSP] för produkten.
 
