@@ -3,9 +3,9 @@ title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
 feature: Search Introduction
 exl-id: d5b5b691-bb73-4acf-afcd-d66e444c1f6c
-source-git-commit: c5a4837f1a8439b3fc2565ae78fdf00d6cdb8b75
+source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,14 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 ## Kontakt [!DNL Adobe]
 
-Gör något av följande för frågor som rör sökning, sociala medier och Commerce-produkter eller konton:
+Gör följande för produkt- eller kontoproblem:
 
-* Kontakta kontoteamet på Adobe.
+* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
-* Klicka på ![Hjälp](/help/search-social-commerce/assets/help-main-menu.png "Hjälp") > **[!UICONTROL Provide Feedback]** på den översta menyn, skriv ditt meddelande och klicka sedan på **[!UICONTROL Send Feedback]**.
+  Välj [!UICONTROL Advertising - Search, Social, & Commerce] för produkten.
 
-Ange detaljerade steg för att återskapa problemet, relevanta data och information om den preliminära felsökningen som du har utfört. Om du rapporterar problemet till ditt Adobe-kontoteam ska du även inkludera webbläsarens namn och version.
+* (Annonsörer med fullservicekontrakt) Kontakta Adobe Account Team.
+
+Ange detaljerade steg för att återskapa problemet, relevanta data, webbläsarens namn och version samt information om den preliminära felsökningen som du har utfört i biljetten eller i kommunikationen.
 
 Ta inte bort rapporten för rapportproblem och ange rapportnamnet och URL-adressen.
