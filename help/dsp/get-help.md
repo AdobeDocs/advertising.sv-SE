@@ -3,7 +3,7 @@ title: Få hjälp
 description: Lär dig hur du visar onlinehjälp och communityresurser och hur du får teknisk support.
 feature: DSP Introduction
 exl-id: 2e0226ea-bcd3-4a38-8907-d2e078c758d0
-source-git-commit: 70598a94d2a2bc4c8e34de311d68872a8207006b
+source-git-commit: ed577c6f20d0e63555865d2d03bb82a5ada92b3f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -28,13 +28,11 @@ Look for answers to your questions in the [Adobe Advertising community forums](h
 
 Gör följande för produkt- eller kontoproblem:
 
-* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home?lang=sv-SE#support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support).
+* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
 
   Välj [!UICONTROL Advertising - DSP] för produkten.
 
 * (Annonsörer med fullservicekontrakt) Kontakta Adobe Account Team.
 
-Ange detaljerade steg för att återskapa problemet, relevanta data, webbläsarens namn och version samt information om den preliminära felsökningen som du har utfört i biljetten eller i kommunikationen.
-
-Ta inte bort rapporten för rapportproblem och ange rapportnamnet och URL-adressen.
+Ange detaljerade steg för att återskapa problemet, relevanta data, webbläsarens namn och version samt information om den preliminära felsökningen som du har utfört i biljetten eller i kommunikationen. Ta inte bort rapporten för rapportproblem och ange rapportnamnet och URL-adressen.
 
