@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a3e6324edcf5a52f6338ce969034cd9c4b6fb487
+source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -103,7 +103,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
    * **[!UICONTROL Time to Conversion]:** Använd den här rapporten för att fastställa det optimala fönstret för attribueringssökning och för att identifiera kampanjer med längre tid till konvertering, vilket kan ha nytta av återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
 
-   * **[!UICONTROL Content BETA]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
+   * **[!UICONTROL Content]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
 
 ## Kontorapportering {#cross-account-reporting}
 
