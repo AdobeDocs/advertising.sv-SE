@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -28,29 +28,31 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Goals]
 
-**[!UICONTROL Margin Management]:** Om marginaler ska hanteras för kampanjen: *[!UICONTROL Yes]* eller *[!UICONTROL No]* (standardvärdet).
+**[!UICONTROL Margin Management]:** (Självbetjäningskonton som administreras av byråer med marginaler) Alternativ för marginalhantering:
 
-När du väljer *[!UICONTROL Yes]anger* marginaltyp och belopp:
+* **[!UICONTROL Would you like to manage margins for this campaign?]:** Om marginaler ska hanteras för kampanjen: *[!UICONTROL Yes]* eller *[!UICONTROL No]* (standardvärdet). När du väljer *[!UICONTROL Yes]anger* ytterligare inställningar. När du har aktiverat marginalhantering och sparat kampanjen kan du inte inaktivera marginalhantering.
 
-* **[!UICONTROL Margin Type]:** Marginaltypen. Du kan inte ändra marginaltypen när du har aktiverat marginalhantering och sparat kampanjen.
+* **[!UICONTROL How would you like to compute agency fees?]:** (Endast kampanjer med marginalhantering) Så här beräknar du byråavgifter:
 
-   * *[!UICONTROL Fixed]:* (standardvärdet) Tillåter DSP att beräkna automatiskt och sätta ändar baserat på en fast marginalprocent för [!UICONTROL Gross Budget].
+   * *[!UICONTROL Margin % of Total Budget]:* (standard) Beräknar avgifter som en procentandel av [!UICONTROL Gross Budget]. Ange [!UICONTROL Agency Fee Type] (fast eller sammansatt) och [!UICONTROL Margin %] eller [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Dynamic]:* Gör att du kan hantera marginaler ned till placeringsnivån genom att ange separata [!UICONTROL Budget Reserve %] och [!UICONTROL Gross Budget] för varje paket och placering i kampanjen. DSP optimerar utifrån varje placerings ekonomiska effektivitet, utan att garantera en viss marginal. Använd detta för infogningsorder som består av flera radobjekt för vilka du har godkänt att leverera ett fast antal enheter eller enhetstyper till en fast ränta.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Lägger till en angiven procentandel av [!UICONTROL Gross Budget] till dina mediekostnader, data och andra kostnader och/eller [!DNL Adobe] tekniska avgifter. Ange [!UICONTROL Markup %] och markera de komponenter som du vill använda koden på.
 
-* **[!UICONTROL Fixed Margin %]:** (Endast kampanjer med fasta marginaler) Standardkoden för varje infogningsordning <!-- impression? -->, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+* **[!UICONTROL Agency Fee Type]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget]) Typ av agentavgift.
 
-* **[!UICONTROL Budget Reserve %]:** (Endast kampanjer med fasta marginaler, valfritt) Reserverar en angiven procentandel av [!UICONTROL Gross Budget] som en säkerhetslösning. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten.
+   * *[!UICONTROL Fixed]:* (standard) Tillåter DSP att beräkna och sätta ändar automatiskt baserat på en fast procentandel av [!UICONTROL Gross Budget]. Ange [!UICONTROL Margin %].
+
+   * *[!UICONTROL Composite]:* Tillåter att DSP beräknar automatiskt och sätter tak för utgifter baserat på en procentandel av [!UICONTROL Gross Budget], med den sammansatta procentandelen byråavgifter och [!DNL Adobe] teknikavgifter. Ange [!UICONTROL Composite Margin %].
+
+* **[!UICONTROL Margin %]:** (kampanjer som använder [!UICONTROL Margin % of Total Budget] med fasta marginaler) Standardkoden för varje infogningsordning <!-- impression? -->, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten. Marginalen används inte för [!UICONTROL Estimated Tax Withholding] på [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Composite Margin %]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget] med sammansatta marginaler) Summan av byråavgifter och [!DNL Adobe] teknikavgifter, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten. Marginalen används inte för [!UICONTROL Estimated Tax Withholding] på [!UICONTROL Gross Budget].
+
+* **[!UICONTROL Markup %]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Procentandelen av [!UICONTROL Gross Budget] som ska läggas till i angivna kostnadskomponenter.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Kostnadskomponenterna som [!UICONTROL Markup %] används för. Välj alla tillämpliga komponenter: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* och/eller *[!UICONTROL Adobe tech fees]*.
 
 **[!UICONTROL Gross Budget]:** (Endast kampanjer med marginalhantering) Bruttokampanjbudgeten, innan de angivna marginaljusteringarna tillämpas.
-
-Du kan lägga till ytterligare en daglig, vecko- eller månadsbudget (brutto):
-
-1. Klicka på **[!UICONTROL Add an additional Gross Budget]**.
-
-1. Ange **[!UICONTROL Gross Budget]** och välj budgetintervallet: *[!UICONTROL Daily],* *[!UICONTROL Weekly],* eller *[!UICONTROL Monthly]*.
-
-Den totala nettobudgeten, som är utgiftstaket för kampanjen, beräknas automatiskt baserat på marginalinställningarna och anges under det här värdet.
 
 **[!UICONTROL Budget]:** (kampanjer utan marginallösning) Den övergripande kampanjbudgeten.
 
@@ -78,11 +80,11 @@ Så här beräknar du källskatt:
 >
 >* Du kan också konfigurera dessa värden i kontots avgiftsinställningar.<!--[fee settings](/help/dsp/admin/tax-withholdings.md). -->
 
-**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP annonserar och tillämpar frekvensomfång: *Samma enhet* för att rikta in en enhet eller *Personer* för att rikta en person över alla kända enheter. **Obs!** Stöd för flera enheter är inte tillgängligt för platser som har universella ID som mål.
+**[!UICONTROL Cross Device Level]:** (Skrivskyddat för befintliga kampanjer som skapats sedan den 22 juni 2020, inte tillgängligt för kampanjer som skapats före den 22 juni 2020) Den nivå på vilken DSP riktar in annonser och tillämpar frekvensomfång: *Samma enhet* för att rikta in en enhet eller *Personer* för att rikta en person över alla kända enheter. **Obs!** Stöd för flera enheter är inte tillgängligt för platser som har universella ID som mål.
 
 **[!UICONTROL Device Graph]:** (Skrivskyddat för befintliga kampanjer, kampanjer med personbaserad målinriktning endast över enheter) Enhetsgrafen som ska användas för målinriktning mellan enheter och frekvenshantering:
 
-* *[!UICONTROL LiveRamp - U.S. only]:* Tillgängligt för alla annonsörer för målinriktning mellan olika enheter på 0,35 CPM för visningar som levereras med hjälp av enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas i målgruppssegmenten). Ni kan ange målinriktning mellan olika enheter på placeringsnivå.
+* *[!UICONTROL LiveRamp - U.S. only]:* Tillgängligt för alla annonsörer för målinriktning mellan olika enheter på 0,35 USD CPM för visningar som levereras med hjälp av enhetsdiagrammet [!DNL LiveRamp] (det vill säga för enheter som inte hittas i målgruppssegmenten). Ni kan ange målinriktning mellan olika enheter på placeringsnivå.
 
   Det här alternativet är även tillgängligt för alla annonsörer, utan avgifter, för frekvenshantering och attribueringsmätning.
 
@@ -134,7 +136,7 @@ Så här beräknar du källskatt:
 
 Fältet [!UICONTROL Attention Score] är tillgängligt i avsnittet [!UICONTROL Metrics] i rapporter, i vyerna [!UICONTROL Campaigns], [!UICONTROL Packages] och [!UICONTROL Placements] samt på flikarna [!UICONTROL Sites], [!UICONTROL Ads] och [!UICONTROL Inventory] i vyn [placeringsinformation](/help/dsp/campaign-management/reports/placement-details-view.md).
 
-Om [!DNL Adelaide] segment används för mätning medför det en CPM-avgift för varje intryck som skickas från annonser med [!DNL Adelaide]-mätningstaggar. Avgiften är skild från avgifter för [målinriktning på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
+Om du använder [!DNL Adelaide] segment för mätning tillkommer en CPM-avgift för varje intryck som skickas från annonser med [!DNL Adelaide]-mätningstaggar. Avgiften är skild från avgifter för [målinriktning på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md).
 
 <!--
 Example JavaScript tag:
@@ -152,7 +154,7 @@ Example JavaScript tag:
 
 >[!MORELIKETHIS]
 >
->* [Om Campaign Management](campaign-about.md)
+>* [Om kampanjhantering](campaign-about.md)
 >* [Skapa en kampanj](campaign-create.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)

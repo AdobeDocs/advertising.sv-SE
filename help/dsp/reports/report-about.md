@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: f2b912a9e4952d2ccb9a461cdbc56c7bc731e690
+source-git-commit: eabe6dc506c93d5e272ec4cf1d7baf798c09b6aa
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
    * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med Adobe Advertising konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
 
   <!--
-    * **[!UICONTROL Custom Creative Report Beta]:** (Beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
+    * **[!UICONTROL Custom Creative Report Beta]:** (Advertisers with Advertising Creative; beta feature) Use this report to monitor performance across your Advertising Creative ad experiences.
     -->
 
    * **[!UICONTROL Device]:** Använd den här förifyllda mallen för att visa nyckelmått efter enhetsrelaterade dimensioner.
