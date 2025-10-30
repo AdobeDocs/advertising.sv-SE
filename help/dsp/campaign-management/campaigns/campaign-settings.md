@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: daf995b0c40d77434d2c86c738351a33552dc555
+source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
    * *[!UICONTROL Margin % of Total Budget]:* (standard) Beräknar avgifter som en procentandel av [!UICONTROL Gross Budget]. Ange [!UICONTROL Agency Fee Type] (fast eller sammansatt) och [!UICONTROL Margin %] eller [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Lägger till en angiven procentandel av [!UICONTROL Gross Budget] till dina mediekostnader, data och andra kostnader och/eller [!DNL Adobe] tekniska avgifter. Ange [!UICONTROL Markup %] och markera de komponenter som du vill använda koden på.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Lägger till en angiven procentandel av mediekostnaden, data och andra kostnader och/eller [!DNL Adobe] tekniska avgifter. Ange [!UICONTROL Markup %] och markera de komponenter som du vill använda koden på.
 
 * **[!UICONTROL Agency Fee Type]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget]) Typ av agentavgift.
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Composite Margin %]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget] med sammansatta marginaler) Summan av byråavgifter och [!DNL Adobe] teknikavgifter, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten. Marginalen används inte för [!UICONTROL Estimated Tax Withholding] på [!UICONTROL Gross Budget].
 
-* **[!UICONTROL Markup %]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Procentandelen av [!UICONTROL Gross Budget] som ska läggas till i angivna kostnadskomponenter.
+* **[!UICONTROL Markup %]:** (kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Procentandelen som ska läggas till i angivna kostnadskomponenter.
 
 * **[!UICONTROL Select cost components on which markup will be applied]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Kostnadskomponenterna som [!UICONTROL Markup %] används för. Välj alla tillämpliga komponenter: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* och/eller *[!UICONTROL Adobe tech fees]*.
 
