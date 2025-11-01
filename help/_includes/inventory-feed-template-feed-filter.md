@@ -1,5 +1,5 @@
 ---
-source-git-commit: 029e406fbfb4217ce78364c2d1f1a6dae24ff588
+source-git-commit: 73c9cc7134360e073fc466dda3733cfc9bac8786
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -21,6 +21,6 @@ ht-degree: 0%
 
   Tillgängliga operatorer är *[!UICONTROL contains]*, *[!UICONTROL does not contain]*, *[!UICONTROL =]*, *[!UICONTROL <>]* (är inte lika med), *[!UICONTROL in]*, *[!UICONTROL not in]*, *[!UICONTROL less than]* och *[!UICONTROL greater than]*. När du väljer operatorn [!UICONTROL in] kan du ange en kommaavgränsad lista med värden. Om en post matchar något av de angivna värdena sprids data för de raderna. Ange bara ett värde för alla andra operatorer. Värden är inte skiftlägeskänsliga.
 
-  Om du till exempel markerade kolumnen &quot;product_type&quot; och bara vill returnera rader för produktnamn som innehåller &quot;skor&quot;, markerar du &quot;**[!UICONTROL contains]**&quot; och anger `shoes` i indatafältet.
+  Om du till exempel markerar kolumnen &quot;product_type&quot; och bara vill returnera rader för produktnamn som innehåller &quot;skor&quot;, markerar du &quot;**[!UICONTROL contains]**&quot; och anger `shoes` i indatafältet.
 
    1. (Om du vill använda upp till nio ytterligare filter) För varje ytterligare filter klickar du på **[!UICONTROL Add Condition]** och anger sedan det ytterligare filtret per steg 2.
