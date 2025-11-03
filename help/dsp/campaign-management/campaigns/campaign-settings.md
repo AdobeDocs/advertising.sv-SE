@@ -3,9 +3,9 @@ title: Kampanjinställningar
 description: Se beskrivningar av tillgängliga kampanjinställningar.
 feature: DSP Campaigns
 exl-id: 461c3f9e-ef69-46e7-8eb1-37ccc085ba1f
-source-git-commit: 1b15b14b0ace6137e79b456c7c8f8444efa8acac
+source-git-commit: 9d26e097f007b570c0f0e3b7f02c683a84d5e647
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,35 @@ ht-degree: 0%
 
 * **[!UICONTROL Would you like to manage margins for this campaign?]:** Om marginaler ska hanteras för kampanjen: *[!UICONTROL Yes]* eller *[!UICONTROL No]* (standardvärdet). När du väljer *[!UICONTROL Yes]anger* ytterligare inställningar. När du har aktiverat marginalhantering och sparat kampanjen kan du inte inaktivera marginalhantering.
 
-* **[!UICONTROL How would you like to compute agency fees?]:** (Endast kampanjer med marginalhantering) Så här beräknar du byråavgifter:
+* **[!UICONTROL How would you like to compute agency fees?]:** (Endast kampanjer med marginalhantering) Så här beräknar du byråavgifter, som är den del av kampanjens bruttobudget som hålls inne och inte ingår i nettoutgifterna:
 
-   * *[!UICONTROL Margin % of Total Budget]:* (standard) Beräknar avgifter som en procentandel av [!UICONTROL Gross Budget]. Ange [!UICONTROL Agency Fee Type] (fast eller sammansatt) och [!UICONTROL Margin %] eller [!UICONTROL Composite Margin %].
+   * *[!UICONTROL Margin % of Total Budget]:* (standard) Beräkna avgifter som en procentandel av bruttokostnaden. Ange [!UICONTROL Agency Fee Type] (fast eller sammansatt) och [!UICONTROL Margin %] eller [!UICONTROL Composite Margin %].
 
-   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Lägger till en angiven procentandel av mediekostnaden, data och andra kostnader och/eller [!DNL Adobe] tekniska avgifter. Ange [!UICONTROL Markup %] och markera de komponenter som du vill använda koden på.
+   * *[!UICONTROL Apply Markup % on top of individual cost components]:* Beräkna avgifter som en angiven procentandel av mediekostnaden, data och andra kostnader och/eller [!DNL Adobe] teknikavgifter. Ange [!UICONTROL Markup %] och markera de komponenter som du vill använda koden på.
 
 * **[!UICONTROL Agency Fee Type]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget]) Typ av agentavgift.
 
-   * *[!UICONTROL Fixed]:* (standard) Tillåter DSP att beräkna och sätta ändar automatiskt baserat på en fast procentandel av [!UICONTROL Gross Budget]. Ange [!UICONTROL Margin %].
+   * *[!UICONTROL Fixed]:* (standard) Tillåter DSP att hålla inne en fast procentandel av bruttokostnaden som agentavgifter. Ange [!UICONTROL Margin %].
 
-   * *[!UICONTROL Composite]:* Tillåter att DSP beräknar automatiskt och sätter tak för utgifter baserat på en procentandel av [!UICONTROL Gross Budget], med den sammansatta procentandelen byråavgifter och [!DNL Adobe] teknikavgifter. Ange [!UICONTROL Composite Margin %].
+   * *[!UICONTROL Composite]:* Tillåter DSP att hålla inne en procentandel av bruttoutgifterna för att ta hänsyn till både byråavgifter och [!DNL Adobe] teknikavgifter. Ange [!UICONTROL Composite Margin %].
 
-* **[!UICONTROL Margin %]:** (kampanjer som använder [!UICONTROL Margin % of Total Budget] med fasta marginaler) Standardkoden för varje infogningsordning <!-- impression? -->, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten. Marginalen används inte för [!UICONTROL Estimated Tax Withholding] på [!UICONTROL Gross Budget].
+* **[!UICONTROL Margin %]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget] med fasta marginaler) Procentandelen av bruttokostnaden som ska hållas inne som byråavgifter. Ändringar av marginalvärdet tillämpas endast på framtida bruttoutgifter och inte på kampanjens historiska bruttoutgifter. Värdet [!UICONTROL Estimated Tax Withholding] exkluderas från bruttokostnaden innan marginalen tillämpas. Se följande exempel som förutsätter att kampanjen inte underspenderar eller överspenderar.
 
-* **[!UICONTROL Composite Margin %]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget] med sammansatta marginaler) Summan av byråavgifter och [!DNL Adobe] teknikavgifter, i procent. Detta belopp dras av från [!UICONTROL Gross Budget] för att definiera nettokampanjbudgeten. Marginalen används inte för [!UICONTROL Estimated Tax Withholding] på [!UICONTROL Gross Budget].
+   * Exempel 1: Anta att [!UICONTROL Gross Budget] är `100 USD` och [!UICONTROL Margin %] är `5%` under hela flygningen. Efter kampanjflygningens slut beräknas byråavgifterna som `5 USD` (som är `5% of 100 USD`) och nettoutgiften är `95 USD` (som är `campaign budget [100 USD] - agency fees [5 USD]`).
 
-* **[!UICONTROL Markup %]:** (kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Procentandelen som ska läggas till i angivna kostnadskomponenter.
+   * Exempel 2 med ändringar av marginalen: För samma kampanj antar vi att [!UICONTROL Margin %] ändrades från `5%` till `10%` när bruttokostnaden var `40 USD`. För perioden före ändringen beräknas byråavgifterna som `2 USD` (vilket är `5% of 40 USD`). Under perioden efter ändringen beräknas agentavgifterna som `6 USD` (vilket är `10% of 60 USD`). De totala byråavgifterna beräknas som `8 USD` (vilket är `2 USD + 6 USD`) och nettoutgiften är `92 USD` (vilket är `campaign budget [100 USD] - total agency fees [8 USD]`).
 
-* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Kostnadskomponenterna som [!UICONTROL Markup %] används för. Välj alla tillämpliga komponenter: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* och/eller *[!UICONTROL Adobe tech fees]*.
+   * Exempel 3 med källskatt: Anta att [!UICONTROL Gross Budget] är `100 USD`, [!UICONTROL Estimated Tax Withholding] i slutet av kampanjflygningen är `10 USD` och [!UICONTROL Margin %] är `5%` under hela flygningen. Efter kampanjflygningens slut beräknas byråavgifterna som `4.5 USD` (som är `5% of (campaign budget [100 USD] - tax withholding [USD 10])`) och nettoutgiften är `85.5 USD` (som är `campaign budget [100 USD] - agency fees [4.5 USD] - tax withholding [10 USD]`).
+
+* **[!UICONTROL Composite Margin %]:** (Kampanjer som använder [!UICONTROL Margin % of Total Budget] med sammansatta marginaler) Procentandel av bruttokostnaden som ska hållas inne som [!DNL Adobe] teknisk avgift och agenturavgifter. Byråavgifter beräknas genom att Adobe teknikavgifter subtraheras från det sammansatta marginalbeloppet. Alla ändringar av det sammansatta marginalvärdet tillämpas endast på framtida bruttoutgifter och inte på kampanjens historiska bruttoutgifter. Värdet [!UICONTROL Estimated Tax Withholding] exkluderas från bruttokostnaden innan den sammansatta marginalen tillämpas.
+
+  Anta till exempel att [!UICONTROL Gross Budget] är `100 USD`, att [!DNL Adobe]-avgifterna i slutet av kampanjflygningen är `10 USD` och att [!UICONTROL Composite Margin %] är `17%` under hela flygningen. Vid slutet av kampanjflygningen (förutsatt att kampanjen inte underspenderar eller överspenderar) beräknas byråavgifterna som `7 USD` (vilket är `(17% of 100 USD) - 10`) och nettoutgiften är `93 USD` (vilket är `campaign budget [100 USD] - agency fees [7 USD]`).
+
+* **[!UICONTROL Markup %]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Procentandelen som ska användas på angivna kostnadskomponenter för att beräkna byråavgifter. Eventuella ändringar av markeringsvärdet tillämpas endast på framtida kostnader och inte på kampanjens historiska kostnader.
+
+* **[!UICONTROL Select cost components on which markup will be applied]:** (Kampanjer som använder [!UICONTROL Apply Markup % on top of individual cost components]) Kostnadskomponenterna som [!UICONTROL Markup %] används för. Välj alla tillämpliga komponenter: *[!UICONTROL Media cost]*, *[!UICONTROL Data and Other costs]* och/eller *[!UICONTROL Adobe tech fees]*. Alla ändringar av komponentvalet tillämpas endast på framtida kostnader och inte på de historiska kostnaderna för kampanjen.
+
+  [!UICONTROL Markup %] är till exempel `10%` för [!UICONTROL Media cost] och [!UICONTROL Data and Other costs]. Om mediekostnaden vid någon tidpunkt i kampanjflygningen är `20 USD`, data och andra kostnader är `5 USD` och [!DNL Adobe] teknikavgifter är `2 USD`, beräknas agentavgifterna som `2.50 USD` (dvs. `10% of (20 USD + 5 USD)`) och bruttokostnaden är `29.50 USD` (dvs. `media cost [20 USD] + data and other costs [5 USD] + [!DNL Adobe] tech fees [2 USD] + agency fees [2.50 USD]`).
 
 **[!UICONTROL Gross Budget]:** (Endast kampanjer med marginalhantering) Bruttokampanjbudgeten, innan de angivna marginaljusteringarna tillämpas.
 
