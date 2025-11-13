@@ -3,9 +3,9 @@ title: Inställningar för [!DNL Google Ads]-kampanj
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: b321c807e3ab470068ad557ed428484d58e95ed4
+source-git-commit: 4612b0022c6f4a2014409a546da07e4f5efe6e78
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 **[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar dina annonser i annonsnätverkets sökpartnernätverk. Som standard är det här alternativet *[!UICONTROL Off]*.
 
-**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen &#x200B;](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* eller *[!UICONTROL Unspecified]*.
 
@@ -67,6 +67,22 @@ ht-degree: 0%
 <!-- **[!UICONTROL Budget]:** -->
 
 {{$include /help/_includes/budget.md}}
+
+**[!UICONTROL Google Recommended Budget]:** (Valfritt - gäller för kampanjer med alla nödvändiga inställningar och som endast omfattar annonsgrupper) Klicka **[!UICONTROL Show Recommendation]** om du vill visa den budget som [!DNL Google Ads] rekommenderar. För komplexa kampanjer kan det ta upp till 40 sekunder att generera rekommendationen.
+
+För prestandamängder och sökkampanjer krävs följande inställningar för rekommendationer:
+
+* strategi för köp
+* slutlig URL
+* tillgångsgrupper
+
+För sökkampanjer krävs även följande ytterligare inställningar för rekommendationer:
+
+* mål för anbudsstrategi
+* land
+* språk
+* en inkluderad eller utesluten plats
+* nyckelord
 
 <!-- **[!UICONTROL Delivery Method]:** -->
 
@@ -115,7 +131,7 @@ kampanjens produkter säljs. Eftersom produkter är kopplade till målländer av
 
 **Tips!** Om du använder den här inställningen ska du inte utesluta lokala annonser i inställningen [!UICONTROL Inventory Filter].
 
-**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[&#x200B; finns i dokumentationen för &#x200B;](https://www.google.com/retail/local-inventory-ads/).
+**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[ finns i dokumentationen för ](https://www.google.com/retail/local-inventory-ads/).
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 
