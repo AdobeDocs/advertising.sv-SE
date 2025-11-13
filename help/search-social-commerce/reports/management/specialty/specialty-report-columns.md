@@ -3,9 +3,9 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 83523acea2890272987ea9dcc1fe2f5ce4663c7e
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2922'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 | [!UICONTROL Absolute Top Impression Rate Percent] | Procentandelen annonser som visades på den första positionen högst upp i sökresultaten. |
 | [!UICONTROL Absolute Top Impression Share Lost To Budget Percent] | Den beräknade procentandel av tiden som dina annonser inte visades i den första positionen högst upp i sökresultaten eftersom din dagliga eller månadsvisa budget var för låg. |
 | [!UICONTROL Absolute Top Impression Share Lost To Rank Percent] | Den procentandel av tiden som era annonser inte visades i den första positionen högst upp i sökresultaten på grund av dålig annonsrankning. |
-| [!UICONTROL Absolute Top Impression Share Percent] | De avbildningar du har fått på den absoluta översta platsen (första och ovanför sökresultaten för organisk sökning) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. |
+| [!UICONTROL Absolute Top Impression Share Percent] | De avbildningar du har fått på den absoluta översta platsen (första och ovanför resultaten av organiska sökningar) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. |
 | [!UICONTROL Account Name] | Kontonamnet. |
 | [!UICONTROL Account Number] | ([!UICONTROL MSA Ad Extension] rapporter) Kontoidentifieraren som tilldelats av annonsnätverket. |
 | [!UICONTROL Account Status] | ([!UICONTROL MSA Ad Extension] rapporter) Kontots status: *[!UICONTROL Active]*, *[!UICONTROL Paused]* eller *[!UICONTROL Inactive]*. |
@@ -90,7 +90,8 @@ ht-degree: 0%
 | [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension] rapporter) Matchningstypen som annonsnätverket använde för att leverera annonsen. |
 | [!UICONTROL Device OS] | Operativsystemet för den enhet där annonsen visades eller klickades. |
 | [!UICONTROL Device Type] | Enheten som annonsen visades eller klickades på:<ul><li>*[!UICONTROL desktop]*: Stationär dator</li><li>*[!UICONTROL mobile]*: Mobil enhet med fullständig webbläsare</li><li>*[!UICONTROL tablet]*: Surfplatta med fullständig webbläsare</li></ul> |
-| [!UICONTROL eCPM] | Den faktiska CPM-kostnaden, eller den genomsnittliga kostnad som betalas per 1 000 visningar under ett visst datumintervall. eCPM-värden beräknas för CPM- eller CPC-kampanjer. |
+| [!UICONTROL Display Name] | ([!UICONTROL Google Performance Max Placement Report]) Namnet som visas på placeringen, till exempel webbplatsens URL, mobilappens namn eller namnet på en [!DNL YouTube] -video. |
+| [!UICONTROL eCPM] | Den faktiska CPM-kostnaden, eller den genomsnittliga kostnaden per 1 000 visningar under ett visst datumintervall. eCPM-värden beräknas för antingen CPM- eller CPC-kampanjer. |
 | [!UICONTROL EF Campaign ID] | Det numeriska ID som tilldelas kampanjen av Search, Social och Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL EF Search Engine ID] | Det numeriska ID som tilldelas annonsnätverket <i>[!UICONTROL 3]</i> för [!DNL Google Ads], <i>[!UICONTROL 10]</i> för [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> för [!DNL Meta], <i>[!UICONTROL 86]</i> för [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> för [!DNL Naver], <i>[!UICONTROL 88]</i> för [!DNL Baidu], <i>[!UICONTROL 90]</i> för [!DNL Yandex], <i>[!UICONTROL 94]</i> för [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> för [!DNL Yahoo Native] (utgått) eller <i>[!UICONTROL 106]</i> för [!DNL Pinterest] (utgått). |
@@ -129,6 +130,8 @@ ht-degree: 0%
 | [!UICONTROL Network Type] | Det nätverk där annonsen visades:<ul><li>*[!UICONTROL google_search]*: [!DNL Google Search Network]</li><li>*[!UICONTROL search_partners]* [!DNL Google Search Partners]</li><li>*[!UICONTROL display_network]*: [!DNL Google Display Network]</li></ul> |
 | [!UICONTROL Path1] | ([!UICONTROL Google Asset Group Performance Report]) Den första uppsättningen text som kan läggas till i annonsens URL. |
 | [!UICONTROL Path2] | ([!UICONTROL Google Asset Group Performance Report]) Den andra uppsättningen text som kan läggas till i visnings-URL:en i annonsen. Det här fältet är bara tillgängligt när ett Path1-värde har angetts. |
+| [!UICONTROL Placement] | ([!UICONTROL Google Performance Max Placement Report]) Placeringens namn. |
+| [!UICONTROL Placement Type] | ([!UICONTROL Google Performance Max Placement Report]) Den typ av placering som annonsen betjänades i: *[!UICONTROL Mobile App]*, *[!UICONTROL YouTube Video]* (annonsen visades i, eller intill, en [!DNL YouTube] video) eller *[!UICONTROL Webpage]*. |
 | [!UICONTROL Portfolio Group Name] | Namnet på den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |
 | [!UICONTROL Portfolio Name] | Portföljen. |
@@ -147,7 +150,7 @@ ht-degree: 0%
 | [!UICONTROL SE Account Name] | Kontonamnet i annonsnätverket. |
 | [!UICONTROL SE Creative ID] | Det annons-ID som tilldelats av nätverket. |
 | [!UICONTROL SE_TERM_ID] | (Frågerapport för sökning i AdWords) Det sökterm-ID som har tilldelats av annonsnätverket. |
-| [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) De avbildningar du har fått på den absoluta översta platsen (första och ovanför resultaten av organiska sökningar) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. Procenttal under 10 % anges som `<10%` eller `0.0999`. |
+| [!UICONTROL Search (Abs. Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) De avbildningar du har fått på den absoluta översta platsen (den första och ovanför resultaten av organiska sökningar) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på den översta platsen. Procenttal under 10 % anges som `<10%` eller `0.0999`. |
 | [!UICONTROL Search (Top) IS] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) De avbildningar du har fått på de översta platserna (ovanför resultaten av den organiska sökningen) dividerat med det uppskattade antalet visningar som du var berättigad att ta emot på de översta platserna. Procenttal under 10 % anges som `<10%` eller `0.0999`. |
 | [!UICONTROL Search Engine] | Annonsnätverket. |
 | [!UICONTROL Search Exact Match IS% (Google)] | ([!DNL Google Ads] endast kampanjer; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) Avdragen som tagits emot divideras med det beräknade antalet avtryck som du var berättigad att ta emot på söknätverket för söktermer som matchade dina nyckelord exakt (eller som var närliggande varianter av ditt nyckelord), oavsett nyckelordens matchningstyper. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
@@ -168,6 +171,7 @@ ht-degree: 0%
 | [!UICONTROL Start Date] | Första dagen som rapporterades. |
 | [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) Resursgruppsstatus. |
 | [!UICONTROL Store ID] | Annonsnätverkets ID för handlarcenterbutiken. |
+| [!UICONTROL Target URL] | ([!UICONTROL Google Performance Max Placement Report]) URL-adressen för placeringen, till exempel en webbplats, eller länken till en mobilapp i en appbutik eller URL-adressen till en [!DNL YouTube] -video. |
 | [!UICONTROL title_part1] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den första raden i annonsen som länkar till webbplatsen. |
 | [!UICONTROL title_part2] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den andra raden i annonsen som länkar till webbplatsen. |
 | [!UICONTROL title_part3] | ([!UICONTROL MSA Ad Extension by Ad Report]) Den tredje raden i annonsen som länkar till webbplatsen. |
