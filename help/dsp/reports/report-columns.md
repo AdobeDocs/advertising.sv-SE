@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 00931d247b43f4ec26e79d56ac5138c10323a79f
+source-git-commit: cf86f4b96ff41a9266614e8190120eaf375c8ece
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -143,40 +143,46 @@ ht-degree: 0%
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Total Media Spend] | De totala utgifterna. |
 | [!UICONTROL Metric] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | Det totala antalet unika hushåll (distinkta IP-adresser) har uppnåtts. |
 | [!UICONTROL Metric] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | Måltypen för ID. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet på Max CPM. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Genomsnittlig bruttokostnad per förvärv, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Genomsnittlig bruttokostnad per annonsklickning, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | Genomsnittlig bruttokostnad per annonsåtagande, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | Genomsnittlig bruttopris per annonsintryck, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Genomsnittskostnaden per slutförd videovy, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Genomsnittskostnaden per videovy, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Genomsnittskostnaden per 1 000 visningar som kan visas, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Genomsnittlig nettokostnad per annonstillfälle, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPI] | Genomsnittlig nettokostnad per annonsintryck, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Impressions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Genomsnittlig nettokostnad per slutförd videovy, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPM] | Genomsnittlig nettokostnad per 1 000 visningar, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net CPV] | Genomsnittlig nettokostnad per videovy, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Views]</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet på Max CPM. |
+| [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Net vCPM] | Genomsnittlig nettokostnad per 1 000 visningar som kan visas, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1 000</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Performance] | [!UICONTROL Unique Users Bid On] | Antalet distinkta användare som DSP erbjuder för placeringen. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Net Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som faktureras via DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Net Spend] | Den totala nettokostnaden för fakturerbara medier, inklusive teknikavgiften, som faktureras via DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Net Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Agency Fee] | Byråns serviceavgift. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Data Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Media Spend] | Den totala nettokostnaden för fakturerbara medier, inklusive teknikavgiften, som faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Billable Other Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Data] | Beräknad skatt på kundsegment och datatjänster från tredje part. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Media] | Uppskattad moms på media inklusive moms på återfakturering av mediekostnader och teknisk avgiftsservice i DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Estimated Tax on Other] | Uppskattad moms på andra serviceavgifter (inklusive verifieringspartners från tredje part, målgruppsanpassning o.s.v.) som faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Gross Spend] | Bruttoutgifterna. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Margin %] | (När marginalhantering är aktiverad) Marginalprocenten, som beräknas av <code>([!UICONTROL Gross Spend] - [!UICONTROL Net Spend]) / [!UICONTROL Gross Spend]</code>. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Media Cost] | Summan av icke-fakturerbara och fakturerbara mediekostnader utan några tekniska avgifter. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Net vCPM] | Genomsnittlig nettokostnad per 1 000 visningar som kan visas, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Viewable Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Net Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som inte faktureras via DSP. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Fees] | Den totala nettokostnaden för icke-fakturerbara medier, inklusive teknikavgiften, som inte faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Data Spend] | Den totala nettokostnaden för informationsavgifter för målgruppssegment som inte faktureras via DSP. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Media Spend] | Den totala nettokostnaden för icke-fakturerbara medier, inklusive teknikavgiften, som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Non-Billable Other Net Spend] | Den totala kostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare) som inte faktureras via DSP. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Profit] | [!UICONTROL Gross Spend] - [!UICONTROL Net Spend] |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Net Spend] | Summan av [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] och [!UICONTROL Billable Spend (Other)]. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Billable Spend] | Summan av [!UICONTROL Billable Spend (Media)], [!UICONTROL Billable Spend (Data)] och [!UICONTROL Billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data eCPM] | Den genomsnittliga nettodatakostnaden per 1 000 visningar, beräknad med <code>[!UICONTROL Net Spend (Data)] / [!UICONTROL Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Net Spend] | Den totala nettokostnaden för avgifter för data för målgruppssegment. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Data Spend] | Den totala nettokostnaden för avgifter för data för målgruppssegment. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media CPM] | Genomsnittlig nettomediekostnad per 1 000 visningar, beräknad med <code>[!UICONTROL Net Spend (Media)] / [!UICONTROL Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Net Spend] | Den totala nettokostnaden för media, inklusive teknikavgifter. |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Media Spend] | Den totala nettokostnaden för media, inklusive teknikavgifter. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Net Spend] | Summan av [!UICONTROL Net Spend (Media)], [!UICONTROL Net Spend (Data)] och [!UICONTROL Net Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | Summan av [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] och [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Genomsnittlig nettokostnad per 1 000 visningar för andra avgifter, beräknad med <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1 000</code>. |
-| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Net Spend] | Den totala nettokostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare). |
+| [!UICONTROL Metric] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | Den totala nettokostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare). |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Procentandel av vyerna som tittade på annonsen i dess helhet. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Antalet vyer som tittade på annonsen i dess helhet. |
 | [!UICONTROL Metric] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Procentandel av visningar som tittade på hela annonsen. |
