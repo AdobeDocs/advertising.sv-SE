@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: ae75e6110443d8b744f141df370160e02e4d725e
+source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,19 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
 * Förkonfigurerade rapportmallar
 
+   * **[!UICONTROL All-in Cost BETA]**: (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Använd den här rapporten för att se hur mycket Advertising DSP utgifter tillskrevs för annonsering för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå.
+
    * **[!UICONTROL Billing]:** Använd den här rapporten för att förstå viktiga faktureringsmått, som utgiftsmått för mediefakturering per kampanj. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
      >[!NOTE]
      >
      >Den här rapporten innehåller data om faktureringssegmentet. Om en användare eller enhet får ett intryck som tillhör flera segment, krediteras endast ett fakturerbart segment med intrycket.
 
+   * **[!UICONTROL Content]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
+
    * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med Adobe Advertising konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
 
-   * **[!UICONTROL Custom Creative Report]:** (Advertisers with Advertising Creative; beta feature) Använd den här rapporten för att övervaka prestanda i alla era annonsupplevelser i Advertising Creative.
+   * **[!UICONTROL Custom Creative]:** (Endast annonsörer med Advertising Creative) Använd den här rapporten för att övervaka prestanda i alla era annonsupplevelser i Advertising Creative.
 
    * **[!UICONTROL Device]:** Använd den här förifyllda mallen för att visa nyckelmått efter enhetsrelaterade dimensioner.
 
@@ -64,20 +68,11 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
    * **[!UICONTROL Geo]**: Använd den här förifyllda mallen för att se nyckelvärden efter geografiska dimensioner.
 
-   * **[!UICONTROL Margin]:** Använd den här rapporten om du vill se nyckeltal som marginal, vinst och andra utgiftsmått per kampanj eller placering. Data är inte tillgängliga för placeringar som har universella ID som mål.
-
-   * **[!UICONTROL Segment]:** Använd den här förifyllda mallen för att visa nyckeltal efter segment.
-
-     >[!NOTE]
-     >
-     >* Den här rapporten ska visa hur olika målsegment fungerar. Den använder data om segmentmedlemskap. När ett intryck skickas till en person eller enhet som tillhör två eller flera målsegment innehåller rapporten en rad för varje segment. Av den anledningen kanske inte summorna i den här rapporten matchar den faktiska leveransen.
-     >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter den 2 augusti 2019. Alla andra uppgifter för segment är tillgängliga från och med den 1 juni 2018.
-
-   * **[!UICONTROL Site]:** Inkluderar som standard standardvärden, totala medienettoutgifter och totala fakturerbara nettoutgifter per webbplats.
+   * **[!UICONTROL Household Conversions]:** Använd den här rapporten om du vill visa genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-reports.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
 
    * **[!UICONTROL Household Reach & Frequency]:** Använd den här rapporten om du vill visa visningar, räckvidd och frekvens för en enda dimension i alla annonsformat på en hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att optimera din mediemix, förbättra prestanda och identifiera möjligheter för ökad räckvidd. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-reports.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
 
-   * **[!UICONTROL Household Conversions]:** Använd den här rapporten om du vill visa genomsiktskonverteringar på hushållsnivå baserat på IP-adress, i stället för på enhets-/cookienivå. Använd insikterna för att mäta och optimera kampanjresultatet. Mer information finns i [Vanliga frågor om hushållsrapporter](/help/dsp/reports/faq-reports.md). Data är inte tillgängliga för placeringar som har universella ID som mål.
+   * **[!UICONTROL Margin]:** Använd den här rapporten om du vill se nyckeltal som marginal, vinst och andra utgiftsmått per kampanj eller placering. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
    * **[!UICONTROL Path to Conversion]:** Använd den här rapporten för att identifiera hur ni kan optimera budgeten och personalisera annonser baserat på högpresterande annonsinteraktionssekvenser. Rapporten visar sekvensen av interaktionspunkter i samma hushåll som leder till var och en av de valda konverteringsmåtten i det angivna dataintervallet. Rapporten använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering och kan innehålla en dimension:
 
@@ -99,9 +94,16 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
      Data visas för varje banlängd på upp till 10. Data för banlängder större än 10 grupperas tillsammans.
 
-   * **[!UICONTROL Time to Conversion]:** Använd den här rapporten för att fastställa det optimala fönstret för attribueringssökning och för att identifiera kampanjer med längre tid till konvertering, vilket kan ha nytta av återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
+   * **[!UICONTROL Segment]:** Använd den här förifyllda mallen för att visa nyckeltal efter segment.
 
-   * **[!UICONTROL Content]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
+     >[!NOTE]
+     >
+     >* Den här rapporten ska visa hur olika målsegment fungerar. Den använder data om segmentmedlemskap. När ett intryck skickas till en person eller enhet som tillhör två eller flera målsegment innehåller rapporten en rad för varje segment. Av den anledningen kanske inte summorna i den här rapporten matchar den faktiska leveransen.
+     >* Konverteringsstatistik och anpassade måldata för segment är tillgängliga efter den 2 augusti 2019. Alla andra uppgifter för segment är tillgängliga från och med den 1 juni 2018.
+
+   * **[!UICONTROL Site]:** Inkluderar som standard standardvärden, totala medienettoutgifter och totala fakturerbara nettoutgifter per webbplats.
+
+   * **[!UICONTROL Time to Conversion]:** Använd den här rapporten för att fastställa det optimala fönstret för attribueringssökning och för att identifiera kampanjer med längre tid till konvertering, vilket kan ha nytta av återmarknadsföring. Rapporten visar antalet konverteringar utifrån hur lång tid det tar från den senaste interaktionen (annonsexponering eller klick) till konverteringen. Rapporten kan innehålla data för flera konverteringsvärden och använder en angiven uppslagsperiod mellan den första interaktionen och en konvertering. Kolumner i rapporten innehåller [!UICONTROL Time Taken (in days)], [!UICONTROL Number of] \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 1\>, % \&lt;Konverteringsmåttnamn 2\>, % \&lt;Konverteringsmåttnamn 2\> och så vidare. Konverteringar som tar längre tid än uppslagsperioden grupperas tillsammans i en rad (om rapporten till exempel använder en 30-dagars uppslagsperiod grupperas alla konverteringar som tar längre än 30 dagar att inträffa tillsammans i en rad med värdet [!UICONTROL Time Taken (in days)] som är 30+).
 
 ## Kontorapportering {#cross-account-reporting}
 
