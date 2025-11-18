@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: 6e2df4268035b5461d54f1e19b4ec3526940e43b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
-| 17 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med Advertising Creative, betafunktion) Den nya [!UICONTROL All-in Cost BETA]-rapporten visar hur mycket pengar som har använts för annonstjänster för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå. | Se &quot;[Om anpassade rapporter](/help/dsp/reports/report-about.md)&quot; och [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md).&quot; |
+| 17 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med Advertising Creative, betafunktion) Den nya [!UICONTROL All-in Cost BETA]-rapporten visar hur mycket pengar som har använts för annonstjänster för Adobe Creative. Utgiftsmått för rapporten är [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] och [!UICONTROL Estimated Tax on Creative]. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå. |
 | 24 september 2025 | Dynamiska kreatörer | Ett enklare självbetjäningsarbetsflöde finns nu tillgängligt för att generera dynamiska annonser med data från en annonsvariantkatalog som skickas via en annonsmall. | Se [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md). |
 | 3 september 2025 | Creative-optimering och schemaläggning för [!DNL experiences] | Menyalternativet eller knappen för att konfigurera kreativ optimering och schemaläggning kallas nu [!UICONTROL Creative Optimization] i stället för [!UICONTROL Edit Schedules] eller [!UICONTROL Add Schedules]. | Se &quot;[Anpassa kreativ optimering och schemaläggning för en riktad upplevelse](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; och &quot;[Anpassa kreativ optimering och schemaläggning för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
 |  | Annonsrotation och planering för [!DNL experiences] | En ny kreativ rotationstyp, [!UICONTROL Sequencing], roterar de associerade kreativa paketen i en angiven ordning (med paket 1 i tur och ordning, paket 2 i sekunden osv.), med ett angivet totalt antal visningar för varje paketsekvens. Du kan konfigurera det slutliga paketet i sekvensen till en\) som ska visas oändligt eller b\) som en slinga tillbaka till det första paketet. | Se &quot;[Anpassa kreativ optimering och schemaläggning för en riktad upplevelse](/help/creative/experiences/experience-optimization-scheduling-targeting.md)&quot; och &quot;[Anpassa kreativ optimering och schemaläggning för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md).&quot; |
