@@ -45,7 +45,7 @@ Duplicera en anpassad rapport om du vill skapa en ny rapport med liknande instä
 
 1. Klicka på **[!UICONTROL Edit Custom Report]**.
 
-## Köra en anpassad rapport {report-run-now}
+## Köra en anpassad rapport &lbrace;report-run-now&rbrace;
 
 Du kan köra alla rapporter som inte har gått ut och som inte körs just nu.
 
@@ -207,7 +207,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 * *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL] (för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
