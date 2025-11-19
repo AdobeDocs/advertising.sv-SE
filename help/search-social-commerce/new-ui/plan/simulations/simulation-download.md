@@ -3,9 +3,10 @@ title: Ladda ned simuleringar
 description: Lär dig hur du hämtar simuleringar i en kalkylbladsfil.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 46c8c9de-b558-486e-9453-feb5d359aaec
+source-git-commit: f34bbc952d7d2a23349df718ea5eabab272bf3c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '141'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,8 @@ Du kan hämta data för flera simuleringar samtidigt till en fil i ZIP-format. F
 
 >[!NOTE]
 >
->Du kan också [anpassa [!UICONTROL Simulations] view](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) så att den innehåller kolumner för många ytterligare mått och de flesta simuleringsinställningarna. Mer information om vilka kolumner du kan inkludera finns i avsnittet Tillgängliga åtgärder i [Om simuleringar](simulation-about.md#simulations-actions).
+>* Du kan även [visa simuleringsresultatet på skärmen](simulation-view.md).
+>* Du kan [anpassa [!UICONTROL Simulations] vy ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) så att den innehåller kolumner för många ytterligare mått och de flesta simuleringsinställningar. Mer information om vilka kolumner du kan inkludera finns i avsnittet Tillgängliga åtgärder i [Om simuleringar](simulation-about.md#simulations-actions).
 
 1. Klicka på **[!UICONTROL Plan]>[!UICONTROL Simulations]** på huvudmenyn.
 
@@ -32,3 +34,4 @@ Du kan hämta data för flera simuleringar samtidigt till en fil i ZIP-format. F
 >
 >* [Om simuleringar](simulation-about.md)
 >* [Kör eller kör en simulering igen](simulation-create.md)
+>* [Visa simuleringsinformation](simulation-view.md)
