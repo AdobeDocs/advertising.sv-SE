@@ -3,9 +3,9 @@ title: Aktivera överföring av mål till annonsnätverk
 description: Lär dig hur du överför mål för dina hybridportföljer till  [!DNL Google Ads] och [!DNL Microsoft Advertising].
 exl-id: 09ab0b7a-b6ea-45ad-a82c-2c40d518d2e7
 feature: Search Tools
-source-git-commit: 464fd13de476f2710536bea6540e0b9be4684395
+source-git-commit: 8b741fd9e5a2cb950bc7d8ba4f3307dab23e72fe
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Varje överförd konvertering har följande namn:
 
 där `<network_ID>` är det numeriska ID som Search, Social och Commerce använder för annonsnätverket, är `<objective_id>` det numeriska mål-ID:t och `<network_account_ID>` är det numeriska ID:t för annonsnätverkskontot eller hanterarkontot.
 
-Överföringar till [!DNL Google Ads] och [!DNL Microsoft Advertising] sker under dagen, ibland till och med varje timme. För annonsörer med stora konton eller anpassade konfigurationer sker överföringar minst tre gånger dagligen.
+Överföringar till [!DNL Google Ads] och [!DNL Microsoft Advertising] sker under dagen, vanligtvis varje timme. För annonsörer med stora konton eller anpassade konfigurationer sker överföringar minst tre gånger dagligen.
 
 >[!IMPORTANT]
 >
