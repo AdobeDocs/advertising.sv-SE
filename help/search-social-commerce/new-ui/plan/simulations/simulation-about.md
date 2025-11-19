@@ -3,9 +3,10 @@ title: Om simuleringar
 description: Lär dig mer om portföljsimuleringar.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
+source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Simuleringsrapporter visar det uppskattade marginalvärdet för kostnad-till-mål, kostnaden, antalet klick och det objektiva värde som du kan förvänta dig för en portfölj på olika utgiftsnivåer (kostnad) och motsvarande dagliga budgetar eller andra mål. Du kan anpassa vyn <!-- add link --> om du vill visa ytterligare trafikvärden, simuleringsinställningar och endast en viss simuleringstyp ([!UICONTROL Weekly] eller [!UICONTROL Custom]).
+Simuleringsrapporter visar det uppskattade marginalvärdet för kostnad-till-mål, kostnaden, antalet klick och det objektiva värde som du kan förvänta dig för en portfölj på olika utgiftsnivåer (kostnad) och motsvarande dagliga budgetar eller andra mål. Du kan [anpassa vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) om du vill visa ytterligare trafikvärden, simuleringsinställningar och endast en viss simuleringstyp ([!UICONTROL Weekly] eller [!UICONTROL Custom]).
 
 <!-- Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
@@ -22,17 +23,73 @@ When the portfolio has a daily budget, you can optionally change the portfolio's
 
 ## Simuleringstyper
 
-* **Automatiserade veckosimuleringar:** Simuleringsrapporter körs automatiskt varje vecka med de aktuella portföljinställningarna. Automatiserade veckosimuleringar är bara tillgängliga för perioder där portföljen är [optimerad eller aktiv](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
+* Automatiserade veckosimuleringar
 
-  Varje veckovis simulering består av en arbetsbok. Varje arbetsbok innehåller målet för var och en av de 20 stegnivåerna samt prognostiserade kostnader, klick, viktade intäkter (objektivt värde) och konverteringsvärden som ingår i målet, baserat på motsvarande mål. Begränsningarna tillämpades inte för de första 20 dataraderna. Begränsningarna tillämpades för de återstående dataraderna.
+* Anpassade, användargenererade simuleringar
 
-* **Anpassade, användargenererade simuleringar:** Du kan skapa en anpassad simuleringsrapport för en enskild [optimerad eller aktiv](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)-portfölj med de aktuella portföljinställningarna eller använda anpassade portföljinställningar för att se resultatet som dessa inställningar skulle ge utan att ändra dem. Du kan till exempel skapa en anpassad simulering för att se effekten av att använda en annan utgiftsstrategi eller utbildningsbudget <!-- Not available yet:  , or without considering active constraints on bid units in the portfolio-->. Du kan visa beräknade prestanda på portfölj-, kampanj-, offertenhets- och enhetsnivå. Anpassade simuleringar ärver begränsningsinställningen från portföljen.
+### Automatiserade veckosimuleringar
 
-  >[!NOTE]
-  >
-  > Det nya anpassade simuleringsformuläret använder samma inställningar som det äldre formuläret, förutom att det ärver begränsningsinformationen för budenheten från portföljinställningarna. Du har inte möjlighet att ignorera begränsningar för budenheter, som du gjorde på den gamla sidan med anpassade simuleringsinställningar.
+Simuleringsrapporter körs automatiskt varje vecka med de aktuella portföljinställningarna. Automatiserade veckosimuleringar är bara tillgängliga för perioder där portföljen är [optimerad eller aktiv](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md).
 
-  Varje hämtad anpassad simulering består av en arbetsbok. Varje arbetsbok innehåller ett kalkylblad för varje angiven entitetsnivå för simulering (portföljer, kampanjer, annonsgrupper, budenheter) när data finns tillgängliga för den nivån. När du anger data på enhetsnivå innehåller varje kalkylblad en [!UICONTROL Device]-kolumn. Varje kalkylblad innehåller en rad med data för varje tillämplig enhet och (när det anges för rapporten) och enhetstyp för varje 20 steg (till exempel en rad per kampanj). Data på varje rad innehåller beräknade marginalkostnader, kostnad, klick, viktade intäkter (objektivt värde), enhetstyp och konverteringsmått som ingår i målet, baserat på motsvarande mål. I kalkylbladet på portföljnivå ingår även målet för stegnivåerna, och i kalkylbladet på entitetsnivå ingår annonsnätverket, kontot, kampanjen och (när det är tillämpligt) annonskoncern.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+#### Hämtade veckosimuleringar
+
+Varje veckovis simulering består av en arbetsbok. Varje arbetsbok innehåller målet för var och en av de 20 stegnivåerna samt prognostiserade kostnader, klick, viktade intäkter (objektivt värde) och konverteringsvärden som ingår i målet, baserat på motsvarande mål. Begränsningarna tillämpades inte för de första 20 dataraderna. Begränsningarna tillämpades för de återstående dataraderna.
+
+#### Simuleringsinformation varje vecka på skärmen
+
+Information om simulering på skärmen visar visuella och tabellbaserade insikter på portföljnivå. [Hämta simuleringen](simulation-download.md) i stället för data per kampanj, annonsgrupper, budenheter eller enhet.
+
+##### Diagramvy
+
+I diagramvyn visas det förväntade målvärdet eller andra angivna mätvärden ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) för utgiftsmålet för var och en av 20 utgiftsnivåer. Målets mittpunkt identifieras och du kan ändra målets mittpunkt om du vill se de data som förutses med det värdet. Håll markören över en punkt i diagrammet för att se data för den punkten.
+
+Du kan visa data med och utan begränsningar, med begränsningar och utan begränsningar. När du visar data som tar hänsyn till begränsningar identifieras de tillämpade begränsningarna ovanför diagrammet.
+
+##### Tabellvy
+
+I tabellvyn visas målutgiften för var och en av de 20 utgiftsnivåerna. I portföljens mål för varje utgiftsnivå ingår även motsvarande uppskattade kostnad, marginalkostnad till objektivt värde, klickningar, objektivt värde och konverteringsmått. Målets mittpunkt identifieras och du kan ändra målets mittpunkt om du vill se de data som förutses med det värdet.
+
+Du kan visa data med och utan begränsningar, med begränsningar och utan begränsningar. När du visar data som tar hänsyn till begränsningar identifieras de tillämpade begränsningarna ovanför diagrammet.
+
+##### Simuleringsinställningar
+
+Simuleringsinställningarna visas som skrivskyddade under diagrammet eller tabellen.
+
+##### Portfolio-inställningar
+
+Om du vill visa skrivskyddade inställningar för den aktuella portföljen klickar du på **[!UICONTROL Portfolio Settings]** i det övre högra hörnet.
+
+### Anpassade, användargenererade simuleringar
+
+Du kan skapa en anpassad simuleringsrapport för en enskild [optimerad eller aktiv](/help/search-social-commerce/new-ui/manage/portfolios/portfolio-about.md)-portfölj med de aktuella portföljinställningarna eller med anpassade portföljinställningar, med eller utan begränsningar på anbudsenhetsnivå tillämpade, för att se resultaten som dessa inställningar skulle ge utan att ändra dem. Du kan till exempel skapa en anpassad simulering för att se effekten av att använda en annan utgiftsstrategi eller utbildningsbudget utan att ta hänsyn till aktiva begränsningar för anbudsenheter i portföljen. Du kan visa beräknade prestanda på portfölj-, kampanj-, offertenhets- och enhetsnivå.
+
+#### Hämtade anpassade simuleringar
+
+Varje hämtad anpassad simulering består av en arbetsbok. Varje arbetsbok innehåller ett kalkylblad för varje angiven entitetsnivå för simulering (portföljer, kampanjer, annonsgrupper, budenheter) när data finns tillgängliga för den nivån. När du anger data på enhetsnivå innehåller varje kalkylblad en [!UICONTROL Device]-kolumn. Varje kalkylblad innehåller en rad med data för varje tillämplig enhet och (när det anges för rapporten) och enhetstyp för varje 20 steg (till exempel en rad per kampanj). Data på varje rad innehåller beräknade marginalkostnader, kostnad, klick, viktade intäkter (objektivt värde), enhetstyp och konverteringsmått som ingår i målet, baserat på motsvarande mål. I kalkylbladet på portföljnivå ingår även målet för stegnivåerna, och i kalkylbladet på entitetsnivå ingår annonsnätverket, kontot, kampanjen och (när det är tillämpligt) annonskoncern.   <!-- I don't see a Bid Units tab when specified; clarify when it is and isn't included -->
+
+#### Anpassad simuleringsinformation på skärmen
+
+Information om simulering på skärmen visar visuella och tabellbaserade insikter på portföljnivå. [Hämta simuleringen](simulation-download.md) i stället för data per kampanj, annonsgrupper, budenheter eller enhet.
+
+#### Diagramvy
+
+I diagramvyn visas det förväntade målvärdet eller andra angivna mätvärden ([!UICONTROL Y-Axis Metric]<!-- I see Objective Value, Cost, Clicks, the metrics in the portfolio's objective, and then a couple of other conversion metrics. Where do the other conversion metrics come from? -->) för utgiftsmålet för det angivna antalet utgiftsnivåer (steg) för simuleringen. Målets mittpunkt identifieras. Håll markören över en punkt i diagrammet för att se data för den punkten.
+
+När simuleringen skapades med hänsyn till begränsningar identifieras de tillämpade begränsningarna ovanför diagrammet.
+
+##### Tabellvy
+
+Tabellvyn visar målutgiften för varje angivet antal utgiftsnivåer (steg) för simuleringen. Den visar också motsvarande uppskattade kostnad, marginalkostnad till objektivt värde, klick, objektivt värde och konverteringsmått i portföljens mål för varje utgiftsnivå. Målets mittpunkt identifieras.
+
+När simuleringen skapades med hänsyn till begränsningar identifieras de tillämpade begränsningarna ovanför diagrammet.
+
+##### Simuleringsinställningar
+
+Simuleringsinställningarna visas som skrivskyddade under diagrammet eller tabellen.
+
+##### Portfolio-inställningar
+
+Om du vill visa skrivskyddade inställningar för den aktuella portföljen klickar du på **[!UICONTROL Portfolio Settings]** i det övre högra hörnet.
 
 ## Vyn [!UICONTROL Simulations]
 
@@ -46,6 +103,8 @@ Datatabellen innehåller förloppet för varje simulering, en [!UICONTROL Target
 
 * [Generera eller kör om en anpassad simulering](simulation-create.md) för en enskild portfölj. Du kan antingen skapa en ny simulering eller återskapa en befintlig simulering i listan.
 
+* [Visa en simulering varje vecka eller anpassad på skärmen](simulation-view.md).
+
 * [Hämta veckovisa och anpassade simuleringar](simulation-download.md) som [!DNL Microsoft Excel] arbetsböcker i ZIP-filer.
 
 * Använd knappen [!UICONTROL Spend Planner] för att öppna det gamla verktyget för utgiftsrekommendation, som hjälper dig att identifiera den optimala utgiftsfördelningen mellan portföljer.
@@ -56,11 +115,12 @@ Datatabellen innehåller förloppet för varje simulering, en [!UICONTROL Target
 
 * Innan du startar en portfölj för att uppskatta den prestanda du kan förvänta dig med motsvarande portföljinställningar bör du använda minst två veckors data. Om simuleringsresultaten visar på lägre prestanda än du förväntade dig baserat på historiska data för de inkluderade kampanjerna bör du undersöka och lösa problemen innan du startar portföljen.
 
-* Efter en större förändring av en portfölj, som att lägga till en kampanj eller ändra målet. Om du ändrar portföljens modellstartdatum, vikten för ett konverteringsmått eller klickvärdet för ett mål, väntar du tills efter 17:00 PST nästa dag för att köra simuleringen, när det finns uppdaterade kostnads- och intäktsmodeller tillgängliga.
+* Efter en större förändring av en portfölj, som att lägga till en kampanj eller ändra målet. Om du ändrar portföljens modellstartdatum, vikten för ett konverteringsmått eller klickvärdet för ett mål väntar du tills efter :00 PST nästa dag för att köra simuleringen, när det finns uppdaterade kostnads- och intäktsmodeller tillgängliga.
 
 * Övervaka med jämna mellanrum resultattrender på konverteringsmätnivå.
 
 >[!MORELIKETHIS]
 >
 >* [Kör eller kör en simulering igen](simulation-create.md)
+>* [Visa simuleringsinformation](simulation-view.md)
 >* [Hämta simuleringar](simulation-download.md)
