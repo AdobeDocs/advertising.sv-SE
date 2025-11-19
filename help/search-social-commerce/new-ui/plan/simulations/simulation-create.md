@@ -3,9 +3,10 @@ title: Kör eller kör om en anpassad simulering
 description: Lär dig hur du kör eller kör en anpassad simulering för en portfölj.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: 0ee62d04-fdc4-445c-90fb-71d5a40a9ed0
+source-git-commit: d96e003346c7cc3c1803c8cba259f2b18d839168
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -107,4 +108,5 @@ Mer information om anpassade simuleringsinställningar finns i Optimeringshandbo
 >[!MORELIKETHIS]
 >
 >* [Om simuleringar](simulation-about.md)
+>* [Visa simuleringsinformation](simulation-view.md)
 >* [Hämta simuleringar](simulation-download.md)
