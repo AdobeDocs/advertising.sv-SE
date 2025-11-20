@@ -20,7 +20,7 @@ Du kan hämta data för flera simuleringar samtidigt till en fil i ZIP-format. F
 >[!NOTE]
 >
 >* Du kan även [visa simuleringsresultatet på skärmen](simulation-view.md).
->* Du kan [anpassa [!UICONTROL Simulations] vy ](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) så att den innehåller kolumner för många ytterligare mått och de flesta simuleringsinställningar. Mer information om vilka kolumner du kan inkludera finns i avsnittet Tillgängliga åtgärder i [Om simuleringar](simulation-about.md#simulations-actions).
+>* Du kan [anpassa [!UICONTROL Simulations] vy &#x200B;](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) så att den innehåller kolumner för många ytterligare mått och de flesta simuleringsinställningar. Mer information om vilka kolumner du kan inkludera finns i avsnittet Tillgängliga åtgärder i [Om simuleringar](simulation-about.md#simulations-actions).
 
 1. Klicka på **[!UICONTROL Plan]>[!UICONTROL Simulations]** på huvudmenyn.
 
