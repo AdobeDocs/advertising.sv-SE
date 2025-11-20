@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # Policyer och riktlinjer för Adobe Advertising {#policies}
 
-+ [Om policyer och riktlinjer för Adobe Advertising](/help/policies/home.md)
++ [Om Adobe Advertising policyer och riktlinjer](/help/policies/home.md)
 + [Krav för annonser](/help/policies/ad-requirements-policy.md)
 + [Princip för krav på universella ID](/help/policies/universal-id-policy.md)
 + [Riktlinjer för godkända hälsosegment](/help/policies/health-segment-guidelines.md)

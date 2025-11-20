@@ -14,8 +14,8 @@ ht-degree: 56%
 
 # Adobe Advertising-support for konsumentintegritet {#privacy}
 
-+ [Om Adobe Advertising-stöd för konsumentintegritet](/help/privacy/home.md)
++ [Om Adobe Advertising Support for Consumer Privacy](/help/privacy/home.md)
 + [Stöd för GDPR](/help/privacy/gdpr.md)
 + Stöd för CCPA {#ccpa}
    + [Stöd för CCPA: Consumer Data Access and Delete](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(Endast DSP) Stöd för CCPA: konsumentens avanmälan från försäljning](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [(Endast DSP) Stöd för CCPA: Consumer Opt-Out-of-Sales](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
