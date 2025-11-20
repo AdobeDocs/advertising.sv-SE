@@ -3,7 +3,7 @@ title: Rapportkolumner för grundläggande och avancerade rapporter
 description: Lär dig mer om tillgängliga datakolumner för grundläggande och avancerade rapporter.
 exl-id: 649cdfa0-e6f2-4881-9f9d-8217e2547d99
 feature: Search Reports, Search Basic Reports, Search Advanced Reports
-source-git-commit: f5fa38460486a5eadce8c8e6334723f67e3814f5
+source-git-commit: 817c8ab0dce5412e4b3a235c3c032e5691d235ba
 workflow-type: tm+mt
 source-wordcount: '3806'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 | [!UICONTROL Ad Size] | Annonsens dimensioner. |
 | [!UICONTROL AD Strength] | ([!DNL Google Ads] responsiva sökannonser) Annonsens effektivitet: <i>[!UICONTROL average]</i>, <i>[!UICONTROL excellent]</i>, <i>[!UICONTROL good]</i>, <i>[!UICONTROL no_ads]</i>, <i>[!UICONTROL pending]</i>, <i>[!UICONTROL poor]</i>, <i>[!UICONTROL unknown]</i> eller <i>[!UICONTROL unspecified]</i>. |
 | [!UICONTROL Adgroup MBA] | ([!DNL Google Ads], [!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] kampanjer) Aktuell mobilbudsjustering på annonsgruppsnivå, som avgör hur buden justeras när annonsen visas på en mobil enhet. |
-| [!UICONTROL AI Max Bundling Required] | (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL NOT_REQUIRED]* eller null. |
-| [!UICONTROL AI Max Enabled] | Om [[!UICONTROL AI Max]-funktionen &#x200B;](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL false]* eller null. |
-| [!UICONTROL AI Max Search Term Matching] | (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max](https://support.google.com/google-ads/answer/15910366) och söktermmatchningsfunktionen på kampanjnivå är aktiverad; skrivskyddad) Om söktermmatchning på annonsnivå är aktiverat: *[!UICONTROL true]* eller null. |
+| [!UICONTROL AI Max Bundling Required] | (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL REQUIRED]*, *[!UICONTROL NOT_REQUIRED]*, *[!UICONTROL UNSPECIFIED]* eller null. |
+| [!UICONTROL AI Max Enabled] | Om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: [!UICONTROL true]*, *[!UICONTROL false]* eller null. |
+| [!UICONTROL AI Max Search Term Matching] | (Kampanjer som riktar sig till söknätverket och för vilka funktionen [AI Max](https://support.google.com/google-ads/answer/15910366) och söktermmatchningen på kampanjnivå är aktiverad; skrivskyddad) Om söktermmatchning på ad gruppnivå är aktiverad: *[!UICONTROL true]*, *[!UICONTROL false]* eller null. |
 | [!UICONTROL Advertiser] | Annonsörens namn. |
 | [!UICONTROL Advertiser ID] | Det numeriska ID:t för annonsörens konto Search, Social och Commerce. |
 | [!UICONTROL Avg Position] | Den genomsnittliga positionen för annonserna under det angivna datumintervallet.<br><br>För [!DNL Google Ads]- och [!DNL Yahoo! Japan Ads]-kampanjer är dessa data bara tillgängliga till och med september 2019. För [!DNL Microsoft Advertising] är dessa data bara tillgängliga till och med den 22 januari 2021. |
