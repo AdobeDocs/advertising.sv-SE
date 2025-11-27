@@ -2,7 +2,8 @@
 title: Adobe Advertising-statistik och -dimensioner i Customer Journey Analytics
 description: Referera till de Adobe Advertising-mått och -mått som finns i Customer Journey Analytics.
 feature: Integration with Adobe Customer Journey Analytics
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+exl-id: 97c89e03-ab15-4906-96fc-6bb77ea0cd7c
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -68,26 +69,26 @@ I följande tabell:
 
 | Adobe Advertising fältnamn | XDM-fältnamn | Visningsnamn för XDM-fält | Source |
 |------------------------------|----------------|------------------------|--------|
-| Nyckel | skwcid | ADOBE ADVERTISING ID |
-| Annonsplattform | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |
-| Konto | adobe_advertising_account | Adobe Advertising-konto |
-| Campaign | adobe_advertising_campaign | Adobe Advertising Campaign |
-| Annonsgrupp | adobe_advertising_ad_group | Adobe Advertising Ad Group |
-| Nyckelord | adobe_advertising_keyword | Adobe Advertising-nyckelord |
-| Annons | adobe_advertising_ad | Adobe Advertising Ad |
-| Placement | adobe_advertising_placement | Adobe Advertising Placement |
-| Matcha typ | adobe_advertising_match_type | Adobe Advertising Matchningstyp |
-| Annonsrubrik | adobe_advertising_ad_title | Adobe Advertising Ad Title |
-| Annonsbeskrivning | adobe_advertising_ad_description | Adobe Advertising Ad Description |
-| Måladress för annons | adobe_advertising_ad_destination_url | Adobe Advertising Ad Destination URL |
-| Webbadress för annonsvisning | adobe_advertising_ad_display_url | Adobe Advertising Ad Display URL |
-| Enhet | adobe_advertising_device | Adobe Advertising Device |
-| Matchningstyp för nyckelord | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |
-| Nätverk | adobe_advertising_network | Adobe Advertising Network |
-| Annonstyp | adobe_advertising_ad_type | Adobe Advertising Ad Type |
-| Produktmål | adobe_advertising_product_target | Adobe Advertising Product Target |
-| Landningstyp | adobe_advertising_landing_type | Adobe Advertising landningstyp |
-| Optimering | adobe_advertising_optimization | Adobe Advertising Optimization |
+| Nyckel | skwcid | ADOBE ADVERTISING ID |  |
+| Annonsplattform | adobe_advertising_ad_platform | Adobe Advertising Ad Platform |  |
+| Konto | adobe_advertising_account | Adobe Advertising-konto |  |
+| Campaign | adobe_advertising_campaign | Adobe Advertising Campaign |  |
+| Annonsgrupp | adobe_advertising_ad_group | Adobe Advertising Ad Group |  |
+| Nyckelord | adobe_advertising_keyword | Adobe Advertising-nyckelord |  |
+| Annons | adobe_advertising_ad | Adobe Advertising Ad |  |
+| Placement | adobe_advertising_placement | Adobe Advertising Placement |  |
+| Matcha typ | adobe_advertising_match_type | Adobe Advertising Matchningstyp |  |
+| Annonsrubrik | adobe_advertising_ad_title | Adobe Advertising Ad Title |  |
+| Annonsbeskrivning | adobe_advertising_ad_description | Adobe Advertising Ad Description |  |
+| Måladress för annons | adobe_advertising_ad_destination_url | Adobe Advertising Ad Destination URL |  |
+| Webbadress för annonsvisning | adobe_advertising_ad_display_url | Adobe Advertising Ad Display URL |  |
+| Enhet | adobe_advertising_device | Adobe Advertising Device |  |
+| Matchningstyp för nyckelord | adobe_advertising_keyword_matchtype | Adobe Advertising Keyword MatchType |  |
+| Nätverk | adobe_advertising_network | Adobe Advertising Network |  |
+| Annonstyp | adobe_advertising_ad_type | Adobe Advertising Ad Type |  |
+| Produktmål | adobe_advertising_product_target | Adobe Advertising Product Target |  |
+| Landningstyp | adobe_advertising_landing_type | Adobe Advertising landningstyp |  |
+| Optimering | adobe_advertising_optimization | Adobe Advertising Optimization |  |
 
 >[!MORELIKETHIS]
 >

@@ -3,7 +3,7 @@ title: Inställningar för uppkopplade TV-program
 description: Se beskrivningar av inställningarna för räckviddsplaner för anslutna tv-apparater.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 5d8d981f08eaea2b0a0bc553ab06bd47f1e88ac9
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om DSP &#x200B;](planner-about.md)
+>* [Om DSP-planeringsverktyget](planner-about.md)
 >* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)

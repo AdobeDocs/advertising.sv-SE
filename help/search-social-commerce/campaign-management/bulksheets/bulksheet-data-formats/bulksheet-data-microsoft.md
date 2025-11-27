@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Microsoft Advertising] konton.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
 workflow-type: tm+mt
 source-wordcount: '6928'
 ht-degree: 0%
@@ -65,15 +65,15 @@ Information om de datafält som är relevanta för kontoentiteter finns i [Fält
 | [!UICONTROL Display Path 1] | (Endast expanderade textannonser, dynamiska sökannonser och responsiva sökannonser) En extra visningssökväg. Se posten för [!UICONTROL Display Path 1].<br><br>Exempel: Om [!UICONTROL Display Path 1] är&quot;erbjudanden&quot; och [!UICONTROL Display Path 2] är&quot;lokal&quot; är visnings-URL:en &lt;<i>visa-URL</i>>/erbjudanden/lokal, till exempel www.example.com/deals/local. |
 | [!UICONTROL Start Date] | (Endast utökade sitelinks) Det första datum då anbud får lämnas för sitelink, i annonsörens tidszon och i något av följande format: m/d/yyyy, m/d/yy, m-d-yyyyy eller m-d-yy. Standardinställningen för nya utökade sitelinks är den aktuella dagen. <b>Obs!</b> Nya förbättrade sitelinks kan bara skapas i kampanjer med befintliga utökade sitelinks eller utan sitelinks. |
 | [!UICONTROL End Date] | Det sista datum då sitelänken kan visas med annonser, i annonsörens tidszon och i något av följande format: m/d/yyyy, m/d/yy, m-d-yyyy eller m-d-yy. För en ny sitelink är standardvärdet `[blank]` (det vill säga inget slutdatum). |
-| [!UICONTROL Call To Action] | Uppmaningen att ta med i annonsen. I [API-referensen finns en lista med möjliga värden](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), men du kan ange flera ord för att kunna utföra åtgärder som flera ord (till exempel &quot;Bet Now&quot; i stället för &quot;BetNow&quot;) i kalkylblad. |
-| [!UICONTROL Call To Action Language] | Språket för alternativen för att ringa upp till åtgärd. I [API-referensen finns en lista över möjliga språk](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
+| [!UICONTROL Call To Action] | Den call to action som ska ingå i annonsen. I [API-referensen finns en lista med möjliga värden](https://learn.microsoft.com/en-us/advertising/campaign-management-service/calltoaction), men du kan ange flera ord för att kunna utföra åtgärder som flera ord (till exempel &quot;Bet Now&quot; i stället för &quot;BetNow&quot;) i kalkylblad. |
+| [!UICONTROL Call To Action Language] | Språket för call to action-alternativen. I [API-referensen finns en lista över möjliga språk](https://learn.microsoft.com/en-us/advertising/campaign-management-service/languagename). |
 | [!UICONTROL Base URL/Final URL] | Den URL till landningssidan som sökmotoranvändare tas till när de klickar på annonsen, inklusive eventuella tilläggsparametrar som konfigurerats för kampanjen eller kontot. Bas-/slutadresser på nyckelordsnivå åsidosätter de på annonsnivå och högre.<br><br>Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive parenteserna). |
 | [!UICONTROL Destination URL] | (Ingår i genererade kalkylblad i informationssyfte, inte i sökmotorn) För konton med mål-URL:er är detta den URL som länkar en annons till en bas-URL/landningssida på annonsörens webbplats (ibland via en annan webbplats som spårar klickningen och sedan dirigerar om användaren till landningssidan). Den innehåller eventuella tilläggsparametrar som har konfigurerats för kampanj eller konto för sökning, sociala medier och Commerce. Om du genererade spårnings-URL:er baseras detta på spårningsparametrarna i dina kontoinställningar och kampanjinställningar. Om du har lagt till parametrar som är specifika för sökmotorn kan de ersättas med motsvarande parametrar för Search, Social och Commerce.<br><br>För konton med slutliga URL:er visar den här kolumnen samma värde som kolumnen Bas-URL/Slutlig URL. |
 | [!UICONTROL Custom URL Param] | Data som ska ersätta den dynamiska variabeln `{custom_code}` när variabeln inkluderas i spårningsparametrarna för sökkontot eller kampanjinställningarna. Om du vill infoga det anpassade värdet i spårnings-URL:en måste du överföra kalkylbladsfilen med alternativet Generera spårnings-URL:er. |
 | [!UICONTROL Creative Type] | Annonsformatet: <i>[!UICONTROL Dynamic Search Ad]</i>, <i>[!UICONTROL Expanded Text Ad]</i>, <i>[!UICONTROL Expanded Dynamic Search Ad]</i>, <i>[!UICONTROL Multimedia Ad]</i>, <i>[!UICONTROL Product Ad]</i> (kundannonser), <i>[!UICONTROL Responsive Search Ad]</i> eller <i>[!UICONTROL Text ad]</i>. Standardvärdet för nya annonser är <i>[!UICONTROL Text ad]</i>. |
 | [!UICONTROL Ad Group Start Date] | Det första datum då anbud kan lämnas för annonskoncern, i annonsören tidszon och i något av följande format: m/d/yyyy, m/d/yy, m-d-yyyy eller m-d-yy. För en ny annonsgrupp är standardvärdet aktuellt datum. |
 | [!UICONTROL Ad Group End Date] | Det sista datum då anbud kan lämnas för annonsgruppen, i annonsörens tidszon och i något av följande format: m/d/yyyy, m/d/yy, m-d-yyyy eller m-d-yy. För en ny annonsgrupp är standardvärdet [blank] (det vill säga inget slutdatum). |
-| [!UICONTROL Tracking Template] | (Valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För spårning av Adobe Advertising-konvertering, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs kod för omdirigering och spårning automatiskt till när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part.<br><br>En lista över parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising] -dokumentationen.<br><br> Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive parenteserna). |
+| [!UICONTROL Tracking Template] | (Valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet längst till granulerad) åsidosätter värdena på alla högre nivåer.<br><br>För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs omdirigerings- och spårningskod till automatiskt när du sparar posten.<br><br>Ange ett värde för omdirigeringar och spårning från tredje part.<br><br>En lista över parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising] -dokumentationen.<br><br> Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive parenteserna). |
 | [!UICONTROL Landing Page Suffix] | Eventuella parametrar som ska läggas till i slutet av de slutliga URL:erna för att spåra information. Exempel: `param2=value1&param3=value2`<br><br>Se &quot;[Klicka-spårningsformat för [!DNL Microsoft Advertising]](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md)&quot;.<br><br>Slutliga URL-suffix på lägre nivåer åsidosätter suffixet på kontonivå. För enklare underhåll bör du bara använda suffixet på kontonivå om inte olika spårning för enskilda kontokomponenter krävs. Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Microsoft Advertising]-redigeraren. |
 | Nätverksstatus för sökning | Om annonser ska placeras för annonsgruppen på olika element i söknätverket:<ul><li><i>Alla:</i> Om du vill placera annonser i alla Bing-söknätverk och syndikerade sökpartners.</li><li><i>OwnedAndOperatedOnly:</i>Om du bara vill placera annonser på Bing och Yahoo! webbplatser.</li><li><i>SyndicatedSearchOnly:</i> Om du bara vill placera annonser på Bing och Yahoo! syndikerade sökpartners.</li><li><i>Av:</i> Om du bara vill placera annonser i innehållsnätverket (inte i söknätverket).</li></ul> För nya annonsgrupper är standardvärdet På. |
 | [!UICONTROL Content Network Status] | Föråldrat |
@@ -112,7 +112,7 @@ Information om de datafält som är relevanta för kontoentiteter finns i [Fält
 | [!UICONTROL EF Error Message] | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från annonsnätverket med avseende på data i raden. Felmeddelanden ingår i [!UICONTROL EF Errors]-filer. Det här värdet är inte registrerat i annonsnätverket. |
 | [!UICONTROL SE Error Message] | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa felmeddelanden från annonsnätverket med avseende på data i raden. Felmeddelanden ingår i [!UICONTROL SE Errors]-filer. Det här värdet är inte registrerat i annonsnätverket. |
 | [!UICONTROL Exemption Request] | (Ingår i genererade kalkylblad i informationssyfte) Platshållare för att visa namn och text för alla Google reklampolicyer som en annons bryter mot. |
-| [!UICONTROL Retail Hash] | (Ingår i informationssyfte i kalkylblad som genererats med Advanced Campaign Management) En alfanumerisk hash-kod (t.ex. f9639f40cdf56524b541e5dacf55a991) som anger att objektet genererades i vyn Avancerat (ACM). |
+| [!UICONTROL Retail Hash] | (Ingår i informationssyfte i kalkylblad som genereras med avancerad kampanjhantering) En alfanumerisk hash-kod (till exempel f9639f40cdf56524b541e5dacf55a991) som anger att artikeln genererades i vyn Avancerat (ACM). |
 
 [^1]: [!DNL Excel] konverterar stora tal till vetenskaplig notation (till exempel 2.12E+09 för 2115585666) när filen öppnas. Om du vill visa siffror i standardnotationen markerar du en cell i kolumnen och klickar inuti formelfältet.
 
@@ -131,8 +131,8 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | Fält | Obligatoriskt? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller [!UICONTROL AMO ID] för entiteten. |
-| [!UICONTROL Campaign Name] | Obligatoriskt | Det unika namn som identifierar en kampanj för ett konto. |
-| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. | En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| [!UICONTROL Campaign Name] | Obligatoriskt. Det unika namn som identifierar en kampanj för ett konto. |
+| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
 | [!UICONTROL Channel Type] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Delivery Method] | Valfritt |
 | [!UICONTROL Campaign Priority] | Krävs för att skapa en shoppingkampanj. |
@@ -216,7 +216,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller [!UICONTROL AMO ID] för entiteten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] krävs för att redigera beskrivningen. <b>Obs!</b> För den här annonstypen tas den befintliga annonsen bort om du ändrar och kopierar den och en ny skapas. |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Krävs för att redigera beskrivningen. <b>Obs!</b> För den här annonstypen tas den befintliga annonsen bort om du ändrar och kopierar den och en ny skapas. |
 | [!UICONTROL Display Path 1] | Krävs för att redigera fältet. |
 | [!UICONTROL Display Path 2] | Krävs för att redigera fältet. |
 | [!UICONTROL Creative Type] | Krävs för att skapa eller redigera status för en produktannons. |
@@ -225,12 +225,12 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | [!UICONTROL Campaign ID] | Valfritt |
 | [!UICONTROL Ad Group ID] | Valfritt |
-| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a) tillräckliga annonsegenskapskolumner för att identifiera annonsadressen eller b) en [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
+| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&amp;rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&amp;rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Search, Social och Commerce använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Produktfält (shoppingfält)
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=sv-SE).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 
@@ -290,7 +290,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller [!UICONTROL AMO ID] för entiteten. |
 | [!UICONTROL Campaign Name] | Obligatoriskt |
-| [!UICONTROL Ad Group Name] | Obligatoriskt | |
+| [!UICONTROL Ad Group Name] | Obligatoriskt |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 15] | För responsiva sökannonser krävs [!UICONTROL Ad Title], [!UICONTROL Ad Title 2] och [!UICONTROL Ad Title 3] för att skapa en annons, och alla andra annonstitelfält är valfria. Om du vill ta bort det befintliga värdet för ett icke obligatoriskt fält använder du värdet `[delete]` (inklusive parenteserna). |
 | [!UICONTROL Ad Title 1 Position]-[!UICONTROL Ad Title 15 Position] | Valfritt |
 | [!UICONTROL Description Line 1]-[!UICONTROL Description Line 4] | För responsiva sökannonser krävs [!UICONTROL Description Line 1] och [!UICONTROL Description Line 2] för att skapa en annons, och [!UICONTROL Description Line 3] och [!UICONTROL Description Line 4] är valfria. Om du vill ta bort det befintliga värdet använder du värdet `[delete]` (inklusive parenteserna). |
@@ -324,7 +324,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | [!UICONTROL Campaign Name] | Obligatoriskt |
 | [!UICONTROL Ad Group Name] | Obligatoriskt |
 | [!UICONTROL Ad Title], [!UICONTROL Ad Title 2]-[!UICONTROL Ad Title 3] | Skrivskyddad |
-| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] Skrivskyddad |
+| [!UICONTROL Description Line 1]-[!UICONTROL Description Line 2] | Skrivskyddad |
 | [!UICONTROL Display URL] | Skrivskyddad |
 | [!UICONTROL Display Path 1] | Skrivskyddad |
 | [!UICONTROL Display Path 2] | Skrivskyddad |
