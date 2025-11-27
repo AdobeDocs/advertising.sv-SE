@@ -239,7 +239,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 
 ### Utökad dynamisk sökannons
 
-Den här annonstypen kallas nu för&quot;dynamisk sökannons&quot; i [!DNL Google Ads]. Mer information om hur du skapar dynamiska sökannonser finns i [Implementera [!DNL Google Ads] dynamiska sökannonser](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html).
+Den här annonstypen kallas nu för&quot;dynamisk sökannons&quot; i [!DNL Google Ads]. Mer information om hur du skapar dynamiska sökannonser finns i [Implementera [!DNL Google Ads] dynamiska sökannonser](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-dynamic-search-ads.html?lang=sv-SE).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 
@@ -264,7 +264,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 
 ### Produktlista/reklamfält
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Google Ads] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/google-shopping-campaigns.html?lang=sv-SE).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 

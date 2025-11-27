@@ -230,7 +230,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 
 ### Produktfält (shoppingfält)
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=sv-SE).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 
