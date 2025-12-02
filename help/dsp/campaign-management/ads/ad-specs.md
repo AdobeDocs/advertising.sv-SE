@@ -3,7 +3,7 @@ title: Annonsspecifikationer
 description: Referera till allmänna och utgivarspecifika annonsspecifikationer.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 10e85f9ec0b7b867828cc9ac154af6f4982c44d2
+source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 * **Identifiering:** Se [annonsspecifikationerna för Discovery](/help/dsp/assets/discovery-networks-ad-specs.pdf).
 
-* **Disney (inklusive Hulu):** Se Disneys [annonsspecifikationer](https://hulu.disneyadsales.com/ad-products/video-commercial/).
+* **Disney (inklusive Hulu):** Se Disneys [annonsspecifikationer](https://www.disneyadvertising.com/mediakit/#specifications).
 
 * **HBO Max:** Se HBO Max [annonsspecifikationer](/help/dsp/assets/hbo-max-ad-specs-2022.xlsx).
 
