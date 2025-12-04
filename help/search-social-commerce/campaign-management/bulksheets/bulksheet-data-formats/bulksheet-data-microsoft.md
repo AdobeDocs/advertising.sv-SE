@@ -225,7 +225,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | [!UICONTROL Campaign ID] | Valfritt |
 | [!UICONTROL Ad Group ID] | Valfritt |
-| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&amp;rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&amp;rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
+| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Search, Social och Commerce använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Produktfält (shoppingfält)
