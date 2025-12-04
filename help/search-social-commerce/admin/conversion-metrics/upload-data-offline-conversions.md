@@ -3,7 +3,7 @@ title: Ladda upp offlinekonverteringsdata för förbättrad konvertering
 description: Lär dig hur du överför konverteringsdata från första part, offline för att mappa till  [!DNL Google Ads] förbättrade konverteringar för leads och [!DNL Microsoft Advertising] förbättrade konverteringar.
 feature: Conversions
 exl-id: 5c5dfbb8-3b17-4973-8012-fc7f0e97e33b
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%
@@ -67,5 +67,5 @@ Mer information om hur du använder mallen finns i [https://help.ads.microsoft.c
 >
 >* [Implementera [!DNL Google Ads] förbättrade konverteringar för leads](/help/search-social-commerce/campaign-management/special-workflows/google-enhanced-conversions-leads.md)
 >* [Implementera [!DNL Microsoft Advertising] förbättrade offlinekonverteringar](/help/search-social-commerce/campaign-management/special-workflows/microsoft-enhanced-conversions.md)
->* [([!DNL Google Ads only]) Skapa en konverteringsåtgärd för en  [!DNL Google Ads] förbättrad konvertering för leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
+>* [Skapa en konverteringsåtgärd för en [!DNL Google Ads] förbättrad konvertering för leads](/help/search-social-commerce/admin/conversion-metrics/conversion-action-google.md)
 >* [Överför konverteringsstatistik för sökning, sociala medier och Commerce till  [!DNL Google Ads]](/help/search-social-commerce/tools/conversion-metrics-upload-to-google.md)

@@ -3,9 +3,9 @@ title: '[!UICONTROL Campaign Assist Report]'
 description: Läs mer om [!UICONTROL Campaign Assist Report].
 exl-id: c89b4c9f-16d5-4e1a-a73f-6cc99dd3f526
 feature: Search Reports, Search Assist Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,8 @@ Följande kolumner är tillgängliga för varje rapport. Standardkolumnerna inkl
 | [!UICONTROL EF Campaign ID] | Egen | Det numeriska ID som tilldelas kampanjen av Search, Social och Commerce. |
 | [!UICONTROL EF Portfolio Group ID] | Egen | Det numeriska ID:t för den portföljgrupp som portföljen tillhör. |
 | [!UICONTROL EF Search Engine ID] | Egen | Det numeriska ID som tilldelas annonsnätverket <i>[!UICONTROL 3]</i> för [!DNL Google Ads], <i>[!UICONTROL 10]</i> för [!DNL Microsoft Advertising], <i>[!UICONTROL 45]</i> för [!DNL Meta], <i>[!UICONTROL 86]</i> för [!DNL Yahoo! Display Network], <i>[!UICONTROL 87]</i> för [!DNL Naver], <i>[!UICONTROL 88]</i> för [!DNL Baidu], <i>[!UICONTROL 90]</i> för [!DNL Yandex], <i>[!UICONTROL 94]</i> för [!DNL Yahoo! Japan Ads], <i>[!UICONTROL 105]</i> för [!DNL Yahoo Native] (utgått) eller <i>[!UICONTROL 106]</i> för [!DNL Pinterest] (utgått). |
-| [!UICONTROL Portfolio ID] | Numeriskt portfölj-ID. |  |
-| [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket av Search, Social och Commerce. |  |
+| [!UICONTROL Portfolio ID] | Egen | Numeriskt portfölj-ID. |
+| [!UICONTROL User SE Account ID] | Egen | Det numeriska ID som tilldelas annonsnätverket av Search, Social och Commerce. |
 
 >[!MORELIKETHIS]
 >

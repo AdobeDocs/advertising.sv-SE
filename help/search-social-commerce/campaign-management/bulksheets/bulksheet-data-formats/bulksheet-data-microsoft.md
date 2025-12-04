@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Microsoft Advertising] konton.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
 workflow-type: tm+mt
-source-wordcount: '6928'
+source-wordcount: '6895'
 ht-degree: 0%
 
 ---
@@ -131,8 +131,8 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | Fält | Obligatoriskt? |
 | ---- | ---- |
 | [!UICONTROL Acct Name] | Obligatoriskt om inte varje rad innehåller [!UICONTROL AMO ID] för entiteten. |
-| [!UICONTROL Campaign Name] | Obligatoriskt. Det unika namn som identifierar en kampanj för ett konto. |
-| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. En daglig utgiftsgräns för kampanjen, med eller utan monetära symboler och interpunktion. Det här värdet åsidosätter men kan inte överskrida kontobudgeten. |
+| [!UICONTROL Campaign Name] | Obligatoriskt. |
+| [!UICONTROL Campaign Budget] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Channel Type] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Delivery Method] | Valfritt |
 | [!UICONTROL Campaign Priority] | Krävs för att skapa en shoppingkampanj. |
@@ -225,12 +225,12 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | [!UICONTROL Campaign ID] | Valfritt |
 | [!UICONTROL Ad Group ID] | Valfritt |
-| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
+| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&amp;rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&amp;rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Search, Social och Commerce använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Produktfält (shoppingfält)
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=sv-SE).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 
