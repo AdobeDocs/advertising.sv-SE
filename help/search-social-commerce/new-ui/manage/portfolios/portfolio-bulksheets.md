@@ -4,9 +4,9 @@ description: Lär dig hur du redigerar inställningarna för flera portföljer m
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Meddelanden läggs också till i Notiscenter, och du kan öppna meddelandefönst
 
 ## Datakrav för överförda kalkylbladsfiler
 
-Se fliken [!UICONTROL Instructions] i den hämtade kalkylbladsfilen.
+Alla kalkylbladsfiler måste innehålla kolumnen [!UICONTROL Portfolio ID], och varje datarad måste innehålla ett värde för att [!UICONTROL Portfolio ID] ska kunna användas. Mer information om datakraven finns på fliken [!UICONTROL Instructions] i den hämtade kalkylbladsfilen.
 
 Förklaringar av kolumnerna för portföljinställningar på fliken [!UICONTROL Portfolio Settings Edit] finns i Optimeringsguiden, som du når från Sök, Socialt och Commerce.
 
@@ -79,6 +79,6 @@ Förklaringar av kolumnerna för portföljinställningar på fliken [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
 >* [Skapa en portfölj](portfolio-create.md)
->* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
+>* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
