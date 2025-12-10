@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerfeeds'
+title: '[!DNL Microsoft Ads] inställningar för butiks- och mallinställningar för lagerflöden'
 description: Referera inställningarna för  [!DNL Microsoft Ads] butiks- och annonsmallar för lagerflöden.
 exl-id: a0dd6542-0516-406a-b8c5-2e102ec7ab3d
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 >[!NOTE]
 >
 >* Följande tecken är reserverade för att ange kolumnnamn och modifieringsnamn i mallen och är därför inte tillåtna som text i alla attributfält: `[ ] < > `
-
 
 ## \[Ovanför alla flikar\]
 
@@ -59,7 +58,7 @@ Använd mallar för shoppingannonser för att konfigurera shoppingannonser.
 
 **[!UICONTROL Campaign Tracking Template]:** (Valfritt för mallar för klientflödesfiler) Spårningsmallen på kampanjnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningen på kontonivå, men spårningsmallar på mer detaljnivå (med nyckelordet längst granulat) åsidosätter det här värdet.
 
-* Gör något av följande för spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload]:
+* Gör något av följande för Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload]:
 
    * (Rekommenderas) Använd mallformatet [Spårning för Microsoft-shoppingkampanjer](/help/search-social-commerce/tracking/formats-click-tracking-microsoft.md). Om hela kontot är avsett för shoppingannonser kan du i stället definiera en spårningsmall på kontonivån.
 
@@ -106,6 +105,8 @@ kampanjprioriteten först för att avgöra vilken kampanj (och tillhörande bud)
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
 
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer endast; gäller för kampanjer som riktar sig till målgrupper i EU) oavsett om kampanjen innehåller politisk annonsering per krav för annonser som betjänas i EU enligt EU:s förordning 2024/90: *[!UICONTROL Yes]* eller *[!UICONTROL No]*.
+
 ## [!UICONTROL Ad Groups]
 
 <!-- **[!UICONTROL Ad Group]:** -->
@@ -122,7 +123,7 @@ kampanjprioriteten först för att avgöra vilken kampanj (och tillhörande bud)
 
 **[!UICONTROL Ad Group Tracking Template]:** (Valfritt) En spårningsmall på annonsgruppsnivå, som anger alla icke-landningsdomäner omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningarna på konto- och kampanjnivå, men spårningsmallar på mer detaljerad nivå åsidosätter det här värdet.
 
-Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
+Du behöver inte ange något värde för spårning av Adobe Advertising-konvertering. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 
@@ -155,7 +156,7 @@ Ange ett värde för omdirigeringar och spårning från tredje part.
 **[!UICONTROL Tracking Template]:** (Enheter utan underordnade produktgrupper; valfritt) Spårningsmallen för produkten
 grupp, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en [!DNL ValueTrack] -parameter. Den här mallen åsidosätter mallar på högre nivåer.
 
-Du behöver inte ange något värde för spårning av konvertering för Adobe Advertising. Kampanjnivån räcker.
+Du behöver inte ange något värde för spårning av Adobe Advertising-konvertering. Kampanjnivån räcker.
 
 Ange ett värde för omdirigeringar och spårning från tredje part.
 

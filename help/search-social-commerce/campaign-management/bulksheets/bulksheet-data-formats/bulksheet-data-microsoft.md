@@ -3,9 +3,9 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Microsoft Advertising] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Microsoft Advertising] konton.
 exl-id: 2a5f0e7b-f020-4cca-9b77-807c2ee5c273
 feature: Search Bulksheets
-source-git-commit: 7a87d3c3827125adb97f50986823568c9aef8c24
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '6895'
+source-wordcount: '6934'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Information om de datafält som är relevanta för kontoentiteter finns i [Fält
 | [!UICONTROL Channel Type] | Den kanaltyp som kampanjen har som mål: <i>[!UICONTROL Audience]</i>, <i>[!UICONTROL DynamicSearchAds]</i>, <i>[!UICONTROL Search]</i> eller <i>[!UICONTROL Shopping]</i>. |
 | [!UICONTROL Delivery Method] | (Endast kampanjer med daglig budget) Så här snabbt kan du visa annonser för kampanjen varje dag:<ul><li><i>[!UICONTROL Standard (Distributed)]</i> (standard för nya kampanjer): För att sprida annonsintrycken över dagen.</li><li><i>[!UICONTROL Accelerated]:</i> Om du vill visa dina annonser så ofta som möjligt tills din budget är nådd. Därför kanske era annonser inte visas senare under dagen.</li></ul> |
 | [!UICONTROL Campaign Priority] | (Endast köpkampanjer) Prioriteten som kampanjen används med när flera kampanjer annonserar samma produkt: <i>[!UICONTROL Low]</i> (standard för nya kampanjer), <i>[!UICONTROL Medium]</i> eller <i>[!UICONTROL High]</i>.<br><br>När samma produkt ingår i mer än en kampanj använder annonsnätverket först kampanjprioriteten för att avgöra vilken kampanj (och tillhörande bud) som är berättigad för annonsauktionen. När alla kampanjer har samma prioritet är kampanjen med det högsta anbudet berättigad. |
+| [!UICONTROL Has EU Political Ads] | (Gäller för kampanjer som riktar sig till målgrupper i EU) Huruvida kampanjen innehåller politisk annonsering per krav för annonser som tjänstgör i EU enligt EU:s förordning 2024/90: <i>[!UICONTROL Yes]</i> eller <i>[!UICONTROL No]</i>. |
 | [!UICONTROL Merchant ID] | (Kundkampanjer och målgruppskampanjer som endast är kopplade till en handlarfeed) Kund-ID för det handlarkonto vars produkter används för kampanjen. |
 | [!UICONTROL Sales Country] | (Endast köpkampanjer; skrivskyddat för befintliga kampanjer) Det land där kampanjens produkter säljs. Eftersom produkter är kopplade till målländer avgör den här inställningen vilka produkter som annonseras i kampanjen. |
 | [!UICONTROL Product Scope Filter] | (Kampanjer som endast använder shoppingnätverket) De produkter på ert handelskonto för vilka produktannonser kan skapas för kampanjen. Du kan ange upp till sju produktdimensioner och attributkombinationer där du kan filtrera dina produkter med formatet dimension=attribut. Avgränsa flera filter med avgränsaren &quot;>>&quot;. En lista över tillgängliga produktdimensioner finns i &quot;[Produktfilter för köpkampanj](/help/search-social-commerce/campaign-management/campaigns/shopping-campaign-product-filters.md)&quot;.<br><br> Exempel: `CategoryL1==Animals & Pet Supplies>>CategoryL2=Pet Supplies>>Brand=Acme Pet Supplies` <br><br> Om du vill ta bort de befintliga värdena använder du värdet `[delete]` (inklusive parenteserna). |
@@ -136,6 +137,7 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | [!UICONTROL Channel Type] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Delivery Method] | Valfritt |
 | [!UICONTROL Campaign Priority] | Krävs för att skapa en shoppingkampanj. |
+| [!UICONTROL Has EU Political Ads] | Krävs för att skapa en kampanj. |
 | [!UICONTROL Merchant ID] | Krävs för att skapa en shoppingkampanj. |
 | [!UICONTROL Sales Country] | Krävs för att skapa en shoppingkampanj. |
 | [!UICONTROL Product Scope Filter] | (Kampanjer) Valfritt |
@@ -225,12 +227,12 @@ En beskrivning av varje datafält finns i [Alla tillgängliga datafält](#bulksh
 | \[Advertiser-specific Label Classification\] | Valfritt |
 | [!UICONTROL Campaign ID] | Valfritt |
 | [!UICONTROL Ad Group ID] | Valfritt |
-| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
+| [!UICONTROL Ad ID] | Krävs endast när du ändrar annonsstatus, såvida inte raden innehåller a&amp;rpar; tillräckligt många annonsegenskapskolumner för att identifiera annons- eller b&amp;rpar; och [!UICONTROL AMO ID]. Men om du varken inkluderar [!UICONTROL Ad ID] eller [!UICONTROL AMO ID] och annonsegenskapskolumnerna matchar flera annonser, ändras statusen för endast en av annonserna. |
 | [!UICONTROL AMO ID] | Krävs för att redigera eller ta bort data såvida du inte inkluderar enhets-ID och överordnat enhets-ID.<br><br>Search, Social och Commerce använder värdet för att fastställa rätt identitet för redigering, men skickar inte ID:t till annonsnätverket. |
 
 ### Produktfält (shoppingfält)
 
-Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html?lang=sv-SE).
+Mer information om hur du skapar shoppingannonser finns i [Implementera [!DNL Microsoft Advertising] shoppingkampanjer](https://experienceleague.adobe.com/docs/advertising/search-social-commerce/campaign-management/management/special-workflows/microsoft-shopping-campaigns.html).
 
 Använd raden [!UICONTROL Creative (except RSA)] i dialogrutan [!UICONTROL Download Bulksheet] för den här annonstypen.
 

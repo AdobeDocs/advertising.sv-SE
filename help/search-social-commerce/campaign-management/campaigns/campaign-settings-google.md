@@ -3,9 +3,9 @@ title: Inställningar för [!DNL Google Ads]-kampanj
 description: Referera inställningarna för [!DNL Google Ads] kampanjer.
 exl-id: 19973286-b7c8-496e-8b87-767cda6e3542
 feature: Search Campaign Management
-source-git-commit: 21dc29e97915712053bbcc39d8141693c1dbf8bf
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2617'
 ht-degree: 0%
 
 ---
@@ -38,19 +38,15 @@ ht-degree: 0%
 
 ## [!UICONTROL Campaign Details]
 
+<!-- left to right -->
+
 **[!UICONTROL Campaign Name]:** Ett kampanjnamn som är unikt i kontot.
+
+**[!UICONTROL Status]:** Visningsstatusen för kampanjen: *Aktiv* eller *Pausad*. Standardvärdet för nya annonskampanjer är *Aktiv*.
 
 <!-- **[!UICONTROL Start Date]:** -->
 
 {{$include /help/_includes/start-date.md}}
-
-**[!UICONTROL Audience Target Method]:**(Befintliga, skrivskyddade Gmail-kampanjer endast) Anger om:
-
-* *[!UICONTROL Target and Bid]* Om du bara vill visa annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
-
-* *[!UICONTROL Bid Only]:* Så här visar du annonser även för personer som inte är associerade med målgrupper så länge de uppfyller andra annonsgruppsmål. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
-
-**[!UICONTROL Status]:** Visningsstatusen för kampanjen: *Aktiv* eller *Pausad*. Standardvärdet för nya annonskampanjer är *Aktiv*.
 
 <!-- **[!UICONTROL End Date]:** -->
 
@@ -58,7 +54,15 @@ ht-degree: 0%
 
 **[!UICONTROL Search Partners]:** (Kampanjer som endast riktar sig till söknätverket, inklusive shoppingkampanjer) Visar dina annonser i annonsnätverkets sökpartnernätverk. Som standard är det här alternativet *[!UICONTROL Off]*.
 
-**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen &#x200B;](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
+**[!UICONTROL Audience Target Method]:**(Befintliga, skrivskyddade Gmail-kampanjer endast) Anger om:
+
+* *[!UICONTROL Target and Bid]* Om du bara vill visa annonser för användare som är kopplade till målgrupper som också uppfyller andra mål för annonsgruppen.
+
+* *[!UICONTROL Bid Only]:* Så här visar du annonser även för personer som inte är associerade med målgrupper så länge de uppfyller andra annonsgruppsmål. Ni kan dock öka chanserna att annonser visas för specifika målgrupper genom att ange högre bud för dessa målgrupper.
+
+**[!UICONTROL Contains EU Political Ads]:**(Gäller för kampanjer som riktar sig till målgrupper i EU) Om kampanjen innehåller politisk annonsering per krav för annonser som betjänas i EU enligt EU:s förordning 2024/90 eller inte: *[!UICONTROL Yes]* eller *[!UICONTROL No]*.
+
+**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* eller *[!UICONTROL Unspecified]*.
 
@@ -131,7 +135,7 @@ kampanjens produkter säljs. Eftersom produkter är kopplade till målländer av
 
 **Tips!** Om du använder den här inställningen ska du inte utesluta lokala annonser i inställningen [!UICONTROL Inventory Filter].
 
-**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[&#x200B; finns i dokumentationen för &#x200B;](https://www.google.com/retail/local-inventory-ads/).
+**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[ finns i dokumentationen för ](https://www.google.com/retail/local-inventory-ads/).
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 

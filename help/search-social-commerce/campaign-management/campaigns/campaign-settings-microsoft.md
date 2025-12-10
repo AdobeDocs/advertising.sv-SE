@@ -1,11 +1,11 @@
 ---
-title: '[!DNL Microsoft Advertising] kampanjinställningar'
+title: Inställningar för [!DNL Microsoft Advertising]-kampanj
 description: Referera inställningarna för [!DNL Microsoft Advertising] kampanjer.
 exl-id: f11cb61e-d627-4074-870d-e186f3e65572
 feature: Search Campaign Management
-source-git-commit: b8aa2461d261af50e1bf66c4ae29e4e453dfd182
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '2041'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ kampanjen får innehålla
 
 * *[!UICONTROL Audience Video]:* Visar standardvideoannonser i målgruppsnätverket.
 
-* *[!UICONTROL Performance Max]:* Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, valfria uppmaningar och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
+* *[!UICONTROL Performance Max]:* Visar flera annonstyper i alla nätverk som använder [!DNL Microsoft Advertising] smart budgivning. Inom kampanjinställningarna måste du ange en eller flera resursgrupper, som omfattar bilder, logotyper, rubriker, beskrivningar, ett valfritt call to action och målgruppssignaler. Annonsnätverket kombinerar automatiskt resurserna för att leverera annonser baserat på kanalen.
 
 ## [!UICONTROL Campaign Details]
 
@@ -46,6 +46,8 @@ kampanjen får innehålla
 <!-- **[!UICONTROL End Date]:** -->
 
 {{$include /help/_includes/end-date.md}}
+
+**[!UICONTROL Contains EU Political Ads]:**(Gäller för kampanjer som riktar sig till målgrupper i EU) Om kampanjen innehåller politisk annonsering per krav för annonser som betjänas i EU enligt EU:s förordning 2024/90 eller inte: *[!UICONTROL Yes]* eller *[!UICONTROL No]*.
 
 ## [!UICONTROL Budget Options]
 
@@ -75,7 +77,7 @@ kampanjen får innehålla
 
 * *[!UICONTROL Manual CPA]:* ([!DNL Microsoft Store Ads] kampanjer) Använder modellen för kostnad per förvärv (CPA).
 
-* *[!UICONTROL Manual CPM]* (Endast målgruppskampanjer och målgruppsvideokampanjer) Använder modellen för kostnad per tusen visningar (CPM), där du anger vad du vill spendera per 1 000 visade visningar. Kampanjer med denna anbudsstrategi optimeras inte när de ingår i portföljer.
+* *[!UICONTROL Manual CPM]* (Endast målgruppskampanjer och målgruppsvideokampanjer) Använder CPM-modellen (kostnad per tusen visningar), där du anger vad du vill spendera per 1 000 visade visningar. Kampanjer med denna anbudsstrategi optimeras inte när de ingår i portföljer.
 
 * *[!UICONTROL Maximize Clicks]:* (sök- och shoppingkampanjer) Annonsnätverket - inte Search, Social och Commerce - optimerar offerterna för att maximera antalet klick. Du kan också ange en **[!UICONTROL Max CPC]** (kostnad per klick) för att se till att annonsnätverket inte betalar mer än ett visst belopp för varje klick. **Varning!** När du lägger till en kampanj med den här strategin i en portfölj genererar klickvikten (inte portföljmålet) anbud.
 
@@ -212,7 +214,7 @@ Mer information om tillgänglighet finns i hjälpen för Microsoft Advertising o
 
 * Så här överför du bilder:
 
-   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
+   1. Klicka på [!UICONTROL Upload from Device] på fliken **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -234,7 +236,7 @@ Mer information om tillgänglighet finns i hjälpen för Microsoft Advertising o
 
 * Så här överför du bilder:
 
-   1. Klicka på **[!UICONTROL +]** på fliken [!UICONTROL Upload from Device] och välj bilder från enheten eller nätverket.
+   1. Klicka på [!UICONTROL Upload from Device] på fliken **[!UICONTROL +]** och välj bilder från enheten eller nätverket.
 
    1. För varje bild:
 
@@ -282,11 +284,11 @@ Mer information om tillgänglighet finns i hjälpen för Microsoft Advertising o
 
 * Om du vill välja resurser från [!UICONTROL Asset Library] klickar du på **[!UICONTROL Asset Library]** och väljer resurserna.
 
-**[!UICONTROL Call to Action]:** Anropet till åtgärd som ska inkluderas i annonsen. Som standard är *[!UICONTROL Act Now]* markerat.
+**[!UICONTROL Call to Action]:** Den call to action som ska inkluderas i annonsen. Som standard är *[!UICONTROL Act Now]* markerat.
 
-**[!UICONTROL Business Name]:** Företagsnamnet, med högst 25 tecken. Det får inte innehålla skript, HTML eller något annat markeringsspråk.
+**[!UICONTROL Business Name]:** Företagsnamnet, med högst 25 tecken. Det får inte innehålla skript, HTML eller något annat kodspråk.
 
-**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfningar att rikta sig till och kan även visa annonser för målgrupper som inte har angetts som signaler som hjälper dig att uppnå dina prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
+**[!UICONTROL Audience Signal]:** (Valfritt) [!DNL Microsoft Advertising] målgrupper som ska användas som målgruppssignaler för kampanjen. [!DNL Microsoft Advertising] maskininlärningsmodeller använder målgrupperna för att hitta liknande webbsurfningar att rikta sig till och kan även visa annonser till målgrupper som inte har angetts som signaler som hjälper dig att uppnå dina prestationsmål. Välj de målgrupper som mest sannolikt konverterar.
 
 >[!NOTE]
 >Målgruppssignaler skiljer sig från [annonsmålgruppsmål](/help/search-social-commerce/campaign-management/campaigns/audience-targets-manage.md).

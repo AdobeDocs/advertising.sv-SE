@@ -3,15 +3,14 @@ title: Inställningar för textannonser och responsiva sökannonser för lagerfl
 description: Referera inställningarna för text och responsiva sökannonsmallar för lagerflöden.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
 workflow-type: tm+mt
-source-wordcount: '3325'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
 
 # Inställningar för textannonser och responsiva sökannonser för lagerflöden
-
 
 *[!DNL Google Ads], [!DNL Microsoft Advertising], [!DNL Yahoo! Japan Ads] (endast borttagningsåtgärder) och [!DNL Yandex] enbart konton*
 
@@ -66,11 +65,11 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 **[!UICONTROL Campaign Tracking Template]:** (Endast konton med slutliga/avancerade URL:er; valfritt) Spårningsmallen på kampanjnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter. Det här värdet åsidosätter inställningen på kontonivå, men spårningsmallar på mer detaljnivå (med nyckelordet längst granulat) åsidosätter det här värdet.
 
-* För spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs kod för omdirigering och spårning automatiskt till när du sparar posten.
+* För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs omdirigerings- och spårningskod till automatiskt när du sparar posten.
 
 * Så här bäddar du in den slutliga URL:en:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799/2) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller (](https://help.ads.microsoft.com/#apex/3/en/56799/2) endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL Google Ads]-parametrar i [!DNL ValueTrack]dokumentationen[[!DNL Google Ads] .](https://support.google.com/google-ads/answer/6305348)
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{unescapedurl}` för att ange landningssidans URL.
 
@@ -108,7 +107,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 * *[!UICONTROL Search]:* Om du vill lägga bud på listor med sponsrade sökningar.
 
-  ([!DNL Google Ads] kampanjer) Markera kryssrutan intill **[!UICONTROL Search partners]** om du vill inkludera bud på listor för [!DNL Google Ads] sökpartner.
+  ([!DNL Google Ads] kampanjer) Markera kryssrutan intill [!DNL Google Ads] om du vill inkludera bud på listor för **[!UICONTROL Search partners]** sökpartner.
 
 * *[!UICONTROL Content]:* Om du vill lägga bud på placeringar i nätverkslistorna för innehåll (visning). **Obs!** Du kan inte skapa placeringar med mallen. När du väljer det här alternativet skapar du placeringar för varje annonsgrupp och anger vilka sidor i visningsnätverket som ska användas som mål för varje annonsgrupp med hjälp av antingen <!-- insert link --> eller <!-- insert links -->- och placeringsinställningarna i [!UICONTROL Search] > [!UICONTROL Campaigns] -vyerna.
 
@@ -119,6 +118,8 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 <!-- **[!UICONTROL Locations]:** -->
 
 {{$include /help/_includes/inventory-feed-template-campaign-locations.md}}
+
+**[!UICONTROL Has EU Political Ads]:**([!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer endast; gäller för kampanjer som riktar sig till målgrupper i EU) oavsett om kampanjen innehåller politisk annonsering per krav för annonser som betjänas i EU enligt EU:s förordning 2024/90: *[!UICONTROL Yes]* eller *[!UICONTROL No]*.
 
 ## [!UICONTROL Ad Groups]
 
@@ -136,7 +137,7 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
 **[!UICONTROL Ad Group Tracking Template]:** (Endast konton med slutliga/avancerade URL:er) Spårningsmallen på annonsgruppsnivå, som anger alla icke-landningsdomäner omdirigerar och spårningsparametrar och bäddar in den slutliga URL:en i en parameter.
 
-För spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs kod för omdirigering och spårning automatiskt till när du sparar posten.
+För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs omdirigerings- och spårningskod till automatiskt när du sparar posten.
 
 Ange ett värde för omdirigeringar och spårning från tredje part. Ange landningssidans URL:
 
@@ -176,9 +177,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 
 * För [!DNL Yandex]-mallar:
 
-   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
+   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
 
-   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
+   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
 
 >[!NOTE]
 >
@@ -196,17 +197,17 @@ Om du använder en [!DNL Google Merchant Center]-feed och inkluderar det här v�
 >[!NOTE]
 >
 >* Om du genererar spårnings-URL:er när du bokför data som sprids via mallen, läggs spårningsparametrar till i det här värdet baserat på kontospårningsinställningarna.
->* ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
+>* ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör Adobe Account Team arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
 **[!UICONTROL Keyword Tracking Template]:** (Konton med slutliga/avancerade URL:er; valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet som det mest granulerade) åsidosätter värden på alla andra nivåer.
 
-* För spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs kod för omdirigering och spårning automatiskt till när du sparar posten.
+* För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs omdirigerings- och spårningskod till automatiskt när du sparar posten.
 
 * Du kan även ange omdirigeringar och spårning från tredje part.
 
 * Ange landningssidans URL:
 
-   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [&#128279;](https://help.ads.microsoft.com/#apex/3/en/56799) [!DNL Microsoft Advertising] eller ([!DNL Google Ads] endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL ValueTrack]-parametrar i [[!DNL Google Ads] dokumentationen](https://support.google.com/google-ads/answer/6305348).
+   * ([!DNL Google Ads] och endast [!DNL Microsoft Advertising]) En lista med parametrar som anger de slutliga URL:erna i spårningsmallar finns i [!DNL Microsoft Advertising]-dokumentationen [[!DNL Microsoft Advertising] eller (](https://help.ads.microsoft.com/#apex/3/en/56799) endast) i parametrarna för spårningsmallen i avsnittet Tillgängliga [!DNL Google Ads]-parametrar i [!DNL ValueTrack]dokumentationen[[!DNL Google Ads] .](https://support.google.com/google-ads/answer/6305348)
 
    * ([!DNL Yahoo! Japan Ads] endast) Använd parametern `!{lpurl}` för att ange landningssidans URL.
 
@@ -238,7 +239,7 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om titeln, texten, URL:en eller den slutliga URL:en innehåller den dynamiska ersättningssträngen `{Param3}`. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 
@@ -318,7 +319,7 @@ För responsiva sökannonser infogar du en annonsanpassare med följande format,
 
 [!DNL Microsoft Advertising] och [!DNL Yahoo! Japan Ads] har ersatt skapande och redigering av standardtextannonser.
 
-**[!UICONTROL Base URL]:** (Endast konton med mål-URL:er) Den sida som användarna ska tas till. Den kan innehålla omdirigerings- och spårningskod från tredje part. Om du använder tjänsten för spårning av Adobe Advertising-konvertering och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå, lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
+**[!UICONTROL Base URL]:** (Endast konton med mål-URL:er) Den sida som användarna ska tas till. Den kan innehålla omdirigerings- och spårningskod från tredje part. Om du använder Adobe Advertising tjänst för konverteringsspårning, och kampanjinställningarna innehåller [!UICONTROL EF Redirect] och lägger till spårning på annonsnivå, lägger Search, Social och Commerce automatiskt till en egen omdirigerings- och spårningskod i annonsen.
 
 Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk parameter, klickar du i indatafältet och sedan på ett kolumnnamn i kolumnlistan eller ett [modifierarnamn](/help/search-social-commerce/campaign-management/inventory-feeds/modifiers-manage.md) i listan [!UICONTROL Modifiers] .
 
@@ -329,11 +330,11 @@ Om du använder en [!DNL Google Merchant]-centerfeed och inkluderar det här vä
 >[!NOTE]
 >
 >* Om du genererar spårnings-URL:er när du bokför data som sprids via mallen läggs spårningsparametrar till i det här värdet baserat på kontospårningsinställningarna.
->* ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör kontogruppen på Adobe arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
+>* ([!DNL Google Ads] konton) Undvik att använda makron, som inte ersätts med klick från källor som aktiverar parallell spårning. Om annonsören måste använda makron bör Adobe kontoteam arbeta med kundsupport eller implementeringsteamet för att lägga till dem.
 
 **[!UICONTROL Tracking Template]:** (Konton med slutliga/avancerade URL:er; valfritt) Spårningsmallen, som anger alla icke-landningsdomäner, omdirigerar och spårar parametrar och bäddar in den slutliga URL:en i en parameter. Spårningsmallen på den mest detaljerade nivån (med nyckelordet som det mest granulerade) åsidosätter värden på alla andra nivåer.
 
-För spårning av konvertering av Adobe Advertising, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs kod för omdirigering och spårning automatiskt till när du sparar posten.
+För Adobe Advertising-konverteringsspårning, som används när kampanjinställningarna innehåller [!UICONTROL EF Redirect] och [!UICONTROL Auto Upload], läggs omdirigerings- och spårningskod till automatiskt när du sparar posten.
 
 Ange ett värde för omdirigeringar och spårning från tredje part. Ange landningssidans URL:
 
