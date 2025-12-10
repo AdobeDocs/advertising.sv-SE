@@ -62,7 +62,7 @@ ht-degree: 0%
 
 **[!UICONTROL Contains EU Political Ads]:**(Gäller för kampanjer som riktar sig till målgrupper i EU) Om kampanjen innehåller politisk annonsering per krav för annonser som betjänas i EU enligt EU:s förordning 2024/90 eller inte: *[!UICONTROL Yes]* eller *[!UICONTROL No]*.
 
-**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen ](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
+**[!UICONTROL AI Max Enabled]:** (Kampanjer som endast riktar sig till söknätverket, skrivskyddade) Anger om [[!UICONTROL AI Max]-funktionen &#x200B;](https://support.google.com/google-ads/answer/15910366) är aktiverad: *[!UICONTROL On]* eller *[!UICONTROL Off]*.
 
 **[!UICONTROL AI Max Bundling]:** (Kampanjer som endast riktar sig till söknätverket, kampanjer med funktionen AI Max aktiverad, skrivskyddad) Om paketering krävs: *[!UICONTROL Not Required]*, *[!UICONTROL Required]*, *[!UICONTROL Unknown]* eller *[!UICONTROL Unspecified]*.
 
@@ -135,7 +135,7 @@ kampanjens produkter säljs. Eftersom produkter är kopplade till målländer av
 
 **Tips!** Om du använder den här inställningen ska du inte utesluta lokala annonser i inställningen [!UICONTROL Inventory Filter].
 
-**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[ finns i dokumentationen för ](https://www.google.com/retail/local-inventory-ads/).
+**Obs!** Lokala lagerannonser kräver ytterligare två flöden till [!DNL Google Merchant Center] - en med dina lokala produktdata och en annan med din lokala produktinventering. Mer information om [!DNL Google Ads]lokala kundannonser[&#x200B; finns i dokumentationen för &#x200B;](https://www.google.com/retail/local-inventory-ads/).
 
 <!-- **[!UICONTROL Inventory Filter]:** -->
 

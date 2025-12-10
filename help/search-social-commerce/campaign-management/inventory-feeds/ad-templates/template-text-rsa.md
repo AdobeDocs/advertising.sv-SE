@@ -177,9 +177,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 
 * För [!DNL Yandex]-mallar:
 
-   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
+   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
 
-   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
+   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
 
 >[!NOTE]
 >
@@ -239,7 +239,7 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om titeln, texten, URL:en eller den slutliga URL:en innehåller den dynamiska ersättningssträngen `{Param3}`. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
+**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 
