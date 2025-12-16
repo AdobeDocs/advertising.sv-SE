@@ -2,7 +2,7 @@
 title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter.
 feature: Creative Reporting
-source-git-commit: 5b644fb2eb881b8180932bb9449dd303a70d9647
+source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
 ## Tillgängliga rapporter
 
-* **[!UICONTROL All-in Cost BETA]**: (Endast annonsörer med både Advertising Creative och Adertising DSP; betafunktion) Använd den här rapporten för att se hur mycket Advertising DSP utgifter tillskrevs för annonsering för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå.
+* **[!UICONTROL All-in Cost]**: (Endast annonsörer med både Advertising Creative och Adertising DSP; betafunktion) Använd den här rapporten för att se hur mycket Advertising DSP utgifter tillskrevs för annonsering för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå.
 
 * **[!UICONTROL Custom Creative Report]:** Använd den här rapporten för att övervaka prestanda i alla era Advertising Creative-annonsupplevelser.
