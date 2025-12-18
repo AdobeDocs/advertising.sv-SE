@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 7b7e9687bf79fce564103606efbe8c5997d3c05c
+source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL City] | Den stad som de rapporterade uppgifterna härrör från. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Country] | Det land som de rapporterade uppgifterna härrör från. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL DMA] | Det utsedda marknadsområde (DMA) som de rapporterade uppgifterna tillskrivs. |
+| [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL Pin Code] | Den PIN-kod (Postal Index Number) som de rapporterade uppgifterna tilldelas. |
 | [!UICONTROL Dimension] | [!UICONTROL Geos] | [!UICONTROL State] | Tillståndet som de rapporterade uppgifterna tilldelas till. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Audience] | Publiken. Rapporten stöder upp till 10 unika målgrupper. |
 | [!UICONTROL Dimension] | [!UICONTROL Household] | [!UICONTROL Campaign] | Kampanjen. |
@@ -85,6 +86,10 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Media Type] | Medietypen. (som Bildskärm, Ljud osv.) |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Publisher] | Utgivaren. |
 | [!UICONTROL Dimension] | [!UICONTROL Household Conversions] | [!UICONTROL Placement] | Placeringen. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Budget] | Budgeten för paketresan. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight End Date] | Slutdatumet för paketflygningen. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Rollover] | Eventuell överrullningsbudget för paketflygningen. |
+| [!UICONTROL Dimension] | [!UICONTROL Package Flight] | [!UICONTROL Package Flight Start Date] | Startdatumet för paketflygningen. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package End Date] | Paketets slutdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package Goal Type] | Paketets målbelopp för paketet. Detta belopp utgörs antingen av utgifter eller exponeringar. |
 | [!UICONTROL Dimension] | [!UICONTROL Packages] | [!UICONTROL Package ID] | Unik identifierare för paketet i DSP. |
@@ -144,13 +149,14 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Household Conversions] | [!UICONTROL Unique Household Reached] | Det totala antalet unika hushåll (distinkta IP-adresser) har uppnåtts. |
 | [!UICONTROL Metrics] | [!UICONTROL Identifier] | [!UICONTROL Identifier Type] | Måltypen för ID. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL % bid at Max CPM] | Procentandel av det totala anbudet på Max CPM. |
-| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Genomsnittlig bruttokostnad per förvärv, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPA] | Genomsnittlig bruttokostnad per förvärv, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL conversion metric]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPC] | Genomsnittlig bruttokostnad per annonsklickning, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPCV] | Genomsnittskostnaden per slutförd videovy, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL 100% Completions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPE] | Genomsnittlig bruttokostnad per annonsåtagande, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Engagements]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPI] | Genomsnittlig bruttopris per annonsintryck, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Total Ad Impressions]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPM] | Genomsnittskostnaden per 1 000 visningar, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross CPV] | Genomsnittskostnaden per videovy, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Views]</code>. |
+| [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross Custom Goal CPA] | <code>[!UICONTROL Gross Spend] / [!UICONTROL Custom Goal]</code>, där [!UICONTROL Custom Goal] är den objektiva vikten för alla konverteringar som är kopplade till det anpassade målet. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Gross vCPM] | Genomsnittskostnaden per 1 000 visningar som kan visas, beräknad med <code>[!UICONTROL Gross Spend] / [!UICONTROL Viewable Impressions] x 1 000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPC] | Genomsnittlig nettokostnad per annonstillfälle, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL Total Ad Clicks]</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Performance] | [!UICONTROL Net CPCV] | Genomsnittlig nettokostnad per slutförd videovy, beräknad med <code>[!UICONTROL Net Spend] / [!UICONTROL 100% Completions]</code>. |
@@ -229,7 +235,6 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<!-- |Omitted|[!UICONTROL Performance]|Custom Goal CPA|The average cost per acquisition, calculated by <code>Gross Spend / Custom Goal</code> | -->
 <!-- |Omitted|[!UICONTROL Performance]|Custom Goal ROAS|The average return on ad spend, calculated by <code>Custom goal / Gross spend</code> |-->
 
 >[!MORELIKETHIS]
