@@ -2,16 +2,16 @@
 title: Visa aviseringar
 description: Lär dig hur du visar aviseringar och rekommenderade lösningar för dina upplevelser.
 feature: Creative Experiences
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 2300fbf25566dd5ffe0f2cb68be9bebd9f211f60
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Visa aviseringar
 
-[!DNL Creative] hjälper dig att identifiera när någon av dina upplevelser, inklusive de som skapar upplevelsen, har problem. För varje problem skickar [!DNL Creative] en avisering med en tidsstämpel och den rekommenderade åtgärden för att lösa problemet. Vissa orsaker till varningar är utgångna upplevelser, hög leverans av standardannonser i stället för riktade annonser och länkfel. Aviseringar finns tillgängliga på erfarenhetsnivå.
+[!DNL Creative] hjälper dig att identifiera när någon av dina upplevelser, inklusive de som skapar upplevelsen, har problem. För varje problem skickar [!DNL Creative] en avisering med en tidsstämpel och den rekommenderade åtgärden för att lösa problemet. Orsaker till varningar är bland annat utgångna upplevelser och hög leverans av standardannonser i stället för riktade annonser. Aviseringar finns tillgängliga på erfarenhetsnivå.
 
 Du kan öppna den relevanta upplevelsen för alla aviseringar så att du kan redigera den efter behov för att lösa problemet. Du kan också välja att ignorera en enskild varning, vilket tar bort den från panelen [!UICONTROL Pulse].
 
