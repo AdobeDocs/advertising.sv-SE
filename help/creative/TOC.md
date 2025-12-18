@@ -3,9 +3,9 @@ role: User
 user-guide-title: Användarhandbok för Advertising Creative
 user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Användarhandbok för Creative
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 5%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 5%
    + [Om Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
    + [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
-   + [Principer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Principer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Libraries {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
@@ -86,10 +86,11 @@ ht-degree: 5%
 + [Bilaga: Tillgängliga fält för dynamiska och feed-filer](/help/creative/appendix-available-feed-fields.md)
 + Resultatrapporter {#reports}
    + [Resultatrapporter på erfarenhetsnivå](/help/creative/experiences/experience-performance-details.md)
+   + [Visa aviseringar](/help/creative/reports/alerts-view.md)
    + [Anpassade rapporter]{#custom-reports}
       + [Om anpassade rapporter](/help/creative/reports/reports-about.md)
       + [Hantera anpassade rapporter](/help/creative/reports/report-manage.md)
 + [Återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 + [Få hjälp](/help/creative/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target="_blank"}
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

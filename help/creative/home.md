@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 17 december 2025 | Varningar | En [!UICONTROL Pulse Panel]-ikon i vyn [!UICONTROL Experiences] visar om det finns några varningar tillgängliga för dina upplevelser. Du kan öppna panelen för att visa varje varning och eventuellt öppna den tillämpliga upplevelsen så att du kan redigera den efter behov för att lösa problemet. Du kan också stänga alla aviseringar.<br><br>För annonsörer med Advertising DSP är aviseringar om DSP-placeringar som har skapats från [!DNL Creative]-upplevelser tillgängliga på kampanjnivå i DSP. | Se [Visa aviseringar](/help/creative/reports/alerts-view.md). |
 | 26 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Den nya [!UICONTROL All-in Cost]-rapporten är inte betaversion och är allmänt tillgänglig. | Se [Om anpassade rapporter](/help/creative/reports/reports-about.md) och [Hantera anpassade rapporter](/help/creative/reports/report-manage.md). |
 | 17 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Den nya [!UICONTROL All-in Cost BETA]-rapporten visar hur mycket pengar som har använts för annonsering för Adobe Creative. Utgiftsmått för rapporten är [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] och [!UICONTROL Estimated Tax on Creative]. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå. | Se [Om anpassade rapporter](/help/creative/reports/reports-about.md) och [Hantera anpassade rapporter](/help/creative/reports/report-manage.md). |
 | 24 september 2025 | Dynamiska kreatörer | Ett enklare självbetjäningsarbetsflöde finns nu tillgängligt för att generera dynamiska annonser med data från en annonsvariantkatalog som skickas via en annonsmall. | Se [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md). |

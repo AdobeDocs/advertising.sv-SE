@@ -3,16 +3,16 @@ title: Visa aviseringar
 description: Lär dig hur du visar aviseringar och rekommenderade lösningar för kampanjer och kampanjkomponenter.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 3e227bcd39b3928898e764cace1fea91f61d58d5
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Visa aviseringar
 
-DSP hjälper er att identifiera när någon av era kampanjer eller kampanjkomponenter har problem. För varje problem skapar DSP en varning med en tidsstämpel och den rekommenderade åtgärden för att lösa problemet. Orsaker till varningar är konfigurationsproblem (t.ex. när inga annonser är kopplade till en placering eller när ett avtal har ställts in på fel sätt), annonsrefusering och kampanjhälsoproblem (t.ex. dålig annonsleverans eller prestanda). Aviseringar finns på kampanj-, paket-, annons- och avtalsnivå.
+DSP hjälper er att identifiera när era kampanjer eller kampanjkomponenter har problem. För varje problem skapar DSP en avisering med en tidsstämpel och den rekommenderade åtgärden för att lösa problemet. Orsaker till varningar är konfigurationsproblem (t.ex. när inga annonser är kopplade till en placering eller när ett avtal har ställts in på fel sätt), annonsrefusering och kampanjhälsoproblem (t.ex. dålig annonsleverans eller prestanda). Aviseringar finns på kampanj-, paket-, annons- och avtalsnivå.
 
 Aviseringar finns på följande platser:
 
@@ -50,7 +50,7 @@ Varningar och varningsindikatorer försvinner automatiskt när de underliggande 
 
 1. Om du vill visa en lista över alla kampanjkomponenter som påverkas för en viss larmtyp klickar du på varningsnamnet, till exempel [!UICONTROL Package: No Active Placement (*N*)]. Om du vill visa information för varje berörd komponent, inklusive den rekommenderade åtgärden, klickar du på [!UICONTROL EXPAND ALL] eller på komponentnamnet. Om du vill öppna den relevanta kampanjhanteringsvyn för en påverkad komponent så att du kan göra de rekommenderade ändringarna håller du markören över komponentnamnet och klickar på ![Gå till vy](/help/dsp/assets/go-to-view.png "Gå till vy").
 
-1. (Valfritt) Om du vill ignorera (dölja) en varning håller du markören över komponentnamnet och klickar på ![Ignorera](/help/dsp/assets/alert-ignore.png "Ignorera"). Klicka sedan på **[!UICONTROL Ignore indefinitely]**. <!-- **[!UICONTROL Ignore alert for three days]**, **[!UICONTROL Ignore alert until next check]**, or **[!UICONTROL Ignore indefinitely] -->
+1. (Valfritt) Om du vill ignorera (dölja) en varning håller du markören över komponentnamnet och klickar på ![Ignorera](/help/dsp/assets/alert-ignore.png "Ignorera"). Klicka sedan på **[!UICONTROL Ignore alert till next check]**, **[!UICONTROL Ignore alert for 3 days]** eller **[!UICONTROL Ignore indefinitely]**.
 
 Du har några sekunder på dig att ångra åtgärden efter att du ignorerat en varning. När alternativmeddelandet stängs kan du inte avbryta åtgärden.
 
@@ -62,4 +62,4 @@ Du har några sekunder på dig att ångra åtgärden efter att du ignorerat en v
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)

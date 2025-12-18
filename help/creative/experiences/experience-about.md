@@ -3,9 +3,9 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Följande prestandadata är tillgängliga:
 * Du kan [visa detaljerade prestandadata för alla upplevelser](experience-performance-details.md) från vyn [!UICONTROL Experiences].
 
 * Skapa en [anpassad Creative-rapport](/help/creative/reports/report-manage.md) om du vill övervaka prestanda för alla dina upplevelser.
+
+## Varningsindikatorer
+
+En [!UICONTROL Alerts]-kolumn anger när en upplevelse, eller någon underordnad kreativ under den, har problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger om det finns några varningar tillgängliga för upplevelsen, inklusive någon av dess underordnade kreatörer. Mer information finns i [Visa aviseringar](/help/creative/reports/alerts-view.md).
 
 ## Upplevelsestatus {#experience-statuses}
 
