@@ -3,9 +3,9 @@ title: Visa aviseringar
 description: Lär dig hur du visar aviseringar och rekommenderade lösningar för kampanjer och kampanjkomponenter.
 feature: DSP Campaigns, DSP Packages, DSP Placements, DSP Ads, DSP Campaign Data Views
 exl-id: 667bf1c3-3bad-4a1a-b907-0c9bfe5362a9
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: 9ab8d3345659f48d1d131c3c6c1e1b87f0b0a0e6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Varningar och varningsindikatorer försvinner automatiskt när de underliggande 
       1. Klicka på varningsindikatorn för ett paket, en placering eller en annonsrad och klicka sedan på **[!UICONTROL View in Pulse Panel]**.
 
    Alla varningar som är kopplade till kampanjen och dess komponenter, inklusive riktade avtal, listas. Som standard listas viktiga aviseringar först.
+
+1. (Annonsörer med Advertising Creative; valfritt) Klicka på fliken **[!UICONTROL Creative]** om du vill visa aviseringar om placeringar som innehåller Advertising Creative-upplevelser.
 
 1. (Valfritt) Om du vill gruppera aviseringarna efter deras första identifieringsdatum, eller om du vill filtrera aviseringarna efter aviseringsstatus, komponentstatus, komponenttyp eller med ett specifikt kampanjnamn, klickar du på ![Filterknapp](/help/dsp/assets/filter.png) i panelens övre högra hörn, väljer filteralternativen och klickar sedan på **[!UICONTROL Apply]** .
 
