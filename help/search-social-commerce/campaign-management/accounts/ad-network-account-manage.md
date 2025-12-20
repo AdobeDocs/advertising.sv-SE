@@ -3,9 +3,9 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2078'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Kontoteamet på Adobe informerar dig om nya funktioner kräver en ny token.
 
 *Endast kontohanterare, kontohanterare för Adobe och användarroller för administratörer*
 
-När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto stoppar Search, Social och Commerce all aktivitet på kontot. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
+När ni aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Commerce kampanjdata med kontot (när det stöds) och pushar för automatiserade bud och/eller kampanjbudgetar för kampanjer i portföljer. När du inaktiverar ett annonsnätverkskonto avbryts alla aktiviteter på kontot av Sök, Sociala och Commerce. Data som samlats in medan kontot var aktivt lagras fortfarande, men kampanjhanteringsvyer och rapporter inkluderar inte data för den tidsperiod under vilken kontot inaktiveras. Du kan aktivera kontot igen senare om du vill återuppta aktiviteten med kontot.
 
 1. Klicka på **[!UICONTROL Search, Social, & Commerce]** \> **[!UICONTROL Campaigns]** \> **[!UICONTROL Campaigns]** på huvudmenyn. Klicka på **[!UICONTROL Live]** \> **[!UICONTROL Accounts]** på undermenyn.
 
@@ -153,7 +153,7 @@ När du aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 >[!NOTE]
 >
->Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot kontaktar du Adobe Account Team så att de kan uppdatera mappningen.
+>Om du har en integrering med Search, Social och Commerce-Adobe Analytics och ändrar namnet på sökkontot ber du ditt Adobe-kontoteam att uppdatera mappningen.
 
 **[!UICONTROL Login Details]: \[Inloggningstyp\]** - ([!DNL Microsoft Advertising]/[!DNL Microsoft Merchant Center] endast) Om inloggningar ska auktoriseras för kontot med:
 
