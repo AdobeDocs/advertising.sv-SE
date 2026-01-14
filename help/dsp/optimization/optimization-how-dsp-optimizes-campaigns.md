@@ -1,9 +1,9 @@
 ---
 title: Hur DSP optimerar era kampanjer
-description: Lär dig hur DSP optimerar paketen i era kampanjer.
+description: Läs om hur DSP optimerar paketen i era kampanjer.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Hur Advertising DSP optimerar era kampanjer
 
-Den här sidan visar hur den DSP optimeringsmotorn, som drivs av [!DNL Adobe Sensei], optimerar paketen i dina kampanjer. Om du vill ha tips och råd om hur du optimerar kampanjer manuellt kontaktar du kontoteamet på Adobe. <!-- add link to trading playbook if we add it to help -->
+På den här sidan beskrivs hur DSP optimeringsmotor, som drivs av [!DNL Adobe AI], optimerar paketen i dina kampanjer. Om du vill ha tips och råd om hur du optimerar kampanjer manuellt kontaktar du Adobe Account Team. <!-- add link to trading playbook if we add it to help -->
 
 Paketoptimeringsmålen fungerar på två nivåer:
 
-* För varje paket: DSP allokerar budget till varje placering i paketet baserat på placeringens prestanda i förhållande till den valda KPI:n.
+* För varje paket: DSP allokerar budget till varje placering i paketet baserat på placeringens prestanda jämfört med den valda nyckeltal.
 
 * För varje placering/auktion i paketet: DSP beräknar det ekonomiska KPI-värdet i realtid för varje auktion per placering och använder sedan detta värde för att fastställa anbudet.
 
@@ -26,7 +26,7 @@ Paketoptimeringsmålen fungerar på två nivåer:
 
 ## Paketoptimering
 
-DSP kan optimera leveransen på två grundläggande sätt, med 20 olika varianter tillgängliga som passar just ditt prestationsmål. Du kan välja att:
+DSP kan optimera leveransen på två grundläggande sätt, med 20 olika varianter som passar just ditt prestationsmål. Du kan välja att:
 
 * Prioritera prestandahastigheten
 
@@ -36,7 +36,7 @@ Se [Optimeringsmål och Använda dem](optimization-goals.md) för att avgöra vi
 
 ### Paket som prioriterar prestandahastighet
 
-För optimeringsmål som prioriterar prestandakursen förutser DSP resultatet för varje auktion och alltid offerter vid det högsta anbudet. Exempel på tillämpliga optimeringsmål är [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] och så vidare.
+För optimeringsmål som prioriterar prestandakursen förutser DSP resultatet för varje auktion och lägger alltid bud vid det högsta anbudet. Exempel på tillämpliga optimeringsmål är [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] och så vidare.
 
 Det här optimeringsläget fungerar bra om:
 
@@ -54,7 +54,7 @@ Det här optimeringsläget fungerar bra om:
 
 #### Rensar pris/budskugga {#clearing-price-performance}
 
-När den har exekverat paketeringslogiken, kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
+När den har exekverat paketeringslogiken kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 
 ### Paket som prioriterar balansering av kostnadseffektivitet med prestandahastighet
 
@@ -62,7 +62,7 @@ För vissa optimeringsmål förutser DSP resultatet för varje auktion och juste
 
 #### Paketlogik {#pacing-logic-balanced}
 
-* Om utgifterna är i takt med detta blir DSP mer priskänslig och lägger lägre belopp för att kompensera vinsten med paketplanen.
+* Om man spenderar pengar i takt med detta blir DSP mer priskänslig och lägger lägre belopp för att kompensera vinsten med paketplanen.
 
 * Om ett prestandamått också balanseras (alla mål utom [!UICONTROL Lowest CPM]) blandas den förväntade KPI:n in i beloppet som är anbudet. Ni lägger därför ett högre bud på auktioner som förutspås bli mer presterande på&quot;kostnad per&quot;-basis.
 
@@ -70,11 +70,11 @@ För vissa optimeringsmål förutser DSP resultatet för varje auktion och juste
 
 #### Rensar pris/budskugga {#clearing-price-balanced}
 
-När den har exekverat paketeringslogiken, kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
+När den har exekverat paketeringslogiken kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 
 ## Placeringsoptimering
 
-Placering av filter före bud är det enklaste sättet att säkerställa höga prestanda. DSP använder filter före bud strategiskt för olika annonstyper för att uppnå prestandamål på alla platser i varje paket. Du kan använda filter före bud samtidigt med optimering på paketnivå eller oberoende av varandra.
+Placering av filter före bud är det enklaste sättet att säkerställa höga prestanda. DSP använder filter före bud strategiskt för olika annonstyper för att uppnå prestandamålen på alla platser i varje paket. Du kan använda filter före bud samtidigt med optimering på paketnivå eller oberoende av varandra.
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Läs mer om xxxx.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en enhet. När du har skapat en paketbehållare kan du koppla kreatörer till paketet. Standarddisplaypaket kan bara innehålla standarddisplayannonser, standardvideopaket kan bara innehålla standardvideoannonser och dynamiska displaypaket kan bara innehålla dynamiska displayannonser. Du kan åsidosätta landningssidor, visningsspårningstaggar och klickspårningstaggar för alla kreatörer i ett paket som är tilldelat en upplevelse inifrån upplevelsebeslutsträdet, utan att det påverkar grundskaparna.
 
-[!DNL Creative] roterar genom de kreativa i paketet enligt inställningarna för varje upplevelse som paketet är tilldelat till. Du kan också tillåta att [!DNL Creative] optimerar annonselementen för alla upplevelser baserat på prestanda med algoritmisk annonrotation, som drivs av Adobe Sensei.
+[!DNL Creative] roterar genom de kreativa i paketet enligt inställningarna för varje upplevelse som paketet är tilldelat till. Du kan också tillåta [!DNL Creative] att optimera annonselementen för alla upplevelser baserat på prestanda med algoritmisk annonrotation, som drivs av [!DNL Adobe AI].
 
 För att optimera annonselement för olika paket i en annonsupplevelse kan varje paket bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\]. Om ett paket t.ex. innehåller en 250 × 250-creative med standardspråket &quot;French&quot;, kan du inte lägga till ytterligare en 250 × 250-creative med standardspråket &quot;French&quot;. Om du har flera kreatörer av samma storlek på samma språk kan du lägga till dem separat i upplevelsen.
 

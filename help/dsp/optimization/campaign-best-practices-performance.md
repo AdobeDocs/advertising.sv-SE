@@ -3,9 +3,9 @@ title: Bästa metoder för att konfigurera resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 802c75920bb11f262cbe0d76d2554971aaf35831
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ DSP kan optimera era prestandainriktade kampanjer. Se följande metodtips för p
 * Steg 2 - Definiera er strategi
 * Steg 3 - Skapa paket
 * Steg 4 - Skapa placeringsstruktur
-* Steg 5 - Använd rätt kreativa Assets
+* Steg 5 - Använd rätt Creative Assets
 
 ## Steg 1 - Definiera ditt mål
 
@@ -26,13 +26,13 @@ Det är viktigt att förstå kampanjens mål, till exempel att uppnå högsta m�
 
 ![optimeringsmål](/help/dsp/assets/optimization-goals.png)
 
-Du måste också identifiera de framgångshändelser som leder till det övergripande målet och skapa anpassade mål utifrån detta. Ange ett anpassat mål för varje paket som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe Sensei]. Mer information om hur du skapar anpassade mål, inklusive bästa praxis, finns i [Anpassade mål](custom-goal.md).
+Du måste också identifiera de framgångshändelser som leder till det övergripande målet och skapa anpassade mål utifrån detta. Ange ett anpassat mål för varje paket som ska användas med det övergripande optimeringsmålet för rapportering och algoritmisk optimering med [!DNL Adobe AI]. Mer information om hur du skapar anpassade mål, inklusive bästa praxis, finns i [Anpassade mål](custom-goal.md).
 
 ## Steg 2 - Definiera er strategi
 
 ### Prospecting Strategies
 
-Paket med huvudtratt omfattar praktik med mycket bred målinriktning för att nå ut till nya konsumenter.
+Funnel-paket innehåller praktik med mycket bred inriktning för att nå ut till nya konsumenter.
 
 #### Rekommenderade placeringsstrategier för potentiell kund
 
@@ -43,21 +43,21 @@ Paket med huvudtratt omfattar praktik med mycket bred målinriktning för att n�
    * Sammanhangsbaserad målinriktning.
    * Målinriktning för webbplats/kategori.
 
-* Använd RON-målinriktning (Run of Network): Det är viktigt att inkludera en mängd nätverksplaceringar utan målgruppsinriktning och med bred målinriktning för inventering. Detta gör att algoritmen [!DNL Adobe Sensei] kan hitta värdefulla användare som kan ha nyare cookies som ännu inte har kategoriserats till en målgrupp.
+* Använd RON-målinriktning (Run of Network): Det är viktigt att inkludera en mängd nätverksplaceringar utan målgruppsinriktning och med bred målinriktning för inventering. Detta gör att den [!DNL Adobe AI]-baserade algoritmen kan hitta värdefulla användare som kan ha nyare cookies som ännu inte har kategoriserats till en målgrupp.
 
 ### Återmarknadsföringsstrategier
 
-Lägre trattpaket innehåller placeringar som riktar sig till användare som redan har varit på annonsörens webbsida eller för vilka annonsören har CRM-data.
+Lägre funnel-paket innehåller placeringar som riktar sig till användare som redan har varit på annonsörens webbsida eller för vilka annonsören har CRM-data.
 
 #### Rekommenderade placeringsstrategier för återmarknadsföring
 
-* Om annonsören är kund hos Adobe Analytics eller Adobe Audience Manager kan ni skapa förstahandssegment (som besökare på hemsidan, produktsidor eller övergivna varukorgar) och använda dem som placeringsmål i DSP.
+* Om annonsören är kund hos Adobe Analytics eller Adobe Audience Manager kan ni skapa förstahandssegment (som hemsida, produktsidor eller övergivna varukorgar) och använda dem som placeringsmål i DSP.
 
 * Undvik att tilldela för mycket budget till en målgruppsanpassad placering. Generellt gäller att du budgeterar 30 USD per 1 000 användare per månad.
 
 ## Steg 3 - Skapa paket
 
-Det bästa sättet är att skapa separata paket för prospektering med övre kanalen och för återmarknadsföring med lägre kanal. Optimering sker på paketnivå, så att prestandadata från alla placeringar i ett paket samlas. Därför bör du gruppera placeringar i paket med liknande förväntade prestanda.
+Det bästa sättet är att skapa separata paket för funnel-prospektering och omdirigering i lägre grad. Optimering sker på paketnivå, så att prestandadata från alla placeringar i ett paket samlas. Därför bör du gruppera placeringar i paket med liknande förväntade prestanda.
 
 ![exempel på separata paket för prospektering och återmarknadsföring](/help/dsp/assets/p-r.png)
 
@@ -140,14 +140,14 @@ Använd [!UICONTROL Public] (Open Exchange) och [!UICONTROL On Demand] lager om 
 
 * **[!UICONTROL Device Targeting]**:
    * Inkludera [!UICONTROL Computer], [!UICONTROL Mobile] och [!UICONTROL Tablet].
-   * Använd inte [!UICONTROL Firefox] och [!UICONTROL Safari] som mål på grund av begränsningar för målinriktning och mätning. Kontakta kontoteamet på Adobe för mer information om [!DNL Adobe]-stöd för [!DNL Safari ITP].
+   * Använd inte [!UICONTROL Firefox] och [!UICONTROL Safari] som mål på grund av begränsningar för målinriktning och mätning. Kontakta ditt Adobe-kontoteam för mer information om [!DNL Adobe]-stöd för [!DNL Safari ITP].
    * Om du har en mobil webbtrafik som mål inaktiverar du alla webbläsare utom [!UICONTROL Chrome] och [!UICONTROL Edge].
 
 ### Varumärkessäkerhet och mediakvalitet
 
 Genom att använda kontextuell filtrering, blockering av bedrägeri före bud och/eller [!UICONTROL Ads.txt]-filtrering begränsas skalan för dina placeringar, men de används vid behov.
 
-## Steg 5 - Använd rätt kreativa Assets
+## Steg 5 - Använd rätt Creative Assets
 
 * Det bästa sättet är att inkludera så många unika annonsstorlekar som möjligt för att maximera räckvidden. Med den universella visningsmallen kan du överföra alla standardstorlekar för visning och visning.
 * Kontrollera att alla placeringar innehåller *minst* alla primära bildskärmar och storlekar (300x250, 728x90, 160x600, 300x600, 320x50 och 300x50).

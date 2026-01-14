@@ -3,7 +3,7 @@ title: Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketin
 description: Lär dig varför kanaldata som spåras av AMO-ID kan variera från kanaldata som spåras av  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]
 
-*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Analytics*
+*Annonsörer med endast Adobe Advertising-Adobe Analytics-integrering*
 
-En vanlig fråga från användare som lär sig om integreringen av datauppsättningarna Adobe Advertising och [!DNL Marketing Channels] är&quot;Vad orsakar datavariationen mellan AMO-ID:t och [!DNL Marketing Channels]?&quot; Eller ibland: &quot;Varför bryts data? Jag behöver all statistik för att matcha alla rapporter.&quot; Men diskrepanser visar inte att data är &quot;brutna&quot;, och diskrepanser förväntas och är till och med önskade. Låt oss se varför integreringen har utformats på det här sättet.
+En vanlig fråga från användare som lär sig om integreringen av Adobe Advertising- och [!DNL Marketing Channels]-datauppsättningar är&quot;Vad orsakar datavariationen mellan AMO-ID:t och [!DNL Marketing Channels]?&quot; Eller ibland: &quot;Varför bryts data? Jag behöver all statistik för att matcha alla rapporter.&quot; Men diskrepanser visar inte att data är &quot;brutna&quot;, och diskrepanser förväntas och är till och med önskade. Låt oss se varför integreringen har utformats på det här sättet.
 
 De två datauppsättningarna har olika primära användningsområden:
 
@@ -22,16 +22,16 @@ De två datauppsättningarna har olika primära användningsområden:
 
   Dimensionen [!DNL Analytics] [!UICONTROL Marketing Channel] är därför konfigurerad att hämta och spåra alla kanaler. [!DNL Marketing Channels] kan även konfigureras för att fånga upp Advertising DSP-visningar och klickningar, och det gör det i relation till andra marknadsföringskanaler.
 
-* Adobe Advertising AMO ID: Det primära användningsområdet för Adobe Advertising AMO ID-data är att mata in de avancerade [!DNL Adobe Sensei]-baserade budgivningsalgoritmerna. Algoritmerna fattar automatiskt tusentals anbudsbeslut på mikronivå varje dag för att maximera annonsutgifterna och uppnå målen för [!DNL DSP]-kampanjen eller [!DNL Search, Social, & Commerce]-portföljen. Ju mer konverteringsdata algoritmerna kan koppla ihop kampanjer, desto bättre kan algoritmerna fatta dessa beslut.
+* Adobe Advertising AMO ID: Det primära användningsfallet för Adobe Advertising AMO ID-data är att mata in de avancerade [!DNL Adobe AI]-baserade budgivningsalgoritmerna. Algoritmerna fattar automatiskt tusentals anbudsbeslut på mikronivå varje dag för att maximera annonsutgifterna och uppnå målen för [!DNL DSP]-kampanjen eller [!DNL Search, Social, & Commerce]-portföljen. Ju mer konverteringsdata algoritmerna kan koppla ihop kampanjer, desto bättre kan algoritmerna fatta dessa beslut.
 
   För att samla in dessa data skickar integreringen [!DNL Analytics for Advertising] AMO-ID:n i Raw-format som kan översättas som klicknings- och genomskinlighetsspårningskoder i Adobe Analytics-dimensionens AMO-ID - som lagras antingen som en anpassad variabel (eVar) eller en reserverad variabel (rVar). Klickningar för andra kanaler är inte inställda i AMO ID-dimensionen, så AMO ID-dimensionen kan inte spåra inmatning från dessa andra kanaler. Resultatet är att AMO-ID:t kvarstår genom [!DNL Marketing Channels] startpunkter.
 
-Mer information om möjliga dataavvikelser mellan data som spåras i Adobe Advertising och data som spåras i [!DNL Analytics] finns i [Förväntade datavarianser mellan  [!DNL Analytics]  och Adobe Advertising](../data-variances.md).
+Mer information om möjliga dataavvikelser mellan Adobe Advertising-spårade data och [!DNL Analytics]-spårade data finns i [Förväntade datavarianser mellan  [!DNL Analytics] och Adobe Advertising](../data-variances.md).
 
 >[!MORELIKETHIS]
 >
 >* [Förväntade datavarianser mellan [!DNL Analytics] och Adobe Advertising](/help/integrations/analytics/data-variances.md)
 >* [Grundprinciper för [!DNL Analytics Marketing Channels]](mc-overview.md)
->* [Använda Adobe Advertising-ID:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
->* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
+>* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising Data](mc-ac-data.md)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

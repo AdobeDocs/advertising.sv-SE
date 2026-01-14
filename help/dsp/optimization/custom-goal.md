@@ -3,9 +3,9 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Varje anpassat mål (mål) består av en eller flera konverteringsvärden och de
 
 Anta till exempel att tre konverteringsvärden är relevanta för ett specifikt paket i en av era kampanjer:&quot;PDF Download&quot;, som är 20 USD,&quot;Email Registrup&quot; som är 30 USD och&quot;Order Confirmation&quot; som är ett värde på 40 USD. Om ni vill lägga vikt efter det engångs-monetära värdet av kundens åtgärd blir de relativa vikterna för måtten 1, 1,5 och 2.
 
-När du har [skapat ett anpassat mål](#custom-goal-create) kan du [tilldela det till ett paket](/help/dsp/campaign-management/packages/package-settings.md) för rapportering och algoritmisk optimering med Adobe Sensei.
+När du har [skapat ett anpassat mål](#custom-goal-create) kan du [tilldela det till ett paket](/help/dsp/campaign-management/packages/package-settings.md) för rapportering och algoritmisk optimering med [!DNL Adobe AI].
 
 Viktrekommendationer genereras automatiskt för DSP-värden i mål och kan tillämpa alla viktrekommendationer med ett klick. Alla viktförändringar av mål som föregås av &quot;ADSP_&quot; tillämpas algoritmiskt i DSP inom två dagar. Mer information om viktrekommendationer finns i Optimization Guide-kapitlet om mål, som finns i Search, Social och Commerce.
 
@@ -106,7 +106,7 @@ Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräve
 
 Det finns två scenarier där du kan använda flera mätvärden i ett anpassat mål:
 
-* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller de tre separata måtten, där var och en har en icke-mobil vikt på en (1), behandlar algoritmen [!DNL Adobe Sensei] alla mätvärden och användarenhetstyper med samma vikt. Om de olika måtten har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
+* Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller de tre separata måtten, där var och en har en icke-mobil vikt på en (1), behandlar den [!DNL Adobe AI]-baserade algoritmen alla mätvärden och användarenhetstyper med samma vikt. Om de olika måtten har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
 
 <!-- update image or delete it and adjust the wording above
 
@@ -116,7 +116,7 @@ Det finns två scenarier där du kan använda flera mätvärden i ett anpassat m
 
 * Det anpassade målets konverteringsmått för en enda konvertering är inte att uppnå det minimum på 10 konverteringar per dag som krävs för optimerade prestanda. Detta kan bero på minimal daglig paketkostnad eller ett begränsat antal naturliga konverteringar. Genom att lägga till ytterligare stödmått till det anpassade målet kan du uppnå tröskelvärdet på 10 konverteringar per dag. Tio stödhändelser kan hjälpa ett paket att uppnå tröskelvärdet 10/dag, även när varje vikt är under 1 (1). Men du kanske inte behöver lägga till så många händelser.
 
-  När du lägger till stödmått till ett anpassat mål ska du väga dem efter deras relativa betydelse för händelsen om det ska lyckas och tänka på mängden datapunkter. På så sätt kan Adobe Sensei-algoritmen balansera flera mätvärden och optimera mot ditt mål.
+  När du lägger till stödmått till ett anpassat mål ska du väga dem efter deras relativa betydelse för händelsen om det ska lyckas och tänka på mängden datapunkter. Detta gör att den [!DNL Adobe AI]-baserade algoritmen kan balansera flera mätvärden och optimera mot ditt mål.
 
   Följande exempelmål innehåller tre mätvärden, var och en med olika icke-mobilvikt: Application Submit = 1, Application Start = 0.1 och Advertiser Landing Page = 0.01. Det innebär att varje konvertering av Application Submit har samma värde som i genomsnitt 10 konverteringar av Application Start och 100 konverteringar av Advertiser Landing Page.
 
