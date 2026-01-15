@@ -3,9 +3,9 @@ title: Ställa in datainsamling, dataöverföring och rapportering
 description: Lär dig hur du ställer in datainsamling, dataöverföring och rapportering.
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: a955e2b0-ea1b-4b5c-937b-f8c66603cd36
-source-git-commit: 168a43e0d3b7ccf5e519d76bcbb6bb955fada7e8
+source-git-commit: c31a542d2d49602f5942dddf5f7ae41c9d8dfa72
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -36,23 +36,23 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
 ### Samla in och skicka data från Adobe Advertising till Experience Platform Edge Network som en datauppsättning
 
-1. I Experience Platform [definierar du ett manuellt schema](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/ui/resources/schemas) för de data som du vill samla in med hjälp av Experience Data Model (XDM).
+1. I Experience Platform [definierar du ett manuellt schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas) för de data som du vill samla in med hjälp av Experience Data Model (XDM).
 
    * I [!UICONTROL Schema Details] väljer du **[!UICONTROL Experience Event]** som basklass för schemat för att hämta webbplatshändelser. Namnge ditt schema och klicka på **[!UICONTROL Finish]**.
 
-   * Lägg till fältgruppen `[Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/field-groups/event/advertising-full-extension)` i den vänstra panelen för att lägga till fält som är specifika för Adobe Advertising. Inkludera åtminstone objektet conversionDetails med egenskaperna `trackingCode` och `trackingIdentities` som innehåller [AMO ID och EF ID](ids.md). De andra fälten är valfria.
+   * Lägg till fältgruppen [Adobe Advertising Cloud ExperienceEvent Full Extension](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension) i den vänstra panelen för att lägga till fält som är specifika för Adobe Advertising. Inkludera åtminstone objektet conversionDetails med egenskaperna `trackingCode` och `trackingIdentities` som innehåller [AMO ID och EF ID](ids.md). De andra fälten är valfria.
 
    * (Valfritt) Lägg till ytterligare fältgrupper efter behov för att ansluta ytterligare datafält till Adobe Advertising-data.
 
    **Obs!** Du kan skapa flera scheman, men du kan bara använda ett schema per datauppsättning och per datastream, som du skapar i följande steg.
 
-1. [Skapa en datauppsättning](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/create) baserat på schemat för att lagra och hantera samlingen med händelsedata.
+1. [Skapa en datauppsättning](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/create) baserat på schemat för att lagra och hantera samlingen med händelsedata.
 
    * Välj alternativet **[!UICONTROL Create dataset from schema]** och välj ditt schema.
 
      Adobe Advertising skapar ytterligare datauppsättningar för relaterade sammanfattningsmätdata (till exempel konverteringsvärden) och sökdata (dimensioner/klassificeringsmetadata, till exempel Adobe Advertising kampanjnamn) baserat på din händelsedatamängd. Data för datauppsättningarna fylls i dagligen i Experience Platform.
 
-1. [Skapa en datastream](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/configure) för schemat.
+1. [Skapa en datastream](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure) för schemat.
 
    * Välj ditt schema för inställningen [!UICONTROL Mapping schema].
 
@@ -66,17 +66,17 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
 ### Skicka webbplatsdata till Experience Platform datastream
 
-1. Använd Experience Platform [tags](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home) (tidigare [!DNL Launch]) för att generera en JavaScript-tagg och skicka webbplatsdata till dataströmmen.
+1. Använd Experience Platform [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home) (tidigare [!DNL Launch]) för att generera en JavaScript-tagg och skicka webbplatsdata till dataströmmen.
 
    * Skapa en taggegenskap, som är behållaren för taggkonfigurationen.
 
-   * [Installera tillägget Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) från tilläggskatalogen för din egenskap.
+   * [Installera tillägget Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) från tilläggskatalogen för din egenskap.
 
      Det här tillägget skickar data från dina webbegenskaper till Experience Cloud via Experience Platform Edge Network.
 
      Använd inte Adobe Advertising-tillägget.
 
-   * Skapa en [anpassad Web SDK-version](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
+   * Skapa en [anpassad Web SDK-version](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#custom-build):
 
       * Aktivera komponenten [!UICONTROL Custom build components]Advertising **i avsnittet**.
 
@@ -88,19 +88,21 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
          * I inställningarna för [!UICONTROL Datastreams] väljer du datastream som ska användas för alla dina webbmiljöer (produktion, mellanlagring, utveckling).
 
-         * (Endast för organisationer med Adobe Advertising DSP) Aktivera [[!UICONTROL Adobe Advertising] i &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#general)-inställningarna **[!UICONTROL Adobe Advertising DSP]** för att tillåta vyspårning och ange för vilka annonsörer genomsiktsspårning ska aktiveras. Du kan även samla in ID:n från universella ID:n.
+         * (Endast för organisationer med Adobe Advertising DSP) Aktivera [[!UICONTROL Adobe Advertising] i ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)-inställningarna **[!UICONTROL Adobe Advertising DSP]** för att tillåta vyspårning och ange för vilka annonsörer genomsiktsspårning ska aktiveras. Du kan även samla in ID:n från universella ID:n.
+
+           Om annonsörer inte finns med i listan anger du annonsörs-ID:t för varje annonsör.
 
          * Spara bygget.
 
-   * (Valfritt) [Skapa regler](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/ui/rules) efter behov för att avgöra när Web SDK ska skicka data till Edge Network.
+   * (Valfritt) [Skapa regler](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) efter behov för att avgöra när Web SDK ska skicka data till Edge Network.
 
-      * Använd `[sendEvent](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/extensions/client/web-sdk/action-types#send-event)`-inställningen [[!UICONTROL Advertising] för att definiera hur annonsdata ska användas för attribueringsmätning för &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)-åtgärder. Den här inställningen är användbar när regeln innehåller en sekvens med flera åtgärder och endast är tillgänglig när du har valt komponenten [!UICONTROL Advertising] för den anpassade byggkomponenten.
+      * Använd `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`-inställningen [[!UICONTROL Advertising] för att definiera hur annonsdata ska användas för attribueringsmätning för ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)-åtgärder. Den här inställningen är användbar när regeln innehåller en sekvens med flera åtgärder och endast är tillgänglig när du har valt komponenten [!UICONTROL Advertising] för den anpassade byggkomponenten.
 
-   * Skapa [dataelement](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/ui/data-elements) efter behov för att mappa variabler på webbplatsen till strukturen i XDM-schemat som du skapade tidigare.
+   * Skapa [dataelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) efter behov för att mappa variabler på webbplatsen till strukturen i XDM-schemat som du skapade tidigare.
 
-1. [Publicera taggen &#x200B;](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/publish/publishing-flow) i en testmiljö där du kan upprepa utvecklingen av taggar.
+1. [Publicera taggen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) i en testmiljö där du kan upprepa utvecklingen av taggar.
 
-1. Validera leveransen av datauppsättningarna och [publicera sedan taggen i din produktionsmiljö](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/publish/publishing-flow).
+1. Validera leveransen av datauppsättningarna och [publicera sedan taggen i din produktionsmiljö](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow).
 
    Din organisations IT-avdelning eller annan grupp kan behöva schemalägga, eller få information om, tagghanteringen.
 
@@ -108,7 +110,7 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
 Följ de här stegen för att hämta Adobe Advertising-data från dina Experience Platform-datauppsättningar till Customer Journey Analytics. Organisationens webbplatsadministratör för Customer Journey Analytics kan utföra dessa åtgärder.
 
-1. I Customer Journey Analytics [skapar du en anslutning](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-connections/create-connection) som innehåller Experience Platform datamängder och schema.
+1. I Customer Journey Analytics [skapar du en anslutning](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) som innehåller Experience Platform datamängder och schema.
 
    **Obs!** För närvarande måste du skicka data för alla DSP- och Search-, Social- och Commerce-konton till en enda Experience Platform-instans och sandlåda.
 
@@ -142,7 +144,7 @@ Följ de här stegen för att hämta Adobe Advertising-data från dina Experienc
 
 Skapa en eller flera datavyer i Customer Journey Analytics för att definiera mätvärden och dimensioner för rapportering. En webbanalytiker kan utföra dessa uppgifter.
 
-1. I Customer Journey Analytics [skapar du en datavy](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/create-dataview).
+1. I Customer Journey Analytics [skapar du en datavy](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview).
 
 1. Konfigurera vyn så att den innehåller följande information.
 
@@ -158,7 +160,7 @@ Skapa en eller flera datavyer i Customer Journey Analytics för att definiera m�
 
       * Koppla händelsedatauppsättningen till sammanfattningsdatauppsättningen, som ännu inte är kopplad till något:
 
-         * [Skapa ett härlett fält](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-dataviews/derived-fields) för varje dimension med sammanfattningsdata som du vill ska vara tillgängliga i Customer Journey Analytics.
+         * [Skapa ett härlett fält](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/derived-fields) för varje dimension med sammanfattningsdata som du vill ska vara tillgängliga i Customer Journey Analytics.
 
            Om du till exempel vill visa sammanfattningsdata för kampanjer skapar du ett härlett fält för dimensionen `Adobe Advertising Campaign`.
 
@@ -196,7 +198,7 @@ Skapa en eller flera datavyer i Customer Journey Analytics för att definiera m�
 
 Följ de här stegen i Customer Journey Analytics Workspace för att konfigurera rapporter och visualiseringar. En webbanalytiker kan utföra dessa uppgifter.
 
-1. [Skapa ett projekt](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) i Workspace för att skapa rapporter och visualiseringar baserat på de dimensioner och mått som har konfigurerats i datavyn.
+1. [Skapa ett projekt](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) i Workspace för att skapa rapporter och visualiseringar baserat på de dimensioner och mått som har konfigurerats i datavyn.
 
 1. (Om du har data från [!DNL Google Ads] eller [!DNL Microsoft Advertising]) Skapa en rapport med utgivarspårade konverteringar med hjälp av fält för nätverksspecifika mått, som grupperas som `googleConversions` och `microsoftConversions`.
 
@@ -207,5 +209,5 @@ Följ de här stegen i Customer Journey Analytics Workspace för att konfigurera
 >* [Adobe Advertising ID:n som används av [!DNL Customer Journey Analytics]](ids.md)
 >* [Adobe Advertising-mått och mått i Customer Journey Analytics](advertising-data-in-cja.md)
 >* [Samla in historiska data för AMO ID:n och EF ID:n för användning i Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
->* [Customer Journey Analytics Guide](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-landing)
->* Customer Journey Analytics [Användarhandbok för Adobe Analytics-användare](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
+>* [Customer Journey Analytics Guide](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing)
+>* Customer Journey Analytics [Användarhandbok för Adobe Analytics-användare](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/aa-to-cja-user)
