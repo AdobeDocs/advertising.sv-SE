@@ -6,9 +6,9 @@ product: advertising cloud
 solution: Advertising
 index: true
 exl-id: 0d25f665-b5f9-4d27-851a-2a456fe2cbf8
-source-git-commit: 237d05e2ca97325aa45c2ed64665079e785acb68
+source-git-commit: 7167fdcd7a7dfb52a64910216fa351b8663e7d5f
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,7 @@ Följande funktioner är nya eller nyligen ändrade.
 
 | Datum | Funktion | Beskrivning | Mer information |
 | ---- | ------- | ----------- | -------------------- |
+| 21 februari 2026 | Creative Library, Adobe GenStudio for Performance Marketing | Annonsörer med [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) kan nu importera webbannonsupplevelser från GenStudio till dina kreativa bibliotek. <!-- Each GenStudio experience is saved as an HTML5 creative.--> Du kan inkludera de importerade kreatörerna i dina Advertising Creative-upplevelser. | Se &quot;[Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)&quot; och &quot;[Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md).&quot; |
 | 17 december 2025 | Varningar | En [!UICONTROL Pulse Panel]-ikon i vyn [!UICONTROL Experiences] visar om det finns några varningar tillgängliga för dina upplevelser. Du kan öppna panelen för att visa varje varning och eventuellt öppna den relevanta upplevelsen eller den kreativa avdelningen så att du kan redigera den efter behov för att lösa problemet. Du kan också stänga alla aviseringar.<br><br>För annonsörer med Advertising DSP är aviseringar om DSP-placeringar som har skapats från [!DNL Creative]-upplevelser tillgängliga på kampanjnivå i DSP. | Se [Visa aviseringar](/help/creative/reports/alerts-view.md). |
 | 26 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Den nya [!UICONTROL All-in Cost]-rapporten är inte betaversion och är allmänt tillgänglig. | Se [Om anpassade rapporter](/help/creative/reports/reports-about.md) och [Hantera anpassade rapporter](/help/creative/reports/report-manage.md). |
 | 17 november 2025 | Kostnadsrapportering för Advertising Creative | (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Den nya [!UICONTROL All-in Cost BETA]-rapporten visar hur mycket pengar som har använts för annonsering för Adobe Creative. Utgiftsmått för rapporten är [!UICONTROL Billable Creative Spend], [!UICONTROL Non Billable Creative Spend], [!UICONTROL Total Creative Spend], [!UICONTROL Total Creative CPM] och [!UICONTROL Estimated Tax on Creative]. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå. | Se [Om anpassade rapporter](/help/creative/reports/reports-about.md) och [Hantera anpassade rapporter](/help/creative/reports/report-manage.md). |

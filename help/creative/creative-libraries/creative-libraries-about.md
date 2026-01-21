@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 76e3ae8369fda1c4d95c06ecb085a8669dcf142b
+source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -42,11 +42,24 @@ Flexibla HTML5-kreatörer är HTML5-kreatörer med alla sina bilder och andra at
 
 Du kan antingen överföra flexibla HTML5-användare som ZIP-filer eller använda någon av de mallar som är tillgängliga för ditt konto som utgångspunkt. Se [specifikationerna för flexibla HTML5-kreatörer](html5-creative-specification.md).
 
-#### HTML5 kreatörer
+#### Formgivare av standardskärmar
 
-Du kan överföra enkla eller statiska HTML5-kreatörer med alla attribut och bilder angivna som ZIP-filer. Du kan inte redigera några attribut eller lägga till bilder. Överför i stället en ny ZIP-fil för att lägga till en ny kreatör. Se [specifikationerna för enkla och statiska HTML5-kreatörer](html5-creative-specification.md).
+Standardannonser:
 
-#### Bildkreatörer
+* HTML5-användare har överförts lokalt eller från Adobe GenStudio for Performance Marketing.
+* Bildfiler som överförts lokalt eller från Adobe Experience Manager.
+
+##### HTML5 kreatörer
+
+* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [webbannonsupplevelse](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) som en HTML5-kreatör. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
+
+  Om du vill använda den här funktionen måste både GenStudio-kontot och Advertising Creative-kontot använda samma organisations-ID, och användaren måste ha behörighet att komma åt GenStudio.
+
+  När du har importerat en GenStudio-upplevelse kan du redigera metadata (namn, språk, taggar) för det importerade kreativa innehållet men inte för det kreativa innehållet. Om du redigerar GenStudio-upplevelsen i GenStudio måste du importera om upplevelsen i [!DNL Creative] för att använda den senaste versionen.
+
+* **Överförda filer:** Du kan även överföra enkla eller statiska HTML5-användare med alla attribut och bilder angivna som ZIP-filer. Du kan inte redigera några attribut eller lägga till bilder. Överför i stället en ny ZIP-fil för att lägga till en ny kreatör. Se [specifikationerna för enkla och statiska HTML5-kreatörer](html5-creative-specification.md).
+
+##### Bildkreatörer
 
 Du kan inkludera bildkreatörer i GIF-, JPEG-, JPG- eller PNG-format. Du kan överföra godkända bilder från dina Adobe Experience Manager-konton eller bilder från din enhet eller ditt nätverk.
 
@@ -64,7 +77,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
