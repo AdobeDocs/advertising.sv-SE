@@ -85,6 +85,6 @@ Förklaringar av kolumnerna för portföljinställningar på fliken [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
 >* [Skapa en portfölj](portfolio-create.md)
->* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
+>* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
