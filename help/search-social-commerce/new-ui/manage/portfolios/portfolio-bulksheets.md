@@ -4,9 +4,9 @@ description: Lär dig hur du redigerar inställningarna för flera portföljer m
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 14f85e5ff5655be045fa4a2280edc1fe01978029
+source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ Ett portföljblad är en fil som innehåller portföljinställningar i ett visst
 
 ## Hämta en kalkylbladsfil med portföljinställningar
 
-1. Markera kryssrutan bredvid varje portfölj som ska ingå i kalkylbladet.
+1. (Valfritt) Markera kryssrutan bredvid varje portfölj som ska ingå i kalkylbladet.
 
-1. Klicka på **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]** i verktygsfältet ovanför datatabellen.
+   Om du inte väljer specifika portföljer kan du hämta inställningarna för alla portföljer.
+
+1. Klicka på i verktygsfältet ovanför datatabellen:
+
+   * (För alla portföljer) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export All Portfolios]**.
+
+   * (För utvalda portföljer) **[!UICONTROL Bulk Operations]** > **[!UICONTROL Export Selected Portfolios]**.
 
 1. Ange namnet på den kalkylbladsfil som ska skapas och klicka sedan på **[!UICONTROL Export Now]**.
 
@@ -79,6 +85,6 @@ Förklaringar av kolumnerna för portföljinställningar på fliken [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
 >* [Skapa en portfölj](portfolio-create.md)
->* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
+>* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
