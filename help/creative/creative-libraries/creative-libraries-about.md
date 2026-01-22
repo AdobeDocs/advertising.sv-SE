@@ -51,7 +51,7 @@ Standardannonser:
 
 ##### HTML5 kreatörer
 
-* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [webbannonsupplevelse](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) som en HTML5-kreatör. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
+* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [webbannonsupplevelse](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home) som en HTML5-kreatör. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
 
   När du har importerat en GenStudio-upplevelse kan du redigera metadata (namn, språk, taggar) för det importerade kreativa innehållet men inte för det kreativa innehållet. Om du redigerar GenStudio-upplevelsen i GenStudio måste du importera om upplevelsen i [!DNL Creative] för att använda den senaste versionen.
 
@@ -79,7 +79,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav på videokreativa produkter. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav på videokreativa produkter. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
