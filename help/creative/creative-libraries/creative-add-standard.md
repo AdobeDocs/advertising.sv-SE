@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 24846adba9ff856571d117261f44aff408e70c50
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 ### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil] (flexible-creative-upload).>
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil](flexible-creative-upload).>
 
 <!-- Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
@@ -148,7 +148,7 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
       1. Leta reda på och välj webbannonsupplevelsen och klicka sedan på **[!UICONTROL Select]** uppe till höger.
 
-         <!-- Each creative variant in the experience will be imported as a separate HTML5 creative. -->
+     Varje kreativ variant i en viss upplevelse importeras som en separat HTML5-kreativ.
 
 1. Lägg till eller ta bort kreatörer:
 
@@ -158,9 +158,9 @@ You can optionally download a sample HTML5 creative as a ZIP file, edit the cont
 
 1. Ange de [kreativa inställningarna för HTML5](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5) eller [bildkreativa inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image).
 
-   Som standard markeras alla användare som du just överfört och alla inställningar du anger gäller alla valda användare. Alla inställningar med endast ett värde gäller för alla valda kreatörer. Om du vill ange inställningar för specifika kreatörer avmarkerar du de ej tillämpliga kreativa.
+   Som standard markeras alla användare eller GenStudio-upplevelser som du just överfört, och alla inställningar du anger gäller för alla valda objekt. Alla inställningar med bara ett värde gäller för alla markerade objekt. Om du vill ange inställningar för specifika kreatörer eller GenStudio-upplevelser avmarkerar du dem när de inte är tillämpliga.
 
-1. Klicka på **[!UICONTROL Create]** eller **[!UICONTROL Import]**.
+1. Klicka på **[!UICONTROL Create]**.
 
 ## Lägg till en tredjepartsskapare i ett kreativt bibliotek {#creative-add-third-party}
 

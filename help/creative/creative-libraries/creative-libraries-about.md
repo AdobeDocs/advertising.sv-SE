@@ -3,7 +3,7 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 8d549853be10ebfbb71b14e013b04178466e87fe
+source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
 workflow-type: tm+mt
 source-wordcount: '1529'
 ht-degree: 0%
@@ -18,23 +18,23 @@ Biblioteken kan innehålla:
 
 * **Enskilda kreatörer:** Du kan inkludera enskilda kreatörer direkt i annonsupplevelser som inte har definierade användarmål. Du kan också använda dina kreatörer för att skapa paket, som du kan inkludera i riktade [annonsupplevelser](/help/creative/experiences/experience-about.md).
 
-   * **Standardkreatörer:** Du kan ladda upp och hantera kreativa i [olika format](#creative-creative-formats). För varje kreativ annons, ange standardspråket för varje annons som du kopplar kreativa till och standardlandningssidan som öppnas när en användare klickar på en annons som inkluderar den kreativa. Du kan valfritt ange etiketter som ska användas som filter inom olika vyer inom [!DNL Creative] och som kolumnvärden i när [!UICONTROL Custom Creative Report] du inkluderar att använda dimensionen [!UICONTROL Creative Label] .
+   * **Standardkreatörer:** Du kan överföra och hantera kreatörer i [olika format](#creative-creative-formats). För varje kreatör anger du standardspråket för varje annons som du kopplar till den kreativa sidan och standardstartsidan som öppnas när en användare klickar på en annons som innehåller den kreativa sidan. Du kan också ange etiketter som ska användas som filter i olika vyer inom [!DNL Creative] och som kolumnvärden i [!UICONTROL Custom Creative Report] när du inkluderar med dimensionen [!UICONTROL Creative Label].
 
-   * **Dynamiska kreatörer:** Du kan skapa dynamiskt genererade kreativa genom att mappa dynamiska variabler i en annonsmall till värden i en flödesfil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
+   * **Dynamiska kreatörer:** Du kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
-* **Kreatörspaket:** Gruppera kreatörer i paket för användning över flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser och *dynamiska visningspaket* som består av dynamiskt genererade displayannonser.
+* **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser och *dynamiska visningspaket* som består av dynamiskt genererade displayannonser.
 
 ## Creative-format som stöds {#creative-creative-formats}
 
-### Format för Standard Creatives
+### Format för standardkreatörer
 
-Du kan lägga till och hantera följande kreativa typer i de [stödda kreativa storlekarna](creative-sizes.md).
+Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar](creative-sizes.md) som stöds.
 
 >[!IMPORTANT]
 >
->* Även om du tänker använda HTML5, flexibel HTML5 eller tredjepartskreatörer för dina vanliga displayannonsupplevelser, måste du också lägga till bildkreatörer för varje kreativ storlek du använder.
->* Varje standardvisningsupplevelse kräver en standardbilds-kreativ för varje kreativ storlek som tilldelas upplevelsen. Standardbildkreatörerna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
->* Varje standardvideoupplevelse kräver en standardvideokreativ för varje kreativ period som tilldelas upplevelsen.<!-- when is it used? -->
+>* Även om du tänker använda HTML5, Flexible HTML5 eller andra kreatörer för att skapa standardannonsupplevelser måste du också lägga till bildkreatörer för varje kreativ storlek du använder.
+>* För varje standardvisning krävs en standardbild som är kreativ för varje kreativ storlek som tilldelats upplevelsen. Standardbildskaparna används när en webbläsare inte är JavaScript-aktiverad eller när annonsservern inte kan anpassa annonsen på grund av förseningar.
+>* För varje standardvideoupplevelse krävs en standardvideokreativ för varje kreativ längd som tilldelats upplevelsen.<!-- when is it used? -->
 
 #### Flexibel HTML5
 
@@ -51,7 +51,7 @@ Standardannonser:
 
 ##### HTML5 kreatörer
 
-* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [webbannonsupplevelse](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home) som en HTML5-kreatör. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
+* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [visningsannons](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) som enskilda HTML5-kreatörer. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
 
   När du har importerat en GenStudio-upplevelse kan du redigera metadata (namn, språk, taggar) för det importerade kreativa innehållet men inte för det kreativa innehållet. Om du redigerar GenStudio-upplevelsen i GenStudio måste du importera om upplevelsen i [!DNL Creative] för att använda den senaste versionen.
 
@@ -79,7 +79,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav på videokreativa produkter. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
@@ -109,7 +109,7 @@ Se följande krav på videokreativa produkter. **Obs!** Om du ska överföra vid
 
 ### Format för dynamiska annonser
 
-Du kan dynamiskt generera kreativa filer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en flödefil. Dynamiska kreatörer kan inkludera kreativa som migrerats från dina äldre Adobe Advertising Dynamic Creative Optimization (DCO)-upplevelser.
+Du kan dynamiskt generera kreatörer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer som har migrerat från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
 
 ## [!UICONTROL Creative Libraries]-vyerna
 
@@ -119,7 +119,7 @@ Mer information om hur du anpassar vyn finns i [Anpassa datavyer](/help/creative
 
 I huvudvyn i [!UICONTROL Creative Libraries] visas alla dina kreativa bibliotek. Data för varje bibliotek omfattar antalet upplevelser som biblioteket tilldelas till, antalet paket, antalet kreatörer, antalet kreativa storlekar, antalet standardspråkmål, skapandedatum och det senaste ändringsdatumet för något element i biblioteket. Tabelläget innehåller även en kolumn för annonsören.
 
-När du är i kortläge kan du bläddra bland bilderna i ett bibliotek med flera kreatörer som använder knapparna &lt; and > .
+När du är i kortläge kan du bläddra bland bilderna i ett bibliotek med flera kreatörer med hjälp av knapparna &lt; och >.
 
 #### Tillgängliga åtgärder
 
@@ -133,11 +133,11 @@ När du är i kortläge kan du bläddra bland bilderna i ett bibliotek med flera
 
    * [Ta bort bibliotek](/help/creative/creative-libraries/creative-library-manage.md#delete-creative-libraries)
 
-### De [!UICONTROL Creative Libraries] > [!UICONTROL Creatives] vyerna
+### Vyerna [!UICONTROL Creative Libraries] > [!UICONTROL Creatives]
 
 #### [!UICONTROL Standard Ads]
 
-Fliken [!UICONTROL Standard Ads] visar alla standardkreativa som du har skapat. Data för varje kreativ är storlek, kreativ typ och skapandedatum. Tabellläget inkluderar också kolumner för standardspråket och standardlandningssidan.
+På fliken [!UICONTROL Standard Ads] visas alla standardalternativ som du har skapat. Data för varje kreatör inkluderar den kreativa storleken, den kreativa typen och datumet då de skapades. Tabelläget innehåller även kolumner för standardspråket och standardstartsidan.
 
 ##### Tillgängliga åtgärder
 
