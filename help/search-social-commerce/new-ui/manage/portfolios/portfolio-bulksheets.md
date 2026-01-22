@@ -4,9 +4,9 @@ description: Lär dig hur du redigerar inställningarna för flera portföljer m
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 20f7419d-9f5e-4477-ae8d-8b85a79b1e81
-source-git-commit: 04b6fbaf4a8b360bc3a60bdad4871694d50f1bf9
+source-git-commit: 8b63f697278b5dc4ecbb720af44053fbc771273f
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -41,15 +41,15 @@ Ett portföljblad är en fil som innehåller portföljinställningar i ett visst
 
 Filen måste vara i XLSX-format.
 
-1. Klicka på **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]** i verktygsfältet ovanför datatabellen. &lt;!— Should be &quot;Import Portfolio Settings&quot; — &quot;Details&quot; (Detaljer) kan vara för vag och föreslå något annat. —>
+1. Klicka på **[!UICONTROL Bulk Operations]** > **[!UICONTROL Import Portfolio Details]** i verktygsfältet ovanför datatabellen.
 
-1. I dialogrutan [!UICONTROL Import Portfolio Details File]:<!-- reword if we change the name of the operation -->
+1. I dialogrutan [!UICONTROL Import Portfolio Details File]:
 
-   1. Dra och släpp en fil i rutan eller klicka på **[!UICONTROL Browse File]**<!-- "Browse for file" or just "Browse"??? -->för att välja en fil från enheten eller nätverket.
+   1. Dra och släpp en fil i rutan eller klicka på **[!UICONTROL Browse File]** för att välja en fil från enheten eller nätverket.
 
    1. Klicka på **[!UICONTROL Import]**.
 
-Du kan kontrollera överföringsstatus från knappen [!UICONTROL Global Sync Status] (![Global synkroniseringsstatus](/help/search-social-commerce/assets/global-sync-status.png "Global synkroniseringsstatus")) bredvid datumintervallväljaren.<!-- icon similar to Refresh -->. Om någon av ändringarna inte lyckas kan du hämta en felfil som visar vad som misslyckades.
+Du kan kontrollera överföringsstatus från knappen [!UICONTROL Global Sync Status] (![Global synkroniseringsstatus](/help/search-social-commerce/assets/global-sync-status.png "Global synkroniseringsstatus")) bredvid datumintervallväljaren. Om någon av ändringarna inte lyckas kan du hämta en felfil som visar vad som misslyckades.
 
 Meddelanden läggs också till i Notiscenter, och du kan öppna meddelandefönstret från ikonen ![Notifications](/help/search-social-commerce/assets/notifications-new.png "Notifications") bredvid knappen [!UICONTROL Global Sync Status] (![Global synkroniseringsstatus](/help/search-social-commerce/assets/global-sync-status.png "Global synkroniseringsstatus")).
 
@@ -85,6 +85,6 @@ Förklaringar av kolumnerna för portföljinställningar på fliken [!UICONTROL 
 
 >[!MORELIKETHIS]
 >
->* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
 >* [Skapa en portfölj](portfolio-create.md)
->* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
+>* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
