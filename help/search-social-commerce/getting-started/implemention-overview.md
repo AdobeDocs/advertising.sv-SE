@@ -1,11 +1,11 @@
 ---
 title: Översikt över hur man implementerar Search, Social och Commerce
-description: Läs
+description: Läs mer om det allmänna arbetsflödet för att starta och underhålla en portfölj.
 exl-id: c99dc029-81e4-4416-89b1-7cf8d66658b2
 feature: Search Getting Started
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Här följer det allmänna arbetsflödet för implementering och användning av 
 
    * Om kontona inte redan innehåller kampanjdata lägger du till kampanjer, annonsgrupper, nyckelord, annonser och placeringar inifrån Search, Social och Commerce eller inifrån annonsnätverket.
 
-     Mer information om hur du ställer in sökkampanjer finns i hjälpkapitlet om&quot;Campaign Management&quot;.
+     Mer information om hur du ställer in sökkampanjer finns i hjälpkapitlet om kampanjhantering.
 
 1. Ställ in spårning för alla annonser som du vill att Adobe Advertising ska spåra konverteringar för:
 
    1. (Om det behövs) Konfigurera klickspårning för annonser och eventuellt för nyckelord, [!DNL Google Ads]-placeringar och [!DNL Google Ads]-tillägg genom att generera och överföra klickspårnings-URL:er.
 
-      Klickspårnings-URL:er för annonsörer med den pixelbaserade konverteringsspårningstjänsten Adobe Advertising inkluderar en omdirigering till [!DNL Adobe]-servrar.
+      Klickspårnings-URL:er för annonsörer med Adobe Advertising pixelbaserade konverteringsspårningstjänst innehåller en omdirigering till [!DNL Adobe] servrar.
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att du lägger till taggar för konverteringsspårning på lämpliga webbsidor och/eller ställer in en daglig feed-släppning för konverteringsdata som du har samlat in med din egen metod.
 
@@ -58,7 +58,7 @@ Här följer det allmänna arbetsflödet för implementering och användning av 
 
 1. Konfigurera integreringar med ytterligare produkter:
 
-   1. (Annonsörer med Adobe Analytics och/eller Adobe Audience Manager) Konfigurera integreringar mellan olika konton så att Adobe Advertising kan utbyta data med dem.
+   1. (Advertisers with Adobe Analytics and/or Adobe Audience Manager) Konfigurera integreringar mellan olika konton så att Adobe Advertising kan utbyta data med dem.
 
       Se guiden om [Integreringar med Experience Cloud](/help/integrations/home.md).
 
@@ -108,4 +108,4 @@ Efter den första starten krävs följande pågående åtgärder. Beroende på d
 
    * Lägg till nya portfolior.
 
-Anvisningar om hur du övervakar portföljer och justerar portföljstrategier finns i hjälpunderkapitlet&quot;Optimering&quot; >&quot;Hantera Portfolio&quot; >&quot;Övervaka och hantera prestanda&quot;, som finns på [!UICONTROL Help]-menyn (![Hjälp-menyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälp-menyn")) i det övre högra hörnet på en sida i Sök, Sociala och Commerce.
+Instruktioner om hur du övervakar portföljer och justerar portföljstrategier finns i hjälpunderkapitlet&quot;Optimering&quot; >&quot;Hantera portföljer&quot; >&quot;Övervaka och hantera prestanda&quot;, som finns på [!UICONTROL Help]-menyn (![Hjälp-menyn](/help/search-social-commerce/assets/help-main-menu.png "Hjälp-menyn")) i det övre högra hörnet på en sida i Sök, Socialt och Commerce.

@@ -1,11 +1,11 @@
 ---
 title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
-description: Lär dig hur
+description: Lär dig konfigurera optimering och annonsplanering för upplevelser utan målinriktning.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: ad6f076e24d69cfa93b9306a33d9b0cd4c7e813e
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---

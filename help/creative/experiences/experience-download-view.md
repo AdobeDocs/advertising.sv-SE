@@ -1,11 +1,11 @@
 ---
 title: Hämta data från vyn [!UICONTROL Experiences]
-description: Lär dig hur
+description: Lär dig hur du exporterar metadata från vyn [!UICONTROL Experiences].
 feature: Creative Experiences
 exl-id: 8362ac34-0de8-4bed-873d-dc20f39946bf
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
