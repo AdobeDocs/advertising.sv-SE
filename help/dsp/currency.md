@@ -3,7 +3,7 @@ title: Valutor som stöds
 description: Se en lista över valutor som stöds.
 feature: DSP Custom Reports, DSP Campaign Data Views
 exl-id: 97d49cce-4438-40c4-94a4-e5d90ebaf651
-source-git-commit: 7f35b3f3b33ed320ac186d219cbd0f826666bb3b
+source-git-commit: 5fa4ba523b3036b8fc184dea082ae5a77ef71919
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%
@@ -12,14 +12,13 @@ ht-degree: 0%
 
 # Valutor som stöds i Adobe Advertising
 
-Adobe Advertising stöder följande valutor.
-
+Adobe Advertising har stöd för följande valutor.
 
 >[!NOTE]
 >
->Adobe Analytics stöder [en större uppsättning valutor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=sv-SE).
+>Adobe Analytics stöder [en större uppsättning valutor](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html).
 
-## DSP och kreativ
+## DSP och Creative
 
 | Code | Valutanamn |
 | ------ | -------------- |
