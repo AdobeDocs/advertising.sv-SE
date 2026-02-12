@@ -43,7 +43,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
 1. Bygg målgruppen:
 
-   <!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->För användare med betabehörighet är AI-alternativet standard. Om du vill [sätta ihop målgruppen själv](/help/dsp/audiences/reusable-audience-create.md) klickar du på knappen Växla till manuellt läge längst ned.
+   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->För användare med betabehörighet är AI-alternativet standard. Om du vill [sätta ihop målgruppen själv](/help/dsp/audiences/reusable-audience-create.md) klickar du på knappen Växla till manuellt läge längst ned.
 
    1. Ange en eller flera uppmaningar för att beskriva de målgruppsegenskaper som du vill inkludera och exkludera. Klicka på ![Skicka-fråga](/help/dsp/assets/submit-prompt.png "Skicka-fråga") om du vill skicka varje fråga.
 
