@@ -4,7 +4,7 @@ description: Lär dig hur du skapar återanvändbara målgrupper i Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 92fde92fa37f91ac2ac02c3386cbf7e811866899
+source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
 1. Bygg målgruppen:
 
-   &#x200B;<!-- When this becomes an open beta, it will be the default for everyone, and the steps will need to be updated accordingly. -->För användare med betabehörighet är AI-alternativet standard. Om du vill [sätta ihop målgruppen själv](/help/dsp/audiences/reusable-audience-create.md) klickar du på knappen Växla till manuellt läge längst ned.
+   För användare med betabehörighet är AI-alternativet standard. Om du vill [sätta ihop målgruppen själv](/help/dsp/audiences/reusable-audience-create.md) klickar du på knappen Växla till manuellt läge längst ned.
 
    1. Ange en eller flera uppmaningar för att beskriva de målgruppsegenskaper som du vill inkludera och exkludera. Klicka på ![Skicka-fråga](/help/dsp/assets/submit-prompt.png "Skicka-fråga") om du vill skicka varje fråga.
 
