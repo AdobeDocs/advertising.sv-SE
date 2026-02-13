@@ -4,9 +4,10 @@ description: Lär dig hur du skapar återanvändbara målgrupper i Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
+exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
+source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -28,6 +29,8 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 >[!NOTE]
 >
 >Funktionen är i betaläge och kan komma att ändras. Se till att det genererade målgruppsuttrycket representerar den målgrupp du vill ha innan du skapar målgruppen och använder det för dina placeringar.
+
+## Skapa en återanvändbar publik med generativ AI
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All Audiences]** på huvudmenyn.
 
@@ -57,7 +60,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
       Du kan ange &quot;gå&quot;, &quot;OK&quot;, &quot;ja&quot; eller något annat liknande ord.
 
-1. (Om det behövs) Ange ytterligare villkor. När AI-agenten presenterar ett målgruppsuttryck som uppfyller alla dina kriterier, ber du AI-agenten att fortsätta sätta ihop målgruppen.
+   1. (Om det behövs) Ange ytterligare villkor. När AI-agenten presenterar ett målgruppsuttryck som uppfyller alla dina kriterier, ber du AI-agenten att fortsätta sätta ihop målgruppen.
 
 1. När du är nöjd med den sammansatta målgruppen klickar du på **[!UICONTROL Create]** för att skapa den angivna målgruppen.
 
@@ -65,7 +68,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
    >
    >Du kan inte redigera målgruppen senare med AI-agenten. [Redigera i stället målgruppsuttrycket manuellt](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Skrivfrågor {#writing-prompts}
+## Grunderna för skrivfrågor {#writing-prompts}
 
 ### Vad ska en fråga innehålla?
 
@@ -119,12 +122,10 @@ Du kan också ignorera begäran och fortsätta att ange ytterligare målgruppskr
 
 #### AI-agentsvar som ber dig välja bland flera alternativ
 
-```
-Would you like to:
-1) Proceed with this expression,
-2) Get maximum reach alternatives, or
-3) Modify the expression manually?
-```
+`Would you like to:`
+`1) Proceed with this expression,`
+`2) Get maximum reach alternatives, or`
+`3) Modify the expression manually?`
 
 Ditt svar: `1`, `proceed`, `2`, `maximum reach` och så vidare.
 
@@ -136,9 +137,7 @@ En publikrapport är en strategisk beskrivning som definierar målgruppen för e
 
 ### Grundläggande komponenter i en effektiv målgruppssammanfattning
 
-#### Målgrupper
-
-Ta med så många attributtyper som möjligt från följande lista i din översikt. Specificera vilka attribut du vill utesluta.
+Ta med så många typer av målgruppsattribut som möjligt från följande lista i rapporten. Specificera vilka attribut du vill utesluta.
 
 <!-- What about these:
 
