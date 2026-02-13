@@ -4,9 +4,9 @@ description: Lär dig hur du skapar återanvändbara målgrupper i Adobe Adverti
 feature: DSP Audiences
 hidefromtoc: true
 hide: true
-source-git-commit: c632774e68069ab03f41fb9453a27c6fe63c8168
+source-git-commit: 86053178969de362dda0c135ff8c85b9ec9f674e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,8 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 ### Vad ska en fråga innehålla?
 
 * Använd tydligt och beskrivande språk för att beskriva målgruppen.
+
+  Vanligtvis är uppmaningar inte skiftlägeskänsliga och interpunktion krävs inte förutom för att skapa tydlighet.
 
 * Var tydlig och ange information om alla målgruppsegenskaper som du vill ta med och alla egenskaper som du vill utesluta. Ju mer information du anger, desto större chans får du att få de resultat som passar dina behov.
 
