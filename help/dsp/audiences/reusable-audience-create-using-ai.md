@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 4eefcca15d4f84152278e7680917b9daed15f45d
+source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -52,21 +52,23 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
       Mer information finns i [Skrivfrågor](#writing-prompts) och [Bästa metoder för att skapa en publiksammanfattning](#audience-brief-best-practices).
 
-      När AI-agenten hittar relevanta segment skapas ett målgruppsuttryck baserat på dina kriterier. Ni ombeds också godkänna innan ni söker efter matchande segment för att sätta ihop målgruppen.
+      Efterhand som målgruppsagenten hittar relevanta segment skapas ett målgruppsuttryck baserat på era kriterier. Ni ombeds också godkänna innan ni söker efter matchande segment för att sätta ihop målgruppen.
 
       Du kan även ignorera begäran och fortsätta att ange ytterligare målgruppskriterier i stället.
 
-   1. När AI-agenten presenterar ett målgruppsuttryck som beskriver er målgrupp på ett adekvat sätt, ska du be AI-agenten att fortsätta sätta ihop målgruppen.
+   1. När målgruppsagenten presenterar ett målgruppsuttryck som beskriver er målgrupp på ett adekvat sätt, kan du tala om för målgruppsagenten att fortsätta sätta ihop målgruppen.
 
       Du kan ange &quot;gå&quot;, &quot;OK&quot;, &quot;ja&quot; eller något annat liknande ord.
 
-   1. (Om det behövs) Ange ytterligare villkor. När AI-agenten presenterar ett målgruppsuttryck som uppfyller alla dina kriterier, ber du AI-agenten att fortsätta sätta ihop målgruppen.
+   1. (Om det behövs) Ange ytterligare villkor. När målgruppsagenten presenterar ett målgruppsuttryck som uppfyller alla dina kriterier, ska du be målgruppsanmälaren att fortsätta sätta ihop målgruppen.
+
+      Om du vill samla målgruppen anger du&quot;gå&quot;,&quot;OK&quot;,&quot;OK&quot;,&quot;Ja&quot; eller något annat liknande ord.
 
 1. När du är nöjd med den sammansatta målgruppen klickar du på **[!UICONTROL Create]** för att skapa den angivna målgruppen.
 
    >[!NOTE]
    >
-   >Du kan inte redigera målgruppen senare med AI-agenten. [Redigera i stället målgruppsuttrycket manuellt](/help/dsp/audiences/reusable-audience-edit.md).
+   >Du kan inte redigera målgruppen senare med målgruppsagenten. [Redigera i stället målgruppsuttrycket manuellt](/help/dsp/audiences/reusable-audience-edit.md).
 
 ## Grunderna för skrivfrågor {#writing-prompts}
 
@@ -74,7 +76,11 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
 * Använd tydligt och beskrivande språk för att beskriva målgruppen.
 
-  Vanligtvis är uppmaningar inte skiftlägeskänsliga och interpunktion krävs inte förutom för att skapa tydlighet.
+   * Du kan ange antingen fullständiga meningar eller bara en sträng med egenskaper. Interpunktion krävs inte utom när det är nödvändigt för tydlighet.
+
+   * Vanligtvis är uppmaningar inte skiftlägeskänsliga.
+
+   * Publiken känner igen de vanligaste synonymerna.
 
 * Var tydlig och ange information om alla målgruppsegenskaper som du vill ta med och alla egenskaper som du vill utesluta. Ju mer information du anger, desto större chans får du att få de resultat som passar dina behov.
 
@@ -83,6 +89,8 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 * Ange i stället information för att förfina kriterierna och det genererade målgruppsuttrycket innan du sparar målgruppen.
 
 * Läs om hur du får en fråga genom att experimentera.
+
+  Om frågan inte är tydlig begär målgruppsanmälaren bara en ny fråga så att du kan försöka igen.
 
   Publiken sparar inte automatiskt ett genererat målgruppsuttryck som en målgrupp. Du kan bara spara en målgrupp genom att klicka på knappen [!UICONTROL Create], som ligger utanför promptområdet, så att du kan ångra ändringar som du inte vill behålla.
 
@@ -108,11 +116,11 @@ you can give thumbs up or down to [what exactly?]. Verify what info is carried o
 
 * Text på andra språk än engelska.
 
-### Exempel på AI-agentsvar och hur man svarar
+### Exempel på svar från målgruppsanställda och hur man svarar
 
-När AI-agenten behöver ett svar från dig kan du svara med nyckelord i begäran eller med vanliga termer som är likvärdiga.
+När målgruppsagenten behöver ett svar från dig kan du svara med nyckelord i begäran eller med vanliga synonymer.
 
-#### AI-agentsvar som frågar dig
+#### Målgruppsagenten ställer en fråga
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
@@ -120,7 +128,7 @@ Dina bekräftande svar: &quot;gå vidare&quot;, &quot;okej&quot;, &quot;ok&quot;
 
 Du kan också ignorera begäran och fortsätta att ange ytterligare målgruppskriterier i stället.
 
-#### AI-agentsvar som ber dig välja bland flera alternativ
+#### Audience Agent ber dig välja bland flera alternativ
 
 `Would you like to:`
 `1) Proceed with this expression,`
