@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
+source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
 workflow-type: tm+mt
-source-wordcount: '2467'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,25 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Total Ad Clicks] | Summan av alla klick på en annons. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Viewed Minutes] | Det totala antalet minuter som en videoannons visades. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL Views] | Det totala antalet videoannonsvyer. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completion Rate] | (Anpassad Creative-rapport) Procentandel av visningar som tittade på annonsen i dess helhet. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 100% Completions] | (Anpassad Creative-rapport) Antalet visningar som tittade på annonsen i dess helhet. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completion Rate] | (Anpassad Creative-rapport) Procentandel av visningar som tittade på minst en fjärdedel av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 25% Completions] | (Anpassad Creative-rapport) Antalet visningar som tittade på minst en fjärdedel av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completion Rate] | (Anpassad Creative-rapport) Procentandel av visningar som tittade på minst två fjärdedelar av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 50% Completions] | (Anpassad Creative-rapport) Antalet visningar som tittade på minst två fjärdedelar av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completion Rate] | (Anpassad Creative-rapport) Procentandel av visningar som tittade på minst tre fjärdedelar av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL 75% Completions] | (Anpassad Creative-rapport) Antalet visningar som tittade på minst tre kvartilter av annonsen. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Avg Percent Viewed] | (Anpassad Creative-rapport) Den genomsnittliga procentandel en annons har bevakats tills den är klar, och alla vyer redovisas. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Play Rate] | (Anpassad Creative-rapport) Procentandel av visningar som resulterade i videovisningar. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Playtime per View] | (Anpassad Creative-rapport) Den genomsnittliga längden för en videovy, mätt i sekunder. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Mute] | (Anpassad Creative-rapport) Det totala antalet gånger som videon stängdes av. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Pause] | (Anpassad Creative-rapport) Det totala antalet gånger som videon pausades. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Resume] | (Anpassad Creative-rapport) Det totala antalet gånger som videon återupptogs efter pausning. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Rewind] | (Anpassad Creative-rapport) Det totala antalet gånger som videon spolades tillbaka. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Start] | (Anpassad Creative-rapport) Det totala antalet gånger som videon startades. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Video Unmute] | (Anpassad Creative-rapport) Det totala antalet gånger som videon togs bort. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Viewed Minutes] | (Anpassad Creative-rapport) Det totala antalet minuter en videoannons visades. |
+| [!UICONTROL Metrics] | [!UICONTROL Video] | [!UICONTROL Views] | (Anpassad Creative-rapport) Det totala antalet videoannonsvyer. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Avg. Player Width x Height] | Genomsnittlig spelarbredd och -höjd. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Impressions] | Det totala antalet visningar som kunde mätas med avseende på visningsbarhet. |
 | [!UICONTROL Metrics] | [!UICONTROL Viewability] | [!UICONTROL Measurable Rate (%)] | Procentandel av visningar som kunde mätas för visningsbarhet, beräknat som <code>[!UICONTROL Measurable Impressions] x 1000 / [!UICONTROL Impressions]</code>. |

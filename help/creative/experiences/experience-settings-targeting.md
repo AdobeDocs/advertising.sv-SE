@@ -3,7 +3,7 @@ title: Inställningar för riktade upplevelser
 description: Se beskrivningar av alla inställningar för riktade annonsupplevelser.
 feature: Creative Experiences
 exl-id: cb6fd855-6534-4eac-b34b-323073d186be
-source-git-commit: 867abdaea31c78214061c4a0fd8401877edfbe38
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] avsnitt
 
-**[!UICONTROL Ad Type]:** (Skrivskyddad för befintliga upplevelser) Den typ av annonser som ingår i upplevelsen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* eller *[!UICONTROL Video]*. När du väl har sparat upplevelsen kan du inte ändra annonstypen.
+**[!UICONTROL Ad Type]:** (Skrivskyddad för befintliga upplevelser) Den typ av annonser som ingår i upplevelsen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* eller *[!UICONTROL Display Video]*. När du väl har sparat upplevelsen kan du inte ändra annonstypen.
 
 **[!UICONTROL Advertiser]:** (Skrivskyddat för befintliga upplevelser) Annonsören som lägger bud på de kreativa kombinationer och målkombinationer som ingår i upplevelsen. När du väl har sparat upplevelsen kan du inte ändra annonsören.
 

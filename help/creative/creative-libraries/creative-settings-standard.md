@@ -3,9 +3,9 @@ title: Kreativa standardinställningar
 description: Referera inställningarna för standardkreatörer.
 feature: Creative Standard Creatives
 exl-id: 8eb66310-4860-4ca0-9678-a9e33639c529
-source-git-commit: ce716c8dca8410a121858944f0c044423d9dff78
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2106'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När du redigerar flera kreatörer samtidigt:
 
 **Språk:** Standardspråket för varje annons som du associerar med kreatörerna. När du överför eller redigerar flera användare används samma värde på alla valda kreatörer.
 
-**Creative-storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras storleken på dem.
+**Creative-storlek:** (skrivskyddat för befintliga kreatörer) Den kreativa personens dimensioner. Om några bilder som ingår i den kreativa filen är större än den angivna storleken ändras deras storlek.
 
 **[!UICONTROL Click Tags]:** Variablerna som tillåter klickspårning omdirigeras från de inkluderade bannerannonserna. Variabelnamnen och motsvarande URL:er för landningssidan fylls i från den överförda kreativa enheten, men du kan ändra standardwebbadresserna. För flera kreatörer kan du redigera de enskilda klicktaggarna.
 

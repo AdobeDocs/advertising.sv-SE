@@ -3,16 +3,16 @@ title: Om upplevelser i Advertising Creative
 description: Lär dig hur du konfigurerar personaliserade annonsupplevelser och optimerar annonselement baserat på prestanda.
 feature: Creative Experiences
 exl-id: 91d4b4e5-c646-4485-8149-89f41dc9c3e6
-source-git-commit: 39f77087769eda3cc200447aeb0a6d1648e23b42
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
 # Om upplevelser i Advertising Creative 2.0
 
-Varje annonsupplevelse kan innehålla en annonstyp (standardskärm, standardvideo eller dynamisk visning). [!DNL Advertising Creative 2.0] innehåller två olika annonsupplevelsestrukturer för annonserna i ett enda kreativt bibliotek.
+Varje annonsupplevelse kan innehålla en annonstyp (standardskärm, standardvideo, dynamisk visning eller dynamisk video). [!DNL Advertising Creative 2.0] innehåller två olika annonsupplevelsestrukturer för annonserna i ett enda kreativt bibliotek.
 
 * **Erfarenheter med målgruppsanpassning i beslutsträd:** [!DNL Creative] gör att du kan konfigurera personaliserade annonsupplevelser under hela kundresan med hjälp av en beslutsträdsmodell. Ni kan anpassa alla annonselement - bilder, rubriker, erbjudanden och landningssidor - baserat på målgruppen.
 

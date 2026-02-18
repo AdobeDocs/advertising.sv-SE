@@ -3,7 +3,7 @@ title: Inställningar för icke-målinriktade upplevelser
 description: Se beskrivningar av alla inställningar för annonsupplevelser utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: aeeca035-8ae2-4173-827a-b8690d228549
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: ace6005869ea4102878091c4799259961aeecb63
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## [!UICONTROL Experience basics] avsnitt
 
-**[!UICONTROL Ad Type]:** (Skrivskyddad för befintliga upplevelser) Den typ av annonser som ingår i upplevelsen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]* eller *[!UICONTROL Video]*. När du väl har sparat upplevelsen kan du inte ändra annonstypen.
+**[!UICONTROL Ad Type]:** (Skrivskyddad för befintliga upplevelser) Den typ av annonser som ingår i upplevelsen: *[!UICONTROL Standard Display]*, *[!UICONTROL Dynamic Display]*, *[!UICONTROL Standard Video]* eller *[!UICONTROL Display Video]*. När du väl har sparat upplevelsen kan du inte ändra annonstypen.
 
 **[!UICONTROL Advertiser]:** (Skrivskyddad för befintliga upplevelser) Annonsören som ska lägga bud på de kreatörer som ingår i upplevelsen. När du väl har sparat upplevelsen kan du inte ändra annonsören.
 

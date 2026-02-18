@@ -3,9 +3,9 @@ title: Hantera kreativa paket
 description: Lär dig hantera och använda grupper av kreatörer.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 0bcbd20437457ddafbd23969fbc48093e050ca2f
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1491'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 **I'll probably split this up into multiple pages since the creative-related topics are separate**
 -->
 
-Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en enhet. När du har skapat en paketbehållare kan du koppla kreatörer till paketet. Standarddisplaypaket kan bara innehålla standarddisplayannonser, standardvideopaket kan bara innehålla standardvideoannonser och dynamiska displaypaket kan bara innehålla dynamiska displayannonser. Du kan åsidosätta landningssidor, visningsspårningstaggar och klickspårningstaggar för alla kreatörer i ett paket som är tilldelat en upplevelse inifrån upplevelsebeslutsträdet, utan att det påverkar grundskaparna.
+Paket är grupper av kreatörer som du kan lägga till i en upplevelse som en enhet. När du har skapat en paketbehållare kan du koppla kreatörer till paketet. Standardvisningspaket kan bara innehålla standardannonser, standardvideopaket kan bara innehålla standardvideoannonser, dynamiska visningspaket kan bara innehålla dynamiska displayannonser och dynamiska videopaket kan bara innehålla dynamiska videoannonser. Du kan åsidosätta landningssidor, visningsspårningstaggar och klickspårningstaggar för alla kreatörer i ett paket som är tilldelat en upplevelse inifrån upplevelsebeslutsträdet, utan att det påverkar grundskaparna.
 
 [!DNL Creative] roterar genom de kreativa i paketet enligt inställningarna för varje upplevelse som paketet är tilldelat till. Du kan också tillåta [!DNL Creative] att optimera annonselementen för alla upplevelser baserat på prestanda med algoritmisk annonrotation, som drivs av [!DNL Adobe AI].
 
@@ -38,7 +38,7 @@ Du kan bifoga ett kreativt program till flera paket.
 
 1. Klicka på **[!UICONTROL Create]** > **[!UICONTROL Bundles]** > **[!UICONTROL Bundle]** i det övre högra hörnet.
 
-1. Ange en unik **[!UICONTROL Bundle Name]** och **[!UICONTROL Bundle Type]:** *standardvisning* (för standardbildskärmskreatörer), *dynamisk visning* (för dynamiskt bildskärmsskapare), *standardvideo* (för standardvideokreatörer).
+1. Ange en unik **[!UICONTROL Bundle Name]** och **[!UICONTROL Bundle Type]:** *standardvisning* (för standardbildskärmskreatörer), *dynamisk visning* (för dynamiskt bildskärmsskapare), *standardvideo* (för standardvideokreatörer) eller *Dynamic Video* (för dynamiska videokreatörer).
 
 1. Klicka på **[!UICONTROL Create]**.
 
@@ -102,7 +102,7 @@ Du kan bifoga ett kreativt program till flera paket.
 
 ## Koppla samman kreatörer i ett paket
 
-Du kan koppla befintliga designers av standardskärmar till ett standardpaket för visning, standardvideoklipp till standardvideopaket och designers av dynamiska skärmar till ett dynamiskt paket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\].
+Du kan koppla befintliga designers till ett standardpaket för visning, standardvideoklipp till standardvideopaket, dynamiska bildskärmskreatörer till ett dynamiskt paket samt dynamiska videoklipp till ett videopaket. Genom att bifoga ett kreativt innehåll i ett paket blir det kreativa tillgängliga i alla upplevelser som paketet är avsett för. Varje paket kan bara innehålla en av varje kombination av \[kreativ storlek eller längd + språk\].
 
 >[!NOTE]
 >

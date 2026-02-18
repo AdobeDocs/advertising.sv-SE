@@ -2,9 +2,10 @@
 title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
+source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -59,9 +60,11 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
 1. Ange [dynamiska annonsinställningar](/help/creative/creative-libraries/creative-settings-dynamic.md):
 
-   1. Ange grundläggande annonsinformation.
+   1. Ange grundläggande annonsinformation, inklusive den kreativa typen.
 
    1. Välj annonsmallen som ska användas för kreatörerna.
+
+      Använd en HTML5-annonsmall för webbannonser och en videoreklammall för videoannonser.
 
    1. Välj den katalog från vilken annonserna ska skapas.
 

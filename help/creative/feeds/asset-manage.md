@@ -2,17 +2,21 @@
 title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
-source-git-commit: af29637d42b9932933cd23a64d6a0e2b7084fa31
+exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Hantera resursfiler
 
-Dynamiska annonser i HTML5 kräver både en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX) och de bildresurser som kalkylbladet refererar till. Statiska HTML5-annonser kräver endast en enda bildresurs per annons.
+* Dynamiska HTML5-annonser kräver en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX) och de faktiska bildresurserna som kalkylbladet refererar till.
 
+* Statiska HTML5-annonser kräver endast en enda bildresurs per annons.
+
+* Videoannonser kräver en flödesfil i Microsoft Excel-kalkylbladsformat (XLSX) och de faktiska videoresurserna som kalkylbladet refererar till.
 
 >[!NOTE]
 >
@@ -35,6 +39,18 @@ Dynamiska annonser i HTML5 kräver både en feed-fil i Microsoft Excel-kalkylbla
    * En bildresurs per annons i GIF-, JPG-, JPEG- eller PNG-format.
 
      Du kan överföra en eller flera bilder i en ZIP-fil.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
+
+* Dynamiska videoannonser:
+
+   * En flödesfil i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX), med en rubrikrad och en datarad för varje annonsvariant. Inkludera ett videonamn i varje rad med formatet `videos/image_name` (till exempel `videos/300x250_acme_logo.png`). ZIP-filen kan vara högst 512 MB med högst 500 rader.
+
+     Annonsörsspecifika fältnamn måste mappa till de [tillgängliga fälten för dynamiska annonsflödesfiler](/help/creative/appendix-available-feed-fields.md).
+
+     För alla konton med dynamiska videoklipp är det bästa sättet att [skapa en katalog](catalog-manage.md) med resursfilen tillsammans med en kopia av [huvudflödesmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md) där du mappar varje fält i resursfilen till ett fält på Advertising Creative-serverdelen.
+
+   * De associerade videoresurserna i MP4-, MOV- eller WEBM-format. Bland annonsmallarna finns startkort, slutkort, övertäckning, bottenövertäckning och L-formade. Varaktigheten för varje video måste vara mellan 1 och 90 sekunder. Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
+
+  Du kan överföra en enskild XLSX-fil, en enda bildfil eller en enskild ZIP-fil som innehåller valfri kombination av XLSX- och videofiler.<!-- Check w/eng re any limitations or best practices WRT number of files and filesize allowed -->
 
 ## Överföra en resursfil
 

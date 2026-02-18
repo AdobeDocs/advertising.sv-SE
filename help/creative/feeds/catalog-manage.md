@@ -2,18 +2,25 @@
 title: Hantera flödeskataloger
 description: Lär dig hantera flödeskataloger.
 feature: Creative Dynamic Creatives
-source-git-commit: 31651c4e30d22b4d1639ef3fc05d5ff9e02dd040
+exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # Hantera flödeskataloger
 
-Bearbetade flödeskataloger är uppsättningar med potentiella annonsvariationer som skapas från en angiven feedfil och en angiven feedmall. Dynamiska HTML5-annonser, men inte statiska HTML5-annonser, kräver en katalog för att skapa dynamiska annonser.
+Bearbetade flödeskataloger är uppsättningar med potentiella annonsvariationer som skapas från en angiven feedfil och en angiven feedmall. Dynamiska HTML5- och videoannonser, men inte statiska HTML5-annonser, kräver en katalog för att skapa dynamiska annonser.
 
 Bearbeta katalogen innan du kan skapa annonsvariationer och [lägga till dynamiska annonser i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md). Du kan uppdatera feed-filen senare och bearbeta om katalogen för att skapa en ny uppsättning annonsvariationer.<!-- I should list somewhere what happens when you add, update, or remove: I don't think we rewrite existing ads in the creative library, but only add to them. -->
+
+Varje feed-fil kan bearbeta upp till 500 rader med videomaterial.
+
+>[!TIP]
+>
+>För alla konton med dynamiska videoklipp är det bästa sättet att [hämta huvudflödesmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappa varje fält i resursfilen till ett fält på Advertising Creative serverdel och sedan byta namn på och överföra flödesmallen. Skapa en katalog med den nya feed-mallen, tillsammans med resursfilen.
 
 ## Skapa en katalog {#feed-catalog-create}
 

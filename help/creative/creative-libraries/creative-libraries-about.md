@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: a1ca7815334b35de8f9ab5781e53e6b6aa5f4770
+source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Biblioteken kan innehålla:
 
    * **Dynamiska kreatörer:** Du kan skapa dynamiskt genererade kreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Alla användare kan förhandsgranska, duplicera och ta bort befintliga dynamiska annonser.
 
-* **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser och *dynamiska visningspaket* som består av dynamiskt genererade displayannonser.
+* **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser, *dynamiska visningspaket* som består av dynamiskt genererade displayannonser och *dynamiska videopaket* som består av dynamiskt genererade videoannonser.
 
 ## Creative-format som stöds {#creative-creative-formats}
 
@@ -51,7 +51,7 @@ Standardannonser:
 
 ##### HTML5 kreatörer
 
-* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [visningsannons](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home) som enskilda HTML5-kreatörer. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
+* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [visningsannons](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) som enskilda HTML5-kreatörer. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
 
   När du har importerat en GenStudio-upplevelse kan du redigera metadata (namn, språk, taggar) för det importerade kreativa innehållet men inte för det kreativa innehållet. Om du redigerar GenStudio-upplevelsen i GenStudio måste du importera om upplevelsen i [!DNL Creative] för att använda den senaste versionen.
 
@@ -77,9 +77,9 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 #### Videoredigerare {#creative-video-specs}
 
-Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje standardvideoreklamupplevelse krävs en standardvideoredigerare för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
+Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje videoreklamupplevelse krävs en standardvideokreativ för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
@@ -109,7 +109,17 @@ Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupple
 
 ### Format för dynamiska annonser
 
-Du kan dynamiskt generera kreatörer i statiskt HTML5- och dynamiskt HTML5-format genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer som har migrerat från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
+Du kan dynamiskt generera visnings- eller videokreatörer genom att mappa dynamiska variabler i en annonsmall till värden i en feed-fil. Dynamiska kreatörer kan inkludera kreatörer som har migrerat från era gamla Adobe Advertising Dynamic Creative Optimization-upplevelser (DCO).
+
+#### Dynamiska webbkreatörer
+
+De som skapar dynamiska bildskärmar har HTML5-format med bilder i GIF-, JPG-, JPEG- eller PNG-format.
+
+#### Dynamiska videokreatörer
+
+Dynamiska videokreatörer inkluderar videofiler med samma specifikationer som vanliga videokreatörer. Se &quot;[Videokreatörer](#creative-video-specs)&quot;.
+
+Bland annonsformaten som stöds finns startkort, slutkort, övertäckning för överkant, övertäckning för underkant eller L-formad.
 
 ## [!UICONTROL Creative Libraries]-vyerna
 

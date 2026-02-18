@@ -2,9 +2,10 @@
 title: Redigera en dynamisk kreatör i ett kreativt bibliotek
 description: Lär dig hur du redigerar en dynamisk kreativ i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
-source-git-commit: f0bbbfb528000babbcb2c4c6915b62e81f477bda
+exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ ht-degree: 0%
 
    * Ändra innehållet:
 
-      * Om du vill redigera värdet för en cell i tabellen klickar du inuti cellen och redigerar värdet. Klicka utanför cellen eller tryck på **[!DNL Enter]** om du vill spara ändringarna.
+      * (Endast Visa annonser) Om du vill redigera värdet för en cell i tabellen klickar du inuti cellen och redigerar värdet. Klicka utanför cellen eller tryck på **[!DNL Enter]** om du vill spara ändringarna.
 
       * Om du vill markera en enskild produkt som standard <!--Explain what this means. --> håller du pekaren över raden och klickar på **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 

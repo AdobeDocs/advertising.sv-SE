@@ -2,9 +2,10 @@
 title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
-source-git-commit: e7642f11503ebb972d23fe6d28020b3b198657b0
+exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -13,61 +14,49 @@ ht-degree: 0%
 
 <!-- add a description -->
 
-<!-- This looks the same for me for either HTML5 type as of 9/24:
-
-## Dynamic ad settings for static HTML5 ads {#dynamic-ad-settings-static-html5}
-
-### Basic Details
-
-**[!UICONTROL Advertiser]:** The advertiser for which to create the ads.
-
-**[!UICONTROL Library]:** The creative library in which to create the ads.
-
-**[!UICONTROL Dynamic Ad Name]:** A unique name for the creative.
-
-**[!UICONTROL Ad Template Size]:** The ad dimensions for the ad template from which to create the ad. If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template Type]:** The type of ad template from which to create the ad: *[!UICONTROL Static HTML5]* or *[!UICONTROL Dynamic HTML5]*.  If you first select a specific [!UICONTROL Ad Template], then this value is automatically selected.
-
-**[!UICONTROL Ad Template]:** The ad template from which to create the ad.
-
-**[!UICONTROL clickURL]:** A valid landing page URL to which users are redirected when they click the ad.
-
-### [!UICONTROL Attributes Details]
-
--->
-
 ## Dynamiska annonsinställningar<!-- for dynamic HTML5 ads {#dynamic-ad-settings-dynamic-html5}-->
 
 <!-- add a description -->
 
 ### Grundläggande information
 
-**[!UICONTROL Dynamic Ad Name]:** Ett unikt namn för den kreativa.
+**[!UICONTROL Creative Type]:** Om den kreativa delen är en *[!UICONTROL Display]* annons (HTML5) eller en *[!UICONTROL Video]* annons.
 
-**[!UICONTROL Advertiser]:** Annonsören som annonserna ska skapas för.
+**[!UICONTROL Dynamic Display Ad Name]** eller **[!UICONTROL Dynamic Video Ad Name]:** Ett unikt namn för den kreativa.
+
+**[!UICONTROL Advertiser]:** Annonsören som annonserna ska skapas för. Om du skapar annonserna inifrån [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] är annonsören redan markerad och skrivskyddad.
 
 **[!UICONTROL Library]:** Det kreativa bibliotek där annonserna ska skapas. Om du skapar annonserna inifrån [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] är biblioteksnamnet redan markerat och skrivskyddat.
 
-**[!UICONTROL Ad Template Size]:** [annonsdimensionerna](/help/creative/creative-libraries/creative-sizes.md) för annonsmallen som annonsen ska skapas från. Om du först väljer en specifik [!UICONTROL Ad Template] markeras värdet automatiskt.
+**[!UICONTROL Ad Template Size]:** (Endast dynamiska displayannonser) [annonsdimensionerna](/help/creative/creative-libraries/creative-sizes.md) för annonsmallen som annonsen ska skapas från. Om du först väljer en specifik [!UICONTROL Ad Template] markeras värdet automatiskt.
 
 ## Annonsmall
 
-**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall och välj malltypen (*Statisk* eller *Dynamisk*). En överförd mall måste vara i ZIP-format och innehålla HTML5-filer och malldefinitionsfil (template.TDF). <!-- Need to add more specs for that -->
+**[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall och välj malltypen (*Statisk* eller *Dynamisk*). Mallen måste vara i ZIP-format och innehålla:<!-- Need to add more specs for templates -->
 
-**[!UICONTROL Number of offers (Max 50)]:** Antalet produkter som ska visas i en karusell.
+* Visningsalternativ: HTML5-filer med önskat annonsformat och (endast dynamiska HTML5-annonser) en fil med annonsattributen (.tdf)
+
+* Videoredigerare: En .scene-fil med önskat annonsformat. ZIP-filen kan vara högst 512 MB.
+
+Klicka på **[!UICONTROL Select Ad Template]** om du vill fortsätta.
+
+**[!UICONTROL Card Count (Max 50)]:** (Endast displayannonser) Antalet produkter som ska visas i en karusell.
+
+**[!UICONTROL Duration]:** (Endast videoannonser, skrivskyddad) Den videouppspelning som härleds från den valda annonsmallen. Varaktigheten för varje video måste vara mellan 1 och 90 sekunder.
 
 ## Kataloger
 
 **[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.
 
-**\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen.
+**\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen. Klicka på **[!UICONTROL Select Catalog]**.
 
 Överförda kataloger måste vara i ZIP-format och innehålla följande:
 
-* En eller flera feed-filer i CSV-, TSV- eller Microsoft Excel-kalkylarksformat (XLSX). Den maximala filstorleken är 512 MB.<!-- Need to add more specs for the feed files -->
+* (Dynamiska displayannonser och videoannonser) En eller flera flödesfiler i CSV-, TSV- eller Microsoft Excel-kalkylbladsformat (XLSX). Den maximala filstorleken är 512 MB.<!-- Need to add more specs for the feed files -->
 
-* Bildresurser i GIF-, JPEG-, JPG- eller PNG-format
+* (Visningsannonser) Bildresurser i GIF-, JPEG-, JPG- eller PNG-format
+
+* (Videoannonser) Videomaterial i MP4-, MOV- eller WEBM-format. Bland annonsmallarna finns startkort, slutkort, övertäckning, bottenövertäckning och L-formade. Varaktigheten för varje video måste vara mellan 1 och 90 sekunder.
 
 ### [!UICONTROL Attributes Mapping]
 

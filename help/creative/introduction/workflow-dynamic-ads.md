@@ -2,9 +2,10 @@
 title: Arbetsflöden för dynamiska annonser
 description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: 0d7a7ab23173a061961c4b5c66ace5b69a746e86
+exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
+source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -27,10 +28,10 @@ Du kan konfigurera dynamiska annonser på två sätt:
 
 >[!PREREQUISITES]
 >
->* Lägg till mallar i HTML5-format
+>* Annonsmallar: En mall för visningsannonser (en ZIP-fil med HTML5-filer) eller en videoannonsmall (en ZIP-fil med en .scene-fil)
 >* Produktkataloger i CSV-, TSV- eller Microsoft Excel-format (XLSX)
 
-1. [Skapa dynamiska kreatörer](/help/creative/creative-libraries/creative-add-dynamic.md) för ett kreativt bibliotek. Ladda upp en annonsmall och kataloger för dynamiska annonser i HTML5.
+1. [Skapa dynamiska kreatörer](/help/creative/creative-libraries/creative-add-dynamic.md) för ett kreativt bibliotek. Om du vill ha dynamiska annonser för HTML5 och video överför eller väljer du en befintlig annonsmall och katalog.
 
 1. Använd de dynamiska kreatörerna för annonsupplevelser:
 
@@ -44,19 +45,23 @@ Du kan konfigurera dynamiska annonser på två sätt:
 
 ## Arbetsflöde 2
 
-1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser. Annonsmallen innehåller en HTML5-fil med önskat annonsformat och (endast dynamiska HTML5-annonser) en fil med annonsattributen.
+1. [Skapa en annonsmall](/help/creative/ad-templates/ad-template-manage.md) för dina dynamiska annonser baserat på tillgängliga resurser. Annonsmallen måste vara i ZIP-format och innehålla:<!-- Need to add more specs for templates -->
+
+* Visningsalternativ: HTML5-filer med önskat annonsformat och (endast dynamiska HTML5-annonser) en fil med annonsattributen (.tdf)
+
+* Videoredigerare: En .scene-fil med önskat annonsformat och en fil med annonsattributen (.tdf)
 
 1. Konfigurera era annonselement:
 
    * (För enstaka statiska HTML5-annonser) Samla in och [ladda upp bildresurserna](/help/creative/feeds/asset-manage.md) för dina annonser.
 
-   * (För dynamiska HTML5-annonser) Skapa kataloger av dina annonselement:
+   * (För dynamiska HTML5- och videoannonser) Skapa kataloger med dina annonselement:
 
-      1. Skapa en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX), med en rad för varje annonsvariant. Inkludera ett bildnamn i varje rad. Samla in associerade bildresurser separat.
+      1. Skapa en feed-fil i Microsoft Excel-kalkylbladsformat (XLSX), med en rad för varje annonsvariant. Inkludera ett bild- eller videonamn i varje rad. Samla in tillhörande bild- och videomaterial separat.
 
-      1. [Överför feeden och bildresurserna](/help/creative/feeds/asset-manage.md).
+      1. [Överför feedsfilen och resurserna](/help/creative/feeds/asset-manage.md).
 
-      1. [Skapa en feed-mall](/help/creative/feeds/feed-template-manage.md) för att mappa fälten i din feed-fil (kalkylblad) till fält i Advertising Creative serverdel.
+      1. [Skapa en feed-mall](/help/creative/feeds/feed-template-manage.md) för att mappa fälten i din feed-fil (kalkylblad) till fält i Advertising Creative serverdel. Du kan även hämta och fylla i mallflödesmallar med fält som är relevanta för butik<!-- and what is the creative template?-->.
 
       1. [Skapa en katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-create) från en angiven feed-fil och en angiven feed-mall och [bearbeta sedan katalogen](/help/creative/feeds/catalog-manage.md#feed-catalog-process) för att se vilka annonsvariationer som kan skapas från den.
 
