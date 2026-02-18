@@ -3,7 +3,7 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: ab5d16d5132be59d2e902533155502c830c04bea
+source-git-commit: 9eb020f9cb243dc4cf38adbc5af7f723439797d2
 workflow-type: tm+mt
 source-wordcount: '2467'
 ht-degree: 0%
@@ -49,7 +49,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Vendor] | Leverantören av webbläsaren där annonsen visades (till exempel Google eller Mozilla). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser Version] | Den version av webbläsaren där annonsen visades (till exempel [!UICONTROL Safari 4.3] eller [!UICONTROL Chrome 7.0]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Browser] | Webbläsaren som annonsen visades i (till exempel [!UICONTROL Chrome] eller [!UICONTROL Firefox]). |
-| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Environment] | Anger om annonsen visades på *[!UICONTROL sites]* eller *[!UICONTROL Apps]*. |
+| [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Device Environment] | Enhetsmiljöerna som placeringen har som mål: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* och/eller *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Hardware] | Den typ av enhet som annonsen visades på (till exempel [!UICONTROL Set Top Box] eller [!UICONTROL Mobile Phone]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Manufacturer] | Tillverkaren av den enhet som annonsen visades på (till exempel [!UICONTROL Samsung], [!UICONTROL Lenovo] eller [!UICONTROL Apple]). |
 | [!UICONTROL Dimension] | [!UICONTROL Device] | [!UICONTROL Model] | Modellen för den enhet på vilken annonsen visades (till exempel [!UICONTROL iPhone XS] eller [!UICONTROL Galaxy Note 7]). |
@@ -102,7 +102,6 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Name] | Namnet på placeringen som tilldelats av användaren. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Budget] | Placeringsbudgeten. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Max Bid] | Det högsta anbudet för placeringen. |
-| [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Device Environment] | Enhetsmiljöerna som placeringen har som mål: (*[!UICONTROL Desktop]*, *[!UICONTROL Mobile]* och/eller *[!UICONTROL Connected TV])*. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement End Date] | Placeringens slutdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Start Date] | Placeringens startdatum. |
 | [!UICONTROL Dimension] | [!UICONTROL Placement] | [!UICONTROL Placement Tags] | Placeringstaggen som används som en anpassad identifierare för placeringen. |
@@ -115,6 +114,7 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Segment] | [!UICONTROL Segment Membership Provider Name] | Namnet på den DataProvider som är associerad med ett segment. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site ID] | Unik identifierare för webbplatsen eller appen i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Site Name] | Platsens namn. |
+| [!UICONTROL Dimension] | [!UICONTROL Site] | [!UICONTROL Traffic Type] | Anger om annonsen visades på *[!UICONTROL sites]* eller *[!UICONTROL Apps]*. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Duration] | Videolängden, som bearbetas efter överföringen. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video ID] | Den unika identifieraren för videokreativiteten i DSP. |
 | [!UICONTROL Dimension] | [!UICONTROL Video] | [!UICONTROL Video Name] | Namnet på den kreativa som tilldelats av användaren. |
