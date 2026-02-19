@@ -3,9 +3,9 @@ title: Hantera flödesmallar
 description: Lär dig hur du hanterar flödesmallar.
 feature: Creative Dynamic Creatives
 exl-id: 63f8af87-639c-45c8-b17f-99ce19594d35
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 <!-- We have a finite set of supported fields on the backend. I need to include that info in an appendix. -->
 
-Flödesmallar mappar fält i dina matningsfiler/kataloger med fält på Advertising Creative-serverdel. Dynamiska HTML5- och videoannonser, men inte statiska HTML5-annonser, kräver en matningsmall för att skapa dynamiska annonser. Du kan även hämta och fylla i mallflödesmallar ([!UICONTROL Retail] och [!UICONTROL Adobe Creative Template]).
+Flödesmallar mappar fält i dina matningsfiler/kataloger med fält på Advertising Creative-serverdel. Dynamiska HTML5- och videoannonser, men inte statiska HTML5-annonser, kräver en matningsmall för att skapa dynamiska annonser. Du kan även hämta och fylla i universella feed-mallar ([!UICONTROL Retail] för butikskampanjer och [!UICONTROL Adobe Creative Template] för alla kampanjtyper).
 
 Du kan använda en feed-mall med flera annonsmallar.
 
 >[!TIP]
 >
->För alla konton med dynamiska videoklipp är det bästa sättet att [hämta huvudflödesmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappa varje fält i resursfilen till ett fält på Advertising Creative serverdel och sedan byta namn på och överföra flödesmallen. Använd den nya feed-mallen tillsammans med resursfilen för att [skapa en katalog](catalog-manage.md).
+>För alla konton med dynamiska videoklipp är det bästa sättet att [hämta den universella matningsmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappa varje fält i resursfilen till ett fält på Advertising Creative serverdel och sedan byta namn på och överföra matningsmallen. Använd den nya feed-mallen tillsammans med resursfilen för att [skapa en katalog](catalog-manage.md).
 
 ## Skapa en flödesmall
 
@@ -104,7 +104,7 @@ Minst ett matningsfilfält måste markeras som [!UICONTROL Is Unique]. Klicka p�
 
 **[!UICONTROL Is Unique]:** Anger att fältet är ett unikt ID (nyckel). Minst ett fält per feed-mall måste vara unikt. Om du vill välja det här alternativet klickar du på knappen för att flytta det åt höger.<!-- **Note: The unique identifier is different from the feed "trigger" in experience settings. -->
 
-**[!UICONTROL Backend Field]:** Fältet [&#x200B; på Advertising Creative backend](/help/creative/appendix-available-feed-fields.md) som mappar till den angivna [!UICONTROL Field Name] i feed-filen.
+**[!UICONTROL Backend Field]:** Fältet [ på Advertising Creative backend](/help/creative/appendix-available-feed-fields.md) som mappar till den angivna [!UICONTROL Field Name] i feed-filen.
 
 >[!MORELIKETHIS]
 >

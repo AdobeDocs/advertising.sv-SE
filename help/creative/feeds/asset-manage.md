@@ -3,7 +3,7 @@ title: Hantera resursfiler
 description: Lär dig hur du överför och hanterar resursfiler för en annonsörer.
 feature: Creative Dynamic Creatives
 exl-id: 2fe2d778-8456-490a-bf44-234dbc08649f
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 
      Annonsörsspecifika fältnamn måste mappa till de [tillgängliga fälten för dynamiska annonsflödesfiler](/help/creative/appendix-available-feed-fields.md).
 
-     För alla konton med dynamiska videoklipp är det bästa sättet att [skapa en katalog](catalog-manage.md) med resursfilen tillsammans med en kopia av [huvudflödesmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md) där du mappar varje fält i resursfilen till ett fält på Advertising Creative-serverdelen.
+     För alla konton med dynamiska videoklipp är det bästa sättet att [skapa en katalog](catalog-manage.md) med resursfilen tillsammans med en kopia av den [universella feed-mallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), där du mappar varje fält i resursfilen till ett fält på Advertising Creative-serverdelen.
 
    * De associerade videoresurserna i MP4-, MOV- eller WEBM-format. Bland annonsmallarna finns startkort, slutkort, övertäckning, bottenövertäckning och L-formade. Varaktigheten för varje video måste vara mellan 1 och 90 sekunder. Se de [kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md).
 

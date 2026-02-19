@@ -3,9 +3,9 @@ title: Arbetsflöden för dynamiska annonser
 description: Läs mer om arbetsflödena för hantering av dynamiska annonser.
 feature: Creative Dynamic Creatives
 exl-id: eb1cdfbc-9514-4530-a50a-3ae6f6247662
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Du kan konfigurera dynamiska annonser på två sätt:
 
       1. [Överför feedsfilen och resurserna](/help/creative/feeds/asset-manage.md).
 
-      1. [Skapa en feed-mall](/help/creative/feeds/feed-template-manage.md) för att mappa fälten i din feed-fil (kalkylblad) till fält i Advertising Creative serverdel. Du kan även hämta och fylla i mallflödesmallar med fält som är relevanta för butik<!-- and what is the creative template?-->.
+      1. [Skapa en feed-mall](/help/creative/feeds/feed-template-manage.md) för att mappa fälten i din feed-fil (kalkylblad) till fält i Advertising Creative serverdel. Du kan även hämta och fylla i en universell feed-mall med fält som är relevanta för alla kampanjtyper.
 
       1. [Skapa en katalog](/help/creative/feeds/catalog-manage.md#feed-catalog-create) från en angiven feed-fil och en angiven feed-mall och [bearbeta sedan katalogen](/help/creative/feeds/catalog-manage.md#feed-catalog-process) för att se vilka annonsvariationer som kan skapas från den.
 

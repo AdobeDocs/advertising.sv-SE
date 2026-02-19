@@ -3,7 +3,7 @@ title: Hantera flödeskataloger
 description: Lär dig hantera flödeskataloger.
 feature: Creative Dynamic Creatives
 exl-id: d3ee20ba-5359-4dbe-bc76-269dc800843c
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: ad7d2b02103b5a45dadcd51b60621c31e9db0d29
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Varje feed-fil kan bearbeta upp till 500 rader med videomaterial.
 
 >[!TIP]
 >
->För alla konton med dynamiska videoklipp är det bästa sättet att [hämta huvudflödesmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappa varje fält i resursfilen till ett fält på Advertising Creative serverdel och sedan byta namn på och överföra flödesmallen. Skapa en katalog med den nya feed-mallen, tillsammans med resursfilen.
+>För alla konton med dynamiska videoklipp är det bästa sättet att [hämta den universella matningsmallen [!UICONTROL Adobe Creative Template]](feed-template-manage.md), mappa varje fält i resursfilen till ett fält på Advertising Creative serverdel och sedan byta namn på och överföra matningsmallen. Skapa en katalog med den nya feed-mallen, tillsammans med resursfilen.
 
 ## Skapa en katalog {#feed-catalog-create}
 
