@@ -3,9 +3,9 @@ title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 8a304eb74549ca1a81257e9f672d311d39987b79
+source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 
       * Ändra innehållet:
 
-         * Om du vill redigera värdet för en cell i tabellen klickar du inuti cellen och redigerar värdet. Klicka utanför cellen eller tryck på **[!DNL Enter]** om du vill spara ändringarna.
+         * (Endast Visa annonser) Om du vill redigera värdet för en cell i tabellen klickar du inuti cellen och redigerar värdet. Klicka utanför cellen eller tryck på **[!DNL Enter]** om du vill spara ändringarna.
 
          * Om du vill markera en enskild produkt som standard <!--Explain what this means. --> håller du pekaren över raden och klickar på **[!UICONTROL ...]** > **[!UICONTROL Set as Default]**.
 
