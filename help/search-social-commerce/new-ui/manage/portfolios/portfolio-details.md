@@ -3,9 +3,10 @@ title: (Nytt användargränssnitt) Visa information om portföljprestanda
 description: Lär dig hur du visar information om portföljens prestanda, inklusive faktiska och förväntade värden på portföljnivå och för varje tilldelad kampanj.
 feature: Search Portfolios, Search Optimization
 hide: true
-source-git-commit: 62de95d7e3d21ae6c7f0a6f40e97352af71411e1
+exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
+source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -82,6 +83,8 @@ Vyn Portföljinformation innehåller följande information om en portfölj:
 
    * Om du vill visa data för en punkt i diagrammet håller du markören över punkten.
 
+1. Klicka på **[!UICONTROL Download report]**.
+
 ## Visa kampanjerna i portföljen
 
 * Klicka på fliken **[!UICONTROL Campaigns]**.
@@ -104,8 +107,16 @@ Vyn Portföljinformation innehåller följande information om en portfölj:
 
 Mer information om portföljinställningarna finns i Optimeringsguiden som du når via Sök, Socialt och Commerce.
 
+## Ladda ned rapporter om portföljens prestanda och listor över portföljkomponenterna
+
+1. Klicka på **[!UICONTROL Download report]** i verktygsfältet.
+
+1. Markera kryssrutan bredvid varje resultatrapport och portföljkomponenttyp som ska inkluderas.
+
+   För vissa resultatrapporter kan du välja om du vill hämta data som en kundvagn eller som en tabell.
+
 >[!MORELIKETHIS]
 >
->* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
->* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
+>* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
