@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Klicka på **[!UICONTROL Save]**.
 
-# Överför kontodata till en [!DNL Amazon] [!DNL S3]-bucket {#data-upload-s3}
+&#x200B;# Överför kontodata till en [!DNL Amazon] [!DNL S3]-bucket {#data-upload-s3}
 
 Du kan fylla i ett konto med kampanjinnehåll och kostnads-, klicknings- och konverteringsdata genom att överföra data till en mapp som tilldelats av Search, Social och Commerce i en [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])-bucket.
 
