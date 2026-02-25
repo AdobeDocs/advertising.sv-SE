@@ -3,16 +3,14 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 304b3589109fe9ddf4d2f0df84c7fa45aa3726d2
+source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
 workflow-type: tm+mt
-source-wordcount: '2078'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
 
 # Hantera och nätverkskonton
-
-<!-- Probably need to change the page title. If I update the filename, get B. to create a redirect to the new URL. -->
 
 Nedan följer instruktioner om hur du skapar och redigerar information om nätverkskonton, uppdaterar token [!DNL oAuth] för ett konto och inaktiverar konton.
 
@@ -21,6 +19,8 @@ Nedan följer instruktioner om hur du skapar och redigerar information om nätve
 <!-- Also update Description metadata to "Learn how to set up and manage account details for an ad network account synced via the ad network API." -->
 
 Mer information om vilka funktioner som är tillgängliga för varje annonsnätverk finns i [Lager som stöds](/help/search-social-commerce/introduction/supported-inventory.md).
+
+Instruktioner om hur du hanterar annonsnätverkskonton i det nya användargränssnittet finns i [(Nytt användargränssnitt) Hantera annonsnätverkskonton via API-anslutning](/help/search-social-commerce/new-ui/set-up/accounts/api-accounts/api-account-manage.md).
 
 ## Skapa information om annonsnätverkskonton {#create-account}
 
