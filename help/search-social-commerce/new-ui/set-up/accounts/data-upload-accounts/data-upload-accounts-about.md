@@ -49,7 +49,7 @@ Klickspårning för sökning, sociala medier och Commerce samt Adobe Advertising
 
 Data måste uppfylla datakraven för annonsnätverket, så datafälten för varje enhet kan variera beroende på annonsnätverk.
 
-1. <!-- For all ad networks (excluding DSP), -->Överför initiala data för ett enskilt konto på något av följande sätt:
+1. &#x200B;<!-- For all ad networks (excluding DSP), -->Överför initiala data för ett enskilt konto på något av följande sätt:
 
 * Överför en fil manuellt från enheten eller nätverket.
 
