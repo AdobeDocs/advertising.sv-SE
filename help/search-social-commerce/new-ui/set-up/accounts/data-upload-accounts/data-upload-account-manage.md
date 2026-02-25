@@ -2,9 +2,10 @@
 title: Konfigurera och nätverkskonton för dataöverföring
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
+source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -31,7 +32,7 @@ Mer information om vilka funktioner som är tillgängliga för varje annonsnätv
 
    1. Redigera kontoinformationen på fliken **[!UICONTROL Account Details]**.
 
-   1. (Annonsörer med en [[!DNL Adobe Analytics for Advertising]-integrering] (/help/integrations/analytics/overview.md) Klicka på fliken **[!UICONTROL Set up Adobe Analytics]** och redigera [!DNL Analytics]-rapporteringssviterna som ska användas för att spåra och rapportera kampanjaktiviteter.
+   1. (Annonsörer med en [[!DNL Adobe Analytics for Advertising] integrering](/help/integrations/analytics/overview.md)) Klicka på fliken **[!UICONTROL Set up Adobe Analytics]** och redigera [!DNL Analytics]-rapporteringssviterna som ska användas för att spåra och rapportera kampanjaktiviteter.
 
    1. (Valfritt) På fliken **[!UICONTROL Upload File]** överför du datafiler för kontot.
 
