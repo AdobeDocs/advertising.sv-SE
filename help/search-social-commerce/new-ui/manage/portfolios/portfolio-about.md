@@ -54,7 +54,7 @@ En portfölj kan ha följande status:
 
 ## Vyn [!UICONTROL Portfolios]
 
-Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [ från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [&#x200B; från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden som summeras för alla portföljer i vyn för det angivna datumintervallet.
 
@@ -91,4 +91,4 @@ Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden
 >* [Skapa en portfölj](portfolio-create.md)
 >* [Duplicera en portfölj](portfolio-duplicate.md)
 >* [Redigera en portfölj](portfolio-edit.md)
->* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
+>* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
