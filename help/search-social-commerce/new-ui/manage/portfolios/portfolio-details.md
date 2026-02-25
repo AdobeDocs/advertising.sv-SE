@@ -4,9 +4,9 @@ description: Lär dig hur du visar information om portföljens prestanda, inklus
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: b5178856-1b0e-45cf-a351-6f31c0b0ec76
-source-git-commit: fee9c6e4649c348cad7561f81a9d45d92eb672ec
+source-git-commit: e786ffc8c9e331fffcc8b0f7cce4cb082baea6ac
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -109,14 +109,26 @@ Mer information om portföljinställningarna finns i Optimeringsguiden som du n�
 
 ## Ladda ned rapporter om portföljens prestanda och listor över portföljkomponenterna
 
-1. Klicka på **[!UICONTROL Download report]** i verktygsfältet.
+* Så här hämtar du alla rapporter:
 
-1. Markera kryssrutan bredvid varje resultatrapport och portföljkomponenttyp som ska inkluderas.
+   1. Klicka på **[!UICONTROL Download report]** i verktygsfältet.
 
-   För vissa resultatrapporter kan du välja om du vill hämta data som en kundvagn eller som en tabell.
+   1. Markera kryssrutan bredvid varje resultatrapport och portföljkomponenttyp som ska inkluderas.
+
+      För vissa resultatrapporter kan du välja om du vill hämta data som ett diagram eller en tabell.
+
+   1. Klicka på **[!UICONTROL Download report]**.
+
+* Så här hämtar du en [!DNL model accuracy]-rapport med specifika datatyper:
+
+   1. Klicka på **[!UICONTROL Download report]** i rapportens verktygsfält.
+
+   1. Markera kryssrutan bredvid varje typ av data som ska inkluderas och hur data ska delas upp (per budenhet och/eller genom att klicka på volym).
+
+   1. Klicka på **[!UICONTROL Download report]**.
 
 >[!MORELIKETHIS]
 >
->* [(nytt användargränssnitt) Om portföljer &#x200B;](portfolio-about.md)
->* [(Nytt användargränssnitt) Redigera en portfölj &#x200B;](portfolio-edit.md)
->* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
+>* [(nytt användargränssnitt) Om portföljer ](portfolio-about.md)
+>* [(Nytt användargränssnitt) Redigera en portfölj ](portfolio-edit.md)
+>* [(Nytt användargränssnitt) Hämta data i [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)
