@@ -4,9 +4,9 @@ description: Läs om portfolior.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: f7c63646b3eae20fd3413446789fe06ce583e23e
+source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ En portfölj kan ha följande status:
 
 ## Vyn [!UICONTROL Portfolios]
 
-Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [&#x200B; från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [ från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+
+Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden som summeras för alla portföljer i vyn för det angivna datumintervallet.
 
 <!-- No options yet to edit anything within the grid, view bid changes, add a portfolio to a portfolio group, edit the Target column, or import/export DOW targets. -->
 
@@ -78,6 +80,8 @@ Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbar
 
 * [Redigera portföljinställningar gruppvis med hjälp av kalkylbladsfiler](portfolio-bulksheets.md)
 
+* [Visa ett resultatdiagram över alla portföljer i vyn](portfolio-view-performance-graph.md)
+
 * [Visa information om portföljresultat](portfolio-details.md)
 
 * [Hämta data i [!UICONTROL Portfolios]-vyn](portfolio-view-report.md)
@@ -87,4 +91,4 @@ Vyn [!UICONTROL Portfolios] visar dina befintliga portföljer med anpassningsbar
 >* [Skapa en portfölj](portfolio-create.md)
 >* [Duplicera en portfölj](portfolio-duplicate.md)
 >* [Redigera en portfölj](portfolio-edit.md)
->* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
+>* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)

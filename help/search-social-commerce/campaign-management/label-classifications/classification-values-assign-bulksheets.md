@@ -3,7 +3,7 @@ title: Tilldela klassificeringsvärden till kontokomponenter med hjälp av kalky
 description: Lär dig hur du använder kalkylblad för att tilldela klassificeringsvärden till kontokomponenter.
 exl-id: b2dfd487-097c-45f8-a6a5-24395fdb2b85
 feature: Search Label Classifications
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 1. [Hämta ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-download.md) som innehåller entiteterna som du vill tilldela etikettklassificeringsvärden till:
 
-   * Expandera listan [!UICONTROL Campaign] i rutan [!UICONTROL Bulksheet Columns] på fliken [!UICONTROL Rows and Columns].
+   * Expandera listan [!UICONTROL Rows and Columns] i rutan [!UICONTROL Campaign] på fliken [!UICONTROL Bulksheet Columns].
 
    * Expandera listan [!UICONTROL Label Classification].
 
@@ -38,7 +38,7 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
    Förutom att lägga till värden kan du även ta bort befintliga värden genom att ta bort dem från relevanta rader. Om du vill ta bort värden från både en överordnad enhet och dess underordnade enheter, kan du antingen a) ta med endast den överordnade enhetsraden och ta bort det befintliga klassificeringsvärdet eller b) ta med både den överordnade enheten och dess underordnade enheter och ta bort det befintliga klassificeringsvärdet från alla överordnade och underordnade rader.
 
-1. [Överför filen &#x200B;](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) för att skapa associationerna.
+1. [Överför filen ](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md) för att skapa associationerna.<!-- Update once the new bulksheet UI is GA -->
 
 De överförda etikettvärdena visas i de relevanta enhetsvyerna.
 

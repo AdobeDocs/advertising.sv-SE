@@ -3,9 +3,9 @@ title: Etikettklassificeringar
 description: Lär dig hur du använder etikettklassificeringar för att gruppera dina kontokomponenter.
 exl-id: 3ec4b111-225e-4272-b3dc-4f6f9c711779
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,17 @@ Alla annonsörer kan ha upp till 30 etikettklassificeringar, som är kategorier 
 
 ## Etikettvärden
 
-Varje etikettklassificering kan ha upp till 2 000 värden. När du har skapat specifika etikettvärden för en klassificering kan du tilldela dem till kampanjer, annonsgrupper, nyckelord, annonser, placeringar och produktgrupper [&#x200B; från kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med hjälp av kalkylblad](classification-values-assign-bulksheets.md).
+Varje etikettklassificering kan ha upp till 2 000 värden. När du har skapat specifika etikettvärden för en klassificering kan du tilldela dem till kampanjer, annonsgrupper, nyckelord, annonser, placeringar och produktgrupper [ från kampanjhanteringsvyer](classification-values-assign-campaign-management.md) eller [med hjälp av kalkylblad](classification-values-assign-bulksheets.md).
 
 Varje godkänd enhet kan ha etikettvärden för flera klassificeringar, men bara ett etikettvärde per klassificering. Etikettvärden ärvs av underordnade entiteter men kan åsidosättas. Värdet som tilldelas på den lägsta nivån åsidosätter alltid värden som tilldelas på överordnade nivåer.
 
 ## Vyn Etikettklassificeringar
 
-Vyn [!UICONTROL Labels Classifications] på menyn [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] innehåller [!UICONTROL Classifications] och [!UICONTROL Label Values] undervyer. Du kan visa data för dina etikettklassificeringar, [skapa](classification-create.md)- och [ta bort](classification-delete.md)-etikettklassificeringar och visa data för dina etikettklassificeringsvärden. Som standard visas data för etikettklassificeringar och -värden på nyckelordsnivå, men du kan även visa data för dina klassificeringar och -värden på ad-nivå.
+I det äldre användargränssnittet är vyn [!UICONTROL Labels Classifications] vid [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Campaigns] > [!UICONTROL Labels Classifications]. I det nya användargränssnittet är vyn [!UICONTROL Labels Classifications] på [!UICONTROL Reports] > [!UICONTROL Labels Classifications].
+
+Vyn [!UICONTROL Labels Classifications] innehåller [!UICONTROL Classifications] och [!UICONTROL Label Values] undervyer. Du kan visa data för dina etikettklassificeringar, [skapa](classification-create.md)- och [ta bort](classification-delete.md)-etikettklassificeringar och visa data för dina etikettklassificeringsvärden. Som standard visas data för etikettklassificeringar och -värden på nyckelordsnivå, men du kan även visa data för dina klassificeringar och -värden på ad-nivå.
+
+I det nya användargränssnittet
 
 >[!MORELIKETHIS]
 >

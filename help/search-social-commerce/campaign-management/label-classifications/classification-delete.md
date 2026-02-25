@@ -3,9 +3,9 @@ title: Ta bort etikettklassificeringar
 description: Lär dig hur du tar bort en etikettklassificering.
 exl-id: ae10ff69-67ab-4eac-a78d-8af4923c7093
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 82710ffc246e1d3bc9547bf6b6df3320c80c4eb1
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,24 @@ Om du tar bort en klassificering tas alla associationer mellan dess underordnade
 >[!NOTE]
 >
 >Om du bara vill avassociera ett klassificeringsvärde från en kontokomponent läser du &quot;[Ta bort klassificeringsvärden från kampanjkomponenter](classification-values-remove.md)&quot;.
+
+## (Nytt användargränssnitt) Ta bort etikettklassificeringar
+
+1. Klicka på **[!UICONTROL Reports]>[!UICONTROL Label Classifications]**.
+
+1. (Valfritt) Filtrera listan så att den innehåller specifika etikettklassificeringar.
+
+1. Markera kryssrutan bredvid varje etikettklassificering som ska tas bort.
+
+   Du kan ta bort upp till 200 rader i taget.
+
+   Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Klicka på ![Ta bort](/help/search-social-commerce/assets/delete.png "Ta bort") i verktygsfältet för gruppåtgärder.
+
+1. Klicka på **[!UICONTROL Confirm]** i bekräftelsemeddelandet.
+
+## (Äldre användargränssnitt) Ta bort etikettklassificeringar
 
 1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Label Classifications]**.
 

@@ -3,9 +3,9 @@ title: Ta bort etikettklassificeringsvärden från kontokomponenter
 description: Lär dig hur du tar bort associationer mellan etikettklassificeringsvärden och kontokomponenter.
 exl-id: 8697367b-0bf9-48c9-8dd3-e733360e1df2
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,26 @@ Om du tar bort ett klassificeringsvärde tas associationen med kontokomponenten 
 >[!NOTE]
 >
 >Mer information om hur du tar bort ett värde från en etikettklassificering finns i [Ta bort etikettklassificeringsvärden](classification-values-delete.md).
+
+## (Nytt användargränssnitt) Ta bort etikettklassificeringsvärden från kontokomponenter
+
+Du kan ta bort klassificeringsvärden från alla tillämpliga kontokomponenter som är tillgängliga i det nya användargränssnittet.
+
+1. Öppna entitetsvyn från menyn **[!UICONTROL Manage]** eller **[!UICONTROL Target]**.
+
+1. Markera kryssrutan bredvid varje relevant rad.
+
+   Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Klicka på **-[!UICONTROL Unassign]** > **[!UICONTROL Label Classification]** i verktygsfältet för gruppåtgärder.
+
+1. Markera kryssrutan bredvid varje klassificeringsvärde som ska tas bort från de markerade entiteterna.<!-- As of 2/24/26, no way to tell which entity each value is assigned to -->
+
+   Om du vill välja alla tilldelade värden klickar du på **[!UICONTROL Select All]**. Om du vill avmarkera alla tilldelade värden klickar du på **[!UICONTROL Deselect All]**.
+
+1. Klicka på **[!UICONTROL Unassign Selected]**.
+
+## (Äldre användargränssnitt) Ta bort etikettklassificeringsvärden från kontokomponenter
 
 1. Välj entitetsvyn i **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]**.
 
@@ -42,7 +62,7 @@ Om du tar bort ett klassificeringsvärde tas associationen med kontokomponenten 
 
 1. (Valfritt) Ange ytterligare information:
 
-   * Klicka på ![Öppna](/help/search-social-commerce/assets/chevron-up.png "Öppna") bredvid **[!UICONTROL Additional Details]** för att utöka informationen.
+   * Klicka på **[!UICONTROL Additional Details]**&#x200B;Öppna![Öppna](/help/search-social-commerce/assets/chevron-up.png " bredvid ") för att utöka informationen.
 
    * Ange ett valfritt **[!UICONTROL Project Name]** och/eller valfritt **[!UICONTROL Description]**.
 

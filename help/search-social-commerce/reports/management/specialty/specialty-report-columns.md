@@ -3,9 +3,9 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 6080412a58466d8a87924b27ac038991a287b849
 workflow-type: tm+mt
-source-wordcount: '2922'
+source-wordcount: '3140'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,10 @@ ht-degree: 0%
 | [!UICONTROL Advertiser] | Annonsörens namn. |
 | [!UICONTROL Advertiser ID] | Det numeriska ID:t för annonsörens konto Search, Social och Commerce. |
 | [!UICONTROL All Conversion Rate] | ([!UICONTROL MSA Ad Extension] rapporter) Konverteringsgraden i procent. |
-| [!UICONTROL All Conversions] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
+| [!UICONTROL All Conversions] | ([!UICONTROL Google AI Max Search Term Combination] och [!UICONTROL MSA Ad Extension] rapporter) Totalt antal konverteringar. För [!UICONTROL Google AI Max Search Term Combination Report] innehåller det här värdet konverteringsåtgärder som inte ingår i kolumnen för huvudkonverteringar. |
 | [!UICONTROL All Conversions Qualified] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
+| [!UICONTROL All Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report])Värdet för alla konverteringar. |
+| [!UICONTROL All Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) Värdet för alla konverteringar dividerat med den totala kostnaden för annonsinteraktioner (till exempel klick eller videovyer). |
 | [!UICONTROL All Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Kostnaden per konvertering. |
 | [!UICONTROL All Return on Ad Spend] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala intäkten dividerat med utgiften, uttryckt i procent. |
 | [!UICONTROL All Revenue Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Intäkterna per konvertering. |
@@ -53,6 +55,7 @@ ht-degree: 0%
 | [!UICONTROL Audience Impression Share Percent] | Den uppskattade procentandelen avtryck på [!DNL Microsoft Audience Network] dividerat med det totala antalet tillgängliga avtryck som du kunde ha fått. |
 | [!UICONTROL Audience Status] | Publiken. |
 | [!UICONTROL Average CPC] | Genomsnittskostnaden per klick. |
+| [!UICONTROL Average CPM] | Genomsnittskostnaden per tusen (mille) avbildningar. |
 | [!UICONTROL Average Position], [!UICONTROL Avg Position] | Den genomsnittliga positionen för annonserna under det angivna datumintervallet.<br><br>För [!DNL Google Ads]- och [!DNL Yahoo! Japan Ads]-kampanjer är dessa data bara tillgängliga till och med september 2019. För [!DNL Microsoft Advertising] är dessa data bara tillgängliga till och med den 22 januari 2021. |
 | [!UICONTROL Bid Match Type] | ([!UICONTROL MSA Ad Extension] rapporter) Matchningstypen som är associerad med nyckelordet som köptes på. |
 | [!UICONTROL Campaign Budget] | ([!UICONTROL Campaign Daily Impression Share Report]) Kampanjbudgeten. |
@@ -68,15 +71,18 @@ ht-degree: 0%
 | [!UICONTROL Content IS% (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Antalet visningar som du har fått för annonser på skärmen/målgruppsnätverket dividerat med det beräknade antalet visningar som du var berättigad att ta emot. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
 | [!UICONTROL Content IS% Lost to Budget (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Den uppskattade procentandel av visningar som dina annonser i nätverket för visning/målgrupper inte fick eftersom din dagliga eller månadsvisa budget var för låg. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
 | [!UICONTROL Content IS% Lost to Rank (Google)] | ([!DNL Google Ads] endast; [!UICONTROL Campaign Daily Impression Share Report]) Uppskattad procentandel av visningar som dina annonser i nätverket för visning/målgrupper inte visas på grund av dålig annonsrankning. Procenttal under 10 % anges som `<10%` och procenttal över 90 % anges som `>90%`. |
-| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) Summan av kostnaden per klick (CPC) och kostnaden per tusen visningar (CPM) under den angivna perioden. |
 | [!UICONTROL Conversion Rate] | Antalet konverteringar delat med det totala antalet klick. |
 | [!UICONTROL Conversion Type] | Den användardefinierade konverteringstyp som spårades på annonsörens webbplats. |
-| [!UICONTROL Conversions] | ([!UICONTROL MSA Ad Extension] och [!UICONTROL Google Asset Group Performance] rapporter) Värdet för konverteringar för den angivna perioden. För [!UICONTROL MSA Ad Extension] är detta antalet klick som resulterade i en försäljning eller ett annat mått på framgång. |
+| [!UICONTROL Conversions] | ([!UICONTROL Google AI Max Search Term Combination], [!UICONTROL Google Asset Group Performance] och [!UICONTROL MSA Ad Extension] rapporter) Det totala antalet konverteringar för den angivna perioden. För rapporten [!UICONTROL MSA Ad Extension] är detta antalet klick som resulterade i en försäljning eller ett annat mått på framgång. För rapporten [!UICONTROL Google AI Max Search Term Combination] är detta det totala antalet konverteringar från konverteringsåtgärder för vilka Inkludera i konverteringar är aktiverat |
 | [!UICONTROL Conversions from Interactions Rate] | ([!UICONTROL Google Asset Group Performance Report]) Antalet konverteringar från annonsinteraktioner dividerat med antalet annonsinteraktioner. Det här värdet hanterar bara konverteringsåtgärder för vilka attributet `include_in_conversions_metric` är inställt på `true`. |
 | [!UICONTROL Conversions Qualified] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet konverteringar. |
+| [!UICONTROL Conversions Value] | ([!UICONTROL Google AI Max Search Term Combination Report]) Värdet för alla konverteringar från konverteringsåtgärder där Inkludera i konverteringar är aktiverat. |
+| [!UICONTROL Conversions Value Per Cost] | ([!UICONTROL Google AI Max Search Term Combination Report]) Värdet för alla konverteringar dividerat med den totala kostnaden för annonsinteraktioner (till exempel klick eller videovyer). Det omfattar endast konverteringar från konverteringsåtgärder där Inkludera i konverteringar är aktiverat. |
 | [!UICONTROL Cost] | Den totala kostnaden för annonser under det angivna datumintervallet. |
+| [!UICONTROL Cost Micros] | ([!UICONTROL Google Asset Group Performance Report]) Summan av kostnaden per klick (CPC) och kostnaden per tusen visningar (CPM) under den angivna perioden. |
+| [!UICONTROL Cost Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Kostnaden för annonsinteraktioner dividerad med alla konverteringar. |
 | [!UICONTROL Cost Per Assist] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala kostnaden per assistans. |
-| [!UICONTROL Cost Per Conversion] | ([!UICONTROL MSA Ad Extension] rapporter) Den totala kostnaden per konvertering. |
+| [!UICONTROL Cost Per Conversion] | ([!UICONTROL Google AI Max Search Term Combination Report] och [!UICONTROL MSA Ad Extension] rapporter)) Kostnaden för annonsinteraktioner dividerat med konverteringar. För Google Ads omfattar detta endast konverteringar från konverteringsåtgärder där Inkludera i konverteringar är aktiverat. |
 | [!UICONTROL Country] | ([!UICONTROL AdWords Geo Report] och [!UICONTROL Bing Ads Geo Report]) Ett land som klickningarna härstammar från. Den avgörs av användarens IP-adress. |
 | [!UICONTROL CPC] | Kostnaden per klick (CPC) för annonser under det angivna datumintervallet. |
 | [!UICONTROL Creative Description 1], [!UICONTROL Creative Description 2] | Annonsens första och andra rader. |
@@ -85,6 +91,7 @@ ht-degree: 0%
 | [!UICONTROL Creative Status] | ([!UICONTROL MSA Ad Extension] rapporter) Annonsens status. |
 | [!UICONTROL Creative Name] | (Transaktionsrapport; endast [!DNL Yahoo! Japan]) Annonsbildens namn. |
 | [!UICONTROL Creative Title] | Annonsens rubrik eller rubrik. |
+| [!UICONTROL Cross Device Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Konverteringar som uppstår när en användare klickar på och på en enhet och sedan konverterar på en annan enhet eller webbläsare. Konverteringar mellan enheter ingår i Alla konverteringar. |
 | [!UICONTROL CTR] | Klickfrekvensen, som är antalet klick delat med antalet visningar för de annonser som ingår. |
 | [!UICONTROL Current Quality Score] | ([!DNL Google Ads] och [!DNL Microsoft Advertising] kampanjer) Aktuell kvalitetspoäng för nyckelordet eller budenheten, enligt annonsnätverkets beskrivning. Den varierar från 1 (låg) till 10 (perfekt). För en kombination av nyckelord och matchningstyp är det här värdet den aktuella poängen för den kombinationen. När samma kombination av nyckelord och matchningstyp används i flera kampanjer är det här värdet den högsta aktuella poängen bland alla instanser.<br><br>Annonsnätverken använder kvalitetspoängen för att fastställa budpriser och annonsposition. Det beräknas utifrån många faktorer, bland annat nyckelordets relevans för den associerade annonsen och användarens sökfråga och landningssidans kvalitet. För nyckelord i [!DNL Google Ads] beaktas även nyckelordets klickfrekvens, och för nyckelord i [!DNL Microsoft Advertising] beaktas även användarupplevelsen som tillhandahålls av landningssidan. |
 | [!UICONTROL Delivered Match Type] | ([!UICONTROL MSA Ad Extension] rapporter) Matchningstypen som annonsnätverket använde för att leverera annonsen. |
@@ -104,6 +111,8 @@ ht-degree: 0%
 | [!UICONTROL Goal Type] | ([!UICONTROL MSA Ad Extension] rapporter, [!UICONTROL MSA Network Performance Report]) Typ av konverteringsmål. |
 | [!UICONTROL Google Conversions] | ([!UICONTROL AdWords Conversion Report]) Antalet onlinekonverteringar som spåras av [the [!DNL Google Ads Conversion Optimizer]](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md). |
 | [!UICONTROL Google Converted Clicks] | ([!UICONTROL AdWords Conversion Report]; togs bort 2016) Antalet klick som resulterade i en eller flera konverteringar. |
+| [!UICONTROL Headline 1] | ([!UICONTROL Google AI Max Search Term Combination Report]) Den första rubriken för annonsen. |
+| [!UICONTROL Headline 2] | ([!UICONTROL Google AI Max Search Term Combination Report]) Annonsens andra rubrik. |
 | [!UICONTROL Impr. (Abs. Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visades som första annons ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impr. (Top) %] | ([!DNL Google Ads] endast; [!UICONTROL AdWords and Bing Audience Target Report], [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) Procentandelen annonser som visas ovanför resultaten av den organiska sökningen. |
 | [!UICONTROL Impression Lost To Budget Percent] | Den beräknade procentandel av tiden som dina annonser inte visades eftersom din dagliga eller månadsvisa budget var för låg. |
@@ -116,6 +125,7 @@ ht-degree: 0%
 | [!UICONTROL Keyword Extension Number] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Versionsattributet för annonstillägget. |
 | [!UICONTROL Keyword Extension Type] | ([!UICONTROL MSA Ad Extension by Keyword Report]) Tilläggstypen för annonsen. |
 | [!UICONTROL Keyword Status] | Status för det nyckelord som söktermen matchades mot: *[!UICONTROL Active]*, *[!UICONTROL Paused]*, [!UICONTROL Deleted]*eller[!UICONTROL Disapproved]*. |
+| [!UICONTROL Landing Page] | ([!UICONTROL Google AI Max Search Term Combination Report]) Annonsens landningssida. |
 | [!UICONTROL Language] | ([!UICONTROL Campaign Daily Impression Share Report]) Målspråket. |
 | [!UICONTROL Language and Region] | ([!UICONTROL Bing Ads Geo Report]) Målspråket och marknaden för annonsgruppen (till exempel engelska-UK). |
 | [!UICONTROL Location] | ([!UICONTROL Campaign Daily Impression Share Report]) Målmålmålets plats. |
@@ -167,7 +177,7 @@ ht-degree: 0%
 | [!UICONTROL Search lost IS (rank)] | ([!DNL Google Ads] endast; [!UICONTROL Keyword Daily Impression Share Report]) Den procentandel av tiden som dina annonser inte visades på grund av dålig annonsrankning. Procenttal över 90 % anges som `>90%` eller `0.9001`. |
 | [!UICONTROL Search lost top IS (budget)] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL Keyword Daily Impression Share Report]) Den procentandel av tiden som dina annonser inte visades ovanför resultaten av den organiska sökningen eftersom din dagliga eller månadsvisa budget var för låg. För [!DNL Google Ads] kampanjer anges procentsatser över 90 % som `>90%` eller `0.9001`. |
 | [!UICONTROL Search lost top IS (rank)] | ([!DNL Google Ads] och [!DNL Microsoft Advertising]; [!UICONTROL Campaign Daily Impression Share Report] och [!UICONTROL [!UICONTROL Keyword Daily Impression Share Report]]) Den procentandel av tiden som dina annonser inte visades ovanför de organiska sökresultaten på grund av dålig annonsrankning. För [!DNL Google Ads] kampanjer anges procentsatser över 90 % som `>90%` eller `0.9001`. |
-| [!UICONTROL Search Term] | (Frågerapport för sökning i AdWords och Frågerapport för sökning i Bing Ads) Ett sökord för användare som klickningarna härstammar från. |
+| [!UICONTROL Search Term] | ([!UICONTROL AdWords Search Query Report], [!UICONTROL Bing Ads Search Query Report] och [!UICONTROL Google AI Max Search Term Combination Report]) En användarsökterm som klickningarna härstammar från. |
 | [!UICONTROL Start Date] | Första dagen som rapporterades. |
 | [!UICONTROL Status] | ([!UICONTROL Google Asset Group Performance Report]) Resursgruppsstatus. |
 | [!UICONTROL Store ID] | Annonsnätverkets ID för handlarcenterbutiken. |
@@ -182,6 +192,8 @@ ht-degree: 0%
 | [!UICONTROL Top vs. Other] | ([!UICONTROL MSA Ad Extension] rapporter) Platsen för din annons på sökresultatsidan. |
 | [!UICONTROL Total Clicks] | ([!UICONTROL MSA Ad Extension] rapporter) Antalet klick när annonselementet fanns i annonskopian, oavsett om någon klickade på det eller inte. |
 | [!UICONTROL User SE Account ID] | Det numeriska ID som tilldelas annonsnätverket av Search, Social och Commerce. |
+| [!UICONTROL Value Per All Conversions] | ([!UICONTROL Google AI Max Search Term Combination Report]) Värdet för alla konverteringar delat med antalet alla konverteringar. |
+| [!UICONTROL Value Per Conversion] | ([!UICONTROL Google AI Max Search Term Combination Report]) Värdet för konverteringar dividerat med antalet konverteringar. Det omfattar endast konverteringar från konverteringsåtgärder där Inkludera i konverteringar är aktiverat. |
 | [!UICONTROL ViewThroughConversions] | ([!UICONTROL Bing Ads Geo Report]; annonser i målgruppsnätverket) Antalet konverteringar som har uppstått till följd av en eller flera visningar, men utan klick. |
 
 >[!MORELIKETHIS]

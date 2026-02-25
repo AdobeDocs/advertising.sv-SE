@@ -3,9 +3,9 @@ title: Tilldela klassificeringsvärden till kontokomponenter från kampanjhanter
 description: Lär dig hur du tilldelar klassificeringsvärden till kontokomponenter.
 exl-id: 5a3cb059-9cff-4a2e-b8aa-be8626774377
 feature: Search Label Classifications
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d68107b04762ea149dd74fb30ab7ea9d8850915f
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,40 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 >[!NOTE]
 >
 >Dina nyckelord och din annonskopia för vissa annonsnätverk och kampanjtyper är [inte ändringsbara](/help/search-social-commerce/campaign-management/faqs-campaigns.md), vilket innebär att om du redigerar dem tas den befintliga entiteten bort och en ny skapas. När en befintlig enhet tas bort på det här sättet tilldelas inte etikettklassificeringen till den nya enheten.
+
+## (Nytt användargränssnitt) Tilldela klassificeringsvärden till kontokomponenter
+
+Du kan tilldela klassificeringsvärden till alla tillämpliga kontokomponenter som är tillgängliga i det nya användargränssnittet.
+
+1. Öppna entitetsvyn från menyn **[!UICONTROL Manage]** eller **[!UICONTROL Target]**.
+
+1. Markera kryssrutan bredvid varje relevant rad.
+
+   Tips om hur du markerar flera rader finns i &quot;[Markera flera rader](/help/search-social-commerce/common-tasks/navigation-editing-selection/multiple-rows-select.md)&quot;.
+
+1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL Label Classification]** i verktygsfältet för gruppåtgärder.
+
+1. Gör följande för varje tillämpligt klassificeringsvärde:
+
+   1. Ange klassificeringen i kolumnen **[!UICONTROL Classifications]**:
+
+      * Om du vill använda en befintlig klassificering klickar du på klassificeringsnamnet för att expandera den.
+
+      * Om du vill skapa en klassificering klickar du på [!UICONTROL +] i kolumnrubriken. Ange klassificeringsnamnet i indatafältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/save-checkmark.png "Spara") för att spara klassificeringen omedelbart. Om du vill använda den nya klassificeringen klickar du på klassificeringsnamnet för att expandera den.
+
+        Namnet måste bestå av [ASCII-tecken 32-126](https://www.asciitable.com/) och får innehålla högst 27 enkelbyte-tecken.
+
+   1. I kolumnen **[!UICONTROL Value Name]** anger du värdet för den valda klassificeringen:
+
+      * Om du vill använda ett befintligt värde markerar du värdet.
+
+      * Om du vill skapa ett värde klickar du på [!UICONTROL +] i kolumnrubriken. Ange värdet i inmatningsfältet och klicka sedan på ![Spara](/help/search-social-commerce/assets/save-checkmark.png "Spara") för att spara värdet omedelbart och markera det som standard.
+
+        Maxlängden är 100 tecken och kan innehålla ASCII-tecken och tecken som inte är ASCII-tecken.
+
+1. Klicka på **+[!UICONTROL Assign Now]**.
+
+## (Äldre användargränssnitt) Tilldela klassificeringsvärden till kontokomponenter
 
 1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Campaigns] >[!UICONTROL Campaigns]** och välj sedan kontokomponentvyn.
 
@@ -72,7 +106,7 @@ Etikettvärden ärvs av underordnade entiteter, så ange inte värden för under
 
 1. (Valfritt) Ange ytterligare information:
 
-   1. Klicka på ![Öppna](/help/search-social-commerce/assets/chevron-up.png "Öppna") bredvid **[!UICONTROL Additional Details]** för att utöka informationen.
+   1. Klicka på **[!UICONTROL Additional Details]**&#x200B;Öppna![Öppna](/help/search-social-commerce/assets/chevron-up.png " bredvid ") för att utöka informationen.
 
    1. Ange ett valfritt **[!UICONTROL Project Name]** och/eller valfritt **[!UICONTROL Description]**.
 
