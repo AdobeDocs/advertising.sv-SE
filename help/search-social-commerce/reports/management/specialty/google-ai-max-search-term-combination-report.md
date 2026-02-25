@@ -2,9 +2,10 @@
 title: '[!UICONTROL Google AI Max Search Term Combination Report]'
 description: Läs mer om [!UICONTROL Google AI Max Search Term Combination Report].
 feature: Search Reports, Search Specialty Reports
-source-git-commit: c31ba390e3f1ae5eb404c6e3f97c75d03cebbc20
+exl-id: 6980dd42-ce5c-4fa7-920d-9c23bf98fa8d
+source-git-commit: bf4531494fe248a4a2bd290dcb8abfa6fdb6451d
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,8 @@ ht-degree: 0%
 *Gäller endast [!DNL Google Ads]-konton med kampanjer aktiverade för AI max*
 
 [!UICONTROL Google AI Max Search Term Combination Report] visar prestanda för specifika annonskombinationer och landningssidor som [!DNL Google Ads AI Max] använder baserat på sökningar i söknätverket. Rapporten innehåller bild-, klicknings- och kostnadsdata för annonser i [!DNL Google Ads]-kampanjer som använder [!DNL AI Max] i angivna konton. Som standard innehåller data en rad för varje kombination av sökord, rubrik och landningssida som fick minst ett intryck i det angivna dataområdet. Raderna är i stigande ordning efter datum och sedan som standard i kampanjer.
+
+Använd den här rapporten för att se hur specifika sökfrågor mappas till AI-genererade rubriker och dynamiska landningssidor. Du kan använda data för att analysera avsikten och prestandan för de annonselement som skapas per fråga, så att du kan skapa robusta negativa nyckelordslistor.
 
 <!-- We're pulling data directly from GGL and not storing it, so no limitations on our end WRT date range. -->
 
