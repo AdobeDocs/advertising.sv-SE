@@ -23,7 +23,7 @@ Ovanför datatabellen kan du öppna ett prestandagram med upp till tre mätvärd
 
 * [Visa ett prestandagram för alla kampanjer i vyn](campaign-view-performance-graph.md)
 
-* [Tilldela kampanjer till befintliga eller nya portföljer](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) och [ta bort tilldelning från kampanjer från portföljer](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+* [Tilldela kampanjer till befintliga eller nya portföljer](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio) och [ta bort tilldelning från kampanjer från portföljer](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 
 * [Tilldela begränsningar till kampanjer och ta bort begränsningar från kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 
@@ -31,7 +31,7 @@ Ovanför datatabellen kan du öppna ett prestandagram med upp till tre mätvärd
 
 >[!MORELIKETHIS]
 >
->* [Tilldela kampanjer till en portfölj](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
->* [Ta bort kampanjer från en portfölj](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
+>* [Tilldela kampanjer till en portfölj](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-assign-to-portfolio)
+>* [Ta bort kampanjer från en portfölj](https://experienceleague.adobe.com/sv/docs/advertising/search-social-commerce/campaign-management/campaign-remove-from-portfolio)
 >* [Hantera begränsningstilldelningar för kampanjer](campaign-constraint-assignments-manage.md)
 >* [Hämta data från [!UICONTROL Campaigns]-vyn](campaign-view-report.md)
