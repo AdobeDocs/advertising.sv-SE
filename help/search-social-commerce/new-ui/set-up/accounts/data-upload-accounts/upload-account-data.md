@@ -1,7 +1,7 @@
 ---
 title: Ladda upp offlinekontodata för rapportering och simuleringar
 description: Lär dig hur du överför offlinekontodata manuellt eller till en  [!DNL Amazon] [!DNL S3]-bucket för rapportering och simuleringsstöd. Loggfiler håller reda på överföringsjobbens förlopp.
-source-git-commit: bfa5403ff66bed73797fc4c7115b8c043856745d
+source-git-commit: 8ba0f8fa6050a3e6ec93bcf08df2c0204191fc02
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -56,7 +56,7 @@ See "XXX" for information about supported ad networks and account structures.
 
       1. Klicka på **[!UICONTROL Save]**.
 
-&#x200B;# Överför kontodata till en [!DNL Amazon] [!DNL S3]-bucket {#data-upload-s3}
+## Överför kontodata till en [!DNL Amazon] [!DNL S3]-bucket {#data-upload-s3}
 
 Du kan fylla i ett konto med kampanjinnehåll och kostnads-, klicknings- och konverteringsdata genom att överföra data till en mapp som tilldelats av Search, Social och Commerce i en [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3])-bucket.
 
