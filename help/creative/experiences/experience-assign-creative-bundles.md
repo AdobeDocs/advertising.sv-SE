@@ -3,9 +3,9 @@ title: Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i 
 description: Lär dig hur ni tilldelar kreatörer till varje mål i era annonsupplevelser.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ För standardannonsupplevelser kan ni bara tilldela standardpaket. För dynamisk
 
 1. Gör något av följande:
 
-   * (Slutliga noder utan kreatörer) Klicka på ![Lägg till](/help/creative/assets/add.png "Lägg till") under noden och välj sedan **[!UICONTROL Assign Bundles]**.
+   * (Slutliga noder utan kreatörer) Klicka på **[!UICONTROL Assign Bundles]** under noden.
 
-   * (Noder med befintliga kreatörer) Håll markören över den kreativa paketrutan under målnoden <!-- wording???? --> och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
+   * (Noder med befintliga kreatörer) Håll markören över den kreativa paketrutan under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]**.
 
 1. Markera kryssrutan bredvid varje paket som ska tilldelas målnoden och avmarkera kryssrutan bredvid varje paket som ska tas bort.
 
    Endast paket av den relevanta pakettypen för upplevelsen (standard eller dynamisk) listas.
 
-1. Klicka på **[!UICONTROL Attach to Bundles]**.
-
-1. (Valfritt) [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
+1. Klicka på **[!UICONTROL Save]**.
 
 1. (Valfritt) [Anpassa den kreativa optimeringen och schemaläggningen](experience-optimization-scheduling-targeting.md) för de tilldelade paketen.
+
+1. (Valfritt) [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
 
 <!--
 1. (Optional) To save the experience, click **[!UICONTROL Save]**, and then do the following.

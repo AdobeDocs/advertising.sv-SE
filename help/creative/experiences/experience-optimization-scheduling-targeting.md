@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig hur du konfigurerar optimering och annonsplanering för riktade upplevelser.
 feature: Creative Experiences
 exl-id: 47d1a249-decd-4c3b-ac88-260488d5bcd2
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,21 @@ Som standard bestäms den kreativa rotationen för en upplevelse algoritmiskt f�
 
 När den kreativa planeringen är inaktiverad gäller inställningarna för den kreativa optimeringen för alla tilldelade kreatörer.
 
-1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Öppna inställningarna för kreativ optimering när du [skapar](experience-create-targeting.md) eller [redigerar](experience-edit-targeting.md) upplevelsen:
+
+   1. Håll markören över den kreativa bladnoden under målnoden och gör följande:
+
+      * Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** för befintliga paket.
+
+      * Klicka på **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** och [tilldela paketen](experience-assign-creative-bundles.md) för nya paket.
+
+1. Klicka på fliken **[!UICONTROL Creative Optimization]**.
 
 1. Inaktivera **[!UICONTROL Schedule]**.
 
 1. Välj den kreativa rotationstypen för annonsvarianter i de associerade paketen:
 
-   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara upp till 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Om du vill tillämpa samma vikt på alla associerade paket klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla valda paket måste vara upp till 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* Visar de mest effektiva annonsvarianterna oftare, baserat på ett angivet mål.
 
@@ -54,7 +62,15 @@ Du kan också schemalägga att specifika kreativa programpaket ska köras under 
 
 När du använder schemaläggning måste du schemalägga paket under hela upplevelsen.
 
-1. Håll markören över den kreativa bladnoden under målnoden och klicka på **[!UICONTROL ...]** > **[!UICONTROL Creative Optimization]**.
+1. Öppna inställningarna för kreativ optimering när du [skapar](experience-create-targeting.md) eller [redigerar](experience-edit-targeting.md) upplevelsen:
+
+   1. Håll markören över den kreativa bladnoden under målnoden och gör följande:
+
+      * Klicka **[!UICONTROL ...]** > **[!UICONTROL Edit Bundles]** för befintliga paket.
+
+      * Klicka på **[!UICONTROL ...]** > **[!UICONTROL Assign Bundles]** och [tilldela paketen](experience-assign-creative-bundles.md) för nya paket.
+
+1. Klicka på fliken **[!UICONTROL Creative Optimization]**.
 
 1. Aktivera **[!UICONTROL Schedule]**.
 
@@ -62,11 +78,11 @@ När du använder schemaläggning måste du schemalägga paket under hela upplev
 
    1. I den vänstra kolumnen markerar du kryssrutan bredvid varje kreativt paket som ska läggas till i det första schemat.
 
-   1. Ange start- och slutdatum för schemat.
+   1. Ange startdatum och starttid samt slutdatum och sluttid för schemat.
 
    1. Välj den kreativa rotationstypen:
 
-      * *[!UICONTROL Weighted]:* Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara 100.
+      * *[!UICONTROL Weighted]:* Roterar kreatörerna i varje paket manuellt enligt relativa vikter. Ange vikten för varje paket som en procentandel. Om du vill tillämpa samma vikt på alla paket i schemat klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla valda paket måste vara 100.
 
       * *[!UICONTROL Algorithmic]:* Roterar kreatörerna i varje paket algoritmiskt enligt ett angivet optimeringsmål.
 

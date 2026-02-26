@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig konfigurera optimering och annonsplanering för upplevelser utan målinriktning.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,13 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Creative Optimization]**.&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**.&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
 1. Inaktivera **[!UICONTROL Schedule]**.
 
 1. Välj den kreativa rotationstypen för annonsvarianter i de associerade paketen:
 
-   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Vikten för alla valda paket måste vara upp till 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Om du vill tillämpa samma vikt på alla associerade paket klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla valda paket måste vara upp till 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
 
    * *[!UICONTROL Algorithmic]:* Visar de mest effektiva annonsvarianterna oftare, baserat på ett angivet mål.
 
@@ -66,7 +66,7 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Lägg till schema](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
 1. Aktivera **[!UICONTROL Schedule]**.
 
@@ -74,11 +74,11 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    1. I den vänstra kolumnen markerar du kryssrutan bredvid varje kreatör som ska läggas till i det första schemat.
 
-   1. Ange start- och slutdatum för schemat.
+   1. Ange startdatum och starttid samt slutdatum och sluttid för schemat.
 
    1. Välj den kreativa rotationstypen:
 
-      * *[!UICONTROL Weighted]:* Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Vikten för alla utvalda kreatörer måste vara upp till 100.
+      * *[!UICONTROL Weighted]:* Roterar kreatörerna manuellt enligt relativa vikter. Ange vikten för varje kreatör som en procentandel. Om du vill tillämpa samma vikt på alla paket i schemat klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla utvalda kreatörer måste vara upp till 100.
 
       * *[!UICONTROL Algorithmic]:* Roterar kreatörerna algoritmiskt enligt ett angivet optimeringsmål.
 

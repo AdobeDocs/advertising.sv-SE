@@ -3,7 +3,7 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 7031347edb4491a91d622c0357ea2d3fb63f0a8a
+source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -55,9 +55,9 @@ Skapa en riktad annonsupplevelse med hjälp av ett beslutsträd. För varje uppl
 
            Om du inte tilldelar minst ett paket till varje slutnod kan du välja att använda standardalternativen för varje otilldelad nod när du sparar upplevelsen. Om du vill publicera en upplevelse måste du antingen tilldela paket eller använda standardkreatörerna för varje slutlig nod.
 
-         * [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
-
          * [Anpassa den kreativa optimeringen och schemaläggningen](experience-optimization-scheduling-targeting.md) för de tilldelade paketen.
+
+         * [Anpassa URL:er för spårning för kreatörer i de tilldelade paketen](experience-tracking-urls-targeting.md).
 
 1. (Valfritt) Växla mellan beslutsträdet och de allmänna inställningarna:
 
