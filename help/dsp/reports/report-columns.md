@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: bd85b4451624e14c95157c84537fdfb53662773f
+source-git-commit: c318c29e78f33c665380e5e5ac0b58a653f8987a
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2933'
 ht-degree: 0%
 
 ---
@@ -194,6 +194,19 @@ ht-degree: 0%
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Non-Billable Net Spend] | Summan av [!UICONTROL Non-billable Spend (Media)], [!UICONTROL Non-billable Spend (Data)] och [!UICONTROL Non-billable Spend (Other)]. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other eCPM] | Genomsnittlig nettokostnad per 1 000 visningar för andra avgifter, beräknad med <code>[!UICONTROL Net Spend (Other)] / [!UICONTROL Impressions] x 1 000</code>. |
 | [!UICONTROL Metrics] | [!UICONTROL Spend] | [!UICONTROL Total Other Spend] | Den totala nettokostnaden för andra serviceavgifter (verifieringspartners, annonsvisning och så vidare). |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Clicks] | De totala klickningarna. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL CTR] | Procentandelen klick dividerat med avtryck. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagements] | Antalet interaktioner för en serverad annons. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Engagement Rate] | Andelen interaktioner för en serverad annons dividerad med visningar. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Impressions] | Det totala intrycket. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Media Match Rate] | Den andel av visningar (eller händelser) för vilka den kreativa processen matchades med avsedda medier/inventarier eller målgrupper. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Clicks] | Det totala antalet klick för en viss produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversions] | De totala omräkningarna för en viss produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Conversion Rate] | [!UICONTROL Product Conversions] dividerat med [!UICONTROL Product Impressions] som tilldelats en specifik produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product CTR] | [!UICONTROL Product Clicks] dividerat med [!UICONTROL Product Impressions] som tilldelats en specifik produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Impressions] | Det totala intrycket av en viss produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Product Revenue] | De totala intäkterna för en viss produkt. Använd när dina kreatörer visar flera produkter (till exempel i en karusellannons) och du rapporterar per produkt. |
+| [!UICONTROL Metrics] | [!UICONTROL Standard] | [!UICONTROL Revenue] | De totala intäkterna. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completion Rate] | Procentandel av vyerna som tittade på annonsen i dess helhet. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Completions] | Antalet vyer som tittade på annonsen i dess helhet. |
 | [!UICONTROL Metrics] | [!UICONTROL Standard Metrics] | [!UICONTROL 100% Viewable Completion (%)] | Procentandel av visningar som tittade på hela annonsen. |
