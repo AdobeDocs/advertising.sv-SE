@@ -3,9 +3,9 @@ title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 164ee92f85c0e649dc2bd6c0224a531eb72d1962
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 **[!UICONTROL Library]:** Det kreativa bibliotek där annonserna ska skapas. Om du skapar annonserna inifrån [!UICONTROL Creatives] > [!UICONTROL Creative Libraries] är biblioteksnamnet redan markerat och skrivskyddat.
 
-**[!UICONTROL Ad Template Size]:** (Endast dynamiska displayannonser) [annonsdimensionerna](/help/creative/creative-libraries/creative-sizes.md) för annonsmallen som annonsen ska skapas från. Om du först väljer en specifik [!UICONTROL Ad Template] markeras värdet automatiskt.
-
 ## Annonsmall
 
 **[!UICONTROL Ad Template]:** Annonsmallen som annonserna ska skapas från. Välj en befintlig annonsmall eller överför en ny annonsmall och välj malltypen (*Statisk* eller *Dynamisk*). Mallen måste vara i ZIP-format och innehålla:<!-- Need to add more specs for templates -->
@@ -40,13 +38,13 @@ ht-degree: 0%
 
 Klicka på **[!UICONTROL Select Ad Template]** om du vill fortsätta.
 
+**[!UICONTROL Size]:** (Endast dynamiska displayannonser, skrivskyddade) [annonsdimensionerna](/help/creative/creative-libraries/creative-sizes.md) för den valda annonsmallen, som används för att skapa annonserna.
+
 **[!UICONTROL Card Count (Max 50)]:** (Endast displayannonser) Antalet produkter som ska visas i en karusell.
 
 **[!UICONTROL Duration]:** (Endast videoannonser, skrivskyddad) Den videouppspelning som härleds från den valda annonsmallen. Varaktigheten för varje video måste vara mellan 1 och 90 sekunder.
 
 ## Kataloger
-
-**[!UICONTROL Template]:** Den feed-mall som ska användas för att skapa annonserna.
 
 **\[Kataloger\]**: En eller flera kataloger att generera annonser från. Välj en befintlig katalog eller skapa en ny katalog genom att hämta en befintlig feed-mall och skapa och överföra den nya katalogen. Klicka på **[!UICONTROL Select Catalog]**.
 
