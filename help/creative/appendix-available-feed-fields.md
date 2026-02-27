@@ -2,9 +2,10 @@
 title: Tillgängliga fält för dynamiska och feed-filer
 description: Lär dig mer om de fält du kan inkludera i de flödesfiler du använder för att skapa dynamiska annonser.
 feature: Creative Dynamic Creatives
-source-git-commit: 67ee38860ac5cb7e9340f8e9d4667353e509b1ec
+exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
+source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -39,14 +40,37 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 
 | Fältnamn | Datatyp | Obligatoriskt? |
 |------------|-----------|-----------|
-| PART_NUM | varchar(64) | JA |
-| PRODUCT_NAME | text | NEJ |
-| PRODUCT_URL | text | NEJ |
-| PRIS | decimal(10,2) | NEJ |
+| AD_SIZE | varchar(32) | NEJ |
+| ADDITIONAL_PRICE_1 | decimal(10,2) | NEJ |
+| ADDITIONAL_PRICE_2 | decimal(10,2) | NEJ |
+| ADDITIONAL_PRICE_3 | decimal(10,2) | NEJ |
+| AREA_CODE | text | NEJ |
+| AUDIENCE_SEGMENT | text | NEJ |
+| LJUD_1 | varchar(1024) | NEJ |
+| LJUD_2 | varchar(1024) | NEJ |
+| LJUD_3 | varchar(1024) | NEJ |
+| LJUD_4 | varchar(1024) | NEJ |
+| LJUD_5 | varchar(1024) | NEJ |
+| ORT | text | NEJ |
+| LAND | text | NEJ |
+| CREATIVE_ATTRIBUTE_1 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_2 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_3 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_4 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_5 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_6 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_7 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_8 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_9 | varchar(256) | NEJ |
+| CREATIVE_ATTRIBUTE_10 | varchar(256) | NEJ |
+| DATAPASS_FILTER_1 | text | NEJ |
+| DATAPASS_FILTER_2 | text | NEJ |
+| DATAPASS_FILTER_3 | text | NEJ |
+| DATAPASS_FILTER_4 | text | NEJ |
+| DATAPASS_FILTER_5 | text | NEJ |
 | RABATT_PRIS | decimal(10,2) | NEJ |
+| DMA | text | NEJ |
 | BILD | varchar(1024) | NEJ |
-| IMAGE_HEIGHT | int | NEJ |
-| IMAGE_WIDTH | int | NEJ |
 | IMAGE_1 | varchar(1024) | NEJ |
 | IMAGE_2 | varchar(1024) | NEJ |
 | IMAGE_3 | varchar(1024) | NEJ |
@@ -57,6 +81,21 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | IMAGE_8 | varchar(1024) | NEJ |
 | IMAGE_9 | varchar(1024) | NEJ |
 | IMAGE_10 | varchar(1024) | NEJ |
+| IMAGE_HEIGHT | int | NEJ |
+| IMAGE_WIDTH | int | NEJ |
+| IS_DEFAULT | enum | NEJ |
+| SPRÅK | text | NEJ |
+| PART_NUM | varchar(64) | JA |
+| PRIS | decimal(10,2) | NEJ |
+| PRODUCT_NAME | text | NEJ |
+| PRODUCT_URL | text | NEJ |
+| PROFILE_FILTER_1 | text | NEJ |
+| PROFILE_FILTER_2 | text | NEJ |
+| PROFILE_FILTER_3 | text | NEJ |
+| PROFILE_FILTER_4 | text | NEJ |
+| PROFILE_FILTER_5 | text | NEJ |
+| RANK | int | NEJ |
+| LÄGE | text | NEJ |
 | TEXT_1 | text | NEJ |
 | TEXT_2 | text | NEJ |
 | TEXT_3 | text | NEJ |
@@ -72,39 +111,12 @@ TRUE FOR CSV AND TSV? character encoding on text format files should be UTF-8 --
 | TEXT_13 | text | NEJ |
 | TEXT_14 | text | NEJ |
 | TEXT_15 | text | NEJ |
-| ADDITIONAL_PRICE_1 | decimal(10,2) | NEJ |
-| ADDITIONAL_PRICE_2 | decimal(10,2) | NEJ |
-| ADDITIONAL_PRICE_3 | decimal(10,2) | NEJ |
-| AD_SIZE | varchar(32) | NEJ |
-| RANK | int | NEJ |
-| LAND | text | NEJ |
-| LÄGE | text | NEJ |
-| ORT | text | NEJ |
+| VIDEO_1 | varchar(1024) | NEJ |
+| VIDEO_2 | varchar(1024) | NEJ |
+| VIDEO_3 | varchar(1024) | NEJ |
+| VIDEO_4 | varchar(1024) | NEJ |
+| VIDEO_5 | varchar(1024) | NEJ |
 | ZIP | text | NEJ |
-| DMA | text | NEJ |
-| PROFILE_FILTER_1 | text | NEJ |
-| PROFILE_FILTER_2 | text | NEJ |
-| PROFILE_FILTER_3 | text | NEJ |
-| PROFILE_FILTER_4 | text | NEJ |
-| PROFILE_FILTER_5 | text | NEJ |
-| DATAPASS_FILTER_1 | text | NEJ |
-| DATAPASS_FILTER_2 | text | NEJ |
-| DATAPASS_FILTER_3 | text | NEJ |
-| DATAPASS_FILTER_4 | text | NEJ |
-| DATAPASS_FILTER_5 | text | NEJ |
-| AUDIENCE_SEGMENT | text | NEJ |
-| SPRÅK | text | NEJ |
-| CREATIVE_ATTRIBUTE_1 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_2 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_3 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_4 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_5 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_6 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_7 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_8 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_9 | varchar(256) | NEJ |
-| CREATIVE_ATTRIBUTE_10 | varchar(256) | NEJ |
-| IS_DEFAULT | enum | NEJ |
 
 >[!MORELIKETHIS]
 >
