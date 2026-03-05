@@ -4,9 +4,9 @@ description: Lär dig hur du tilldelar begränsningar till annonsgrupper.
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: c9960b5a-4b6c-4ef0-8501-5478af2c40da
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: a3963ef31025caa2cebc83a99866862000838455
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -83,3 +83,4 @@ När du frigör en begränsning tas kopplingen till kontokomponenterna och alla 
 >
 >* [Hantera begränsningstilldelningar för kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Hantera begränsningstilldelningar för annonser](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
+[Hantera villkorstilldelningar för nyckelord ](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
