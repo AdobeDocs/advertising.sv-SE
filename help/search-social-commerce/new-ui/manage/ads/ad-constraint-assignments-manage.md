@@ -1,9 +1,8 @@
 ---
-title: Hantera begränsningstilldelningar för kampanjer
-description: Lär dig hur du tilldelar begränsningar till kampanjer.
+title: Hantera begränsningstilldelningar för annonser
+description: Lär dig tilldela begränsningar till annonser.
 feature: Search Optimization, Search Campaign Management
 hide: true
-exl-id: d886a228-24d7-4d8e-b68a-76e56b4304ed
 source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
 source-wordcount: '435'
@@ -11,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nytt användargränssnitt) Hantera begränsningstilldelningar för kampanjer
+# (Nytt användargränssnitt) Hantera villkorstilldelningar för annonser
 
 *Beta-funktion*
 
@@ -26,13 +25,13 @@ När du frigör en begränsning tas kopplingen till kontokomponenterna och alla 
 >* Om du senare redigerar ett nyckelord eller annonskopian för en annons - och därmed skapar ett nytt nyckelord eller en annons - tilldelas inte begränsningen till den nya enheten.
 >* Aktiva begränsningar begränsar endast budgivning för tilldelade budenheter i optimerade portföljer på nyckelordsnivå. De ignoreras för budenheter i aktiva portföljer, i hybridportföljer eller inte i portföljer.
 
-## Tilldela en begränsning till valda kampanjer från den nya vyn [!UICONTROL Campaigns]
+## Tilldela en begränsning till markerade annonser från den nya vyn [!UICONTROL Ads]
 
 Du kan tilldela en begränsning till en eller flera kampanjer.
 
-1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Ads]** på huvudmenyn.
 
-1. Markera kryssrutan bredvid varje kampanj som du ska tilldela en enskild begränsning.
+1. Markera kryssrutan bredvid varje annons som du vill tilldela en enskild begränsning till.
 
 1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
@@ -60,11 +59,11 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Ta bort tilldelning från valda kampanjer från den nya vyn [!UICONTROL Campaigns]
+## Ta bort tilldelning från valda kampanjer från den nya vyn [!UICONTROL Ads]
 
-1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Campaigns]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Manage]>[!UICONTROL Ads]** på huvudmenyn.
 
-1. Markera kryssrutan bredvid varje kampanj som du vill ta bort tilldelningar av begränsningar från.
+1. Markera kryssrutan bredvid varje annons som du vill ta bort begränsningar från.
 
 1. Klicka på **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
@@ -88,5 +87,5 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 
 >[!MORELIKETHIS]
 >
+>* [Hantera begränsningstilldelningar för kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Hantera begränsningstilldelningar för annonsgrupper](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
->* [Hantera begränsningstilldelningar för annonser](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)

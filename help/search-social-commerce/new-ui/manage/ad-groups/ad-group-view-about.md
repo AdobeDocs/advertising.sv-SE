@@ -4,9 +4,9 @@ description: Lär dig vad du kan göra i vyn [!UICONTROL Ad Groups].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: de3c527bd359e0d5285b90e54278983104a2a5b5
+source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,18 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-I vyn [!UICONTROL Manage] > [!UICONTROL Ad Groups] visas alla annonsgrupper på ditt konto.
-
-Ovanför datatabellen kan du öppna ett prestandagram med upp till tre mätvärden som summerats över alla annonsgrupper i vyn för det angivna datumintervallet.
+Vyn [!UICONTROL Manage] > [!UICONTROL Ad Groups] visar alla annonsgrupper i den filtrerade vyn för det valda annonserarkontot.
 
 ## Tillgängliga åtgärder
 
-* [Visa ett prestandagram för alla annonsgrupper i vyn](ad-group-view-performance-graph.md)
+<!-- Not available as of 3/4/26:
+
+* [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
+-->
+
+* Byt namn på en annonsgrupp inifrån raden.
+
+* Ta bort eller ändra status för en annonsgrupp inifrån raden.
 
 * [Tilldela begränsningar till annonsgrupper och ta bort tilldelningar från annonsgrupper](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 
