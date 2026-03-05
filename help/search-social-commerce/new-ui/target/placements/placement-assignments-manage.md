@@ -1,6 +1,6 @@
 ---
-title: Hantera villkorstilldelningar för nyckelord
-description: Lär dig hur du tilldelar begränsningar till nyckelord.
+title: Hantera begränsningstilldelningar för placeringar
+description: Lär dig hur du tilldelar begränsningar till placeringar.
 feature: Search Optimization, Search Campaign Management
 hide: true
 source-git-commit: 0e863a638d8f3d055fd566db65d7967126fd5f89
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# (Nytt användargränssnitt) Hantera villkorstilldelningar för nyckelord
+# (Nytt användargränssnitt) Hantera villkorstilldelningar för ersättningar
 
 *Beta-funktion*
 
@@ -25,13 +25,13 @@ När du frigör en begränsning tas kopplingen till kontokomponenterna och alla 
 >* Om du senare redigerar ett nyckelord eller annonskopian för en annons - och därmed skapar ett nytt nyckelord eller en annons - tilldelas inte begränsningen till den nya enheten.
 >* Aktiva begränsningar begränsar endast budgivning för tilldelade budenheter i optimerade portföljer på nyckelordsnivå. De ignoreras för budenheter i aktiva portföljer, i hybridportföljer eller inte i portföljer.
 
-## Tilldela en begränsning till markerade annonser från den nya vyn [!UICONTROL Keywords]
+## Tilldela en begränsning till markerade placeringar från den nya vyn [!UICONTROL Placements]
 
-Du kan tilldela en begränsning till en eller flera kampanjer.
+Du kan tilldela en enskild begränsning till en eller flera placeringar.
 
-1. Klicka på **[!UICONTROL Target]>[!UICONTROL Keywords]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Target]>[!UICONTROL Placements]** på huvudmenyn.
 
-1. På fliken **[!UICONTROL Keywords]** markerar du kryssrutan bredvid varje nyckelord som du ska tilldela en enskild begränsning till.
+1. På fliken **[!UICONTROL Placements]** markerar du kryssrutan bredvid varje placering som du ska tilldela en enskild begränsning.
 
 1. Klicka på **+[!UICONTROL Assign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
@@ -59,11 +59,11 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Ta bort tilldelning från valda kampanjer från den nya vyn [!UICONTROL Keywords]
+## Ta bort tilldelning från markerade placeringar från den nya vyn [!UICONTROL Placements]
 
-1. Klicka på **[!UICONTROL Target]>[!UICONTROL Keywords]** på huvudmenyn.
+1. Klicka på **[!UICONTROL Target]>[!UICONTROL Placements]** på huvudmenyn.
 
-1. På fliken **[!UICONTROL Keywords]** markerar du kryssrutan bredvid varje nyckelord som du vill ta bort begränsningar från.
+1. På fliken **[!UICONTROL Placements]** markerar du kryssrutan bredvid varje placering som du vill ta bort begränsningar från.
 
 1. Klicka på **-[!UICONTROL Unassign]** > **[!UICONTROL Constraint]** i verktygsfältet för gruppåtgärder.
 
@@ -90,4 +90,4 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 >* [Hantera begränsningstilldelningar för kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Hantera begränsningstilldelningar för annonsgrupper](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
 >* [Hantera begränsningstilldelningar för annonser](/help/search-social-commerce/new-ui/manage/ads/ad-constraint-assignments-manage.md)
->* [Hantera begränsningstilldelningar för placeringar](/help/search-social-commerce/new-ui/target/placements/placement-assignments-manage.md)
+>* [Hantera begränsningstilldelningar för nyckelord](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
