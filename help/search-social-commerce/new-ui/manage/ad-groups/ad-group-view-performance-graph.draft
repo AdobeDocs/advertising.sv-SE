@@ -1,0 +1,28 @@
+---
+title: (New UI) View a performance graph in the [!UICONTROL Ad Groups] view
+description: Learn how to open and configure a performance graph in the [!UICONTROL Ad Groups] view.
+feature: Search Campaign Management
+exl-id: 5705bf24-e79e-4f72-ac62-c154767ae8a1
+---
+# (New UI) View a performance graph in the [!UICONTROL Ad Groups] view
+
+<!-- Not implemented as of 3/4/26) -->
+
+*Beta feature*
+
+You can open and configure a performance graph with up to three metrics totalled across all ad groups in the view for the specified date range.
+
+## View a performance graph
+
+1. Above the data table, click ![Charts](/help/search-social-commerce/assets/charts.png "Charts").
+
+1. (Optional) Specify the currency and up to three metrics to include in the chart.
+
+## Hide a visible performance graph
+
+* Above the data table, click ![Charts](/help/search-social-commerce/assets/charts.png "Charts").
+
+>[!MORELIKETHIS]
+>
+>* [About the [!UICONTROL Ad Groups view]](ad-group-view-about.md)
+>* [Download data from the [!UICONTROL Ad Groups] view](ad-group-view-report.md)
