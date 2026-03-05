@@ -3,9 +3,9 @@ title: Hur användargränssnittet är organiserat
 description: Lär dig var du får tillgång till olika funktioner.
 exl-id: 4c46fd47-74ca-4ff9-9812-9de73b96061c
 feature: Search Getting Started
-source-git-commit: a3963ef31025caa2cebc83a99866862000838455
+source-git-commit: 5c979728f4582b56a2d813fd23cd74cbfa25be14
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
 * **[!UICONTROL Plan]** undermeny:
 
-   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -90,7 +90,9 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
      Om du vill skapa, redigera och ta bort nyckelord och negativa nyckelord använder du de äldre [!UICONTROL Campaigns] > [!UICONTROL Campaigns]-vyerna. Återgå till det gamla användargränssnittet genom att klicka på knappen [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
-   * **[!UICONTROL Placements]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Campaigns] > [!UICONTROL Campaigns].
+   * **[!UICONTROL Placements]** Öppnar en ny [!UICONTROL Placements]-vy, som visar befintliga placeringar och negativa placeringar för annonsören. Du kan hantera begränsningstilldelningar för markerade placeringar.
+
+     Använd de äldre [!UICONTROL Campaigns] > [!UICONTROL Campaigns]-vyerna om du vill skapa, redigera och ta bort placeringar och negativa placeringar. Återgå till det gamla användargränssnittet genom att klicka på knappen [[!UICONTROL Switch to Old UI]](/help/search-social-commerce/getting-started/ui-switch.md).
 
 * **[!UICONTROL Assets]** undermeny:
 
@@ -208,4 +210,4 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Din roll avg
 >
 >* [Logga in](sign-in.md)
 >* [Logga ut](sign-out.md)
->* [Växla mellan det nya gränssnittet och det gamla &#x200B;](ui-switch.md)
+>* [Växla mellan det nya gränssnittet och det gamla ](ui-switch.md)
