@@ -90,4 +90,4 @@ Du kan tilldela en begränsning till en eller flera kampanjer.
 >
 >* [Hantera begränsningstilldelningar för kampanjer](/help/search-social-commerce/new-ui/manage/campaigns/campaign-constraint-assignments-manage.md)
 >* [Hantera begränsningstilldelningar för annonsgrupper](/help/search-social-commerce/new-ui/manage/ad-groups/ad-group-constraint-assignments-manage.md)
-[Hantera villkorstilldelningar för nyckelord ](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
+>[Hantera villkorstilldelningar för nyckelord &#x200B;](/help/search-social-commerce/new-ui/target/keywords/keyword-assignments-manage.md)
