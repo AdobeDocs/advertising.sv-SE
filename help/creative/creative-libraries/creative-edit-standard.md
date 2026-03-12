@@ -3,9 +3,9 @@ title: Redigera standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du ändrar inställningarna för vanliga (icke-dynamiska) kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: cfa8af948774daf3da56d835d739573f4782ac4b
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -63,3 +63,4 @@ När du redigerar en <!-- or creative variation -->-kreatör som ingår i ett pa
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](creative-add-standard.md)
 >* [Standardinställningar för kreativitet](/help/creative/creative-libraries/creative-settings-standard.md)
 >* [Förhandsgranska en kreativ](/help/creative/creative-libraries/creative-preview.md)
+>* [Visa ändringsloggen för en kreatör](/help/creative/creative-libraries/creative-view-change-log.md)

@@ -3,9 +3,9 @@ title: Duplicera kreatörer
 description: Lär dig duplicera kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -47,3 +47,4 @@ Duplicera kreatörer för att lägga till nya kreatörer med samma inställninga
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](creative-add-standard.md)
 >* [Redigera standardkreatörer](creative-edit-standard.md)
 >* [Standardinställningar för kreativitet](creative-settings-standard.md)
+>* [Visa ändringsloggen för en kreatör](/help/creative/creative-libraries/creative-view-change-log.md)

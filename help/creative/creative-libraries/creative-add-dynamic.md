@@ -3,9 +3,9 @@ title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 2a89d5f3997345c051728d41af865dc0e75541f5
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -110,4 +110,5 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 >
 >* [Dynamiska kreativa inställningar](creative-settings-dynamic.md)
 >* [Redigera en dynamisk kreativ i ett kreativt bibliotek](creative-edit-dynamic.md)
+>* [Visa ändringsloggen för en kreatör](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)

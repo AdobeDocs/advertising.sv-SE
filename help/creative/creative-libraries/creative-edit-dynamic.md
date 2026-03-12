@@ -3,9 +3,9 @@ title: Redigera en dynamisk kreatör i ett kreativt bibliotek
 description: Lär dig hur du redigerar en dynamisk kreativ i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
 exl-id: b75b9aeb-ffd0-4b86-aa7a-bd6a22e7a8e4
-source-git-commit: 4e809ac18720f22f636b2df2ad4a5b1db355e729
+source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -58,4 +58,5 @@ ht-degree: 0%
 >
 >* [Dynamiska kreativa inställningar](creative-settings-dynamic.md)
 >* [Lägg till dynamiska kreatörer i ett kreativt bibliotek](creative-add-dynamic.md)
+>* [Visa ändringsloggen för en kreatör](/help/creative/creative-libraries/creative-view-change-log.md)
 >* [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
