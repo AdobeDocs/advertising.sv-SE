@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use the AI chat interface to search for conceptual and how-to content across the [Advertising DSP Guide](/help/dsp/home.md) and (advertisers with Advertising Creative) the [Advertising Creative Guide](/help/creative/home.md). Answers are based only on what&#39;s documented for these products in [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
+Use the AI chat interface to search for conceptual and how-to content across the [Advertising DSP Guide](/help/dsp/home.md) and (advertisers with Advertising Creative) the [Advertising Creative Guide](/help/creative/home.md). Answers are based only on what&#39;s documented for these products in [Experience League](https://experienceleague.adobe.com/sv/docs/advertising).
 
 Responses include citations as well as additional prompts and follow-up questions to help you refine your query and find more information. Your chat history is maintained, and your queries aren&#39;t shared with other users.
 
