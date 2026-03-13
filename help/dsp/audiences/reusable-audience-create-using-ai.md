@@ -5,9 +5,9 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 63402a5148f5e4dc310b9d2229a9dddd5fe2f113
+source-git-commit: f2d7428f70448421dd7b6d9c3d237783b800cd83
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-*Frågar endast på engelska*
+*Stöd endast för engelska*
 
 <!-- I thought it was all segment types? -->
 
@@ -76,9 +76,9 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
 * Använd tydligt och beskrivande språk för att beskriva målgruppen.
 
-   * Du kan ange antingen fullständiga meningar eller bara en sträng med egenskaper. Interpunktion krävs inte utom när det är nödvändigt för tydlighet.
+   * Du kan ange antingen fullständiga meningar eller bara en sträng med egenskaper. Interpunktion krävs inte förutom när det är nödvändigt för tydlighet.
 
-   * Vanligtvis är uppmaningar inte skiftlägeskänsliga.
+   * I allmänhet är ledord inte skiftlägeskänsliga.
 
    * Publiken känner igen de vanligaste synonymerna.
 
@@ -124,7 +124,7 @@ När målgruppsagenten behöver ett svar från dig kan du svara med nyckelord i 
 
 `If you are okay with the proposed expression, I can start searching third party segments for each of the traits (based on the search filters above), and assemble the matching segments into the audience. Would you like me to proceed?`
 
-Dina bekräftande svar: &quot;gå vidare&quot;, &quot;okej&quot;, &quot;ok&quot;, &quot;ja&quot; eller liknande ord
+Dina positiva svar: &quot;fortsätt&quot;, &quot;okej&quot;, &quot;ok&quot;, &quot;ja&quot; eller ett liknande ord
 
 Du kan också ignorera begäran och fortsätta att ange ytterligare målgruppskriterier i stället.
 
@@ -180,7 +180,7 @@ Ta med så många typer av målgruppsattribut som möjligt från följande lista
 
   observerbara åtgärder, bland annat köpbeteende (kundfrekvens, kanalpreferenser, varumärkeslojalitet), onlinebeteende (webbplatsbesök, innehållsengagemang, sociala medier) och offlinebeteende (butiksbesök, eventnärvaro, medlemskap).
 
-* **Återgivning på marknaden**
+* **Intent på marknaden**
 
   Identifierar inköpsberedskap via produkt-/tjänstekategorier som undersöks, inköpstidslinje (omedelbar, nästan-långsiktig, långsiktig) och relevanta livshändelser som utlöser inköpsbeslut.
 
