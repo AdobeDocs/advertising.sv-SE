@@ -3,9 +3,9 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: a643a2d255431c5ce93f2df092d92932d4cccc02
+source-git-commit: 041b842ccb9c0ebc2f4d9499557e20a960789a7a
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
 
 * Förkonfigurerade rapportmallar
 
-   * **[!UICONTROL All-in Cost BETA]**: (Endast annonsörer med både Advertising Creative och Advertising DSP, betafunktion) Använd den här rapporten för att se hur mycket Advertising DSP utgifter tillskrevs för annonsering för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå.
+   * **[!UICONTROL All-in Cost]**: (Endast annonsörer med både Advertising Creative och Advertising DSP) Använd den här rapporten om du vill se hur mycket Advertising DSP utgifter tillskrevs för annonstjänster för Adobe Creative. Du kan visa kreativa, attribut, mål och andra data på kampanj-, paket-, placerings- och annonsnivå.
 
    * **[!UICONTROL Billing]:** Använd den här rapporten för att förstå viktiga faktureringsmått, som utgiftsmått för mediefakturering per kampanj. Data är inte tillgängliga för placeringar som har universella ID som mål.
 
