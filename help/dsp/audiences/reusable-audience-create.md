@@ -3,9 +3,9 @@ title: Skapa en återanvändbar publik
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e2d040409bcf18ca3c7906e8f3d5d3dc6633d2d7
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,11 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
    >
    >När du skapar målgruppen uppdateras detaljerade [data om målgruppens storlek](audience-about.md) i den högra panelen
 
-   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md):
+   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md):
+
+      * (Valfritt) Sök efter ett segmentnamn, en beskrivning eller en sökväg.
+
+        Sökresultaten omfattar segment som baseras på de exakta termer du använder. När du anger flera termer måste alla termer hittas för ett segment.
 
       * Om du vill lägga till det första segmentet letar du reda på segmentet i den vänstra panelen och markerar kryssrutan bredvid segmentnamnet.
 
@@ -89,5 +93,5 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
