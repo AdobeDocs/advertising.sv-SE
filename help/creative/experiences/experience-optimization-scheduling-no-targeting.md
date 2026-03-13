@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig konfigurera optimering och annonsplanering för upplevelser utan målinriktning.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -127,3 +127,4 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](/help/creative/experiences/experience-tag-create-manually.md)
 >* [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](experience-tag-assign-creatives.md)
 >* [Anpassa spårnings-URL:er för en upplevelse utan mål för beslutsträd](experience-tracking-urls-no-targeting.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

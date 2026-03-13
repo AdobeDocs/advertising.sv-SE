@@ -3,9 +3,9 @@ title: Resultatrapporter på erfarenhetsnivå
 description: Lär dig hur du visar resultatrapporter på erfarenhetsnivå.
 feature: Creative Experiences
 exl-id: 5e7c4c9d-b992-460a-9765-4276027f9a61
-source-git-commit: 39e0b8b57fd54e99b09e56ecf9cef753b0c6ea44
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -131,5 +131,6 @@ I rapportvyn finns följande data:
 >* [Om anpassade rapporter](/help/creative/reports/reports-about.md)
 >* [Hantera anpassade rapporter](/help/creative/reports/report-manage.md)
 >* [Hämta alla upplevelser i vyn](/help/creative/experiences/experience-download-view.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)
 >* [Om upplevelser i Advertising Creative](/help/creative/experiences/experience-about.md)
 >* [Visa aviseringar](/help/creative/reports/alerts-view.md)

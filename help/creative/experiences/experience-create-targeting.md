@@ -3,9 +3,9 @@ title: Skapa en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig skapa en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 825fd9af-ca7a-4b44-8e4b-1a6f34edac9e
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -95,3 +95,4 @@ För videoreklamupplevelser omkodas videokreatörer automatiskt av Adobe Adverti
 >* [Anpassa kreativ optimering och schemaläggning](experience-optimization-scheduling-targeting.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](/help/creative/experiences/experience-tag-export.md)
 >* [Redigera en upplevelse med mål för beslutsträd](experience-edit-targeting.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

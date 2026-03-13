@@ -3,9 +3,9 @@ role: User
 user-guide-title: Användarhandbok för Advertising Creative
 user-guide-description: Lär dig mer om de viktigaste funktionerna, uppgifterna, inställningarna och andra resurser som krävs för att använda Advertising Creative.
 breadcrumb-title: Användarhandbok för Creative
-source-git-commit: 0f1355be9eab674970207afb03c56d2857ea24ae
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '392'
 ht-degree: 5%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 5%
    + [Om Adobe Advertising Creative](/help/creative/introduction/creative-about.md)
    + [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)
    + [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
-   + [Principer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE){target="_blank"}
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
+   + [Principer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html){target="_blank"}
 + Creative Libraries {#creative-libraries}
    + [Om dina kreativa bibliotek](/help/creative/creative-libraries/creative-libraries-about.md)
    + [Kreativa storlekar som stöds](/help/creative/creative-libraries/creative-sizes.md)
@@ -39,6 +39,7 @@ ht-degree: 5%
       + [Bifoga kreatörer i programpaket](/help/creative/creative-libraries/creative-attach-detach-bundles.md)
       + [Duplicera kreatörer](/help/creative/creative-libraries/creative-duplicate.md)
       + [Ladda ned kreatörer](/help/creative/creative-libraries/creative-download.md)
+      + [Se ändringsloggen för en kreatör](/help/creative/creative-libraries/creative-view-change-log.md)
       + [Ta bort kreatörer](/help/creative/creative-libraries/creative-delete.md)
    + Creative bundles {#bundles}
       + [Hantera kreativa paket](/help/creative/creative-libraries/bundle-manage.md)
@@ -76,6 +77,7 @@ ht-degree: 5%
    + [Dela en demo-URL för en upplevelse](/help/creative/experiences/experience-share-demo-url.md)
    + [Hämta data från vyn [!UICONTROL Experiences]](/help/creative/experiences/experience-download-view.md)
    + [Byta namn på en annonstagg](/help/creative/experiences/experience-tag-rename.md)
+   + [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)
    + [Ta bort en upplevelse](/help/creative/experiences/experience-delete.md)
 + Feeds {#feeds}
    + [Hantera resursfiler](/help/creative/feeds/asset-manage.md)
@@ -93,4 +95,4 @@ ht-degree: 5%
 + [Återmarknadsföring av pixlar](/help/creative/pixels/retargeting-pixel-manage.md)
 + [Tillgängliga makron för att spåra URL:er](/help/creative/creative-macros.md)
 + [Få hjälp](/help/creative/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE){target="_blank"}
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html){target="_blank"}

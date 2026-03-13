@@ -3,9 +3,9 @@ title: Klona en upplevelse
 description: Lär dig skapa en upplevelse genom att klona en befintlig upplevelse.
 feature: Creative Experiences
 exl-id: 8c305732-f2ff-4a9d-80ad-e9e0f6484ba2
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,4 @@ Skapa en upplevelse genom att klona en befintlig upplevelse. Den nya upplevelsen
 >
 >* [Skapa en upplevelse med mål för beslutsträd](experience-create-targeting.md)
 >* [Skapa en upplevelse utan mål för beslutsträd](experience-create-no-targeting.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

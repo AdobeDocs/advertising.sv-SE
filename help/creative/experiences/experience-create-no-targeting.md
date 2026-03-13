@@ -3,10 +3,10 @@ title: Skapa en upplevelse utan mål för beslutsträd
 description: Lär dig skapa en annonsupplevelse utan målinriktning.
 feature: Creative Experiences
 exl-id: 327b1df5-5663-4513-9238-f481370c8c38
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 1%
+source-wordcount: '201'
+ht-degree: 0%
 
 ---
 
@@ -51,3 +51,4 @@ Skapa en annonsupplevelse utan målinriktning. Alla upplevelser kan använda ann
 >* [Anpassa spårnings-URL:er för en upplevelse utan att ange mål](/help/creative/experiences/experience-tracking-urls-no-targeting.md)
 >* [Anpassa den kreativa optimeringen och schemaläggningen för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](/help/creative/experiences/experience-tag-export.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

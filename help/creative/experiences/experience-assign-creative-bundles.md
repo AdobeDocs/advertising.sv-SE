@@ -3,9 +3,9 @@ title: Tilldela och ta bort tilldelning av kreativa paket till en slutlig nod i 
 description: Lär dig hur ni tilldelar kreatörer till varje mål i era annonsupplevelser.
 feature: Creative Experiences
 exl-id: 5449a760-6ade-41c0-9cab-bd92026b150b
-source-git-commit: 24ae6f65552a2c958488be4f1363c08c3f387d37
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,4 @@ These formatted steps are inserted automatically from text in the following file
 >* [Redigera en upplevelse med mål för beslutsträd](experience-edit-targeting.md)
 >* [Inställningar för anpassad upplevelse](experience-settings-targeting.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](experience-tag-export.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

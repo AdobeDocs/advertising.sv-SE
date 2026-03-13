@@ -3,9 +3,9 @@ title: Redigera en upplevelse utan mål för beslutsträd
 description: Lär dig hur du redigerar inställningarna för en annonsupplevelse utan målinriktning.
 feature: Creative Experiences
 exl-id: 29f54944-72a0-405a-bc11-87ea03edc09a
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,4 @@ ht-degree: 0%
 >* [Anpassa den kreativa optimeringen och schemaläggningen för en upplevelse utan målinriktning](/help/creative/experiences/experience-optimization-scheduling-no-targeting.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](/help/creative/experiences/experience-tag-export.md)
 >* [Skapa en upplevelse utan mål för beslutsträd](experience-create-no-targeting.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)

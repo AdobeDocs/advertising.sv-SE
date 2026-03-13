@@ -3,9 +3,9 @@ title: Redigera en upplevelse med målgruppsanpassning i beslutsträd
 description: Lär dig hur du redigerar inställningarna för en riktad annonsupplevelse med hjälp av ett beslutsträd.
 feature: Creative Experiences
 exl-id: 8c5e8f9b-c405-41b2-98a9-da7c5debd3e1
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ ht-degree: 0%
 >* [Anpassa kreativ optimering och schemaläggning](experience-optimization-scheduling-targeting.md)
 >* [Exportera och implementera en annonsupplevelsetagg för en liveupplevelse](/help/creative/experiences/experience-tag-export.md)
 >* [Skapa en upplevelse med mål för beslutsträd](experience-create-targeting.md)
+>* [Visa ändringsloggen för en upplevelse](/help/creative/experiences/experience-view-change-log.md)
