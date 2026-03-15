@@ -3,16 +3,16 @@ title: Exportera information om en återanvändbar publik
 description: Lär dig hur du visar konfiguration, målgruppsstorlek och målgruppsplaceringar för en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: 1e573c443cff2db2cd59ad8a77ab47a3cdd93e07
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
 # Exportera information om en återanvändbar publik
 
-Du kan hämta en [!DNL Microsoft Excel]-kalkylbladsfil med målgruppskonfigurationsregeln, antalet aktiva och totalt antal målgruppsmedlemmar per enhetstyp, information om varje segment i målgruppen och alla placeringar som riktar sig till målgruppen.
+Du kan hämta en [!DNL Microsoft Excel]-kalkylbladsfil med målgruppskonfigurationsregeln, antalet aktiva målgruppsmedlemmar per enhetstyp, information om varje segment i målgruppen och alla placeringar som riktar sig till målgruppen.
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL All audiences]** på huvudmenyn.
 
