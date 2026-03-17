@@ -4,9 +4,9 @@ description: Lär dig mer om vilka mål du ska uppnå.
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 4e417307-1403-4420-85f9-2fa04c253b58
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du kan inkludera något av följande i dina mål:
 
 * [!DNL Google] mått:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads]-spårade konverteringar &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) från synkroniserade [!DNL Google Ads]-konton.
+   * [[!DNL Google Ads]-spårade konverteringar ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) från synkroniserade [!DNL Google Ads]-konton.
 
    * (Annonsörer med [[!DNL Google Analytics] integreringar](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Sidvyer, sessioner, avhoppsfrekvens (beräknat som studsar/sessioner) och sessionsvaraktighet.
 
@@ -68,3 +68,4 @@ Du kan [överföra målen för kontots portföljer till  [!DNL Google Ads]  och/
 >* [Ta bort ett mål](objective-delete.md)
 >* [Använd viktrekommendationer på ett mål](objective-apply-weight-recommendations.md)
 >* [Målinställningar](objective-settings.md)
+>* [Hämta prestandadata för mål](objective-download-performance-data.md)

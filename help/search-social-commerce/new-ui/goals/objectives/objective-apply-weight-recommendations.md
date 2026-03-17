@@ -4,9 +4,9 @@ description: Lär dig var du hittar information om hur du använder rekommendera
 feature: Search Objectives, Search Optimization
 hide: true
 exl-id: 70a231e5-cedb-4a02-8ee9-13549460c034
-source-git-commit: df5d34c7d86174107278e0cd4f5a99329a21ca61
+source-git-commit: 67bbcbd318144022adfac7688c7bd2e0fee588d5
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '64'
 ht-degree: 0%
 
 ---
@@ -24,3 +24,4 @@ Instruktioner finns i hjälpen i användargränssnittet eller i optimeringshandb
 >* [Redigera ett mål](objective-edit.md)
 >* [Ta bort ett mål](objective-delete.md)
 >* [Målinställningar](objective-settings.md)
+>* [Hämta prestandadata för mål](objective-download-performance-data.md)
