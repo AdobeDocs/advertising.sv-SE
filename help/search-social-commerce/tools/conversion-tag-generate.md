@@ -78,13 +78,13 @@ Se &quot;[Vanliga frågor om Adobe Advertising-konvertering och spårningstaggar
 
 Du kan ställa in konverteringsspårning för Sök, Socialt och Commerce med hjälp av taggar i Adobe Experience Platform (tidigare Adobe Experience Platform Launch). Taggar är tillgängliga för Adobe Experience Cloud-kunder som en inkluderad, värdeskapande funktion.
 
-Följande uppgifter krävs för att konfigurera konverteringsspårningstaggar för Search, Social och Commerce från Experience Platform användargränssnitt eller från Experience Platform Data Collection-användargränssnittet. Fullständig information och instruktioner om hur du konfigurerar taggar finns i Experience Platform Tags Guide, som börjar med &quot;[Tagg overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; och &quot;[QuickStart Guide](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
+Följande uppgifter krävs för att konfigurera konverteringsspårningstaggar för Search, Social och Commerce från Experience Platform användargränssnitt eller från Experience Platform Data Collection-användargränssnittet. Fullständig information och instruktioner om hur du konfigurerar taggar finns i Experience Platform Tags Guide, som börjar med &quot;[Tagg overview](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home)&quot; och &quot;[QuickStart Guide](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/get-started/quick-start)&quot;.
 
 >[!PREREQUISITES]
 >
 >Om du vill installera det nödvändiga taggtillägget ber du organisationens administratör om åtkomst till datainsamlingsfunktionerna i användargränssnittet, inklusive behörigheten `manage_properties`.
 
-1. Installera Adobe Advertising [Extension](https://experience.adobe.com/#/data-collection/) från [användargränssnittet för datainsamling](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
+1. Installera Adobe Advertising [Extension](https://experience.adobe.com/#/data-collection/) från [användargränssnittet för datainsamling](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/ui/extensions/overview):
 
    1. Öppna tilläggskatalogen från den tillämpliga egenskapen och välj **Adobe Advertising**.
 
@@ -132,7 +132,7 @@ Följande uppgifter krävs för att konfigurera konverteringsspårningstaggar f�
 
          **Konverteringsegenskapsnamn:** Namnet på konverteringsegenskapen (till exempel `form_completes`).
 
-         **Värde:** Det numeriska värdet för konverteringsegenskapen (till exempel `1` för att spåra form_complete) eller välj ett befintligt [dataelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements).
+         **Värde:** Det numeriska värdet för konverteringsegenskapen (till exempel `1` för att spåra form_complete) eller välj ett befintligt [dataelement](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/ui/data-elements).
 
       1. Klicka på **Behåll ändringar**.
 

@@ -60,13 +60,13 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att konverteringsspårningstaggar läggs till på annonsörens webbsidor och/eller att en daglig feed-släppning ställs in för konverteringsdata som annonsören har samlat in separat.
 
-      Om du använder Adobe Advertising tjänst för konverteringsspårning kan du [generera konverteringsspårningstaggar](/help/search-social-commerce/tools/conversion-tag-generate.md) i Search, Social och Commerce eller använda [taggar från Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (tidigare Adobe Experience Platform Launch).
+      Om du använder Adobe Advertising tjänst för konverteringsspårning kan du [generera konverteringsspårningstaggar](/help/search-social-commerce/tools/conversion-tag-generate.md) i Search, Social och Commerce eller använda [taggar från Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html?lang=sv-SE) (tidigare Adobe Experience Platform Launch).
 
    1. Validera de data som spåras.
 
    Mer information om hur du ställer in spårning finns i kapitlet om spårning.
 
-1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
+1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE) så att de kan utbyta data.
 
 1. (Om du vill att Search, Social och Commerce ska kunna optimera anbud, kampanjbudgetar och/eller strategiska mål för kampanjanbudsstrategier, endast [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
