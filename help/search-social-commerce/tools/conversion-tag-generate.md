@@ -1,24 +1,26 @@
 ---
-title: Generera en Adobe Advertising-tagg för konverteringsspårning
+title: Generera och implementera en konverteringsspårningstagg för Adobe Advertising
 description: Lär dig hur du skapar en konverteringstagg för Adobe Advertising för att spåra konverteringshändelser.
 exl-id: 02492162-96a0-4a91-8896-dd0f72199f79
 feature: Search Tools, Search Tracking
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d92fc3fa1ce218788890c073df22afa336aa9ad1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
-# Generera en Adobe Advertising-tagg för konverteringsspårning
+# Generera och implementera en konverteringsspårningstagg för Adobe Advertising
 
 *Annonsörer med endast Adobe Advertising-konverteringsspårning*
 
-Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vill spåra och förse annonsören eller reklambyrån med en lista över webbsidor där varje konverteringstagg ska infogas.
+Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vill spåra.
+
+## Generera och implementera en konverteringsspårningstagg i Search, Social och Commerce
 
 >[!NOTE]
 >
->Den här funktionen lägger inte till bildtaggar eller [!DNL JavaScript]-taggar på annonsörens webbsidor. Taggarna måste läggas till enligt annonsörens normala procedur för uppdatering av webbsidor.
+>Den här funktionen lägger inte till bildtaggar eller [!DNL JavaScript]-taggar på annonsörens webbsidor. Ge annonsören eller reklambyrån taggarna med en lista över webbsidor där varje sida ska infogas. Taggarna måste läggas till enligt annonsörens normala procedur för uppdatering av webbsidor.
 
 1. Klicka på **[!UICONTROL Search, Social, & Commerce]> [!UICONTROL Tools] >[!UICONTROL Conversion Tags]** på huvudmenyn.
 
@@ -36,7 +38,7 @@ Skapa en separat konverteringstagg för varje uppsättning mätvärden som du vi
 >
 >Varje mätvärde i den nya konverteringstaggen listas automatiskt i [!UICONTROL Admin] > [!UICONTROL Conversions], även om det inte implementeras eller webbsidorna som den är på inte har fått några klick. Det här beteendet skiljer sig från beteendet för mätvärden i taggar som skapats manuellt eller någon annanstans, som inte listas i [!UICONTROL Admin] > [!UICONTROL Conversions] förrän någon av de webbsidor som den är aktiverad har fått ett klick. I samtliga fall undantas dock varje mätvärde från början från portföljmål, rapporter och vyer tills du uttryckligen gör dem tillgängliga. Innan du lägger till mätvärden i portföljmål bör du dock överväga att först göra mätvärdena tillgängliga och lägga till dem i rapporter för att kontrollera när de får klickningar.
 
-## Inställningar för Adobe Advertising-konverteringstaggar {#conversion-tag-settings}
+### Inställningar för Adobe Advertising-konverteringstaggar {#conversion-tag-settings}
 
 **[!UICONTROL Tag Type]:** Den typ av tagg som ska skapas:
 
@@ -71,6 +73,72 @@ Om data inte innehåller ett unikt ID per transaktion genererar Adobe Advertisin
 **[!UICONTROL JS Version]:** ([!DNL JavaScript] endast taggar) Vilken version av [!DNL JavaScript]-taggen som ska skapas: *[!UICONTROL v2]* (standard) eller *[!UICONTROL v3]*.
 
 Se &quot;[Vanliga frågor om Adobe Advertising-konvertering och spårningstaggar för sidvy](/help/search-social-commerce/tracking/faqs-conversion-page-view-tracking-tags.md).&quot; för mer information om skillnaderna.
+
+## Implementera taggar för konverteringsspårning med Adobe Experience Platform-taggar
+
+Du kan ställa in konverteringsspårning för Sök, Socialt och Commerce med hjälp av taggar i Adobe Experience Platform (tidigare Adobe Experience Platform Launch). Taggar är tillgängliga för Adobe Experience Cloud-kunder som en inkluderad, värdeskapande funktion.
+
+Följande uppgifter krävs för att konfigurera konverteringsspårningstaggar för Search, Social och Commerce från Experience Platform användargränssnitt eller från Experience Platform Data Collection-användargränssnittet. Fullständig information och instruktioner om hur du konfigurerar taggar finns i Experience Platform Tags Guide, som börjar med &quot;[Tagg overview](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home)&quot; och &quot;[QuickStart Guide](https://experienceleague.adobe.com/en/docs/experience-platform/tags/get-started/quick-start)&quot;.
+
+>[!PREREQUISITES]
+>
+>Om du vill installera det nödvändiga taggtillägget ber du organisationens administratör om åtkomst till datainsamlingsfunktionerna i användargränssnittet, inklusive behörigheten `manage_properties`.
+
+1. Installera Adobe Advertising [Extension](https://experience.adobe.com/#/data-collection/) från [användargränssnittet för datainsamling](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview):
+
+   1. Öppna tilläggskatalogen från den tillämpliga egenskapen och välj **Adobe Advertising**.
+
+   1. Välj **SSC** (för Search, Social och Commerce) i listrutan.
+
+   1. I fältet **SSC UserID** anger du det numeriska användar-ID:t för organisationens Search-, Social- och Commerce-konto.
+
+      Kontakta Adobe Account Team om du inte känner till ditt användar-ID.
+
+   1. Klicka på **Spara**.
+
+1. Skapa en ny regel (till exempel &quot;form_complete&quot;) som utlöser konverteringstaggen Search, Social och Commerce:
+
+   1. I avsnittet Händelsekonfiguration:
+
+      1. Välj följande värden:
+
+         **Tillägg:** `Core`
+
+         **Händelsetyp:** `Library Loaded (Page Top)`
+
+      1. Klicka på **Behåll ändringar**.
+
+   1. I avsnittet Villkorskonfiguration:
+
+      1. Ange följande värden:
+
+         **Logiktyp:** `Regular`
+
+         **Tillägg:** `Core`
+
+         **Villkorstyp:** `Path Without Query String`
+
+         **Returnera true om sökvägen är lika med:** Sökvägen där konverteringen ska spåras (till exempel `/form_complete`).
+
+      1. Klicka på **Behåll ändringar**.
+
+   1. I avsnittet Åtgärdskonfiguration:
+
+      1. Ange följande värden:
+
+         **Tillägg:** `Adobe Advertising`
+
+         **Åtgärdstyp:** `AMO Measurement`
+
+         **Konverteringsegenskapsnamn:** Namnet på konverteringsegenskapen (till exempel `form_completes`).
+
+         **Värde:** Det numeriska värdet för konverteringsegenskapen (till exempel `1` för att spåra form_complete) eller välj ett befintligt [dataelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements).
+
+      1. Klicka på **Behåll ändringar**.
+
+   1. Spara regeln.
+
+1. Publicera ändringarna.
 
 >[!MORELIKETHIS]
 >

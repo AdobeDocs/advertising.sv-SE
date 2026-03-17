@@ -3,18 +3,18 @@ title: Översikt över att implementera annonsnätverkskonton och -kampanjer
 description: Lär dig mer om de uppgifter som krävs för att konfigurera, synkronisera och hantera era annonsnätverkskonton.
 exl-id: 36307e65-81f8-4794-8a75-a37623b294ed
 feature: Search Campaign Management
-source-git-commit: 0af1c5591a59b9e1813209fea3ac6aaecc0e649b
+source-git-commit: 6014f2dc349286d562f219db7e05279deb96e477
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
 
 # Översikt över att implementera annonsnätverkskonton och -kampanjer
 
-Adobe samarbetar med varje annonsör för att upprätta sina annonsnätverkskonton och -kampanjer. Detta innefattar att konfigurera Search, Social och Commerce för att ansluta och synkronisera med annonsörens konton, skapa nya kampanjer och kampanjkomponenter efter behov, konfigurera spårning för komponentannonser, alternativt lägga till kampanjer i portfolior för att göra det möjligt för Search, Social och Commerce att optimera anbuden på annonserna samt validera initiala kostnader, klick- och intäktsdata.
+Adobe samarbetar med alla annonsörer för att skapa annonsnätverkskonton och -kampanjer. Detta innefattar att konfigurera Search, Social och Commerce för att ansluta och synkronisera med annonsörens konton, skapa nya kampanjer och kampanjkomponenter efter behov, konfigurera spårning för komponentannonser, alternativt lägga till kampanjer i portfolior för att göra det möjligt för Search, Social och Commerce att optimera anbuden på annonserna samt validera initiala kostnader, klick- och intäktsdata.
 
-När en kampanj har aktiverats och lagts till i en portfölj måste kontohanteringsgruppen, reklamteamet eller annonsören (beroende på villkoren i servicenivåavtalet) övervaka varje kampanj och ändra de relevanta komponenterna och inställningarna efter behov för att uppfylla annonsörens mål.
+När en kampanj har aktiverats och kan läggas till i en portfolio måste Adobe kontohanteringsgrupp, agentteam eller annonsören (beroende på villkoren i service level agreement) övervaka varje kampanj och ändra de relevanta komponenterna och inställningarna efter behov för att uppfylla annonsörens mål.
 
 Den här sidan innehåller information om alla kontotyper, inklusive hur du ställer in kampanjstrukturen för synkroniserade konton. Mer information om hur du konfigurerar konton med enbart spårning för [!DNL Naver] finns i [Implementera [!DNL Naver] konton med enbart spårning](/help/search-social-commerce/campaign-management/naver-tracking-only-account-implement.md).&quot;
 
@@ -52,21 +52,21 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
 1. Ställ in spårning för alla annonser som Adobe Advertising ska spåra konverteringar för:
 
-   1. (Annonsörer med konverteringstjänsten Adobe Advertising) Om det behövs kan [konfigurera klickspårning](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) för annonser och eventuellt för nyckelord, placeringar och annonser genom att generera och överföra klickspårnings-URL:er för Search, Social och Commerce.
+   1. (Annonsörer med Adobe Advertising tjänst för konverteringsspårning) Om det behövs [ställer du in klickspårning](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) för annonser och eventuellt för nyckelord, placeringar och annonstillägg genom att generera och överföra klickspårnings-URL:er för sökningar, sociala medier och Commerce.
 
-      Ställ in all spårning i [kampanjens spårningsinställningar](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) för [!DNL Google Ads] maximala prestandakampanjer.
+      Ställ in all spårning i [!DNL Google Ads]kampanjens spårningsinställningar[ för ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) maximala prestandakampanjer.
 
 1. För kampanjer som bara kan spåras måste du i stället generera mål-URL:er med hjälp av kalkylblad och sedan lägga till de genererade mål-URL:erna till de relevanta entiteterna med annonsnätverkets interna redigerare.
 
    1. Ställ in konverteringsspårning. Beroende på implementeringen kan detta innebära att konverteringsspårningstaggar läggs till på annonsörens webbsidor och/eller att en daglig feed-släppning ställs in för konverteringsdata som annonsören har samlat in separat.
 
-      Om du använder tjänsten för spårning av konvertering i Adobe Advertising kan du generera konverteringsspårningstaggar [i Search, Social och Commerce](/help/search-social-commerce/tools/conversion-tag-generate.md) eller [med Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud.html?lang=sv-SE).
+      Om du använder Adobe Advertising tjänst för konverteringsspårning kan du [generera konverteringsspårningstaggar](/help/search-social-commerce/tools/conversion-tag-generate.md) i Search, Social och Commerce eller använda [taggar från Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/overview.html) (tidigare Adobe Experience Platform Launch).
 
    1. Validera de data som spåras.
 
    Mer information om hur du ställer in spårning finns i kapitlet om spårning.
 
-1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och analys](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE) så att de kan utbyta data.
+1. (Annonsörer med Adobe Analytics) [Integrera Adobe Advertising och Analytics](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) så att de kan utbyta data.
 
 1. (Om du vill att Search, Social och Commerce ska kunna optimera anbud, kampanjbudgetar och/eller strategiska mål för kampanjanbudsstrategier, endast [kampanjtyper som stöds](/help/search-social-commerce/introduction/supported-inventory.md)) [Tilldela kampanjen till en portfölj](/help/search-social-commerce/campaign-management/campaign-assign-to-portfolio.md).
 
