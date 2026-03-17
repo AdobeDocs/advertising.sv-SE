@@ -51,7 +51,7 @@ Du kan inkludera något av följande i dina mål:
 
 * [!DNL Google] mått:<!-- Search only, or might DSP-only clients also have these? -->
 
-   * [[!DNL Google Ads]-spårade konverteringar ](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) från synkroniserade [!DNL Google Ads]-konton.
+   * [[!DNL Google Ads]-spårade konverteringar &#x200B;](/help/search-social-commerce/campaign-management/introduction/google-conversion-data.md) från synkroniserade [!DNL Google Ads]-konton.
 
    * (Annonsörer med [[!DNL Google Analytics] integreringar](/help/search-social-commerce/admin/data-sources/data-source-about.md)) Sidvyer, sessioner, avhoppsfrekvens (beräknat som studsar/sessioner) och sessionsvaraktighet.
 

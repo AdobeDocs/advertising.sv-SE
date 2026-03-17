@@ -46,7 +46,7 @@ Klicka på **[!UICONTROL Goals]>[!UICONTROL Objectives]** på huvudmenyn.
 
 1. Klicka på ![Hämta rapport](/help/search-social-commerce/assets/download.png "Hämta rapport") i verktygsfältet ovanför datatabellen.
 
-1. Klicka på [!UICONTROL Recently Generated]Hämta[!UICONTROL Grid Reports]Hämta![ bredvid filnamnet i listan ](/help/search-social-commerce/assets/download.png " i dialogrutan ").
+1. Klicka på [!UICONTROL Recently Generated]Hämta[!UICONTROL Grid Reports]Hämta![&#x200B; bredvid filnamnet i listan &#x200B;](/help/search-social-commerce/assets/download.png " i dialogrutan ").
 
    Filen laddas ned enligt webbläsarens normala procedur.
 
@@ -56,7 +56,7 @@ Klicka på **[!UICONTROL Goals]>[!UICONTROL Objectives]** på huvudmenyn.
 
 1. Klicka på ![Hämta](/help/search-social-commerce/assets/download.png "Hämta") **[!UICONTROL Report]** i verktygsfältet ovanför datatabellen.
 
-1. Klicka på [!UICONTROL Recently Generated]Ta bort[!UICONTROL Grid Reports]Ta bort![ bredvid filnamnet i listan ](/help/search-social-commerce/assets/delete-new.png " i dialogrutan ").
+1. Klicka på [!UICONTROL Recently Generated]Ta bort[!UICONTROL Grid Reports]Ta bort![&#x200B; bredvid filnamnet i listan &#x200B;](/help/search-social-commerce/assets/delete-new.png " i dialogrutan ").
 
 >[!MORELIKETHIS]
 >
