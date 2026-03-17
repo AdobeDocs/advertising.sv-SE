@@ -26,7 +26,7 @@ Advertising Search, Social och Commerce är integrerade med följande [!DNL Adob
 
    * Adobe Advertising och [!DNL Analytics] delar sömlöst data. [!DNL Analytics] kan dagligen skicka webbplatsengagemangs- och konverteringsdata till Search, Social och Commerce, där informationen är tillgänglig för annonsoptimering och rapportering. Dessutom kan Adobe Advertising dagligen skicka annonsdata - inklusive visningar, klickningar och kostnader - från dina annonsnätverk till [!DNL Analytics], där informationen finns tillgänglig i alla rapportverktyg.
 
-     Mer information om stöd för [ för varje annonsnätverk och annonstyp finns i ](/help/search-social-commerce/introduction/supported-inventory.md)Supported Inventory[!DNL Analytics]. Mer information om datautbytet finns även i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}.
+     Mer information om stöd för [&#x200B; för varje annonsnätverk och annonstyp finns i &#x200B;](/help/search-social-commerce/introduction/supported-inventory.md)Supported Inventory[!DNL Analytics]. Mer information om datautbytet finns även i [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html){target="_blank"}.
 
      För att kunna utbyta data måste både Adobe Advertising och [!DNL Analytics] vara konfigurerade från början. Kontakta ditt Adobe-kontoteam om du vill ha mer information om den första konfigurationen.
 

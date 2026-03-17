@@ -54,7 +54,7 @@ Den här sidan innehåller information om alla kontotyper, inklusive hur du stä
 
    1. (Annonsörer med Adobe Advertising tjänst för konverteringsspårning) Om det behövs [ställer du in klickspårning](/help/search-social-commerce/tracking/click-tracking-ways-to-generate.md) för annonser och eventuellt för nyckelord, placeringar och annonstillägg genom att generera och överföra klickspårnings-URL:er för sökningar, sociala medier och Commerce.
 
-      Ställ in all spårning i [!DNL Google Ads]kampanjens spårningsinställningar[ för ](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) maximala prestandakampanjer.
+      Ställ in all spårning i [!DNL Google Ads]kampanjens spårningsinställningar[&#x200B; för &#x200B;](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) maximala prestandakampanjer.
 
 1. För kampanjer som bara kan spåras måste du i stället generera mål-URL:er med hjälp av kalkylblad och sedan lägga till de genererade mål-URL:erna till de relevanta entiteterna med annonsnätverkets interna redigerare.
 
