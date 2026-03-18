@@ -1,16 +1,16 @@
 ---
-title: Om Audience Management i Advertising DSP
+title: Om målgruppshantering i Advertising DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
 
 ---
 
-# Om Audience Management i Advertising DSP
+# Om målgruppshantering i Advertising DSP
 
 I DSP kan du skapa och hantera målgruppssegment och målgruppsuppsättningar som du kan använda som mål för dina ersättningar:
 
@@ -36,7 +36,7 @@ I DSP kan du skapa och hantera målgruppssegment och målgruppsuppsättningar so
 
 Det finns även andra typer av målgrupper att tillgå för riktad marknadsföring.
 
-## Importera datasegment från första och tredje part
+## Importera datasegment från första part och tredje part
 
 Det finns många alternativ för att importera data från första part och tredje part till DSP via DSP användargränssnitt och/eller via anpassade importtjänster.
 
@@ -84,7 +84,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
   >[!NOTE]
   >
-  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=sv-SE), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=sv-SE) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
+  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
 
 ## Målgruppsstorleksdata
 
@@ -106,7 +106,7 @@ Du kan även se detaljerade data om målgruppsstorlek:
 
   ![det enskilda segmentet eller den sparade målgruppsinformationen](/help/dsp/assets/audience-size-segment-details.png)
 
-## Målgruppsvyer
+## Publikvyerna
 
 ### Vyn Alla målgrupper
 
@@ -114,7 +114,7 @@ I vyn [!UICONTROL All Audiences] eller i målgruppsbiblioteket kan du spara och 
 
 Du kan redigera, klona, ta bort, exportera och dela vilken målgrupp som helst.
 
-### Segmentvyn
+### Vyn Segment
 
 I vyn [!UICONTROL Segments] kan alla användare skapa ytterligare anpassade segment.
 
@@ -147,7 +147,7 @@ De översatta segmenten är tillgängliga för att inkluderas i återanvändbara
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
