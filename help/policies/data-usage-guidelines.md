@@ -1,22 +1,22 @@
 ---
-title: Riktlinjer för dataanvändning i Adobe Advertising DSP
+title: Adobe Advertising DSP riktlinjer för dataanvändning
 description: Se riktlinjerna för dataanvändning.
 feature: Policies
 exl-id: b71caa80-d1f6-4f42-90c3-a3e19acb2c6c
-source-git-commit: 4ea8b76e65fb610d2bf86a39560084902e9d0436
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
-# Riktlinjer för dataanvändning i Adobe Advertising DSP
+# Adobe Advertising DSP riktlinjer för dataanvändning
 
 *Senast uppdaterad: 5 september 2019 (utom för uppdatering av URL-adressen för den här sidan)*
 
 *För Adobe Advertising DSP*
 
-Dessa riktlinjer för dataanvändning (&quot;riktlinjer för dataanvändning&quot;) innehåller krav för användningen av vissa uppgifter som Adobe’s On-demand Services for Advertising DSP (&quot;tjänster&quot;) har tillgång till. Dessa riktlinjer införlivas genom hänvisning i avtalet mellan Adobe och kunden med hjälp av On-demand-tjänster. De termer med versaler som används i dessa riktlinjer, men som inte definieras häri, har den innebörd som anges i det avtalet.
+Dessa riktlinjer för dataanvändning (&quot;riktlinjer för dataanvändning&quot;) innehåller krav för användning av vissa data som hämtas via Adobe&quot;tjänster på begäran&quot; för Advertising DSP (&quot;tjänster&quot;). Dessa riktlinjer införlivas genom hänvisning i avtalet mellan Adobe och kunden med hjälp av On-Demand-tjänster. De termer med versaler som används i dessa riktlinjer, men som inte definieras häri, har den innebörd som anges i det avtalet.
 
 Adobe förbehåller sig rätten att i sin egen bedömning avgöra om kundens användning av data strider mot dessa riktlinjer.
 

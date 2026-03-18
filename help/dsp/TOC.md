@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: e7b320180b707e38c6e4c035dd8c7bfe388b3bdc
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 3%
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
-   + [Principer och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + [Sök efter produktdokumentation med hjälp av AI-assisterad chatt](/help/dsp/agent-chat.md)
 + Kampanjhantering {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=sv-SE)
+      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -106,7 +106,7 @@ ht-degree: 3%
    + [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
-   + [&#x200B; [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [ [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
    + [Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)
    + [Pre-bid-filter på placeringsnivå och Så här använder du dem](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Anpassade mål](/help/dsp/optimization/custom-goal.md)
@@ -233,9 +233,9 @@ ht-degree: 3%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE)
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Få hjälp](/help/dsp/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE)
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:

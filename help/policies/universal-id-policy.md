@@ -1,16 +1,16 @@
 ---
-title: Krav för Adobe Advertising Universal ID
+title: Princip för krav för Adobe Advertising Universal ID
 description: Se policyn för användning av universella ID:n.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 35dd8b8302afb01f8e6bb6c8da2a3c167abd397f
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Krav för Adobe Advertising Universal ID
+# Princip för krav för Adobe Advertising Universal ID
 
 Senast uppdaterad: 29 februari 2024
 
@@ -36,15 +36,15 @@ Genom att välja att använda de universella ID:n som gjorts tillgängliga via t
 
 * Om du får en avanmälan efter avtalets giltighetsdatum, kommer du inte längre att använda det universella ID som tillhör den användaren.
 
-### Förbjudna länder för UID2
+### Förbjudna länder i UID2
 
-Genom att välja att använda UID2 Universal ID:n via tjänsterna godkänner du att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On-demand-tjänster för sådan användning i samband med UID2 Universal ID:n inte är relaterade till någon person som bor i något av de [UID2-förbjudna länder som anges i utdrag A](#prohibited-countries-uid2) här.
+Genom att välja att använda UID2 Universal ID:n via tjänsterna godkänner du att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On-demand-tjänster för sådan användning i samband med UID2 Universal ID:n inte är relaterade till någon som bor i något av de [UID2 förbjudna länder som anges i utdrag A](#prohibited-countries-uid2) här.
 
 ## Ingen diskriminering
 
 Ni får inte använda tjänsterna för att diskriminera personer i strid med lagen, bland annat genom att målinrikta vissa grupper av människor felaktigt för annonsering, på ett felaktigt sätt utesluta vissa grupper av människor från att se annonser eller genom att erbjuda diskriminerande innehåll i annonser. Du ansvarar för att använda tjänsterna på ett ansvarsfullt sätt för att undvika diskriminering av skyddade klasser, inklusive, men inte begränsat till, att säkerställa att era annonser inte har olika påverkan på skyddade klasser.
 
-## Utdrag A: UID2-förbjudna länder {#prohibited-countries-uid2}
+## Utdrag A: Förbjudna UID2-länder {#prohibited-countries-uid2}
 
 ### EU-länder
 

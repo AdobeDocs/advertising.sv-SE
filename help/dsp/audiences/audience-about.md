@@ -3,9 +3,9 @@ title: Om Audience Management i Advertising DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ I DSP kan du skapa och hantera målgruppssegment och målgruppsuppsättningar so
 
    * [CCPA-segment för avanmälan från försäljning](/help/dsp/audiences/ccpa-opt-out-segment-create.md) för att spåra användar-ID:n från förfrågningar om avanmälan från försäljning på din webbplats, enligt California Consumer Privacy Act (CCPA). Du kan hämta månadsrapporter om användar-ID:n från begäranden om att avanmäla dig.
 
-     Mer information om Adobe Advertising stöd för CCPA-begäran om att avanmäla dig finns i [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Mer information om Adobe Advertising stöd för CCPA-begäran om att avanmäla sig från försäljning finns i [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt-out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
 * (Beta-funktion) [Hämta och använd universella ID:n för cookiefri målinriktning](/help/dsp/audiences/universal-ids.md):
 
@@ -84,7 +84,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
   >[!NOTE]
   >
-  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=sv-SE), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=sv-SE) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
+  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
 
 ## Målgruppsstorleksdata
 
@@ -147,7 +147,7 @@ De översatta segmenten är tillgängliga för att inkluderas i återanvändbara
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)

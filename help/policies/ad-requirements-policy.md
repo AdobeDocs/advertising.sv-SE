@@ -1,20 +1,20 @@
 ---
-title: Krav för Adobe Advertising-annons
+title: Adobe Advertising policy för annonskrav
 description: Se policyn för annonskrav.
 feature: Policies, DSP Ads
 exl-id: 217cce8e-3bb3-407a-a05e-7fff2978eac8
-source-git-commit: 5a13aee5b7dcefa9f74d26322078c75e53f18a69
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '2190'
 ht-degree: 0%
 
 ---
 
-# Krav för Adobe Advertising-annons
+# Adobe Advertising policy för annonskrav
 
 *Principen uppdaterades senast: 17 juli 2024<!-- (except for formatting changes unrelated to content)-->*
 
-*För sökning, sociala medier och Commerce från Adobe Advertising DSP och Adobe Advertising*
+*För Adobe Advertising DSP och Adobe Advertising Search, Social och Commerce*
 
 Denna policy för annonskrav (&quot;policy&quot;) anger kraven för annonser som distribueras via [!DNL Adobe’s] On-demand-tjänster för Adobe Advertising (&quot;tjänster&quot;). Denna policy införlivas genom referens i avtalet mellan [!DNL Adobe] och kunden (&quot;du&quot;) med hjälp av On-demand-tjänster. De termer med versaler som används i denna policy men som inte definieras häri får den innebörd som anges i det avtalet.
 
@@ -22,11 +22,11 @@ Denna policy för annonskrav (&quot;policy&quot;) anger kraven för annonser som
 
 Utöver kraven som anges nedan och i avtalet måste ni uppfylla kraven som ställs av varje mediekälla där ni placerar era annonser, samt de krav som ställs av någon utbudssidans plattform (SSP) eller annan plattform som används för att leverera era annonser. Det är ditt ansvar att förstå och följa de policyer som tillämpas av utgivare och plattformar genom vilka ni levererar annonser.
 
-## Krav för annonsinnehåll
+## Krav på annonsinnehåll
 
-### Krav på kreativitet
+### Creative
 
-Alla annonser som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On-demand-tjänster måste överensstämma med annonsspecifikationerna i Adobe Advertising Ad-specifikationerna, som kan komma att revideras av [!DNL Adobe] då och då.
+Alla annonser som du överför, lagrar, visar, distribuerar eller på annat sätt gör tillgängliga via On-demand-tjänster måste överensstämma med annonsspecifikationerna i Adobe Advertising Ad Specs, som kan ändras av [!DNL Adobe] då och då.
 
 ### Förbjudna annonser
 
@@ -62,7 +62,7 @@ Ni måste se till att era annonser och de webbplatser till vilka en annons länk
 
 * **Försäljning av kroppsdelar**. Annonserna får inte främja försäljning av kroppsdelar eller kroppsvätskor.
 
-* **Distraherande annonser**. Annonserna får inte innehålla distraherande, oönskade eller obehagliga funktioner eller innehåll, inklusive autouppspelade funktioner (t.ex. annonser som automatiskt spelar upp ljud eller video), innehåll som blinkar, skakar, pulsar, blinkar eller innehåller extremt animerade objekt, text eller bilder, lokalt delade objekt (inklusive Flash cookies och lokal lagring i HTML5) och annonser som stör användarupplevelsen (t.ex. genom att lägga över annat innehåll ).
+* **Distraherande annonser**. Annonserna får inte innehålla distraherande, oönskade eller obehagliga funktioner eller innehåll, inklusive autouppspelade funktioner (t.ex. annonser som automatiskt spelar upp ljud eller video), innehåll som blinkar, skakar, pulsar, blinkar eller innehåller extremt animerade objekt, text eller bilder, lokalt delade objekt (inklusive flash cookies och lokal HTML5-lagring) och annonser som stör användarupplevelsen (t.ex. genom att överlagra annat innehåll) .
 
 * **Politiskt innehåll**. Politiskt innehåll omfattar kommunikation som (1) betalas för av valfri kandidat till ämbetet (federala, statliga, lokala eller internationella) eller kandidatens kampanj, (2) betalas för av en enhet som är registrerad eller rapporterar enligt lagstiftningen om kampanjfinansiering i en jurisdiktion (federala, statliga, lokala eller internationella), (3) uttryckligen förespråkar eller mot en tydligt identifierad kandidat (federala, statliga, lokala eller internationella), eller (4) på annat sätt regleras under någon jurisdiktion kampanjens finansrätt. Detta förbud omfattar, men är inte begränsat till, annonsering av lobbying som direkt eller indirekt har samband med val, politiska kampanjer, kandidat till ämbetet, omröstning, röstningsinitiativ, lagstiftning eller folkomröstning.
 
@@ -86,7 +86,7 @@ Annonser som innehåller innehåll i nedanstående kategorier tillåts med särs
 
 * **Annonser relaterade till viktförlust**. Tillägg som främjar viktminskning eller aptitnedsättande tabletter och kosttillskott är inte tillåtna, inklusive produkter som innehåller humant koriongonadotropin (hCG). Det är inte säkert att annonser kan leda till osannolika eller farliga viktminskningsanspråk eller ge upphov till bedrägliga bilder före och efter viktminskning.
 
-### Advertising to Underors
+### Advertising till minderåriga
 
 Annonserna får inte använda personuppgifter för att avsiktligt rikta sig till användare under 16 år. Förutom de förbjudna annonser och begränsade annonser som anges ovan, är det inte säkert att annonser medvetet marknadsför eller annonserar följande produkter eller tjänster till användare under 18 år:
 
@@ -102,7 +102,7 @@ Annonserna får inte använda personuppgifter för att avsiktligt rikta sig till
 * Spel- och spelprodukter, inklusive lotterier
 * Varumärke som tatuering, kroppspiercing eller permanenta kosmetika
 
-## Riktade annonser
+## Målinriktade annonser
 
 Tjänsterna får inte användas för att rikta annonser till användare eller utesluta användare från målanpassning, bland annat för att rikta om användare baserat på besök på era webbplatser eller andra onlinetjänster, på ett sätt som innebär att ni är medvetna om potentiellt känslig information om dem.
 
@@ -135,4 +135,4 @@ Ni får inte använda tjänsterna för att diskriminera personer i strid med lag
 
 >[!MORELIKETHIS]
 >
->* [Riktlinjer för hälsosegment som kan accepteras](/help/policies/health-segment-guidelines.md)
+>* [Riktlinjer för hälso- och sjukvårdssegment](/help/policies/health-segment-guidelines.md)

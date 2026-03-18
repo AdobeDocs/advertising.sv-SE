@@ -3,9 +3,9 @@ title: Skapa och implementera ett CCPA-segment för avanmälan/utförsäljning
 description: Lär dig hur du skapar och implementerar ett segment för att spåra användar-ID:n från konsumentförfrågningar om att avanmäla sig från försäljning.
 feature: CCPA, DSP Segments
 exl-id: 0623c52e-02ea-4e06-bc54-8abb7a87765a
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ När segmentets pixeltagg har implementerats börjar Adobe Advertising samla in 
 
 >[!NOTE]
 >
->* Information om hur du kan kommunicera CCPA-begäranden om att avanmäla sig från försäljning till Adobe Advertising med hjälp av Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=sv-SE](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=sv-SE).
+>* Mer information om hur du kan kommunicera CCPA-begäran om att avanmäla dig till Adobe Advertising med hjälp av Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
 >* Skapa ett [anpassat segment](/help/dsp/audiences/custom-segment-create.md) om du vill spåra användare som besöker webbsidor för syften som inte har att göra med att spåra CCPA-händelser för avanmälan och användare som exponeras för annonser från datorer, mobiler och CTV-enheter.
 
 1. Skapa segmentet:
@@ -47,7 +47,7 @@ När segmentets pixeltagg har implementerats börjar Adobe Advertising samla in 
 
       Annonsörens IT-avdelning eller annan grupp kan behöva schemalägga, eller få information om, tagghanteringen.
 
-      När pixeln har implementerats börjar Adobe Advertising samla in en pool med ID:n för annonsörens räkning.
+      När pixeln är implementerad börjar Adobe Advertising samla in en pool med ID:n för annonsörens räkning.
 
       Även om det är annonsörerna som bestämmer implementering och logik är det här ett exempel på hur en annonsör kan tända ut pixeln:
 
@@ -60,8 +60,8 @@ När segmentets pixeltagg har implementerats börjar Adobe Advertising samla in 
 
 >[!MORELIKETHIS]
 >
->* [Stöd för Adobe Advertising i Kaliforniens konsumentsekretesslag: Stöd för konsumentavanmälan](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter &#x200B;](ccpa-opt-out-about.md)
->* [Hämta rapporter om konsumentens avanmälan från försäljning](ccpa-opt-out-segment-report-retrieve.md)
+>* [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+>* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter ](ccpa-opt-out-about.md)
+>* [Hämta rapporter om konsumentavanmälan från försäljning](ccpa-opt-out-segment-report-retrieve.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
 >* [Om målgruppshantering](audience-about.md)

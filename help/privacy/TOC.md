@@ -1,21 +1,21 @@
 ---
 role: User, Admin
-user-guide-title: Adobe Advertising-support for konsumentintegritet
+user-guide-title: Adobe Advertising stöd för konsumentintegritet
 user-guide-description: Lär dig mer om de säkerhets- och integritetskontroller som Adobe Advertising erbjuder för att hjälpa annonsörskunder att följa konsumentsekretesslagstiftningen.
-breadcrumb-title: Support för konsumentintegritet
+breadcrumb-title: Stöd för konsumenternas integritet
 index: true
-source-git-commit: 56f24a247ae129ab7050a10e91a79a4f1bbcdd01
+source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 56%
+ht-degree: 31%
 
 ---
 
 
-# Adobe Advertising-support for konsumentintegritet {#privacy}
+# Adobe Advertising stöd för konsumentintegritet {#privacy}
 
-+ [Om Adobe Advertising Support for Consumer Privacy](/help/privacy/home.md)
++ [Om Adobe Advertising stöd för konsumentintegritet](/help/privacy/home.md)
 + [Stöd för GDPR](/help/privacy/gdpr.md)
 + Stöd för CCPA {#ccpa}
-   + [Stöd för CCPA: Consumer Data Access and Delete](/help/privacy/ccpa/ccpa-access-delete.md)
-   + [(Endast DSP) Stöd för CCPA: Consumer Opt-Out-of-Sales](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
+   + [Stöd för CCPA: Åtkomst och borttagning av konsumentdata](/help/privacy/ccpa/ccpa-access-delete.md)
+   + [(Endast DSP) Stöd för CCPA: Consumer opt-out-of-sales](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
