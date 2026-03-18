@@ -88,7 +88,7 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
          * I inställningarna för [!UICONTROL Datastreams] väljer du datastream som ska användas för alla dina webbmiljöer (produktion, mellanlagring, utveckling).
 
-         * (Endast för organisationer med Adobe Advertising DSP) Aktivera [[!UICONTROL Adobe Advertising] i ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)-inställningarna **[!UICONTROL Adobe Advertising DSP]** för att tillåta vyspårning och ange för vilka annonsörer genomsiktsspårning ska aktiveras. Du kan även samla in ID:n från universella ID:n.
+         * (Endast för organisationer med Adobe Advertising DSP) Aktivera [[!UICONTROL Adobe Advertising] i &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/advertising)-inställningarna **[!UICONTROL Adobe Advertising DSP]** för att tillåta vyspårning och ange för vilka annonsörer genomsiktsspårning ska aktiveras. Du kan även samla in ID:n från universella ID:n.
 
            Om annonsörer inte finns med i listan anger du annonsörs-ID:t för varje annonsör.
 
@@ -96,11 +96,11 @@ Följande uppgifter krävs för att ställa in datainsamling i Experience Platfo
 
    * (Valfritt) [Skapa regler](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules) efter behov för att avgöra när Web SDK ska skicka data till Edge Network.
 
-      * Använd `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`-inställningen [[!UICONTROL Advertising] för att definiera hur annonsdata ska användas för attribueringsmätning för ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)-åtgärder. Den här inställningen är användbar när regeln innehåller en sekvens med flera åtgärder och endast är tillgänglig när du har valt komponenten [!UICONTROL Advertising] för den anpassade byggkomponenten.
+      * Använd `[sendEvent](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/actions/send-event)`-inställningen [[!UICONTROL Advertising] för att definiera hur annonsdata ska användas för attribueringsmätning för &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/action-types#advertising)-åtgärder. Den här inställningen är användbar när regeln innehåller en sekvens med flera åtgärder och endast är tillgänglig när du har valt komponenten [!UICONTROL Advertising] för den anpassade byggkomponenten.
 
    * Skapa [dataelement](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements) efter behov för att mappa variabler på webbplatsen till strukturen i XDM-schemat som du skapade tidigare.
 
-1. [Publicera taggen ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) i en testmiljö där du kan upprepa utvecklingen av taggar.
+1. [Publicera taggen &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) i en testmiljö där du kan upprepa utvecklingen av taggar.
 
 1. Validera leveransen av datauppsättningarna och [publicera sedan taggen i din produktionsmiljö](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow).
 
