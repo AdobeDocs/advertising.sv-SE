@@ -2,7 +2,7 @@
 title: Vanliga frågor om anpassade rapporter
 description: Läs mer om anpassade rapporter, inklusive hushållsrapporter och rapporter om konverteringsmetoder.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: a1ece707f43af4a6a3fc5573e41c75622f9b502f
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 0%

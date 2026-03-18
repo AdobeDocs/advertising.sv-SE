@@ -3,7 +3,7 @@ title: Skapa ett paket
 description: Lär dig hur du skapar ett paket.
 feature: DSP Packages
 exl-id: 528c57f2-fa83-44d7-9ce4-509ca7565135
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -32,4 +32,4 @@ När du har skapat ett paket kan du tilldela det placeringar.
 >* [Visa ändringsloggen för ett paket](package-change-log.md)
 >* [Pausa eller aktivera ett paket](package-pause-activate.md)
 >* [Paketinställningar](package-settings.md)
->* [Video: Så här skapar du ett paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html?lang=sv-SE)
+>* [Video: Så här skapar du ett paket](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/package-create.html)

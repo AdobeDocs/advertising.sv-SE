@@ -1,16 +1,16 @@
 ---
-title: Kör en anpassad rapport
+title: Köra en anpassad rapport
 description: Lär dig hur du kör en anpassad rapport direkt.
 feature: DSP Custom Reports
 exl-id: b256803d-45f9-445f-bf42-22cc7ce76792
-source-git-commit: f9a93bf99f470e128edeaf69752a91a44dd456ab
+source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# Kör en anpassad rapport
+# Köra en anpassad rapport
 
 Du kan köra alla rapporter som inte har gått ut och som inte körs just nu.
 
