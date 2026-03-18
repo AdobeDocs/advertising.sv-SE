@@ -3,7 +3,7 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: bcb22b61886d3929ad4c509489e8e9c15abcc2ee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%

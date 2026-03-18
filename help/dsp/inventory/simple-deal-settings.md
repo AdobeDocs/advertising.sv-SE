@@ -1,20 +1,20 @@
 ---
-title: '''[!UICONTROL Simple Ad Serving]'' avtalsinställningar'
+title: Inställningar för [!UICONTROL Simple Ad Serving]-avtal
 description: Läs mer om de tillgängliga inställningarna för [!UICONTROL Simple Ad Serving]-erbjudanden.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Inställningar för avtal för [!UICONTROL Simple Ad Serving]
+# Inställningar för [!UICONTROL Simple Ad Serving]-avtal
 
 ## Nya [!UICONTROL Simple Ad Serving] erbjudanden
 
-### [!UICONTROL Select Ad Source]
+### [!UICONTROL Select ad source]
 
 | Parameter | Beskrivning |
 |-----------|-------------|
@@ -28,24 +28,24 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-### [!UICONTROL Select Ad(s)]
+### [!UICONTROL Select ad(s)]
 
 (När du använder befintliga annonser) Annonserna som ska ingå i erbjudandet. Markera kryssrutan bredvid varje annons som ska inkluderas.
 
-### [!UICONTROL Select & Upload [Media Type]]
+### [!UICONTROL Select & upload [Media Type]]
 
 (Endast nya annonser) Screens för att skapa en ny [annons från tredje part](/help/dsp/campaign-management/ads/ad-create-multiple.md).
 
-### [!UICONTROL Feed Details]
+### [!UICONTROL Feed details]
 
 | Parameter | Beskrivning |
 |-----------|-------------|
-| **[!UICONTROL Media CPM]** | Kostnaden per 1 000 visningar (CPM), vilket framgår av priset för ditt kontrakt. Kontakta kontoteamet på Adobe för detta värde. <br><br>Ange även valutan för erbjudandet. Alla användare kan välja USD eller, om SSP stöder ytterligare valutor, valutan för DSP. |
-| **[!UICONTROL Third Party Billed Fees]** | (Valfritt) En statisk tredjepartsavgift som ska spåras som en icke fakturerbar kostnad och valutan för transaktionen.<br><br>Alla användare kan välja USD eller, om SSP stöder ytterligare valutor, valutan för DSP. **OBS!** Faktureringsbara avgifter visas i måttet [!UICONTROL Net CPM]. |
+| **[!UICONTROL Media CPM]** | Kostnaden per 1 000 visningar (CPM), vilket framgår av priset för ditt kontrakt. Kontakta kontoteamet på Adobe för detta värde. <br><br>Ange även valutan för erbjudandet. Alla användare kan välja USD eller, om SSP stöder ytterligare valutor, valutan för DSP-kontot. |
+| **[!UICONTROL Third Party Billed Fees]** | (Valfritt) En statisk tredjepartsavgift som ska spåras som en icke fakturerbar kostnad och valutan för transaktionen.<br><br>Alla användare kan välja USD eller, om SSP stöder ytterligare valutor, valutan för DSP-kontot. **OBS!** Faktureringsbara avgifter visas i måttet [!UICONTROL Net CPM]. |
 | **[!UICONTROL Third Party Fee Description]** | (Valfritt) En beskrivning av tredjepartsavgifterna. |
 | **[!UICONTROL Flight Dates]** | Start- och slutdatum för trafik som använder det här avtalet. Flightdatumen måste inkluderas i kampanjens flygdatum. Annonstaggarna returnerar bara ett svar under den angivna flygningen.<br><br> Det bästa sättet att skapa en separat enkel annonsserbjudande med en ettårig varaktighet och att skapa spårningspixlar i den. |
 | **[!UICONTROL Impressions]** | (Valfritt) Det uppskattade antalet visningar som du förväntar dig att kunna göra med det här erbjudandet. Det här värdet används endast för spårningsändamål och för att flagga när leveransmålen uppfylls. Utgivaren styr faktisk annonsleverans. Det bästa sättet är att ange ett stort antal visningar för att hålla taggen aktiv i DSP så att den kan förnyas eller utökas vid behov. |
-| **[!UICONTROL Deal Name]** | Avtalsnamnet. Ange ett namn eller välj *[!UICONTROL Auto Generate Deal Name]* om du vill att DSP ska kunna generera ett namn baserat på avtalsinformationen.<br><br>Exempel på ett automatiskt genererat namn: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
+| **[!UICONTROL Deal Name]** | Avtalsnamnet. Ange ett namn eller välj *[!UICONTROL Auto Generate Deal Name]* om du vill låta DSP generera ett namn baserat på avtalsinformationen.<br><br>Exempel på ett automatiskt genererat namn: `Campaign-desktop_video_preroll_15-24Kitchen-$10_USD-jdoe-SAS` |
 | **[!UICONTROL Attached Ads]** | (Skrivskyddat) Annonserna som ingår i erbjudandet. Om du vill redigera en annons klickar du på annonsens namn. Om du vill ta bort en annons från erbjudandet klickar du på **[!UICONTROL X]** bredvid annonsnamnet. |
 
 {style="table-layout:auto"}

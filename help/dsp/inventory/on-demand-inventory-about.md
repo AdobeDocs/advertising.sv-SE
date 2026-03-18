@@ -1,22 +1,22 @@
 ---
-title: Om [!DNL On Demand] Premium Inventory
-description: Läs mer om de avtal som DSP har förhandlat fram i förväg med förstklassiga utgivarpartners.
+title: Om [!DNL On Demand] premiumlager
+description: Läs mer om de avtal som DSP har förhandlat fram i förväg med våra partners.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
-# Om [!DNL On Demand] Premium Inventory
+# Om [!DNL On Demand] premiumlager
 
 *Inte tillgängligt för användare med kontotyperna [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] och [!UICONTROL Other]; annonsörer med kategorin [!UICONTROL Other]; och återförsäljare*
 
-Galleriet [!DNL On Demand] är ett identifieringsverktyg för premiuminventering som används för att utforska förförhandlade avtal som DSP har behandlat med förstklassiga utgivarpartners. Ni kan få tillgång till icke-garanterat lager från de ledande utgivare i regionen utan att behöva förhandla eller teckna kontrakt. Du kan beställa enskilda avtal och du kan prenumerera på en utgivare för att begära alla utgivare samtidigt.
+Galleriet [!DNL On Demand] är ett premiumverktyg för inventaridentifiering som utforskar förförhandlade avtal som DSP har ingått med förstklassiga utgivarpartners. Det gör att du kan få åtkomst till icke-garanterat lager från de översta utgivare i regionen utan att behöva använda :1 förhandlingar eller kontrakt. Du kan beställa enskilda avtal och du kan prenumerera på en utgivare för att begära alla utgivare samtidigt.
 
-På den DSP premiummarknaden kan ni
+På DSP Premium Marketplace kan du
 
 * Snabbt och enkelt aktivera nytt lager för ökad skalbarhet och effektivitet
 
@@ -36,7 +36,7 @@ På den DSP premiummarknaden kan ni
 
 När ett avtal har godkänts är det tillgängligt som mål för befintliga placeringar och inkluderas automatiskt som mål för nya placeringar som har alla [!DNL On Demand]-lager som mål. Om en avtalsbegäran avslås kan du samarbeta med ditt Adobe-kontoteam för att lösa problemet och sedan begära om avtalet.
 
-## Vyer på begäran
+## [!UICONTROL On Demand]-vyerna
 
 På [!UICONTROL Inventory] > [!UICONTROL On Demand] är de senaste erbjudandena och utgivare <!-- how recent? --> tillgängliga från en karusell högst upp på sidan.
 
@@ -47,7 +47,7 @@ Detaljerna för varje avtal innehåller data i följande kolumner:
 * **[!UICONTROL TVB]:** Anger när utgivaren är ett TV-utgivare
 * **[!UICONTROL Tune]:** Anger när utgivaren accepterar&quot;tune-in&quot;-kreatörer (till exempel&quot;Tune in kväll klockan 20 för det nya avsnittet av \&lt;*vårt program*\>)
 * **[!UICONTROL LDA]:** (Juridisk dricksålder) Anger när utgivaren har tillämpat mer än 21 riktade annonser och accepterar alkoholannonser
-* **[!UICONTROL CPM]:** Anger när den lägsta eller fasta CPM-räntan för erbjudandet inte syns förrän annonsören har beviljats åtkomst till erbjudandet
+* **[!UICONTROL CPM]:** Anger när CPM med lägsta eller fast ränta för erbjudandet inte syns förrän annonsören har beviljats åtkomst till erbjudandet
 * **[!UICONTROL Status]:** Status för din prenumerationsförfrågan (när det är tillämpligt)
 * **[!UICONTROL Action]:** Alla tillgängliga åtgärder som du kan utföra (till exempel [!UICONTROL Request] eller [!UICONTROL Re-request])
 

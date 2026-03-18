@@ -1,16 +1,16 @@
 ---
-title: Skapa ett avtal för [!UICONTROL Simple Ad Serving]
+title: Skapa ett [!UICONTROL Simple Ad Serving]-erbjudande
 description: Lär dig hur du skapar en spårningspixel för en [!UICONTROL Simple Ad Serving]-affär.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
-# Skapa ett avtal för [!UICONTROL Simple Ad Serving]
+# Skapa ett [!UICONTROL Simple Ad Serving]-erbjudande
 
 1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -29,7 +29,7 @@ ht-degree: 0%
          * Skapa en proxyannons [från tredje part](/help/dsp/campaign-management/ads/ad-create-multiple.md) för nya annonser.
 
       >[!NOTE]
-      > DSP betjänar inte de annonser du anger. Utgivaren står för annonsen.
+      > DSP levererar inte de annonser du anger. Utgivaren står för annonsen.
 
       1. Klicka på **[!UICONTROL Next]**.
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * (Valfritt) Skicka pixlarna för händelsespårning manuellt till utgivaren:
 
-      1. Klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL show pixel]** i avtalsraden i vyn [!UICONTROL Deals].
+      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![ ](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
 
          Händelsepixlarna innehåller en [!UICONTROL Clickthrough]-pixel och en [!UICONTROL Impression]-pixel. Video- och ljudannonser innehåller även händelsepixlar per kvartil (från [!UICONTROL 25% Complete] till [!UICONTROL 100% Complete]).
 

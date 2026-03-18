@@ -1,26 +1,26 @@
 ---
 title: Använder [!DNL Roku] lager
-description: Lär dig mer om att DSP partnerskap med  [!DNL Roku], inklusive lageralternativ, godkända tredjepartsspårningsleverantörer och metodtips för  [!DNL Roku]-specifika placeringar.
+description: Lär dig mer om DSP partnerskap med  [!DNL Roku], inklusive lageralternativ, godkända tredjepartsspårningsleverantörer och metodtips för  [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: f3099c84fe2d6b1610ddf4ca07d59b119718afee
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
-# Använder [!DNL Roku]-lager
+# Använder [!DNL Roku] lager
 
 Advertising DSP tillhandahåller funktioner för annonsering på [!DNL Roku].
 
 ## Målgruppsmatchning
 
-Kopplingen [!DNL Roku] och DSP matchar dina [!DNL DSP]-målgrupper med [!DNL Roku] ID:n för 1:1-deterministisk målgruppsanpassning på [!DNL Roku]-lagret.
+Kopplingen [!DNL Roku] och DSP matchar dina [!DNL DSP]-målgrupper med [!DNL Roku] ID:n för :1 deterministisk målgruppsanpassning på [!DNL Roku]-lager.
 
 ## [!DNL Roku] lageralternativ
 
-Du kan antingen a) konfigurera privata avtal-ID:n direkt med [!DNL Roku] och sedan ange data för avtal-ID i DSP eller b) gå till [!DNL On Demand] Gallery för att prenumerera på [!DNL Roku]-profiler:
+Du kan antingen a) konfigurera privata avtal-ID:n direkt med [!DNL Roku] och sedan ange data för avtals-ID i DSP eller b) gå till [!DNL On Demand] Gallery för att prenumerera på [!DNL Roku]-profiler:
 
 >[!NOTE]
 >
@@ -53,11 +53,11 @@ I DSP-kampanjer [skapar [!DNL Roku]-specifika placeringar](/help/dsp/campaign-ma
 
 Varje [!DNL Roku]-placering måste ha minst en [!DNL Roku]-affär eller källa som mål. Om du vill använda DSP målgruppsmatchning med [!DNL Roku] inkluderar du ett eller flera målgruppssegment som kan matchas mot den [!DNL Roku] (insticksprogram) deterministiska datamängden.
 
-### [!DNL Roku]-Godkända tredjepartsleverantörer för spårning
+### [!DNL Roku] godkända tredjepartsspårningsleverantörer
 
 [!DNL Roku]-placeringar kan innehålla händelsepixlar från tredje part och konverteringspixlar från följande leverantörer: [!DNL Acxiom], [!DNL Comscore], [!DNL Data Plus Math], [!DNL Experian], [!DNL Factual], [!DNL Kantar], [!DNL Marketing Evolution], [!DNL Neustar], [!DNL Nielsen], [!DNL Nielsen Catalina Solutions], [!DNL NinthDecimal], [!DNL Oracle], [!DNL Placed], [!DNL Polk] och [!DNL Research Now].
 
-### Bästa praxis efter placeringsstrategi
+### Bästa tillvägagångssätt med placeringsstrategi
 
 Nedan följer de rekommenderade metoderna för [!DNL Roku]-specifika placeringar.
 

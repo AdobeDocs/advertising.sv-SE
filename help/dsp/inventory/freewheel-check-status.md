@@ -3,18 +3,18 @@ title: Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal
 description: Lär dig hur du hittar status för annonser för [!DNL Freewheel] programmatiska garanterade avtal.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
-# Kontrollera status för annonser för [!DNL Freewheel] programmatiska garanterade erbjudanden
+# Kontrollera status för annonser för [!DNL Freewheel] programmatiska garanterade avtal
 
 Kontrollera om dina annonsinskick till [!DNL Freewheel] lyckades. Du kan skicka om alla annonser efter behov.
 
-Om du har ytterligare frågor eller problem med att skicka in din ansökan igen kontaktar du kontoteamet på Adobe.
+Om du har ytterligare frågor eller problem med att skicka in din ansökan kontaktar du Adobe Account Team.
 
 ## Kontrollera status från vyn [!UICONTROL Ads]
 
@@ -34,7 +34,7 @@ Om du har ytterligare frågor eller problem med att skicka in din ansökan igen 
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL View Freewheel creative status]** under [!UICONTROL Deal ID inbox].
+   * Klicka på [!UICONTROL Deal ID inbox] under **[!UICONTROL View Freewheel creative status]**.
 
    * Klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]** i valfri avtalsrad.
 

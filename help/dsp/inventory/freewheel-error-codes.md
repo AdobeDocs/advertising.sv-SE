@@ -1,20 +1,20 @@
 ---
-title: Felkoder för  [!DNL FreeWheel] annonsöverföringar
+title: Felkoder för  [!DNL FreeWheel] ad-överföringar
 description: Referera felkoderna som returneras för annonsinskick till  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Felkoder för [!DNL FreeWheel] annonsinlämningar
+# Felkoder för [!DNL FreeWheel] annonsinskick
 
-Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] &#x200B;](freewheel-check-status.md).
+Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] ](freewheel-check-status.md).
 
-## Interna fel i Advertising DSP
+## Advertising DSP interna fel
 
 | Felmeddelande | Beskrivning | Nästa steg |
 |--- |--- |--- |
@@ -35,9 +35,9 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 |--- |--- |--- |--- |
 | 401 | Obehörig | Felaktiga, saknade eller ogiltiga autentiseringsuppgifter. | Kontakta kontoteamet på Adobe. |
 | 403 | Förbjuden | Servern förstod begäran men vägrar godkänna den. | Kontakta kontoteamet på Adobe. |
-| 404 | Hittades inte | Resursen du begärde är inte tillgänglig. Om Creative ID:t inte hittas i åtgärden PUT returneras 404. | Kontakta kontoteamet på Adobe. |
-| 405 | Metoden tillåts inte | En begäran gjordes om en resurs med en begärandemetod som inte stöds av den resursen (till exempel med GET på en metod som kräver att data skickas av POSTEN eller med PUT på en skrivskyddad resurs). | Kontakta kontoteamet på Adobe. |
-| 408 | Timeout för begäran | En timeout uppstod när den här begäran bearbetades. Timeout orsakas vanligtvis av samtidiga begäranden om exklusiv åtkomst till vissa resurser. | Skicka begäran igen när du får den här statusen. Kontakta ditt kontoteam på Adobe om problemet kvarstår. |
+| 404 | Hittades inte | Resursen du begärde är inte tillgänglig. Om Creative-id:t inte hittas i PUT-åtgärden returneras 404. | Kontakta kontoteamet på Adobe. |
+| 405 | Metoden tillåts inte | En begäran gjordes om en resurs med en begärandemetod som inte stöds av den resursen (t.ex. med GET på en metod som kräver att data skickas av POST, eller med PUT på en skrivskyddad resurs). | Kontakta kontoteamet på Adobe. |
+| 408 | Timeout för begäran | En timeout uppstod när den här begäran bearbetades. Timeout orsakas vanligtvis av samtidiga begäranden om exklusiv åtkomst till vissa resurser. | Skicka begäran igen när du får den här statusen. Kontakta Adobe Account Team om problemet kvarstår. |
 | 422 | Obearbetbar entitet | Ogiltig resurs. Det här felet inträffar när begärandetexten är ogiltig eller när den skapade/uppdaterade resursen är ogiltig (t.ex. om det inte gick att hitta något avtal-ID). Mer information finns i [FreeWheel API 422-fel](#freewheel-422-errors). | Kontakta kontoteamet på Adobe. |
 | 500 | Internt serverfel | API-systemfel. | Kontakta kontoteamet på Adobe. |
 

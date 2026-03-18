@@ -3,7 +3,7 @@ title: Checklista för kampanjstart
 description: Lär dig vad du behöver göra innan du lanserar en kampanj.
 feature: DSP Placements, DSP Ads
 exl-id: 9a8c2b3e-233e-4401-8311-daffde6cda68
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -32,4 +32,4 @@ Bekräfta att alla annonser är bifogade, godkända och aktiva. Kontrollera ocks
 >
 >* [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Bästa tillvägagångssätt för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)

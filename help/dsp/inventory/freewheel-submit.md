@@ -3,14 +3,14 @@ title: Skicka en annons för ett PG-avtal till  [!DNL FreeWheel]
 description: Lär dig hur du begär godkännande av en annons för ett programmatiskt garanterat avtal med en utgivare på  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
 
 ---
 
-# Skicka en annons för en programmatisk garanterad affär till [!DNL Freewheel]
+# Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]
 
 *Konton med [!DNL FreeWheel] Programmatisk garanterad behörighet*
 
@@ -18,7 +18,7 @@ När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på 
 
 >[!PREREQUISITES]
 >
->Arbeta med kontoteamet på Adobe för att se till att ditt [!DNL DSP]-konto har behörighet att använda det programmatiska garanterade arbetsflödet [!DNL FreeWheel].
+>Arbeta med ditt Adobe-kontoteam för att se till att ditt [!DNL DSP]-konto har behörighet att använda det programmatiska garanterade arbetsflödet [!DNL FreeWheel].
 
 1. Kopiera annonsnyckeln för annonsen som används med erbjudandet [!DNL Freewheel]:
 

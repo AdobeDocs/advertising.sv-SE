@@ -3,7 +3,7 @@ title: Annonsspecifikationer
 description: Referera till allmänna och utgivarspecifika annonsspecifikationer.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: a6f9bb2d714e7ddb22f74c9c614772eca30f9e40
+source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # Specifikationer för annonstyper som stöds
 
-## Video Ads (Pre-Roll, CTV och Universal Video)
+## Videoreklam (pre-roll, CTV, and universal video)
 
-### Screens som stöds
+### Skärmar som stöds
 
 Annonserna levereras som standard på datorer, mobiler och anslutna tv-enheter. Enhetsanpassning är tillgängligt för att justera leveransen.
 
-### Tredjepartsservrar som stöds
+### Annonsservrar från tredje part som stöds
 
 Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Krav för HD-video i Assets
+### Krav för HD-videomaterial
 
 **Typ av videotagg:** VPAID 2.0 JavaScript eller VAST (CTV). Alla VPAID-annonsenheter måste följa specifikationen [VPAID 2.0](https://iabtechlab.com/wp-content/uploads/2016/04/VPAID_2_0_Final_04-10-2012.pdf) som definieras av IAB (Interactive Advertising Bureau).
 
@@ -74,7 +74,7 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 ## Visa annonser
 
-### Screens som stöds
+### Skärmar som stöds
 
 Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassning är tillgängligt för att justera leveransen.
 
@@ -84,7 +84,7 @@ Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassni
 
 **HTML5:** Bildfiltyper: GIF, JPG/JPEG, PNG, SVG
 
-### Krav för Image Assets
+### Krav för bildresurser
 
 Universell visning stöds.
 
@@ -94,15 +94,15 @@ Universell visning stöds.
 
 ## Ljudannonser
 
-### Screens som stöds
+### Skärmar som stöds
 
 Stationär dator, mobil, surfplatta, smarta högtalare och ansluten TV
 
-### Tredjepartsservrar som stöds
+### Annonsservrar från tredje part som stöds
 
 Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
 
-### Krav för Audio Assets
+### Krav för ljudresurser
 
 **Filtyp:** MP3, OGG, AAC
 
@@ -147,7 +147,7 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
    * Filtyp: MP3, OGG
    * Volym: 44,1 kHz
 
-### Krav för tilläggsbanderollannonser (valfritt)
+### Krav för banners (valfritt)
 
 **Storlekar som stöds:** 300x250, 500x500, 640x640, 1024x1024
 
@@ -178,15 +178,15 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
    * Största filstorlek: 2 MB
    * Mått: 300 × 250
 
-## Inbyggda visningsannonser
+## Inbyggda displayannonser
 
 Varje annons kan innehålla antingen en stillbild eller en rörlig GIF (cinemparagraph).
 
-### Screens som stöds
+### Skärmar som stöds
 
 Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassning är tillgängligt för att justera leveransen.
 
-### Assets krävs för alla inbyggda format i feed
+### Obligatoriska resurser för alla inbyggda format i feed
 
 #### Bildresurs
 
