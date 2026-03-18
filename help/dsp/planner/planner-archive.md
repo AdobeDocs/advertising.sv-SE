@@ -26,4 +26,4 @@ Om du arkiverar en plan tas den bort från standardvyn [!UICONTROL Planner].<!--
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)

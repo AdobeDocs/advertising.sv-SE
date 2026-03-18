@@ -22,7 +22,7 @@ ht-degree: 0%
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
@@ -32,4 +32,4 @@ ht-degree: 0%
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
 >* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)

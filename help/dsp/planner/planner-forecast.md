@@ -18,7 +18,7 @@ Du kan generera om prognosen för en ansluten TV-räckvidd baserat på de senast
 
 1. Håll markören över planraden och klicka på **[!UICONTROL Forecast]**.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
@@ -28,4 +28,4 @@ Du kan generera om prognosen för en ansluten TV-räckvidd baserat på de senast
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)

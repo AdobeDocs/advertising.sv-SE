@@ -80,4 +80,4 @@ Ja, du kan exportera en prognos till ett [!DNL Microsoft Excel]-kalkylblad genom
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
 >* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program ](planner-settings.md)
+>* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)
