@@ -3,7 +3,7 @@ title: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 description: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: fabe7312fc4d1ab899bedcf9eae1c8040a4a6532
+source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 *Annonsörer med Advertising DSP och[!DNL Advertising Search, Social, & Commerce]*
 
-* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home))
-
-  Dessa tekniker kräver stöd från din Experience Platform webbplatsadministratör.
-
 * Adobe Customer Journey Analytics med tillgång till datahanteringsverktyg
 
   Du behöver stöd från din interna webbanalytiker för att konfigurera en anslutning till datauppsättningen och konfigurera rapportering.
+
+* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
+
+  Dessa tekniker kräver stöd från din Experience Platform webbplatsadministratör.
 
 >[!MORELIKETHIS]
 >
