@@ -3,7 +3,7 @@ title: Uppdatera spårningskoden för AMO-ID (s_kwcid) för ett [!DNL Google Ads
 description: Lär dig hur du byter till den senaste spårningskoden för AMO ID för ett [!DNL Google Ads] konto.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: cb65108fcc60c11b901e3b43c292ad5a94192b9f
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -69,5 +69,5 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >[!MORELIKETHIS]
 >
 >* [Hantera annonskonton](ad-network-account-manage.md)
->* [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE){target="_blank"}
+>* [Adobe Advertising-id:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

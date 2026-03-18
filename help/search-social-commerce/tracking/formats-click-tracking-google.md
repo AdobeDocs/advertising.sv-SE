@@ -3,7 +3,7 @@ title: Klickspårningsformat för  [!DNL Google Ads]
 description: Lär dig mer om knappspårningsformat för  [!DNL Google Ads] konton.
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
