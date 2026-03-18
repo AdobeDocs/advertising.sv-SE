@@ -52,7 +52,7 @@ Inom en kampanj kan du filtrera data baserat på kampanjentiteten: [!UICONTROL P
 
 För varje kampanj kan du [anpassa trenddiagram för tidsserier](campaign-data-views-manage.md#data-visualizations-manage) med tre mätvärden, som är tillgängliga i varje entitetsvy. Samma mätvärden används för alla trenddiagram för kampanjen.
 
-Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer ](#chart-view).
+Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer &#x200B;](#chart-view).
 
 ### Tabellvy
 
