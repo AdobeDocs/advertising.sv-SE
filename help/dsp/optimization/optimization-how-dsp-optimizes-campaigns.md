@@ -3,7 +3,7 @@ title: Hur DSP optimerar era kampanjer
 description: Läs om hur DSP optimerar paketen i era kampanjer.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -34,7 +34,7 @@ DSP kan optimera leveransen på två grundläggande sätt, med 20 olika variante
 
 Se [Optimeringsmål och Använda dem](optimization-goals.md) för att avgöra vilket optimeringsmål som kan hjälpa dig att uppnå dina KPI:er.
 
-### Paket som prioriterar prestandahastighet
+### Paket som prioriterar prestandahastigheten
 
 För optimeringsmål som prioriterar prestandakursen förutser DSP resultatet för varje auktion och lägger alltid bud vid det högsta anbudet. Exempel på tillämpliga optimeringsmål är [!UICONTROL Highest Viewability Rate], [!UICONTROL Highest Clickthrough Rate] och så vidare.
 
@@ -52,7 +52,7 @@ Det här optimeringsläget fungerar bra om:
 
 * Om ni ligger efter i tiden blir budgivningen mindre selektiv så att ni kan lägga bud på auktioner som förväntas ha lägre prestationsnivåer för att hinna ikapp målsättningen.
 
-#### Rensar pris/budskugga {#clearing-price-performance}
+#### Rensa pris/budskuggning {#clearing-price-performance}
 
 När den har exekverat paketeringslogiken kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 
@@ -60,7 +60,7 @@ När den har exekverat paketeringslogiken kör DSP det föreslagna anbudet genom
 
 För vissa optimeringsmål förutser DSP resultatet för varje auktion och justerar budpriserna automatiskt, utan att överskrida en placerings [!UICONTROL Max Bid]. Exempel på tillämpliga optimeringsmål är [!UICONTROL Lowest CPM], [!UICONTROL Lowest CPA], [!UICONTROL Lowest Cost per View], [!UICONTROL Lowest Cost per Click] och så vidare.
 
-#### Paketlogik {#pacing-logic-balanced}
+#### Mellanrumslogik {#pacing-logic-balanced}
 
 * Om man spenderar pengar i takt med detta blir DSP mer priskänslig och lägger lägre belopp för att kompensera vinsten med paketplanen.
 
@@ -68,7 +68,7 @@ För vissa optimeringsmål förutser DSP resultatet för varje auktion och juste
 
 * Om utgiftsnivån ligger efter blir DSP mindre priskänslig och offrar högre belopp, upp till [!UICONTROL Max Bid], för att kompensera vinsten med paketeringsplanen.
 
-#### Rensar pris/budskugga {#clearing-price-balanced}
+#### Rensa pris/budskuggning {#clearing-price-balanced}
 
 När den har exekverat paketeringslogiken kör DSP det föreslagna anbudet genom en modell för att beräkna clearingpriset. Om prognosen visar att anbudet kan sänkas med minimal minskning till vinsträntan, sänks anbudet enligt prognosen.
 

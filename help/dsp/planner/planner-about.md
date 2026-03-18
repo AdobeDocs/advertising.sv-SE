@@ -1,16 +1,16 @@
 ---
-title: Om DSP
+title: Om verktyget DSP-planering
 description: Lär dig mer om planeringsverktyget för att förutsäga den unika räckvidden för utplaceringar av uppkopplade TV-apparater (CTV) enligt angiven budget och målinriktningskriterier.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 67fe8581832dc0762d62908d01672e53cc95b847
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
-# Om DSP
+# Om verktyget DSP-planering
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Planeringsverktyget hjälper dig att förutsäga den unika räckvidden för CTV-placeringar (uppkopplad TV) på hushållsnivå enligt angiven budget och kriterier för målinriktning innan du börjar spendera på lagret. När du har utvärderat flera räckviddsplaner kan du implementera den plan som bäst överensstämmer med det önskade resultatet i dina paket och placeringar.
 
-Planeringsverktyget använder historiska bud, intryck och data från de senaste 90 dagarna för att uppskatta den unika räckvidden, genomsnittliga CPM-värden, genomsnittlig frekvens och visningar för en plankonfiguration.
+Planeringsverktyget använder historiska bud, intryck och data från de senaste 90 dagarna för att uppskatta den unika räckvidden, CPM-genomsnittet, genomsnittlig frekvens och visningar för en plankonfiguration.
 
 ## Planeringsprognos
 
@@ -55,7 +55,7 @@ Se även till att de utgivare eller avtal som ingår är aktiva och att de nylig
 
 +++
 
-+++I byggde en placering baserat på prognosen, men den uppnådde inte den unika räckvidd som angavs i räckviddsprognosen. Varför?
++++Jag byggde en placering baserat på prognosen, men den nådde inte den unika räckvidd som anges i räckviddsprognosen. Varför? 
 
 Prognosen för räckvidd är bara en uppskattning, och de faktiska resultaten förväntas variera på grund av flera faktorer som ändras ofta, till exempel säsongsvariation, anbudskonkurrenskraft samt tillgång och efterfrågan. Det förväntas inte vara helt korrekt, men är mest användbart för riktade insikter i kampanjstrategier som kan ge de bästa resultaten.
 
@@ -67,17 +67,17 @@ Planeraren genererar prognoser baserat på de senaste observerade data, så prog
 
 +++
 
-+++Kan jag spara planeringens prognosresultat?
++++Kan jag spara planeringsprognosens utdata?
 
 Ja, du kan exportera en prognos till ett [!DNL Microsoft Excel]-kalkylblad genom att klicka på **[!UICONTROL ...]** > **[!UICONTROL Export]** i det övre högra hörnet. I kalkylbladet hämtas den information som visas i gränskurvan med hjälp av två datakolumner: [!UICONTROL Budget] och [!UICONTROL Reach].
 
 >[!MORELIKETHIS]
 >
->* [Om DSP &#x200B;](planner-about.md)
+>* [Om DSP-planeringsverktyget](planner-about.md)
 >* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
 >* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
 >* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
 >* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
 >* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
 >* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)
+>* [Inställningar för anslutna TV-program ](planner-settings.md)

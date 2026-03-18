@@ -1,16 +1,16 @@
 ---
-title: Inställningar för uppkopplade TV-program
+title: Inställningar för räckviddsplaner för anslutna TV-apparater
 description: Se beskrivningar av inställningarna för räckviddsplaner för anslutna tv-apparater.
 feature: DSP Planner
 exl-id: 65edd6f5-557c-44d1-a0ed-8cd26d8a2f6e
-source-git-commit: 3ab2e38f6a2f70c03504363575b13dc0dc730282
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
 
 ---
 
-# Inställningar för uppkopplade TV-program
+# Inställningar för räckviddsplaner för anslutna TV-apparater
 
 <!-- Move out of table for consistency at some point. -->
 

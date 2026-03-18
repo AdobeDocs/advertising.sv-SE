@@ -1,16 +1,16 @@
 ---
-title: Bästa metoder för att konfigurera resultatkampanjer
+title: Bästa tillvägagångssätt för att skapa resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-# Bästa metoder för att konfigurera resultatkampanjer
+# Bästa tillvägagångssätt för att skapa resultatkampanjer
 
 DSP kan optimera era prestandainriktade kampanjer. Se följande metodtips för prestandakampanjer:
 
@@ -30,11 +30,11 @@ Du måste också identifiera de framgångshändelser som leder till det övergri
 
 ## Steg 2 - Definiera er strategi
 
-### Prospecting Strategies
+### Prospekteringsstrategier
 
 Funnel-paket innehåller praktik med mycket bred inriktning för att nå ut till nya konsumenter.
 
-#### Rekommenderade placeringsstrategier för potentiell kund
+#### Rekommenderade placeringsstrategier för prospektering
 
 * Hitta nya målgrupper som kan konvertera med hjälp av följande taktiker:
 
@@ -45,7 +45,7 @@ Funnel-paket innehåller praktik med mycket bred inriktning för att nå ut till
 
 * Använd RON-målinriktning (Run of Network): Det är viktigt att inkludera en mängd nätverksplaceringar utan målgruppsinriktning och med bred målinriktning för inventering. Detta gör att den [!DNL Adobe AI]-baserade algoritmen kan hitta värdefulla användare som kan ha nyare cookies som ännu inte har kategoriserats till en målgrupp.
 
-### Återmarknadsföringsstrategier
+### Återannonseringsstrategier
 
 Lägre funnel-paket innehåller placeringar som riktar sig till användare som redan har varit på annonsörens webbsida eller för vilka annonsören har CRM-data.
 
@@ -147,7 +147,7 @@ Använd [!UICONTROL Public] (Open Exchange) och [!UICONTROL On Demand] lager om 
 
 Genom att använda kontextuell filtrering, blockering av bedrägeri före bud och/eller [!UICONTROL Ads.txt]-filtrering begränsas skalan för dina placeringar, men de används vid behov.
 
-## Steg 5 - Använd rätt Creative Assets
+## Steg 5 - Använd rätt kreativa resurser
 
 * Det bästa sättet är att inkludera så många unika annonsstorlekar som möjligt för att maximera räckvidden. Med den universella visningsmallen kan du överföra alla standardstorlekar för visning och visning.
 * Kontrollera att alla placeringar innehåller *minst* alla primära bildskärmar och storlekar (300x250, 728x90, 160x600, 300x600, 320x50 och 300x50).
