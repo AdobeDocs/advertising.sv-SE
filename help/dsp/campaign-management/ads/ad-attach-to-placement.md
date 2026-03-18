@@ -3,7 +3,7 @@ title: Bifoga och ta bort annonser från placeringar
 description: Lär dig hur du bifogar annonser till placeringar och tar bort annonser från placeringar.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 72306c4cd44abe093fd9db0dabd5a8b5dde5dd4d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%

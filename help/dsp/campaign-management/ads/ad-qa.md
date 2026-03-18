@@ -1,16 +1,16 @@
 ---
-title: Granska och redigera annonsinformation med hjälp av flera kalkylblad
+title: Granska och redigera annonsinformation med hjälp av kalkylblad
 description: Lär dig hur du granskar annonsinställningar i grupp med kalkylblad.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 4ae53bfc362f752b994ee4d4a62c8c1aa1a1e775
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera annonsinformation med hjälp av flera kalkylblad
+# Granska och redigera annonsinformation med hjälp av kalkylblad
 
 <!-- I should probably change this filename and get __?__ to set up a redirect from the old file to the new file. -->
 

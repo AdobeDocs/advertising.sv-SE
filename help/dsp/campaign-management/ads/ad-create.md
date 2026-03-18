@@ -3,7 +3,7 @@ title: Skapa en annons
 description: Lär dig hur du skapar en annons från tredje part.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Mer information om hur du skapar flera tredjepartsannonser samtidigt finns i [Sk
 
 1. Klicka på namnet på kampanjen där annonsen ska inkluderas.
 
-1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [annetypen](ad-about.md#ad-types) i avsnittet [!UICONTROL Ad Types] på menyn.
+1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [!UICONTROL Ad Types]annetypen[ i avsnittet ](ad-about.md#ad-types) på menyn.
 
 1. Ange annonsinställningarna för [ljudannonser](ad-settings-audio.md), [anslutna TV](ad-settings-connected-tv.md), [visningsannonser](ad-settings-display.md), [mobilannonser](ad-settings-mobile.md), [inbyggda annonser](ad-settings-native.md), [pre-roll-ads](ad-settings-pre-roll.md) eller [universella videoannonser](ad-settings-universal-video.md):
 

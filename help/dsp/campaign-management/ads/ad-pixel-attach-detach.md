@@ -2,7 +2,8 @@
 title: Bifoga och ta bort pixlar från annonser
 description: Lär dig hur du bifogar och tar bort pixlar för spårning från tredje part från annonser.
 feature: DSP Ads
-source-git-commit: a3bd04da6c6f428fdb6e1f05187ea3de0174c9d7
+exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 
-## Öppna [!UICONTROL Ad Tools]-vyn {#ad-tools-open}
+## Öppna vyn [!UICONTROL Ad Tools] {#ad-tools-open}
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -25,7 +26,7 @@ Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 
    * (I vyn [!UICONTROL Packages], [!UICONTROL Placements] eller [!UICONTROL Ads]) Klicka **[!UICONTROL ...]** > **[!UICONTROL Ad Tools]** i det övre högra hörnet.
 
-## Koppla tredjepartsspårning av pixlar till annonser i en placering {#attach-pixels-ads}
+## Koppla pixlar för spårning från tredje part till annonser på en plats {#attach-pixels-ads}
 
 1. [Öppna [!UICONTROL Ad Tools]-vyn](#ad-tools-open).
 
@@ -67,7 +68,7 @@ Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 
 1. (Valfritt) Om du vill återgå till kampanjinformationsvyerna klickar du på ![Återgå till mappen](/help/dsp/assets/breadcrumb-return.png "Återgå till mappen") till vänster om [!UICONTROL Ad Tools] och väljer kampanjnamnet.
 
-## Koppla loss pixlar från tredjepartsspårning från annonser i en placering {#detach-pixels-ads}
+## Frigöra pixlar för spårning från tredje part från annonser i en placering {#detach-pixels-ads}
 
 1. [Öppna [!UICONTROL Ad Tools]-vyn](#ad-tools-open).
 
@@ -91,7 +92,7 @@ Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 
 1. (Valfritt) Om du vill återgå till kampanjinformationsvyerna klickar du på ![Återgå till mappen](/help/dsp/assets/breadcrumb-return.png "Återgå till mappen") till vänster om [!UICONTROL Ad Tools] och väljer kampanjnamnet.
 
-## Visa pixlar som är kopplade till annonser {#view-pixels-ads}
+## Visa pixlar kopplade till annonser {#view-pixels-ads}
 
 1. [Öppna [!UICONTROL Ad Tools]-vyn](#ad-tools-open).
 
@@ -119,4 +120,3 @@ Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 >* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
 >* [Redigera annonsplanerna för placeringar](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
-

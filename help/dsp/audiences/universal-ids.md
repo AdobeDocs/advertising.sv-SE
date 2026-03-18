@@ -3,7 +3,7 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 202f4ae8e6633672b7af12937f0b35da5052f7fc
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -20,7 +20,7 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 * Du kan skicka din autentiserade [[!DNL LiveRamp] [!DNL RampIDs]] manuellt direkt till DSP med kontrollpanelen [!DNL LiveRamp] [!DNL Connect]. Se [Importera autentiserade segment manuellt från  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
-* DSP kan importera dina egna segment som består av hashas-e-post-ID:n som är byggda i kunddataplattformen (CDP) och konvertera dem till [!DNL LiveRamp] [!DNL RampIDs] - och [!DNL Unified ID 2.0 (UID2.0)]-ID:n. Mer information om vilka kunddataplattformar som stöds, vilka funktioner som är tillgängliga för alla universella ID-typer som stöds samt relaterade arbetsflöden finns i [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md).
+* DSP kan importera dina egna segment som består av hashade e-post-ID:n som skapats inom kunddataplattformen (CDP) och konvertera dem till [!DNL LiveRamp] [!DNL RampIDs] - och [!DNL Unified ID 2.0 (UID2.0)]-ID:n. Mer information om vilka kunddataplattformar som stöds, vilka funktioner som är tillgängliga för alla universella ID-typer som stöds samt relaterade arbetsflöden finns i [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md).
 
 * Du kan skapa anpassade segment som spårar användare som är kopplade till universella ID:n för ID5 som exponeras för annonser från datorer och mobila enheter och som besöker specifika webbsidor. ID5 använder en sannolikhetsmodell för att tilldela ett ID som härleds från olika användarsignaler och webbläsarsignaler. Instruktioner finns i &quot;[Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
@@ -38,7 +38,7 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 * **Segmentinformation:** För alla segmenttyper omfattar segmentinformationen målgruppsstorleken efter universaltyp och efter den enhetstyp som spåras av cookies eller enhets-ID.
 
-## Använda ett universellt ID som målgrupp i dina praktikanter
+## Så här målgruppsanpassar du en publik med ett universellt ID på dina ersättningar
 
 >[!NOTE]
 >
@@ -64,15 +64,15 @@ Gör följande i en ny, schemalagd eller pausad placering:
 
       1. (Om det behövs) Acceptera villkoren i serviceavtalet för användning av universella ID:n.
 
-         Innan du kan konvertera data till en ny ID-typ måste en användare på DSP acceptera villkoren i serviceavtalet. Villkoren får bara godkännas en gång per ID-typ, per konto.
+         Innan du kan konvertera data till en ny ID-typ måste en användare på DSP-kontot acceptera villkoren i serviceavtalet. Villkoren får bara godkännas en gång per ID-typ, per konto.
 
 Se [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md).
 
-## Bästa metoder för testning och dataverifiering
+## Bästa tillvägagångssätt för testning och datavalidering
 
 Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade segment för vilka Adobe Analytics-mått är tillgängliga.
 
-* Ungefär 24 timmar efter att du har aktiverat ett segment kontrollerar du antalet konverterade ID:n för segmentet inom [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Kontakta ditt kontoteam på Adobe om ID-antalet är oväntat.
+* Ungefär 24 timmar efter att du har aktiverat ett segment kontrollerar du antalet konverterade ID:n för segmentet inom [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Kontakta ditt Adobe-kontoteam om det inte går att räkna ID:t.
 
   Mer information om hur antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
@@ -96,11 +96,11 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Tänk på att räckvidden för autentiserade målgruppssegment är naturligt mindre än räckvidden för cookie-baserade segment, och att ytterligare målgruppsalternativ minskar er räckvidd ytterligare. Var klok på att använda detaljerad målinriktning, särskilt genom att koppla ihop flera mål med AND-satser.
 
-## Datavariationer mellan e-post-ID och universella ID {#universal-ids-data-variances}
+## Datavarianser mellan e-post-ID och övergripande ID {#universal-ids-data-variances}
 
 ### Godtagbara variationsnivåer
 
-Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Översättningsfrekvensen för [!DNL RampIDs] bör vara 95 % om alla hash-kodade e-postadresser är unika. Om du till exempel skickar 100 hashade e-postadresser från din kunddataplattform bör de översättas till minst 95 [!DNL RampIDs] eller fler än 90 andra typer av universella ID. En lägre översättningsgrad kan tyda på ett problem. Se [Orsaker till avvikelse](#universal-ids-data-variances-reason) för möjliga förklaringar.
+Översättningsfrekvensen för hash-kodade e-postadresser till universella ID:n måste vara större än 90 %. Översättningsfrekvensen för [!DNL RampIDs] bör vara 95 % om alla hash-kodade e-postadresser är unika. Om du till exempel skickar 100 hashade e-postadresser från din kunddataplattform bör de översättas till minst 95 [!DNL RampIDs] eller fler än 90 andra typer av universella ID. En lägre översättningsgrad kan tyda på ett problem. Se [Orsaker till avvikelse]&#x200B;(#universal-ids-data-variances-reason) för möjliga förklaringar.
 
 För [!DNL RampIDs] kan du kontakta ditt Adobe-kontoteam om du vill veta mer om översättningsnivån är lägre än 70 %.
 
@@ -112,11 +112,11 @@ För [!DNL RampIDs] kan du kontakta ditt Adobe-kontoteam om du vill veta mer om 
 
 * Hash-kodade e-post-ID:n som översatts till [!DNL RampIDs]:
 
-   * När flera profiler använder samma e-post-ID kan antalet DSP vara lägre än antalet profiler på er kunddataplattform. I Adobe Photoshop kan du till exempel skapa ett företagskonto och ett personligt konto med ett enda e-post-ID. Men om båda profilerna tillhör samma person mappas profilerna till ett e-post-ID och därefter till ett [!DNL RampID].
+   * När flera profiler använder samma e-post-ID kan antalet DSP-segment vara lägre än antalet profiler på er kunddataplattform. I Adobe Photoshop kan du till exempel skapa ett företagskonto och ett personligt konto med ett enda e-post-ID. Men om båda profilerna tillhör samma person mappas profilerna till ett e-post-ID och därefter till ett [!DNL RampID].
 
-   * En [!DNL RampID] kan uppgraderas till ett nytt värde. Om [!DNL LiveRamp] inte känner igen ett e-post-ID eller inte kan mappa det till en befintlig [!DNL RampID] i sin databas tilldelas ett nytt [!DNL RampID] till e-post-ID:t. När de i framtiden kan mappa e-post-ID till en annan [!DNL RampID] eller samla in mer information om samma e-post-ID uppgraderar de [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] hänvisar till den här åtgärden som uppgradering från en härledd [!DNL RampID] till en underhållen [!DNL RampID]. DSP hämtar dock inte mappningar mellan härledda och underhållna [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från det DSP segmentet. I det här fallet kan segmentantalet vara större än profidräkningen.
+   * En [!DNL RampID] kan uppgraderas till ett nytt värde. Om [!DNL LiveRamp] inte känner igen ett e-post-ID eller inte kan mappa det till en befintlig [!DNL RampID] i sin databas tilldelas ett nytt [!DNL RampID] till e-post-ID:t. När de i framtiden kan mappa e-post-ID till en annan [!DNL RampID] eller samla in mer information om samma e-post-ID uppgraderar de [!DNL RampID] till ett nytt värde. [!DNL LiveRamp] hänvisar till den här åtgärden som uppgradering från en härledd [!DNL RampID] till en underhållen [!DNL RampID]. DSP får dock inte mappningar mellan härledda och underhållna [!DNL RampIDs] och kan därför inte ta bort den tidigare versionen av rampID från DSP-segmentet. I det här fallet kan segmentantalet vara större än profidräkningen.
 
-     Exempel: En användare loggar in på webbplatsen [!DNL Adobe] och besöker Photoshop-sidan. Om [!DNL LiveRamp] inte har någon befintlig information om e-post-ID:t tilldelar de det en härledd [!DNL RampID], till exempel D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har tilldelat om [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID: D123 och M123.
+     Exempel: En användare loggar in på webbplatsen [!DNL Adobe] och besöker Photoshop-sidan. Om [!DNL LiveRamp] inte har någon befintlig information om e-post-ID:t tilldelar de det en härledd [!DNL RampID], till exempel D123. Femton dagar senare besöker användaren samma sida, men [!DNL LiveRamp] har uppgraderat [!DNL RampID] under dessa 15 dagar och har tilldelat om [!DNL RampID] till M123. Även om kunddataplattformens segment&quot;Photoshop Enthusiast&quot; bara har ett e-post-ID för användaren har DSP-segmentet två ramp-ID:n: D123 och M123.
 
 ## Felsökning
 
@@ -126,13 +126,13 @@ Om du inte ser antalet användare, eller om målgruppens storlek är låg, ska d
 
 * Se till att rätt, universell ID-partnerspecifik kod implementeras på din webbplats för att matcha händelser på plats och annonsexponeringar. Arbeta med din [!DNL LiveRamp] eller [!DNL ID5]-representant efter behov.
 
-* (För [!DNL RampIDs] och [!DNL UID 2.0] ID:n) Kontrollera att datakällan [DSP är korrekt konfigurerad](/help/dsp/audiences/sources/source-manage.md#source-settings) och att användarantalet fylls i för de genererade målgruppssegmenten.
+* (För [!DNL RampIDs] och [!DNL UID 2.0] ID:n) Se till att din [DSP-datakälla är korrekt konfigurerad](/help/dsp/audiences/sources/source-manage.md#source-settings) och att antalet användare fylls i för de genererade målgruppssegmenten.
 
 * Om ni är mindre än förväntat bör ni kontrollera att målgruppssegmentets logik inte är för detaljerad.
 
 * Kontrollera att inställningarna för kampanj, paket och placering är korrekta.<!-- wording-->
 
-Om du inte kan lösa problemet kontaktar du ditt kontoteam på Adobe.
+Om du inte kan lösa problemet kontaktar du ditt Adobe-kontoteam.
 
 >[!MORELIKETHIS]
 >

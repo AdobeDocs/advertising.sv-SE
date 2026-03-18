@@ -3,7 +3,7 @@ title: Om annonshantering i Advertising DSP
 description: Läs mer om annonshantering.
 feature: DSP Ads
 exl-id: 41dbe28e-a476-4601-a3d8-a9111eae3f6b
-source-git-commit: e9ce180e302f619c85a3d6db813c83903e437d04
+source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
@@ -23,11 +23,11 @@ När era annonser har konfigurerats kan ni bifoga varje annons till en eller fle
 
 ## Tillgängliga annonstyper {#ad-types}
 
-Alla följande annonstyper är tillgängliga i DSP. Fullständiga specifikationer för varje annonstyp finns i [annonsspecifikationerna](ad-specs.md).
+Alla följande annonstyper finns i DSP. Fullständiga specifikationer för varje annonstyp finns i [annonsspecifikationerna](ad-specs.md).
 
 * **Ljudannonser (endast från tredje part)**: Ljudannonser spelas upp mellan innehåll på digitala utgivarwebbplatser och kan köras fristående som ljudfiler eller tillsammans med pekskärmsannonser. Ljud används bäst för att öka varumärkeskännedomen och engagera en publik på språng. Viktiga prestandaindikatorer för ljud är [!UICONTROL Completion Rate] och [!UICONTROL Cost per Completion].
 
-* **Visningsannonser (endast från tredje part)**: Visningsannonser är animerade eller statiska bilder som visas i webbläsare eller i appar. När du klickar på annonsenheten tar det användaren till en varumärkesanpassad plats eller mikroplats. Skärmen är bäst att använda för att driva effektiva CPM-annonser, öka e-postkopplingen, lägga till fler varumärkes- eller produktkontaktytor och få användarna att stanna längre. Viktiga prestandaindikatorer för visning är [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] och [!UICONTROL Cost per Conversion]. DSP har stöd för en mängd olika annonsstorlekar för visningsbanderoller.
+* **Visningsannonser (endast från tredje part)**: Visningsannonser är animerade eller statiska bilder som visas i webbläsare eller i appar. När du klickar på annonsenheten tar det användaren till en varumärkesanpassad plats eller mikroplats. Skärmen är bäst att använda för att skapa effektiva CPM:er, öka e-postkopplingen, lägga till fler varumärkes- eller produktkontaktytor och få användarna att stanna kvar på funnel. Viktiga prestandaindikatorer för visning är [!UICONTROL Clicks], [!UICONTROL Cost per Click], [!UICONTROL Conversions] och [!UICONTROL Cost per Conversion]. DSP har stöd för en mängd olika annonsstorlekar för visningsbanderoller.
 
 * **Mobilannonser (endast från tredje part)**: Mobilannonser kan finnas i förrullningsvideo (VAST, MRAID) eller standardvisningsformat. Mobil pre-roll-video kan spelas upp automatiskt eller spelas upp klick för uppspelning och är bäst för att nå tittare på olika skärmar. Visning av mobilstandard är en statisk bild som visas i webbläsare eller i appar för mobila enheter och är bäst att använda för att komplettera köp av digital video, skapa en meddelandeassociation och lägga till ytterligare varumärke eller produktkontaktytor. Mobilannonser kan också fungera som helskärmsannonser eller som mobilinterstitialer, som är högeffektiva mobilannonser i helskärmsläge som är bäst för att utveckla varumärkeskännedom för mobiler och driva konverteringar.
 
@@ -43,15 +43,15 @@ Alla följande annonstyper är tillgängliga i DSP. Fullständiga specifikatione
 
   Mer information om universella videoannonser finns i [Vanliga frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md).
 
-## DSP annonsgodkännanden
+## DSP och godkännanden
 
-När du skapar en annons DSP igenom den för att se om det finns känsliga kategorier, klickar på URL-funktionen och förhandsgranskar återgivningen.
+När du skapar en annons granskar DSP den för att se om det finns känsliga kategorier, klickar på URL-funktionen och förhandsgranskar återgivningen.
 
 Till att börja med visas en röd punkt i annonsens [!UICONTROL Status]-kolumn. Granskningsprocessen tar normalt 24-48 timmar. En trasig annons kan dock ha en väntande status i mer än 48 timmar, så du har tid att åtgärda fel innan annonsen refuseras. Avvisade annonser innehåller en orsak till refuseringen.
 
 När DSP godkänner en annons visas en grön punkt i annonsens statuskolumn.
 
-![godkännandeindikator i [!UICONTROL Status] kolumn &#x200B;](/help/dsp/assets/ad-approval-status.png)
+![godkännandeindikator i [!UICONTROL Status] kolumn ](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
