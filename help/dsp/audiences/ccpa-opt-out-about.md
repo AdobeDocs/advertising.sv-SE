@@ -3,7 +3,7 @@ title: Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter
 description: Lär dig hur du skapar segment för att spåra ID:n från CCPA-förfrågningar om att avanmäla sig från försäljning och hur du hämtar rapporter om ID:n.
 feature: CCPA, DSP Segments
 exl-id: 28b5e00b-a695-46f1-abbf-7bbd78f05411
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
@@ -27,6 +27,6 @@ Du kan [hämta länkar till månadsrapporter](ccpa-opt-out-segment-report-retrie
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Hämta rapporter om konsumentavanmälan från försäljning](ccpa-opt-out-segment-report-retrieve.md)
 >* [Om målgruppshantering](audience-about.md)

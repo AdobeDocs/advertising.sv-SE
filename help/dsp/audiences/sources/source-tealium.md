@@ -1,9 +1,9 @@
 ---
-title: Konvertera användar-ID:n från [!DNL Tealium] till universella ID:n
-description: Lär dig hur du aktiverar DSP att importera dina [!DNL Tealium] förstapartssegment.
+title: Konvertera användar-ID:n från [!DNL Tealium]  till universella ID:n
+description: Lär dig hur du gör det möjligt för DSP att importera dina [!DNL Tealium] egna segment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd den DSP integreringen med [!DNL Tealium]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering. Processen använder [!DNL Amazon Web Services]-brandslingkopplingen (AWS). Så här delar du data från Tealium med DSP:
+Använd DSP-integreringen med [!DNL Tealium]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering. Processen använder [!DNL Amazon Web Services]-brandslingkopplingen (AWS). Följ de här stegen för att dela data från Tealium med DSP:
 
 1. (Att konvertera e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Ställ in spårning för att aktivera [!DNL Analytics] mätning](#analytics-tracking).
 
@@ -38,11 +38,11 @@ Om du vill konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID:n m
 
 1. Registrera dig hos den universella ID-partnern och distribuera universell ID-specifik kod på dina webbsidor för att matcha konverteringar från ID:n i webbläsare för datorer och mobila enheter (men inte i mobilappar) för att visa genomgångar:
 
-   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta kontoteamet på Adobe som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad]-tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
+   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta ditt Adobe-kontoteam som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad] -tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
 
-## Steg 2: Skapa en publikkälla i DSP {#source-create}
+## Steg 2: Skapa en målgruppskälla i DSP {#source-create}
 
-1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
+1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP-konto eller till ett annonsörskonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
 
    Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att förbereda segmentmappningsdata.
 
@@ -60,9 +60,9 @@ Annonsören måste ta fram och dela segmentmappningsdata.
 
    1. Skapa målgruppen med attributet `Tealium_visitor_id`. Använd rätt berikning för att få publiken att häpna. Se [[!DNL Tealium] dokumentationen om attribut för besökar-ID](https://docs.tealium.com/server-side/visitor-stitching/visitor-id-attribute/).
 
-1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
+1. Annonsören måste ge segmentmappningsdata till Adobe Account Team för att kunna skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
 
-   * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är `<DSP source key>_<Tealium segment name>`, till exempel&quot;57bf424dc10_kaffedryckers&quot;. Använd [!UICONTROL Source Key] från inställningarna för DSP målgruppskälla för DSP källnyckel.
+   * **Extern segmentnyckel:** Den externa segmentnyckeln som du senare anger i åtgärdsinställningarna för kopplingen i [!DNL Tealium]. Den rekommenderade namnkonventionen är `<DSP source key>_<Tealium segment name>`, till exempel&quot;57bf424dc10_kaffedryckers&quot;. Använd [!UICONTROL Source Key] från DSP inställningar för målgruppskälla för DSP-källnyckeln.
 
    * **Segmentnamn:** Segmentnamnet.
 
@@ -92,17 +92,17 @@ För varje segment som du vill dela skapar du en separat koppling för varje åt
 
       1. Konfigurera en utlösare:
 
-         * För segmentets första koppling väljer du utlösaren `Joined Audience`. Detta garanterar att data delas med DSP när en användare går med i ett segment.
+         * För segmentets första koppling väljer du utlösaren `Joined Audience`. Detta säkerställer att data delas med DSP när en användare går med i ett segment.
 
          * För segmentets andra koppling väljer du utlösaren `Left Audience`. Den här kopplingen används för att hantera alla avanmälningar och användare som lämnar segmentet i DSP.
 
-   1. Ange AWS-brandslingkopplingen i konfigurationsinställningarna. Om du ännu inte har lagt till brandslingkopplingen för DSP lägger du till en brandslingkoppling med följande information:
+   1. Ange AWS-brandslingkopplingen i konfigurationsinställningarna. Om du ännu inte har lagt till brandslingkopplingen för DSP lägger du till en brandslingskontakt med följande information:
 
       * **Namn:** Namnet på kopplingen.
 
-      * **Åtkomstnyckel:** Åtkomstnyckeln som tillhandahålls av kontogruppen i Adobe.
+      * **Åtkomstnyckel:** Åtkomstnyckeln som tillhandahålls av Adobe-kontogruppen.
 
-      * **Hemlig nyckel:** Den hemliga nyckeln som tillhandahålls av kontogruppen i Adobe.
+      * **Hemlig nyckel:** Den hemliga nyckeln som tillhandahålls av Adobe-kontogruppen.
 
       * **Region:** US East North Virginia (us-east-1)
 
@@ -124,7 +124,7 @@ För varje segment som du vill dela skapar du en separat koppling för varje åt
 
                * Namnge det anpassade meddelandet `cookies` för Cookies-attributet.
 
-            1. I alternativet att skapa ett anpassat fält anger du [!UICONTROL External Segment Key] som ingick i [segmentmappningsdata](#map-data) i fältet [!DNL Source Key] i föregående procedur.
+            1. I alternativet att skapa ett anpassat fält anger du [!DNL Source Key] som ingick i [!UICONTROL External Segment Key]segmentmappningsdata[ i fältet ](#map-data) i föregående procedur.
 
                DSP använder den här nyckeln för att fylla i ditt segment.
 
@@ -140,17 +140,17 @@ Du kan bara ha en koppling per segment och ett segment per koppling.
 
 ## Steg 6: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
+Segmenten bör vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar.
 
 Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godkända ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
-Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Tealium] före förfallodatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
+Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Tealium] före förfallodatumet. Kontakta Adobe Account Team om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Felsökning
 
 Om du vill felsöka problem med översättningsfrekvens och antal användare läser du i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
 
-Om du vill felsöka problem med konverteringsproceduren kontaktar du kontogruppen på Adobe eller `adcloud-support@adobe.com`.
+Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Account Team eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

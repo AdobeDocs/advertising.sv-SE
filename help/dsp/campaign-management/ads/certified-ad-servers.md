@@ -1,16 +1,16 @@
 ---
-title: Certifierade annonserande partners
+title: Certifierade annonserings-partners
 description: Se alla certifierade annonsservrar och annonsenheter.
 feature: DSP Ads
 exl-id: 1435efdd-8823-4f07-b9e4-65bd4789226e
-source-git-commit: 70224b9e9c248d45a5ce227d296f2604dd06c222
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
-# Certifierade annonserande partners
+# Certifierade annonserings-partners
 
 | Annonsserver | Ljud | Visa | Skärm med hög effekt | Video | Särskilda krav och anmärkningar |
 | --- | --- | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ ht-degree: 0%
 | [!DNL Innovid] | X | X | | X | |
 | [!DNL Inskin] | | | X | | Slagskal med hög effekt (inklusive Cavai-annonser) måste hanteras av ett 180 × 150-ID för visningsavtal i Inskin-nätverket. |
 | [!DNL Jivox] | | X | | | |
-| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway och Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display (specifika plugin-ID:n för annonser krävs inte); Video Anchor (endast VAST); CTV via [!DNL Pubmatic]</br></br>Kontakta ditt Adobe-kontoteam för hjälp med att konfigurera annonsenheter . |
+| [!DNL Kargo] | | X | | X | 320x50 Anchor, BYOC, Hover, Breakout, Breakaway, Runway och Sidekick; 300x250 Outstream, HighRise; Standard Desktop Display (specifika plugin-ID:n för annonser krävs inte); Video Anchor (endast VAST); CTV via [!DNL Pubmatic]</br></br>Kontakta ditt Adobe-kontoteam om du behöver hjälp med att konfigurera annonsenheter. |
 | [!DNL Linkstorm] | | | X | | |
 | [!DNL mCanvas] | | | X | | |
 | [!DNL Medialets] | | X | | | |

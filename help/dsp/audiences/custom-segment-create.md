@@ -3,7 +3,7 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: dda4ff8e7538bc742caa50862575cb4e46a1371d
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # Skapa och implementera ett anpassat segment
 
-Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och implementera ett anpassat DSP. Du kan använda segmentet för att spåra a) användare som exponeras för annonser från datorer och mobila enheter och b) användare som besöker specifika webbsidor. Du kan senare rikta om användare i segmentet med ytterligare annonser eller hindra användare i segmentet från att få ytterligare annonser.
+Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och implementera ett anpassat DSP-segment. Du kan använda segmentet för att spåra a) användare som exponeras för annonser från datorer och mobila enheter och b) användare som besöker specifika webbsidor. Du kan senare rikta om användare i segmentet med ytterligare annonser eller hindra användare i segmentet från att få ytterligare annonser.
 
 >[!NOTE]
 >
 >Om du vill spåra användar-ID:n från förfrågningar om att avanmäla sig från försäljning på din webbplats skapar du ett [CCPA-segment för avanmälan från försäljning](ccpa-opt-out-segment-create.md) enligt California Consumer Privacy Act (CCPA).
 
-## Krav för segment för att spåra ID5
+## Krav för segment att spåra ID5-ID:n
 
 *Beta-funktion*
 
@@ -71,7 +71,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
          * *[!UICONTROL ID5]:* Segmenttaggen spårar [!DNL ID5] ID:n. Inga avgifter tas ut för visningar som skickas till universella ID:n.
 
-        **[!UICONTROL Terms of Service]:** Villkoren i serviceavtalet för användning av universella ID:n. Du eller en annan användare på DSP måste acceptera villkoren en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren å din organisations vägnar. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
+        **[!UICONTROL Terms of Service]:** Villkoren i serviceavtalet för användning av universella ID:n. Du eller en annan användare på DSP-kontot måste acceptera villkoren en gång innan du kan använda universella ID:n för en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren för din organisations räkning. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
    1. Klicka på **[!UICONTROL Save]**.
 
@@ -95,7 +95,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
             ```<script src="https://playtime.tubemogul.com/ud/prod/universal_ids/segment.js?sid=012345&id5pid=abcde"></script><img src="https://rtd-tm.everesttech.net/upi/?sid=012345&cs=1" />```
 
-            Din organisation fick partner-ID när den signerade ett avtal med [!DNL ID5]. Om du inte känner till ditt partner-ID kontaktar du ditt Adobe-kontoteam.
+            Din organisation fick partner-ID när den signerade ett avtal med [!DNL ID5]. Kontakta Adobe Account Team om du inte känner till ditt partner-ID.
 
             Det här steget är inte nödvändigt för att taggar ska kunna spåra [!DNL ID5] ID:n för användare som exponeras för en annonsenhet på datorer eller mobila enheter.
 
@@ -107,7 +107,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
          1. Kopiera taggen för visningsspårning, som har etiketten [!UICONTROL Desktop or mobile ads].
 
-         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 När du har implementerat en spårningstagg kan du använda segmentet i målgruppen eller exkluderingarna för alla placeringar.
 
@@ -122,7 +122,7 @@ När du har implementerat en spårningstagg kan du använda segmentet i målgrup
 >* [Ta bort ett segment](segment-delete.md)
 >* [Visa spårningspixlar för ett segment](segment-view-pixels.md)
 >* [Dela eller sluta dela ett segment](segment-share.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

@@ -1,16 +1,16 @@
 ---
-title: Redigera en återanvändbar publik
+title: Redigera en återanvändbar målgrupp
 description: Lär dig hur du redigerar en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# Redigera en återanvändbar publik
+# Redigera en återanvändbar målgrupp
 
 När du redigerar en målgrupp som används i någon placering eller annan återanvändbar målgrupp tillämpas ändringarna omedelbart på dessa placeringar och målgrupper.<!-- verify -->
 
@@ -30,7 +30,7 @@ När du redigerar en målgrupp som används i någon placering eller annan åter
 
    * (Valfritt) Om du vill redigera **[!UICONTROL Audience Name]** klickar du på ![Redigera](/help/dsp/assets/edit.png) bredvid målgruppsnamnet, anger ett unikt målgruppsnamn och klickar sedan på **[!UICONTROL Apply]**.
 
-   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md) gör du följande.
+   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md) gör du följande.
 
       * Lägga till ett segment i en befintlig segmentgrupp:
 

@@ -1,9 +1,9 @@
 ---
-title: Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n
-description: Lär dig hur du aktiverar DSP att importera dina [!DNL Optimizely] förstapartssegment.
+title: Konvertera användar-ID:n från [!DNL Optimizely]  till universella ID:n
+description: Lär dig hur du gör det möjligt för DSP att importera dina [!DNL Optimizely] egna segment.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd den DSP integreringen med [!DNL Optimizely]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering.
+Använd DSP-integreringen med [!DNL Optimizely]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering.
 
 1. (Att konvertera e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Ställ in spårning för att aktivera [!DNL Analytics] mätning](#analytics-tracking).
 
@@ -34,11 +34,11 @@ Om du vill konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID:n m
 
 1. Registrera dig hos den universella ID-partnern och distribuera universell ID-specifik kod på dina webbsidor för att matcha konverteringar från ID:n i webbläsare för datorer och mobila enheter (men inte i mobilappar) för att visa genomgångar:
 
-   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta kontoteamet på Adobe som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad]-tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
+   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta ditt Adobe-kontoteam som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad] -tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
 
-## Steg 2: Skapa en publikkälla i DSP {#source-create}
+## Steg 2: Skapa en målgruppskälla i DSP {#source-create}
 
-1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
+1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP-konto eller till ett annonsörskonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
 
    Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att överföra segmentdata.
 
@@ -54,13 +54,13 @@ Annonsören måste förbereda och skicka data med [!DNL Optimizely Data Platform
 
    * **Source-nyckel:** Detta är den källnyckel som skapades i [steg 2](#source-create).
 
-   * **Kontokod:** Detta är den alfanumeriska DSP kontokoden, som du hittar i DSP på [!UICONTROL Settings] > [!UICONTROL Account].
+   * **Kontokod:** Detta är den alfanumeriska DSP-kontokoden, som du hittar i DSP på [!UICONTROL Settings] > [!UICONTROL Account].
 
-Segmenten kommer att uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Optimizely] före förfallodatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
+Segmenten kommer att uppdateras enligt annonsörens konfiguration. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Optimizely] före förfallodatumet. Kontakta Adobe Account Team om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Steg 4: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
+Segmenten bör vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar.
 
 Verifiera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godkända ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
@@ -68,7 +68,7 @@ Verifiera i målgruppsbiblioteket (som är tillgängligt när du skapar eller re
 
 Om du vill felsöka problem med översättningsfrekvens och antal användare läser du i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
 
-Om du vill felsöka problem med konverteringsproceduren kontaktar du kontogruppen på Adobe eller `adcloud-support@adobe.com`.
+Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Account Team eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >

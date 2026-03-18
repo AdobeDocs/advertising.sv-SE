@@ -3,7 +3,7 @@ title: Målgruppsinställningar
 description: Se beskrivningar av tillgängliga målgruppsinställningar.
 feature: DSP Audiences
 exl-id: ea69ed6e-2d68-4ac5-8465-2ee7d798ae1d
-source-git-commit: 0afe1d9985c1451c28943aaa17c7d6f8a73a95ef
+source-git-commit: e61f3c7d066a72f9a438ef292122cdf99370fd0c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 (Valfritt) Alla standardsegment som är tillgängliga via Adobe Advertising tredjeparts datataxonomi och som ska ingå i målgruppskonfigurationen.
 
-## Segment från första part
+## Första partssegmenten
 
 (Valfritt) Alla segment från första part som importerats och/eller anpassats för kontot och som ska ingå i målgruppskonfigurationen.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 >(Annonsörer för vilka DSP konverterar hashade e-post-ID:n till LiveRamp-rampID-segment) Första parts-RampID-segment som inte är kopplade till en aktiv, schemalagd eller pausad placering pausas nu. Segmentet markeras i segmentlistan som&quot;Automatiskt pausat&quot;.
 
-## Adobe Segments
+## Adobe segment
 
 (Valfritt) Alla [!DNL Adobe Real-Time CDP]-, Adobe Analytics- eller Adobe Audience Manager-segment som ska ingå i målgruppskonfigurationen.
 
@@ -43,5 +43,5 @@ ht-degree: 0%
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
