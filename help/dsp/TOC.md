@@ -4,15 +4,15 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 962a366b4bcfb74505677f6c73bfb26781c2a69c
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
 
 
-# Användarhandbok om Advertising DSP {#dsp}
+# Advertising DSP Guide {#dsp}
 
 + [Nyheter](/help/dsp/home.md)
 + [Logga in på Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
@@ -24,14 +24,14 @@ ht-degree: 3%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + [Sök efter produktdokumentation med hjälp av AI-assisterad chatt](/help/dsp/agent-chat.md)
 + Kampanjhantering {#campaign-management}
-   + [Översikt över Campaign Management-strukturen](/help/dsp/campaign-management/campaign-management-overview.md)
+   + [Översikt över kampanjhantering i Advertising DSP](/help/dsp/campaign-management/campaign-management-overview.md)
    + Kampanjer {#campaigns}
-      + [Om kampanjhantering](/help/dsp/campaign-management/campaigns/campaign-about.md)
+      + [Om kampanjhantering i Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
       + [Skapa en kampanj](/help/dsp/campaign-management/campaigns/campaign-create.md)
       + [Redigera en kampanj](/help/dsp/campaign-management/campaigns/campaign-edit.md)
       + [Duplicera en kampanj](/help/dsp/campaign-management/campaigns/campaign-duplicate.md)
@@ -40,15 +40,15 @@ ht-degree: 3%
       + [Arkivera eller arkivera en kampanj](/help/dsp/campaign-management/campaigns/campaign-archive-unarchive.md)
       + [Visa ändringsloggen för en kampanj](/help/dsp/campaign-management/campaigns/campaign-change-log.md)
       + [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
-      + [Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
+      + [Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
       + [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
    + Paket {#packages}
-      + [Om pakethantering](/help/dsp/campaign-management/packages/package-about.md)
+      + [Om pakethantering i Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
       + [Skapa ett paket](/help/dsp/campaign-management/packages/package-create.md)
-      + [Granska och redigera paketinställningar med hjälp av flera kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
+      + [Granska och redigera paketinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
       + [Redigera ett paket](/help/dsp/campaign-management/packages/package-edit.md)
       + [Duplicera ett paket](/help/dsp/campaign-management/packages/package-duplicate.md)
-      + [Koppla en placering till ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
+      + [Bifoga en placering i ett paket](/help/dsp/campaign-management/packages/package-attach-placement.md)
       + [Pausa eller aktivera ett paket](/help/dsp/campaign-management/packages/package-pause-activate.md)
       + [Arkivera eller avarkivera ett paket](/help/dsp/campaign-management/packages/package-archive-unarchive.md)
       + [Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md)
@@ -69,27 +69,27 @@ ht-degree: 3%
       + [Arkivera eller arkivera en placering](/help/dsp/campaign-management/placements/placement-archive-unarchive.md)
       + [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
    + Annonser {#ads}
-      + [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
-      + [Certifierade annonserande partners](/help/dsp/campaign-management/ads/certified-ad-servers.md)
+      + [Om annonshantering i Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
+      + [Certifierade annonserings-partners](/help/dsp/campaign-management/ads/certified-ad-servers.md)
       + [Skapa en annons](/help/dsp/campaign-management/ads/ad-create.md)
       + [Skapa flera tredjepartsannonser](/help/dsp/campaign-management/ads/ad-create-multiple.md)
       + [Skapa annonser med  [!DNL Flashtalking]](/help/dsp/campaign-management/ads/ad-create-flashtalking.md)
-      + [Granska annonsinformation med kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
+      + [Granska och redigera annonsinformation med hjälp av kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=sv-SE)
-      + [Visa en lista över placeringar som är kopplade till en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
+      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
+      + [Lista de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md)
       + [Arkivera eller arkivera en annons](/help/dsp/campaign-management/ads/ad-archive-unarchive.md)
       + Annonsinställningar {#ad-settings}
-         + [Ljudannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-audio.md)
-         + [Inställningar för ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
-         + [Visa annonsinställningar](/help/dsp/campaign-management/ads/ad-settings-display.md)
-         + [Inställningar för mobilannonsering](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
-         + [Annonsinställningar för inbyggd bildskärm](/help/dsp/campaign-management/ads/ad-settings-native.md)
-         + [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
-         + [Universella inställningar för videoreklam](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+         + [Inställningar för ljudannonsering](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+         + [Inställningar för ansluten TV-annons](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+         + [Inställningar för visningsannons](/help/dsp/campaign-management/ads/ad-settings-display.md)
+         + [Inställningar för mobilannonser](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
+         + [Inbyggda inställningar för displayannonsering](/help/dsp/campaign-management/ads/ad-settings-native.md)
+         + [Inställningar för annonser före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+         + [Universella inställningar för videoannonser](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
    + Insikter om kampanjer i olika kampanjer {#insights}
       + [Om insikter](/help/dsp/campaign-management/insights/insights-about.md)
@@ -106,25 +106,25 @@ ht-degree: 3%
    + [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
-   + [&#x200B; [!DNL DSP] Optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
-   + [Optimeringsmål och Så här använder du dem](/help/dsp/optimization/optimization-goals.md)
-   + [Pre-bid-filter på placeringsnivå och Så här använder du dem](/help/dsp/optimization/optimization-pre-bid-filters.md)
+   + [Hur Advertising DSP optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
+   + [Optimeringsmål och hur de används](/help/dsp/optimization/optimization-goals.md)
+   + [Förhandsfilter på placeringsnivå och hur de används](/help/dsp/optimization/optimization-pre-bid-filters.md)
    + [Anpassade mål](/help/dsp/optimization/custom-goal.md)
-   + [Bästa metoder för att konfigurera resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
-   + [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)
+   + [Bästa tillvägagångssätt för att skapa resultatkampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
+   + [Felsökning](/help/dsp/optimization/troubleshooting-performance.md)
 + Målgrupper {#audiences}
-   + [Om Audience Management](/help/dsp/audiences/audience-about.md)
+   + [Om målgruppshantering](/help/dsp/audiences/audience-about.md)
    + [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
    + Återanvändbara målgrupper {#reusable-audiences}
-      + [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md)
+      + [Skapa en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-create.md)
       + [Skapa en återanvändbar publik med generativ AI](/help/dsp/audiences/reusable-audience-create-using-ai.md)
-      + [Duplicera en återanvändbar publik](/help/dsp/audiences/reusable-audience-duplicate.md)
-      + [Redigera en återanvändbar publik](/help/dsp/audiences/reusable-audience-edit.md)
-      + [Visa information om en återanvändbar publik](/help/dsp/audiences/reusable-audience-view-details.md)
+      + [Duplicera en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-duplicate.md)
+      + [Redigera en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-edit.md)
+      + [Visa information om en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-view-details.md)
       + [Dela en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-share.md)
-      + [Exportera en återanvändbar publik](/help/dsp/audiences/reusable-audience-export.md)
-      + [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](/help/dsp/audiences/reusable-audience-clipboard.md)
-      + [Ta bort en återanvändbar publik](/help/dsp/audiences/reusable-audience-delete.md)
+      + [Exportera information om en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-export.md)
+      + [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](/help/dsp/audiences/reusable-audience-clipboard.md)
+      + [Ta bort en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-delete.md)
       + [Målgruppsinställningar](/help/dsp/audiences/audience-settings.md)
       + [Syntax för målgruppssegmentslogik](/help/dsp/audiences/audience-segment-logic-syntax.md)
    + Segment {#segments}
@@ -199,11 +199,11 @@ ht-degree: 3%
    + [Duplicera en anpassad rapport](/help/dsp/reports/report-copy.md)
    + [Redigera en anpassad rapport](/help/dsp/reports/report-edit.md)
    + [Ta bort en anpassad rapport](/help/dsp/reports/report-delete.md)
-   + [Kör en anpassad rapport](/help/dsp/reports/report-run-now.md)
+   + [Köra en anpassad rapport](/help/dsp/reports/report-run-now.md)
    + [Hämta en anpassad rapport](/help/dsp/reports/report-download.md)
    + [Anpassade rapportinställningar](/help/dsp/reports/report-settings.md)
    + [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
-   + [Frågor och svar om hushållsrapporter](/help/dsp/reports/faq-reports.md)
+   + [Vanliga frågor om anpassade rapporter](/help/dsp/reports/faq-reports.md)
    + Rapportdestinationer {#report-destinations}
       + [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
       + [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
@@ -222,20 +222,20 @@ ht-degree: 3%
 + Resurs {#resources}
    + [Hantera URL-listor](/help/dsp/resources/lists-url-manage.md)
 + Administration {#admin}
-   + [Redigera din profil](/help/dsp/admin/user-own-profile-edit.md)
+   + [Redigera din användarprofil](/help/dsp/admin/user-own-profile-edit.md)
    + Användare {#users}
-      + [Bjud in en ny användare](/help/dsp/admin/user-invite.md)
+      + [Bjud in en ny användare till ditt organisationskonto](/help/dsp/admin/user-invite.md)
       + [Skicka om en väntande användarinbjudan](/help/dsp/admin/user-resend-invite.md)
       + [Avbjuda en väntande användare](/help/dsp/admin/user-uninvite.md)
    + Blockerade platser {#sites}
-      + [Om blockerade webbplatser på kontonivå och annonsnivå](/help/dsp/admin/blocked-sites-list-about.md)
-      + [Redigera en blockerad webbplatslista på kontonivå eller annonsnivå](/help/dsp/admin/blocked-sites-list-edit.md)
+      + [Om blockerade webbplatser på kontonivå och annonsörnivå](/help/dsp/admin/blocked-sites-list-about.md)
+      + [Redigera en lista över blockerade webbplatser på kontonivå eller annonsörnivå](/help/dsp/admin/blocked-sites-list-edit.md)
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE)
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Få hjälp](/help/dsp/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE)
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
 <!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
