@@ -3,7 +3,7 @@ title: Om insikter
 description: Läs om prestandainsikter med visualiseringar.
 feature: DSP Campaigns, DSP Packages, DSP Placements
 exl-id: 0b7943c4-650c-4515-ae19-4417714ea7dd
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Fliken [!UICONTROL Household Conversion] innehåller hushållskonverteringsvärd
    * **Måttlig effekt**
    * **Begränsad påverkan:** Behöver åtgärdas
 
-## Open Performance Insights
+## Öppna resultatinsikter
 
 * (Om du vill öppna insikter för alla kampanjer) Klicka på **[!UICONTROL Insights BETA]** på huvudmenyn.
 
@@ -92,7 +92,7 @@ Fliken [!UICONTROL Household Conversion] innehåller hushållskonverteringsvärd
 
 * (Om du vill öppna insikter för en viss placering) Klicka på [!UICONTROL Campaigns] > [!UICONTROL Packages] > [!UICONTROL Placements] bredvid enhetsnamnet i vyn **[!UICONTROL ...]**, **[!UICONTROL Analyze]** eller **[!UICONTROL Insights]** .
 
-## Använda filter på en tabb
+## Använda filter på en flik
 
 1. Klicka på knappen ![Filter](/help/dsp/assets/filter.png) i verktygsfältet högst upp på fliken.
 
@@ -104,11 +104,11 @@ Fliken [!UICONTROL Household Conversion] innehåller hushållskonverteringsvärd
 
 1. (Valfritt) Om du vill begränsa data ytterligare väljer du enhetstypen i verktygsfältet och väljer sedan ett specifikt enhetsvärde (en kampanj, ett paket eller en placering).
 
-## Ändra den rapporterade Dimension-versionen för en insight
+## Ändra dimensionen som rapporteras för en insikt
 
 * Välj dimension i listrutan till det övre vänstra hörnet av insikten.
 
-## Ändra rapporterade värden för en insight
+## Ändra rapporterade mätvärden för en insikt
 
 För konverteringsstatistik finns stöd för både Adobe Advertising-spårade och Adobe Analytics-spårade konverteringar.
 
@@ -122,7 +122,7 @@ För konverteringsstatistik finns stöd för både Adobe Advertising-spårade oc
 
   Filen sparas i webbläsarens standardmapp för nedladdningar.
 
-## Hämta en specifik insikt till en XLSX-fil
+## Hämta en specifik information till en XLSX-fil
 
 * Klicka på ![Hämta](/help/creative/assets/download.png "Hämta") i det övre högra hörnet av insikten.
 
@@ -131,6 +131,6 @@ För konverteringsstatistik finns stöd för både Adobe Advertising-spårade oc
 >[!MORELIKETHIS]
 >
 >* [Om anpassade rapporter](/help/dsp/reports/report-about.md)
->* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av resultatrapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
 >* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)

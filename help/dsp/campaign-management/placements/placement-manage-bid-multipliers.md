@@ -1,16 +1,16 @@
 ---
-title: Hantera budmultiplikationer för praktik
+title: Hantera budmultiplikatorer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 1%
 
 ---
 
-# Hantera budmultiplikationer för praktik
+# Hantera budmultiplikatorer för praktik
 
 Du kan skapa och hantera budmultiplikatorer, genom vilka ett algoritmiskt beräknat bud multipliceras för att öka eller minska anbudet, för dina befintliga placeringsmål på [godtagbara måltyper](#bid-multiplier-by-target). Du kan antingen manuellt redigera anbudsmultiplikatorvärden för en placering eller överföra ett kalkylblad med värden för en eller flera placeringar.
 
@@ -60,7 +60,7 @@ Du kan antingen redigera värden manuellt eller överföra ett kalkylblad för e
 
       1. Verifiera överförda data i avsnittet [!UICONTROL Review & Submit] och klicka sedan på **[!UICONTROL Save]**.
 
-## Ladda upp dubbla utskrifter för en eller flera utplaceringar
+## Överför budsmultiplikatorer för en eller flera placeringar
 
 Ladda upp ett kalkylblad om du vill använda samma värden på alla markerade placeringar.
 
@@ -90,7 +90,7 @@ Ladda upp ett kalkylblad om du vill använda samma värden på alla markerade pl
 
    1. Verifiera överförda data i avsnittet [!UICONTROL Review & Submit] och klicka sedan på **[!UICONTROL Save]**.
 
-## Måltyper som är berättigade för budmultiplikatorer {#bid-multiplier-by-target}
+## Måltyper som kan ingå i budmultiplikationer {#bid-multiplier-by-target}
 
 Du kan bara konfigurera budmodifierare för inkluderade mål, inte exkluderade mål.
 
@@ -104,7 +104,7 @@ Du kan bara konfigurera budmodifierare för inkluderade mål, inte exkluderade m
 
 * **ads.txt-mål:** (När du avanmäler dig från ads.txt, vilket gör att du kan köpa lager från alla säljare), annonser.txt-säljare, annonser.txt-säljare och annonser.txt-säljare plus webbplatser utan annonser.txt <!-- bid multipliers for the different subsets of inventory; not available when the placement targets only one subset -->
 
-## Maximalt antal buddelsemultiplikatorer per måltyp {#bid-multiplier-limits-by-target}
+## Maximalt antal budmultiplikatorer per måltyp {#bid-multiplier-limits-by-target}
 
 Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett begränsat antal mål. Du kan t.ex. ange budmultiplikatorer för upp till 20 landsmål. Det högsta antalet mål för varje måltyp som kan ha budmultiplikatorer anges nedan.
 

@@ -1,16 +1,16 @@
 ---
-title: Granska och redigera placeringsinställningar med hjälp av flera kalkylblad
+title: Granska och redigera placeringsinställningar med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar nyckelplaceringsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 9d9330847c9356180928337a4a452f35e7024545
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera placeringsinställningar med hjälp av flera kalkylblad
+# Granska och redigera placeringsinställningar med hjälp av kalkylblad
 
 Du kan hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Använd den här funktionen för att snabbt granska information som:
 
@@ -99,7 +99,7 @@ Du kan överföra inställningar för dina placeringar och för annonser och pak
 När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylblad med färgkodning för att visa vilka inställningar (rader) som sparades och som misslyckades, med en orsak till varje fel. Du kan sedan åtgärda problemen i samma fil och överföra den igen för att bearbeta den korrigerade informationen.
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns}
 
 >[!TIP]
 >

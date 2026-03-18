@@ -3,7 +3,7 @@ title: Duplicera en kampanj
 description: Lär dig hur du duplicerar en kampanj.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: 860761bf65dd6ea35abbb3b04863d78c6461fe0f
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Se [Vad som inte är duplicerat](#campaign-not-duplicated) för en lista över p
 
 1. Klicka på **[!UICONTROL Submit]**.
 
-## Vad som inte är duplicerat {#campaign-not-duplicated}
+## Vad som inte dupliceras {#campaign-not-duplicated}
 
 Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
@@ -53,7 +53,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
    * Annonser
    * Segment på placeringsnivå [!DNL DoubleVerify Authentic Brand Safety] (som åsidosätter segmenten på annonsörnivå)
 
-## Bästa metoder för att konfigurera den nya kampanjen
+## Bästa tillvägagångssätt för att konfigurera den nya kampanjen
 
 >[!TIP]
 >
@@ -80,7 +80,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
    * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
 
-* För prestandakampanjer (det vill säga kampanjer med paket som använder anpassade optimeringsmål) använder du [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den föregående kampanjens historiska data som indata för optimering av paketet.
+* För prestandakampanjer (det vill säga kampanjer med paket som använder anpassade optimeringsmål) använder du [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen ](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den föregående kampanjens historiska data som indata för optimering av paketet.
 
 >[!MORELIKETHIS]
 >

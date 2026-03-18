@@ -1,16 +1,16 @@
 ---
-title: Granska och redigera paketinställningar med hjälp av flera kalkylblad
+title: Granska och redigera paketinställningar med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelpaket i grupp med kalkylblad.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: c482f476de5b79ee9a363791d62ba8c2ada12cbc
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera paketinställningar med hjälp av flera kalkylblad
+# Granska och redigera paketinställningar med hjälp av kalkylblad
 
 Du kan hämta inställningarna för ett eller flera paket i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för granskning. Filen *bulksheet* innehåller en separat flik med flyginformation.
 
@@ -107,7 +107,7 @@ Du kan överföra inställningar för dina paket, inklusive de placeringar och a
 När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylblad med färgkodning för att visa vilka inställningar (rader) som sparades och som misslyckades, med en orsak till varje fel. Du kan sedan åtgärda problemen i samma fil och överföra den igen för att bearbeta den korrigerade informationen.
 
 <!--
-## Package Setting Columns in Downloaded/Uploaded Bulksheets{#qa-sheet-columns-packages}
+## Package setting columns in downloaded/uploaded bulksheets{#qa-sheet-columns-packages}
 
 >[!TIP]
 >

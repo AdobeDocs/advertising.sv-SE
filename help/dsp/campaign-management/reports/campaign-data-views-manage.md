@@ -1,16 +1,16 @@
 ---
-title: Hantera era kampanjdatavyer
+title: Hantera era kampanjdata
 description: Lär dig hur du kan anpassa datavyer för kampanjer, paket, ersättningar och annonser.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 40cfd72c0f295ab1b6b7743828dded4032d435d4
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
-# Hantera era kampanjdatavyer
+# Hantera era kampanjdata
 
 Du kan anpassa de data som visas i kampanjhanteringsvyer ([!UICONTROL Campaigns], [!UICONTROL Packages], [!UICONTROL Placements] och [!UICONTROL Ads]).
 
@@ -167,7 +167,7 @@ Du kan sortera valfri datakolumn i stigande ordning (A till Z eller 1 till 10) e
 
 ### Ange antalet datarader
 
-Välj *[!UICONTROL 25]*, *[!UICONTROL 50]* eller *[!UICONTROL 100]* längst ned till höger på en sida, intill **[!UICONTROL Items per page]**.
+Välj **[!UICONTROL Items per page]**, *[!UICONTROL 25]* eller *[!UICONTROL 50]* längst ned till höger på en sida, intill *[!UICONTROL 100]*.
 
 >[!MORELIKETHIS]
 >
@@ -176,4 +176,4 @@ Välj *[!UICONTROL 25]*, *[!UICONTROL 50]* eller *[!UICONTROL 100]* längst ned 
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visa diagnostikrapporter för placering](placement-diagnostics.md)
 >* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

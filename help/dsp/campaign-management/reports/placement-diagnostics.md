@@ -1,22 +1,22 @@
 ---
-title: Visa diagnostikrapporter för placering
+title: Visa placeringsrapporten [!UICONTROL Diagnostics]
 description: Lär dig hur du diagnostiserar problem med placeringskonfiguration och placering.
 feature: DSP Placements
 exl-id: 95e88c9c-09f2-44f1-9d6c-3fe533963f9a
-source-git-commit: fa4cee46135c85849daa7faa4059c77fc753c2c8
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
-# Visa diagnostikrapporter för placering
+# Visa placeringsrapporten [!UICONTROL Diagnostics]
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
 Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinställningar och paketering när en kampanj är aktiv.
 
-## Information i placeringsdiagnostikrapporter
+## Information i placeringsrapporten [!UICONTROL Diagnostics]
 
 * **[!UICONTROL Change Log]:** Visar ändringar i inställningar för nyckelplacering, till exempel namn, status och högsta bud. Varje post innehåller datum och användarnamn för den person som gjorde ändringen.
 
@@ -24,9 +24,9 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
 * **[!UICONTROL Non Bids]:** Visar varför DSP inte lade något bud på placeringen.
 
-## Öppna diagnostikrapporter för placering
+## Öppna placeringsrapporten [!UICONTROL Diagnostics]
 
-1. Öppna diagnostikrapporten:
+1. Öppna rapporten [!UICONTROL Diagnostics]:
 
    1. Öppna placeringsinställningarna:
 
@@ -60,7 +60,7 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
       1. (Valfritt) Om du vill öppna inställningarna för en annons klickar du på **[!UICONTROL View Ad]** bredvid annonsen.
 
-   * För att se varför DSP inte lade något bud på utplaceringen:
+   * Så här ser du varför DSP inte lade något bud:
 
       1. Klicka på **[!UICONTROL Non Bids]** i det övre högra hörnet.
 
@@ -72,6 +72,6 @@ Diagnostikrapporter kan hjälpa dig att diagnostisera problem med placeringsinst
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

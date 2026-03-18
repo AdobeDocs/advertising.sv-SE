@@ -1,16 +1,16 @@
 ---
-title: Om Placement Management i Advertising DSP
+title: Om placeringshantering i Advertising DSP
 description: Lär dig mer om placeringshantering.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 6233ba0b0cb779ed848cb921427543cea8586700
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
 
 ---
 
-# Om Placement Management i Advertising DSP
+# Om placeringshantering i Advertising DSP
 
 En placering innehåller parametrar för målinriktning för en eller flera annonser av samma annonstyp. Du kan skapa en placering för en enskild kampanj eller ett paket och sedan tilldela annonser till den. Varje kampanj eller placering kan innehålla flera placeringar, med en angiven annonsrotation. Som standard roteras annonserna jämnt. Du kan konfigurera budmultiplikatorer separat för olika placeringsmåltyper.
 

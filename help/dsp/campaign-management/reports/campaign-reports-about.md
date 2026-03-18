@@ -1,20 +1,20 @@
 ---
-title: Typer av prestandarapporter i Campaign Management-vyer
+title: Typer av resultatrapporter i kampanjhanteringsvyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: eba8e9813f8daea58b30f7890ac2dca2498f326f
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
-# Typer av prestandarapporter i Campaign Management-vyer
+# Typer av resultatrapporter i kampanjhanteringsvyer
 
 Vyerna för kampanjhantering omfattar omfattande rapportdata. De tillgängliga rapporterna hjälper dig att identifiera de paket och placeringar som fungerar bra och de som behöver din uppmärksamhet. Snabba åtgärdsknappar gör dig också mer produktiv.
 
-## Vyn Alla kampanjer
+## Visa alla kampanjer
 
 Vyn [!UICONTROL Campaigns] öppnas med en uppsättning prestandadata och en lista över alla kampanjer i ditt konto.
 
@@ -42,7 +42,7 @@ Klicka på kampanjnamnet om du vill visa en mer detaljerad kampanj.
 
 En [!UICONTROL Alerts]-kolumn anger när en kampanj, eller någon underordnad entitet under den, har ett problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger också om det finns några varningar tillgängliga för de enheter som visas. Mer information finns i [Visa aviseringar](campaign-alerts.md).
 
-## Single Campaign Reporting {#single-campaign-reporting}
+## Kampanjrapportering {#single-campaign-reporting}
 
 Inom en kampanj kan du filtrera data baserat på kampanjentiteten: [!UICONTROL Packages], [!UICONTROL Placements] och [!UICONTROL Ads]. Du kan [filtrera synliga data](campaign-data-views-manage.md#filter-data-tables) ytterligare så att endast de paket, placeringar eller annonser som du vill se inkluderas.
 
@@ -52,7 +52,7 @@ Inom en kampanj kan du filtrera data baserat på kampanjentiteten: [!UICONTROL P
 
 För varje kampanj kan du [anpassa trenddiagram för tidsserier](campaign-data-views-manage.md#data-visualizations-manage) med tre mätvärden, som är tillgängliga i varje entitetsvy. Samma mätvärden används för alla trenddiagram för kampanjen.
 
-Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer &#x200B;](#chart-view).
+Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer ](#chart-view).
 
 ### Tabellvy
 
@@ -87,6 +87,6 @@ Visa [rapportsidorna på annonsnivå](/help/dsp/campaign-management/ads/ad-view-
 >
 >* [Visa platser, annonser och frekvensinformation för en placering](placement-details-view.md)
 >* [Hantera dina kampanjdatavyer](campaign-data-views-manage.md)
->* [Exportera data från en Campaign Management-vy](campaign-export-data.md)
+>* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
 >* [Visa en detaljerad rapport för en kampanj](/help/dsp/campaign-management/campaigns/campaign-view-report.md)
 >* [Visa aviseringar](campaign-alerts.md)

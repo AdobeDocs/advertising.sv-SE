@@ -3,7 +3,7 @@ title: Pausa eller aktivera en annons
 description: Lär dig hur du pausar eller aktiverar en annons.
 feature: DSP Ads
 exl-id: f39d36c2-4c62-462b-bb92-29458890661e
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -16,14 +16,14 @@ Om du pausar eller aktiverar en annons från vyn [!UICONTROL Ads] ändras annons
 
 Om du vill pausa en annons på en enskild placering använder du placeringen [!UICONTROL Inspector].
 
-## Pausa eller aktivera en enskild annons över alla placeringar
+## Pausa eller aktivera en enskild annons på alla platser
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.
 1. Klicka på **[!UICONTROL Ads]** på undermenyn.
 1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL Pause]** eller **[!UICONTROL Activate]** bredvid annonsnamnet.
 
-## Pausa eller aktivera flera annonser i alla placeringar
+## Pausa eller aktivera flera annonser på alla platser
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 1. Klicka på kampanjens namn.

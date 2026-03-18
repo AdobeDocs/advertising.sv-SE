@@ -1,16 +1,16 @@
 ---
-title: Advertising DSP Macros
+title: Advertising DSP-makron
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: 195e75386e64c3659d3f4db3c2508ac903e9e311
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
-# Advertising DSP Macros
+# Advertising DSP-makron
 
 Ett makro är ett kort kommando eller en kortskrift för en instruktion och följer vanligtvis formatet `${MACRO_NAME}`. Makron som ingår i den kreativa koden eller klickbara URL:er utökas till en längre kodsträng som annonsservern kan förstå. DSP annonsserver kör makron när annonsen skickas eller klickas.
 
@@ -18,7 +18,7 @@ Ad-servermakron är användbara när du vill skicka viktig information till DSP 
 
 Du kan infoga ett makro manuellt var som helst, t.ex. i en VAST-tagg, i en URL eller i en händelsepixel från DSP eller tredje part. Alla DSP-klienter och -partners har dock olika annonstaggformat och makrona bör infogas på olika ställen i taggen. Varje gång du arbetar med en ny kund eller partner måste du be dem om dokumentation om var makrona i deras annonstaggar som DSP hanterar ska infogas.
 
-## Spårningsmakron
+## Allmänna spårningsmakron
 
 Använd allmänna spårningsmakron för alla annons- och taggtyper för att skicka tillbaka specifika data efter behov.
 
@@ -43,7 +43,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 | ` ${TM_SITE_NAME}` | Platsnamnet för placeringen. | string |
 | `${TM_SITE_URL_URLENC}` | Den URL som skickades i anbudsförfrågan, URL-kodad. Stöds inte för annonser i banner, click-to-play. | string |
 | `${TM_SITE_ID_NUM}` | Platsens ID för placeringen. | heltal |
-| `${TM_TIMESTAMP}` | Unix-tidsstämpeln anger hur många sekunder som har gått sedan midnatt (00:00 UTC) den 1 januari 1970. | long |
+| `${TM_TIMESTAMP}` | Unix-tidsstämpeln som anger antalet sekunder som gått sedan midnatt (00:00 UTC) den 1 januari 1970. | long |
 | ` ${TM_VIDEO_DURATION}` | Annonsvideons längd i sekunder. | heltal |
 
 {style="table-layout:auto"}
@@ -67,7 +67,7 @@ Använd allmänna spårningsmakron för alla annons- och taggtyper för att skic
 
 {style="table-layout:auto"}
 
-## Klicka på Makron för visningsannonser från tredje part
+## Klicka på makron för visningsannonser från tredje part
 
 För att kunna spåra klick efter annonser med hjälp av tredjepartstaggar krävs ett visningsklicksmakro i DSP. Endast en version av makrot krävs. Det relevanta makrot beror på taggens typ.
 
@@ -89,7 +89,7 @@ Om ett klickmakro saknas när du skapar en visningsannons visas ett varningsmedd
 
 Ytterligare makron som är tillgängliga specifikt för [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)-kunder finns i [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md) och [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
 
-## Felsökning av makrofel
+## Felsöka makrofel
 
 När du lägger till makron i koden måste du använda makrots exakta syntax. När du validerar makrona kontrollerar DSP att makrot exakt matchar något av de giltiga makrona.
 

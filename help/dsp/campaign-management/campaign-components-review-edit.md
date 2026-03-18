@@ -1,16 +1,16 @@
 ---
-title: Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad
+title: Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar viktiga paket-, placerings- och annonsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
-# Granska och redigera inställningar för Campaign-komponenten med hjälp av flera kalkylblad
+# Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad
 
 Du kan hämta inställningarna för paket, placeringar och annonser i en enda kampanj i XLSX-format ([!DNL Microsoft Excel] kalkylblad) för att granska och redigera inställningarna. Som standard innehåller den hämtade filen, som kallas *bulkblad,* separata flikar för paketinställningar, paketflyginformation, placeringsinställningar och monterings- och tidsplaner. Du kan också exkludera inställningarna för vissa kampanjkomponenttyper.
 
@@ -20,7 +20,7 @@ Om du vill uppdatera flera inställningar samtidigt överför du en giltig kalky
 >
 >Du kan även hämta och redigera inställningarna för enbart specifika paket och specifika placeringar. Se &quot;[Granska och redigera paketinställningar med hjälp av bulkblad](/help/dsp/campaign-management/packages/package-qa.md)&quot; och &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
-## Hämta inställningar för paket, placeringar och annonser i en kampanj {#download-bulksheet-campaign}
+## Hämta inställningar för paket, praktik och annonser i en kampanj {#download-bulksheet-campaign}
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -50,7 +50,7 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
      >
      >För vissa målinställningar är alla alternativ som standard angivna, såvida du inte begränsar urvalet till specifika mål. När du inte har minskat antalet mål är fältet tomt, vilket innebär att alla alternativ är angivna.
 
-## Ladda upp ett bulkblad med paket, placering och annonsinställningar för en kampanj{#upload-bulksheet-campaign-components}
+## Överför ett kalkylblad med paket, placering och annonsinställningar för en kampanj{#upload-bulksheet-campaign-components}
 
 Överför inställningar för paket, praktik och annonser i en enda kampanj i ett ifyllt kalkylblad.
 
@@ -74,13 +74,13 @@ När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylb
 
 
 <!--
-## Placement Setting Columns in Downloaded/Uploaded Spreadsheets{#qa-sheet-columns}
+## Placement setting columns in downloaded/uploaded spreadsheets{#qa-sheet-columns}
 
 >[!TIP]
 >
 > In a downloaded spreadsheet, all editable columns are highlighted in blue.
 
-### Campaign-level Spreadsheets
+### Campaign-level spreadsheets
 
 | Section | Column | Description | Editable? |
 |---------|--------|-------------|-----------|

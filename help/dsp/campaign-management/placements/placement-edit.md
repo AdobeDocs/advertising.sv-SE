@@ -3,7 +3,7 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 18c68edec80a80d236df138c05fba8d857c9ed9e
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 >
 >Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i de flesta fält och överföra dem till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](placement-qa.md).&quot;
 
-## Redigera inställningar för tangentmontering snabbt {#placement-quick-edit}
+## Redigera snabbt inställningar för tangentmontering {#placement-quick-edit}
 
 Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna de fullständiga placeringsinställningarna.
 
@@ -102,4 +102,4 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Placeringsinställningar](placement-settings.md)
 >* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)
+>* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

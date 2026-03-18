@@ -1,16 +1,16 @@
 ---
-title: Visa Sites, Ads, Frequency och Inventory Details för en placering
+title: Visa platser, annonser, frekvens och lagerinformation för en placering
 description: Lär dig hur du visar målwebbplatser, annonser, frekvens och inventeringsdata för en placering.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 0f022babeab6c044949760cedc103323eb0cc950
+source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Visa Sites, Ads, Frequency och Inventory Details för en placering
+# Visa platser, annonser, frekvens och lagerinformation för en placering
 
 För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placement-details-view.md) som visar alla målwebbplatser, annonser och erbjudanden på en plats. Den innehåller även frekvensdata för placeringen. Du kan också exportera data från valfri flik.
 
