@@ -42,7 +42,7 @@ När du har skapat målgrupperna kan du använda dem i [!DNL Google Ads]-kampanj
 
 >[!NOTE]
 >
->Mer information om hur du skapar målgrupper i Audience Manager- och Experience Cloud [!DNL Audience Library]-gränssnitten och vanliga användningsområden för olika målgruppstyper finns i [Alternativ för att skapa målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html).
+>Mer information om hur du skapar målgrupper i Audience Manager- och Experience Cloud [!DNL Audience Library]-gränssnitten och vanliga användningsområden för olika målgruppstyper finns i [Alternativ för att skapa målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=sv-SE).
 
 ## Skicka exponeringsdata för DSP-medier till Audience Manager
 
@@ -54,6 +54,6 @@ Mer information finns i [Översikt över hur du skickar exponeringsdata för DSP
 
 ## Få djupare insikter i webbplatsaktiviteten med Audience Analytics
 
-Adobe Advertising-kunder med [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) kan skicka både Adobe Advertising-spårade data och Audience Manager-segment till [!DNL Analytics] för bättre insikter om webbplatsaktiviteten.
+Adobe Advertising-kunder med [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=sv-SE) kan skicka både Adobe Advertising-spårade data och Audience Manager-segment till [!DNL Analytics] för bättre insikter om webbplatsaktiviteten.
 
 Mer information finns i [[!DNL Adobe Audience Analytics] för Adobe Advertising-kunder](/help/integrations/audience-manager/audience-analytics.md).

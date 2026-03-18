@@ -22,7 +22,7 @@ Händelsepixlarna fångar inte in händelser som inträffar i cookie-fria miljö
 
 ## Steg 1: Konfigurera en datakälla i Audience Manager {#set-up-data-source}
 
-I Audience Manager skapar du en [datakälla](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html) för DSP-intrycket och klickar på data. Inkludera datakällans ID [&#x200B; i varje händelsetagg &#x200B;](#implement-dsp-pixels) så att alla spårade händelser tilldelas datakällan.
+I Audience Manager skapar du en [datakälla](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/datasources-list-and-settings.html?lang=sv-SE) för DSP-intrycket och klickar på data. Inkludera datakällans ID [&#x200B; i varje händelsetagg &#x200B;](#implement-dsp-pixels) så att alla spårade händelser tilldelas datakällan.
 
 >[!NOTE]
 > Det är möjligt att samla in alla intryckta data och klickdata för annonskampanjer som körs på flera DSP:er inom en enda datakälla.
@@ -33,7 +33,7 @@ Annonsörer kan skapa och implementera händelsetaggar för sina egna varumärke
 
 >[!NOTE]
 >
->Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
+>Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=sv-SE).
 
 ### Pixelsyntax
 
@@ -79,9 +79,9 @@ Båda pixeltyperna kan innehålla ytterligare parametrar som *nyckelvärdepar* f
 
 I nyckelvärdepar kan värdevariabeln vara antingen ett hårdkodat ID eller ett *makro*, som är en liten enhet av självständig kod som dynamiskt ersätts med motsvarande värden när annonstaggen läses in för kampanj- och användarspårning. För kampanjrelaterade parametrar kan du använda [DSP-makron](/help/dsp/campaign-management/macros.md) i stället för Audience Manager-makron för att skicka kampanjattribut tillsammans med motsvarande inställningsdata eller klicka på data till Audience Manager, med en enda pixel för alla annonser. De DSP-makron som du infogar i händelsepixlarna måste vara lämpliga värden för de nyckel/värde-par som du inkluderar i pixlarna. För tangenten `d_placement` använder du till exempel DSP-makrot `${TM_PLACEMENT_ID_NUM}` som värde för att hämta placerings-ID:n som genereras av Adobe Advertising-makrot.
 
-En lista över makron som Audience Manager stöder för att visa händelsepixlar finns i &quot;[Hämta kampanjkomprimeringsdata via pixelanrop](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html#supported-key-value-pairs)&quot;.
+En lista över makron som Audience Manager stöder för att visa händelsepixlar finns i &quot;[Hämta kampanjkomprimeringsdata via pixelanrop](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/impression-data-pixels.html?lang=sv-SE#supported-key-value-pairs)&quot;.
 
-En lista över makron som Audience Manager stöder för klickhändelsepixlar finns i &quot;[Hämta klickdata via pixelanrop](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html)&quot;.
+En lista över makron som Audience Manager stöder för klickhändelsepixlar finns i &quot;[Hämta klickdata via pixelanrop](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/media-data-integration/click-data-pixels.html?lang=sv-SE)&quot;.
 
 >[!TIP]
 >
@@ -116,11 +116,11 @@ När händelsetaggar har implementerats flödar data in på Audience Manager dat
 
 ### Skapa en [!DNL Amazon S3]-bucket och en datakälla
 
-När dina data finns på Audience Manager-servrarna måste du skapa en [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])-bucket och sedan en datakälla som alla pixeldata skickas till. Kontakta din Audience Manager-konsult eller [kundtjänst](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html) om du behöver hjälp.
+När dina data finns på Audience Manager-servrarna måste du skapa en [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3])-bucket och sedan en datakälla som alla pixeldata skickas till. Kontakta din Audience Manager-konsult eller [kundtjänst](https://experienceleague.adobe.com/docs/audience-manager/user-guide/help-and-legal/help-legal-contact.html?lang=sv-SE) om du behöver hjälp.
 
 ### Skapa Audience Manager-egenskaper och -segment
 
-Dina händelsedata flödar till Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html). Skapa [regelbaserade &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) manuellt från inkapslade data och skapa sedan [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html) med dessa egenskaper innan du kan använda data i rapporter.
+Dina händelsedata flödar till Audience Manager som [oanvända signaler](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/interactive-and-overlap-reports/unused-signals.html?lang=sv-SE). Skapa [regelbaserade &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=sv-SE) manuellt från inkapslade data och skapa sedan [segment](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segments-purpose.html?lang=sv-SE) med dessa egenskaper innan du kan använda data i rapporter.
 
 Exempeldiagram som fyller i användarnivådata för användare som exponeras för en viss kreativ i DSP:
 

@@ -22,7 +22,7 @@ Här följer några exempel på hur du kan dra nytta av att hämta dina Advertis
 
 Genom att samla in visningsdata i Audience Manager kan ni förbättra frekvenshanteringen genom att skapa segment med användare som har exponerats för en viss annons eller kampanj. Du kan använda de här segmenten för annonsinriktning om du vill öka frekvensen eller för annonsundertryckning om du vill begränsa frekvensen.
 
-Med Audience Manager [!DNL Segment Builder] kan du dessutom använda [- och frekvenskontroller &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html) på alla [regelbaserade traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html) som innehåller åtgärdbara signaler. På så sätt kan du till exempel begränsa hur många gånger en användare visas som en viss kreativ del i en mediekampanj. Läs [Undertryckande av direktenheter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html) om du vill veta mer om detta.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
+Med Audience Manager [!DNL Segment Builder] kan du dessutom använda [- och frekvenskontroller &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/recency-and-frequency.html?lang=sv-SE) på alla [regelbaserade traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-builder/create-onboarded-rule-based-traits.html?lang=sv-SE) som innehåller åtgärdbara signaler. På så sätt kan du till exempel begränsa hur många gånger en användare visas som en viss kreativ del i en mediekampanj. Läs [Undertryckande av direktenheter](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/profile-merge-rules/instant-cross-device-suppression.html?lang=sv-SE) om du vill veta mer om detta.<!-- The AM pulled this paragraph verbatim from AEM doc; I change only a word or two. -->
 
 ## Sekventiellt meddelande
 
@@ -56,7 +56,7 @@ Så här kör du det här exemplet i Audience Manager:<!-- The AM pulled this ex
 
 ## [!DNL Adobe Audience Analytics] och kampanjexponeringsdata
 
-När kampanjens intryck och klickdata är tillgängliga i Audience Manager kan ni skapa egenskaper och segment för användare som exponerats för, eller interagerats med, en viss kampanj eller taktik. Med en [[!DNL Audience Analytics] integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) kan dina Audience Manager-segment synkroniseras med [!DNL Analytics] för ytterligare analys. Exempel på användningsområden är följande:
+När kampanjens intryck och klickdata är tillgängliga i Audience Manager kan ni skapa egenskaper och segment för användare som exponerats för, eller interagerats med, en viss kampanj eller taktik. Med en [[!DNL Audience Analytics] integration](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=sv-SE) kan dina Audience Manager-segment synkroniseras med [!DNL Analytics] för ytterligare analys. Exempel på användningsområden är följande:
 
 * **Interaktionsanalys mellan DSP och [!DNL Advertising Search, Social, & Commerce] annonser:** Standardintegreringen [[!DNL Analytics for Advertising]  &#x200B;](/help/integrations/analytics/overview.md) ger inga insikter i interaktionen mellan DSP och [!DNL Search, Social, & Commerce] eftersom båda kanalerna använder AMO-ID:n som följer AMO ID-attribueringsregler, där ett sökklick åsidosätter en visningsvy. Genom att skapa ett DSP-exponeringssegment i Audience Manager kan du använda [!DNL Audience Analytics] för att analysera interaktionen mellan DSP och [!DNL Search, Social, & Commerce] annonser i [!DNL Analytics].
 
@@ -64,16 +64,16 @@ När kampanjens intryck och klickdata är tillgängliga i Audience Manager kan n
 
 ## [!DNL Audience Optimization Reports]
 
-Du kan utnyttja [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html) för att identifiera potentiella prestandamöjligheter för segment i era kampanjer. Dessa rapporter kombinerar kampanjexponering, klickfrekvens och konverteringsdata med segmentstatistik för att skapa segmentbaserade optimeringar och en effektiv kanalmix.
+Du kan utnyttja [Audience Manager [!DNL Audience Optimization Reports]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-reports.html?lang=sv-SE) för att identifiera potentiella prestandamöjligheter för segment i era kampanjer. Dessa rapporter kombinerar kampanjexponering, klickfrekvens och konverteringsdata med segmentstatistik för att skapa segmentbaserade optimeringar och en effektiv kanalmix.
 
 ### Typer av relevanta Audience Optimization-rapporter
 
 | Rapport | Beskrivning |
 | ------ | ----------- |
-| [[!UICONTROL Segment Performance] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html) | Jämför mappade och omappade segment med visningar och konverteringsgrader. |
+| [[!UICONTROL Segment Performance] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/segment-performance.html?lang=sv-SE) | Jämför mappade och omappade segment med visningar och konverteringsgrader. |
 | [[!UICONTROL Trend Analysis and Volume Analysis] rapporter]9https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/trend-analysis-volume-analysis.html) | Returnera data om visningar, klickfrekvens och konverteringar för ett stort antal olika annonsdimensioner. |
-| [[!UICONTROL Optimal Frequency] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html) | Hjälper er att hitta den optimala balansen mellan antalet betjänade visningar och konverteringar. Det gör att du kan justera antalet visningar som ska visas innan du börjar se minskande avkastning. |
-| [[!UICONTROL Unique User Reach] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html) | Ett bubbeldiagram där varje bubbla storleksanpassas i direkt proportion till antalet unika användare för den valda dimensionen. |
+| [[!UICONTROL Optimal Frequency] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/optimal-frequency.html?lang=sv-SE) | Hjälper er att hitta den optimala balansen mellan antalet betjänade visningar och konverteringar. Det gör att du kan justera antalet visningar som ska visas innan du börjar se minskande avkastning. |
+| [[!UICONTROL Unique User Reach] Rapport](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/audience-optimization-reports/audience-optimization-advertisers/unique-user-reach.html?lang=sv-SE) | Ett bubbeldiagram där varje bubbla storleksanpassas i direkt proportion till antalet unika användare för den valda dimensionen. |
 
 ### Överväganden
 
