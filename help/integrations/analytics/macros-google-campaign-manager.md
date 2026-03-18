@@ -16,7 +16,7 @@ ht-degree: 0%
 
 *Gäller endast Advertising DSP*
 
-Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för dina Advertising DSP-annonser lägger du till [!DNL Analytics for Advertising]-parametrar till dina startsidans URL:er med hjälp av [`%p`-makrot ](https://support.google.com/campaignmanager/table/6096962). Parametrarna registrerar AMO ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
+Om du använder annonstaggar från [!DNL Google Campaign Manager 360] för dina Advertising DSP-annonser lägger du till [!DNL Analytics for Advertising]-parametrar till dina startsidans URL:er med hjälp av [`%p`-makrot &#x200B;](https://support.google.com/campaignmanager/table/6096962). Parametrarna registrerar AMO ID (`s_kwcid`) och `ef_id` frågesträngsparametrar i landningssidans URL, vilket gör att Adobe Advertising kan skicka klickdata för annonserna till Adobe Analytics.
 
 Använd makron för [!DNL Campaign Manager 360]-visning och videoannonser för följande typer av [!DNL Analytics for Advertising]-implementeringar:
 
@@ -42,7 +42,7 @@ https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;
 
 >[!NOTE]
 >
->>* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du parametern `amo` före hash-symbolen.
+>&#x200B;>* Om landningssidans URL innehåller en hash-symbol (#), som inte är vanlig, placerar du parametern `amo` före hash-symbolen.
 >* Om inga andra parametrar inkluderas efter parametern `amo` lägger du till en parameter (till exempel &amp;a=b) efter den. Exempel: `https://www.adobe.com/home?someparam1=somevalue1&%pamo=!;&a=b#login`
 
 ### Konfigurera URL-suffixet för landningssidan på annonsörnivå
