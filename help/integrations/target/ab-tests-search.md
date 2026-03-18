@@ -69,7 +69,7 @@ I följande anvisningar finns information om användningen av sökningar, social
 
       Du kan hitta ID:t genom att [lägga till den relevanta ID-kolumnen i entitetsvyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md).
 
-      kolumnen ![[!UICONTROL Network Account ID] i kolumnen [!UICONTROL Accounts] view ](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] i [!UICONTROL Accounts] view ")
+      kolumnen ![[!UICONTROL Network Account ID] i kolumnen [!UICONTROL Accounts] view &#x200B;](/help/integrations/assets/target-search-id.png "[!UICONTROL Network Account ID] i [!UICONTROL Accounts] view ")
 
       Samarbeta med kontoteamet på Adobe om du behöver hjälp.
 
