@@ -61,7 +61,7 @@ När segmentets pixeltagg har implementerats börjar Adobe Advertising samla in 
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter ](ccpa-opt-out-about.md)
+>* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter &#x200B;](ccpa-opt-out-about.md)
 >* [Hämta rapporter om konsumentavanmälan från försäljning](ccpa-opt-out-segment-report-retrieve.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
 >* [Om målgruppshantering](audience-about.md)

@@ -43,5 +43,5 @@ ht-degree: 0%
 >* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

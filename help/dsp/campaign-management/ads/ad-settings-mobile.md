@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** Webbadressen till den kreativa resursen från tredje part. Alla parametrar för [tidsstämpel] och [[tidsstämpel]] ersätts med faktiska värden.
 
-**[!UICONTROL Final Display Code]:** URL:en för den kreativa resursen från tredje part, där nödvändiga [Advertising DSP spårningsmakron ](/help/dsp/campaign-management/macros.md) infogas, om tillämpligt.
+**[!UICONTROL Final Display Code]:** URL:en för den kreativa resursen från tredje part, där nödvändiga [Advertising DSP spårningsmakron &#x200B;](/help/dsp/campaign-management/macros.md) infogas, om tillämpligt.
 
 ### [!UICONTROL Basic]: Videobandspelare
 
