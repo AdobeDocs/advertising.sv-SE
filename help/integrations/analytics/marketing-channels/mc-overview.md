@@ -3,7 +3,7 @@ title: Grundläggande om  [!DNL Marketing Channels]
 description: Lär dig viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare ska förstå.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 29b49e8fa54580d7cdd62f9a10fd2616def4694b
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 På den här sidan förklaras viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare måste förstå.
 
-Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=sv-SE).
+Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).
 
 ## Översikt över [!DNL Marketing Channels]
 
 [!DNL Marketing Channels] är en nyckelfunktion i Adobe Analytics. [!DNL Marketing Channels] rapporter visar hur kunderna kommer till din webbplats via rapportfönstret och hur varje kanal påverkar intäkterna eller beteendet på webbplatsen.
 
-Titta på följande exempel på en korsbesöksresa. Varje besök på er webbplats indikeras av den marknadsföringskanal som besökaren kom in från. Det första besöket, som även kallas First Touch Channel, är e-post. Visning på besök två är en deltagande kanal, och Natural Search betraktas som sista beröringskanalen. Om du använder [!UICONTROL Last Touch Attribution] i [!UICONTROL Attribution IQ] får Natural Search full kompensation för konverteringshändelsen på 250 USD. Med Experience Cloud ID-tjänsten kan du knyta samman dessa enskilda besök för att visa en resa för en enskild besökare.
+Titta på följande exempel på en korsbesöksresa. Varje besök på er webbplats indikeras av den marknadsföringskanal som besökaren kom in från. Det första besöket, som även kallas First Touch Channel, är e-post. Visning på besök två är en deltagande kanal, och Natural Search betraktas som sista beröringskanalen. Om du använder [!UICONTROL Last Touch Attribution] i [!UICONTROL Attribution IQ] får Natural Search full kompensation för konverteringshändelsen på 250 USD. Med hjälp av Experience Cloud ID-tjänsten kan du knyta samman dessa enskilda besök för att visa en resa för en enskild besökare.
 
 ![Exempel på konverteringsresa mellan besök i marknadsföringskanaler](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
@@ -36,12 +36,12 @@ Andra kanaler saknar spårbara URL-sökvägar och behöver ytterligare logik fö
 
 Adobe rekommenderar att ni samarbetar med ert analysteam för att skapa en omfattande uppsättning [!DNL Marketing Channels] bearbetningsregler för att spåra alla kanaler som är relevanta för er verksamhet. På så sätt kan ni skapa kraftfulla attribueringsrapporter.
 
-Mer information om hur Adobe Advertising kan bidra till de signaler som behövs för att skapa anpassade marknadsföringskanaler finns i [Skapa [!DNL Marketing Channels] regler](mc-ids.md) med Advertising-id:n.&quot;
+Mer information om hur Adobe Advertising kan bidra till de signaler som krävs för att skapa anpassade marknadsföringskanaler finns i [Skapa [!DNL Marketing Channels] regler](mc-ids.md) med Advertising-id:n.&quot;
 
 >[!MORELIKETHIS]
 >
->* [Använda Adobe Advertising-ID:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
+>* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder  [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)

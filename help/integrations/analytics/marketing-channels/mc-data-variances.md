@@ -3,7 +3,7 @@ title: Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketin
 description: Lär dig varför kanaldata som spåras av AMO-ID kan variera från kanaldata som spåras av  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 72e3aa1e-85ed-485a-b93f-5e67dd0140ce
-source-git-commit: de2a2a097802cc4a7b5ac63bee2eb326895e70f1
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,12 +26,12 @@ De två datauppsättningarna har olika primära användningsområden:
 
   För att samla in dessa data skickar integreringen [!DNL Analytics for Advertising] AMO-ID:n i Raw-format som kan översättas som klicknings- och genomskinlighetsspårningskoder i Adobe Analytics-dimensionens AMO-ID - som lagras antingen som en anpassad variabel (eVar) eller en reserverad variabel (rVar). Klickningar för andra kanaler är inte inställda i AMO ID-dimensionen, så AMO ID-dimensionen kan inte spåra inmatning från dessa andra kanaler. Resultatet är att AMO-ID:t kvarstår genom [!DNL Marketing Channels] startpunkter.
 
-Mer information om möjliga dataavvikelser mellan Adobe Advertising-spårade data och [!DNL Analytics]-spårade data finns i [Förväntade datavarianser mellan  [!DNL Analytics] och Adobe Advertising](../data-variances.md).
+Mer information om möjliga dataavvikelser mellan Adobe Advertising-spårade data och [!DNL Analytics]-spårade data finns i &quot;[Förväntade datavarianser mellan  [!DNL Analytics] och Adobe Advertising](../data-variances.md)&quot;.
 
 >[!MORELIKETHIS]
 >
 >* [Förväntade datavarianser mellan [!DNL Analytics] och Adobe Advertising](/help/integrations/analytics/data-variances.md)
 >* [Grundprinciper för [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
->* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising Data](mc-ac-data.md)
->* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)

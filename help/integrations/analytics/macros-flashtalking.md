@@ -1,16 +1,16 @@
 ---
-title: Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking] Lägg till taggar
+title: Lägg till  [!DNL Analytics for Advertising] makron i  [!DNL Flashtalking] ad-taggar
 description: Lär dig varför och hur du lägger till  [!DNL Analytics for Advertising] makron i dina  [!DNL Flashtalking] ad-taggar
 feature: Integration with Adobe Analytics
 exl-id: ce81824c-60bf-487c-8358-d18fcb3cc95f
-source-git-commit: 26a4451fb09f2a42ac60ba123ddf0cf38323312d
+source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
 
 ---
 
-# Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking]-märkord
+# Lägg till [!DNL Analytics for Advertising] makron i [!DNL Flashtalking] och taggar
 
 *Annonsörer med endast Adobe Advertising-Adobe Analytics-integrering*
 
@@ -36,7 +36,7 @@ Använd makron för [!DNL Flashtalking]-visning och videoannonser för följande
 
 ## Visa annonstaggar
 
-Lägg till följande makro i slutet av klicknings-URL:en i fältet `Clicktag` i inställningarna för annonstaggen [!DNL Flashtalking]:
+Lägg till följande makro i slutet av klicknings-URL:en i fältet [!DNL Flashtalking] i inställningarna för annonstaggen `Clicktag`:
 
 ```
 [ftqs:[AdobeAMO]]
@@ -50,9 +50,9 @@ Exempel:
 
 `https://www.adobe.com/products/photoshop?cid=email&[ftqs:[AdobeAMO]]`
 
-## Video Ad-taggar
+## Video och taggar
 
-Lägg till följande makro i slutet av klicknings-URL:en i fältet `Clicktag` i inställningarna för annonstaggen [!DNL Flashtalking]:
+Lägg till följande makro i slutet av klicknings-URL:en i fältet [!DNL Flashtalking] i inställningarna för annonstaggen `Clicktag`:
 
 ```
 [%EL:param['AdobeAMO']%]&s_kwcid=[%EL:param['s_kwcid']%]
@@ -69,6 +69,6 @@ Exempel:
 >[!MORELIKETHIS]
 >
 >* [Översikt över [!DNL Analytics for Advertising]](overview.md)
->* [Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
+>* [Adobe Advertising-id:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
 >* [Lägg till [!DNL Analytics for Advertising] makron i [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md)
 

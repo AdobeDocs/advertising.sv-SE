@@ -3,7 +3,7 @@ title: Om Audience Management i Advertising DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: ddd55586ed895962b8f6da0390a3d76fe43ca1ca
+source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 0%
@@ -18,21 +18,21 @@ I DSP kan du skapa och hantera målgruppssegment och målgruppsuppsättningar so
 
    * [Anpassade segment](/help/dsp/audiences/custom-segment-create.md) för att spåra a) användare som exponeras för annonser från datorer och mobila enheter och b) användare som besöker specifika webbsidor. Spårningstaggen kan spåra antingen cookie-baserade användare eller användare som är kopplade till universella ID:n för ID5.
 
-   * [CCPA-segment där försäljningen inte kan väljas ut](/help/dsp/audiences/ccpa-opt-out-segment-create.md) för att spåra användar-ID:n från konsumentförfrågningar om att välja bort försäljningen på din webbplats, enligt California Consumer Privacy Act (CCPA). Du kan hämta månadsrapporter om användar-ID:n från förfrågningar om att välja bort försäljning.
+   * [CCPA-segment för avanmälan från försäljning](/help/dsp/audiences/ccpa-opt-out-segment-create.md) för att spåra användar-ID:n från förfrågningar om avanmälan från försäljning på din webbplats, enligt California Consumer Privacy Act (CCPA). Du kan hämta månadsrapporter om användar-ID:n från begäranden om att avanmäla dig.
 
-     Mer information om Adobe Advertising-stöd för begäran om bortval av CCPA finns i [Adobe Advertising-stöd för California Consumer Privacy Act: Stöd för bortval av konsument](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
+     Mer information om Adobe Advertising stöd för CCPA-begäran om att avanmäla dig finns i [Adobe Advertising Support for the California Consumer Privacy Act: Consumer Opt-out Support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md).
 
-* (Betafunktion) [Skaffa och använd universella ID:n för cookies-lös inriktning](/help/dsp/audiences/universal-ids.md):
+* (Beta-funktion) [Hämta och använd universella ID:n för cookiefri målinriktning](/help/dsp/audiences/universal-ids.md):
 
-   * Skicka dina autentiserade [!DNL LiveRamp] [!DNL RampID]-segment direkt till DSP manuellt.
+   * Skicka autentiserade [!DNL LiveRamp] [!DNL RampID]-segment manuellt direkt till DSP.
 
-   * Tillåt att DSP importerar förstasegment från din kunddataplattform och översätter dem till universella ID-typer som stöds.
+   * Tillåt att DSP importerar förstahandssegment från er kunddataplattform och översätter dem till universella ID-typer som stöds.
 
    * Inkludera tredjepartssegment som innehåller universella ID:n i dina placeringsmål utan några extra steg.
 
-* Skapa ett målgruppsbibliotek med [återanvändbara målgrupper](/help/dsp/audiences/reusable-audience-create.md). Sparade målgrupper består av valfritt tillgängligt målgruppssegment och valfri annan sparad målgrupp. Alla ändringar du gör i en sparad målgrupp tillämpas automatiskt på alla placeringar som riktar sig till eller exkluderar målgruppen och på alla andra målgrupper som inkluderar den sparade målgruppen.
+* Skapa ett målgruppsbibliotek med [återanvändbara målgrupper](/help/dsp/audiences/reusable-audience-create.md). Sparade målgrupper består av alla era tillgängliga målgruppssegment och alla era andra sparade målgrupper. Alla ändringar du gör för en sparad målgrupp tillämpas automatiskt på alla placeringar som riktar sig till eller utesluter målgruppen och på alla andra målgrupper som inkluderar den sparade målgruppen.
 
-  Sparade målgrupper gör att medieplanerare kan gruppera målgrupper efter behov genom att inkludera och utesluta flera segment med hjälp av komplex boolesk logik. Storleken (målgrupp) för varje enskilt segment och den totala aktiva målgruppens storlek anges när du skapar en målgrupp. Kampanjansvariga kan sedan helt enkelt välja en eller flera sparade målgrupper som placeringsmål i stället för att manuellt konfigurera målgruppsmål för varje placering.
+  Med sparade målgrupper kan mediemanners gruppera målgrupper efter behov genom att inkludera och exkludera flera segment med komplex boolesk logik. Storleken (som kan användas som mål) för varje enskilt segment och den totala aktiva målgruppsstorleken anges när du skapar en målgrupp. Kampanjcheferna kan sedan välja en eller flera sparade målgrupper som placeringsmål i stället för att manuellt konfigurera målgrupper för varje placering.
 
 Det finns även andra typer av målgrupper att tillgå för riktad marknadsföring.
 
@@ -40,7 +40,7 @@ Det finns även andra typer av målgrupper att tillgå för riktad marknadsföri
 
 Det finns många alternativ för att importera data från första part och tredje part till DSP via DSP användargränssnitt och/eller via anpassade importtjänster.
 
-* DSP kan hämta in din Adobe Audience Manager och andra [!DNL Adobe]-målgrupper för målinriktning. Information om krav och instruktioner finns i [Importera Adobe Audience Manager-segment för annonsinriktning](/help/integrations/audience-manager/import-audiences.md).
+* DSP kan hämta in din Adobe Audience Manager och andra [!DNL Adobe]-målgrupper för målinriktning. Information om krav och instruktioner finns i [Importera Adobe Audience Manager-segment för annonsmål](/help/integrations/audience-manager/import-audiences.md).
 
 * DSP kan översätta datasegment från första part från de kunddataplattformar som stöds till segment med universella ID:n med hjälp av funktionen [Källor](/help/dsp/audiences/sources/source-about.md). Du kan även [skicka autentiserade [!DNL LiveRamp] [!DNL RampID]-segment manuellt direkt till DSP](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
@@ -84,7 +84,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
   >[!NOTE]
   >
-  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=sv-SE), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=sv-SE) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
+  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
 
 ## Målgruppsstorleksdata
 
@@ -126,28 +126,28 @@ I vyn [!UICONTROL Segments] visas även följande segmenttyper:
 
   Du kan inte redigera eller dela anpassade segment som andra användare har delat med dig.
 
-* Alla segment från första part som importerats som de är tillgängliga för användaren.
+* Alla segment från första part som importeras i befintligt skick och som är tillgängliga för användaren.
 
-  Du kan inte redigera eller dela förstahandssegment som delats med dig. Kontakta ditt Adobe-kontoteam om du behöver dela förstahandssegment med ytterligare användare.
+  Du kan inte redigera eller dela egna segment som delats med dig. Kontakta Adobe Account Team om du behöver dela egna segment med andra användare.
 
 * Alla anpassade tredjepartssegment som är tillgängliga för användaren.
 
-  Du kan inte redigera eller dela segment från tredje part som har delats med dig. Kontakta ditt Adobe-kontoteam om du behöver dela segment med tredje part med ytterligare användare.
+  Du kan inte redigera eller dela tredjepartssegment som delats med dig. Kontakta Adobe Account Team om du behöver dela segment från tredje part med andra användare.
 
 ### Vyn Källor
 
-I vyn [!UICONTROL Sources] kan du konfigurera källor för förstapartssegment i kunddataplattformar som stöds och som du vill konvertera till segment som innehåller angivna universella ID-typer. Källinställningarna innehåller en automatiskt genererad källnyckel som du skickar till din kunddataplattform för att upprätta anslutningen.
+I vyn [!UICONTROL Sources] kan du konfigurera källor för förstahandssegment i de kunddataplattformar som stöds och som du vill konvertera till segment som innehåller angivna universella ID-typer. Källinställningarna innehåller en automatiskt genererad källnyckel som du skickar till din kunddataplattform för att upprätta anslutningen.
 
-Mer information om de kunddataplattformar som stöds, de universella ID-typer som stöds och arbetsflödena för att konfigurera anslutningar till varje kunddataplattform finns i &quot;[Om källor](/help/dsp/audiences/sources/source-about.md)&quot;.
+Mer information om vilka kunddataplattformar som stöds, vilka universella ID-typer som stöds och vilka arbetsflöden som ska användas för att konfigurera anslutningar till varje kunddataplattform finns i [Om källor](/help/dsp/audiences/sources/source-about.md).
 
-De översatta segmenten är tillgängliga för att inkludera i återanvändbara målgrupper och i placeringsinställningar för cookies-fri målinriktning.
+De översatta segmenten är tillgängliga för att inkluderas i återanvändbara målgrupper och i placeringsinställningar för cookiefri målinriktning.
 
 >[!MORELIKETHIS]
 >
->* [Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)
+>* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
