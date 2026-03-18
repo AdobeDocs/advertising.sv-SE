@@ -3,7 +3,7 @@ title: Skapa en kampanj
 description: Lär dig skapa en kampanj.
 feature: DSP Campaigns
 exl-id: 8e401c15-018d-439b-922e-2e456eabfea4
-source-git-commit: ff50eda8d8b12579d664cf636c3c9e56069d8bb9
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Skapa en kampanj
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
-1. Klicka på **[!UICONTROL Create campaign]** i vyn [!UICONTROL Campaigns].
+1. Klicka på [!UICONTROL Campaigns] i vyn **[!UICONTROL Create campaign]**.
 1. Ange [kampanjinställningarna](campaign-settings.md):
    1. Ange [!UICONTROL Basic Campaign Details].
    1. (Endast administratörsanvändare) I avsnittet [!UICONTROL Ad Cloud Admin Fields] anger du de administrativa inställningarna.
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om Campaign Management](campaign-about.md)
+>* [Om kampanjhantering](campaign-about.md)
 >* [Duplicera en kampanj](campaign-duplicate.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)

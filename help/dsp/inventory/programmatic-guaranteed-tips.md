@@ -1,23 +1,23 @@
 ---
-title: Tips för att förhandla om ett program med garanterad programmering
+title: Tips för att förhandla om ett programmatiskt garanterat avtal
 description: Lär dig tips om hur du förhandlar om ett avtal om en programmatisk garanti (PG) och listor över köparens och utgivarens ansvar.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 41a2a307-5cb2-4b41-bb3b-edee1e15c5fa
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Tips för att förhandla om ett program med garanterad programmering
+# Tips för att förhandla om ett programmatiskt garanterat avtal
 
 När köparen och utgivaren förhandlar om en programgaranterad affär måste de diskutera och bekräfta följande punkter:
 
 * Flygdatum
 * Geos
 * Lagertyper
-* Kreativa längder
+* Creative-längder
 * Visningsstorlekar
 * Resultatmål
 * Säkerhetskrav för varumärken
@@ -29,7 +29,7 @@ När köparen och utgivaren förhandlar om en programgaranterad affär måste de
 * Dayparting
 * Aktiveringsprocess
 
-## Köparens ansvar för en programgaranterad affär
+## Köparansvar för ett programmatiskt garanterat avtal
 
 * Inställning och aktivering av avtal
 * Skapa en programmatisk garanterad placering
@@ -37,7 +37,7 @@ När köparen och utgivaren förhandlar om en programgaranterad affär måste de
 * Leveransövervakning
 * Utföra en 95-100 % bud/svarsfrekvens
 
-## Utgivarens ansvar för en programgaranterad affär
+## Utgivaransvar för ett programmatiskt garanterat avtal
 
 * Leverans av framförhandlad budget, avtryck, CPM, geos, målgrupp, frekvens och dagsavstämning inom de önskade flygdatumen
 * Uppfylla kraven på nyckeltal och varumärkessäkerhet inom de obligatoriska flygdatumen

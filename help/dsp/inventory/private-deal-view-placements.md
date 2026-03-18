@@ -1,16 +1,16 @@
 ---
-title: Lista placeringar och annonser för ett privat avtal
+title: Lista placeringar och annonser för en privat affär
 description: Lär dig hur du öppnar en lista med placeringar och annonser som är kopplade till ett privat avtal.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 8003c053-eaa1-420d-853f-3c25643f4ef8
-source-git-commit: a820c5b8162953c34978e79e1ce9efe51f4063d4
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-# Lista placeringar och annonser för ett privat avtal
+# Lista placeringar och annonser för en privat affär
 
 Du kan öppna en lista över alla placeringar och annonser som är kopplade till ett privat avtal. Du kan även öppna inställningarna för alla placeringar eller annonser.
 

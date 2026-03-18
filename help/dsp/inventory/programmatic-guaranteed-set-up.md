@@ -1,20 +1,20 @@
 ---
-title: Ställ in en programgaranterad affär
+title: Ställ in ett programmatiskt garanterat erbjudande
 description: Lär dig hur du skapar ett programmatiskt garantiavtal (PG) som du har förhandlat fram med en utgivare.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# Ställ in en programgaranterad affär
+# Ställ in ett programmatiskt garanterat erbjudande
 
 *[Stöd endast för plattformar på utbudssidan](programmatic-guaranteed-about.md)*
 
-När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds, kan du konfigurera avtalet inom DSP antingen genom att använda [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
+När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds kan du konfigurera avtalet inom DSP antingen med hjälp av [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ När du har förhandlat om en programmatisk garanti (PG) med en utgivare som st�
 >
 > Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] krävs extra behörigheter och steg. Mer information finns i [Översikt över hur du konfigurerar garantierbjudanden för programmatiska erbjudanden i  [!DNL FreeWheel]](freewheel-overview.md).
 
-## Konfigurera en programmatisk garanterad affär med [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
+## Konfigurera ett programmatiskt garanterat erbjudande med [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
 Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buyers] och [!DNL Magnite DV+].
 
@@ -42,7 +42,7 @@ Följande metod rekommenderas för [!DNL FreeWheel], [!DNL Google Authorized Buy
 
    Ett avtal kan vara avsett för flera praktik som stöder valfri kombination av medietyper (t.ex. ansluten TV, dator och ljud).
 
-## Ställ in en programmatisk garantiavtal manuellt
+## Skapa ett programmatiskt garantiavtal manuellt
 
 Använd den här metoden för alla andra SSP:er.
 

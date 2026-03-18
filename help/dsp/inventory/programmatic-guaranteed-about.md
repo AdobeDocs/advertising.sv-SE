@@ -3,7 +3,7 @@ title: Om programmatiska erbjudanden
 description: Lär dig mer om programmatiska erbjudanden (PG) och vilka SSP:er som är certifierade att erbjuda dem.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Ett avtal med programgaranti (PG) är ett garanterat köp direkt till en utgivar
 
 ## Funktioner i ett PG-avtal
 
-* Det faktureras alltid via DSP.
+* Erbjudandet faktureras alltid via DSP.
 * Avtalet har ett fast pris och en fast kvantitet.
 * Utgivaren eller leverantörsplattformen (SSP) hanterar alla budgetpaket, budgetar och alla målgruppsanpassningar.
 * Vanligtvis har affären högre prioritet i utgivarens annonsserver.
@@ -25,9 +25,9 @@ Ett avtal med programgaranti (PG) är ett garanterat köp direkt till en utgivar
 * Annonser som hanteras av utgivaren accepteras via [!DNL Google Authorized Buyers] SSP.
 * SSP:er och utgivare har SLA:er för leverans.
 
-PG-avtal kräver en standardplacering och annonser i PG-format (eller en pixel på 1x1 för annonser som hanteras av utgivaren) så att DSP kan returnera en begäran till varje anbudsförfrågan och slutföra SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
+PG-avtal kräver en standardplacering av PG-filer och annonser (eller en pixel på 1x1 för annonser som hanteras av utgivaren) så att DSP kan returnera en begäran till varje anbudsförfrågan och uppfylla SLA-avtal för leverans med SSP-leverantörerna. När du har ställt in den obligatoriska standardplaceringen för PG kan du även rikta in dig på PG-erbjudandet på andra placeringar.
 
-## SSP Certified for PG Deals in DSP
+## SSP-certifierade för PG-erbjudanden i DSP
 
 * [!DNL Ambient Digital]
 * [!DNL FreeWheel]

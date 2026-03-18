@@ -1,18 +1,18 @@
 ---
-title: Översikt över Campaign Management i Advertising DSP
+title: Översikt över kampanjhantering i Advertising DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-# Översikt över Campaign Management i Advertising DSP
+# Översikt över kampanjhantering i Advertising DSP
 
-DSP har följande hierarki:
+DSP-kampanjer har följande hierarki:
 
 * Campaign
    * Paket
@@ -30,7 +30,7 @@ In Advertising DSP, an insertion order is represented as a campaign, and line it
 
 Varje kampanj kan innehålla ett eller flera [paket](/help/dsp/campaign-management/packages/package-about.md), som vart och ett innehåller en uppsättning placeringar.
 
-Använd paket för att gruppera placeringar för leverans till en fast budget, prestationsmål och anpassad paketeringsstrategi. DSP optimerar paket genom att flytta budgeten till de bästa placeringarna i paketet. Du kan ordna paket efter placeringsformat, lagertyp, dataleverantör, persona eller andra särskiljbara egenskaper.
+Använd paket för att gruppera placeringar för leverans till en fast budget, prestationsmål och anpassad paketeringsstrategi. DSP optimerar paketen genom att flytta budgeten till de bästa placeringarna i paketet. Du kan ordna paket efter placeringsformat, lagertyp, dataleverantör, persona eller andra särskiljbara egenskaper.
 
 Paket är valfria men rekommenderas.
 
@@ -48,12 +48,12 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 
 >[!MORELIKETHIS]
 >
->* [Om Campaign Management](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Om kampanjhantering](/help/dsp/campaign-management/campaigns/campaign-about.md)
 >* [Om pakethantering](/help/dsp/campaign-management/packages/package-about.md)
 >* [Om placeringshantering](/help/dsp/campaign-management/placements/placement-about.md)
 >* [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
 >* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

@@ -1,16 +1,16 @@
 ---
-title: Visa status för dina [!DNL On Demand] avtalsbegäranden och prenumerationer
+title: Visa status för dina [!DNL On Demand] avtalsförfrågningar och prenumerationer
 description: Lär dig hur du ser statusen för dina [!DNL On Demand] avtalsbegäranden och prenumerationer.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 14f78b89dea8cc680756232c6116975c652feee5
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# Visa status för dina [!DNL On Demand] avtalsbegäranden och prenumerationer
+# Visa status för dina [!DNL On Demand] avtalsförfrågningar och prenumerationer
 
 När du har beställt ett enskilt avtal eller en prenumeration på alla utgivarerbjudanden, se om utgivaren har godkänt eller avvisat varje erbjudande för varje annonsör på ditt konto.
 
@@ -37,7 +37,7 @@ Godkännande eller nekande av utgivare kan baseras på kontotypen och kampanjkat
 
   Klicka på ![Nekad](/help/dsp/assets/denied.png) om du vill se varför en begäran nekades för varje annonsör. Om orsaken till nekandet är något som kan lösas kan du [begära om avtalet](/help/dsp/inventory/on-demand-inventory-rerequest.md).
 
-Om du har några frågor om godkännandeprocessen kontaktar du kontoteamet på Adobe.
+Om du har några frågor om godkännandeprocessen kontaktar du ditt Adobe-kontoteam.
 
 >[!MORELIKETHIS]
 >

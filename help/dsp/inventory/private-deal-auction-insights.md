@@ -1,16 +1,16 @@
 ---
-title: Visa auktionsinsikter för ett privat avtal
+title: Visa auktionsinsikter för ett privat kontrakt
 description: Lär dig hur du kan använda auktionsinsikter för att analysera den privata erbjudandets sammansättning.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: bbb99f6a-0276-4eb8-9607-75500d5634d9
-source-git-commit: 1ac58da2d538cc682161ebc944a0412ad4a8af17
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
-# Visa auktionsinsikter för ett privat avtal
+# Visa auktionsinsikter för ett privat kontrakt
 
 Auction Insights är ett felsökningsverktyg som gör att du kan analysera hur avtalet är uppbyggt, både när det gäller garanterade och icke-garanterade privata avtal. Med datavisualiseringar visar det här verktyget trenden och relativa proportioner för värden som tagits emot för [nyckelauktionsattribut](#auction-attributes) inom en viss tidsperiod.
 
@@ -51,4 +51,4 @@ Ytdiagram finns för följande auktionsattribut:
 >* [Om privat lager](private-inventory-about.md)
 >* [Ange placeringar och annonser för ett erbjudande-ID](deal-id-attach-placements.md)
 >* [Visa en detaljerad rapport för ett avtal](deal-view-report.md)
->* [Typer av prestandarapporter i Campaign Management-vyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)

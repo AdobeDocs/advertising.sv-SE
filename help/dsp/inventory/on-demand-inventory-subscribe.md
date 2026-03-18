@@ -1,16 +1,16 @@
 ---
-title: Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals
+title: Prenumerera och begär åtkomst till [!DNL On Demand] premiumerbjudanden
 description: Lär dig hur du prenumererar på och begär åtkomst till [!DNL On Demand]-erbjudanden.
 feature: DSP On Demand Inventory
 exl-id: 7f23f989-3c96-475e-9f49-aa9098d24c17
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals
+# Prenumerera och begär åtkomst till [!DNL On Demand] premiumlagererbjudanden
 
 *Inte tillgängligt för användare med kontotyperna [!UICONTROL Ad Network], [!UICONTROL Publisher Audience Extension] och [!UICONTROL Other]; annonsörer med kategorin [!UICONTROL Other]; och återförsäljare*
 
@@ -18,7 +18,7 @@ Du kan beställa enskilda erbjudanden eller prenumerera på en utgivare för att
 
 När ett avtal är [godkänt](/help/dsp/inventory/on-demand-inventory-view-status.md) inkluderas det som standard som mål för nya placeringar som är avsedda för alla [!DNL On Demand]-lager. Det nya erbjudandet finns också som mål för befintliga ersättningar, men du måste redigera placeringsinställningarna manuellt för att lägga till erbjudandet som ett mål.
 
-## Prenumerera på alla erbjudanden för en utgivare
+## Prenumerera på alla utgivare
 
 1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]** på huvudmenyn.
 
@@ -46,7 +46,7 @@ När ett avtal är [godkänt](/help/dsp/inventory/on-demand-inventory-view-statu
 
    * (Om du vill prenumerera på en utgivare) Klicka på **[!UICONTROL Subscription view]**, håll markören över utgivarens logotyp och klicka sedan på **[!UICONTROL Subscribe]**.
 
-## Begär åtkomst till enskilda erbjudanden
+## Begär åtkomst till enskilda avtal
 
 1. Klicka på **[!UICONTROL Inventory]** > **[!UICONTROL On Demand]** på huvudmenyn.
 

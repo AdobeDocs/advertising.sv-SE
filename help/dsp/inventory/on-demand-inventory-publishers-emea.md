@@ -1,16 +1,16 @@
 ---
-title: '[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika'
+title: '[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika'
 description: '[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
-# [!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika
+# [!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika
 
 <!-- get from Amanda Cabrera <acabrera@adobe.com> -->
 
