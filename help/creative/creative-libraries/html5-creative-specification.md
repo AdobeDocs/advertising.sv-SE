@@ -3,10 +3,10 @@ title: HTML5 - kreativ specifikation
 description: Referera till den kreativa HTML5-specifikationen för Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: e966058f5fe3fe9eb039f74bda8ea950f717e123
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -192,7 +192,7 @@ Ett JSON-objekt som frågar efter variabelnamnen och värdena för det kreativa 
 
 I det lokala testläget är nyckelvärdepar de par som registrerats av API:t `amo.registerAttribute`. För produktion måste variabelnamnen och värdena för det kreativa attributet konfigureras samtidigt som kreativa projekt skapas och säljs.
 
-### Creative Content Requirements
+### Krav för Creative
 
 De flesta bildskärmsutbyten som är tillgängliga i Advertising DSP har följande kreativa krav:
 

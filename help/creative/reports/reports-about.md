@@ -2,7 +2,8 @@
 title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter.
 feature: Creative Reporting
-source-git-commit: eeeee0404c82bd98d37d4275cbef8e0e12fb4b13
+exl-id: d52a2761-5e50-4a38-a9e1-141e962f1166
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%

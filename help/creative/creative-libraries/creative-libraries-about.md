@@ -3,9 +3,9 @@ title: Om dina kreativa bibliotek
 description: Lär dig hur du hanterar kreatörerna för era annonsupplevelser.
 feature: Creative Libraries, Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: 77dc6528-a455-4406-98b6-15e7ce529370
-source-git-commit: 0a3da41d51ffc0b9df1e264485bfbb966780eb84
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Biblioteken kan innehålla:
 
 * **Creative bundles:** Gruppera kreatörer i paket som kan användas för flera upplevelser med definierade användarmål. Du kan skapa *standardvisningspaket* som består av standarddisplayannonser, *standardvideopaket* som består av standardvideoannonser, *dynamiska visningspaket* som består av dynamiskt genererade displayannonser och *dynamiska videopaket* som består av dynamiskt genererade videoannonser.
 
-## Creative-format som stöds {#creative-creative-formats}
+## Kreativa format som stöds {#creative-creative-formats}
 
 ### Format för standardkreatörer
 
-Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar](creative-sizes.md) som stöds.
+Du kan lägga till och hantera följande kreativa typer i de [kreativa storlekar som stöds](creative-sizes.md).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Standardannonser:
 
 ##### HTML5 kreatörer
 
-* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [visningsannons](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home) som enskilda HTML5-kreatörer. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
+* **GenStudio-upplevelser:** Du kan importera alla annonsvarianter från en [visningsannons](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/display-ad-experiences) i [GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) som enskilda HTML5-kreatörer. Externa länkar konverteras till lokala referenser. HTML-innehållet kan vara upp till 20 MB och enskilda bilder kan vara upp till 50 MB.
 
   När du har importerat en GenStudio-upplevelse kan du redigera metadata (namn, språk, taggar) för det importerade kreativa innehållet men inte för det kreativa innehållet. Om du redigerar GenStudio-upplevelsen i GenStudio måste du importera om upplevelsen i [!DNL Creative] för att använda den senaste versionen.
 
@@ -79,7 +79,7 @@ Ange JavaScript spårningstaggar för kreatörer som har en annonsserver från t
 
 Du kan överföra förstahandsvideor för webben, mobiler eller ansluten TV från din enhet eller ditt nätverk. För varje videoreklamupplevelse krävs en standardvideokreativ för varje kreativ längd som tilldelats upplevelsen. DSP omvandlar automatiskt alla videokreatörer till VAST 2.0-taggar så att du kan förhandsgranska dem. I [!UICONTROL Tag Manager] kan du välja att [använda DSP-specifik transkodning](/help/creative/experiences/experience-tag-video-transcoding.md) för alla videoannonsupplevelsetaggar.
 
-Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/sv/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
+Se följande krav för videoredigering. **Obs!** Om du ska överföra videoupplevelser till Advertising DSP läser du även DSP [Krav för HD-video i Assets](https://experienceleague.adobe.com/en/docs/advertising/dsp/campaign-management/ads/ad-specs#requirements-for-high-definition-video-assets), som kan vara mer begränsat.
 
 **Filtyp:** .mov, .mp4, .webm
 
@@ -216,6 +216,6 @@ I vyn [!UICONTROL Bundles] visas alla standardpaketbehållare och dynamiska pake
 >[!MORELIKETHIS]
 >
 >* [Hantera kreativa bibliotek](/help/creative/creative-libraries/creative-library-manage.md)
->* [Lägg till standardkreatörer i ett kreativt bibliotek](creative-add-standard.md)
+>* [Lägg till standardkreatörer i ett bibliotek](creative-add-standard.md)
 >* [Hantera kreativa paket](bundle-manage.md)
 >* [Anpassa datavyer](/help/creative/introduction/customize-data-views.md)

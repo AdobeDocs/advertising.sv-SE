@@ -2,7 +2,8 @@
 title: Visa aviseringar
 description: Lär dig hur du visar aviseringar och rekommenderade lösningar för dina upplevelser.
 feature: Creative Experiences
-source-git-commit: e03517dc1d984df660048d81f77d5364f156fb6c
+exl-id: faea1b1f-62f5-4277-acc4-6d99cf166906
+source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
