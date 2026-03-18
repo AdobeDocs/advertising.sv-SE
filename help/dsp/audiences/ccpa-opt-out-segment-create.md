@@ -18,7 +18,7 @@ När segmentets pixeltagg har implementerats börjar Adobe Advertising samla in 
 
 >[!NOTE]
 >
->* Mer information om hur du kan kommunicera CCPA-begäran om att avanmäla dig till Adobe Advertising med hjälp av Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html).
+>* Mer information om hur du kan kommunicera CCPA-begäran om att avanmäla dig till Adobe Advertising med hjälp av Adobe Experience Platform Privacy Service API finns i [https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=sv-SE](https://experienceleague.adobe.com/docs/advertising/privacy/ccpa/ccpa-opt-out-of-sale.html?lang=sv-SE).
 >* Skapa ett [anpassat segment](/help/dsp/audiences/custom-segment-create.md) om du vill spåra användare som besöker webbsidor för syften som inte har att göra med att spåra CCPA-händelser för avanmälan och användare som exponeras för annonser från datorer, mobiler och CTV-enheter.
 
 1. Skapa segmentet:

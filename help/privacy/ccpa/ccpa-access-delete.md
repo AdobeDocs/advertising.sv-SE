@@ -65,7 +65,7 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
    >
    >Kontakta företagets Adobe Advertising-representant för att bekräfta att alla din organisations Adobe Advertising-konton - inklusive [!DNL DSP]-konton eller annonsörer, [!DNL Search, Social, & Commerce]-konton och [!DNL Creative]- eller [!DNL DCO]-konton - är kopplade till ditt Experience Cloud organisations-ID.
 
-1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html) (för automatiserade begäranden) eller [Privacy Service-gränssnittet](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html) (för ad hoc-begäranden) för att skicka begäranden om åtkomst och radering av personuppgifter till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga förfrågningar.
+1. Använd antingen [Adobe Experience Platform Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=sv-SE) (för automatiserade begäranden) eller [Privacy Service-gränssnittet](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=sv-SE) (för ad hoc-begäranden) för att skicka begäranden om åtkomst och radering av personuppgifter till Adobe Advertising för konsumenternas räkning och för att kontrollera status för befintliga förfrågningar.
 
    För annonsörer som har en mobilapp att interagera med kunder och starta kampanjer med [!DNL DSP] måste du hämta sekretessfärdiga SDK:er för Experience Cloud. Med Mobile SDK:er kan företag ange statusflaggor för avanmälan, hämta konsumentens enhets-ID (namnområdes-ID: `deviceID`) och skicka begäranden till Privacy Service API. Mobilappen kräver SDK Version 4.15.0 eller senare.
 
@@ -77,7 +77,7 @@ Om du vill begära åtkomst till och radera konsumentpersonuppgifter från Adobe
    >
    >Om ditt företag har flera Experience Cloud organisation-ID:n måste du skicka separata API-förfrågningar för varje. Du kan dock göra en API-begäran till flera Adobe Advertising-underlösningar ([!DNL Search, Social, & Commerce], [!DNL Creative], [!DNL DSP] och [!DNL DCO]), med ett konto per underlösning.
 
-Alla steg är nödvändiga för att få support från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).
+Alla steg är nödvändiga för att få support från Adobe Advertising. Mer information om dessa och andra relaterade uppgifter som du behöver utföra med Adobe Experience Platform Privacy Service, och var du hittar objekten som behövs, finns på [https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE).
 
 ## Obligatoriska fältvärden i Adobe Advertising JSON-begäranden
 
@@ -94,11 +94,11 @@ användare:
 
 * `"user IDs":`
 
-   * `"namespace": **411**` (vilket anger [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix))
+   * `"namespace": **411**` (vilket anger [[!DNL AdCloud] cookie space](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/appendix))
 
    * `"value":` &lt;*den faktiska kundens cookie-ID som hämtats från`AdobePrivacy.js`*>
 
-* `"include": **adCloud**` (som är den [[!DNL Adobe] produkt](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix) som gäller för begäran)
+* `"include": **adCloud**` (som är den [[!DNL Adobe] produkt](https://experienceleague.adobe.com/sv/docs/experience-platform/privacy/api/appendix) som gäller för begäran)
 
 * `"regulation": **ccpa**` (som är den sekretessregel som gäller för begäran)
 
