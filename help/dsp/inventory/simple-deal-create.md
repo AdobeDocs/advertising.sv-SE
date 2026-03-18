@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * (Valfritt) Skicka pixlarna för händelsespårning manuellt till utgivaren:
 
-      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![ ](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
+      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![&#x200B; &#x200B;](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
 
          Händelsepixlarna innehåller en [!UICONTROL Clickthrough]-pixel och en [!UICONTROL Impression]-pixel. Video- och ljudannonser innehåller även händelsepixlar per kvartil (från [!UICONTROL 25% Complete] till [!UICONTROL 100% Complete]).
 

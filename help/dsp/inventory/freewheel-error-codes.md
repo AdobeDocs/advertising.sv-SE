@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Felkoder för [!DNL FreeWheel] annonsinskick
 
-Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] ](freewheel-check-status.md).
+Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] &#x200B;](freewheel-check-status.md).
 
 ## Advertising DSP interna fel
 
