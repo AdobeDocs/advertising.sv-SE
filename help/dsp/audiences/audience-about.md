@@ -84,7 +84,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
   >[!NOTE]
   >
-  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
+  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=sv-SE), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=sv-SE) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
 
 ## Målgruppsstorleksdata
 

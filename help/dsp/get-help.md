@@ -25,14 +25,14 @@ Om du vill öppna en fullständig användarhandbok som förklarar hur du använd
 <!--
 ## Ask the Adobe Advertising community
 
-Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community).
+Look for answers to your questions in the [Adobe Advertising community forums](https://experienceleaguecommunities.adobe.com/t5/adobe-advertising/ct-p/adobe-advertising-cloud-community?profile.language=sv).
 -->
 
 ## Kontakt [!DNL Adobe]
 
 Gör följande för produkt- eller kontoproblem:
 
-* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home#support](https://experienceleague.adobe.com/home?support-tab=home#support).
+* (Annonsörer med självbetjäningsavtal) Öppna en biljett för din organisation på [https://experienceleague.adobe.com/home?lang=sv-SE#support](https://experienceleague.adobe.com/home?lang=sv-SE&support-tab=home#support).
 
   Välj [!UICONTROL Advertising - DSP] för produkten.
 
