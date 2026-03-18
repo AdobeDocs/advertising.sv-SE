@@ -3,7 +3,7 @@ title: Om pakethantering i Advertising DSP
 description: Läs mer om pakethantering.
 feature: DSP Packages
 exl-id: 26985635-c03a-471e-8372-fd33e89a30e9
-source-git-commit: 2b0513691e5db2db28222d4cf7edf8bca2f014ca
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Om pakethantering i Advertising DSP
 
-Använd paket för att gruppera placeringar för leverans till en fast budget, prestationsmål och anpassad paketeringsstrategi. DSP optimerar paket genom att flytta budgeten till de bästa placeringarna i paketet. Du kan ordna paket efter placeringsformat, lagertyp, dataleverantör, persona eller andra särskiljbara egenskaper. Paket är valfria.
+Använd paket för att gruppera placeringar för leverans till en fast budget, prestationsmål och anpassad paketeringsstrategi. DSP optimerar paketen genom att flytta budgeten till de bästa placeringarna i paketet. Du kan ordna paket efter placeringsformat, lagertyp, dataleverantör, persona eller andra särskiljbara egenskaper. Paket är valfria.
 
 Du kan skapa paket manuellt eller genom att duplicera befintliga paket. Du kan också redigera och bifoga placeringar i alla paket.
 

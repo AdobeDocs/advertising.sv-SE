@@ -2,7 +2,7 @@
 title: Redigera din användarprofil
 description: Lär dig redigera din användarprofil.
 exl-id: 8dc15996-db6e-4c37-a919-d0d49e7b8396
-source-git-commit: dea924e00aed1e6a8e778afb3112d9db85cef802
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 2%
@@ -19,7 +19,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
 
    * Så här redigerar du e-postadressen för användarkontot:
 
-      1. Klicka på **[!UICONTROL Edit]** bredvid den befintliga **[!UICONTROL Email address]**.
+      1. Klicka på **[!UICONTROL Email address]** bredvid den befintliga **[!UICONTROL Edit]**.
 
       1. Ange den nya e-postadressen och det befintliga lösenordet för användarkontot.
 
@@ -27,7 +27,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
 
    * Så här redigerar du lösenordet för användarkontot:
 
-      1. Klicka på **[!UICONTROL Change]** bredvid den befintliga **[!UICONTROL Password]**.
+      1. Klicka på **[!UICONTROL Password]** bredvid den befintliga **[!UICONTROL Change]**.
 
       1. Ange det nya lösenordet två gånger.
 
@@ -35,7 +35,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
 
    * Så här redigerar du säkerhetsfrågan för användarkontot:
 
-      1. Klicka på **[!UICONTROL Change]** bredvid den befintliga **[!UICONTROL Security Question]**.
+      1. Klicka på **[!UICONTROL Security Question]** bredvid den befintliga **[!UICONTROL Change]**.
 
       1. Välj en **[!UICONTROL Secret Question]** och ange en **[!UICONTROL Secret Question Answer]**.
 
@@ -43,7 +43,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
 
    * Så här redigerar du standardtidszonen för användarkontot:
 
-      1. Klicka på **[!UICONTROL Change]** bredvid den befintliga **[!UICONTROL Default Timezone]**.
+      1. Klicka på **[!UICONTROL Default Timezone]** bredvid den befintliga **[!UICONTROL Change]**.
 
       1. Välj den nya tidszonen.
 
@@ -53,7 +53,7 @@ Din kontoprofil innehåller dina inloggningsuppgifter och annan information. Vis
 
    * (Användare som vill använda en privat plats på [!DNL Google Authorized Buyers]) Så här redigerar du den privata [!DNL Google Authorized Buyers]-platsen för användarkontot, som används som standard för alla kampanjer:
 
-      1. Klicka på **[!UICONTROL Change]** bredvid den befintliga **[!UICONTROL Google AdEx ID]**.
+      1. Klicka på **[!UICONTROL Google AdEx ID]** bredvid den befintliga **[!UICONTROL Change]**.
 
       1. Ange nya **[!UICONTROL Ad Group ID]**.
 

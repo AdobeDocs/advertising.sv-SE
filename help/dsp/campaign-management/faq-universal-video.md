@@ -1,16 +1,16 @@
 ---
-title: Frågor och svar om universell video
+title: Frågor och svar om Universal Video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 8d65069b7da5d3c33cc7713c6c80af27eb6bf227
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Frågor och svar om universell video
+# Frågor och svar om Universal Video
 
 Med [universella videoannonser](/help/dsp/campaign-management/ads/ad-about.md#ad-types) kan du målinrikta videolagret från skrivbordsmiljöer, mobilmiljöer och anslutna TV-miljöer för VPAID- och VAST-inventering med en enda videoplacering.
 
@@ -28,7 +28,7 @@ Skapa universella videomaterial och annonser på ungefär samma sätt som du ska
 
    Om du skapar flera annonser måste du ange [!UICONTROL Universal Video] som [!UICONTROL Ad Type]:
 
-   * För [!DNL Google] eller [!DNL Flashtalking] annonser: Klicka på fältet **[!UICONTROL Ad Type]** i steget [!UICONTROL Review ad types] efter att du har överfört filen och välj **[!UICONTROL Universal Video]**.
+   * För [!DNL Google] eller [!DNL Flashtalking] annonser: Klicka på fältet [!UICONTROL Review ad types] i steget **[!UICONTROL Ad Type]** efter att du har överfört filen och välj **[!UICONTROL Universal Video]**.
 
    * För andra typer av annonstaggar: I kalkylbladsfilen som du överför anger du fältet Annonstyp för varje annons som **[!UICONTROL Universal Video]**.
 

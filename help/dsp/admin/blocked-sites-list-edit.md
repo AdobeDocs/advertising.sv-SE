@@ -1,16 +1,16 @@
 ---
-title: Redigera en blockerad webbplatslista på kontonivå eller annonsnivå
+title: Redigera en lista över blockerade webbplatser på kontonivå eller annonsörnivå
 description: Lär dig hur du hanterar listan över blockerade webbplatser för ett konto eller en annonsörer.
 role: User, Admin
 exl-id: b2261b3a-ead2-4d88-a363-66c53653de1a
-source-git-commit: 0e771df5470c287702850a227f9ac20d5679b775
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
 
 ---
 
-# Redigera en blockerad webbplatslista på kontonivå eller annonsnivå
+# Redigera en lista över blockerade webbplatser på kontonivå eller annonsörnivå
 
 1. Klicka på **Inställningar > Platser på huvudmenyn.**
 
@@ -41,5 +41,5 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Om blockerade webbplatser på kontonivå och annonsnivå](/help/dsp/admin/blocked-sites-list-about.md)
-> [Varumärkessäkerhet och mediakvalitet &#x200B;](/help/dsp/introduction/features/brand-safety-media-quality.md)
+> [Varumärkessäkerhet och mediakvalitet ](/help/dsp/introduction/features/brand-safety-media-quality.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

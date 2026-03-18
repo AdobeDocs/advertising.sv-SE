@@ -3,7 +3,7 @@ title: Visa spårningspixlar för ett segment
 description: Lär dig hur du visar spårningspixlar för ett anpassat eller CCPA-avanmäl dig från ett försäljningssegment.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 8e3afe50db8f3d0795838c071a01f3c5688f701f
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. Håll markören över segmentraden och klicka på **[!UICONTROL Get Pixel]**.
 
-   * Spårningstaggen för sidvyn, som spårar besökare på datorer och mobila enheter till en webbsida, har etiketten [!UICONTROL Desktop or mobile websites]. För segment som spårar [!DNL ID5] ID:n ersätter du `ID5_PARTNER_ID` i den kopierade taggen med det partner-ID som [!DNL ID5] tilldelades din organisation när den signerade ett avtal med [!DNL ID5]. Om du inte känner till ditt partner-ID kontaktar du ditt Adobe-kontoteam.
+   * Spårningstaggen för sidvyn, som spårar besökare på datorer och mobila enheter till en webbsida, har etiketten [!UICONTROL Desktop or mobile websites]. För segment som spårar [!DNL ID5] ID:n ersätter du `ID5_PARTNER_ID` i den kopierade taggen med det partner-ID som [!DNL ID5] tilldelades din organisation när den signerade ett avtal med [!DNL ID5]. Kontakta Adobe Account Team om du inte känner till ditt partner-ID.
 
      Lägg till taggen på de sidor vars vyer du vill spåra.
 

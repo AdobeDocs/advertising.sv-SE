@@ -1,16 +1,16 @@
 ---
-title: Visa prognosrapport för placering
+title: Visa placeringsprognosrapporten
 description: Se hur många visningar, utgifter och optimalt maximalt bud som prognostiserats för en viss målinriktningsstrategi för en placering.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
 
 ---
 
-# Visa prognosrapport för placering
+# Visa placeringsprognosrapporten
 
 <!-- Does this really belong in the Campaign Management > Reports section or in the Placements section? -->
 
@@ -65,7 +65,7 @@ Prognosen innehåller följande information:
 
      En placering är vanligtvis en samling med flera annonsmallar som definieras av plattformar på utbudssidan. Så även om placeringen har funnits länge, och om den underliggande annonsmallen är ny, kan prognosverktyget inte skapa en prognos.
 
-## Öppna prognosrapporten för placering
+## Öppna placeringsprognosrapporten
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -81,6 +81,6 @@ Prognosen innehåller följande information:
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i Campaign Management-vyer](campaign-reports-about.md)
+>* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
 >* [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

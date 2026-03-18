@@ -1,16 +1,16 @@
 ---
-title: Om Campaign Management i Advertising DSP
+title: Om kampanjhantering i Advertising DSP
 description: Läs om kampanjhantering.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Om Campaign Management i Advertising DSP
+# Om kampanjhantering i Advertising DSP
 
 Kampanjer är det övergripande ramverket för flyginställningar. Alla inställningar på kampanjnivå gäller automatiskt för varje paket och placering i kampanjen. Varje kampanj är kopplad till en viss annonsörer.
 
@@ -35,4 +35,4 @@ Klicka på kampanjnamnet om du vill se alla paket, placeringar och annonser i en
 >
 >* [Skapa en kampanj](campaign-create.md)
 >* [Kampanjinställningar](campaign-settings.md)
->* [Video: DSP och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

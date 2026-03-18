@@ -3,7 +3,7 @@ title: Om aviseringsprenumerationer
 description: Läs mer om automatiska e-postaviseringar.
 role: User, Admin
 exl-id: f3578f10-4f66-4133-a6e0-1ca8001dd2c9
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

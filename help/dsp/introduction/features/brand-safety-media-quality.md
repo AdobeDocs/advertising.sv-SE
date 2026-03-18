@@ -3,7 +3,7 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 7ee798e11375863e776ac3e802efc9112280e750
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Advertising DSP har en uppsättning funktioner för varumärkesskydd som säkerställer att alla era kampanjer når verkliga användare i en varumärkessäker miljö.
 
-Vårt team för bedrägeriövervakning samarbetar nära med branschledande partner, som [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] och [!DNL WhiteOps], för att noggrant strukturera inventeringen på vår plattform. Genom en proaktiv hantering av vårt utbud säkerställer DSP att alla annonsörer på plattformen skyddas från icke-mänsklig trafik (botar, crawler, datacentralstrafik och bedrägeri) och endast levererar i varumärkessäkra sammanhang.
+Vårt team för bedrägeriövervakning samarbetar nära med branschledande partner, som [!DNL Interactive Advertising Bureau], [!DNL Trust and Accountability Group] [!DNL (TAG)] och [!DNL WhiteOps], för att noggrant strukturera inventeringen på vår plattform. Genom en proaktiv hantering av vårt material ser DSP till att alla annonsörer över hela plattformen skyddas från icke-mänsklig trafik (botar, crawler, datacentralstrafik och bedrägeri) och endast levererar i varumärkessäkra sammanhang.
 
-Förutom att tillhandahålla central kvalitetsstyrning anser vi att annonsörerna ska kunna utforma de kontroller som är anpassade till deras varumärke. DSP erbjuder integreringar med [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39], vilket säkerställer att varje annonsör kan välja önskad nivå på bedrägeriskydd, kontextuell filtrering och nyckelordsmål.
+Förutom att tillhandahålla central kvalitetsstyrning anser vi att annonsörerna ska kunna utforma de kontroller som är anpassade till deras varumärke. DSP erbjuder integreringar med [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] så att alla annonsörer kan välja önskad nivå på bedrägeriskydd, kontextuell filtrering och nyckelordsmål.
 
 ## Kvalitetsinitiativ
 
@@ -40,15 +40,15 @@ Du kan ange [!DNL ads.txt]-standardkontroller för varje annonsörer<!-- [defaul
 
 ### Övervakning av plattformsbedrägerier
 
-DSP har byggt kraftfulla interna verktyg och system för att hantera bedrägerier på hela vår plattform, och samarbetar med ledande branschleverantörer som [!DNL Whiteops] och [!DNL Integral Ad Science].
+DSP har byggt upp kraftfulla interna verktyg och system för att hantera bedrägerier på hela vår plattform och samarbetar med ledande branschleverantörer som [!DNL Whiteops] och [!DNL Integral Ad Science].
 
-Dessutom samarbetar Adobe nära med [!DNL IAB] och [!DNL TAG] för att säkerställa en stabil, branschstandard blockering av bedrägerier för att skydda våra annonsörer, med hjälp av verktyg som [!DNL ads.txt] (se föregående avsnitt), listan [!DNL IAB] Bots and Spiders samt IP-listan för [!DNL TAG] Datacenter.
+Dessutom samarbetar Adobe nära med [!DNL IAB] och [!DNL TAG] för att säkerställa en robust, branschstandard för bedrägeriblockering för att skydda våra annonsörer och utnyttja verktyg som [!DNL ads.txt] (se föregående avsnitt), listan [!DNL IAB] Bots and Spiders samt IP-listan för [!DNL TAG] Datacenter.
 
 Genom vår flerdimensionella strategi för kvalitet övervakar vårt team avvikelser och ogiltiga trafikmönster, vilket säkerställer mindre än 3 % ogiltig trafik på skyddat lager. Alla lager som är misstänkta - inklusive lager på specifika domäner eller från specifika utgivare eller säljare - blockeras omedelbart på hela plattformen.
 
 ### Lagermappning, nivåindelning och kategorisering
 
-Inventariemappning är den detaljerade process för granskning och introduktion som krävs för allt nytt lager innan det läggs till på vår plattform. Denna process är utformad för att säkerställa säkerheten och kvaliteten för alla DSP.
+Inventariemappning är den detaljerade process för granskning och introduktion som krävs för allt nytt lager innan det läggs till på vår plattform. Denna process är utformad för att säkerställa säkerheten och kvaliteten för alla lager på DSP.
 
 * **Mappning:** Inventeringsteamet granskar varje domän noggrant och utvärderar till exempel:
 
@@ -66,25 +66,25 @@ Inventariemappning är den detaljerade process för granskning och introduktion 
 
    * **[!UICONTROL T3]** - Användargenererat innehåll och nischinnehåll
 
-* **Webbplatskategorisering:** För att säkerställa enkel målinriktning och blockering av innehåll taggar vi varje egenskap med en DSP definierad webbplatskategori baserat på egenskapens innehåll. Du kan [ange som mål eller exkludera dessa webbplatskategorier för varje placering](/help/dsp/campaign-management/placements/placement-settings.md) baserat på placeringsmålen.
+* **Webbplatskategorisering:** För att säkerställa enkel målinriktning och blockering av innehåll taggar vi varje egenskap med en DSP-definierad webbplatskategori baserat på egenskapens innehåll. Du kan [ange som mål eller exkludera dessa webbplatskategorier för varje placering](/help/dsp/campaign-management/placements/placement-settings.md) baserat på placeringsmålen.
 
-### Omfattande stöd för webbplatsblockering
+### Omfattande stöd för blockering av webbplatser
 
-DSP innehåller både en global lista över blockerade webbplatser och alternativet att skapa anpassade listor över blockerade webbplatser för annonsörer och konton.
+DSP tillhandahåller både en global lista över blockerade webbplatser och alternativet att skapa anpassade listor över blockerade webbplatser för annonsörer och konton.
 
-#### DSP Globalt blockerade webbplatser {#global-blocked-sites}
+#### Lista över DSP globalt blockerade webbplatser {#global-blocked-sites}
 
-DSP har en global lista över webbplatser som blockerats och som anses osäkra att köra annonser på. Den här listan innehåller webbplatser med stötande innehåll (till exempel hat eller terror) och webbplatser som infekterats med botar, falska förrullningsdomäner, felmatchade domäner och annan bedräglig aktivitet.
+DSP har en global lista över blockerade webbplatser som anses osäkra att köra annonser på. Den här listan innehåller webbplatser med stötande innehåll (till exempel hat eller terror) och webbplatser som infekterats med botar, falska förrullningsdomäner, felmatchade domäner och annan bedräglig aktivitet.
 
-Som en del av vårt varumärkessäkerhetsinitiativ för att rota bort aktiviteter som lockar annonsörer, skärs alla webbplatser med hjälp av åtgärderna i listan över blockerade webbplatser. Alla webbplatser som inte godkänns i varumärkessäkerhetskontrollerna läggs till i listan över globalt blockerade platser. Eftersom DSP hanterar den här listan dynamiskt kan sajterna när som helst gå vidare på eller bort från listan baserat på den senaste varumärkessäkerhetsanalysen.
+Som en del av vårt varumärkessäkerhetsinitiativ för att rota bort aktiviteter som lockar annonsörer, skärs alla webbplatser med hjälp av åtgärderna i listan över blockerade webbplatser. Alla webbplatser som inte godkänns i varumärkessäkerhetskontrollerna läggs till i listan över globalt blockerade platser. Eftersom DSP hanterar den här listan dynamiskt kan webbplatserna när som helst fortsätta eller lämna listan baserat på den senaste varumärkessäkerhetsanalysen.
 
 När du tar med en plats i den globalt blockerade platslistan som placeringsmål flaggas platsen med ett rött utropstecken (!). Detta indikerar att annonser inte körs på den flaggade webbplatsen.
 
 >[!NOTE]
 >
->Du kan också kringgå den globala listan över blockerade webbplatser för standarddisplayannonser som är kopplade till en betrodd privat affär genom att aktivera alternativet [!UICONTROL Allow unscreened sites] i [placeringsinställningarna](/help/dsp/campaign-management/placements/placement-settings.md). Om det behövs kan kontoteamet på Adobe också avaktivera webbplatsblockering för ett offentligt (auktionsnivå) avtal i utgivarinställningarna för avtalet.
+>Du kan också kringgå den globala listan över blockerade webbplatser för standarddisplayannonser som är kopplade till en betrodd privat affär genom att aktivera alternativet [!UICONTROL Allow unscreened sites] i [placeringsinställningarna](/help/dsp/campaign-management/placements/placement-settings.md). Om det behövs kan Adobe Account Team även avaktivera webbplatsblockering för ett offentligt (auktionsnivå) avtal i utgivarinställningarna för avtalet.
 
-#### Blockerade webbplatslistor på kontonivå och annonsnivå
+#### Spärrade webbplatser på kontonivå och annonsörnivå
 
 Användare kan också underhålla listor över blockerade webbplatser på kontonivå och annonsörnivå <!-- [account-level and advertiser-level blocked sites lists](/help/dsp/admin/blocked-sites-list-edit.md) -->, som används automatiskt för alla placeringar. Listan Blockerade webbplatser på den lägre nivån används utöver listan Blockerade platser globalt.
 
@@ -98,17 +98,17 @@ Du kan ange standardinställningar för kontextuella filter för varje annonsör
 
 ![Comscore logo](/help/dsp/assets/comscore-logo.png) ![DoubleVerify logo](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science logo](/help/dsp/assets/ias-logo.png) ![Peer39 logo](/help/dsp/assets/peer39-logo.png)
 
-### Blockering av bedrägeri före köp
+### Svårighetsspärr före köp
 
 Utnyttja våra tredjepartsintegreringar med [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] för att blockera icke-mänsklig trafik från era kampanjer. Dessa integreringar ger branschledande funktioner för att blockera före bud för att minimera både allmän och avancerad ogiltig trafik (GIVT och SIVT) i era kampanjer.
 
 Du kan ange standardinställningar för spärrkontroll före köp för varje annonsörer<!-- [default pre-bid fraud blocking controls for each advertiser](/help/dsp/admin/advertiser-settings.md) --> och sedan [anpassa inställningarna för varje placering](/help/dsp/campaign-management/placements/placement-settings.md) om du vill. Ytterligare avgifter kan tillkomma när du använder den här funktionen.
 
-Om du vill ha mer information om funktionalitet kontaktar du din föredragna leverantör direkt eller kontaktar ditt Adobe-kontoteam.
+Om du vill ha mer information om funktionalitet kontaktar du en återförsäljare direkt eller kontaktar ditt Adobe Account Team.
 
 ![DoubleVerify-logotyp](/help/dsp/assets/doubleverify-logo.png) ![Integral Ad Science-logotyp](/help/dsp/assets/ias-logo.png) ![Peer39-logotyp](/help/dsp/assets/peer39-logo.png)
 
-### Visning före köp {#pre-bid-viewability}
+### Visningsbarhet före bud {#pre-bid-viewability}
 
 Profilerade visningsfilter som bygger på våra branschledande partners [!DNL DoubleVerify] och [!DNL Integral Ad Science] gör det möjligt för annonsörer att se till att deras kampanjer uppfyller de önskade prestandamålen för visning i alla video- och visningsannonser.
 
@@ -122,13 +122,13 @@ Partnerskapet [!DNL Adobe's] med [!DNL Adelaide] ger annonsörer stöd för Adel
 
 [Med riktad uppmärksamhet före bud på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md) kan annonsörer rikta in specifika uppmärksamhetsnivåer för att förbättra kundengagemanget.
 
-Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
+Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet ](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
 
 Ytterligare avgifter tillkommer för varje separat funktion.
 
 ### Ämnesanpassning
 
-Med DSP riktad inriktning på ämnen kan du målinrikta eller blockera nyckelordslistor genom att utnyttja vår branschledande sammanhangsbaserade partner [!DNL Comscore]. Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
+Med DSP Ämnesanpassning kan du målinrikta eller blockera nyckelordslistor genom att utnyttja vår branschledande sammanhangsbaserade partner [!DNL Comscore]. Ämnesinriktningen hjälper er att se till att era annonser alltid får plats i en miljö som är anpassad efter ert varumärke, oavsett om det handlar om att blockera skadligt innehåll eller säkerställa utgifter i ett sammanhang som garanterar ett bättre resultat.
 
 För målinriktning efter ämne måste du skapa anpassade ämnessegment direkt med partnerplattformen. När segmenten har skapats kan du [ange ett mål eller utesluta ett segment-ID i avsnittet [!UICONTROL Audience Targeting] för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). Ytterligare avgifter kan tillkomma för den här funktionen.
 
@@ -142,7 +142,7 @@ DSP har samarbetat med [!DNL DoubleVerify] för att kunna erbjuda sin [!DNL Auth
 
 När du har byggt ett [!DNL DoubleVerify]-varumärkessäkerhetssegment med den nödvändiga målgruppsanpassningen kan du använda det i DSP för att replikera era era postanbudsblockregler med förhandsbud i olika webbmiljöer.
 
-Du kan ange ett [!DNL DoubleVerify]-segment-ID för varje annonsör<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> och sedan [aktivera eller inaktivera [!UICONTROL Authentic Brand Safety] för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). DSP fakturerar ditt konto för användning av segment-ID.
+Du kan ange ett [!DNL DoubleVerify]-segment-ID för varje annonsör<!-- [specify a DoubleVerify segment ID for each advertiser](/help/dsp/admin/advertiser-settings.md) --> och sedan [aktivera eller inaktivera [!UICONTROL Authentic Brand Safety] för varje placering](/help/dsp/campaign-management/placements/placement-settings.md). DSP debiterar ditt konto för användning av segment-ID.
 
 Om du vill ha mer information om funktioner kontaktar du [!DNL DoubleVerify] direkt eller kontaktar ditt Adobe-kontoteam.
 

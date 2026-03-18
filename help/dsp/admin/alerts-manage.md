@@ -3,7 +3,7 @@ title: Hantera aviseringsprenumerationer
 description: Lär dig hur du hanterar automatiska e-postaviseringar.
 role: User, Admin
 exl-id: 9f47aa2a-54c4-4fdc-b289-6c3586cc18e6
-source-git-commit: ec7d7f5531c038eb772339a36d13208fc97d2728
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
       Inställningarna varierar beroende på varningstyp.
 
-   1. (Valfritt) Om du vill köra aviseringen direkt väljer du **[!UICONTROL Alert immediately]**. Som standard körs varningen kl. 08:00 i kontots tidszon.
+   1. (Valfritt) Om du vill köra aviseringen direkt väljer du **[!UICONTROL Alert immediately]**. Varningen körs som standard vid 08:00 i kontots tidszon.
 
    1. (Valfritt) Om du vill lägga till ytterligare en avisering till prenumerationen klickar du på **[!UICONTROL Add Alert]** och skapar aviseringen.
 

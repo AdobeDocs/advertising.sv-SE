@@ -1,16 +1,16 @@
 ---
-title: Koppla en placering till ett paket
+title: Bifoga en placering i ett paket
 description: Lär dig hur du bifogar en placering till ett paket.
 feature: DSP Packages
 exl-id: dbee2db6-6cb7-4c56-9c14-816ea071b760
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
 
 ---
 
-# Koppla en placering till ett paket
+# Bifoga en placering i ett paket
 
 ## Bifoga en ny placering från vyn [!UICONTROL Placements]
 

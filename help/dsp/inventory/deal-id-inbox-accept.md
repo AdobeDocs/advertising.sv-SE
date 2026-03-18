@@ -3,7 +3,7 @@ title: Acceptera ett avtal i [!UICONTROL Deal ID Inbox]
 description: Lär dig hur du godkänner ett privat avtal som du redan har förhandlat med en utgivare  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (tidigare känd som  [!DNL AdX]), and [!DNL Magnite DV+] (tidigare  [!DNL Rubicon]) med hjälp av Inkorgen för avtal-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 7c681ab7-3051-451d-ab83-fc75bdd6eaad
-source-git-commit: d5a291c8d1f464e1c22777512d29f4e041bb7988
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Acceptera ett avtal i [!UICONTROL Deal ID Inbox]
 
-*Användare i DSP som endast är mappade till SSP-konton*
+*Användare i DSP-konton som endast är mappade till SSP-konton*
 
 Använd [!UICONTROL Deal ID inbox] för att snabbt acceptera ett privat avtal som du redan har förhandlat med en utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare kallat [!DNL AdX]) och [!DNL Magnite DV+] (tidigare [!DNL Rubicon]).
 
@@ -26,7 +26,7 @@ Använd [!UICONTROL Deal ID inbox] för att snabbt acceptera ett privat avtal so
 
 1. (Valfritt) Om du vill uppdatera avtalsinformationen klickar du på **[!UICONTROL Refresh]**.
 
-   DSP uppdaterar automatiskt alla avtalsdetaljer varje dag kl. 04.30 EST. Den uppdaterar även alla [!DNL FreeWheel] avtal och uppdaterar befintliga avtal från [!DNL Google] och [!DNL Magnite DV+] timmar.
+   DSP uppdaterar automatiskt alla avtalsdetaljer varje dag kl. 4:00 EST. :30 Den uppdaterar även alla [!DNL FreeWheel] avtal och uppdaterar befintliga avtal från [!DNL Google] och [!DNL Magnite DV+] timmar.
 
 1. (Om du tidigare ignorerade erbjudandet) Klicka på fliken **[!UICONTROL Ignored Deals]**.
 

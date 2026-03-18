@@ -1,9 +1,9 @@
 ---
-title: Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n
-description: Lär dig hur du aktiverar DSP att importera dina [!DNL Amperity] förstapartssegment.
+title: Konvertera användar-ID:n från [!DNL Amperity]  till universella ID:n
+description: Lär dig hur du gör det möjligt för DSP att importera dina [!DNL Amperity] egna segment.
 feature: DSP Audiences
 exl-id: c751709a-5ad2-43fa-ba3a-fc7a9683da3f
-source-git-commit: 91b08bf54f067666c9c27949ff740639738887d0
+source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd den DSP integreringen med [!DNL Amperity]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering.
+Använd DSP-integreringen med [!DNL Amperity]-kunddataplattformen för att konvertera din organisations e-postadresser från första part till universella ID:n för riktad annonsering.
 
 1. (Att konvertera e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) [Ställ in spårning för att aktivera [!DNL Analytics] mätning](#analytics-tracking).
 
@@ -22,7 +22,7 @@ Använd den DSP integreringen med [!DNL Amperity]-kunddataplattformen för att k
 
 1. [Förbered och dela segmentmappningsdata](#map-data).
 
-1. [Begär en datapush från [!DNL Amperity] till DSP](#push-data).
+1. [Begär en dataöverföring från [!DNL Amperity] till DSP](#push-data).
 
 1. [Jämför antalet universella ID:n med antalet hashade e-postadresser](#compare-id-count).
 
@@ -36,11 +36,11 @@ Om du vill konvertera e-postadresser till [!DNL RampIDs] eller [!DNL ID5] ID:n m
 
 1. Registrera dig hos den universella ID-partnern och distribuera universell ID-specifik kod på dina webbsidor för att matcha konverteringar från ID:n i webbläsare för datorer och mobila enheter (men inte i mobilappar) för att visa genomgångar:
 
-   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta kontoteamet på Adobe som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad]-tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
+   * **För [!DNL RampIDs]:** Du måste distribuera ytterligare en JavaScript-tagg på dina webbsidor för att matcha konverteringar från ID:n på datorwebbläsare och mobila webbläsare (men inte mobilappar) för att visa igenom dem. Kontakta ditt Adobe-kontoteam som ger dig anvisningar om att registrera dig för en [!DNL LiveRamp] [!DNL LaunchPad] -tagg från [!DNL LiveRamp] Authentication Traffic Solutions. Registreringen är kostnadsfri, men du måste signera ett avtal. När du har registrerat dig genererar ditt Adobe-kontoteam en unik tagg som din organisation kan implementera på dina webbsidor.
 
-## Steg 2: Skapa en publikkälla i DSP {#source-create}
+## Steg 2: Skapa en målgruppskälla i DSP {#source-create}
 
-1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP eller ett annonserarkonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
+1. [Skapa en målgruppskälla](source-manage.md) om du vill importera målgrupper till ditt DSP-konto eller till ett annonsörskonto. Du kan välja att konvertera dina användaridentifierare till något av de [tillgängliga universella ID-formaten](source-about.md).
 
    Källinställningarna innehåller en automatiskt genererad källnyckel som du använder för att överföra segmentdata.
 
@@ -52,7 +52,7 @@ Annonsören måste ta fram och dela segmentmappningsdata.
 
 1. Hash-koda e-post-ID:n för målgruppen med SHA-256-algoritmen i [!DNL Amperity].
 
-1. Annonsören måste ge segmentmappningsdata till kontoteamet på Adobe för att skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
+1. Annonsören måste ge segmentmappningsdata till Adobe Account Team för att kunna skapa segmenten i DSP. Använd följande kolumnnamn och värden i en kommaavgränsad värdefil:
 
    * **Extern segmentnyckel:** Segmentnyckeln [!DNL Amperity] som är associerad med segmentet.
 
@@ -74,13 +74,13 @@ Annonsören måste ta fram och dela segmentmappningsdata.
 
 1. Annonsören måste sedan bekräfta med Adobe Account Team att segmentuppgifterna har tagits emot.
 
-Segmenten ska vara tillgängliga i DSP inom 24 timmar. Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller i placeringsinställningarna) att segmentet är tillgängligt och fylls i.
+Segmenten bör vara tillgängliga i DSP inom 24 timmar. Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller i placeringsinställningarna) att segmentet är tillgängligt och fylls i.
 
-Segmenten kommer att uppdateras enligt konfigurationen för annonsören inom [!DNL Amperity]. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Amperity] före förfallodatumet. Kontakta ditt Adobe-kontoteam om du vill begära att ett anpassat segment ska upphöra att gälla.
+Segmenten kommer att uppdateras enligt konfigurationen för annonsören inom [!DNL Amperity]. Oberoende av hur ofta segmentet uppdateras, upphör inkludering i ett segment efter 30 dagar som standard eller efter en av kunden angiven förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Amperity] före förfallodatumet. Kontakta Adobe Account Team om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Steg 5: Jämför antalet universella ID:n med antalet hashade e-postadresser {#compare-id-count}
 
-När DSP har tagit emot segmentdata ska antalet deltagare vara synligt inom nio (9) timmar.
+När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar.
 
 I målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) jämför antalet universella ID med antalet ursprungliga hash-adresser. Mer information om godkända ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
@@ -88,7 +88,7 @@ I målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en
 
 Om du vill felsöka problem med översättningsfrekvens och antal användare läser du i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
 
-Om du vill felsöka problem med konverteringsproceduren kontaktar du kontogruppen på Adobe eller `adcloud-support@adobe.com`.
+Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Account Team eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
