@@ -3,7 +3,7 @@ title: Importera Adobe Audience Manager-segment för annonsinriktning
 description: Lär dig hur du importerar dina [!DNL Adobe] målgrupper till Advertising DSP och Sök med Adobe Audience Manager
 feature: Integration with Adobe Audience Manager
 exl-id: 6ff80699-9554-4b39-a019-d8055d68c174
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -26,19 +26,19 @@ Om du vill få åtkomst till [!DNL Adobe] målgrupper i DSP eller [!DNL Creative
 
 ## Förutsättningar
 
-* Annonsören måste implementera [versionen  [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/sv/docs/id-service/using/intro/overview) 2.0 eller senare. [!DNL Identity Service] innehåller ett universellt, beständigt ID som identifierar dina besökare för alla lösningar i Experience Cloud.
+* Annonsören måste implementera [versionen  [!DNL Adobe Experience Cloud Identity (ECID) Service]](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview) 2.0 eller senare. [!DNL Identity Service] innehåller ett universellt, beständigt ID som identifierar dina besökare för alla lösningar i Experience Cloud.
 
   I implementeringen ingår att lägga till [!DNL Identity service]-koden på varje webbsida på annonsörens webbplatser.
 
-* Organisationen måste vara [aktiverad för Experience Cloud-tjänster](https://experienceleague.adobe.com/sv/docs/core-services/interface/services/overview) och ha en Experience Cloud [!DNL Organization ID] (kallades tidigare [!DNL IMS org ID]).
+* Organisationen måste vara [aktiverad för Experience Cloud-tjänster](https://experienceleague.adobe.com/en/docs/core-services/interface/services/overview) och ha en Experience Cloud [!DNL Organization ID] (kallades tidigare [!DNL IMS org ID]).
 
   Med [!UICONTROL Organization ID] kan organisationer med flera Adobe Experience Cloud-produkter dela data mellan vissa produkter.
 
-* (Annonsörer med [!DNL Analytics]) Annonsören måste [implementera [!DNL Analytics] med `appMeasurement.js`](https://experienceleague.adobe.com/sv/docs/analytics/implementation/js/overview) version 1.6.4 eller senare.
+* (Annonsörer med [!DNL Analytics]) Annonsören måste [implementera [!DNL Analytics] med `appMeasurement.js`](https://experienceleague.adobe.com/en/docs/analytics/implementation/js/overview) version 1.6.4 eller senare.
 
 * Annonsörens webbplatsbesökare har inte ett stort antal [!DNL Apple Safari] användare.
 
-* (Rekommenderas när annonsören använder både Audience Manager och [!DNL Analytics]) Om du vill minska antalet anrop till varje webbsida tar du bort befintlig Audience Manager [!DNL Data Integration Library]-kod för datainsamling och aktiverar servervidarebefordran för varje [!DNL Analytics] -rapportserie i stället. Mer information finns i [Översikt över vidarebefordran på serversidan](https://experienceleague.adobe.com/sv/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
+* (Rekommenderas när annonsören använder både Audience Manager och [!DNL Analytics]) Om du vill minska antalet anrop till varje webbsida tar du bort befintlig Audience Manager [!DNL Data Integration Library]-kod för datainsamling och aktiverar servervidarebefordran för varje [!DNL Analytics] -rapportserie i stället. Mer information finns i [Översikt över vidarebefordran på serversidan](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf).
 
 * (Rekommenderas) Om du vill ha högre matchningsfrekvenser skickar du endast data från förstahandswebbplatser till Adobe Advertising. Om annonsören paketerar data från tredje part eller offlinedata från ett kundrelationshanteringssystem kan dataläckage minska matchningsfrekvensen.
 
@@ -52,7 +52,7 @@ Konto- och dataåtgärdsteamen för [!DNL Adobe] utför följande steg.
 
 1. Adobe Account Team ska skicka en begäran till datateam om att importera organisationens Audience Manager-segment med hjälp av Advertising DSP inbyggda API-integrering.
 
-### Vilka förändringar resulterar i Audience Manager?
+### Vilka förändringar leder till Audience Manager?
 
 API automatiskt:
 
@@ -94,7 +94,7 @@ API automatiskt:
 
    Organisationens Experience Cloud [!DNL Organization ID] ([!DNL IMS org ID]) krävs. ID:t måste vara samma som det som används för organisationens Audience Manager-konto.
 
-### Vilka förändringar resulterar i Audience Manager?
+### Vilka förändringar leder till Audience Manager?
 
 Två [!DNL Search, Social, & Commerce] mål blir tillgängliga för organisationen i Audience Manager:
 
@@ -121,9 +121,9 @@ Data för segmentmedlemskap skickas endast när någon av följande händelser i
 
 <!-- Is membership data/whatever available in Creative? If so, does it show the same as DSP? -->
 
-### Så här synkroniserar DSP data
+### Hur DSP synkroniserar data
 
-DSP synkroniserar data automatiskt med [!DNL Adobe Experience Cloud Identity (ECID) Service]. Under synkroniseringen anropar [!DNL ECID Service] Adobe Advertising på [!DNL cm.everesttech.net]. Eftersom Adobe Advertising är en betrodd domän synkroniseras ID från överordnade sidor i stället för i målpubliceringens iframes, som de flesta andra aktiveringspartners gör. Audience Manager identifierar unika användare utifrån enhets-ID:n med hjälp av [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/sv/docs/audience-manager/user-guide/reference/ids-in-aam), som även kallas [!DNL Device ID].
+DSP synkroniserar data automatiskt med [!DNL Adobe Experience Cloud Identity (ECID) Service]. Under synkroniseringen anropar [!DNL ECID Service] Adobe Advertising på [!DNL cm.everesttech.net]. Eftersom Adobe Advertising är en betrodd domän synkroniseras ID från överordnade sidor i stället för i målpubliceringens iframes, som de flesta andra aktiveringspartners gör. Audience Manager identifierar unika användare utifrån enhets-ID:n med hjälp av [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam), som även kallas [!DNL Device ID].
 
 <!--
 ![Synchronization of [!DNL Adobe] audiences in DSP](/help/integrations/assets/audience-manager-sync.png)
@@ -131,11 +131,12 @@ DSP synkroniserar data automatiskt med [!DNL Adobe Experience Cloud Identity (EC
 
 ### Hur sökningar, sociala medier och Commerce synkroniserar data
 
-Sök, Socialt och Commerce synkroniserar data automatiskt med [!DNL Adobe Experience Cloud Identity (ECID) Service]. Under synkroniseringen anropar [!DNL ECID Service] Adobe Advertising på [!DNL cm.everesttech.net], som är en betrodd domän som tillhör Adobe Advertising. Audience Manager identifierar unika användare utifrån enhets-ID:n med hjälp av [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/sv/docs/audience-manager/user-guide/reference/ids-in-aam), som även kallas [!DNL Device ID].
+Sök, Socialt och Commerce synkroniserar data automatiskt med [!DNL Adobe Experience Cloud Identity (ECID) Service]. Under synkroniseringen anropar [!DNL ECID Service] Adobe Advertising på [!DNL cm.everesttech.net], som är en betrodd domän som tillhör Adobe Advertising. Audience Manager identifierar unika användare utifrån enhets-ID:n med hjälp av [Audience Manager [!DNL Unique User ID (AAM UUID)]](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/ids-in-aam), som även kallas [!DNL Device ID].
 
 ## Var hittar du dina synkroniserade segment?
 
 ### I DSP
+
 
 DSP organiserar segmentnamnen efter Audience Manager taxonomi och inkluderar motsvarande antal medlemskap i:
 
@@ -144,6 +145,7 @@ DSP organiserar segmentnamnen efter Audience Manager taxonomi och inkluderar mot
 * I [målgruppsinställningar](/help/dsp/audiences/audience-settings.md): På fliken [!UICONTROL Adobe Segments].
 
 ### I ADVERTISING CREATIVE
+
 
 I [!DNL Creative] är segmenten tillgängliga i upplevelseinställningarna för målnoder.
 

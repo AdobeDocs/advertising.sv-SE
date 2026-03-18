@@ -1,24 +1,24 @@
 ---
-title: Översikt över att skicka DSP exponeringsdata till Adobe Audience Manager
+title: Översikt över hur du skickar exponeringsdata från DSP till Adobe Audience Manager
 description: Lär dig hur du använder händelsepixlar från Audience Manager för att hämta in data på visningsnivå och klicknivå från Advertising DSP-kampanjer
 feature: Integration with Adobe Audience Manager
 exl-id: c299cdf0-a83e-4026-8b8b-22ce08af0cc4
-source-git-commit: c204955ec48826d00a5f78e5be4849f53d09e224
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Översikt över att skicka DSP exponeringsdata till Adobe Audience Manager
+# Översikt över hur du skickar exponeringsdata från DSP till Adobe Audience Manager
 
 *Annonsörer med endast Advertising DSP*
 
-*Annonsörer med endast integrering mellan Adobe Advertising och Adobe Audience Manager*
+*Annonsörer med endast Adobe Advertising-Adobe Audience Manager-integrering*
 
-Advertising DSP-kunder med Adobe Audience Manager kan använda Audience Manager händelsepixlar för att hämta in data på visningsnivå och klicknivådata från DSP kampanjer. Händelsepixlarna skickar data som åtgärdbara signaler till Audience Manager. Dessa signaler möjliggör olika DSP, t.ex. mer avancerad segmentering, frekvenshantering, marknadsanalyser och rapportinsikter.
+Advertising DSP-kunder med Adobe Audience Manager kan använda Audience Manager-pixlar för att hämta in data på visningsnivå och klicknivådata från DSP-kampanjer. Händelsepixlarna skickar data som åtgärdbara signaler till Audience Manager. Dessa signaler möjliggör olika användningsfall för DSP, t.ex. mer avancerad segmentering, frekvenshantering, marknadsanalyser och rapportinsikter.
 
-DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du betalar standardkostnaden för att ta emot Audience Manager baserat på serversamtal enligt Audience Manager-avtalet. Audience Manager tar bort dubbletthändelser som spåras på två olika sätt, så att varje händelse bara debiteras en gång.
+DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du betalar standardkostnaden för Audience Manager-konsumtion baserat på serversamtal enligt ditt Audience Manager-avtal. Audience Manager tar bort dubbletthändelser som spåras på två olika sätt, så att varje händelse bara debiteras en gång.
 
 >[!NOTE]
 >
@@ -36,21 +36,21 @@ DSP debiterar dig inte att skicka dessa signaler till Audience Manager. Men du b
 
 ## Hur data spåras
 
-Pixlarna för Audience Manager-intrycket och klickhändelsen är cookie-baserade. Pixlarna fångar inte händelser som inträffar i miljöer utan cookies, som mobilappar och ansluten TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
+Audience Manager-bilden och klickpixlarna är cookie-baserade. Pixlarna fångar inte händelser som inträffar i miljöer utan cookies, som mobilappar och ansluten TV (CTV).<!-- 6/24: CTV inventory isn't clickable, and impression tracking would be lost when we convert users from IP to cookies. -->
 
-### Impression-Tracking Pixels
+### Pixlar för tryckspårning
 
-Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=sv-SE), som är en äldre domän för Audience Manager, och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
+Audience Manager spårar visningsdata för en annons när du kopplar en 1 xl-pixel genomskinlig händelsespårningspixel till annonsen. Händelsepixeln läses in varje gång annonsen skickas till en användare och läses in av webbläsaren. Pixeln läses in från en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager, och innehåller parametrar som nyckelvärdepar. Händelseanropet samlar in bild- och konverteringsdata och skickar dem till Audience Manager datainsamlingsservrar.
 
-### Click-Tracking Pixels
+### Klickspårningspixlar
 
-Audience Manager spårar klickningar på liknande sätt som visningar, förutom att den inte läser in den genomskinliga händelsepixeln varje gång annonsen visas. Klickdata spåras i stället i annonsens klicknings-URL. Annonsen pekar på en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=sv-SE), som är en äldre domän för Audience Manager, för bearbetning av datainsamlingsservrarna i Audience Manager. Servern dirigerar sedan om användaren till den avsedda landningssidan. URL:en innehåller parametrar som nyckelvärdepar.
+Audience Manager spårar klickningar på liknande sätt som visningar, förutom att den inte läser in den genomskinliga händelsepixeln varje gång annonsen visas. Klickdata spåras i stället i annonsens klicknings-URL. Annonsen pekar på en klientspecifik underdomän till [`demdex.net`](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html), som är en äldre domän för Audience Manager, för bearbetning av Audience Manager datainsamlingsservrar. Servern dirigerar sedan om användaren till den avsedda landningssidan. URL:en innehåller parametrar som nyckelvärdepar.
 
 >[!NOTE]
 >
->Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=sv-SE).
+>Om din organisation använder [!DNL Analytics]-spårning kanske du inte behöver Audience Manager-klickspårning. Adobe Analytics fångar upp klicksignaler och kan skicka dem till Audience Manager via [vidarebefordran på serversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html).
 
 >[!MORELIKETHIS]
 >
->* [Samla in klicknings- och imponeringsdata från Advertising DSP Campaigns](collect.md)
+>* [Samla in klicknings- och visningsdata från Advertising DSP-kampanjer](collect.md)
 >* [Användningsexempel](use-cases.md)

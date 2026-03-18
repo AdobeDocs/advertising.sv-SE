@@ -1,24 +1,24 @@
 ---
-title: Integrering av Adobe Advertising med Adobe Audience Manager
-description: Läs om de olika sätten som Adobe Advertising kan använda för att utbyta data med Adobe Audience Manager.
+title: Adobe Advertising-integreringar med Adobe Audience Manager
+description: Läs om de olika sätten Adobe Advertising kan utbyta data med Adobe Audience Manager.
 feature: Integration with Adobe Audience Manager
 exl-id: 5b0ecb82-fb5c-48c5-a599-15b548f59461
-source-git-commit: d0260fc3b10f1944b82cdc4c1e3b8137a695e05e
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
-# Integrering av Adobe Advertising med Adobe Audience Manager
+# Adobe Advertising-integreringar med Adobe Audience Manager
 
 Du kan integrera Adobe Advertising med Audience Manager på följande sätt.
 
 ## Synkronisera Audience Manager och andra [!DNL Adobe]-segment för annonsinriktning
 
-[!DNL Search, Social, & Commerce] och DSP kan hämta in metadata, hierarkidata och unika målgruppsdata för alla Audience Manager och andra [!DNL Adobe]-målgrupper hos en annonsörer eller byrå. Den här unika anslutningen är bara tillgänglig för marknadsförare som använder Adobe Advertising. Se &quot;[Importera Adobe Audience Manager-segment för annonsinriktning](/help/integrations/audience-manager/import-audiences.md).&quot;
+[!DNL Search, Social, & Commerce] och DSP kan hämta in metadata, hierarkidata och unika målgruppsdata för alla en annonsörs eller agentes Audience Manager och andra [!DNL Adobe] målgrupper. Den här unika anslutningen är bara tillgänglig för marknadsförare som använder Adobe Advertising. Se &quot;[Importera Adobe Audience Manager-segment för annonsmål](/help/integrations/audience-manager/import-audiences.md).&quot;
 
-### Skapa [!DNL Google Ads Audiences] med Audience Manager och andra [!DNL Adobe]-segment {#audience-manager-google-audiences}
+### Använd Audience Manager och andra [!DNL Adobe]-segment för att skapa [!DNL Google Ads] målgrupper {#audience-manager-google-audiences}
 
 *Valda annonsörer med [!DNL Advertising Search, Social, & Commerce] only*
 
@@ -26,7 +26,7 @@ Inom [!DNL Search, Social, & Commerce] kan du skapa [!DNL Google Ads] kundmatcha
 
 [Kunden matchar målgrupper från användar-ID](https://support.google.com/google-ads/answer/9199250) fungerar som webbplatstaggbaserade målgrupper, men ett icke-PII-ID tilldelas unika målgruppsmedlemmar för distinkta fördelar jämfört med standardkundmatchningar och webbplatstaggbaserade målgrupper.
 
-Om du vill skapa nödvändiga användar-ID:n måste du använda en Adobe Advertising JavaScript-tagg <!-- with a user ID parameter --> på dina webbplatser. Kontakta kontoteamet på Adobe för mer information.
+Om du vill skapa nödvändiga användar-ID:n måste du använda en Adobe Advertising JavaScript-tagg <!-- with a user ID parameter --> på dina webbplatser. Kontakta Adobe Account Team för mer information.
 
 ![processen att skapa segment](/help/integrations/assets/ad_search_user_id_pic.png)
 
@@ -42,18 +42,18 @@ När du har skapat målgrupperna kan du använda dem i [!DNL Google Ads]-kampanj
 
 >[!NOTE]
 >
->Mer information om hur du skapar målgrupper i Audience Manager och Experience Cloud [!DNL Audience Library]-gränssnitten och vanliga användningsområden för olika målgruppstyper finns i [Alternativ för att skapa målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=sv-SE).
+>Mer information om hur du skapar målgrupper i Audience Manager- och Experience Cloud [!DNL Audience Library]-gränssnitten och vanliga användningsområden för olika målgruppstyper finns i [Alternativ för att skapa målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html).
 
-## Skicka DSP data för medieexponering till Audience Manager
+## Skicka exponeringsdata för DSP-medier till Audience Manager
 
 *Annonsörer med endast DSP*
 
-DSP kunder med Adobe Audience Manager kan hämta in data från annonskampanjer med pixelanrop till Audience Manager. Sedan kan ni använda kampanjdata för att bygga regelbaserade egenskaper, som ni kan använda för att definiera nya segment för att möjliggöra olika DSP, som mer avancerad segmentering, frekvenshantering, marknadsföringsanalyser och rapportinsikter.
+DSP-kunder med Adobe Audience Manager kan hämta in data från annonskampanjer med pixelanrop till Audience Manager. Sedan kan ni använda kampanjdata för att bygga regelbaserade egenskaper, som ni kan använda för att definiera nya segment för att möjliggöra olika DSP-användningsfall, som mer avancerad segmentering, frekvenshantering, marknadsföringsanalyser och rapportinsikter.
 
-Mer information finns i [Översikt över att skicka DSP medieexponeringsdata till Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md).
+Mer information finns i [Översikt över hur du skickar exponeringsdata för DSP-medier till Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md).
 
-## Få djupare insikter om webbplatsaktivitet med Audience Analytics
+## Få djupare insikter i webbplatsaktiviteten med Audience Analytics
 
-Adobe Advertising-kunder med [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=sv-SE) kan skicka både data som spårats i Adobe Advertising och segment i Audience Manager till [!DNL Analytics] för att få bättre insikter om webbplatsaktiviteten.
+Adobe Advertising-kunder med [[!DNL Adobe Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) kan skicka både Adobe Advertising-spårade data och Audience Manager-segment till [!DNL Analytics] för bättre insikter om webbplatsaktiviteten.
 
-Mer information finns i &quot;[[!DNL Adobe Audience Analytics] for Adobe Advertising Customers](/help/integrations/audience-manager/audience-analytics.md)&quot;.
+Mer information finns i [[!DNL Adobe Audience Analytics] för Adobe Advertising-kunder](/help/integrations/audience-manager/audience-analytics.md).

@@ -3,7 +3,7 @@ title: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 description: Krav för att integrera Adobe Advertising med Customer Journey Analytics
 feature: Integration with Adobe Customer Journey Analytics
 exl-id: 4bd14178-5003-4da6-9034-d070c57f0e9b
-source-git-commit: b35a167e2718db76da6008eb1a3e1e3e4720b39e
+source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 
   Du behöver stöd från din interna webbanalytiker för att konfigurera en anslutning till datauppsättningen och konfigurera rapportering.
 
-* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/sv/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/sv/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/sv/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/sv/docs/experience-platform/tags/home))
+* Adobe Experience Platform datamodellerings- och hanteringstekniker (inklusive [scheman](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) och [dataset](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview)) och [datainsamlingstekniker](https://experienceleague.adobe.com/en/docs/experience-platform/collection/home) (inklusive [datastreams](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview) och [tags](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home))
 
   Dessa tekniker kräver stöd från din Experience Platform webbplatsadministratör.
 
 >[!MORELIKETHIS]
 >
 >* [Översikt](overview.md)
->* [Adobe Advertising ID:n som används av [!DNL Customer Journey Analytics]](ids.md)
+>* [Adobe Advertising-id:n som används av [!DNL Customer Journey Analytics]](ids.md)
 >* [Konfigurera datainsamling, dataöverföring och rapportering](set-up.md)
 >* [Adobe Advertising-mått och mått i Customer Journey Analytics](advertising-data-in-cja.md)
 >* (Adobe Analytics-användare) [Samla in historiska data för AMO ID:n och EF ID:n för användning i Adobe Customer Journey Analytics](/help/integrations/analytics/rvars-to-evars.md).
