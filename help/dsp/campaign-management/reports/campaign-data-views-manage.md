@@ -176,4 +176,4 @@ Välj **[!UICONTROL Items per page]**, *[!UICONTROL 25]* eller *[!UICONTROL 50]*
 >* [Visa placeringsprognosrapporten](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Visa placeringsdiagnostikrapporter](placement-diagnostics.md)
 >* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
