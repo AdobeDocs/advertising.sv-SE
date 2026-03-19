@@ -1,11 +1,11 @@
 ---
 title: '[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika'
-description: '[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika'
+description: '[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika'
 feature: DSP On Demand Inventory
 exl-id: a7669db9-5967-420c-970f-ff87e8f3556a
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -227,8 +227,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om [!DNL On Demand] Premiuminventering](on-demand-inventory-about.md)
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory](on-demand-inventory-subscribe.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Om [!DNL On Demand] Premium-lager](on-demand-inventory-about.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] premiumlagerinköp](on-demand-inventory-subscribe.md)
+>* [[!DNL On Demand] premiumutgivare i Asien-Stillahavsregionen](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] premiumutgivare i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] premiumutgivare i Nordamerika](on-demand-inventory-publishers-na.md)

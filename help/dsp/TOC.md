@@ -4,15 +4,15 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: 962a366b4bcfb74505677f6c73bfb26781c2a69c
+source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1015'
 ht-degree: 3%
 
 ---
 
 
-# Advertising DSP Guide {#dsp}
+# Användarhandbok om Advertising DSP {#dsp}
 
 + [Nyheter](/help/dsp/home.md)
 + [Logga in på Adobe Advertising DSP](/help/dsp/introduction/sign-in.md)
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + [Sök efter produktdokumentation med hjälp av AI-assisterad chatt](/help/dsp/agent-chat.md)
 + Kampanjhantering {#campaign-management}
@@ -54,15 +54,15 @@ ht-degree: 3%
       + [Visa ändringsloggen för ett paket](/help/dsp/campaign-management/packages/package-change-log.md)
       + [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
    + Placeringar {#placements}
-      + [Om Platshantering](/help/dsp/campaign-management/placements/placement-about.md)
+      + [Om placeringshantering i Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
       + [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)
-      + [Granska och redigera placeringsinställningar med hjälp av flera kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
+      + [Granska och redigera placeringsinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
       + [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
       + [Duplicera placeringar](/help/dsp/campaign-management/placements/placement-duplicate.md)
-      + [Hantera budmultiplikationer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
+      + [Hantera budmultiplikatorer för praktik](/help/dsp/campaign-management/placements/placement-manage-bid-multipliers.md)
       + [Bifoga och ta bort annonser från placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
       + [Bifoga och ta bort pixlar från annonser](/help/dsp/campaign-management/ads/ad-pixel-attach-detach.md)
-      + [Redigera annonsplanerna för praktik](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+      + [Redigera annonsplaner för praktik](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
       + [Visa en detaljerad rapport för en placering](/help/dsp/campaign-management/placements/placement-view-report.md)
       + [Visa ändringsloggen för en placering](/help/dsp/campaign-management/placements/placement-change-log.md)
       + [Inaktivera eller aktivera en placering](/help/dsp/campaign-management/placements/placement-pause-activate.md)
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Granska och redigera annonsinformation med hjälp av kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=sv-SE)
+      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Lista de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -91,19 +91,19 @@ ht-degree: 3%
          + [Inställningar för annonser före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
          + [Universella inställningar för videoannonser](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
       + [Specifikationer för annonstyper som stöds](/help/dsp/campaign-management/ads/ad-specs.md)
-   + Insikter om kampanjer i olika kampanjer {#insights}
+   + Kampanjinsikter {#insights}
       + [Om insikter](/help/dsp/campaign-management/insights/insights-about.md)
-   + Prestandarapporter i kampanjhanteringsvyer {#campaign-reports}
-      + [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+   + Resultatrapporter i kampanjhanteringsvyer {#campaign-reports}
+      + [Typer av resultatrapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
       + [Exportera data från en kampanjhanteringsvy](/help/dsp/campaign-management/reports/campaign-export-data.md)
-      + [Visa Sites, Ads, Frequency och Inventory Details för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
-      + [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
-      + [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+      + [Visa platser, annonser, frekvens och lagerinformation för en placering](/help/dsp/campaign-management/reports/placement-details-view.md)
+      + [Visa placeringsprognosrapporten](/help/dsp/campaign-management/reports/placement-forecast.md)
+      + [Visa placeringsdiagnostikrapporter](/help/dsp/campaign-management/reports/placement-diagnostics.md)
       + [Visa aviseringar](/help/dsp/campaign-management/reports/campaign-alerts.md)
-      + [Hantera era kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
-   + [DSP Macros](/help/dsp/campaign-management/macros.md)
+      + [Hantera era kampanjdata](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
+   + [Advertising DSP-makron](/help/dsp/campaign-management/macros.md)
    + [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
-   + [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
+   + [Frågor och svar om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)
    + [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
 + Optimering {#optimization}
    + [Hur Advertising DSP optimerar era kampanjer](/help/dsp/optimization/optimization-how-dsp-optimizes-campaigns.md)
@@ -130,68 +130,68 @@ ht-degree: 3%
    + Segment {#segments}
       + [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
       + [!UICONTROL CCPA Opt-out-of-Sale] segment {#ccpa-opt-out-of-sale-segments}
-         + [Om [!UICONTROL CCPA Opt-out-of-Sale] segment](/help/dsp/audiences/ccpa-opt-out-about.md)
+         + [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter](/help/dsp/audiences/ccpa-opt-out-about.md)
          + [Skapa och implementera ett [!UICONTROL CCPA Opt-out-of-Sale]-segment](/help/dsp/audiences/ccpa-opt-out-segment-create.md)
          + [Hämta [!UICONTROL Consumer Opt-Out-of-Sale] rapporter](/help/dsp/audiences/ccpa-opt-out-segment-report-retrieve.md)
       + [Redigera segmentinformation](/help/dsp/audiences/segment-edit.md)
-      + [Dela eller Sluta dela ett segment](/help/dsp/audiences/segment-share.md)
+      + [Dela eller sluta dela ett segment](/help/dsp/audiences/segment-share.md)
       + [Visa spårningspixlar för ett segment](/help/dsp/audiences/segment-view-pixels.md)
       + [Ta bort ett segment](/help/dsp/audiences/segment-delete.md)
    + Källor {#sources}
-      + [Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)
-      + Arbetsflöden efter kunddataplattform {#sources-workflows}
-         + [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
-         + [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)
-         + [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md)
-         + [Konvertera användar-ID:n från [!DNL Tealium] till universella ID:n](/help/dsp/audiences/sources/source-tealium.md)
+      + [Om källor med förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
+      + Arbetsflöden per plattform för kunddata {#sources-workflows}
+         + [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP]  till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
+         + [Konvertera användar-ID:n från [!DNL Amperity]  till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)
+         + [Konvertera användar-ID:n från [!DNL Optimizely]  till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md)
+         + [Konvertera användar-ID:n från [!DNL Tealium]  till universella ID:n](/help/dsp/audiences/sources/source-tealium.md)
       + [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
    + [Importera autentiserade segment manuellt från  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
-   + [Tillgängliga dataproviders från tredje part](/help/dsp/audiences/third-party-data-providers.md)
+   + [Tillgängliga tredjepartsdataleverantörer](/help/dsp/audiences/third-party-data-providers.md)
 + Lager {#inventory}
-   + [Översikt över inventeringsfunktioner](/help/dsp/inventory/inventory-overview.md)
+   + [Översikt över lagerfunktioner i Advertising DSP](/help/dsp/inventory/inventory-overview.md)
    + [Använder  [!DNL Roku Inventory]](/help/dsp/inventory/roku-inventory.md)
    + [SSP-partners](/help/dsp/inventory/ssp-partners.md)
    + [!DNL On Demand] lager {#on-demand}
-      + [Om [!DNL On Demand] Premium Inventory](/help/dsp/inventory/on-demand-inventory-about.md)
-      + Tillgängliga [!DNL On Demand] Premium Inventory Publishers {#publishers}
-         + [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
-         + [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
-         + [[!DNL On Demand] Premium Inventory Publishers i Europa, Mellanöstern och Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
-         + [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
-      + [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals](/help/dsp/inventory/on-demand-inventory-subscribe.md)
-      + [Begär  [!DNL On Demand] Premium Inventory Deals igen](/help/dsp/inventory/on-demand-inventory-rerequest.md)
-      + [Visa status för dina [!DNL On Demand] avtalsbegäranden och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
+      + [Om [!DNL On Demand] premiumlager](/help/dsp/inventory/on-demand-inventory-about.md)
+      + Tillgängliga [!DNL On Demand] premiumutgivare {#publishers}
+         + [[!DNL On Demand] premiumutgivare i Asien-Stillahavsområdet](/help/dsp/inventory/on-demand-inventory-publishers-apac.md)
+         + [[!DNL On Demand] premiumutgivare för lagerutgivare i Australien och Nya Zeeland](/help/dsp/inventory/on-demand-inventory-publishers-anz.md)
+         + [[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika](/help/dsp/inventory/on-demand-inventory-publishers-emea.md)
+         + [[!DNL On Demand] premiumutgivare i Nordamerika](/help/dsp/inventory/on-demand-inventory-publishers-na.md)
+      + [Prenumerera och begär åtkomst till [!DNL On Demand] premiumerbjudanden](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+      + [Begär  [!DNL On Demand] premiumerbjudanden för lager igen](/help/dsp/inventory/on-demand-inventory-rerequest.md)
+      + [Visa status för dina [!DNL On Demand] avtalsförfrågningar och prenumerationer](/help/dsp/inventory/on-demand-inventory-view-status.md)
    + Privat lager {#private-inventory}
       + [Om privat lager](/help/dsp/inventory/private-inventory-about.md)
       + Avtals-ID {#deal-ids}
-         + [!UICONTROL Deal ID Inbox] {#inbox}
+         + [!UICONTROL Deal ID inbox] {#inbox}
             + [Om [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
             + [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-accept.md)
-         + Manuellt angivna avtal-ID:n {#manual}
-            + [Skapa information för [!UICONTROL Deal ID] manuellt](/help/dsp/inventory/deal-id-create.md)
-            + [Manuella [!UICONTROL Deal ID]-inställningar](/help/dsp/inventory/deal-id-settings.md)
-         + Programmatiska garanterade erbjudanden {#programmatic-guaranteed-deal}
-            + [Översikt över programmatiska garanterade erbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)
-            + [Tips för att förhandla om ett program med garanterad programmering](/help/dsp/inventory/programmatic-guaranteed-tips.md)
-            + [Ställ in en programgaranterad affär](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
+         + Manuellt angivna ID:n för avtal {#manual}
+            + [Skapa information om avtal-ID manuellt](/help/dsp/inventory/deal-id-create.md)
+            + [Manuella inställningar för avtal-ID](/help/dsp/inventory/deal-id-settings.md)
+         + Programmatiska garanterade avtal {#programmatic-guaranteed-deal}
+            + [Översikt över garanterade programerbjudanden](/help/dsp/inventory/programmatic-guaranteed-about.md)
+            + [Tips för att förhandla om ett programmatiskt garanterat avtal](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+            + [Ställ in ett programmatiskt garanterat erbjudande](/help/dsp/inventory/programmatic-guaranteed-set-up.md)
             + [!DNL FreeWheel] programmatiska garanterade erbjudanden {#freewheel}
-               + [Översikt över inställning av programmatiska garanterade erbjudanden i  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
-               + [Skicka en annons för en programmatisk garanterad affär till  [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
-               + [Kontrollera status för annonser för [!DNL FreeWheel] Programmatiska erbjudanden](/help/dsp/inventory/freewheel-check-status.md)
-               + [Felkoder för FreeWheel Ad-överföringar](/help/dsp/inventory/freewheel-error-codes.md)
-      + [Redigera inställningar för privat avtal](/help/dsp/inventory/deal-id-edit.md)
+               + [Översikt över hur du ställer in garanterade programerbjudanden i  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+               + [Skicka en annons för ett programmatiskt garanterat erbjudande till  [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+               + [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](/help/dsp/inventory/freewheel-check-status.md)
+               + [Felkoder för FreeWheel-annonsering](/help/dsp/inventory/freewheel-error-codes.md)
+      + [Redigera inställningar för privata avtal](/help/dsp/inventory/deal-id-edit.md)
       + [Ange placeringar och annonser för ett privat avtal](/help/dsp/inventory/deal-id-attach-placements.md)
-      + [Redigera konton med åtkomst till ett privat avtal](/help/dsp/inventory/deal-id-share.md)
+      + [Redigera konton med tillgång till en privat affär](/help/dsp/inventory/deal-id-share.md)
       + [Redigera annonsörer med tillgång till ett privat avtal](/help/dsp/inventory/deal-id-edit-advertisers.md)
-      + [Visa auktionsinsikter för ett privat avtal](/help/dsp/inventory/private-deal-auction-insights.md)
-      + [Lista placeringar och annonser för ett privat avtal](/help/dsp/inventory/private-deal-view-placements.md)
+      + [Visa auktionsinsikter för ett privat kontrakt](/help/dsp/inventory/private-deal-auction-insights.md)
+      + [Lista placeringar och annonser för en privat affär](/help/dsp/inventory/private-deal-view-placements.md)
       + [Arkivera eller arkivera ett privat avtal](/help/dsp/inventory/private-deal-archive-unarchive.md)
    + [!UICONTROL Simple Ad Serving] erbjudanden {#sas}
       + [Om [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-about.md)
-      + [Skapa ett avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-create.md)
-      + [Redigera inställningar för avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-edit.md)
-      + [Inställningar för avtal för [!UICONTROL Simple Ad Serving]](/help/dsp/inventory/simple-deal-settings.md)
-   + [Visa en detaljerad rapport för ett avtal](/help/dsp/inventory/deal-view-report.md)
+      + [Skapa ett [!UICONTROL Simple Ad Serving]-erbjudande](/help/dsp/inventory/simple-deal-create.md)
+      + [Redigera inställningar för [!UICONTROL Simple Ad Serving]-avtal](/help/dsp/inventory/simple-deal-edit.md)
+      + [Inställningar för [!UICONTROL Simple Ad Serving]-avtal](/help/dsp/inventory/simple-deal-settings.md)
+   + [Visa en detaljerad rapport om ett avtal](/help/dsp/inventory/deal-view-report.md)
    + [Hantera avtalslistor](/help/dsp/inventory/lists-deals-manage.md)
 + Anpassade rapporter {#custom-reports}
    + [Om anpassade rapporter](/help/dsp/reports/report-about.md)
@@ -205,20 +205,20 @@ ht-degree: 3%
    + [Tillgängliga rapportkolumner](/help/dsp/reports/report-columns.md)
    + [Vanliga frågor om anpassade rapporter](/help/dsp/reports/faq-reports.md)
    + Rapportdestinationer {#report-destinations}
-      + [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
-      + [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
-      + [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
-      + [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
-      + [Inställningar för [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-settings.md)
+      + [Om rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md)
+      + [Skapa ett rapportmål](/help/dsp/reports/report-destinations/report-destination-create.md)
+      + [Redigera ett rapportmål](/help/dsp/reports/report-destinations/report-destination-edit.md)
+      + [Ta bort ett rapportmål](/help/dsp/reports/report-destinations/report-destination-delete.md)
+      + [Inställningar för rapportmål](/help/dsp/reports/report-destinations/report-destination-settings.md)
 + Planering {#planner}
-   + [Om DSP-verktyget Planering](/help/dsp/planner/planner-about.md)
-   + [Skapa en uppkopplad TV-sändningsplan](/help/dsp/planner/planner-create.md)
-   + [Duplicera en ansluten TV-sändningsplan](/help/dsp/planner/planner-duplicate.md)
-   + [Redigera en plan för ansluten TV-räckvidd](/help/dsp/planner/planner-edit.md)
-   + [Inställningar för uppkopplade TV-program](/help/dsp/planner/planner-settings.md)
-   + [Exportera en prognos för en plan för anslutningsbart TV-intervall](/help/dsp/planner/planner-export.md)
-   + [Generera om prognosen för en plan för uppkopplad TV](/help/dsp/planner/planner-forecast.md)
-   + [Arkivera ett uppkopplat program för tv-räckvidd](/help/dsp/planner/planner-archive.md)
+   + [Om verktyget DSP [!UICONTROL Planner]](/help/dsp/planner/planner-about.md)
+   + [Skapa en ansluten TV-räckvidd](/help/dsp/planner/planner-create.md)
+   + [Duplicera en ansluten TV-räckvidd](/help/dsp/planner/planner-duplicate.md)
+   + [Redigera en ansluten TV-räckviddsplan](/help/dsp/planner/planner-edit.md)
+   + [Inställningar för räckviddsplaner för anslutna TV-apparater](/help/dsp/planner/planner-settings.md)
+   + [Exportera en prognos för en ansluten TV-räckvidd](/help/dsp/planner/planner-export.md)
+   + [Generera om prognosen för en ansluten TV-räckvidd](/help/dsp/planner/planner-forecast.md)
+   + [Arkivera en ansluten TV-räckvidd](/help/dsp/planner/planner-archive.md)
 + Resurs {#resources}
    + [Hantera URL-listor](/help/dsp/resources/lists-url-manage.md)
 + Administration {#admin}
@@ -233,15 +233,15 @@ ht-degree: 3%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE)
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Få hjälp](/help/dsp/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE)
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
-<!-- add back to about below "Edit the Advertisers with Access to a Deal ID" when reintroduced:
-      + [Edit the Attribute Tags for a Deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
+<!-- add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
+      + [Edit the attribute tags for a deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
 -->
 
 <!-- add back to Inventory > SAS section when reimplemented:
-      +  [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](/help/dsp/inventory/simple-deal-show-pixels.md)
+      +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->
