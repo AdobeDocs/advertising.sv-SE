@@ -3,9 +3,9 @@ title: Duplicera ett paket
 description: Lär dig duplicera ett paket.
 feature: DSP Packages
 exl-id: 75842776-a024-43c9-aaf8-1126c0b9d717
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,11 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
    * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
 
-* För paket där anpassade optimeringsmål används [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den tidigare kampanjens historiska data som indata för optimering av paketet.
+* För paket där anpassade optimeringsmål används [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen ](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den tidigare kampanjens historiska data som indata för optimering av paketet.
 
 >[!MORELIKETHIS]
 >
->* [Om pakethantering](package-about.md)
+>* [Om pakethantering i Advertising DSP](package-about.md)
 >* [Skapa ett paket](package-create.md)
 >* [Redigera ett paket](package-edit.md)
 >* [Visa ändringsloggen för ett paket](package-change-log.md)

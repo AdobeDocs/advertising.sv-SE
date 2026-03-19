@@ -3,9 +3,9 @@ title: Duplicera placeringar
 description: Lär dig duplicera en eller flera placeringar.
 feature: DSP Placements
 exl-id: 41021f5b-13d1-419f-af03-c5507f9fed4d
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
    1. (Enstaka placeringar) Ange det nya placeringsnamnet.
 
-   1. Välj antingen det överordnade paketet eller **&#x200B;**&#x200B;[!UICONTROL Choose Package (Required)]*** på menyn [!UICONTROL No package].
+   1. Välj antingen det överordnade paketet eller ****[!UICONTROL Choose Package (Required)]*** på menyn [!UICONTROL No package].
 
    1. (Valfritt) Ändra standardinställningarna.
 
@@ -55,7 +55,7 @@ Se [Vad som inte är duplicerat](#placement-not-duplicated) för en lista över 
 
 1. Klicka på **[!UICONTROL Submit]**.
 
-## Vad som inte är duplicerat {#placement-not-duplicated}
+## Vad som inte dupliceras {#placement-not-duplicated}
 
 Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
@@ -97,7 +97,7 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)

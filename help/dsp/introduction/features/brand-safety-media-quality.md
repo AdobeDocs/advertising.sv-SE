@@ -3,7 +3,7 @@ title: Varumärkessäkerhet och mediakvalitet
 description: Läs mer om varumärkessäkerhet och funktioner för mediekvalitet.
 feature: DSP Introduction
 exl-id: 8cdfd517-4cdb-4dbc-aae5-a8bda1e4e95e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
@@ -122,7 +122,7 @@ Partnerskapet [!DNL Adobe's] med [!DNL Adelaide] ger annonsörer stöd för Adel
 
 [Med riktad uppmärksamhet före bud på placeringsnivå](/help/dsp/campaign-management/placements/placement-settings.md) kan annonsörer rikta in specifika uppmärksamhetsnivåer för att förbättra kundengagemanget.
 
-Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet &#x200B;](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
+Dessutom kan annonsörer aktivera [spårning för [!UICONTROL Attention Score]-mätvärdet ](/help/dsp/campaign-management/campaigns/campaign-settings.md#attention-measurement) på placeringsnivå (det viktade genomsnittliga antalet [!DNL Attention Units] över visningar) för alla kampanjer för att förstå vilka placeringsmetoder som ger bäst affärsresultat.
 
 Ytterligare avgifter tillkommer för varje separat funktion.
 

@@ -3,9 +3,9 @@ title: Arkivera en ansluten TV-räckvidd
 description: Lär dig arkivera en ansluten TV-räckvidd.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '87'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Om du arkiverar en plan tas den bort från standardvyn [!UICONTROL Planner].<!--
 
 >[!MORELIKETHIS]
 >
->* [Om DSP-planeringsverktyget](planner-about.md)
->* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
->* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
->* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
->* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
->* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
->* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)
+>* [Om DSP [!UICONTROL Planner]-verktyget](planner-about.md)
+>* [Skapa en ansluten TV-räckvidd](planner-create.md)
+>* [Duplicera en ansluten TV-räckvidd](planner-duplicate.md)
+>* [Redigera en ansluten TV-räckvidd](planner-edit.md)
+>* [Exportera en ansluten TV-räckvidd](planner-export.md)
+>* [Generera om prognosen för en ansluten TV-räckvidd](planner-forecast.md)
+>* [Inställningar för anslutna TV-räckviddsplaner](planner-settings.md)
