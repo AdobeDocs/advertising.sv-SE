@@ -3,7 +3,7 @@ title: Konfigurera och nätverkskonton för dataöverföring
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 feature: Search Campaign Management
 exl-id: 7e8fb475-21f9-446b-a112-e0f27a4c4172
-source-git-commit: 00565a6c9e784472fab9c9d223c83b0c7cbb91b1
+source-git-commit: 0305fde5c3448899c8ab8d45777a7bc4ed7089ce
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Mer information om vilka funktioner som är tillgängliga för varje annonsnätv
 
 **[!UICONTROL Account Synchronization and Management]> [!UICONTROL Account Enabled]:** Med Search, Social och Commerce kan du hämta data automatiskt för en angiven S3-bucket.
 
-## Fliken [!UICONTROL Setup Analytics]
+### Fliken [!UICONTROL Setup Analytics]
 
 **[!UICONTROL Adobe Analytics Report Suite]:** (Advertisers with an [[!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md); optional) One or more Analytics report suites to which Search, Social, &amp; Commerce send data you upload for the ad network, including entity classifications and click data for the account.
 
