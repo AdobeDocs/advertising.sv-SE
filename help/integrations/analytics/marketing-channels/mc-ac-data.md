@@ -3,7 +3,7 @@ title: Använda [!DNL Marketing Channels] med Adobe Advertising-data
 description: Lär dig hur du använder Adobe Advertising-data i  [!DNL Analytics Marketing Channels].
 feature: Integration with Adobe Analytics
 exl-id: 522c7f01-1138-477d-8018-36030caab55e
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: 4db751aae61eaf8abdc5e3afca3b4027f0eddf26
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -18,9 +18,9 @@ Genom att använda både Adobe Advertising- och [!DNL Analytics Marketing Channe
 
 <!-- from video: By using Marketing Channels with your Adobe Advertising data, you can get a more holistic view of how your advertising efforts are affecting site behavior. In particular, you can see the value of your view-through and click-through data, and how your advertising assists or is assisted by other channels. -->
 
-Följande bild visar hur Adobe Advertising och [!DNL Marketing Channels] spårar de enskilda besök som utgör en besökares resa. Adobe Advertising-rapporter i [!DNL Analytics] är begränsade till enbart annonsering via betalannonser, sökningar, sociala annonser och e-handelskanaler som har handlats via Adobe Advertising med hjälp av AMO-ID:t. [!DNL Marketing Channels] spårar dock alla kanaler som har konfigurerats i bearbetningsreglerna för [!DNL Marketing Channels].
+Följande bild visar hur Adobe Advertising och [!DNL Marketing Channels] spårar de enskilda besök som utgör en besökares resa. Adobe Advertising-rapporter i [!DNL Analytics] är begränsade till enbart annonsering via betalannonser, sökningar, sociala annonser och e-handelskanaler som har handlats via Adobe Advertising med hjälp av AMO-ID:t. [!DNL Marketing Channels] spårar dock alla kanaler som konfigurerats i bearbetningsreglerna för [!DNL Marketing Channels].
 
-![Så här spårar Adobe Advertising och [!DNL Marketing Channels] enskilda besök på en besökares resa &#x200B;](/help/integrations/assets/a4adc-mc-sample-journey2.png)
+![Så här spårar Adobe Advertising och [!DNL Marketing Channels] enskilda besök på en besökares resa ](/help/integrations/assets/a4adc-mc-sample-journey2.png)
 
 Vid det första besöket gick användaren in på webbplatsen via en e-postkampanj, genomförde tio sidvisningar och sedan gick han/hon. Vid det andra besöket gick användaren in på webbplatsen via en displayannons, genomförde tio sidvisningar och sedan gick han/hon. Vid det tredje besöket gick användaren in på webbplatsen via naturlig sökning, utförde fem sidvisningar, genomförde en konvertering på 250 dollar och åt vänster. Observera skillnaden i spårning mellan [!DNL Marketing Channels] och Adobe Advertising. Den enda kanal som Adobe Advertising spårar på den här resan är [!UICONTROL Display]. Adobe Advertising spårar [!UICONTROL Display]-kanalbesöket och attribuerar efterföljande interaktionsdata (till exempel sidvisningar) och konverterar tillbaka till den annonsens påverkan. [!DNL Marketing Channels] ger å andra sidan en fullständig bild av alla kanaler.
 
@@ -55,5 +55,5 @@ Du kan förbättra analysen ytterligare genom att använda ett Staplingsdiagram 
 >* [Grundprinciper för [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
->* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
