@@ -3,9 +3,9 @@ title: Översikt över kampanjhantering i Advertising DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -48,12 +48,12 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 
 >[!MORELIKETHIS]
 >
->* [Om kampanjhantering](/help/dsp/campaign-management/campaigns/campaign-about.md)
->* [Om pakethantering](/help/dsp/campaign-management/packages/package-about.md)
->* [Om placeringshantering](/help/dsp/campaign-management/placements/placement-about.md)
->* [Om annonshantering](/help/dsp/campaign-management/ads/ad-about.md)
+>* [Om kampanjhantering i Advertising DSP](/help/dsp/campaign-management/campaigns/campaign-about.md)
+>* [Om pakethantering i Advertising DSP](/help/dsp/campaign-management/packages/package-about.md)
+>* [Om placeringshantering i Advertising DSP](/help/dsp/campaign-management/placements/placement-about.md)
+>* [Om annonshantering i Advertising DSP](/help/dsp/campaign-management/ads/ad-about.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)
->* [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
->* [Typer av prestandarapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
+>* [Bästa tillvägagångssätt för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
+>* [Typer av resultatrapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

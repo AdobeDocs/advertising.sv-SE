@@ -2,9 +2,9 @@
 title: Specifikationer för utgivarspecifika annonser
 description: Referera till annonsspecifikationerna för de utgivare som stöds.
 feature: DSP Ads
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,6 @@ Följande länkar tar dig till annonsspecifikationerna för vissa utgivare med s
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Annonsspecifikationer](/help/dsp/campaign-management/ads/ad-specs.md)

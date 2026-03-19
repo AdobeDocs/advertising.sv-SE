@@ -3,7 +3,7 @@ title: Skapa en återanvändbar målgrupp
 description: Lär dig hur du skapar återanvändbara målgrupper som består av målgruppssegment och andra sparade målgrupper.
 feature: DSP Audiences
 exl-id: 5f4a0abb-c285-4452-a6c3-a91d5281df9b
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
    >
    >När du skapar målgruppen uppdateras detaljerade [data om målgruppens storlek](audience-about.md) i den högra panelen
 
-   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md):
+   * Så här skapar du segmentlogiken manuellt med hjälp av segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md):
 
       * (Valfritt) Sök efter ett segmentnamn, en beskrivning eller en sökväg.
 
@@ -91,7 +91,7 @@ Ni kan spara och hantera återanvändbara målgrupper, som är grupper av målgr
 >* [Om målgruppshantering](audience-about.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

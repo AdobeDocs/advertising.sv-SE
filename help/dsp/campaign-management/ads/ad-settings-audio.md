@@ -3,9 +3,9 @@ title: Inställningar för ljudannonsering
 description: Se beskrivningar av tillgängliga annonsinställningar för ljudannonser.
 feature: DSP Ads
 exl-id: 2fa1143b-6e83-4729-91cd-7a5da357509e
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Det här fältet kanske visas eller inte, beroende på kontobehörigheterna.
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Visa en lista över placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Visa de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP-makron](/help/dsp/campaign-management/macros.md)

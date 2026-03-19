@@ -3,7 +3,7 @@ title: Exportera information om en återanvändbar målgrupp
 description: Lär dig hur du visar konfiguration, målgruppsstorlek och målgruppsplaceringar för en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 6d69706e-4398-41e0-b7a3-04ba72b08bfc
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -24,12 +24,12 @@ Du kan hämta en [!DNL Microsoft Excel]-kalkylbladsfil med målgruppskonfigurati
 >
 >* [Om målgruppshantering](audience-about.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
->* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
+>* [Duplicera en återanvändbar målgrupp](reusable-audience-duplicate.md)
 >* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
 >* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](reusable-audience-clipboard.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

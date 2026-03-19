@@ -3,7 +3,7 @@ title: Visa spårningspixlar för ett segment
 description: Lär dig hur du visar spårningspixlar för ett anpassat eller CCPA-avanmäl dig från ett försäljningssegment.
 feature: DSP Segments
 exl-id: 3b67ab72-d7bb-45a0-b5ba-e4b811b7d2b3
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%

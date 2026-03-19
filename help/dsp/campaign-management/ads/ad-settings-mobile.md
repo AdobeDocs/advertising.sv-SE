@@ -3,9 +3,9 @@ title: Inställningar för mobilannonser
 description: Se beskrivningar av tillgängliga annonsinställningar för mobilannonser.
 feature: DSP Ads
 exl-id: 45e8da8c-d6a2-4c42-8932-4cf551f6f899
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 **[!UICONTROL Display Code]:** Webbadressen till den kreativa resursen från tredje part. Alla parametrar för [tidsstämpel] och [[tidsstämpel]] ersätts med faktiska värden.
 
-**[!UICONTROL Final Display Code]:** URL:en för den kreativa resursen från tredje part, där nödvändiga [Advertising DSP spårningsmakron &#x200B;](/help/dsp/campaign-management/macros.md) infogas, om tillämpligt.
+**[!UICONTROL Final Display Code]:** URL:en för den kreativa resursen från tredje part, där nödvändiga [Advertising DSP spårningsmakron ](/help/dsp/campaign-management/macros.md) infogas, om tillämpligt.
 
 ### [!UICONTROL Basic]: Videobandspelare
 
@@ -92,8 +92,8 @@ Föråldrat
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Visa en lista över placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Visa de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP-makron](/help/dsp/campaign-management/macros.md)

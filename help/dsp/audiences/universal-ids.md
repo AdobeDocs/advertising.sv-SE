@@ -3,7 +3,7 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Ungefär 24 timmar efter att du har aktiverat ett segment kontrollerar du antalet konverterade ID:n för segmentet inom [!UICONTROL Audiences] > [!UICONTROL All Audiences]. Kontakta ditt Adobe-kontoteam om det inte går att räkna ID:t.
 
-  Mer information om hur antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
+  Mer information om hur antalet segment kan variera finns i [Dataavvikelser mellan e-post-ID och universella ID](#universal-ids-data-variances).
 
 * Ändra inte befintliga paket och placeringar. Om du inte har någon ytterligare budget för att testa universella ID:n ska du minska den ursprungliga budgeten för att finansiera testerna.
 
@@ -96,7 +96,7 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 
 * Tänk på att räckvidden för autentiserade målgruppssegment är naturligt mindre än räckvidden för cookie-baserade segment, och att ytterligare målgruppsalternativ minskar er räckvidd ytterligare. Var klok på att använda detaljerad målinriktning, särskilt genom att koppla ihop flera mål med AND-satser.
 
-## Datavarianser mellan e-post-ID och övergripande ID {#universal-ids-data-variances}
+## Datavariationer mellan e-post-ID och universella ID {#universal-ids-data-variances}
 
 ### Godtagbara variationsnivåer
 
@@ -136,7 +136,7 @@ Om du inte kan lösa problemet kontaktar du ditt Adobe-kontoteam.
 
 >[!MORELIKETHIS]
 >
->* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
+>* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)

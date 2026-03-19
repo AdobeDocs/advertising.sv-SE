@@ -3,9 +3,9 @@ title: Inställningar för visningsannons
 description: Se beskrivningar av tillgängliga annonsinställningar för displayannonser.
 feature: DSP Ads
 exl-id: cff65a48-486f-401e-9759-2bb63871448f
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,8 @@ Följande inställningar gäller för vanliga displayannonser.
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Visa de placeringar som är associerade med en annons](ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP-makron](/help/dsp/campaign-management/macros.md)

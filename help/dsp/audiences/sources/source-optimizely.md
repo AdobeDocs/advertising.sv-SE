@@ -3,7 +3,7 @@ title: Konvertera användar-ID:n från [!DNL Optimizely]  till universella ID:n
 description: Lär dig hur du gör det möjligt för DSP att importera dina [!DNL Optimizely] egna segment.
 feature: DSP Audiences
 exl-id: 2c48a874-132a-4e5c-ba24-0e7ab80ac2d4
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -62,17 +62,17 @@ Segmenten kommer att uppdateras enligt annonsörens konfiguration. Oberoende av 
 
 Segmenten bör vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar.
 
-Verifiera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godkända ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
+Verifiera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet är tillgängligt och fylls i, och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
 ## Felsökning
 
-Om du vill felsöka problem med översättningsfrekvens och antal användare läser du i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
+Information om hur du felsöker problem med översättningsfrekvens och antal användare finns i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Account Team eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
+>* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)

@@ -3,9 +3,9 @@ title: Skapa flera tredjepartsannonser
 description: Lär dig skapa flera tredjepartsannonser samtidigt.
 feature: DSP Ads
 exl-id: be7c1cc4-3c17-4e37-aae7-c8601d2222a0
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ Du kan överföra taggarna [!DNL DoubleClick] och [!DNL Flashtalking] eller en m
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
 >* [Annonsspecifikationer](ad-specs.md)
->* [Skapa en annons](ad-create.md)
->* [Video: Så här överför du tredjepartstaggar i grupp](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=sv-SE)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Video: Så här överför du annonstaggar från tredje part satsvis](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)

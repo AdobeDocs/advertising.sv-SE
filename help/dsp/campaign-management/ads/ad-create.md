@@ -3,9 +3,9 @@ title: Skapa en annons
 description: Lär dig hur du skapar en annons från tredje part.
 feature: DSP Ads
 exl-id: fdfb02c0-9aec-4faf-b374-0f03c7a3fa98
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Mer information om hur du skapar flera tredjepartsannonser samtidigt finns i [Sk
 
 1. Klicka på namnet på kampanjen där annonsen ska inkluderas.
 
-1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [!UICONTROL Ad Types]annetypen[&#x200B; i avsnittet &#x200B;](ad-about.md#ad-types) på menyn.
+1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [!UICONTROL Ad Types]annetypen[ i avsnittet ](ad-about.md#ad-types) på menyn.
 
 1. Ange annonsinställningarna för [ljudannonser](ad-settings-audio.md), [anslutna TV](ad-settings-connected-tv.md), [visningsannonser](ad-settings-display.md), [mobilannonser](ad-settings-mobile.md), [inbyggda annonser](ad-settings-native.md), [pre-roll-ads](ad-settings-pre-roll.md) eller [universella videoannonser](ad-settings-universal-video.md):
 
@@ -50,8 +50,8 @@ Mer information om hur du skapar flera tredjepartsannonser samtidigt finns i [Sk
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)

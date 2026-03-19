@@ -3,7 +3,7 @@ title: Skapa och implementera ett anpassat segment
 description: Lär dig hur du skapar och implementerar ett anpassat segment för att spåra användare som exponeras för annonser eller användare som besöker dina webbsidor.
 feature: DSP Segments
 exl-id: 3190fd78-18d2-4da3-920b-d4171e693c03
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Ni kan samla in era egna data från förstapartsmålgrupper genom att skapa och 
 
          1. Kopiera taggen för visningsspårning, som har etiketten [!UICONTROL Desktop or mobile ads].
 
-         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering &#x200B;](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
+         1. Lägg till taggen antingen på fliken [!UICONTROL Pixel] för varje relevant annons eller i avsnittet [!UICONTROL Event Pixels] i inställningarna för [[!UICONTROL Tracking] för varje relevant placering ](/help/dsp/campaign-management/placements/placement-settings.md#placement-tracking).
 
 När du har implementerat en spårningstagg kan du använda segmentet i målgruppen eller exkluderingarna för alla placeringar.
 
@@ -122,7 +122,7 @@ När du har implementerat en spårningstagg kan du använda segmentet i målgrup
 >* [Ta bort ett segment](segment-delete.md)
 >* [Visa spårningspixlar för ett segment](segment-view-pixels.md)
 >* [Dela eller sluta dela ett segment](segment-share.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

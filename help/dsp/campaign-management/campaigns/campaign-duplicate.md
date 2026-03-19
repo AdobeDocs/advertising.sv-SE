@@ -3,9 +3,9 @@ title: Duplicera en kampanj
 description: Lär dig hur du duplicerar en kampanj.
 feature: DSP Campaigns
 exl-id: 4e42bd5b-e8a9-45be-af5c-367c48d0b131
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -80,11 +80,11 @@ Alla inställningar från den ursprungliga placeringen dupliceras förutom:
 
    * Skapa nya ersättningar för [!UICONTROL Simple Ad Serving] erbjudanden efter behov.
 
-* För prestandakampanjer (det vill säga kampanjer med paket som använder anpassade optimeringsmål) använder du [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen &#x200B;](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den föregående kampanjens historiska data som indata för optimering av paketet.
+* För prestandakampanjer (det vill säga kampanjer med paket som använder anpassade optimeringsmål) använder du [[!UICONTROL Linked Package for Optimization Learnings Carryover]-inställningen ](/help/dsp/campaign-management/packages/package-settings.md) för varje paket för att använda den föregående kampanjens historiska data som indata för optimering av paketet.
 
 >[!MORELIKETHIS]
 >
->* [Om kampanjhantering](campaign-about.md)
+>* [Om kampanjhantering i Advertising DSP](campaign-about.md)
 >* [Skapa en kampanj](campaign-create.md)
 >* [Redigera en kampanj](campaign-edit.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)

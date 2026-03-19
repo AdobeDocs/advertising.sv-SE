@@ -3,7 +3,7 @@ title: Konvertera användar-ID:n från [!DNL Tealium]  till universella ID:n
 description: Lär dig hur du gör det möjligt för DSP att importera dina [!DNL Tealium] egna segment.
 feature: DSP Audiences
 exl-id: 100abbe7-e228-4eb6-a5b9-bf74e83b3aa2
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 0%
@@ -124,7 +124,7 @@ För varje segment som du vill dela skapar du en separat koppling för varje åt
 
                * Namnge det anpassade meddelandet `cookies` för Cookies-attributet.
 
-            1. I alternativet att skapa ett anpassat fält anger du [!DNL Source Key] som ingick i [!UICONTROL External Segment Key]segmentmappningsdata[&#x200B; i fältet &#x200B;](#map-data) i föregående procedur.
+            1. I alternativet att skapa ett anpassat fält anger du [!DNL Source Key] som ingick i [!UICONTROL External Segment Key]segmentmappningsdata[ i fältet ](#map-data) i föregående procedur.
 
                DSP använder den här nyckeln för att fylla i ditt segment.
 
@@ -142,19 +142,19 @@ Du kan bara ha en koppling per segment och ett segment per koppling.
 
 Segmenten bör vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar.
 
-Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godkända ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
+Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser. Mer information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
 Segmenten uppdateras var 24:e timme. Inkluderingen i ett segment upphör dock efter 30 dagar som standard eller efter en av kunden specificerad förfalloperiod. Uppdatera dina segment genom att trycka på dem igen från [!DNL Tealium] före förfallodatumet. Kontakta Adobe Account Team om du vill begära att ett anpassat segment ska upphöra att gälla.
 
 ## Felsökning
 
-Om du vill felsöka problem med översättningsfrekvens och antal användare läser du i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
+Information om hur du felsöker problem med översättningsfrekvens och antal användare finns i &quot;[Stöd för aktivering av universella ID:n](/help/dsp/audiences/universal-ids.md)&quot;.
 
 Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Account Team eller `adcloud-support@adobe.com`.
 
 >[!MORELIKETHIS]
 >
->* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
+>* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)

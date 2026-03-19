@@ -3,9 +3,9 @@ title: Universella inställningar för videoannonser
 description: Se beskrivningar av tillgängliga annonsinställningar för universella videoannonser.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -65,8 +65,8 @@ Använd [!UICONTROL VAST], som inte tillåter visningsmätning, när du har en a
 >[!MORELIKETHIS]
 >
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Visa en lista över placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Visa de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [DSP-makron](/help/dsp/campaign-management/macros.md)

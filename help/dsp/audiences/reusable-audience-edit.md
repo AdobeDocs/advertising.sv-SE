@@ -3,7 +3,7 @@ title: Redigera en återanvändbar målgrupp
 description: Lär dig hur du redigerar en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 4de6b9a4-2907-474d-92bf-83686a1f0b31
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: edf86b00a04fb1e0b8c45101a7f19a1543fc60e6
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -30,7 +30,7 @@ När du redigerar en målgrupp som används i någon placering eller annan åter
 
    * (Valfritt) Om du vill redigera **[!UICONTROL Audience Name]** klickar du på ![Redigera](/help/dsp/assets/edit.png) bredvid målgruppsnamnet, anger ett unikt målgruppsnamn och klickar sedan på **[!UICONTROL Apply]**.
 
-   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] &#x200B;](audience-settings.md) gör du följande.
+   * (Valfritt) Om du vill redigera segmentlogiken manuellt använder du segment som finns på flikarna [[!UICONTROL Third Party Segments], [!UICONTROL First Party Segments], [!UICONTROL Adobe Segments], [!UICONTROL Custom Segments] och [!UICONTROL Saved Audiences] ](audience-settings.md) gör du följande.
 
       * Lägga till ett segment i en befintlig segmentgrupp:
 
@@ -78,12 +78,12 @@ När du redigerar en målgrupp som används i någon placering eller annan åter
 >
 >* [Om målgruppshantering](audience-about.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
->* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
+>* [Duplicera en återanvändbar målgrupp](reusable-audience-duplicate.md)
 >* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
 >* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](reusable-audience-clipboard.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

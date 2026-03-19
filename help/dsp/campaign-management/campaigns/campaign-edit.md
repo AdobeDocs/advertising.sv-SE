@@ -3,10 +3,10 @@ title: Redigera en kampanj
 description: Lär dig hur du redigerar en kampanj.
 feature: DSP Campaigns
 exl-id: d0cbcd11-138a-41be-a027-e5e49e24afa2
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 2%
+source-wordcount: '51'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->* [Om kampanjhantering](campaign-about.md)
+>* [Om kampanjhantering i Advertising DSP](campaign-about.md)
 >* [Skapa en kampanj](campaign-create.md)
 >* [Visa ändringsloggen för en kampanj](campaign-change-log.md)
 >* [Pausa eller aktivera en kampanj](campaign-pause-activate.md)
