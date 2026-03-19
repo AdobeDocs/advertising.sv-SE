@@ -1,16 +1,16 @@
 ---
-title: Kopiera segmentnyckeln för en återanvändbar publik till Urklipp
+title: Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp
 description: Lär dig hur du visar konfigurationen och målgruppens storlek för en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 1e1f45fe-d7f9-4c26-a557-c3d00f74edb8
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
 
-# Kopiera segmentnyckeln för en återanvändbar publik till Urklipp
+# Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp
 
 Du kan kopiera den alfanumeriska segmentnyckeln (ID) för en viss målgrupp till Urklipp. Du kan använda segmentnycklar för att [manuellt definiera segmentlogik](audience-segment-logic-syntax.md) för andra återanvändbara målgrupper.
 
@@ -24,14 +24,14 @@ Du kan kopiera den alfanumeriska segmentnyckeln (ID) för en viss målgrupp till
 >
 >* [Om målgruppshantering](audience-about.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
->* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
+>* [Duplicera en återanvändbar målgrupp](reusable-audience-duplicate.md)
 >* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
 >* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
 >* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

@@ -1,16 +1,16 @@
 ---
-title: Duplicera en återanvändbar publik
+title: Duplicera en återanvändbar målgrupp
 description: Lär dig duplicera en återanvändbar målgrupp.
 feature: DSP Audiences
 exl-id: 8ff72e13-d0ae-4f61-904b-5d544878f58b
-source-git-commit: 1a98b3ba7c37a768825e9e48db7d847f12daa9a0
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-# Duplicera en återanvändbar publik
+# Duplicera en återanvändbar målgrupp
 
 Ni kan skapa en målgrupp genom att duplicera en befintlig målgrupp.
 
@@ -34,8 +34,8 @@ Ni kan skapa en målgrupp genom att duplicera en befintlig målgrupp.
 >* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](reusable-audience-share.md)
 >* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](reusable-audience-clipboard.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

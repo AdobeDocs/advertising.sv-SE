@@ -1,15 +1,15 @@
 ---
-title: Skapa ett Advertiser-konto
+title: Skapa ett annonserarkonto
 description: Lär dig hur du skapar ett annonsörskonto.
 role: User, Admin
-source-git-commit: bd29bf822385670a3420cf5dac346cecdecabf3d
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
 
 ---
 
-# Skapa ett Advertiser-konto
+# Skapa ett annonserarkonto
 
 *Inte tillgängligt för skrivskyddade användare*
 
@@ -27,7 +27,7 @@ Annonsörer är tillgängliga för alla användare i organisationskontot.
 
       1. Ange inställningarna för [!UICONTROL General].
 
-      1. (Valfritt) Om du vill konfigurera integreringar mellan DSP och andra Adobe Experience Cloud-produkter anger du annonsörens organisations-ID för Experience Cloud i avsnittet [!UICONTROL Adobe IMS IDs] och konfigurerar sedan produktintegreringarna i avsnittet [!UICONTROL Integrations].
+      1. (Valfritt) Om du vill konfigurera integreringar mellan DSP och andra Adobe Experience Cloud-produkter anger du annonsörens Experience Cloud organisations-ID i avsnittet [!UICONTROL Adobe IMS IDs] och konfigurerar sedan produktintegreringarna i avsnittet [!UICONTROL Integrations].
 
    1. (Valfritt) I [!UICONTROL Targeting]-avsnitten anger du standardmål för varje ny placering.
 

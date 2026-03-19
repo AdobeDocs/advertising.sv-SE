@@ -2,7 +2,7 @@
 title: Kontoinställningar för annonsörer
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -132,19 +132,19 @@ Valfria visningsfilter före bud av [!DNL DoubleVerify] och [!DNL Integral Ad Sc
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visa
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
@@ -178,6 +178,6 @@ ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Du kan ändra
 
 >[!MORELIKETHIS]
 >
->* [Skapa ett Advertiser-konto](/help/dsp/admin/advertiser-create.md)
+>* [Skapa ett annonserarkonto](/help/dsp/admin/advertiser-create.md)
 
-<!-- >* [View the Advertiser List for the Account](/help/dsp/admin/advertiser-view.md) -->
+<!-- >* [View the advertiser list for the account](/help/dsp/admin/advertiser-view.md) -->

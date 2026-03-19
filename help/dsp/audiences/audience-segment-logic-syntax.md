@@ -3,7 +3,7 @@ title: Syntax för målgruppssegmentslogik
 description: Referera till den syntax du kan använda för att definiera logiken för målgruppssegment.
 feature: DSP Audiences
 exl-id: fb73f35f-1f65-463b-b93c-90804a8d19a9
-source-git-commit: 4b9cc5956d573b346eacdf71a8ea490c162b4660
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 0%
@@ -42,8 +42,8 @@ betyder (på vanlig engelska)
 
 >[!MORELIKETHIS]
 >
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](reusable-audience-clipboard.md)
 >* [Om målgruppshantering](audience-about.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Målgruppsinställningar](audience-settings.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

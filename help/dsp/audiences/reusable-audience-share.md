@@ -3,7 +3,7 @@ title: Dela en återanvändbar målgrupp
 description: Lär dig hur du delar en återanvändbar publik med andra annonsörer som är tillgängliga för ditt konto.
 feature: DSP Audiences
 exl-id: c0369efe-464d-43d1-9b21-1113a38fc9bb
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
@@ -28,12 +28,12 @@ När du väl har delat en målgrupp kan du inte sluta dela den.
 >
 >* [Om målgruppshantering](audience-about.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
->* [Duplicera en återanvändbar publik](reusable-audience-duplicate.md)
+>* [Duplicera en återanvändbar målgrupp](reusable-audience-duplicate.md)
 >* [Redigera en återanvändbar målgrupp](reusable-audience-edit.md)
 >* [Visa information om en återanvändbar målgrupp](reusable-audience-view-details.md)
 >* [Exportera en återanvändbar målgrupp](reusable-audience-export.md)
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](reusable-audience-clipboard.md)
->* [Ta bort en återanvändbar publik](reusable-audience-delete.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](reusable-audience-clipboard.md)
+>* [Ta bort en återanvändbar målgrupp](reusable-audience-delete.md)
 >* [Målgruppsinställningar](audience-settings.md)
 >* [Syntax för målgruppssegmentslogik](audience-segment-logic-syntax.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)

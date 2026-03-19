@@ -1,20 +1,20 @@
 ---
-title: Dela eller Sluta dela ett segment
-description: Lär dig hur du delar eller slutar dela ett anpassat eller CCPA-avanmäl dig från ett försäljningssegment med andra DSP användarkonton.
+title: Dela eller sluta dela ett segment
+description: Lär dig hur du delar eller slutar dela ett anpassat segment eller ett CCPA-avanmälningssegment med andra DSP-användarkonton.
 feature: DSP Segments
 exl-id: ea5cafb3-58b0-4b05-9b02-c022466d9b8c
-source-git-commit: 443f8907644bf3e480626e14713e8abb9bfca284
+source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Dela eller Sluta dela ett segment
+# Dela eller sluta dela ett segment
 
-Du kan dela dina anpassade segment och CCPA-avanmäla dig från försäljningssegment med ytterligare DSP användarkonton. Genom att dela ett segment blir segmentet tillgängligt på [!UICONTROL Audiences] > [!UICONTROL Segments] och på fliken [!UICONTROL Custom Segments] på de angivna användarnas platser och återanvändbara målgrupper.
+Du kan dela dina anpassade segment och CCPA-avanmäla dig från säljsegment med ytterligare DSP-användarkonton. Genom att dela ett segment blir segmentet tillgängligt på [!UICONTROL Audiences] > [!UICONTROL Segments] och på fliken [!UICONTROL Custom Segments] på de angivna användarnas platser och återanvändbara målgrupper.
 
-Du kan också sluta dela ett segment med andra DSP användarkonton.
+Du kan också sluta dela ett segment med andra DSP-användarkonton.
 
 1. Klicka på **[!UICONTROL Audiences]** > **[!UICONTROL Segments]** på huvudmenyn.
 
@@ -24,7 +24,7 @@ Du kan också sluta dela ett segment med andra DSP användarkonton.
 
    * Så här delar du segmentet:
 
-      1. Ange **[!UICONTROL E-mail Address]** för den DSP användaren och klicka sedan på **[!UICONTROL +]**.
+      1. Ange **[!UICONTROL E-mail Address]** för DSP-användaren och klicka sedan på **[!UICONTROL +]**.
 
       1. (Valfritt) För varje ytterligare användare anger du en annan **[!UICONTROL E-mail Address]** och klickar sedan på **[!UICONTROL +]**.
 
