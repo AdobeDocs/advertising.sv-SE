@@ -3,7 +3,7 @@ title: Skapa ett [!UICONTROL Simple Ad Serving]-erbjudande
 description: Lär dig hur du skapar en spårningspixel för en [!UICONTROL Simple Ad Serving]-affär.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    * (Valfritt) Skicka pixlarna för händelsespårning manuellt till utgivaren:
 
-      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![&#x200B; &#x200B;](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
+      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![ ](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
 
          Händelsepixlarna innehåller en [!UICONTROL Clickthrough]-pixel och en [!UICONTROL Impression]-pixel. Video- och ljudannonser innehåller även händelsepixlar per kvartil (från [!UICONTROL 25% Complete] till [!UICONTROL 100% Complete]).
 
@@ -62,9 +62,9 @@ ht-degree: 0%
 >[!MORELIKETHIS]
 >
 >* [Om [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [[!UICONTROL Simple Ad Serving] Inställningar](simple-deal-settings.md)
->* [Visa en detaljerad rapport för ett avtal](/help/dsp/inventory/deal-view-report.md)
+>* [[!UICONTROL Simple Ad Serving] inställningar](simple-deal-settings.md)
+>* [Visa en detaljerad rapport om ett avtal](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

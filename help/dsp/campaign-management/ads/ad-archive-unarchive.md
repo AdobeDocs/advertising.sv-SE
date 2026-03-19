@@ -3,7 +3,7 @@ title: Arkivera eller arkivera en annons
 description: Lär dig arkivera eller avarkivera en annons.
 feature: DSP Ads
 exl-id: 086c120f-df55-43b0-a6fb-51d68d00a29e
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -38,6 +38,6 @@ Du kan när som helst avarkivera en annons och återställa dess tidigare status
 
 >[!MORELIKETHIS]
 >
->* [Skapa en annons](ad-create.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)

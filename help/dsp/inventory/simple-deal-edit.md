@@ -3,7 +3,7 @@ title: Redigera inställningar för [!UICONTROL Simple Ad Serving]-avtal
 description: Lär dig hur du redigerar inställningarna för ett [!UICONTROL Simple Ad Serving]-avtal.
 feature: DSP Simple Ad Serving
 exl-id: 48540a6c-54ee-4109-bdd6-293fbee5c3e5
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 1%
@@ -27,10 +27,10 @@ Du kan redigera vissa inställningar för ett [!UICONTROL Simple Ad Serving]-avt
 >[!MORELIKETHIS]
 >
 >* [Om [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Skapa ett [!UICONTROL Simple Ad Serving] avtal](simple-deal-create.md)
->* [[!UICONTROL Simple Ad Serving] Inställningar](simple-deal-settings.md)
->* [Visa en detaljerad rapport för ett avtal](/help/dsp/inventory/deal-view-report.md)
+>* [Skapa ett [!UICONTROL Simple Ad Serving] erbjudande](simple-deal-create.md)
+>* [[!UICONTROL Simple Ad Serving] inställningar](simple-deal-settings.md)
+>* [Visa en detaljerad rapport om ett avtal](/help/dsp/inventory/deal-view-report.md)
 
 <!-- add back when reimplemented:
->* [View Event-Tracking Pixels for a [!UICONTROL Simple Ad Serving] Deal](simple-deal-show-pixels.md)
+>* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

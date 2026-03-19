@@ -3,7 +3,7 @@ title: Om placeringshantering i Advertising DSP
 description: Lär dig mer om placeringshantering.
 feature: DSP Placements
 exl-id: 903ba200-6bb3-4c31-b7a9-03ada3de5451
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -47,7 +47,7 @@ För varje placering kan du öppna en detaljerad vy ([the [!UICONTROL Inspector]
 >[!MORELIKETHIS]
 >
 >* [Skapa en placering](placement-create.md)
->* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Hantera budmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
 >* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)

@@ -3,9 +3,9 @@ title: Skapa en ansluten TV-räckvidd
 description: Lär dig hur du skapar en uppkopplad TV-räckvidd.
 feature: DSP Planner
 exl-id: 88b1fb23-f856-44ed-a955-844a329efb98
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,14 @@ ht-degree: 0%
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >
->* [Om DSP-planeringsverktyget](planner-about.md)
->* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
->* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
->* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
->* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
->* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)
+>* [Om DSP [!UICONTROL Planner]-verktyget](planner-about.md)
+>* [Duplicera en ansluten TV-räckvidd](planner-duplicate.md)
+>* [Redigera en ansluten TV-räckvidd](planner-edit.md)
+>* [Exportera en ansluten TV-räckvidd](planner-export.md)
+>* [Generera om prognosen för en ansluten TV-räckvidd](planner-forecast.md)
+>* [Arkivera en ansluten TV-räckvidd](planner-archive.md)
+>* [Inställningar för anslutna TV-räckviddsplaner](planner-settings.md)

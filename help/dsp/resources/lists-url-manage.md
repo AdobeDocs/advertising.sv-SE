@@ -3,7 +3,7 @@ title: Hantera URL-listor
 description: Lär dig hur du skapar och hanterar URL-listor för placering.
 feature: DSP Placements
 exl-id: 57c715b3-9a13-4890-a3b8-03fa6adb44eb
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 1%
@@ -175,5 +175,5 @@ Du kan skapa och hantera listor med webbplats- och app-URL:er för placering. An
 >[!MORELIKETHIS]
 >
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Om blockerade webbplatser på kontonivå och annonsnivå](/help/dsp/admin/blocked-sites-list-about.md)
->* [Redigera en blockerad webbplatslista på kontonivå eller annonsnivå](/help/dsp/admin/blocked-sites-list-edit.md)
+>* [Om blockerade webbplatser på kontonivå och annonsörnivå](/help/dsp/admin/blocked-sites-list-about.md)
+>* [Redigera en lista över blockerade webbplatser på kontonivå eller annonsörnivå](/help/dsp/admin/blocked-sites-list-edit.md)

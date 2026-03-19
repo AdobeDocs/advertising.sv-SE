@@ -3,7 +3,7 @@ title: Granska och redigera placeringsinställningar med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar nyckelplaceringsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-   Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 ## Hämta inställningar för specifika placeringar
 
@@ -68,11 +68,11 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-   Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+   Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
    Om du vill redigera någon av inställningarna redigerar du filen direkt och överför sedan ändringarna.  Alla redigerbara kolumner markeras med blått. Om du vill använda rätt format för ett fält markerar och kopierar du värdet från den relevanta paketinställningen eller placeringsinställningen. För vissa målinställningar, t.ex. dagdelning, anpassade mål och konverteringsmått, finns det ett kopieringsalternativ i inställningen.
 
-## Överför ett bulkark med placeringsinställningar {#upload-bulksheet-placement}
+## Överför ett kalkylblad med placeringsinställningar {#upload-bulksheet-placement}
 
 Du kan överföra inställningar för dina placeringar och för annonser och paket som är kopplade till placeringarna i en kalkylbladsfil.
 
@@ -232,6 +232,6 @@ Check on Brand Safety - Contextual Filtering # with new DV feature/fct change.
 
 >[!MORELIKETHIS]
 >
->* [Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

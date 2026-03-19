@@ -3,7 +3,7 @@ title: Om kampanjhantering i Advertising DSP
 description: Läs om kampanjhantering.
 feature: DSP Campaigns
 exl-id: 8ba1d94d-4cb2-4ed8-a527-b6097ec07380
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -35,4 +35,4 @@ Klicka på kampanjnamnet om du vill se alla paket, placeringar och annonser i en
 >
 >* [Skapa en kampanj](campaign-create.md)
 >* [Kampanjinställningar](campaign-settings.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

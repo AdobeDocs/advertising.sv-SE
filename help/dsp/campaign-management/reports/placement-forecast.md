@@ -3,7 +3,7 @@ title: Visa placeringsprognosrapporten
 description: Se hur många visningar, utgifter och optimalt maximalt bud som prognostiserats för en viss målinriktningsstrategi för en placering.
 feature: DSP Placements
 exl-id: 6ff228b2-b656-493e-a299-98c7a68a0f51
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -81,6 +81,6 @@ Prognosen innehåller följande information:
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
->* [Visa diagnostikrapporter för placering](/help/dsp/campaign-management/reports/placement-diagnostics.md)
+>* [Typer av resultatrapporter i kampanjhanteringsvyer](campaign-reports-about.md)
+>* [Visa placeringsdiagnostikrapporter](/help/dsp/campaign-management/reports/placement-diagnostics.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

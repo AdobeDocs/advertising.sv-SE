@@ -3,7 +3,7 @@ title: Förhandsfilter på placeringsnivå och hur de används
 description: Referera till tillgängliga filter på placeringsnivå före köp och se hur du använder dem.
 feature: DSP Optimization
 exl-id: 34a15666-7ca2-416d-9064-8638ca81e5b3
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Så här optimerar DSP era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
+>* [Hur DSP optimerar era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
 >* [Kampanjinställningar](/help/dsp/campaign-management/campaigns/campaign-settings.md)
->* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
+>* [Optimeringsmål och hur de används](optimization-goals.md)

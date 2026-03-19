@@ -3,9 +3,9 @@ title: Visa platser, annonser, frekvens och lagerinformation för en placering
 description: Lär dig hur du visar målwebbplatser, annonser, frekvens och inventeringsdata för en placering.
 feature: DSP Placements
 exl-id: b58b442c-2fb8-4a78-9be9-d85aa83136e2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
   Fliken [!UICONTROL Inventory] gör det möjligt att snabbt felsöka genom att visa prestandastatistik, som [!UICONTROL Auctions], [!UICONTROL Bids] och [!UICONTROL Win Rate]. Fliken innehåller sök- och filterfunktioner, samma standardalternativ och anpassade kolumnvisningsalternativ som finns på huvudsidan, och snabbåtgärdsknappar i varje rad, inklusive [!UICONTROL Edit], [!UICONTROL View Report] och [[!UICONTROL Auction Insights] för ytterligare felsökning](/help/dsp/inventory/private-deal-auction-insights.md).
 
-## Öppna [!UICONTROL Placement Inspector] {#inspector-open}
+## Öppna placeringen [!UICONTROL Inspector] {#inspector-open}
 
 1. Öppna placeringsvyn för den överordnade kampanjen eller det överordnade paketet:
 
@@ -66,9 +66,9 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
    Informationen sparas i webbläsarens standardmapp för hämtning som en rapport i XLSM-format.
 
-## Ta bort en annons från en placering från [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Ta bort en annons från en placering från [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
-1. [Öppna [!UICONTROL Placement Inspector]](#inspector-open).
+1. [Öppna placeringen [!UICONTROL Inspector]](#inspector-open).
 
 1. Klicka på fliken **[!UICONTROL Ads]**.
 
@@ -90,5 +90,5 @@ För varje placering kan du [öppna en (detaljvy [!UICONTROL Inspector])](placem
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
+>* [Typer av resultatrapporter i kampanjhanteringsvyer](campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](campaign-data-views-manage.md)

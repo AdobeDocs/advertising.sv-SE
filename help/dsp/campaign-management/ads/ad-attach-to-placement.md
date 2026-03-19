@@ -3,9 +3,9 @@ title: Bifoga och ta bort annonser från placeringar
 description: Lär dig hur du bifogar annonser till placeringar och tar bort annonser från placeringar.
 feature: DSP Ads
 exl-id: bca590c9-e0d0-41e6-96b1-26ea5b2f842f
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Du kan bifoga och ta bort annonser från placeringar.
 
 1. Klicka på **[!UICONTROL Detach Selected Ads]**.
 
-## Ta bort en annons från en placering från [!UICONTROL Placement Inspector] {#remove-ads-placement-inspector}
+## Ta bort en annons från en placering från placeringen [!UICONTROL Inspector] {#remove-ads-placement-inspector}
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -106,11 +106,11 @@ Du kan bifoga och ta bort annonser från placeringar.
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
 >* [Bifoga och ta bort pixlar från annonser](ad-pixel-attach-detach.md)
->* [Skapa en annons](ad-create.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
->* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
->* [Redigera annonsplanerna för placeringar](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Visa de placeringar som är associerade med en annons](ad-list-placements.md)
+>* [Redigera annonsplanerna för ersättningar](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)

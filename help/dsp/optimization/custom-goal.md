@@ -3,7 +3,7 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Om du vill skapa ett anpassat mål måste DSP-kontot länkas till ett [!DNL Sear
 
    >[!TIP]
    >
-   >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Mer information finns i [Bästa metoder för att skapa ett anpassat mål](#custom-goal-best-practices).
+   >För optimala prestanda måste de kombinerade mätvärdena i det anpassade målet (mål) innehålla minst tio konverteringar per dag. Om de inte gör det är det bästa sättet att lägga till ytterligare konverteringsmått, som produktsidor eller programstart, i målet. Mer information finns i [Bästa tillvägagångssätt för att skapa ett anpassat mål](#custom-goal-best-practices).
 
 I DSP-paketinställningarna för paket som använder optimeringsmålet [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)] ingår nu målnamnet i listan [!UICONTROL Custom Goals]. När du väljer målet som anpassat mål för ett paket innehåller listan [!UICONTROL Conversion Metric] alla målvärden för målet.
 
@@ -130,6 +130,6 @@ Om du i stället vägde besök för landningssidor till lika delar för att skic
 
 >[!MORELIKETHIS]
 >
->* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
+>* [Optimeringsmål och hur de används](optimization-goals.md)
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
-> * [Så här optimerar DSP era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
+> * [Hur DSP optimerar era kampanjer](optimization-how-dsp-optimizes-campaigns.md)

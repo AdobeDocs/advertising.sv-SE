@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
    1. Ange en eller flera uppmaningar för att beskriva de målgruppsegenskaper som du vill inkludera och exkludera. Klicka på ![Skicka-fråga](/help/dsp/assets/submit-prompt.png "Skicka-fråga") om du vill skicka varje fråga.
 
-      Mer information finns i [Skrivfrågor](#writing-prompts) och [Bästa metoder för att skapa en publiksammanfattning](#audience-brief-best-practices).
+      Mer information finns i &quot;[Skriva uppmaningar](#writing-prompts)&quot; och &quot;[Bästa tillvägagångssätt för att skapa en publiköversikt](#audience-brief-best-practices)&quot;.
 
       Efterhand som målgruppsagenten hittar relevanta segment skapas ett målgruppsuttryck baserat på era kriterier. Ni ombeds också godkänna innan ni söker efter matchande segment för att sätta ihop målgruppen.
 
@@ -70,7 +70,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
    >
    >Du kan inte redigera målgruppen senare med målgruppsagenten. [Redigera i stället målgruppsuttrycket manuellt](/help/dsp/audiences/reusable-audience-edit.md).
 
-## Grunderna för skrivfrågor {#writing-prompts}
+## Grundläggande om att skriva uppmaningar {#writing-prompts}
 
 ### Vad ska en fråga innehålla?
 
@@ -94,7 +94,7 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
   Publiken sparar inte automatiskt ett genererat målgruppsuttryck som en målgrupp. Du kan bara spara en målgrupp genom att klicka på knappen [!UICONTROL Create], som ligger utanför promptområdet, så att du kan ångra ändringar som du inte vill behålla.
 
-Mer information om hur du optimerar uppmaningar för målgrupper finns i [Bästa metoder för att skapa en publiksammanfattning](#audience-brief-best-practices).
+Se [Bästa tillvägagångssätt för att skapa en publikrapport](#audience-brief-best-practices) om du vill ha fler sätt att optimera kundförfrågningar.
 
 <!-- I think these are happening later:
 
@@ -196,10 +196,10 @@ Nedan följer ett exempel på en omfattande publiköversikt för en kampanj som 
 
 >[!MORELIKETHIS]
 >
->* [Duplicera en återanvändbar publik](/help/dsp/audiences/reusable-audience-duplicate.md)
+>* [Duplicera en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-duplicate.md)
 >* [Redigera en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-edit.md)
 >* [Visa information om en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-view-details.md)
 >* [Dela en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-share.md)
 >* [Exportera en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-export.md)
->* [Kopiera segmentnyckeln för en återanvändbar publik till Urklipp](/help/dsp/audiences/reusable-audience-clipboard.md)
->* [Ta bort en återanvändbar publik](/help/dsp/audiences/reusable-audience-delete.md)
+>* [Kopiera segmentnyckeln för en återanvändbar målgrupp till Urklipp](/help/dsp/audiences/reusable-audience-clipboard.md)
+>* [Ta bort en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-delete.md)

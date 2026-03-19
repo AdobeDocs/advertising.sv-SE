@@ -1,16 +1,16 @@
 ---
-title: Om verktyget DSP-planering
+title: Om verktyget DSP [!UICONTROL Planner]
 description: Lär dig mer om planeringsverktyget för att förutsäga den unika räckvidden för utplaceringar av uppkopplade TV-apparater (CTV) enligt angiven budget och målinriktningskriterier.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# Om verktyget DSP-planering
+# Om verktyget DSP [!UICONTROL Planner]
 
 <!-- rename all titles/descriptions from "CTV reach planner" to "campaign reach planner" -->
 
@@ -73,11 +73,11 @@ Ja, du kan exportera en prognos till ett [!DNL Microsoft Excel]-kalkylblad genom
 
 >[!MORELIKETHIS]
 >
->* [Om DSP-planeringsverktyget](planner-about.md)
->* [Skapa en plan för ansluten TV-räckvidd](planner-create.md)
->* [Duplicera en ansluten TV-sändningsplan](planner-duplicate.md)
->* [Redigera en plan för ansluten TV-räckvidd](planner-edit.md)
->* [Exportera en plan för ansluten TV-räckvidd](planner-export.md)
->* [Generera om prognosen för en plan för en ansluten TV-räckvidd](planner-forecast.md)
->* [Arkivera en plan för ansluten TV-räckvidd](planner-archive.md)
->* [Inställningar för anslutna TV-program &#x200B;](planner-settings.md)
+>* [Om DSP [!UICONTROL Planner]-verktyget](planner-about.md)
+>* [Skapa en ansluten TV-räckvidd](planner-create.md)
+>* [Duplicera en ansluten TV-räckvidd](planner-duplicate.md)
+>* [Redigera en ansluten TV-räckvidd](planner-edit.md)
+>* [Exportera en ansluten TV-räckvidd](planner-export.md)
+>* [Generera om prognosen för en ansluten TV-räckvidd](planner-forecast.md)
+>* [Arkivera en ansluten TV-räckvidd](planner-archive.md)
+>* [Inställningar för anslutna TV-räckviddsplaner](planner-settings.md)

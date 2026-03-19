@@ -3,7 +3,7 @@ title: Granska och redigera paketinställningar med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar inställningar för nyckelpaket i grupp med kalkylblad.
 feature: DSP Packages
 exl-id: bf52de27-db48-40e2-bb55-a2c27a1924ad
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Om du vill uppdatera flera inställningar samtidigt kan du göra något av följ
 
 * Gör ändringar i markerade fält, spara filen och överför den redigerade kalkylbladsfilen tillbaka till DSP.
 
-* Om du vill ändra ytterligare paket, praktik eller annonser i kampanjen hämtar du ett kalkylblad för kampanjen. Ange eller klistra in uppdaterade inställningar i filen och överför sedan filen för att göra ändringarna. Instruktioner finns i &quot;[Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+* Om du vill ändra ytterligare paket, praktik eller annonser i kampanjen hämtar du ett kalkylblad för kampanjen. Ange eller klistra in uppdaterade inställningar i filen och överför sedan filen för att göra ändringarna. Instruktioner finns i &quot;[Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 Redigerbara fält innehåller de flesta inställningar som normalt är redigerbara.
 
@@ -50,7 +50,7 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Om du vill redigera någon av inställningarna redigerar du filen direkt och överför sedan ändringarna. Alla redigerbara kolumner markeras med blått.
 
@@ -76,7 +76,7 @@ När du hämtar inställningar för specifika paket innehåller kalkylbladsfilen
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-     Filen sparas i mappen Downloads i webbläsaren. En lista över de inkluderade kolumnerna finns i [Placera kolumner i hämtade/överförda bulkblad](#qa-sheet-columns).
+     Filen sparas i mappen Downloads i webbläsaren. En lista över de inkluderade kolumnerna finns i [Placera kolumner i hämtade/överförda kalkylblad](#qa-sheet-columns).
 
      Om du vill redigera någon av inställningarna redigerar du filen direkt och överför sedan ändringarna. Alla redigerbara kolumner markeras med blått. Om du vill använda rätt format för ett fält markerar och kopierar du värdet från den relevanta paketinställningen eller placeringsinställningen. För vissa målinställningar, t.ex. dagdelning, anpassade mål och konverteringsmått, finns det ett kopieringsalternativ i inställningen.
 
@@ -166,6 +166,6 @@ När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylb
 
 >[!MORELIKETHIS]
 >
->* [Granska och redigera inställningar för Campaign-komponenten med hjälp av gruppblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
+>* [Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)
 >* [Redigera paket](/help/dsp/campaign-management/packages/package-edit.md)
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
