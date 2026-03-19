@@ -1,24 +1,24 @@
 ---
 title: Om [!UICONTROL Deal ID Inbox]
-description: Lär dig mer om funktionen [!UICONTROL Deal ID inbox] som gör att du kan acceptera privata avtal som du redan har förhandlat med utgivare  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (tidigare kallad  [!DNL AdX]), and [!DNL Magnite DV+] (tidigare  [!DNL Rubicon]).
+description: Lär dig mer om funktionen [!UICONTROL Deal ID Inbox] som gör att du kan acceptera privata avtal som du redan har förhandlat med utgivare  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (tidigare kallad  [!DNL AdX]), and [!DNL Magnite DV+] (tidigare  [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Om [!UICONTROL Deal ID Inbox]
 
-Med Advertising DSP [!UICONTROL Deal ID inbox] kan du snabbt konfigurera avtal som DSP har importerat från utgivare via SSP (Supply Side Plattforms) så att du inte behöver konfigurera varje avtal manuellt. Du kan acceptera de garanterade och ej garanterade privata lagererbjudanden som du redan har förhandlat med utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare kallat [!DNL AdX]) och [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) från [!UICONTROL Deal ID inbox].
+Med Advertising DSP [!UICONTROL Deal ID Inbox] kan du snabbt konfigurera avtal som DSP har importerat från utgivare via SSP (Supply Side Plattforms) så att du inte behöver konfigurera varje avtal manuellt. Du kan acceptera de garanterade och ej garanterade privata lagererbjudanden som du redan har förhandlat med utgivare på [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare kallat [!DNL AdX]) och [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) från [!UICONTROL Deal ID Inbox].
 
 >[!NOTE]
 >
 >Advertising DSP är den första DSP som kan integreras med [!DNL FreeWheel]-API:t.
 
-I [!UICONTROL Deal ID inbox] kan du se detaljerna om erbjudandet så som din utgivare ser dem, snabba upp konfigurationen av erbjudandet och undvika manuella inmatningsfel.
+I [!UICONTROL Deal ID Inbox] kan du se detaljerna om erbjudandet så som din utgivare ser dem, snabba upp konfigurationen av erbjudandet och undvika manuella inmatningsfel.
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]
@@ -36,11 +36,11 @@ DSP uppdaterar automatiskt alla avtalsdetaljer varje dag kl. 4:00 EST. :30 Den u
 
 >[!NOTE]
 >
->För programmatiska garanterade avtal genom [!DNL Google Authorized Buyers] måste du leverera minst 90 % av din budget, annars förlorar ditt konto åtkomsten till [!DNL Google] avtal i [!UICONTROL Deal ID inbox].
+>För programmatiska garanterade avtal genom [!DNL Google Authorized Buyers] måste du leverera minst 90 % av din budget, annars förlorar ditt konto åtkomsten till [!DNL Google] avtal i [!UICONTROL Deal ID Inbox].
 
-## Implementera [!UICONTROL Deal ID inbox]
+## Implementera [!UICONTROL Deal ID Inbox]
 
-Om du vill få erbjudanden i [!UICONTROL Deal ID inbox] måste dina SSP-konton mappa din organisations DSP-konto till ditt SSP-konto. DSP kan dela organisationens kontonamn med berörda SSP:er. Kontakta kontoteamet på Adobe för instruktioner.
+Om du vill få erbjudanden i [!UICONTROL Deal ID Inbox] måste dina SSP-konton mappa din organisations DSP-konto till ditt SSP-konto. DSP kan dela organisationens kontonamn med berörda SSP:er. Kontakta kontoteamet på Adobe för instruktioner.
 
 Under avtalsförhandlingar ska du be utgivaren att skicka avtalet till din köpare i stället för till det överordnade DSP-kontot. Avtalsidentifieraren kan vara ett namn eller ett ID, beroende på SSP.
 
@@ -48,15 +48,15 @@ Under avtalsförhandlingar ska du be utgivaren att skicka avtalet till din köpa
 
 * **Granska avtal** för att verifiera att SSP har skickat rätt utgivare, flygdatum, CPM och annan avtalsinformation. Om utgivaren har gjort ett misstag kontaktar du dem utanför DSP så att de kan korrigera och skicka om avtalet.
 
-* **Acceptera erbjudanden** efter granskning, och de visas inte längre i [!UICONTROL Deal ID inbox]. Godkända erbjudanden listas i [!UICONTROL Inventory] > [!UICONTROL Deals] och är redo att rikta sig till annonsörer.
+* **Acceptera erbjudanden** efter granskning, och de visas inte längre i [!UICONTROL Deal ID Inbox]. Godkända erbjudanden listas i [!UICONTROL Inventory] > [!UICONTROL Deals] och är redo att rikta sig till annonsörer.
 
-* **Ignorera erbjudanden** som inte behövs eller som inte har begärts. Ignorerade erbjudanden flyttas till fliken [!UICONTROL Ignored Deals] i [!UICONTROL Deal ID inbox], som fungerar som ett arkiv. DSP varnar inte SSP:er och utgivare när du ignorerar ett avtal.
+* **Ignorera erbjudanden** som inte behövs eller som inte har begärts. Ignorerade erbjudanden flyttas till fliken [!UICONTROL Ignored Deals] i [!UICONTROL Deal ID Inbox], som fungerar som ett arkiv. DSP varnar inte SSP:er och utgivare när du ignorerar ett avtal.
 
-* **Ändra information för redan accepterade erbjudanden** från [!UICONTROL Inventory] > [!UICONTROL Deals] (inte i [!UICONTROL Deal ID inbox]). När utgivare skickar ändringar till avtal ansvarar annonsörer på liknande sätt för att implementera dessa ändringar i [!UICONTROL Inventory] > [!UICONTROL Deals] eftersom [!UICONTROL Deal ID inbox] inte synkroniserar ändringar från SSP:er efter att avtal har skapats.
+* **Ändra information för redan accepterade erbjudanden** från [!UICONTROL Inventory] > [!UICONTROL Deals] (inte i [!UICONTROL Deal ID Inbox]). När utgivare skickar ändringar till avtal ansvarar annonsörer på liknande sätt för att implementera dessa ändringar i [!UICONTROL Inventory] > [!UICONTROL Deals] eftersom [!UICONTROL Deal ID Inbox] inte synkroniserar ändringar från SSP:er efter att avtal har skapats.
 
 ## Vilka typer av erbjudanden kan inte accepteras?
 
-Om en avtalslista inte innehåller en ![Acceptera](/help/dsp/assets/accept.png)-ikon eller en [!UICONTROL Accept]-knapp kan du inte acceptera den från [!UICONTROL Deal ID inbox]. I stället kan du [skapa avtals-ID-informationen manuellt](/help/dsp/inventory/deal-id-create.md).
+Om en avtalslista inte innehåller en ![Acceptera](/help/dsp/assets/accept.png)-ikon eller en [!UICONTROL Accept]-knapp kan du inte acceptera den från [!UICONTROL Deal ID Inbox]. I stället kan du [skapa avtals-ID-informationen manuellt](/help/dsp/inventory/deal-id-create.md).
 
 Du kan inte acceptera följande typer av avtal:
 
@@ -74,5 +74,5 @@ Avtalsdetaljerna innehåller anledningen till att erbjudandet inte är tillgäng
 
 >[!MORELIKETHIS]
 >
->* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
+>* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Översikt över lagerfunktioner](inventory-overview.md)

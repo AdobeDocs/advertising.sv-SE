@@ -3,9 +3,9 @@ title: Om [!DNL On Demand] premiumlager
 description: Läs mer om de avtal som DSP har förhandlat fram i förväg med våra partners.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ Detaljerna för varje avtal innehåller data i följande kolumner:
 
 >[!MORELIKETHIS]
 >
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals](on-demand-inventory-subscribe.md)
->* [Begär Premium-erbjudanden på begäran](on-demand-inventory-rerequest.md)
->* [Visa status för dina [!DNL On Demand] avtalsbegäranden och prenumerationer](on-demand-inventory-view-status.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] premiumlagerinköp](on-demand-inventory-subscribe.md)
+>* [Begär om [!DNL On Demand] premiumerbjudanden](on-demand-inventory-rerequest.md) igen
+>* [Visa status för dina [!DNL On Demand] avtalsförfrågningar och prenumerationer](on-demand-inventory-view-status.md)
+>* [[!DNL On Demand] premiumutgivare i Asien-Stillahavsregionen](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] premiumutgivare i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] premiumutgivare i Nordamerika](on-demand-inventory-publishers-na.md)

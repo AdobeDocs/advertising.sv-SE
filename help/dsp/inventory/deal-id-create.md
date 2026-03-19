@@ -1,16 +1,16 @@
 ---
-title: Skapa detaljer för avtal-ID manuellt
-description: Lär dig hur du manuellt anger information för ett avtal-ID.
+title: Skapa information om avtal-ID manuellt
+description: Lär dig hur du manuellt anger information för ett erbjudande-ID.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 20a57919-c68f-4c9d-a8e1-f49484f74655
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
-# Skapa detaljer för avtal-ID manuellt
+# Skapa information om avtal-ID manuellt
 
 1. På huvudmenyn klickar du på **[!UICONTROL Inventory]** > **[!UICONTROL Deals].**
 
@@ -66,8 +66,8 @@ När du har skapat avtalet kan du använda det som ett lagermål för flera plac
 
 >[!MORELIKETHIS]
 >
->* [Inställningar för manuellt avtal-ID](deal-id-settings.md)
->* [Konfigurera ett garanterat programavtal](programmatic-guaranteed-set-up.md)
->* [Skicka in en annons för en programmatisk garanterad transaktion med [!DNL FreeWheel]](freewheel-submit.md)
+>* [Inställningar för manuellt erbjudande-ID](deal-id-settings.md)
+>* [Konfigurera ett programmatiskt garanterat erbjudande](programmatic-guaranteed-set-up.md)
+>* [Skicka in en annons för ett programmatiskt garanterat avtal med [!DNL FreeWheel]](freewheel-submit.md)
 >* [Om programmatiska garanterade erbjudanden](programmatic-guaranteed-about.md)
-<!-- >* [Specify Placements and Ads for a Private Deal](deal-id-attach-placements.md)-->
+<!-- >* [Specify placements and ads for a private deal](deal-id-attach-placements.md)-->

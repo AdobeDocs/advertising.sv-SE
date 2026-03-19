@@ -3,16 +3,16 @@ title: Felkoder för  [!DNL FreeWheel] ad-överföringar
 description: Referera felkoderna som returneras för annonsinskick till  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '642'
 ht-degree: 3%
 
 ---
 
 # Felkoder för [!DNL FreeWheel] annonsinskick
 
-Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] &#x200B;](freewheel-check-status.md).
+Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] ](freewheel-check-status.md).
 
 ## Advertising DSP interna fel
 
@@ -38,7 +38,7 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 | 404 | Hittades inte | Resursen du begärde är inte tillgänglig. Om Creative-id:t inte hittas i PUT-åtgärden returneras 404. | Kontakta kontoteamet på Adobe. |
 | 405 | Metoden tillåts inte | En begäran gjordes om en resurs med en begärandemetod som inte stöds av den resursen (t.ex. med GET på en metod som kräver att data skickas av POST, eller med PUT på en skrivskyddad resurs). | Kontakta kontoteamet på Adobe. |
 | 408 | Timeout för begäran | En timeout uppstod när den här begäran bearbetades. Timeout orsakas vanligtvis av samtidiga begäranden om exklusiv åtkomst till vissa resurser. | Skicka begäran igen när du får den här statusen. Kontakta Adobe Account Team om problemet kvarstår. |
-| 422 | Obearbetbar entitet | Ogiltig resurs. Det här felet inträffar när begärandetexten är ogiltig eller när den skapade/uppdaterade resursen är ogiltig (t.ex. om det inte gick att hitta något avtal-ID). Mer information finns i [FreeWheel API 422-fel](#freewheel-422-errors). | Kontakta kontoteamet på Adobe. |
+| 422 | Obearbetbar entitet | Ogiltig resurs. Det här felet inträffar när begärandetexten är ogiltig eller när den skapade/uppdaterade resursen är ogiltig (t.ex. om det inte gick att hitta erbjudande-ID:t). Mer information finns i [FreeWheel API 422-fel](#freewheel-422-errors). | Kontakta kontoteamet på Adobe. |
 | 500 | Internt serverfel | API-systemfel. | Kontakta kontoteamet på Adobe. |
 
 {style="table-layout:auto"}
@@ -64,7 +64,7 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 
 >[!MORELIKETHIS]
 >
->* [Översikt över hur du ställer in garantierbjudanden för programmatiska inköp i  [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
->* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
->* [Skicka en annons för en programmatisk garanterad affär till [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
->* [Kontrollera status för annonser för [!DNL FreeWheel] Programmatiska garanterade erbjudanden](/help/dsp/inventory/freewheel-check-status.md)
+>* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](/help/dsp/inventory/freewheel-check-status.md)

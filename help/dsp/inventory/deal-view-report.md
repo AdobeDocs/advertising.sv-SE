@@ -3,7 +3,7 @@ title: Visa en detaljerad rapport för ett privat avtal, [!UICONTROL On Demand] 
 description: Lär dig hur du öppnar en rapport på avtalsnivå.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals, DSP On Demand Inventory, DSP Simple Ad Serving
 exl-id: 8a2e142e-0a05-47c7-9888-935665f06ad3
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -23,6 +23,6 @@ Rapporten på avtalsnivå innehåller antalet auktioner, anbudsräntan, vinstniv
 >[!MORELIKETHIS]
 >
 >* [Visa auktionsinsikter för ett privat avtal](/help/dsp/inventory/private-deal-auction-insights.md)
->* [Om [!DNL On Demand] Premiuminventering](on-demand-inventory-about.md)
+>* [Om [!DNL On Demand] Premium-lager](on-demand-inventory-about.md)
 >* [Om privat lager](private-inventory-about.md)
 >* [Om [!UICONTROL Simple Ad Serving]](simple-deal-about.md)

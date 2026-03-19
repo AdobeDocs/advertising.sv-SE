@@ -3,9 +3,9 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '4436'
+source-wordcount: '4439'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Datumen för paketet (om tillämpligt) eller kampanjen fylls i automatiskt som s
 >
 >* Flightdatumen måste ingå i kampanjflygdatumen och paketflygdatumen.
 
-### Placeringar tilldelade paket med paketnivåpacing
+### Placeringar som tilldelats paket med paketnivåpacing
 
 **[!UICONTROL Placement Funding]:** Så här budgeterar du placeringen:
 
@@ -89,7 +89,7 @@ Datumen för paketet (om tillämpligt) eller kampanjen fylls i automatiskt som s
    * Om du vill ta bort ett filter klickar du på **[!UICONTROL X]** i filterraden.
 1. Klicka på **[!UICONTROL Save]**.
 
-Se beskrivningar av varje pre-bid-filter på &quot;[Pre-Bid Filters på placeringsnivå och Använda dem](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
+Se beskrivningar av alla förbudsfilter på &quot;[Förbudsfilter på placeringsnivå och hur du använder dem](/help/dsp/optimization/optimization-pre-bid-filters.md).&quot;
 
 ### Alla andra placeringar
 
@@ -97,7 +97,7 @@ Se beskrivningar av varje pre-bid-filter på &quot;[Pre-Bid Filters på placerin
 
 **[!UICONTROL Gross Budget Goal]:** (Placeringar i kampanjer med endast marginalhantering) Bruttobudgettak och budgetintervall (*[!UICONTROL All time]*, *[!UICONTROL Daily]*, *[!UICONTROL Weekly]*, *[!UICONTROL Monthly]*).
 
-**[!UICONTROL Optimization Goal]:** Optimeringsmålet för paketet. Se beskrivningar av varje optimeringsmål på [Optimeringsmål och Använda dem](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** Optimeringsmålet för paketet. Se beskrivningar av varje optimeringsmål på [Optimeringsmål och hur du använder dem](/help/dsp/optimization/optimization-goals.md).
 
 **[!UICONTROL Target Goal]:** Målmålet, som används för att spåra prestanda.
 
@@ -191,7 +191,7 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
   På fliken [!UICONTROL Deals] kan du söka i listan efter nyckelord, nyckel, avtal-ID eller anpassad tagg. På fliken [!UICONTROL Deal Lists] kan du söka i listan efter namn på avtalslista eller ID för avtalslista.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [&#x200B; premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [ premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager ](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
 
   Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödesnamn, flödesknapp eller en vald utgivarregion, kategoritagg eller karakteristisk tagg.
 
@@ -218,7 +218,7 @@ Så här anger du målinriktning för lager:
 
 >[!TIP]
 >
->Om du prenumererade på [!UICONTROL On Demand]-lager men inte kan hitta de utgivare eller avtal som du vill rikta in dig på, kontrollerar du status för erbjudandena. Mer information om status finns i [Om [!DNL On Demand] Premiuminventering](/help/dsp/inventory/on-demand-inventory-about.md).
+>Om du prenumererade på [!UICONTROL On Demand]-lager men inte kan hitta de utgivare eller avtal som du vill rikta in dig på, kontrollerar du status för erbjudandena. Mer information om status finns i [Om [!DNL On Demand] premiumlager](/help/dsp/inventory/on-demand-inventory-about.md).
 
 **[!UICONTROL Video targeting]:** Mållager (men inte exkludera) efter lagerattribut. När du anger flera värden som mål för samma videoattribut kan alla markerade attribut anges som mål (till exempel \[Player size = large OR Player size = HD\]). När du har flera attribut som mål måste alla angivna attribut finnas (till exempel \[Varaktighet = 30-60 min] AND \[Spelarstorlek = stor ELLER Spelarstorlek = HD\]).
 
@@ -313,8 +313,8 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 **[!UICONTROL Included Audiences]:** Alla målgrupper för placeringen, inklusive [tredjepartssegment, förstapartssegment, Adobe-segment, anpassade segment och sparade målgrupper](/help/dsp/audiences/audience-settings.md). Den totala och aktiva borttagna dubblettstorleken för alla valda segment och sparade målgrupper visas också. Du kan välja en befintlig målgrupp, skapa en målgrupp som du kan återanvända senare eller välja specifika målgruppssegment:
 
 * Om du vill välja en befintlig målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer målgrupp.
-* Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer sedan **[!UICONTROL + Create Audience]**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md) med början från steg 3.
-* Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md). Klicka på **Spara** när du är klar.
+* Om du vill skapa en målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Included Audiences] och väljer sedan **[!UICONTROL + Create Audience]**. Instruktioner finns i [Skapa en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-create.md), med början i steg 3.
+* Om du vill markera specifika målgruppssegment klickar du på **[!UICONTROL Select segments for this placement only]**. Välj segmentlogik. Instruktioner finns i steg 6 i [Skapa en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-create.md). Klicka på **Spara** när du är klar.
 
 >[!NOTE]
 >
@@ -324,7 +324,7 @@ Du kan också exportera listan med målwebbplatser och blockerade webbplatser so
 
 * Om du vill välja en befintlig målgrupp klickar du på ![Välj](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Excluded Audiences] och väljer målgrupp.
 
-* Om du vill skapa en målgrupp klickar du på ![Markera](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Excluded Audiences] och väljer sedan **+ Skapa målgrupp**. Instruktioner finns i [Skapa en återanvändbar publik](/help/dsp/audiences/reusable-audience-create.md) med början från steg 3.
+* Om du vill skapa en målgrupp klickar du på ![Markera](/help/dsp/assets/chevron-down.png) bredvid [!UICONTROL Excluded Audiences] och väljer sedan **+ Skapa målgrupp**. Instruktioner finns i [Skapa en återanvändbar målgrupp](/help/dsp/audiences/reusable-audience-create.md), med början i steg 3.
 
 **[!UICONTROL Targeting]:** De typer av användar-ID som ska anges som mål. Du kan inte ändra den här inställningen efter att placeringen är aktiv (det vill säga efter att flygningen har börjat).
 
@@ -512,10 +512,10 @@ ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard 
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
->* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Hantera budmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
 >* [Vanliga frågor om kampanjhantering](/help/dsp/campaign-management/faq-campaign-management.md)

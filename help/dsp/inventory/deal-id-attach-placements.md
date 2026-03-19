@@ -3,7 +3,7 @@ title: Ange placeringar och annonser för ett privat avtal
 description: Lär dig hur du använder ett privat avtal med ytterligare praktik och annonser.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 09119471-429d-413e-8033-e29e1558abb0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan också [bifoga annonser till praktik](/help/dsp/campaign-management/ads/a
 
 ## Ange en icke-garanterad affär som ett lagermål för en placering
 
-* [Skapa en placering från [!UICONTROL Placements]-vyn &#x200B;](/help/dsp/campaign-management/placements/placement-create.md). Välj det privata erbjudandet i inställningarna för [!UICONTROL Inventory Targeting].
+* [Skapa en placering från [!UICONTROL Placements]-vyn ](/help/dsp/campaign-management/placements/placement-create.md). Välj det privata erbjudandet i inställningarna för [!UICONTROL Inventory Targeting].
 
 ## Bifoga praktik och annonser i ett PG-avtal
 
@@ -55,7 +55,7 @@ Placeringen börjar gälla när utgivaren har aktiverat ditt PG-erbjudande-ID.
 >[!MORELIKETHIS]
 >
 >* [Om privat lager](private-inventory-about.md)
->* [Visa placeringar och annonser för ett privat avtal](/help/dsp/inventory/private-deal-view-placements.md)
+>* [Visa platser och annonser för ett privat avtal](/help/dsp/inventory/private-deal-view-placements.md)
 >* [Skapa information om avtal-ID manuellt](deal-id-create.md)
->* [Inställningar för manuellt avtal-ID](deal-id-settings.md)
->* [Konfigurera ett garanterat programavtal](programmatic-guaranteed-set-up.md)
+>* [Inställningar för manuellt erbjudande-ID](deal-id-settings.md)
+>* [Konfigurera ett programmatiskt garanterat erbjudande](programmatic-guaranteed-set-up.md)

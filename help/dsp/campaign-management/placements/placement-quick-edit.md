@@ -3,9 +3,9 @@ title: Redigera snabbt inställningar för tangentmontering
 description: Lär dig hur du snabbt ändrar inställningar för tangentplacering.
 feature: DSP Placements
 exl-id: b5f83573-112a-4fa1-9f7f-f0fea8e3d079
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ Du kan redigera placeringsnamnet, status, högsta bud och budget utan att öppna
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
->* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
+>* [Hantera budmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Redigera annonsplanerna för ersättningar](placement-edit-ad-schedule.md)
 >* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)
+>* [Video: Så här redigerar du placeringar med massredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

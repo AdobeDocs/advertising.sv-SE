@@ -1,15 +1,15 @@
 ---
-title: Redigera attributtaggarna för ett avtal-ID
+title: Redigera attributtaggarna för ett erbjudande-ID
 description: Lär dig hur du skapar och redigerar attributtaggar för ett erbjudande-ID.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Redigera attributtaggarna för ett avtal-ID
+# Redigera attributtaggarna för ett erbjudande-ID
 
 Du kan skapa och tilldela taggar till erbjudande-ID:n för att gruppera liknande avtal. När du skapar eller redigerar en placering kan du söka efter tillgängligt lager efter taggnamn.
 
@@ -30,4 +30,4 @@ Du kan skapa och tilldela taggar till erbjudande-ID:n för att gruppera liknande
 >[!MORELIKETHIS]
 >
 >* [Om privat lager](private-inventory-about.md)
->* [Redigera inställningar för privat avtal](/help/dsp/inventory/deal-id-edit.md)
+>* [Redigera inställningar för privat erbjudande](/help/dsp/inventory/deal-id-edit.md)

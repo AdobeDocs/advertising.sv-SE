@@ -3,9 +3,9 @@ title: Översikt över att konfigurera PG-erbjudanden i  [!DNL Freewheel]
 description: Lär dig mer om förutsättningarna och de extra steg som krävs för att köra annonser för programmatiska annonsköp med utgivare på  [!DNL Freewheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: b9c60248-8104-42ef-8afb-2f9db67b33b0
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL Freewh
 
 >[!MORELIKETHIS]
 >
->* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
->* [Skicka en annons för en programmatisk garanterad affär till [!DNL Freewheel]](freewheel-submit.md)
->* [Kontrollera status för annonser för [!DNL FreeWheel] Programmatiska garanterade erbjudanden](freewheel-check-status.md)
->* [Felkoder för  [!DNL Freewheel] Lägg till överföringar](freewheel-error-codes.md)
+>* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
+>* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]](freewheel-submit.md)
+>* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](freewheel-check-status.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)
