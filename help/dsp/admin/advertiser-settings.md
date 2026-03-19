@@ -132,19 +132,19 @@ Valfria visningsfilter före bud av [!DNL DoubleVerify] och [!DNL Integral Ad Sc
 
 ###### Video
 
-** **[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
 
-** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
 
-** **[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
+**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
 
-** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visa
 
-** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
+**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 
