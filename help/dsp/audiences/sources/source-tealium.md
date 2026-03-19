@@ -124,7 +124,7 @@ För varje segment som du vill dela skapar du en separat koppling för varje åt
 
                * Namnge det anpassade meddelandet `cookies` för Cookies-attributet.
 
-            1. I alternativet att skapa ett anpassat fält anger du [!DNL Source Key] som ingick i [!UICONTROL External Segment Key]segmentmappningsdata[ i fältet ](#map-data) i föregående procedur.
+            1. I alternativet att skapa ett anpassat fält anger du [!DNL Source Key] som ingick i [!UICONTROL External Segment Key]segmentmappningsdata[&#x200B; i fältet &#x200B;](#map-data) i föregående procedur.
 
                DSP använder den här nyckeln för att fylla i ditt segment.
 

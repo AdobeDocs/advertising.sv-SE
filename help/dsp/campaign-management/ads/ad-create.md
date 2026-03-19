@@ -24,7 +24,7 @@ Mer information om hur du skapar flera tredjepartsannonser samtidigt finns i [Sk
 
 1. Klicka på namnet på kampanjen där annonsen ska inkluderas.
 
-1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [!UICONTROL Ad Types]annetypen[ i avsnittet ](ad-about.md#ad-types) på menyn.
+1. Klicka på **[!UICONTROL Create]** ovanför datatabellen. Klicka på [!UICONTROL Ad Types]annetypen[&#x200B; i avsnittet &#x200B;](ad-about.md#ad-types) på menyn.
 
 1. Ange annonsinställningarna för [ljudannonser](ad-settings-audio.md), [anslutna TV](ad-settings-connected-tv.md), [visningsannonser](ad-settings-display.md), [mobilannonser](ad-settings-mobile.md), [inbyggda annonser](ad-settings-native.md), [pre-roll-ads](ad-settings-pre-roll.md) eller [universella videoannonser](ad-settings-universal-video.md):
 
