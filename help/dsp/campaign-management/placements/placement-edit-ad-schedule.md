@@ -3,16 +3,16 @@ title: Redigera annonsplaner för praktik
 description: Lär dig hur du ändrar annonsplanerna för annonser som är kopplade till placeringar.
 feature: DSP Placements
 exl-id: 4c981d57-032f-4cde-858a-e9ac2bf2e6f2
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 # Redigera annonsplaner för praktik
 
-## Redigera annonsscheman för en eller flera placeringar
+## Redigera annonsplanerna för en eller flera platser
 
 Du kan ändra schemalagda flygdatum och annonsrotation för annonser som är kopplade till flera placeringar med hjälp av ett [!DNL Microsoft Excel]-kalkylblad. Varje annons kan vara aktiv under flera flygningar.
 
@@ -78,7 +78,7 @@ Du kan ändra schemalagda flygdatum och annonsrotation för annonserna som är k
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)

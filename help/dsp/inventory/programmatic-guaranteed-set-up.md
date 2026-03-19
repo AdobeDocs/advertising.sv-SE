@@ -3,7 +3,7 @@ title: Ställ in ett programmatiskt garanterat erbjudande
 description: Lär dig hur du skapar ett programmatiskt garantiavtal (PG) som du har förhandlat fram med en utgivare.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: d962942f-c248-4b48-97bd-baa2df3a519e
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 *[Stöd endast för plattformar på utbudssidan](programmatic-guaranteed-about.md)*
 
-När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds kan du konfigurera avtalet inom DSP antingen med hjälp av [!DNL Deal ID inbox] eller genom att ange avtalsinformationen manuellt.
+När du har förhandlat om en programmatisk garanti (PG) med en utgivare som stöds kan du konfigurera avtalet inom DSP antingen med hjälp av [!DNL Deal ID Inbox] eller genom att ange avtalsinformationen manuellt.
 
 >[!NOTE]
 >
 > För PG-avtal hanterar utgivaren allt budgetutrymme, budgetbegränsning och målinriktning. Alla SSP:er som tillåter PG via DSP bekräftar att utgivaren kan ställa in budgetbegränsning.
 >
-> Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] krävs extra behörigheter och steg. Mer information finns i [Översikt över hur du konfigurerar garantierbjudanden för programmatiska erbjudanden i  [!DNL FreeWheel]](freewheel-overview.md).
+> Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL FreeWheel] krävs extra behörigheter och steg. Mer information finns i [Översikt över hur du ställer in garanterade erbjudanden för programmatiska erbjudanden i  [!DNL FreeWheel]](freewheel-overview.md).
 
 ## Konfigurera ett programmatiskt garanterat erbjudande med [!DNL Deal ID Inbox] {#pg-setup-deal-id-inbox}
 
@@ -59,9 +59,9 @@ Använd den här metoden för alla andra SSP:er.
 >[!MORELIKETHIS]
 >
 >* [Om programmatiska garanterade erbjudanden](programmatic-guaranteed-about.md)
->* [Tips för att förhandla om ett program- eller garantiavtal](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Skicka in en annons för en programmatisk garanterad transaktion med [!DNL FreeWheel]](freewheel-submit.md)
->* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
+>* [Tips för att förhandla om ett programmatiskt garanterat erbjudande](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Skicka in en annons för ett programmatiskt garanterat avtal med [!DNL FreeWheel]](freewheel-submit.md)
+>* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Skapa information om avtal-ID manuellt](deal-id-create.md)
 >* [SSP-partners](ssp-partners.md)
->* [Översikt över lagerfunktioner](inventory-overview.md)
+>* [Översikt över lagerfunktioner i Advertising DSP](inventory-overview.md)

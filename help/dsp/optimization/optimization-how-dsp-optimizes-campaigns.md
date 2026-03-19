@@ -3,7 +3,7 @@ title: Hur DSP optimerar era kampanjer
 description: Läs om hur DSP optimerar paketen i era kampanjer.
 feature: DSP Optimization
 exl-id: 92d411cf-4307-4449-97b4-da3817f2a0b4
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -32,7 +32,7 @@ DSP kan optimera leveransen på två grundläggande sätt, med 20 olika variante
 
 * Prioritera balansering av kostnadseffektivitet med prestandahastighet
 
-Se [Optimeringsmål och Använda dem](optimization-goals.md) för att avgöra vilket optimeringsmål som kan hjälpa dig att uppnå dina KPI:er.
+Se [Optimeringsmål och hur du använder dem](optimization-goals.md) för att avgöra vilket optimeringsmål som kan hjälpa dig att uppnå dina KPI:er.
 
 ### Paket som prioriterar prestandahastigheten
 
@@ -80,12 +80,12 @@ Placering av filter före bud är det enklaste sättet att säkerställa höga p
 >
 >Vilka filter som är tillgängliga för förbud varierar beroende på annonstyp. För en standardplacering kan du till exempel filtrera genom klickfrekvens och visningsbarhet, men inte efter slutförandegrad.
 
-Se [Pre-Bid Filters på placeringsnivå och Använda dem](optimization-pre-bid-filters.md) för att avgöra vilket pre-bid-filter som kan hjälpa dig att uppnå dina KPI:er.
+Se [Förbudsfilter på placeringsnivå och hur du använder dem](optimization-pre-bid-filters.md) för att avgöra vilket förbudsfilter som kan hjälpa dig att uppnå dina KPI:er.
 
 >[!MORELIKETHIS]
 >
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
->* [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md)
+>* [Optimeringsmål och hur de används](optimization-goals.md)
+>* [Förbudsfilter på placeringsnivå och hur de används](optimization-pre-bid-filters.md)
 >* [Felsökningsprestanda](/help/dsp/optimization/troubleshooting-performance.md)

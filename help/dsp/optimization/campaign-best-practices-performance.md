@@ -3,7 +3,7 @@ title: Bästa tillvägagångssätt för att skapa resultatkampanjer
 description: Lär dig de bästa sätten att skapa prestandainriktade kampanjer, som bland annat innehåller placeringar som är optimerade för det lägsta CPA-värdet eller det högsta ROAS-värdet.
 feature: DSP Optimization, DSP Best Practices
 exl-id: bc297796-0c89-4d91-87aa-0668462526ae
-source-git-commit: 4b7d525eb944545dfceaf4dec94199e188bb2ab2
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Du måste konfigurera CPA- eller ROAS-optimering på paketnivå (se Steg 3 - Ska
 
    * Överväg att ställa in mindre strikta förbudsfilter om ytterligare målgruppsanpassning (som målgruppsanpassning, geolokalisering och webbplatsanpassning) tillämpas.
 
-Se beskrivningar av när varje pre-bid-filter ska användas på [Placement-level Pre-Bid Filters och How to Use Them](/help/dsp/optimization/optimization-pre-bid-filters.md).
+Se beskrivningar av när varje pre-bid-filter ska användas på [Placeringsnivå före bud-filter och hur de ska användas](/help/dsp/optimization/optimization-pre-bid-filters.md).
 
 ### Lager
 
@@ -157,7 +157,7 @@ Genom att använda kontextuell filtrering, blockering av bedrägeri före bud oc
 >
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
-> * [Så här optimerar DSP era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
->* [Optimeringsmål och Så här använder du dem](optimization-goals.md)
->* [Pre-Bid-filter på placeringsnivå och Så här använder du dem](optimization-pre-bid-filters.md)
+>* [Hur DSP optimerar era kampanjer](optimization-how-dsp-optimizes-campaigns.md)
+>* [Optimeringsmål och hur de används](optimization-goals.md)
+>* [Förbudsfilter på placeringsnivå och hur de används](optimization-pre-bid-filters.md)
 >* [Checklista för kampanjstart](/help/dsp/campaign-management/campaign-launch-checklist.md)

@@ -3,9 +3,9 @@ title: Visa en paketändringslogg
 description: Lär dig hur du visar ändringar som gjorts i paketet.
 feature: DSP Packages
 exl-id: dd33519b-19cf-4b6f-b6d2-ec0874e27075
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du kan sortera data efter valfri kolumn förutom Nytt värde och Gammalt värde.
 
 >[!MORELIKETHIS]
 >
->* [Om pakethantering](package-about.md)
+>* [Om pakethantering i Advertising DSP](package-about.md)
 >* [Skapa ett paket](package-create.md)
 >* [Redigera ett paket](package-edit.md)
 >* [Koppla en placering till ett paket](package-attach-placement.md)

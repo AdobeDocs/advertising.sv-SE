@@ -3,7 +3,7 @@ title: Använder [!DNL Roku] lager
 description: Lär dig mer om DSP partnerskap med  [!DNL Roku], inklusive lageralternativ, godkända tredjepartsspårningsleverantörer och metodtips för  [!DNL Roku]-specifika placeringar.
 feature: DSP On Demand Inventory, DSP Private Inventory
 exl-id: e7a1aa80-d7f0-4a4e-96b1-6b362a32106e
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -79,5 +79,5 @@ Till maximal skala:
 >[!MORELIKETHIS]
 >
 >* [Skapa information om avtal-ID manuellt](/help/dsp/inventory/deal-id-create.md)
-> * [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals](/help/dsp/inventory/on-demand-inventory-subscribe.md)
+> * [Prenumerera och begär åtkomst till [!DNL On Demand] premiumlagerinköp](/help/dsp/inventory/on-demand-inventory-subscribe.md)
 >* [Skapa en placering](/help/dsp/campaign-management/placements/placement-create.md)

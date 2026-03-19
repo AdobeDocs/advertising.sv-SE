@@ -3,9 +3,9 @@ title: Paketinställningar
 description: Se beskrivningar av tillgängliga paketinställningar.
 feature: DSP Packages
 exl-id: 20ec5e8e-4980-4fa0-80c9-531f5b02c0f9
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ För paket med anpassad felsökning är budgetintervallet alltid *[!UICONTROL Al
 
 **[!UICONTROL Gross Budget]:** (Paket med enbart paketering och dynamisk marginalhantering på paketnivå) Bruttobudgettak för paketets varaktighet.
 
-**[!UICONTROL Optimization Goal]:** (Endast paket med paketnivåpacing) Optimeringsmålet för paketet. Se beskrivningar av varje optimeringsmål på [Optimeringsmål och Använda dem](/help/dsp/optimization/optimization-goals.md).
+**[!UICONTROL Optimization Goal]:** (Endast paket med paketnivåpacing) Optimeringsmålet för paketet. Se beskrivningar av varje optimeringsmål på [Optimeringsmål och hur du använder dem](/help/dsp/optimization/optimization-goals.md).
 
 **[!UICONTROL Link PG Placements for Incremental Reach Optimization]:** (Endast paket med paketnivåpacering och med optimeringsmålen [!UICONTROL Always Max Bid & Maximize Reach] och [!UICONTROL Lowest Cost per Reach]) Använder hushållets måldata från alla programmatiska garanterade placeringar i kampanjen för att optimera för inkrementell räckvidd.
 
-**[!UICONTROL Custom Goal for Model Learning]:** (Endast paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Ett [anpassat mål](/help/dsp/optimization/custom-goal.md) som innehåller de intäkt- eller konverteringshändelser som används för att beräkna CPA- eller ROAS-måttet. Det anpassade målet måste omfatta ytterligare viktade evenemang med övre funnel (t.ex. sidbesök och kundvagnstillägg) som ska användas utöver CPA- eller ROAS-mätvärdena för paketoptimering. Mer information om anpassade mål, inklusive de bästa sätten att skapa för anpassade mål och kampanjer som använder dem, finns i [Anpassade mål](/help/dsp/optimization/custom-goal.md) och [Bästa metoder för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
+**[!UICONTROL Custom Goal for Model Learning]:** (Endast paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Ett [anpassat mål](/help/dsp/optimization/custom-goal.md) som innehåller de intäkt- eller konverteringshändelser som används för att beräkna CPA- eller ROAS-måttet. Det anpassade målet måste omfatta ytterligare viktade evenemang med övre funnel (t.ex. sidbesök och kundvagnstillägg) som ska användas utöver CPA- eller ROAS-mätvärdena för paketoptimering. Mer information om anpassade mål, inklusive de bästa sätten att skapa för anpassade mål och kampanjer som använder dem, finns i [Anpassade mål](/help/dsp/optimization/custom-goal.md) och [Bästa tillvägagångssätt för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md).<!-- At some point, all of the objectives will be prefixed with "ADSP_," but probably that won't show up in the Custom Goal list in the DSP UI. -->.
 
 **[!UICONTROL Consider Only Click Conversions for Model Learning]:** (Valfritt; paket med optimeringsmålen [!UICONTROL Highest Return on Ad Spend] och [!UICONTROL Lowest Cost per Acquisition]) Anger att optimeringsmodellen endast ska lära sig av klickbaserade konverteringar. I annat fall lär sig optimeringsmodellen av både klicknings- och inställningsbaserade konverteringar.
 
@@ -127,7 +127,7 @@ För befintliga paket utan alternativet [!UICONTROL Automatically rollover remai
 
 >[!MORELIKETHIS]
 >
->* [Om pakethantering](package-about.md)
+>* [Om pakethantering i Advertising DSP](package-about.md)
 >* [Skapa ett paket](package-create.md)
 >* [Redigera ett paket](package-edit.md)
 >* [Koppla en placering till ett paket](package-attach-placement.md)

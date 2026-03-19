@@ -3,7 +3,7 @@ title: Hämta rapporter om avanmälan till konsumenter
 description: Lär dig hur du hämtar rapporter om ID:n som skickats in för begäran om avanmälan från försäljning.
 feature: CCPA, DSP Segments
 exl-id: 94133ce3-4e2c-4a24-90c9-61bf10731668
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -25,6 +25,6 @@ Du kan hämta månadsrapporter om ID:n som kunder har skickat in för att avanm�
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter &#x200B;](ccpa-opt-out-about.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter ](ccpa-opt-out-about.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Om målgruppshantering](audience-about.md)

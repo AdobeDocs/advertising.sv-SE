@@ -3,7 +3,7 @@ title: Arkivera eller arkivera ett privat avtal
 description: Lär dig arkivera eller arkivera ett privat avtal.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f3f22299-a538-4956-a8ef-d44f20e4d2d7
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,4 +47,4 @@ Om utgivaren eller SSP tidigare har inaktiverat erbjudandet och du vill använda
 >[!MORELIKETHIS]
 >
 >* [Om privat lager](private-inventory-about.md)
->* [Redigera inställningar för privat avtal](/help/dsp/inventory/deal-id-edit.md)
+>* [Redigera inställningar för privat erbjudande](/help/dsp/inventory/deal-id-edit.md)

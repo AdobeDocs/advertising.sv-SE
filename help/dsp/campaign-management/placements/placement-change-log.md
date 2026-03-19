@@ -3,9 +3,9 @@ title: Visa en logg över placeringsändringar
 description: Lär dig hur du visar ändringar som gjorts i placeringen.
 feature: DSP Placements
 exl-id: d9fc6ead-0a0e-415d-8352-284db12dde1b
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Du kan sortera data efter kolumnerna Typ, Ändrad av eller Ändrad den.
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Skapa en placering](placement-create.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
+>* [Redigera annonsplanerna för ersättningar](placement-edit-ad-schedule.md)
 >* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Placeringsinställningar](placement-settings.md)

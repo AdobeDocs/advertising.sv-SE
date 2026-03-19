@@ -2,7 +2,7 @@
 title: Visa händelsepixlar för en [!UICONTROL Simple Ad Serving]-affär
 description: Lär dig hur du hämtar en kopia av händelsespårningspixlar för en [!UICONTROL Simple Ad Serving]-affär.
 feature: DSP Simple Ad Serving
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Händelsepixlarna innehåller en [!UICONTROL Clickthrough]-pixel och en [!UICONT
 >[!MORELIKETHIS]
 >
 >* [Om [!UICONTROL Simple Ad Serving]](simple-deal-about.md)
->* [Skapa ett [!UICONTROL Simple Ad Serving] avtal](simple-deal-create.md)
+>* [Skapa ett [!UICONTROL Simple Ad Serving] erbjudande](simple-deal-create.md)
 >* [Redigera [!UICONTROL Simple Ad Serving] avtalsinställningar](simple-deal-edit.md)
->* [[!UICONTROL Simple Ad Serving] Inställningar](simple-deal-settings.md)
->* [Visa en detaljerad rapport för ett avtal](/help/dsp/inventory/deal-view-report.md)
+>* [[!UICONTROL Simple Ad Serving] inställningar](simple-deal-settings.md)
+>* [Visa en detaljerad rapport om ett avtal](/help/dsp/inventory/deal-view-report.md)

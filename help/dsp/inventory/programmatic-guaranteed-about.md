@@ -3,9 +3,9 @@ title: Om programmatiska erbjudanden
 description: Lär dig mer om programmatiska erbjudanden (PG) och vilka SSP:er som är certifierade att erbjuda dem.
 feature: DSP Private Inventory, DSP Deal IDs, DSP Programmatic Guaranteed Deals
 exl-id: 47c89d8a-f45f-4fcb-84a6-031f7d7f580f
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: 54f69e4c0fa20b918a037cc5d2003d67db889913
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ PG-avtal kräver en standardplacering av PG-filer och annonser (eller en pixel p
 
 >[!MORELIKETHIS]
 >
->* [Tips för att förhandla om ett program- eller garantiavtal](/help/dsp/inventory/programmatic-guaranteed-tips.md)
->* [Konfigurera ett garanterat programavtal](programmatic-guaranteed-set-up.md)
+>* [Tips för att förhandla om ett programmatiskt garanterat erbjudande](/help/dsp/inventory/programmatic-guaranteed-tips.md)
+>* [Konfigurera ett programmatiskt garanterat erbjudande](programmatic-guaranteed-set-up.md)
 >* [SSP-partners](ssp-partners.md)
->* [Översikt över lagerfunktioner](inventory-overview.md)
+>* [Översikt över lagerfunktioner i Advertising DSP](inventory-overview.md)
