@@ -1,0 +1,71 @@
+---
+title: About uploading account data for reporting and simulations
+description: Learning how to upload account data for reporting and simulations
+---
+# About uploading account data for reporting and simulations
+
+<!-- Move all related files into one page? -->
+
+If you use online ad networks for which Search, Social, & Commerce doesn't provide API support, you can upload campaign content and offline cost, click, and conversion data for an account for reporting and performance simulations. Advertisers with an [[!DNL Adobe Analytics for Advertising] integration](/help/integrations/analytics/overview.md) can also view data for their accounts within Adobe Analytics.
+
+This feature is available for ad networks that follow the standard three-tiered campaign structure (campaign, ad group or ad set, and bid unit (ad or keyword)). For Adobe DSP, the feature is available for packages and the placements assigned to a package, but not for campaigns nor placements with placement-level pacing.
+
+Out-of-the-box support is available for the following networks:<!-- But what if you want to use something else? Is that possible currently? -->
+
+<!-- * Adobe Demand Side Platform (Advertising DSP) [Is any data upload required, or just an initial setup of an S3 bucket and/or something else, and then DSP sends the data automatically? If so, then I may need to reframe this whole chapter accordingly.] -->
+<!-- * [!DNL Reddit Ads] -->
+
+* [!DNL Apple Search Ads]
+* [!DNL LinkedIn Ads]
+* [!DNL TikTok Ads]
+
+Search, Social, & Commerce click tracking and Adobe Advertising conversion tracking aren't supported with this feature.
+
+## Functionality available within Search, Social, & Commerce
+
+* Tracking and reporting:
+
+  * Read-only campaign components down to the bid unit level within campaign management views.
+
+  * Performance data down to the ad group level <!-- verify the entity level --> within campaign management views and custom reports. Advertisers with [!DNL Adobe Analytics for Advertising]) additionally get performance data down to the ad group level <!-- verify the entity level --> within the Adobe Analytics report suites specified for the advertiser.<!-- Verify if the data types are limited -- cost, click, display impression, revenue? -->
+
+* Performance simulations when you add the campaigns to a portfolio.<!-- How does this even work? Do they need to be in standard or hybrid portfolios, with active or optimized status, and can you mix these campaigns with API-synced campaigns? If so, do we just ignore these campaigns and optimize the others? -->
+
+    Search, Social, & Commerce doesn't optimize anything, nor even place bids, for these types of campaigns within a portfolio.
+
+## Workflow for setting up offline accounts
+
+<!-- subtitle wording? -->
+
+1. [Set up a dummy account record](/help/search-social-commerce/new-ui/set-up/accounts/data-upload-accounts/data-upload-account-manage.md).
+
+1. Create a data file for a single account<!--  in what file format? -->, including the status at the day level for campaigns, ad groups, and ads.
+
+  The data must follow the data requirements for the ad network, so the data fields for each entity may vary by ad network.
+
+1. <!-- For all ad networks (excluding DSP), -->Upload the initial data for a single account in either of the following ways:
+
+* Upload a file manually from your device or network.
+
+* Upload the data to a Search, Social, & Commerce-assigned folder in an [!DNL Amazon Web Services] (AWS) [!DNL Simple Storage Service] ([!DNL S3]) bucket.
+
+  >[!PREREQUISITES] 
+  >
+  >* Contact your Adobe Account Team to enable account data uploads for your Search, Social, & Commerce advertiser account. The team will facilitate the creation of an organization-specific folder in an [!DNL S3] bucket, and they'll let you know when it's completed.<!-- Add more context about the bucket we'll use here or in the intro. Do we have one bucket (potentially with multiple folders) per client, or do we share them (if so, do we need to state how in docs? -->
+  >* Retrieve the [!DNL S3] cloud storage path, access key ID, and secret access key for your account. The same access key ID and secret access key are used for all of the organization's data-upload <!-- naming convention?--> accounts.
+
+1. Continue to upload new data files daily.
+
+1. Once you've uploaded data for 30 days, you can optionally add the campaigns to<!--what type? how should we refer to them? --> portfolios and generate simulations.
+
+You can [view a log of each data upload](upload-log.md) to see its status. In addition, if you initiate an upload but the upload isn't completely successful, then you receive an error notification via [Notification Center](/help/search-social-commerce/notifications/notification-about.md), based on your notification settings.
+
+<!-- Data validation, and any troubleshooting? -->
+
+>[!MORELIKETHIS]
+>
+>* [About uploading account data for reporting and simulations](data-upload-accounts-about.md)
+>* [Upload account data to an [!DNL Amazon] [!DNL S3] bucket](upload-data-from-s3-bucket.md)
+>* [Upload account data manually](upload-data-manually.md)
+>* [View a log of uploaded account data files](upload-log.md)
+>* [Manage ad network accounts for data uploads](/help/search-social-commerce/campaign-management/accounts/data-upload-account-manage.md)
