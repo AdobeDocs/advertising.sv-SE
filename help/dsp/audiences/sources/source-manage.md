@@ -3,7 +3,7 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: 5110e9b4c966f5d719743d09b5a3aebbb37e0a05
+source-git-commit: b14f9c4ff59332c8850d1c1534d286aa79fe575a
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -32,7 +32,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Klicka på **[!UICONTROL Add Source]**.
 
-1. Välj din [!UICONTROL Select a Type]kunddataplattform[&#x200B; på menyn &#x200B;](source-about.md):
+1. Välj din [!UICONTROL Select a Type]kunddataplattform[ på menyn ](source-about.md):
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
 
@@ -71,7 +71,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Håll markören över källraden och klicka på **[!UICONTROL Edit]**.
 
-1. Ändra de [ID:n som har valts för källan &#x200B;](#source-settings).
+1. Ändra de [ID:n som har valts för källan ](#source-settings).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -121,7 +121,7 @@ För [!DNL RampID] och [!DNL Unified ID2.0] söker leverantören upp varje e-pos
 
 * *[!DNL RampID]:* Att konvertera PII till en [!DNL RampID]. Du kan använda [!DNL RampIDs] för återmarknadsföring av inloggningsanvändare och för [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)-mätning.
 
-* *[!DNL Unified ID2.0] (Beta):* Så här konverterar du PII till ett [Unified ID 2.0](https://unifiedid.com)-ID för återmarknadsföring av inloggningsanvändare.
+* *[!DNL Unified ID2.0](Beta):* Så här konverterar du PII till ett [Unified ID 2.0](https://unifiedid.com)-ID för återmarknadsföring av inloggningsanvändare.
 
 <!-- Later
 * *[!DNL ID5] (Beta):* To convert PII to an [!DNL ID5] ID. You can use [!DNL ID5] IDs for retargeting logging-in users and for [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md) measurement.
@@ -134,7 +134,7 @@ För [!DNL RampID] och [!DNL Unified ID2.0] söker leverantören upp varje e-pos
 
 >[!MORELIKETHIS]
 >
->* [Om förstapartsmålskällor](source-about.md)
+>* [Om källor för förstapartsmålgrupper](source-about.md)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)
 >* [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)
