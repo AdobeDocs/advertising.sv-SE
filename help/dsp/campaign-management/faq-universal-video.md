@@ -1,16 +1,16 @@
 ---
-title: Frågor och svar om Universal Video
+title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 21ed5558a39ea9b097be8e70ef81bcf8e59c14b4
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# Frågor och svar om Universal Video
+# Frågor och svar om universell video
 
 Med [universella videoannonser](/help/dsp/campaign-management/ads/ad-about.md#ad-types) kan du målinrikta videolagret från skrivbordsmiljöer, mobilmiljöer och anslutna TV-miljöer för VPAID- och VAST-inventering med en enda videoplacering.
 
@@ -38,11 +38,11 @@ Skapa universella videomaterial och annonser på ungefär samma sätt som du ska
    * **[!UICONTROL VPAID & VAST (Default)]:** Inkluderar lager som inte tillåter visningsbarhetsmätning.
    * **[!UICONTROL VAST]** - Passar för ansluten TV-inventering.
 
-   Mer information finns i [Universella inställningar för videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
+   Mer information finns i [Inställningar för universell videoannons](/help/dsp/campaign-management/ads/ad-settings-universal-video.md).
 
 1. [Koppla de nya universella videoannonserna](/help/dsp/campaign-management/ads/ad-attach-to-placement.md) till den universella videoplaceringen.
 
-## Varför är vissa optimeringsmål och paket inte tillgängliga när miljön för uppkopplad TV väljs för en universell videoutplacering?
+## Varför är vissa optimeringsmål och paket inte tillgängliga när den anslutna TV-miljön väljs för en universell videoutplacering?
 
 Mål som är inkompatibla med vanliga anslutna tv-utplaceringar, t.ex. lägsta kostnad per klick, stöds inte för den anslutna TV-miljön i universalvideomonsplaceringar. Paket med inkompatibla optimeringsmål kan inte heller väljas.
 

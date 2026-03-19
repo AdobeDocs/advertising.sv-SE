@@ -3,7 +3,7 @@ title: Hantera era kampanjdata
 description: Lär dig hur du kan anpassa datavyer för kampanjer, paket, ersättningar och annonser.
 feature: DSP Campaign Data Views
 exl-id: a22da10b-104d-4860-a23f-f2a6e59b637c
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan anpassa de data som visas i kampanjhanteringsvyer ([!UICONTROL Campaigns]
 
 Ni kan ändra mätvärden och diagram för alla datavisualiseringar över kampanjer eller för en enda kampanj. Ändringar i en enskild kampanj tillämpas för alla datavisualiseringar för kampanjen, inklusive de i vyerna [!UICONTROL Packages], [!UICONTROL Placements] och [!UICONTROL Ads].
 
-### Ändra mått för datavisualisering
+### Ändra mätvärden för datavisualisering
 
 1. Klicka på ![Inställningar](/help/dsp/assets/settings-chart.png) i det övre högra hörnet av datavisualiseringen.
 
@@ -171,9 +171,9 @@ Välj **[!UICONTROL Items per page]**, *[!UICONTROL 25]* eller *[!UICONTROL 50]*
 
 >[!MORELIKETHIS]
 >
->* [Typer av prestandarapporter i kampanjhanteringsvyer](campaign-reports-about.md)
->* [Visa platser, annonser och frekvensinformation för en placering](placement-details-view.md)
->* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
->* [Visa diagnostikrapporter för placering](placement-diagnostics.md)
+>* [Typer av resultatrapporter i kampanjhanteringsvyer](campaign-reports-about.md)
+>* [Visa webbplatser, annonser och frekvensinformation för en placering](placement-details-view.md)
+>* [Visa placeringsprognosrapporten](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Visa placeringsdiagnostikrapporter](placement-diagnostics.md)
 >* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

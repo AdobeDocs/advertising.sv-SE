@@ -3,7 +3,7 @@ title: Granska och redigera annonsinformation med hjälp av kalkylblad
 description: Lär dig hur du granskar annonsinställningar i grupp med kalkylblad.
 feature: DSP Ads
 exl-id: a223d4e1-2264-49fa-8579-817e7ea6ea56
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Du kan hämta information om alla annonser i en kampanj i XLSX-format (Excel-kalkylblad) för granskning. Information om *kalkylbladet* innehåller en flik med inställningar och tillhörande placeringar för varje annons och en annan flik med varje pixel som används för annonser i kampanjen.
 
-Om du vill redigera annonsinformationen ska du läsa &quot;[Granska och redigera inställningar för Campaign-komponenten med hjälp av bulkblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
+Om du vill redigera annonsinformationen läser du i &quot;[Granska och redigera inställningar för kampanjkomponenter med hjälp av kalkylblad](/help/dsp/campaign-management/campaign-components-review-edit.md)&quot;.
 
 >[!NOTE]
 >
->*Om du vill redigera enskilda annonsinställningar läser du även &quot;[Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
->*Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt eller om du vill bifoga annonser till placeringar, se även &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
+>*Om du vill redigera enskilda annonsinställningar ska du läsa &quot;[Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)&quot;.
+>*Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt eller om du vill bifoga annonser till placeringar läser du även &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 ## Hämta information om alla annonser i en kampanj
 
@@ -45,16 +45,16 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
 >[!MORELIKETHIS]
 >
 >* [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
 >* [Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [Inställningar för ljudannons](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Anslutna TV-inställningar](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Inställningar för visningsannons](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Ljudannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Inställningar för ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Inställningar för displayannonsering](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Inställningar för mobilannonsering](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Inbyggda visningsannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [Universella inställningar för videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [Annonsinställningar för förregistrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Inställningar för universell videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
