@@ -77,5 +77,5 @@ Du kan överföra taggarna [!DNL DoubleClick] och [!DNL Flashtalking] eller en m
 >* [Om annonshantering i Advertising DSP](ad-about.md)
 >* [Annonsspecifikationer](ad-specs.md)
 >* [Skapa en enstaka annons](ad-create.md)
->* [Video: Så här överför du annonstaggar från tredje part satsvis](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html)
+>* [Video: Så här överför du annonstaggar från tredje part satsvis](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-upload-third-party-ad-tags.html?lang=sv-SE)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)
