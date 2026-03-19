@@ -2,9 +2,9 @@
 title: Vanliga frågor om anpassade rapporter
 description: Läs mer om anpassade rapporter, inklusive hushållsrapporter och rapporter om konverteringsmetoder.
 exl-id: 3ffd178e-de41-4663-b85f-bd8ce3eb0dad
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 8ba0d485562017caf2a5dedb6215e1485be16c34
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Dessa mått i [!UICONTROL Household]-rapporter beräknas med det faktiska antale
 
 #### Hur konfigurerar jag rapporten för dimensionen [!UICONTROL Placement Tags]?
 
-Om du vill skapa taggar för placeringen [öppnar du placeringsinställningarna](/help/dsp/campaign-management/placements/placement-edit.md) och anger värden i fältet [Placeringstaggar](/help/dsp/campaign-management/placements/placement-settings.md).
+Om du vill skapa taggar för placeringen [öppnar du placeringsinställningarna](/help/dsp/campaign-management/placements/placement-edit.md) och anger värden i fältet [[!UICONTROL Placement Tags]](/help/dsp/campaign-management/placements/placement-settings.md).
 
 När en placering innehåller flera taggar betraktas hela strängen som en tagg. Rapporten innehåller en rad för varje unik sträng.
 
@@ -89,7 +89,7 @@ Två typer av attribueringsmetoder stöds:
 
 * [!DNL Analytics]-rapportdata är särskilt värdefulla för att analysera via marknadsföringskanaler, interaktionsstatistik för webbplatser och så vidare. DSP [!UICONTROL Household Conversions]-rapporten ger mer detaljerade insikter genom att tillåta att konverteringsdata delas upp efter olika dimensioner, till exempel medietyp och utgivare.
 
-### [!UICONTROL Household Reach & Frequency] och [!UICONTROL Household Conversions] Rapporter jämfört med data från [!DNL Advanced Measurement Services]
+### [!UICONTROL Household Reach & Frequency] och [!UICONTROL Household Conversions] rapporter jämfört med data från [!DNL Advanced Measurement Services]
 
 För avancerade rapporter om hushållsbaserad räckvidd och frekvens eller konverteringar kan [[!DNL Strategic Advertising Consulting] teamet](/help/dsp/introduction/advanced-measurement-services.md) tillhandahålla anpassningsbara rapporter tillsammans med övergripande strategiska rekommendationer. Mer information om [!DNL Advanced Measurement Services] får du av ditt Adobe-kontoteam.
 
@@ -103,9 +103,9 @@ Det bästa användningsexemplet är att använda både [!UICONTROL Household]-ra
 
 ## Analysrapporter för konverteringssökväg
 
-### Hur fungerar rapporten Sökväg till konvertering jämfört med rapporter som skapats av [!DNL Advanced Measurement Services] och Adobe Analytics Analysis Workspace?
+### Hur skiljer sig rapporten [!UICONTROL Path to Conversion] från rapporter som skapats av [!DNL Advanced Measurement Services] och Adobe Analytics Analysis Workspace?
 
-| | Sökväg till konverteringsrapport | Haloeffekt för Advanced Measurement Services i sökrapporter | Rapporter i Analysis Workspace |
+| | [!UICONTROL Path to Conversion]-rapport | Haloeffekt för Advanced Measurement Services i sökrapporter | Rapporter i Analysis Workspace |
 | --- | --- | --- |---|
 | Kundvärde | Generera en självbetjäningsrapport för att förstå vilka vägar i annonsen som ledde till fler konverteringar för att öka optimeringen | Förstå hur uppkopplad TV-taktik påverkar sökklickningar | Förstå effekten av er helhetsbaserade investering i Adobe Advertising, tillsammans med andra marknadsföringskanaler, på sökklick |
 | Hushållsnivå | Ja | Ja | Nej |
@@ -117,7 +117,7 @@ Det bästa användningsexemplet är att använda både [!UICONTROL Household]-ra
 | Marknadsföringskanaler | DSP + Search (från Search, Social och Commerce) | DSP + Search (från Search, Social och Commerce) | Marknadsföringskanaler som inte spåras av Adobe Advertising klickbara EF-ID (som Organic Search, Organic Social, Email och Affiliate) |
 | Konverteringsmått som stöds | Mätvärden som spåras med hjälp av Adobe Advertising händelsepixel (AMO ID) och Adobe Analytics tracking | Klicka (inga konverteringar) | Mätvärden som spåras med hjälp av Adobe Analytics tracking |
 
-Mer information om haloeffekten för Advanced Measurement Services i sökrapporter finns i [Advanced Measurement Services](/help/dsp/introduction/advanced-measurement-services.md).
+Mer information om haloeffekten för Advanced Measurement Services i sökrapporter finns i [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md).
 
 >[!MORELIKETHIS]
 >
