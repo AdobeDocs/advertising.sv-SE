@@ -102,4 +102,4 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 >* [Placeringsinställningar](placement-settings.md)
 >* [Visa placeringsprognosrapporten](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: Så här redigerar du placeringar med massredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)
+>* [Video: Så här redigerar du placeringar med massredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)

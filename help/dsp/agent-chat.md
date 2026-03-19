@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Använd AI-chattgränssnittet om du vill söka efter konceptuellt och instruktionsinnehåll i [Advertising DSP Guide](/help/dsp/home.md) och (annonsörer med Advertising Creative) i [Advertising Creative Guide](/help/creative/home.md). Svaren baseras endast på vad som dokumenterats för dessa produkter i [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
+Använd AI-chattgränssnittet om du vill söka efter konceptuellt och instruktionsinnehåll i [Advertising DSP Guide](/help/dsp/home.md) och (annonsörer med Advertising Creative) i [Advertising Creative Guide](/help/creative/home.md). Svaren baseras endast på vad som dokumenterats för dessa produkter i [Experience League](https://experienceleague.adobe.com/sv/docs/advertising).
 
 Svaren innehåller citat, ytterligare frågor och uppföljningsfrågor som hjälper dig att förfina frågan och hitta mer information. Din chatthistorik bevaras och dina frågor delas inte med andra användare.
 
