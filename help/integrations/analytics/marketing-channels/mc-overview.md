@@ -3,9 +3,9 @@ title: Grundläggande om  [!DNL Marketing Channels]
 description: Lär dig viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare ska förstå.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: 0b95d99a1370a047642f8d1e4bbafe35ad5187f6
+source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 På den här sidan förklaras viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare måste förstå.
 
-Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=sv-SE).
+Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html).
 
 ## Översikt över [!DNL Marketing Channels]
 
@@ -24,9 +24,9 @@ Titta på följande exempel på en korsbesöksresa. Varje besök på er webbplat
 
 ![Exempel på konverteringsresa mellan besök i marknadsföringskanaler](/help/integrations/assets/a4adc-mc-sample-journey.png)
 
-Genom att använda bearbetningsregler för [!UICONTROL Marketing Channels] kan du skapa uppsättningar av logik för att avgöra vilka kanaler som driver trafiken och för att spåra varje kanal när användarna kommer till webbplatsen. Kanalen [!UICONTROL Email] indikeras till exempel av en unik spårningskod som genereras när du klickar på den. När den loggas av Adobe Analytics kategoriseras besöket som om det kommer från en e-postmarknadsföringskampanj.
+Genom att använda [!UICONTROL Marketing Channels]-bearbetningsregler kan du skapa uppsättningar av logik för att avgöra vilka kanaler som driver trafiken och för att spåra varje kanal när användarna kommer till webbplatsen. Kanalen [!UICONTROL Email] indikeras till exempel av en unik spårningskod som genereras när du klickar på den. När den loggas av Adobe Analytics kategoriseras besöket som om det kommer från en e-postmarknadsföringskampanj.
 
-## Bearbetningsregler och hur marknadsföringskanaler ställs in
+## Bearbetningsregler och hur marknadsföringskanaler anges
 
 Varje gång en användare kommer till en webbplats gör de det via en URL som de antingen klickade på eller skrev direkt i adressfältet. När användaren kommer till webbplatsen spårar [!DNL Analytics] information som kan användas för att avgöra vilken kanal som körde besöket.
 
@@ -36,12 +36,12 @@ Andra kanaler saknar spårbara URL-sökvägar och behöver ytterligare logik fö
 
 Adobe rekommenderar att ni samarbetar med ert analysteam för att skapa en omfattande uppsättning [!DNL Marketing Channels] bearbetningsregler för att spåra alla kanaler som är relevanta för er verksamhet. På så sätt kan ni skapa kraftfulla attribueringsrapporter.
 
-Mer information om hur Adobe Advertising kan bidra till de signaler som krävs för att skapa anpassade marknadsföringskanaler finns i [Skapa [!DNL Marketing Channels] regler](mc-ids.md) med Advertising-id:n.&quot;
+Mer information om hur Adobe Advertising kan bidra till de signaler som krävs för att skapa anpassade marknadsföringskanaler finns i &quot;[Skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md) med Adobe Advertising-id:n.&quot;
 
 >[!MORELIKETHIS]
 >
 >* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising Reporting](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
