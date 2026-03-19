@@ -3,9 +3,9 @@ title: Visa status för dina [!DNL On Demand] avtalsförfrågningar och prenumer
 description: Lär dig hur du ser statusen för dina [!DNL On Demand] avtalsbegäranden och prenumerationer.
 feature: DSP On Demand Inventory
 exl-id: 4a8c0242-eaa7-426f-82da-8a4ae4bed492
-source-git-commit: 4843d706930c33a54aa442f719229e292d7174ad
+source-git-commit: a65abcd843c34e43b1a6f031420ea000092f2b73
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,9 @@ Om du har några frågor om godkännandeprocessen kontaktar du ditt Adobe-kontot
 
 >[!MORELIKETHIS]
 >
->* [Prenumerera och begär åtkomst till [!DNL On Demand] Premium Inventory Deals](on-demand-inventory-subscribe.md)
->* [Begär Premium-erbjudanden på begäran](on-demand-inventory-rerequest.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Asien-Stillahavsområdet](on-demand-inventory-publishers-apac.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
->* [[!DNL On Demand] Premium Inventory Publishers in Europe, the Middle East, and Africa](on-demand-inventory-publishers-emea.md)
->* [[!DNL On Demand] Premium Inventory Publishers i Nordamerika](on-demand-inventory-publishers-na.md)
+>* [Prenumerera och begär åtkomst till [!DNL On Demand] premiumlagerinköp](on-demand-inventory-subscribe.md)
+>* [Begär om [!DNL On Demand] premiumerbjudanden](on-demand-inventory-rerequest.md) igen
+>* [[!DNL On Demand] premiumutgivare i Asien-Stillahavsregionen](on-demand-inventory-publishers-apac.md)
+>* [[!DNL On Demand] premiumutgivare i Australien och Nya Zeeland](on-demand-inventory-publishers-anz.md)
+>* [[!DNL On Demand] premiumutgivare i Europa, Mellanöstern och Afrika](on-demand-inventory-publishers-emea.md)
+>* [[!DNL On Demand] premiumutgivare i Nordamerika](on-demand-inventory-publishers-na.md)
