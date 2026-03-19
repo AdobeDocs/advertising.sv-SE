@@ -1,16 +1,16 @@
 ---
-title: Om [!UICONTROL Report Destinations]
+title: Om rapportmål
 description: Lär dig hur du hanterar leveransplatser för anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: f1cc7a0d-13cb-4a27-816b-897f373984a6
-source-git-commit: e517dd5f5fa283ff8a2f57728612937148889732
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
 
-# Om [!UICONTROL Report Destinations]
+# Om rapportmål
 
 Du kan skapa och hantera leveransplatser, som kallas *[!DNL report destinations]*, för dina anpassade rapporter. När du har konfigurerat rapportdestinationer kan du konfigurera alla anpassade rapporter så att de levereras till en eller flera platser av samma måltyp. När du har sparat en rapport kan du inte ändra måltypen.
 
@@ -39,7 +39,7 @@ Du kan skapa nya mål samt redigera och ta bort befintliga mål från den här v
 
 >[!MORELIKETHIS]
 >
->* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Skapa ett rapportmål](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Rapportmålsinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
 >* [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Ta bort ett rapportmål](/help/dsp/reports/report-destinations/report-destination-delete.md)

@@ -3,9 +3,9 @@ title: Redigera ett rapportmål
 description: Lär dig hur du redigerar ett rapportmål.
 feature: DSP Custom Reports
 exl-id: 33c011a5-c207-455d-8112-360098024eaa
-source-git-commit: 7e614ecb517515217d812926f61ca10437820efd
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
->* [[!UICONTROL Report Destination] Inställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
->* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Om rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Skapa ett rapportmål](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Rapportmålsinställningar](/help/dsp/reports/report-destinations/report-destination-settings.md)
+>* [Ta bort ett rapportmål](/help/dsp/reports/report-destinations/report-destination-delete.md)

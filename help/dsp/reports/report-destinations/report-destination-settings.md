@@ -3,9 +3,9 @@ title: Inställningar för rapportmål
 description: Se informationen som krävs för rapportdestinationer, per måltyp.
 feature: DSP Custom Reports
 exl-id: 1437ceea-111a-4c2e-a439-037b3a35865c
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Vilken information som krävs för rapportdestinationer som inte är e-postrappo
 
 >[!MORELIKETHIS]
 >
->* [Om [!UICONTROL Report Destinations]](/help/dsp/reports/report-destinations/report-destination-about.md)
->* [Skapa en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-create.md)
+>* [Om rapportmål](/help/dsp/reports/report-destinations/report-destination-about.md)
+>* [Skapa ett rapportmål](/help/dsp/reports/report-destinations/report-destination-create.md)
 >* [Redigera en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-edit.md)
->* [Ta bort en [!UICONTROL Report Destination]](/help/dsp/reports/report-destinations/report-destination-delete.md)
+>* [Ta bort ett rapportmål](/help/dsp/reports/report-destinations/report-destination-delete.md)

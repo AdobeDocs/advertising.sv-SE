@@ -3,7 +3,7 @@ title: Hämta en anpassad rapport
 description: Lär dig ladda ned en anpassad rapport direkt.
 feature: DSP Custom Reports
 exl-id: a27ed432-c9d4-47c5-9c04-b38bb32e6425
-source-git-commit: ff8ee25c4effdc22515b5d57d44964bcb5264044
+source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
