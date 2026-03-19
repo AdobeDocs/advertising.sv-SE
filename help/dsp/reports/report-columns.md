@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 800f2c90bf95f029a0ecb42f45c29fa9e2ac3d55
+source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2927'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ ht-degree: 0%
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Title] | Innehåll/filmtitel. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Series] | Innehållsserien. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Genre] | Innehållsgenren. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Produktionskvaliteten, enligt definition i [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Unknown`, `Professionally Produced`, `Prosumer` eller `User Generated`. |
-| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Innehållstypen som definieras av [IAB Technology Laboratory](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Video,` `Game`, `Music`, `Application`, `Text`, `Other` eller `Unknown`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL ProdQ] | Produktionskvaliteten, som den definieras av [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Unknown`, `Professionally Produced`, `Prosumer` eller `User Generated`. |
+| [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Context] | Innehållstypen som definieras av [the [!DNL IAB Technology Laboratory]](https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md). Värdena kan vara `Video,` `Game`, `Music`, `Application`, `Text`, `Other` eller `Unknown`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Rating] | Innehållsklassificering, till exempel PG eller R. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Livestream] | Anger om annonsen fanns i en djurbesättning: `Not Live` eller `Live`. |
 | [!UICONTROL Dimension] | [!UICONTROL Content] | [!UICONTROL Content Length (in seconds)] | Innehållets längd i sekunder, som vanligtvis används för video eller ljud. |
