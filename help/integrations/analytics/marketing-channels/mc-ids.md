@@ -90,7 +90,7 @@ Ange inte kanalens värde som AMO-ID. I stället anger du det till något som ti
 
 ### Naturlig sökregel
 
-Kontrollera att [!UICONTROL Natural Search]-identifieringsreglerna [[!UICONTROL Paid Search] för ](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) innehåller frågesträngsparametrarna `ef_id` och `s_kwcid`. (Vanligtvis konfigureras detta automatiskt när Advertising Search, Social och Commerce integreras i [!DNL Analytics], men om en [!DNL Analytics]-administratör har ändrat logiken efter att integreringen konfigurerats bör du kontrollera detta.)
+Kontrollera att [!UICONTROL Natural Search]-identifieringsreglerna [[!UICONTROL Paid Search] för &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) innehåller frågesträngsparametrarna `ef_id` och `s_kwcid`. (Vanligtvis konfigureras detta automatiskt när Advertising Search, Social och Commerce integreras i [!DNL Analytics], men om en [!DNL Analytics]-administratör har ändrat logiken efter att integreringen konfigurerats bör du kontrollera detta.)
 
 Ställ in regeln på&quot;Matchar reglerna för identifiering av naturlig sökning&quot; (vilket vanligtvis är standardinställningen för den här kanalen).
 
