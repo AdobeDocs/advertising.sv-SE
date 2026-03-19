@@ -25,6 +25,6 @@ Du kan hämta månadsrapporter om ID:n som kunder har skickat in för att avanm�
 >[!MORELIKETHIS]
 >
 >* [Adobe Advertising support for the California Consumer Privacy Act: Consumer opt out of sales support](/help/privacy/ccpa/ccpa-opt-out-of-sale.md)
->* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter &#x200B;](ccpa-opt-out-about.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
+>* [Om [!UICONTROL CCPA Opt-out-of-Sale] segment och rapporter ](ccpa-opt-out-about.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
 >* [Om målgruppshantering](audience-about.md)
