@@ -3,9 +3,9 @@ title: Hantera budmultiplikatorer för praktik
 description: Lär dig hur du skapar och redigerar budmultiplikatorer för dina placeringsmål.
 feature: DSP Placements
 exl-id: fbd44960-c9df-4713-94b7-13bcdb7e2568
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 32b811e1fc7c9895b75c1e184db72f2d3f5963a5
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett [begränsat
 
 Den här funktionen fungerar med dina befintliga placeringsmål. Information om hur du ändrar de valda målen för dina placeringar finns i [Redigera placeringar](/help/dsp/campaign-management/placements/placement-edit.md).
 
-## Hantera budmultiplikatorer för en enda placering
+## Hantera budmultiplikaterna för en enda placering
 
 Du kan antingen redigera värden manuellt eller överföra ett kalkylblad för en enstaka placering.
 
@@ -125,7 +125,7 @@ Du kan ange budmultiplikatorer (med andra värden än 1,00) för ett begränsat 
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Redigera placeringar](placement-edit.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
