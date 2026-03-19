@@ -3,9 +3,9 @@ title: Redigera en annons
 description: Lär dig hur du redigerar en annons.
 feature: DSP Ads
 exl-id: 149eeb61-b4d1-4c88-8dcd-ad11e135a486
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Om du vill ändra pixlar för spårning av annonser från tredje part för flera annonser samtidigt, se &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
+>Information om hur du ändrar pixlar för spårning av annonser från tredje part för flera annonser samtidigt finns i &quot;[Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)&quot;.
 
 1. Klicka på **[!UICONTROL Campaigns]** på huvudmenyn.
 
@@ -40,9 +40,9 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Duplicera en annons](ad-duplicate.md)
->* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
+>* [Visa de placeringar som är associerade med en annons](ad-list-placements.md)
 >* [Annonsspecifikationer](ad-specs.md)

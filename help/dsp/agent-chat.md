@@ -5,7 +5,7 @@ feature: DSP Introduction, Creative Introduction
 hidefromtoc: true
 hide: true
 exl-id: 30feb866-cc8c-4760-af94-2b2e08ebb361
-source-git-commit: 54442a2bea5a2f34ca6eb59b7d3c8c36c4bb79bb
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <!-- How will this work once we have unified shell, which has its own version of AI Assistant? -->
 
-Use the AI chat interface to search for conceptual and how-to content across the [Advertising DSP Guide](/help/dsp/home.md) and (advertisers with Advertising Creative) the [Advertising Creative Guide](/help/creative/home.md). Answers are based only on what&#39;s documented for these products in [Experience League](https://experienceleague.adobe.com/sv/docs/advertising).
+Använd AI-chattgränssnittet om du vill söka efter konceptuellt och instruktionsinnehåll i [Advertising DSP Guide](/help/dsp/home.md) och (annonsörer med Advertising Creative) i [Advertising Creative Guide](/help/creative/home.md). Svaren baseras endast på vad som dokumenterats för dessa produkter i [Experience League](https://experienceleague.adobe.com/en/docs/advertising).
 
-Responses include citations as well as additional prompts and follow-up questions to help you refine your query and find more information. Your chat history is maintained, and your queries aren&#39;t shared with other users.
+Svaren innehåller citat, ytterligare frågor och uppföljningsfrågor som hjälper dig att förfina frågan och hitta mer information. Din chatthistorik bevaras och dina frågor delas inte med andra användare.
 
 >[!NOTE]
 >
->Queries don&#39;t return data about your account, such as campaign, deal, or audience configurations, statuses, or performance. They also don&#39;t help you troubleshoot issues.
+>Frågor returnerar inte data om ditt konto, t.ex. kampanj-, erbjudande- eller målgruppskonfigurationer, status eller prestanda. De hjälper dig inte heller att felsöka problem.
 
 ![Exempel på en fråga och ett svar](/help/dsp/assets/agent-chat-response.png "Exempel på en fråga och ett svar")
 
@@ -38,15 +38,15 @@ Responses include citations as well as additional prompts and follow-up question
 
 Ni kan fråga om kampanjhantering, optimering, målgruppshantering, erbjudanden, rapporter och andra produktfunktioner. Här följer några exempel:
 
-* How do I attach an ad to a placement?
+* Hur bifogar jag en annons till en praktik?
 
-* What are the consequences of using the different pacing options in placement settings?
+* Vilka följder får det om du använder de olika placeringsalternativen?
 
-* When should I use each type of optimization goal?
+* När ska jag använda varje typ av optimeringsmål?
 
-* Why don&#39;t programmatic guaranteed (PG) placements serve impressions?
+* Varför fungerar inte programmatiska placeringar (PG) imponerande?
 
-* Which reports include household-level data?
+* Vilka rapporter innehåller uppgifter om hushållet?
 
 * Vad är skillnaden mellan en målinriktad upplevelse och en icke-målinriktad upplevelse i [!DNL Creative]?
 
@@ -58,15 +58,15 @@ Du kan ställa flera frågor i ett meddelande, men bara ett meddelande i taget. 
 
 1. Klicka på ![Byråchatt](/help/dsp/assets/agent-chat.png "Byråchatt") i det övre högra hörnet på en sida.
 
-1. Enter your query and click ![Submit prompt](/help/dsp/assets/submit-prompt.png "Submit prompt").
+1. Ange din fråga och klicka på ![Skicka fråga](/help/dsp/assets/submit-prompt.png "Skicka fråga").
 
-   For more information, see &quot;[Writing Prompts](#writing-prompts).&quot;
+   Mer information finns i &quot;[Skriva uppmaningar](#writing-prompts)&quot;.
 
-   Svaret innehåller textbundna citat och en **[!UICONTROL Documentation Sources]**-lista längst ned. Follow-up questions and suggestions may also appear.
+   Svaret innehåller textbundna citat och en **[!UICONTROL Documentation Sources]**-lista längst ned. Uppföljningsfrågor och förslag kan också visas.
 
-1. (Optional) To open a page used as a data source, do either of the following:
+1. (Valfritt) Gör något av följande om du vill öppna en sida som används som datakälla:
 
-   * Click the numbered citation.
+   * Klicka på den numrerade citattecknet.
 
    * Klicka på **[!UICONTROL Documentation Sources]** om du vill visa en lista över alla sidor som anges i svaret och klicka sedan på sidlänken.
 
@@ -82,12 +82,12 @@ Du kan ställa flera frågor i ett meddelande, men bara ett meddelande i taget. 
 
 ## Grundläggande om att skriva uppmaningar {#writing-prompts}
 
-* **Var tydlig och specifik.** Use full questions (&quot;How do I subscribe to On-demand inventory?&quot;), task phrases (&quot;subscribe to On-demand inventory&quot;), or topic phrases (&quot;On-demand inventory&quot;).
+* **Var tydlig och specifik.** Använd fullständiga frågor (&quot;Hur prenumererar jag på On-demand-inventering?&quot;), uppgiftsfraser (&quot;prenumerera på On-demand-inventering&quot;) eller ämnesfraser (&quot;On-demand-inventering&quot;).
 
-* **Match UI terms** when possible for product features (such as &quot;campaigns&quot; or &quot;deals&quot;).
+* **Matcha användargränssnittsvillkor** om möjligt för produktfunktioner (till exempel&quot;kampanjer&quot; eller&quot;erbjudanden&quot;).
 
-  For common actions (such as &quot;add,&quot; &quot;attach,&quot; or &quot;assign&quot;), you can use synonyms.
+  För vanliga åtgärder (som&quot;add&quot;,&quot;attach&quot; eller&quot;assign&quot;) kan du använda synonymer.
 
-* **Add detail** to narrow or broaden results. Refine with follow-up questions as needed.
+* **Lägg till detalj** om du vill begränsa eller bredda resultaten. Förfina med uppföljningsfrågor efter behov.
 
 * **Oroa dig inte för interpunktion och skiftläge** förutom när de påverkar innebörden.

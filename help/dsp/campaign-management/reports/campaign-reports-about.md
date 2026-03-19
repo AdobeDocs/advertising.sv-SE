@@ -3,7 +3,7 @@ title: Typer av resultatrapporter i kampanjhanteringsvyer
 description: Läs mer om rapportdata som ingår i kampanjhanteringsvyer.
 feature: DSP Campaign Data Views
 exl-id: 7af97704-2053-4862-a851-12db009e6776
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Du kan [anpassa datatabellerna](campaign-data-views-manage.md#data-tables-manage
 
 Klicka på kampanjnamnet om du vill visa en mer detaljerad kampanj.
 
-#### Varningsindikatorer
+#### Aviseringsindikatorer
 
 En [!UICONTROL Alerts]-kolumn anger när en kampanj, eller någon underordnad entitet under den, har ett problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger också om det finns några varningar tillgängliga för de enheter som visas. Mer information finns i [Visa aviseringar](campaign-alerts.md).
 
@@ -52,13 +52,13 @@ Inom en kampanj kan du filtrera data baserat på kampanjentiteten: [!UICONTROL P
 
 För varje kampanj kan du [anpassa trenddiagram för tidsserier](campaign-data-views-manage.md#data-visualizations-manage) med tre mätvärden, som är tillgängliga i varje entitetsvy. Samma mätvärden används för alla trenddiagram för kampanjen.
 
-Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer &#x200B;](#chart-view).
+Mer information finns i avsnittet [&quot;Diagramvy&quot; om mått för olika kampanjer ](#chart-view).
 
 ### Tabellvy
 
 På varje enhetsflik innehåller varje rad som standard plats- och leveransmått, men du kan [ändra kolumnvyn](campaign-data-views-manage.md#column-view-change) eller till och med [skapa en anpassad kolumnvy](campaign-data-views-manage.md#column-view-create) som ska användas på alla underflikar för kampanjen. Du kan ytterligare [anpassa datatabellerna](campaign-data-views-manage.md#data-tables-manage) på andra sätt. Varje datatabell innehåller en [!UICONTROL Subtotals]-rad, som visar antingen summan eller det genomsnittliga värdet för varje mätvärde över alla synliga rader.
 
-#### Varningsindikatorer
+#### Aviseringsindikatorer
 
 En [!UICONTROL Alerts]-kolumn anger när ett paket, en placering eller en annons - eller någon underordnad enhet under ett paket eller en placering - har problem. En [!UICONTROL Alerts]-kolumn anger när en kampanj, eller någon underordnad entitet under den, har ett problem. En [!UICONTROL Pulse Panel]-ikon till höger om verktygsfältet anger också om det finns några varningar tillgängliga för de enheter som visas. Mer information finns i [Visa aviseringar](campaign-alerts.md).
 
@@ -66,7 +66,7 @@ En [!UICONTROL Alerts]-kolumn anger när ett paket, en placering eller en annons
 
 Visa [rapportsidorna på kampanjnivå](/help/dsp/campaign-management/campaigns/campaign-view-report.md) om du vill se andra databrytningar. Rapporten innehåller avsnitt om [!UICONTROL Geography]-, [!UICONTROL Device]-, [!UICONTROL Viewability]- och [!UICONTROL Audience Performance]-data.
 
-### Andra typer av rapportering på placeringsnivå
+### Andra typer av rapporter på placeringsnivå
 
 Visa [rapportsidorna på placeringsnivå](/help/dsp/campaign-management/placements/placement-view-report.md) om du vill se andra databrytningar. Rapporten innehåller avsnitt om [!UICONTROL Geography], [!UICONTROL Device], [!UICONTROL Viewability], [!UICONTROL Audience Performance], [!UICONTROL Notifications] och [!UICONTROL Ads] data.
 
@@ -85,7 +85,7 @@ Visa [rapportsidorna på annonsnivå](/help/dsp/campaign-management/ads/ad-view-
 
 >[!MORELIKETHIS]
 >
->* [Visa platser, annonser och frekvensinformation för en placering](placement-details-view.md)
+>* [Visa webbplatser, annonser och frekvensinformation för en placering](placement-details-view.md)
 >* [Hantera dina kampanjdatavyer](campaign-data-views-manage.md)
 >* [Exportera data från en kampanjhanteringsvy](campaign-export-data.md)
 >* [Visa en detaljerad rapport för en kampanj](/help/dsp/campaign-management/campaigns/campaign-view-report.md)

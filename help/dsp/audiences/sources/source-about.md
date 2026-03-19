@@ -3,7 +3,7 @@ title: Om källor med förstapartsmålgrupper
 description: Lär dig hur du konverterar andra användaridentifierare i dina förstapartssegment till universella ID:n för cookiefri målinriktning.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 62d27f4af9705194f4254ffcb3145719dfd5af2f
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
@@ -72,9 +72,9 @@ DSP kan även ansluta till ytterligare CDP:er med batchvis, direktuppspelad elle
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE), som är en del av Adobe Experience Platform.
+DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som är en del av Adobe Experience Platform.
 
-I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=sv-SE) , inklusive en översikt över produkten, instruktioner om hur du [skapar målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=sv-SE) och [skapar målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=sv-SE) samt [aktiverar data till destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=sv-SE).
+I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) , inklusive en översikt över produkten, instruktioner för att [skapa målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapa destinationsanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) samt [aktivera data för destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
 Om du vill att DSP ska kunna importera dina [!DNL Adobe] [!DNL Real-time CDP] förstapartssegment och konvertera dina hashade e-postadresser till universella ID:n läser du i &quot;[Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;.
 
@@ -84,11 +84,11 @@ Du kan dela din organisations egna data från [!DNL ActionIQ]-kunddataplattforme
 
 ### [!DNL Amperity]
 
-Du kan dela din organisations egna data från [!DNL Amperity]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i [Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md).
+Du kan dela din organisations egna data från [!DNL Amperity]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Amperity] till universella ID:n](/help/dsp/audiences/sources/source-amperity.md)&quot;.
 
 ### [!DNL Optimizely]
 
-Du kan dela din organisations egna data från [!DNL Optimizely]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i [Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md).
+Du kan dela din organisations egna data från [!DNL Optimizely]-kunddataplattformen med DSP för att konvertera dina hashade e-postadresser till universella ID:n för riktad annonsering i DSP. Mer information finns i &quot;[Konvertera användar-ID:n från [!DNL Optimizely] till universella ID:n](/help/dsp/audiences/sources/source-optimizely.md)&quot;.
 
 ### [!DNL Tealium]
 

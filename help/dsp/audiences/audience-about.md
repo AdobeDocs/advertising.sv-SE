@@ -3,9 +3,9 @@ title: Om målgruppshantering i Advertising DSP
 description: Läs om funktioner för målgruppshantering.
 feature: DSP Audiences, DSP Segments
 exl-id: 44cfe67e-e495-447f-b08f-d3789bd4dd09
-source-git-commit: 82a501ec03a5d0d32d2281d6a9c9a67180853026
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
 * Alla importerade datasegment från första part, inklusive segment som har översatts till universella ID:n.
 
-  Ytterligare avgifter tas ut för visningar som skickas till universella ID:n. Se &quot;[Om källor för förstagångspubliker](/help/dsp/audiences/sources/source-about.md)&quot; för priser.
+  Ytterligare avgifter tas ut för visningar som skickas till universella ID:n. Se &quot;[Om källor från första part](/help/dsp/audiences/sources/source-about.md)&quot; för priser.
 
 * Alla importerade anpassade datasegment från tredje part.
 
@@ -84,7 +84,7 @@ Du kan rikta dina placeringar till alla följande typer av målgrupper.
 
   >[!NOTE]
   >
-  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=sv-SE), [Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=sv-SE) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html?lang=sv-SE) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
+  >I dokumentationen för [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html), [Analytics](https://experienceleague.adobe.com/docs/analytics.html) och [the [!DNL Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/segmentation/segment-builder-guide.html) finns information om hur du konfigurerar och samlar in data för segment i dessa lösningar.
 
 ## Målgruppsstorleksdata
 
@@ -106,15 +106,15 @@ Du kan även se detaljerade data om målgruppsstorlek:
 
   ![det enskilda segmentet eller den sparade målgruppsinformationen](/help/dsp/assets/audience-size-segment-details.png)
 
-## Publikvyerna
+## [!UICONTROL Audiences]-vyerna
 
-### Vyn Alla målgrupper
+### Vyn [!UICONTROL All Audiences]
 
 I vyn [!UICONTROL All Audiences] eller i målgruppsbiblioteket kan du spara och hantera återanvändbara målgrupper, som omfattar grupper med målgruppssegment och till och med andra sparade målgrupper. Du kan använda målgrupper som mål för flera placeringar. Antalet placeringar där varje målgrupp används anges bredvid placeringsnamnet.
 
 Du kan redigera, klona, ta bort, exportera och dela vilken målgrupp som helst.
 
-### Vyn Segment
+### Vyn [!UICONTROL Segments]
 
 I vyn [!UICONTROL Segments] kan alla användare skapa ytterligare anpassade segment.
 
@@ -134,11 +134,11 @@ I vyn [!UICONTROL Segments] visas även följande segmenttyper:
 
   Du kan inte redigera eller dela tredjepartssegment som delats med dig. Kontakta Adobe Account Team om du behöver dela segment från tredje part med andra användare.
 
-### Vyn Källor
+### Vyn [!UICONTROL Sources]
 
 I vyn [!UICONTROL Sources] kan du konfigurera källor för förstahandssegment i de kunddataplattformar som stöds och som du vill konvertera till segment som innehåller angivna universella ID-typer. Källinställningarna innehåller en automatiskt genererad källnyckel som du skickar till din kunddataplattform för att upprätta anslutningen.
 
-Mer information om vilka kunddataplattformar som stöds, vilka universella ID-typer som stöds och vilka arbetsflöden som ska användas för att konfigurera anslutningar till varje kunddataplattform finns i [Om källor](/help/dsp/audiences/sources/source-about.md).
+Mer information om vilka kunddataplattformar som stöds, vilka universella ID-typer som stöds och vilka arbetsflöden som används för att konfigurera anslutningar till varje kunddataplattform finns i [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md).
 
 De översatta segmenten är tillgängliga för att inkluderas i återanvändbara målgrupper och i placeringsinställningar för cookiefri målinriktning.
 
@@ -147,9 +147,9 @@ De översatta segmenten är tillgängliga för att inkluderas i återanvändbara
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Skapa en återanvändbar målgrupp](reusable-audience-create.md)
 >* [Skapa och implementera ett anpassat segment](custom-segment-create.md)
->* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment &#x200B;](ccpa-opt-out-segment-create.md)
->* [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md)
+>* [Skapa och implementera ett [!UICONTROL CCPA Opt-Out-of-Sale] segment ](ccpa-opt-out-segment-create.md)
+>* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](/help/dsp/audiences/sources/source-manage.md)
 >* [Importera autentiserade segment manuellt från [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md)
->* [Tillgängliga dataproviders från tredje part](third-party-data-providers.md)
+>* [Tillgängliga tredjepartsdataleverantörer](third-party-data-providers.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)

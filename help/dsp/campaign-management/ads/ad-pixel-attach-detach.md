@@ -3,9 +3,9 @@ title: Bifoga och ta bort pixlar från annonser
 description: Lär dig hur du bifogar och tar bort pixlar för spårning från tredje part från annonser.
 feature: DSP Ads
 exl-id: 7b386a58-5300-49cf-9de8-4ce982a5181d
-source-git-commit: 3538c1d881a3032863c5a6f8c7361ac1c0bc35f9
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -108,15 +108,15 @@ Du kan bifoga och frigöra pixlar från annonser från tredjepartsspårning.
 
 1. Klicka på en annonsrad i den vänstra tabellen för att visa de kopplade pixlarna i den högra tabellen.
 
-1. (Valfritt) Om du vill bifoga fler pixlar till annonserna växlar du till vyn **[!UICONTROL Edit]** i det övre högra hörnet. Mer information finns i steg 3 i den föregående proceduren, [Koppla tredjepartsspårning av pixlar till annonser i en placering](#attach-pixels-ads).
+1. (Valfritt) Om du vill bifoga fler pixlar till annonserna växlar du till vyn **[!UICONTROL Edit]** i det övre högra hörnet. Mer information finns i steg 3 i föregående procedur, [Koppla pixlar för spårning från tredje part till annonser i en placering](#attach-pixels-ads).
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
 >* [Bifoga annonser till placeringar](/help/dsp/campaign-management/ads/ad-attach-to-placement.md)
->* [Skapa en annons](ad-create.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
->* [Visa en lista över placeringar som är associerade med en annons](ad-list-placements.md)
->* [Redigera annonsplanerna för placeringar](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
+>* [Visa de placeringar som är associerade med en annons](ad-list-placements.md)
+>* [Redigera annonsplanerna för ersättningar](/help/dsp/campaign-management/placements/placement-edit-ad-schedule.md)
 >* [Frågor och svar om universell video](/help/dsp/campaign-management/faq-universal-video.md)

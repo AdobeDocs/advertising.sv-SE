@@ -3,9 +3,9 @@ title: Redigera placeringar
 description: Lär dig hur du redigerar en placering.
 feature: DSP Placements
 exl-id: 391aa34e-ae37-4682-9e1b-571c3f015996
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Du kan redigera inställningarna för en enstaka placering eller för flera plac
 
 >[!NOTE]
 >
->Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i de flesta fält och överföra dem till DSP alla samtidigt. Se &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](placement-qa.md).&quot;
+>Du kan också hämta inställningarna för en eller flera placeringar, eller för alla placeringar i en kampanj, i XLSX-format (Excel-kalkylblad), göra ändringar i de flesta fält och överföra dem till DSP alla samtidigt. Se [Granska och redigera placeringsinställningar med hjälp av kalkylblad](placement-qa.md).
 
 ## Redigera snabbt inställningar för tangentmontering {#placement-quick-edit}
 
@@ -91,15 +91,15 @@ Använd bara det här alternativet om du vill använda samma ändringar på alla
 
 >[!MORELIKETHIS]
 >
->* [Om placeringshantering](placement-about.md)
+>* [Om placeringshantering i Advertising DSP](placement-about.md)
 >* [Granska och redigera placeringsinställningar med hjälp av kalkylblad](placement-qa.md)
 >* [Skapa en placering](placement-create.md)
 >* [Duplicera en placering](placement-duplicate.md)
->* [Hantera aktivitetsmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
->* [Redigera annonsplanerna för placeringar](placement-edit-ad-schedule.md)
+>* [Hantera budmultiplikatorer för placeringar](placement-manage-bid-multipliers.md)
+>* [Redigera annonsplanerna för ersättningar](placement-edit-ad-schedule.md)
 >* [Inaktivera eller aktivera en placering](placement-pause-activate.md)
 >* [Visa ändringsloggen för en placering](placement-change-log.md)
 >* [Placeringsinställningar](placement-settings.md)
->* [Visa prognosrapport för placering](/help/dsp/campaign-management/reports/placement-forecast.md)
+>* [Visa placeringsprognosrapporten](/help/dsp/campaign-management/reports/placement-forecast.md)
 >* [Kortkommandon](/help/dsp/campaign-management/reports/keyboard-shortcuts.md)
->* [Video: Redigera placeringar med gruppredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html?lang=sv-SE)
+>* [Video: Så här redigerar du placeringar med massredigeringsverktyg](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/bulk-edit-placement-tools.html)

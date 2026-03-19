@@ -3,9 +3,9 @@ title: Annonsspecifikationer
 description: Referera till allmänna och utgivarspecifika annonsspecifikationer.
 feature: DSP Ads
 exl-id: 133dfc0d-d839-4e06-a819-21e3e630830c
-source-git-commit: 4264d6032a8d31004e66fd4ee033d9ecd51918c8
+source-git-commit: 7f9b118ffe0b8e972296f79b19f6dcd2a9dedabe
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Annonserna levereras som standard på datorer, mobiler och anslutna tv-enheter. 
 
 ### Annonsservrar från tredje part som stöds
 
-Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certifierade annonseringspartners](certified-ad-servers.md)&quot;.
 
 ### Krav för HD-videomaterial
 
@@ -90,7 +90,7 @@ Universell visning stöds.
 
 **Rekommenderade annonsstorlekar:** 120x60, 160x600, 180x150, 300x50, 300x100, 300x1050, 300x250 300x600, 320x50, 320x480, 480x60, 640x480, 88x31, 728x90, 970x250, 970x 90
 
-**Tredjepartsservrar som stöds:** Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+**Tredjepartsservrar som stöds:** Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certifierade annonseringspartners](certified-ad-servers.md)&quot;.
 
 ## Ljudannonser
 
@@ -100,7 +100,7 @@ Stationär dator, mobil, surfplatta, smarta högtalare och ansluten TV
 
 ### Annonsservrar från tredje part som stöds
 
-Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certified Ad Serving Partners](certified-ad-servers.md)&quot;.
+Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid] och [!DNL Sizmek]. En fullständig lista över leverantörer som stöds finns i &quot;[Certifierade annonseringspartners](certified-ad-servers.md)&quot;.
 
 ### Krav för ljudresurser
 
@@ -114,7 +114,7 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 **Fillängd:** 0-60s
 
-#### Ytterligare krav för Publisher
+#### Ytterligare krav för utgivaren
 
 * **[!DNL iHeartRadio]**
    * Längd: 5, 15, 30 eller 60 sekunder
@@ -151,7 +151,7 @@ Du kan använda taggmallar från [!DNL DCM], [!DNL Flashtalking], [!DNL Innovid]
 
 **Storlekar som stöds:** 300x250, 500x500, 640x640, 1024x1024
 
-#### Ytterligare krav för Publisher
+#### Ytterligare krav för utgivaren
 
 * **[!DNL iHeartRadio]:**
    * Filtyp: JPEG, JPG, PNG, GIF, SWF, HTML
@@ -196,7 +196,7 @@ Annonserna levereras som standard på datorer och mobila enheter. Enhetsanpassni
 
 **Filstorlek:** Mindre än 1 MB (bilden ska vara fri från text.)
 
-#### Advertiser-logotyp
+#### Advertiser logo
 
 **Upplösning:** Minst 80x80px; Rekommenderat minimum: 300x300px
 
@@ -238,7 +238,7 @@ Krav för klickningsspårare:
 
 >[!MORELIKETHIS]
 >
->* [Om annonshantering](ad-about.md)
->* [Skapa en annons](ad-create.md)
->* [Skapa flera tredjepartsannonser](ad-create-multiple.md)
+>* [Om annonshantering i Advertising DSP](ad-about.md)
+>* [Skapa en enstaka annons](ad-create.md)
+>* [Skapa flera annonser från tredje part](ad-create-multiple.md)
 >* [Redigera en annons](ad-edit.md)
