@@ -18,7 +18,7 @@ Du kan använda Adobe Advertising-ID:n ([AMO-ID och EF-ID](../ids.md)) för att 
 
 ## AMO-ID:t i bearbetningsregler
 
-AMO-ID är den primära spårningskod som används för att rapportera Adobe Advertising-data inom [!DNL Analytics]. AMO-ID är en sammanfogning av dynamiska värden som hanteras av Adobe för att ge detaljerad rapportering i [!DNL Analytics]. Den lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) - eller rVar-dimension (AMO-ID). AMO-ID kan anges i [!DNL Analytics] på två sätt:
+AMO-ID är den primära spårningskod som används för att rapportera Adobe Advertising-data inom [!DNL Analytics]. AMO-ID är en sammanfogning av dynamiska värden som hanteras av Adobe för att ge detaljerad rapportering i [!DNL Analytics]. Den lagras i en [!DNL Analytics] [eVar](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=sv-SE) - eller rVar-dimension (AMO-ID). AMO-ID kan anges i [!DNL Analytics] på två sätt:
 
 * Klickningsspårning: Adobe Advertising anger frågesträngsparametern `s_kwcid` i en länk och [!DNL Analytics] hämtar parametern från landningssidans URL när en klickning inträffar.
 
@@ -90,7 +90,7 @@ Ange inte kanalens värde som AMO-ID. I stället anger du det till något som ti
 
 ### Naturlig sökregel
 
-Kontrollera att [!UICONTROL Natural Search]-identifieringsreglerna [[!UICONTROL Paid Search] för &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) innehåller frågesträngsparametrarna `ef_id` och `s_kwcid`. (Vanligtvis konfigureras detta automatiskt när Advertising Search, Social och Commerce integreras i [!DNL Analytics], men om en [!DNL Analytics]-administratör har ändrat logiken efter att integreringen konfigurerats bör du kontrollera detta.)
+Kontrollera att [!UICONTROL Natural Search]-identifieringsreglerna [[!UICONTROL Paid Search] för &#x200B;](https://experienceleague.adobe.com/sv/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/t-paid-search-detection) innehåller frågesträngsparametrarna `ef_id` och `s_kwcid`. (Vanligtvis konfigureras detta automatiskt när Advertising Search, Social och Commerce integreras i [!DNL Analytics], men om en [!DNL Analytics]-administratör har ändrat logiken efter att integreringen konfigurerats bör du kontrollera detta.)
 
 Ställ in regeln på&quot;Matchar reglerna för identifiering av naturlig sökning&quot; (vilket vanligtvis är standardinställningen för den här kanalen).
 
@@ -153,5 +153,5 @@ Ange **AMO ID börjar med &quot;AC!&quot; för den andra Display ClickThrough-re
 >* [Grundprinciper för [!DNL Analytics Marketing Channels]](mc-overview.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
 >* [Adobe Advertising-id:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
