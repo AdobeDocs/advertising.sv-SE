@@ -3,7 +3,7 @@ title: Advertising DSP-makron
 description: Referera till de tillgängliga makrona för allmän spårning och för att spåra klick på visningsannonser från tredje part.
 feature: DSP Ads
 exl-id: 7058c988-c544-4a61-84dd-eec4ce88ceba
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -87,7 +87,7 @@ Om ett klickmakro saknas när du skapar en visningsannons visas ett varningsmedd
 
 ## [!DNL Analytics for Advertising] makron
 
-Ytterligare makron som är tillgängliga specifikt för [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)-kunder finns i [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] Lägg till taggar](/help/integrations/analytics/macros-flashtalking.md) och [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] Lägg till taggar](/help/integrations/analytics/macros-google-campaign-manager.md).&quot;
+Ytterligare makron som är tillgängliga specifikt för [[!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)-kunder finns i [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Flashtalking] annonstaggar](/help/integrations/analytics/macros-flashtalking.md) och [Bifoga [!DNL Analytics for Advertising] makron till [!DNL Google Campaign Manager 360] annonstaggar](/help/integrations/analytics/macros-google-campaign-manager.md).
 
 ## Felsöka makrofel
 
@@ -100,10 +100,10 @@ Fel genereras om tecken saknas i början eller slutet av makronamnet. Ett felmed
 
 >[!MORELIKETHIS]
 >
->* [Inställningar för ljudannons](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Inställningar för ansluten TV-annons](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Inställningar för visningsannons](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Ljudannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Anslutet TV-annonsutrymme](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Inställningar för displayannonsering](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Inställningar för mobilannonsering](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Inbyggda annonsinställningar](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [Universella inställningar för videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [Annonsinställningar för förregistrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Inställningar för universell videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)

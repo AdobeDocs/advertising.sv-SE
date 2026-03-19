@@ -3,7 +3,7 @@ title: Granska och redigera inställningar för kampanjkomponenter med hjälp av
 description: Lär dig hur du granskar och redigerar viktiga paket-, placerings- och annonsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 1ec8362a-d37b-4fd7-becd-3a5b4f0c9504
-source-git-commit: db8e4bd75063216c27a7e14c8d7699e2f4e09ba4
+source-git-commit: 658c8a10c4085690ce4dd7e791883dbf31f1cb10
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Om du vill uppdatera flera inställningar samtidigt överför du en giltig kalky
 
 >[!NOTE]
 >
->Du kan även hämta och redigera inställningarna för enbart specifika paket och specifika placeringar. Se &quot;[Granska och redigera paketinställningar med hjälp av bulkblad](/help/dsp/campaign-management/packages/package-qa.md)&quot; och &quot;[Granska och redigera placeringsinställningar med hjälp av bulkblad](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
+>Du kan även hämta och redigera inställningarna för enbart specifika paket och specifika placeringar. Se &quot;[Granska och redigera paketinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)&quot; och &quot;[Granska och redigera placeringsinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md).&quot;
 
 ## Hämta inställningar för paket, praktik och annonser i en kampanj {#download-bulksheet-campaign}
 
@@ -42,7 +42,7 @@ Ett meddelande visas när filen är tillgänglig för hämtning.
 
    * Klicka på ![Jobb](/help/dsp/assets/downloads.png) till höger om den övre menyraden. Klicka på **[!UICONTROL Download]** bredvid jobbet.
 
-     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement Columns in Downloaded/Uploaded Spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
+     Filen sparas i webbläsarens hämtningsmapp.<!-- See "[Placement columns in downloaded/uploaded spreadsheets](#qa-sheet-columns)" for a list of the included columns. -->
 
      Om du vill redigera någon av inställningarna redigerar du filen direkt och överför sedan ändringarna. Alla redigerbara kolumner markeras med blått. Om du vill använda rätt format för ett fält markerar och kopierar du värdet från den relevanta paketinställningen eller placeringsinställningen. För vissa målinställningar, t.ex. dagdelning, anpassade mål och konverteringsmått, finns det ett kopieringsalternativ i inställningen.
 
@@ -151,14 +151,14 @@ När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylb
 
 >[!MORELIKETHIS]
 >
->* [Granska och redigera paketinställningar med hjälp av flera blad](/help/dsp/campaign-management/packages/package-qa.md)
+>* [Granska och redigera paketinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/packages/package-qa.md)
 >* [Paketinställningar](/help/dsp/campaign-management/packages/package-settings.md)
 >* [Granska och redigera placeringsinställningar med hjälp av kalkylblad](/help/dsp/campaign-management/placements/placement-qa.md)
 >* [Placeringsinställningar](/help/dsp/campaign-management/placements/placement-settings.md)
->* [Inställningar för ljudannons](/help/dsp/campaign-management/ads/ad-settings-audio.md)
->* [Anslutna TV-inställningar](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
->* [Inställningar för visningsannons](/help/dsp/campaign-management/ads/ad-settings-display.md)
+>* [Ljudannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-audio.md)
+>* [Inställningar för ansluten TV](/help/dsp/campaign-management/ads/ad-settings-connected-tv.md)
+>* [Inställningar för displayannonsering](/help/dsp/campaign-management/ads/ad-settings-display.md)
 >* [Inställningar för mobilannonsering](/help/dsp/campaign-management/ads/ad-settings-mobile.md)
 >* [Inbyggda visningsannonsinställningar](/help/dsp/campaign-management/ads/ad-settings-native.md)
->* [Inställningar för annonsering före registrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
->* [Universella inställningar för videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
+>* [Annonsinställningar för förregistrering](/help/dsp/campaign-management/ads/ad-settings-pre-roll.md)
+>* [Inställningar för universell videoannonsering](/help/dsp/campaign-management/ads/ad-settings-universal-video.md)
