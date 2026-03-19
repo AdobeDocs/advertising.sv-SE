@@ -3,9 +3,9 @@ title: Om privat lager
 description: Om privat lager
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 1d4c22686227da4a60ee4f6856b2815da863f359
+source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Alla dina privata avtal med ett erbjudande-ID finansieras och faktureras av [!DN
 
 Du kan använda erbjudande-ID på något av följande sätt:
 
-* (Valfri funktion som kräver aktivering) Från [!UICONTROL Deal ID Inbox] kan du granska och snabbt acceptera dina avtalade och ej garanterade privata lageraffärer från utgivare på följande SSP:er (Supply-Side Plattforms): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare kallat [!DNL AdX]) och [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) från [!UICONTROL Deal ID inbox].
+* (Valfri funktion som kräver aktivering) Från [!UICONTROL Deal ID Inbox] kan du granska och snabbt acceptera dina avtalade och ej garanterade privata lageraffärer från utgivare på följande SSP:er (Supply-Side Plattforms): [!DNL FreeWheel], [!DNL Google Authorized Buyers] (tidigare kallat [!DNL AdX]) och [!DNL Magnite DV+] (tidigare [!DNL Rubicon]) från [!UICONTROL Deal ID Inbox].
 
   Mer information finns i [Om [!UICONTROL Deal ID Inbox]](deal-id-inbox-about.md).
 
@@ -49,6 +49,6 @@ I vyn [!UICONTROL Inventory] > [!UICONTROL Deal Lists] kan du gruppera dina priv
 >
 >* [Översikt över lagerfunktioner](/help/dsp/inventory/inventory-overview.md)
 >* [Om [!UICONTROL Deal ID Inbox]](/help/dsp/inventory/deal-id-inbox-about.md)
->* [Acceptera ett avtal i Inkorgen för avtal-ID](deal-id-inbox-accept.md)
+>* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Skapa information om avtal-ID manuellt](deal-id-create.md)
 >* [Hantera avtalslistor](/help/dsp/inventory/lists-deals-manage.md)
