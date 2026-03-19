@@ -3,7 +3,7 @@ title: Princip för krav för Adobe Advertising Universal ID
 description: Se policyn för användning av universella ID:n.
 feature: Policies, DSP Ads
 exl-id: a21dcc56-a618-476d-9f5b-7b1260f27331
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: c7438ee214e6b5d5cfb6e6c72eb480bc334596c7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Genom att välja att använda de universella ID:n som gjorts tillgängliga via t
 
 ### Förbjudna länder i UID2
 
-Genom att välja att använda UID2 Universal ID:n via tjänsterna godkänner du att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On-demand-tjänster för sådan användning i samband med UID2 Universal ID:n inte är relaterade till någon som bor i något av de [UID2 förbjudna länder som anges i utdrag A](#prohibited-countries-uid2) här.
+Genom att välja att använda universella UID2-ID:n via tjänsterna godkänner du att alla klientdata som överförs, lagras, visas, distribueras eller på annat sätt görs tillgängliga av dig via On demand-tjänster för sådan användning i samband med universella UID2-ID:n inte är relaterade till någon som bor i något av de [UID2-förbjudna länder som anges i utskrift A](#prohibited-countries-uid2) här.
 
 ## Ingen diskriminering
 
