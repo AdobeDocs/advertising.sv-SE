@@ -51,7 +51,7 @@ Till att börja med visas en röd punkt i annonsens [!UICONTROL Status]-kolumn. 
 
 När DSP godkänner en annons visas en grön punkt i annonsens statuskolumn.
 
-![godkännandeindikator i [!UICONTROL Status] kolumn ](/help/dsp/assets/ad-approval-status.png)
+![godkännandeindikator i [!UICONTROL Status] kolumn &#x200B;](/help/dsp/assets/ad-approval-status.png)
 
 >[!NOTE]
 >
