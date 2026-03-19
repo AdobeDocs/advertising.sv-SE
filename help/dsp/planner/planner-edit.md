@@ -24,7 +24,7 @@ När du redigerar planinställningarna genereras en ny prognos.
 
    När du har sparat planen visas prognostiserade utdata.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

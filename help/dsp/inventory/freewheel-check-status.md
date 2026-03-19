@@ -50,5 +50,5 @@ Om du har ytterligare frågor eller problem med att skicka in din ansökan konta
 >
 >* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL Freewheel]](freewheel-overview.md)
 >* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]](freewheel-submit.md)
->* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade &#x200B;](freewheel-error-codes.md)
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
