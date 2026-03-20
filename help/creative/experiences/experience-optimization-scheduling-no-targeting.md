@@ -3,9 +3,9 @@ title: Anpassa den kreativa optimeringen och planeringen för en upplevelse
 description: Lär dig konfigurera optimering och annonsplanering för upplevelser utan målinriktning.
 feature: Creative Experiences
 exl-id: 9398df69-6a48-4b72-8c5c-a79341bf3b8a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: 3a77f85f8cbb2ca7a77c5e8ebab5a22ca377feed
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1208'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,18 @@ När den kreativa planeringen är inaktiverad gäller inställningarna för den 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**.&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**.&lt;!—
+Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
 
 1. Inaktivera **[!UICONTROL Schedule]**.
 
 1. Välj den kreativa rotationstypen för annonsvarianter i de associerade paketen:
 
-   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Om du vill tillämpa samma vikt på alla associerade paket klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla valda paket måste vara upp till 100.<!-- For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. -->
+   * *[!UICONTROL Weighted]:* Visar annonsvarianter i associerade kreativa paket enligt relativa vikter. Ange vikten för varje paket som en procentandel. Om du vill tillämpa samma vikt på alla associerade paket klickar du på (![Använd samma vikt](/help/creative/assets/apply-equal-weight.png "Använd samma vikt")). Vikten för alla valda paket måste vara 100.
+
+   <!-- 
+   For example, if Bundle 1 is 60 and Bundle 2 is 40, then Bundle 1 is shown 60% of the time, and Bundle 2 is shown 40% of the time. 
+   -->
 
    * *[!UICONTROL Algorithmic]:* Visar de mest effektiva annonsvarianterna oftare, baserat på ett angivet mål.
 
@@ -66,7 +71,7 @@ När du använder schemaläggning måste du schemalägga kreatörerna under hela
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera kreativ optimering](/help/creative/assets/edit-gray.png "Redigera kreativ optimering") **[!UICONTROL Creative Optimization]**. <!-- For targeted experiences, this is "Edit Schedules" Tag Manager has only a list view, but no card view, as of 2/2. -->
 
 1. Aktivera **[!UICONTROL Schedule]**.
 
