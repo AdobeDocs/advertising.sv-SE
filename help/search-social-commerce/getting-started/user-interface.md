@@ -48,7 +48,7 @@ Din roll avgör vilka alternativ som är tillgängliga:<!-- add link when availa
 
 * **[!UICONTROL Plan]** undermeny:
 
-   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy ](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
+   * **[!UICONTROL Simulations]** Öppnar en ny [[!UICONTROL Simulations] vy &#x200B;](/help/search-social-commerce/new-ui/plan/simulations/simulation-about.md) där du kan visa alla egna simuleringar som du har skapat och automatiskt genererade veckosimuleringar, generera nya anpassade simuleringar och köra befintliga simuleringar igen. Knappen [!UICONTROL Spend Planner] öppnar det gamla [!UICONTROL Spend Recommendation]-verktyget på [!UICONTROL Search, Social, & Commerce] > [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
    * **[!UICONTROL Spend Planner]** avslutar den nya webbplatsen och öppnar den äldre vyn [!UICONTROL Optimization] > [!UICONTROL Spend Recommendation].
 
@@ -211,4 +211,4 @@ Alternativet [!UICONTROL Search] innehåller följande undermenyer. Din roll avg
 >
 >* [Logga in](sign-in.md)
 >* [Logga ut](sign-out.md)
->* [Växla mellan det nya gränssnittet och det gamla ](ui-switch.md)
+>* [Växla mellan det nya gränssnittet och det gamla &#x200B;](ui-switch.md)

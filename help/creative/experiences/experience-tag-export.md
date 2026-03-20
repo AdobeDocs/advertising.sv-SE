@@ -31,7 +31,7 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
    * Håll markören över raden i tabellvyn, klicka på **[!UICONTROL More]** och klicka sedan på **[!UICONTROL Tag Manager]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > **[!UICONTROL Export ad tags]**.
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Exportera annonstaggar](/help/creative/assets/export.png "Exportera annonstaggar") **[!UICONTROL Export ad tags]** eller **[!UICONTROL ... More] > &#x200B;** [!UICONTROL Export ad tags]**.
 
 >[!NOTE]
 >
@@ -49,9 +49,9 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 
 1. Välj taggtyp:
 
-   * (Inte videoupplevelser) ** *JavaScript* ** eller ** *Iframe* **.
+   * (Inte videoupplevelser) **&#x200B; *JavaScript* &#x200B;** eller **&#x200B; *Iframe* &#x200B;**.
 
-   * (Videoupplevelser) ** *Video* **.
+   * (Videoupplevelser) **&#x200B; *Video* &#x200B;**.
 
 1. Välj var du vill skapa annonser för upplevelsen i listan [!UICONTROL Destinations].
 
@@ -105,4 +105,4 @@ Annonsörer med Advertising DSP kan ladda upp taggar direkt till en Advertising 
 >* [Skapa en annonstagg manuellt för en tillämplig kreativ storlek](experience-tag-create-manually.md)
 >* [Tilldela kreatörer till en annonstagg för upplevelser utan målinriktning](experience-tag-assign-creatives.md)
 >* [Byt namn på en annonstagg](experience-tag-rename.md)
->* [Anpassa omkodningsalternativ för en videoannons ](experience-tag-video-transcoding.md)
+>* [Anpassa omkodningsalternativ för en videoannons &#x200B;](experience-tag-video-transcoding.md)
