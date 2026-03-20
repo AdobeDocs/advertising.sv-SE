@@ -3,7 +3,7 @@ title: Tillgängliga makron för att spåra URL:er
 description: Referera till makron som du kan lägga till i dina URL-adresser för landningssidor, spårnings-URL:er och tredjepartsskapare.
 feature: Creative Experiences, Creative Experiences
 exl-id: d0cbbb21-467d-4ed1-bc6e-ded1b045b98b
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Du kan inkludera följande makron i dina tredjepartsskapare, i spårnings-URL:er
 
 Vissa av de tillgängliga makrona, eller deras motsvarigheter, inkluderas automatiskt i upplevelsetaggar.
 
-<!-- Later: 
+<!--
+ Later: 
 
 | Macro | Description | Automatically in experience tags for Advertising DSP? | Automatically in experience tags for [!DNL Google Campaign Manager 360]? |
 | --- | --- | --- | --- |
@@ -55,4 +56,4 @@ Vissa av de tillgängliga makrona, eller deras motsvarigheter, inkluderas automa
 >* [Lägg till standardkreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-standard.md#creative-add-third-party)
 >* [Standardinställningar för kreativitet](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party)
 >* [Inställningar för anpassad upplevelse](/help/creative/experiences/experience-settings-targeting.md)
->  &#x200B;>*[Inställningar för icke-målinriktad upplevelse](/help/creative/experiences/experience-settings-no-targeting.md)
+>*[Inställningar för icke-målinriktad upplevelse](/help/creative/experiences/experience-settings-no-targeting.md)

@@ -3,9 +3,9 @@ title: Lägg till standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du lägger till standardkreatörer (icke-dynamiska) i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: e6f1265b-9d05-4b3d-9dc6-300dbd9eb52d
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,14 @@ Du kan överföra flera flexibla kreativa enheter. Flexibla kreatörer måste ha
 
 ### Lägg till flexibla kreatörer med en mall {#flexible-creative-use-template}
 
-Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.&lt;!— Ersätt den sista meningen med den här om vi lägger till funktionen för mallhämtning igen: Du kan antingen a\) välja en mall som ska användas och sedan redigera klicktaggar och attribut; eller b\) [hämta en mall som en ZIP-fil](#download-flexible-creative-template), redigera innehållet offline för att skapa din egen kreativitet och sedan [överföra den redigerade filen som en ny kreativ fil] (flexible-creative-upload).>
+Du kan använda någon av de flexibla kreativa mallarna som du har överfört till ditt konto för att skapa annonser i en fördefinierad storlek. När du har valt en mall som ska användas redigerar du klickningstaggar och -attribut.
 
-<!-- Not currently an option:
+<!--
+Replace last sentence with this if we add the template download feature back:  You can either a\) select a template to use, and then edit the click tags and attributes; or b\) [download a template as a ZIP file](#download-flexible-creative-template), edit the contents offline to build your own creative, and then [upload the edited file as a new creative](flexible-creative-upload).
+-->
+
+<!--
+ Not currently an option:
 You can use any of the [predefined flexible creative templates](flexible-html5-templates.md) included with [!DNL Creative] to build 160x600, 300x250, 300x600, or 728x90 ads.
 
 For information about the attributes available in predefined templates, see "[Available flexible creative templates](#flexible-creative-templates-available)."
@@ -106,7 +111,8 @@ Formgivare av standarddisplayannonser är bl.a. bildkreatörer och andra som anv
 
 * Du kan lägga till flera Experience Manager-resurser, flera GenStudio-upplevelser eller flera lokala HTML5-kreatörer av samma typ (enkla eller statiska) åt gången. Information om HTML5-användare finns i [HTML5-annonsspecifikationen](/help/creative/creative-libraries/html5-creative-specification.md).
 
-<!-- Add in when we add this feature back:
+<!--
+ Add in when we add this feature back:
 You can optionally download a sample HTML5 creative as a ZIP file, edit the contents to build your own creative, and then add the edited file as a new creative.
 -->
 

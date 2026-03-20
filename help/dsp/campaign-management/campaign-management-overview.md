@@ -3,7 +3,7 @@ title: Översikt över kampanjhantering i Advertising DSP
 description: Lär dig mer om kampanjhanteringshierarkin och komponenter.
 feature: DSP Packages, DSP Placements, DSP Ads
 exl-id: 8eb7b4a5-4a31-4637-858f-202392dfac98
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -18,7 +18,8 @@ DSP-kampanjer har följande hierarki:
    * Paket
       * Placering(ar)
          * Annons(er)
-<!-- Do clients think in terms of insertion orders? If yes, then work in the following info.:
+<!--
+ Do clients think in terms of insertion orders? If yes, then work in the following info.:
 In Advertising DSP, an insertion order is represented as a campaign, and line items are represented as packages. Each package includes placements, which can use different strategies and tactics to deliver the line item requirements.
 -->
 
@@ -56,4 +57,4 @@ Alla aktiva, godkända annonser i en aktiv placering i en aktiv kampanj kan kör
 >* [Bästa tillvägagångssätt för att konfigurera prestandakampanjer](/help/dsp/optimization/campaign-best-practices-performance.md)
 >* [Typer av resultatrapporter i kampanjhanteringsvyer](/help/dsp/campaign-management/reports/campaign-reports-about.md)
 >* [Hantera dina kampanjdatavyer](/help/dsp/campaign-management/reports/campaign-data-views-manage.md)
->* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html?lang=sv-SE)
+>* [Video: DSP kontostruktur och användargränssnitt](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/dsp/ui.html)

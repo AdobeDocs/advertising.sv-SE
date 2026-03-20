@@ -3,7 +3,7 @@ title: Rapportkolumner för specialrapporter
 description: Läs mer om de tillgängliga datakolumnerna för specialrapporter.
 exl-id: c4533105-a0a8-4c76-bda9-ae653e7fd911
 feature: Search Reports, Search Specialty Reports
-source-git-commit: 6080412a58466d8a87924b27ac038991a287b849
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3140'
 ht-degree: 0%

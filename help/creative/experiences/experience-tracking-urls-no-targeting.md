@@ -3,9 +3,9 @@ title: Anpassa spårnings-URL:er för en upplevelse utan att målinrikta
 description: Lär dig hur du anpassar URL:er för spårning för varje kreatör i en upplevelse utan målgruppsanpassning för beslutsträd.
 feature: Creative Experiences
 exl-id: 03a10285-c0df-4bc3-92c7-c1c2ea3f8129
-source-git-commit: f7d5bf3193cb41ca2a0d4415998209e5a9b724ba
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Anpassade URL:er används bara för annonser som har skapats från annonsuppleve
 
    1. Klicka på **[!UICONTROL Create]**.
 
-1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera spårnings-URL:er](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs" -->&lt;!— Tagghanteraren har bara en listvy, men ingen kortvy, från och med 2/2. >
+1. Håll markören över raden för den tillämpliga annonstaggen och klicka på ![Redigera spårnings-URL:er](/help/creative/assets/edit-gray.png "Redigera spårnings-URL:er") **[!UICONTROL Tracking URLs]**. <!-- For targeted experiences, this is "EDIT Tracking URLs"  Tag Manager has only a list view, but no card view, as of 2/2. -->
 
    Flikarna [!UICONTROL Click Tracking URLs], [!UICONTROL Impression Tracking URLs] och [!UICONTROL Landing URLs] visar namnen på alla kreatörer i de tillämpliga storlekarna i de tilldelade paketen. Storleken på standardkreatörerna för upplevelsen avgör vilka storlekar som är tillgängliga.<!-- There's no distinct "Creative Sizes" setting. -->
 

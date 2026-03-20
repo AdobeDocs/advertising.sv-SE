@@ -4,7 +4,7 @@ description: Lär dig vad du kan göra i vyn [!UICONTROL Ad Groups].
 feature: Search Optimization, Search Campaign Management
 hide: true
 exl-id: 10922ae6-b2b5-4498-bc6a-424f3249e16a
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -19,7 +19,8 @@ Vyn [!UICONTROL Manage] > [!UICONTROL Ad Groups] visar alla annonsgrupper i den 
 
 ## Tillgängliga åtgärder
 
-<!-- Not available as of 3/4/26:
+<!--
+ Not available as of 3/4/26:
 
 * [View a performance graph across all ad groups in the view](ad-group-view-performance-graph.md)
 -->

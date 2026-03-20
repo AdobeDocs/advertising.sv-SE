@@ -3,7 +3,7 @@ title: '[!DNL Adobe] [!DNL Audience Analytics] för Adobe Advertising-kunder'
 description: Lär dig hur du använder  [!DNL Adobe] [!DNL Audience Analytics] för annonseringsanvändningsfall
 feature: Integration with Adobe Audience Manager
 exl-id: 457d4335-2762-4aab-94b8-12f8a79d109b
-source-git-commit: 7fa058da06edadf9b98aa49b0e5a1110ea68808c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # [!DNL Adobe] [!DNL Audience Analytics] för Adobe Advertising-kunder
 
-[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=sv-SE) är en integrering mellan Adobe Audience Manager och Adobe Analytics som gör att Audience Manager-kunder kan skicka segment till [!DNL Analytics] för att få bättre insikter om webbplatsaktivitet.
+[[!DNL Adobe] [!DNL Audience Analytics]](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) är en integrering mellan Adobe Audience Manager och Adobe Analytics som gör att Audience Manager-kunder kan skicka segment till [!DNL Analytics] för att få bättre insikter om webbplatsaktivitet.
 
 Adobe Advertising-kunder kan dra nytta av [!DNL Audience Analytics]. Integreringen gör att du kan:
 
@@ -20,7 +20,7 @@ Adobe Advertising-kunder kan dra nytta av [!DNL Audience Analytics]. Integrering
 
 * Bestäm marknadsföringskanaler och startpunkter för webbplatser utifrån de övre exponeringsannonserna för funnel.
 
-* Layer the integration with [!DNL Analytics for Advertising] to include third-party population from [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html?lang=sv-SE) with [!DNL Analytics for Advertising] data for more insights about user profiles.
+* Layer the integration with [!DNL Analytics for Advertising] to include third-party population from [Audience Manager [!DNL Audience Marketplace]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/audience-marketplace/audience-marketplace.html) with [!DNL Analytics for Advertising] data for more insights about user profiles.
 
   [!DNL Audience Marketplace] ger åtkomst till datafeeds från tredje part med prenumerationsmodeller för aktivering, som gör att köpare kan skicka data till ett mål. Om data används inom ett [!DNL Analytics]-mål tillämpas inte aktiveringsavgifter.
 
@@ -28,7 +28,7 @@ Adobe Advertising-kunder kan dra nytta av [!DNL Audience Analytics]. Integrering
 
   Advertising DSP kan skicka exponeringsdata till Audience Manager som användbara signaler genom implementering av antingen Adobe Experience Platform eller Audience Manager pixlar för visningsspårning. Om samma data vidarebefordras till [!DNL Analytics] aktiveras avancerad dataanalys. Mer information finns i [Översikt över hur du skickar exponeringsdata för DSP-medier till Adobe Audience Manager](/help/integrations/audience-manager/media-data-integration/overview.md).
 
-Mer information om [!DNL Audience Analytics], inklusive dess förutsättningar och arbetsflöde, finns i [Audience Analytics - översikt](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=sv-SE).
+Mer information om [!DNL Audience Analytics], inklusive dess förutsättningar och arbetsflöde, finns i [Audience Analytics - översikt](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 ## Exempel på hur du använder [!DNL Audience Analytics]-data med Adobe Advertising-data
 
@@ -44,7 +44,9 @@ Huvudsakliga fördelar:
 
 * Bestäm vilken påverkan den övre funnel-aktiviteten har på webbplatsaktiviteten längre fram i kedjan.
 
-* Anslut [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event --> och [!DNL Audience Analytics] data <!-- (which includes the user's last exposure event) --> för att fastställa en helhetsresa till webbplatsen.
+* Anslut [!DNL Analytics for Advertising]<!-- which doesn't include the last exposure event -->- och [!DNL Audience Analytics]-data för att fastställa en helhetsresa till webbplatsen.
+
+<!-- (which includes the user's last exposure event) -->
 
 Följande är exempel på rapporter som du kan skapa i [!DNL Analysis Workspace].
 

@@ -3,7 +3,7 @@ title: HTML5 - kreativ specifikation
 description: Referera till den kreativa HTML5-specifikationen för Advertising Creative.
 feature: Creative Standard Creatives
 exl-id: 06d29442-d688-4fb8-ad6f-cba0a897fde0
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 1%
@@ -18,7 +18,8 @@ I det här dokumentet beskrivs kraven och API-stödet för HTML5-användare inom
 
 [!DNL Creative] har stöd för HTML5-banners med mediekreatörer som inte har så mycket innehåll och som visas inom angivna gränser på en sida. Du kan använda följande typer av HTML5-kreatörer:
 
-<!--Remove to simplify:
+<!--
+Remove to simplify:
 
 * **Simple HTML5:** Supports a single landing page URL that can be configured during creative creation and trafficking.
 
@@ -52,7 +53,8 @@ HTML-huvudfilen - och inga andra filer - måste innehålla en referens till Java
 
 Den här filen innehåller funktioner som säkerställer att lokal testning av avslutshändelser utförs utan problem.
 
-<!-- Remove to simplify:
+<!--
+ Remove to simplify:
 
 ### Simple HTML5 creative requirements
 
@@ -72,7 +74,8 @@ var clickTag = “http://www.example.com”;
 
 -->
 
-<!-- Renamed to simplify:
+<!--
+ Renamed to simplify:
 ### Static HTML5 creative requirements
 -->
 

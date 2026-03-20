@@ -3,7 +3,7 @@ title: Inställningar för [!UICONTROL Simple Ad Serving]-avtal
 description: Läs mer om de tillgängliga inställningarna för [!UICONTROL Simple Ad Serving]-erbjudanden.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -58,7 +58,8 @@ Changes aren't applied retroactively.
 
 <!-- completely different settings layout, so need a separate section for them -->
 
-<!-- From Abhinav: Editable fields are Name, Start & End date, Impressions & CPM. Changes are not applied retroactively.
+<!--
+ From Abhinav: Editable fields are Name, Start & End date, Impressions & CPM. Changes are not applied retroactively.
 
 But I see:
 
@@ -85,6 +86,7 @@ But I see:
 >* [Redigera [!UICONTROL Simple Ad Serving] avtalsinställningar](simple-deal-edit.md)
 >* [Visa en detaljerad rapport om ett avtal](/help/dsp/inventory/deal-view-report.md)
 
-<!-- add back when reimplemented:
+<!--
+ add back when reimplemented:
 >* [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](simple-deal-show-pixels.md)
 -->

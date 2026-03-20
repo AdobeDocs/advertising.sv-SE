@@ -3,7 +3,7 @@ title: Duplicera kreatörer
 description: Lär dig duplicera kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives, Creative Dynamic Creatives
 exl-id: ec6ce2f5-fe2e-4c95-b0d9-dc09f3ce55c4
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -36,7 +36,8 @@ Duplicera kreatörer för att lägga till nya kreatörer med samma inställninga
 
    De nya kreatörerna får namnet `<original name> (copy) # 1` (eller nästa nummer i sekvensen). Om du t.ex. gör två dubbletter av&quot;Testa bild&quot; får dubbletterna namnen&quot;Testa bild (kopia) # 1&quot; och&quot;Testa bild (kopia) # 2&quot;.
 
-<!-- Add to TOC later when this feature is available to users:
+<!--
+ Add to TOC later when this feature is available to users:
 
 >* [Edit dynamic creatives](creative-edit-dynamic.md)
 >* [Dynamic ad settings](creative-settings-dynamic.md)

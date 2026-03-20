@@ -3,7 +3,7 @@ title: Inställningar för textannonser och responsiva sökannonser för lagerfl
 description: Referera inställningarna för text och responsiva sökannonsmallar för lagerflöden.
 exl-id: bf57fbb5-b7b0-4bd6-9dd2-def3825a1da6
 feature: Search Inventory Feeds
-source-git-commit: c5739a7c3564f84c57500b54f17ca25591e09a43
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -109,7 +109,9 @@ Om ingen matchning hittas ignoreras alla data för kampanjen. Om det finns flera
 
   ([!DNL Google Ads] kampanjer) Markera kryssrutan intill [!DNL Google Ads] om du vill inkludera bud på listor för **[!UICONTROL Search partners]** sökpartner.
 
-* *[!UICONTROL Content]:* Om du vill lägga bud på placeringar i nätverkslistorna för innehåll (visning). **Obs!** Du kan inte skapa placeringar med mallen. När du väljer det här alternativet skapar du placeringar för varje annonsgrupp och anger vilka sidor i visningsnätverket som ska användas som mål för varje annonsgrupp med hjälp av antingen <!-- insert link --> eller <!-- insert links -->- och placeringsinställningarna i [!UICONTROL Search] > [!UICONTROL Campaigns] -vyerna.
+* *[!UICONTROL Content]:* Om du vill lägga bud på placeringar i nätverkslistorna för innehåll (visning). **Obs!** Du kan inte skapa placeringar med mallen. När du väljer det här alternativet skapar du placeringar för varje annonsgrupp och anger vilka sidor i visningsnätverket som ska användas för varje annonsgrupp med hjälp av antingen kalkylblad eller annonsgruppen och placeringsinställningarna i [!UICONTROL Search] > [!UICONTROL Campaigns] -vyerna.
+
+<!-- insert links above -->
 
 **[!UICONTROL Languages]:** ([!DNL Google Ads] endast sök- och visningsnätverk) Ett eller flera målspråk för annonser i kampanjen.
 
@@ -177,9 +179,9 @@ Om du vill infoga ett kolumnnamn eller en modifieringsgrupp som en dynamisk para
 
 * För [!DNL Yandex]-mallar:
 
-   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
+   * För dynamiska parametrar: Infoga kolumnnamnet, till exempel `[keyword]`. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) om du vill ange matchningstypen. **Obs!** Använd följande syntax för breda matchningstermer: Bred Match Modifier för den första termen i nyckelordskolumnen (till exempel +blå suede-skor) = `+[keyword]`, Bred Match Modifier för varje term i nyckelordskolumnen (till exempel +blue +suede +skor) = `+[keyword]+`
 
-   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen &#x200B;](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
+   * För statiska nyckelord: Endast söknyckelord stöds. Använd den [[!DNL Yandex]-specifika syntaxen ](https://yandex.com/support/direct/keywords/symbols-and-operators.html) för nyckelordet. Parenteser (`[]`) för att ange ordordning stöds inte.
 
 >[!NOTE]
 >
@@ -239,7 +241,7 @@ Datafälten i matningsfilen får innehålla högst 25 tecken och får endast bes
 
 **[!UICONTROL Param 3]:** ([!DNL Microsoft Advertising] endast mallar) Den sträng som ska användas som ersättningsvärde i en annons om titeln, texten, URL:en eller den slutliga URL:en innehåller den dynamiska ersättningssträngen `{Param3}`. Den maximala längden är 70 tecken, men tänk på den maximala längden för de annonselement som du använder den i (en annonsrubrik kan till exempel innehålla upp till 25 tecken).
 
-**[!UICONTROL Initial Bid (&lt;Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
+**[!UICONTROL Initial Bid (<Match Type or Ad Type>)]:** Det inledande budet för varje nyckelord med den angivna matchningstypen eller annonstypen.
 
 ## [!UICONTROL Ads]
 

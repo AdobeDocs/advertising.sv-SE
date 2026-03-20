@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok om Advertising DSP
 user-guide-description: Lär dig mer om de viktigaste funktionerna, åtgärderna, inställningarna och andra resurser som krävs för att hantera, optimera och rapportera om dina strategier för visningsannonsering med hjälp av Advertising DSP.
 breadcrumb-title: Användarhandbok om DSP
 index: true
-source-git-commit: c6d921a7916d941413ca59b6133a37b6208fb117
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 3%
@@ -24,8 +24,8 @@ ht-degree: 3%
       + [Enhetsoberoende lösningar](/help/dsp/introduction/features/cross-device-solutions.md)
    + [Kontofinansiering](/help/dsp/introduction/billing/account-funding.md)
    + [Valutor som stöds](/help/dsp/currency.md)
-   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
-   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html?lang=sv-SE)
+   + [Stöd för konsumentsekretess](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
+   + [Profiler och riktlinjer](https://experienceleague.adobe.com/docs/advertising/privacy/home.html)
    + [Avancerade mätningslösningar](/help/dsp/introduction/advanced-measurement-services.md)
 + [Sök efter produktdokumentation med hjälp av AI-assisterad chatt](/help/dsp/agent-chat.md)
 + Kampanjhantering {#campaign-management}
@@ -77,7 +77,7 @@ ht-degree: 3%
       + [Granska och redigera annonsinformation med hjälp av kalkylblad](/help/dsp/campaign-management/ads/ad-qa.md)
       + [Redigera en annons](/help/dsp/campaign-management/ads/ad-edit.md)
       + [Duplicera en annons](/help/dsp/campaign-management/ads/ad-duplicate.md)
-      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html?lang=sv-SE)
+      + [Bifoga och ta bort annonser från placeringar](https://experienceleague.adobe.com/docs/advertising/dsp/campaign-management/placements/ad-attach-to-placement.html)
       + [Lista de placeringar som är associerade med en annons](/help/dsp/campaign-management/ads/ad-list-placements.md)
       + [Visa en detaljerad rapport för en annons](/help/dsp/campaign-management/ads/ad-view-report.md)
       + [Pausa eller aktivera en annons](/help/dsp/campaign-management/ads/ad-pause-activate.md)
@@ -233,15 +233,17 @@ ht-degree: 3%
    + Meddelanden {#notifications}
       + [Om aviseringsprenumerationer](/help/dsp/admin/alerts-about.md)
       + [Hantera aviseringsprenumerationer](/help/dsp/admin/alerts-manage.md)
-+ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE)
++ [Integreringar med Adobe Experience Cloud](https://experienceleague.adobe.com/docs/advertising/integrations/home.html)
 + [Få hjälp](/help/dsp/get-help.md)
-+ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv-SE)
++ [Versionsinformation för Adobe Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)
 
 
-<!-- add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
+<!--
+ add back to about below "Edit the advertisers with access to a deal ID" when reintroduced:
       + [Edit the attribute tags for a deal ID](/help/dsp/inventory/deal-id-edit-attribute-tags.md)
 -->
 
-<!-- add back to Inventory > SAS section when reimplemented:
+<!--
+ add back to Inventory > SAS section when reimplemented:
       +  [View event-tracking pixels for a [!UICONTROL Simple Ad Serving] deal](/help/dsp/inventory/simple-deal-show-pixels.md)
 -->

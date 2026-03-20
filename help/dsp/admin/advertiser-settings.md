@@ -2,7 +2,7 @@
 title: Kontoinställningar för annonsörer
 description: Se beskrivningar av tillgängliga inställningar för annonsörer.
 role: User, Admin
-source-git-commit: c83ad42f7d703e66713c9a34cbc6c9b5acbbc981
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
@@ -61,7 +61,8 @@ Mer information om integrationen med [!DNL Analytics] finns i [Översikt över  
 * Segment som har skapats i Adobe Experience Platform och skickats till Adobe Advertising via Audience Manager
 
 Den första synkroniseringen tar ca 24 timmar. Efter det synkroniseras data i realtid med en fördröjning på en till två sekunder.
-<!-- I don't think this is true anymore:
+<!--
+ I don't think this is true anymore:
 Segment membership data is sent to Adobe Advertising only after one of the following:
 
 * The segment is targeted in an Adobe Advertising placement or audience library
@@ -132,19 +133,19 @@ Valfria visningsfilter före bud av [!DNL DoubleVerify] och [!DNL Integral Ad Sc
 
 ###### Video
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average video viewability rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
+** **[!UICONTROL Impressions with Insufficient IAB Viewability Data]**
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average completion & fully viewable rate is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Include URL's whose average player size composition is]**. Välj villkor med det här alternativet.
 
-**&#x200B; **&#x200B;[!UICONTROL Impressions with Insufficient Player Size Statistics]**
+** **[!UICONTROL Impressions with Insufficient Player Size Statistics]**
 
 ###### Visa
 
-**&#x200B; **&#x200B;[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
+** **[!UICONTROL Only target URL's or Apps that have historically achieved a display viewability rate of]**. Välj villkor med det här alternativet.
 
 * **[!UICONTROL Impressions with Insufficient IAB Viewability Performance Data]**
 

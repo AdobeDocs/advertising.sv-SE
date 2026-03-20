@@ -4,7 +4,7 @@ user-guide-title: Adobe Advertising stöd för konsumentintegritet
 user-guide-description: Lär dig mer om de säkerhets- och integritetskontroller som Adobe Advertising erbjuder för att hjälpa annonsörskunder att följa konsumentsekretesslagstiftningen.
 breadcrumb-title: Stöd för konsumenternas integritet
 index: true
-source-git-commit: 7dc1d2dd2459d0b0049e755f121a6e6d1a9ab789
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 31%

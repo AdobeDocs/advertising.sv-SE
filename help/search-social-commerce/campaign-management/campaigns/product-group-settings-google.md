@@ -1,9 +1,9 @@
 ---
-title: '[!DNL Google Ads] produktgruppsinställningar'
+title: Inställningar för [!DNL Google Ads]-produktgrupp
 description: Referera inställningarna för  [!DNL Google Ads] shoppingproduktgrupper.
 exl-id: 2cfef9de-b265-4fa5-b1bd-84e6cba79914
 feature: Search Campaign Management
-source-git-commit: 7e4d2aa502f26b480a5fd76d68411586c24f68b2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,7 +38,8 @@ En lista över tillgängliga produktdimensioner finns i &quot;[Produktfilter fö
 
 <!-- **[!UICONTROL Tracking Template]:** -->
 
-<!-- ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
+<!--
+ ExL can't handle the same include twice in the same file, so using a snippet for the second occurrence.
 
 {{$include /help/_includes/tracking-template-google.md}}
 -->

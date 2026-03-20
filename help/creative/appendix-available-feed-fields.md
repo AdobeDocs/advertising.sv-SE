@@ -3,7 +3,7 @@ title: Tillgängliga fält för dynamiska och feed-filer
 description: Lär dig mer om de fält du kan inkludera i de flödesfiler du använder för att skapa dynamiska annonser.
 feature: Creative Dynamic Creatives
 exl-id: 9cd3fa29-d4db-4e9f-9ffd-87b44b62a3e2
-source-git-commit: 5bf0474f49160775d31dff0d434ba1e069f27959
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -16,7 +16,8 @@ Följande matningsfält är tillgängliga på Advertising Creative serverdel. Du
 
 Det enda fältet som måste ha en motsvarighet i din feed-fil är `PART_NUM`.
 
-<!-- Questions:
+<!--
+ Questions:
 
 What are these?
 Rank

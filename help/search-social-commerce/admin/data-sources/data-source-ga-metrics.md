@@ -4,9 +4,9 @@ description: Referera till  [!DNL Google Analytics] mätvärden som är tillgän
 role: User, Admin
 exl-id: 434c569d-7869-4874-90a5-5af18bc8157e
 feature: Search Admin, Search Data Sources
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,8 @@ ht-degree: 0%
 
 Följande mått, förutom de undantag som anges, är tillgängliga när de är aktiverade i kundens implementering i [!DNL Google Analytics].
 
-<!-- Notes as FYI to self:
+<!--
+ Notes as FYI to self:
 >[!NOTE]
 >
 >* For some of these metrics, [!DNL Google] assigns the friendly name, and the name is consistent. For some metrics, the advertiser assigns the friendly name in [!DNL Google Analytics], and the name has a dynamic value.
@@ -26,7 +27,7 @@ Följande mått, förutom de undantag som anges, är tillgängliga när de är a
 | ---- | ---- | ---- |
 | \[Alla\] | Mätvärden med datatypen PERCENT | Mätvärden som presenteras som en procentandel exkluderas alltid. |
 | Användare | ga:1dayUsers, ga:7dayUsers, ga:14dayUsers, ga:28dayUsers, ga:sessionsPerUser | — |
-| Session | ga:uniqueDimensionKombinations | — |
+| Session | ga:uniqueDimensionCombinations | — |
 | Målkonverteringar | — | — |
 | Sidspårning | ga:entrances, ga:timeOnPage, ga:exits | — |
 | Intern sökning | — | De egna namnen på alla mätvärden från den interna sökningen anges med värdet &quot;InternalSearch:&quot; |
@@ -34,7 +35,7 @@ Följande mått, förutom de undantag som anges, är tillgängliga när de är a
 | E-handel | — | — |
 | Social interaktion | — | — |
 | Undantag | — | — |
-| Anpassade variabler eller kolumner | ga:calcMetric_* | Beräknade värden exkluderas alltid. |
+| Anpassade variabler eller kolumner | ga :calcMetric_* | Beräknade värden exkluderas alltid. |
 
 >[!MORELIKETHIS]
 >

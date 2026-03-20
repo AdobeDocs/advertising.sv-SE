@@ -3,7 +3,7 @@ title: Hantera kreativa paket
 description: Lär dig hantera och använda grupper av kreatörer.
 feature: Creative Bundles
 exl-id: a9ed4e8f-db93-46d5-9231-2b3bb0aa072a
-source-git-commit: 2cf156702b44fe01d217f0f3ca4893a5af64e95f
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1587'
 ht-degree: 0%
@@ -238,7 +238,8 @@ Du kan förhandsgranska en kreativ bild som tittarna ser den, inklusive hyperlä
 
    1. I dialogrutan [!UICONTROL Share Demo URL] klickar du på **[!UICONTROL Copy]** för att kopiera URL:en till Urklipp så att du kan dela den med någon annan.
 
-<!-- Not there as of 1/22/25:
+<!--
+ Not there as of 1/22/25:
 
 ## Edit the landing page and tracking tags for the creatives in a standard creative bundle
 

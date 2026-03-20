@@ -3,7 +3,7 @@ title: Hantera kampanjdata med hjälp av kalkylblad
 description: Lär dig mer om vilka funktioner som är tillgängliga i annonsnätverk, arbetsflödet för kalkylblad och felhanteringen.
 exl-id: 34a16ee3-9eba-4b8b-a5ca-65318f4ee6c5
 feature: Search Bulksheets
-source-git-commit: d0f1c413134a0868ddec79ded7672af316267edd
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -38,7 +38,8 @@ Alla kalkylblad, valideringsfelfiler för landningssidor och andra felfiler tas 
 
 Standardstegen för användning av kalkylblad för synkroniserade konton är följande:
 
-<!-- insert image
+<!--
+ insert image
   [EDIT/RECREATE FILE to replace "search engine"]
 -->
 
@@ -48,9 +49,9 @@ Standardstegen för användning av kalkylblad för synkroniserade konton är fö
 
 1. När du behöver lägga till data eller göra korrigeringar:
 
-   1. [Exportera filen &#x200B;](bulksheet-export.md) till skrivbordet och redigera den i [!DNL Microsoft Excel].
+   1. [Exportera filen ](bulksheet-export.md) till skrivbordet och redigera den i [!DNL Microsoft Excel].
 
-   1. [Överför den redigerade filen &#x200B;](bulksheet-upload.md) manuellt till Search, Social och Commerce, eller [överför filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
+   1. [Överför den redigerade filen ](bulksheet-upload.md) manuellt till Search, Social och Commerce, eller [överför filen till ett angivet FTP-konto](bulksheet-ftp-account.md) för automatisk bokföring.
 
 1. (För filer som överförts manuellt) [Lägg upp filen](bulksheet-post.md) i annonsnätverket antingen när du överför den eller senare.
 

@@ -3,7 +3,7 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: 784d65f60de8962e634613f513037b2a6e6058bc
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2927'
 ht-degree: 0%
@@ -12,7 +12,8 @@ ht-degree: 0%
 
 # Tillgängliga rapportkolumner
 
-<!-- Add when added:
+<!--
+ Add when added:
 
 |[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
 

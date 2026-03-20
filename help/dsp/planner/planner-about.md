@@ -3,7 +3,7 @@ title: Om verktyget DSP [!UICONTROL Planner]
 description: Lär dig mer om planeringsverktyget för att förutsäga den unika räckvidden för utplaceringar av uppkopplade TV-apparater (CTV) enligt angiven budget och målinriktningskriterier.
 feature: DSP Planner
 exl-id: b25d4ac5-e85f-4a38-8765-6c5261987668
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -70,6 +70,8 @@ Planeraren genererar prognoser baserat på de senaste observerade data, så prog
 +++Kan jag spara planeringsprognosens utdata?
 
 Ja, du kan exportera en prognos till ett [!DNL Microsoft Excel]-kalkylblad genom att klicka på **[!UICONTROL ...]** > **[!UICONTROL Export]** i det övre högra hörnet. I kalkylbladet hämtas den information som visas i gränskurvan med hjälp av två datakolumner: [!UICONTROL Budget] och [!UICONTROL Reach].
+
++++
 
 >[!MORELIKETHIS]
 >

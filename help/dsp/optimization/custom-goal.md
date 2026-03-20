@@ -3,7 +3,7 @@ title: Anpassade mål
 description: Läs mer om anpassade mål för att definiera framgångshändelser i paket som är optimerade för det lägsta CPA eller högsta ROAS.
 feature: DSP Optimization
 exl-id: e40b82bc-2558-4e78-b269-9b9a3f0f5219
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 0%
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 Anpassade mål definierar vilka framgångshändelser en annonsörer behöver för att uppfylla sina affärsmål. Varje paket som använder optimeringsmålet [!UICONTROL Highest Return on Ad Spend (ROAS)"] eller [!UICONTROL Lowest Cost per Acquisition (CPA)] måste innehålla ett anpassat mål för att det övergripande optimeringsmålet ska uppnås. Du kan skapa anpassade mål som *mål* i [!DNL Advertising Search, Social, & Commerce]. Namnet på varje mål för DSP måste föregås av &quot;ADSP_&quot;.
 
-<!-- update image or omit it
+<!--
+ update image or omit it
 
 ![custom goals](/help/dsp/assets/objective-goals.png)
  -->
@@ -78,7 +79,8 @@ I följande exempel visas hur du kan konfigurera mål som har ett enda konverter
 
 Om kampanjmålet är intäkt ([!UICONTROL Highest Return on Ad Spend (ROAS)]), och intäkter från alla enhetstyper är lika viktiga för dig, ska du ta med mätvärdet [!UICONTROL Revenue] med en icke-mobil vikt på 1 (1). Mobilvikten ignoreras. Välj måtttypen *[!UICONTROL Goal]*.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a ROAS custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -92,7 +94,8 @@ Om kampanjmålet är intäkt ([!UICONTROL Highest Return on Ad Spend (ROAS)]), o
 
 Om kampanjmålet är den lägsta kostnaden per förvärv (CPA) och endast kräver en lyckad händelse (t.ex. &quot;Application Submit&quot;) inkluderar du det måttet och anger måtttypen *[!UICONTROL Goal]*. Det bästa sättet är att ange den icke-mobila vikten som ett (1). Den mobila vikten ignoreras.
 
-<!-- update image or delete 
+<!--
+ update image or delete 
 
 ![example of a CPA custom goal with a single conversion metric](/help/dsp/assets/custom-goal-roas.png)
 
@@ -108,7 +111,8 @@ Det finns två scenarier där du kan använda flera mätvärden i ett anpassat m
 
 * Kampanjmålet har flera lyckade händelser. Du kanske till exempel annonserar för mer än en åtgärd på plats (PDF Download, Contact Us och Email Sign up), och alla åtgärder bidrar till ditt mål med CPA. Om målet innehåller de tre separata måtten, där var och en har en icke-mobil vikt på en (1), behandlar den [!DNL Adobe AI]-baserade algoritmen alla mätvärden och användarenhetstyper med samma vikt. Om de olika måtten har olika kostnader eller betydelse justerar du deras relativa vikt därefter.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties.png)
 
@@ -120,7 +124,8 @@ Det finns två scenarier där du kan använda flera mätvärden i ett anpassat m
 
   Följande exempelmål innehåller tre mätvärden, var och en med olika icke-mobilvikt: Application Submit = 1, Application Start = 0.1 och Advertiser Landing Page = 0.01. Det innebär att varje konvertering av Application Submit har samma värde som i genomsnitt 10 konverteringar av Application Start och 100 konverteringar av Advertiser Landing Page.
 
-<!-- update image or delete it and adjust the wording above
+<!--
+ update image or delete it and adjust the wording above
 
    ![example of a custom goal with multiple metrics](/help/dsp/assets/custom-goal-multiple-properties2.png)
 

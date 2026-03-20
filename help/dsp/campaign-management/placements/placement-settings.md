@@ -3,7 +3,7 @@ title: Placeringsinställningar
 description: Se beskrivningar av tillgängliga placeringsinställningar.
 feature: DSP Placements
 exl-id: 5b2574be-5d08-4cf7-910e-deac48d7e035
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '4439'
 ht-degree: 0%
@@ -191,7 +191,7 @@ Inkludera ett postnummer per rad eller ange flera värden avgränsade med kommat
 
   På fliken [!UICONTROL Deals] kan du söka i listan efter nyckelord, nyckel, avtal-ID eller anpassad tagg. På fliken [!UICONTROL Deal Lists] kan du söka i listan efter namn på avtalslista eller ID för avtalslista.
 
-* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [&#x200B; premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager &#x200B;](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
+* [!UICONTROL On Demand] | [!UICONTROL Roku On Demand]: Alla [ premiumerbjudanden, icke-garanterade [!UICONTROL On Demand] lager ](/help/dsp/inventory/on-demand-inventory-about.md) (eller [!UICONTROL On Demand] [!DNL Roku] erbjudanden för [!DNL Roku] praktik) som du prenumererar på [!DNL DSP]. Du kan inkludera och exkludera [!UICONTROL On Demand] lager.
 
   Du kan visa listan efter källa eller feed. När du visar listan efter feed kan du söka efter flödesnamn, flödesknapp eller en vald utgivarregion, kategoritagg eller karakteristisk tagg.
 
@@ -412,7 +412,8 @@ ID:t måste börja med &quot;51&quot; och bestå av åtta siffror. Som standard 
 
 **[!UICONTROL Contextual filtering]:** (Gäller för webbreklam för datorer och mobila enheter, inbyggda annonser och videoannonser) Typer av [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science] och [!DNL Peer39] kontextfilter som ska användas. Standardvärdena på annonsörnivå väljs för nya placeringar, men du kan ändra inställningarna:
 
-<!-- Looks like we didn't rename this:
+<!--
+ Looks like we didn't rename this:
 **[!UICONTROL Brand Safety categories]:** Types of [!DNL Comscore], [!DNL DoubleVerify], [!DNL Integral Ad Science], and [!DNL Peer39] brand safety category filters to apply. The advertiser-level defaults are selected for new placements, but you can change the settings:
 -->
 

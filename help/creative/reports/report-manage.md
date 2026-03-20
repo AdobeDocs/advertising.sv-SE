@@ -3,7 +3,7 @@ title: Hantera anpassade rapporter
 description: Lär dig hur du genererar och hanterar korsgränssnittet [!UICONTROL Custom Creative Report].
 feature: Creative Reporting
 exl-id: fecdfc82-1260-46e4-82f3-c37fad6d77e4
-source-git-commit: 1584db3ec3871dfc82ac3309f7bb2c33e3886836
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 0%
@@ -208,7 +208,7 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
 
 * *[!UICONTROL FTP]:* Om du vill skicka den slutförda rapporten till en eller flera FTP-platser, som du måste markera i fältet **[!UICONTROL Destination Name]**.
 
-* *[!UICONTROL FTP SSL] (för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
+* *[!UICONTROL FTP SSL](för närvarande i Beta):* Om du vill skicka den slutförda rapporten till en eller flera FTP SSL-platser, som du måste välja i fältet **[!UICONTROL Destination Name]**.
 
 * *[!UICONTROL Email]:* Om du vill ange e-postadresser som slutförda rapporter eller meddelanden ska skickas till, om rapporten avbryts på grund av fel.
 
@@ -229,7 +229,8 @@ Se även [Hur attribueringsregler beräknas för Adobe Advertising](/help/search
       Det nya målet är nu tillgängligt i listan över befintliga mål och du kan lägga till det i rapporten om du vill.
 
 
-<!-- This needs a lot of updating for new report:
+<!--
+ This needs a lot of updating for new report:
 
 ## Available report columns {#report-custom-creative-columns}
 

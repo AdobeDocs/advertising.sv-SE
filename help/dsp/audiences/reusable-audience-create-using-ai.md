@@ -5,7 +5,7 @@ feature: DSP Audiences
 hidefromtoc: true
 hide: true
 exl-id: 82c9f122-2bdd-409f-a4d6-1da21ecbe913
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -96,7 +96,8 @@ Använd en AI-assisterad målgruppsagent för att generera nya återanvändbara 
 
 Se [Bästa tillvägagångssätt för att skapa en publikrapport](#audience-brief-best-practices) om du vill ha fler sätt att optimera kundförfrågningar.
 
-<!-- I think these are happening later:
+<!--
+ I think these are happening later:
 
 DSP uses "smart" defaults based on the user's previous audiences (all user-created audiences or only ones created via AI prompting?)
 
@@ -147,7 +148,8 @@ En publikrapport är en strategisk beskrivning som definierar målgruppen för e
 
 Ta med så många typer av målgruppsattribut som möjligt från följande lista i rapporten. Specificera vilka attribut du vill utesluta.
 
-<!-- What about these:
+<!--
+ What about these:
 
 * Device specifications
 * Presence in audiences from specific third-party data providers

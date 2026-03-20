@@ -2,7 +2,8 @@
 title: (Nytt användargränssnitt) Hantera [!DNL Naver] konton endast för spårning
 description: Lär dig hur du konfigurerar och hanterar kontoinformation i det nya användargränssnittet för ett [!DNL Naver] konto.
 feature: Search Campaign Management
-source-git-commit: 0de2a01905727314ca6c0792c5efaf6450548293
+exl-id: bc4be409-9935-448b-bfba-f93eb30bd5ca
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -65,7 +66,8 @@ Om du vill ändra kontonamnet, ändra kontostatusen eller ändra rapportsviterna
 
 1. Klicka på **[!UICONTROL Save]**.
 
-<!-- What does this do?
+<!--
+ What does this do?
 
 ## Enable or disable ad network accounts {#enable-disable-account}
 

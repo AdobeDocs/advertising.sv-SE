@@ -3,7 +3,7 @@ title: Lägg till dynamiska kreatörer i ett kreativt bibliotek
 description: Lär dig lägga till dynamiska kreatörer i ett kreativt bibliotek.
 feature: Creative Dynamic Creatives
 exl-id: 26162314-bdaa-4d1c-b0c2-696ec6dbb138
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -18,7 +18,8 @@ Lägg till dynamiska kreatörer i dina [kreativa bibliotek](creative-library-man
 >
 >Innan du kan lägga till dynamiska kreatörer i ett kreativt bibliotek måste du slutföra andra steg - som att skapa annonsmallen, överföra resurser och (dynamiska annonser från HTML5) skapa en flödesmall och en katalog. Se [Arbetsflöden för dynamiska annonser](/help/creative/introduction/workflow-dynamic-ads.md).
 
-<!-- This does't work for me 9/24 -- I still have to select a catalog:
+<!--
+ This does't work for me 9/24 -- I still have to select a catalog:
 
 ## Add dynamic creatives using a static HTML5 ad template
 

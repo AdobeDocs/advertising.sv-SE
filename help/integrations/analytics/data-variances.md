@@ -3,7 +3,7 @@ title: Förväntade dataavvikelser mellan  [!DNL Analytics]  och Adobe Advertisi
 description: Förväntade dataavvikelser mellan  [!DNL Analytics]  och Adobe Advertising
 feature: Integration with Adobe Analytics
 exl-id: 66b49881-bda1-49ef-ab8a-61399b8edd0f
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '3359'
 ht-degree: 0%
@@ -86,7 +86,7 @@ Ta hänsyn till dessa skillnader när du jämför vykonverteringar mellan Adobe 
 >
 >För att undvika missförstånd gör [!DNL Analytics] historiska data otillgängliga i rapporteringsgränssnittet. Du kan visa historiska data om du ändrar [!DNL eVar] tillbaka till den ursprungliga allokeringsinställningen, men du bör inte ändra [!DNL eVar] allokeringsinställningarna bara för att få tillgång till historiska data. Adobe rekommenderar att du använder en ny [!DNL eVar] när du vill använda en ny allokeringsinställning för data som redan spelas in, i stället för att ändra allokeringsinställningarna för en [!DNL eVar] som redan har en stor mängd historiska data.
 
-En lista med [!DNL Analytics]-attribueringsmodeller och deras definitioner finns på [https://experienceleague.adobe.com/sv/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/sv/docs/analytics/analyze/analysis-workspace/attribution/models).
+En lista med [!DNL Analytics]-attribueringsmodeller och deras definitioner finns på [https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/attribution/models).
 
 Om du är inloggad på [!DNL Search, Social, & Commerce] kan du hitta en lista
 
@@ -102,11 +102,11 @@ I Adobe Advertising kan du rapportera konverteringsdata antingen efter associera
 
 ## Attribution in [!DNL Analytics Marketing Channels]
 
-Med [[!DNL Analytics Marketing Channels] rapportering](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=sv-SE) kan du konfigurera regler för att identifiera olika marknadsföringskanaler baserat på distinkta aspekter av träffinformation. Du kan spåra Adobe Advertising-spårade kanaler ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] och [!UICONTROL Paid Search]) som [!DNL Marketing Channels] genom att använda frågesträngsparametern `ef_id` för att identifiera kanalen. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Men även om [!DNL Marketing Channels]-rapporterna kan spåra Adobe Advertising-kanaler kanske data inte matchar Adobe Advertising-rapporterna av flera anledningar. Mer information finns i följande avsnitt.
+Med [[!DNL Analytics Marketing Channels] rapportering](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html) kan du konfigurera regler för att identifiera olika marknadsföringskanaler baserat på distinkta aspekter av träffinformation. Du kan spåra Adobe Advertising-spårade kanaler ([!UICONTROL Display Click Through], [!UICONTROL Display View Through] och [!UICONTROL Paid Search]) som [!DNL Marketing Channels] genom att använda frågesträngsparametern `ef_id` för att identifiera kanalen. <!-- Move most of the above text to "Marketing Channels" chapter once it's created, and add link here. --> Men även om [!DNL Marketing Channels]-rapporterna kan spåra Adobe Advertising-kanaler kanske data inte matchar Adobe Advertising-rapporterna av flera anledningar. Mer information finns i följande avsnitt.
 
 >[!NOTE]
 >
-> Följande huvudbegrepp gäller också för flerkanalsspårning som omfattar kampanjer som inte spåras i Adobe Advertising, till exempel variabeln [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html?lang=sv-SE) (kallas även spårningskod eller [!DNL eVar] 0) och anpassad [!DNL eVar]-spårning.
+> Följande huvudbegrepp gäller också för flerkanalsspårning som omfattar kampanjer som inte spåras i Adobe Advertising, till exempel variabeln [`campaign`](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/campaign.html) (kallas även spårningskod eller [!DNL eVar] 0) och anpassad [!DNL eVar]-spårning.
 
 ### Potentiellt olika attribueringsmodeller i [!DNL Marketing Channels]
 
@@ -130,7 +130,7 @@ Mer information om varför mätvärdena kan variera finns i [Varför kanaldata k
 
 ## Skillnader i Adobe Analytics [!DNL Paid Search Detection]
 
-Med funktionen [äldre [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html?lang=sv-SE) i [!DNL Analytics] kan företag [definiera regler för att spåra betald och organisk söktrafik](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html?lang=sv-SE) för angivna sökmotorer. Regler i [!DNL Paid Search Detection] använder både en frågesträng och den refererande domänen för att identifiera betald och naturlig söktrafik. [!DNL Paid Search Detection]-rapporterna ingår i den större gruppen med [Hitta metoder](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html?lang=sv-SE)-rapporter, som förfaller antingen när en angiven händelse (till exempel en kundvagnsutcheckning) inträffar eller besöket avslutas.
+Med funktionen [äldre [!DNL Paid Search Detection]](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/paid-search-detection/paid-search-detection.html) i [!DNL Analytics] kan företag [definiera regler för att spåra betald och organisk söktrafik](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/t-paid-search-detection.html) för angivna sökmotorer. Regler i [!DNL Paid Search Detection] använder både en frågesträng och den refererande domänen för att identifiera betald och naturlig söktrafik. [!DNL Paid Search Detection]-rapporterna ingår i den större gruppen med [Hitta metoder](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/finding-methods.html)-rapporter, som förfaller antingen när en angiven händelse (till exempel en kundvagnsutcheckning) inträffar eller besöket avslutas.
 
 Följande gränssnitt används för att skapa en [!DNL Paid Search Detection]-regeluppsättning:
 
@@ -148,7 +148,7 @@ Observera följande två begränsningar med data i [!DNL Paid Search Detection]-
 
 ### Varför konfigurera [!DNL Paid Search Detection]?
 
-Med [!DNL Paid Search Detection]-rapporterna kan du identifiera naturlig söktrafik i [[!DNL Analytics Marketing Channels] rapporter](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html?lang=sv-SE). Att separera betald söktrafik och naturlig söktrafik är ett bra sätt att förstå det värde som naturlig sökning tillför hela marknadsföringsekosystemet.
+Med [!DNL Paid Search Detection]-rapporterna kan du identifiera naturlig söktrafik i [[!DNL Analytics Marketing Channels] rapporter](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/analyze-mc.html). Att separera betald söktrafik och naturlig söktrafik är ett bra sätt att förstå det värde som naturlig sökning tillför hela marknadsföringsekosystemet.
 
 ## Klicka-för-dataverifiering för [!DNL Analytics for Advertising] {#data-validation}
 
@@ -172,7 +172,8 @@ Du bör förvänta dig en hög matchningsfrekvens mellan AMO-ID och EF-ID, men v
 
 Mer information om AMO ID och EF ID finns i [Adobe Advertising ID:n som används av Analytics](ids.md).
 
-<!--  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
+<!--
+  Need to create a new report to show tracking instances to clicks, instead of clicks to instances as shown, and replace this screenshot.
 
 The following is an example of a workspace to track clicks to instances.
 
@@ -237,7 +238,7 @@ De verkar analoga, men klick och besök representerar olika data:
 
 * **Klicka:** [!DNL DSP] eller så spelar sökmotorn in ett klick när en besökare klickar på en annons på en utgivares webbplats.
 
-* **Besök:** [!DNL Analytics] definierar ett [besök](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=sv-SE) som en serie sidvisningar av en användare, som avslutas enligt ett av flera kriterier, t.ex. 30 minuters inaktivitet.
+* **Besök:** [!DNL Analytics] definierar ett [besök](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html) som en serie sidvisningar av en användare, som avslutas enligt ett av flera kriterier, t.ex. 30 minuters inaktivitet.
 
 En klickning kan per definition leda till flera besök.
 

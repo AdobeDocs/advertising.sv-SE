@@ -4,7 +4,7 @@ description: Läs om portfolior.
 feature: Search Portfolios, Search Optimization
 hide: true
 exl-id: 8d023c22-a1dd-4608-8c72-0a61f055e7e5
-source-git-commit: 8cf0817adc26709a3ad662207a522ac4cf833a92
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -54,7 +54,7 @@ En portfölj kan ha följande status:
 
 ## Vyn [!UICONTROL Portfolios]
 
-Vyn [!UICONTROL Portfolios] visar alla befintliga portföljer i den filtrerade vyn med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [&#x200B; från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
+Vyn [!UICONTROL Portfolios] visar alla befintliga portföljer i den filtrerade vyn med anpassningsbara prestandadata. Du kan [anpassa kolumnerna i vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) och filtrera data så att de inkluderar specifika portföljer [ från verktygsfältet](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-toolbar.md) eller från [kolumnrubriken](/help/search-social-commerce/common-tasks/data-views/ad-hoc-settings/column-filter-apply-from-column-heading.md).
 
 Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden som summeras för alla portföljer i vyn för det angivna datumintervallet.
 
@@ -64,7 +64,8 @@ Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden
 
 <!-- Update with any new options -->
 
-<!-- within row:
+<!--
+ within row:
 * [Rename a portfolio](portfolio-rename.md)
 
 * [View the constraints for a portfolio](portfolio-view-constraint.md)
@@ -91,4 +92,4 @@ Ovanför datatabellen kan du öppna ett resultatdiagram med upp till tre värden
 >* [Skapa en portfölj](portfolio-create.md)
 >* [Duplicera en portfölj](portfolio-duplicate.md)
 >* [Redigera en portfölj](portfolio-edit.md)
->* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn &#x200B;](portfolio-view-report.md)
+>* [Hantera datavyrapporter från [!UICONTROL Portfolios]-vyn ](portfolio-view-report.md)

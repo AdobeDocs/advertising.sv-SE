@@ -4,7 +4,7 @@ description: Lär dig mer om portföljsimuleringar.
 feature: Search Optimization, Search Portfolios, Search Simulations
 hide: true
 exl-id: 2fbefee2-f8f7-4b3d-a039-e1ca0236c61a
-source-git-commit: 73528e2aa905216584d1aa294f5581d2bca88432
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 0%
@@ -17,7 +17,8 @@ ht-degree: 0%
 
 Simuleringsrapporter visar det uppskattade marginalvärdet för kostnad-till-mål, kostnaden, antalet klick och det objektiva värde som du kan förvänta dig för en portfölj på olika utgiftsnivåer (kostnad) och motsvarande dagliga budgetar eller andra mål. Du kan [anpassa vyn](/help/search-social-commerce/common-tasks/data-views/custom-default-views-manage.md) om du vill visa ytterligare trafikvärden, simuleringsinställningar och endast en viss simuleringstyp ([!UICONTROL Weekly] eller [!UICONTROL Custom]).
 
-<!-- Not available as of 6/21/25:
+<!--
+ Not available as of 6/21/25:
 When the portfolio has a daily budget, you can optionally change the portfolio's spend target to any of the spend targets listed in the simulation.
 -->
 

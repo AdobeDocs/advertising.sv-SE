@@ -3,7 +3,7 @@ title: Granska och redigera placeringsinställningar med hjälp av kalkylblad
 description: Lär dig hur du granskar och redigerar nyckelplaceringsinställningar i grupp med kalkylblad.
 feature: DSP Placements
 exl-id: 2de4407d-eb3b-44ff-893c-9fdf6921d4b3
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -211,7 +211,8 @@ När en inställningsuppdatering misslyckas kan du hämta en felfil för kalkylb
 
 -->
 
-<!-- LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
+<!--
+ LOTS MORE THAN I HAD ORIGINALLY DOCUMENTED -- BELOW ARE THE LAST, BUT NOT ALL:
 
 | Brand Safety | Brand Safety - Contextual Filtering # |  |  |
 | Brand Safety | Brand Safety - Pre-Bid Fraud blocking # |  |  |

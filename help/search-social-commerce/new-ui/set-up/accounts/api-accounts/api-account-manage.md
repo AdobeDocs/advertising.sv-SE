@@ -2,7 +2,8 @@
 title: (Nytt användargränssnitt) Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation i det nya gränssnittet för ett annonsnätverk som synkroniseras via annonsnätverkets API.
 feature: Search Campaign Management
-source-git-commit: e62eb730ec88a37cbe34e35d7b9bf99e0d4fd41d
+exl-id: a50b2943-7568-401c-be5b-ff6f62629488
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '2129'
 ht-degree: 0%
@@ -133,7 +134,8 @@ När ni aktiverar ett annonsnätverkskonto synkroniserar Search, Social och Comm
 
 Kontoinställningarna varierar beroende på annonsnätverk. Du kanske inte ser alla inställningar nedan.
 
-<!-- When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
+<!--
+ When you're creating new accounts only; not sure that you'll have anything to do here once you've authenticated
 
 ### Authenticate tab
 
@@ -201,7 +203,7 @@ Aktivera **[Aktivera spårning]** om du vill aktivera den här funktionen.
 >* Om du växlar från [!UICONTROL Standard] till [!UICONTROL Token], eller vice versa, måste du återskapa spårnings-URL:er för kontot.
 >* Du kan åsidosätta inställningen på kontonivå på kampanjnivå.
 
-**[!UICONTROL Auto Update]:** (När Sökning, Social och Commerce-spårning är aktiverat) Standardiserar URL:er för spårning för kompatibilitet mellan webbläsare och servrar. Search, Social, &amp; Commerce skickar automatiskt följande till annonsnätverket under nästa synkronisering: a) parametrar för sökning, social och Commerce-spårning för spårningsmallar och samma parametrar som läggs till i de slutliga URL:erna eller b) nya mål-URL:er som är inbäddade med spårningskod för sökningar, sociala nätverk och Commerce. För annonsörer med en [Adobe Advertising-Adobe Analytics-integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html?lang=sv-SE) och en AMO ID (s_kwcid)-konfiguration på serversidan, innehåller överföringen även [AMO ID-parametrar](/help/integrations/analytics/ids.md#amo-id) för dina [!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton. Standardinställningen på kontonivå ärvs från annonsörens spårningsinställningar. Du kan åsidosätta inställningen på kontonivå på kampanjnivå.
+**[!UICONTROL Auto Update]:** (När Sökning, Social och Commerce-spårning är aktiverat) Standardiserar URL:er för spårning för kompatibilitet mellan webbläsare och servrar. Search, Social, &amp; Commerce skickar automatiskt följande till annonsnätverket under nästa synkronisering: a) parametrar för sökning, social och Commerce-spårning för spårningsmallar och samma parametrar som läggs till i de slutliga URL:erna eller b) nya mål-URL:er som är inbäddade med spårningskod för sökningar, sociala nätverk och Commerce. För annonsörer med en [Adobe Advertising-Adobe Analytics-integration](https://experienceleague.adobe.com/docs/advertising/integrations/analytics/overview.html) och en AMO ID (s_kwcid)-konfiguration på serversidan, innehåller överföringen även [AMO ID-parametrar](/help/integrations/analytics/ids.md#amo-id) för dina [!DNL Google Ads]- och [!DNL Microsoft Advertising]-konton. Standardinställningen på kontonivå ärvs från annonsörens spårningsinställningar. Du kan åsidosätta inställningen på kontonivå på kampanjnivå.
 
 Spårnings-URL:er uppdateras dagligen endast för entiteter som är osynkroniserade (det vill säga nya entiteter som lagts till och befintliga entiteter vars egenskaper har ändrats). Om du ändrar den här inställningen från inaktiverad till aktiverad för en befintlig annonserare/konto/kampanj uppdateras därför inte spårnings-URL:er för befintliga enheter som redan är synkroniserade. Om du vill lägga till spårning i URL:er för befintliga, synkroniserade enheter kontaktar du Adobe Account Team och begär en manuell synkroniseringsprocess en gång. Den automatiska överföringsprocessen hanterar framtida ändringar.
 

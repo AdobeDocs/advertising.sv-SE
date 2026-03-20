@@ -3,7 +3,7 @@ title: Hantera avtalslistor
 description: Lär dig hur du skapar och hanterar avtalslistor för målinriktning mot placeringar.
 feature: DSP Private Inventory, DSP On Demand Inventory, DSP Deal IDs, DSP Placements
 exl-id: 18a2c2d2-d84d-4347-93af-ca7489a1a8fb
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -14,7 +14,8 @@ ht-degree: 1%
 
 Du kan skapa och hantera listor med privata erbjudanden och [!DNL On Demand] erbjudanden för placering. Använd eller exkludera specifika privata avtalslistor i placeringsinställningarna.
 
-<!-- Later:
+<!--
+ Later:
 In custom reports, you can a) filter data by deal lists and deals and b) include the [!UICONTROL Feed] dimensions "[!UICONTROL Deal list]" and "[!UICONTROL Deal]" in the [!UICONTROL Build Your Report] section
 -->
 
