@@ -3,7 +3,7 @@ title: Redigera standardkreatörer i ett kreativt bibliotek
 description: Lär dig hur du ändrar inställningarna för vanliga (icke-dynamiska) kreatörer i ett kreativt bibliotek.
 feature: Creative Standard Creatives
 exl-id: 333ab2ea-293a-44e2-89e7-06782578318f
-source-git-commit: 84ef17f304fbd9eda82682368dfd59727971281d
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # Redigera standardkreatörer i ett kreativt bibliotek
 
-Du kan redigera vissa inställningar för varje typ av standardprogram. Du kan endast redigera flera användare av samma typ (HTML5 med endast en landningssida, statisk HTML5 med flera landningssidor, flexibel HTML5, bild eller tredje part <!-- or creative variations -->).<!-- , or dynamic -->
+Du kan redigera vissa inställningar för varje typ av standardprogram. Du kan endast redigera flera användare av samma typ (enkla HTML5 med endast en landningssida, statiska HTML5 med flera landningssidor, flexibla HTML5, bild eller tredje part).
 
 För flexibla kreatörer av HTML5 och statiska HTML5 kan du överföra en ny mallfil med en annan layout, men med samma uppsättning attributnamn. För enkla HTML5-användare kan du redigera alla attribut eller lägga till bilder genom att ladda upp en ny mall med de nya attributen eller bilderna. I samtliga fall måste mallen vara en lokal fil i ZIP-format med högst 2 MB.
 
-När du redigerar en <!-- or creative variation -->-kreatör som ingår i ett paket tillämpas dina ändringar automatiskt på alla upplevelser som innehåller paketet, förutom att anpassade landningssidor och spårnings-URL:er som anges på upplevelsenivån fortfarande gäller för det paket som är kopplat till den upplevelsen.
+När du redigerar en kreatör som ingår i ett paket tillämpas ändringarna automatiskt på alla upplevelser som innehåller paketet, förutom att eventuella anpassade landningssidor och URL:er för spårning som anges på upplevelsenivån fortfarande gäller för det paket som är kopplat till upplevelsen.
 
 1. Klicka på **[!UICONTROL Creative]** > **[!UICONTROL Creative Libraries]** på huvudmenyn.
 
@@ -38,7 +38,7 @@ När du redigerar en <!-- or creative variation -->-kreatör som ingår i ett pa
 
      Om du vill markera alla rader markerar du den globala kryssrutan i det övre vänstra hörnet.
 
-1. Redigera de [bildkreativa inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5-kreativa inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [flexibla HTML5-inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) eller [inställningar från andra leverantörer](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party). <!-- , or [dynamic creative settings](/help/creative/creative-libraries/creative-settings-dynamic.md) -->
+1. Redigera de [bildkreativa inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-image), [HTML5-kreativa inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-html5), [flexibla HTML5-inställningarna](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-flexible-html5) eller [inställningar från andra leverantörer](/help/creative/creative-libraries/creative-settings-standard.md#creative-settings-third-party).
 
    När du redigerar flera kreatörer samtidigt:
 
@@ -53,10 +53,6 @@ När du redigerar en <!-- or creative variation -->-kreatör som ingår i ett pa
 1. (Flexibla HTML5-kreatörer; valfritt) När du har gjort ändringarna klickar du på ![Förhandsvisa](/help/creative/assets/preview.png "Förhandsvisa") ovanför bilden för att förhandsvisa den nya kreativa bilden.
 
 1. Klicka på **Spara**.
-
-<!-- Not there as of 1/16/25. If we do add it, add back in:
-1. (Flexible HTML5 or third-party creatives; optional) Regenerate the thumbnail within the table view or cards view if the change isn't visible immediately.
--->
 
 >[!MORELIKETHIS]
 >

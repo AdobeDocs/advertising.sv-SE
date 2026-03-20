@@ -2,9 +2,10 @@
 title: Hantera dynamiska annonsmallar
 description: Lär dig hantera dynamiska annonsmallar och skapa annonser utifrån dem.
 feature: Creative Templates
-source-git-commit: 9c7f3d2aec0952b38d2fd3097d0b3499d33bf3b8
+exl-id: 248f1467-ebd3-47f2-a24c-043bbfadcc6e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Skapa en separat annonsmall för varje kombination av annonstyp (statisk HTML5 e
 
 1. Håll markören över annonsmallsraden och klicka på **[!UICONTROL Delete]**.
 
-1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.<!-- Confirm -->
+1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.
 
 ## Skapa dynamiska annonser från en annonsmall
 
@@ -87,13 +88,9 @@ Skapa en separat annonsmall för varje kombination av annonstyp (statisk HTML5 e
 
 **[!UICONTROL Description]**: (Valfritt) Information som är till hjälp för alla som använder annonsmallen.
 
-<!-- I don't see this on 9/24:
+### (Statiska HTML5-annonsmallar) Klicka på Taggar
 
-### (Static HTML5 ad templates) Click Tags
-
-**\[Click Tag Parameter\]**: The click tag parameters to allow click-tracking redirects from ads created using the ad template. To add a parameter, click **[!UICONTROL + Add More]** and enter an additional parameter. You can include up to five parameters.
-
--->
+**\[Click Tag Parameter\]**: Klicktaggsparametrarna som tillåter klickspårning från annonser som skapats med annonsmallen. Om du vill lägga till en parameter klickar du på **[!UICONTROL + Add More]** och anger ytterligare en parameter. Du kan ta med upp till fem parametrar.
 
 ### HTML5 zip
 
@@ -109,9 +106,7 @@ Så här överför du en fil:
 
 ### (dynamiska HTML5-annonsmallar) Attributfil
 
-<!-- EXPLAIN -->En fil som innehåller attribut för annonsmallen. Om du redan har överfört en fil visas filnamnet.
-
-<!-- Add specs for this file type -->
+<!-- EXPLAIN and ad specs below for this file type -->En fil som innehåller attribut för annonsmallen. Om du redan har överfört en fil visas filnamnet.
 
 Så här överför du en fil:
 
@@ -126,4 +121,3 @@ Så här överför du en fil:
 >* [Hantera flödesmallar](/help/creative/feeds/feed-template-manage.md)
 >* [Hantera kataloger](/help/creative/feeds/catalog-manage.md)
 >* [Lägg till dynamiska kreatörer i ett kreativt bibliotek](/help/creative/creative-libraries/creative-add-dynamic.md)
-

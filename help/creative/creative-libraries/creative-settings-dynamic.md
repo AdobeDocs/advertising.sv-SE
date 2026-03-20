@@ -3,7 +3,7 @@ title: Dynamiska kreativa inställningar
 description: Referera inställningarna för dynamiska kreatörer.
 feature: Creative Dynamic Creatives
 exl-id: 9dcd7245-fa02-4082-9abb-8c0792322a68
-source-git-commit: a8723bafa57e726fc920c98f2fd44f99f444ed3e
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Klicka på **[!UICONTROL Select Ad Template]** om du vill fortsätta.
 
 ### [!UICONTROL Attributes Mapping]
 
-**[!UICONTROL Enable targeting]**: <!-- "targeting options/filters," but I don't think this means user targeting since that is set in the experience/ad on DSP -->De typer av kolumner i feed-filen som det måste finnas värden för för att skapa annonser: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Obs!** De här inställningarna fungerar oberoende av de avancerade inställningarna för annonsupplevelser.<!-- Clarify what qualifies for each, and explain more -->
+**[!UICONTROL Enable targeting]**: De typer av kolumner i feed-filen som det måste finnas värden för för att skapa annonser: *[!UICONTROL Profile data]*, *[!UICONTROL Geographic data], *[!UICONTROL Data pass], *[!UICONTROL Audience Segment]*.  **Obs!** De här inställningarna fungerar oberoende av de avancerade inställningarna för annonsupplevelser.<!-- Clarify what qualifies for each, and explain more -->
 
 **[!UICONTROL Dynamic Ad Fields]** / **[!UICONTROL Maps to Catalog Labels]:**
 

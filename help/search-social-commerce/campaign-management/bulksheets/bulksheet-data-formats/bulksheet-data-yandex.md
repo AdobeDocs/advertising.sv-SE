@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Yandex] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Yandex] konton.
 exl-id: bf5a22dd-75c2-486d-85fd-e042bdb87de3
 feature: Search Bulksheets
-source-git-commit: 5c750153ff9e4be2d02f572d96b171d7aa293dd9
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Om du vill skapa och uppdatera [!DNL Yandex]-kampanjdata i grupp kan du använda skalkylbladsfiler för sökning, sociala medier och Commerce som är särskilt formaterade för [!DNL Yandex]-konton. Du kan antingen a) [generera bulkbladsfiler för befintliga konton](../bulksheet-download.md) i det filformat som krävs eller b) skapa dem manuellt (mer information om vilka filformat som stöds finns i [Filformat som stöds i bulkblad](bulksheet-file-formats.md)).
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Method,Ad Group Name,Ad Title,Ad Description,Base URL,Destination URL,SiteLink Title,SiteLink Base URL,SiteLink Destination URL,Keyword,Max CPC,Match Type,Search Network Status,Content Network Status,Negative Keywords (Yandex),Param1 (Yandex),Param2 (Yandex),Campaign Status,Ad Group Status,Ad Status,Keyword Status,SiteLink Status,Campaign ID,Ad Group ID, Ad ID,Keyword ID,AMO ID, [Advertiser-specific Label Classification],Constraints,EF Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Tillgängliga datafält
 
@@ -62,7 +52,7 @@ Platform,Acct Name,Campaign Name,Campaign Start Date,Campaign Budget,Delivery Me
 | [!UICONTROL Ad Group Status] | n/a | Valfritt: Skapa eller redigera<br>krävs: Ta bort | n/a | n/a | n/a | Annonsgruppens visningsstatus: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> eller <i>[!UICONTROL stop]</i> (pausad). Standardvärdet för nya annonsgrupper är <i>[!UICONTROL active]</i>.<br><br><b>Anteckningar:</b><ul></li>Om en annonsgrupp någonsin har varit aktiv kan du inte ta bort den. Arkivera den istället.</li><li>Du kan inte ange status manuellt till <i>[!UICONTROL disapproved]</i> eller <i>[!UICONTROL pending]</i>, eller ändra dessa statusvärden.</li></ul> |
 | [!UICONTROL Ad Status] | n/a | n/a | n/a | Valfritt: Skapa eller redigera<br>krävs: Ta bort | n/a | Banderollens (annons) visningsstatus: <i>[!UICONTROL active]</i>, <i>[!UICONTROL archived]</i>, <i>[!UICONTROL deleted]</i>, <i>[!UICONTROL disapproved]</i>, <i>[!UICONTROL pending]</i> eller <i>[!UICONTROL stop]</i> (pausad). Standardvärdet för nya banderoller är <i>[!UICONTROL active]</i>.<br><br><b>Obs! Du kan inte ange status manuellt till <i>[!UICONTROL disapproved]</i> eller <i>[!UICONTROL pending]</i>, eller ändra dessa statusvärden. |
 | [!UICONTROL Keyword Status] | n/a | n/a | Valfritt: Skapa eller redigera<br>krävs: Ta bort | n/a | n/a | Visningsstatus för frasen (nyckelord): <i>[!UICONTROL active]</i>. Standardvärdet för nya fraser är <i>[!UICONTROL active]</i>.<br><br><b>Obs! Du kan inte ange status manuellt till <i>[!UICONTROL disapproved]</i> eller <i>[!UICONTROL pending]</i>, eller ändra dessa statusvärden. |
-| [!UICONTROL SiteLink Status] | n/a | n/a | n/a | n/a | Valfritt: Skapa eller redigera<br>krävs: Ta bort | Visningsstatus för sitelink: <i>[!UICONTROL * Aktiv]</i> eller <i>[!UICONTROL * pausad]</i>. Standardvärdet för nya sitelinks är <i>[!UICONTROL * Active]</i>. |
+| [!UICONTROL SiteLink Status] | n/a | n/a | n/a | n/a | Valfritt: Skapa eller redigera<br>krävs: Ta bort | Visningsstatus för sitelink: <i>[*UICONTROL Aktiv]</i> eller <i>[*UICONTROL pausad]</i>. Standardvärdet för nya sitelinks är <i>[*UICONTROL Active]</i>. |
 | [!UICONTROL Campaign ID] | Ej tillämpligt: Skapa<br>krävs/Valfritt: Redigera<br>Valfritt: Ta bort | Valfritt | Valfritt | Valfritt | Valfritt | Det unika ID som identifierar en befintlig kampanj. I CSV- och TSV-filer måste det föregås av ett enkelt citattecken (&#39;).[^1] Krävs endast när du ändrar kampanjnamnet, såvida inte raden innehåller ett AMO-ID för kampanjen. |
 | [!UICONTROL Ad Group ID] | n/a | Ej tillämpligt: Skapa<br>krävs/Valfritt: Redigera<br>Valfritt: Ta bort | Valfritt | Valfritt | n/a | Det unika ID som identifierar en befintlig annonsgrupp. I CSV- och TSV-filer måste det föregås av ett enkelt citattecken (&#39;).[^1] Krävs endast när du ändrar annonsgruppens namn, såvida inte raden innehåller ett AMO-ID för annonsgruppen. |
 | [!UICONTROL Ad ID] | n/a | n/a | n/a | Ej tillämpligt: Skapa<br>Obligatoriskt/Valfritt: Redigera eller ta bort | n/a | Det unika ID som identifierar ett befintligt nyckelord. I CSV- och TSV-filer måste det föregås av ett enkelt citattecken (&#39;).[^1] Krävs endast när du ändrar nyckelordsnamnet, såvida inte raden innehåller a) tillräckliga egenskapskolumner för att identifiera nyckelordet eller b) ett AMO-ID. |

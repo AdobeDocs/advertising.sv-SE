@@ -3,7 +3,7 @@ title: Obligatoriska kalkylbladsdata för  [!DNL Naver] konton
 description: Referera till obligatoriska rubrikfält och datafält i kalkylblad för  [!DNL Naver] konton.
 exl-id: 1bfcdbb6-8026-4230-ab6b-b7c79b0d185a
 feature: Search Bulksheets
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -15,16 +15,6 @@ ht-degree: 0%
 Fyll i dina [!DNL Naver]-konton i Sök, socialt och Commerce genom att generera en kalkylbladsfil i [!DNL Naver] och sedan överföra den till Search, Social och Commerce.
 
 {{$include /help/_includes/bulksheet-appendices-intro.md}}
-
-<!-- Hiding because this is probably too long a list to be useful.
-
-## Available header fields
-
-Platform,Acct Name,Campaign Name,Ad Group Name,Keyword,Base URL,Destination URL,[Advertiser-specific Label Classification],Constraints,Campaign Status,Ad Group Status,Keyword Status,Campaign ID,Ad Group ID,Keyword ID,AMO ID,Error Message
-
-{{$include /help/_includes/bulksheet-headers-note.md}}
-
--->
 
 ## Tillgängliga datafält
 
