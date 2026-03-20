@@ -45,5 +45,5 @@ Is this first step relevant for this process?
 >
 >* [Om källor för förstapartsmålgrupper](source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)
