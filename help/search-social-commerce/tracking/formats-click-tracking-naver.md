@@ -3,9 +3,9 @@ title: Klickspårningsformat för  [!DNL Naver]
 description: Lär dig mer om knappspårningsformat för  [!DNL Naver] konton.
 exl-id: b438652e-6e98-4223-8169-2bfb37500670
 feature: Search Tracking
-source-git-commit: e16bc62127a708de8f4deb1eddfa53a14405cbc2
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Exempel:
 
 >[!NOTE]
 >
->* `<advertiser_ID>` är en variabel för annonsörens unika ID i Adobe Advertising.
+>* `<advertiser_ID>` är en variabel för annonsörens unika ID inom Adobe Advertising.
 >
 >* Det här formatet anger att tokenöverföring är aktiverat för kampanjen (standard). Om överföring av token är inaktiverat ersätter du `cq?` efter `<advertiser_ID>` med `c?`.
 >
->* `<the landing page>` är en variabel som representerar URL:en på din webbplats som slutanvändarna dirigeras till.
+* `<the landing page>` är en variabel som representerar URL:en på din webbplats som slutanvändarna dirigeras till.
 
 >[!MORELIKETHIS]
 >
->* [Om URL-format för klickspårning för tjänsten för spårning av konvertering av Adobe Advertising](formats-click-tracking-about.md)
->* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
+>* [AMO ID-format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

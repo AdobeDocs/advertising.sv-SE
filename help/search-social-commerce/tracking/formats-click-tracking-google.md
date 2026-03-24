@@ -3,9 +3,9 @@ title: Klickspårningsformat för  [!DNL Google Ads]
 description: Lär dig mer om knappspårningsformat för  [!DNL Google Ads] konton.
 exl-id: d09c3b4e-1274-45fb-abb6-dddfe60f1477
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -70,11 +70,11 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla något av följande:
 
-   * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](/help/integrations/analytics/ids.md#amo-id-formats) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
+   * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
-     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen [!UICONTROL Auto Upload] är aktiverad, läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se &quot;[Adobe Advertising ID:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md#amo-id-implement)&quot;.
+     Om kontot har en AMO ID-implementering på serversidan och konto- eller kampanjinställningen [!UICONTROL Auto Upload] är aktiverad, läggs parametern till automatiskt. I annat fall måste du lägga till det manuellt. Se &quot;[Adobe Advertising ID:n som används av [!DNL Analytics]](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id-implement).&quot;
 
    * Alla andra [!DNL Google Ads]-konton:
 
@@ -93,4 +93,4 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
->* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID-format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)

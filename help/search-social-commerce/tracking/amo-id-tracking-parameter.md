@@ -3,7 +3,7 @@ title: Spårningsparametern för AMO-ID (s_kwcid)
 description: Läs mer om spårningsparametern som används för att dela Adobe Advertising-data med Adobe Analytics.
 exl-id: 07b78f0b-624e-4dc2-8588-7cc1a86d3945
 feature: Search Tracking
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%

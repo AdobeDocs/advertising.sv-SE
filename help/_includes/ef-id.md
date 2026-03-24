@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0cf325946fdc3852b8b94acb29678bf6c47227a0
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -11,54 +11,60 @@ ht-degree: 0%
 
 EF ID är en unik variabel som Adobe Advertising använder för att koppla aktivitet till en onlineklickning eller annonsexponering på den enskilda webbläsaren eller enheten. EF ID:n fungerar främst som nycklar för att skicka [!DNL Analytics]-data och Customer Journey Analytics-data till Adobe Advertising för rapportering och budoptimering inom Adobe Advertising.
 
-För [!DNL Analytics] lagras EF-ID:t i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=sv-SE) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-ID).
+För [!DNL Analytics] lagras EF-ID:t i dimensionen [an [!DNL Analytics] [!DNL eVar]](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html) eller [!DNL rVar] (reserverad [!DNL eVar]) (Adobe Advertising EF-ID).
 
-För Customer Journey Analytics lagras EF-ID:t i egenskapen `trackingIdentities` för objektet `conversionDetails`, som är en del av [the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/sv/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
+För Customer Journey Analytics lagras EF-ID:t i egenskapen `trackingIdentities` för objektet `conversionDetails`, som är en del av [the [!UICONTROL Adobe Advertising Cloud ExperienceEvent Full Extension]](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/advertising-full-extension).
 
 ### EF ID-format {#ef-id-formats}
+
+Se [formaten för EF ID-dimensionsobjekt](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id#dimension-items) i&quot;Adobe Analytics Components Guide&quot;.
 
 >[!NOTE]
 >
 >EF ID:n är skiftlägeskänsliga. Om en [!DNL Analytics]- eller Customer Journey Analytics-implementering tvingar URL-spårning till gemener, känner Adobe Advertising inte igen EF-ID:t. Detta påverkar Adobe Advertising budgivning och rapportering men påverkar inte Adobe Advertising rapportering inom [!DNL Analytics] eller Customer Journey Analytics.
 
-#### [!DNL Google Ads] sökannonser
+<!-- Legacy content:
+
+#### [!DNL Google Ads] search ads
 
 ```
 {gclid}:G:s
 ```
 
-där:
+where:
 
-* `gclid` är [!DNL Google Click ID] (GCLID).
-* `s` är nätverkstypen (&quot;s&quot; för sökning).
+* `gclid` is the [!DNL Google Click ID] (GCLID).
+* `s` is the network type ("s" for search).
 
-#### [!DNL Microsoft Advertising] sökannonser
+#### [!DNL Microsoft Advertising] search ads
 
 ```
 {msclkid}:G:s
 ```
 
-där:
+where:
 
-* `msclkid` är [!DNL Microsoft Click ID] (MSCLKID).
-* `s` är nätverkstypen (&quot;s&quot; för sökning).
+* `msclkid` is the [!DNL Microsoft Click ID] (MSCLKID).
+* `s` is the network type ("s" for search).
 
-#### Visa annonser och sökannonser i andra sökmotorer
+#### Display ads and search ads on other search engines 
 
 ```
 <Adobe Advertising visitor ID>:<timestamp>:<channel type>
 ```
 
-där:
+where:
 
-* &lt;*Adobe Advertising besökar-ID*> är ett unikt ID per besökare (till exempel EhKVaAABCkJ0mDt). Kallas även *surfer-ID*.
+* <*Adobe Advertising visitor ID*> is a unique ID per visitor (such as UhKVaAAABCkJ0mDt). Also called the *surfer ID*.
 
-* &lt;*timestamp*> är tiden i formatet YYYYMMDDHMMSS (till exempel 20190821192533 för År 2019, Month 08, Day 21, Time 19:25:33).
+* <*timestamp*> is the time in the format YYYYMMDDHHMMSS (such as 20190821192533 for Year 2019, Month 08, Day 21, Time 19:25:33).
 
-* &lt;*kanaltyp*> är den kanaltyp som ansvarar för klickningen eller exponeringen:
+* <*channel type*> is the channel type responsible for the click or exposure:
 
-   * `d` för en klickning på en DSP-displayannons (visa klickfrekvens)
-   * `i` om du vill se en visningsannons från DSP (visa-genomgång)
-   * `s` om du vill ha en klickning på en sökannons (sökklickning).
+    * `d` for a click on a DSP display ad (display click-through)
+    * `i` for an impression of a DSP display ad (display view-through)
+    * `s` for a click on a Search ad (search click-through).
 
-Exempel `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+Example `EF ID: WcmibgAAAHJK1RyY:1551968087687:d`
+
+-->

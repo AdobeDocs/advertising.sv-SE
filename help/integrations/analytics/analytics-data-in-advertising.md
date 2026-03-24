@@ -3,7 +3,7 @@ title: '[!DNL Analytics] data i Adobe Advertising'
 description: '[!DNL Analytics] data i Adobe Advertising'
 feature: Integration with Adobe Analytics
 exl-id: e11b0617-44e3-4f28-a065-aa9f6cf3eb5d
-source-git-commit: 94a5b5591aef0aa5ae5d3459d547f52d939d559c
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Det tar 24-48 timmar innan nya segment visas i Adobe Advertising. Uppdateringar 
 * [!UICONTROL Timespent_secs_total]: Det totala antalet sekunder som har tillbringats på webbplatsen för alla besök i fönstret för klicksökning.
 * [!UICONTROL Pageviews_1stvisit]: Antalet sidvisningar på webbplatsen under besökarens första besök.
 * [!UICONTROL Pageviews_total]: Det totala antalet sidvisningar på webbplatsen för alla besök i klickningsfönstret.
-* [[!UICONTROL Bounces]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html?lang=sv-SE)
-* [[!UICONTROL Visits]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html?lang=sv-SE)
+* [[!UICONTROL Bounces]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/bounces.html)
+* [[!UICONTROL Visits]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/visits.html)
 * [!UICONTROL ef_id_instances]: Antalet gånger som [!DNL Analytics] samlade in en [!UICONTROL EF ID].
 
 ## Konverteringsmått
@@ -43,14 +43,14 @@ Det tar 24-48 timmar innan nya segment visas i Adobe Advertising. Uppdateringar 
 
 ### Standardkonverteringsmått
 
-* [[!UICONTROL Revenue]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html?lang=sv-SE)
-* [[!UICONTROL Orders]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html?lang=sv-SE)
-* [[!UICONTROL Units]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html?lang=sv-SE)
-* [[!UICONTROL Carts]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html?lang=sv-SE)
-* [[!UICONTROL Cart Views]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html?lang=sv-SE)
-* [[!UICONTROL Checkouts]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html?lang=sv-SE)
-* [[!UICONTROL Cart Additions]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html?lang=sv-SE)
-* [[!UICONTROL Cart Removals]-mått &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html?lang=sv-SE)
+* [[!UICONTROL Revenue]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/revenue.html)
+* [[!UICONTROL Orders]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/orders.html)
+* [[!UICONTROL Units]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/units.html)
+* [[!UICONTROL Carts]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/carts.html)
+* [[!UICONTROL Cart Views]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-views.html)
+* [[!UICONTROL Checkouts]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/checkouts.html)
+* [[!UICONTROL Cart Additions]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-additions.html)
+* [[!UICONTROL Cart Removals]-mått ](https://experienceleague.adobe.com/docs/analytics/components/metrics/cart-removals.html)
 
 ### Anpassade konverteringsvärden
 

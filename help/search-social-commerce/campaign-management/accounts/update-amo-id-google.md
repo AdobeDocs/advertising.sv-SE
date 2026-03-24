@@ -3,9 +3,9 @@ title: Uppdatera spårningskoden för AMO-ID (s_kwcid) för ett [!DNL Google Ads
 description: Lär dig hur du byter till den senaste spårningskoden för AMO ID för ett [!DNL Google Ads] konto.
 exl-id: 4dfd9ea6-f639-4b9a-aaa5-13f574e3961b
 feature: Search Campaign Management
-source-git-commit: 79b4294df79fcc16916a01ac2d1a57f0b968d368
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Endast *[!DNL Google Ads]konton*
 
-Det äldre formatet (före oktober 2019) för spårningskoden för [AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) för befintliga [!DNL Google Ads]-konton stöder inte vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer, utkast och experimentkampanjer, och andra användningsfall där samma kombination av typen ad+keyword+match finns i flera kampanjer.
+Det äldre formatet (före oktober 2019) för spårningskoden för [AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) för befintliga [!DNL Google Ads]-konton stöder inte vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer, utkast och experimentkampanjer, och andra användningsfall där samma kombination av typen ad+keyword+match finns i flera kampanjer.
 
 Det aktuella formatet innehåller parametrar för kampanj-ID och annonsgrupps-ID:
 
@@ -60,7 +60,7 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 
    * När funktionen [!UICONTROL Auto Upload] är aktiverad i spårningsinställningarna uppdaterar Search, Social och Commerce automatiskt spårningskoden i Landing Page Suffix för det här kontot och dess kampanjer. Ni behöver inte göra någonting.
 
-   * När funktionen [!UICONTROL Auto Upload] inte är aktiverad och du inte använder funktionen [AMO ID på serversidan](/help/integrations/analytics/ids.md#amo-id-formats) måste du uppdatera parametern AMO ID manuellt i inställningarna för landningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i [kontoinställningarna](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) och [kampanjinställningarna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) eller genom att [överföra ändringar i ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads]-redigeraren.
+   * När funktionen [!UICONTROL Auto Upload] inte är aktiverad och du inte använder funktionen [AMO ID på serversidan](/help/integrations/analytics/ids.md#) måste du uppdatera parametern AMO ID manuellt i inställningarna för landningssidans suffix. Du kan ändra konto- och kampanjnivåsuffix manuellt i [kontoinställningarna](/help/search-social-commerce/campaign-management/accounts/ad-network-account-manage.md) och [kampanjinställningarna](/help/search-social-commerce/campaign-management/campaigns/campaign-settings-google.md) eller genom att [överföra ändringar i ett kalkylblad](/help/search-social-commerce/campaign-management/bulksheets/bulksheet-upload.md). Om du vill konfigurera ett suffix på annonsgruppsnivå eller lägre använder du [!DNL Google Ads]-redigeraren.
 
    * Om du inkluderar AMO-ID:t i inställningen Bas-URL för någon kampanjkomponent, flyttar du det till relevant inställning för Landing Page Suffix.
 
@@ -70,4 +70,4 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >
 >* [Hantera annonskonton](ad-network-account-manage.md)
 >* [Adobe Advertising-id:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE){target="_blank"}
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}

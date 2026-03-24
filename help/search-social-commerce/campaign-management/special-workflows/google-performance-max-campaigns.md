@@ -3,9 +3,9 @@ title: Implementera  [!DNL Google Ads] maximala prestandakampanjer
 description: Lär dig mer om arbetsflödet för att konfigurera  [!DNL Google Ads] maximala prestandakampanjer.
 exl-id: 4208774c-e4dd-499d-987e-933fe073c04f
 feature: Search Campaign Management
-source-git-commit: 283fced2b3faa64b6383b6ab2a41696cba0da06f
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 I [!DNL Google Ads] prestandamängdskampanjer konfigurerar du inte annonsgrupper, annonser eller nyckelord. I stället anger du en eller flera resursgrupper, som innehåller rubriker, beskrivningar och överförda bilder, logotyper och [!DNL YouTube videos], i kampanjinställningarna. [!DNL Google Ads] kombinerar automatiskt resurserna för att hantera annonser baserat på kanalen (till exempel [!DNL YouTube], [!DNL Gmail] eller [!DNL Search]).
 
-Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i vyn [!DNL Campaigns]. Data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå är också tillgängliga i rapporter och i Adobe Analytics (för annonsörer med en [Analytics-integrering](/help/integrations/analytics/overview.md)). Om du vill visa prestandadata för maximala prestandakampanjer i [!DNL Analytics] måste kampanjen använda den [uppgraderade spårningskoden för AMO ID](/help/integrations/analytics/ids.md#amo-id-formats) (som spårar kampanj-ID och annonsgrupps-ID).
+Du kan visa dina befintliga maximala prestandakampanjer, med prestandadata i tabell- och trenddiagramformat, i vyn [!DNL Campaigns]. Data är inte tillgängliga på lägre nivåer. Prestandadata på kampanjnivå är också tillgängliga i rapporter och i Adobe Analytics (för annonsörer med en [Analytics-integrering](/help/integrations/analytics/overview.md)). Om du vill visa prestandadata för maximala prestandakampanjer i [!DNL Analytics] måste kampanjen använda den [uppgraderade spårningskoden för AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (som spårar kampanj-ID och annonsgrupps-ID).
 
 >[!NOTE]
 >

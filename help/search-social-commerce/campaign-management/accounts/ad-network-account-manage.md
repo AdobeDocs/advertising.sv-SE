@@ -3,9 +3,9 @@ title: Hantera och nätverkskonton
 description: Lär dig hur du konfigurerar och hanterar kontoinformation för ett annonsnätverkskonto.
 exl-id: 4038d03b-63e2-4953-89df-37f7b5f68652
 feature: Search Campaign Management
-source-git-commit: 10d8205d0c750e566ddd80122e291c276264afcb
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2100'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Konton som använder Adobe Advertising klickspårning måste inkludera annonsnä
 
 * **S_kwcid-format:** (Befintliga [!DNL Google Ads] konton för annonsörer med en Adobe Advertising-Adobe Analytics-integrering och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
 
-Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](/help/integrations/analytics/ids.md#amo-id-formats) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
+Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

@@ -3,9 +3,9 @@ title: Klickspårningsformat för  [!DNL Microsoft Advertising]
 description: Lär dig mer om knappspårningsformat för  [!DNL Microsoft Advertising] konton.
 exl-id: 4970ac33-4978-4768-8701-6fdd3252bbd1
 feature: Search Tracking
-source-git-commit: 70629247a18a78b12a7fc8b166a0272764bb20b8
+source-git-commit: 546e391745b1469efbcc9c2024dfc193224f0ed0
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -107,4 +107,4 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
->* [AMO ID-format](/help/integrations/analytics/ids.md#amo-id-formats)
+>* [AMO ID-format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
