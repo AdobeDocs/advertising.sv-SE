@@ -33,4 +33,4 @@ Exempel:
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
->* [AMO-ID-format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO-ID-format](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id#dimension-items)

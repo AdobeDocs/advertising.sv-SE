@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Endast *[!DNL Google Ads]konton*
 
-Det äldre formatet (före oktober 2019) för spårningskoden för [AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) för befintliga [!DNL Google Ads]-konton stöder inte vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer, utkast och experimentkampanjer, och andra användningsfall där samma kombination av typen ad+keyword+match finns i flera kampanjer.
+Det äldre formatet (före oktober 2019) för spårningskoden för [AMO ID](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id#dimension-items) för befintliga [!DNL Google Ads]-konton stöder inte vissa funktioner i Analytics, till exempel rapportering på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer, utkast och experimentkampanjer, och andra användningsfall där samma kombination av typen ad+keyword+match finns i flera kampanjer.
 
 Det aktuella formatet innehåller parametrar för kampanj-ID och annonsgrupps-ID:
 
@@ -70,4 +70,4 @@ Alla nya [!DNL Google Ads]-konton använder automatiskt det aktuella AMO ID-form
 >
 >* [Hantera annonskonton](ad-network-account-manage.md)
 >* [Adobe Advertising-id:n som används av [!DNL Analytics]](/help/integrations/analytics/ids.md)
->* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html){target="_blank"}
+>* [Översikt över [!DNL Analytics for Advertising]](https://experienceleague.adobe.com/docs/advertising/integrations/home.html?lang=sv-SE){target="_blank"}

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 **annonsvariation:** Alla annonser inom en annonsgrupp eller annonsstrategi.
 
-**[AMO ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics och Adobe Customer Journey Analytics. Det börjar med `s_kwcid=`.
+**[AMO ID](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id):** En spårningskod som gör att Adobe Advertising kan dela data om kampanjer med Adobe Analytics och Adobe Customer Journey Analytics. Det börjar med `s_kwcid=`.
 
 **anbudsenhet:** En söknings-, social- och Commerce-term för en enhet där bud placeras.
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 **eCPM:** Den gällande CPM, eller den genomsnittliga kostnaden per 1 000 visningar under ett visst datumintervall. eCPM-värden kan beräknas för antingen CPM- eller CPC-kampanjer.
 
-**[EF-ID](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-ef-id):** En spårningskod som gör att Adobe Advertising kan associera aktivitet med en klickning eller annonsexponering och dela data om kampanjer med Adobe Analytics och Adobe Customer Journey Analytics.
+**[EF-ID](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-ef-id):** En spårningskod som gör att Adobe Advertising kan associera aktivitet med en klickning eller annonsexponering och dela data om kampanjer med Adobe Analytics och Adobe Customer Journey Analytics.
 
 ## G-H {#g-h}
 

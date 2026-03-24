@@ -251,7 +251,7 @@ Konton som använder Adobe Advertising klickspårning måste inkludera annonsnä
 
 * **S_kwcid-format:** (Befintliga [!DNL Google Ads] konton för annonsörer med en Adobe Advertising-Adobe Analytics-integrering och för vilka AMO-ID:t (s_kwcid) inte redan har migrerats)
 
-Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
+Det här kontot använder det äldre formatet för spårningskoden för AMO ID, som gör att Adobe Advertising kan dela data om kontot med Adobe Analytics. Det [senaste formatet](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id#dimension-items) innehåller parametrar för kampanj-ID och annonsgrupp-ID, som krävs för att korrekt rapportera på kampanjnivå och annonsgruppsnivå för [!DNL Google Ads] prestandamängdskampanjer samt utkast och experimentkampanjer i Analytics:
 
 `s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 

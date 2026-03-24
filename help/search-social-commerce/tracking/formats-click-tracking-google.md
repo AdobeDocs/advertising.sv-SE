@@ -70,7 +70,7 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 
 * När annonsören har en Adobe Analytics-integrering måste suffixet innehålla något av följande:
 
-   * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
+   * [!DNL Google Ads]-konton som använder det senaste [AMO ID-formatet](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id#dimension-items) (som börjar med `s_kwcid`), som stöder kampanjrapportering och rapportering på annonsnivå för maximala prestandakampanjer samt utkast och experimentkampanjer:
 
      `ef_id={gclid}:G:s&s_kwcid=AL!{userid}!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}!{campaignid}!{adgroupid}`
 
@@ -93,4 +93,4 @@ Konton som använder Adobe Advertising-konverteringsspårning måste inkludera a
 >[!MORELIKETHIS]
 >
 >* [Om URL-format för klickspårning för Adobe Advertising-tjänsten för konvertering](formats-click-tracking-about.md)
->* [AMO ID-format](https://experienceleague.adobe.com/en/docs/analytics/components/dimensions/amo-id#dimension-items)
+>* [AMO ID-format](https://experienceleague.adobe.com/sv/docs/analytics/components/dimensions/amo-id#dimension-items)
