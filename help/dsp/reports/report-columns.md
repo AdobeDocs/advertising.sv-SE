@@ -3,9 +3,9 @@ title: Tillgängliga rapportkolumner
 description: Se beskrivningar av tillgängliga kolumner i anpassade rapporter.
 feature: DSP Custom Reports
 exl-id: 6dc30603-8a45-4188-aca6-591f3422b74a
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 917441d02d8e8b43911da44e19fcc2b7a64fc301
 workflow-type: tm+mt
-source-wordcount: '2927'
+source-wordcount: '2947'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 |[!UICONTROL Dimension]|[!UICONTROL Feed]|[!UICONTROL Deal List]|The name of a user-created deal list for which an ad was shown.|
 
 -->
+
+De tillgängliga rapportkolumnerna varierar beroende på rapporttyp. Följande är en överordnad uppsättning med kolumner för alla rapporttyper.
 
 | Mätningstyp | Undertyp | Kolumnnamn | Beskrivning |
 |-----------|-------|-----------|-----------|
