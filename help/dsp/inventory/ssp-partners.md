@@ -3,9 +3,9 @@ title: SSP-partners
 description: Se en lista över tillgängliga plattformar på utbudssidan (SSP) och öppna Exchange-partners.
 feature: DSP Private Inventory
 exl-id: 13e22d58-b799-46f1-9bce-1a077982c457
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: d5ac30d71fb9ccab53c396dae9b37d53d59e489c
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ En SSP (Supply-side Platform) är en plattform för annonseringsteknologi som an
 | [!DNL ShareThrough] |  | [!DNL TubeMogul] eller Adobe Advertising | — | Global | USD | Visa dator och mobil<br><br>Inbyggd skärm<br><br>Video för dator, mobil och CTV |
 | [!DNL SmartClip] |  | Adobe Advertising | — | EMEA | Alla valutor | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL Taboola] |  | Adobe Advertising | — | USA/CA | USD | Video Desktop och Mobile |
-| [!DNL Teads] |  | [!DNL TubeMogul] eller Adobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | USD | Visa dator och mobil<br><br>Video för dator och mobil |
+| [!DNL Teads] |  | [!DNL TubeMogul] eller Adobe Advertising | — | Outstream Video = Global<br>Display = NA + EMEA | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL TripleLift] |  | [!DNL TubeMogul] eller Adobe Advertising | — | Global | USD | Inbyggd skärm |
 | [!DNL TripleLift Display & Outstream] |  | [!DNL TubeMogul] eller Adobe Advertising | — | Global | USD | Display desktop and mobile<br><br>Video desktop, mobile, and CTV |
 | [!DNL Triton] |  | Adobe Advertising | Stöd för PG | Global | USD | Ljuddator och mobil |
