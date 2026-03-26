@@ -3,9 +3,9 @@ title: Stöd för aktivering av universella ID
 description: Lär dig mer om stöd för import av era universella ID-segment, skapa anpassade segment för att spåra universella ID:n och konvertera andra användaridentifierare i era förstapartssegment till universella ID:n för cookiefri anpassning.
 feature: DSP Audiences
 exl-id: e238537b-217f-44bb-8a69-8adc83dbdfb9
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ DSP har stöd för personbaserade, universella ID:n för cookiefri anpassning ti
 
 * Du kan skicka din autentiserade [[!DNL LiveRamp] [!DNL RampIDs]] manuellt direkt till DSP med kontrollpanelen [!DNL LiveRamp] [!DNL Connect]. Se [Importera autentiserade segment manuellt från  [!DNL LiveRamp]](/help/dsp/audiences/sources/source-import-liveramp-segments.md).
 
-* DSP kan importera dina egna segment som består av hashade e-post-ID:n som skapats inom kunddataplattformen (CDP) och konvertera dem till [!DNL LiveRamp] [!DNL RampIDs] - och [!DNL Unified ID 2.0 (UID2.0)]-ID:n. Mer information om vilka kunddataplattformar som stöds, vilka funktioner som är tillgängliga för alla universella ID-typer som stöds samt relaterade arbetsflöden finns i [Om förstapartsmålskällor](/help/dsp/audiences/sources/source-about.md).
+* DSP kan importera era egna segment som skapats inom er kunddataplattform (CDP) och konvertera dem till [!DNL LiveRamp] [!DNL RampIDs] - och [!DNL Unified ID 2.0 (UID2.0)] ID. Mer information om vilka kunddataplattformar och typer av användaridentifierare som stöds, tillgängliga funktioner för varje universell ID som stöds samt relaterade arbetsflöden finns i [Om förstapartskällor](/help/dsp/audiences/sources/source-about.md).
 
 * Du kan skapa anpassade segment som spårar användare som är kopplade till universella ID:n för ID5 som exponeras för annonser från datorer och mobila enheter och som besöker specifika webbsidor. ID5 använder en sannolikhetsmodell för att tilldela ett ID som härleds från olika användarsignaler och webbläsarsignaler. Instruktioner finns i &quot;[Skapa och implementera ett anpassat segment](/help/dsp/audiences/custom-segment-create.md)&quot;.
 
@@ -97,6 +97,8 @@ Använd följande metodtips för [!DNL RampID]-baserade segment och ID5-baserade
 * Tänk på att räckvidden för autentiserade målgruppssegment är naturligt mindre än räckvidden för cookie-baserade segment, och att ytterligare målgruppsalternativ minskar er räckvidd ytterligare. Var klok på att använda detaljerad målinriktning, särskilt genom att koppla ihop flera mål med AND-satser.
 
 ## Datavariationer mellan e-post-ID och universella ID {#universal-ids-data-variances}
+
+Det här avsnittet gäller endast e-post-ID:n som översätts till universella ID:n.
 
 ### Godtagbara variationsnivåer
 

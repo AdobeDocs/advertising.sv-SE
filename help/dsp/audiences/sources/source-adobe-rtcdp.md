@@ -3,9 +3,9 @@ title: Använda DSP-integrering med  [!DNL Adobe] [!DNL Real-time CDP]
 description: Lär dig hur du gör det möjligt för DSP att importera dina  [!DNL Adobe] [!DNL Real-time CDP] förstapartssegment.
 feature: DSP Audiences
 exl-id: cb1da95b-0d19-4450-8770-6c383248ddae
-source-git-commit: cff6b5ad2c66699a6e0402bce6685acc536fd0a0
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE), som är en del av Adobe Experience Platform, för att konvertera dina streckade e-postadresser till universella ID:n för riktad reklam.
+Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform, för att konvertera dina användar-ID:n - inklusive hash-kodade e-postadresser, cookies och ID:n för mobilannonsering - till universella ID:n för riktad annonsering.
 
-1. (Så här konverterar du e-postadresser till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Ställ in spårning för [!DNL Analytics]-mätning:
+1. (Så här konverterar du användar-ID:n till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Ställ in spårning för [!DNL Analytics]-mätning:
 
    1. (Om du inte redan har gjort det) Fyll i alla [krav för implementering [!DNL Analytics for Advertising]](/help/integrations/analytics/prerequisites.md) och [AMO ID och EF ID i dina spårnings-URL:er](/help/integrations/analytics/ids.md).
 
@@ -30,11 +30,15 @@ Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienc
 
 1. Konfigurera en Advertising DSP-målanslutning i Adobe Experience Platform med hjälp av [!UICONTROL Source Key] som genererades i DSP källinställningar.
 
-   Instruktioner om hur du aktiverar DSP-målanslutningen, markerar segment och får åtkomst till kontrollbehörigheter finns i &quot;[Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)&quot;.
+   E-postadresser måste hash-kodas med SHA-256-algoritmen.
 
-   Källans e-postadresser måste hashas med hjälp av SHA-256-algoritmen.
+   Instruktioner om hur du aktiverar DSP-målanslutningen, aktiverar målgrupper och validerar dataexport finns i &quot;[Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
 
-1. Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga hashade e-postadresser.
+   >[!NOTE]
+   >
+   >Den gamla anslutningen, som endast har stöd för hash-kodade e-postadresser, kallas nu [äldre Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Om du redan använder den äldre anslutningen behöver du inte göra några ändringar omedelbart. Den gamla anslutningen kommer dock så småningom att tas bort.
+
+1. Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga användar-ID:n.
 
    Segmenten bör vara tillgängliga i DSP inom 24 timmar. När DSP har tagit emot segmentdata bör antalet deltagare vara synligt inom nio (9) timmar. Mer information om godtagbara ID-översättningsfrekvenser och varför antalet segment kan variera finns i [Datavarianser mellan e-post-ID:n och universella ID:n](#universal-ids-data-variances).
 
@@ -50,7 +54,7 @@ Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Accou
 >
 >* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)
->* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=sv-SE)
+>* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
+>* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)

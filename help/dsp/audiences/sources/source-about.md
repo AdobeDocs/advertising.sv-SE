@@ -3,9 +3,9 @@ title: Om källor med förstapartsmålgrupper
 description: Lär dig hur du konverterar andra användaridentifierare i dina förstapartssegment till universella ID:n för cookiefri målinriktning.
 feature: DSP Audiences
 exl-id: ba056440-fa2b-4472-bbfd-16dd0af887f1
-source-git-commit: 7945887cf34c5ff390a35f1b9a6ede2888254c65
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-DSP kan importera förstahandssegment som består av hash-kodade e-post-ID:n som är byggda i kunddataplattformen (CDP) och konvertera dem till segment som består av universella ID:n. Varje resulterande ID är personbaserat och annonsfrekvenser används på ID-nivå <!-- Add that info. somewhere else too? -->.
+DSP kan importera förstahandssegment som består av hashade e-post-ID:n, cookies och MAID:n för mobilannonsering som är inbyggda i er kunddataplattform (CDP) och konvertera dem till segment som består av universella ID:n. Varje resulterande ID är personbaserat och annonsfrekvenser används på ID-nivå <!-- Move that info. to somewhere else? -->.
 
 Segmentinformationen omfattar storleken på varje universell ID-typ samt storleken för varje enhetstyp som spåras av cookies eller enhets-ID.
 
@@ -75,11 +75,11 @@ DSP kan även ansluta till ytterligare CDP:er med batchvis, direktuppspelad elle
 
 ### [!DNL Adobe Real-Time CDP]
 
-DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE), som är en del av Adobe Experience Platform.
+DSP är ett integrerat *mål* för [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som är en del av Adobe Experience Platform.
 
-I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser för riktad annonsering i DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=sv-SE) , inklusive en översikt över produkten, instruktioner för att [skapa målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html?lang=sv-SE) och [skapa destinationsanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=sv-SE) samt [aktivera data för destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html?lang=sv-SE).
+I [!DNL Real-Time CDP] är mål anslutningar till externa dataplattformar som tillåter smidig dataaktivering. Du kan använda destinationer för att aktivera dina hash-kodade e-postadresser, cookies och ID:n för mobilannonsering för riktad annonsering i DSP. Mer information om destinationer finns i Experience Platform [Destinationshandbok](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html) , inklusive en översikt över produkten, instruktioner om hur du [skapar målarbetsytor](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/destinations-workspace.html) och [skapar målanslutningar](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html) samt [aktiverar data till destinationer](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-segment-streaming-destinations.html).
 
-Om du vill att DSP ska kunna importera dina [!DNL Adobe] [!DNL Real-time CDP] förstapartssegment och konvertera dina hashade e-postadresser till universella ID:n läser du i &quot;[Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md)&quot;.
+Om du vill att DSP ska kunna importera dina [!DNL Adobe] [!DNL Real-time CDP] förstapartssegment och konvertera dina hashade e-postadresser, cookies och mobilannonserings-ID:n till universella ID:n läser du i [Konvertera användar-ID:n från [!DNL Adobe Real-Time CDP] till universella ID:n](/help/dsp/audiences/sources/source-adobe-rtcdp.md).&quot;
 
 ### [!DNL ActionIQ]
 

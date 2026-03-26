@@ -3,7 +3,7 @@ title: Hantera målgruppskällor för att aktivera universella ID-målgrupper
 description: Lär dig hur du skapar och hanterar en källa för att importera målgrupper från din kunddataplattform och konvertera dem till segment som innehåller universella ID:n.
 feature: DSP Audiences
 exl-id: 728130d7-d19c-4d5d-9bca-695f8c17f89b
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 2dddf3560e1f98dab7158c28625bcd54b4efbdb2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -33,7 +33,7 @@ You can create one source for each combination of universal ID partner and data 
 
 1. Klicka på **[!UICONTROL Add Source]**.
 
-1. Välj din [!UICONTROL Select a Type]kunddataplattform[&#x200B; på menyn &#x200B;](source-about.md):
+1. Välj din [!UICONTROL Select a Type]kunddataplattform[ på menyn ](source-about.md):
 
    * *[!UICONTROL RT-CDP]*: [!DNL Adobe Real-Time CDP].
 
@@ -59,13 +59,9 @@ You can create one source for each combination of universal ID partner and data 
 
 ## Ändra ID-typer för en målgruppskälla
 
-<!--
- Clarify this:
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if a new ID is added, any hashed email addresses shared before making the changes aren't converted. Similarly, if an ID is removed, we don't delete any historical data from the segments shared through the source.
+<!-- Clarify this:
 
-OR 
-
-All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we delete any historical IDs of that type from the segments shared through the source.
+All changes to universal IDs translated from the source are applied after you save the the source record. For example, if you add a new ID type, then we convert hashed email addresses that you shared before making the changes to the new ID type. Similarly, if you remove an ID type, then we don't delete any historical IDs of that type from the segments shared through the source.
 
 -->
 
@@ -73,7 +69,7 @@ All changes to universal IDs translated from the source are applied after you sa
 
 1. Håll markören över källraden och klicka på **[!UICONTROL Edit]**.
 
-1. Ändra de [ID:n som har valts för källan &#x200B;](#source-settings).
+1. Ändra de [ID:n som har valts för källan ](#source-settings).
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -123,7 +119,7 @@ För [!DNL RampID] och [!DNL Unified ID2.0] söker leverantören upp varje e-pos
 
 * *[!DNL RampID]:* Att konvertera PII till en [!DNL RampID]. Du kan använda [!DNL RampIDs] för återmarknadsföring av inloggningsanvändare och för [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)-mätning.
 
-* *[!DNL Unified ID2.0] (Beta):* Så här konverterar du PII till ett [Unified ID 2.0](https://unifiedid.com)-ID för återmarknadsföring av inloggningsanvändare.
+* *[!DNL Unified ID2.0](Beta):* Så här konverterar du PII till ett [Unified ID 2.0](https://unifiedid.com)-ID för återmarknadsföring av inloggningsanvändare.
 
 <!--
  Later
@@ -133,7 +129,7 @@ För [!DNL RampID] och [!DNL Unified ID2.0] söker leverantören upp varje e-pos
 
 **[!UICONTROL Terms of Service]:** Villkoren i serviceavtalet för konvertering av PII till universella ID:n. Du eller en annan användare på DSP-kontot måste acceptera villkoren en gång innan du kan konvertera data till en ny ID-typ. För kunder med hanterade tjänstekontrakt får ditt Adobe-kontoteam ditt samtycke och godkänner villkoren för din organisations räkning. Om du vill läsa villkoren klickar du på **>**. Om du vill acceptera villkoren rullar du längst ned på villkoren och klickar på **[!UICONTROL Accept]**.
 
-**[!UICONTROL Source Key]:** (skrivskyddad, genererad automatiskt) Den källnyckel du kan använda för att skapa en målanslutning i kunddataplattformen för att skicka målgrupper till Advertising DSP. Du kan kopiera värdet till Urklipp och klistra in det i inställningarna för målanslutningen eller i en fil.
+**[!UICONTROL Source Key]:** (skrivskyddad, genererad automatiskt) Den källnyckel som du kan använda för att skapa en målanslutning i kunddataplattformen för att skicka målgrupper till Advertising DSP. Du kan kopiera värdet till Urklipp och klistra in det i inställningarna för målanslutningen eller i en fil.
 
 >[!MORELIKETHIS]
 >
