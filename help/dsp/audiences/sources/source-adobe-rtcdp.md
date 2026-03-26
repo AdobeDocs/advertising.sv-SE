@@ -14,7 +14,7 @@ ht-degree: 0%
 
 *Beta-funktion*
 
-Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html), som ingår i Adobe Experience Platform, för att konvertera dina användar-ID:n - inklusive hash-kodade e-postadresser, cookies och ID:n för mobilannonsering - till universella ID:n för riktad annonsering.
+Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=sv-SE), som ingår i Adobe Experience Platform, för att konvertera dina användar-ID:n - inklusive hash-kodade e-postadresser, cookies och ID:n för mobilannonsering - till universella ID:n för riktad annonsering.
 
 1. (Så här konverterar du användar-ID:n till [!DNL RampIDs]<!-- or [!DNL ID5] IDs -->; annonsörer med [[!DNL Adobe] [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)) Ställ in spårning för [!DNL Analytics]-mätning:
 
@@ -32,11 +32,11 @@ Använd DSP-integreringen med [the [!DNL Adobe Real-Time CDP]](https://experienc
 
    E-postadresser måste hash-kodas med SHA-256-algoritmen.
 
-   Instruktioner om hur du aktiverar DSP-målanslutningen, aktiverar målgrupper och validerar dataexport finns i &quot;[Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)&quot;.
+   Instruktioner om hur du aktiverar DSP-målanslutningen, aktiverar målgrupper och validerar dataexport finns i &quot;[Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)&quot;.
 
    >[!NOTE]
    >
-   >Den gamla anslutningen, som endast har stöd för hash-kodade e-postadresser, kallas nu [äldre Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Om du redan använder den äldre anslutningen behöver du inte göra några ändringar omedelbart. Den gamla anslutningen kommer dock så småningom att tas bort.
+   >Den gamla anslutningen, som endast har stöd för hash-kodade e-postadresser, kallas nu [äldre Adobe Advertising Cloud DSP-anslutning](https://experienceleague.adobe.com/sv/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection-legacy). Om du redan använder den äldre anslutningen behöver du inte göra några ändringar omedelbart. Den gamla anslutningen kommer dock så småningom att tas bort.
 
 1. Kontrollera i målgruppsbiblioteket (som är tillgängligt när du skapar eller redigerar en målgrupp från [!UICONTROL Audiences] > [!UICONTROL All Audiences] eller inom placeringsinställningarna) att segmentet fylls i och jämför antalet universella ID:n med antalet ursprungliga användar-ID:n.
 
@@ -54,7 +54,7 @@ Om du vill felsöka problem med konverteringsproceduren kontaktar du Adobe Accou
 >
 >* [Om källor för förstapartsmålgrupper](/help/dsp/audiences/sources/source-about.md)
 >* [Hantera målgruppskällor för att aktivera universella ID-målgrupper](source-manage.md)
->* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html)
->* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html)
+>* [Adobe Advertising DSP-anslutning](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/advertising/adobe-advertising-cloud-connection.html?lang=sv-SE)
+>* Adobe Experience Platform [Översikt över destinationskatalogen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=sv-SE)
 >* [Stöd för aktivering av universella ID](/help/dsp/audiences/universal-ids.md)
 >* [Om målgruppshantering](/help/dsp/audiences/audience-about.md)
