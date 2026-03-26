@@ -3,7 +3,7 @@ title: Inställningar för [!UICONTROL Simple Ad Serving]-avtal
 description: Läs mer om de tillgängliga inställningarna för [!UICONTROL Simple Ad Serving]-erbjudanden.
 feature: DSP Simple Ad Serving
 exl-id: 20e23182-d3d0-457f-a821-0ad4770a138d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 90cc9d56a090136bc94270b048573d89503231c6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 | **[!UICONTROL Serving Type]** | Medietypen för det här erbjudandet: *[!UICONTROL Video],* *[!UICONTROL Display],* eller *[!UICONTROL Audio].* |
 | **[!UICONTROL Publisher Site Served On]** | Namnet på utgivaren som säljer det här lagret. Sök efter en utgivare genom att ange minst de två första tecknen i namnet. Om du vill lägga till en utgivare som inte finns med i listan kontaktar du ditt Adobe-kontoteam. |
 | **[!UICONTROL Advertiser]** | En enskild annonsör på kontot som har åtkomst till erbjudandet. Välj även den kampanj och (valfritt) det paket där erbjudandet är tillgängligt. |
-| **[!UICONTROL Media Quality Assessment?]** | (Vissa användare) Gör att annonsen kan köras på en annan DSP för verifiering från tredje part. <!-- Who can select this? It's disabled for me. Need to see if there are additional fields when this is enabled. --> |
+| **[!UICONTROL Media Quality Assessment?]** | (Vissa användare) Gör att annonsen kan köras på en annan DSP för verifiering från tredje part. |
 | **[!UICONTROL Ad Source]** | Det enda alternativet är *[!UICONTROL Site Serve (Event Pixels)]*. |
 | **[!UICONTROL Ad Creation]** | (Endast nya erbjudanden) Om du vill:<ul><li>*[!UICONTROL Create New]:* Om du vill skapa en annons för det här erbjudandet.</li><li>*[!UICONTROL Select Ads]:* Om du vill använda en befintlig annons för det här erbjudandet.</li></ul> |
 | **[!UICONTROL Ad Type]** | Annonstypen för erbjudandet. Om du ska skapa annonser för erbjudandet ska du inkludera annonsstorlek eller varaktighet, på begäran. Vilka alternativ som är tillgängliga varierar beroende på medietyp. |
