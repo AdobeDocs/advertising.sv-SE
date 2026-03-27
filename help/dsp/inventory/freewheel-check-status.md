@@ -1,18 +1,18 @@
 ---
 title: Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal
-description: Lär dig hur du hittar status för annonser för [!DNL Freewheel] programmatiska garanterade avtal.
+description: Lär dig hur du hittar status för annonser för [!DNL FreeWheel] programmatiska garanterade avtal.
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: f5f33e96-68a8-48bd-8c30-72be9315c5ac
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
-# Kontrollera status för annonser för [!DNL Freewheel] programmatiska garanterade avtal
+# Kontrollera status för annonser för [!DNL FreeWheel] programmatiska garanterade avtal
 
-Kontrollera om dina annonsinskick till [!DNL Freewheel] lyckades. Du kan skicka om alla annonser efter behov.
+Kontrollera om dina annonsinskick till [!DNL FreeWheel] lyckades. Du kan skicka om alla annonser efter behov.
 
 Om du har ytterligare frågor eller problem med att skicka in din ansökan kontaktar du Adobe Account Team.
 
@@ -24,7 +24,7 @@ Om du har ytterligare frågor eller problem med att skicka in din ansökan konta
 
 1. Klicka på **[!UICONTROL Ads]** på undermenyn.
 
-1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL see Freewheel status]** bredvid annonsnamnet.
+1. Klicka på **[!UICONTROL ...]** > **[!UICONTROL See FreeWheel status]** bredvid annonsnamnet.
 
 1. (Valfritt) Om du vill skicka om en annons för godkännande håller du markören över annonsraden och klickar sedan på **[!UICONTROL More]** > **[!UICONTROL Resubmit]**.
 
@@ -34,9 +34,9 @@ Om du har ytterligare frågor eller problem med att skicka in din ansökan konta
 
 1. Gör något av följande:
 
-   * Klicka på [!UICONTROL Deal ID Inbox] under **[!UICONTROL View Freewheel creative status]**.
+   * Klicka på [!UICONTROL Deal ID Inbox] under **[!UICONTROL View FreeWheel creative status]**.
 
-   * Klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL see Freewheel status]** i valfri avtalsrad.
+   * Klicka på ![Alternativ-menyn](/help/dsp/assets/options-menu.png) **>[!UICONTROL See FreeWheel status]** i valfri avtalsrad.
 
 1. (Valfritt) Filtrera data så att du kan hitta specifika avtal och annonser.
 
@@ -48,7 +48,7 @@ Om du har ytterligare frågor eller problem med att skicka in din ansökan konta
 
 >[!MORELIKETHIS]
 >
->* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL Freewheel]](freewheel-overview.md)
->* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]](freewheel-submit.md)
->* [Felkoder för [!DNL FreeWheel] och inskickade &#x200B;](freewheel-error-codes.md)
+>* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL FreeWheel]](freewheel-overview.md)
+>* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL FreeWheel]](freewheel-submit.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)

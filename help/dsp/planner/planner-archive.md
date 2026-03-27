@@ -3,7 +3,7 @@ title: Arkivera en ansluten TV-räckvidd
 description: Lär dig arkivera en ansluten TV-räckvidd.
 feature: DSP Planner
 exl-id: 335db881-51e6-412d-9346-216c6a70a6de
-source-git-commit: 9b5c00cdb0942ec4e7fbf69d7ce638ab50439915
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Arkivera en ansluten TV-räckvidd
 
-Om du arkiverar en plan tas den bort från standardvyn [!UICONTROL Planner].<!-- You can still view it by including the [!UICONTROL Status] "[!UICONTROL Archived]" in the view filter. -->
+Om du arkiverar en plan tas den bort från standardvyn [!UICONTROL Planner].
 
 1. Klicka på **[!UICONTROL Planner]** på huvudmenyn.
 

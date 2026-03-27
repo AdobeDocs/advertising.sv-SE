@@ -3,9 +3,9 @@ title: Skapa ett [!UICONTROL Simple Ad Serving]-erbjudande
 description: Lär dig hur du skapar en spårningspixel för en [!UICONTROL Simple Ad Serving]-affär.
 feature: DSP Simple Ad Serving
 exl-id: 77d5dabd-1a0d-4dce-8a9a-8d54a637e15d
-source-git-commit: d6416dae58543e1287b7af7df44eada4be023731
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
    1. Redigera flödesinformationen i Feed Details och klicka sedan på **[!UICONTROL Next]**.
 
-      DSP genererar automatiskt en placering med namnet&quot;SAS-placering - &lt;*erbjudandenamn*>&quot; för annonsen. I placeringen anges erbjudandet automatiskt i avsnittet [!UICONTROL Inventory Targets]. Alla andra målinriktningsalternativ är inte tillämpliga.
+      DSP genererar automatiskt en placering med namnet &quot;SAS Placement - &lt;*Avtalsnamn*>&quot; för annonsen. I placeringen anges erbjudandet automatiskt i avsnittet [!UICONTROL Inventory Targets]. Alla andra målinriktningsalternativ är inte tillämpliga.
 
 1. Skicka pixlar för händelsespårning till utgivaren för implementering på något av följande sätt:
 
@@ -47,13 +47,13 @@ ht-degree: 0%
 
          * Om du vill klistra in informationen i ett e-postmeddelande i ett e-postprogram på enheten klickar du på **[!UICONTROL Email & Done]** och väljer e-postprogrammet. Fältet [!UICONTROL CC:] är förifyllt med en [!DNL Adobe]-supportadress. Du kan sedan skicka meddelandet till lämplig kontakt för utgivaren.
 
-         * Klicka på **[!UICONTROL Copy Email]om du vill kopiera informationen till Urklipp.** Du kan sedan klistra in innehållet manuellt i ett e-postmeddelande och skicka det till lämplig kontakt för utgivaren. Du måste inkludera en kopia (CC:) till `publisher-support-global@adobe.com`. När du är klar med kopieringen av meddelandet klickar du på **[!UICONTROL Email & Done]**.
+         * Klicka på **[!UICONTROL Copy Email]om du vill kopiera informationen till Urklipp.** Du kan sedan klistra in innehållet manuellt i ett e-postmeddelande och skicka det till lämplig kontakt för utgivaren. Ta med en kopia (CC:) till `publisher-support-global@adobe.com`. När du är klar med kopieringen av meddelandet klickar du på **[!UICONTROL Email & Done]**.
 
       1. (Om det behövs) Följ upp med utgivaren för att se om taggen innehåller rätt makron så att taggen fungerar med utgivarens annonsserver.
 
    * (Valfritt) Skicka pixlarna för händelsespårning manuellt till utgivaren:
 
-      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![&#x200B; &#x200B;](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
+      1. Klicka på [!UICONTROL Deals]Alternativ-menyn![ ](/help/dsp/assets/options-menu.png)> **i avtalsraden i vyn[!UICONTROL show pixel]**.
 
          Händelsepixlarna innehåller en [!UICONTROL Clickthrough]-pixel och en [!UICONTROL Impression]-pixel. Video- och ljudannonser innehåller även händelsepixlar per kvartil (från [!UICONTROL 25% Complete] till [!UICONTROL 100% Complete]).
 

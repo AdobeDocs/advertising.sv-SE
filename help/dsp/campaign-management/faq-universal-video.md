@@ -3,7 +3,7 @@ title: Frågor och svar om universell video
 description: Läs mer om universella videoannonser.
 feature: DSP Placements, DSP Ads
 exl-id: 48c744ae-90a3-47e9-a5dc-c4e3c01b75a0
-source-git-commit: 806b0d5e3f9daea4f439863dd9b715964de2a1c4
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Mål som är inkompatibla med vanliga anslutna tv-utplaceringar, t.ex. lägsta k
 Använd **[!UICONTROL VAST]** i något av följande scenarier:
 
 * Placeringsmålen för ansluten TV-inventering.
-* Placeringen avser videolager från Google Ad Manager, Appnexus, SpotX eller Freewheel. Dessa SSP:er stöder inte videoformatet VPAID och VAST.
+* Placeringen avser videolager från Google Ad Manager, Appnexus, SpotX eller FreeWheel. Dessa SSP:er stöder inte videoformatet VPAID och VAST.
 
 ## Går det att bifoga flera universella videoannonser till samma universella videomaterial?
 

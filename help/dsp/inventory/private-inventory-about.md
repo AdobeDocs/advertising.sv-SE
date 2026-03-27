@@ -3,9 +3,9 @@ title: Om privat lager
 description: Om privat lager
 feature: DSP Private Inventory
 exl-id: 34fc1926-a839-4f2d-8628-557542fb7835
-source-git-commit: 05b374b1d15121f71035b10e6c27a2b70fb642fa
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Annonsörer som ser bortom RTB kan använda privat lager för att underlätta ex
 ## Avtals-ID
 
 
-Om ni har direktkontakt med utgivare kan ni effektivisera era era medieinköp och arbetsflöden genom att använda era egna privata avtal, med deras förhandlade lager och priser, på era Advertising DSP-platser. DSP kan integreras med alla utgivare när ni skapar ett konto. Om du vill få tillgång till fler utgivare senare kontaktar du ditt Adobe-kontoteam för att konfigurera åtkomst. <!-- + sentence from Ramey? (no longer here) about how we certify the publishers -->
+Om ni har direktkontakt med utgivare kan ni effektivisera era era medieinköp och arbetsflöden genom att använda era egna privata avtal, som innehåller förhandlade lager och priser, på era Advertising DSP-platser. DSP kan integreras med alla utgivare när ni skapar ett konto. Om du vill få tillgång till fler utgivare senare kontaktar du ditt Adobe-kontoteam för att konfigurera åtkomst.
 
 Alla dina privata avtal med ett erbjudande-ID finansieras och faktureras av [!DNL Adobe].
 
@@ -35,11 +35,11 @@ Ni kan använda varje privat erbjudande som ett placeringsmål för flera kampan
 
 ## Vyn [!UICONTROL Deals]
 
-I vyn [!UICONTROL Inventory] > [!UICONTROL Deals] kan du skapa inställningar för privata avtal. Du kan även redigera vissa inställningar för avtal, lista ut placeringar och annonser och bifoga ytterligare placeringar och annonser till ett privat avtal, redigera annonsörer och konton som kan få tillgång till ett privat avtal, visa en resultatrapport för ett avtal, visa auktionsinsikter för ett privat avtal eller arkivera eller arkivera ett avtal.<!-- ; or edit the attribute tags for a deal -->
+I vyn [!UICONTROL Inventory] > [!UICONTROL Deals] kan du skapa inställningar för privata avtal. Du kan även redigera vissa inställningar för avtal, lista ut placeringar och annonser och bifoga ytterligare placeringar och annonser till ett privat avtal, redigera annonsörer och konton som kan få tillgång till ett privat avtal, visa en resultatrapport för ett avtal, visa auktionsinsikter för ett privat avtal eller arkivera eller ta bort arkivering av ett avtal.<!-- ; or edit the attribute tags for a deal -->
 
 Kolumnen &quot;Avtalshälsa&quot; anger varje privat avtals hälsostatus: &quot;Lyckades&quot;, &quot;Varning&quot;, &quot;Kritisk&quot; eller &quot;Inte tillgänglig&quot;. Du kan klicka på statusen för att se mer information, bland annat varför ett avtal inte fungerar eller spenderar som förväntat och hur du felsöker potentiella problem.
 
-Du kan anpassa hur befintliga avtalsdata presenteras genom att använda filter, anpassa synliga kolumner och eventuellt spara anpassade vyer, sortera kolumnerna och visa data som diagram.
+Du kan anpassa synliga avtalsdata genom att använda filter, anpassa synliga kolumner och eventuellt spara anpassade vyer, sortera kolumnerna och visa data som diagram.
 
 ## Vyn [!UICONTROL Deal Lists]
 

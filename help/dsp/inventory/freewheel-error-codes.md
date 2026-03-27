@@ -3,16 +3,16 @@ title: Felkoder för  [!DNL FreeWheel] ad-överföringar
 description: Referera felkoderna som returneras för annonsinskick till  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: e48937c2-ced9-4107-9e1d-65a3bac51fff
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 3%
 
 ---
 
 # Felkoder för [!DNL FreeWheel] annonsinskick
 
-Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Felmeddelanden visas i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL Freewheel Status] &#x200B;](freewheel-check-status.md).
+Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertising DSP eller från [!DNL FreeWheel]. Sök efter felmeddelanden i kolumnen [!UICONTROL API Response] i dialogrutan [[!UICONTROL FreeWheel Status] ](freewheel-check-status.md).
 
 ## Advertising DSP interna fel
 
@@ -29,7 +29,7 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API-fel
+## [!DNL FreeWheel] API-fel
 
 | Code | Betydelse | Beskrivning | Nästa steg |
 |--- |--- |--- |--- |
@@ -43,7 +43,7 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 
 {style="table-layout:auto"}
 
-## [!DNL Freewheel] API 422-fel {#freewheel-422-errors}
+## [!DNL FreeWheel] API 422-fel {#freewheel-422-errors}
 
 | Code | HTTP-kod | Beskrivning |
 |--- |--- |--- |
@@ -64,7 +64,7 @@ Felmeddelandena för misslyckade annonsinskick kan komma från antingen Advertis
 
 >[!MORELIKETHIS]
 >
->* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL Freewheel]](/help/dsp/inventory/freewheel-overview.md)
+>* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL FreeWheel]](/help/dsp/inventory/freewheel-overview.md)
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
->* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]](/help/dsp/inventory/freewheel-submit.md)
+>* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL FreeWheel]](/help/dsp/inventory/freewheel-submit.md)
 >* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](/help/dsp/inventory/freewheel-check-status.md)

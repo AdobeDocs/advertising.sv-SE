@@ -3,7 +3,7 @@ title: Om anpassade rapporter
 description: Lär dig mer om alternativ för att skapa anpassade rapporter manuellt eller med förkonfigurerade rapportmallar.
 feature: DSP Custom Reports
 exl-id: 321062f3-754b-4379-9587-003862c4221b
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Du kan generera rapporter en gång, eller schemalägga dem dagligen, veckovis el
      >
      >Den här rapporten innehåller data om faktureringssegmentet. Om en användare eller enhet får ett intryck som tillhör flera segment, krediteras endast ett fakturerbart segment med intrycket.
 
-   * **[!UICONTROL Content]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL Freewheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
+   * **[!UICONTROL Content]:** Använd den här rapporten om du vill förstå hur det ska levereras och andra mått för det angivna innehållet (t.ex. genre, produktionskvalitet och innehållsklassificering) så att du kan optimera målinriktningen och säkerställa varumärkessäkerheten. Förutom innehållets dimensioner innehåller rapporten de flesta standardmått, mätvärden och filter. Data per innehållsdimension är tillgängliga för [!DNL FreeWheel], [!DNL Index], [!DNL Magnite], [!DNL Microsoft], [!DNL Nexxen], [!DNL Pubmatic], [!DNL Sharethrough] och [!DNL Triplelift]. Innehållssignaler skickas av förläggare under bidstream och är tillgängliga.
 
    * **[!UICONTROL Conversion]:** Använd den här rapporten för att förstå hur era kampanjer fungerar baserat på konverteringsstatistik som hämtats med Adobe Advertising konverteringsspårning. Den här rapporten innehåller multitouch-attribuering.
 

@@ -3,9 +3,9 @@ title: Om [!UICONTROL Deal ID Inbox]
 description: Lär dig mer om funktionen [!UICONTROL Deal ID Inbox] som gör att du kan acceptera privata avtal som du redan har förhandlat med utgivare  [!DNL FreeWheel], [!DNL Google Authorized Buyers]  (tidigare kallad  [!DNL AdX]), and [!DNL Magnite DV+] (tidigare  [!DNL Rubicon]).
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: a1ba7de0-d6b4-4e22-8615-3e62d2ffdf5c
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Med Advertising DSP [!UICONTROL Deal ID Inbox] kan du snabbt konfigurera avtal s
 >
 >Advertising DSP är den första DSP som kan integreras med [!DNL FreeWheel]-API:t.
 
-I [!UICONTROL Deal ID Inbox] kan du se detaljerna om erbjudandet så som din utgivare ser dem, snabba upp konfigurationen av erbjudandet och undvika manuella inmatningsfel.
+I [!UICONTROL Deal ID Inbox] kan du se detaljerna om erbjudandet när din utgivare ser dem, snabba upp konfigurationen av erbjudandet och undvika manuella registreringsfel.
 
 <!-- 
 Accepting a deal automatically pre-populates a new Deal ID record with details from the publisher, and you need to enter only the publisher [always? or just in some cases?], the media type, who can access the deal, and any attribute labels to apply to the deal so it's easy to find. [Are labels a dimension you can report on?]

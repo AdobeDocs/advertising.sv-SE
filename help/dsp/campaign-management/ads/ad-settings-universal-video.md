@@ -3,7 +3,7 @@ title: Universella inställningar för videoannonser
 description: Se beskrivningar av tillgängliga annonsinställningar för universella videoannonser.
 feature: DSP Ads
 exl-id: 51b7d632-1e73-4726-980b-07ed50447146
-source-git-commit: f58e478ea2c1397b15c667c1415a7038b6ea5e5b
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 **[!UICONTROL Video Format]:** Annonsspelarens format för potentiell inventering: *[!UICONTROL VPAID]*, *[!UICONTROL VPAID & VAST]* eller *[!UICONTROL VAST]*. Visningsbarheten mäts alltid för [!UICONTROL VPAID], men [!UICONTROL VPAID & VAST] innehåller lager som inte tillåter visning. Tänk på den här skillnaden om mätvärden för visningsbarhet är viktiga för er kampanj.
 
-Använd [!UICONTROL VAST], som inte tillåter visningsmätning, när du har en ansluten TV eller ett lager som endast kräver VAST-format (vanligtvis från leverantörer som Google Ad Manager, Appnexus, SpotX och Freewheel) som mål. Använd även det här alternativet för lager som tidigare var kompatibla med förrullningar/annonser av standardtyp (VAST) eller telefon + surfplatta av standardtyp (VAST).
+Använd [!UICONTROL VAST], som inte tillåter visningsmätning, när du har en ansluten TV eller ett lager som endast kräver VAST-format (vanligtvis från leverantörer som Google Ad Manager, Appnexus, SpotX och FreeWheel) som mål. Använd även det här alternativet för lager som tidigare var kompatibla med förrullningar/annonser av standardtyp (VAST) eller telefon + surfplatta av standardtyp (VAST).
 
 **[!UICONTROL Clock Number]**: (Används endast i Storbritannien, endast för användare med behörighet) En unik identifierare som används för att säkerställa att rätt annons sänds. Om den här inställningen inte är tillämplig lämnar du den tom.
 

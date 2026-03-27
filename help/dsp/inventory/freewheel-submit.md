@@ -1,26 +1,26 @@
 ---
 title: Skicka en annons för ett PG-avtal till  [!DNL FreeWheel]
-description: Lär dig hur du begär godkännande av en annons för ett programmatiskt garanterat avtal med en utgivare på  [!DNL Freewheel].
+description: Lär dig hur du begär godkännande av en annons för ett programmatiskt garanterat avtal med en utgivare på  [!DNL FreeWheel].
 feature: DSP Private Inventory, DSP Deal IDs
 exl-id: 18d91f0c-4a27-4e40-b762-6c5e97e9a21a
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL Freewheel]
+# Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL FreeWheel]
 
 *Konton med [!DNL FreeWheel] Programmatisk garanterad behörighet*
 
-När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox), inklusive att välja en annons och skapa den programmatiska standardplaceringen som ska användas för erbjudandet, måste du skicka annonsen till [!DNL Freewheel] för godkännande.
+När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på FreeWheel](#programmatic-guaranteed-set-up.md#pg-setup-deal-id-inbox), inklusive att välja en annons och skapa den programmatiska standardplaceringen som ska användas för erbjudandet, måste du skicka annonsen till [!DNL FreeWheel] för godkännande.
 
 >[!PREREQUISITES]
 >
 >Arbeta med ditt Adobe-kontoteam för att se till att ditt [!DNL DSP]-konto har behörighet att använda det programmatiska garanterade arbetsflödet [!DNL FreeWheel].
 
-1. Kopiera annonsnyckeln för annonsen som används med erbjudandet [!DNL Freewheel]:
+1. Kopiera annonsnyckeln för annonsen som används med erbjudandet [!DNL FreeWheel]:
 
    1. Klicka på kampanjens namn.
 
@@ -36,7 +36,7 @@ När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på 
       https://advertising.adobe.com/configurator/ad/3NtNC5ZbaGZtqbei8jD3?referrer=/playtime/ads
       ```
 
-1. Skicka annonsen till [!DNL Freewheel]:
+1. Skicka annonsen till [!DNL FreeWheel]:
 
    1. Gör något av följande:
 
@@ -52,7 +52,7 @@ När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på 
 
 >[!MORELIKETHIS]
 >
->* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL Freewheel]](freewheel-overview.md)
+>* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL FreeWheel]](freewheel-overview.md)
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](freewheel-check-status.md)
->* [Felkoder för [!DNL FreeWheel] och inskickade &#x200B;](freewheel-error-codes.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)

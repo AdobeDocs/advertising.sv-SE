@@ -3,7 +3,7 @@ title: Om [!DNL On Demand] premiumlager
 description: Läs mer om de avtal som DSP har förhandlat fram i förväg med våra partners.
 feature: DSP On Demand Inventory
 exl-id: 2e8dd4a0-7a7b-45e9-8f0f-e5435cf0d9ee
-source-git-commit: a5be425ee34960cf58642cb850ae817998652f53
+source-git-commit: 1e307a95d597f20c97683ee20c0a3b99f662f7fd
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Under karusellen kan du se alla tillgängliga erbjudanden och utgivare. Du kan v
 Detaljerna för varje avtal innehåller data i följande kolumner:
 
 * **[!UICONTROL TVB]:** Anger när utgivaren är ett TV-utgivare
-* **[!UICONTROL Tune]:** Anger när utgivaren accepterar&quot;tune-in&quot;-kreatörer (till exempel&quot;Tune in kväll klockan 20 för det nya avsnittet av \&lt;*vårt program*\>)
+* **[!UICONTROL Tune]:** Anger när utgivaren godkänner &quot;tune-in&quot;-kreatörer (till exempel &quot;Tune in kväll klockan 20 för det nya avsnittet av \&lt;*vårt program*\>)
 * **[!UICONTROL LDA]:** (Juridisk dricksålder) Anger när utgivaren har tillämpat mer än 21 riktade annonser och accepterar alkoholannonser
 * **[!UICONTROL CPM]:** Anger när CPM med lägsta eller fast ränta för erbjudandet inte syns förrän annonsören har beviljats åtkomst till erbjudandet
 * **[!UICONTROL Status]:** Status för din prenumerationsförfrågan (när det är tillämpligt)
