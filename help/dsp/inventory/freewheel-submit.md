@@ -55,4 +55,4 @@ När du [har accepterat ett programmatiskt garanterat avtal med en utgivare på 
 >* [Översikt över hur du ställer in garanterade programerbjudanden i [!DNL FreeWheel]](freewheel-overview.md)
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](freewheel-check-status.md)
->* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade &#x200B;](freewheel-error-codes.md)

@@ -43,4 +43,4 @@ Om du ställer in programmatiska garanterade avtal med utgivare på [!DNL FreeWh
 >* [Acceptera ett avtal i [!UICONTROL Deal ID Inbox]](deal-id-inbox-accept.md)
 >* [Skicka en annons för ett programmatiskt garanterat erbjudande till [!DNL FreeWheel]](freewheel-submit.md)
 >* [Kontrollera status för annonser för ett [!DNL FreeWheel] PG-avtal](freewheel-check-status.md)
->* [Felkoder för [!DNL FreeWheel] och inskickade ](freewheel-error-codes.md)
+>* [Felkoder för [!DNL FreeWheel] och inskickade &#x200B;](freewheel-error-codes.md)
