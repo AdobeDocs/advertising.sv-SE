@@ -3,7 +3,7 @@ title: Generera om prognosen för en ansluten TV-räckvidd
 description: Lär dig hur du skapar en ny prognos för en uppkopplad TV-räckvidd.
 feature: DSP Planner
 exl-id: ec3de39c-c2b3-4004-8d86-eb6479608121
-source-git-commit: dad30b0bd24c0286c1de6520471cb90707046ff3
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Du kan generera om prognosen för en ansluten TV-räckvidd baserat på de senast
 
 1. Håll markören över planraden och klicka på **[!UICONTROL Forecast]**.
 
-1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad **&#x200B; klickar du på &#x200B;** [!UICONTROL ...] **&#x200B; i det övre högra hörnet och sedan på &#x200B;** [!UICONTROL Export]**.
+1. (Valfritt) Om du vill exportera prognosen [!UICONTROL Budget vs Reach] till ett [!DNL Microsoft Excel] kalkylblad** klickar du på **[!UICONTROL ...]** i det övre högra hörnet och sedan på **[!UICONTROL Export]**.
 
 >[!MORELIKETHIS]
 >

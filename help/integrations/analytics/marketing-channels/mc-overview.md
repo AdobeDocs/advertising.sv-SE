@@ -3,9 +3,9 @@ title: Grundläggande om  [!DNL Marketing Channels]
 description: Lär dig viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare ska förstå.
 feature: Integration with Adobe Analytics
 exl-id: de02dff5-86ce-41e8-89c6-3c11f6375b77
-source-git-commit: e0436d3840fc138bad6ee3e3599cffd2385750cd
+source-git-commit: 81943936f828fa9472cff1b5b1c09e473396b818
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 På den här sidan förklaras viktig information om [!DNL Analytics Marketing Channels] som [!DNL Analytics for Advertising] användare måste förstå.
 
-Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-getting-started-mchannel.html?lang=sv-SE).
+Fullständig dokumentation om [!DNL Marketing Channels] finns i [Kom igång med [!DNL Marketing Channels]](https://experienceleague.adobe.com/en/docs/analytics/components/marketing-channels/c-getting-started-mchannel).
 
 ## Översikt över [!DNL Marketing Channels]
 
@@ -34,7 +34,7 @@ Marknadsförarna lägger ofta till spårningskoder för frågesträngsparametrar
 
 Andra kanaler saknar spårbara URL-sökvägar och behöver ytterligare logik för identifiering. Till exempel är [!UICONTROL Earned Social], där en användare klickar på en länk som en annan användare har delat organiskt i ett socialt nätverk, en viktig kanal att spåra. Marknadsföraren kan dock inte lägga till en spårningskod för frågesträngsparametrar i den delade URL:en. I det här fallet kan du skapa en bearbetningsregel som lyssnar efter den refererande domänen för sociala nätverk av intresse och frånvaron av betalda spårningskoder för att avgöra kanalen. Besöken som uppfyller dessa krav spåras sedan som Earned Social i rapporten Marketing Channels.
 
-Adobe rekommenderar att ni samarbetar med ert analysteam för att skapa en omfattande uppsättning [!DNL Marketing Channels] bearbetningsregler för att spåra alla kanaler som är relevanta för er verksamhet. På så sätt kan ni skapa kraftfulla attribueringsrapporter.
+Adobe rekommenderar att du arbetar med ditt [!DNL Analytics]-team för att skapa en omfattande uppsättning [!DNL Marketing Channels]-bearbetningsregler som spårar alla relevanta kanaler. På så sätt kan ni skapa kraftfulla attribueringsrapporter.
 
 Mer information om hur Adobe Advertising kan bidra till de signaler som krävs för att skapa anpassade marknadsföringskanaler finns i &quot;[Skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md) med Adobe Advertising-id:n.&quot;
 
@@ -43,5 +43,5 @@ Mer information om hur Adobe Advertising kan bidra till de signaler som krävs f
 >* [Använda Adobe Advertising-id:n för att skapa [!DNL Marketing Channels] bearbetningsregler](mc-ids.md)
 >* [Varför kanaldata kan variera mellan Adobe Advertising och [!DNL Marketing Channels]](mc-data-variances.md)
 >* [Använda [!DNL Analytics Marketing Channels] med Adobe Advertising-data](mc-ac-data.md)
->* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=sv-SE)
+>* [Video: Använder [!DNL Marketing Channels] för Adobe Advertising-rapportering](https://experienceleague.adobe.com/en/docs/advertising-learn/tutorials/analytics/analytics-reporting-a4adc)
 >* [Översikt över [!DNL Analytics for Advertising]](/help/integrations/analytics/overview.md)
