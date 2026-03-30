@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARKIV
 
-Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/advertising.en>.
+Den här rapporten har migrerats till <https://github.com/Adobe-Enterprise-Docs/advertising.sv-SE>.
